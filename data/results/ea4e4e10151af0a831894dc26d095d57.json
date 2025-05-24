@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "unsupervised learning",
+    "regression",
+    "decision tree",
+    "clustering"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of Machine Learning (ML) algorithms to predict customer risk-adjusted revenue.",
+    "supervised learning": "The paper discusses the use of supervised ML algorithms, such as gradient boosting and decision trees, for predicting customer risk-adjusted revenue.",
+    "unsupervised learning": "The paper mentions the use of unsupervised ML algorithms, specifically clustering methods like k-Means and DBSCAN, to group customers before applying supervised methods.",
+    "regression": "The paper focuses on predicting a continuous value (Risk-Adjusted Revenue), which is a regression task, and compares the performance of different regression models.",
+    "decision tree": "The paper specifically mentions the use of decision trees as one of the individual ML methods applied for prediction.",
+    "clustering": "The paper discusses the use of clustering algorithms (k-Means and DBSCAN) to group customers before applying supervised learning methods."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"unsupervised learning\",\n    \"regression\",\n    \"decision tree\",\n    \"clustering\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of Machine Learning (ML) algorithms to predict customer risk-adjusted revenue.\",\n    \"supervised learning\": \"The paper discusses the use of supervised ML algorithms, such as gradient boosting and decision trees, for predicting customer risk-adjusted revenue.\",\n    \"unsupervised learning\": \"The paper mentions the use of unsupervised ML algorithms, specifically clustering methods like k-Means and DBSCAN, to group customers before applying supervised methods.\",\n    \"regression\": \"The paper focuses on predicting a continuous value (Risk-Adjusted Revenue), which is a regression task, and compares the performance of different regression models.\",\n    \"decision tree\": \"The paper specifically mentions the use of decision trees as one of the individual ML methods applied for prediction.\",\n    \"clustering\": \"The paper discusses the use of clustering algorithms (k-Means and DBSCAN) to group customers before applying supervised learning methods.\"\n  }\n}\n```"
+}

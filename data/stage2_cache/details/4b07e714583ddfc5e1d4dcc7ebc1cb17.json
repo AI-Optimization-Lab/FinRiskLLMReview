@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 788,
+    "title": "Survey of Machine Learning-Based Rotating Detonation Engine Diagnostics: Evaluation for Broad Application in Experimental Facilities",
+    "abstract": "Laboratory rotating detonation engine (RDE) operations have become increasingly reliable in recent years, giving strong indication that industrial applications are becoming more plausible. Real-time monitoring of combustion behavior within the RDE is a crucial step towards actively controlled RDE operation in the laboratory environment and eventual turbine integration. For these reasons, various machine learning methods have been developed to advance the efficiency of RDE diagnostic techniques from conventional post-processing efforts to lab-deployed real-time methods. This work evaluates and compares various convolutional neural networks (CNNs) trained in previous NETL studies according to metrics effecting diagnostic feasibility, external applicability, and performance. Each CNN surveyed, including image classification, object detection, and time series classification, is used to develop total RDE diagnostics and evaluated alongside conventional techniques with respect to real-time capabilities. Real-time capable diagnostics are deployed and evaluated in the laboratory environment using an altered experimental setup, which is outlined herein for possible adaptations in external experimental facilities. Of particular interest, image-based CNNs are applied to externally provided images to approximate dataset restrictions. Conventional methods and object detection are found to offer diagnostic feedback rates of 0.017 and 9.50 Hz currently limited to post-processing, respectively. Image classification using high-speed chemiluminescence images, and time series classification using high-speed flame ionization and pressure measurements, achieve classification speeds enabling real-time diagnostic capabilities, averaging lab-deployed diagnostic feedback rates of 4 and 5 Hz, respectively. Object detection, while currently limited to post-processing usage, achieves the most refined diagnostic time-step resolution of 20 mu sec. Image and time series classification require the additional correlation of sensor data, extending their time-step resolutions to 80 msec. Comparisons show that no single diagnostic approach outperforms its competitors across all metrics. Instead, each diagnostic is uniquely suited for a set of primary objectives and constraints. This finding justifies the need for a machine learning portfolio containing a host of networks selected and modified to address specific needs throughout the RDE research community.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "afeae3f9433c77b072f7a19fd6f57263",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:50.453790"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究旋转爆震发动机（RDE）的实时监测和诊断技术，应用了机器学习方法如卷积神经网络（CNN）进行图像分类和时间序列分类。这些技术与金融领域的衍生品定价、金融风险管理或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究旋转爆震发动机（RDE）的实时监测和诊断技术，应用了机器学习方法如卷积神经网络（CNN）进行图像分类和时间序列分类。这些技术与金融领域的衍生品定价、金融风险管理或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:50.389628"
+}

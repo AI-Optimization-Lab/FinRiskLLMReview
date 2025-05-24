@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 209,
+    "title": "A Tabular Sarsa-Based Stock Market Agent",
+    "abstract": "Automated stock trading is now the de-facto way that investors have chosen to obtain high profits in the stock market while keeping risk under control. One of the approaches is to create agents employing Reinforcement Learning (RL) algorithms to learn and decide whether or not to operate in the market in order to achieve maximum profit. Automated financial trading systems can learn how to trade optimally while interacting with the market pretty much like a human investor learns how to trade. In this research, a simple RL agent was implemented using the SARSA algorithm. Next, it was tested against 10 stocks from Brazilian stock market B3 (Bolsa,Brasil,Balcao). Results from experiments showed that the agent was able to provide high profits with less risk when compared to a supervised learning agent that used a LSTM neural network.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2a1fd97742f6695730b8abec125d1cb4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:53.093877"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用强化学习算法（SARSA）开发自动股票交易代理，旨在通过市场交互实现利润最大化。虽然涉及股票市场，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用强化学习算法（SARSA）开发自动股票交易代理，旨在通过市场交互实现利润最大化。虽然涉及股票市场，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:57.140869"
+}

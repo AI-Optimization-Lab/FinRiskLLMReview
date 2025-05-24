@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3359,
+    "title": "Hedging of financial derivative contracts via Monte Carlo tree search",
+    "abstract": "The construction of replication strategies for the pricing and hedging of derivative contracts in incomplete markets is a key problem in financial engineering. We interpret this problem as a game with the world, where one player (the investor) bets on what will happen and the other player (the market) decides what will happen. Inspired by the success of the Monte Carlo tree search (MCTS) in a variety of games and stochastic multiperiod planning problems, we introduce this algorithm as a method for replication in the presence of risk and market friction. Unlike modelfree reinforcement learning methods (such as Q-learning), MCTS makes explicit use of an environment model. The role of this model is taken by a market simulator, which is frequently adopted even in the training of model-free methods, but its use allows MCTS to plan for the consequences of decisions prior to the execution of actions. We conduct experiments with the AlphaZero variant of MCTS on toy examples of simple market models and derivatives with simple payoff structures. We show that MCTS is capable of maximizing the utility of the investor's terminal wealth in a setting where no external pricing information is available and rewards are granted only as a result of contractual cashflows. In this setting, we observe that MCTS hassuperior performance compared with the deep Q-network algorithm and comparable performance to deep-hedging methods.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "befcd33633b919acef9ee0bef0b2e56c",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:25:13.803479"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用蒙特卡洛树搜索（MCTS）来构建衍生品合约的复制策略，这直接涉及衍生品定价问题。同时，论文还讨论了在存在风险和市场摩擦的情况下进行复制，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用蒙特卡洛树搜索（MCTS）来构建衍生品合约的复制策略，这直接涉及衍生品定价问题。同时，论文还讨论了在存在风险和市场摩擦的情况下进行复制，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:51.218043"
+}

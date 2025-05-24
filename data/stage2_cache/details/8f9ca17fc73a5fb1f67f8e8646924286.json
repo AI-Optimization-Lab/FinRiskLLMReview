@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 3360,
+    "title": "Beating the Stock Market with a Deep Reinforcement Learning Day Trading System",
+    "abstract": "In this study we investigate the potential of using Deep Reinforcement Learning (DRL) to day trade stocks, taking into account the constraints imposed by the stock market, such as liquidity, latency, slippage and transaction costs. More specifically, we use a Deep Deterministic Policy Gradient (DDPG) algorithm to solve a series of asset allocation problems in order to define the percentage of capital that must be invested in each asset at each period, executing exclusively day trade operations. DDPG is a model-free, off-policy actor-critic method that can learn policies in high-dimensional and continuous action and state spaces, like the ones normally found in financial market environments. The proposed day trading system was tested in B3 - Brazil Stock Exchange, an important and understudied market, especially considering the application of DRL techniques to alpha generation. A series of experiments were performed from the beginning of 2017 until the end of 2019 and compared with ten benchmarks, including Ibovespa, the most important Brazilian market index, and the stock portfolios suggested by the main Brazilian banks and brokers during these years. The results were evaluated considering return and risk metrics and showed that the proposed method outperformed the benchmarks by a huge margin. The best results obtained by the algorithm had a cumulative percentage return of 311% in three years, with an annual average maximum drawdown around 19%.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "35cef733f5d7d1d4c2d4d0684abae7ec",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "deep belief network",
+      "DBM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:25:13.805507"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习（DRL）进行股票日内交易，主要解决资产分配问题，即确定每个时期投资于每种资产的资本比例。这直接涉及投资组合管理的核心内容，即资产配置和交易策略的优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习（DRL）进行股票日内交易，主要解决资产分配问题，即确定每个时期投资于每种资产的资本比例。这直接涉及投资组合管理的核心内容，即资产配置和交易策略的优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:51.153292"
+}

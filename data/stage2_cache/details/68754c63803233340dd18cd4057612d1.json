@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 439,
+    "title": "Markowitz投资组合模型下最优组合权重的显著性检验",
+    "abstract": "鉴于Markowitz投资组合模型与线性回归模型之间的联系,我们可以通过线性回归方法估计最优组合权重,并且检验最优组合权重的显著性。Markowitz投资组合权重是最优的,但并不保证该证券能够有效分散组合的非系统性风险。线性回归模型的显著性检验告诉我们,只有最优组合权重通过了显著性检验的证券才对分散组合的非系统性风险有明显的贡献。在实际运用中,以计算最小方差点处的最优组合权重为例,最小二乘回归的结果与直接使用非线性规划求解的结果相同。通过显著性检验还可以把不显著的证券从组合中去掉,建立更加简洁有效的投资组合,从而降低管理成本。",
+    "year": 2011,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e9e637493a6bace0668cfdee787f0011",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:23:06.373502"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于Markowitz投资组合模型的最优组合权重显著性检验，旨在通过线性回归方法优化投资组合，降低非系统性风险并提高管理效率，这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于Markowitz投资组合模型的最优组合权重显著性检验，旨在通过线性回归方法优化投资组合，降低非系统性风险并提高管理效率，这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:37.906419"
+}

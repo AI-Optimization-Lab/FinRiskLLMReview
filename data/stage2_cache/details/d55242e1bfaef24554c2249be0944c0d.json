@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 6147,
+    "title": "Frontiers: News Event-Driven Forecasting of Commodity Prices",
+    "abstract": "Problem definition: Commodity prices have exhibited significant volatility in recent times, which poses an exogenous risk factor for commodity -processing and commodity -trading firms. Accurate commodity price forecasts can help firms leverage data -driven procurement policies that incorporate the underlying price volatility for financial and operational hedging decisions. However, historical prices alone are insufficient to obtain reasonable forecasts because of the extreme volatility. Methodology/results: Building on the hypothesis that commodity prices are driven by real -world events, we propose a method that automatically extracts events from news articles and combines them with price data using a neural network -based predictive model to forecast prices. In addition to achieving a high prediction accuracy that outperforms several benchmarks (by up to 13%), our proposed model is also interpretable, which allows us to identify meaningful events driving the price fluctuations. We found that the events frequently associated with major fluctuations in the price include natural, hike, policy, and elections, all of which are known drivers of price change. We used a corpus containing about 1.6 million news articles of a major Indian newspaper spanning 15 years and daily prices of four crops (onion, potato, rice, and wheat) in India to perform this study. Our proposed approach is flexible and can be used to predict other time series data, such as disease incidence levels or macroeconomic indicators, that are also influenced by real -world events. Managerial implications: Firms can leverage price forecasts from our system to design inventory and procurement policies in the face of uncertain commodity prices. Commodity merchants can also use the forecasts to design optimal storage policies for physical trading of commodities when prices are volatile. Our findings can also significantly impact policymakers, who can leverage the information of impending price changes and associated events to mitigate the negative effects of price shocks.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b15dd1ca5bc185a4fbc27a0c501587f4",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:55:12.942305"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是通过新闻事件驱动的神经网络模型预测商品价格波动，旨在帮助企业和商品交易商在面对价格不确定性时制定库存、采购和存储策略。这些应用场景直接关联到金融风险管理中的价格风险管理和操作风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是通过新闻事件驱动的神经网络模型预测商品价格波动，旨在帮助企业和商品交易商在面对价格不确定性时制定库存、采购和存储策略。这些应用场景直接关联到金融风险管理中的价格风险管理和操作风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:31.965129"
+}

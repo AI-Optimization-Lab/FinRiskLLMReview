@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1631,
+    "title": "Deep reinforcement learning based on transformer and U-Net framework for stock trading",
+    "abstract": "An effective stock-trading strategy offers investors as much profit and as little risk as possible. Capturing volatility trends from historical stock prices and determining trading strategies is extremely challenging. This study proposes an end-to-end model called DRL-UTrans for learning a single stock trading strategy that combines deep reinforcement learning, transformer layers, and a U-Net architec-ture. In particular, the transformer layer captures complex dynamic patterns in financial markets. The model structure based on the U-Net architecture contains multiple skip connections used to combine long-and short-term features. The input of the model is a windowed stock price sequence, and the output consists of a trading action and action weight. The benefit of having two outputs is that the agent can control the share of buys and sells to reduce investment risk. In addition, a reward function that is sensitive to market volatility is proposed to feed back the market state. Finally, trading data for 10 stocks is extracted from a real financial market to validate the proposed model. The results show that DRL-UTrans has a higher profitability compared with the seven baseline approaches; further, it is effective in sensing market volatility and hedging market risk when encountering stock crashes.(c) 2022 Published by Elsevier B.V.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c1c517092a5b366dd5df9559655ec2a1",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:42.513041"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种基于深度强化学习的股票交易策略模型，旨在通过捕捉市场波动趋势和优化交易行为来提高盈利并降低风险。这直接关联到投资组合管理中的资产选择和交易策略优化，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种基于深度强化学习的股票交易策略模型，旨在通过捕捉市场波动趋势和优化交易行为来提高盈利并降低风险。这直接关联到投资组合管理中的资产选择和交易策略优化，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:20.222975"
+}

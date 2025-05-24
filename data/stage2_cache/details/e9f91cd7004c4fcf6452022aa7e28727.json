@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 301,
+    "title": "Loan Default Prediction Using Artificial Intelligence for the Borrow - Lend Collaboration",
+    "abstract": "In the lending industry, such as banks or finance companies, investors provide loans to borrowers in exchange for the promise of repayment with interest. This two-way collaboration has many potential risks that need to be assessed. If the borrower repays the loan, then the lender would make a profit from the interest. However, if the borrower fails to repay the loan, then the lender loses money. Therefore, lenders face predicting the risk of a borrower being unable to repay a loan at any step of the credit process. Many financial institutes calculate FICO scores of a customer based on some factors such as the Payment History (35%), Amounts owed (30%), Length of credit history (15%), Credit mix (10%), and New credit (10% of the total point) of the customer, that score qualifies how risk customers are, how repayment ability of the customer. FICO score (Fair Isaac Corporation) is a traditional approach used broadly in finance fields to estimate risks and give a worthy credit amount to the customer. In this study, a new way is to use Artificial intelligence to predict the above problems. It bases on credit information and more personal information of the customers to predict its repayment ability. The data collected from VietCredit Finances used for training several Machine Learning models to determine if the borrower can repay its loan. Some linear, nonlinear models involved are Logistic Regression, Linear Discriminant Analysis, K Nearest Neighbors, Decision Tree, Naive Bayes, Support Vector Machine. The algorithm turning and Boosting and Bagging ensemble methods were also used to determine the best model. As a result, the Gradient Boosting model was the outperform and optimal predictive model (PR-AUC metric = 0.957).",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6f054b79c024f7789c78ed05ddb9286d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:04.674699"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型预测贷款违约风险，这直接涉及信用风险评估，属于金融风险管理的范畴。论文并未涉及衍生品定价或投资组合管理的内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型预测贷款违约风险，这直接涉及信用风险评估，属于金融风险管理的范畴。论文并未涉及衍生品定价或投资组合管理的内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:26.748621"
+}

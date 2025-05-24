@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3422,
+    "title": "Direct local linear estimation for Sharpe ratio function",
+    "abstract": "Nonparametric regression has been widely used to deal with nonlinearity and heteroscedasticity in financial time series. As the ratio of the mean and standard deviation functions, the Sharpe ratio function is one of the most commonly used risk/return measures in financial econometrics. Most existing methods take an indirect procedure, which first estimates the mean and variance functions and then applies these two functions to estimate the Sharpe ratio function. In practice, however, such an indirect procedure can often be less efficient. In this article, we propose a direct method to estimate the Sharpe ratio function by local linear regression. We further establish the asymptotic normality of the proposed estimator, apply Monte Carlo simulations to evaluate its finite sample performance, and compare it with the indirect method. The usefulness of our new method is also illustrated through a real data analysis.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "06f46dc48b8894ffd08ad0f4b5ae0d87",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:26:09.128479"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是直接估计夏普比率函数，夏普比率是衡量投资组合风险调整后收益的重要指标，广泛应用于投资组合管理中。论文的研究目标和方法直接针对这一金融领域，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是直接估计夏普比率函数，夏普比率是衡量投资组合风险调整后收益的重要指标，广泛应用于投资组合管理中。论文的研究目标和方法直接针对这一金融领域，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:49.197793"
+}

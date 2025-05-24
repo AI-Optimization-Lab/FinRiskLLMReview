@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 1812,
+    "title": "A maintenance hemodialysis mortality prediction model based on anomaly detection using longitudinal hemodialysis data",
+    "abstract": "Background: Most end-stage renal disease patients rely on hemodialysis (HD) to maintain their life, and they face a serious financial burden and high risk of mortality. Due to the current situation of the health care system in China, a large number of patients on HD are lost to follow-up, making the identification of patients with high mortality risks an intractable problem. Objective: This paper aims to propose a maintenance HD mortality prediction approach using longitudinal HD data under the situation of data imbalance caused by follow-up losses. Methods: A long short-term memory autoencoder (LSTM AE) based model is proposed to capture the physical condition changes of HD patients and distinguish between surviving and nonsurviving patients. The approach adopts anomaly detection theory, using only the surviving samples in the model training and identifying dead samples based on autoencoder reconstruction errors. The data are from a Chinese hospital electronic health record system between July 30, 2007, and August 25, 2016, and 36/72/108 continuous HD sessions were used to predict mortality within prediction windows of 90/180/365 days. Furthermore, the model performance is compared to that of logistic regression, support vector machine, random forest, LSTM classifier, isolation forest, and stacked autoencoder models. Results: Data for 1200 patients (survival: 1055, death: 145) were used to predict mortality during the next 90 days using 36 continuous HD sessions. The area under the PR curve for the LSTM AE was 0.57, the Recallmacro was 0.86, and the F1-scoremacro was 0.87, outperforming the other models. Upon varying the observation window or prediction window length, LSTM AE continued to outperform the other models. According to the variable importance analysis, the dialysis session length was the feature that contributed the most to the prediction model. Conclusions: The proposed approach was able to detect patients on maintenance HD with high mortality risk from an imbalanced dataset using anomaly detection theory and leveraging longitudinal HD data.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "94ba74c8f60c2148ff45b700911939dd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T02:07:25.792788"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是医疗领域的死亡率预测模型，使用机器学习技术分析血液透析患者的健康数据，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是医疗领域的死亡率预测模型，使用机器学习技术分析血液透析患者的健康数据，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:56.653694"
+}

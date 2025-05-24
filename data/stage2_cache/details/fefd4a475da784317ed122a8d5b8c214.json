@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2207,
+    "title": "Exploiting sports-betting market using machine learning",
+    "abstract": "We introduce a forecasting system designed to profit from sports-betting market using machine learning. We contribute three main novel ingredients. First, previous attempts to learn models for match-outcome prediction maximized the model's predictive accuracy as the single criterion. Unlike these approaches, we also reduce the model's correlation with the bookmaker's predictions available through the published odds. We show that such an optimized model allows for better profit generation, and the approach is thus a way to 'exploit' the bookmaker. The second novelty is in the application of convolutional neural networks for match outcome prediction. The convolution layer enables to leverage a vast number of player-related statistics on its input. Thirdly, we adopt elements of the modern portfolio theory to design a strategy for bet distribution according to the odds and model predictions, trading off profit expectation and variance optimally. These three ingredients combine towards a betting method yielding positive cumulative profits in experiments with NBA data from seasons 2007-2014 systematically, as opposed to alternative methods tested. (C) 2019 International Institute of Forecasters. Published by Elsevier B.V. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8b5be8817256a7feb4a07e953e835f6c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:04:27.423289"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术应用于体育博彩市场，通过机器学习预测比赛结果并优化投注策略，特别是采用了现代投资组合理论的元素来设计投注分配策略，以平衡预期收益和方差，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术应用于体育博彩市场，通过机器学习预测比赛结果并优化投注策略，特别是采用了现代投资组合理论的元素来设计投注分配策略，以平衡预期收益和方差，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:42.392810"
+}

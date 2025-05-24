@@ -1,0 +1,37 @@
+{
+  "paper": {
+    "id": 799,
+    "title": "An enhanced interval-valued decomposition integration model for stock price prediction based on comprehensive feature extraction and optimized deep learning",
+    "abstract": "For the purpose of managing financial risk and making investment decisions, interval stock price forecasting is essential. Currently, decomposition integration frameworks are widely used in point-valued stock price forecasting studies, mainly focusing on mining internal information. However, point forecasts are difficult to adequately capture price uncertainty and may suffer from loss of volatile information. Therefore, this paper proposes an enhanced interval-valued decomposition integration model for stock price prediction based on comprehensive feature extraction and optimized deep learning. Firstly, the interval variational modal decomposition with feedback mechanism (FIVMD) is proposed to extract internal features and can decompose interval values into interval trend and residual. FIVMD not only solves the interval decomposition challenge, but also helps to improve the internal feature extraction capability. Secondly, while considering the influencing factors more comprehensively, appropriate feature selection and compression techniques can effectively achieve external feature extraction, obtain the best influencing factors, and improve the modeling capability of highdimensional data. Finally, the final prediction results are obtained by modeling the interval trend and residuals separately through the optimization algorithm and deep learning model to improve the prediction accuracy. The results of the empirical analysis reveal that the proposed interval decomposition integrated model has the smallest of the three evaluation metrics, where the values of interval mean average percentage errors (IMAPE) are 1.8188%, 1.1244%, 1.9001%, and 2.1542% respectively. This shows that the model is significantly more accurate and stable than the other comparative models, and it is a successful model for predicting intervalvalued stock prices.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "cc91c0647a3132a41cee1e5c578bc82f",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:44.472570"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的主要技术应用于股票价格预测，目的是为了管理金融风险和辅助投资决策。股票价格预测直接关联到金融风险管理中的市场风险控制，同时也为投资组合管理提供了决策支持。因此，该论文的核心技术主要应用于这两个金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的主要技术应用于股票价格预测，目的是为了管理金融风险和辅助投资决策。股票价格预测直接关联到金融风险管理中的市场风险控制，同时也为投资组合管理提供了决策支持。因此，该论文的核心技术主要应用于这两个金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:22.931149"
+}

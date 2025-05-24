@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1099,
+    "title": "A Learning-Based Contrarian Trading Strategy via a Dual-Classifier Model",
+    "abstract": "Behavioral finance is a relatively new and developing research field which adopts cognitive psychology and emotional bias to explain the inefficient market phenomenon and some irrational trading decisions. Unlike the experts in this field who tried to reason the price anomaly and applied empirical evidence in many different financial markets, we employ the advanced binary classification algorithms, such as Ada Boost and support vector machines, to precisely model the overreaction and strengthen the portfolio compositions of the contrarian trading strategies. The novelty of this article is to discover the financial time-series patterns through a high-dimensional and nonlinear model which is constructed by integrated knowledge of finance and machine learning techniques. We propose a dual-classifier learning framework to select candidate stocks from the past results of original contrarian trading strategies based on the defined learning targets. Three different feature extraction methods, including wavelet transformation, historical return distribution, and various technical indicators, are employed to represent these learning samples in a 381-dimensional financial time-series feature space. Finally, we construct the classifier models with four different learning kernels and prove that the proposed methods could improve the returns dramatically, such as the 3-year return that improved from 26.79% to 53.75%. The experiments also demonstrate significantly higher portfolio selection accuracy, improved from 57.47% to 66.41%, than the original contrarian trading strategy To sum up, all these experiments show that the proposed method could be extended to an effective trading system in the historical stock prices of the leading U.S. companies of S&P 100 index.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "629319010f30c16ff4f6e17e0d39f9c7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.327856"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习分类算法（如Ada Boost和支持向量机）来改进反向交易策略的股票选择和投资组合构建。论文明确提到通过双分类器学习框架来增强投资组合的构成，并展示了在历史股票价格数据上的显著回报提升，这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习分类算法（如Ada Boost和支持向量机）来改进反向交易策略的股票选择和投资组合构建。论文明确提到通过双分类器学习框架来增强投资组合的构成，并展示了在历史股票价格数据上的显著回报提升，这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:41.329672"
+}

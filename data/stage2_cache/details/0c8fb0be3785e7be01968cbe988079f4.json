@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 111,
+    "title": "PERFORMANCE OF DEEP LEARNING IN PREDICTION OF STOCK MARKET VOLATILITY",
+    "abstract": "Volatility forecasting is an important issue for investment analysis and risk management in finance. Based on the Long Short Term Memory (LSTM) deep learning algorithm, we propose an accurate algorithm for forecasting stock market index and its volatility. The proposed algorithm is tested on the data from 5 stock market indices including S&P500, NASDAQ, German DAX, Korean KOSPI200 and Mexico IPC over a 7-yearperiod from 2010 to 2016. The highest prediction performance is observed with hybrid momentum, the difference between the price and the moving average of the past prices, for the predictions of both market index and volatility. Unlike stock index, the prediction accuracy for the volatility does not show dependency on other financial variables such as open, low, high prices, volume, etc. except the volatility itself.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "15d0fcc37e5db6cdd23c54bc19b603c7",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:33:49.073597"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用LSTM深度学习算法预测股票市场波动性，这直接关联到金融风险管理中的波动性预测和风险评估。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM深度学习算法预测股票市场波动性，这直接关联到金融风险管理中的波动性预测和风险评估。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:09.165021"
+}

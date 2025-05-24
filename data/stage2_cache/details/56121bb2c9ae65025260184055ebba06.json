@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3408,
+    "title": "Improving the Performance of MIQP Solvers for Quadratic Programs with Cardinality and Minimum Threshold Constraints: A Semidefinite Program Approach",
+    "abstract": "We consider in this paper quadratic programming problems with cardinality and minimum threshold constraints that arise naturally in various real-world applications such as portfolio selection and subset selection in regression. This class of problems can be formulated as mixed-integer 0-1 quadratic programs. We propose a new semidefinite program (SDP) approach for computing the best diagonal decomposition that gives the tightest continuous relaxation of the perspective reformulation of the problem. We also give an alternative way of deriving the perspective reformulation by applying a special Lagrangian decomposition scheme to the diagonal decomposition of the problem. This derivation can be viewed as a dual method to the convexification method employing the perspective function on semicontinuous variables. Computational results show that the proposed SDP approach can be advantageous for improving the performance of mixed-integer quadratic programming solvers when applied to the perspective reformulations of the problem.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "57f9df2cf2ac561b9a9e3f120a2ae4e8",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:55.448410"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提到了二次规划问题在投资组合选择中的应用，并且讨论了如何通过半定规划方法改进混合整数二次规划求解器的性能，这直接关联到投资组合管理的优化问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确提到了二次规划问题在投资组合选择中的应用，并且讨论了如何通过半定规划方法改进混合整数二次规划求解器的性能，这直接关联到投资组合管理的优化问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:06.866352"
+}

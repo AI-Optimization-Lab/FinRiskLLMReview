@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1079,
+    "title": "A new gradient-based neural dynamic framework for solving constrained min-max optimization problems with an application in portfolio selection models",
+    "abstract": "A neural network model based on a nonlinear dynamic model for solving a class of min-max problems, which is motivated as a non-differentiable optimization problem, is proposed. The main idea is to convert the non-differentiable problem into an equivalent differentiable convex optimization problem using a smoothing scheme called an entropy procedure. A neural network model is then constructed for solving the obtained convex problem. The stability of the equilibrium point and the convergence of the optimal solution are discussed. As an application in economics, we use the proposed scheme to a min-max portfolio optimization problem. Several clarifying examples and simulation results are provided to demonstrate the correctness of the results and the good performance of the presented model.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1c3e90239a7bc849e6b2789c4812005c",
+    "relevant_keywords": [
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.955501"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于神经网络的动态框架来解决约束条件下的min-max优化问题，并明确提到将其应用于投资组合优化问题。这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于神经网络的动态框架来解决约束条件下的min-max优化问题，并明确提到将其应用于投资组合优化问题。这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:45.149092"
+}

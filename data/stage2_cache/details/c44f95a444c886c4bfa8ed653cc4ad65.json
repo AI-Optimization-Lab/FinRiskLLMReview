@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 7872,
+    "title": "A novel decision ensemble framework: Attention-customized BiLSTM and XGBoost for speculative stock price forecasting",
+    "abstract": "Forecasting speculative stock prices is essential for effective investment risk management and requires innovative algorithms. However, the speculative nature, volatility, and complex sequential dependencies within financial markets present inherent challenges that necessitate advanced techniques. In this regard, a novel framework, ACB-XDE (Attention-Customized BiLSTM-XGB Decision Ensemble), is proposed for predicting the daily closing price of speculative stock Bitcoin-USD (BTC-USD). The proposed ACB-XDE framework integrates the learning capabilities of a customized Bi-directional Long Short-Term Memory (BiLSTM) model with a novel attention mechanism and the XGBoost algorithm. The customized BiLSTM leverages its learning capabilities to capture complex sequential dependencies and speculative market trends. Meanwhile, the new attention mechanism dynamically assigns weights to influential features based on volatility patterns, thereby enhancing interpretability and optimizing effective cost measures and volatility forecasting. Moreover, XGBoost handles nonlinear relationships and contributes to the proposed ACB-XDE framework's robustness. Furthermore, the error reciprocal method improves predictions by iteratively adjusting model weights based on the difference between theoretical expectations and actual errors in the individual attention-customized BiLSTM and XGBoost models. Finally, the predictions from both the XGBoost and attention-customized BiLSTM models are concatenated to create a varied prediction space, which is then fed into the ensemble regression framework to improve the generalization capabilities of the proposed ACB-XDE framework. Empirical validation of the proposed ACB-XDE framework involves its application to the volatile Bitcoin market, utilizing a dataset sourced from Yahoo Finance (Bitcoin-USD, 10/01/2014 to 01/08/2023). The proposed ACB-XDE framework outperforms state-of-the-art models with a MAPE of 0.37%, MAE of 84.40, and RMSE of 106.14. This represents improvements of approximately 27.45%, 53.32%, and 38.59% in MAPE, MAE, and RMSE respectively, over the best-performing attention-BiLSTM. The proposed ACB-XDE framework presents a technique for informed decision-making in dynamic financial landscapes and demonstrates effectiveness in handling the complexities of BTC-USD data.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1c42b402b7481292d5378a7a82bce881",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T03:13:04.880065"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种新的框架（ACB-XDE）用于预测投机性股票价格（比特币-美元），这直接关联到投资决策和资产价格预测，属于投资组合管理的范畴。虽然论文提到风险管理，但主要研究目标是价格预测而非风险度量或控制。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种新的框架（ACB-XDE）用于预测投机性股票价格（比特币-美元），这直接关联到投资决策和资产价格预测，属于投资组合管理的范畴。虽然论文提到风险管理，但主要研究目标是价格预测而非风险度量或控制。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:55.333610"
+}

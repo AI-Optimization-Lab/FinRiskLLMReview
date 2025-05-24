@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 8520,
+    "title": "New Regression Monte Carlo Methods for High-dimensional Real Options Problems in Minerals industry",
+    "abstract": "Mining operations are affected by significant uncertainty in commodity prices, combined with geological uncertainties (both in quantity and quality of the available reserves). Technical difficulties and costs associated with ore extraction together with a highly uncertain environment present significant risks for profitability of mineral projects. Optimising operating strategies in response to changing market conditions and information about the available reserves is crucial for project profitability in the face of uncertainty. A natural resource extraction problem can be viewed as a stochastic optimal control (real options) problem, with extraction rate representing a control variable. In a finite horizon, finite reserve setting, an additional complexity arises from the need to consider a large number of feasible remaining reserve levels, which significantly increases the computational complexity of the algorithms. Extraction of a natural resource problems have attracted the attention of researchers in the fields of real options and stochastic optimal control since the 1980s. However, there is still no computational framework available that would allow realistic high-dimensional real options problems in minerals industry to be solved. Over the last decade, the approach based on value function approximation via basis functions has attracted significant attention from financial applications, and has given rise to a class of methods known as regression Monte Carlo methods. Regression Monte Carlo is a very versatile simulation-based technique. It can deal with a rich description of the mining problem, and very elaborate models for the risk factors. In this paper, we propose to combine several crucial improvements to make the regression Monte Carlo method practical for multi-dimensional models: 1) Firstly, we avoid the discretisation of reserve level by using the control randomization technique. First, the reserve is replaced by a dummy random factor during the forward loop. Then, this variable is included into the regression factors during the backward loop, and optimised. Randomization also allows dealing with geological uncertainties in the estimated reserve. 2) Then, to avoid the full storage of the sample paths, we implement a memory reduction method. The idea is to store the seeds of the random number generator during the forward loop, in order to reproduce the paths exactly during the backward loop. This drastically reduces memory consumption. 3) Finally, to solve once and for all the problem of choice of regression basis, we perform non-parametric adaptive local regressions, which automatically adapt to the data and the function to regress. Its numerical efficiency is ensured by a novel fast implementation of the method. We explain how these efficient implementation techniques allow us to tackle a stylized mineral extraction problem under both price and geological uncertainties. One key advantage of the proposed improvements is that they are easily extendable to higher dimensions and make it possible to tackle realistic multi-dimensional real option problems. For the mining industry, this means better estimates for the value of a mine, with geological and price uncertainties taken into account. Beyond that, it means better dynamic strategies for mine operation, with explicit rules on how to deal with changing circumstances.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7c649eed259a58ad1a3d80834f80bfdc",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T03:19:51.996833"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是矿产行业的实物期权问题，虽然使用了回归蒙特卡洛方法，但其应用场景是矿产资源的开采优化，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是矿产行业的实物期权问题，虽然使用了回归蒙特卡洛方法，但其应用场景是矿产资源的开采优化，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:36.507308"
+}

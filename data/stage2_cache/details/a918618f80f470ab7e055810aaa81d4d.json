@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 8041,
+    "title": "Cross-modality Labeling Enables Noninvasive Capillary Quantification as a Sensitive Biomarker for Assessing Cardiovascular Risk",
+    "abstract": "Purpose: We aim to use fundus fluorescein angiography (FFA) to label the capillaries on color fundus (CF) photographs and train a deep learning model to quantify retinal capillaries noninvasively from CF and apply it to cardiovascular disease (CVD) risk assessment. Design: Cross-sectional and longitudinal study. Participants: A total of 90732 pairs of CF-FFA images from 3893 participants for segmentation model development, and 49229 participants in the UK Biobank for association analysis. Methods: We matched the vessels extracted from FFA and CF, and used vessels from FFA as labels to train a deep learning model (RMHAS-FA) to segment retinal capillaries using CF. We tested the model's accuracy on a manually labeled internal test set (FundusCapi). For external validation, we tested the segmentation model on 7 vessel segmentation datasets, and investigated the clinical value of the segmented vessels in predicting CVD events in the UK Biobank. Main Outcome Measures: Area under the receiver operating characteristic curve (AUC), accuracy, sensitivity, and specificity for segmentation. Hazard ratio (HR; 95% confidence interval [CI]) for Cox regression analysis. Results: On the FundusCapi dataset, the segmentation performance was AUC = 0.95, accuracy = 0.94, sensitivity = 0.90, and specificity = 0.93. Smaller vessel skeleton density had a stronger correlation with CVD risk factors and incidence (P < 0.01). Reduced density of small vessel skeletons was strongly associated with an increased risk of CVD incidence and mortality for women (HR [95% CI] = 0.91 [0.84-0.98] and 0.68 [0.54-0.86], respectively). Conclusions: Using paired CF-FFA images, we automated the laborious manual labeling process and enabled noninvasive capillary quantification from CF, supporting its potential as a sensitive screening method for identifying individuals at high risk of future CVD events. Financial Disclosure(s): Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article. Ophthalmology Science 2024;4:100441 (c) 2024 Published by Elsevier Inc. on behalf of the American Academy of Ophthalmology. This is an open access article under the CC BY-NC-ND license (http:// creativecommons.org/licenses/by-nc-nd/4.0/).",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "72fcb1e10291d4e9e6af041d03f3c5c0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T03:14:37.359110"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习模型从眼底照片中非侵入性地量化视网膜毛细血管，并将其应用于心血管疾病风险评估。虽然涉及风险评估，但属于医学领域而非金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习模型从眼底照片中非侵入性地量化视网膜毛细血管，并将其应用于心血管疾病风险评估。虽然涉及风险评估，但属于医学领域而非金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:54.484676"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2794,
+    "title": "The probability of backtest overfitting",
+    "abstract": "Many investment firms and portfolio managers rely on backtests (ie, simulations of performance based on historical market data) to select investment strategies and allocate capital. Standard statistical techniques designed to prevent regression overfitting, such as hold-out, tend to be unreliable and inaccurate in the context of investment backtests. We propose a general framework to assess the probability of backtest overfitting (PBO). We illustrate this framework with specific generic, model-free and non-parametric implementations in the context of investment simulations; we call these implementations combinatorially symmetric cross-validation (CSCV). We show that CSCV produces reasonable estimates of PBO for several useful examples.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "62bf451da7f7f076f29c728da0bb4ee7",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:10:49.416432"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要讨论了投资策略的回测过拟合问题，并提出了评估回测过拟合概率的框架，这直接应用于投资组合管理中的策略选择和资本分配。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要讨论了投资策略的回测过拟合问题，并提出了评估回测过拟合概率的框架，这直接应用于投资组合管理中的策略选择和资本分配。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:09.545623"
+}

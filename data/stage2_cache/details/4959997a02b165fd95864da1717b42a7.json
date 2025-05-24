@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 1264,
+    "title": "Time series modelling, NARX neural network and hybrid KPCA-SVR approach to forecast the foreign exchange market in Mauritius",
+    "abstract": "Purpose This study constructs time series model, artificial neural networks (ANNs) and statistical topologies to examine the volatility and forecast foreign exchange rates. The Mauritian forex market has been utilized as a case study, and daily data for nominal spot rate (during a time period of five years spanning from 2014 to 2018) for EUR/MUR, GBP/MUR, CAD/MUR and AUD/MUR have been applied for the predictions. Design/methodology/approach Autoregressive integrated moving average (ARIMA) and generalized autoregressive conditional heteroskedasticity (GARCH) models are used as a basis for time series modelling for the analysis, along with the non-linear autoregressive network with exogenous inputs (NARX) neural network backpropagation algorithm utilizing different training functions, namely, Levenberg-Marquardt (LM), Bayesian regularization and scaled conjugate gradient (SCG) algorithms. The study also features a hybrid kernel principal component analysis (KPCA) using the support vector regression (SVR) algorithm as an additional statistical tool to conduct financial market forecasting modelling. Mean squared error (MSE) and root mean square error (RMSE) are employed as indicators for the performance of the models. Findings The results demonstrated that the GARCH model performed better in terms of volatility clustering and prediction compared to the ARIMA model. On the other hand, the NARX model indicated that LM and Bayesian regularization training algorithms are the most appropriate method of forecasting the different currency exchange rates as the MSE and RMSE seemed to be the lowest error compared to the other training functions. Meanwhile, the results reported that NARX and KPCA-SVR topologies outperformed the linear time series models due to the theory based on the structural risk minimization principle. Finally, the comparison between the NARX model and KPCA-SVR illustrated that the NARX model outperformed the statistical prediction model. Overall, the study deduced that the NARX topology achieves better prediction performance results compared to time series and statistical parameters. Research limitations/implications The foreign exchange market is considered to be instable owing to uncertainties in the economic environment of any country and thus, accurate forecasting of foreign exchange rates is crucial for any foreign exchange activity. The study has an important economic implication as it will help researchers, investors, traders, speculators and financial analysts, users of financial news in banking and financial institutions, money changers, non-banking financial companies and stock exchange institutions in Mauritius to take investment decisions in terms of international portfolios. Moreover, currency rates instability might raise transaction costs and diminish the returns in terms of international trade. Exchange rate volatility raises the need to implement a highly organized risk management measures so as to disclose future trend and movement of the foreign currencies which could act as an essential guidance for foreign exchange participants. By this way, they will be more alert before conducting any forex transactions including hedging, asset pricing or any speculation activity, take corrective actions, thus preventing them from making any potential losses in the future and gain more profit. Originality/value This is one of the first studies applying artificial intelligence (AI) while making use of time series modelling, the NARX neural network backpropagation algorithm and hybrid KPCA-SVR to predict forex using multiple currencies in the foreign exchange market in Mauritius.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "abc6849f429738e4e1582a7e0731b414",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "principal components analysis",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.789580"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究外汇市场的波动性和汇率预测，这直接关系到金融风险管理中的汇率风险管理和交易决策。虽然论文提到了投资决策，但核心应用是预测汇率波动，属于风险管理范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究外汇市场的波动性和汇率预测，这直接关系到金融风险管理中的汇率风险管理和交易决策。虽然论文提到了投资决策，但核心应用是预测汇率波动，属于风险管理范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:33.039389"
+}

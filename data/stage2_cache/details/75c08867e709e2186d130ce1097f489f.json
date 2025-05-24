@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2960,
+    "title": "Empirical evaluation of an architectural technical debt index in the context of the Apache and ONAP ecosystems",
+    "abstract": "Background. Architectural Technical Debt (ATD) in a software-intensive system denotes architectural design choices which, while being suitable or even optimal when adopted, lower the maintainability and evolvability of the system in the long term, hindering future development activities. Despite the growing research interest in ATD, how to gain an informative and encompassing viewpoint of the ATD present in a software-intensive system is still an open problem. Objective. In this study, we evaluate ATDx, a data-driven approach providing an overview of the ATD present in a software-intensive system. The approach, based on the analysis of a software portfolio, calculates severity levels of architectural rule violations via a clustering algorithm, and aggregates results into different ATD dimensions. Method. To evaluate ATDx, we implement an instance of the approach based on SonarQube, and run the analysis on the Apache and ONAP ecosystems. The analysis results are then shared with the portfolio contributors, who are invited to participate in an online survey designed to evaluate the representativeness and actionability of the approach. Results. The survey results confirm the representativeness of the ATDx, in terms of both the ATDx analysis results and the used architectural technical debt dimensions. Results also showed the actionability of the approach, although to a lower extent when compared to the ATDx representativeness, with usage scenarios including refactoring, code review, communication, and ATD evolution analysis. Conclusions. With ATDx, we strive for the establishment of a sound, comprehensive, and intuitive architectural view of the ATD identifiable via source code analysis. The collected results are promising, and display both the representativeness and actionability of the approach. As future work, we plan to consolidate the approach via further empirical experimentation, by considering other development contexts (e.g., proprietary portfolios and other source code analysis tools), and enhancing the ATDx report capabilities.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a6a1cf9b7d848612fb3ad4a2265fa594",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:09.164696"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究软件架构技术债务（ATD）的评估方法，涉及聚类算法在软件维护和演化中的应用，并未提及任何与金融领域相关的应用场景或技术。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究软件架构技术债务（ATD）的评估方法，涉及聚类算法在软件维护和演化中的应用，并未提及任何与金融领域相关的应用场景或技术。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:00.071194"
+}

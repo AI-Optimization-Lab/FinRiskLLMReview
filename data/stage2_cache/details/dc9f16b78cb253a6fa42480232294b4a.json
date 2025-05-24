@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2061,
+    "title": "Simplifying credit scoring rules using LVQ plus PSO",
+    "abstract": "Purpose - One of the key elements in the banking industry relies on the appropriate selection of customers. To manage credit risk, banks dedicate special efforts to classify customers according to their risk. The usual decision-making process consists of gathering personal and financial information about the borrower. Processing this information can be time-consuming, and presents some difficulties because of the heterogeneous structure of data. Design/methodology/approach - This paper presents an alternative method that is able to generate rules that work not only on numerical attributes but also on nominal ones. The key feature of this method, called learning vector quantization and particle swarm optimization (LVQ + PSO), is the finding of a reduced set of classifying rules. This is possible because of the combination of a competitive neural network with an optimization technique. Findings - These rules constitute a predictive model for credit risk approval. The reduced quantity of rules makes this method useful for credit officers aiming to make decisions about granting a credit. It also could act as an orientation for borrower's self evaluation about her/his creditworthiness. Research limitations/implications - In spite of the fact that conducted tests showed no evidence of dependence between results and the initial size of the LVQ network, it is considered desirable to repeat the measurements using an LVQ network of minimum size and a version of variable population PSO to adequately explore the solution space in the future. Practical implications - In the past decades, there has been an increase in consumer credit. Retail banking is a growing industry. Not only has there been a boom in credit card memberships, specially in emerging economies, but also an increase in small consumption credits. For example, it is very common in emerging economies that families buy home appliances on installments. In those countries, the association of a home appliance shop with a financial institution is usual, to provide customers with quick-decision credit line facilities. The existence of such a financial instrument aids to boost sales. This association generates conflict of interests. On one hand, the home appliance shop wants to sell products to all customers. Therefore, it is in its best interest to promote a generous credit policy. On the other hand, the financial institution wants to maximize the revenue from credits, leading to a strict surveillance of loan losses. Having a fair and transparent credit-granting policy favors a good business relationship between home appliances shops and financial institutions. One way of developing such a policy is to construct objective rules to decide to grant or deny a credit application. Social implications - Better credit decision rules generate enhanced risk sharing. In addition, it improves transparency in credit acceptance decisions, giving less room to arbitrary decisions. Originality/value - This study develops a new method that combines a competitive neural network and an optimization technique. It was applied to a real database of a financial institution in a developing country.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c6eaf0a12e4548ef53cb723c9c2be84a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:25.859559"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a method to classify customers according to their credit risk, which is a key aspect of financial risk management in the banking industry. The proposed LVQ + PSO method aims to generate rules for credit risk approval, directly addressing the management of credit risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a method to classify customers according to their credit risk, which is a key aspect of financial risk management in the banking industry. The proposed LVQ + PSO method aims to generate rules for credit risk approval, directly addressing the management of credit risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:27.106971"
+}

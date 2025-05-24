@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1397,
+    "title": "Improving audit opinion prediction accuracy using metaheuristics-tuned XGBoost algorithm with interpretable results through SHAP value analysis",
+    "abstract": "This study aims to create a machine learning model that can predict opinions in external audits and surpass the benchmark set in a prior study from the literature. This tool could reduce audit risk, which is a crucial task in external audits. Previous studies have shown that it is possible to create models that can predict the audit opinion a company will receive. In these studies, authors used statistics and machine learning models, and both non-financial (e.g. audit lag) and financial data (e.g. financial ratios, or absolute value items available from financial statements) to make predictions. In this study, the performance of the XGBoost model optimized by metaheuristics algorithms is examined and evaluated. This study compares the performance of six different metaheuristic algorithms used to tune the XGBoost model in two separate scenarios. The first scenario represents a realistic client portfolio, where a majority of the clients are known, while the second scenario simulates a new clients-only portfolio, a more difficult scenario where prior information such as audit lag is not available. The study uses a dataset of 12,690 observations of Serbian companies and their audit opinions from 2016 to 2019. The findings indicate an improvement over the benchmark due to a more optimized hyperparameter tuning process and the use of the iterative sine-cosine algorithm for the XGBoost model.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d637b3157c794d89eefe83cd996730ea",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:02:22.752481"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用机器学习和元启发式算法优化XGBoost模型来预测审计意见，目的是降低审计风险。虽然涉及金融数据（如财务比率），但其核心应用是审计领域而非上述特定的金融研究领域（衍生品定价、金融风险管理或投资组合管理）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用机器学习和元启发式算法优化XGBoost模型来预测审计意见，目的是降低审计风险。虽然涉及金融数据（如财务比率），但其核心应用是审计领域而非上述特定的金融研究领域（衍生品定价、金融风险管理或投资组合管理）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:24.421046"
+}

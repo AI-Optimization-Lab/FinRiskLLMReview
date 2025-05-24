@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 476,
+    "title": "Maturity grading of jujube for industrial applications harnessing deep learning",
+    "abstract": "PurposeTo develop and examine an efficient and reliable jujube grading model with reduced computational time, which could be utilized in the food processing and packaging industries to perform quick grading and pricing of jujube as well as for the other similar types of fruits.Design/methodology/approachThe whole process begins with manual analysis and collection of four jujube grades from the jujube tree, in addition to this jujube image acquisition was performed utilizing MVS which is further followed by image pre-processing and augmentation tasks. Eventually, classification models (i.e. proposed model, from scratch and pre-trained VGG16 and AlexNet) were trained and validated over the original and augmented datasets to discriminate the jujube into maturity grades.FindingsThe highest success rates reported over the original and augmented datasets were 97.53% (i.e. error of 2.47%) and 99.44% (i.e. error of 0.56%) respectively using Adam optimizer and a learning rate of 0.003.Research limitations/implicationsThe investigation relies upon a single view of the jujube image and the outer appearance of the jujube. In the future, multi-view image capturing system could be employed for the model training/validation.Practical implicationsDue to the vast functional derivatives of jujube, the identification of maturity grades of jujube is paramount in the fruit industry, functional food production industries and pharmaceutical industry. Therefore, the proposed model which is practically feasible and easy to implement could be utilized in such industries.Originality/valueThis research examines the performance of proposed CNN models for selected optimizer and learning rates for the grading of jujube maturity into four classes and compares them with the classical models to depict the sublime model in terms of accuracy, the number of parameters, epochs and computational time. After a thorough investigation of the models, it was discovered that the proposed model transcends both classical models in all aspects for both the original and augmented datasets utilizing Adam optimizer with learning rate of 0.003.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "7e44aca36bf0a6c6cc71b6b574cedae2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:32:30.177064"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用深度学习技术对枣子进行成熟度分级，应用于食品加工和包装行业，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用深度学习技术对枣子进行成熟度分级，应用于食品加工和包装行业，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:48.908191"
+}

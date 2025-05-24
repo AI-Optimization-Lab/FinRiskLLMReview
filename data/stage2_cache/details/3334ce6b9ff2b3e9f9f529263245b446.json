@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 923,
+    "title": "Which Surrogate Works for Empirical Performance Modelling? A Case Study with Differential Evolution",
+    "abstract": "It is not uncommon that meta-heuristic algorithms contain some intrinsic parameters, the optimal configuration of which is crucial for achieving their peak performance. However, evaluating the effectiveness of a configuration is expensive, as it involves many costly runs of the target algorithm. Perhaps surprisingly, it is possible to build a cheap-to-evaluate surrogate that models the algorithm's empirical performance as a function of its parameters. Such surrogates constitute an important building block for understanding algorithm performance, algorithm portfolio/selection, and the automatic algorithm configuration. In principle, many off-the-shelf machine learning techniques can be used to build surrogates. In this paper, we take the differential evolution (DE) as the baseline algorithm for proof-of-concept study. Regression models are trained to model the DE's empirical performance given a parameter configuration. In particular, we evaluate and compare four popular regression algorithms both in terms of how well they predict the empirical performance with respect to a particular parameter configuration, and also how well they approximate the parameter versus the empirical performance landscapes.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2fc311bd1035595fb691d60ff576bde8",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.360789"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用回归模型构建替代模型来优化差分进化算法的参数配置，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用回归模型构建替代模型来优化差分进化算法的参数配置，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:37.222500"
+}

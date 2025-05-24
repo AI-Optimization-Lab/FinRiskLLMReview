@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 599,
+    "title": "Batch mode active learning framework and its application on valuing large variable annuity portfolios",
+    "abstract": "In practice, the valuation of a large volume variable annuity contracts relies on Monte Carlo simulation which is quite computationally intensive. To build a more efficient valuation process, statistical models have been used within a data mining framework that consists of two subsequent stages: the data sampling stage to create a set of representative contracts, and the regression modeling stage to make predictions for the remaining contracts in the portfolio. In this article, we work with a new data mining framework based on active learning, in which we iteratively update the regression model efficiently by selecting the most informative representatives. Our metrics take into consideration both the ambiguity and the diversity of the prediction, which allow us to propose two methods that fit well in this active learning framework. Experimental results demonstrate the effectiveness of the proposed active learning approaches over the random sampling as well as the two-stage data mining framework. (C) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ed306c6731ea8cfaf1afc3c04a030377",
+    "relevant_keywords": [
+      "machine learning",
+      "active learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:39.074602"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用主动学习框架来优化变量年金合约的估值过程，这属于衍生品定价的范畴。论文明确提到其目标是提高大规模变量年金合约的估值效率，而变量年金是一种金融衍生品。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用主动学习框架来优化变量年金合约的估值过程，这属于衍生品定价的范畴。论文明确提到其目标是提高大规模变量年金合约的估值效率，而变量年金是一种金融衍生品。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:28.518245"
+}

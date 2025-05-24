@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 922,
+    "title": "A Machine Learning Approach to Adaptive Robust Utility Maximization and Hedging\\ast",
+    "abstract": "We investigate the adaptive robust control framework for portfolio optimization and loss-based hedging under drift and volatility uncertainty. Adaptive robust problems offer many advantages but require handling a double optimization problem (infimum over market measures, supremum over the control) at each instance. Moreover, the underlying Bellman equations are intrinsically multidimensional. We propose a novel machine learning approach that solves for the local saddle-point at a chosen set of inputs and then uses a nonparametric (Gaussian process) regression to obtain a functional representation of the value function. Our algorithm resembles control randomization and regression Monte Carlo techniques but also brings multiple innovations, including adaptive experimental design, separate surrogates for optimal control and the local worst-case measure, and computational speed-ups for the sup-inf optimization. Thanks to the new scheme we are able to consider settings that have been previously computationally intractable and provide several new financial insights about learning and optimal trading under unknown market parameters. In particular, we demonstrate the financial advantages of adaptive robust framework compared to adaptive and static robust alternatives.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "109640515222bb8d32387c765d62efd7",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.359794"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究自适应鲁棒控制框架下的投资组合优化和基于损失的套期保值，这直接涉及投资组合管理。同时，处理市场参数不确定性下的最优交易策略也属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文主要研究自适应鲁棒控制框架下的投资组合优化和基于损失的套期保值，这直接涉及投资组合管理。同时，处理市场参数不确定性下的最优交易策略也属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:37.449195"
+}

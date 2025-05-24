@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3182,
+    "title": "Estimating a Hedge Fund Return Model Based on a Small Number of Samples",
+    "abstract": "Optimal portfolio selection decisions hinge on the availability of return models which capture important statistical properties of the assets under consideration. In comparison to traditional assets, estimating a return model for hedge funds proves to be much more complex and challenging. Extended factor models, with option returns as additional factors, have been proposed to model index and individual hedge fund returns, see, e.g., Agarwal and Naik (2004), Fung and Hsieh (1997, 2001). Given that typically only a small number of return samples are available, it is very difficult to identify dominant risk exposures in estimation of return models, particularly for individual hedge funds. Assuming a small sample set, we consider a hypothetic market timing investment strategy from a universe of investment assets and use it for evaluating predictive quality of models estimated using different methods. Ordinary least squares, ridge regression, and support vector regression (SVR) methods are compared. We illustrate that, for predicting individual hedge fund returns, the more sophisticated ridge regression and SVR regression methods, which limit generalization error in addition to minimizing empirical error, perform significantly better than simple ordinary least squares methods with a heuristic factor selection. In addition, we compare and contrast the predictive quality of the estimated extended asset-class index factor model with the extended individual asset-based factor models. We illustrate that, using more sophisticated estimation methods, the extended individual-asset based model can perform better than the extended asset-class index based model.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "dff9b46397e374d8d5808df14b55e856",
+    "relevant_keywords": [
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:14:16.294207"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用回归方法（包括普通最小二乘法、岭回归和支持向量回归）来估计对冲基金的回报模型，目的是优化投资组合选择决策。这直接关联到投资组合管理领域，因为论文的研究目标是提高对冲基金回报预测的准确性，从而支持更好的资产配置和投资决策。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用回归方法（包括普通最小二乘法、岭回归和支持向量回归）来估计对冲基金的回报模型，目的是优化投资组合选择决策。这直接关联到投资组合管理领域，因为论文的研究目标是提高对冲基金回报预测的准确性，从而支持更好的资产配置和投资决策。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:35.348731"
+}

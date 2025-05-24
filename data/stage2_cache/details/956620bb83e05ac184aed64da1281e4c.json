@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1952,
+    "title": "Leveraging Financial Social Media Data for Corporate Fraud Detection",
+    "abstract": "Corporate fraud can lead to significant financial losses and cause immeasurable damage to investor confidence and the overall economy. Detection of such frauds is a time-consuming and challenging task. Traditionally, researchers have been relying on financial data and/or textual content from financial statements to detect corporate fraud. Guided by systemic functional linguistics (SFL) theory, we propose an analytic framework that taps into unstructured data from financial social media platforms to assess the risk of corporate fraud. We assemble a unique data set including 64 fraudulent firms and a matched sample of 64 nonfraudulent firms, as well as the social media data prior to the firm's alleged fraud violation in Accounting and Auditing Enforcement Releases (AAERs). Our framework automatically extracts signals such as sentiment features, emotion features, topic features, lexical features, and social network features, which are then fed into machine learning classifiers for fraud detection. We evaluate and compare the performance of our algorithm against baseline approaches using only financial ratios and language-based features respectively. We further validate the robustness of our algorithm by detecting leaked information and rumors, testing the algorithm on a new data set, and conducting an applicability check. Our results demonstrate the value of financial social media data and serve as a proof of concept of using such data to complement traditional fraud detection methods.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7b2e3f25f733a8d2788d30947cef9e68",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:14.419351"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用社交媒体数据进行公司欺诈检测，虽然涉及金融风险管理中的欺诈风险，但其核心技术更侧重于数据挖掘和机器学习在欺诈检测中的应用，而非直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用社交媒体数据进行公司欺诈检测，虽然涉及金融风险管理中的欺诈风险，但其核心技术更侧重于数据挖掘和机器学习在欺诈检测中的应用，而非直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:10.539207"
+}

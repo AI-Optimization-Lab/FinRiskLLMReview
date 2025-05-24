@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 471,
+    "title": "A Graph Reinforcement Learning Framework for Neural Adaptive Large Neighbourhood Search",
+    "abstract": "Adaptive Large Neighbourhood Search (ALNS) is a popular metaheuristic with renowned efficiency in solving combinatorial optimisation problems. However, despite 18 years of intensive research into ALNS, the design of an effective adaptive layer for selecting operators to improve the solution remains an open question. In this work, we isolate this problem by formulating it as a Markov Decision Process, in which an agent is rewarded proportionally to the improvement of the incumbent. We propose Graph Reinforcement Learning for Operator Selection (GRLOS), a method based on Deep Reinforcement Learning and Graph Neural Networks, as well as Learned Roulette Wheel (LRW), a lightweight approach inspired by the classic Roulette Wheel adaptive layer. The methods, which are broadly applicable to optimisation problems that can be represented as graphs, are comprehensively evaluated on 5 routing problems using a large portfolio of 28 destroy and 7 repair operators. Results show that both GRLOS and LRW outperform the classic selection mechanism in ALNS, owing to the operator choices being learned in a prior training phase. GRLOS is also shown to consistently achieve better performance than a recent Deep Reinforcement Learning method due to its substantially more flexible state representation. The evaluation further examines the impact of the operator budget and type of initial solution, and is applied to problem instances with up to 1000 customers. The findings arising from our extensive benchmarking bear relevance to the wider literature of hybrid methods combining metaheuristics and machine learning.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c89d18aadded376c1986db7b8350bf7d",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.385553"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种基于图神经网络和深度强化学习的自适应大邻域搜索方法，用于解决组合优化问题。虽然组合优化在金融领域（如投资组合管理）有潜在应用，但论文中并未明确提及或针对任何特定的金融应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种基于图神经网络和深度强化学习的自适应大邻域搜索方法，用于解决组合优化问题。虽然组合优化在金融领域（如投资组合管理）有潜在应用，但论文中并未明确提及或针对任何特定的金融应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:35.433644"
+}

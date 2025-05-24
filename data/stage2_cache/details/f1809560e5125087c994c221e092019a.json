@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 207,
+    "title": "基于深度强化学习SAC算法的投资组合管理",
+    "abstract": "动态投资组合管理,是一种将资金按一定的计算规则,配置到不同金融股票产品中的决策过程。在中国市场上存在着大量股票以及金融产品,股票价格指数可以很好地反映中国的金融市场状况。SAC算法是基于最大熵的强化学习框架。在这个框架中,智能体在最大化期望奖励的同时,也最大化熵。将SAC算法运用于金融投资组合管理中,并与基准交易策略和先前的RL算法相比,获得17.53%的年回报率,证明此方法在盈利方面是可行的。",
+    "year": 2020,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6cfebe90503910d6b85629a29cf4d137",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:14:19.077946"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提到将SAC算法应用于金融投资组合管理，并与基准交易策略进行比较，获得17.53%的年回报率，证明此方法在盈利方面是可行的。这直接表明论文的核心技术应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确提到将SAC算法应用于金融投资组合管理，并与基准交易策略进行比较，获得17.53%的年回报率，证明此方法在盈利方面是可行的。这直接表明论文的核心技术应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:51.553181"
+}

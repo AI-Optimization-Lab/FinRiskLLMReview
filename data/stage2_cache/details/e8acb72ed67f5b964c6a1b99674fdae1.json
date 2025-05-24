@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 258,
+    "title": "Hierarchical Clustering as a Dimension Reduction Technique in the Markowitz Portfolio Optimization Problem",
+    "abstract": "Optimal portfolio selection is a common and important solution to an optimization problem. It is often difficult to apply existing methods of optimal portfolio selection in practice, because of the large number of securities available for investment (and, as a consequence, the high dimensionality of the input data). In this article, we propose a method to reduce the dimensionality of the input data based on the hierarchical clustering of the securities available for investment. Many algorithms and methods have already been developed for clustering widely used in computer science. Pearson's pairwise correlation coefficient is used as a measure of proximity of securities for hierarchical clustering. Next, we investigate the impact of the proposed method on the quality of the optimal solution obtained using several examples of the optimal portfolio selection according to the Markowitz model. The influence of hierarchical clustering parameters (intercluster distance metrics and clustering threshold value) on the change in the quality of the obtained optimal solution is also examined. The dependence between the target portfolio return and dimensionality reduction using the proposed method is analyzed. For each considered example, graphs and tables with the main obtained results of the application of the method are given: dimensionality reduction and return drop (reduction of the quality of the optimal solution) of the portfolio selected using the proposed method as compared to the portfolio selected without the proposed method. The Python programming language and its libraries are used for the experiments: SciPy for clustering and CVXPY for solving the optimization problem (optimal portfolio selection).",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0e398a88041655a7ab91aea4ca5b5bc1",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.757066"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用层次聚类作为降维技术，应用于Markowitz投资组合优化问题，旨在解决高维数据下的最优投资组合选择问题。这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用层次聚类作为降维技术，应用于Markowitz投资组合优化问题，旨在解决高维数据下的最优投资组合选择问题。这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:17.470140"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1076,
+    "title": "Mechanisms of Stock Selection and Its Capital Weighing in the Portfolio Design Based on the MACD-K-Means-Mean-VaR Model",
+    "abstract": "When designing a stock portfolio, investors must select stocks with different characteristics and increasing price trends and weigh each capital. Both are fundamental to diversifying loss and profit. Therefore, the mechanisms that accommodate both are needed. Based on this, this research aims to design a stock selection and capital weighing mechanism using the MACD-K-means-Mean-VaR model. The moving average convergence-divergence (MACD) is used to analyze stock buying time, providing trend, momentum, and potential price reversal insights. Then, stocks with increasing price trends are clustered using K-means, a grouping simple pattern data method based on specific characteristics. The best stocks from each cluster are capital weighted using the mean value at risk (mean-VaR), a portfolio optimization model adjusting loss possibility to the investor's acceptance tolerance. The mechanism is then applied to Indonesia's 100 stock index data to analyze variable sensitivities and compare it with another model. The application reveals that all variables significantly impact portfolio return mean and VaR, suggesting the need for clustering and analyzing stock price movements in stock portfolio design. This research academically develops a portfolio design mechanism by clustering stocks and analyzing price movement trends. It enables investors to practically diversify and choose stocks with increasing price trends, reducing losses and increasing profit opportunities.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "76832883395d22b5222575c3f91f6f6a",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.950000"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是设计一个股票选择和资本加权的机制，用于构建股票投资组合，这直接属于投资组合管理的范畴。论文中提到的MACD-K-means-Mean-VaR模型用于分析股票价格趋势、聚类和优化资本分配，这些都是投资组合管理中的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是设计一个股票选择和资本加权的机制，用于构建股票投资组合，这直接属于投资组合管理的范畴。论文中提到的MACD-K-means-Mean-VaR模型用于分析股票价格趋势、聚类和优化资本分配，这些都是投资组合管理中的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:45.756469"
+}

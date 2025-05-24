@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 516,
+    "title": "Seek Common While Shelving Differences: Orchestrating Deep Neural Networks for Edge Service Provisioning",
+    "abstract": "Edge computing (EC) platforms, which enable Application Service Providers (ASPs) to deploy applications in close proximity to users, are providing ultra-low latency and location-awareness to a rich portfolio of services. As monetary costs are incurred for renting computing resources on edge servers to enable service provisioning, ASP has to cautiously decide where to deploy the application and how much resources would be needed to deliver satisfactory performance. However, the service provisioning problem exhibits complex correlations with multifarious factors in EC systems, ranging from user behavior to computation offloading, which are difficult to be fully captured by mathematical modeling and also put off traditional machine learning techniques due to the induction of high-dimension state space. The recent success of deep learning (DL) underpins new tools for addressing our problem. While previous works provide valuable insights on applying DL techniques, e.g., distributed DL, deep reinforcement learning (DRL), and multi-agent DL, in EC systems, these techniques cannot solely handle the distributed and heterogeneous nature of EC systems. To address these limitations, we propose a novel framework based on multi-agent DRL, distributed neural network orchestration (N2O), and knowledge distilling. The multi-agent DRL enables edge servers to learn deep neural networks that shelve distinct features learned from local edge sites and hence caters to the heterogeneity of EC systems. N2O coordinates edge servers in a fully distributed manner toward a common goal of maximizing ASP's reward. It requires only local communications during execution and provides provable performance guarantees. The knowledge distilling is further utilized to distill the N2O policy for reducing the communication overhead and stabilizing the decision-making. We also carry out systematic experiments to show the advantages of our method over state-of-the-art alternatives.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d21f2feb13a74f5ad7432940b4d1426c",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "deep belief network",
+      "multi-agent DRL"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:21.028301"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究边缘计算平台中的服务提供问题，利用多代理深度强化学习等技术优化资源分配和决策制定，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究边缘计算平台中的服务提供问题，利用多代理深度强化学习等技术优化资源分配和决策制定，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:05.250313"
+}

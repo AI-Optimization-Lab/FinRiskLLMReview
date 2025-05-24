@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3330,
+    "title": "Learning Embedded Representation of the Stock Correlation Matrix using Graph Machine Learning",
+    "abstract": "Understanding non-linear relationships among financial instruments has various applications in investment processes ranging from risk management, portfolio construction and trading strategies. Here, we focus on interconnectedness among stocks based on their correlation matrix which we represent as a network with the nodes representing individual stocks and the weighted links between pairs of nodes representing the corresponding pair-wise correlation coefficients. The traditional network science techniques, which are extensively utilized in financial literature, require hand-crafted features such as centrality measures to understand such correlation networks. However, manually enlisting all such hand-crafted features may quickly turn out to be a daunting task. Instead, we propose a new approach for studying nuances and relationships within the correlation network in an algorithmic way using a graph machine learning algorithm called Node2Vec. In particular, the algorithm compresses the network into a lower dimensional continuous space, called an embedding, where pairs of nodes that are identified as similar by the algorithm are placed closer to each other. By using log returns of S&P 500 stock data, we show that our proposed algorithm can learn such an embedding from its correlation network. We define various domain specific quantitative (and objective) and qualitative metrics that are inspired by metrics used in the field of Natural Language Processing (NLP) to evaluate the embeddings and identify the optimal one. Further, we discuss various applications of the embeddings in investment management.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ed2d740c611aaa51f2345e41e1a76735",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "representation learning",
+      "feature representation",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:25:13.672495"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用图机器学习算法（Node2Vec）来学习股票相关性矩阵的嵌入表示，并讨论了其在投资管理中的应用，如投资组合构建和交易策略。这些应用直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用图机器学习算法（Node2Vec）来学习股票相关性矩阵的嵌入表示，并讨论了其在投资管理中的应用，如投资组合构建和交易策略。这些应用直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:51.963184"
+}

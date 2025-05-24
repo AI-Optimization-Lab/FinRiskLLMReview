@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 4771,
+    "title": "Robust Estimation of Value-at-Risk Through Correlated Frequency and Severity Model",
+    "abstract": "In this article we develop a novel method for accurately estimating the Value-at-Risk (VaR) in the context of modern Operational Risk Management (ORM). We develop a method called Data Partition of Frequency and Severity (DPFS) which more accurately computes the VaR in a modern ORM context. The DPFS involves using clustering analysis to partition the frequency and severity components of the loss data. Since the fundamental theory of modern ORM implicitly assumes a correlation between frequency and severity of losses, we argue that this approach should follow naturally. To test this idea, we perform simulation based studies which show that in a theoretical situation, the new DPFS method will perform better than and in worst case as well as the current VaR best practices (which we call classical method). In addition, we implement our methodology on two publicly available datasets: (1) Financial Index data of S&P 500; (2) Chemical Loss spills as tracked by the US National Coast Guard. We observe that the classical VaR calculation inaccurately estimates the data in both the simulation and real-world data studies while DPFS attains much more accurate VaR estimates.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "34373a3e7de0dce4f7e9ccf1e170f9d3",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:41:00.785488"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a novel method for accurately estimating Value-at-Risk (VaR) in the context of Operational Risk Management (ORM), which is a key aspect of financial risk management. The proposed DPFS method aims to improve VaR calculations, a critical tool in risk assessment and management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a novel method for accurately estimating Value-at-Risk (VaR) in the context of Operational Risk Management (ORM), which is a key aspect of financial risk management. The proposed DPFS method aims to improve VaR calculations, a critical tool in risk assessment and management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:57.256564"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1522,
+    "title": "A novel deep reinforcement learning framework with BiLSTM-Attention networks for algorithmic trading",
+    "abstract": "The financial market, as a complex nonlinear dynamic system frequently influenced by various factors, such as international investment capital, is very challenging to build trading strategies from the obtained market information. Deep Reinforcement Learning (DRL) combines the perceptual capability of deep learning and the control decision making capability of reinforcement learning to learn the mapping between financial market states and trading decisions by interacting with the environment. In this paper, an enhanced stock trading strategy, denominated efficient deep State-Action-Reward-State-Action (SARSA), is presented to tackle the algorithmic trading problem of determining optimal trading positions in the daily trading activities of the stock market. This algorithm is recognized for its properties of stable learning and convergence, attributes of critical significance within the financial domain, where stability assumes paramount importance, and excessive risk-taking should be averted. Furthermore, a novel deep network architecture called Bidirectional Long Short -Term Memory (BiLSTM)-Attention is introduced to address the challenge of accurately presenting the complex and volatile stock market. The BiLSTM-Attention greatly enhances the network's capacity to recognize key features and patterns in stock market data, allowing agents to focus on the most relevant aspects of the data. Evaluations on DJI, SP500, GE, IXIC datasets from January 1, 2008 to December 31, 2022 show that our efficient deep SARSA algorithm outperforms a wide range of traditional strategies (B&H, S&H, MR, TF) and DRL-based strategies (TDQN, DQN-Vanilla). For example, on the IXIC dataset, the efficient deep SARSA strategy achieves an attractive Cumulative Return (CR) of 582.17% and a Sharpe Ratio (ShR) of 1.86, outperforming all other methods. These experimental results prove the performance of our method in enhancing stock trading strategies.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b2771f12b748a977a18303e7ab243ec4",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:04:20.027902"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用深度强化学习框架和BiLSTM-Attention网络进行算法交易，目的是优化股票市场的日常交易决策。虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用深度强化学习框架和BiLSTM-Attention网络进行算法交易，目的是优化股票市场的日常交易决策。虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:22.884206"
+}

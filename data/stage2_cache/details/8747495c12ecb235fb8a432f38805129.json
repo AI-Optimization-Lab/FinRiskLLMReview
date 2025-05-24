@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1000,
+    "title": "Deep Reinforcement Learning Model for Stock Portfolio Management Based on Data Fusion",
+    "abstract": "Deep reinforcement learning (DRL) can be used to extract deep features that can be incorporated into reinforcement learning systems to enable improved decision-making; DRL can therefore also be used for managing stock portfolios. Traditional methods cannot fully exploit the advantages of DRL because they are generally based on real-time stock quotes, which do not have sufficient features for making comprehensive decisions. In this study, in addition to stock quotes, we introduced stock financial indices as additional stock features. Moreover, we used Markowitz mean-variance theory for determining stock correlation. A three-agent deep reinforcement learning model called Collaborative Multi-agent reinforcement learning-based stock Portfolio management System (CMPS) was designed and trained based on fused data. In CMPS, each agent was implemented with a deep Q-network to obtain the features of time-series stock data, and a self-attention network was used to combine the output of each agent. We added a risk-free asset strategy to CMPS to prevent risks and referred to this model as CMPS-Risk Free (CMPS-RF). We conducted experiments under different market conditions using the stock data of China Shanghai Stock Exchange 50 and compared our model with the state-of-the-art models. The results showed that CMPS could obtain better profits than the compared benchmark models, and CMPS-RF was able to accurately recognize the market risk and achieved the best Sharpe and Calmar ratios. The study findings are expected to aid in the development of an efficient investment-trading strategy.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "724851ce4c714944d720b4ca677c663f",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.955020"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习模型（CMPS和CMPS-RF）来管理股票投资组合，并引入Markowitz均值-方差理论和风险无风险资产策略来优化投资决策。研究目标明确指向投资组合管理，并通过实验验证了模型在股票投资组合管理中的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习模型（CMPS和CMPS-RF）来管理股票投资组合，并引入Markowitz均值-方差理论和风险无风险资产策略来优化投资决策。研究目标明确指向投资组合管理，并通过实验验证了模型在股票投资组合管理中的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:44.029242"
+}

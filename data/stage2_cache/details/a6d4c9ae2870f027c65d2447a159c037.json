@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 4531,
+    "title": "LSTM-GARCH Hybrid Model for the Prediction of Volatility in Cryptocurrency Portfolios",
+    "abstract": "In the present work, the volatility of the leading cryptocurrencies is predicted through generalised autoregressive conditional heteroskedasticity (GARCH) models, multilayer perceptron (MLP), long short-term memory (LSTM), and hybrid models of the type LSTM and GARCH, where parameters of the GARCH family are included as features of LSTM models. The study period covered the scenario of the World Health Organization pandemic declaration around March 2020 at hourly frequency. We have found that the different variants of deep neural network models outperform those of the GARCH family in the sense of the hetorerocedastic error, and absolute and squared error (HSE). Under the sharpe ratio, the volatility forecasting of a uniform portfolio at long horizons systematically outperforms the stablecoin Tether, which is considered here as the risk-free asset. Also, including transaction volume helps reduce the value at risk or loss probability for the uniform portfolio. Moreover, in a minimum variance portfolio, it is observed that before the pandemic declaration, a large proportion of the capital was allocated to bitcoin (BTC). In contrast, after March 2020, the portfolio is more diversified with short positions for BTC. Moreover, the MLP models give the best predictive results, although not statistically different in accuracy compared to the LSTM and LSTM-GARCH versions under the Diebold-Mariano test. In sum, MLP models outperform most stylised financial models and are less computationally expensive than more complex neural networks. Therefore, simple learning models are suggested in highly non-linear time series volatility forecasts as it is the cryptocurrency market.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "28c85b8ae4e27037b79be6b7e0095fb3",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:38:20.339574"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究加密货币波动率的预测，并讨论了如何利用这些预测来优化投资组合（如最小方差组合）和评估风险（如VaR），这直接涉及金融风险管理和投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文主要研究加密货币波动率的预测，并讨论了如何利用这些预测来优化投资组合（如最小方差组合）和评估风险（如VaR），这直接涉及金融风险管理和投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:54.298912"
+}

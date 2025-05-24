@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 489,
+    "title": "High-dimensional stochastic control models for newsvendor problems and deep learning resolution",
+    "abstract": "This paper studies continuous-time models for newsvendor problems with dynamic replenishment, financial hedging and Stackelberg competition. These factors are considered simultaneously and the high-dimensional stochastic control models are established. High-dimensional Hamilton-Jacobi-Bellman (HJB) equations are derived for the value functions. To circumvent the curse of dimensionality, a deep learning algorithm is proposed to solve the HJB equations. A projection is introduced in the algorithm to avoid the gradient explosion during the training phase. The deep learning algorithm is implemented for HJB equations derived from the newsvendor models with dimensions up to six. Numerical outcomes validate the algorithm's accuracy and demonstrate that the high-dimensional stochastic control models can successfully mitigate the risk.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "316011f0165a0ecbe06d220f98f07158",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:38:59.249389"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文研究了具有动态补货、金融对冲和Stackelberg竞争的报童问题的高维随机控制模型，并提出了深度学习算法来解决高维HJB方程。这些模型和算法的主要目标是成功降低风险，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文研究了具有动态补货、金融对冲和Stackelberg竞争的报童问题的高维随机控制模型，并提出了深度学习算法来解决高维HJB方程。这些模型和算法的主要目标是成功降低风险，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:52.363474"
+}

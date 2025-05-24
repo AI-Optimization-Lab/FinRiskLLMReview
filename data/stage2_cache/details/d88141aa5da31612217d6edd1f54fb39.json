@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 850,
+    "title": "Fusing Sell-Side Analyst Bidirectional Forecasts Using Machine Learning",
+    "abstract": "Sell-side analysts' recommendations are primarily targeted at institutional investors mandated to invest across many companies within client-mandated equity benchmarks, such as the FTSE/JSE All-Share index. Given the numerous sell-side recommendations for a single stock, making unbiased investment decisions is not often straightforward for portfolio managers. This study explores the use of historical sell-side recommendations to create an unbiased fusion of analyst forecasts such that bidirectional accuracy is optimised using random forest, extreme gradient boosting, deep neural networks, and logistic regression. We introduced 12-month rolling features generated from standard sell-side recommendations, such as analyst coverage, point and directional accuracy, while avoiding forward-looking biases. We introduce a novel AI analyst by fusing forecast features from numerous analysts using machine learning algorithms. We observed the added benefits of using these features from more than one analyst by systematically generating unbiased and incrementally better prediction accuracy from publicly available sell-side recommendations, with the Random forest algorithm showing the highest relative performance. In highly volatile sectors, like resources, the machine learning algorithms perform better than in low volatility sectors, suggesting the importance of rolling features in bi-directional prediction in the presence of high volatility. Using feature importance, we observe the incremental contribution of rolling features, showing the relationships between analyst coverage, volatility, and bidirectional forecast accuracy. Furthermore, parameters from logistic regression identify volatility features and initial and target price as some of the essential features when modelling analysts' directional predictions.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2d5c7af1a5375a2ea6a39b32f1972879",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "random forest",
+      "extreme gradient boosting",
+      "deep neural networks",
+      "logistic regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.104146"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习算法融合卖方分析师的预测，以优化投资决策的准确性。这直接服务于投资组合管理的需求，即如何基于分析师的推荐做出更好的投资选择。论文中提到的应用场景和研究目标均围绕投资组合管理展开，而未涉及衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习算法融合卖方分析师的预测，以优化投资决策的准确性。这直接服务于投资组合管理的需求，即如何基于分析师的推荐做出更好的投资选择。论文中提到的应用场景和研究目标均围绕投资组合管理展开，而未涉及衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:19.428814"
+}

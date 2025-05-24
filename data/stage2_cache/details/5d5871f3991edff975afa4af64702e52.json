@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1534,
+    "title": "Optimizing risk budgets in portfolio selection problem: A bi-level model and an efficient gradient-based algorithm",
+    "abstract": "Risk budgeting is one of the recent and successful strategies for asset portfolio selection. In this strategy, risk budgets are associated with assets, and the amount of investment is adjusted so that the contribution of each asset to the portfolio risk is proportional to its risk budget. To the best of our knowledge, no specific method has been presented in the literature to systematically determine the value of risk budgets. To fill this research gap, in this article, we consider the risk budgets as decision variables and present a bi-level programming model where the upper level decides the risk budgets and the lower level determines the risk budgeting portfolio. Three approaches are introduced to solve the model. The first is a single-level reformulation of the bi-level model, the second is a novel gradient-based algorithm, and the third is the particle swarm optimization algorithm. Moreover, the k-means clustering method is utilized to determine the assets involved in the portfolio. Computational results over real-world datasets demonstrate the significance of the bi-level model. In addition, the results confirm the proficiency of our gradient-based algorithm from both solution quality and running time.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e57f56a8bb95e9ddae34f0fd56007421",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:39.132196"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究资产组合选择中的风险预算优化问题，提出了一个双层规划模型和梯度基算法，这直接应用于投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究资产组合选择中的风险预算优化问题，提出了一个双层规划模型和梯度基算法，这直接应用于投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:34.787691"
+}

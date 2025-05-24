@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 45,
+    "title": "融合机器学习算法的期权定价",
+    "abstract": "设计了融合参数模型和非参数机器学习模型进行训练的算法，利用非参数模型拟合参数模型，将其作为先验分布，然后采用贝叶斯学习方法进行优化，并在训练中实现分布的动态调整。该方法在训练过程中有助于避免模型参数过度波动，提升模型泛化能力。针对期权定价，在BS、Heston等参数模型及神经网络等机器学习模型基础上，构建了相应的融合模型BS＿BR和HS＿BR,并利用市场数据进行了实证分析。研究表明，融合模型可以较好地发挥两类模型的优势，无论是在样本内拟合效率，还是样本外预测能力方面都具有更好的表现。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "5bb6674a10093af4d51c382659cabb33",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:18.925262"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是融合机器学习算法进行期权定价，并构建了相应的融合模型BS＿BR和HS＿BR，实证分析也针对期权定价进行，这明确属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是融合机器学习算法进行期权定价，并构建了相应的融合模型BS＿BR和HS＿BR，实证分析也针对期权定价进行，这明确属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:59.517219"
+}

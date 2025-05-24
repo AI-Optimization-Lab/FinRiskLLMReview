@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 114,
+    "title": "Semi-Supervised Clustering for Financial Risk Analysis",
+    "abstract": "Many methods have been developed for financial risk analysis. In general, the conventional unsupervised approaches lack sufficient accuracy and semantics for the clustering, and the supervised approaches rely on large amount of training data for the classification. This paper explores the semi-supervised scheme for the financial data prediction, in which accurate predictions are expected with a small amount of labeled data. Due to lack of sufficient distinguishability in financial data, it is hard for the existing semi-supervised approaches to obtain satisfactory results. In order to improve the performance, we first convert the input labeled clues to the global prior probability, and propagate the'soft' prior probability to learn the posterior probability instead of directly propagating the'hard' labeled data. A label diffusion model is then constructed to adaptively fuse the information at feature space and label space, which makes the structures of data affinity and labeling more consistent. Experiments on two public real financial datasets validate the effectiveness of the proposed method.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ccdad478d743b6754063554f5554ce10",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "semi-supervised learning",
+      "classification",
+      "clustering",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:13.980465"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是半监督学习在金融数据预测中的应用，旨在提高金融风险分析的准确性。论文明确提到其目标是改进金融风险分析的方法，并通过实验验证了其在真实金融数据集上的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是半监督学习在金融数据预测中的应用，旨在提高金融风险分析的准确性。论文明确提到其目标是改进金融风险分析的方法，并通过实验验证了其在真实金融数据集上的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:48.963394"
+}

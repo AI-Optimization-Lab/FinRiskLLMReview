@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2172,
+    "title": "A local relaxation method for the cardinality constrained portfolio optimization problem",
+    "abstract": "The NP-hard nature of cardinality constrained mean-variance portfolio optimization problems has led to a number of different algorithms with varying degrees of success in reaching optimality given limited computational resources and under the presence of strict time constraints present in practice. The proposed local relaxation algorithm explores the inherent structure of the objective function. It solves a sequence of small, local, quadratic-programs by first projecting asset returns onto a reduced metric space, followed by clustering in this space to identify sub-groups of assets that best accentuate a suitable measure of similarity amongst different assets. The algorithm can either be cold started using a suitable heuristic method such as the centroids of initial clusters or be warm started based on the last output. Results, using a basket of up to 3,000 stocks and with different cardinality constraints, indicates that the proposed algorithm can lead to significant performance gain over popular branch-and-cut methods. One key application of this algorithm is in dealing with large scale cardinality constrained portfolio optimization under tight time constraint, such as for the purpose of index tracking or index arbitrage at high frequency.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "70c7afdda00193a615dff745635e219c",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:36.708437"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是解决带基数约束的均值-方差投资组合优化问题，并特别提到了在指数跟踪或指数套利等高频交易中的应用，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是解决带基数约束的均值-方差投资组合优化问题，并特别提到了在指数跟踪或指数套利等高频交易中的应用，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:45.901292"
+}

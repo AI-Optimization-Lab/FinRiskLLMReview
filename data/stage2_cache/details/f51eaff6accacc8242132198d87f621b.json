@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 76,
+    "title": "基于AdaBoost集成算法和Black-Litterman模型的资产配置",
+    "abstract": "行业主题型ETF的迅速发展为投资者带来了多元化的行业资产配置机会,然而投资者应如何进行合理有效的行业资产配置,才能获取行业中优质企业长期健康的发展红利.本文以2005年1月14日至2022年7月15日的沪深300一级行业指数为研究样本,运用自适应提升算法(adaptive boosting, AdaBoost)生成投资者观点,并通过Black-Litterman(BL)模型建立行业资产的最优配置策略.算例结果表明,基于AdaBoost集成算法的BL模型(BL＿AdaBoost)相较于市场组合、等权重组合、MV模型能够获得更优的投资绩效.此外,我们进一步考察了BL＿AdaBoost在不同时期的绩效表现.结果显示,在极端风险事件冲击以及股市整体持续下行的时期, BL＿AdaBoost在一定程度上能够抵御风险,从而减小投资组合的亏损.而在股市正常波动时期, BL＿AdaBoost相较于其他投资组合能够获得更高的回报.",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "377b0e979b81c7ed09a1229bedbcf5f7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:11:50.075219"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用AdaBoost集成算法和Black-Litterman模型来优化行业资产配置策略，并评估其在不同市场条件下的投资绩效，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用AdaBoost集成算法和Black-Litterman模型来优化行业资产配置策略，并评估其在不同市场条件下的投资绩效，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:29.077678"
+}

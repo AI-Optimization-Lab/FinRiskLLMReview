@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2990,
+    "title": "Nonlife ratemaking and risk management with Bayesian generalized additive models for location, scale, and shape",
+    "abstract": "Generalized additive models for location, scale and, shape define a flexible, semi-parametric class of regression models for analyzing insurance data in which the exponential family assumption for the response is relaxed. This approach allows the actuary to include risk factors not only in the mean but also in other key parameters governing the claiming behavior, like the degree of residual heterogeneity or the no-claim probability. In this broader setting, the Negative Binomial regression with cell-specific heterogeneity and the zero-inflated Poisson regression with cell-specific additional probability mass at zero are applied to model claim frequencies. New models for claim severities that can be applied either per claim or aggregated per year are also presented. Bayesian inference is based on efficient Markov chain Monte Carlo simulation techniques and allows for the simultaneous estimation of linear effects as well as of possible nonlinear effects, spatial variations and interactions between risk factors within the data set. To illustrate the relevance of this approach, a detailed case study is proposed based on the Belgian motor insurance portfolio studied in Denuit and Lang (2004). (C) 2014 Elsevier B.V. All rights reserved.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1bfae81a1a794a8cd4e3f99cb206cc77",
+    "relevant_keywords": [
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:42.965850"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是保险数据建模和费率制定，虽然涉及风险管理，但属于保险领域而非金融风险管理。论文未提及衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是保险数据建模和费率制定，虽然涉及风险管理，但属于保险领域而非金融风险管理。论文未提及衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:36.389037"
+}

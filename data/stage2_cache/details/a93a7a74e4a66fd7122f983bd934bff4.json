@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1317,
+    "title": "PREDICTING STATUS OF CHINESE LISTED COMPANIES BASED ON FEATURES SELECTED BY PENALIZED REGRESSION",
+    "abstract": "China's companies have attracted much attention due to the development of stock market in China. The listing status of listed Chinese companies becomes an important indicator which implies the potential risk of a stock. Thus predicting the status of listed Chinese companies is obviously crucial for stockholders and investors when they make further decisions. According to the four possible listing statuses for Chinese companies, researchers formulate the above issue as a classification problem which is typical in data mining area. Plenty of classification techniques have been implemented to predict the status of the listing Chinese companies based on their financial factors. Usually, there are more than 150 financial factors for each of the listed companies, and feature selection is needed before the implementation of classification methods. In the literature, researcher used t-test with variance inflation factor (VIF) analysis to select relevant factors. However, such method can not be applied in the high dimensional case. In this paper, we apply the idea of penalized regression to select the interested factors based on a logistic regression model, and then apply popular classification methods to predict the companies' statuses. Our results show that the proposed method can find more representative factors and improves the prediction accuracy of the classification methods.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "222a637f20315f66bff879b0ec67e8c8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:44.679700"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用惩罚回归和分类方法来预测中国上市公司的上市状态，这有助于投资者评估股票潜在风险，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用惩罚回归和分类方法来预测中国上市公司的上市状态，这有助于投资者评估股票潜在风险，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:49.758894"
+}

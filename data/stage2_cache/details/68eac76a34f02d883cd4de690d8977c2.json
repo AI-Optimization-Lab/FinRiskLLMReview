@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 210,
+    "title": "Stock market network based on bi-dimensional histogram and autoencoder",
+    "abstract": "In this study, we propose a deep learning related framework to analyze S&P500 stocks using bi-dimensional histogram and autoencoder. The bi-dimensional histogram consisting of daily returns of stock price and stock trading volume is plotted for each stock. Autoencoder is applied to the bi-dimensional histogram to reduce data dimension and extract meaningful features of a stock. The histogram distance matrix for stocks are made of the extracted features of stocks, and stock market network is built by applying Planar Maximally Filtered Graph(PMFG) algorithm to the histogram distance matrix. The constructed stock market network represents the latent space of bi-dimensional histogram, and network analysis is performed to investigate the structural properties of the stock market. we discover that the structural properties of stock market network are related to the dispersion of bi-dimensional histogram. Also, we confirm that the autoencoder is effective in extracting the latent feature of the bi-dimensional histogram. Portfolios using the features of bi-dimensional histogram network are constructed and their investment performance is evaluated in comparison with other benchmark portfolios. We observe that the portfolio consisting of stocks corresponding to the peripheral nodes of bi-dimensional histogram network shows better investment performance than other benchmark stock portfolios.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "ed9a19c36bbdea85f6b9cb712eb88baf",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "deep learning",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T00:33:39.425238"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用自编码器和二维直方图分析股票市场网络，并构建投资组合以评估其投资表现。论文明确提到构建投资组合并与其他基准投资组合进行比较，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用自编码器和二维直方图分析股票市场网络，并构建投资组合以评估其投资表现。论文明确提到构建投资组合并与其他基准投资组合进行比较，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:30.804912"
+}

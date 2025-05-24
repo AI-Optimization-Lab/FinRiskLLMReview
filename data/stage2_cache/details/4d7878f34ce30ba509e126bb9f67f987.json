@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 793,
+    "title": "ON OPTIMAL TRACKING PORTFOLIO IN INCOMPLETE MARKETS: THE REINFORCEMENT LEARNING APPROACH",
+    "abstract": "This paper studies an infinite horizon optimal tracking portfolio problem using capital injection in incomplete market models. The benchmark process is modeled by a geometric Brownian motion with zero drift driven by some unhedgeable risk. The relaxed tracking formulation is adopted where the fund account is compensated by the injected capital needs to outperform the benchmark process at any time, and the goal is to minimize the cost of the discounted total capital injection. When model parameters are known, we formulate the equivalent auxiliary control problem with reflected state dynamics, for which the classical solution of the HJB equation with Neumann boundary condition is obtained explicitly. When model parameters are unknown, we introduce the exploratory formulation for the auxiliary control problem with entropy regularization and develop the continuous-time q-learning algorithm in models of reflected diffusion processes. In some illustrative numerical examples, we show the satisfactory performance of the q-learning algorithm.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6438e62107675b5b8892c376712d7b57",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.259851"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文研究了在不完全市场中使用资本注入的最优跟踪投资组合问题，其核心目标是优化投资组合的表现并最小化资本注入成本，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文研究了在不完全市场中使用资本注入的最优跟踪投资组合问题，其核心目标是优化投资组合的表现并最小化资本注入成本，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:49.365328"
+}

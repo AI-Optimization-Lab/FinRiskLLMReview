@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 2333,
+    "title": "Neural Models of Demands for Electricity - Prediction and Risk Assessment",
+    "abstract": "Two neural systems for forecasting the electricity demand by the group of retail consumers are presented along with two methods for risk assessment of demand prediction models. The first forecasting system is composed of series-connected local neural predictors in the form of multi-layer perceptron (MLP) networks. The system is mainly formed on the basis of expert knowledge and statistical tests. The second forecasting system has two levels. The first contains a neural classifier and the second consists of a set of local neural predictors. The classifier is built on the basis of a self-organising neural network (SOM). MLP or radial basis function (RBF) networks are used as predictors. Finally, two methods for assessing the risk of forecasting models are proposed. These consider financial risk measures such as value at risk (VaR) and conditional value at risk (CVaR). Possible economic losses posed by the application of predictions from a forecasting model are calculated using these risk measures. The risk analysis facilitates the selection of the forecasting model that generates the smallest risk of losses when selling energy contracts. The proposed methods are tested using data from the Polish electricity market.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cb08bdc1c801eb69c9d52d834482dbda",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:19.585382"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper discusses the use of neural networks for forecasting electricity demand and assessing the financial risk associated with these predictions using measures like VaR and CVaR. The focus on risk assessment for energy contracts aligns with financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper discusses the use of neural networks for forecasting electricity demand and assessing the financial risk associated with these predictions using measures like VaR and CVaR. The focus on risk assessment for energy contracts aligns with financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:57.609886"
+}

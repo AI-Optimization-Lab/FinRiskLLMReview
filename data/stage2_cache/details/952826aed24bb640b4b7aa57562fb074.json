@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 7704,
+    "title": "The second-order bias and mean squared error of quantile regression estimators",
+    "abstract": "The finite sample theory using higher order asymptotics provides better approximations of the bias and mean squared error (MSE) for a class of estimators. Rilston, Srivastava and Ullah (1996) provided the second-order bias results of conditional mean regression. This paper develops new analytical results on the second-order bias up to order ON-1\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$O\\left( N<^>{-1}\\right)$$\\end{document} and MSE up to order ON-2\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$O\\left( N<^>{-2}\\right)$$\\end{document} of the conditional quantile regression estimators. First, we provide the general results on the second-order bias and MSE of conditional quantile estimators. The second-order bias result enables an improved bias correction and thus to obtain improved quantile estimation. In particular, we show that the second-order bias are much larger towards the tails of the conditional density than near the median, and therefore the benefit of the second order bias correction is greater when we are interested in the deeper tail quantiles, e.g., for the study of financial risk management. The higher order MSE result for the quantile estimation also enables us to better understand the sources of estimation uncertainty. Next, we consider three special cases of the general results, for the unconditional quantile estimation, for the conditional quantile regression with a binary covariate, and for the instrumental variable quantile regression (IVQR). For each of these special cases, we provide the second-order bias and MSE to illustrate their behavior which depends on certain parameters and distributional characteristics. The Monte Carlo simulation indicates that the bias is larger at the extreme low and high tail quantiles, and the second-order bias corrected estimator has better behavior than the uncorrected ones in both conditional and unconditional quantile estimation. The second-order bias corrected estimators are numerically much closer to the true parameters of the data generating processes. As the higher order bias and MSE decrease as the sample size increases or as the regression error variance decreases, the benefits of the finite sample theory are more apparent when there are larger sampling errors in estimation. The empirical application of the theory to the predictive quantile regression model in finance highlights the benefit of the proposed second-order bias reduction.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "392321531f47a515cd8cd242cd314876",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T03:11:04.631550"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving quantile regression estimators, particularly for deeper tail quantiles, which is directly relevant to financial risk management as mentioned in the abstract. The empirical application to predictive quantile regression in finance further supports this domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving quantile regression estimators, particularly for deeper tail quantiles, which is directly relevant to financial risk management as mentioned in the abstract. The empirical application to predictive quantile regression in finance further supports this domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:13.638787"
+}

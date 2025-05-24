@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2950,
+    "title": "SSCDV: Social media document embedding with sentiment and topics for financial market forecasting",
+    "abstract": "For reducing investment risks, predicting the volatility of financial markets is crucial. We propose a method for effectively embedding social media posts to facilitate accurate predictions of financial market trends. While discussions on social media inherently consist of paired information - a topic and its sentiment mood - most conventional studies have produced embeddings focusing only on either topic or sentiment information. This approach tends to neglect the intertwined nature of topic and sentiment, thereby overlooking potentially valuable information for market predictions. In this study, we overcome this challenge by introducing a novel document embedding technique that explicitly leverages both topics and sentiments collaboratively for market forecasting. The obtained embeddings are co-trained with financial time series data in a machine learning model, and their efficacy is evaluated through a market prediction task. Benchmarking against various existing document embedding techniques, our model demonstrated superior performance in terms of F-1 Score and Matthews correlation coefficient. The proposed model was further assessed from a practical viewpoint, utilizing investment simulations based on its predictions. These simulations confirmed the model's potential to generate profits even during heightened market volatility, demonstrating its effectiveness as a real -world investment risk mitigation model. Model interpretation using SHapley Additive exPlanations revealed that while some topicsentiment pairs on social media consistently contribute to market forecasting, others have only a transient impact. The SHapley Additive exPlanations experiment was also compared to the ablation model and showed that the proposed embedding allows for effective prediction by treating topics and sentiment jointly.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cc8ca13bf01374324202b23d3952b8af",
+    "relevant_keywords": [
+      "machine learning",
+      "representation learning",
+      "feature representation",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:20:48.265041"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过社交媒体情感和主题嵌入来预测金融市场趋势，旨在减少投资风险并生成利润。这直接涉及金融风险管理（预测市场波动）和投资组合管理（基于预测进行投资模拟）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过社交媒体情感和主题嵌入来预测金融市场趋势，旨在减少投资风险并生成利润。这直接涉及金融风险管理（预测市场波动）和投资组合管理（基于预测进行投资模拟）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:18.765843"
+}

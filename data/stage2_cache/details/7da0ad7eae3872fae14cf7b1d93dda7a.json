@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3525,
+    "title": "IT-Application Behaviour Analysis: Predicting Critical System States on OpenStack using Monitoring Performance Data and Log Files",
+    "abstract": "Recent studies have proposed several ways to optimize the stability of IT-services with an extensive portfolio of processual, reactive or proactive approaches. The goal of this paper is to combine monitored performance data, such as CPU utilization, with discrete data from log files in a joint model to predict critical system states. We propose a systematic method to derive mathematical prediction models, which we experimentally test using a downsized clone of a real life contract management system as a testbed. First, this testbed is used for data acquisition under variable and fully controllable system loads. Next, based on the monitored performance metrics and log file data, we train models (logistic regression and decision trees) that unify both, numeric and textual, data types in a single incident forecasting model. We focus on 1) investigating different cases to identify an appropriate prediction time window, allowing to prepare countermeasures by considering prediction accuracy and 2) identifying variables that appear more likely than others in the predictive models.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e85589011405a3c6a1aab1fd2fd6fa2a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:17:54.162929"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究IT系统状态的预测，结合性能监控数据和日志文件，用于预测关键系统状态，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究IT系统状态的预测，结合性能监控数据和日志文件，用于预测关键系统状态，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:40.318287"
+}

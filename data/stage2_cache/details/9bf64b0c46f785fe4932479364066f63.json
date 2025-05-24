@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1983,
+    "title": "Nonlinear asset pricing in Chinese stock market: A deep learning approach",
+    "abstract": "The redesign of asset pricing models failed to integrate the frequent financial phenomenon that stock markets exhibit a non-linear long-and short-term memory structure. The difficulty lies in developing a nonlinear pricing structure capable of depicting the memory influence of the pricing variable. This paper presents a Long-and Short-Term Memory Neural Network Model (LSTM) to capture the non-linear pricing structure among five elements in the Chinese stock market, including market portfolio return, market capitalisation, book-to-market ratio, earnings factor, and investment factor. The long-short-term memory structure implies that the autocorrelation function of the stock return series decays slowly and has a long-term characteristic. The LSTM model surpasses the standard Fama-French five-factor model in terms of out-of-sample goodness-of-fit and long-short strategy performance. The empirical findings indicate that the LSTM nonlinear model properly represents the nonlinear relationships between the five components.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cd04a0a4df0b7f7319492a7f79630907",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:41.661251"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM神经网络模型来改进资产定价模型，特别是在中国股票市场中捕捉非线性定价结构。这直接关联到投资组合管理领域，因为资产定价模型是构建和优化投资组合的基础工具。论文还提到模型在长短期策略表现上的优越性，进一步证实了其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM神经网络模型来改进资产定价模型，特别是在中国股票市场中捕捉非线性定价结构。这直接关联到投资组合管理领域，因为资产定价模型是构建和优化投资组合的基础工具。论文还提到模型在长短期策略表现上的优越性，进一步证实了其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:48.906430"
+}

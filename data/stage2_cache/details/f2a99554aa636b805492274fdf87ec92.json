@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1113,
+    "title": "Bitcoin Return Volatility Forecasting: A Comparative Study between GARCH and RNN",
+    "abstract": "One of the notable features of bitcoin is its extreme volatility. The modeling and forecasting of bitcoin volatility are crucial for bitcoin investors' decision-making analysis and risk management. However, most previous studies of bitcoin volatility were founded on econometric models. Research on bitcoin volatility forecasting using machine learning algorithms is still sparse. In this study, both conventional econometric models and a machine learning model are used to forecast the bitcoin's return volatility and Value at Risk. The objective of this study is to compare their out-of-sample performance in forecasting accuracy and risk management efficiency. The results demonstrate that the RNN outperforms GARCH and EWMA in average forecasting performance. However, it is less efficient in capturing the bitcoin market's extreme events. Moreover, the RNN shows poor performance in Value at Risk forecasting, indicating that it could not work well as the econometric models in explaining extreme volatility. This study proposes an alternative method of bitcoin volatility analysis and provides more motivation for economic researchers to apply machine learning methods to the less volatile financial market conditions. Meanwhile, it also shows that the machine learning approaches are not always more advanced than econometric models, contrary to common belief.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2a1a416b4f49e513bdd5f256da0fdc5b",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "RNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.551873"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心研究内容是比特币回报波动的预测及其在风险价值（Value at Risk）中的应用，这直接关联到金融风险管理领域。论文明确提到其研究目标包括风险管理的效率评估，且实验设计围绕波动性预测和极端事件捕捉展开，这些都是金融风险管理的典型应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心研究内容是比特币回报波动的预测及其在风险价值（Value at Risk）中的应用，这直接关联到金融风险管理领域。论文明确提到其研究目标包括风险管理的效率评估，且实验设计围绕波动性预测和极端事件捕捉展开，这些都是金融风险管理的典型应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:59.798359"
+}

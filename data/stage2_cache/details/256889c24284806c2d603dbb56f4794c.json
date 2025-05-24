@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 668,
+    "title": "Imbalanced credit risk evaluation based on multiple sampling, multiple kernel fuzzy self-organizing map and local accuracy ensemble",
+    "abstract": "Credit risk evaluation model is generally regarded as a valid method for business risk management. Although the most of literatures about credit risk evaluation always use class-balanced data as sample sets, the study on class-imbalanced datasets is more suitable for actual situation. This paper proposes a new ensemble model to evaluate class-imbalanced credit risk, which integrates multiple sampling, multiple kernel fuzzy self-organizing map and local accuracy ensemble. To preprocess imbalanced sample sets of credit risk evaluation, multiple sampling approaches (synthetic minority over-sampling technique, under sampling and hybrid sampling) are improved and integrated to acquire balanced datasets. To construct more suitable base classifiers, multiple kernel functions (Gaussian, Polynomial and Sigmoid) respectively are used to improve fuzzy self-organizing map. Then, the balanced sample sets are respectively processed by the improved base classifiers to acquire different prediction results. The local accuracy ensemble method is employed to dynamically synthesize these prediction results to obtain final result. The new ensemble model can further avoid over-fitting and information loss, be more suitable to handle the dataset including different financial indicators, and acquire the stable and satisfactory prediction result for imbalanced credit risk evaluation In the empirical research, this paper adopts the financial data from Chinese listed companies, and makes the comparative analysis with the relative models step by step. The results can prove that the new ensemble model presented by this article has better performance than other methods in terms of evaluating the imbalanced credit risk. (C) 2020 Elsevier B.V. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "1beb02773693287361d42061037b31a6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "SVM",
+      "sigmoid",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:41:29.771946"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种新的集成模型用于评估类别不平衡的信用风险，并采用了多种采样方法和改进的模糊自组织映射来构建基础分类器。这些技术直接应用于信用风险评价，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种新的集成模型用于评估类别不平衡的信用风险，并采用了多种采样方法和改进的模糊自组织映射来构建基础分类器。这些技术直接应用于信用风险评价，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:28.605664"
+}

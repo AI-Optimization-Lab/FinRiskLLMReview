@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 465,
+    "title": "Classifying payment patterns with artificial neural networks: An autoencoder approach",
+    "abstract": "Payments and market infrastructures are the backbone of modern financial systems and play a key role in the economy. One of their main goals is to manage systemic risk, especially in the case of systemically important payment systems (SIPS) serving interbank funds transfers. We develop an autoencoder for the Sistema de Pagos Interbancarios (SPI) of Ecuador, which is the largest SIPS, to detect potential anomalies stemming from payment patterns. Our work is similar to Triepels et al. (2018) and Sabetti and Heijmans (2020). We train four different autoencoder models using intraday data structured in three time-intervals for the SPI settlement activity to reconstruct its related payments network. We introduce bank run simulations to feature a baseline scenario and identify relevant autoencoder parametrizations for anomaly detection. The main contribution of our work is training an autoencoder to detect a wide range of anomalies in a payment system, ranging from the unusual behavior of individual banks to systemic changes in the overall structure of the payments network. We also found that these novel techniques are robust enough to support the monitoring of payments' and market infrastructures' functioning, but need to be accompanied by the expert judgement of payments overseers.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "4a7b49e82734f9d89e6a4c96d1ac0a6d",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder",
+      "denoising autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:38:17.463469"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用自编码器检测支付系统中的异常行为，特别是针对系统性风险的管理，这直接关联到金融风险管理领域。论文明确提到其目标是管理系统性风险，并通过模拟银行挤兑等场景来验证模型的异常检测能力。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用自编码器检测支付系统中的异常行为，特别是针对系统性风险的管理，这直接关联到金融风险管理领域。论文明确提到其目标是管理系统性风险，并通过模拟银行挤兑等场景来验证模型的异常检测能力。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:53.721619"
+}

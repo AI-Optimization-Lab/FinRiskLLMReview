@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2318,
+    "title": "Forecasting stock prices changes using long-short term memory neural network with symbolic genetic programming",
+    "abstract": "This study introduces an augmented Long-Short Term Memory (LSTM) neural network architecture, integrating Symbolic Genetic Programming (SGP), with the objective of forecasting cross-sectional price returns across a comprehensive dataset comprising 4500 listed stocks in the Chinese market over the period from 2014 to 2022. Using the S&P Alpha Pool Dataset for China as basic input, this architecture incorporates data augmentation and feature extraction techniques. The result of this study demonstrates significant improvements in Rank Information coefficient (Rank IC) and IC information ratio (ICIR) by 1128% and 5360% respectively when it is applied to fundamental indicators. For technical indicators, the hybrid model achieves a 206% increase in Rank IC and an impressive surge of 2752% in ICIR. Furthermore, the proposed hybrid SGP-LSTM model outperforms major Chinese stock indexes, generating average annualized excess returns of 31.00%, 24.48%, and 16.38% compared to the CSI 300 index, CSI 500 index, and the average portfolio, respectively. These findings highlight the effectiveness of SGP-LSTM model in improving the accuracy of cross-sectional stock return predictions and provide valuable insights for fund managers, traders, and financial analysts.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c2d136ef13a5d4b67d5f0f6e5af9a433",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:39.643477"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用增强的LSTM神经网络结合符号遗传编程来预测股票价格变化，并展示了其在提高投资组合表现方面的应用，如生成超额收益和优化投资组合选择，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用增强的LSTM神经网络结合符号遗传编程来预测股票价格变化，并展示了其在提高投资组合表现方面的应用，如生成超额收益和优化投资组合选择，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:52.613556"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 82,
+    "title": "基于Knockoff-Logistic的多因子量化选股研究",
+    "abstract": "在数据驱动时代，如何挖掘金融资产的信息、挑选恰当的资产，对稳定收益、控制风险意义重大。多因子量化模型是选择股票的常用方法，选取最优解释力的因子集合是其主要目的之一。现有因子选择方法没有考虑到控制错误发现率(FDR),不利于构建稳健的投资策略。为此，在Logistic回归的基础上引入Knockoff方法进行因子选择，通过Lasso实现因子选择，利用Knockoff控制变量选择的FDR从而提高准确率。基于所选因子，在Logistic回归下进行股票预测，并与线性判别分析、支持向量机以及随机森林模型的预测结果进行对比。对沪深300指数和中证500指数成分股2007—2020年的数据进行实证研究，采用滑动回归法进行收益预测，并建立季度换仓的投资策略。研究表明，从变量选择上来看，基于Knockoff方法选出的因子所构造的选股模型具有更好的市场表现；从模型对比上来看，Logistic回归预测的投资组合具备高收益、低风险的优势。综合来看，将Knockoff方法引入到多因子选股模型有利于提高因子选择的准确度，对优化资产配置具有参考意义。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "814437ece6cf08aceab7d4760568db0e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:22.410895"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于Knockoff-Logistic的多因子量化选股方法，旨在通过优化因子选择来提高股票预测的准确性，并建立季度换仓的投资策略。这些内容直接关联到投资组合的构建和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于Knockoff-Logistic的多因子量化选股方法，旨在通过优化因子选择来提高股票预测的准确性，并建立季度换仓的投资策略。这些内容直接关联到投资组合的构建和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:53.817539"
+}

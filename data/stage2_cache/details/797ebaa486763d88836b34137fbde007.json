@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1429,
+    "title": "Influences of mobile edge computing-based service preloading on the early-warning of financial risks",
+    "abstract": "The present work aims to apply the Internet of Things (IoT) to help enterprises improve financial management, timely discover hidden financial risks, and enhance the ability to resist risks. Firstly, the traditional financial risk early-warning model based on accounting information is analyzed. Accordingly, a corporate risk early-warning model is put forward from the perspective of cash flow, and the financial risk early-warning indicator system is established. Secondly, the Backpropagation neural network (BPNN) is employed to mine the financial data of the enterprise. After pre-processing, the data are input into the model according to the type of financial risk early-warning indicators to obtain the financial risk prediction result of the company. Thirdly, the mobile edge computing (MEC) service is introduced into the corporate financial management to improve the calculation performance of the corporate financial information processing and strengthen the timeliness of cash flow information and risk warning cooperating with IoT. Finally, an edge service preloading optimization model is established based on the Geographic Point of Interest Information and BPNN. According to the feature vector of the user location, the next service probability of the user is predicted, and the service preloading is carried out on the accessed edge server. Finally, the effect of this model is verified by experiments. The experimental results indicate that the prediction accuracy of the risk early-warning model designed here for financial health and crisis is 91.6% and 75%, respectively, and the response rate of the service preloading optimization model is between 2.1% and 5%. Therefore, service preloading can improve the response speed of corporate financial risk early-warning to a certain extent. This exploration provides a reference for the study of the corporate financial risk early-warning model based on MEC and IoT.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e531b3369b93983a89fce8531d2a6921",
+    "relevant_keywords": [
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.661456"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是应用BP神经网络和移动边缘计算（MEC）来建立企业财务风险预警模型，旨在及时发现隐藏的财务风险并提高风险抵抗能力。这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是应用BP神经网络和移动边缘计算（MEC）来建立企业财务风险预警模型，旨在及时发现隐藏的财务风险并提高风险抵抗能力。这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:03.642506"
+}

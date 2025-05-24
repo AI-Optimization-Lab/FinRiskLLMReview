@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 6189,
+    "title": "An early prediction model on systemic risk under global risk: Using FinBERT and temporal fusion transformer to multimodal data fusion framework",
+    "abstract": "Several United States banks went bankrupt in 2023, and the total scale exceeded the subprime 2008 mortgage crisis. Thus, determining how to better predict banks' systemic risks is crucial. While past research used quantitative data and statistical methods, rarely incorporated qualitative data, and lacked research exploring the impact of public confidence on systemic risk. This study examined 445,500 daily multimodal quantitative and qualitative data to analyze financial news. We obtained data on public confidence through finance bidirectional encoder representations from transformers (hereafter FinBERT) to explore the relationship between public confidence and systemic risk through temporal fusion transformers (TFTs). We established an early prediction model that predicts the next 5 and 20 days, achieving more accurate prediction performance than linear regression, LSTM (long short-term memory), and XGB (eXtreme gradient boosting). Based on the model that uses the past 20 days to predict the next five days, we found that positive and negative public confidence had a greater impact on systemic risk. In comparison, neutral public confidence had a lesser effect. Macro data such as carbon dioxide emissions also impact systemic risk. By expanding the time range to 60 days to predict 20 days, we found that the most significant impact on systemic risk factors was month, negative public information, interest rate, quasi-leverage, and the GDP growth rate. The findings indicate that public confidence deserves more attention than macro variables in preventing systemic risks in the banking industry. Negative public confidence significantly affects systemic risk, echoing the adage that Bad news has wings.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "200fb5a4522221bfa39f365591a1b970",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:55:44.559923"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting systemic risk in the banking industry using advanced machine learning techniques like FinBERT and temporal fusion transformers. This directly addresses the identification and management of financial risks, making it a clear application in the Financial Risk Management domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting systemic risk in the banking industry using advanced machine learning techniques like FinBERT and temporal fusion transformers. This directly addresses the identification and management of financial risks, making it a clear application in the Financial Risk Management domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:31.428532"
+}

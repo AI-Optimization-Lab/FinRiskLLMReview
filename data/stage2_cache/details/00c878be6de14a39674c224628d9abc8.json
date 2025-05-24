@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2518,
+    "title": "Model-based clustering with noise: Bayesian inference and estimation",
+    "abstract": "Bensmail, Celeux, Raftery, and Robert (1997) introduced a new approach to cluster analysis based on geometric modeling based on the within-group covariance in a mixture of multivariate normal distributions using a fully Bayesian framework. This is a model-based methodology, where the covariance matrix structure is involved. Previously, similar structures were used (using a maximum likelihood approach) by Banfield and Raftery (1993) for clustering data where they restricted some parameters of the covariance matrix structure to be known. In the same framework, Dasgupta and Raftery (1998) used the same reparameterization to detect the features in a spatial point process using maximum likelihood approach. These approaches work well, but they have some limitations. These limitations include the fact that not all covariance structures were considered and some parameters of the covariance structures were fixed. This paper proposes a new way of overcoming the existing limitations. It generalizes the model used in the the previous approaches by introducing a more comprehensive portfolio of covariance matrix structures. Further, this paper proposes a Bayesian solution in the presence of the noise in clustering problems. The performance of the proposed method is first studied by simulation; the procedure is also applied to the analysis of data concerning species of butterflies and diabetes patients.",
+    "year": 2003,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "de4cd94835c1991d1b1ca8bd7c851ffc",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:35.732944"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于贝叶斯框架的模型聚类方法，并应用于物种分类和糖尿病数据分析，未提及在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于贝叶斯框架的模型聚类方法，并应用于物种分类和糖尿病数据分析，未提及在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:09.103014"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 117,
+    "title": "Neural network regression for Bermudan option pricing",
+    "abstract": "The pricing of Bermudan options amounts to solving a dynamic programming principle, in which the main difficulty, especially in high dimension, comes from the conditional expectation involved in the computation of the continuation value. These conditional expectations are classically computed by regression techniques on a finite-dimensional vector space. In this work, we study neural networks approximations of conditional expectations. We prove the convergence of the well-known Longstaff and Schwartz algorithm when the standard least-square regression is replaced by a neural network approximation, assuming an efficient algorithm to compute this approximation. We illustrate the numerical efficiency of neural networks as an alternative to standard regression methods for approximating conditional expectations on several numerical examples.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ca279130c3e3619d3e4abe356bf2e0ae",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.338548"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用神经网络回归方法来近似计算Bermudan期权定价中的条件期望，这直接应用于衍生品定价领域。论文明确讨论了Longstaff和Schwartz算法在神经网络近似下的收敛性，并通过数值例子展示了神经网络在期权定价中的效率。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用神经网络回归方法来近似计算Bermudan期权定价中的条件期望，这直接应用于衍生品定价领域。论文明确讨论了Longstaff和Schwartz算法在神经网络近似下的收敛性，并通过数值例子展示了神经网络在期权定价中的效率。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:32.447011"
+}

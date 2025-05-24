@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 100,
+    "title": "基于TWSVM的核函数评估及其在量化投资中的应用",
+    "abstract": "由于股票数据存在噪声，传统的机器学习模型并不能很好地预测股票的涨跌。为了帮助投资者了解金融市场的发展趋势，构造有效的投资组合从而赢得超额收益，将对噪声数据具有良好鲁棒性的TWSVM算法应用到量化投资中。构造不同分类数据，以预测的正确率作为评价指标对TWSVM的核函数进行评估，发现poly核函数在TWSVM算法中具有稳定性。建立基于TWSVM的量化投资策略，以上证50股选股实验为例模拟交易并与RF、SVM、Logistic算法对比说明策略的有效性，实验结果表明，基于TWSVM量化投资策略的年化收益率比其他三者提高约3百分点至11百分点。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "951f30fdb912168ea376b12bac1fbe2c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:22.423433"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术TWSVM算法被应用于量化投资策略中，旨在通过预测股票涨跌来构建有效的投资组合，从而赢得超额收益。这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术TWSVM算法被应用于量化投资策略中，旨在通过预测股票涨跌来构建有效的投资组合，从而赢得超额收益。这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:50.490452"
+}

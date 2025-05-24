@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 740,
+    "title": "Big data analytics for default prediction using graph theory",
+    "abstract": "With the unprecedented increase in data all over the world, financial sector such as companies and industries try to remain competitive by transforming themselves into data-driven organizations. By analyzing a huge amount of financial data, companies are able to obtain valuable information to determine their strategic plans such as risk control, crisis management, or growth management. However, as the amount of data increase dramatically, traditional data analytic platforms confront with storing, managing, and analyzing difficulties. Emerging Big Data Analytics (BDA) overcome these problems by providing decentralized and distributed processing. In this study, we propose two new models for default prediction. In the first model, called DPModel-1, statistical (logistic regression), and machine learning methods (decision tree, random forest, gradient boosting) are employed to predict company default. Derived from the first model, we propose DPModel-2 based on graph theory. DPModel-2 also comprises new variables obtained from the trading interactions of companies. In both models, grid search optimization and SHapley Additive exPlanations (SHAP) value are utilized in order to determine the best hyperparameters and make the models interpretable, respectively. By leveraging balance sheet, credit, and invoice datasets, default prediction is realized for about one million companies in Turkey between the years 2010?2018. The default rates of companies range between 3%-6% by year. The experimental results are conducted on a BDA platform. According to the DPModel-1 results, the highest AUC score is ensured by random forest with 0.87. In addition, the results are improved for each technique separately by adjusting new variables with graph theory. According to DPModel-2 results, the best AUC score is achieved by random forest with 0.89.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "78743389510355cdb08bda69c0723a2a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:34.066568"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing models for default prediction using big data analytics and graph theory, which is directly related to assessing and managing credit risk, a key aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing models for default prediction using big data analytics and graph theory, which is directly related to assessing and managing credit risk, a key aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:25.223970"
+}

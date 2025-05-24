@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1961,
+    "title": "A Stock Market Decision-Making Framework Based on CMR-DQN",
+    "abstract": "In the dynamic and uncertain stock market, precise forecasting and decision-making are crucial for profitability. Traditional deep neural networks (DNN) often struggle with capturing long-term dependencies and multi-scale features in complex financial time series data. To address these challenges, we introduce CMR-DQN, an innovative framework that integrates discrete wavelet transform (DWT) for multi-scale data analysis, temporal convolutional network (TCN) for extracting deep temporal features, and a GRU-LSTM-Attention mechanism to enhance the model's focus and memory. Additionally, CMR-DQN employs the Rainbow DQN reinforcement learning strategy to learn optimal trading strategies in a simulated environment. CMR-DQN significantly improved the total return rate on six selected stocks, with increases ranging from 20.37% to 55.32%. It also demonstrated substantial improvements over the baseline model in terms of Sharpe ratio and maximum drawdown, indicating increased excess returns per unit of total risk and reduced investment risk. These results underscore the efficiency and effectiveness of CMR-DQN in handling multi-scale time series data and optimizing stock market decisions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "bb90e9bf32dd67e42e8d7865ae8edb53",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:14.438714"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术CMR-DQN框架专注于优化股票市场决策，通过改进总回报率、夏普比率和最大回撤等指标来提升投资表现，这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术CMR-DQN框架专注于优化股票市场决策，通过改进总回报率、夏普比率和最大回撤等指标来提升投资表现，这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:09.963405"
+}

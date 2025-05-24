@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 695,
+    "title": "Mining User's Opinion Towards the Rising and Falling Trends of the Stock Market: A Hybrid Model",
+    "abstract": "Mining users' opinions towards the rising and falling trends of the stocks may help the management department estimate the risk and make timely decision. Existing methods ignore the effective fusion of domain information and pretrained language models, hindering mining implicit semantic information. This paper proposes a hybrid method that adopts masked language modeling to obtain a domain-information-enhanced language model. Firstly, it generates an attention-mechanism-oriented masking based on words' importance, word-level polarity and terminology. Then, the masked words and their corresponding knowledge are predicted to acquire domain-aware language representation. Experimental results on two public financial sentiment analysis datasets show the efficacy of the proposed model.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "4b7aceac5ef5898aab1cc26691b4534b",
+    "relevant_keywords": [
+      "deep learning",
+      "representation learning",
+      "attention mechanism",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:41:29.836656"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种混合方法来挖掘用户对股票涨跌趋势的看法，目的是帮助管理部门估计风险并做出及时决策。这直接关联到金融风险管理中的市场风险监测和情绪分析应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种混合方法来挖掘用户对股票涨跌趋势的看法，目的是帮助管理部门估计风险并做出及时决策。这直接关联到金融风险管理中的市场风险监测和情绪分析应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:27.565908"
+}

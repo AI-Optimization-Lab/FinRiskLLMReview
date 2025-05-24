@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1204,
+    "title": "A novel grey relational clustering model under sequential three-way decision framework",
+    "abstract": "In the context of addressing clustering problems with small samples, grey relational clustering (GRC) plays a crucial role. Currently, a three-way GRC has gained popularity, particularly for its ability to handle the uncertain relationship between objects and classes. However, explicit clustering for some objects may not be achievable when employing the one-step decision, which is often a coarse-grained approach. In such cases, re-clustering these objects with a finer granularity becomes necessary. This is where the sequential three-way decision (STWD) proves to be an effective solution. Therefore, this paper is dedicated to designing a novel GRC under the STWD framework, namely GRC-STWD. Specifically, recognizing that some existing threshold calculations in GRCs can be overly subjective and that a pair-wise global threshold may not efficiently leverage available information for accurate object clustering, we introduce a novel threshold algorithm to address these limitations. Furthermore, we propose a conditional probability calculation method combining TOPSIS and grey relational degrees for clustering data lacking decision attributes or class labels. As the development of GRC within portfolio environments remains relatively nascent, we apply the proposed model to portfolio strategy construction. Finally, comparative and experimental analyses validate the model's effectiveness and feasibility. Notably, the developed model serves as a generalization of GRC, contributing to the broader advancement of GRC and STWD methodologies.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "209bc6167794608e2c54a2e80f8822c2",
+    "relevant_keywords": [
+      "clustering",
+      "unsupervised learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:09.879079"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly mentions applying the proposed GRC-STWD model to portfolio strategy construction, which is a key aspect of portfolio management. While the paper primarily focuses on clustering methodologies, its application in portfolio strategy construction indicates a direct relevance to the field of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly mentions applying the proposed GRC-STWD model to portfolio strategy construction, which is a key aspect of portfolio management. While the paper primarily focuses on clustering methodologies, its application in portfolio strategy construction indicates a direct relevance to the field of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:23.456483"
+}

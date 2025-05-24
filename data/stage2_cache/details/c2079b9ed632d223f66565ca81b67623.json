@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 194,
+    "title": "American option pricing using Bayesian multi-layer perceptrons and Bayesian support vector machines",
+    "abstract": "An option is the right, not the obligation, to buy or sell an underlying asset at a later date but by fixing the price of the asset now. There are European and American styled options... European styled options can be priced using the Black-Scholes equations but American options are more complex and valuable due to the second random process they introduce. Multi-Layer Perceptrons and Support Vector Machines have been used previously to price American options and what is introduced here is Bayesian Techniques to both these approaches. Bayesian techniques used with both these approaches are compared in terms of pricing accuracy and time to train each of the learning algorithms. It was found that Bayesian SVM's out-performed Bayesian MLP's and that there is scope for further work. However, Bayesian SVM's took much longer to train than Bayesian MLP's even though they produced better error results.",
+    "year": 2005,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "f0fad6b5c8803c455c4d076c33803018",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.154507"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用贝叶斯多层感知机和贝叶斯支持向量机来定价美式期权，这直接属于衍生品定价的范畴。论文明确讨论了美式期权的定价问题，并比较了不同贝叶斯机器学习方法在定价准确性和训练时间上的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用贝叶斯多层感知机和贝叶斯支持向量机来定价美式期权，这直接属于衍生品定价的范畴。论文明确讨论了美式期权的定价问题，并比较了不同贝叶斯机器学习方法在定价准确性和训练时间上的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:07.306355"
+}

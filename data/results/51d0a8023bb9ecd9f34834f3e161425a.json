@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "regression"
+  ],
+  "explanations": {
+    "machine learning": "The paper uses natural language processing (NLP) to extract psychosocial factors from chart notes, which is a machine learning technique.",
+    "supervised learning": "The study involves predicting future health care utilization using labeled data (psychosocial factors and health outcomes), which is a supervised learning approach.",
+    "classification": "The paper predicts the likelihood of hospitalizations and emergency department visits, which can be framed as a classification problem (e.g., high risk vs. low risk).",
+    "regression": "Logistic regression is explicitly mentioned as the method used to predict the likelihood of future health care utilization."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"regression\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper uses natural language processing (NLP) to extract psychosocial factors from chart notes, which is a machine learning technique.\",\n    \"supervised learning\": \"The study involves predicting future health care utilization using labeled data (psychosocial factors and health outcomes), which is a supervised learning approach.\",\n    \"classification\": \"The paper predicts the likelihood of hospitalizations and emergency department visits, which can be framed as a classification problem (e.g., high risk vs. low risk).\",\n    \"regression\": \"Logistic regression is explicitly mentioned as the method used to predict the likelihood of future health care utilization.\"\n  }\n}\n```"
+}

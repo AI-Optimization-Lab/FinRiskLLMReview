@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 736,
+    "title": "A feedback neural network for solving convex quadratic bi-level programming problems",
+    "abstract": "In this paper, a feedback neural network model is proposed for solving a class of convex quadratic bi-level programming problems based on the idea of successive approximation. Differing from existing neural network models, the proposed neural network has the least number of state variables and simple structure. Based on Lyapunov theories, we prove that the equilibrium point sequence of the feedback neural network can approximately converge to an optimal solution of the convex quadratic bi-level problem under certain conditions, and the corresponding sequence of the function value approximately converges to the optimal value of the convex quadratic bi-level problem. Simulation experiments on three numerical examples and a portfolio selection problem are provided to show the efficiency and performance of the proposed neural network approach.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d935f92279d7713a6c68896f1419ff97",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.653072"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中提到该方法在一个投资组合选择问题上进行了仿真实验，表明其核心技术应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中提到该方法在一个投资组合选择问题上进行了仿真实验，表明其核心技术应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:19.623943"
+}

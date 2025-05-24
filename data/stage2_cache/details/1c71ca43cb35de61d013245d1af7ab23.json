@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 270,
+    "title": "Assessing project portfolio risk via an enhanced GA-BPNN combined with PCA",
+    "abstract": "Assessing project portfolio risk (PPR) is essential for organizations to grasp the overall risk levels of project portfolios (PPs) and realize PPR mitigation. However, current research is inadequate to effectively assess PPR, which brings challenges to managing PPR. In this context, the purpose of this study is to develop a PPR assessment model via an enhanced backpropagation neural network (BPNN). First, PPR assessment criteria considering project interdependencies are determined. Second, fuzzy logic is used to obtain original data for assessment criteria. Principal component analysis (PCA) is then employed to reduce the dimensionality of assessment criteria and derive the input and output of BPNN. Third, an improved genetic algorithm (IGA) is designed to optimize the initial weights and thresholds of BPNN. On this basis, the PCA-IGA-BPNN assessment model is constructed, followed by training and testing, possessing a test accuracy of 98.6%. Finally, comparison experiments are conducted from both internal and external perspectives. For internal comparison, the proposed model yields less mean absolute percentage error (MAPE), mean square error (MSE), and root mean square error (RMSE) than PCA-GA-BPNN, IGA-BPNN, PCA-BPNN and BPNN and offers the largest convergence speed (). As for external comparison, the presented model produces lower MAPE, MSE, and RMSE than Decision Tree (DT), Support Vector Machine (SVM), Random Forest (RF), and K-Nearest Neighbor (KNN) and has the largest coefficient of determination (R2). Results indicate that the established model performs more satisfactorily in assessing PPR. This research enriches PPR assessment methods and provides managers with a useful tool to evaluate PPR.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d9193f9363244c0ff32e048b20540c43",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "principal components analysis",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.791402"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一个评估项目组合风险（PPR）的模型，通过结合改进的遗传算法和反向传播神经网络来优化风险评估。虽然论文中提到的'项目组合'（project portfolio）与金融领域的'投资组合'（investment portfolio）有所不同，但其核心方法和技术（如风险评估和优化）与投资组合管理中的风险分析和优化高度相关。因此，可以认为该论文的主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一个评估项目组合风险（PPR）的模型，通过结合改进的遗传算法和反向传播神经网络来优化风险评估。虽然论文中提到的'项目组合'（project portfolio）与金融领域的'投资组合'（investment portfolio）有所不同，但其核心方法和技术（如风险评估和优化）与投资组合管理中的风险分析和优化高度相关。因此，可以认为该论文的主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:14.965384"
+}

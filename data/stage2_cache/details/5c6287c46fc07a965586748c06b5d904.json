@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2419,
+    "title": "Accurate and efficient stock market index prediction: an integrated approach based on VMD-SNNs",
+    "abstract": "The stock market index typically mirrors the financial market's performance. Hence, accurate prediction of stock market index trends is essential for investors aiming to mitigate financial risk and enhance future investment returns. Traditional statistical approaches often struggle with the non-linear nature of stock market index data, leading to potential inaccuracies in long-term predictions. To address this issue, we introduce the TCN-LSTM-SNN (TLSNN) model, a hybrid framework that integrates Long Short-Term Memory (LSTM) and Temporal Convolutional Network (TCN) for robust feature extraction, within a highly efficient Spiking Neural Network (SNN) architecture. Additionally, we employ the Subtraction-Average-Based Optimizer (SABO) to refine the Variational Mode Decomposition (VMD) technique, thereby separating the periodic and trend components of stock indices, reducing noise interference, and establishing a decomposition ensemble framework to bolster the model's resilience. The experimental results show that the VMD-TLSNN hybrid model suggested in this study surpasses other individual benchmark models and their hybrid models in prediction accuracy. Additionally, it demonstrates notably lower energy consumption compared to other hybrid models.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fb453c27be0f9717826a6ea18e37e7e8",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:26.944904"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是预测股票市场指数趋势，旨在帮助投资者提高投资回报并降低风险，这直接关联到投资组合管理的决策过程。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是预测股票市场指数趋势，旨在帮助投资者提高投资回报并降低风险，这直接关联到投资组合管理的决策过程。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:29.153631"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 379,
+    "title": "Attention-based CNN-LSTM for high-frequency multiple cryptocurrency trend prediction",
+    "abstract": "With the price of Bitcoin, Ethereum, and many other cryptocurrencies climbing, the cryptocurrency market has become the most popular investment area in recent years. Unlike other relatively more stable financial derivatives, the cryptocurrency market has high volatility which requires a high-frequency prediction model for quantitative trading. However, the excessive number of trading becomes a critical issue due to the instability of the prediction results and high error rate. To relieve such a problem, based on the observation of high frequency data, we use local minimum series to replace the original series and propose a more stable triple trend labeling method that reduces the number of trades by potentially influencing the training of the model. In addition, a new attention-based CNN-LSTM model for multiple cryptocurrencies (ACLMC) is proposed to optimize model effects by exploiting correlations across frequencies and currencies, and to smooth out the investment risk associated with prediction errors by supporting simultaneous multi-currency predictions. Experiments show that our labeling method with ACLMC can achieve much better financial metrics and fewer number of transactions than traditional baselines.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "5c8f4af1834ddf86c9860d3cb91e5cb6",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:37:32.456924"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一种基于注意力机制的CNN-LSTM模型（ACLMC），用于高频多加密货币趋势预测，目的是优化模型效果并通过支持同时多货币预测来平滑与预测错误相关的投资风险。这直接关联到投资组合管理领域，因为其研究目标是提高多资产投资的决策质量和风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一种基于注意力机制的CNN-LSTM模型（ACLMC），用于高频多加密货币趋势预测，目的是优化模型效果并通过支持同时多货币预测来平滑与预测错误相关的投资风险。这直接关联到投资组合管理领域，因为其研究目标是提高多资产投资的决策质量和风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:39.562139"
+}

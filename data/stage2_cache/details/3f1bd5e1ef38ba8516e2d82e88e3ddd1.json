@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1056,
+    "title": "Predicting systemic risk in financial systems using Deep Graph Learning",
+    "abstract": "Systemic risk is the risk of infection from an individual financial entity to the financial system due to existing interconnections. Having powerful tools to analyze and predict systemic risk in large financial networks is essential to ensure the stability of the financial system, avoiding the negative externalities derived from the failure of a systemically important financial institution. In this context, Machine Learning (ML) has proved to be a useful tool thanks to its ability to deal with complex relations. However, traditional techniques are limited in their use of the interactions between entities and the network structure, which has been shown to be of great importance for systemic risk. Thus, this work proposes Graph Neural Networks (GNNs) for systemic risk analysis. GNNs use the network structure and feature information to deal with large-scale financial networks, providing the benefits of ML while using all the available information (node inter-relations and node, edge, and graph features). We also present C2R, an approach to reduce the pre-labeling effort for costly systemic risk metrics by pre-labeling into a small number of classes while predicting continuous risk scores. We have tested GNNs against traditional ML in classifying entities by systemic risk importance in two different networks, comparing their generalization capabilities with different amounts of available data. GNNs achieve a 94% and 15% Matthew's Correlation Coefficient (MCC) average percentage increase compared to ML, achieving statistically significant MCC improvements in most scenarios. When combining C2R with GNNs to predict the systemic risk quantile from the class labels, the models achieve statistically significant improvements in the quantile RMSE. From our experiments, we can confirm that GNN models are better suited for systemic risk prediction on financial networks and should be preferred over traditional Machine Learning. The results obtained also confirm the fact that the network structure and the features of the relations (edge features) hold useful information for our task.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "80f9dd9fa0f24c8b291fb1c702e4e7d9",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "classification",
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:08.636518"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用图神经网络（GNNs）进行系统性风险分析，旨在预测金融网络中的系统性风险，这直接属于金融风险管理的范畴。论文的研究目标和实验设计都集中在风险预测和管理上，而非衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用图神经网络（GNNs）进行系统性风险分析，旨在预测金融网络中的系统性风险，这直接属于金融风险管理的范畴。论文的研究目标和实验设计都集中在风险预测和管理上，而非衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:20.762515"
+}

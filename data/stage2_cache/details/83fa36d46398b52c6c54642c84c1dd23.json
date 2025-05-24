@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 269,
+    "title": "A Domain Specific Approach to High Performance Heterogeneous Computing",
+    "abstract": "Users of heterogeneous computing systems face two problems: first, in understanding the trade-off relationships between the observable characteristics of their applications, such as latency and quality of the result, and second, how to exploit knowledge of these characteristics to allocate work to distributed computing platforms efficiently. A domain specific approach addresses both of these problems. By considering a subset of operations or functions, models of the observable characteristics or domain metrics may be formulated in advance, and populated at run-time for task instances. These metric models can then be used to express the allocation of work as a constrained integer program. These claims are illustrated using the domain of derivatives pricing in computational finance, with the domain metrics of workload latency and pricing accuracy. For a large, varied workload of 128 Black-Scholes and Heston model-based option pricing tasks, running upon a diverse array of 16 Multicore CPUs, GPUs and FPGAs platforms, predictions made by models of both the makespan and accuracy are generally within 10 percent of the run-time performance. When these models are used as inputs to machine learning and MILP-based workload allocation approaches, a latency improvement of up to 24 and 270 times over the heuristic approach is seen.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "c2394c6c99db18fec4fddaf73ca7da9b",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.074093"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文明确提到使用Black-Scholes和Heston模型进行期权定价任务，这属于衍生品定价的范畴。论文的主要技术应用集中在如何高效分配计算资源以优化衍生品定价的延迟和准确性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文明确提到使用Black-Scholes和Heston模型进行期权定价任务，这属于衍生品定价的范畴。论文的主要技术应用集中在如何高效分配计算资源以优化衍生品定价的延迟和准确性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:41.387993"
+}

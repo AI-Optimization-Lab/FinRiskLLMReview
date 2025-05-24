@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 133,
+    "title": "Evolutionary Hedging Model for Power Trading to Maximize Daily Profits",
+    "abstract": "Established trading strategies such as fully back-to-back hedging no longer work in a world where customers transfer the cost of hedging completely to traders. Dynamic daily hedging models, in which profits are generated from long and short futures' positions, have been proposed in combination with accurate Phelix futures and spot price forecasting. This study provides a new approach to accurately forecast Phelix monthly futures prices with long short-term memory-recurrent neural network time series. In addition, a newly proposed daily dynamic hedging model capable of processing recurring inputs is optimized with an evolutionary algorithm to maximize daily profits. Calculated optimized daily hedge ratios provided by the algorithm are backtested on real Phelix market data. The results for the different tested periods confirm that a trading company could consistently generate positive returns under the most competitive pricing assumption and outperform established trading strategies in both trending bear and bull markets.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "800b0f5add6765b9072818bd9f948466",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.367448"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用LSTM神经网络预测Phelix期货价格，并结合进化算法优化每日动态对冲模型以最大化每日利润。这属于金融风险管理领域，因为其主要目标是开发一种对冲策略来管理价格波动风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM神经网络预测Phelix期货价格，并结合进化算法优化每日动态对冲模型以最大化每日利润。这属于金融风险管理领域，因为其主要目标是开发一种对冲策略来管理价格波动风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:30.470277"
+}

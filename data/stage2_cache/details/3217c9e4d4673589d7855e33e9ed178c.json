@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 23,
+    "title": "A new options pricing method: semi-stochastic kernel regression method with constraints",
+    "abstract": "This paper presents a unified semi-stochastic kernel regression method for pricing options under general stochastic volatility model. The method combines semi-stochastic sampling for initial asset values with Monte Carlo simulations to construct a least-squares based kernel function regression solution. This approach can not only approximates option prices, but also determines the Greeks of option. The least square problem is augmented with weighted derivative constraints, which enables flexible adjustment of approximate errors for both option prices and Greeks. Numerical results show the efficiency of the proposed method for the Vanilla option and some exotic options: Asian option, Lookback option, discretely monitored Barrier option and the Basket option with several assets under the stochastic volatility model.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "b776f930caa67d2871022e95e6f75b30",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.497923"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是一种半随机核回归方法，专门用于在一般随机波动率模型下定价期权。论文明确提到了该方法用于近似期权价格和确定期权的希腊字母，并且数值结果展示了该方法在多种期权（如Vanilla期权、亚洲期权、回望期权等）定价中的效率。因此，该论文的主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是一种半随机核回归方法，专门用于在一般随机波动率模型下定价期权。论文明确提到了该方法用于近似期权价格和确定期权的希腊字母，并且数值结果展示了该方法在多种期权（如Vanilla期权、亚洲期权、回望期权等）定价中的效率。因此，该论文的主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:29.912620"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 463,
+    "title": "Risk-Aversion Adjusted Portfolio Optimization with Predictive Modeling",
+    "abstract": "We propose a multi-period portfolio optimization method rooted on the mean-risk framework, in which the risk aversion coefficient is adjusted in response to the market trend movement predicted by machine learning models. We use the Gini's Mean Difference to characterize the risk of the portfolio, and employ a series of technical indicators as the features to feed the predictive machine learning models. A set of comprehensive computational tests are carried out within a rolling-horizon approach to evaluate the performance of the generated portfolios. The empirical results show that the regularized logistic regression model provides the best prediction of market trend movement, while the proposed dynamic risk-aversion adjusted portfolio rebalancing strategy generates portfolios with higher time-series cumulative returns than a static strategy with fixed risk-aversion coefficient.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7e808de81098e25bb09a6be3f5873797",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.351369"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是提出一种多期投资组合优化方法，通过机器学习模型预测市场趋势并动态调整风险厌恶系数，以优化投资组合的表现。这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是提出一种多期投资组合优化方法，通过机器学习模型预测市场趋势并动态调整风险厌恶系数，以优化投资组合的表现。这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:37.400539"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 5834,
+    "title": "Predictive Modeling of Implantation Outcome in an In Vitro Fertilization Setting: An Application of Machine Learning Methods",
+    "abstract": "Background. Multiple embryo transfers in in vitro fertilization (IVF) treatment increase the number of successful pregnancies while elevating the risk of multiple gestations. IVF-associated multiple pregnancies exhibit significant financial, social, and medical implications. Clinicians need to decide the number of embryos to be transferred considering the tradeoff between successful outcomes and multiple pregnancies. Objective. To predict implantation outcome of individual embryos in an IVF cycle with the aim of providing decision support on the number of embryos transferred. Design. Retrospective cohort study. Data Source. Electronic health records of one of the largest IVF clinics in Turkey. The study data set included 2453 embryos transferred at day 2 or day 3 after intracytoplasmic sperm injection (ICSI). Each embryo was represented with 18 clinical features and a class label, +1 or -1, indicating positive and negative implantation outcomes, respectively. Methods. For each classifier tested, a model was developed using two-thirds of the data set, and prediction performance was evaluated on the remaining one-third of the samples using receiver operating characteristic (ROC) analysis. The training-testing procedure was repeated 10 times on randomly split (two-thirds to one-third) data. The relative predictive values of clinical input characteristics were assessed using information gain feature weighting and forward feature selection methods. Results. The naive Bayes model provided 80.4% accuracy, 63.7% sensitivity, and 17.6% false alarm rate in embryo-based implantation prediction. Multiple embryo implantations were predicted at a 63.8% sensitivity level. Predictions using the proposed model resulted in higher accuracy compared with expert judgment alone (on average, 75.7% and 60.1%, respectively). Conclusions. A machine learning-based decision support system would be useful in improving the success rates of IVF treatment.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "676422578283d0684fd8524a4662b26d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "naive Bayes",
+      "feature selection"
+    ],
+    "stage1_timestamp": "2025-05-15T02:51:58.581247"
+  },
+  "domain_result": {
+    "success": false,
+    "error": "Client error '429 Too Many Requests' for url 'https://api.deepseek.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "application_domains": [
+      "None"
+    ],
+    "justification": "API调用失败: Client error '429 Too Many Requests' for url 'https://api.deepseek.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "raw_response": null
+  },
+  "timestamp": "2025-05-20T15:29:36.245787"
+}

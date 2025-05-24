@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1778,
+    "title": "How Much Can Machines Learn Finance from Chinese Text Data?",
+    "abstract": "How much can we learn finance directly from text data? This paper presents a new framework for learning textual data based on the factor augmentation model and sparsity regularization, called the factor -augmented regularized model for prediction (FarmPredict), to let machines learn financial returns directly from news. FarmPredict allows the model itself to extract information directly from articles without predefined information, such as dictionaries or pretrained models as in most studies. Using unsupervised learned factors to augment the predictors would benefit our method with a doublerobust feature: that the machine would learn to balance between individual words or text factors/topics. It also avoids the information loss of factor regression in dimensionality reduction. We apply our model to the Chinese stock market with a large proportion of retail investors by using Chinese news data to predict financial returns. We show that positive sentiments scored by our FarmPredict approach from news generate on average 83 basic points (bps) stock daily excess returns, and negative news has an adverse impact of 26 bps on the days of news announcements, where both effects can last for a few days. This asymmetric effect aligns well with the short -sale constraints in the Chinese equity market. The result shows that the machine -learned prediction does provide sizeable predictive power with an annualized return of 54% at most with a simple investment strategy. Compared with other statistical and machine learning methods, FarmPredict significantly outperforms them on model prediction and portfolio performance. Our study demonstrates the of machines to learn text data.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f3fda888108329550b2a81ba57b49147",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "feature learning",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:23.038398"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术FarmPredict用于从新闻文本数据中预测金融回报，并展示了通过简单的投资策略可以实现54%的年化回报，这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术FarmPredict用于从新闻文本数据中预测金融回报，并展示了通过简单的投资策略可以实现54%的年化回报，这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:50.032685"
+}

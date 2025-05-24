@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 2316,
+    "title": "FinLlama: LLM-Based Financial Sentiment Analysis for Algorithmic Trading",
+    "abstract": "Online sources of financial news have a profound influence on both market movements and trading decisions. Standard sentiment analysis employs a lexicon-based approach to aid financial decisions, but struggles with context sensitivity and word ordering. On the other hand, Large Language Models (LLMs) are powerful, but are not finance-specific and require significant computational resources. To this end, we introduce a finance specific LLM framework, based on the Llama 2 7B foundational model, in order to benefit from its generative nature and comprehensive language manipulation. Such a generator-discriminator scheme, referred to as FinLlama, both classifies sentiment valence and quantifies its strength, offering a nuanced insight into financial news. The FinLlama model is fine-tuned on supervised financial sentiment analysis data, to make it handle the complexities of financial lexicon and context, and is equipped with a neural network-based decision mechanism. The subsequent parameter-efficient fine-tuning optimises trainable parameters, thus minimising computational and memory requirements without sacrificing accuracy. Simulation results demonstrate the ability of FinLlama to increase market returns in portfolio management scenarios, yielding high-return and resilient portfolios, even during volatile periods.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "309a3fb141208c0f89b9958aa3d96abd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "Large Language Model",
+      "LLM",
+      "Instruction Tuning",
+      "LLaMA"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:39.636599"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一个金融特定的大型语言模型（FinLlama）用于情感分析，以辅助算法交易。论文明确提到该模型在投资组合管理场景中能够增加市场回报，并产生高回报和弹性的投资组合。因此，其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一个金融特定的大型语言模型（FinLlama）用于情感分析，以辅助算法交易。论文明确提到该模型在投资组合管理场景中能够增加市场回报，并产生高回报和弹性的投资组合。因此，其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:52.937459"
+}

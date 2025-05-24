@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 727,
+    "title": "Predicting financial fraud in Chinese listed companies: An enterprise portrait and machine learning approach",
+    "abstract": "Financial fraud of listed companies is a frequent problem in the capital market. Due to factors such as information asymmetry and inadequate regulation, financial fraud severely restricts stakeholders' capital allocation behavior and hinders the sustainable development of the capital market. However, existing research lacks systematic and quantitative insights into the characteristics of firms involved in financial fraud, making it difficult to achieve quantitative identification of most such firms. This limitation arises from a predominant focus on the causal relationships between various financial indicators and financial fraud. In this paper, we integrate machine learning and enterprise portrait methods, using listed companies in the Chinese capital market as research subjects to predict corporate financial fraud. Firstly, a comprehensive system of indicators is established, covering seven dimensions: basic corporate information, profitability, solvency, operating efficiency, capital structure, corporate governance, and emotional attitude. Subsequently, the feature visualization portrait is created using Gaussian mixture model (GMM) clustering and label classification, while the predictive role of multidimensional enterprise portrait features in assessing the risk of corporate financial fraud is examined. The results indicate that unstructured indicators, such as Management Discussion and Analysis (MD&A), can significantly enhance predictive capability for corporate financial fraud. The SHapley Additive exPlanations (SHAP) method is introduced to reveal the influencing factors and characteristics of financial fraud. The empirical findings show that firms involved in financial fraud typically exhibit characteristics such as shorter listing times, weaker solvency and operating efficiency, higher capital structure, and poor corporate governance ability. Moreover, the XGBoost model demonstrates superior predictive performance among various models. The findings of this study provide a new perspective for in-depth exploration of the impact mechanisms of financial fraud and related regulatory warnings. These findings contribute to enhancing the effectiveness of governance and the capital allocation function within the capital market.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d847bd0bf0ff829fcf466d5a5d351617",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "clustering",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:34.003824"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习和企业画像方法来预测上市公司财务欺诈，这属于金融风险管理中的操作风险和欺诈风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习和企业画像方法来预测上市公司财务欺诈，这属于金融风险管理中的操作风险和欺诈风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:26.923947"
+}

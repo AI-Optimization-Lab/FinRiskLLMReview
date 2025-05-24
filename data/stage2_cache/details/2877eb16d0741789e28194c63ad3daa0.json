@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 66,
+    "title": "A SVM Stock Selection Model within PCA",
+    "abstract": "In the financial market, well-performing stocks usually have some specific features in financial figures. This paper introduces a machine learning method of support vector machine to construct a stock selection model, which can do the nonlinear classification of stocks. However, the accuracy of SVM classification is very sensitive to the quality of training set. To avoid the direct use of complicated and highly dimensional financial ratios, we bring the principal component analysis (PCA) into SVM model to extract the low-dimensional and efficient feature information, which improves the training accuracy and efficiency as well as preserve the features of initial data. As empirical results show, based on support vector machine, within PCA after norm-standardization, the stock selection model achieves the entire accuracy of 75.4464% in training set and of 61.7925% in test set. Further, the PCA-SVM stock selection model contributes the annual earnings of stock portfolio to outperforming those of A-share index of Shanghai Stock Exchange, significantly. (C) 2014 Published by Elsevier B.V. Open access under CC BY-NC-ND license.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ae8020386242f88e03021bb7ddd8d0bd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.998663"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用支持向量机（SVM）和主成分分析（PCA）构建股票选择模型，旨在提高股票组合的收益表现。这直接涉及投资组合管理中的股票选择和组合优化问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用支持向量机（SVM）和主成分分析（PCA）构建股票选择模型，旨在提高股票组合的收益表现。这直接涉及投资组合管理中的股票选择和组合优化问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:56.315239"
+}

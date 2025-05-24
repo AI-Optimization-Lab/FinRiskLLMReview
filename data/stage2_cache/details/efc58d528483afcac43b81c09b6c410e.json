@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 153,
+    "title": "An ensemble-based model for two-class imbalanced financial problem",
+    "abstract": "This study proposes an ensemble-based model (EBM) for the two-class imbalanced classification problem by joining together the support vector machine (SVM), multiple feature selection combination, back-propagation neural network (BPNN) ensemble, and rough set theory (RST). To improve the significance of the rare and specific region belonging to the minority class in the decision region, we take the SVM as a pre-processor to balance the training dataset and use multiple feature selection combination grounded on ensemble learning in order to determine the most representative features from the re-sized dataset The representative features are then fed into the BPNN ensemble to construct an effective financial pre-warning mechanism. Lacking comprehensibility and readability is one of the fatal weaknesses of an ensemble classifier and it impedes its real-life application. Thus, the study executes RST to extract knowledge from the BPNN ensemble for decision makers to make suitable judgments. Decision makers can take the decision rules as a roadrnap to modify a firm's capital structure so as to survive in an extremely turbulent financial market. Empirical results reveal that the introduced EBM's prediction accuracy is very promising in financial risk mining, relative to other detection approaches in this study. (C) 2013 Elsevier B.V. All rights reserved.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "33598d03fb50499ddd3b89c8fcc46606",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:14.181216"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种集成模型用于构建金融预警机制，并提到决策者可以利用决策规则修改公司的资本结构以应对动荡的金融市场，这明确指向金融风险管理的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种集成模型用于构建金融预警机制，并提到决策者可以利用决策规则修改公司的资本结构以应对动荡的金融市场，这明确指向金融风险管理的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:25.823060"
+}

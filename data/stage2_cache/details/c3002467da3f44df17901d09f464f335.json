@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2373,
+    "title": "Learning financial asset-specific trading rules via deep reinforcement learning",
+    "abstract": "Generating asset-specific trading signals based on the financial conditions of the assets is one of the challenging problems in automated trading. Various asset trading rules are proposed experimentally based on different technical analysis techniques. However, these kind of trading strategies are profitable, extracting new asset specific trading rules from vast historical data to increase total return and decrease the risk of portfolios is difficult for human experts. Recently, various deep reinforcement learning (DRL) methods are employed to learn the new trading rules for each asset. In this paper, a novel DRL model with various feature extraction modules is proposed. The effect of different input representations on the performance of the models is investigated and the performance of DRL-based models in different markets and asset situations is studied. The proposed model in this work outperformed the other state-of-the-art models in learning single asset-specific trading rules and obtained almost 12.4% more profit over the best state-of-the-art model on the Dow Jones Index in the same time period.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e742c464a2f0cbe723df30779189b064",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "feature representation",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:50.279584"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习来生成资产特定的交易信号，旨在提高总回报并降低投资组合的风险，这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习来生成资产特定的交易信号，旨在提高总回报并降低投资组合的风险，这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:54.662822"
+}

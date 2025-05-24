@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 0,
+    "title": "基于深度确定性策略梯度算法的股票投资组合策略研究",
+    "abstract": "为构建更加全面有效的投资组合，采用了深度确定性策略梯度算法，并在奖励函数中引入了风险衡量指标索提诺比率来实现风险与收益之间的权衡.除基本的股票数据外还将股票市场中的技术指标作为状态的输入，以捕捉股票市场的主要趋势.经数据检验，与其他强化学习算法对比，改进奖励函数的DDPG算法能够在控制风险的同时得到较高收益，有效地实现了风险的分散和投资组合的稳健性.",
+    "year": 2025,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9ae799be1aba878dc5dc557b9fda07b3",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:20:52.547313"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度确定性策略梯度算法来构建和优化股票投资组合，并在奖励函数中引入风险衡量指标以实现风险与收益的权衡，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度确定性策略梯度算法来构建和优化股票投资组合，并在奖励函数中引入风险衡量指标以实现风险与收益的权衡，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:25.039638"
+}

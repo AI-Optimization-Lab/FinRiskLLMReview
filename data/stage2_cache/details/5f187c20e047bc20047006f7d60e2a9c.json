@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2825,
+    "title": "How can consumers without credit history benefit from the use of information processing and machine learning tools by financial institutions?",
+    "abstract": "This research aims to enhance the predictability of creditworthiness among marginalized consumers affected by the widespread adoption of AI frameworks. We utilize ensemble methods to handle the imbalanced dataset used for evaluating the credit risk of consumers with sparse or non-existent credit histories. To promote fairness in the Machine Learning (ML) model, we employed the disparate impact remover-a recognized bias mitigation tool to minimize group bias. Three strategies were employed to tackle dataset imbalance: oversampling, undersampling, and class weight adjustment. Our findings reveal that adjusting the class weight proved most effective in sustaining commendable performance, demonstrating higher accuracy and F-1 scores surpassing 80% in most experiments. While the application of the disparate impact remover might compromise the ML model's predictive capabilities, our results underscore the necessity of deliberating over the use of potentially bias-sensitive, unprotected features. Recognizing the critical nature of this trade-off for financial decision-makers, we delve into its implications.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "65766c2c46fb7183a246819e80fce3eb",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:19:46.617500"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法评估无信用历史消费者的信用风险，这直接涉及信用风险评估和管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法评估无信用历史消费者的信用风险，这直接涉及信用风险评估和管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:46.125167"
+}

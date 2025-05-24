@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2638,
+    "title": "Stochastic Delay Forecasts for Edge Traffic Engineering via Bayesian Networks",
+    "abstract": "Traffic engineering at network edges is challenging given the latency-sensitive nature of all applications that need to be supported. End-to-end delay estimation and forecasts were essential traffic engineering tools even before the mobile edge computing paradigm pushed the cloud closer to the end user. In this paper, we model the path selection problem for edge traffic engineering using a risk minimization technique inspired by portfolio theory in economics, and we use machine learning to estimate path selection risks. In particular, using real latency time series measurements, both existing and collected with and without the GENI testbed, we compare four short-horizon latency estimation techniques, commonly used by the finance community to estimate prices of volatile financial instruments. Our results suggest that a Bayesian Network approach may lead to good latency (peak) estimation performance, as long as there are dependencies among the time series path latency measurements.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8394182f92748de54c33bb634d96940a",
+    "relevant_keywords": [
+      "machine learning",
+      "Bayesian Network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:17:32.197870"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提到使用受投资组合理论启发的风险最小化技术来建模边缘流量工程中的路径选择问题，这属于投资组合管理的应用范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提到使用受投资组合理论启发的风险最小化技术来建模边缘流量工程中的路径选择问题，这属于投资组合管理的应用范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:05.913453"
+}

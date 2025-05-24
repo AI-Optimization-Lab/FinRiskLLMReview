@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 234,
+    "title": "FLOOD RISK MAPPING USING RANDOM FOREST AND SUPPORT VECTOR MACHINE",
+    "abstract": "Floods are among the natural disasters that cause financial and human losses all over the world every year. By production of a flood risk map and determination of potential flood risk areas, the possible damages of this phenomenon can be reduced. To map the flood extend in Calcasieu Parish, Louisiana, US, conditioning factors affecting the flood occurrence including elevation, slope, plan curvature, land use, distance from rivers, density of rivers, rainfall, normalized difference vegetation index (NDVI), modified normalized difference water index (MNDWI), and normalized difference built-up index ( NDBI) were identified and their information layers produced using the Google Earth Engine (GEE) cloud platform. Then, for flood risk mapping, Random Forest (RF) and support vector machine (SVM) as two machine learning models have been implemented and their results compared. RF and SVM models have been validated based on the maximum absolute error (MAE) index with an accuracy of 0.043 and 0.097, respectively. Visualization of the predicted values in QGIS software confirms that the RF model has provided better outputs than that of the SVM model. By analysing the features importance of the layers in the RF model, it was verified that the elevation, slope, and plan curvature layers have the highest degree of influence on the flood risk with degrees of importance of 0.197, 0.135, and 0.123.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "aa4d8e94d8d76a268162edb81441a2eb",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:48:30.733837"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究洪水风险映射，使用了随机森林和支持向量机等机器学习技术，但其应用场景是自然灾害风险评估，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究洪水风险映射，使用了随机森林和支持向量机等机器学习技术，但其应用场景是自然灾害风险评估，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:53.509167"
+}

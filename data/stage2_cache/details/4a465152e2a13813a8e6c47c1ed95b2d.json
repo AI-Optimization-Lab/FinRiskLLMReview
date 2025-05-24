@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2563,
+    "title": "Efficient Simulation of Clustering Jumps with CIR Intensity",
+    "abstract": "We Introduce a broad family of generalised self-exciting point processes with CIR-type intensities, and we develop associated algorithms for their exact simulation. The underlying models are extensions of the classical Hawkes process, which already has numerous applications in modelling the arrival of events with clustering or contagion effect in finance, economics, and many other fields. Interestingly, we find that the CIR-type intensity, together with its point process, can be sequentially decomposed into simple random variables, which immediately leads to a very efficient simulation scheme. Our algorithms are also pretty accurate and flexible. They can be easily extended to further incorporate externally excited jumps, or, to a multidimensional framework. Some typical numerical examples and comparisons with other well-known schemes are reported in detail. In addition, a simple application for modelling a portfolio loss process is presented.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e1dc66f1ade1572f4d6b0f04a70403ae",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:08:10.834440"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种广义自激励点过程的模拟方法，并特别提到了在投资组合损失过程建模中的应用，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种广义自激励点过程的模拟方法，并特别提到了在投资组合损失过程建模中的应用，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:24.210288"
+}

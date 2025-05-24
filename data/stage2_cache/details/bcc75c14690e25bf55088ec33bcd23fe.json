@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 4307,
+    "title": "Credit rating prediction using Ant Colony Optimization",
+    "abstract": "The introduction of the Basel II Capital Accord has encouraged financial institutions to build internal rating systems assessing the credit risk of their various credit portfolios. One of the key outputs of an internal rating system is the probability of default (PD), which reflects the likelihood that a counterparty will default on his/her financial obligation. Since the PD modelling problem basically boils down to a discrimination problem (defaulter or not), one may rely on the myriad of classification techniques that have been suggested in the literature. However, since the credit risk models will be subject to supervisory review and evaluation, they must be easy to understand and transparent. Hence, techniques such as neural networks or support vector machines are less suitable due to their black box nature. Building upon previous research, we will use AntMiner+ to build internal rating systems for credit risk. AntMiner+ allows to infer a propositional rule set from a given data set, hereby using the principles from Ant Colony Optimization. Experiments will be conducted using various types of credit data sets (retail, small-and medium-sized enterprises and banks). It will be shown that the extracted rule sets are both powerful in terms of discriminatory power and comprehensibility. Furthermore, a framework will be presented describing how AntMiner+ fits into a global Basel II credit risk management system. Journal of the Operational Research Society (2010) 61, 561-573. doi: 10.1057/jors.2008.164 Published online 11 March 2009",
+    "year": 2010,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7ad1ee923313b214911ea39976006830",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:35:26.357485"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using Ant Colony Optimization to predict credit ratings and assess the probability of default (PD), which is a key component of credit risk management under the Basel II framework. The primary application is in building internal rating systems for credit risk, clearly falling under financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using Ant Colony Optimization to predict credit ratings and assess the probability of default (PD), which is a key component of credit risk management under the Basel II framework. The primary application is in building internal rating systems for credit risk, clearly falling under financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:22.067338"
+}

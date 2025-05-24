@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 23,
+    "title": "Asymmetric Graph-Based Deep Reinforcement Learning for Portfolio Optimization",
+    "abstract": "In recent years, existing studies have sought to enhance the effectiveness of portfolio optimization by modeling asset relations. However, employing conventional graph neural network methodologies for effective aggregation and final representation learning of intricately complex financial information within real-world markets proves challenging. This necessitates the optimization of graph structures to enhance the accuracy of parsing and leveraging financial information. In this paper, we propose an asymmetric graph-based deep reinforcement learning for portfolio optimization. Specifically, leveraging the excellent evaluative capabilities of large language models, we decipher multi-dimensional asymmetric relationships between stocks in multi-dimensional data, constructing asymmetric stock relationship graphs based on news and sectors. We then design a multi-dimensional relationship attention mechanism to jointly represent asymmetric graph information and employ deep reinforcement learning for end-to-end portfolio optimization. Extensive experiments on real datasets from China and the United States have demonstrated the superiority of our method over existing state-of-the-art methods. In the industrial observation conducted at a leading financial technology company, we validated the applicability of our method in real-world market scenarios.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "814f7deca74c1043164cc0442a3dc927",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "attention mechanism",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:16.274083"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于非对称图的深度强化学习方法，用于投资组合优化。论文明确提到使用该方法进行端到端的投资组合优化，并在真实市场数据上进行了实验验证，这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于非对称图的深度强化学习方法，用于投资组合优化。论文明确提到使用该方法进行端到端的投资组合优化，并在真实市场数据上进行了实验验证，这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:24.711761"
+}

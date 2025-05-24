@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 327,
+    "title": "An efficient implementation of a least squares Monte Carlo method for valuing American-style options",
+    "abstract": "Several methods for valuing high-dimensional American-style options were proposed in the last years. Longstaff and Schwartz (LS) have suggested a regression-based Monte Carlo approach, namely the least squares Monte Carlo method. This article is devoted to an efficient implementation of this algorithm. First, we suggest a code for faster runs. Regression-based Monte Carlo methods are sensitive to the choice of basis functions for pricing high-dimensional American-style options and, like all Monte Carlo methods, to the underlying random number generator. For this reason, we secondly propose an optimal selection of basis functions and a random number generator to guarantee stable results. Our basis depends on the payoff of the high-dimensional option and consists of only three functions. We give a guideline for an efficient option price calculation of high-dimensional American-style options with the LS algorithm, and we test it in examples with up to 10 dimensions.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "a9ce958b00d4ada74eca8e41b13fabfc",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.379937"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是改进最小二乘蒙特卡洛方法，用于高效定价高维美式期权，这直接属于衍生品定价领域。论文的研究目标和实验设计都集中在期权定价的准确性和效率上，并未涉及风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是改进最小二乘蒙特卡洛方法，用于高效定价高维美式期权，这直接属于衍生品定价领域。论文的研究目标和实验设计都集中在期权定价的准确性和效率上，并未涉及风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:16.592326"
+}

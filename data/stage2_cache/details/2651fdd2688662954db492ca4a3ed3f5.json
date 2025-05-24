@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 862,
+    "title": "Machine Learning-Based Prediction for High Health Care Utilizers by Using a Multi-Institutional Diabetes Registry: Model Training and Evaluation",
+    "abstract": "Background: The cost of health care in many countries is increasing rapidly. There is a growing interest in using machine learning for predicting high health care utilizers for population health initiatives. Previous studies have focused on individuals who contribute to the highest financial burden. However, this group is small and represents a limited opportunity for long-term cost reduction. Objective: We developed a collection of models that predict future health care utilization at various thresholds. Methods: We utilized data from a multi-institutional diabetes database from the year 2019 to develop binary classification models. These models predict health care utilization in the subsequent year across 6 different outcomes: patients having a length of stay of >= 7, >= 14, and >= 30 days and emergency department attendance of >= 3, >= 5, and >= 10 visits. To address class imbalance, random and synthetic minority oversampling techniques were employed. The models were then applied to unseen data from 2020 and 2021 to predict health care utilization in the following year. A portfolio of performance metrics, with priority on area under the receiver operating characteristic curve, sensitivity, and positive predictive value, was used for comparison. Explainability analyses were conducted on the best performing models. Results: When trained with random oversampling, 4 models, that is, logistic regression, multivariate adaptive regression splines, boosted trees, and multilayer perceptron consistently achieved high area under the receiver operating characteristic curve (>0.80) and sensitivity (>0.60) across training-validation and test data sets. Correcting for class imbalance proved critical for model performance. Important predictors for all outcomes included age, number of emergency department visits in the present year, chronic kidney disease stage, inpatient bed days in the present year, and mean hemoglobin A1c levels. Explainability analyses using partial dependence plots demonstrated that for the best performing models, the learned patterns were consistent with real-world knowledge, thereby supporting the validity of the models. Conclusions: We successfully developed machine learning models capable of predicting high service level utilization with strong performance and valid explainability. These models can be integrated into wider diabetes-related population health initiatives.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "663e59e2bac8f9354bc860dda1509017",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "logistic regression",
+      "decision tree",
+      "neural network",
+      "multilayer perceptron",
+      "boosted trees"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.145221"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用机器学习预测高医疗资源使用者的模型，其应用领域是医疗健康管理，而非金融领域的衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用机器学习预测高医疗资源使用者的模型，其应用领域是医疗健康管理，而非金融领域的衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:34.749935"
+}

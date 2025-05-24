@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 154,
+    "title": "Unidirectional and bidirectional LSTM models for edge weight predictions in dynamic cross-market equity networks",
+    "abstract": "Predicting financial networks has important implications in finance. However, less research attention has been given in this direction. This study aims to predict cross market linkage strengths in financial networks using dynamic edge weight prediction. The study builds edge weight prediction models using deep learning based unidirectional and bidirectional long short-term memory (LSTM and BiLSTM) approaches. The models are built on temporally variant equity cross market networks in Asia. A rolling window approach is used to generate temporally synchronous observations of edge weight structures and subsequent networks. The models are trained with a series of historical network structure information. Tuning of hyperparameters was performed to obtain the optimized models. The models were validated using nested cross validation methods. The applicability of the optimized models was assessed for different scenarios, and promising results were found for edge weight pre-dictions on both unfiltered and filtered structures. The study also shows that the predictive performance of the BiLSTM model is the same across correlated (positively weighted) and anti-correlated (negatively weighted) edges. However, for LSTM the same does not hold true. The results also demonstrate that the proposed models predict edge weights better during normal conditions than in the crisis period. The proposed models are benchmarked against ARIMA and RNN. To our knowledge, this is the first attempt to build network prediction models for cross market equity networks. The findings can have key implications such as managing international portfolio diversifications and controlling systemic risk transmissions.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "53d78704256e9f3af143229841ed4c08",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:34:25.457947"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM和BiLSTM模型预测跨市场股票网络的动态边权重，其应用场景包括管理国际投资组合多样化和控制系统性风险传播，这分别对应于投资组合管理和金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM和BiLSTM模型预测跨市场股票网络的动态边权重，其应用场景包括管理国际投资组合多样化和控制系统性风险传播，这分别对应于投资组合管理和金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:07.176364"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1776,
+    "title": "Portfolio Strategies to Track and Outperform a Benchmark",
+    "abstract": "I investigate the question of how to construct a benchmark replicating portfolio consisting of a subset of the benchmark's components. I consider two approaches: a sequential stepwise regression and another method based on factor models of security returns' first and second moments. The first approach produces the standard hedge portfolio that has the maximum feasible correlation with the benchmark. The second approach produces weights that are proportional to a signal-to-noise ratio of factor beta to idiosyncratic volatility. Using a factor model of securities returns allows the use of a larger number of securities than the number of time periods used to estimate the parameters of the factor model. I also consider a second objective that maximizes expected returns subject to a target tracking error variance. The security selection criterion naturally extends to the product of the information ratio and the signal-to-noise ratio. The optimal tracking portfolio is either a one-fund or a two-fund portfolio rule consisting of the optimal hedging portfolio, the tangent portfolio or the global minimum variance portfolio, depending on what constraints are imposed on the objective function. I construct buy-and-hold replicating portfolios using the algorithms presented in the paper to track a widely followed stock index with very good results both in-sampleandout-of-sample.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "37a08c04950ae72413da1d1dc497bca8",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:23.030612"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on constructing benchmark replicating portfolios and optimizing portfolio strategies to track and outperform a benchmark, which are core topics in portfolio management. The methods discussed, such as sequential stepwise regression and factor models, are applied to portfolio construction and optimization, directly aligning with the investment portfolio management domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on constructing benchmark replicating portfolios and optimizing portfolio strategies to track and outperform a benchmark, which are core topics in portfolio management. The methods discussed, such as sequential stepwise regression and factor models, are applied to portfolio construction and optimization, directly aligning with the investment portfolio management domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:06.898583"
+}

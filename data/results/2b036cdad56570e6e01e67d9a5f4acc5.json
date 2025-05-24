@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "XGBoost"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions a machine learning-based system for insider threat detection.",
+    "supervised learning": "The paper describes a system that classifies employees into risk categories, which implies the use of supervised learning techniques.",
+    "classification": "The system classifies employees into low, medium, and high risk categories, which is a classification task.",
+    "XGBoost": "The paper specifically mentions XGBoost as the most effective model in their validation."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"XGBoost\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions a machine learning-based system for insider threat detection.\",\n    \"supervised learning\": \"The paper describes a system that classifies employees into risk categories, which implies the use of supervised learning techniques.\",\n    \"classification\": \"The system classifies employees into low, medium, and high risk categories, which is a classification task.\",\n    \"XGBoost\": \"The paper specifically mentions XGBoost as the most effective model in their validation.\"\n  }\n}\n```"
+}

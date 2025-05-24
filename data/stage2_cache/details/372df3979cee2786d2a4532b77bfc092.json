@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1163,
+    "title": "Novel Deep Reinforcement Algorithm With Adaptive Sampling Strategy for Continuous Portfolio Optimization",
+    "abstract": "Quantitative trading targets favorable returns by determining patterns in historical data through statistical or mathematical approaches. With advances in artificial intelligence, many studies have indicated that deep reinforcement learning (RL) can perform well in quantitative trading by predicting price change trends in the financial market. However, most of the related frameworks display poor generalizability in the testing stage. Thus, we incorporated adversarial learning and a novel sampling strategy for RL portfolio management. The goal was to construct a portfolio comprising five assets from the constituents of the Dow Jones Industrial Average and to achieve excellent performance through our trading strategy. We used adversarial learning during the RL process to enhance the model's robustness. Moreover, to improve the model's computational efficiency, we introduced a novel sampling strategy to determine which data are worth learning by observing the learning condition. The experimental results revealed that the model with our sampling strategy had more favorable performance than the random learning strategy. The Sharpe ratio increased by 6 %-7 %, and profit increased by nearly 45 %. Thus, our proposed learning framework and the sampling strategy we employed are conducive to obtaining reliable trading rules.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a11c9b41151360055980e1f3f577e63a",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.859690"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on using deep reinforcement learning with an adaptive sampling strategy for continuous portfolio optimization, specifically aiming to construct and manage a portfolio of assets from the Dow Jones Industrial Average. The primary goal is to achieve favorable returns through an improved trading strategy, which directly aligns with the objectives of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on using deep reinforcement learning with an adaptive sampling strategy for continuous portfolio optimization, specifically aiming to construct and manage a portfolio of assets from the Dow Jones Industrial Average. The primary goal is to achieve favorable returns through an improved trading strategy, which directly aligns with the objectives of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:53.311568"
+}

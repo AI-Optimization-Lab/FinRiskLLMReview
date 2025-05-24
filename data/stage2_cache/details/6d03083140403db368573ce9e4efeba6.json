@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 5260,
+    "title": "Fluctuations and Forecasting of Carbon Price Based on A Hybrid Ensemble Learning GARCH-LSTM-Based Approach: A Case of Five Carbon Trading Markets in China",
+    "abstract": "Carbon trading risk management and policy making require accurate forecasting of carbon trading prices. Based on the sample of China's carbon emission trading pilot market, this paper firstly uses the Augmented Dickey-Fuller test and Autoregressive conditional heteroscedasticity model to test the stationarity and autocorrelation of carbon trading price returns, uses the Generalized Autoregressive Conditional Heteroscedasticity family model to analyze the persistence, risk and asymmetry of carbon trading price return fluctuations, and then proposes a hybrid prediction model neural network (generalized autoregressive conditional heteroscedasticity-long short-term memory network) due to the shortcomings of GARCH models in carbon price fluctuation analysis and prediction. The model is used to predict the carbon trading price. The results show that the carbon trading pilots have different degrees of volatility aggregation characteristics and the volatility persistence is long, among which only the Shanghai and Beijing carbon trading markets have risk premiums. The other pilot returns have no correlation with risks, and the fluctuations of carbon trading prices and returns are asymmetrical. The prediction results of different models show that the root mean square error (RMSE) of Hubei, Shenzhen and Shanghai carbon trading pilots based on the GARCH-LSTM model is significantly lower than that of the single GARCH model, and the RMSE values are reduced by 0.0006, 0.2993 and 0.0151, respectively. The RMSE in the three pilot markets improved by 0.0007, 0.3011 and 0.0157, respectively, compared to the standalone LSTM model. At the same time, compared with the single model, the GARCH-LSTM model significantly increased the R<^>2 value in Hubei (0.2000), Shenzhen (0.7607), Shanghai (0.0542) and Beijing (0.0595). Therefore, compared with other models, the GARCH-LSTM model can significantly improve the prediction accuracy of carbon price and provide a new idea for scientifically predicting the fluctuation of financial time series such as carbon price.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d4227a82085c75164ea6e82ccb985ca5",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:45:47.566387"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用GARCH-LSTM混合模型预测碳交易价格波动，旨在为碳交易风险管理和政策制定提供科学依据。这直接涉及金融风险管理领域，特别是对价格波动的分析和预测。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用GARCH-LSTM混合模型预测碳交易价格波动，旨在为碳交易风险管理和政策制定提供科学依据。这直接涉及金融风险管理领域，特别是对价格波动的分析和预测。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:34.161497"
+}

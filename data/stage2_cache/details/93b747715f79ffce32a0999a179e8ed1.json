@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 211,
+    "title": "基于决策树的股票多因子优化模型策略研究",
+    "abstract": "近年来,对量化交易的研究渐渐发展,但是我国的市场波动性大,对量化交易产生的一些影响,且投资组合受宏观,市场等因素的影响,使大家越来越关注因子的配置上。本文的核心思想是遵守市场的变化规律,顺势而行,结合金融知识使用单因子策略对因子进行筛选,再将筛选出的因子使用岭回归、SVM、决策树等机器学习算法训练,对股票收益率进行预测,实验表明决策树在股票预测效果极佳。",
+    "year": 2020,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5031ded03e1d5092bb53bd6e51c525f4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-14T22:13:31.313139"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习算法（如决策树、SVM等）对股票收益率进行预测，并优化因子配置，这直接应用于投资组合管理的领域，旨在提高投资组合的收益表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习算法（如决策树、SVM等）对股票收益率进行预测，并优化因子配置，这直接应用于投资组合管理的领域，旨在提高投资组合的收益表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:57.496131"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 520,
+    "title": "A cost-effective approach to portfolio construction with range-based risk measures",
+    "abstract": "In this paper, we introduce a new class of risk measures and the corresponding risk minimizing portfolio optimization problem. Instead of measuring the expected deviation of a daily return from a single target value, we propose to measure its deviation from a range of values centered on the single target value. By relaxing the definition of deviation, the proposed risk measure is robust to the variation of data input and thus the resulting risk-minimizing portfolio has a lower turnover rate and is resilient to outliers. To construct a practical portfolio, we propose to impose an l(2)-norm constraint on the portfolio weights to stabilize the portfolio's out-of-sample performance. We show that for some cases of our proposed range-based risk measures, the corresponding portfolio optimization can be recast as a support vector regression problem. This allows us to tap into the machine learning literature on support vector regression and effectively solve the portfolio optimization problem even in high dimensions. Moreover, we present theoretical results on the robustness of our range-based risk minimizing portfolios. Simulation and empirical studies are conducted to examine the out-of-sample performance of the proposed portfolios.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "29cbb097135e3cd9f059f207affa8223",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:21.051426"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是提出一种新的风险度量方法，并应用于投资组合优化问题，旨在构建具有较低周转率和抗异常值能力的投资组合。论文的研究目标和实验设计都明确指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是提出一种新的风险度量方法，并应用于投资组合优化问题，旨在构建具有较低周转率和抗异常值能力的投资组合。论文的研究目标和实验设计都明确指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:04.459707"
+}

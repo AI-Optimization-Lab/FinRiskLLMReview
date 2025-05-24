@@ -1,0 +1,37 @@
+{
+  "paper": {
+    "id": 2039,
+    "title": "Prediction of cryptocurrency's price using ensemble machine learning algorithms",
+    "abstract": "Purpose - Cryptocurrency markets are gaining popularity, with over 23,000 cryptocurrencies in 2023 and a total market valuation of 870.81 billion USD in 2023. With its increasing popularity, cryptocurrencies are also susceptible to volatility. Predicting the price with the least fallacy or more accuracy has become the need of the hour as it significantly influences investment decisions. Design/methodology/approach - This study aims to create a dynamic forecasting model using the ensemble method and test the forecasting accuracy of top 15 cryptocurrencies' prices. Statistical and econometric model prediction accuracy is examined after hyper tuning the parameters. Drawing inferences from the statistical model, an ensemble model using machine learning (ML) algorithms is developed using gradient-boosted regressor (GBR), random forest regressor (RFR), support vector regression (SVR) and multi-layer perceptron (MLP). Validation curves are utilized to optimize model parameters and boost prediction accuracy. Findings - It is found that when the price movement exhibits autocorrelation, the autoregressive integrated moving average (ARIMA) model and the ensemble model performed better. ARIMA, simple linear regression (SLR), random forest (RF), decision tree (DT), gradient boosting (GB) and multi-model regression (MLR) ensemble models performed well with coins, showing that trends, seasonality and historical price patterns are prominent. Furthermore, the MLR approach produces more accurate predictions for coins with higher volatility and irregular price patterns. Research limitations/implications - Although the dataset includes crisis period data, anomalies or outliers are yet to be explicitly excluded from the analysis. The models employed in this study still demonstrate high accuracy in predicting cryptocurrency prices despite these outliers, suggesting that the models are robust enough to handle unexpected fluctuations or extreme events in the market. However, the lack of specific analysis on the impact of outliers on model performance is a limitation of the study, as it needs to fully explore the resilience of the forecasting models under adverse market conditions. Practical implications - The present study contributes to the body of literature on ensemble methods in forecasting crypto price in general, potentially influencing future studies on price forecasting. The study motivates the researchers on empirical testing of our framework on various asset classes. As a result, on the prediction ability of ensemble model, the study will significantly influence the decision-making process of traders and investors. The research benefits the traders and investors to effectively develop a model to forecast cryptocurrency price. The findings highlight the potential of ensemble model in predicting high volatile cryptocurrencies and other financial assets. Investors can design the investment strategies and asset allocation decisions by understanding the relationship between market trends and consumer behavior. Investors can enhance portfolio performance and mitigate risk by incorporating these insights into their decision-making processes. Policymakers can use this information to design more effective regulations and policies promoting economic stability and consumer welfare. The study emphasizes the need for using diversified model to understand the market dynamics and improving trading strategies. Originality/value - This research, to the best of our knowledge, is the first to use the above models to develop an ensemble model on the data for which the outliers have not been adjusted, and the model still outperformed the other statistical, econometric, ML and deep learning (DL) models.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4a5196077208c205acbe2b06e3ce0af9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "multi-layer perceptron"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:25.771672"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用集成机器学习算法预测加密货币价格，其研究目标明确提到影响投资决策和资产配置决策，这直接关联到投资组合管理领域。论文还提到投资者可以利用这些预测来设计投资策略和资产分配决策，进一步证实了其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用集成机器学习算法预测加密货币价格，其研究目标明确提到影响投资决策和资产配置决策，这直接关联到投资组合管理领域。论文还提到投资者可以利用这些预测来设计投资策略和资产分配决策，进一步证实了其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:46.841178"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1367,
+    "title": "Lasso-based simulation for high-dimensional multi-period portfolio optimization",
+    "abstract": "This paper proposes a regression-based simulation algorithm for multi-period mean-variance portfolio optimization problems with constraints under a high-dimensional setting. For a high-dimensional portfolio, the least squares Monte Carlo algorithm for portfolio optimization can perform less satisfactorily with finite sample paths due to the estimation error from the ordinary least squares (OLS) in the regression steps. Our algorithm, which resolves this problem e, that demonstrates significant improvements in numerical performance for the case of finite sample path and high dimensionality. Specifically, we replace the OLS by the least absolute shrinkage and selection operator (lasso). Our major contribution is the proof of the asymptotic convergence of the novel lasso-based simulation in a recursive regression setting. Numerical experiments suggest that our algorithm achieves good stability in both low- and higher-dimensional cases.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "98f3883ae016b99ec4e62658cfe557ff",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:56.452073"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种基于Lasso的回归模拟算法，用于解决高维多期均值-方差投资组合优化问题，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种基于Lasso的回归模拟算法，用于解决高维多期均值-方差投资组合优化问题，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:35.495645"
+}

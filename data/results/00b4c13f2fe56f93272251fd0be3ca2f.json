@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "classification",
+    "support vector machine",
+    "SVM"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the application of machine learning principles to study the relationship between public sentiment and market movements.",
+    "classification": "The paper discusses the use of a binary classifier (SVM) for direction (up and down) predictions of the DJIA index, which is a classification task.",
+    "support vector machine": "The paper specifically mentions achieving 91% accuracy with an SVM-based binary classifier for predicting market directions.",
+    "SVM": "This is an abbreviation for support vector machine, which is directly referenced in the paper as the classifier used for market direction predictions."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"classification\", \"support vector machine\", \"SVM\"], \n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the application of machine learning principles to study the relationship between public sentiment and market movements.\",\n    \"classification\": \"The paper discusses the use of a binary classifier (SVM) for direction (up and down) predictions of the DJIA index, which is a classification task.\",\n    \"support vector machine\": \"The paper specifically mentions achieving 91% accuracy with an SVM-based binary classifier for predicting market directions.\",\n    \"SVM\": \"This is an abbreviation for support vector machine, which is directly referenced in the paper as the classifier used for market direction predictions.\"\n  }\n}\n```"
+}

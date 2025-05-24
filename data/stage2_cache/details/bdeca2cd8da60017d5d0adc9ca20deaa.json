@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 838,
+    "title": "Design of Quantitative Trading System Based on Data Mining Method under Software and High-Performance Computing",
+    "abstract": "The size of funds managed by all hedge funds in the world has exceeded 2.7 trillion US dollars. The funds of various funds and asset management products managed by quantitative investment account for about 30% of the total global trading volume, and in various large stock exchanges around the world, various quantitative investment methods contribute nearly 50% volume of transactions. The construction of a quantitative trading strategy requires first statistical analysis of the information in the securities and futures market and then backtesting the quantitative model with historical data. In view of the practical application of quantitative trading, this study designs a quantitative trading system based on the data mining method. The main development tool used is the numerical computing software MATLAB, and four cores are designed: quantitative stock selection, strategy backtesting, time-series analysis, and portfolio management. The system supports modules for simple trading decisions. It abandons the traditional method of predicting the absolute value of the future price of stock index futures and adopts a new method of predicting the future price trend of stock index futures. This method avoids the huge impact of the accuracy of the absolute value of the prediction on the final investment in the traditional method and also reduces the high dependence of investors on the accuracy of the absolute value. This study also introduces the support-vector machine algorithm in data mining and the quantitative trading system model in data mining. The accuracy of investment transactions in the experiment is also simulated by using the support-vector machine.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d6c559b18cd19815593c5b8f6e8d81f6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.537490"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文设计了一个基于数据挖掘方法的量化交易系统，其核心功能包括量化选股、策略回测、时间序列分析和投资组合管理。这些功能直接关联到投资组合管理的实践，尤其是系统支持的投资组合管理模块和量化选股策略。虽然论文提到了股指期货的价格趋势预测，但并未深入讨论衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文设计了一个基于数据挖掘方法的量化交易系统，其核心功能包括量化选股、策略回测、时间序列分析和投资组合管理。这些功能直接关联到投资组合管理的实践，尤其是系统支持的投资组合管理模块和量化选股策略。虽然论文提到了股指期货的价格趋势预测，但并未深入讨论衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:21.845026"
+}

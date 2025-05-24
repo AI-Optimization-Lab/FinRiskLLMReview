@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 140,
+    "title": "Deep time series forecasting for enhanced index tracking",
+    "abstract": "We consider the problem of enhanced index tracking whose objective is to construct a portfolio that maximizes the excess return and minimizes the tracking error between the returns of the tracking portfolio and a benchmark index. This problem is of considerable importance in the field of asset management as beating the market is known to be a notoriously difficult problem. We first identify the shortcomings inherent in the existing approaches to the problem, and then propose a general methodology to enhanced index tracking portfolio construction that moderates the degree of the shortcomings. Then, we present explicit construction schemes that utilize the latest advancements of the deep learning technology, and in particular, of long short-term memory networks that are designed to be efficacious for time series forecasting. Our proposed enhanced index tracking portfolios are empirically compared and contrasted with those of previously known proficient enhanced index tracking schemes over the benchmark of S&P 500. It is presented that our proposed portfolios outperform all other portfolios considered in this paper, and in particular, can beat the benchmark index substantially for a variety of cardinality constraint values tested.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "eaaad476b9d624e120b4ad26f100ce64",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:32:31.574519"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是构建增强型指数跟踪投资组合，旨在最大化超额收益并最小化跟踪误差，这直接属于投资组合管理的范畴。论文中提到的技术应用（如LSTM网络）主要用于优化投资组合的构建和表现，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是构建增强型指数跟踪投资组合，旨在最大化超额收益并最小化跟踪误差，这直接属于投资组合管理的范畴。论文中提到的技术应用（如LSTM网络）主要用于优化投资组合的构建和表现，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:34.059738"
+}

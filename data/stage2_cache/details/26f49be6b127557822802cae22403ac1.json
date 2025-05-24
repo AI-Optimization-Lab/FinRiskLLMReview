@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 120,
+    "title": "Ghost Expectation Point with Deep Reinforcement Learning in Financial Portfolio Management",
+    "abstract": "Reinforcement learning algorithms have a wide range of applications in diverse areas, such as portfolio management, automatic driving, and visual object detection. This paper introduces a novel network architecture Ghost expectation point (GXPT) embedded in a deep reinforcement learning framework based on GhostNet, which is constructed using convolutional neural networks and ghost bottleneck modules. The Ghost bottleneck module can generate many Ghost feature maps, improving the ability of the network to extract information from the real-world market. Furthermore, the number of parameters and floating point operations (FLOPs) is reduced. We use the GXPT to realize Jiang et al.'s Ensemble of Identical Independent Evaluators (EIIE) framework. In the EIIE framework, GhostNet is adapted to implement Identical Independent Evaluators to evaluate the growth potential of each asset. In our experiments, we chose the Accumulated Portfolio Value (APV) and the Sharpe Ratio (SR) to assess the efficiency of our strategy in the back-test. It is found that our strategy is at least 5.11% and 29.9% higher than the comparison strategies in APV and SR, respectively.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4064a0ac7e223e9bc94c51d384c2b826",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.583990"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习框架（Ghost expectation point）来优化投资组合管理，具体体现在使用GhostNet和EIIE框架评估资产增长潜力，并通过APV和SR指标验证策略的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习框架（Ghost expectation point）来优化投资组合管理，具体体现在使用GhostNet和EIIE框架评估资产增长潜力，并通过APV和SR指标验证策略的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:25.346493"
+}

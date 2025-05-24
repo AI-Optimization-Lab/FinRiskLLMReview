@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 78,
+    "title": "Portfolio management using online reinforcement learning with adaptive exploration and Multi-task self-supervised representation",
+    "abstract": "Reinforcement learning (RL) has been widely used to make continuous trading decisions in portfolio management. However, traditional quantitative trading methods often generalize poorly under certain market conditions, whereas the output of prediction-based approaches cannot be easily translated into actionable insights for trading. Market volatility, noisy signals, and unrealistic simulation environments also exacerbate these challenges. To address the aforementioned limitations, we developed a novel framework that combines Multi-task self-supervised learning (MTSSL) and adaptive exploration (AdapExp) modules. The MTSSL module leverages auxiliary tasks to learn meaningful financial market representations from alternative data, whereas the AdapExp module enhances RL training efficiency by improving the fidelity of the simulation environment. Experimental results obtained in backtesting conducted in real financial markets indicate that the proposed framework achieved approximately 13% higher returns relative to state-of-the-art models. Furthermore, this framework can be used with various RL methods to considerably improve their performance.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fc5891ccad47d544533d2ed5ff312186",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "representation learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-16T17:50:25.538838"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习和多任务自监督学习来优化投资组合的连续交易决策，并进行了实际金融市场的回测，这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习和多任务自监督学习来优化投资组合的连续交易决策，并进行了实际金融市场的回测，这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:11.704190"
+}

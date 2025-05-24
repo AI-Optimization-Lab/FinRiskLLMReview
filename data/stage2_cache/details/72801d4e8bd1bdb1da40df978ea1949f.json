@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2721,
+    "title": "Learning without Default: A Study of One-Class Classification and the Low-Default Portfolio Problem",
+    "abstract": "This paper asks at what level of class imbalance one-class classifiers outperform two-class classifiers in credit scoring problems in which class imbalance, referred to as the low-default portfolio problem, is a serious issue. The question is answered by comparing the performance of a variety of one-class and two-class classifiers on a selection of credit scoring datasets as the class imbalance is manipulated. We also include random oversampling as this is one of the most common approaches to addressing class imbalance. This study analyses the suitability and performance of recognised two-class classifiers and one-class classifiers. Based on our study we conclude that the performance of the two-class classifiers deteriorates proportionally to the level of class imbalance. The two-class classifiers outperform one-class classifiers with class imbalance levels down as far as 15% (i.e. the imbalance ratio of minority class to majority class is 15:85). The one-class classifiers, whose performance remains unvaried throughout, are preferred when the minority class constitutes approximately 2% or less of the data. Between an imbalance of 2% to 15% the results are not as conclusive. These results show that one-class classifiers could potentially be used as a solution to the low-default portfolio problem experienced in the credit scoring domain.",
+    "year": 2010,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "eb80d036ad8be60ff5763ec9779d0a0f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:43.367596"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文研究了在信用评分问题中一类分类器与二类分类器的性能比较，特别是在低违约组合问题中的应用。这直接关系到信用风险管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文研究了在信用评分问题中一类分类器与二类分类器的性能比较，特别是在低违约组合问题中的应用。这直接关系到信用风险管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:14.821552"
+}

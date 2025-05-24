@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1075,
+    "title": "An artificial intelligence system for predicting customer default in e-commerce",
+    "abstract": "The growing number of e-commerce orders is leading to increased risk management to prevent default in payment. Default in payment is the failure of a customer to settle a bill within 90 days upon receipt. Frequently, credit scoring (CS) is employed to identify customers' default probability. CS has been widely studied, and many computational methods have been proposed. The primary aim of this work is to develop a CS model to replace the pre-risk check of the e-commerce risk management system Risk Solution Services (RSS), which is currently one of the most used systems to estimate customers' default probability. The pre-risk check uses data from the order process and includes exclusion rules and a generic CS model. The new model is supposed to replace the whole pre-risk check and has to work both in isolation and in integration with the RSS main risk check. An application of genetic programming (GP) to CS is presented in this paper. The model was developed on a real-world dataset provided by a well-known German financial solutions company. The dataset contains order requests processed by RSS. The results show that GP outperforms the generic CS model of the pre-risk check in both classification accuracy and profit. GP achieved competitive classificatory accuracy with several state-of-the-art machine learning methods, such as logistic regression, support vector machines and boosted trees. Furthermore, the GP model can be used in combination with the RSS main risk check to create a model with even higher discriminatory power. (C) 2018 Elsevier Ltd. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3b3d8b33064ab1bcacd90d797ecffe32",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.354892"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用遗传编程（GP）开发信用评分模型，用于预测电子商务中的客户违约风险，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用遗传编程（GP）开发信用评分模型，用于预测电子商务中的客户违约风险，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:19.287398"
+}

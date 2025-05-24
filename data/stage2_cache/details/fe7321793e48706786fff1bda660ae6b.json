@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 515,
+    "title": "A Two-Part Beta Regression Approach for Modeling Surrenders and Withdrawals in a Life Insurance Portfolio",
+    "abstract": "Beta regression is a flexible tool in modeling proportions and rates, but is rarely applied in th actuarial field. In this article, we propose its application in the context of policyholder behavior and particularly to model surrenders and withdrawals. Surrender implies the expiration of the contract and denotes the payment of the surrender value, which is contractually defined. Withdrawal does not imply the termination of the contract and denotes the payment of a cash amount, left to the discretion of the policyholder, within the limits of the surrender value. Moreover, the Actuarial Standard of Practice 52 states that, for surrender and withdrawal estimation, the actuary should take into account several risk factors that could influence the phenomenon. To this aim, we introduce a two-part Beta regression model, where the first part consists in the estimate of the number of surrenders and withdrawals by means of a multinomial regression, as an extension of the logistic regression model frequently used in the empirical literature just to estimate surrender. Then, considering the uncertainty on the amount withdrawn, we express it as a proportion of surrender value; in this way, it assumes values continuously in the interval (0,1) and it is compliant with a Beta distribution. Therefore, in the second part, we propose the adoption of a Beta regression approach to model the proportion withdrawn of the surrender value. Our final goal is to apply our model on a real-life insurance portfolio providing the estimates of the number of surrenders and withdrawals as well as the corresponding cash amount for each risk class considered.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "593c5ea1b1c42cdbae6049b886279701",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:21.023805"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用Beta回归模型来模拟寿险保单中的退保和提款行为，这属于保险精算领域，而非衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用Beta回归模型来模拟寿险保单中的退保和提款行为，这属于保险精算领域，而非衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:05.552153"
+}

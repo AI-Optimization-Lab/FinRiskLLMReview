@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 71,
+    "title": "Predicting corporate financial distress based on integration of support vector machine and logistic regression",
+    "abstract": "The support vector machine (SVM) has been applied to the problem of bankruptcy prediction, and proved to be superior to competing methods such as the neural network, the linear multiple discriminant approaches and logistic regression. However, the conventional SVM employs the structural risk minimization principle, thus empirical risk of misclassification may be high, especially when a point to be classified is close to the hyperplane. This paper develops an integrated binary discriminant rule (IBDR) for corporate financial distress prediction. The described approach decreases the empirical risk of SVNI outputs by interpreting and modifying the outputs of the SVM classifiers according to the result of logistic regression analysis. That is, depending on the vector's relative distance from the hyperplane, if result of logistic regression supports the output of the SVM classifier with a high probability, then IBDR will accept the output of the SVM classifier; otherwise, IBDR will modify the output of the SVM classifier. Our experimentation results demonstrate that IBDR outperforms the conventional SVM. (c) 2006 Elsevier Ltd. All rights reserved.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3f9d473e24a70466f137bb82a946a995",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:39.489304"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种集成支持向量机和逻辑回归的方法来预测企业财务困境，这直接关联到金融风险管理中的信用风险预测。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一种集成支持向量机和逻辑回归的方法来预测企业财务困境，这直接关联到金融风险管理中的信用风险预测。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:10.898623"
+}

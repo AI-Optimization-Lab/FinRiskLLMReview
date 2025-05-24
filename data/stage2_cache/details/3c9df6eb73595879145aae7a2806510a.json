@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2,
+    "title": "深度神经网络优化Heston定价模型",
+    "abstract": "为提升Heston定价模型在金融衍生品定价中的准确性，本文构建一个预测期权收盘价的PINN＿Heston模型。采用结合PINN与Heston方程，构造物理方程约束训练的神经网络。模型以标的资产价格、到期时间及随机波动率为输入，期权价格为输出。实验的结果显示，PINN＿Heston方法在定价上优于传统Heston模型和Black-Scholes模型，说明深度学习方法在期权定价领域具有优势，可为金融模型的改进和创新提供一个新思路。",
+    "year": 2025,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "5a7832ad42781565a70066d06823194b",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:00.856964"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是构建一个深度神经网络模型（PINN＿Heston）来优化Heston定价模型，并应用于期权定价。论文明确提到其目标是提升金融衍生品定价的准确性，且实验比较了与传统定价模型的性能差异，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是构建一个深度神经网络模型（PINN＿Heston）来优化Heston定价模型，并应用于期权定价。论文明确提到其目标是提升金融衍生品定价的准确性，且实验比较了与传统定价模型的性能差异，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:03.994693"
+}

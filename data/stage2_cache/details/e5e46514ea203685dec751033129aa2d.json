@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2197,
+    "title": "REFER: Randomized Online Factor Selection Framework for portfolio Management",
+    "abstract": "Portfolio management is a critical problem in both machine learning , finance communities. To predict the returns of assets, existing studies have been leveraging side information to mine price-sensitive indicators, i.e., factors. However, with the brisk expansion of factor collection, existing factor selection methods face two main issues, i.e., high-cost and low-precision. In this paper, we first formalize the task of online factor selection as an online learning problem where a learner selects a set of factors in each round and aims to minimize the long-term regret. Then, we propose a Randomized onlinE Factor sElection fRamework, named REFER, which not only is particularly devised to address the above two issues, but also can widely serve for any existing multifactor models. Specifically, by studying the regret of existing factor-selecting policies, we propose two randomized policies along with their bandit variants that achieve sublinear regrets. The bandit variants further improve computational efficiency , achieve a balanced trade-off between cost and precision. Finally, both theoretical analysis and extensive experiments on the real-world dataset demonstrate the effectiveness of our proposed framework and policies in terms of comprehensive evaluation criteria.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "87ca5482c64eb434d349ed8ec35d0cf5",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:04:27.391166"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种随机在线因子选择框架（REFER），用于优化投资组合管理中的因子选择问题，旨在最小化长期遗憾并提高预测资产回报的精确度。论文明确提到其应用场景是投资组合管理，且研究目标是解决因子选择的高成本和低精度问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种随机在线因子选择框架（REFER），用于优化投资组合管理中的因子选择问题，旨在最小化长期遗憾并提高预测资产回报的精确度。论文明确提到其应用场景是投资组合管理，且研究目标是解决因子选择的高成本和低精度问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:43.691427"
+}

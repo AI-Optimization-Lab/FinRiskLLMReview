@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1311,
+    "title": "Big data driven Internet of Things for credit evaluation and early warning in finance",
+    "abstract": "The big data technology framework has been successfully used in the Internet of Things, and the financial industry also hopes to use the advanced technology of big data to integrate and improve internal and external data related to credit risks. Relying on more efficient machine learning algorithms to get a reasonable prediction of credit risk can reduce the self-generated losses of the Internet of Things finance and increase profits. This article uses distributed search engine technology to customize web crawlers to obtain the required bank card and transaction data from the multi-source heterogeneous data of the Internet of Things financial industry, design the corresponding Spark parallel algorithm to preprocess the data, and establish an inverted table and two Level index file provides data source for big data analysis platform. After the data source is determined, the Mutually Exclusive Collectively Exhaustive (MECE) analysis method is combined with the scores of many financial business experts in the industry to obtain a set of candidate indicators and quantification methods for the financial credit risk evaluation of the Internet of Things, and analyze the correlation of indicators and risk grading. The random forest algorithm in the big data machine learning library is used to select the feature of the candidate index set, and a multi-level spatial association rule algorithm based on the Hash structure is designed to mine the financial risk information of the Internet of Things, and build a credit risk assessment and intelligent early warning model. This paper selects 26 indicators of Internet of Things finance as the research objects, uses SPSS26.0 software to perform sample Kaiser- Meyer-Olkin (KMO) test and Bartlett sphere test on the original data, and describes the results of factor analysis in detail. The particle swarm algorithm is introduced into the parameter optimization of random forest, and the financial credit risk assessment model of the Internet of Things is established. The results show that this method can significantly reduce the probability of banks making the first and second error rates when evaluating the credit risk of financing the Internet of Things Finance. This is conducive to the smooth development of the Internet of Things financial business for banks, which enables banks to enhance their own profitability while effectively reducing losses due to incorrect credit provision. (C) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "274d1223cc7cb50b3c4613d8d983a9a6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation",
+      "random forest"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.929940"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using big data and machine learning techniques to predict credit risk and establish an early warning system, which is a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using big data and machine learning techniques to predict credit risk and establish an early warning system, which is a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:50.324994"
+}

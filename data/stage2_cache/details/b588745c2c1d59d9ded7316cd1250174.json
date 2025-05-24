@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2112,
+    "title": "Kernel density classification and boosting:: an L2 analysis",
+    "abstract": "Kernel density estimation is a commonly used approach to classification. However, most of the theoretical results for kernel methods apply to estimation per se and not necessarily to classification. In this paper we show that when estimating the difference between two densities, the optimal smoothing parameters are increasing functions of the sample size of the complementary group, and we provide a small simluation study which examines the relative performance of kernel density methods when the final goal is classification. A relative newcomer to the classification portfolio is boosting, and this paper proposes an algorithm for boosting kernel density classifiers. We note that boosting is closely linked to a previously proposed method of bias reduction in kernel density estimation and indicate how it will enjoy similar properties for classification. We show that boosting kernel classifiers reduces the bias whilst only slightly increasing the variance, with an overall reduction in error. Numerical examples and simulations are used to illustrate the findings, and we also suggest further areas of research.",
+    "year": 2005,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e47941d1ba5814777d84fc37f073aa1e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:03.727909"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究核密度估计和提升算法在分类问题中的应用，虽然这些技术可以应用于金融领域，但论文中并未明确指出或讨论其在衍生品定价、金融风险管理或投资组合管理中的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究核密度估计和提升算法在分类问题中的应用，虽然这些技术可以应用于金融领域，但论文中并未明确指出或讨论其在衍生品定价、金融风险管理或投资组合管理中的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:18.266255"
+}

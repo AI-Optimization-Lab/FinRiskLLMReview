@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2840,
+    "title": "Fund Price Analysis Using Convolutional Neural Networks for Multiple Variables",
+    "abstract": "Investing in funds has the effect of indirectly employing asset management professionals with specialized knowledge and experience, which can result in a diversified investment through the use of a portfolio. In this study, we focus on learning the patterns of prices rather than time points to predict Korean fund prices. We convert time-series data into 2-dimensional images and analyze them using a convolutional neural network. To improve the fund price forecasting performance, we consider the following aspects. A Korean fund should be recommended according to the level of risk aversion. The risk level of the fund is determined by the proportion of risky assets. Therefore, when estimating the fund price, the risk level of the fund needs to be considered. In this study, we use 15 additional variables, such as foreign stock indexes, foreign exchange rates, and Korean stock indices, in addition to the fund price data. The appropriate filter size, which plays an important role in this process, is proposed. In addition, types of networks and architectures are selected as suitable for forecasting the fund price. We also demonstrate that the number of output classes can be adjusted to increase the future return of the fund. Through this methodology with multiple variables, we can achieve a 25% cumulative profit for 2 years. This means that multi-variable models have a higher cumulative return than the single-variable model and KOSPI and thus a higher average of all funds for active investors.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "24b65204768c20622fb337cbebc3d4b1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:11:17.263444"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用卷积神经网络（CNN）预测基金价格，并考虑风险水平和其他多种变量以提高预测性能。这直接关联到投资组合管理，因为基金价格预测和风险水平评估是构建和管理投资组合的关键要素。论文还提到通过调整输出类别数量来增加未来回报，这进一步支持了其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用卷积神经网络（CNN）预测基金价格，并考虑风险水平和其他多种变量以提高预测性能。这直接关联到投资组合管理，因为基金价格预测和风险水平评估是构建和管理投资组合的关键要素。论文还提到通过调整输出类别数量来增加未来回报，这进一步支持了其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:25.786559"
+}

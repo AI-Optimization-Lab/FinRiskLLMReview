@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 4365,
+    "title": "A New Viterbi-Based Decoding Strategy for Market Risk Tracking: an Application to the Tunisian Foreign Debt Portfolio During 2010-2012",
+    "abstract": "In this paper, a novel market risk tracking and prediction strategy is introduced. Our approach takes volatility clustering into account and allows for the possibility of regime shifts in the intra-portfolio's latent correlation structure. The proposed specification combines hidden Markov models (HMM) with latent factor models that takes into account the presence of both the conditional skewness and leverage effects in stock returns.A computationally efficient expectation-maximization (EM) algorithm based on the Viterbi decoder is developed to estimate the model parameters. Using daily exchange rate data of the Tunisian dinar versus the currencies of the main Tunisian government's creditors, during the 2011 revolution period, the model parameters are estimated. Then, the suitable model is used in conjunction with a Monte Carlo simulation strategy to predict the Value-at-Risk (VaR) of the Tunisian government's foreign debt portfolio. The backtesting results indicate that the new approach appears to give a good fit to the data and can improve the VaR predictions, particularly during financial instability periods.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "aede693c276cb387fd78f13d9eaf617f",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:36:38.372453"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种基于Viterbi解码器的市场风险跟踪和预测策略，用于预测突尼斯政府外债组合的风险价值（VaR）。这直接涉及金融风险管理。同时，由于研究的是外债组合的风险，也涉及投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种基于Viterbi解码器的市场风险跟踪和预测策略，用于预测突尼斯政府外债组合的风险价值（VaR）。这直接涉及金融风险管理。同时，由于研究的是外债组合的风险，也涉及投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:20.124564"
+}

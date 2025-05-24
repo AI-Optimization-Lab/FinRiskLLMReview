@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 858,
+    "title": "Inverse reinforcement learning by expert imitation for the stochastic linear-quadratic optimal control problem",
+    "abstract": "This article studies inverse reinforcement learning (IRL) for the linear-quadratic stochastic optimal control problem, where two agents are considered. A learner agent lacks knowledge of the expert agent's cost function, but it reconstructs an underlying cost function by observing the expert agent's states and controls, thereby imitating the expert agent's optimal feedback control. We initially present a model-based IRL method, which consists of a policy correction and a policy update from the policy iteration in reinforcement learning, as well as a cost function weight reconstruction informed by the inverse optimal control. Afterward, under this scheme, we propose a model-free off-policy IRL method, which requires no system identification, only collecting behavior data from the learner agent and expert agent once during the iteration process. Moreover, the proofs of the method's convergence, stability, and non-unique solutions are given. Finally, a numerical example and an inverse mean-variance portfolio optimization example are provided to validate the effectiveness of the presented method.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e98678630201d516d3e3965690742268",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.138604"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是逆强化学习在随机线性二次最优控制问题中的应用，并在最后提供了一个逆均值-方差投资组合优化的例子来验证方法的有效性。这表明其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是逆强化学习在随机线性二次最优控制问题中的应用，并在最后提供了一个逆均值-方差投资组合优化的例子来验证方法的有效性。这表明其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:17.209037"
+}

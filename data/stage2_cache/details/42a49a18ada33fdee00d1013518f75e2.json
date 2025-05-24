@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3175,
+    "title": "Forecasting the volatility of stock price index: A hybrid model integrating LSTM with multiple GARCH-type models",
+    "abstract": "Volatility plays crucial roles in financial markets, such as in derivative pricing, portfolio risk management, and hedging strategies. Therefore, accurate prediction of volatility is critical. We propose a new hybrid long short-term memory (LSTM) model to forecast stock price volatility that combines the LSTM model with various generalized autoregressive conditional heteroscedasticity (GARCH)-type models. We use KOSPI 200 index data to discover proposed hybrid models that combine an LSTM with one to three GARCH-type models. In addition, we compare their performance with existing methodologies by analyzing single models, such as the GARCH, exponential GARCH, exponentially weighted moving average, a deep feedforward neural network (DFN), and the LSTM, as well as the hybrid DFN models combining a DFN with one GARCH-type model. Their performance is compared with that of the proposed hybrid LSTM models. We discover that GEW-LSTM, a proposed hybrid model combining the LSTM model with three GARCH-type models, has the lowest prediction errors in terms of mean absolute error (MAE), mean squared error (MSE), heteroscedasticity adjusted MAE (HMAE), and heteroscedasticity adjusted MSE (HMSE). The MAE of GEW-ISTM is 0.0107, which is 37.2% less than that of the E-DFN (0.017), the model combining EGARCH and DFN and the best model among those existing. In addition, the GEW-LSTM has 57.3%, 24.7%, and 48% smaller MSE, HMAE, and HMSE, respectively. The first contribution of this study is its hybrid LSTM model that combines excellent sequential pattern learning with improved prediction performance In stock market volatility. Second, our proposed model markedly enhances prediction performance of the existing literature by combining a neural network model with multiple econometric models rather than only a single econometric model. Finally, the proposed methodology can be extended to various fields as an integrated model combining time-series and neural network models as well as forecasting stock market volatility. (C) 2018 Elsevier Ltd. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "76066a6806fbc824fea84f1659a74ac4",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:23:33.507878"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用混合LSTM和GARCH模型预测股票价格指数的波动性，这直接应用于金融风险管理中的波动性预测，用于评估和管理市场风险。虽然摘要提到波动性在衍生品定价和投资组合管理中的作用，但论文的主要研究目标和应用场景集中在波动性预测，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用混合LSTM和GARCH模型预测股票价格指数的波动性，这直接应用于金融风险管理中的波动性预测，用于评估和管理市场风险。虽然摘要提到波动性在衍生品定价和投资组合管理中的作用，但论文的主要研究目标和应用场景集中在波动性预测，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:04.825956"
+}

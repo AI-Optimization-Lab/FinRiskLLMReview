@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 541,
+    "title": "From GARCH to Neural Network for Volatility Forecast",
+    "abstract": "Volatility, as a measure of uncertainty, plays a crucial role in numerous financial activities such as risk management. The Econometrics and Machine Learning communities have developed two distinct approaches for financial volatility forecasting: the stochastic approach and the neural network (NN) approach. Despite their individual strengths, these methodologies have conventionally evolved in separate research trajectories with little interaction between them. This study endeavors to bridge this gap by establishing an equivalence relationship between models of the GARCH family and their corresponding NN counterparts. With the equivalence relationship established, we introduce an innovative approach, named GARCH-NN, for constructing NN-based volatility models. It obtains the NN counterparts of GARCH models and integrates them as components into an established NN architecture, thereby seamlessly infusing volatility stylized facts (SFs) inherent in the GARCH models into the neural network. We develop the GARCH-LSTM model to showcase the power of the GARCH-NN approach. Experiment results validate that amalgamating the NN counterparts of the GARCH family models into established NN models leads to enhanced outcomes compared to employing the stochastic and NN models in isolation.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6110c9a742b5f35d1986a835480f9e11",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.262072"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on volatility forecasting, which is a critical component in financial risk management. The proposed GARCH-NN approach aims to improve volatility prediction by integrating GARCH models with neural networks, directly addressing the need for accurate risk assessment and management in financial markets.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on volatility forecasting, which is a critical component in financial risk management. The proposed GARCH-NN approach aims to improve volatility prediction by integrating GARCH models with neural networks, directly addressing the need for accurate risk assessment and management in financial markets.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:04.538880"
+}

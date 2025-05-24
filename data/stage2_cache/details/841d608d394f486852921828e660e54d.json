@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 586,
+    "title": "Discovery and Prediction of Stock Index Pattern via Three-Stage Architecture of TICC, TPA-LSTM and Multivariate LSTM-FCNs",
+    "abstract": "In this study, we attempt to discover and predict stock index patterns through analysis of multivariate time series. Our motivation is based on the notion that financial planning guided by pattern discovery and prediction of stock index prices maybe more realistic and effective than traditional approaches, such as Autoregressive Integrated Moving Average (ARIMA) model. A three-stage architecture constructed by combining Toeplitz Inverse Covariance-Based Clustering (TICC), Temporal Pattern Attention and Long- Short-Term Memory (TPA-LSTM) and Multivariate LSTM-FCNs (MLSTM-FCN and MALSTM-FCN) is applied for pattern discovery and prediction of stock index. In the first stage, we use TICC to discover repeated patterns of stock index. Then, in the second stage, TPA-LSTM that considers weak periodic patterns and long short-term information is used to predict multivariate stock indices. Finally, in the third stage, MALSTM-FCN is applied to predict stock index price pattern. The Hangseng Stock Index and eleven industrial sub-indices are used in the experiment. Empirical results show that the three-stage architecture achieves satisfactory and better performance than traditional methods, such as Naive Bayes Classifier (NB), Support Vector Machine Classifier (SVM), Random Forest (RF), etc. Moreover, we construct equal proportion portfolios based on the bullish trading rules to further analyze the feasibility of the proposed three-stage architecture. Seven comprehensive stock indices are used in the experiment. Empirical results show that the portfolio based on the proposed three-stage architecture presents better performance than the market-based portfolio. These findings may provide new direction for the portfolio construction and risk aversion.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5c397fe67a68ca4818eef5e22e494784",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "clustering",
+      "support vector machine",
+      "SVM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.442535"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过三阶段架构（TICC、TPA-LSTM和Multivariate LSTM-FCNs）来发现和预测股票指数模式，并基于这些预测构建等比例投资组合。论文明确提到通过构建投资组合来验证其方法的可行性，并展示了其投资组合在市场表现上的优越性。因此，其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过三阶段架构（TICC、TPA-LSTM和Multivariate LSTM-FCNs）来发现和预测股票指数模式，并基于这些预测构建等比例投资组合。论文明确提到通过构建投资组合来验证其方法的可行性，并展示了其投资组合在市场表现上的优越性。因此，其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:40.508767"
+}

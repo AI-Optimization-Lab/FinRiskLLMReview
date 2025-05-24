@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 524,
+    "title": "Prediction of Stock Performance Using Deep Neural Networks",
+    "abstract": "Stock performance prediction is one of the most challenging issues in time series data analysis. Machine learning models have been widely used to predict financial time series during the past decades. Even though automatic trading systems that use Artificial Intelligence (AI) have become a commonplace topic, there are few examples that successfully leverage the proven method invented by human stock traders to build automatic trading systems. This study proposes to build an automatic trading system by integrating AI and the proven method invented by human stock traders. In this study, firstly, the knowledge and experience of the successful stock traders are extracted from their related publications. After that, a Long Short-Term Memory-based deep neural network is developed to use the human stock traders' knowledge in the automatic trading system. In this study, four different strategies are developed for the stock performance prediction and feature selection is performed to achieve the best performance in the classification of good performance stocks. Finally, the proposed deep neural network is trained and evaluated based on the historic data of the Japanese stock market. Experimental results indicate that the proposed ranking-based stock classification considering historical volatility strategy has the best performance in the developed four strategies. This method can achieve about a 20% earning rate per year over the basis of all stocks and has a lower risk than the basis. Comparison experiments also show that the proposed method outperforms conventional methods.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e1936fe682ff666d8643704c4a89ef1d",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.216627"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度神经网络预测股票表现并构建自动交易系统，虽然涉及金融市场，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理这些特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度神经网络预测股票表现并构建自动交易系统，虽然涉及金融市场，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理这些特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:06.811651"
+}

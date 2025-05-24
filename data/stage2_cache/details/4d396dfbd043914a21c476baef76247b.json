@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2825,
+    "title": "SEAMS: A surrogate-assisted evolutionary algorithm with metric-based dynamic strategy for expensive multi-objective optimization",
+    "abstract": "In real-world scenarios where resources for evaluating expensive optimization problems are limited and the reliability of trained models is hard to assess, the quality of the non-dominated front formed by algorithms tends to below. This paper proposes a metric-based surrogate-assisted evolutionary algorithm for multi-objective expensive optimization, incorporating a novel model management strategy that integrates a regeneration mechanism. This approach aims to achieve a well-balanced convergence and diversity, facilitating the attainment of high-quality non-dominated fronts to address expensive multi-objective optimization problems. The model management strategy, based on metrics, comprehensively evaluates the reliability of the classification model and selects appropriate strategies for offspring selection. Moreover, through significance analysis of the population, the regeneration mechanism identifies high-quality dimensions for regenerating offspring. The algorithm maximizes the utilization of the classification model to guide the generation and selection of offspring in the population. Experiments on DTLZ, MaF, WFG, and the high-dimensional portfolio optimization problem demonstrate that the proposed algorithm outperforms nine state-of-the-art surrogate-assisted evolutionary algorithms, highlighting its superior performance across various scenarios.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "17fab5bea05c82374ac2690a0319e390",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:10:49.568934"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中提到该算法在高维投资组合优化问题上进行了实验，并展示了其优越性能，这表明其主要应用领域之一是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中提到该算法在高维投资组合优化问题上进行了实验，并展示了其优越性能，这表明其主要应用领域之一是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:43.818303"
+}

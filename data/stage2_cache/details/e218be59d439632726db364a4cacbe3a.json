@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3469,
+    "title": "Deriving Analytical Fragility Curves for Masonry Churches Based on Stochastic Nonlinear Analyses",
+    "abstract": "This paper proposes an approach for deriving analytical fragility curves for religious masonry buildings based on stochastic static nonlinear analyses to support seismic vulnerability assessment and risk mitigation. A portfolio of churches located in the Tuscany region (Italy) was created and statistically analyzed to identify recurrent typologies. Given its architectural simplicity and greater frequency within the dataset, the one-nave type was selected as a pilot case. Using clustering algorithms, the geometrical properties of the one-nave churches sample were analyzed to obtain prototype buildings whose material properties were treated as random variables varying within predefined ranges. Abuilding prototype was then selected as the reference structure to define the FE model. Geometrical properties were considered deterministic, while the variability of the mechanical propertieswas accounted for in the nonlinear analyses. The Latin Hypercube Sampling (LHS) method was used to generate a suitable set of input variables from the cumulative distribution functions of the mechanical parameters, and nonlinear static (pushover) analyses were conducted to derive capacity curves and the probability density function of selected damage states. Conversely, the N2 method provided the displacement demands corresponding to different levels of ground motion. Through the convolution of the complementary cumulative distribution of demand with the probability density function of each damage state, the method allowed the estimation of the probability of reaching or exceeding selected damage states and, consequently, to derive the respective fragility curves.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a3e6f646a34f2494a8a447b94218e272",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:17:25.513305"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是建筑结构的抗震脆弱性评估，使用了聚类算法和随机非线性分析方法，这些技术与金融领域的衍生品定价、金融风险管理或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是建筑结构的抗震脆弱性评估，使用了聚类算法和随机非线性分析方法，这些技术与金融领域的衍生品定价、金融风险管理或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:41.912488"
+}

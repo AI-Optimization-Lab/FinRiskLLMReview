@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 537,
+    "title": "Forecasting stock market for an efficient portfolio by combining XGBoost and Hilbert-Huang transform",
+    "abstract": "Portfolio formation in financial markets is the task of not taking non-necessary risks. Quantitative investment powered by machine learning has opened many new opportunities for more insight generation from financial data resulting in the explosion of ideas to enhance the performance of investments in the stock markets. In this research, we propose a first-introduced model called HHT-XGB to predict the changing trends in the next close price of stocks under the study. The proposed model combines Hilbert-Huang Transform (HHT) as the feature engineering part and the extreme gradient boost (XGBoost) as the Close price trend classifier. The classification output is a sequence of ups and downs used to optimize the stocks' portfolio weights with the best trading performance The performance of the portfolios optimized under this study proves that our novel combination of HHT with classification performs 99.8% better than forming the portfolio using raw financial data. The back-testing process suggests that the HHT-XGB strategy outperforms the benchmark strategies even with the poor-performing markets.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7d57158a1b4016717e923bfdd84d6eee",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature representation",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:21.137658"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合Hilbert-Huang变换和XGBoost来预测股票价格趋势，并利用这些预测结果优化投资组合的权重，以提高交易性能。这直接涉及到投资组合的构建和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合Hilbert-Huang变换和XGBoost来预测股票价格趋势，并利用这些预测结果优化投资组合的权重，以提高交易性能。这直接涉及到投资组合的构建和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:00.254825"
+}

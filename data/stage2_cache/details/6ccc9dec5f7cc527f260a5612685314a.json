@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 407,
+    "title": "The effect of Bellwether analysis on software vulnerability severity prediction models",
+    "abstract": "Vulnerability severity prediction (VSP) models provide useful insight for vulnerability prioritization and software maintenance. Previous studies have proposed a variety of machine learning algorithms as an important paradigm for VSP. However, to the best of our knowledge, there are no other existing research studies focusing on investigating how a subset of features can be used to improve VSP. To address this deficiency, this paper presents a general framework for VSP using theBellwetheranalysis (i.e.,exemplary data). First, we apply the natural language processing techniques to the textual descriptions of software vulnerability. Next, we developed an algorithm termedBellvulto identify and select an exemplary subset of data (referred to asBellwether) to be considered as the training set to yield improved prediction accuracy against thegrowing portfolio, within-project cases, and thek-fold cross-validation subset. Finally, we assessed the performance of four machine learning algorithms, namely, deep neural network, logistic regression, k-nearest neighbor, and random forest using the sampled instances. The prediction results of the suggested models and the benchmark techniques were assessed based on the standard classification evaluation metrics such as precision, recall, and F-measure. The experimental result shows that theBellwetherapproach achieves F-measure ranging from 14.3% to 97.8%, which is an improvement over the benchmark techniques. In conclusion, the proposed approach is a promising research direction for assisting software engineers when seeking to predict instances of vulnerability records that demand much attention prior to software release.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "df28525cfc19d047e701bf9a65b244a8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "deep neural network",
+      "logistic regression",
+      "random forest"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.518487"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究软件漏洞严重性预测模型，涉及机器学习算法在软件工程中的应用，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究软件漏洞严重性预测模型，涉及机器学习算法在软件工程中的应用，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:10.143447"
+}

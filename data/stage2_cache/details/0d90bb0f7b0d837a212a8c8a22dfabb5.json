@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 92,
+    "title": "Research of Dempster-Shafer's Theory and Ensemble Classifier Financial Risk Early Warning Model Based on Benford's Law",
+    "abstract": "Previous research endeavors aimed at enhancing the predictive accuracy of early warning systems for enterprise financial risks have primarily focused on two key areas: optimization of financial risk early warning indicators and development of combination models. However, crucial issues relating to the uncertainty arising from divergent assessment results among multiple classifiers analyzing the same sample data in financial risk early warning, as well as the impact of distorted financial indicator data on the predictive performance of financial early warning models, have remained largely unexplored. This study employs Benford's law to establish a comprehensive early warning indicator system for financial risks, incorporating its inherent factors. Additionally, the DS-evidence theory is utilized to seamlessly integrate Logistic Regression (LR), Na & iuml;ve Bayes (NB), Support Vector Machine (SVM), Gradient Boosted Decision Tree (GBDT), and AdaBoost classifiers into an ensemble classifier named the Dempster-Shafer's theory and Ensemble Classifier (DS-EC) financial risk warning model. The findings demonstrate that: (1) The DS-EC model effectively resolves the issue of uncertainty resulting from diverse evaluation results among multiple classifiers analyzing identical sample data, significantly outperforming LR, NB, SVM, GBDT, and AdaBoost in terms of predictive accuracy. (2) Benford's law proves to be a robust technique for detecting fraudulent risks within financial data, and its amalgamation with the DC-EC financial risk warning model enhances the model's predictive accuracy.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2e655f9a5ad467e969a603a0ea22788a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:39.586945"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing an early warning system for enterprise financial risks using machine learning techniques and Benford's law, which is directly related to identifying and managing financial risks, thus falling under the Financial Risk Management domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing an early warning system for enterprise financial risks using machine learning techniques and Benford's law, which is directly related to identifying and managing financial risks, thus falling under the Financial Risk Management domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:08.153625"
+}

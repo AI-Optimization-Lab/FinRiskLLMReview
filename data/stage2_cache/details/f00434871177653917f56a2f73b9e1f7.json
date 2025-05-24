@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3680,
+    "title": "Stock Forecasting Using Local Data",
+    "abstract": "Stock price forecasting is a relevant and challenging problem that has attracted a lot of interest from engineers and scientists. In this paper we apply two techniques for stock price and price intervals forecasting. Both techniques, derived from previous works by the authors, are based on the use of local data extracted from a database. These data are those that correspond to similar market states to the current one. The first technique uses these local data to compute a price forecast by finding an optimal combination of past states that equals the current state. The price forecast is then obtained by combining the past actual prices associated to the past market states. The second technique can be used to forecast prices but its main use is to forecast price intervals that will contain the real future price with a guaranteed probability. This is accomplished by building a probability distribution for the forecasted price and then setting the intervals by a choice of desired percentiles. Thus, this technique can be used in financial risk management. Both techniques are purely data driven and do not need a theoretical description or model of the price trend being forecasted. The proposed techniques adapt very easily to market changes because they use only the subset of the database that it is closer to the current state. Furthermore, the database can be updated as new data is available. Finally, both approaches are highly parallelizable, thus making possible to manage large data sets. As a case study, the proposed approaches have been applied to the $k$ -step forecasting of the Dow Jones Industrial Average index. The results have been validated in relation with some baseline approaches, such as martingale and neural network predictors and quantile regression for the interval forecasting.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "dba842a1fcfa038ddb37babfef78c328",
+    "relevant_keywords": [
+      "neural network",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:29:00.088248"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on forecasting stock prices and price intervals with a guaranteed probability, which is directly applicable to financial risk management. The second technique specifically mentions building probability distributions for forecasted prices and setting intervals based on desired percentiles, a method commonly used in risk assessment and management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on forecasting stock prices and price intervals with a guaranteed probability, which is directly applicable to financial risk management. The second technique specifically mentions building probability distributions for forecasted prices and setting intervals based on desired percentiles, a method commonly used in risk assessment and management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:33.480991"
+}

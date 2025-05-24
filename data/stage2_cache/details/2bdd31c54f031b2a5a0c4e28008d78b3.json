@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1091,
+    "title": "Developing An Attention-Based Ensemble Learning Framework for Financial Portfolio Optimisation",
+    "abstract": "In recent years, deep or reinforcement learning approaches have been applied to optimise investment portfolios through learning the spatial and temporal information under the dynamic financial market. Yet in most cases, the existing approaches may produce biased trading signals based on the conventional price data due to a lot of market noises, which possibly fails to balance the investment returns and risks. Accordingly, a multi-agent and self-adaptive portfolio optimisation framework integrated with attention mechanisms and time series, namely the MASAAT, is proposed in this work in which multiple trading agents are created to observe and analyse the price series and directional change data that recognises the significant changes of asset prices at different levels of granularity for enhancing the signal-to-noise ratio of price series. Afterwards, by reconstructing the tokens of financial data in a sequence, the attention-based cross-sectional analysis module and temporal analysis module of each agent can effectively capture the correlations between assets and the dependencies between time points. Besides, a portfolio generator is integrated into the proposed framework to fuse the spatial-temporal information and then summarise the portfolios suggested by all trading agents to produce a newly ensemble portfolio for reducing biased trading actions and balancing the overall returns and risks. The experimental results clearly demonstrate that the MASAAT framework achieves impressive enhancement when compared with many well-known portfolio optimsation approaches on three challenging data sets of DJIA, S&P 500 and CSI 300. More importantly, our proposal has potential strengths in many possible applications for future study.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3172b9589da441d53a73a74cbe687fa5",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.307214"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一个基于注意力机制的集成学习框架（MASAAT），用于优化投资组合。论文明确提到该框架旨在通过多交易代理分析价格序列和方向变化数据，以减少市场噪音的影响，并平衡投资回报和风险。实验部分也集中在与知名投资组合优化方法的比较上，因此其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一个基于注意力机制的集成学习框架（MASAAT），用于优化投资组合。论文明确提到该框架旨在通过多交易代理分析价格序列和方向变化数据，以减少市场噪音的影响，并平衡投资回报和风险。实验部分也集中在与知名投资组合优化方法的比较上，因此其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:42.817337"
+}

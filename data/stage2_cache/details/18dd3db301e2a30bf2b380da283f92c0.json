@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 557,
+    "title": "Trend representation based log-density regularization system for portfolio optimization",
+    "abstract": "Portfolio optimization (PO) has been catching more and more attention in the artificial intelligence and the machine learning communities. In this paper, we propose a novel Trend Representation based Log density Regularization (TRLR) system for portfolio optimization. Its novelty falls into two aspects. First, it introduces a log-density regularization to the increasing factor of portfolio, which is seldom addressed by previous PO systems. It reflects a relationship between the portfolio and the price relative at an equilibrium point. Second, TRLR exploits a novel trend representation by taking the time variable as regressor in a weighted ridge regression, hence TRLR captures price trend patterns effectively. Extensive experiments conducted on 5 benchmark datasets from real-world financial markets demonstrate that TRLR achieves significantly better performance than other state-of-the-art strategies and runs fast, which shows its effectiveness and efficiency for large-scale applications. (C) 2017 Elsevier Ltd. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0d53e5781153b2548a96ae3c08429c68",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:01.295066"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种基于趋势表示的对数密度正则化系统（TRLR），专门用于投资组合优化（Portfolio Optimization）。论文明确提到该方法在五个真实金融市场基准数据集上的实验，展示了其在投资组合管理中的有效性和效率。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种基于趋势表示的对数密度正则化系统（TRLR），专门用于投资组合优化（Portfolio Optimization）。论文明确提到该方法在五个真实金融市场基准数据集上的实验，展示了其在投资组合管理中的有效性和效率。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:37.128134"
+}

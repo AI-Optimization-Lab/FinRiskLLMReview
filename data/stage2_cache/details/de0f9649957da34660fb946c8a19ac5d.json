@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3214,
+    "title": "Smooth Nested Simulation: Bridging Cubic and Square Root Convergence Rates in High Dimensions",
+    "abstract": "Nested simulation concerns estimating functionals of a conditional expectation via simulation. In this paper, we propose a new method based on kernel ridge regression to exploit the smoothness of the conditional expectation as a function of the multidimensional conditioning variable. Asymptotic analysis shows that the proposed method can effectively alleviate the curse of dimensionality on the convergence rate as the simulation budget increases, provided that the conditional expectation is sufficiently smooth. The smoothness bridges the gap between the cubic root convergence rate (that is, the optimal rate for the standard nested simulation) and the square root convergence rate (that is, the canonical rate for the standard Monte Carlo simulation). We demonstrate the performance of the proposed method via numerical examples from portfolio risk management and input uncertainty quantification.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7eff4f7502dfff07f3488e5a41da14b9",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:14:54.955317"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper demonstrates the performance of the proposed method via numerical examples from portfolio risk management, which directly indicates its application in financial risk management and portfolio management. The focus on estimating functionals of a conditional expectation is particularly relevant for risk assessment and portfolio optimization.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper demonstrates the performance of the proposed method via numerical examples from portfolio risk management, which directly indicates its application in financial risk management and portfolio management. The focus on estimating functionals of a conditional expectation is particularly relevant for risk assessment and portfolio optimization.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:33.132411"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 5066,
+    "title": "Majority voting ensemble with a decision trees for business failure prediction during economic downturns",
+    "abstract": "Accurate business failure prediction represents an advantage for market players and is important for risk management. The purpose of this study is to develop a more accurate and stable business failure prediction model by using a majority voting ensemble method with a decision tree (DT) with experimental data on US restaurant between 1980 and 2017. According to the diversity principle and individual optimized principle, DT and logit were selected as basic learning algorithms for the voting ensemble of business failure prediction. Three models, including an entire period (EP) model, an economic downturn (ED) model, and an economic expansion (EE) model, were developed by using WEKA 3.9. The prediction accuracy of the models were 88.02% for the EP model, 80.81% for the ED model, and 87.02 % for the EE model. While the EE model revealed the market capitalization, operating cash flow after interest and dividends (OCFAID), cash conversion cycle (CCC), return on capital employed (ROCE), accumulated retained earnings, stock price, and Tobin's Q as significant variables, the ED model exposed quite different variables such as OCFAID, KZ index, stock price, and CCC. The EP model combined most of the variables from two sub-divided models except for Tobin's Q, stock price, and debt to equity (D/E) ratio. The contribution of the paper is twofold. First, this is the first study to comprehensively evaluate the financial and market-driven variables in the context of predicting restaurant failure, especially during economic recessions. This research has employed several accounting-based measures, market-based variables, and a macro-economic factor to improve the relevance and effectiveness of prediction models. And second, by using an ensemble model with a DT, it has improved both the interpretability of the results and the prediction accuracy. (C) 2021 Journal of Innovation & Knowledge. Published by Elsevier Espana, S.L.U.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8c41abbbc6a7039937cd4015c28fd991",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:44:10.966936"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a business failure prediction model using machine learning techniques, which is directly related to assessing and managing financial risks, particularly in the context of economic downturns. This falls under the domain of Financial Risk Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a business failure prediction model using machine learning techniques, which is directly related to assessing and managing financial risks, particularly in the context of economic downturns. This falls under the domain of Financial Risk Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:29.842706"
+}

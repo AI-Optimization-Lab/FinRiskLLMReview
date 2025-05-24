@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1768,
+    "title": "Self-Supervised Prototype Representation Learning for Event-Based Corporate Profiling",
+    "abstract": "Event-based corporate profiling aims to assess the evolving operational status of the corresponding corporate from its event sequence. Existing studies on corporate profiling have partially addressed the problem via (i) case-by-case empirical analysis by leveraging traditional financial methods, or (ii) the automatic profile inference by reformulating the problem into a supervised learning task. However, both approaches heavily rely on domain knowledge and are labor-intensive. More importantly, the task-specific nature of both approaches prevents the obtained corporate profiles from being applied to diversified downstream applications. To this end, in this paper, we propose a Self-Supervised Prototype Representation Learning (SePaL) framework for dynamic corporate profiling. By exploiting the topological information of an event graph and exploring self-supervised learning techniques, SePaL can obtain unified corporate representations that are robust to event noises and can be easily fine-tuned to benefit various down-stream applications with only a few annotated data. Specifically, we first infer the initial cluster distribution of noise-resistant event prototypes based on latent representations of events. Then, we construct four permutation-invariant self-supervision signals to guide the representation learning of the event prototype. In terms of applications, we exploit the learned time-evolving corporate representations for both stock price spike prediction and corporate default risk evaluation. Experimental results on two real-world corporate event datasets demonstrate the effectiveness of SePaL for these two applications.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "291fc1d51204e12095e3cc9217220ffd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "representation learning",
+      "deep learning",
+      "neural network",
+      "feature representation",
+      "self-supervised learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T02:07:25.652345"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是自监督原型表示学习框架（SePaL），用于动态企业画像，并应用于股票价格飙升预测和企业违约风险评估。其中，企业违约风险评估属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是自监督原型表示学习框架（SePaL），用于动态企业画像，并应用于股票价格飙升预测和企业违约风险评估。其中，企业违约风险评估属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:35.660246"
+}

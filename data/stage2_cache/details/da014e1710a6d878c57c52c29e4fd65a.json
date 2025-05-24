@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2371,
+    "title": "A user-centric quantum benchmarking test suite and evaluation framework",
+    "abstract": "This article proposes a benchmark testing set and evaluation system for quantum computers. Our tests do not focus on the topology of quantum computers or the specific implementation details of preparing quantum bits. Instead, we examine the overall performance of quantum computers from the perspective of users. Inspired by traditional computer benchmark tests such as SPECCPU2017, we integrate existing scalable quantum applications and algorithms to generate a testing set that covers algorithms such as search, machine learning, factorization, portfolio optimization, and entanglement state preparation, effectively simulating real workloads. By running the testing set, we can understand the performance of current quantum computers and generate a comprehensive score by combining our evaluation system, which consists of sub-scores of various backend features, including quantum gate error rate, entanglement between quantum bits, cross talk, and connectivity. These sub-scores are calculated based on the program features of the testing cases combined with their running results, where the program features are analyzed through the logical circuits of the testing cases. We incorporate Hellinger fidelity and polarization rescaling into each benchmark to calculate the fidelity of the running results. Through our evaluation system, researchers can be guided toward research directions and understand how far quantum computers are from solving practical problems.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9b9147665c4989cad78e09c49c03414b",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:10.764158"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究量子计算机的基准测试和评估系统，虽然提到了投资组合优化作为测试案例之一，但这并不是论文的核心研究方向。论文的主要目标是评估量子计算机的整体性能，而不是专门针对金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究量子计算机的基准测试和评估系统，虽然提到了投资组合优化作为测试案例之一，但这并不是论文的核心研究方向。论文的主要目标是评估量子计算机的整体性能，而不是专门针对金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:27.730599"
+}

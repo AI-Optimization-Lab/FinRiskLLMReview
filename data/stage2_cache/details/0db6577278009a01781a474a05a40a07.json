@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 286,
+    "title": "Support Vector Machine Ensemble Based on Choquet Integral for Financial Distress Prediction",
+    "abstract": "Due to the radical change in both Chinese and global economic environment, it is essential to develop a practical model to predict financial distress. The support vector machine (SVM), a new outstanding learning machine based on the statistical learning theory, embodying the principle of structural risk minimization instead of empirical risk minimization principle, is a promising method for such financial distress prediction. However, to some extent, the performance of single classifier depends on the sample's pattern characteristics and each single classifier has its own uncertainty. Using the ensemble methods to predict financial distress becomes a rising trend in this field. This research puts forward a SVM ensemble based on the Choquet integral for financial distress prediction in which Bagging algorithm is used to generate new training sets. The proposed ensemble method can be expressed as Choquet + Bagging + SVMs. With real data from Chinese listed companies, an experiment is carried out to compare the performance of single classifiers with the proposed ensemble method. Empirical results indicate that the proposed ensemble of SVMs based on the Choquet integral for financial distress prediction has higher average accuracy and stability than single SVM classifiers.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "06940fd4afa8e4ebd892b2337c3f44c5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:04.589534"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用支持向量机集成方法进行财务困境预测，这属于金融风险管理中的信用风险或企业财务风险评估范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用支持向量机集成方法进行财务困境预测，这属于金融风险管理中的信用风险或企业财务风险评估范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:28.667213"
+}

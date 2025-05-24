@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 612,
+    "title": "Methodology for Smooth Transition from Experience-Based to Data-Driven Credit Risk Assessment Modeling under Data Scarcity",
+    "abstract": "Credit risk refers to the possibility of borrower default, and its assessment is crucial for maintaining financial stability. However, the journey of credit risk data generation is often gradual, and machine learning techniques may not be readily applicable for crafting evaluations at the initial stage of the data accumulation process. This article proposes a credit risk modeling methodology, TED-NN, that first constructs an indicator system based on expert experience, assigns initial weights to the indicator system using the Analytic Hierarchy Process, and then constructs a neural network model based on the indicator system to achieve a smooth transition from an empirical model to a data-driven model. TED-NN can automatically adapt to the gradual accumulation of data, which effectively solves the problem of risk modeling and the smooth transition from no to sufficient data. The effectiveness of this methodology is validated through a specific case of credit risk assessment. Experimental results on a real-world dataset demonstrate that, in the absence of data, the performance of TED-NN is equivalent to the AHP and better than untrained neural networks. As the amount of data increases, TED-NN gradually improves and then surpasses the AHP. When there are sufficient data, its performance approaches that of a fully data-driven neural network model.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0dff80948663c0895fd3897f3d479c31",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.572751"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a methodology for credit risk assessment, which is a key component of financial risk management. The proposed TED-NN model aims to transition from experience-based to data-driven credit risk modeling, directly addressing the challenge of assessing borrower default risk—a core concern in financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a methodology for credit risk assessment, which is a key component of financial risk management. The proposed TED-NN model aims to transition from experience-based to data-driven credit risk modeling, directly addressing the challenge of assessing borrower default risk—a core concern in financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:36.958952"
+}

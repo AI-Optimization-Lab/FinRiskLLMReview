@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 146,
+    "title": "FactorVQVAE: Discrete latent factor model via Vector Quantized Variational Autoencoder",
+    "abstract": "This study introduces FactorVQVAE, the first integration of the Vector Quantized Variational Autoencoder (VQVAE) into factor modeling, providing a novel framework for predicting cross-sectional stock returns and constructing systematic investment portfolios. The model employs a two-stage architecture to improve the extraction and utilization of latent financial factors. In the first stage, an encoder-decoder-quantizer compresses high-dimensional input data into discrete latent factors through vector quantization, addressing posterior collapse and ensuring distinct representations. In the second stage, an autoregressive Transformer captures sequential dependencies among these latent factors, enabling precise return predictions. Empirical results in the CSI300 and S&P500 markets demonstrate FactorVQVAE's superior performance. The model achieves the best Rank IC and Rank ICIR scores, surpassing the state-of-the-art latent factor models in varying market conditions. In portfolio evaluations, FactorVQVAE consistently excels in both Top-k Drop-n and Long-Short strategies, translating predictive accuracy into robust investment performance. In particular, it delivers the highest risk-adjusted returns, highlighting its ability to balance returns and risks effectively. These findings position FactorVQVAE as a significant advancement in integrating modern deep learning methodologies with financial factor modeling. Its adaptability, robustness, and exceptional performance in portfolio investment establish it as a promising tool for systematic investing and financial analytics.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "a8e0e6c78ceb528b635b2722add8653b",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "autoencoder",
+      "encoder-decoder",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:34:25.438332"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术FactorVQVAE主要用于预测股票收益和构建系统性投资组合，其应用场景和实证结果均围绕投资组合管理展开，如Top-k Drop-n和Long-Short策略的表现评估。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术FactorVQVAE主要用于预测股票收益和构建系统性投资组合，其应用场景和实证结果均围绕投资组合管理展开，如Top-k Drop-n和Long-Short策略的表现评估。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:07.468464"
+}

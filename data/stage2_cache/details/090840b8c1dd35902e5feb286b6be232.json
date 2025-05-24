@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 310,
+    "title": "Energy price prediction based on decomposed price dynamics: A parallel neural network approach",
+    "abstract": "The growing uncertainties of the world due to geographic tensions, and weather conditions challenge the traditional method to achieve a reliable price prediction of energy future for both asset pricing and risk management. Following the initial success of deep learning models in energy price prediction, we attempt to establish a better architecture of neural networks to improve the prediction accuracy. We propose a novel Parallel Hybrid Neural Network (PHNN) model that utilizes independent sub-networks to effectively capture the distinct features of various sequences. Empirical results demonstrate that the PHNN model exhibits a significant performance enhancement of 16.68%, 14.09%, and 2.34% over the EMD-LSTM, the informer model, and the single LSTM model, respectively. In particular, the PHNN outperforms the single LSTM, which is trained on the same inputs, by 2.34% overall while by a remarkable 4.11% during event periods. This suggests that the PHNN derives notable benefits from its distinct architecture, particularly during the initial phase of extreme events characterized by significant price trend changes. Additionally, the study explores the potential benefits of incorporating additional event-tracking indicators for energy futures price forecasting. However, the findings suggest that these indicators may not consistently provide effective complementary information.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "a5335f041e56e2281fdd39322013c36c",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.300612"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究能源价格预测的神经网络模型改进，虽然提及资产定价和风险管理，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究能源价格预测的神经网络模型改进，虽然提及资产定价和风险管理，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:37.046487"
+}

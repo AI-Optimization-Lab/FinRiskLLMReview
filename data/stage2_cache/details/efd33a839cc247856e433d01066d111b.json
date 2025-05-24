@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 91,
+    "title": "Improved option pricing using artificial neural networks and bootstrap methods",
+    "abstract": "A hybrid neural network is used to predict the difference between the conventional option-pricing model and observed intraday option prices for stock index option futures. Confidence intervals derived with bootstrap methods are used in a trading strategy that only allows trades outside the estimated range of spurious model fits to be executed. Whilst hybrid neural network option pricing models can improve predictions they have bias. The hybrid option-pricing bias can be reduced with bootstrap methods. A modified bootstrap predictor is indexed by a parameter that allows the predictor to range from a pure bootstrap predictor, to a hybrid predictor, and finally the bagging predictor. The modified bootstrap predictor outperforms the hybrid and bagging predictors. Greatly improved performance was observed on the boundary of the training set and where only sparse training data exists. Finally, bootstrap bias estimates were studied.",
+    "year": 1997,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "47f5d172a3863e0adbc5007e14b71389",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.979905"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用混合神经网络和自举方法来改进期权定价模型的预测准确性，并应用于股票指数期权期货的定价。这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用混合神经网络和自举方法来改进期权定价模型的预测准确性，并应用于股票指数期权期货的定价。这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:00.919900"
+}

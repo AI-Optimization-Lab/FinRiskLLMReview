@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 806,
+    "title": "STOCK MOVEMENT PREDICTION AND PORTFOLIO MANAGEMENT VIA MULTIMODAL LEARNING WITH TRANSFORMER",
+    "abstract": "This paper introduces a novel high performing multimodal deep learning architecture(Trans-DiCE) for stock movement prediction utilizing financial indicators and news data. Our multimodal architecture uses dilated causal convolutions and Transformer blocks for feature extraction from both data sources. The masked multi-head self-attention layers inside Transformers preserve causality and improve features based on contextual information. To integrate the derived multimodal model representations, we use stacked Transformer blocks. We show empirically that our model performs best compared to state-of-the-art baseline methods for S&P 500 index and individual stock prediction and provides a significant 3.45% improvement from 74.29% to 77.74%. We also demonstrate our model's utility for the Portfolio Management task. We propose a Deep Reinforcement Learning Framework utilizing Trans-DiCE for Portfolio Optimization, providing noticeable gain on Sharpe Ratio and 7.9% increase in Portfolio Value over the existing state of the art Models.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a16eeabd3dc19ba6b9672768346d2f27",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism",
+      "Transformer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.359893"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术Trans-DiCE模型不仅用于股票价格预测，还明确提出了一个基于深度强化学习的投资组合优化框架，并展示了其在投资组合管理任务中的实际应用和性能提升。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术Trans-DiCE模型不仅用于股票价格预测，还明确提出了一个基于深度强化学习的投资组合优化框架，并展示了其在投资组合管理任务中的实际应用和性能提升。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:28.483436"
+}

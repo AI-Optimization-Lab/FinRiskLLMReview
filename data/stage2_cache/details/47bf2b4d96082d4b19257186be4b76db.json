@@ -1,0 +1,39 @@
+{
+  "paper": {
+    "id": 2196,
+    "title": "Data augmentation of credit default swap transactions based on a sequence GAN",
+    "abstract": "Credit default swap transaction data repositories are frequently applied with credit default swap spread estimation and financial market risk assessment. However, in practical applications, there is poor liquidity, some missing data, and inaccurate definitions. Small samples tend to lead to poor prediction accuracy and poor adaptability of the statistical algorithm. Data generation can effectively increase the sample size and improve the effect of the risk assessment model. In this paper, a credit default swap data generation algorithm based on a sequence generative adversarial network (SeqGAN) is proposed, and the policy gradient algorithm in reinforcement learning is introduced to optimize the traditional generative adversarial network (GAN) algorithm to solve the gradient disappearance and poor data adaptability problems in the traditional algorithm. Gradient disappearance is due to the generator network in GAN being designed to be able to adjust the output continuously, which does not work on discrete data generation. The optimization algorithm proposed in this paper is used to train randomly distributed sequence data and generate credit default swap transactions with diversity and good model applicability. The credit default swap data generated in this paper are verified by the synthetic ranking agreement (SRA) index. The results show that SeqGAN can effectively synthesize various simulation samples, which can provide support for the risk discrimination model.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6fe3783ca6f0bc0ca255c365785604d4",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "sequence-to-sequence learning",
+      "seq2seq",
+      "encoder-decoder",
+      "autoencoder",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:17.454292"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种基于序列生成对抗网络（SeqGAN）的信用违约互换（CDS）数据生成算法，旨在解决信用违约互换交易数据流动性差、样本量小等问题，从而提高风险评估模型的准确性。这直接应用于金融风险管理领域，特别是信用风险和市场风险的评估。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种基于序列生成对抗网络（SeqGAN）的信用违约互换（CDS）数据生成算法，旨在解决信用违约互换交易数据流动性差、样本量小等问题，从而提高风险评估模型的准确性。这直接应用于金融风险管理领域，特别是信用风险和市场风险的评估。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:42.695600"
+}

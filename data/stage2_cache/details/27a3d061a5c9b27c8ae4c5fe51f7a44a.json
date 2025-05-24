@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 251,
+    "title": "Portfolio Transformer for Attention-Based Asset Allocation",
+    "abstract": "Traditional approaches to financial asset allocation start with returns forecasting followed by an optimization stage that decides the optimal asset weights. Any errors made during the forecasting step reduce the accuracy of the asset weightings, and hence the profitability of the overall portfolio. The Portfolio Transformer (PT) network, introduced here, circumvents the need to predict asset returns and instead directly optimizes the Sharpe ratio, a risk-adjusted performance metric widely used in practice. The PT is a novel end-to-end portfolio optimization framework, inspired by the numerous successes of attention mechanisms in natural language processing. With its full encoder-decoder architecture, specialized time encoding layers, and gating components, the PT has a high capacity to learn long-term dependencies among portfolio assets and hence can adapt more quickly to changing market conditions such as the COVID-19 pandemic. To demonstrate its robustness, the PT is compared against other algorithms, including the current LSTM-based state of the art, on three different datasets, with results showing that it offers the best risk-adjusted performance.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "3850ee0722cdc0b52a5db43f3627db64",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "encoder-decoder",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:45.599296"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper introduces the Portfolio Transformer (PT) network, which directly optimizes the Sharpe ratio for asset allocation, a core aspect of portfolio management. The focus on end-to-end portfolio optimization and comparison with other algorithms in terms of risk-adjusted performance clearly aligns with the investment portfolio management domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper introduces the Portfolio Transformer (PT) network, which directly optimizes the Sharpe ratio for asset allocation, a core aspect of portfolio management. The focus on end-to-end portfolio optimization and comparison with other algorithms in terms of risk-adjusted performance clearly aligns with the investment portfolio management domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:24.044231"
+}

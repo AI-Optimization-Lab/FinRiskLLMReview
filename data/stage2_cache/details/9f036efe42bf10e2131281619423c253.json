@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 188,
+    "title": "MOBILE U-NET V3 AND BILSTM: PREDICTING STOCK MARKET PRICES BASED ON DEEP LEARNING APPROACHES",
+    "abstract": "Stock-market prediction is the task of forecasting future movements or trends in stock prices or overall market behavior. Investors can able to locate companies that offer the highest dividend yields and lower their investment risks by using a trading strategy. It's important to note that predicting stock markets accurately is extremely challenging and no approach can guarantee consistent success. Markets are influenced by a multitude of factors and there is inherent uncertainty involved. For instance, predicting stock-market prices is commonly used in financial disciplines, such as trade-execution strategies, portfolio optimization and stock-market forecasting. Therefore, it's crucial to approach stock-market prediction cautionsly and use it as a tool for informed decision making rather than relying solely on predictions. To overcome the challenges, we proposed a new hybrid deep learning technique to forecast future stock prices. Deep learning has recently enjoyed considerable success in some domains due to its exceptional capacity for handling data. In this research, we propose a hybrid technique of Mobile U-Net V3 and BiLSTM (Bi-Long Short-Term Memory) to predict stock prices. Initially, we utilize the min-max normalization method to normalize the input data in the preprocessing stage. After normalizing the data, we utilize hybrid deep learning techniques of Mobile U-Net V3 and BiLSTM to predict the closing price from stock data. To experiment, we collect data from Apple, Inc. and S&P 500 stock. The evaluation metrics Pearson's Correlation (R), Mean Squared Error (MSE), Root Mean Squared Error (RMSE) and Normalization Root Mean Squared Error (NRMSE) were utilized to calculate the outcomes of the DL stock-prediction methods. The Mobile U-Net V3-BiLSTM model outperformed other techniques in forecasting stock-market prices.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "a1584b0715ee94d6433a1f3425e923b4",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "BiLSTM",
+      "regression",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:33:06.194360"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型（Mobile U-Net V3和BiLSTM）预测股票市场价格，这可以用于投资组合管理中的股票选择和交易策略优化。虽然论文提到了降低投资风险，但主要应用场景是股票价格预测，因此更符合投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型（Mobile U-Net V3和BiLSTM）预测股票市场价格，这可以用于投资组合管理中的股票选择和交易策略优化。虽然论文提到了降低投资风险，但主要应用场景是股票价格预测，因此更符合投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:31.742134"
+}

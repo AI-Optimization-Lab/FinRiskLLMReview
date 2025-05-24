@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3380,
+    "title": "Online Risk Monitoring Using Offline Simulation",
+    "abstract": "Estimating portfolio risk measures and classifying portfolio risk levels in real time are important yet challenging tasks. In this paper, we propose to build a logistic regression model using data generated in past simulation experiments and to use the model to predict portfolio risk measures and classify risk levels at any time. We further explore regularization techniques, simulation model structure, and additional simulation budget to enhance the estimators of the logistic regression model to make its predictions more precise. Our numerical results show that the proposed methods work well. Our work may be viewed as an example of the recently proposed idea of simulation analytics, which treats a simulation model as a data generator and proposes to apply data analytics tools to the simulation outputs to uncover conditional statements. Our work shows that the simulation analytics idea is viable and promising in the field of financial risk management.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e6667a52341d2b13bdc4e23e00bf00da",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:25:40.140242"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on estimating portfolio risk measures and classifying portfolio risk levels in real time, which directly pertains to financial risk management. Additionally, the context of portfolio risk implies relevance to portfolio management as well.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on estimating portfolio risk measures and classifying portfolio risk levels in real time, which directly pertains to financial risk management. Additionally, the context of portfolio risk implies relevance to portfolio management as well.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:50.640170"
+}

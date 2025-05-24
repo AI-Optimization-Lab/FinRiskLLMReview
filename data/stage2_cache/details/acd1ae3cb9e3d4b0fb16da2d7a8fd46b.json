@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2455,
+    "title": "A Fast Non-Linear Coupled Tensor Completion Algorithm for Financial Data Integration and Imputation",
+    "abstract": "Missing data imputation is crucial in finance to ensure accurate financial analysis, risk management, investment strategies, and other financial applications. Recently, tensor factorization and completion have gained momentum in many finance data imputation applications, primarily due to recent breakthroughs in applying deep neural networks for nonlinear tensor analysis. However, one limitation of these approaches is that they are prone to overfitting sparse tensors that contain only a small number of observations. This paper focuses on learning highly reliable embedding for the tensor imputation problem and applies orthogonal regularizations for tensor factorization, reconstruction, and completion. The proposed neural network architecture for sparse tensors, called RegTensor, includes multiple components: an embedding learning module for each tensor order, MLP (multilayer perception) to model nonlinear interactions among embeddings, and a regularization module to minimize overfitting problems due to the large tensor rank. Our algorithm is efficient in factorizing both single and multiple tensors (coupled tensor factorization) without incurring high training and optimization costs. We have applied this algorithm in a variety of practical scenarios, including the imputation of bond characteristics and financial analyst EPS forecast data. Experimental results demonstrate its superiority with significant performance improvements: 40%-74% better than linear tensor completion models and 2%-52% better than the state-of-the-art nonlinear models.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9204a700b640173326c832b5dfe3c8e2",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:27.095049"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种用于金融数据整合和缺失值填补的张量补全算法，虽然提到了金融分析、风险管理和投资策略等应用场景，但并未明确指出其核心技术专门应用于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种用于金融数据整合和缺失值填补的张量补全算法，虽然提到了金融分析、风险管理和投资策略等应用场景，但并未明确指出其核心技术专门应用于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:26.812857"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 45,
+    "title": "Predicting the stock price of frontier markets using machine learning and modified Black-Scholes Option pricing model",
+    "abstract": "The Black-Scholes Option pricing model (BSOPM) has long been in use for valuation of equity options to find the price of stocks. In this work, using BSOPM, we have come up with a comparative analytical approach and numerical technique to find the price of call option and put option and considered these two prices as buying price and selling price of stocks in the frontier markets so that we can predict the stock price (close price). Changes have been made in the model to find the parameters such as 'strike price' and the 'time of expiration' for calculating stock price of frontier markets. To verify the result obtained using modified BSOPM, we have used machine learning approach using the software Rapidminer, where we have adopted different algorithms like the decision tree, ensemble learning method and neural network. It has been observed that, the prediction of close price using machine learning is very similar to the one obtained using BSOPM. Machine learning approach stands out to be a better predictor over BSOPM, because Black-Scholes-Merton equation includes risk and dividend parameter, which changes continuously. We have also numerically calculated volatility. As the price of the stocks goes up due to overpricing, volatility increases at a tremendous rate and when volatility becomes very high; market tends to fall, which can be observed and determined using our modified BSOPM. The proposed modified BSOPM has also been explained based on the analogy of Schrodinger equation (and heat equation) of quantum physics. (C) 2020 Elsevier B.V. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "4b8e64b11b09944b474b560b3489ea11",
+    "relevant_keywords": [
+      "machine learning",
+      "decision tree",
+      "neural network",
+      "ensemble learning method"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.619899"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是修改Black-Scholes期权定价模型（BSOPM）以预测前沿市场的股票价格，并利用机器学习方法验证结果。虽然论文也提到了波动率的计算和市场行为的观察，但主要研究目标仍然是衍生品（期权）定价模型的改进和应用。因此，其主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是修改Black-Scholes期权定价模型（BSOPM）以预测前沿市场的股票价格，并利用机器学习方法验证结果。虽然论文也提到了波动率的计算和市场行为的观察，但主要研究目标仍然是衍生品（期权）定价模型的改进和应用。因此，其主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:06.060101"
+}

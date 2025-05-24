@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1193,
+    "title": "Deep Reinforcement Learning (DRL) for Portfolio Allocation",
+    "abstract": "Deep reinforcement learning (DRL) has reached an unprecedent level on complex tasks like game solving (Go [6], StarCraft II [7]), and autonomous driving. However, applications to real financial assets are still largely unexplored and it remains an open question whether DRL can reach super human level. In this demo, we showcase state-of-the-art DRL methods for selecting portfolios according to financial environment, with a final network concatenating three individual networks using layers of convolutions to reduce network's complexity. The multi entries of our network enables capturing dependencies from common financial indicators features like risk aversion, citigroup index surprise, portfolio specific features and previous portfolio allocations. Results on test set show this approach can overperform traditional portfolio optimization methods with results available at our demo website.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0e92a7c5a33406d2700e6fe18d43e851",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.334368"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly discusses the application of deep reinforcement learning (DRL) for selecting portfolios according to financial environments, which directly pertains to the field of Portfolio Management. The research focuses on optimizing portfolio allocations using advanced DRL methods, outperforming traditional portfolio optimization techniques.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly discusses the application of deep reinforcement learning (DRL) for selecting portfolios according to financial environments, which directly pertains to the field of Portfolio Management. The research focuses on optimizing portfolio allocations using advanced DRL methods, outperforming traditional portfolio optimization techniques.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:36.396542"
+}

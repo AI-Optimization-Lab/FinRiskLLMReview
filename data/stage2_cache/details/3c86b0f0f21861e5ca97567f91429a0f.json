@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 4109,
+    "title": "Credit Risk Prediction Based on DenseNet-BC of Fusion Focal Loss and Static restart SGD",
+    "abstract": "Effective credit risk prediction can help the financial industry avoid risks. DenseNet-BC based on Focal Loss and static restart SGD is proposed to improve credit risk prediction accuracy. It utilizes powerful feature reuse of dense convolution network to realize multi-calibration of an end-to-end feature, and the Focal Loss function is introduced into the classification layer by weight adjusting data imbalance between sample data and simple sample difficult sample quantity unbalance which enhances the accuracy of prediction accuracy in unbalanced data concentration. Meanwhile, optimizing adaptive variation learning rate parameters by static restart SGD avoids falling into local optimum during model training or missing optimal solution because the learning rate is too large. The Lending Club dataset's experimental results show that the model has a significant improvement in the accuracy of credit risk prediction.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9e4bf1f5db9a9b65553f88c306b7ac62",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "convolutional neural network",
+      "CNN",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T02:33:03.568628"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit risk prediction accuracy using a deep learning model, which is a key aspect of financial risk management, specifically in assessing and mitigating credit risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit risk prediction accuracy using a deep learning model, which is a key aspect of financial risk management, specifically in assessing and mitigating credit risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:17.555932"
+}

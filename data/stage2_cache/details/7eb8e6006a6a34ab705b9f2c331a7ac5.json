@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 201,
+    "title": "Cardinality and Bounding Constrained Portfolio Optimization Using Safe Reinforcement Learning",
+    "abstract": "Portfolio optimization is a strategic approach aiming at achieving an optimal balance between risk and returns through the judicious allocation of limited capital across various assets. In recent years, there has been a growing interest in leveraging Deep Reinforcement Learning (DRL) to tackle the complexities of portfolio optimization. Despite its potential, a notable limitation of DRL algorithms is their inherent difficulty in integrating conflicted objectives with the reward functions throughout the learning process. Typically, DRL's reward function prioritizes the maximization of returns or other performance indicators, often overlooking the integration of risk aspects. Furthermore, the standard DRL framework struggles to incorporate practical constraints, such as cardinality and bounding, into the decision process. Without these constraints, the investment strategies developed might be unrealistic and unmanageable. To this end, in this paper, we propose an adaptive and safe DRL framework, which can dynamically optimize the portfolio weights while strictly respecting practical constraints. In our method, any infeasible action (i.e., one that violates the constraints) decided by the RL agent will be mapped to a feasible region using a safety layer. The extended Markowitz Mean-Variance (M-V) model is explicitly encoded in the safety layer to ensure the feasibility of the actions from the alternative views. In addition, we utilize Projection-based Interior-point Policy Optimization (IPO) to resolve multiple objectives and constraints in the examined problem. Extensive results on real-world datasets show that our method is effective in strictly respecting constraints under dynamic market environments, in contrast to prevailing datadriven trading strategies and conventional model-based static solutions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e2a66c5fbb9a46659d39f47e197d352b",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.098794"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用安全强化学习框架来优化投资组合权重，同时严格遵守实际约束条件（如基数约束和边界约束），这直接属于投资组合管理的研究领域。论文明确提到其目标是实现风险和回报之间的最优平衡，并通过实验验证了其在动态市场环境下的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用安全强化学习框架来优化投资组合权重，同时严格遵守实际约束条件（如基数约束和边界约束），这直接属于投资组合管理的研究领域。论文明确提到其目标是实现风险和回报之间的最优平衡，并通过实验验证了其在动态市场环境下的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:49.514528"
+}

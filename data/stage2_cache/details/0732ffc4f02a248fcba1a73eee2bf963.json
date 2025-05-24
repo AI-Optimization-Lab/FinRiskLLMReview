@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2484,
+    "title": "A novel hybrid credit scoring model based on ensemble feature selection and multilayer ensemble classification",
+    "abstract": "Credit scoring focuses on the development of empirical models to support the financial decision-making processes of financial institutions and credit industries. It makes use of applicants' historical data and statistical or machine learning techniques to assess the risk associated with an applicant. However, the historical data may consist of redundant and noisy features that affect the performance of credit scoring models. The main focus of this paper is to develop a hybrid model, combining feature selection and a multilayer ensemble classifier framework, to improve the predictive performance of credit scoring. The proposed hybrid credit scoring model is modeled in three phases. The initial phase constitutes preprocessing and assigns ranks and weights to classifiers. In the next phase, the ensemble feature selection approach is applied to the preprocessed dataset. Finally, in the last phase, the dataset with the selected features is used in a multilayer ensemble classifier framework. In addition, a classifier placement algorithm based on the Choquet integral value is designed, as the classifier placement affects the predictive performance of the ensemble framework. The proposed hybrid credit scoring model is validated on real-world credit scoring datasets, namely, Australian, Japanese, German-categorical, and German-numerical datasets.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "bde2d20c68b9711f6148a35b8515ebed",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "ensemble feature selection"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:59.846158"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种混合信用评分模型，用于评估申请人的信用风险，这直接应用于金融风险管理中的信用风险控制。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一种混合信用评分模型，用于评估申请人的信用风险，这直接应用于金融风险管理中的信用风险控制。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:36.689507"
+}

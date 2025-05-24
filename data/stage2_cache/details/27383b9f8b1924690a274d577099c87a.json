@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 665,
+    "title": "Quantitative Day Trading from Natural Language using Reinforcement Learning",
+    "abstract": "It is challenging to design profitable and practical trading strategies, as stock price movements are highly stochastic, and the market is heavily influenced by chaotic data across sources like news and social media. Existing NLP approaches largely treat stock prediction as a classification or regression problem and are not optimized to make profitable investment decisions. Further, they do not model the temporal dynamics of large volumes of diversely influential text to which the market responds quickly. Building on these shortcomings, we propose a deep reinforcement learning approach that makes time-aware decisions to trade stocks while optimizing profit using textual data. Our method outperforms state-of-the-art in terms of risk-adjusted returns in trading simulations on two benchmarks: Tweets (English) and financial news (Chinese) pertaining to two major indexes and four global stock markets. Through extensive experiments and studies, we build the case for our method as a tool for quantitative trading.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4c84ba838e2e3f298bc8babb27a4a65b",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.286851"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习从自然语言数据中制定交易策略，以优化利润和风险调整后的回报。这直接涉及投资组合管理中的交易决策和资产配置问题，但并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习从自然语言数据中制定交易策略，以优化利润和风险调整后的回报。这直接涉及投资组合管理中的交易决策和资产配置问题，但并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:53.584782"
+}

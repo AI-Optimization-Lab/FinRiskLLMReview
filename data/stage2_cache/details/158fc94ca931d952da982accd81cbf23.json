@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2885,
+    "title": "A Deep Learning-Aided Approach to Portfolio Design for Financial Index Tracking",
+    "abstract": "This paper considers the index tracking portfolio (ITP) design problem in financial markets, which aims at reproducing the performance of a financial index by investing in a subset of the assets constituting it. From a regression-based point of view, the ITP design problem is formulated as a mixed-integer programming (MIP). Leveraging the graph convolutional network (GCN), a calibrated GCN is proposed for asset selection followed by a lightweight MIP problem to realize asset allocation. Numerical simulations show that compared to existing methods the proposed learning-aided approach can generate comparable ITP design results and significantly accelerate the computation which is favorable for practical index tracking targets in finance.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3b88e1d603ddd61e710c3b969a1e2e49",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "graph convolutional network",
+      "GCN",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:11:17.480926"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用图卷积网络（GCN）和混合整数规划（MIP）来解决指数跟踪投资组合（ITP）设计问题，这直接属于投资组合管理的范畴。论文明确提到其目标是复制金融指数的表现，并通过资产选择和分配来实现这一目标，这些都是投资组合管理的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用图卷积网络（GCN）和混合整数规划（MIP）来解决指数跟踪投资组合（ITP）设计问题，这直接属于投资组合管理的范畴。论文明确提到其目标是复制金融指数的表现，并通过资产选择和分配来实现这一目标，这些都是投资组合管理的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:20.826931"
+}

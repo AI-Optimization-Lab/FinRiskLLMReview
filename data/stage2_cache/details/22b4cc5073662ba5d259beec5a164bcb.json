@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 215,
+    "title": "量化选股应用研究",
+    "abstract": "近年来,机器学习方法越来越多地被应用在金融领域、尤其是在股票市场,股票市场高收益和高风险并存,量化方法应用于股市投资能够有效减少亏损。本文利用支持向量机、神经网络、随机森林三种方法选择价值股票,使用等权重、熵值、最小化组合方差、最大化组合夏普比率4种方法配置股票组合的权重,通过阿尔法、贝塔来评价投资组合,结果显示,和A股指数相比,利用机器学习方法筛选得到的股票组合在阿尔法和贝塔指标上均表现良好,并获得了超额收益。",
+    "year": 2020,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "347316424d7199ff6f8f04270450b35f",
+    "relevant_keywords": [
+      "machine learning",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:50.506261"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用机器学习方法选择价值股票，并通过多种方法配置股票组合的权重，最终评价投资组合的表现。这明显属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用机器学习方法选择价值股票，并通过多种方法配置股票组合的权重，最终评价投资组合的表现。这明显属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:15.658937"
+}

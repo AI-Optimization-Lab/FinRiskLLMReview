@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1106,
+    "title": "Optimal Portfolio Selection with Different Approximated Returns",
+    "abstract": "In this paper, we investigate the impact of the approximation methods on the large-scale portfolio selection problems. In particular, we compare conditional expectation estimation from both parametric and nonparametric regression models. In this context, we use a general nonparametric multivariate regression framework to cope with several problems arising with linear regression approximation. To this end, we firstly reduce the dimensionality of the large-scale portfolio by performing a principal component analysis on the stock returns. Then, within k-fund separation model, we use different methodologies to approximate the portfolio returns. Finally, through an empirical analysis, we show the impact of regression estimation on the ex-post sample paths of several portfolio strategies. The proposed empirical analysis confirms that it is better using nonparametric regression rather than the classical parametric regression.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "74364898334f4789a8bd331f4d344e35",
+    "relevant_keywords": [
+      "regression",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.340382"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on optimal portfolio selection and compares different approximation methods for portfolio returns, which are central topics in portfolio management. The use of principal component analysis and regression models to approximate returns and evaluate portfolio strategies further confirms its application in this domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on optimal portfolio selection and compares different approximation methods for portfolio returns, which are central topics in portfolio management. The use of principal component analysis and regression models to approximate returns and evaluate portfolio strategies further confirms its application in this domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:39.563149"
+}

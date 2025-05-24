@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 406,
+    "title": "Cluster-Specific Latent Factor Estimation in High-Dimensional Financial Time Series",
+    "abstract": "Unsupervised learning methods have been increasingly used for detecting latent factors in high-dimensional time series, with many applications, especially in financial risk modelling. Most latent factor models assume that the factors are pervasive and affect all of the time series. However, some factors may affect only certain assets in financial markets, due to their clustering within countries, asset classes, or sector classifications. In this paper we consider high-dimensional financial time series with pervasive and cluster-specific latent factors, and propose a clustering and latent factor estimation method. We also develop a model selection algorithm, based on the spectral properties of asset correlation matrices and asset graphs. A simulation study with known data generating processes demonstrates that the proposed method outperforms other clustering methods and provides estimates with a high degree of accuracy. Moreover, the model selection procedure is also shown to provide stable and accurate estimates for the number of clusters and latent factors. We apply the proposed methods to datasets of asset returns from global financial markets using a backtesting approach. The results demonstrate that the clustering approach and estimated latent factors yield relevant information, improve risk modelling and reduce volatility in optimal minimum variance portfolios.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b31f4b325634d8898c7fae3304a2b8cc",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.135636"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on detecting latent factors in high-dimensional financial time series to improve risk modeling and reduce volatility in optimal minimum variance portfolios, which directly applies to financial risk management and portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on detecting latent factors in high-dimensional financial time series to improve risk modeling and reduce volatility in optimal minimum variance portfolios, which directly applies to financial risk management and portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:25.238042"
+}

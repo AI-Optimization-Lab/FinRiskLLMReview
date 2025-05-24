@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 284,
+    "title": "A TUTORIAL ON NESTED SIMULATION",
+    "abstract": "Nested simulation refers to the problem of estimating a functional of a conditional expectation that cannot be evaluated analytically and requires simulation. It finds a wide range of applications in operations research and machine learning, including portfolio risk measurement, pricing of complex derivatives, and Bayesian experimental design. Nested simulation typically proceeds at two levels. At the outer level, a number of scenarios are simulated. Then, at the inner level, given each scenario, one or multiple samples are simulated for estimating the conditional expectation. Various approaches have been proposed for estimating the conditional expectation and conducting nested simulation itself, focusing on point estimation and/or interval estimation, and addressing general or specified forms of the functional. In this tutorial, we review several approaches to nested simulation and discuss their contributions to the field.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "fa5d60da225a780ddee9c4f9df9861d3",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.135358"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly mentions applications of nested simulation in portfolio risk measurement and pricing of complex derivatives, which directly relate to financial risk management and derivatives pricing. Additionally, portfolio risk measurement is a key aspect of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Derivatives Pricing\", \"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper explicitly mentions applications of nested simulation in portfolio risk measurement and pricing of complex derivatives, which directly relate to financial risk management and derivatives pricing. Additionally, portfolio risk measurement is a key aspect of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:39.568999"
+}

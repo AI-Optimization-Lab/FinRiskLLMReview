@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2851,
+    "title": "Two-stage technology opportunity discovery for firm-level decision making: GCN-based link-prediction approach",
+    "abstract": "In this study, we propose a graph convolution network (GCN)-based patent-link prediction to predict technology convergence. We address the limitations of previous works, which neglect both the global information of a convergence network and the node features. We employ three features: GCN node features to represent global information, node features to characterize what kinds of information they have and how they are similar, and edge similarity to represent how frequently the two nodes are connected. Considering three categories of in-formation, we conduct link prediction using machine learning (ML) to identify potential opportunities. To identify areas of technology convergence, we also support firm-level decision making using portfolio analysis. This study consists of two main stages: opportunity discovery which employs both GCN-based link prediction and ML, and opportunity validation which evaluates whether the identified technology opportunities are suitable from the firm's perspective. A case study is conducted for the mobile payment industry. A total of 17,540 patent documents with 36,871 positive links are used for GCN link prediction and ML. As a result of firm-level op-portunity validation, a total of 395 cooperative patent classifications (CPC) were predicted to be possibly linked with 32 current CPCs of the target firm. The contributions come from two main aspects. From a theoretical perspective, this study employs GCN and node features to reflect the global graph structure for technology convergence. From a practical perspective, this study suggests how to validate the identified opportunities for firm-level applications.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a7300dd9aa8f7db68077756abef2bf70",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "graph convolution network",
+      "GCN",
+      "link prediction"
+    ],
+    "stage1_timestamp": "2025-05-15T01:11:17.356400"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于图卷积网络（GCN）的专利链接预测技术，用于发现技术融合机会并支持企业级决策制定。虽然提到了投资组合分析（portfolio analysis），但这是在企业战略决策的背景下，而非金融领域的投资组合管理。论文的核心技术和应用场景与衍生品定价、金融风险管理和投资组合管理均无直接关联。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于图卷积网络（GCN）的专利链接预测技术，用于发现技术融合机会并支持企业级决策制定。虽然提到了投资组合分析（portfolio analysis），但这是在企业战略决策的背景下，而非金融领域的投资组合管理。论文的核心技术和应用场景与衍生品定价、金融风险管理和投资组合管理均无直接关联。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:24.628524"
+}

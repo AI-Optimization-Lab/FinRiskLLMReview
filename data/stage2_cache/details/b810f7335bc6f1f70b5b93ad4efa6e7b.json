@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1755,
+    "title": "An optimistic value iteration for mean-variance optimization in discounted Markov decision processes",
+    "abstract": "This paper proposes an optimistic value iteration for steady -state mean-variance optimization in infinite-horizon discounted Markov decision processes (MDPs). The involved variance metric concerns reward variability in the long run, and future deviations are discounted to their present values. This mean-variance optimality criterion is time-inconsistent since its reward function depends on the mean, which renders traditional dynamic programming methods inapplicable. A family of policy/value iteration algorithms can be developed under a bilevel optimization algorithm framework, but there are still several problems to solve for a reinforcement learning (RL) extension. One problem is that in the value iteration, the inner optimization should achieve a near -optimal solution to ensure convergence before the outer update, which is required in every outer iteration. However, in an RL scenario, it is impractical to determine when the inner optimization should be stopped. To deal with this problem, we propose an optimistic value iteration, where the outer updates can be merged into the inner optimization with a learning rate. We prove the algorithm convergence and conduct a numerical experiment on portfolio management to validate the proposed algorithm.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5cabb449f5e5e09fe286a7db7d74476e",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:22.929505"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种用于均值-方差优化的乐观值迭代方法，并在投资组合管理上进行了数值实验验证，这直接表明其核心技术应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种用于均值-方差优化的乐观值迭代方法，并在投资组合管理上进行了数值实验验证，这直接表明其核心技术应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:09.190954"
+}

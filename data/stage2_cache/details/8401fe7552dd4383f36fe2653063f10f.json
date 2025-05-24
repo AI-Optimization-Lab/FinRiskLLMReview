@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1010,
+    "title": "Risk aware portfolio construction using deep deterministic policy gradients",
+    "abstract": "Allocation of liquid capital to the financial instruments in a portfolio is typically done using a two-step process. In the first step, predictive techniques are used to determine the future risk and rewards for the instrument. In the subsequent step, a quadratic optimization problem is solved to obtain the allocation that maximizes a relevant measure of the portfolio performance computed using a combination of the risks and the rewards. Deep Reinforcement Learning (DRL) eliminates the need for a two step process to find the allocation across the instruments that will optimize a measure of portfolio performance obtained from the market. URI, based portfolio construction autonomously adjusts to a change in the environment unlike traditional machine learning algorithms used in prediction. The existing DRL methods suffer from the challenges of stability, and do not lend themselves well to the portfolio construction problem that has a continuous action space. Proposed in 2015, Deep Deterministic Policy Gradients (DDPG) is a type of actor-critic DRL algorithm that provides support for continuous action space which is encountered in portfolio construction. This paper evaluates the use of DDPG to solve the problem of risk aware portfolio construction. Simulations are done on a portfolio of twenty stocks and the use of both Rate of Return and Sortino ratio as a measure of portfolio performance are evaluated. Results are presented that demonstrate the effectiveness of DDPG for risk aware portfolio construction. The simulation results presented in this paper show that having a risk-aware measure of portfolio performance such as Sortino ratio give a portfolio with superior return and lower variance.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b5538fa6ac278d1fbb834f7307ec7aea",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:30.017230"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度确定性策略梯度（DDPG）来解决风险感知的投资组合构建问题，这直接属于投资组合管理的范畴。论文讨论了如何优化投资组合的表现，包括使用回报率和Sortino比率作为衡量标准，这些都是投资组合管理中的关键问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度确定性策略梯度（DDPG）来解决风险感知的投资组合构建问题，这直接属于投资组合管理的范畴。论文讨论了如何优化投资组合的表现，包括使用回报率和Sortino比率作为衡量标准，这些都是投资组合管理中的关键问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:43.097945"
+}

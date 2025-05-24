@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1015,
+    "title": "On integrating unsupervised and supervised classification for credit risk evaluation",
+    "abstract": "Credits granting are very important parts of banks' activities, as they may give big profits, but there is a big risk connected with making decisions in this area and mistakes may be very costly for financial institutions. The main idea in credit risk evaluation investigations consists of building classification rules that assign properly bank customers as good or bad payers. In the paper, the system based on combination of unsupervised and supervised classification is proposed. In the first step, by using clustering algorithm, clients are segmented into groups with similar features. In the second step, decision trees are built and classification rules, for each group of clients, are defined. To avoid redundancy, different attributes are taken into account during each kind of classification. The proposed approach allows for using different rules within the same data set, and for defining more accurately clients with high risk. The system was tested on the real credit-risk data sets. Some exemplary results concerning different groups of clients are presented.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0434070c833b08654c16bb15bba898e4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "classification",
+      "decision tree",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:08.436819"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a classification system for evaluating credit risk, which is a key aspect of financial risk management in banking. The proposed method aims to accurately identify high-risk clients, directly addressing risk assessment and mitigation.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a classification system for evaluating credit risk, which is a key aspect of financial risk management in banking. The proposed method aims to accurately identify high-risk clients, directly addressing risk assessment and mitigation.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:42.595639"
+}

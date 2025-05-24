@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 107,
+    "title": "Ensemble Strategy Based on Deep Reinforcement Learning for Portfolio Optimization",
+    "abstract": "Although deep reinforcement learning for portfolio optimization has attracted the attention of more and more researchers, existing research focuses on the improvement of a single algorithm. According to No Free Lunch Theorem (NFL), single algorithms are always limited, especially in complex financial environment. In this paper, an ensemble strategy that combines the advantages of three deep reinforcement learning algorithms is proposed to select appropriate agents at different stages. The ensemble strategy is composed of Deep Deterministic Policy Gradient (DDPG), Soft Actor-Critic (SAC) and Twin Delayed Deep Deterministic Policy Gradient (TD3). Compared with other model and algorithms, our model on experimental datasets shows better performance.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "800564235bb35b8763010dbcc4502d32",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer",
+      "Deep Deterministic Policy Gradient",
+      "Soft Actor-Critic",
+      "Twin Delayed Deep Deterministic Policy Gradient"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.546658"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly focuses on portfolio optimization using deep reinforcement learning, which is a core aspect of portfolio management. The proposed ensemble strategy aims to improve portfolio performance by combining different algorithms, directly addressing the challenges in investment portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly focuses on portfolio optimization using deep reinforcement learning, which is a core aspect of portfolio management. The proposed ensemble strategy aims to improve portfolio performance by combining different algorithms, directly addressing the challenges in investment portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:28.343121"
+}

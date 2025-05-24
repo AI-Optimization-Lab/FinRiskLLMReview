@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3665,
+    "title": "Statistical arbitrage models of the FTSE 100",
+    "abstract": "In this paper we describe a set of statistical arbitrage models which exploit relative value relationships amongst the constituents of the FTSE 100. Rather than estimating cointegration vectors of high dimensionality, a stepwise regression approach is used to identify the most appropriate subspace for the stochastic detrending of each individual equity price. A Monte Carlo simulation is used to identify the empirical distribution of the Variance Ratio profile of the regression residuals, under the null hypothesis of random walk behaviour. Both a chi-squared test on the joint distribution of the Variance Ratio profile, and additional tests based on its eigenvectors, indicate that as a whole the stochastically detrended stock prices deviate significantly from random walk behaviour and hence may contain predictable components. A combined cross-sectional and time-series model indicates that the relative mispricing of the equities tends to tread in the short-term and revert in the longer term. The out-of-sample performance of the models is consistently profitable using a simple trading rule, with the combined portfolio suggesting a possible annualised Sharpe Ratio of over 7 for a trader with costs of 50 basis points. Furthermore, information derived from the in-sample variance ratio profile is shown to be significantly correlated with the out-of-sample profitability of the individual models-suggesting that the performance may be improved further by modelling the time-series properties conditionally on such information.",
+    "year": 2000,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b800d5601fd34292bf6a0612beba25b2",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:19:26.214177"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究统计套利模型，通过相对价值关系构建投资组合，并评估其表现，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究统计套利模型，通过相对价值关系构建投资组合，并评估其表现，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:14.908376"
+}

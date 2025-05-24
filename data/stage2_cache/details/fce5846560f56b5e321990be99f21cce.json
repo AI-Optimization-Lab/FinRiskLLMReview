@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1192,
+    "title": "Short-Term Electricity Futures Investment Strategies for Power Producers Based on Multi-Agent Deep Reinforcement Learning",
+    "abstract": "The global development and enhancement of electricity financial markets aim to mitigate price risk in the electricity spot market. Power producers utilize financial derivatives for both hedging and speculation, necessitating careful selection of portfolio strategies. Current research on investment strategies for power financial derivatives primarily emphasizes risk management, resulting in a lack of a comprehensive investment framework. This study analyzes six short-term electricity futures contracts: base day, base week, base weekend, peak day, peak week, and peak weekend. A multi-agent deep reinforcement learning algorithm, Dual-Q MADDPG, is employed to learn from interactions with both the spot and futures market environments, considering the hedging and speculative behaviors of power producers. Upon completion of model training, the algorithm enables power producers to derive optimal portfolio strategies. Numerical experiments conducted in the Nordic electricity spot and futures markets indicate that the proposed Dual-Q MADDPG algorithm effectively reduces price risk in the spot market while generating substantial speculative returns. This study contributes to lowering barriers for power generators in the power finance market, thereby facilitating the widespread adoption of financial instruments, which enhances market liquidity and stability.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c02feb5fcc90d258d87b143b4f5e3eac",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.331854"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究电力生产商在电力金融市场中的投资策略，使用多智能体深度强化学习算法来优化投资组合，既涉及风险管理（降低现货市场价格风险），也涉及投资组合管理（选择最优的投资组合策略）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文主要研究电力生产商在电力金融市场中的投资策略，使用多智能体深度强化学习算法来优化投资组合，既涉及风险管理（降低现货市场价格风险），也涉及投资组合管理（选择最优的投资组合策略）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:36.494753"
+}

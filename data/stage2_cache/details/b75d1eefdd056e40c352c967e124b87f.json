@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1739,
+    "title": "Combining Autoregressive Integrated Moving Average Model and Gaussian Process Regression to Improve Stock Price Forecast",
+    "abstract": "Stock market performance is one key indicator of the economic condition of a country, and stock price forecasting is important for investments and financial risk management. However, the inherent nonlinearity and complexity in stock price movements imply that simple conventional modeling techniques are not adequate for stock price forecasting. In this paper, we present a hybrid model (ARIMA + GPRC) which combines the autoregressive integrated moving average (ARIMA) model and Gaussian process regression (GPR) with a combined covariance function (GPRC). The proposed hybrid model can account for both the linearity and nonlinearity in stock price movements. Based on daily data on three stocks listed on the Shanghai Stock Exchange (SSE), it is found that GPRC outperforms GPR with a single covariance function. Further, the proposed hybrid model is compared with the ARIMA model, artificial neural network (ANN), and GPRC model. Based on the forecasting trend and the statistical performance of the four models, the ARIMA + GPRC model is found to be the dominant model for stock price forecasting and can significantly improve forecasting performance.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1de2c394ebb419ffad84e3a28759066d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:52.701052"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合ARIMA和GPRC模型进行股票价格预测，这直接应用于金融风险管理（通过预测价格波动来管理风险）和投资组合管理（通过更准确的预测来优化投资决策）。论文明确提到股票价格预测对投资和金融风险管理的重要性，并提供了实证分析支持其模型在这两个领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合ARIMA和GPRC模型进行股票价格预测，这直接应用于金融风险管理（通过预测价格波动来管理风险）和投资组合管理（通过更准确的预测来优化投资决策）。论文明确提到股票价格预测对投资和金融风险管理的重要性，并提供了实证分析支持其模型在这两个领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:38.300710"
+}

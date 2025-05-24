@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1275,
+    "title": "The Use of Features to Enhance the Capability of Deep Reinforcement Learning for Investment Portfolio Management",
+    "abstract": "Reinforcement learning algorithms and neural networks have been widely used in stock market forecasting, image recognition processing and many other fields. In this research, we adopt features based on asset prices and transaction volume to have better description of the current state. This research aims to input new features combination into the neural network to assist agent in analyzing the market environment for 11 cryptocurrencies. The experimental data contains historical data of the price and transaction volume of the sample from 30 days before backtest sets, as well as features (the volume, the rate of change, the moving average, the stochastic oscillator, the Eliot oscillator and the On Balance Volume) calculated using the historical data. The efficacy of our strategy is comparing to that of nine traditional strategies, i.e., Aniticor, Online Moving Average Reversion, Passive Aggressive Mean Reversion, Confidence Weighted Mean Reversion, Robust Median Reversion, Online Newton Step, Universal Portfolios and Exponential Gradient. The experiments result shows the use of features can increase the final profit, which is about 10% more profitable compare with strategy established by Jiang et al. in Jul. 2017. Furthermore, the best combination of our features outperforms all other traditional strategies by at least 7.6%.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "25ec9d9f0ed3feb95115b8bc4b2fee7e",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.177847"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习和特征学习来优化投资组合策略，实验数据涉及加密货币的历史价格和交易量，并与传统投资组合策略进行比较，这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习和特征学习来优化投资组合策略，实验数据涉及加密货币的历史价格和交易量，并与传统投资组合策略进行比较，这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:09.935198"
+}

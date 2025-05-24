@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2197,
+    "title": "Equal risk pricing of derivatives with deep hedging",
+    "abstract": "This article provides a universal and tractable methodology based on deep reinforcement learning to implement the equal risk pricing framework for financial derivatives pricing under very general conditions. The equal risk pricing framework entails solving for a derivative price which equates the optimally hedged residual risk exposure associated, respectively, with the long and short positions in the contingent claim. The solution to the hedging optimization problem considered, which is inspired from the [Marzban, S., Delage, E. and Li, J.Y., Equal risk pricing and hedging of financial derivatives with convex risk measures. arXiv preprint arXiv:2002.02876, 2020.] framework relying on convex risk measures, is obtained through the use of the deep hedging algorithm of [Buehler, H., Gonon, L., Teichmann, J. and Wood, B., Deep hedging.Q. Finance, 2019,19, 1271-1291]. Consequently, the current paper's approach allows for the pricing and the hedging of a very large number of contingent claims (e.g. vanilla options, exotic options, options with multiple underlying assets) with multiple liquid hedging instruments under a wide variety of market dynamics (e.g. regime-switching, stochastic volatility, jumps). A novel epsilon-completeness measure allowing for the quantification of the residual hedging risk associated with a derivative is also proposed. The latter measure generalizes the one presented in [Bertsimas, D., Kogan, L. and Lo, A.W., Hedging derivative securities and incomplete markets: an epsilon-arbitrage approach.Oper. Res., 2001,49, 372-397.] based on the quadratic penalty. Monte Carlo simulations are performed under a large variety of market dynamics to demonstrate the practicability of our approach, to perform benchmarking with respect to traditional methods and to conduct sensitivity analyses. Numerical results show, among others, that equal risk prices of out-of-the-money options are significantly higher than risk-neutral prices stemming from conventional changes of measure across all dynamics considered. This finding is shown to be shared by different option categories which include vanilla and exotic options.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "37ede52459a5f34eeee77a934f5be183",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:17.456763"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是基于深度强化学习的等风险定价框架，用于金融衍生品的定价和对冲。论文明确提到该方法适用于多种衍生品（如普通期权、奇异期权等）的定价，并提出了衡量对冲风险的指标，因此涉及衍生品定价和金融风险管理两个领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是基于深度强化学习的等风险定价框架，用于金融衍生品的定价和对冲。论文明确提到该方法适用于多种衍生品（如普通期权、奇异期权等）的定价，并提出了衡量对冲风险的指标，因此涉及衍生品定价和金融风险管理两个领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:34.820321"
+}

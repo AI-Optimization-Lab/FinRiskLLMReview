@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1607,
+    "title": "Improving the Performance-Compatibility Tradeoff with Personalized Objective Functions",
+    "abstract": "AI-systems that model and interact with their users can update their models over time to reflect new information and changes in the environment. Although these updates may improve the overall performance of the AI-system, they may actually hurt the performance with respect to individual users. Prior work has studied the tradeoff between improving the system's performance following an update and the compatibility of the updated system with prior user experience. The more the model is forced to be compatible with a prior version, the higher loss in performance it will incur. This paper shows that that by personalizing the loss function to specific users, it is possible to increase the prediction performance of the AI-system while sacrificing less compatibility for these users following an update to improve the system's performance. Our approach updates the sample weights to reflect their contribution to the compatibility of the model for a particular user following the update. We construct a portfolio of different models that vary in how they personalize the loss function for a target user and then select the best model to use based on a validation set. We use a model selection algorithm to choose the best model from the portfolio for each user given a set of features that reflect the users' characteristics and performance of the different models on a training set. We apply this approach to three supervised learning tasks commonly used in the human-computer decision-making literature. We show that using our approach leads to significant improvements in the performance-compatibility tradeoff over the non-personalized approach of Bansal et al., achieving up to 300% improvement for certain users.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c95d4f55e90d02eb5680bdbd9e5cea6b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.809762"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是AI系统在更新模型时如何通过个性化损失函数来平衡性能与兼容性，虽然提到了'portfolio'一词，但这是指模型组合而非金融投资组合，且全文未提及任何具体的金融应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是AI系统在更新模型时如何通过个性化损失函数来平衡性能与兼容性，虽然提到了'portfolio'一词，但这是指模型组合而非金融投资组合，且全文未提及任何具体的金融应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:03.417131"
+}

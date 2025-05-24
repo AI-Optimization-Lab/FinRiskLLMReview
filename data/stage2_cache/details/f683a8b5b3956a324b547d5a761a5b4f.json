@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 494,
+    "title": "Predicting Gold and Silver Price Direction Using Tree-Based Classifiers",
+    "abstract": "Gold is often used by investors as a hedge against inflation or adverse economic times. Consequently, it is important for investors to have accurate forecasts of gold prices. This paper uses several machine learning tree-based classifiers (bagging, stochastic gradient boosting, random forests) to predict the price direction of gold and silver exchange traded funds. Decision tree bagging, stochastic gradient boosting, and random forests predictions of gold and silver price direction are much more accurate than those obtained from logit models. For a 20-day forecast horizon, tree bagging, stochastic gradient boosting, and random forests produce accuracy rates of between 85% and 90% while logit models produce accuracy rates of between 55% and 60%. Stochastic gradient boosting accuracy is a few percentage points less than that of random forests for forecast horizons over 10 days. For those looking to forecast the direction of gold and silver prices, tree bagging and random forests offer an attractive combination of accuracy and ease of estimation. For each of gold and silver, a portfolio based on the random forests price direction forecasts outperformed a buy and hold portfolio.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7f9a3c474c14ae1e1d934816ccc73eb6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:20.917720"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用树基分类器预测黄金和白银的价格方向，并提到基于随机森林价格方向预测的投资组合表现优于买入并持有策略。这表明其主要应用是在投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用树基分类器预测黄金和白银的价格方向，并提到基于随机森林价格方向预测的投资组合表现优于买入并持有策略。这表明其主要应用是在投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:10.270580"
+}

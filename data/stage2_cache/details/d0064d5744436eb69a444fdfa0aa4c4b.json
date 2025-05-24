@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 154,
+    "title": "A NEURAL-NETWORK MODEL FOR ESTIMATING OPTION PRICES",
+    "abstract": "A neural network model that processes financial input data is developed to estimate the market price of options at closing. The network's ability to estimate closing prices is compared to the Black-Scholes model, the most widely used model for the pricing of options. Comparisons reveal that the mean squared error for the neural network is less than that of the Black-Scholes model in about half of the cases examined. The differences and similarities in the two modeling approaches are discussed. The neural network, which uses the same financial data as the Black-Scholes model, requires no distribution assumptions and learns the relationships between the financial input data and the option price from the historical data. The option-valuation equilibrium model of Black-Scholes determines option prices under the assumptions that prices follow a continuous time path and that the instantaneous volatility is nonstochastic.",
+    "year": 1993,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "f3d39eac4ba0c27c4ff8e637c5fbf887",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.002324"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心内容是开发一个神经网络模型来估计期权的市场价格，并与Black-Scholes模型进行比较。这直接涉及衍生品定价领域，特别是期权的定价问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心内容是开发一个神经网络模型来估计期权的市场价格，并与Black-Scholes模型进行比较。这直接涉及衍生品定价领域，特别是期权的定价问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:28.414436"
+}

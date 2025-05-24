@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1434,
+    "title": "A Semi-Static Replication Method for Bermudan Swaptions under an Affine Multi-Factor Model",
+    "abstract": "We present a semi-static replication algorithm for Bermudan swaptions under an affine, multi-factor term structure model. In contrast to dynamic replication, which needs to be continuously updated as the market moves, a semi-static replication needs to be rebalanced on just a finite number of instances. We show that the exotic derivative can be decomposed into a portfolio of vanilla discount bond options, which mirrors its value as the market moves and can be priced in closed form. This paves the way toward the efficient numerical simulation of xVA, market, and credit risk metrics for which forward valuation is the key ingredient. The static portfolio composition is obtained by regressing the target option's value using an interpretable, artificial neural network. Leveraging the universal approximation power of neural networks, we prove that the replication error can be arbitrarily small for a sufficiently large portfolio. A direct, a lower bound, and an upper bound estimator for the Bermudan swaption price are inferred from the replication algorithm. Additionally, closed-form error margins to the price statistics are determined. We practically study the accuracy and convergence of the method through several numerical experiments. The results indicate that the semi-static replication approaches the LSM benchmark with basis point accuracy and provides tight, efficient error bounds. For in-model simulations, the semi-static replication outperforms a traditional dynamic hedge.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "58ed0b14dd3708db6a55e3c9cdcd4106",
+    "relevant_keywords": [
+      "neural network",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.589638"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是提出了一种半静态复制算法用于百慕大式互换期权的定价，这直接属于衍生品定价领域。同时，论文提到该方法为xVA、市场和信用风险度量的高效数值模拟铺平了道路，这表明其在金融风险管理中也有应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种半静态复制算法用于百慕大式互换期权的定价，这直接属于衍生品定价领域。同时，论文提到该方法为xVA、市场和信用风险度量的高效数值模拟铺平了道路，这表明其在金融风险管理中也有应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:06.527969"
+}

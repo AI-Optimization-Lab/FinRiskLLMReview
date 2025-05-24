@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 17,
+    "title": "A new portfolio approach integrating three-way decision and Encoder-Decoder network",
+    "abstract": "In the stock market, it can be challenging to predict stock trends and identify stocks with investment potential due to uncertainty and risk. Accurate predictive models and reliable asset preselection methods are essential for portfolio management. This paper proposes an integration of the deep learning model, the three-way decision (3WD) theory, and the Mean-Variance (MV) method for asset preselection and optimal asset allocation. In the initial stage, an attention-based Encoder-Decoder model is used to predict asset returns and calculate volatility. It outperforms other benchmark models regarding relative error, absolute error, and directional accuracy. The subsequent stage involves selecting stocks based on expected returns and volatility characteristics. The 3WD theory is then used to identify the delayed decision set for implementing additional investment strategies to hedge portfolio risk and enhance returns. Finally, the MV model is employed for investment portfolio optimization. The proposed model is validated using a substantial dataset from the A-share market's SSE 50 Index from January 2010 to December 2022. Results indicate that the proposed model outperforms benchmark models in terms of daily average returns, annualized Information ratio, Sortino ratio, and other aspects under certain trading costs. However, further exploration is required to establish a mechanism that limits the quantity of preselected assets to ensure its broad applicability.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "d0d835e9bd80650efd425a71b690e138",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "encoder-decoder",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:31:16.774996"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合深度学习和三支决策理论进行资产预选和最优资产配置，并利用均值-方差模型进行投资组合优化，这些内容明确指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合深度学习和三支决策理论进行资产预选和最优资产配置，并利用均值-方差模型进行投资组合优化，这些内容明确指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:36:03.945648"
+}

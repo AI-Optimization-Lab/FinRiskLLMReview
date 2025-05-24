@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1042,
+    "title": "A stochastic conditional gradient algorithm for decentralized online convex optimization",
+    "abstract": "We study in this paper several problems at the intersection of decentralized optimization and online learning. Decentralized optimization plays a vital role in machine learning and has recently garnered much attention due to its inherent advantage in handling edge computations. Many decentralized optimization algorithms, both projection and projection-free algorithms with theoretical guarantees, have been proposed in the literature, focusing mainly on offline settings. However, for most real-world machine learning problems, the data is often revealed online, for example, in the case of recommender systems, image/video processing, and stock portfolio management. Therefore, in this work, we study decentralized optimization within the framework of online settings with constraints imposed on the optimization solutions (e.g., sparsity or low rank of matrices). More specifically, we consider the problem of optimizing an aggregate of convex loss functions that arrive over time such that their components are distributed over a connected network. We present a consensus-based online decentralized Frank-Wolfe algorithm that uses stochastic gradient estimates, which achieves an asymptotically tight regret guarantee of O(root T) where T is a given time horizon. Furthermore, we demonstrate the performance of this algorithm for optimizing the online multiclass logistic regression model on real-world standard image datasets (MNIST, CIFAR(10)) by comparing with centralized online algorithms. We achieve better regret bounds than the previously best-known decentralized constrained online algorithms. (C) 2022 Elsevier Inc. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b47fd8360e3e5e6b27e5317b8920c9bb",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.826211"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种去中心化的在线凸优化算法，虽然提到了股票投资组合管理作为在线学习的一个例子，但论文的核心技术和实验主要集中在通用的优化算法和图像数据集（MNIST, CIFAR(10))上，并未深入探讨或应用于上述特定的金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种去中心化的在线凸优化算法，虽然提到了股票投资组合管理作为在线学习的一个例子，但论文的核心技术和实验主要集中在通用的优化算法和图像数据集（MNIST, CIFAR(10))上，并未深入探讨或应用于上述特定的金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:14.576585"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1556,
+    "title": "Financial Thought Experiment: A GAN-based Approach to Vast Robust Portfolio Selection",
+    "abstract": "Modern day trading practice resembles a thought experiment, where investors imagine various possibilities of future stock market and invest accordingly. Generative adversarial network (GAN) is highly relevant to this trading practice in two ways. First, GAN generates synthetic data by a neural network that is technically indistinguishable from the reality, which guarantees the reasonableness of the experiment. Second, GAN generates multitudes of fake data, which implements half of the experiment. In this paper, we present a new architecture of GAN and adapt it to portfolio risk minimization problem by adding a regression network to GAN (implementing the second half of the experiment). The new architecture is termed GANr. Battling against two distinctive networks: discriminator and regressor, GANr's generator aims to simulate a stock market that is close to the reality while allow for all possible scenarios. The resulting portfolio resembles a robust portfolio with data-driven ambiguity. Our empirical studies show that GANr portfolio is more resilient to bleak financial scenarios than CLSGAN and LASSO portfolios.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e49d7d609323e7e4c4beec39adc4eb37",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:04:20.139283"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用生成对抗网络（GAN）来优化投资组合选择，特别是通过生成多样化的市场情景来构建稳健的投资组合。论文明确提到将GAN应用于投资组合风险最小化问题，并进行了实证研究来验证其方法的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用生成对抗网络（GAN）来优化投资组合选择，特别是通过生成多样化的市场情景来构建稳健的投资组合。论文明确提到将GAN应用于投资组合风险最小化问题，并进行了实证研究来验证其方法的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:19.492151"
+}

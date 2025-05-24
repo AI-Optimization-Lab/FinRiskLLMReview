@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 80,
+    "title": "Hodrick-Prescott filter-based hybrid ARIMA-SLFNs model with residual decomposition scheme for carbon price forecasting",
+    "abstract": "Accurate carbon pricing guidance is of great importance for the inhibition of excessive carbon dioxide emissions. Aiming at improving forecast performance, a number of carbon price forecasting models have been proposed based on the combination or multiscale hybrid frameworks. However, most of these hybrid models cannot easily cast a perfect reflection of erratic fluctuation in carbon trading schemes due to lack of judgment on the trend or inaccurate trend reconstruction. In this study, a novel filter-based modeling with Hodrick-Prescott (HP) filter, that can identify repeated up and down structural features around a certain carbon price, negotiates the obstacle of the parallel-series hybridization concerning the linear and the nonlinear model identification. The residual decomposition scheme with adaptive noise is carried out on the random and nonlinear component for error correction to filter-based models. Moreover, Bayesian optimization adjusts the structure of seven single-hidden layer feedforward neural networks (SLFNs) and the inputs to provide the best generalization performance. The proposed filter-hybrid model using kernel extreme learning machine as the final nonlinear integrator has better stability to the parameters, and has the superiority over the parallel-series and allocation-based models from a statistical perspective. Comparing with existing data-driven models, our proposed model is competitive in view of prediction accuracy and time cost in the majority of carbon futures trading cases.(C) 2022 Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "c44727a319a0ba1f397afbb1df8302bc",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "hidden layer",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:55.089156"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究碳价格预测模型，虽然碳交易与金融市场相关，但其核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究碳价格预测模型，虽然碳交易与金融市场相关，但其核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:33.775781"
+}

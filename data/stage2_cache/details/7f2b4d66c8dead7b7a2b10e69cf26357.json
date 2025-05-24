@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1404,
+    "title": "Machine Learning in Forecasting Motor Insurance Claims",
+    "abstract": "Accurate forecasting of insurance claims is of the utmost importance for insurance activity as the evolution of claims determines cash outflows and the pricing, and thus the profitability, of the underlying insurance coverage. These are used as inputs when the insurance company drafts its business plan and determines its risk appetite, and the respective solvency capital required (by the regulators) to absorb the assumed risks. The conventional claim forecasting methods attempt to fit (each of) the claims frequency and severity with a known probability distribution function and use it to project future claims. This study offers a fresh approach in insurance claims forecasting. First, we introduce two novel sets of variables, i.e., weather conditions and car sales, and second, we employ a battery of Machine Learning (ML) algorithms (Support Vector Machines-SVM, Decision Trees, Random Forests, and Boosting) to forecast the average (mean) insurance claim per insured car per quarter. Finally, we identify the variables that are the most influential in forecasting insurance claims. Our dataset comes from the motor portfolio of an insurance company operating in Athens, Greece and spans a period from 2008 to 2020. We found evidence that the three most informative variables pertain to the new car sales with a 3-quarter and 1-quarter lag and the minimum temperature of Elefsina (one of the weather stations in Athens) with a 3-quarter lag. Among the models tested, Random Forest with limited depth and XGboost run on the 15 most informative variables, and these exhibited the best performance. These findings can be useful in the hands of insurers as they can consider the weather conditions and the new car sales among the parameters that are considered to perform claims forecasting.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c178f919250ea293e7d6c40b6864f48b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.454698"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习预测汽车保险索赔，虽然涉及风险管理和预测，但其核心应用领域是保险业而非特定的金融研究领域（如衍生品定价、金融风险管理或投资组合管理）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习预测汽车保险索赔，虽然涉及风险管理和预测，但其核心应用领域是保险业而非特定的金融研究领域（如衍生品定价、金融风险管理或投资组合管理）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:11.063420"
+}

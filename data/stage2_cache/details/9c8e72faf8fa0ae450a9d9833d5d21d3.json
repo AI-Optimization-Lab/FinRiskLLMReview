@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 769,
+    "title": "Performance improvement of bankruptcy prediction using credit card sales information of small & micro business",
+    "abstract": "Due to the poor financial statements which represent credit risk of small and micro business, it's been difficult to develop the credit evaluation model that reflects both consumer credit risk and business credit risk of small and micro business. The purpose of this study is to develop the credit evaluation model for small and micro businesses using credit card sales information in lieu of poor financial information. In order to develop the model, we derive some variables and analyze the relationship between good and bad credits. We find out that twelve variables are significant in predicting good or bad risk for small and micro business, which are categorized into the business period, scale for sale, a fluctuation in sales, sales pattern and business category's bankruptcy ratio, etc. We employ the new statistical learning technique, support vector machines (SVM) as a classifier. We use grid search technique to find out better parameter for SVM. The experimental result shows that credit card sales information could be a good substitute for the financial data on business credit risk in predicting the bankruptcy for small-micro businesses. In addition, we also find out that SVM performs best, when compared with other classifiers such as neural networks, CART, C5.0, multivariate discriminant analysis (MDA), and logistic regression analysis(LRA).",
+    "year": 2007,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a18496309ff01191711c4abbee6316e8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:07.983901"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用支持向量机（SVM）等机器学习方法开发信用评估模型，用于预测小型和微型企业的破产风险。这直接涉及信用风险管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用支持向量机（SVM）等机器学习方法开发信用评估模型，用于预测小型和微型企业的破产风险。这直接涉及信用风险管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:42.456567"
+}

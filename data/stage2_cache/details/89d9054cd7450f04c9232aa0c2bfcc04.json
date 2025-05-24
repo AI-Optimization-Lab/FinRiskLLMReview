@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1111,
+    "title": "Systemic risk measurement: A Quantile Long Short-Term Memory network approach",
+    "abstract": "In finance, systemic risk is the risk that the crisis of an institution could trigger instability or bring down an entire system or market. The Delta Conditional Value-at-Risk is a market-based measure proposed by the recent literature to quantify the systematicity of some financial institutions. Several methods have been proposed to estimate this measure, and the choice of the best method is still an open question. The bivariate constant conditional correlation GARCH model represents one of the most preferred approaches since it allows the computation of the Delta Conditional Value-at-Risk in a closed form. Nevertheless, it requires strong distributional assumptions that are often considered unrealistic. We develop a Quantile Long Short-Term Memory network approach that allows the estimation of the Delta Conditional Value-at-Risk of several financial institutions simultaneously. The model consists of a multi -output neural network able to provide, at the same time, the log-return quantiles of different institutions useful to measure the systemic risk. Furthermore, the proposed model does not need any particular assumption, and it is specifically designed to avoid quantile crossing issues affecting the traditional quantile regression-based approach. Numerical experiments on data of some global systemically important banks reported in the Financial Stability Board validated our approach. We obtain Delta Conditional Value-at-Risk estimates that accurately capture market dynamics and produce a ranking of systemic banks that meets the desired properties of stability and persistence.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "bc98864e4d50953715fa1e08a81b4b1c",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.532102"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on measuring systemic risk using a Quantile Long Short-Term Memory network approach, specifically targeting the estimation of Delta Conditional Value-at-Risk for financial institutions. This is a direct application in financial risk management, as it deals with quantifying and managing the risk of financial instability at a systemic level.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on measuring systemic risk using a Quantile Long Short-Term Memory network approach, specifically targeting the estimation of Delta Conditional Value-at-Risk for financial institutions. This is a direct application in financial risk management, as it deals with quantifying and managing the risk of financial instability at a systemic level.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:59.967420"
+}

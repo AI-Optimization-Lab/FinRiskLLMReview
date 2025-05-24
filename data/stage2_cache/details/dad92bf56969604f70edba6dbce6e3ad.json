@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 804,
+    "title": "JEL: Applying End-to-End Neural Entity Linking in JPMorgan Chase",
+    "abstract": "Knowledge Graphs have emerged as a compelling abstraction for capturing key relationship among the entities of interest to enterprises and for integrating data from heterogeneous sources. JPMorgan Chase (JPMC) is leading this trend by leveraging knowledge graphs across the organization for multiple mission critical applications such as risk assessment, fraud detection, investment advice, etc. A core problem in leveraging a knowledge graph is to link mentions (e.g., company names) that are encountered in textual sources to entities in the knowledge graph. Although several techniques exist for entity linking, they are tuned for entities that exist in Wikipedia, and fail to generalize for the entities that are of interest to an enterprise. In this paper, we propose a novel end-to-end neural entity linking model (JEL) that uses minimal context information and a margin loss to generate entity embeddings, and a Wide & Deep Learning model to match character and semantic information respectively. We show that JEL achieves the state-of-the-art performance to link mentions of company names in financial news with entities in our knowledge graph. We report on our efforts to deploy this model in the company-wide system to generate alerts in response to financial news. The methodology used for JEL is directly applicable and usable by other enterprises who need entity linking solutions for data that are unique to their respective situations.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "e87002b268b4024cc6d6023cd97c0369",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "Wide & Deep Learning model"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:44.486758"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种端到端的神经实体链接模型（JEL），用于将金融新闻中的公司名称与知识图谱中的实体进行链接。虽然提到了风险管理和投资建议等应用场景，但论文的核心技术是实体链接，而不是直接应用于衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种端到端的神经实体链接模型（JEL），用于将金融新闻中的公司名称与知识图谱中的实体进行链接。虽然提到了风险管理和投资建议等应用场景，但论文的核心技术是实体链接，而不是直接应用于衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:22.805958"
+}

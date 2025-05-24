@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 286,
+    "title": "Dynamic portfolio optimization using technical analysis-based clustering",
+    "abstract": "An accurate prediction of asset prices is perhaps the biggest challenge of any study in portfolio optimization. Asset prices are affected by several random and nonrandom factors, which makes them difficult to forecast. This paper proposes a two-phase dynamic portfolio optimization approach. In the first phase, assets are clustered into buy, sell, and hold groups using technical indicators. We provide a methodology to integrate the investor attitude (optimistic, pessimistic, or neutral) during the clustering phase. In the second phase, we input the clustered groups into a portfolio optimization model to obtain the optimum asset allocations. We use coherent fuzzy numbers to model the asset returns to integrate the investor attitude in this phase. The optimization model is solved using a genetic algorithm. The portfolios are rebalanced at regular intervals as new data becomes available. We illustrate the proposed methodology on a 100-asset problem of the US stock market. We analyze the real-world performance of the obtained portfolios. We compare the performance of the proposed approach with the mean-variance model, and other portfolios, such as the naive portfolio and the NASDAQ-100 index.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ae8f6697e9a88a37caa43ae60e22a76e",
+    "relevant_keywords": [
+      "clustering",
+      "unsupervised learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.903263"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是动态投资组合优化，通过技术分析聚类和遗传算法来优化资产配置，并定期重新平衡投资组合。这些内容明确属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是动态投资组合优化，通过技术分析聚类和遗传算法来优化资产配置，并定期重新平衡投资组合。这些内容明确属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:34.648667"
+}

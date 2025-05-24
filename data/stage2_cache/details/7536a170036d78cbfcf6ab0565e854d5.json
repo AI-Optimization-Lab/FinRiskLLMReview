@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2077,
+    "title": "A Comparison of Prediction Methods for Credit Default on Peer to Peer Lending using Machine Learning",
+    "abstract": "Social lending or peer to peer lending (p2p lending) has emerged as a viable digital platform where lenders and borrowers can do business without the involvement of financial institutions. P2p lending has gained significant momentum recently, with some platform has reached billion-dollar loan circulation. However, p2p lending platforms are not free from any form of risks. A higher return on investment for investor comes with a risk of the loan and interest not being repaid. For this purpose, this research proposes a tree-based classification method for predicting whether a loan will go bad or default before the loan is approved. The high dimensionality of the dataset needs to be processed and chosen carefully. This paper proposes a Binary PSO with SVM to perform feature selection for the dataset and Extremely Randomized Tree (ERT) and Random Forest (RF) as the classifiers. In this research, BPSOSVM-ERT and BPSOSVM-RF are compared with several performance metrics. The experimental results show BPSOSVM can produce subset of features without decreasing the performance from the original features and ERT can outperform RF in several performance metrics. (C) 2019 The Authors. Published by Elsevier B.V.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c50f220902abd36070eb7c3326c1cee9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:58.998083"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法（如SVM和决策树）来预测P2P借贷中的信用违约风险，这直接涉及金融风险管理中的信用风险评估。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法（如SVM和决策树）来预测P2P借贷中的信用违约风险，这直接涉及金融风险管理中的信用风险评估。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:25.864870"
+}

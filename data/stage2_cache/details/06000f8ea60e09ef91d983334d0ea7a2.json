@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1432,
+    "title": "Augmenting Equity Factor Investing with Global Macro Regimes",
+    "abstract": "Data-driven macroeconomic regime modeling is an active area of financial machine learning research. We are going to build on recent works based on the idea of using Hidden Markov Models (HMM) models, as well as meta-correlation based clustering, to generate point-in-time regime models that provide regime consistency at the same time. This allows us to calibrate and use statistical models that adjust portfolio factor exposures in response to macroeconomic regime changes. We have observed that both meta-correlation based approach and HMM-based models substantially exceed both equal weighted long-short portfolio gross and net performance, as well as the performance of risk parity based portfolios. We found a surprising near-perfect agreement between thematic portfolio weights using these two completely separate methods. This provides assurance with respect to the convergence of both methods as well as the existence of unambiguous latent macroeconomic dynamic factors. For a practitioner, this finding is extremely important since the regimes we found are no longer the output of some arbitrary black box, but are consistent across drastically different and independent estimation methods and thus may be seen as significantly more trustworthy than when evaluated on a stand-alone basis.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2a96f533d4e1fba2c410a20106a35fc7",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.672969"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用Hidden Markov Models (HMM)和meta-correlation based clustering来调整投资组合因子暴露，以应对宏观经济环境的变化，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用Hidden Markov Models (HMM)和meta-correlation based clustering来调整投资组合因子暴露，以应对宏观经济环境的变化，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:03.346655"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1595,
+    "title": "A Deep Learning-Based Framework for Phishing Website Detection",
+    "abstract": "Phishing attackers spread phishing links through e-mail, text messages, and social media platforms. They use social engineering skills to trick users into visiting phishing websites and entering crucial personal information. In the end, the stolen personal information is used to defraud the trust of regular websites or financial institutions to obtain illegal benefits. With the development and applications of machine learning technology, many machine learning-based solutions for detecting phishing have been proposed. Some solutions are based on the features extracted by rules, and some of the features need to rely on third-party services, which will cause instability and time-consuming issues in the prediction service. In this paper, we propose a deep learning-based framework for detecting phishing websites. We have implemented the framework as a browser plug-in capable of determining whether there is a phishing risk in real-time when the user visits a web page and gives a warning message. The real-time prediction service combines multiple strategies to improve accuracy, reduce false alarm rates, and reduce calculation time, including whitelist filtering, blacklist interception, and machine learning (ML) prediction. In the ML prediction module, we compared multiple machine learning models using several datasets. From the experimental results, the RNN-GRU model obtained the highest accuracy of 99.18%, demonstrating the feasibility of the proposed solution.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "03afb4430f612b3a1f15f48888905236",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "classification",
+      "feature learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:08.217408"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习技术检测钓鱼网站，虽然钓鱼攻击可能间接影响金融安全，但论文的核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习技术检测钓鱼网站，虽然钓鱼攻击可能间接影响金融安全，但论文的核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:56.281892"
+}

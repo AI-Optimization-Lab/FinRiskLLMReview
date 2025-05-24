@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 6,
+    "title": "基于深度学习的上证50ETF期权定价研究",
+    "abstract": "近年来,以深度学习为代表的机器学习方法在金融领域中的应用越来越广泛。本文尝试将深度学习方法引入欧式期权定价研究中,构建了基于深度神经网络的非参数化期权定价模型(DNN模型),并利用上证50ETF期权交易数据进行了实证分析。研究发现:DNN模型的样本外定价误差显著低于经典的Black-Scholes模型(BS模型),并且从均方根误差来看,DNN模型在上证50ETF看涨期权上的定价精度较BS模型提升了76.97%;从平均绝对百分比误差来看,DNN模型在看涨期权上的定价精度较BS模型提升了63.74%,尤其在长期限和深度实值期权上表现出较高的定价精度。这些结果表明,基于深度学习的期权定价模型较BS模型在中国大陆期权市场上具有更高的定价精度,为投资者进行风险规避与衍生品定价提供了理论和实践依据。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "a90429594d54817680d00a91cb523c61",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-14T18:28:00.491730"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是构建基于深度神经网络的期权定价模型，并实证分析了其在上证50ETF期权定价中的表现，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是构建基于深度神经网络的期权定价模型，并实证分析了其在上证50ETF期权定价中的表现，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:45:08.504678"
+}

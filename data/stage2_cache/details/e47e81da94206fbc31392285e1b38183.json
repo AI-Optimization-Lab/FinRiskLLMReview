@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 106,
+    "title": "An LSTM and GRU based trading strategy adapted to the Moroccan market",
+    "abstract": "Forecasting stock prices is an extremely challenging job considering the high volatility and the number of variables that influence it (political, economical, social, etc.). Predicting the closing price provides useful information and helps the investor make the right decision. The use of deep learning and more precisely of recurrent neural networks (RNNs) in stock market forecasting is an increasingly common practice in the literature. Long Short Term Memory (LSTM) and Gated Recurrent Unit (GRU) architectures are among the most widely used types of RNNs, given their suitability for sequential data. In this paper, we propose a trading strategy designed for the Moroccan stock market, based on two deep learning models: LSTM and GRU to predict the closing price in the short and medium term respectively. Decision rules for buying and selling stocks are implemented based on the forecasting given by the two models, then over four 3-year periods, we simulate transactions using these decision rules with different settings for each stock. The returns obtained will be used to estimate an expected return. We only hold stocks that outperform a benchmark index (expected return > threshold). The random search is then used to choose one of the available parameters and the performance of the portfolio built from the selected stocks will be tested over a further period. The repetition of this process with a variation of portfolio size makes it possible to select the best possible combination of stock each with the optimized parameter for the decision rules. The proposed strategy produces very promising results and outperforms the performance of indices used as benchmarks in the local market. Indeed, the annualized return of our strategy proposed during the test period is 27.13%, while it is 0.43% for Moroccan all share Indice (MASI), 15.24% for the distributor sector indices, and 19.94% for the pharmaceutical industry indices. Noted that brokerage fees are estimated and subtracted for each transaction. which makes the performance found even more realistic.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "4cac914df62c9048c4826b2ad234688c",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:32:31.389543"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM和GRU模型预测股票收盘价，并基于预测结果制定买卖决策规则，最终构建和优化投资组合。这直接涉及投资组合管理的核心内容，即通过预测和决策规则来选择股票并管理投资组合。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM和GRU模型预测股票收盘价，并基于预测结果制定买卖决策规则，最终构建和优化投资组合。这直接涉及投资组合管理的核心内容，即通过预测和决策规则来选择股票并管理投资组合。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:36.595636"
+}

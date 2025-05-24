@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 969,
+    "title": "AN EFFECTIVE BIAS-CORRECTED BAGGING METHOD FOR THE VALUATION OF LARGE VARIABLE ANNUITY PORTFOLIOS",
+    "abstract": "To evaluate a large portfolio of variable annuity (VA) contracts, many insurance companies rely on Monte Carlo simulation, which is computationally intensive. To address this computational challenge, machine learning techniques have been adopted in recent years to estimate the fair market values (FMVs) of a large number of contracts. It is shown that bootstrapped aggregation (bagging), one of the most popular machine learning algorithms, performs well in valuing VA contracts using related attributes. In this article, we highlight the presence of prediction bias of bagging and use the bias-corrected (BC) bagging approach to reduce the bias and thus improve the predictive performance. Experimental results demonstrate the effectiveness of BC bagging as compared with bagging, boosting, and model points in terms of prediction accuracy.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c96408074a05057dd60f39b5c193bf1c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.755635"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用偏差校正的bagging方法来评估可变年金（VA）合约的公允市场价值（FMVs），这属于保险衍生品的定价问题。虽然可变年金与投资组合管理有一定的关联，但论文的主要研究目标是定价问题，而非投资组合的构建或优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用偏差校正的bagging方法来评估可变年金（VA）合约的公允市场价值（FMVs），这属于保险衍生品的定价问题。虽然可变年金与投资组合管理有一定的关联，但论文的主要研究目标是定价问题，而非投资组合的构建或优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:48.777901"
+}

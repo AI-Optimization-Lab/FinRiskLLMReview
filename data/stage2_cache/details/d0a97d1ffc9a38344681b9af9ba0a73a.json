@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 5070,
+    "title": "A strategy for forecasting option prices using fuzzy time series and least square support vector regression with a bootstrap model",
+    "abstract": "Recently, the strategy for forecasting option price has become a popular financial topic because options are important tools on risk management in financial investments. The well-known Black-Scholes model (B-S model) is widely used for option pricing. In B-S model, the normal distribution assumption is important. However, the financial data in real life may not follow the normal distribution assumption. For this reason, this paper proposes a novel hybrid model, which is a nonlinear prediction model without normal distribution assumptions to forecast the option prices. The proposed model is composed of a Fuzzy Time Series (FTS) model, a Least Square Support Vector Regression (LSSVR), and a bootstrap method. In the proposed model, FTS model is firstly used to fuzzify dataset and to build historical database. Subsequently, the proposed method uses the remainder contractual time to search similar historical trends as training samples. Finally, we use the bootstrap method on LSSVR to enhance the prediction accuracy. The experiment results show that the proposed model outperforms traditional time series models and several hybrid models in terms of the Root Mean Square Error (RMSE), the Mean Absolute Error (MAE) and the correlation coefficient (r) of actual and forecasted option price. (C) 2014 Sharif University of Technology. All rights reserved.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e9e8ad19409699ca08613df685d487d0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:44:10.977264"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出一种混合模型（FTS、LSSVR和bootstrap方法）用于预测期权价格，期权是衍生品的一种，因此该论文的主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出一种混合模型（FTS、LSSVR和bootstrap方法）用于预测期权价格，期权是衍生品的一种，因此该论文的主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:29.688050"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 258,
+    "title": "On the Number of State Variables in Options Pricing",
+    "abstract": "In this paper, we investigate the methodological issue of determining the number of state variables required for options pricing. After showing the inadequacy of the principal component analysis approach, which is commonly used in the literature, we adopt a nonparametric regression technique with nonlinear principal components extracted from the implied volatilities of various moneyness and maturities as proxies for the transformed state variables. The methodology is applied to the prices of S&P 500 index options from the period 1996-2005. We find that, in addition to the index value itself, two state variables, approximated by the first two nonlinear principal components, are adequate for pricing the index options and fitting the data in both time series and cross sections.",
+    "year": 2010,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "53d6503fbf77e2d71280911e1d5b9089",
+    "relevant_keywords": [
+      "principal components analysis",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.023246"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是确定期权定价所需的状态变量数量，并采用非参数回归技术对S&P 500指数期权进行定价。这直接涉及衍生品定价领域，特别是期权定价模型和方法的研究。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是确定期权定价所需的状态变量数量，并采用非参数回归技术对S&P 500指数期权进行定价。这直接涉及衍生品定价领域，特别是期权定价模型和方法的研究。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:42.269853"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 6141,
+    "title": "Power Equipment Fault Prediction and Diagnosis Algorithm Driven by Power Big Data",
+    "abstract": "The fault of power equipment must be dealt with in time, otherwise the damage degree may continue to increase, which will not only greatly increase the complexity and cost of maintenance, but also have a chain reaction to the surrounding equipment, thus leading to the expansion of the fault range. In this paper, Transformer model is introduced to deeply mine and analyze the historical operation data of power equipment. In the concrete implementation of the algorithm, the multi-dimensional operation data of power equipment are collected comprehensively and continuously through the sensor network; then, these original data are strictly cleaned and preprocessed, such as noise removal, missing value filling and standardization. Then, the carefully selected feature sets are input into the Transformer model and trained with rich historical fault data. Finally, the trained Transformer model is deployed to the power system to realize real-time monitoring and fault early warning of power equipment. When the potential failure risk is detected, the model immediately triggers the early warning mechanism and informs the operation and maintenance personnel to take corresponding preventive measures or maintenance plans. The experimental data show that the average prediction accuracy rate of the Transformer model proposed in this paper is 97.19%, and the prediction accuracy rate of fault types is above 90.2%, which all show better prediction performance than SVM. This paper not only shows the outstanding advantages of Transformer model in the field of financial forecasting, but also provides new ideas for future research.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8f9d0b459789253bf08ba0b0a7dacb61",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "attention mechanism",
+      "Transformer model"
+    ],
+    "stage1_timestamp": "2025-05-15T02:55:12.915280"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究电力设备故障预测和诊断算法，虽然摘要中提到Transformer模型在金融预测领域的优势，但论文的核心技术和应用场景集中在电力系统的设备维护和故障预警，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究电力设备故障预测和诊断算法，虽然摘要中提到Transformer模型在金融预测领域的优势，但论文的核心技术和应用场景集中在电力系统的设备维护和故障预警，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:32.095973"
+}

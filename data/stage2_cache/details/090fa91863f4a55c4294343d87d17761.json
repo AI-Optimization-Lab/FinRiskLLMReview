@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2146,
+    "title": "Conservative Predictions on Noisy Financial Data",
+    "abstract": "Price movements in financial markets are well known to be very noisy. As a result, even if there are, on occasion, exploitable patterns that could be picked up by machine-learning algorithms, these are obscured by feature and label noise rendering the predictions less useful, and risky in practice. Traditional rule-learning techniques developed for noisy data, such as CN2, would seek only high precision rules and refrain from making predictions where their antecedents did not apply. We apply a similar approach, where a model abstains from making a prediction on data points that it is uncertain on. During training, a cascade of such models are learned in sequence, similar to rule lists, with each model being trained only on data on which the previous model(s) were uncertain. Similar pruning of data takes place at test-time, with ( higher accuracy) predictions being made albeit only on a fraction (support) of test-time data. In a financial prediction setting, such an approach allows decisions to be taken only when the ensemble model is confident, thereby reducing risk. We present results using traditional MLPs as well as differentiable decision trees, on synthetic data as well as real financial market data, to predict fixed-term returns using commonly used features. We submit that our approach is likely to result in better overall returns at a lower level of risk. In this context we introduce an utility metric to measure the average gain per trade, as well as the return adjusted for downside-risk, both of which are improved significantly by our approach.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6dcd9814b746025179681fcaf3540edb",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:11:40.600388"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过机器学习模型在金融数据上做出保守预测，以减少风险并提高回报。这种方法直接应用于投资决策，即在模型有信心时才进行交易，从而优化投资组合的表现。论文中提到的‘better overall returns at a lower level of risk’和‘return adjusted for downside-risk’等表述，进一步表明其研究目标与投资组合管理密切相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过机器学习模型在金融数据上做出保守预测，以减少风险并提高回报。这种方法直接应用于投资决策，即在模型有信心时才进行交易，从而优化投资组合的表现。论文中提到的‘better overall returns at a lower level of risk’和‘return adjusted for downside-risk’等表述，进一步表明其研究目标与投资组合管理密切相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:04.991316"
+}

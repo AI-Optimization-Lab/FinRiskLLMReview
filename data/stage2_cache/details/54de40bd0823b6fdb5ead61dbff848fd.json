@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 151,
+    "title": "基于白噪声扰动的CS-BP网络的波动率",
+    "abstract": "针对资产价值波动率传统研究方法的不足以及影响波动率各因素之间的非线性关系,提出基于白噪声扰动的布谷鸟(CS)-BP网络预测期权定价中的公司资产价值波动率的方法.首先,通过白噪声扰动函数提高CS算法解的性能;其次,将得到的CS解解码为BP神经网络的初始权值和阈值;最后,用白噪声扰动的CS-BP网络对公司资产价值波动率进行预测并与CS-BP网络算法的预测结果作比较.仿真结果表明,基于白噪声扰动的CS-BP网络的公司资产价值波动率预测精度优于CS-BP网络.",
+    "year": 2015,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ed87b3a47d062d4d5d11350def2275b1",
+    "relevant_keywords": [
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:39.681761"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是预测期权定价中的公司资产价值波动率，这直接涉及衍生品定价领域。论文明确提到该方法用于期权定价中的波动率预测，属于衍生品定价的研究范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是预测期权定价中的公司资产价值波动率，这直接涉及衍生品定价领域。论文明确提到该方法用于期权定价中的波动率预测，属于衍生品定价的研究范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:34.095506"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2657,
+    "title": "Smart Predict, then Optimize",
+    "abstract": "Many real-world analytics problems involve two significant challenges: prediction and optimization. Because of the typically complex nature of each challenge, the standard paradigm is predict-then-optimize. By and large, machine learning tools are intended to minimize prediction error and do not account for how the predictions will be used in the downstream optimization problem. In contrast, we propose a new and very general framework, called Smart Predict, then Optimize (SPO), which directly leverages the optimization problem structure-that is, its objective and constraints-for designing better prediction models. A key component of our framework is the SPO loss function, which measures the decision error induced by a prediction. Training a prediction model with respect to the SPO loss is computationally challenging, and, thus, we derive, using duality theory, a convex surrogate loss function, which we call the SPO+ loss. Most importantly, we prove that the SPO+ loss is statistically consistent with respect to the SPO loss under mild conditions. Our SPO+ loss function can tractably handle any polyhedral, convex, or even mixed-integer optimization problem with a linear objective. Numerical experiments on shortest-path and portfolio-optimization problems show that the SPO framework can lead to significant improvement under the predict-then-optimize paradigm, in particular, when the prediction model being trained is misspecified. We find that linear models trained using SPO+ loss tend to dominate random-forest algorithms, even when the ground truth is highly nonlinear.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "26f39a4b3214a304579dfac896b06075",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.891409"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到在投资组合优化问题中应用了SPO框架，这表明其主要技术应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到在投资组合优化问题中应用了SPO框架，这表明其主要技术应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:37.221586"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 4465,
+    "title": "Learning inter-annual flood loss risk models from historical flood insurance claims",
+    "abstract": "Flooding is a natural hazard that causes substantial loss of lives and livelihoods worldwide. Developing predictive models for flood-induced financial losses is crucial for applications such as insurance underwriting. This research uses the National Flood Insurance Program (NFIP) dataset between 2000 and 2020 to evaluate the predictive skill of past data in predicting near-future flood loss risk. Our approach applies neural networks (Conditional Generative Adversarial Networks), decision trees (Extreme Gradient Boosting), and kernel-based regressors (Gaussian Processes) to estimate pointwise losses. It aggregates them over intervals using a biascorrected Burr-Pareto distribution to predict risk. The regression models help identify the most informative predictors and highlight crucial factors influencing flood-related financial losses. Applying our approach to quantify the county-level coastal flood loss risk in eight US Southern states results in an R-2 = 0.807, substantially outperforming related work using stage-damage curves. More detailed testing on 11 counties with significant claims in the NFIP dataset reveals that Extreme Gradient Boosting yields the most favorable results, and bias correction significantly improves the similarity between the predicted and reference claim amount distributions. Our experiments also show that, despite the already experienced climate change, the difference in future short-term risk predictions of flood-loss amounts between historical shifting or expanding training data windows is insignificant.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "389e5d3ddc33fbd31497e0ead6bf273a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:37:47.472388"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型预测洪水造成的财务损失，这直接应用于保险承保中的风险评估，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型预测洪水造成的财务损失，这直接应用于保险承保中的风险评估，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:55.715826"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 720,
+    "title": "Improved estimation of the correlation matrix using reinforcement learning and text-based networks",
+    "abstract": "We propose a data-driven methodology to shrink the correlation matrix and, hence, the covariance matrix using reinforcement learning (RL). Our approach does not impose any assumptions on the stock returns and can be applied to any covariance matrix target. It focuses on the special case of the global minimum variance portfolio and investigates the economic value of our methodology by utilizing text-based networks (Hoberg and Phillips, 2016). The portfolio selection problem, hence, boils down to determining the optimal shrinkage policy using RL. The empirical analysis utilizes a large universe of stocks covering more than 400 assets and 20 years as a testing period. Overall, the proposed portfolio rule outperforms state-of-the-art shrinkage techniques in terms of out-of-sample volatility, Sharpe ratio, and downside risk net of transaction costs. Our research highlights the effectiveness of our RL-driven approach and underscores the value of alternative data sources in ex-ante forming robust portfolio rules.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5b743439b205c90d082a997dd3ca9f00",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.575800"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习优化相关性矩阵和协方差矩阵的估计，以改进全球最小方差投资组合的表现。研究重点在于投资组合选择问题，并通过实证分析展示了该方法在降低样本外波动率、提高夏普比率和减少下行风险方面的优势。这些内容明确指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习优化相关性矩阵和协方差矩阵的估计，以改进全球最小方差投资组合的表现。研究重点在于投资组合选择问题，并通过实证分析展示了该方法在降低样本外波动率、提高夏普比率和减少下行风险方面的优势。这些内容明确指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:23.601870"
+}

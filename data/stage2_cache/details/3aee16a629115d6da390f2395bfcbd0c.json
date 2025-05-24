@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1598,
+    "title": "Visualizing and Measuring Software Portfolio Architecture: A Flexibility Analysis",
+    "abstract": "In this paper, we test a Design Structure Matrix (DSM) based method for visualizing and measuring software portfolio architectures, and use our measures to predict the costs of architectural change. Our data is drawn from a biopharmaceutical company, comprising 407 architectural components with 1,157 dependencies between them. We show that the architecture of this system can be classified as a core-periphery system, meaning it contains a single large dominant cluster of interconnected components (the Core) representing 32% of the system. We find that the classification of software applications within this architecture, as being either Core or Peripheral, is a significant predictor of the costs of architectural change. In regression tests, we show that this measure has greater predictive power than prior measures of coupling used in the literature.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "18d4cefe04fde794d65ec70136030c08",
+    "relevant_keywords": [
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.752714"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究软件组合架构的可视化和测量方法，并应用于预测架构变更的成本。虽然使用了'portfolio'一词，但其研究内容与金融领域的投资组合管理无关，而是专注于软件工程领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究软件组合架构的可视化和测量方法，并应用于预测架构变更的成本。虽然使用了'portfolio'一词，但其研究内容与金融领域的投资组合管理无关，而是专注于软件工程领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:05.332295"
+}

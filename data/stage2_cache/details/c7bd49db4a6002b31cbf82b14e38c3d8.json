@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 22,
+    "title": "Learning Bermudans",
+    "abstract": "American-type financial instruments are often priced with specific Monte Carlo techniques whose efficiency critically depends on the dimensionality of the problem and the available computational power. Our work proposes a novel approach for pricing Bermudan swaptions, well-known interest rate derivatives, using supervised learning algorithms. In particular, we link the price of a Bermudan swaption to its natural hedges, which include the underlying European swaptions, and other relevant financial quantities through supervised learning non-parametric regressions. We explore several algorithms, ranging from linear models to decision tree-based models and neural networks and compare their predictive performances. Our results indicate that all supervised learning algorithms are reliable and fast, with ridge regressor, neural networks, and gradient-boosted regression trees performing the best for the pricing problem. Furthermore, using feature importance techniques, we identify the most important driving factors of a Bermudan swaption price, confirming that the maximum underlying European swaption value is the dominant feature.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "33271dba1a026ad973d204ffaf1660f7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.496852"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用监督学习算法（如线性模型、决策树和神经网络）来定价Bermudan swaptions，这是一种利率衍生品。论文明确提到其研究目标是定价问题，并比较了不同算法在定价中的表现，因此其主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用监督学习算法（如线性模型、决策树和神经网络）来定价Bermudan swaptions，这是一种利率衍生品。论文明确提到其研究目标是定价问题，并比较了不同算法在定价中的表现，因此其主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:30.062656"
+}

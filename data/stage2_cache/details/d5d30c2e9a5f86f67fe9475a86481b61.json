@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2666,
+    "title": "Leveraging genetic algorithms to maximise the predictive capabilities of the SOAP descriptor",
+    "abstract": "The smooth overlap of atomic positions (SOAP) descriptor represents an increasingly common approach to encode local atomic environments in a form readily digestible to machine learning algorithms. The SOAP descriptor is obtained by using a local expansion of a Gaussian smeared atomic density with orthonormal functions based on spherical harmonics and radial basis functions. To construct this representation, one has to choose a number of parameters. Whilst the knowledge of the dataset of interest can and should guide this choice, more often than not some optimisation method is required to pinpoint the most effective combinations of SOAP parameters in terms of both accuracy and computational cost. In this work, we present SOAP_GAS, a simple, freely available computational tool that leverages genetic algorithms to optimise the relevant parameters for any given SOAP descriptor. To explore the capabilities of the algorithm, we have applied SOAP_GAS to a prototypical molecular dataset of relevance for drug design. In this process, we have realised that a diverse portfolio of different combinations of SOAP parameters can result in equally substantial improvements in terms of the accuracy of the SOAP-based model. This is especially true when dealing with the concurrent optimisation of the SOAP parameters for multiple SOAP descriptors, which we found often leads to further accuracy gains. Overall, we show that SOAP_GAS offers an often superior alternative to e.g. randomised grid search approaches to enhance the predictive capabilities of SOAP descriptors in a largely automatised fashion.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b1185190c4f889641de5bbd04085471b",
+    "relevant_keywords": [
+      "machine learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.933453"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用遗传算法优化SOAP描述符的参数，以提高其在分子数据集上的预测能力，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用遗传算法优化SOAP描述符的参数，以提高其在分子数据集上的预测能力，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:36.142436"
+}

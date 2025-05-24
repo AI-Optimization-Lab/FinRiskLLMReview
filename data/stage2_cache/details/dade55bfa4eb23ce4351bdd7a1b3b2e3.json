@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1087,
+    "title": "A Structural Pattern Mining Approach for Credit Risk Assessment",
+    "abstract": "In recent years graph mining took a valuable step towards harnessing the problem of efficient discovery of substructures in complex input data that do not fit into the usual data mining models. A graph is a general and powerful data representation formalism, which found widespread application in many scientific fields. Finding subgraphs capable of compressing data by abstracting instances of the substructures and identifying interesting patterns is thus crucial. When it comes to financial settings, data is very complex and in particular when risk factors relationships are not taken into account it seriously affects the goodness of predictions. In this paper, we posit that risk analysis can be leveraged if structure can be taken into account by discovering financial motifs in the input graphs. We use gBoost which learns from graph data using a mathematical linear programming procedure combined with a substructure mining algorithm. An algorithm is proposed which has shown to be efficient to extract graph structure from feature vector data. Furthermore, we empirically show that the graph-mining model is competitive with state-of-the-art machine learning approaches in terms of classification accuracy without increase in the computational cost.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3f8ecb3b2889a0cc1f0489bafb27f94a",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.399118"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是图挖掘和机器学习方法，用于信用风险评估，这直接属于金融风险管理的范畴。论文明确提到风险分析和风险因素关系，这些都是金融风险管理的关键方面。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是图挖掘和机器学习方法，用于信用风险评估，这直接属于金融风险管理的范畴。论文明确提到风险分析和风险因素关系，这些都是金融风险管理的关键方面。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:18.168654"
+}

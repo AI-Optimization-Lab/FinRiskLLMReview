@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 3740,
+    "title": "Stock Market Index Prediction Using CEEMDAN-LSTM-BPNN-Decomposition Ensemble Model",
+    "abstract": "This study investigates the forecasting of the Deutscher Aktienindex (DAX) market index by addressing the nonlinear and nonstationary nature of financial time series data using the CEEMDAN decomposition method. The CEEMDAN technique is used to decompose the time series into intrinsic mode functions (IMFs) and residuals, which are classified into low-frequency (LF), medium-frequency (MF), and high-frequency (HF) components. Long short-term memory (LSTM) networks are applied to the MF and HF components, while the backpropagation neural network (BPNN) is utilized for the LF components, resulting in a robust hybrid model termed CEEMDAN-LSTM-BPNN. To evaluate the performance of the proposed model, we compare it against several benchmark models, including ARIMA, RNN, LSTM, GRU, BIGRU, BILSTM, BPNN, CEEMDAN-LSTM, CEEMDAN-GRU, CEEMDAN-BPNN, and CEEMDAN-GRU-BPNN, across different training-testing splits (70% training/30% testing, 80% training/20% testing, and 90% training/10% testing). The model's predictive accuracy is measured using six metrics: root mean squared error (RMSE), mean absolute error (MAE), mean absolute percentage error (MAPE), symmetric mean absolute percentage error (SMAPE), root mean squared logarithmic error (RMSLE), and R-squared. To further assess model performance, we conduct the Diebold-Mariano (DM) test to compare forecast accuracy between the proposed and benchmark models and the model confidence set (MCS) test to evaluate the statistical significance of the improvement. The results demonstrate that the CEEMDAN-LSTM-BPNN model significantly outperforms other methods in terms of accuracy, with the DM and MCS tests confirming the superiority of the proposed model across multiple evaluation metrics. The findings highlight the importance of combining advanced decomposition methods and deep learning models for financial forecasting. This research contributes to the development of more accurate forecasting techniques, offering valuable implications for financial decision-making and risk management.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "74f546a23d3439472e911541f6271897",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:29:28.047108"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究股票市场指数的预测，通过改进预测模型来提高准确性，这直接有助于金融风险管理中的市场风险预测和决策支持。虽然论文提到了金融决策和风险管理，但并未明确涉及衍生品定价或投资组合管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究股票市场指数的预测，通过改进预测模型来提高准确性，这直接有助于金融风险管理中的市场风险预测和决策支持。虽然论文提到了金融决策和风险管理，但并未明确涉及衍生品定价或投资组合管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:31.784782"
+}

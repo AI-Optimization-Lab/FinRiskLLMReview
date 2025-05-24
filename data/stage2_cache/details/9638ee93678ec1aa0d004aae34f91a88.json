@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 555,
+    "title": "VeriAbsL: Scalable Verification by Abstraction and Strategy Prediction (Competition Contribution)",
+    "abstract": "We present VeriAbsL, a reachability verifier that performs verification in three stages. First, it slices the input code using a combination of two slicers, then it verifies the slices using predicted strategies, and at last, it composes the result of verifying the individual slices. We introduce a novel shallow slicing technique that uses variable reference information of the program, and data and control dependencies of the entry function to generate slices. We also introduce a novel strategy prediction technique that uses machine learning to predict a strategy. It uses boolean features to describe a program to a neural network that predicts a strategy. We use the portfolio of VeriAbs, a reachabiltiy verifier with manually defined strategies. In SV-COMP 2023, VeriAbsL verified 227(3) more programs than VeriAbs, and 475(3) programs that VeriAbs could not verify.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e85fdd9c49ac5f017407c2ff43e46737",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:01.272742"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要介绍了一种名为VeriAbsL的可达性验证工具，其核心技术涉及程序切片和策略预测，并未提及任何在衍生品定价、金融风险管理或投资组合管理领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要介绍了一种名为VeriAbsL的可达性验证工具，其核心技术涉及程序切片和策略预测，并未提及任何在衍生品定价、金融风险管理或投资组合管理领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:57.152788"
+}

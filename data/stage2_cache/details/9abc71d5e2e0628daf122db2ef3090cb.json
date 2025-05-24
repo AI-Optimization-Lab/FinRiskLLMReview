@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2198,
+    "title": "Quantifying Outlierness of Funds from their Categories using Supervised Similarity",
+    "abstract": "Mutual fund categorization has become a standard tool for the investment management industry and is extensively used by allocators for portfolio construction and manager selection, as well as by fund managers for peer analysis and competitive positioning. As a result, a (unintended) miscategorization or lack of precision can significantly impact allocation decisions and investment fund managers. Here, we aim to quantify the effect of miscategorization of funds utilizing a machine learning based approach. We formulate the problem of miscategorization of funds as a distance-based outlier detection problem, where the outliers are the data-points that are far from the rest of the data-points in the given feature space. We implement and employ a Random Forest (RF) based method of distance metric learning, and compute the so-called class-wise outlier measures for each data-point to identify outliers in the data. We test our implementation on various publicly available data sets, and then apply it to mutual fund data. We show that there is a strong relationship between the outlier measures of the funds and their future returns and discuss the implications of our findings.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "41cace34f297ac9df47cf3699703b193",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:04:27.397729"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究共同基金的分类错误及其对投资决策的影响，通过机器学习方法识别异常基金，并探讨其与未来回报的关系。这些内容直接关联到投资组合构建和基金经理选择，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究共同基金的分类错误及其对投资决策的影响，通过机器学习方法识别异常基金，并探讨其与未来回报的关系。这些内容直接关联到投资组合构建和基金经理选择，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:43.532552"
+}

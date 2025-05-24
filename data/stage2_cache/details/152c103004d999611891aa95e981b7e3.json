@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 408,
+    "title": "Advancing Forex prediction through multimodal text-driven model and attention mechanisms",
+    "abstract": "The Forex market, characterized by high volatility and complexity, presents a significant challenge for accurate prediction of currency price movements. Traditional approaches often rely on either technical indicators or sentiment analysis, limiting their ability to capture the interplay between diverse data modalities. This research work introduces a novel multimodal deep learning framework that integrates technical analysis and sentiment analysis through a cross-modal attention mechanism, enabling a comprehensive understanding of market dynamics. The proposed model leverages innovative alignment techniques to synchronize sentiment from news articles with historical price trends, facilitating robust multiclass prediction of Forex price directions. To evaluate its effectiveness, the model was tested on three major currency pairs-EUR/USD, GBP/USD, and USD/JPY-using k-fold cross-validation. Multiple attention configurations, including no attention, self-attention, bi-cross attention, and a hybrid approach, were implemented to assess the impact of attention mechanisms on prediction performance. Experimental results highlight the superiority of the hybrid attention mechanism, which consistently outperformed single-modality models and other configurations across key metrics, such as Matthew's correlation coefficient, accuracy, directional accuracy, and F1-score. These findings underscore the importance of integrating sentiment and technical data for enhanced Forex prediction. This study contributes to the growing field of multimodal financial forecasting, offering a foundation for future research incorporating advanced risk metrics, real-time trading systems, and broader market applications.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "2223cd8271113efa0a81f3dd39443a22",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "attention mechanism",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:37:32.560229"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究通过多模态文本驱动模型和注意力机制来预测外汇市场的货币价格走势，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究通过多模态文本驱动模型和注意力机制来预测外汇市场的货币价格走势，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:38.967863"
+}

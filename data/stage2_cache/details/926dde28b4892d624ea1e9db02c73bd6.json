@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 209,
+    "title": "A Time-Varying, Feature- Rearranged Convolutional Neural Network for Option Pricing",
+    "abstract": "The rigid assumptions underlying conventional parametric option-pricing models prevent them from accurately capturing the underlying nature of the market. Most of these models must be estimated numerically, because they cannot be solved analytically, which inevitably leads to estimation errors. Previous studies of option pricing, which have focused primarily on a single option variable, have not taken into account the effects of other options traded within the same time period. In order to address these issues, the authors use convolutional neural network (CNN) pattern recognition to fit the option panel data and provide a feature-rearrangement mechanism to account for the correlations between non-adjacent options. The suggested feature-rearranged CNN (FR-CNN) model is entirely data-driven without any preliminary assumptions. The authors' experiments with the Chinese SSE 50 ETF option show that the proposed FR-CNN outperformed the jump-diffusion model and CNN by 59.59% and 17.34%, respectively.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "be1955b62d25610344c298c528960e38",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.156176"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用卷积神经网络（CNN）进行期权定价，特别是针对中国SSE 50 ETF期权。论文明确提到其目标是解决传统期权定价模型的局限性，并通过实验比较了所提模型与传统模型的性能。这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用卷积神经网络（CNN）进行期权定价，特别是针对中国SSE 50 ETF期权。论文明确提到其目标是解决传统期权定价模型的局限性，并通过实验比较了所提模型与传统模型的性能。这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:05.566165"
+}

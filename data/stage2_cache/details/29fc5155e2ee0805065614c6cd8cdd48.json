@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 287,
+    "title": "SABER: Stochastic-Aware Bootstrap Ensemble Ranking for portfolio management",
+    "abstract": "Portfolio management (PM) is a central subject of finance that presents many unresolved challenges. Although solutions have been proposed since the 1950's, recent advances in machine learning are revolutionizing investments. Whereas supervised paradigms such as regression and classification are established in this direction, emerging research suggests that the learning -to -rank (LtR) paradigm can be more effective. Yet, these works are not many and overlook some important aspects. These aspects include the risk inherent in stocks, feature representation, portfolio cardinality and allocation. Addressing these gaps, this paper presents Stochastic -Aware Bootstrap Ensemble Ranking (SABER), an LtR method that directly minimizes the uncertainty and improves ranking performance. In addition, we propose Merged Bootstrap Selection for dynamic portfolio cardinality optimization. Trained on macroeconomic, fundamental and market indicators, the proposed methods outperform a state-of-the-art LtR approach, reaching annual returns and volatility of 83.48% and 29.89% across 6 years. The former also considers renowned weight allocation methods and achieves Sharpe and Sortino ratios of 2.79 and 5.28 respectively. Finally, the computational complexity of the proposed method is proven comparable to that of current methods.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0517b99f9038253303391cc6e0aca77a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.918263"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术SABER（Stochastic-Aware Bootstrap Ensemble Ranking）和Merged Bootstrap Selection直接针对投资组合管理（Portfolio Management）中的问题，如股票风险、特征表示、投资组合基数和分配优化。论文明确提到这些方法在投资组合管理中的应用，并通过实验验证了其在提高年回报率和波动性方面的效果。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术SABER（Stochastic-Aware Bootstrap Ensemble Ranking）和Merged Bootstrap Selection直接针对投资组合管理（Portfolio Management）中的问题，如股票风险、特征表示、投资组合基数和分配优化。论文明确提到这些方法在投资组合管理中的应用，并通过实验验证了其在提高年回报率和波动性方面的效果。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:11.141239"
+}

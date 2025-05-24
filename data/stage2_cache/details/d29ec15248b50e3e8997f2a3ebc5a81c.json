@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1553,
+    "title": "Routine Laboratory Blood Tests Predict SARS-CoV-2 Infection Using Machine Learning",
+    "abstract": "BACKGROUND: Accurate diagnostic strategies to identify SARS-CoV-2 positive individuals rapidly for management of patient care and protection of health care personnel are urgently needed. The predominant diagnostic test is viral RNA detection by RT-PCR from nasopharyngeal swabs specimens, however the results are not promptly obtainable in all patient care locations. Routine laboratory testing, in contrast, is readily available with a turn-around time (TAT) usually within 1-2 hours. METHOD: We developed a machine learning model incorporating patient demographic features (age, sex, race) with 27 routine laboratory tests to predict an individual's SARS-CoV-2 infection status. Laboratory testing results obtained within 2 days before the release of SARS-CoV-2 RT-PCR result were used to train a gradient boosting decision tree (GBDT) model from 3,356 SARS-CoV-2 RT-PCR tested patients (1,402 positive and 1,954 negative) evaluated at a metropolitan hospital. RESULTS: The model achieved an area under the receiver operating characteristic curve (AUC) of 0.854 (95% CI: 0.829-0.878). Application of this model to an independent patient dataset from a separate hospital resulted in a comparable AUC (0.838), validating the generalization of its use. Moreover, our model predicted initial SARS-CoV-2 RT-PCR positivity in 66% individuals whose RT-PCR result changed from negative to positive within 2 days. CONCLUSION: This model employing routine laboratory test results offers opportunities for early and rapid identification of high-risk SARS-CoV-2 infected patients before their RT-PCR results are available. It may play an important role in assisting the identification of SARS-CoV-2 infected patients in areas where RT-PCR testing is not accessible due to financial or supply constraints.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6b252eb28db8ebeacd7f0c02078b0cd7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "gradient boosting decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:04:20.133283"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习模型预测SARS-CoV-2感染状态，其应用领域为医疗诊断，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习模型预测SARS-CoV-2感染状态，其应用领域为医疗诊断，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:19.803948"
+}

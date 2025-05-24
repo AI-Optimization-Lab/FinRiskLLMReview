@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 102,
+    "title": "Extracting Stock Predictive Information in Mutual Fund Managers' Portfolio Decisions Through Machine Learning with Hypergraph",
+    "abstract": "This paper proposes a machine learning framework that incorporates mutual fund managers' portfolio decisions to predict stock price movements. It employs a weighted hypergraph to connect the information of the funds' portfolio weight changes to the corresponding stocks in the portfolio. This information is further aggregated with price data extracted through classical machine learning methods. The framework then predicts stock price movements as a classification problem. We tested this framework using Taiwanese stock and mutual fund data, discovering that the managers' decisions provide predictive information about stocks in addition to the classical technical data. Moreover, we determined that the level of information provided by the managers' decisions is asymmetric under different market conditions. This finding supports existing literature on mutual fund behavior under varying market conditions. Further discussions on incorporating other expert trading behaviors in Taiwan and model comparisons are provided.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2b82ae67045cc07bea97c599478eb6c5",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.500249"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用机器学习框架分析共同基金经理的投资组合决策，以预测股票价格变动。这直接涉及投资组合管理的领域，因为研究重点在于如何利用基金经理的决策信息来优化或理解投资组合的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用机器学习框架分析共同基金经理的投资组合决策，以预测股票价格变动。这直接涉及投资组合管理的领域，因为研究重点在于如何利用基金经理的决策信息来优化或理解投资组合的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:49.737425"
+}

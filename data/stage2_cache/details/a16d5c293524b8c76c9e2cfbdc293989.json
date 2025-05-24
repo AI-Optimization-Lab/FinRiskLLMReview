@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 160,
+    "title": "Identifying systemic risk drivers of FinTech and traditional financial institutions: machine learning-based prediction and interpretation",
+    "abstract": "We study systemic risk drivers of FinTech and traditional financial institutions under normal and extreme market conditions. We use machine learning (ML) techniques (i.e. random forest and gradient boosted regression trees) to evaluate the role of macroeconomic variables, firm characteristics, and network topologies as systemic risk drivers and perform the ML-based interpretation by Shapley individual and interaction values. We find that (i) the feature importance in driving systemic risk depends on market conditions; namely, market volatility (MVOL), individual stock volatility (IVOL), and market capitalization (MC) are positive drivers of systemic risk under extreme (downside and upside) market conditions, while under normal market conditions, institutions with high price-earnings ratio, large MC, and low IVOL play an essential role in stabilizing markets; (ii) macroeconomic variables are the most important extreme systemic risk drivers, while firm characteristics are more important under normal market conditions; and (iii) the interaction between IVOL and MC or MVOL is the significant source of extreme systemic risk, and MC is the most crucial interaction attribute under normal market conditions. The interactions between macroeconomic variables are the most prominent in systemic risk under different market conditions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "465d4dc19e357e525858f77473131660",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:14.215170"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心研究内容是使用机器学习技术识别和预测FinTech与传统金融机构的系统性风险驱动因素，这直接属于金融风险管理的范畴。论文重点分析了不同市场条件下系统性风险的驱动因素及其相互作用，旨在帮助理解和控制金融风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心研究内容是使用机器学习技术识别和预测FinTech与传统金融机构的系统性风险驱动因素，这直接属于金融风险管理的范畴。论文重点分析了不同市场条件下系统性风险的驱动因素及其相互作用，旨在帮助理解和控制金融风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:24.784849"
+}

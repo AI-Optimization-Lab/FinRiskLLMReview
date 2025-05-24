@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 174,
+    "title": "Robust mean-risk portfolio optimization using machine learning-based trade-off parameter",
+    "abstract": "Conservatism is the notorious problem of the worst-case robust portfolio optimization, and this issue has raised broad discussion in academia. To this end, we propose the hybrid robust portfolio models under ellipsoidal uncertainty sets in this paper, where both the best-case and the worst-case counterparts are involved. In the suggested models, we introduce a trade-off parameter to adjust the portfolio optimism level. Machine learning algorithms including Long Short-Term Memory (LSTM) and eXtreme Gradient Boosting (XGBoost) are used to evaluate the potential market movements and provide forecasting information to generate the hyperparameter for modeling. Additionally, we develop a clustering-based algorithm for properly constructing joint ellipsoidal uncertainty sets to reduce conservatism further. In the modeling phase, we design the hybrid portfolios based on variance (HRMV) and value at risk (VaR) and prove the equivalent relationship between the hybrid robust mean-VaR model (HRMVaR) and the hybrid robust mean-CVaR (conditional value at risk) according to the existing research. The US 12 industry portfolio data set retrieved from Kenneth R. French is employed for the in-sample and out-of-sample numerical experiments. The experimental results demonstrate the effectiveness and robustness of the proposed portfolios, where HRMV models have better Sharpe ratios and Calmar ratios than the corresponding nominal mean-variance model, and HRMVaR models outperform the baseline VaR-based portfolios in terms of returns. Sensitivity analysis supports the superiority of the joint ellipsoidal uncertainty set U-delta(2) where the proposed portfolios constrained with U-delta(2) show stable risk characteristics. (C) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "45b1896530b2574a7964d42949a5abb2",
+    "relevant_keywords": [
+      "machine learning",
+      "clustering",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.118159"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是使用机器学习和优化技术来改进投资组合的构建和优化，特别是通过引入交易参数和不确定性集合来调整投资组合的乐观水平，并验证了所提出模型在收益和风险指标上的优越性。这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是使用机器学习和优化技术来改进投资组合的构建和优化，特别是通过引入交易参数和不确定性集合来调整投资组合的乐观水平，并验证了所提出模型在收益和风险指标上的优越性。这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:00.922882"
+}

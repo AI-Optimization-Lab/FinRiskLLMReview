@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 975,
+    "title": "VIX constant maturity futures trading strategy: A walk-forward machine learning study",
+    "abstract": "This study employs seven advanced machine learning approaches to conduct numerical predictions of the next-day returns of VIX constant-maturity futures (VIX CMFs) using the term structure information derived from VIX CMFs. Based on precise numerical predictions, this study proposes a new Constrained-Mean-Variance Portfolio Optimization (C-MVO) trading strategy and tests it against a benchmark long-short trading strategy to evaluate the profitability of the machine learning numerical predictions. This study applies three unique feature sets, each incrementally incorporating the VIX CMFs' term structure features, to individually examine the predictive ability of the seven machine learning models and their backtesting performance. Over a comprehensive 11-year period, the experiment adheres to a strict walk-forward expanding-window methodology for both training and backtesting. The predictive and backtesting results show that four of the seven machine learning models attain a prediction information ratio greater than 0.02, with an average prediction information ratio of 0.037. This result suggests that the VIX CMFs term structure features have predictive power for the next-day returns of VIX CMFs. Moreover, the average C-MVO information ratio is 0.623, and the long-short strategy information ratio is 0.404. This increase in the information ratio under the C-MVO strategy validates the effectiveness of the machine learning models and the C-MVO strategy.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6d54209032c1baac5a15571360f73fab",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.783730"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法预测VIX恒定到期期货的次日回报，并基于这些预测提出了一种新的约束均值-方差投资组合优化（C-MVO）交易策略。研究的主要目标是评估这些预测的盈利能力，并通过投资组合策略来验证其有效性。因此，论文的主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法预测VIX恒定到期期货的次日回报，并基于这些预测提出了一种新的约束均值-方差投资组合优化（C-MVO）交易策略。研究的主要目标是评估这些预测的盈利能力，并通过投资组合策略来验证其有效性。因此，论文的主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:24.330743"
+}

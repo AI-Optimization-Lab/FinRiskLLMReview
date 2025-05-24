@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3173,
+    "title": "Parametric expectile regression and its application for premium calculation",
+    "abstract": "Premium calculation has been a popular topic in actuarial sciences over the decades. Generally, a two-stage model is used to develop the premium calculation process. It can be decomposed into estimating the probability of having at least one claim by the logistic regression in the first stage and calibrating the severity in the second stage. Existing methods for the second stage include generalized linear models (GLMs) and quantile regression. However, the GLMs fail to provide information associated with the extreme claim amount and the quantile is not sensitive to the size of the extreme losses. Given that the magnitude of the extreme claim amount may lead to a huge loss for the insurer, we introduce the expectile risk measure into premium calibration and propose an expectile-based risk premium, which outperforms other methods for heavy-tailed distributions. Naively adopting the conventional expectile regression in the second stage is not preferred because it would be over-parameterized and time-consuming if the portfolio contains a large number of risk classes. Thus, we put forward a two-stage parametric expectile regression (TSPER) with parametric expectile regression (PER) method used in the second stage. The consistency and asymptotic normality of the proposed PER estimator are established under mild conditions. We also propose a novel Expectile Premium Principle to allocate the total premium for each policy. In the analysis of the automobile insurance data set, the proposed TSPER method outperforms other two-stage methods in terms of the ordered Lorenz curve and the Gini index.& COPY; 2023 Elsevier B.V. All rights reserved.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4385ae1717fead4889407f4cd789f20b",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:14:16.253454"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是保险领域的保费计算问题，特别是针对极端索赔金额的风险度量方法。虽然涉及风险度量，但其应用场景明确指向保险精算领域，而非金融衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是保险领域的保费计算问题，特别是针对极端索赔金额的风险度量方法。虽然涉及风险度量，但其应用场景明确指向保险精算领域，而非金融衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:44.555386"
+}

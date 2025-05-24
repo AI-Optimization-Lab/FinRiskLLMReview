@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1669,
+    "title": "Across-time risk-aware strategies for outperforming a benchmark",
+    "abstract": "We propose a novel objective function for constructing dynamic investment strategies with the goal of outperforming an investment benchmark at multiple points of evaluation during the investment time horizon. The proposed objective is intuitive, easy to parameterize, and directly targets a favorable tracking difference of the actively managed portfolio relative to the benchmark. Under stylized assumptions, we derive closed-form optimal investment strategies to guide the intuition in more realistic settings. In the case of discrete rebalancing with investment constraints, optimal strategies are obtained using a neural network-based numerical approach that does not rely on dynamic programming techniques. Compared to the targeting of a favorable tracking difference relative to the benchmark only at some fixed time horizon, our results show that the proposed objective offers a number of advantages: (i) The associated optimal strategies exhibit potentially more attractive asset allocation profiles, in that less extreme positions in individual assets are taken early in the investment time horizon, while achieving a similar terminal terminal wealth distribution. (ii) Across-time risk awareness leads to more robust performance and a higher probability of benchmark outperformance during the investment horizon in out-of-sample testing. The resulting strategies therefore exhibit desirable characteristics for active portfolio managers with periodic reporting requirements. (c) 2023 Elsevier B.V. All rights reserved.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4ad563f8ec3f5eb6e6b6cea605f5063d",
+    "relevant_keywords": [
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:18.368112"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是构建动态投资策略以超越投资基准，并讨论了资产配置和投资组合优化，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是构建动态投资策略以超越投资基准，并讨论了资产配置和投资组合优化，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:37.268267"
+}

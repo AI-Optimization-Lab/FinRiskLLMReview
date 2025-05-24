@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 55,
+    "title": "基于注意力机制的CNN-LSTM模型股价趋势预测",
+    "abstract": "为了更准确地预测股价趋势，获取更高的超额收益，该文将注意力机制、卷积神经网络（CNN）与长短期记忆神经网络（LSTM）组合，提出了一种基于注意力机制的CNN-LSTM模型。实验选取沪深300指数成分股5分钟k线数据，采取变分编码器（VAE）进行特征工程，通过对比引入注意力机制前后的CNNLSTM、CNN与LSTM模型构建投资组合的超额收益等指标，说明该文所提出模型的有效性。结果显示，基于注意力机制的CNN-LSTM模型预测性能较优。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "24d275b83235b775fae45b4178c6248b",
+    "relevant_keywords": [
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-14T15:02:38.091574"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于注意力机制的CNN-LSTM模型，用于预测股价趋势，并通过构建投资组合的超额收益等指标来验证模型的有效性。这直接关联到投资组合管理的领域，因为股价趋势预测是投资组合构建和调整的重要依据。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于注意力机制的CNN-LSTM模型，用于预测股价趋势，并通过构建投资组合的超额收益等指标来验证模型的有效性。这直接关联到投资组合管理的领域，因为股价趋势预测是投资组合构建和调整的重要依据。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:45:13.254896"
+}

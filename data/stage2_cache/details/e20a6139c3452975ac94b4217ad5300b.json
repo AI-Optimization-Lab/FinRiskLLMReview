@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3975,
+    "title": "Parameter Estimation in Stochastic Differential Equations",
+    "abstract": "Financial processes as processes in nature, are subject to stochastic fluctuations. Stochastic differential equations turn out to be an advantageous representation of such noisy, real-world problems, and together with their identification, they play an important role in the sectors of finance, but also in physics and biotechnology. These equations, however, are often hard to represent and to resolve. Thus we express them in a simplified manner of approximation by discretization and additive models based on splines. This defines a trilevel problem consisting of an optimization and a representation problem (portfolio optimization), and a parameter estimation (Weber et al. Financial Regression and Organization. In: Special Issue on Optimization in Finance, DCDIS-B, 2010). Two types of parameters dependency, linear and nonlinear, are considered by constructing a penalized residual sum of squares and investigating the related Tikhonov regularization problem for the first one. In the nonlinear case Gauss Newton's method and Levenberg-Marquardt's method are employed in determining the iteration steps. Both cases are treated using continuous optimization techniques by the elegant framework of conic quadratic programming. These convex problems are well-structured, hence, allowing the use of the efficient interior point methods. Furthermore, we present nonparametric and related methods, and introduce into research done at the moment in our research groups which ends with a conclusion.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "58a47701a5a680adccd80464223372ed",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:22:39.415473"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到了'portfolio optimization'（投资组合优化），这是投资组合管理领域的核心问题。此外，论文讨论了参数估计和优化技术在金融领域的应用，特别是通过离散化和样条模型简化随机微分方程，这些技术在投资组合管理中具有重要应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到了'portfolio optimization'（投资组合优化），这是投资组合管理领域的核心问题。此外，论文讨论了参数估计和优化技术在金融领域的应用，特别是通过离散化和样条模型简化随机微分方程，这些技术在投资组合管理中具有重要应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:23.755320"
+}

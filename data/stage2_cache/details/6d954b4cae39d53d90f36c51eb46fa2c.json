@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1809,
+    "title": "Gaussian process regression modeling of wind turbines lightning incidence with LLS information",
+    "abstract": "This paper presents a machine learning (ML) approach to wind turbine (WT) lightning incidence analysis in complex terrain, based on the information obtained from a lightning location system (LLS). A particular ML model of the WTs lightning incidence is developed, using Bayesian statistical learning and Gaussian process regression, and trained on the actual LLS data. The model is developed around a known proposition that the lightning strike frequency data are emanating from a Poisson stochastic process. It further makes use of an attractive radius concept of lightning attachment, employs a sophisticated analysis of the WT effective height-which leverages terrain elevation data-and introduces spatial autocorrelation of lightning strikes. It provides a probabilistic risk assessment of WT lightning damage, along with a statistical measures of the associated monetized financial losses. Proposed ML model benefits from the Bayesian ability to quantify uncertainty of model parameters, and employ hierarchical model structure that informs model parameters through the mutual higher-level hyperpriors. Proposed model enables both investors and insurance companies to asses risks associated with lightning incidence to WTs, considering historical LLS data and future wind farm installation locations. (C) 2019 Elsevier Ltd. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1a4da68891cf723ff5300c83077df542",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "Gaussian process regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:07:25.786285"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用高斯过程回归模型对风力发电机的雷击风险进行概率评估，并量化相关的财务损失。这直接应用于保险和投资风险评估，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用高斯过程回归模型对风力发电机的雷击风险进行概率评估，并量化相关的财务损失。这直接应用于保险和投资风险评估，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:56.928037"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 370,
+    "title": "A Deep Reinforcement Learning Heuristic for SAT based on Antagonist Graph Neural Networks",
+    "abstract": "Heuristics are one of the most important tools to guide search to solve combinatorial problems. They are often specifically designed for one single problem and require both expertise and implementation work. Generic frameworks like SAT or CSP have developed heuristics that obey general principles like first fail or are able to learn and adapt from the exploration of the search tree like Dom/wDeg. In SAT, the classic VSIDS heuristic falls into both categories. The question of whether it is possible to learn from solving existing problems has been addressed for a long time by portfolio solvers where the best heuristic is chosen by Machine Learning from hand-crafted features, and more recently with Deep Learning by embedding this knowledge into a Graph Neural Network (GNN). In this paper, we build upon the latter category by proposing a new heuristic based on Deep Reinforcement Learning using two GNNs with adversarial rewards. We show that our method reduces the number of fails to get the first solution by more than 50% compared to MiniSat. This work shows the advantages of this type of techniques to extract structural and contextual knowledge from past solving experience.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6f4879b6edcf0c43f8e7169c5ec01fa5",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "Graph Neural Network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.546529"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于深度强化学习和对抗图神经网络的新启发式方法，用于解决组合问题（如SAT问题），并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于深度强化学习和对抗图神经网络的新启发式方法，用于解决组合问题（如SAT问题），并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:17.427586"
+}

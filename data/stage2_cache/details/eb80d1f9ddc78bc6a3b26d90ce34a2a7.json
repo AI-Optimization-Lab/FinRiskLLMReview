@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 939,
+    "title": "A Machine Learning Integrated Portfolio Rebalance Framework with Risk-Aversion Adjustment",
+    "abstract": "We propose a portfolio rebalance framework that integrates machine learning models into the mean-risk portfolios in multi-period settings with risk-aversion adjustment. In each period, the risk-aversion coefficient is adjusted automatically according to market trend movements predicted by machine learning models. We employ Gini's Mean Difference (GMD) to specify the risk of a portfolio and use a set of technical indicators generated from a market index (e.g., S&P 500 index) to feed the machine learning models to predict market movements. Using a rolling-horizon approach, we conduct a series of computational tests with real financial data to evaluate the performance of the machine learning integrated portfolio rebalance framework. The empirical results show that the XGBoost model provides the best prediction of market movement, while the proposed portfolio rebalance strategy generates portfolios with superior out-of-sample performances in terms of average returns, time-series cumulative returns, and annualized returns compared to the benchmarks.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b35bda974b367a811babeb92cd058363",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:49.631570"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是提出一个结合机器学习的投资组合再平衡框架，重点在于通过机器学习预测市场趋势并调整风险厌恶系数，以优化投资组合的表现。这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是提出一个结合机器学习的投资组合再平衡框架，重点在于通过机器学习预测市场趋势并调整风险厌恶系数，以优化投资组合的表现。这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:09.083897"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1109,
+    "title": "Overfitting in portfolio optimization",
+    "abstract": "In this paper we measure the out-of-sample performance of sample-based rolling-window neural network (NN) portfolio optimization strategies. We show that if NN strategies are evaluated using the holdout (train-test split) technique, then high out-of-sample performance scores can commonly be achieved. Although this phenomenon is often employed to validate NN portfolio models, we demonstrate that it constitutes a fata morgana that arises due to a particular vulnerability of portfolio optimization to overfitting. To assess whether overfitting is present, we set up a dedicated methodology based on combinatorially symmetric cross-validation that involves performance measurement across different holdout periods and varying portfolio compositions (the random-asset-stabilized combinatorially symmetric cross-validation methodology). We compare a variety of NN strategies with classical extensions of the mean-variance model and the 1=N strategy. We find that it is by no means trivial to outperform the classical models. While certain NN strategies outperform the 1=N benchmark, of the almost 30 models that we evaluate explicitly, none is consistently better than the short-sale constrained minimum-variance rule in terms of the Sharpe ratio or the certainty equivalent of returns.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b491a4ab4d3641b26c6125a73f9b3ead",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.346447"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on evaluating the out-of-sample performance of neural network-based portfolio optimization strategies, comparing them with classical models like the mean-variance model and the 1/N strategy. The core research is centered on improving portfolio optimization techniques, which is a key aspect of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on evaluating the out-of-sample performance of neural network-based portfolio optimization strategies, comparing them with classical models like the mean-variance model and the 1/N strategy. The core research is centered on improving portfolio optimization techniques, which is a key aspect of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:03.461580"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 817,
+    "title": "Optimal Option Hedging with Policy Gradient",
+    "abstract": "For the option hedging problem, we propose a reinforcement learning framework to statistically hedge generic financial options under the setting of non-zero risk-free interest rate and transaction cost. Instead of minimizing the risk of final wealth, we maximize the cumulative reward during the whole hedging process to find the optimal hedging strategies. In particular, we define the fundamental elements of reinforcement learning for the hedging problem. To illustrate the formulation, we utilize the Monte Carlo policy gradient with baseline onto both synthetic and realistic data to learn the state-value function and optimal policy function. Empirical evaluations demonstrate the effectiveness and performance of the proposed approach.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a432eab6ef069a024342ea2723a080e8",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.535061"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用强化学习框架来统计对冲金融期权，以优化对冲策略，这属于金融风险管理中对冲策略的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用强化学习框架来统计对冲金融期权，以优化对冲策略，这属于金融风险管理中对冲策略的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:44.227075"
+}

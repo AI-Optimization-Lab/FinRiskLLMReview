@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 40,
+    "title": "CIFT: Connected Intelligent Fund Transaction System Based on Deep Learning",
+    "abstract": "Fund correlation analysis can guide investors' investment and wealth management, avoiding the selection of highly relevant funds in the investment process, which can make the risk sharing among funds. There is a strong dependence between the features of the fund data and a long-term dependence between the output of different time steps, which makes it difficult to obtain good performance in the fund data in the data analysis model used in the traditional intelligent investment system. This has brought difficulties to fund correlation analysis. However, some studies in recent years have shown that the LSTM (Long Short-Term Memory) model has good time series processing capability, and the Encoder-decoder model has made great progress in the application of financial time series analysis. Based on the above research, this paper constructs the DLIFT system using an Improved RNN model combined with attention mechanism.. The attention mechanism can select specific feature inputs and previous time step outputs, both of which are highly correlated with the current output, making system predictions more efficient. This paper applies this model to the historical data set containing multiple public funds, and compares it with several other intelligent investment systems. The results show that the fund intelligent investment system proposed in this paper performs best. The research in this paper is of great significance to the use of deep learning methods to solve fund correlation analysis problems, and provides new ideas for the research in the field of smart finance.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "c3bef20fdd41b2a392fa60238eeb1626",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "encoder-decoder",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-17T10:37:00.346499"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于深度学习的基金相关性分析系统，旨在通过分析基金数据的时间序列特征来优化投资选择和风险分散，这直接关联到投资组合管理的核心问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于深度学习的基金相关性分析系统，旨在通过分析基金数据的时间序列特征来优化投资选择和风险分散，这直接关联到投资组合管理的核心问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:11.266064"
+}

@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 585,
+    "title": "Improve credit scoring using transfer of learned knowledge from self-organizing map",
+    "abstract": "Credit scoring is important for credit risk evaluation and monitoring in the accounting and finance domain. For financial institutions, the ability to predict the business failure is crucial, as incorrect decisions have direct financial consequences. A variety of pattern recognition techniques including neural networks, decision trees, and support vector machines have been applied to predict whether the borrowers should be considered a good or bad credit risk. This paper presents a hybrid approach to building the credit scoring model and illustrates how the unsupervised learning based on self-organizing map (SOM) can improve the discriminant capability of feedforward neural network (FNN). Within the hybridization scheme, the knowledge (i.e., prototypes of clusters) found by SOM is transferred as input to the subsequent FNN model. Four real-world data sets are used in the experiments for credit approval problems. By varying the parameters, the experimental results demonstrate the predictive model built by the hybrid approach can achieve better performance than the stand-alone FNN particularly when a limited amount of labeled data is available. This gives some insights on how to construct more accurate predictive models when the data collection is difficult in some financial applications. A complete and unique graphical visualization technique is shown which better outlines the trade-off between distinct metrics and attained performance.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d1ce75b4459fe7781ce679c37e35487b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "clustering",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.441530"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit scoring models, which is a critical component of credit risk evaluation and monitoring in financial institutions. This directly relates to Financial Risk Management as it aims to predict business failures and assess borrower creditworthiness to mitigate financial risks.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit scoring models, which is a critical component of credit risk evaluation and monitoring in financial institutions. This directly relates to Financial Risk Management as it aims to predict business failures and assess borrower creditworthiness to mitigate financial risks.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:40.631604"
+}

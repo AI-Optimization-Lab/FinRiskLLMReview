@@ -1,0 +1,39 @@
+{
+  "paper": {
+    "id": 687,
+    "title": "Integrating deep transformer and temporal convolutional networks for SMEs revenue and employment growth prediction",
+    "abstract": "Although the accurate potential for growth prediction is very important for Government grants and contributions programs to better support Small and Medium-sized Enterprises (SMEs), it is a challenging task due to the data heterogeneity (both structured data and free text data bilingual in English and French), the class imbalance issue, and the difficulties in efficient feature learning. To address these challenges, this paper presents a novel BERT-TCN model for portfolio predictions in government funding programs, with the following key contributions. First, we describe the application of a novel architecture to a prediction task involving sequential, structured, partially quantitative input data and free text input data. Specifically, our novel model predicts the growth of firms receiving government funding for innovation. Our model also deals with class imbalance in the data and the difficulties in efficient feature learning. Our model integrates a Transformer model, i.e., BERT, for text modeling with a Temporal Convolutional Network (TCN) for sequential prediction. Second, we also developed various performance evaluation criteria in Section 4.3, allowing comprehensive assessments of the proposed approach from both the machine learning perspective and funding program -specific perspective. Third, the importance of features (both text and numerical features) is quantified and evaluated, allowing insights into how different features contribute to the prediction and explainability of the proposed model. The proposed approach is trained and tested on a large dataset from a rich database, demonstrating that the proposed approach can greatly help individual human experts improve their results.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "342066a8e6addd503d8bf97a9bad5175",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.555815"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用深度学习和自然语言处理技术来预测中小企业的收入和就业增长，以支持政府资助计划。虽然提到了'portfolio predictions'，但这里的'portfolio'指的是政府资助项目的组合，而非金融投资组合。论文的核心应用领域是公共政策支持和企业增长预测，不属于衍生品定价、金融风险管理或投资组合管理中的任何一个。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用深度学习和自然语言处理技术来预测中小企业的收入和就业增长，以支持政府资助计划。虽然提到了'portfolio predictions'，但这里的'portfolio'指的是政府资助项目的组合，而非金融投资组合。论文的核心应用领域是公共政策支持和企业增长预测，不属于衍生品定价、金融风险管理或投资组合管理中的任何一个。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:30.644756"
+}

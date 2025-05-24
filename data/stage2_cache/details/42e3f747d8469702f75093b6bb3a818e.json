@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 5769,
+    "title": "Boosting-Based Optimization as a Generic Framework for Novelty and Fraud Detection in Complex Strategies",
+    "abstract": "Novelty detection is a very desirable additional feature of any practical classification or forecasting system. Novelty and rare patterns detection is the main objective in such applications as fault/abnormality discovery in complex technical and biological systems, fraud detection and risk management in financial and insurance industry. Although many interdisciplinary approaches for rare event modeling and novelty detection have been proposed, significant data incompleteness due to the nature of the problem makes it difficult to find a universal solution. Even more challenging and much less formalized problem is novelty detection in complex strategies and models where practical performance criteria are usually multi-objective and the best state-of-the-art solution is often not known due to the complexity of the task and/or proprietary nature of the application area. For example, it is much more difficult to detect a series of small insider trading or other illegal transactions mixed with valid operations and distributed over long time period according to a well-designed strategy than a single, large fraudulent transaction. Recently proposed boosting-based optimization was shown to be an effective generic tool for the discovery of stable multi-component strategies/models from the existing parsimonious base strategies/models in financial and other applications. Here we outline how the same framework can be used for novelty and fraud detection in complex strategies and models.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "16a5d14a04ee2fa835595ded2ea061d2",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "boosting"
+    ],
+    "stage1_timestamp": "2025-05-15T02:51:29.971363"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要讨论了使用基于boosting的优化框架来检测复杂策略中的新颖性和欺诈行为，特别是在金融和保险行业中用于欺诈检测和风险管理。这直接关联到金融风险管理领域，因为欺诈检测是风险管理的重要组成部分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要讨论了使用基于boosting的优化框架来检测复杂策略中的新颖性和欺诈行为，特别是在金融和保险行业中用于欺诈检测和风险管理。这直接关联到金融风险管理领域，因为欺诈检测是风险管理的重要组成部分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:37.124575"
+}

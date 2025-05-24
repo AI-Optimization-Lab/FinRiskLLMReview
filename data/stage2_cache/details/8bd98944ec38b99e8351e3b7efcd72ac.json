@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 21,
+    "title": "基于机器学习的多目标投资组合优化研究",
+    "abstract": "文章首先运用随机森林、RBF神经网络和BP神经网络3种机器学习方法预测股票收盘价，使用历史数据和预测的收盘价计算投资组合的收益率均值、下半方差、偏度；然后，考虑交易成本、投资比例上下界约束和借贷约束，提出均值-下半方差-偏度多目标投资组合模型(M-SV-S)。该模型对应的优化问题属于非凸优化问题且求解困难，故首先将其转化为单目标优化模型，再运用差分进化算法进行求解。最后，选取上证50指数成分股作为样本进行实证分析，从收益率和索提诺比率等方面来对比M-SV-S模型与等比例投资组合模型的投资表现。实证结果表明：在样本外窗口内，M-SV-S模型的每日净收益率在1%～4%之间、30天的累计超额收益率超过50%、索提诺比率大于0,投资绩效明显优于等比例投资组合模型。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d8a905a7e8f2fb4a7e5a62ec7dad3d98",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:13:08.888647"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是运用机器学习方法预测股票收盘价，并构建多目标投资组合优化模型，其研究目标和实证分析均围绕投资组合的构建和绩效评估展开，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是运用机器学习方法预测股票收盘价，并构建多目标投资组合优化模型，其研究目标和实证分析均围绕投资组合的构建和绩效评估展开，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:00.661534"
+}

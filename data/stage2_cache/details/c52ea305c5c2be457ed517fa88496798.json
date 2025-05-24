@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 379,
+    "title": "Comprehensive Evaluation of Bankruptcy Prediction in Taiwanese Firms Using Multiple Machine Learning Models",
+    "abstract": "Bankruptcy prediction is a significant issue in finance because accurate predictions would enable stakeholders to act quickly to reduce their financial losses. This study developed an advanced bankruptcy prediction model using Support Vector Machines (SVM), Random Forest (RF), and Artificial Neural Network (ANN) algorithms based on datasets from the UCI machine learning repository. The core contribution of this research is the establishment of a hybrid model that effectively combines multiple machine learning (ML) algorithms with advanced data with the Synthetic minority oversampling technique Tomek (SMOTE Tomek) or SMOTE- Edited Nearest Neighbor (SMOTE-ENN) resampling data technique to improve bankruptcy prediction accuracy. Additionally, a wrapper-based feature selection (FS) utilizing Binary Particle Swarm Optimization (BPSO) was utilized to find an optimal feature subset and boost the model's predictive performance. After selecting the best features, these were used to train the three ML algorithms, and hyper- parameter optimization was implemented to boost model performance. From the results measured by evaluation metrics, the proposed model ANN with the combination of parameter tuning, feature selection algorithm, SMOTE-ENN, and optimal hyper-parameters demonstrates superior performance compared to traditional methods, achieving an F1 Score of 98.5% and an accuracy of 98.6%. The results suggest that the predictive performance of bankruptcy models can be significantly enhanced by integrating multiple analytical methodologies. This approach not only improves the accuracy but also the reliability of financial risk assessments, providing valuable insights for investors, financial analysts, and policymakers. The success of the model opens avenues for further research into hybrid predictive models in various sectors of finance, potentially transforming risk assessment methodologies.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9f92e6813e66aa81d32f1c4f9327cde0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.037094"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种先进的破产预测模型，旨在提高金融风险评估的准确性和可靠性。这直接属于金融风险管理的范畴，因为它帮助投资者、金融分析师和政策制定者更好地评估和管理财务风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是开发一种先进的破产预测模型，旨在提高金融风险评估的准确性和可靠性。这直接属于金融风险管理的范畴，因为它帮助投资者、金融分析师和政策制定者更好地评估和管理财务风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:28.791756"
+}

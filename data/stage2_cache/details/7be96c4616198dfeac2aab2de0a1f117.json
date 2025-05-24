@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 6316,
+    "title": "Lower Body Joint Angle Prediction Using Machine Learning and Applied Biomechanical Inverse Dynamics",
+    "abstract": "Extreme angles in lower body joints may adversely increase the risk of injury to joints. These injuries are common in the workplace and cause persistent pain and significant financial losses to people and companies. The purpose of this study was to predict lower body joint angles from the ankle to the lumbosacral joint (L5S1) by measuring plantar pressures in shoes. Joint angle prediction was aided by a designed footwear sensor consisting of six force-sensing resistors (FSR) and a microcontroller fitted with Bluetooth LE sensors. An Xsens motion capture system was utilized as a ground truth validation measuring 3D joint angles. Thirty-seven human subjects were tested squatting in an IRB-approved study. The Gaussian Process Regression (GPR) linear regression algorithm was used to create a progressive model that predicted the angles of ankle, knee, hip, and L5S1. The footwear sensor showed a promising root mean square error (RMSE) for each joint. The L5S1 angle was predicted to be RMSE of 0.21 degrees for the X-axis and 0.22 degrees for the Y-axis, respectively. This result confirmed that the proposed plantar sensor system had the capability to predict and monitor lower body joint angles for potential injury prevention and training of occupational workers.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ea752053e61ab476e01550dbef6170c4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "Gaussian Process Regression",
+      "GPR"
+    ],
+    "stage1_timestamp": "2025-05-15T02:57:07.658149"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习和生物力学逆动力学预测下肢关节角度，目的是预防工伤和训练职业工人，与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习和生物力学逆动力学预测下肢关节角度，目的是预防工伤和训练职业工人，与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:29.845094"
+}

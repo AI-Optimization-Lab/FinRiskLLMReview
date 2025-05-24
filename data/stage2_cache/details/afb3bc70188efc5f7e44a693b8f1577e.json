@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 4341,
+    "title": "Features extraction of wind ramp events from a virtual wind park",
+    "abstract": "In the European renewable energy portfolio, wind has a sizeable share in the total energy production. The Nordic and Baltic energy systems in particular are benefiting from wind energy to reach the greenhouse gas emissions reduction objectives set by the EU. The wind energy production varies with time, and this intermittent characteristic imposes a challenge for full utilization of renewable energy potential. The power system operator needs to ensure timely power supply of demand. An accurate estimation of power output from a non-dispatchable generation resource such as a wind farm is essential for the operator to ensure the supply-demand balance and adequate sizing of reserve power capacity. Existing methods of feature extraction and prediction such as linear regression often overlook the significant variations or do not utilize in the model building. However, this method misinterprets the trend in data. Understanding the properties of the variations in more details would reduce the uncertainty and significantly improve the feature extraction to aid in decision making. Furthermore, as the volume, shape and type of dataset start to increase and new methods are required to extract meaningful information from the patterns in the big data. The objective of the paper is to present a novel Ramping Behaviour Analysis (RBA(theta)) model that identifies and quantifies the variations in a time-varying dataset. The variations are classified into significant and stationary events. The former refers to the significant swings beyond a set threshold range and the latter refers to the swings that are relatively within the threshold limits. The features associated to each event include start time, end time, change in magnitude, persistence of an event, angle at which the event took place and frequency of occurrences of the features. In addition, the rain-flow cycles count is extracted from the original data for each event as a sum of half cycles and full cycles. The model is validated using simulated wind power production data from a virtual wind park spread across Estonia and the results are elaborated. The spatial dynamics of the virtual windfarm are captured through localized spatial autocorrelation of the events with the geospatial locations of the turbines. The results demonstrate that RBA(theta) precisely and accurately identify and quantify the time varying power generation into events with subsequent features. The volume of the data is significantly reduced in the process of summarizing time series data into a series of events. Thereby RBA(theta) can be also used for data compression and reconstruction with minor losses. The system operators can use the proposed algorithm in operational scheduling, maintenance and investment-capacity building decisions. (C) 2020 The Authors. Published by Elsevier Ltd.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "30bc0fa3b8b4df5363bd91cef73e80dd",
+    "relevant_keywords": [
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:26.174141"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究风能发电中的特征提取和事件分类，用于优化风电场运营和电网管理，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究风能发电中的特征提取和事件分类，用于优化风电场运营和电网管理，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:56.012704"
+}

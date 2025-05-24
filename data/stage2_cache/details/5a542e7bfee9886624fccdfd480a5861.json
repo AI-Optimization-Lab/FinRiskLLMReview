@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2534,
+    "title": "Mean-Variance Analysis in Bayesian Optimization under Uncertainty",
+    "abstract": "We consider active learning (AL) in an uncertain environment in which trade-off between multiple risk measures need to be considered. As an AL problem in such an uncertain environment, we study Mean-Variance Analysis in Bayesian Optimization (MVA-BO) setting. Mean-variance analysis was developed in the field of financial engineering and has been used to make decisions that take into account the trade-off between the average and variance of investment uncertainty. In this paper, we specifically focus on BO setting with an uncertain component and consider multi-task, multi-objective, and constrained optimization scenarios for the mean-variance trade-off of the uncertain component. When the target blackbox function is modeled by Gaussian Process (GP), we derive the bounds of the two risk measures and propose AL algorithm for each of the above three scenarios based on the risk measure bounds. We show the effectiveness of the proposed AL algorithms through theoretical analysis and numerical experiments.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e57f0a037e82713bd58677032b1f8684",
+    "relevant_keywords": [
+      "active learning",
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:16:32.652166"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是均值-方差分析（Mean-Variance Analysis），这一方法最初来源于金融工程领域，主要用于投资组合管理中权衡收益与风险。论文虽然将这一方法应用于贝叶斯优化（Bayesian Optimization）中的主动学习（Active Learning）问题，但其理论基础和应用场景与投资组合管理中的风险-收益权衡直接相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是均值-方差分析（Mean-Variance Analysis），这一方法最初来源于金融工程领域，主要用于投资组合管理中权衡收益与风险。论文虽然将这一方法应用于贝叶斯优化（Bayesian Optimization）中的主动学习（Active Learning）问题，但其理论基础和应用场景与投资组合管理中的风险-收益权衡直接相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:33.785075"
+}

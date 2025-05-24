@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 14,
+    "title": "基于深度强化学习算法的投资组合策略与自动化交易研究",
+    "abstract": "投资组合策略问题是金融领域经久不衰的一个课题，将人工智能技术用于金融市场是信息技术时代一个重要的研究方向。目前的研究较多集中在股票的价格预测上，对于投资组合及自动化交易这类决策性问题的研究较少。文中基于深度强化学习算法，利用深度学习的BiLSTM来预测股价的涨跌，以强化学习的智能体进行观测，更好地判断当期情况，从而确定自己的交易动作；同时，利用传统的投资组合策略来建立交易的预权重，使智能体可以在自动化交易的过程中进行对比，从而不断优化自己的策略选择，生成当期时间点内最优的投资组合策略。文章选取美股的10支股票进行实验，在真实的市场模拟下表明，基于深度强化学习算法的模型累计收益率达到了86.5%，与其他基准策略相比，收益最高，风险最小，具有一定的实用价值。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "1d38dc664cd23d090ce79a6fe7959dfc",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:13:31.301840"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于深度强化学习算法来优化投资组合策略和自动化交易，其研究目标和实验设计都集中在投资组合管理领域，旨在生成最优的投资组合策略并提高收益率。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于深度强化学习算法来优化投资组合策略和自动化交易，其研究目标和实验设计都集中在投资组合管理领域，旨在生成最优的投资组合策略并提高收益率。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:58.763285"
+}

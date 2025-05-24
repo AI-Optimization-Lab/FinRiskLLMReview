@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 7447,
+    "title": "Dual Beta Process Priors for Latent Cluster Discovery in Chronic Obstructive Pulmonary Disease",
+    "abstract": "Chronic obstructive pulmonary disease (COPD) is a lung disease characterized by airflow limitation usually associated with an inflammatory response to noxious particles, such as cigarette smoke. COPD is currently the third leading cause of death in the United States and is the only leading cause of death that is increasing in prevalence [15]. It also represents an enormous financial burden to society, costing tens of billions of dollars annually in the U.S. It is widely accepted by the medical community that COPD is a heterogeneous disease, with substantial evidence indicating that genetic variation contributes to varying levels of disease susceptibility. This heterogeneity makes it difficult to predict health decline and develop targeted treatments for better patient care. Although researchers have made several attempts to discover disease subtypes, results have been inconclusive, in part because standard clustering methods have not properly dealt with disease manifestations that may worsen with increased exposure. In this paper we introduce a transformative way of looking at the COPD subtyping task. Specifically, we model the relationship between risk factors (such as age and smoke exposure) and manifestations of disease severity using Gaussian Processes, which allow us to represent so-called disease trajectories. We also posit that individuals can be associated with multiple disease types (latent clusters), which we assume are influenced by genetics. Furthermore, we predict that only subsets of the numerous disease-related quantitative features are useful for describing each latent subtype. We model these associations using two separate beta process priors, and we describe a variational inference approach to discover the most probable latent cluster assignments. Results are validated with associations to genetic markers.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ce97be298fcd489c1a6e3bbd16438014",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T03:08:37.911321"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究慢性阻塞性肺疾病（COPD）的亚型发现，使用高斯过程和贝塔过程先验进行潜在聚类分析，并未涉及任何金融领域的技术应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究慢性阻塞性肺疾病（COPD）的亚型发现，使用高斯过程和贝塔过程先验进行潜在聚类分析，并未涉及任何金融领域的技术应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:37.781022"
+}

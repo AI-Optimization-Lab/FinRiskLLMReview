@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2167,
+    "title": "Stock Embeddings Acquired from News Articles and Price History, and an Application to Portfolio Optimization",
+    "abstract": "Previous works that integrated news articles to better process stock prices used a variety of neural networks to predict price movements. The textual and price information were both encoded in the neural network, and it is therefore difficult to apply this approach in situations other than the original framework of the notoriously hard problem of price prediction. In contrast, this paper presents a method to encode the influence of news articles through a vector representation of stocks called a stock embedding. The stock embedding is acquired with a deep learning framework using both news articles and price history. Because the embedding takes the operational form of a vector, it is applicable to other financial problems besides price prediction. As one example application, we show the results of portfolio optimization using Reuters & Bloomberg headlines, producing a capital gain 2.8 times larger than that obtained with a baseline method using only stock price data. This suggests that the proposed stock embedding can leverage textual financial semantics to solve financial prediction problems.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e8eb96b37b03e94fa902945b847cfb67",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "feature representation",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:36.683895"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用新闻文章和价格历史数据生成股票嵌入向量，并明确提到将其应用于投资组合优化，展示了在投资组合管理中的具体应用和效果。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用新闻文章和价格历史数据生成股票嵌入向量，并明确提到将其应用于投资组合优化，展示了在投资组合管理中的具体应用和效果。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:46.349449"
+}

@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "support vector machine",
+    "SVM",
+    "decision tree",
+    "neural network",
+    "deep learning",
+    "representation learning",
+    "backpropagation",
+    "BP",
+    "hidden layer",
+    "recurrent neural network",
+    "long short-term memory",
+    "LSTM"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning (ML) approaches for forecasting stock prices.",
+    "supervised learning": "The study involves training models on labeled data (daily closing prices), which is a supervised learning task.",
+    "regression": "The paper focuses on predicting the daily price of the MASI index, which is a regression problem.",
+    "support vector machine": "The paper mentions the use of Support Vector Regression (SVR), which is a variant of SVM for regression tasks.",
+    "SVM": "SVR is a type of SVM, so SVM is relevant.",
+    "decision tree": "XGBoost is mentioned, which is an ensemble method based on decision trees.",
+    "neural network": "The paper discusses Multilayer Perceptron (MLP) and LSTM, both of which are types of neural networks.",
+    "deep learning": "The paper explicitly mentions deep learning (DL) techniques, including LSTM.",
+    "representation learning": "Deep learning models like LSTM inherently perform representation learning.",
+    "backpropagation": "Backpropagation is the standard training algorithm for neural networks like MLP and LSTM.",
+    "BP": "BP is an abbreviation for backpropagation.",
+    "hidden layer": "Neural networks like MLP and LSTM have hidden layers.",
+    "recurrent neural network": "LSTM is a type of recurrent neural network (RNN).",
+    "long short-term memory": "The paper specifically mentions LSTM as one of the models used.",
+    "LSTM": "LSTM is explicitly mentioned in the abstract."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"regression\",\n    \"support vector machine\",\n    \"SVM\",\n    \"decision tree\",\n    \"neural network\",\n    \"deep learning\",\n    \"representation learning\",\n    \"backpropagation\",\n    \"BP\",\n    \"hidden layer\",\n    \"recurrent neural network\",\n    \"long short-term memory\",\n    \"LSTM\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning (ML) approaches for forecasting stock prices.\",\n    \"supervised learning\": \"The study involves training models on labeled data (daily closing prices), which is a supervised learning task.\",\n    \"regression\": \"The paper focuses on predicting the daily price of the MASI index, which is a regression problem.\",\n    \"support vector machine\": \"The paper mentions the use of Support Vector Regression (SVR), which is a variant of SVM for regression tasks.\",\n    \"SVM\": \"SVR is a type of SVM, so SVM is relevant.\",\n    \"decision tree\": \"XGBoost is mentioned, which is an ensemble method based on decision trees.\",\n    \"neural network\": \"The paper discusses Multilayer Perceptron (MLP) and LSTM, both of which are types of neural networks.\",\n    \"deep learning\": \"The paper explicitly mentions deep learning (DL) techniques, including LSTM.\",\n    \"representation learning\": \"Deep learning models like LSTM inherently perform representation learning.\",\n    \"backpropagation\": \"Backpropagation is the standard training algorithm for neural networks like MLP and LSTM.\",\n    \"BP\": \"BP is an abbreviation for backpropagation.\",\n    \"hidden layer\": \"Neural networks like MLP and LSTM have hidden layers.\",\n    \"recurrent neural network\": \"LSTM is a type of recurrent neural network (RNN).\",\n    \"long short-term memory\": \"The paper specifically mentions LSTM as one of the models used.\",\n    \"LSTM\": \"LSTM is explicitly mentioned in the abstract.\"\n  }\n}\n```"
+}

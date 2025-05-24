@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 20,
+    "title": "RLPortfolio: Reinforcement Learning for Financial Portfolio Optimization",
+    "abstract": "Portfolio optimization is a task in which an agent constantly rebalances a predefined portfolio of assets in order to mitigate losses and maximize profits. A very effective way to solve this task is using a reinforcement learning agent that learns an optimal investment strategy by interacting with the environment, but due to the current lack of open source tools to accelerate the development of such an agent, its implementation is quite difficult. Therefore, to reduce this obstacle, this paper introduces RLPortfolio, a Python library which provides the necessary tools to develop, train and evaluate reinforcement learning agents whose function is to optimize financial portfolios over time. The library contains a simulation environment that implements the state-of-the-art mathematical formulation of the portfolio optimization task, a policy gradient algorithm developed specifically to train agents to solve this task and four state-of-the-art deep neural network architectures that can be used as the agent's action policy. This paper also demonstrates the results of an agent trained with RLPortfolio to optimize a financial portfolio composed of ten high-volume stocks from the Brazilian market, proving the reliability of the solutions contained in the library while also showing that it produces agents that perform better than classical approaches.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "35fb36d252062d99504ea0f70c6df79b",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "policy gradient"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:16.262999"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习来优化金融投资组合，其研究目标和实验设计都集中在投资组合的优化上，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习来优化金融投资组合，其研究目标和实验设计都集中在投资组合的优化上，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:25.240014"
+}

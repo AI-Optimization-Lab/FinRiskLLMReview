@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1692,
+    "title": "Expert aggregation for financial forecasting",
+    "abstract": "Machine learning algorithms dedicated to financial time series forecasting have gained a lot of interest. But choosing between several algorithms can be challenging, as their estimation accuracy may be unstable over time. Online aggregation of experts combine the forecasts of a finite set of models in a single approach without making any assumption about the models. In this paper, a Bernstein Online Aggregation (BOA) procedure is applied to the construction of long-short strategies built from individual stock return forecasts coming from different machine learning models. The online mixture of experts leads to attractive portfolio performances even in non-stationary environments. The inclusion of neural networks experts in the aggregation contributes to a better average return, while Ordinary Least Squares with Huber Loss experts contribute to lower risk. The aggregation outperforms individual algorithms, offering a higher portfolio Sharpe ratio, lower shortfall, with a similar turnover. Extensions to expert and aggregation specialisations are also proposed to improve the overall mixture on a family of portfolio evaluation metrics.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d7a0dc9be1360a2e8d5d70be7d33f123",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.475911"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用在线专家聚合（BOA）方法来构建多空策略，并优化投资组合的表现。论文明确提到了投资组合的夏普比率、回撤和换手率等指标，这些都是投资组合管理的关键考量因素。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用在线专家聚合（BOA）方法来构建多空策略，并优化投资组合的表现。论文明确提到了投资组合的夏普比率、回撤和换手率等指标，这些都是投资组合管理的关键考量因素。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:59.396619"
+}

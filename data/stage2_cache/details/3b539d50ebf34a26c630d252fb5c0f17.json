@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 526,
+    "title": "Uncertainty-Aware Portfolio Management With Risk-Sensitive Multiagent Network",
+    "abstract": "As deep neural networks (DNNs) have gained considerable attention in recent years, there have been several cases applying DNNs to portfolio management (PM). Although some researchers have experimentally demonstrated its ability to make a profit, it is still insufficient to use in real situations because existing studies have failed to answer how risky investment decisions are. Furthermore, even though the objective of PM is to maximize returns within a risk tolerance, they overlook the predictive uncertainty of DNNs in the process of risk management. To overcome these limitations, we propose a novel framework called risk-sensitive multiagent network (RSMAN), which includes risk-sensitive agents (RSAs) and a risk adaptive portfolio generator (RAPG). Standard DNNs do not understand the risks of their decision, whereas RSA can take risk-sensitive decisions by estimating market uncertainty and parameter uncertainty. Acting as a trader, this agent is trained via reinforcement learning from dynamic trading simulations to estimate the distribution of reward and via unsupervised learning to assess parameter uncertainty without labeled data. We also present an RAPG that can generate a portfolio fitting the user's risk appetite without retraining by exploiting the estimated information from the RSAs. We tested our framework on the U.S. and Korean real financial markets to demonstrate the practicality of the RSMAN.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e4a6e3186b4e613baaccd64cfedc49a6",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.219636"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是提出了一种风险敏感的多智能体网络（RSMAN）框架，用于投资组合管理（PM），旨在在风险容忍范围内最大化回报。论文还强调了风险管理的重要性，通过估计市场不确定性和参数不确定性来做出风险敏感的投资决策。因此，该论文的主要应用领域是投资组合管理和金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种风险敏感的多智能体网络（RSMAN）框架，用于投资组合管理（PM），旨在在风险容忍范围内最大化回报。论文还强调了风险管理的重要性，通过估计市场不确定性和参数不确定性来做出风险敏感的投资决策。因此，该论文的主要应用领域是投资组合管理和金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:06.552660"
+}

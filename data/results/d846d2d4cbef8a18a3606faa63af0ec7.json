@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "neural network",
+    "deep learning",
+    "recurrent neural network",
+    "long short-term memory",
+    "LSTM"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning models for cryptocurrency price forecasting.",
+    "supervised learning": "The study involves training models on labeled data (historical cryptocurrency prices) to predict future prices, which is a supervised learning task.",
+    "regression": "The paper focuses on predicting continuous values (cryptocurrency prices), which is a regression problem.",
+    "neural network": "The study employs neural networks, specifically mentioning RNNs and GRUs, for price forecasting.",
+    "deep learning": "The use of recurrent neural networks (RNNs) and GRUs indicates the application of deep learning techniques.",
+    "recurrent neural network": "The paper specifically mentions the use of recurrent neural networks (RNNs) for time series forecasting.",
+    "long short-term memory": "Although not explicitly mentioned, GRU (Gated Recurrent Unit) is a variant of LSTM, which is relevant to the study.",
+    "LSTM": "GRU, which is used in the study, is closely related to LSTM and shares similar mechanisms for handling sequential data."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"regression\",\n    \"neural network\",\n    \"deep learning\",\n    \"recurrent neural network\",\n    \"long short-term memory\",\n    \"LSTM\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning models for cryptocurrency price forecasting.\",\n    \"supervised learning\": \"The study involves training models on labeled data (historical cryptocurrency prices) to predict future prices, which is a supervised learning task.\",\n    \"regression\": \"The paper focuses on predicting continuous values (cryptocurrency prices), which is a regression problem.\",\n    \"neural network\": \"The study employs neural networks, specifically mentioning RNNs and GRUs, for price forecasting.\",\n    \"deep learning\": \"The use of recurrent neural networks (RNNs) and GRUs indicates the application of deep learning techniques.\",\n    \"recurrent neural network\": \"The paper specifically mentions the use of recurrent neural networks (RNNs) for time series forecasting.\",\n    \"long short-term memory\": \"Although not explicitly mentioned, GRU (Gated Recurrent Unit) is a variant of LSTM, which is relevant to the study.\",\n    \"LSTM\": \"GRU, which is used in the study, is closely related to LSTM and shares similar mechanisms for handling sequential data.\"\n  }\n}\n```"
+}

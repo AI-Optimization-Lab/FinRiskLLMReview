@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2306,
+    "title": "PPDNN-CRP: CKKS-FHE Enabled Privacy-Preserving Deep Neural Network Processing for Credit Risk Prediction",
+    "abstract": "Credit risk prediction is essential in modern financial analytics, yet it poses significant privacy challenges due to the sensitive nature of the data involved. This study presents the PPDNN-CRP framework, which integrates Deep Neural Networks (DNNs) with the Cheon-Kim-Kim-Song (CKKS) Homomorphic Encryption (HE) to achieve privacy-preserving credit risk prediction. The framework ensures privacy throughout the entire prediction process, including both the training and inference phases, by protecting training data, input data, the model, and output data.We evaluate the performance of the PPDNN-CRP framework using real-world datasets from Kaggle, comparing it against DNN-CRP (on unencrypted data) and PPLR. The results indicate that PPDNN-CRP outperforms the other models across most performance metrics, making it the most suitable choice for applications where privacy is a critical concern. Furthermore, the security analysis confirms that the PPDNN-CRP framework effectively mitigates threats such as data poisoning, evasion attacks, membership inference, model inversion, and model extraction throughout the machine learning lifecycle.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "bcf4a850de2387d41a8725995db96caa",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:13:31.896539"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on privacy-preserving credit risk prediction using deep neural networks and homomorphic encryption, which is directly related to assessing and managing credit risk—a key aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on privacy-preserving credit risk prediction using deep neural networks and homomorphic encryption, which is directly related to assessing and managing credit risk—a key aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:19.177978"
+}

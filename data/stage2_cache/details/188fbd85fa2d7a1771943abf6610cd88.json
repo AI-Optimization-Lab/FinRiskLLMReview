@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2713,
+    "title": "STGAT: Spatial-Temporal Graph Attention Neural Network for Stock Prediction",
+    "abstract": "Stock price prediction and portfolio optimization are critical research areas in financial markets, as they directly impact investment strategies and risk management. Traditional statistical methods and machine learning approaches have been widely applied to these tasks, but they often fail to fully capture the complex dynamics of financial markets. Traditional statistical methods typically rely on unrealistic assumptions or oversimplified models, neglecting the nonlinear and high-dimensional characteristics of market data. Additionally, deep learning methods, especially temporal convolution networks and graph attention networks, have been introduced in this area and have achieved significant improvements in both stock price prediction and portfolio optimization. Therefore, this study proposes a Spatial-Temporal Graph Attention Network (STGAT) that integrates STL decomposition components and graph structures to model both temporal patterns and asset correlations. By combining graph attention mechanisms with temporal convolutional modules, STGAT effectively processes spatiotemporal data, enhancing the accuracy of stock price predictions. Empirical experiments on the CSI 500 and S&P 500 datasets demonstrate that STGAT outperforms other deep learning models in both prediction accuracy and portfolio performance. The investment portfolios constructed based on STGAT's predictions achieve higher returns in real market scenarios, which validates the feasibility of spatiotemporal feature fusion for stock price prediction and highlights the advantages of graph attention networks in capturing complex market characteristics. This study not only provides a robust tool for portfolio optimization but also offers valuable insights for future research in intelligent financial systems.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d6791305ecffe59507cce6de8776f54c",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "attention mechanism",
+      "representation learning",
+      "graph attention networks",
+      "temporal convolution networks",
+      "spatiotemporal data"
+    ],
+    "stage1_timestamp": "2025-05-15T02:18:37.021782"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术STGAT主要用于股票价格预测和投资组合优化，其研究目标明确指向投资组合管理，通过提高预测准确性来优化投资组合表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术STGAT主要用于股票价格预测和投资组合优化，其研究目标明确指向投资组合管理，通过提高预测准确性来优化投资组合表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:40:12.761629"
+}

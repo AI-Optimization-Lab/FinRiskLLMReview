@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 16,
+    "title": "Sequential tracking in pricing financial options using model based and neural network approaches",
+    "abstract": "This paper shows how the prices of option contracts traded in financial markets can be tracked sequentially by means of the Extended Kalman Filter algorithm. I consider call and put. option pairs with identical strike price and time of maturity as a two output nonlinear system. The Black-Scholes approach popular in Finance literature and the Radial Basis Functions neural network are used in modelling the nonlinear system generating these observations. I show how both these systems may be identified recursively using the EKF algorithm. I present results of simulations on some FTSE 100 Index options data and discuss the implications of viewing the pricing problem in this sequential manner.",
+    "year": 1997,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "108972f33108a4caa2bb97e2d53ce5e4",
+    "relevant_keywords": [
+      "neural network",
+      "radial basis functions"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.480045"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用Extended Kalman Filter算法和神经网络方法来跟踪期权合约的价格，这直接涉及衍生品定价领域。论文明确讨论了Black-Scholes模型和径向基函数神经网络在期权定价中的应用，并通过FTSE 100指数期权数据进行了模拟。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用Extended Kalman Filter算法和神经网络方法来跟踪期权合约的价格，这直接涉及衍生品定价领域。论文明确讨论了Black-Scholes模型和径向基函数神经网络在期权定价中的应用，并通过FTSE 100指数期权数据进行了模拟。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:31.048313"
+}

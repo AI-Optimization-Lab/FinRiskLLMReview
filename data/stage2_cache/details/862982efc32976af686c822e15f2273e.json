@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1227,
+    "title": "A Hybrid GRA/MV Model for the Automatic Selection of Investment Portfolios with Minimum Risk and Maximum Return",
+    "abstract": "In the proposed approach, financial data are collected automatically and are input to a GM(1,1) prediction model to forecast the future trends of the collected data. The forecast data are then reduced using a GM(1,N) model; classified using a K-Means clustering algorithm, and processed by a Rough Set (RS) classification module which selects appropriate investment stocks. Finally, a Minimum Variance At Risk (MVAR) scheme comprising five Grey Relational Analysis (GRA) models and the Markowitz means-variance (MV) model is employed to identify the efficient, frontier which achieves the optimal tradeoff between the minimum risk and the maximum rate of return.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "04fd67692a65495c8182ee74f669d3f4",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "classification",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:00:30.507332"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用GRA/MV模型自动选择投资组合，以实现最小风险和最大回报的目标，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用GRA/MV模型自动选择投资组合，以实现最小风险和最大回报的目标，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:54.642701"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1003,
+    "title": "Machine learning for zombie hunting: predicting distress from firms' accounts and missing values",
+    "abstract": "In this contribution, we propose machine learning techniques to predict zombie firms. First, we derive the risk of failure by training and testing our algorithms on disclosed financial information and nonrandom missing values of 304,906 firms active in Italy from 2008 to 2017. We then identify the highest financial distress conditional on predictions that lie above a threshold for which a combination of the false positive rate (false prediction of firm failure) and the false negative rate (false prediction of active firms) is minimized. Therefore, we identify zombies as firms that remain in financial distress, i.e., whose forecasts fall into the risk category above the threshold for at least three consecutive years. To this end, we implement a gradient boosting algorithm (XGBoost) that exploits information about missing values. The inclusion of missing values in our prediction model is crucial because patterns of undisclosed accounts are correlated with firm failure. Finally, we show that our preferred machine learning algorithm outperforms (i) proxy models such as Z-scores and the distance-to-default, (ii) traditional econometric methods, and (iii) other widely used machine learning techniques. We provide evidence that zombies are less productive and smaller on average and that they tend to increase in times of crisis. Finally, we argue that our application can help financial institutions and public authorities design evidence-based policies-e.g., optimal bankruptcy laws and information disclosure policies.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f09ffd9d29902a656e9fa94121b71075",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "gradient boosting",
+      "XGBoost"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.975647"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习（特别是XGBoost）预测僵尸企业的财务困境，这直接涉及信用风险评估和财务健康监测，属于金融风险管理的范畴。论文还提到其应用可帮助金融机构和公共政策制定者优化破产法和信息披露政策，进一步强化了其在风险管理领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习（特别是XGBoost）预测僵尸企业的财务困境，这直接涉及信用风险评估和财务健康监测，属于金融风险管理的范畴。论文还提到其应用可帮助金融机构和公共政策制定者优化破产法和信息披露政策，进一步强化了其在风险管理领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:43.762198"
+}

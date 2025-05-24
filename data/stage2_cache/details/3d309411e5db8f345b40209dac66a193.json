@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 695,
+    "title": "A multi-level classification based ensemble and feature extractor for credit risk assessment",
+    "abstract": "With the growth of people's demand for loans, banks and other financial institutions put forward higher requirements for customer credit risk level classification, the purpose is to make better loan decisions and loan amount allocation and reduce the pre-loan risk. This article proposes a Multi-Level Classification based Ensemble and Feature Extractor (MLCEFE) that incorporates the strengths of sampling, feature extraction, and ensemble classification. MLCEFE uses SMOTE + Tomek links to solve the problem of data imbalance and then uses a deep neural network (DNN), auto-encoder (AE), and principal component analysis (PCA) to transform the original variables into higher-level abstract features for feature extraction. Finally, it combined multiple ensemble learners to improve the effect of personal credit risk multi-classification. During performance evaluation, MLCEFE has shown remarkable results in the multi-classification of personal credit risk compared with other classification methods.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "93198e979d7091af176b160840d243b8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "principal components analysis",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.400062"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a machine learning model for credit risk assessment, which is a key component of financial risk management in banking and lending institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a machine learning model for credit risk assessment, which is a key component of financial risk management in banking and lending institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:49.647235"
+}

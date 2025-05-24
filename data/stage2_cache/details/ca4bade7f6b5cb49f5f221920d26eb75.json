@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3156,
+    "title": "Database of twitter influencers in cryptocurrency (2021-2023) with sentiments",
+    "abstract": "ObjectivesWith the expansion of social networks such as Twitter, many experts share their opinions on various topics. The opinions of experts, who are also known as influencers, can be very influential. Combining these tweets and the historical prices of cryptocurrencies makes it possible to predict their price trends accurately. A Hybrid of RoBERTa deep neural network and BiGRU has been used for Sentiment Analysis (SA). Sentiments of tweets can be of great help to investors to understand the future behavior of the market and manage the stock portfolio. Unlike the tweets that are only extracted using the cryptocurrency name hashtag, the tweets of this dataset have specialized opinions and can determine the market trend.Data descriptionThe dataset created in this research concerns the opinions of more than 52 influencers (persons or companies) regarding eight cryptocurrencies. This dataset was collected through the Apify Twitter API for eight months, from February 2021 to June 2023. This dataset contains five Excel files and tweets, compound score, importance coefficient of each tweet, sentiment polarity, and historical prices of four cryptocurrencies: Bitcoin, Ethereum, Binance, and other information. These tweets cover the opinions of 52 influencers on more than 300 cryptocurrencies, although most comments are related to Bitcoin, Ethereum, and Binance. For this reason, three Excel files containing the historical prices of polarity and compound sentiment related to Bitcoin, Ethereum, and Binance cryptocurrencies have been placed separately in the dataset. The polarity of sentiment in these Excel shows the maximum number of polarities by applying the importance coefficient, which determines the dominant polarity of sentiment related to a particular day for the cryptocurrency.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5d6950250cb91311e7e03daaf18fc765",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "sentiment analysis",
+      "RoBERTa",
+      "BiGRU"
+    ],
+    "stage1_timestamp": "2025-05-15T01:14:16.176864"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用RoBERTa和BiGRU进行情感分析，以预测加密货币价格趋势，并帮助投资者理解市场行为和优化股票投资组合。这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用RoBERTa和BiGRU进行情感分析，以预测加密货币价格趋势，并帮助投资者理解市场行为和优化股票投资组合。这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:36.730784"
+}

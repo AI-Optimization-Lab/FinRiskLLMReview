@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 271,
+    "title": "Reinforcement Learning- and Option-Jointed Modeling for Cross-Market and Cross-Time Trading of Generators in Electricity and Carbon Markets",
+    "abstract": "With the development of the carbon markets (CMs) and electricity markets (EMs), discrepancies in prices between the two markets and between two time periods offer profit opportunities for generation companies (GenCos). Motivated by the carbon option and Black-Scholes (B-S) model, GenCos are given the right but not the obligation to trade carbon emission allowances (CEAs) and use instruments to hedge against price risks. To model the strategic behaviors of GenCos that capitalize on these cross-market and cross-time opportunities, a multi-market trading strategy that incorporates option-jointed daily trading and reinforcement learning-jointed weekly continuous trading are modeled. The daily trading is built with a bi-level structure, where a profit-oriented bidding model that jointly considers both the optimal CEA holding shares and the best bidding curves is developed at the upper level. At the lower level, in addition to market clearing models of the day-ahead EM and auction-based CM, a B-S model that considers carbon trading asynchronism and option pricing is constructed. Then, by expanding the daily trading, the weekly continuous trading is modeled and solved using reinforcement learning. Binary expansion and strike-to-spot price ratio are utilized to address the nonlinearity. Finally, case studies on an IEEE 30-bus system are conducted to validate the effectiveness of the proposed trading strategy. Results show that the proposed trading strategy can increase GenCo profits by influencing market prices and leveraging carbon options.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "11080aea0a2c881d0a16c3028234b56a",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.086590"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术包括使用Black-Scholes模型进行碳期权定价，这属于衍生品定价领域；同时，论文还讨论了利用期权工具对冲价格风险，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术包括使用Black-Scholes模型进行碳期权定价，这属于衍生品定价领域；同时，论文还讨论了利用期权工具对冲价格风险，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:41.110273"
+}

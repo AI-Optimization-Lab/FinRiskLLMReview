@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 245,
+    "title": "GARCH prediction using spline wavelet support vector machine",
+    "abstract": "Volatility forecasting is vital important in finance to reduce risk and take better decisions. This paper proposes a spline wavelet support vector machine (SWSVM) to forecast the volatility of financial time series based on generalized autoregressive conditional heteroscedasticity model. An admissible spline wavelet kernel is constructed by incorporating the wavelet technique and spline theory into support vector machine (SVM). Since spline wavelet function can yield features that describe the stock time series both at various locations and at varying time granularities, the SWSVM gains the cluster feature of volatility well. Compared with Gaussian kernel in the standard SVM, the applicability and validity of spline wavelet kernel in SWSVM are confirmed through computer simulations and experiments on real-world stock data.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "24953ec755f58cd60c85f0f5b6e44a56",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "support vector machine",
+      "SVM",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:48:30.771950"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on volatility forecasting, which is a critical aspect of financial risk management. The proposed spline wavelet support vector machine (SWSVM) is designed to forecast the volatility of financial time series, aiming to reduce risk and improve decision-making. This directly aligns with the objectives of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on volatility forecasting, which is a critical aspect of financial risk management. The proposed spline wavelet support vector machine (SWSVM) is designed to forecast the volatility of financial time series, aiming to reduce risk and improve decision-making. This directly aligns with the objectives of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:52.010515"
+}

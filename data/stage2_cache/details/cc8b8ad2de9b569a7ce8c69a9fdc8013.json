@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 182,
+    "title": "Mean-AVaR in credibilistic portfolio management via an artificial neural network scheme",
+    "abstract": "This paper focuses on the computation issue of portfolio optimisation with scenario-based mean-Average Value at Risk (AVaR) in credibilistic environment. The portfolio optimisation problem is designed in two cases: risk taker model and risk-averse model. The main idea is to replace the portfolio selection models with linear programming (LP) problems. Since the computing time required for solving LP greatly depends on the dimension and the structure of the problem, the conventional numerical methods are usually less effective in real-time applications. One promising approach to handle online applications is to employ recurrent neural networks based on circuit implementation. Hence, according to the convex optimisation theory and some concepts of ordinary differential equations, a neural network model for solving the LP problems related to portfolio selection problems is presented. The equilibrium point of the proposed model is proved to be equivalent to the optimal solution of the original problem. It is also shown that the proposed neural network model is stable in the sense of Lyapunov and it is globally convergent to an exact optimal solution of the portfolio selection problem with fuzzy returns. Some illustrative examples are provided to show the feasibility and the efficiency of the proposed method in this paper.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b5b2d612bacc9676ed380b7594462c35",
+    "relevant_keywords": [
+      "neural network",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.133549"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用神经网络解决投资组合优化问题，特别是在credibilistic环境下基于mean-AVaR的资产配置问题，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络解决投资组合优化问题，特别是在credibilistic环境下基于mean-AVaR的资产配置问题，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:54.323144"
+}

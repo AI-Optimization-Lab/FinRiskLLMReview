@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 28,
+    "title": "投资者情绪在投资策略中的影响",
+    "abstract": "本文探究了投资者情绪与收益波动率之间的关系，在量化投资者情绪中，采用封闭基金贴水率、IPO首日发行量、新增投资者开户数、证券投资者信心指数、上证指数换手率五个指标作为投资者情绪的代理变量，运用主成分分析法构造具体的投资者情绪指数。在衡量投资者情绪对行业指数收益波动率的影响中，我们将投资者情绪作为一个外生变量加入EGARCH模型中，定义估计出的系数为波动率敏感系数(VSC)，根据该系数将不同的行业指数进行分类来构造投资组合，期望获得超额收益率。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8d8ed27b8cefe99863e0e6350bdcd640",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-14T22:14:45.075273"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是构建投资者情绪指数，并基于此构造投资组合以期望获得超额收益率，这直接属于投资组合管理的范畴。论文中并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是构建投资者情绪指数，并基于此构造投资组合以期望获得超额收益率，这直接属于投资组合管理的范畴。论文中并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:31.981183"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1173,
+    "title": "Combining Conformal Prediction and Genetic Programming for Symbolic Interval Regression",
+    "abstract": "Symbolic regression has been one of the main learning domains for Genetic Programming. However, most work so far on using genetic programming for symbolic regression only focus on point prediction. The problem of symbolic interval regression is for each input to find a prediction interval containing the output with a given statistical confidence. This problem is important for many risk-sensitive domains (such as in medical and financial applications). In this paper, we propose the combination of conformal prediction and genetic programming for solving the problem of symbolic interval regression. We study two approaches called black-box conformal prediction genetic programming (black-box CPGP) and white-box conformal prediction genetic programming (white-box CPGP) on a number of benchmarks and previously used problems. We compare the performance of these approaches with two popular interval regressors in statistic and machine learning domains, namely, the linear quantile regression and quantile random forrest. The experimental results show that, on the two performance metrics, black-box CPGP is comparable to the linear quantile regression and not much worse than the quantile random forrest on validity and much better than them on efficiency.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1dbb764d3df33bef10ddcfba3151f881",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.255022"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究符号区间回归问题，结合了保形预测和遗传编程技术。虽然提到了金融应用的可能性，但论文的核心技术和实验并未明确针对衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究符号区间回归问题，结合了保形预测和遗传编程技术。虽然提到了金融应用的可能性，但论文的核心技术和实验并未明确针对衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:38.342416"
+}

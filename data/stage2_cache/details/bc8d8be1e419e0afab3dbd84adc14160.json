@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1572,
+    "title": "Data-driven rank ordering - a preference-based comparison study",
+    "abstract": "Data driven rank ordering refers to the rank ordering of new data items based on the ordering inherent in existing data items. This is a challenging problem, which has received increasing attention in recent years in the machine learning community. Its applications include product recommendation, information retrieval, financial portfolio construction, and robotics. It is common to construct ordering functions based on binary pairwise preferences. The level of dominance within pairs has been modelled in approaches based on statistical models, where strong assumptions about the distributions of the data are present. For learning pairwise preferences from the data we introduce a distribution-independent framework incorporating the level of dominance. We compare our approach with learning to rank order based on binary pairwise preferences through experiments using large margin classifiers.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f2707c85302fb8b90ab198b92bafcb9a",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:12.689796"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到了金融投资组合构建（financial portfolio construction）作为数据驱动排序的应用之一，表明该技术可以应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到了金融投资组合构建（financial portfolio construction）作为数据驱动排序的应用之一，表明该技术可以应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:09.169600"
+}

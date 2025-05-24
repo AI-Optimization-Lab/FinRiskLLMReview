@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3932,
+    "title": "Evolving Possibilistic Fuzzy Modeling for Realized Volatility Forecasting With Jumps",
+    "abstract": "Equity asset volatility modeling and forecasting provide key information for risk management, portfolio construction, financial decision making, and derivative pricing. Realized volatility models outperform autoregressive conditional heteroskedasticity and stochastic volatility models in out-of-sample forecasting. Gain in forecasting performance is achieved when models comprise volatility jump components. This paper suggests evolving possibilistic fuzzy modeling to forecast realized volatility with jumps. The modeling approach is based on an extension of the possibilistic fuzzy c-means clustering and on functional fuzzy rule-based models. It employs memberships and typicalities to recursively update cluster centers. The evolving nature of the model allows adding or removing clusters using statistical distance-like criteria to update the model as dictated by input data. The possibilistic model improves robustness to noisy data and outliers, an essential requirement in financial markets volatility modeling and forecasting. Computational experiments and statistical analysis are done using value-at-risk estimates to evaluate and compare the performance of the evolving possibilistic fuzzy modeling with the heterogeneous autoregressive model, neural networks and current state-of-the-art evolving fuzzy models. The experiments use actual data from S&P 500 and Nasdaq (U.S.), FTSE (U.K.), DAX (Germany), IBEX (Spain), and Ibovespa (Brazil), major equity market indexes in global markets. The results show that the evolving possibilistic fuzzy model is highly efficient to model realized volatility with jumps in terms of forecasting accuracy.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2a88ebb966047dd9b2ba96be4545ef3a",
+    "relevant_keywords": [
+      "clustering",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:31:28.380156"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用演化可能性模糊建模来预测已实现波动率（包括跳跃成分），并特别提到了其在风险价值（VaR）估计中的应用。这直接关联到金融风险管理领域，因为波动率预测是风险管理的关键组成部分。虽然论文也提到了衍生品定价和投资组合管理，但这些并不是主要的研究应用方向。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用演化可能性模糊建模来预测已实现波动率（包括跳跃成分），并特别提到了其在风险价值（VaR）估计中的应用。这直接关联到金融风险管理领域，因为波动率预测是风险管理的关键组成部分。虽然论文也提到了衍生品定价和投资组合管理，但这些并不是主要的研究应用方向。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:44.507236"
+}

@@ -1,0 +1,39 @@
+{
+  "paper": {
+    "id": 5782,
+    "title": "DLIFT: A deep-learning-based intelligent fund transaction system for financial Internet of Things",
+    "abstract": "Analyzing the correlation between two funds can help investors control investment risks and optimize investment portfolios, which has a strong guiding significance for fund investment in reality. Constructing an intelligent investment system with fund correlation analysis capabilities can help investors automatically make profits from financial markets. In previous research, many researchers have built intelligent investment systems using Bayesian networks, support vector machines (SVM), and LSTM models. However, the strong historical dependence between fund data and the high-dimensional and high-noise characteristics of fund data prevent traditional methods from obtaining excellent performance in fund analysis. This paper designs a deep learning-based fund intelligent trading system-DLIFT which has functions such as investment push, income prediction, and risk control. The systems data analysis module is implemented using the Improved RNN model. This model employed encoder-decoder architecture. The encoder is responsible for analyzing the fund's feature, and the decoder is responsible for analyzing the dependency relationship between the historical correlation and the current correlation. LSTM and an attention mechanism are simultaneously applied to the encoder and decoder, which enabled the discovery of the implicit dependence of time series data. This article places the designed system on a historical dataset containing multiple public funds for verification. In specific experiments, the experimental results of the comparative experiments show the superiority of our model. At the same time, the results of the ablation experiment results show that LSTM and attention mechanism play critical role in the proposed system.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "50f18c4eb4428281c602727b437b6de2",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "sequence-to-sequence learning",
+      "seq2seq",
+      "encoder-decoder",
+      "attention mechanism",
+      "support vector machine",
+      "SVM",
+      "feature learning",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:51:30.026343"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文设计了一个基于深度学习的基金智能交易系统，具有投资推送、收益预测和风险控制等功能。这些功能直接关联到投资组合的优化和风险管理，特别是通过分析基金之间的相关性来帮助投资者控制风险和优化投资组合。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文设计了一个基于深度学习的基金智能交易系统，具有投资推送、收益预测和风险控制等功能。这些功能直接关联到投资组合的优化和风险管理，特别是通过分析基金之间的相关性来帮助投资者控制风险和优化投资组合。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:36.920177"
+}

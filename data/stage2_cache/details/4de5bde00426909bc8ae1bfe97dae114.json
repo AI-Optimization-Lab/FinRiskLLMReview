@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 132,
+    "title": "Extensive networks would eliminate the demand for pricing formulas",
+    "abstract": "In this study, we generate a large number of implied volatilities for the Stochastic Alpha Beta Rho (SABR) model using a graphics processing unit (GPU) based simulation and enable an extensive neural network to learn the volatilities. This model does not have any exact pricing formulas for vanilla options, and neural networks have an outstanding ability to approximate various functions. Surprisingly, the network reduces the simulation noise by itself, thereby achieving accuracy equal to large-scale Monte-Carlo simulation. Extremely high accuracy cannot be attained via existing approximate formulas. Moreover, the network is as efficient as the approaches based on the formulas. When evaluating accuracy and efficiency, extensive networks can eliminate the necessity of pricing formulas for the SABR model. Another significant contribution is that a novel method is proposed to examine the errors based on nonlinear regression. This approach is easily extendable to other pricing models for which it is hard to deduce analytic formulas. (c) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "8225547018219da0a34cf6ef3cd2ec3f",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.366469"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用神经网络来学习SABR模型中的隐含波动率，并替代传统的定价公式，这直接应用于衍生品定价领域。论文明确提到目标是消除对定价公式的需求，并验证了网络在定价中的准确性和效率。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用神经网络来学习SABR模型中的隐含波动率，并替代传统的定价公式，这直接应用于衍生品定价领域。论文明确提到目标是消除对定价公式的需求，并验证了网络在定价中的准确性和效率。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:30.617046"
+}

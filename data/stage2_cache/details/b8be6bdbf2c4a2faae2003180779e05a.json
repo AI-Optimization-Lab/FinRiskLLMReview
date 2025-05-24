@@ -1,0 +1,38 @@
+{
+  "paper": {
+    "id": 268,
+    "title": "MSPM: A modularized and scalable multi-agent reinforcement learning-based system for financial portfolio management",
+    "abstract": "Financial portfolio management (PM) is one of the most applicable problems in reinforcement learning (RL) owing to its sequential decision-making nature. However, existing RL-based approaches rarely focus on scalability or reusability to adapt to the ever-changing markets. These approaches are rigid and unscalable to accommodate the varying number of assets of portfolios and increasing need for heterogeneous data input. Also, RL agents in the existing systems are ad-hoc trained and hardly reusable for different portfolios. To confront the above problems, a modular design is desired for the systems to be compatible with reusable asset-dedicated agents. In this paper, we propose a multi-agent RL-based system for PM (MSPM). MSPM involves two types of asynchronously-updated modules: Evolving Agent Module (EAM) and Strategic Agent Module (SAM). An EAM is an information-generating module with a Deep Q-network (DQN) agent, and it receives heterogeneous data and generates signal-comprised information for a particular asset. An SAM is a decision-making module with a Proximal Policy Optimization (PPO) agent for portfolio optimization, and it connects to multiple EAMs to reallocate the corresponding assets in a financial portfolio. Once been trained, EAMs can be connected to any SAM at will, like assembling LEGO blocks. With its modularized architecture, the multi-step condensation of volatile market information, and the reusable design of EAM, MSPM simultaneously addresses the two challenges in RL-based PM: scalability and reusability. Experiments on 8-year U.S. stock market data prove the effectiveness of MSPM in profit accumulation by its outperformance over five different baselines in terms of accumulated rate of return (ARR), daily rate of return (DRR), and Sortino ratio (SR). MSPM improves ARR by at least 186.5% compared to constant rebalanced portfolio (CRP), a widely-used PM strategy. To validate the indispensability of EAM, we back-test and compare MSPMs on four different portfolios. EAM-enabled MSPMs improve ARR by at least 1341.8% compared to EAM-disabled MSPMs.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "886e7541c7d46f8b4e6ab8730aca1361",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer",
+      "rectified linear unit",
+      "ReLU",
+      "sigmoid",
+      "tanh",
+      "deep belief network",
+      "DBM",
+      "restricted Boltzmann machine",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.781100"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于多智能体强化学习的系统，专门设计用于金融投资组合管理（Portfolio Management），旨在解决投资组合的可扩展性和可重用性问题。论文明确提到其目标是优化投资组合的资产配置，并通过实验验证了其在股票市场数据上的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于多智能体强化学习的系统，专门设计用于金融投资组合管理（Portfolio Management），旨在解决投资组合的可扩展性和可重用性问题。论文明确提到其目标是优化投资组合的资产配置，并通过实验验证了其在股票市场数据上的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:15.215711"
+}

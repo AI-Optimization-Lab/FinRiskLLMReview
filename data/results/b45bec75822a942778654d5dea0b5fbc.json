@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "deep learning",
+    "neural network",
+    "representation learning"
+  ],
+  "explanations": {
+    "machine learning": "The paper proposes a deep learning approach (TADEL) for readmission prediction, which is a machine learning technique.",
+    "supervised learning": "The approach involves predicting readmission risk, which is a supervised learning task as it uses labeled data (patients with known readmission outcomes).",
+    "classification": "The task of predicting whether a patient will be readmitted is a binary classification problem.",
+    "deep learning": "The paper explicitly mentions using a deep learning approach (TADEL) for the prediction task.",
+    "neural network": "Deep learning models are based on neural networks, and the paper's approach likely involves neural networks given the mention of deep learning.",
+    "representation learning": "The paper discusses capturing dynamic medical history, which involves learning representations from patient data, a key aspect of representation learning."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"deep learning\",\n    \"neural network\",\n    \"representation learning\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper proposes a deep learning approach (TADEL) for readmission prediction, which is a machine learning technique.\",\n    \"supervised learning\": \"The approach involves predicting readmission risk, which is a supervised learning task as it uses labeled data (patients with known readmission outcomes).\",\n    \"classification\": \"The task of predicting whether a patient will be readmitted is a binary classification problem.\",\n    \"deep learning\": \"The paper explicitly mentions using a deep learning approach (TADEL) for the prediction task.\",\n    \"neural network\": \"Deep learning models are based on neural networks, and the paper's approach likely involves neural networks given the mention of deep learning.\",\n    \"representation learning\": \"The paper discusses capturing dynamic medical history, which involves learning representations from patient data, a key aspect of representation learning.\"\n  }\n}\n```"
+}

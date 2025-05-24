@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 716,
+    "title": "An Evidential Reasoning Rule-Based Ensemble Learning Approach for Evaluating Credit Risks with Customer Heterogeneity",
+    "abstract": "Credit risk evaluation has been vital for financial institutions to identify default customers and to avoid financial loss. Machine learning and data mining techniques have been adopted to develop scoring models for enhancing the prediction performance of default customers. However, it is difficult for these machine learning models for explaining the rejection or approval decision-making process to customers and other non-technical personnel. This paper presents an evidence reasoning (ER) rule-based ensemble learning approach for credit risk evaluation considering customer heterogeneity. Firstly, customers are segmented into different groups by k-means clustering algorithms and a two-stage weighting method is proposed to determine the significances of attributes by their discriminating powers between groups and within groups. Then, the attribute-related evidence is obtained by Bayesian statistics to represent the relationships between the attributes and credit risks, and a two-stage weighting evidential reasoning (TER) is developed as a base learner for credit scoring. Lastly, multiple base learners TERs are aggregated for evaluating customers' credit risks. An empirical study on three credit datasets demonstrated that the proposed approach can achieve high performance with good explainability. The predicted results of the model can be well comprehended by providing the contribution of attributes and the activated rules in evidential reasoning processes.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "eae6e5bb62f72678f0755c71e17e823b",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "classification",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:33.984006"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit risk evaluation, which is a key aspect of financial risk management. It proposes a machine learning approach to predict default customers, aiming to mitigate financial losses for institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit risk evaluation, which is a key aspect of financial risk management. It proposes a machine learning approach to predict default customers, aiming to mitigate financial losses for institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:28.321402"
+}

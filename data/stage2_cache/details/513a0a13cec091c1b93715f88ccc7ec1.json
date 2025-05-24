@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1420,
+    "title": "Neural networks for extracting implied risk-neutral probability density surface of stock index options",
+    "abstract": "How to extract the implied risk-neutral probability density surface from market prices of stock index options is an important research topic. However, not only the observable option prices are discrete, insufficient, and noisy, but also the implied probability distribution is nonstationary. Therefore, extracting an implied probability distribution accurately from option prices is not an easy task. To overcome the difficulties coming from market reality, a multilayer feedforward neural network is applied. Based on a theory derived by Breeden and Litzenberger, the risk-neutral probability density surface implicit in option prices is then extracted. Market prices of S&P 500 Index options, SPX, are used to investigate performances of the proposed method. Empirical tests show that the extracted risk-neutral probability density surface is consistent with market data accurately and predicts future option price structure precisely. Thus, the proposed neural network technique is suitable for a variety of financial applications.",
+    "year": 2005,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c8922036f424120b1add8c09e8a99464",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.615602"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用神经网络从股票指数期权市场价格中提取隐含的风险中性概率密度表面，这直接关系到衍生品（期权）的定价问题。论文明确提到该方法用于预测未来期权价格结构，属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用神经网络从股票指数期权市场价格中提取隐含的风险中性概率密度表面，这直接关系到衍生品（期权）的定价问题。论文明确提到该方法用于预测未来期权价格结构，属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:04.347526"
+}

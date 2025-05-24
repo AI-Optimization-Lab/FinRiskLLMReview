@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 593,
+    "title": "MRRFGNN: Multi-relation reconstruction and fusion graph neural network for stock crash prediction",
+    "abstract": "Stock crash risk often propagates through various interconnected relationships between firms, amplifying its impact across financial markets. Few studies predicted the crash risk of one firm in terms of its relevant firms. A common strategy is to adopt graph neural networks (GNNs) with some predefined firm relations. However, many relations remain undetected or evolve over time. Restricting to several predefined relations inevitably makes noise and thus misleads stock crash predictions. In addition, these relationships are not independent during the process of propagating information and interacting with each other. This study proposes the multi-relation reconstruction and fusion graph neural network (MRRFGNN) to predict stock crash risk by capturing complex relations among listed companies. First, the model employs self-supervised learning and contrastive learning to reconstruct and infer implicit relationships between companies. Second, the model incorporates a relation self-attention mechanism to integrate various types of relationships, enabling a more nuanced understanding of the multiple spillover effects. Empirical evidence from a series of experiments demonstrates the superiority of the proposed method, which achieves the best performance with improvements of at least 2.14% in area under the curve (AUC) and 2.64% in Matthews correlation coefficient (MCC), highlighting its potential for practical application in financial markets.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "62d0b0164243d5cfdb512e070f9b5e6b",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.497565"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用图神经网络预测股票崩盘风险，这属于金融风险管理中的市场风险预测范畴。论文明确提到其目标是预测股票崩盘风险，并通过实验验证了模型在金融市场的实际应用潜力。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用图神经网络预测股票崩盘风险，这属于金融风险管理中的市场风险预测范畴。论文明确提到其目标是预测股票崩盘风险，并通过实验验证了模型在金融市场的实际应用潜力。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:39.557761"
+}

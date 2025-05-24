@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 5325,
+    "title": "Understanding the Prediction Process of Deep Networks by Forests",
+    "abstract": "Deep networks have continually outperformed conventional methods on a variety of tasks. However, the unexplainable aspect of deep networks limits its application in the high impact yet high risk tasks, e.g., financial credit scenario, medical diagnosis, terrorism detection and so on. Most existing interpretable approaches focus on heuristic visualization without a clear meaning. To tackle this issue, we propose a general framework to track the prediction making process (or the rules) from the input to the latent representations of deep networks. Given a deep model, the proposed method chooses a group of hidden units by considering both importance and diversity. Each selected unit is then fit by a random forest model to imitate the local structure of the overall model. For a specific input data, all paths from input to the selected units are merged in an intersection and union way to generate the final rules. We experimentally demonstrate that the proposed method can extract rules in various scenarios, ranging from age prediction, scene classification to activity classification, to interpret the prediction process. We further analyze the validity of the rules and visualize the layer-wise rules.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2ae6bdc3360098881299352ab6396ceb",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "hidden layer",
+      "representation learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:46:44.871355"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究深度网络预测过程的可解释性方法，虽然提到了金融信用场景作为高风险任务的例子，但核心技术是通用的规则提取框架，并未具体应用于衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究深度网络预测过程的可解释性方法，虽然提到了金融信用场景作为高风险任务的例子，但核心技术是通用的规则提取框架，并未具体应用于衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:33.094816"
+}

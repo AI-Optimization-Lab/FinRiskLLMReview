@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 37,
+    "title": "基于LSTM神经网络的行业资产配置模型",
+    "abstract": "近年来我国金融市场的迅猛发展,为投资者提供便利的同时也带来了挑战,如何有效地进行资产配置是投资者需要解决的难题之一.Black-Litterman模型不仅解决了传统均值方差模型对参数敏感的问题,而且允许投资者在模型中加入投资观点,是备受关注的资产配置模型.然而,投资者可能会因为自身经验不足而无法给出合适的投资观点,无法发挥模型的应用价值.本文采用基于长短期记忆(LSTM)神经网络表达量化观点的方式为投资者提供了一种解决方案.作为数值算例,本文以申万一级行业指数作为资产池构建投资组合,算例结果表明,与其他参照模型的表现相比,本文构建的资产配置模型有更高的夏普比率和年化收益率.",
+    "year": 2021,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "60b46f27bb0fad7770ae2695e54c22af",
+    "relevant_keywords": [
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T15:02:38.098738"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM神经网络改进Black-Litterman模型，用于行业资产配置，这直接属于投资组合管理的范畴。论文明确提到构建投资组合并评估其表现，如夏普比率和年化收益率，这些都是投资组合管理的关键指标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM神经网络改进Black-Litterman模型，用于行业资产配置，这直接属于投资组合管理的范畴。论文明确提到构建投资组合并评估其表现，如夏普比率和年化收益率，这些都是投资组合管理的关键指标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:45:11.453650"
+}

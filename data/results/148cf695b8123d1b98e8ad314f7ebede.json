@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "deep learning",
+    "classification",
+    "regression",
+    "neural network",
+    "convolutional neural network",
+    "CNN",
+    "long short-term memory",
+    "LSTM"
+  ],
+  "explanations": {
+    "machine learning": "The paper uses machine learning techniques to predict P2P trading volume, specifically employing deep learning models.",
+    "deep learning": "The paper utilizes deep learning models such as TextCNN and LSTM for sentiment classification and trading volume prediction.",
+    "classification": "The TextCNN model is used to classify the sentiment of investor comments, which is a classification task.",
+    "regression": "The paper involves predicting the trading volume, which is a regression task, and mentions improvements in regression metrics like Pearson coefficient and R-squared value.",
+    "neural network": "The models used (TextCNN and LSTM) are types of neural networks.",
+    "convolutional neural network": "The TextCNN model, used for sentiment classification, is a type of convolutional neural network.",
+    "CNN": "Abbreviation for convolutional neural network, used in the paper as TextCNN for sentiment classification.",
+    "long short-term memory": "The paper proposes a model that uses LSTM to predict P2P trading volume based on time series data.",
+    "LSTM": "Abbreviation for long short-term memory, used in the proposed model for trading volume prediction."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"deep learning\",\n    \"classification\",\n    \"regression\",\n    \"neural network\",\n    \"convolutional neural network\",\n    \"CNN\",\n    \"long short-term memory\",\n    \"LSTM\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper uses machine learning techniques to predict P2P trading volume, specifically employing deep learning models.\",\n    \"deep learning\": \"The paper utilizes deep learning models such as TextCNN and LSTM for sentiment classification and trading volume prediction.\",\n    \"classification\": \"The TextCNN model is used to classify the sentiment of investor comments, which is a classification task.\",\n    \"regression\": \"The paper involves predicting the trading volume, which is a regression task, and mentions improvements in regression metrics like Pearson coefficient and R-squared value.\",\n    \"neural network\": \"The models used (TextCNN and LSTM) are types of neural networks.\",\n    \"convolutional neural network\": \"The TextCNN model, used for sentiment classification, is a type of convolutional neural network.\",\n    \"CNN\": \"Abbreviation for convolutional neural network, used in the paper as TextCNN for sentiment classification.\",\n    \"long short-term memory\": \"The paper proposes a model that uses LSTM to predict P2P trading volume based on time series data.\",\n    \"LSTM\": \"Abbreviation for long short-term memory, used in the proposed model for trading volume prediction.\"\n  }\n}\n```"
+}

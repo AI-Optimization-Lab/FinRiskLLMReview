@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 353,
+    "title": "Portfolio Optimization-Based Stock Prediction Using Long-Short Term Memory Network in Quantitative Trading",
+    "abstract": "In quantitative trading, stock prediction plays an important role in developing an effective trading strategy to achieve a substantial return. Prediction outcomes also are the prerequisites for active portfolio construction and optimization. However, the stock prediction is a challenging task because of the diversified factors involved such as uncertainty and instability. Most of the previous research focuses on analyzing financial historical data based on statistical techniques, which is known as a type of time series analysis with limited achievements. Recently, deep learning techniques, specifically recurrent neural network (RNN), has been designed to work with sequence prediction. In this paper, a long short-term memory (LSTM) network, which is a special kind of RNN, is proposed to predict stock movement based on historical data. In order to construct an efficient portfolio, multiple portfolio optimization techniques, including equal-weighted modeling (EQ), simulation modeling Monte Carlo simulation (MCS), and optimization modeling mean variant optimization (MVO), are used to improve the portfolio performance. The results showed that our proposed LSTM prediction model works efficiently by obtaining high accuracy from stock prediction. The constructed portfolios based on the LSTM prediction model outperformed other constructed portfolios-based prediction models such as linear regression and support vector machine. In addition, optimization techniques showed a significant improvement in the return and Sharpe ratio of the constructed portfolios. Furthermore, our constructed portfolios beat the benchmark Standard and Poor 500 (S&P 500) index in both active returns and Sharpe ratios.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3a56496f0bd62a1ba1474adec68a8178",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "support vector machine",
+      "SVM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.469565"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM网络进行股票预测，并结合多种投资组合优化技术（如EQ、MCS和MVO）来构建和优化投资组合。研究的主要目标是提高投资组合的回报和夏普比率，这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"该论文的核心技术是使用LSTM网络进行股票预测，并结合多种投资组合优化技术（如EQ、MCS和MVO）来构建和优化投资组合。研究的主要目标是提高投资组合的回报和夏普比率，这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:38.759200"
+}

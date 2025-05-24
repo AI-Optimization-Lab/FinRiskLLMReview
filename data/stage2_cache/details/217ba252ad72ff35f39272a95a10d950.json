@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 623,
+    "title": "Markowitz random forest: Weighting classification and regression trees with modern portfolio theory",
+    "abstract": "Tree-based ensembles such as random forest (RF) are essential methods for supervised learning. Whereas traditional RFs assign equal weights to their trees, significant evidence suggests that tree weighting schemes can enhance predictive performance. Previous works have focused solely on the predictive performance of individual trees, assigning greater weights to high-performing trees. However, the predictive power of RF arises not only from high performing trees but also from tree variety, a factor that has not been considered before. In this paper we propose Markowitz RF, a tree weighting method that considers both tree performance and variety, using a tree covariance matrix for risk regularization. Our method is formulated as an adapted optimization process inspired by financial mathematics. It can be applied to binary and multi-class classification, as well as regression tasks. Our experiments on 15 benchmark datasets indicate that MRF can significantly outperform previously proposed tree weighting approaches and other learning methods in terms of Precision-Recall AUC, mean absolute error and F1_macro.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cd550f8bf11e3fe29c0ec9cdc3899483",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.764868"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出的Markowitz RF方法受到金融数学中现代投资组合理论的启发，使用树协方差矩阵进行风险正则化，这与投资组合管理中的风险分散和优化密切相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出的Markowitz RF方法受到金融数学中现代投资组合理论的启发，使用树协方差矩阵进行风险正则化，这与投资组合管理中的风险分散和优化密切相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:17.815312"
+}

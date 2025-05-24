@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 118,
+    "title": "基于机器学习预测股票收益率的两步骤M-SV投资组合优化",
+    "abstract": "由于准确预测股票收益序列能够提高投资组合优化模型的表现，相比于传统的计量经济预测模型，机器学习在处理非线性和非平稳特征的问题上更具优势。因此，本文提出了一种基于机器学习方法的两步骤多元化投资组合优化模型。具体而言，该模型包括以下两个步骤：步骤1是股票选择，即通过机器学习方法极端梯度提升法（extreme gradient boosting,XGBoost）、支持向量回归（support vector regression,SVR）、K近邻算法（K-nearest neighbor,KNN）选择具有较高预测收益率的股票，并对模型进行评估和选择。步骤2是投资组合优化，在考虑交易成本、上下界约束的现实约束条件下，采用均值-下半方差（mean semi-variance, M-SV）模型、均值-方差模型和等比例模型确定所选股票的投资比例。最后，以沪深300指数成分股作为研究样本，实证结果表明，XGBoost+M-SV模型在收益和风险指标上均优于其他模型和沪深300指数。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8101b27f1d80dfe85c838b96bf5982de",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-14T22:15:33.512463"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法预测股票收益率，并基于此进行投资组合优化，包括股票选择和投资比例确定，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法预测股票收益率，并基于此进行投资组合优化，包括股票选择和投资比例确定，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:44.701306"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1973,
+    "title": "Data driven cost-sensitive boosted tree for interpretable banking systemic risk prediction☆",
+    "abstract": "Systemic risk (SR) in the banking sector poses a significant threat to both the financial system and the real economy. Its inherent characteristics of nonlinearity, non-equilibrium, and interconnectedness make it challenging to analyze using conventional statistical methods. In this paper, a cost-sensitive gradient boosting tree algorithm, FLXGBoost, is proposed for predicting SR. FLXGBoost considers the boosted tree, XGBoost as the base framework, boosting trees as the fundamental framework, guaranteeing the robustness of SR prediction. Additionally, to tackle the challenge of extreme data imbalance prevalent in SR prediction tasks, a cost-aware loss function, focal loss, is embedded into the boosted tree to enable FLXGBoost a risk-aware fashion. Moreover, a tree-derived interpretable algorithm SHAP is incorporated into this cost-sensitive solution, making FLXGBoost an accurate and interpretable risk-aware model. Experimental results on a financial risk prediction dataset pertaining to banking SR evince the capacity of FLXGBoost to significantly reduce the misclassification rate of risk banks, thereby mitigating substantial losses attributed to erroneous predictions of risky scenarios. Moreover, compared with classical imbalanced machine learning-based SR prediction approaches, the diverse evaluation metrics of FLXGBoost show that it is a competitive solution for accurate SR prediction. Besides, the explanatory analysis further demonstrates that FLXGBoost is a promising solution to address the issue of biased predictions in imbalanced banking SR in the interpretation perspective.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "97894ebe7cebf5f943b643e955ac29ca",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:48.294309"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting systemic risk in the banking sector using a cost-sensitive gradient boosting tree algorithm, which is directly related to financial risk management. The study aims to mitigate losses from erroneous predictions of risky scenarios, a core concern in risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting systemic risk in the banking sector using a cost-sensitive gradient boosting tree algorithm, which is directly related to financial risk management. The study aims to mitigate losses from erroneous predictions of risky scenarios, a core concern in risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:09.133984"
+}

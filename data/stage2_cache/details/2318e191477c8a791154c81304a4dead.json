@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 654,
+    "title": "Feature selection for financial credit-risk evaluation decisions",
+    "abstract": "Credit-risk evaluation decisions are important for the financial institutions involved due to the high level of risk associates with wrong decisions. Various machine learning methods have been shown to perform reasonably well for this complex and unstructured problem. However, selecting a good set of features to be used in any learning system is a hard problem. We survey recent developments in feature selection and propose a new methodology based on the Blurring measure. The proposed feature selection method (FSB) is used to preprocess input data for induced decision trees. Three financial credit-risk evaluation data sets are used to illustrate the performance of the proposed method. In addition to FSB, results from randomly selected features, features selected using the Patrick-Fisher probabilistic distance, measure, as well as no feature selection are provided for comparison purposes. Given the characteristics of the financial credit-risk evaluation domain, any improvement in classification performance is deemed beneficial. Preliminary results indicate that far comparable tree size, classification performance of FSB on classifying heretofore unseen examples is good compared to the other three methods evaluated in this study.",
+    "year": 1999,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4b6d7a7fba32453b16b35e7c38f80aba",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.968457"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究信用风险评估中的特征选择方法，信用风险评估是金融风险管理的重要组成部分。论文明确提到使用机器学习方法处理信用风险问题，并使用了三个金融信用风险评估数据集进行实验。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文主要研究信用风险评估中的特征选择方法，信用风险评估是金融风险管理的重要组成部分。论文明确提到使用机器学习方法处理信用风险问题，并使用了三个金融信用风险评估数据集进行实验。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:13.905857"
+}

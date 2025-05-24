@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1614,
+    "title": "Deep hedging of long-term financial derivatives",
+    "abstract": "This study presents a deep reinforcement learning approach for global hedging of long-term financial derivatives. A similar setup as in Coleman et al. (2007) is considered with the risk management of lookback options embedded in guarantees of variable annuities with ratchet features. The deep hedging algorithm of Buehler et al. (2019a) is applied to optimize neural networks representing global hedging policies with both quadratic and non-quadratic penalties. To the best of the author's knowledge, this is the first paper that presents an extensive benchmarking of global policies for long-term contingent claims with the use of various hedging instruments (e.g. underlying and standard options) and with the presence of jump risk for equity. Monte Carlo experiments demonstrate the vast superiority of non-quadratic global hedging as it results simultaneously in downside risk metrics two to three times smaller than best benchmarks and in significant hedging gains. Analyses show that the neural networks are able to effectively adapt their hedging decisions to different penalties and stylized facts of risky asset dynamics only by experiencing simulations of the financial market exhibiting these features. Numerical results also indicate that non-quadratic global policies are significantly more geared towards being long equity risk which entails earning the equity risk premium. (C) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8972590cc9bd16fbd653c78d5bc3593f",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:42.471144"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用深度强化学习进行长期金融衍生品的全局对冲，特别是针对具有特定特征的变额年金中的回望期权。这直接涉及衍生品定价和金融风险管理领域，因为论文的核心是优化对冲策略以管理衍生品相关的风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用深度强化学习进行长期金融衍生品的全局对冲，特别是针对具有特定特征的变额年金中的回望期权。这直接涉及衍生品定价和金融风险管理领域，因为论文的核心是优化对冲策略以管理衍生品相关的风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:36.597905"
+}

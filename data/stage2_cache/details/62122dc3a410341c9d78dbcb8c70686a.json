@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3247,
+    "title": "Estimating ensemble weights for bagging regressors based on the mean-variance portfolio framework",
+    "abstract": "This paper presents a novel ensemble learning framework inspired by modern portfolio optimization to address regression problems. This formulation in the ensemble learning field allows determining the ensemble's weights considering the error predictions of the base learners, the variability in their predictions, and the covariance among their predictions' errors, which is completely aligned with the bias-variance-covariance theory. Under the framework proposed, four potential instantiations have also been provided. The first two ensemble models impose the non-negativity constraints on the ensemble's weights (along with the equality constraint that the ensemble's weights sum up to one) and are solved with the active set algorithm. The second two ensemble models do not include the non-negativity constraints on the ensemble's weights (which in the financial literature are called the non-shorting constraints), giving rise to a convex quadratic programming (QP) problem (as the matrix included in the quadratic term is symmetric and positive definite) that is solved by the Lagrangian procedure. Extensive experiments with regression datasets evaluate the proposed ensemble framework. Comparisons with other state-of-the-art ensemble methods confirm that the ensemble framework yields the best overall performance.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "df7407f22ebc11a206a3911b92702fd5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:15:26.047226"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是受现代投资组合优化启发的集成学习框架，其权重确定方法考虑了预测误差、预测变异性及预测误差之间的协方差，这与投资组合管理中的均值-方差框架直接相关。论文还明确提到了金融文献中的非卖空约束（non-shorting constraints），进一步证实了其与投资组合管理的联系。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是受现代投资组合优化启发的集成学习框架，其权重确定方法考虑了预测误差、预测变异性及预测误差之间的协方差，这与投资组合管理中的均值-方差框架直接相关。论文还明确提到了金融文献中的非卖空约束（non-shorting constraints），进一步证实了其与投资组合管理的联系。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:31.459016"
+}

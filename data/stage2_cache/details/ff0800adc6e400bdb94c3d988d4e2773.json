@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 215,
+    "title": "Knowledge distillation for portfolio management using multi-agent reinforcement learning",
+    "abstract": "Many studies have employed reinforcement learning (RL) techniques to successfully create portfolio strategies in recent years. However, since financial markets are extremely noisy, past research has found it challenging to train a stable RL agent using historical data. In this work, we first apply a role-aware multi-agent system to model volatile security markets. Three major roles that are used in our system are presented, and while maximizing their own targets in the Taiwan stock exchange (TWSE) historical data, they also observe trading behavior and compete with other agents. To build a trading strategy, we construct a student-teacher framework in which multi-agent targeting distills the market information and a student RL model is taught using the distilled target. The results show that our method is capable of developing profitable strategies in a quickly changing financial market. In addition, our market distilling technique has the potential to develop a flexible asset allocation strategy by using different student networks.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5c12f0d261146830e43ceb3a100eedd1",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.178023"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用多智能体强化学习和知识蒸馏来构建投资组合策略，并应用于台湾股票交易所的历史数据，这直接属于投资组合管理的范畴。论文中未提及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用多智能体强化学习和知识蒸馏来构建投资组合策略，并应用于台湾股票交易所的历史数据，这直接属于投资组合管理的范畴。论文中未提及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:46.649094"
+}

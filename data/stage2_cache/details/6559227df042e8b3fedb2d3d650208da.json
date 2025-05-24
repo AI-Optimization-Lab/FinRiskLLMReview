@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 428,
+    "title": "Amaretto: An Active Learning Framework for Money Laundering Detection",
+    "abstract": "Monitoring financial transactions is a critical Anti-Money Laundering (AML) obligation for financial institutions. In recent years, machine learning-based transaction monitoring systems have successfully complemented traditional rule-based systems to reduce the high number of false positives and the effort needed to review all the alerts manually. Unfortunately, machine learning-based solutions also have disadvantages: while unsupervised models can detect novel anomalous patterns, they are usually characterized by a high number of false alarms; supervised models, instead, usually offers a higher detection rate but require a large amount of labeled data to achieve such performance. In this paper, we present Amaretto, an active learning framework for money laundering detection that combines unsupervised and supervised learning techniques to support the transaction monitoring processes by improving the detection performance and reducing the compliance management costs. Amaretto exploits novel selection strategies to target a subset of transactions for investigation, making more efficient use of the feedback provided by the analyst. We perform the experimental evaluation on a synthetic dataset provided by the industrial partner, which simulates the profiles of clients trading in international capital markets. We show that Amaretto outperforms state-of-the-art solutions by reducing money laundering risk and improving detection performance. In particular, we compare state-of-the-art unsupervised and supervised techniques commonly used in the AML domain with the ones implemented in this work. We show that the Isolation and Random Forests of Amaretto perform best in the task under analysis, with an AUROC of 0.9 for the first (20% better on average) and a detection rate of 0.793 for the second (30 % better on average). In addition, they are characterized by lower investigation costs computed in terms of the daily number of transactions to be examined and the number of false positives and false negatives. Finally, we compare Amaretto against a state-of-the-art active learning fraud detection system, achieving better detection performances and lower costs in all the analyzed scenarios. Worth mentioning, Amaretto improves the detection rate up to 50 % and reduces the overall cost by 20% in the most realistic scenario under analysis.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f2b5533010b341c44dd0785453c6ea27",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "active learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.621300"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个用于反洗钱（AML）的主动学习框架，旨在通过机器学习技术提高检测性能并降低合规管理成本。反洗钱是金融风险管理的重要组成部分，因为它涉及识别和减轻非法金融活动带来的风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一个用于反洗钱（AML）的主动学习框架，旨在通过机器学习技术提高检测性能并降低合规管理成本。反洗钱是金融风险管理的重要组成部分，因为它涉及识别和减轻非法金融活动带来的风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:04.189766"
+}

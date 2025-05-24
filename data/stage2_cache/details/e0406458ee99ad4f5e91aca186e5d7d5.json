@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 28,
+    "title": "Financial hedging in energy market by cross-learning machines",
+    "abstract": "The recent price volatility in the energy market highlights the importance of financial hedging and the need of its incorporation into an investor's set of portfolio strategies. Realizing the rapid advancement of artificial intelligence, our study empirically examines the use of machine learning models for hedging price risk associated with the holding of energy-based financial product. From a technical perspective, kernel regression and support vector machine are trained to estimate the time-varying optimal hedge ratio given the observed price movement and other factors. The estimated hedge ratio is then employed to guide the price hedging strategy of the crude oil contracts traded in the commodity exchanges. The two machine approaches' hedging effectiveness against price risk is also compared with those of the un-hedged portfolio as well as a well-studied econometric time series approach. Our results indicate that the two forms of learning machines substantially outperform time series model and no-hedging over the out-of-sample period but neither machine dominates another across all testing scenarios. Given these mixed results between kernel regression and support vector machine, we propose and develop a kernel-supervised support vector machine to take advantage of the complementary nature of the two machine learning approaches and enhance the supervised learning process through hierarchical/sequential infusion of information. Cross-learning empirical testing shows that the proposed cross-learning machine is more effective in hedging than individual kernel regression and support vector machine. Furthermore, our study evaluates the impact of incorporating the coefficient of absolute risk aversion and the transaction costs to machine learning models. In general, cross-learning machine outperforms others in all tested scenarios.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8241496b508f4b11f52558a94604b8b5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:03.796762"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型（如核回归和支持向量机）来估计最优对冲比率，以指导原油合约的价格对冲策略。这直接涉及金融风险管理中的价格风险对冲。同时，论文提到将金融对冲纳入投资者的投资组合策略中，这表明其研究也与投资组合管理相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型（如核回归和支持向量机）来估计最优对冲比率，以指导原油合约的价格对冲策略。这直接涉及金融风险管理中的价格风险对冲。同时，论文提到将金融对冲纳入投资者的投资组合策略中，这表明其研究也与投资组合管理相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:33.060906"
+}

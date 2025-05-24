@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1597,
+    "title": "A three-level nested portfolio optimization model with position allocation",
+    "abstract": "Existing portfolio optimization models cannot well capture the real position allocation requirement, leading to limited impact in practice. To overcome this challenge, we propose a three-level nested portfolio optimization model with position allocation. Within this model, the inner and middle levels collaboratively determine the optimal portfolio, while the outer level focuses on optimizing the holding proportion of each stock in the optimal portfolio. Compared with existing models with portfolio weights, the proposed model imposes the position allocation constraint that precisely characterizes the limitations on holding each stock. This constraint is crucial for investors to obey securities trading regulations involving position limitations and to mitigate the potential impact of market risks. To address the nonlinear and nonconvex nature of the novel model, we develop an intelligent optimization algorithm by effectively hybridizing the support vector regression and the enhanced grey wolf optimizer. We comprehensively evaluate its performance using eight metrics, including accumulative return, annual return, Sharpe ratio, maximum drawdown, absolute and relative win ratios, predictive precision and accuracy. The experimental results indicate that (i) the proposed model can achieve more excess returns than those stock selection models not considering position allocation, especially for the large-cap stocks; (ii) compared with other state-of-the-art meta-heuristics, the enhanced grey wolf optimizer can yield better portfolio in conjunction with the support vector regression; (iii) in the context of the Chinese A-share stock market, specific financial indicators such as return on equity, inventory turnover rate, net income growth rate, and debt-to-equity ratio should be given greater consideration compared to other financial metrics.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d0cbea0149423b2a42945a3511c9c2cf",
+    "relevant_keywords": [
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.750227"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种三层次嵌套的投资组合优化模型，专注于优化股票持有比例和位置分配，这直接属于投资组合管理的研究范畴。论文还讨论了如何通过该模型获得超额收益，并考虑了市场风险的影响，这些都是投资组合管理的核心问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种三层次嵌套的投资组合优化模型，专注于优化股票持有比例和位置分配，这直接属于投资组合管理的研究范畴。论文还讨论了如何通过该模型获得超额收益，并考虑了市场风险的影响，这些都是投资组合管理的核心问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:01.570354"
+}

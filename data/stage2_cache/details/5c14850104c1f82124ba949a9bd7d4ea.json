@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 988,
+    "title": "Malicious Transaction Identification in Digital Currency via Federated Graph Deep Learning",
+    "abstract": "With the rapid development of digital currencies in recent years, their anonymity provides a natural shelter for criminals. This problem resulting in various types of malicious transactions emerge in an endless stream, which seriously endangers the financial order of digital currencies. Many researchers have started to focus on this area and have proposed heuristics and feature-based centralized machine learning algorithms to discover and identify malicious transactions. However, these approaches ignore the existence of financial flows between digital currency transactions and do not use the important neighborhood relationships and rich transaction characteristics. In addition, centralized learning exposes a large amount of transaction feature data to the risk of leakage, where criminals may trace the actual users using traceability techniques. To address these issues, we proposes a graph neural network model based on federated learning named GraphSniffer to identify malicious transactions in the digital currency market. GraphSniffer leverages federated learning and graph neural networks to model graph-structured Bitcoin transaction data distributed at different worker nodes, and transmits the gradients of the local model to the server node for aggregation to update the parameters of the global model. GraphSniffer can realize the joint identification and analysis of malicious transactions while protecting the security of transaction feature data and the privacy of the model. Extensive experiments validate the superiority of the proposed method over the state-of-the-art.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "86fd738b1e38c03d37a532f0faaad94c",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "graph neural network",
+      "federated learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.892857"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用联邦学习和图神经网络识别数字货币中的恶意交易，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用联邦学习和图神经网络识别数字货币中的恶意交易，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:44.902998"
+}

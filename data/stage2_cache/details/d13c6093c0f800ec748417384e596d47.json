@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 456,
+    "title": "Dynamic asset allocation with asset-specific regime forecasts",
+    "abstract": "This article introduces a novel hybrid regime identification-forecasting framework designed to enhance multi-asset portfolio construction by integrating asset-specific regime forecasts. Unlike traditional approaches that focus on broad economic regimes affecting the entire asset universe, our framework leverages both unsupervised and supervised learning to generate tailored regime forecasts for individual assets. Initially, we use the statistical jump model, a robust unsupervised regime identification model, to derive regime labels for historical periods, classifying them into bullish or bearish states based on features extracted from an asset return series. Following this, a supervised gradient-boosted decision tree classifier is trained to predict these regimes using a combination of asset-specific return features and cross-asset macro-features. We apply this framework individually to each asset in our universe. Subsequently, return and risk forecasts which incorporate these regime predictions are input into Markowitz mean-variance optimization to determine optimal asset allocation weights. We demonstrate the efficacy of our approach through an empirical study on a multi-asset portfolio comprising twelve risky assets, including global equity, bond, real estate, and commodity indexes spanning from 1991 to 2023. The results consistently show outperformance across various portfolio models, including minimum-variance, mean-variance, and naive-diversified portfolios, highlighting the advantages of integrating asset-specific regime forecasts into dynamic asset allocation.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6762cccc5412a0cb21277ff69d5050e3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.316155"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一个混合体制识别-预测框架，用于增强多资产投资组合的构建。论文明确提到将预测结果输入到Markowitz均值-方差优化中，以确定最优资产配置权重，并通过实证研究展示了其在多资产投资组合中的优势。这些内容直接指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一个混合体制识别-预测框架，用于增强多资产投资组合的构建。论文明确提到将预测结果输入到Markowitz均值-方差优化中，以确定最优资产配置权重，并通过实证研究展示了其在多资产投资组合中的优势。这些内容直接指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:38.977090"
+}

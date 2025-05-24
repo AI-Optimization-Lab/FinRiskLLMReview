@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1730,
+    "title": "Extracting Alpha from Financial Analyst Networks",
+    "abstract": "We investigate the effectiveness of a momentum trading signal based on the coverage network of financial analysts. This signal builds on the key information-brokerage role financial sell-side analysts play in modern stock markets. The baskets of stocks covered by each analyst can be used to construct a network between firms whose edge weights represent the number of analysts jointly covering both firms. Although the link between financial analysts coverage and co-movement of firms' stock prices has been investigated in the literature, little effort has been made to systematically learn the most effective combination of signals from firms covered jointly by analysts in order to benefit from any spillover effect. To fill this gap, we build a trading strategy which leverages the analyst coverage network using a graph attention network. More specifically, our model learns to aggregate information from individual firm features and signals from neighbouring firms in a node-level forecasting task. We develop a portfolio based on those predictions which we demonstrate to exhibit an annualized returns of 29.44% and a Sharpe ratio of 4.06 substantially outperforming market baselines and existing graph machine learning based frameworks. We further investigate the performance and robustness of this strategy through extensive empirical analysis. Our paper represents one of the first attempts in using graph machine learning to extract actionable knowledge from the analyst coverage network for practical financial applications.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f435eb82bbcce211146a73d7080d7e31",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "attention mechanism",
+      "graph attention network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:50.717807"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用图注意力网络从分析师覆盖网络中提取信号，构建交易策略并形成投资组合，这直接属于投资组合管理的范畴。论文明确提到开发了一个基于预测的投资组合，并展示了其优异的回报和夏普比率，这些都是投资组合管理的典型研究内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用图注意力网络从分析师覆盖网络中提取信号，构建交易策略并形成投资组合，这直接属于投资组合管理的范畴。论文明确提到开发了一个基于预测的投资组合，并展示了其优异的回报和夏普比率，这些都是投资组合管理的典型研究内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:11.588415"
+}

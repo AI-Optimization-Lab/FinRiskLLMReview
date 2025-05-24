@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 855,
+    "title": "Tailored machine learning for evaluating the long-term diabetes risk in older individuals: findings from the Irish Longitudinal Study on Ageing (TILDA)",
+    "abstract": "ObjectivesThe prevalence of diabetes has increased globally, leading to a significant disease burden and financial cost. Early prediction is crucial to control its prevalence.DesignA prospective cohort study.SettingNational representative study on Irish.Participants8504 individuals aged 50 years or older were included.Primary and secondary outcome measuresSurveys were conducted to collect over 40 000 variables related to social, financial, health, mental and family status. Feature selection was performed using logistic regression. Different machine/deep learning algorithms were trained, including distributed random forest, extremely randomised trees, a generalised linear model with regularisation, a gradient boosting machine and a deep neural network. These algorithms were integrated into a stacked ensemble to generate the best model. The model was tested using various metrics, such as the area under the curve (AUC), log loss, mean per classification error, mean square error (MSE) and root MSE (RMSE). The SHapley Additive exPlanations (SHAP) method was used to interpret the established model.ResultsAfter 2 years, 105 baseline features were identified as major contributors to diabetes risk, including sex, low-density lipoprotein cholesterol and cirrhosis. The best model achieved high accuracy, robustness and discrimination in predicting diabetes risk, with an AUC of 0.854, log loss of 0.187, mean per classification error of 0.267, RMSE of 0.229 and MSE of 0.052 in the independent test set. The model was also shown to be well calibrated. The SHAP algorithm provided insights into the decision-making process of the model.ConclusionsThese findings could help physicians in the early identification of high-risk patients and implement targeted interventions to reduce diabetes incidence.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "611933760aabfd4262e67b3209d56dfc",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.701712"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习方法预测糖尿病风险，其应用领域是医疗健康而非金融。虽然提到了金融成本，但并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习方法预测糖尿病风险，其应用领域是医疗健康而非金融。虽然提到了金融成本，但并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:15.468415"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1209,
+    "title": "Mapping stock market dynamics: A tripartite neural network approach using modified grid search for stock market prediction",
+    "abstract": "The challenge of stock market prediction still persists for investors, researchers, portfolio managers, and a diverse array of stakeholders. This study aims to investigate the effectiveness of artificial neural networks, deep neural networks, and long-term memory models in predicting stock market indices. The study encompasses daily index prices of Nifty 50, S&P 500, and Euronext 100, along with macroeconomic data and technical indicators from January 2015 to September 2023, containing 2201 observations for each market. When evaluated using different metrics, the results indicate better performance of artificial neural network models than deep neural networks and long short-term memory models in most cases. The results from the validation set, test set, and an extra holdout set indicate better performance of artificial neural networks in the context of the Nifty 50 index. In the case of the S&P 500, the deep neural network performed well on validation set results, and artificial neural networks performed better than other models in the test set and holdout set predictions. In the case of Euronext 100, the deep neural network again performed better on the validation set; however, the Long short-term memory model outperformed other models with better predictions on testing and holdout set data. The study also applies a modified grid search approach to find the optimal hyperparameters, where the hyperparameters from the simpler model, i.e., artificial neural network using a conventional grid search approach, were used in more complex models like deep neural network and long short-term memory model.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "829409f6a0259a5b9059c7b8b564a74d",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:09.894078"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究使用神经网络模型预测股票市场指数，这可以为投资组合管理提供决策支持，帮助投资者优化资产配置。然而，论文并未直接涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究使用神经网络模型预测股票市场指数，这可以为投资组合管理提供决策支持，帮助投资者优化资产配置。然而，论文并未直接涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:22.443474"
+}

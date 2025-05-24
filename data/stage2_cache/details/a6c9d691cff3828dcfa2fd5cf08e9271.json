@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2869,
+    "title": "A Combination of Hidden Markov Model and Association Analysis for Stock Market Sector Rotation",
+    "abstract": "The use of Hidden Markov Model in stock market sector rotation is not investigated in the past. In this research, we consider an industry sector index portfolio based on the Shenwan first-class classification and propose state transition matrix for investment. In particular, we design an correlation analysis strategy that initialized state probability transition matrix Additionally, we design the observation state sequence which consisting of a series of stocks. Using Pearson's Correlation Coefficient to screen out the 10 stocks with the highest correlation in each industry sector. We put these parameters into the HMM and use the Baum-Welch algorithm to obtain the iterative solution results. Using the solved matrix into the back test program, the results show that the strategy returns well.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "bb023d29409102ddc83fddead51629b3",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "classification",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:11:17.438854"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用隐马尔可夫模型和关联分析来优化股票市场行业轮动策略，这直接涉及投资组合的构建和管理，以提高回报。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用隐马尔可夫模型和关联分析来优化股票市场行业轮动策略，这直接涉及投资组合的构建和管理，以提高回报。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:22.218808"
+}

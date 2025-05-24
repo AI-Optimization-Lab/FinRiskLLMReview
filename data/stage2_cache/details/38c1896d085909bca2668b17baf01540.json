@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 1951,
+    "title": "Uncertainty-Aware Reinforcement Learning for Portfolio Optimization",
+    "abstract": "We explored the use of Reinforcement Learning (RL) combined with risk assessment for optimizing investment portfolios. The dynamic nature of trading, compounded by market frictions, the responses of other market participants, and uncertainties, poses challenges to portfolio optimization. The financial market's intricacies make it difficult to model accurately, compounded by regulatory requirements and internal risk policies mandating risk-averse decisions to avoid catastrophic outcomes. To address this, we proposed risk estimation for investor's risk tolerance threshold. Moreover, modern Deep Learning models are adept at approximating complex relationship between abundant data, however, the main drawback we face now a day is generalization of the relationship to the unseen data. Therefore, the epistemic uncertainty can pose risk to the decision making system. This uncertainty is further addressed using a Variational Autoencoder (VAE) to estimate, and Cost Network to backpropogate riskiness through the model to learn actions with safe results. The actions with stable result or lower reward will be avoided due to reward optimization of RL. Consequently, we successfully managed to reduce the risk and uncertainties in the agent testing process. Our risk-constrained RL algorithm demonstrated zero violation of the constraint in the testing phase. This suggests that adopting a risk-averse RL approach could be beneficial for portfolio optimization, particularly for risk-averse investors.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b16da1edbc6d55902a0ea5e419693682",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "autoencoder",
+      "Variational Autoencoder (VAE)"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:14.416843"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用强化学习结合风险评估来优化投资组合，并处理市场不确定性和风险规避问题。这直接涉及投资组合管理和金融风险管理两个领域。论文明确提到目标是优化投资组合，并通过风险约束的强化学习算法来减少风险，符合这两个领域的定义。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习结合风险评估来优化投资组合，并处理市场不确定性和风险规避问题。这直接涉及投资组合管理和金融风险管理两个领域。论文明确提到目标是优化投资组合，并通过风险约束的强化学习算法来减少风险，符合这两个领域的定义。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:10.624001"
+}

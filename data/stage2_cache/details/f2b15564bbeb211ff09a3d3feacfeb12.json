@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 299,
+    "title": "Prediction of successful aging using ensemble machine learning algorithms",
+    "abstract": "Background Aging is a chief risk factor for most chronic illnesses and infirmities. The growth in the aged population increases medical costs, thus imposing a heavy financial burden on families and communities. Successful aging (SA) is a positive and qualitative view of aging. From a biomedical perspective, SA is defined as the absence of diseases or disability disorders. This is distinct from normal aging, which is associated with age-related deterioration in physical and cognitive functions. From a social perspective, SA highlights life satisfaction and individual well-being, usually attained through socialization. It is an abstract and multidimensional concept surrounded by imprecision about its definition and measurement. Our study attempted to find the most effective features of SA as defined by Rowe and Kahn's theory. The determined features were used as input parameters of six machine learning (ML) algorithms to create and validate predictive models for SA. Methods In this retrospective study, the raw data set was first pre-processed; then, based on the data of a sample of 983, five basic ML techniques including artificial neural network, decision tree, support vector machine, Naive Bayes, and k-nearest neighbors (K-NN) with one ensemble method (that gathers 30 K-NN algorithms as weak learners) were trained. Finally, the prediction result was yielded using the majority vote method based on the output of the generated base models. Results The experimental results revealed that the predictive system has been more successful in predicting SA with a 93% precision, 92.40% specificity, 87.80% sensitivity, 90.31% F-measure, 89.62% accuracy, and a ROC of 96.10%, using a five-fold cross-validation procedure. Conclusions Our results showed that ML techniques potentially have satisfactory performance in supporting the SA-related decisions of social and health policymakers. The KNN-based ensemble algorithm is superior to the other ML models in classifying people into SA and non-SA classes.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7cc3a915bfb777ab4cc70a3299715f70",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:04.668643"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习算法预测成功老龄化的特征和模型，其应用领域是医疗健康和社会政策，与衍生品定价、金融风险管理和投资组合管理等金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习算法预测成功老龄化的特征和模型，其应用领域是医疗健康和社会政策，与衍生品定价、金融风险管理和投资组合管理等金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:27.066954"
+}

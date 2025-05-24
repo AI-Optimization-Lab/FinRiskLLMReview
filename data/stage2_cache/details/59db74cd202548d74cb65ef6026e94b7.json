@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 1540,
+    "title": "Mining Financial Risk Events from News and Assessing their Impact on Stocks",
+    "abstract": "The impact of financial risk events on stock market is a fairly established area of research in the financial domain. However, the analysts require these events to be represented in a structured form in order to carry out statistical analysis. In this work, we aim is to identify and extract various financial risk events from news articles along with associated organizations to facilitate integrated analysis with structured business data. We propose a two-phase risk extraction algorithm involving a CNN based semi-supervised risk event identification and gradient boosting based entity association algorithm to extract risk events from news and associate them to their target organizations. We have analyzed large volumes of past available data using Granger causality to assess the impact of these events on various stock indices. Further, the utility of extracted risk events in predicting stock movement has been shown using a Bi-LSTM network based prediction model. The proposed system outperforms state of the art linear SVM on data for different stock indices.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6f07ae9b71991fa42c9f986c38e0b4fa",
+    "relevant_keywords": [
+      "machine learning",
+      "semi-supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:04:20.098257"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是识别和提取金融风险事件，并评估这些事件对股票市场的影响，这直接涉及金融风险管理领域。论文还提到使用这些事件预测股票走势，进一步支持其在风险管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是识别和提取金融风险事件，并评估这些事件对股票市场的影响，这直接涉及金融风险管理领域。论文还提到使用这些事件预测股票走势，进一步支持其在风险管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:21.158111"
+}

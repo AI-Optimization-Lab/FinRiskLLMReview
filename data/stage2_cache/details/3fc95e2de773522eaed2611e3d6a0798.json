@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 885,
+    "title": "MNFS-FPM: A novel memetic neuro-fuzzy system based financial portfolio management",
+    "abstract": "Portfolio management consists of deciding what assets to include in a portfolio given the investor's objectives and changing market and economic conditions. The always difficult selection process includes identifying which assets to purchase, how much, and when. This paper presents a novel Memetic Neuro-fuzzy System for Financial Portfolio Management (MNFS-FPM) which emulates the thinking process of a rational investor and generates the optimal portfolio from a collection of assets based on a chosen investment style. The system consists mainly of two modules: the Generic Self-Organizing Fuzzy Neural Network realizing Yager inference (GenSoFNN-Yager), to predict the expected return of each asset, and a memetic algorithm using simplex local searches (MA-NM/SMD) to determine the optimal investment weight allocation for all assets in the portfolio. Experimental results on Dow Jones Industrial Average (DJIA) stocks show that the proposed system yields better performance compared to that of existing financial models: statistical mean-variance analysis and Capital Asset Pricing Model (CAPM).",
+    "year": 2007,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1655da5d505711c7566ab4bed7e62476",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.265527"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种Memetic Neuro-fuzzy系统，用于金融投资组合管理，旨在通过预测资产预期回报和优化投资权重分配来生成最优投资组合。实验结果表明，该系统在Dow Jones Industrial Average股票上的表现优于现有的金融模型，如统计均值-方差分析和资本资产定价模型（CAPM）。因此，该论文的主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"该论文的核心技术是开发一种Memetic Neuro-fuzzy系统，用于金融投资组合管理，旨在通过预测资产预期回报和优化投资权重分配来生成最优投资组合。实验结果表明，该系统在Dow Jones Industrial Average股票上的表现优于现有的金融模型，如统计均值-方差分析和资本资产定价模型（CAPM）。因此，该论文的主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:45.735933"
+}

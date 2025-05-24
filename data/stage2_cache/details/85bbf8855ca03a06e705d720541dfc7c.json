@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1277,
+    "title": "Fusion with Sentiment Scores for Market Research",
+    "abstract": "The recent surge in electronic and social media has led to an explosion of sentiment data embedded in public and private documents, fueling interest in sentiment analysis, especially as individuals, brands and corporations look to manage their reputational risk which is directly correlated to company performance. In this paper, we describe two approaches to score sentiments from a large unstructured text corpus(1) to fuse with other relevant structured relational data: 1) a simple but effective and fast lexicon-based approach where the score of a document is based on the occurrences of stemmed words representing positive and negative sentiments; and 2) a supervised machine learning approach where the score is derived by making use of a kernel-based classification model created from the training documents. Example applications of these techniques can be found in our text analytics tool called aText which can compute sentiment scores of product reviews from Amazon and TripAdvisor to gain market insight to products and services. Another example is the computation of sentiment scores using aText for public and private companies from credible financial sources which is further fused with market data (stock price) to create a composite index for financial analysts and traders.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "456c4ed111ad4b2a7a6c50af72983df0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.829730"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究情感分析技术及其在市场研究中的应用，虽然提到了情感分数与市场数据（如股票价格）的融合，但并未明确指出这些技术直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究情感分析技术及其在市场研究中的应用，虽然提到了情感分数与市场数据（如股票价格）的融合，但并未明确指出这些技术直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:31.978459"
+}

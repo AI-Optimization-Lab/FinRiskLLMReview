@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 4749,
+    "title": "Conditional Quantile Estimation for Generalized Autoregressive Conditional Heteroscedasticity Models",
+    "abstract": "Conditional quantile estimation is an essential ingredient in modem risk management. Although generalized autoregressive conditional heteroscedasticity (GARCH) processes have proven highly successful in modeling financial data, it is generally recognized that it would be useful to consider a broader class of processes capable of representing more flexibly both asymmetry and tail behavior of conditional returns distributions. In this article we study estimation of conditional quantiles for GARCH models using quantile regression. Quantile regression estimation of GARCH models is highly nonlinear; we propose a simple and effective two-step approach of quantile regression estimation for linear GARCH time series. In the first step, we use a quantile autoregression sieve approximation for the GARCH model by combining information over different quantiles. Then second-stage estimation for the GARCH model is carried out based on the firststage minimum distance estimation of the scale process of the time series. Asymptotic properties of the sieve approximation, the minimum distance estimators, and the final quantile regression estimators using generated regressors are studied. These results are of independent interest and have applications in other quantile regression settings. Monte Carlo and empirical application results indicate that the proposed estimation methods outperform some existing conditional quantile estimation methods.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a871904af0830c41f385392e8668cf54",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:40:27.973431"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on conditional quantile estimation for GARCH models, which is explicitly mentioned as an essential ingredient in modern risk management. The research aims to improve the modeling of conditional returns distributions, a key aspect in financial risk assessment and management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on conditional quantile estimation for GARCH models, which is explicitly mentioned as an essential ingredient in modern risk management. The research aims to improve the modeling of conditional returns distributions, a key aspect in financial risk assessment and management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:57.891778"
+}

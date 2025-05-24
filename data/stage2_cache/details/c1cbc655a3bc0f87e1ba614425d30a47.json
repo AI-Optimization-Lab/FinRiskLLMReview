@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 329,
+    "title": "Word Vector Models Approach to Text Regression of Financial Risk Prediction",
+    "abstract": "Linking textual information in finance reports to the stock return volatility provides a perspective on exploring useful insights for risk management. We introduce different kinds of word vector representations in the modeling of textual information: bag-of-words, pre-trained word embeddings, and domain-specific word embeddings. We apply linear and non-linear methods to establish a text regression model for volatility prediction. A large number of collected annually-published financial reports in the period from 1996 to 2013 is used in the experiments. We demonstrate that the domain-specific word vector learned from data not only captures lexical semantics, but also has better performance than the pre-trained word embeddings and traditional bag-of-words model. Our approach significantly outperforms with smaller prediction error in the regression task and obtains a 4%-10% improvement in the ranking task compared to state-of-the-art methods. These improvements suggest that the textual information may provide measurable effects on long-term volatility forecasting. In addition, we also find that the variations and regulatory changes in reports make older reports less relevant for volatility prediction. Our approach opens a new method of research into information economics and can be applied to a wide range of financial-related applications.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d9dad3235e0d34203be1c8eaa0909a80",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:40.992037"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用文本回归模型预测股票回报波动性，这直接关联到金融风险管理中的波动性预测和风险评估。论文明确提到其方法可以应用于风险管理的视角，并且实验目标是预测长期波动性，这是金融风险管理的关键组成部分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用文本回归模型预测股票回报波动性，这直接关联到金融风险管理中的波动性预测和风险评估。论文明确提到其方法可以应用于风险管理的视角，并且实验目标是预测长期波动性，这是金融风险管理的关键组成部分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:03.706739"
+}

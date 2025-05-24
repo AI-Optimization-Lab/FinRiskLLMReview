@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3,
+    "title": "基于阈值距离加权损失的股票收益预测",
+    "abstract": "股票收益预测的准确性对投资决策具有关键影响.随着深度学习模型的引入,收益预测的性能得到了显著提升.但是,现实世界中的股票序列常常包含多种模式的异常值,这些异常值在一定程度上扭曲了数据的关键统计指标,掩盖了序列的真实趋势,削弱了深度学习模型的预测能力,严重时可能导致后续投资决策的失误.鉴于此,本文在考虑异常值存在的场景和梯度下降算法的学习特性的基础上,提出了一种新颖的损失函数:阈值距离加权损失(threshold distance weighted loss, TDW).该损失通过为样本施加差异化的权重,有效减少了模型对异常值的敏感度.模拟研究和实证分析验证了该方法的预测准确性和稳健性,证明其能够为投资组合带来稳定的正向收益,并为实际金融投资决策提供有力支持.",
+    "year": 2025,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "df22fce528e86ab2497667cbf9c21ae5",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:20:52.532756"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一种新的损失函数用于提高股票收益预测的准确性，并明确指出其研究成果能够为投资组合带来稳定的正向收益，这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一种新的损失函数用于提高股票收益预测的准确性，并明确指出其研究成果能够为投资组合带来稳定的正向收益，这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:25.970037"
+}

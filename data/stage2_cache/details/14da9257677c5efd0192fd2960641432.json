@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 271,
+    "title": "Adaptive Supervised Learning for Financial Markets Volatility Targeting Models",
+    "abstract": "In the context of risk-based portfolio construction and pro-active risk management, finding robust predictors of future realised volatility is paramount to achieving optimal performance. Volatility has been documented in economics literature to exhibit pronounced persistence with clusters of high or low volatility regimes and to mean-revert to a normal level, underpinning Nobel prize-winning work on Generalized Autoregressive Heteroskedastic (GARCH) models. From a Reinforcement Learning (RL) point of view, this process can be interpreted as a model-based RL approach where the goal of the models is twofold: first, to represent the volatility dynamics and forecast its term structure and second, to compute a resulting allocation to match a given target volatility: hence the name volatility targeting method for risk-based portfolios. However, the resulting volatility model-based RL approaches are hard to distinguish as each model results in similar performance without a clear dominant one. We therefore present an innovative approach with an additional supervised learning step to predict the best model(s), based on historical performance ordering of RL models. Our contribution shows that adding a supervised learning overlay to decide which model(s) to use provides improvement over a naive benchmark consisting in averaging all RL models. A salient ingredient in this supervised learning task is to adaptively select features based on their significance, thanks to minimum importance filtering. This work extends our previous work on combining model-free and model-based RL. It mixes different types of learning procedures, namely model-based RL and supervised learning opening new doors to combine different machine learning approaches.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f8f06269a9480559a96238aeb35b52e3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "reinforcement learning",
+      "feature learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.792370"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用自适应监督学习来预测金融市场的波动性，并基于此进行风险管理和投资组合构建。论文明确提到了风险基础的投资组合构建和主动风险管理，以及波动性目标方法，这些都是金融风险管理和投资组合管理的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用自适应监督学习来预测金融市场的波动性，并基于此进行风险管理和投资组合构建。论文明确提到了风险基础的投资组合构建和主动风险管理，以及波动性目标方法，这些都是金融风险管理和投资组合管理的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:14.706728"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 4389,
+    "title": "Privacy-Secured Early Detection of Smartphone Users in Danger at Stations Using Depth Sensor and Deep Learning",
+    "abstract": "The installation of platform doors at train stations has been widely adopted as a preventative measure against the increasing incidents of falls from station platforms. Despite this safety initiative, financial constraints mean that only approximately 10% of stations in countries like Japan are currently equipped with these doors. Over the years, there has been a noticeable reduction in the number of accidents related to platform falls; however, the incidence of falls attributed to smartphone usage has remained consistently high, without any significant reduction. In response to this persistent issue, our research team has investigated the potential of utilizing depth cameras to detect and alert smartphone users at risk of accidents. To achieve this, we gathered and analyzed data from both individuals using smartphones and those who were not, employing advanced deep learning techniques to accurately distinguish between the two groups. Our approach leveraged the capabilities of the Dynamic Graph Convolutional Neural Network (DGCNN), which excels in capturing intricate local patterns in data that traditional models like PointNet often miss. Remarkably, the DGCNN demonstrated high precision in identifying smartphone users who might be at greater risk of accidents due to their distraction. Moreover, we optimized the learning process by incorporating a downsampling technique into our methodology, which significantly enhanced the model's efficiency and accuracy. This was particularly effective in reducing the number of training epochs needed, thereby speeding up the training process without compromising the quality of the results. Our findings confirmed that this approach not only improves the accuracy of detecting at-risk individuals but also reduces the overall training time, making it a practical solution for real-world applications.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0cdbd352d00d3a4fcbfb8a96aa648974",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "classification",
+      "neural network",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:36:38.484313"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用深度学习和深度传感器检测火车站中可能因使用智能手机而处于危险中的行人，其核心技术应用于公共安全领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用深度学习和深度传感器检测火车站中可能因使用智能手机而处于危险中的行人，其核心技术应用于公共安全领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:19.364998"
+}

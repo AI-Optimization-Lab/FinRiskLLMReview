@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "natural language processing",
+    "classification",
+    "regression"
+  ],
+  "explanations": {
+    "natural language processing": "The paper explicitly mentions using natural language processing techniques to analyze text-based electronic patient records for calculating the Charlson Comorbidity Index (CCI) score.",
+    "classification": "The study involves classifying patients into risk categories for unplanned readmissions using the LACE score, which is a form of classification.",
+    "regression": "Logistic regression analysis was used to predict unplanned readmissions, indicating the use of regression techniques in the study."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"natural language processing\", \"classification\", \"regression\"],\n  \"explanations\": {\n    \"natural language processing\": \"The paper explicitly mentions using natural language processing techniques to analyze text-based electronic patient records for calculating the Charlson Comorbidity Index (CCI) score.\",\n    \"classification\": \"The study involves classifying patients into risk categories for unplanned readmissions using the LACE score, which is a form of classification.\",\n    \"regression\": \"Logistic regression analysis was used to predict unplanned readmissions, indicating the use of regression techniques in the study.\"\n  }\n}\n```"
+}

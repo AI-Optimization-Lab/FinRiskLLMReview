@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 7774,
+    "title": "High-Frequency Direction Forecasting of the Futures Market Using a Machine-Learning-Based Method",
+    "abstract": "Futures price-movement-direction forecasting has always been a significant and challenging subject in the financial market. In this paper, we propose a combination approach that integrates the XGBoost (eXtreme Gradient Boosting), SMOTE (Synthetic Minority Oversampling Technique), and NSGA-II (Non-dominated Sorting Genetic Algorithm-II) methods. We applied the proposed approach on the direction prediction and simulation trading of rebar futures, which are traded on the Shanghai Futures Exchange. Firstly, the minority classes of the high-frequency rebar futures price change magnitudes are oversampled using the SMOTE algorithm to overcome the imbalance problem of the class data. Then, XGBoost is adopted to construct a multiclassification model for the price-movement-direction prediction. Next, the proposed approach employs NSGA-II to optimize the parameters of the pre-designed trading rule for trading simulation. Finally, the price-movement direction is predicted, and we conducted the high-frequency trading based on the optimized XGBoost model and the trading rule, with the classification and trading performances empirically evaluated by four metrics over four testing periods. Meanwhile, the LIME (Local Interpretable Model-agnostic Explanations) is applied as a model explanation approach to quantify the prediction contributions of features to the forecasting samples. From the experimental results, we found that the proposed approach performed best in terms of direction prediction accuracy, profitability, and return-risk ratio. The proposed approach could be beneficial for decision-making of the rebar traders and related companies engaged in rebar futures trading.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9369dc245fd6a46f16bd3028f8e3cb60",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T03:12:11.497379"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习方法预测期货价格变动方向并进行高频交易模拟，虽然涉及金融领域，但并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习方法预测期货价格变动方向并进行高频交易模拟，虽然涉及金融领域，但并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:55.968351"
+}

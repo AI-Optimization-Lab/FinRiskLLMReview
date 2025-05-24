@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 166,
+    "title": "Margin Trader: A Reinforcement Learning Framework for Portfolio Management with Margin and Constraints",
+    "abstract": "In the field of portfolio management using reinforcement learning, existing approaches have mainly focused on cash-only trading, overlooking the potential benefits and risks of margin trading. Incorporating margin accounts and their constraints, especially in short sale scenarios, is crucial yet often neglected. To address this gap, we make the first attempt to propose Margin Trader, an innovative and adaptive reinforcement learning framework designed for margin trading in the stock market. Margin Trader integrates margin accounts and constraints into a realistic trading environment for both long and short positions. The framework aims to balance profit maximization and risk management through the Margin Adjustment Module and the Maintenance Detection Module. Margin Trader supports various Deep Reinforcement Learning (DRL) algorithms and offers traders the flexibility to customize critical settings, such as equity allocation, margin ratios, and maintenance requirements, to suit diverse market conditions, individual preferences, and risk tolerance. Experimental results demonstrate that Margin Trader effectively learns profitable trading strategies and hedges risks in both bullish and bearish markets, outperforming other baseline models with the highest Sharpe ratio.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e7b1bf4565c697ecf62b913be3a8dc7b",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.101024"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一个基于强化学习的框架（Margin Trader），专门用于股票市场的投资组合管理，包括多头和空头头寸的管理，以及利润最大化和风险管理的平衡。论文明确提到其应用场景是投资组合管理，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一个基于强化学习的框架（Margin Trader），专门用于股票市场的投资组合管理，包括多头和空头头寸的管理，以及利润最大化和风险管理的平衡。论文明确提到其应用场景是投资组合管理，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:16.269908"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2382,
+    "title": "Deep reinforcement learning with positional context for intraday trading",
+    "abstract": "Deep reinforcement learning (DRL) is a well-suited approach to financial decision-making, where an agent makes decisions based on its trading strategy developed from market observations. Existing DRL intraday trading strategies mainly use price-based features to construct the state space. They neglect the contextual information related to the position of the strategy, which is an important aspect given the sequential nature of intraday trading. In this study, we propose a novel DRL model for intraday trading that introduces positional features encapsulating the contextual information into its sparse state space. The model is evaluated over an extended period of almost a decade and across various assets including commodities and foreign exchange securities, taking transaction costs into account. The results show a notable performance in terms of profitability and risk-adjusted metrics. The feature importance results show that each feature incorporating contextual information contributes to the overall performance of the model. Additionally, through an exploration of the agent's intraday trading activity, we unveil patterns that substantiate the effectiveness of our proposed model.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2c9bee6ae6a3b51e85b5748c065e5014",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:50.292282"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是深度强化学习在日内交易策略中的应用，主要关注如何通过引入位置特征来优化交易决策，从而提高盈利能力和风险调整后的绩效。这属于投资组合管理的范畴，因为它涉及资产选择和交易时机的决策，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是深度强化学习在日内交易策略中的应用，主要关注如何通过引入位置特征来优化交易决策，从而提高盈利能力和风险调整后的绩效。这属于投资组合管理的范畴，因为它涉及资产选择和交易时机的决策，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:53.965245"
+}

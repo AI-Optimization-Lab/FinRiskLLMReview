@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 615,
+    "title": "Predicting Subclinical Ketosis in Dairy Cows Using Machine Learning Techniques",
+    "abstract": "Simple Summary The maintenance of cows in good health and physical condition is an important component of dairy cattle management. One of the major metabolic disorders in dairy cows is subclinical ketosis. Due to financial and organizational reasons it is often impossible to test all cows in a herd for ketosis using standard blood examination method. Using milk data from test-day records, obtained without additional costs for breeders, we found diagnostic models identifying cows-at-risk of subclinical ketosis. In addition, to select the best models, we present a general scoring approach for various machine learning models. With our models, breeders can identify dairy cows-at-risk of subclinical ketosis and implement appropriate management strategies and prevent losses in milk production. The diagnosis of subclinical ketosis in dairy cows based on blood ketone bodies is a challenging and costly procedure. Scientists are searching for tools based on results of milk performance assessment that would allow monitoring the risk of subclinical ketosis. The objective of the study was (1) to design a scoring system that would allow choosing the best machine learning models for the identification of cows-at-risk of subclinical ketosis, (2) to select the best performing models, and (3) to validate them using a testing dataset containing unseen data. The scoring system was developed using two machine learning modeling pipelines, one for regression and one for classification. As part of the system, different feature selections, outlier detection, data scaling and oversampling methods were used. Various linear and non-linear models were fit using training datasets and evaluated on holdout, testing the datasets. For the assessment of suitability of individual models for predicting subclinical ketosis, three beta-hydroxybutyrate concentration in blood (bBHB) thresholds were defined: 1.0, 1.2 and 1.4 mmol/L. Considering the thresholds of 1.2 and 1.4, the logistic regression model was found to be the best fitted model, which included independent variables such as fat-to-protein ratio, acetone and beta-hydroxybutyrate concentrations in milk, lactose percentage, lactation number and days in milk. In the cross-validation, this model showed an average sensitivity of 0.74 or 0.75 and specificity of 0.76 or 0.78, at the pre-defined bBHB threshold 1.2 or 1.4 mmol/L, respectively. The values of these metrics were also similar in the external validation on the testing dataset (0.72 or 0.74 for sensitivity and 0.80 or 0.81 for specificity). For the bBHB threshold at 1.0 mmol/L, the best classification model was the model based on the SVC (Support Vector Classification) machine learning method, for which the sensitivity in the cross-validation was 0.74 and the specificity was 0.73. These metrics had lower values for the testing dataset (0.57 and 0.72 respectively). Regression models were characterized by poor fitness to data (R-2 < 0.4). The study results suggest that the prediction of subclinical ketosis based on data from test-day records using classification methods and machine learning algorithms can be a useful tool for monitoring the incidence of this metabolic disorder in dairy cattle herds.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ea9e1dfc775489204396a44d57d55d77",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.736304"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习技术预测奶牛亚临床酮症，属于农业和兽医学领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习技术预测奶牛亚临床酮症，属于农业和兽医学领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:18.903003"
+}

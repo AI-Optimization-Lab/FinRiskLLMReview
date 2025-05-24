@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1141,
+    "title": "Sparse Approximations with Interior Point Methods",
+    "abstract": "Large-scale optimization problems that seek sparse solutions have become ubiquitous. They are routinely solved with various specialized first-order methods. Although such methods are often fast, they usually struggle with not-so-well-conditioned problems. In this paper, specialized variants of an interior point-proximal method of multipliers are proposed and analyzed for problems of this class. Computational experience on a variety of problems, namely, multiperiod portfolio optimization, classification of data coming from functional magnetic resonance imaging, restoration of images corrupted by Poisson noise, and classification via regularized logistic regression, provides substantial evidence that interior point methods, equipped with suitable linear algebra, can offer a noticeable advantage over first-order approaches.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "40dee50955d8c2eb18fd67ee2085cdec",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.776888"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到了多期投资组合优化（multiperiod portfolio optimization）作为其计算经验的一部分，这表明该论文的核心技术被应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到了多期投资组合优化（multiperiod portfolio optimization）作为其计算经验的一部分，这表明该论文的核心技术被应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:00.628097"
+}

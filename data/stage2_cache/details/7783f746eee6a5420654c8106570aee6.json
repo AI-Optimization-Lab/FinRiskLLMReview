@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 4155,
+    "title": "No-PASt-BO: Normalized Portfolio Allocation Strategy for Bayesian Optimization",
+    "abstract": "Bayesian Optimization (BO) is a framework for black-box optimization that is especially suitable for expensive cost functions. Among the main parts of a BO algorithm, the acquisition function is of fundamental importance, since it guides the optimization algorithm by translating the uncertainty of the regression model in a utility measure for each point to be evaluated. Considering such aspect, selection and design of acquisition functions are one of the most popular research topics in BO. Since no single acquisition function was proved to have better performance in all tasks, a well-established approach consists of selecting different acquisition functions along the iterations of a BO execution. In such an approach, the GP-Hedge algorithm is a widely used option given its simplicity and good performance. Despite its success in various applications, GP-Hedge shows an undesirable characteristic of accounting on all past performance measures of each acquisition function to select the next function to be used. In this case, good or bad values obtained in an initial iteration may impact the choice of the acquisition function for the rest of the algorithm. This fact may induce a dominant behavior of an acquisition function and impact the final performance of the method. Aiming to overcome such limitation, in this work we propose a variant of GP-Hedge, named No-PASt-BO, that reduce the influence of far past evaluations. Moreover, our method presents a built-in normalization that avoids the functions in the portfolio to have similar probabilities, thus improving the exploration. The obtained results on both synthetic and real-world optimization tasks indicate that No-PASt-BO presents competitive performance and always outperforms GP-Hedge.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "68a18e4cb3613f80fc1fce7df7faff29",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:24:25.340137"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究贝叶斯优化算法的改进，特别是针对获取函数的选择策略。虽然提到了'portfolio allocation'，但这指的是算法中不同获取函数的组合，而非金融领域的投资组合管理。论文未提及任何具体的金融应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究贝叶斯优化算法的改进，特别是针对获取函数的选择策略。虽然提到了'portfolio allocation'，但这指的是算法中不同获取函数的组合，而非金融领域的投资组合管理。论文未提及任何具体的金融应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:59.183203"
+}

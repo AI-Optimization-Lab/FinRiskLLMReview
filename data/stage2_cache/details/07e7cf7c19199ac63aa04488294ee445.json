@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3414,
+    "title": "ON MONTE-CARLO METHODS IN CONVEX STOCHASTIC OPTIMIZATION",
+    "abstract": "We develop a novel procedure for estimating the optimizer of general convex stochastic optimization problems of the form min(x is an element of chi) E[F (x, xi)] when the given data is a finite independent sample selected according to xi. The procedure is based on a median-of-means tournament, and is the first procedure that exhibits the optimal statistical performance in heavy tailed situations: we recover the asymptotic rates dictated by the central limit theorem in a nonasymptotic manner once the sample size exceeds some explicitly computable threshold. Additionally, our results apply in the high-dimensional setup, as the threshold sample size exhibits the optimal dependence on the dimension (up to a logarithmic factor). The general setting allows us to recover recent results on multivariate mean estimation and linear regression in heavy-tailed situations and to prove the first sharp, nonasymptotic results for the portfolio optimization problem.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a4e70f7aefd5ff989c726296f0a44a1b",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:55.498173"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到其研究成果适用于投资组合优化问题（portfolio optimization problem），这是投资组合管理领域的核心问题。虽然论文也提到回归（regression）等通用方法，但其主要应用场景和实验设计集中在投资组合优化上。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到其研究成果适用于投资组合优化问题（portfolio optimization problem），这是投资组合管理领域的核心问题。虽然论文也提到回归（regression）等通用方法，但其主要应用场景和实验设计集中在投资组合优化上。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:47.078095"
+}

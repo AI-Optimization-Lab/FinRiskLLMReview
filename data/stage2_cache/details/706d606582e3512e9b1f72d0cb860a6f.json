@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3064,
+    "title": "Study on Information Fusion Based Check Recognition System",
+    "abstract": "Automatic check recognition techniques play an important role in financial systems, especially in risk management. This paper presents a novel check recognition system based on multi-cue information fusion theory. For Chinese bank check, the amount can be independently determined by legal amount, Courtesy amount, or E13B code. The check recognition algorithm consists of four steps: preprocessing, check layout analysis, segmentation and recognition, and information fusion. For layout analysis, an adaptive template matching algorithm is presented to locate the target recognition regions on the check. The hidden markov model is used to segment and recognize legal amount. Courtesy and E13B code are recognized by artificial neural network method, respectively. Finally, D-S evidence theory is then introduced to fuse above three recognition results for better recognition performance. Experimental results demonstrate that the system can robustly recognize checks and the information fusion based algorithm improves the recognition rate by 5 similar to 10 percent.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f61cfccd3e09436afb7d46078a486905",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:22:25.051064"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究支票识别系统，虽然提到了风险管理的应用，但其核心技术是信息融合和模式识别，并未直接涉及衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究支票识别系统，虽然提到了风险管理的应用，但其核心技术是信息融合和模式识别，并未直接涉及衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:31.504712"
+}

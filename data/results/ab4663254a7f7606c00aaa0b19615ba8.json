@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "unsupervised learning",
+    "regression",
+    "support vector machine",
+    "SVM",
+    "decision tree",
+    "clustering",
+    "neural network",
+    "deep learning",
+    "long short-term memory",
+    "LSTM"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning techniques for forecasting Bitcoin volatility and value-at-risk.",
+    "supervised learning": "The models used (ANN, SVR, LSTM, RF, NBEATSx, HAR, GARCH) are typically applied in supervised learning contexts for regression tasks.",
+    "unsupervised learning": "The paper mentions the use of k-means clustering, which is an unsupervised learning technique.",
+    "regression": "The forecasting of Bitcoin volatility and VaR is a regression problem, predicting continuous values.",
+    "support vector machine": "The paper mentions Support Vector Regression (SVR), which is based on support vector machines.",
+    "SVM": "SVR is a variant of SVM used for regression tasks.",
+    "decision tree": "Random Forest (RF) is an ensemble method based on decision trees.",
+    "clustering": "The paper uses k-means clustering to enhance prediction accuracy.",
+    "neural network": "Artificial Neural Network (ANN) and LSTM are types of neural networks mentioned in the paper.",
+    "deep learning": "LSTM and NBEATSx are deep learning models used in the study.",
+    "long short-term memory": "LSTM is explicitly mentioned as one of the models used for forecasting.",
+    "LSTM": "Long Short-Term Memory is a specific type of recurrent neural network used in the study."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"unsupervised learning\",\n    \"regression\",\n    \"support vector machine\",\n    \"SVM\",\n    \"decision tree\",\n    \"clustering\",\n    \"neural network\",\n    \"deep learning\",\n    \"long short-term memory\",\n    \"LSTM\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning techniques for forecasting Bitcoin volatility and value-at-risk.\",\n    \"supervised learning\": \"The models used (ANN, SVR, LSTM, RF, NBEATSx, HAR, GARCH) are typically applied in supervised learning contexts for regression tasks.\",\n    \"unsupervised learning\": \"The paper mentions the use of k-means clustering, which is an unsupervised learning technique.\",\n    \"regression\": \"The forecasting of Bitcoin volatility and VaR is a regression problem, predicting continuous values.\",\n    \"support vector machine\": \"The paper mentions Support Vector Regression (SVR), which is based on support vector machines.\",\n    \"SVM\": \"SVR is a variant of SVM used for regression tasks.\",\n    \"decision tree\": \"Random Forest (RF) is an ensemble method based on decision trees.\",\n    \"clustering\": \"The paper uses k-means clustering to enhance prediction accuracy.\",\n    \"neural network\": \"Artificial Neural Network (ANN) and LSTM are types of neural networks mentioned in the paper.\",\n    \"deep learning\": \"LSTM and NBEATSx are deep learning models used in the study.\",\n    \"long short-term memory\": \"LSTM is explicitly mentioned as one of the models used for forecasting.\",\n    \"LSTM\": \"Long Short-Term Memory is a specific type of recurrent neural network used in the study.\"\n  }\n}\n```"
+}

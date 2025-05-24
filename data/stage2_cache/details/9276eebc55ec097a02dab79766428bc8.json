@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1022,
+    "title": "Algorithm Portfolio for Individual-based Surrogate-Assisted Evolutionary Algorithms",
+    "abstract": "Surrogate-assisted evolutionary algorithms (SAEAs) are powerful optimisation tools for computationally expensive problems (CEPs). However, a randomly selected algorithm may fail in solving unknown problems due to no free lunch theorems, and it will cause more computational resource if we re-run the algorithm or try other algorithms to get a much solution, which is more serious in CEPs. In this paper, we consider an algorithm portfolio for SAEAs to reduce the risk of choosing an inappropriate algorithm for CEPs. We propose two portfolio frameworks for very expensive problems in which the maximal number of fitness evaluations is only 5 times of the problem's dimension. One framework named Par-IBSAEA runs all algorithm candidates in parallel and a more sophisticated framework named UCB-IBSAEA employs the Upper Confidence Bound (UCB) policy from reinforcement learning to help select the most appropriate algorithm at each iteration. An effective reward definition is proposed for the UCB policy. We consider three state-of-the-art individual-based SAEAs on different problems and compare them to the portfolios built from their instances on several benchmark problems given limited computation budgets. Our experimental studies demonstrate that our proposed portfolio frameworks significantly outperform any single algorithm on the set of benchmark problems.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c3b0e2dd89c199ca17114c94202c4594",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.822192"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是算法组合（algorithm portfolio）在代理辅助进化算法（SAEAs）中的应用，用于解决计算昂贵问题（CEPs）。虽然提到了Upper Confidence Bound (UCB)策略，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是算法组合（algorithm portfolio）在代理辅助进化算法（SAEAs）中的应用，用于解决计算昂贵问题（CEPs）。虽然提到了Upper Confidence Bound (UCB)策略，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:18.782657"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 672,
+    "title": "Leakage detection in natural gas pipeline based on unsupervised learning and stress perception",
+    "abstract": "Natural gas pipeline leakage can cause serious financial losses to natural gas transportation and pose accidents to the environmental safety. Currently-used supervised learning methods heavily rely on sufficient pipeline failure historical data for their training. Therefore, we propose a novel detection approach based on unsupervised learning and stress perception for determining the leakage situation in pipelines. In this study, pipeline stress signals are first acquired based on residual magnetic effect. The relationship between residual magnetic and stress is built using improved sparrow search algorithm (ISSA) and extreme learning machine (ELM). Then, the Wasserstein generative adversarial network with gradient penalty (WGAN-GP) is deployed to learn suitable features from the stress signals under the pipeline normal condition, generating high-quality stress data features. Finally, the generated stress features are supplied to the Bayesian Gaussian mixture model (BGMM). And the weighted logarithm probability (WLP) is used as the health indicator for examining pipeline status. The results demonstrate that the relative error of residual magnetic stress model is controlled within 3 %, and the WLP value of fault samples is smaller than -100, so that the proposed method can discriminate the normal and leak conditions as well as the risk and severity of leakage. This study provides a theoretical basis and new perspective for pipeline leakage detection.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "90c2b926a00cee059ab8a588ce5573f4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.303744"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究天然气管道泄漏检测技术，涉及无监督学习和应力感知，并未提及任何与金融领域相关的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究天然气管道泄漏检测技术，涉及无监督学习和应力感知，并未提及任何与金融领域相关的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:52.635346"
+}

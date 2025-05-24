@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "naive Bayes",
+    "feature selection"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning methods for predictive modeling of implantation outcomes in IVF.",
+    "supervised learning": "The study uses labeled data (positive and negative implantation outcomes) to train classifiers, which is a characteristic of supervised learning.",
+    "classification": "The paper focuses on predicting binary implantation outcomes (+1 or -1), which is a classification problem.",
+    "naive Bayes": "The naive Bayes model is specifically mentioned as one of the classifiers tested, achieving 80.4% accuracy.",
+    "feature selection": "The paper discusses the use of information gain feature weighting and forward feature selection methods to assess the predictive values of clinical input characteristics."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"naive Bayes\",\n    \"feature selection\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning methods for predictive modeling of implantation outcomes in IVF.\",\n    \"supervised learning\": \"The study uses labeled data (positive and negative implantation outcomes) to train classifiers, which is a characteristic of supervised learning.\",\n    \"classification\": \"The paper focuses on predicting binary implantation outcomes (+1 or -1), which is a classification problem.\",\n    \"naive Bayes\": \"The naive Bayes model is specifically mentioned as one of the classifiers tested, achieving 80.4% accuracy.\",\n    \"feature selection\": \"The paper discusses the use of information gain feature weighting and forward feature selection methods to assess the predictive values of clinical input characteristics.\"\n  }\n}\n```"
+}

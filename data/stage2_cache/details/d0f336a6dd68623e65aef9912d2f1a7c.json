@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 112,
+    "title": "Robust portfolio management: A novel multi-task learning model fusing predicted returns and residual data under the framework of Mean-VaR",
+    "abstract": "We investigate how to build a robust portfolio by introducing a novel multi-task learning model that fuses predicted returns and residual data to assess the portfolio risk under the decision-making framework of Mean-VaR. A common way to build a portfolio is to predict the return of assets and then allocate weights according to the predicted return and corresponding risk. However, predicting asset returns accurately in financial markets remains a challenge. To improve prediction accuracy and, more importantly, effectively reduce risk in the portfolio, we adopt the multi-task learning anomaly detection (MTLAD). In this model, predicting asset returns using deep learning model (long short-term memory, LSTM) is the main task, and anomaly detection is the auxiliary task. We then combine the predicted returns and residual data to evaluate the risk measure when allocating the asset weights. Furthermore, we perform an extensive numerical investigation based on data in the Chinese financial market. Results obtained show that our robust portfolio management approach has great potential compared with multiple benchmarks.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "5e59238cfef16d1b2483890a56daaaa1",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:33:49.079589"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是构建一个稳健的投资组合，通过多任务学习模型融合预测收益和残差数据来评估投资组合风险，并在Mean-VaR决策框架下进行资产权重分配。这直接涉及投资组合管理的核心问题。同时，论文强调通过异常检测来降低投资组合风险，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是构建一个稳健的投资组合，通过多任务学习模型融合预测收益和残差数据来评估投资组合风险，并在Mean-VaR决策框架下进行资产权重分配。这直接涉及投资组合管理的核心问题。同时，论文强调通过异常检测来降低投资组合风险，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:09.005958"
+}

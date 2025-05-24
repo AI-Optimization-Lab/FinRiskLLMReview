@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 8559,
+    "title": "Predicting firm failure in the software industry",
+    "abstract": "Firm failure rate in the software industry is significantly higher than other industries. Due to the wide use of software products and services, failure in the software industry has implications on the industry itself as well as the economy at the local, national and global levels. This study compares the classification performance of thirteen approaches in terms of predicting firm failure in the US software industry. Seven measures are used to evaluate the classifiers' performance. We use synthetic minority oversampling technique (SMOTE), SMOTEBoost and SMOTEBagging to account for the data imbalance issue. In order to give managers enough time to develop strategies and take the necessary actions to reduce the likelihood of failing, we use 20 financial indicators collected 4 years before the last available date about each firm. Our findings show that embedding SMOTE into boosting and bagging algorithms is better than preprocessing data using SMOTE before learning the classifier. According to the sensitivity analysis, research and development expense is the most significant predictor of firm failure followed by net sales and total revenue. Our results can be used by managers as a decision support tool to identify high-risk firms at an early stage and take the necessary actions to prevent a firm from failing. The early prediction of firm failure will allow software firms to modularize their products or services into specific features and offer them as digital services using new business models or combine these services with partner firms' services to create new products and address evolving customer expectations. Moreover, the early prediction of firm failure in the software industry calls on firms, both new and those in the growth stage, to componentize their design for adaptability and to build agility in the way firms use their resource mix to address both market gaps as well as operational gaps.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0375e69c202a6b67cf96eed7f08dc227",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T03:19:52.246172"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习方法预测软件行业中的企业失败，虽然涉及财务指标分析，但其核心应用是企业经营风险评估而非特定的金融研究领域（如衍生品定价、金融风险管理或投资组合管理）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习方法预测软件行业中的企业失败，虽然涉及财务指标分析，但其核心应用是企业经营风险评估而非特定的金融研究领域（如衍生品定价、金融风险管理或投资组合管理）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:36.356581"
+}

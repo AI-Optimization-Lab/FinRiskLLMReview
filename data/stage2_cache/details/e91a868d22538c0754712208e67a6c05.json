@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1024,
+    "title": "基于集成预测的均值-方差-熵的模糊投资组合选择",
+    "abstract": "通过基于集成预测的方法构建模糊投资组合,代表性地选择了遗传神经网络模型、多因素SVM回归模型和ARIMA时间序列模至作为组合预测中的单一模型,并将单一模型预测结果佳为模糊变量进行投资组合优化,实证结果表明基于集成预测的均值-方差-熵的投资组合相比其他组合收益率更高,相对风险更低.该方法可以用于投资基金管理、金融风险管理等实际工作中,以便提高决策的科学性.",
+    "year": 2013,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "248e6142e313a76b2d4e06ae2598569c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-14T22:35:19.597191"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是基于集成预测的模糊投资组合优化方法，明确应用于投资组合管理领域，旨在提高收益率并降低风险。同时，论文提到该方法可以用于金融风险管理，表明其应用范围也涵盖这一领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是基于集成预测的模糊投资组合优化方法，明确应用于投资组合管理领域，旨在提高收益率并降低风险。同时，论文提到该方法可以用于金融风险管理，表明其应用范围也涵盖这一领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:36:35.464101"
+}

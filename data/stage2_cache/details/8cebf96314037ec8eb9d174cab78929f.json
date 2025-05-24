@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1033,
+    "title": "Diagnosis Osteoporosis Risk: Using Machine Learning Algorithms Among Fasa Adults Cohort Study (FACS)",
+    "abstract": "IntroductionIn Iran, the assessment of osteoporosis through tools like dual-energy X-ray absorptiometry poses significant challenges due to their high costs and limited availability, particularly in small cities and rural areas. Our objective was to employ a variety of machine learning (ML) techniques to evaluate the accuracy and precision of each method, with the aim of identifying the most accurate pattern for diagnosing the osteoporosis risks.MethodsWe analysed the data related to osteoporosis risk factors obtained from the Fasa Adults Cohort Study in eight ML methods, including logistic regression (LR), baseline LR, decision tree classifiers (DT), support vector classifiers (SVC), random forest classifiers (RF), linear discriminant analysis (LDA), K nearest neighbour classifiers (KNN) and extreme gradient boosting (XGB). For each algorithm, we calculated accuracy, precision, sensitivity, specificity, F1 score and area under the curve (AUC) and compared them.ResultsThe XGB model with an AUC of 0.78 (95% confidence interval [CI]: 0.74-0.82) and an accuracy of 0.79 (0.75-0.83) demonstrated the best performance, while AUC and accuracy values of RF were achieved (0.78 and 0.77), LR (0.78 and 0.77), LDA (0.78 and 0.76), DT (0.76 and 0.79), SVC (0.71 and 0.64), KNN (0.63 and 0.59) and baseline LR (0.72 and 0.82), respectively.ConclusionThe XGB model had the best performance in assessing the risk of osteoporosis in the Iranian population. Given the disadvantages and challenges associated with traditional osteoporosis diagnostic tools, the implementation of ML algorithms for the early identification of individuals with osteoporosis can lead to a significant reduction in morbidity and mortality related to this condition. This advancement not only alleviates the substantial financial burden placed on the healthcare systems of various countries due to the treatment of complications arising from osteoporosis but also encourages health policies to shift toward more preventive approaches for managing this disease.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "df1b9f488faffbacdd1ecfa43bf013e1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "random forest",
+      "logistic regression",
+      "gradient boosting"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:08.491399"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习算法评估骨质疏松症风险，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习算法评估骨质疏松症风险，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:40.850627"
+}

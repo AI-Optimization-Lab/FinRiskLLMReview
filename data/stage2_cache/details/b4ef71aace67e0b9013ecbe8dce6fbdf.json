@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 55,
+    "title": "基于LSSVM模型的我国信用债风险预警研究",
+    "abstract": "作为重要的金融市场，我国信用债市场的风险状况威胁金融安全与稳定，因此，对其风险状况进行识别与预警，是当前建设金融强国的重要方面。鉴于此，本文突破传统统计方法的局限，利用机器学习算法构建包含微观与宏观两方面的预警模型，从静态与动态角度对我国的信用债风险状况进行了科学研判。在微观层面，利用财务指标、个体指标，判断单只债券的违约概率。在宏观层面，划分风险等级，通过时间序列拟合滞后一期的市场波动情况。通过对多种模型运行结果的对比分析，LSSVM方法表现较佳，能更好地模拟与预测现实语境下的信用债风险情况。本文丰富了以债券和债券市场为主轴的风险预警研究，增加了信用债风险的研判维度，为金融风险管理者提供了有效的预警方法和借鉴。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f4028ede6f1200c01c9a58daa0aeeed0",
+    "relevant_keywords": [
+      "machine learning",
+      "support vector machine",
+      "SVM",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:26:31.838865"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用LSSVM模型对信用债风险进行预警，包括微观层面的违约概率预测和宏观层面的市场波动预测，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用LSSVM模型对信用债风险进行预警，包括微观层面的违约概率预测和宏观层面的市场波动预测，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:39:55.749846"
+}

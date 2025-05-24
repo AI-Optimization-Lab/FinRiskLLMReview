@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using machine learning algorithms for due diligence evaluation of non-performing loans.",
+    "supervised learning": "The paper uses a random forest regressor, which is a supervised learning method, to predict recovery rates.",
+    "regression": "The paper employs a random forest regressor algorithm for projecting the recovery rate, indicating the use of regression techniques.",
+    "decision tree": "Random forest is an ensemble method based on decision trees, so the paper implicitly involves decision trees."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"regression\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using machine learning algorithms for due diligence evaluation of non-performing loans.\",\n    \"supervised learning\": \"The paper uses a random forest regressor, which is a supervised learning method, to predict recovery rates.\",\n    \"regression\": \"The paper employs a random forest regressor algorithm for projecting the recovery rate, indicating the use of regression techniques.\",\n    \"decision tree\": \"Random forest is an ensemble method based on decision trees, so the paper implicitly involves decision trees.\"\n  }\n}\n```"
+}

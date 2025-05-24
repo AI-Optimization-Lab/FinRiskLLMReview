@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 265,
+    "title": "Deep Learning for Options Trading: An End-To-End Approach",
+    "abstract": "We introduce a novel approach to options trading strategies using a highly scalable and data-driven machine learning algorithm. In contrast to traditional approaches that often require specifications of underlying market dynamics or assumptions on an option pricing model, our models depart fundamentally from the need for these prerequisites, directly learning non-trivial mappings from market data to optimal trading signals. Backtesting on more than a decade of option contracts for equities listed on the S&P 100, we demonstrate that deep learning models trained according to our end-to-end approach exhibit significant improvements in risk-adjusted performance over existing rules-based trading strategies. We find that incorporating turnover regularization into the models leads to further performance enhancements at prohibitively high levels of transaction costs.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "f28f19964eac8b242e0be910db9e5af6",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.058270"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型直接从市场数据中学习最优交易信号，用于期权交易策略。虽然论文没有直接涉及传统的衍生品定价模型，但其研究目标是优化期权交易，这属于衍生品定价的应用范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型直接从市场数据中学习最优交易信号，用于期权交易策略。虽然论文没有直接涉及传统的衍生品定价模型，但其研究目标是优化期权交易，这属于衍生品定价的应用范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:41.646772"
+}

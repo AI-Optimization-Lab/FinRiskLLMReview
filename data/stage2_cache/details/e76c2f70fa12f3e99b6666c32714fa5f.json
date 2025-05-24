@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3299,
+    "title": "Risk management with local least squares Monte Carlo",
+    "abstract": "The least squares Monte Carlo method has become a standard approach in the insurance and financial industries for evaluating a company's exposure to market risk. However, the non-linear regression of simulated responses on risk factors poses a challenge in this procedure. This article presents a novel approach to address this issue by employing an a-priori segmentation of responses. Using a K-means algorithm, we identify clusters of responses that are then locally regressed on their corresponding risk factors. The global regression function is obtained by combining the local models with logistic regression. We demonstrate the effectiveness of the proposed local least squares Monte Carlo method through two case studies. The first case study investigates butterfly and bull trap options within a Heston stochastic volatility model, while the second case study examines the exposure to risks in a participating life insurance scenario.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "107a56c53f52b880a3b455ae7ec48be1",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "regression",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:24:39.733458"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文提出了一种改进的最小二乘蒙特卡洛方法，用于评估公司对市场风险的暴露，这属于金融风险管理的范畴。此外，论文通过案例研究探讨了蝴蝶和牛市陷阱期权在Heston随机波动率模型中的应用，这属于衍生品定价的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"衍生品定价\"],\n  \"justification\": \"该论文提出了一种改进的最小二乘蒙特卡洛方法，用于评估公司对市场风险的暴露，这属于金融风险管理的范畴。此外，论文通过案例研究探讨了蝴蝶和牛市陷阱期权在Heston随机波动率模型中的应用，这属于衍生品定价的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:37:18.670696"
+}

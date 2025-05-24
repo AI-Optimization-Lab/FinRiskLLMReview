@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 373,
+    "title": "LexDeep: Hybrid Lexicon and Deep Learning Sentiment Analysis Using Twitter for Unemployment-Related Discussions During COVID-19",
+    "abstract": "The COVID-19 pandemic has spread globally, resulting in financial instability in many countries and reductions in the per capita gross domestic product. Sentiment analysis is a cost-effective method for acquiring sentiments based on household income loss, as expressed on social media. However, limited research has been conducted in this domain using the LexDeep approach. This study aimed to explore social trend analytics using LexDeep, which is a hybrid sentiment analysis technique, on Twitter to capture the risk of household income loss during the COVID-19 pandemic. First, tweet data were collected using Twint with relevant keywords before (9 March 2019 to 17 March 2020) and during (18 March 2020 to 21 August 2021) the pandemic. Subsequently, the tweets were annotated using VADER (lexiconbased) and fed into deep learning classifiers, and experiments were conducted using several embeddings, namely simple embedding, Global Vectors, and Word2Vec, to classify the sentiments expressed in the tweets. The performance of each LexDeep model was evaluated and compared with that of a support vector machine (SVM). Finally, the unemployment rates before and during COVID-19 were analysed to gain insights into the differences in unemployment percentages through social media input and analysis. The results demonstrated that all LexDeep models with simple embedding outperformed the SVM. This confirmed the superiority of the proposed LexDeep model over a classical machine learning classifier in performing sentiment analysis tasks for domain-specific sentiments. In terms of the risk of income loss, the unemployment issue is highly politicised on both the regional and global scales; thus, if a country cannot combat this issue, the global economy will also be affected. Future research should develop a utility maximisation algorithm for household welfare evaluation, given the percentage risk of income loss owing to COVID-19.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8866f37872dc16533b8f0ce4357082c2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.010886"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用混合情感分析技术（LexDeep）来分析社交媒体上关于失业和收入损失的讨论，其核心应用是情感分析和失业率分析，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用混合情感分析技术（LexDeep）来分析社交媒体上关于失业和收入损失的讨论，其核心应用是情感分析和失业率分析，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:29.572604"
+}

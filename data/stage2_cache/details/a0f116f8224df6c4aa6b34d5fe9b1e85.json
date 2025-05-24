@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 152,
+    "title": "Deep reinforcement learning-driven intelligent portfolio management with green computing: Sustainable portfolio optimization and management",
+    "abstract": "Portfolio management remains a key area in quantitative trading. To address limitations in existing deep reinforcement learning (DRL)-based models, which fail to adapt trading strategies and properly utilize supervisory information, we propose a Dynamic Predictor Selection-based Deep Reinforcement Learning (DPDRL) model. The DPDRL model integrates multiple predictors to forecast stock movements and dynamically selects the most accurate predictions, optimizing investment allocation via a market environment evaluation module. Our model was evaluated using daily candlestick data from the SSE 50 and CSI 500 indices. The results show that DPDRL outperforms other models in key evaluation metrics: it achieves a 48.99 % Annualized Rate of Return (ARR), a Sharpe ratio of 2.34, an Annualized Volatility (AVoL) of 0.1390, and a Maximum Drawdown (MDD) of 8.21 %, significantly improving risk-return performance. Ablation experiments confirm the contributions of the dynamic predictor selector and market evaluation module to the model's accuracy and decision-making quality.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "550b365b95c79fac41da3b3ccac0630c",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.074603"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习（DRL）来优化投资组合管理，通过动态预测选择和市场环境评估模块来优化投资分配，并显著提高了风险回报表现。论文明确提到其研究目标是改进现有的投资组合管理模型，并通过实验验证了其在投资组合管理中的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习（DRL）来优化投资组合管理，通过动态预测选择和市场环境评估模块来优化投资分配，并显著提高了风险回报表现。论文明确提到其研究目标是改进现有的投资组合管理模型，并通过实验验证了其在投资组合管理中的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:19.262204"
+}

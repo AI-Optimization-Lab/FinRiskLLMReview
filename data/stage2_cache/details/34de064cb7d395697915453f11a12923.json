@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 443,
+    "title": "Modeling the Price of Natural Gas with Temperature and Oil Price as Exogenous Factors",
+    "abstract": "The literature on stochastic models for the spot market of gas is dominated by purely stochastic approaches. In contrast to these models, Stoll and Wiebauer [14] propose a fundamental model with temperature as an exogenous factor. A model containing only deterministic, temperature-dependent and purely stochastic components, however, still seems not able to capture economic influences on the price. In order to improve the model of Stoll and Wiebauer [ 14], we include the oil price as another exogenous factor. There are at least two fundamental reasons why this should improve the model. First, the oil price can be considered as a proxy for the general state of the world economy. Furthermore, pricing formulas in oil price indexed gas import contracts in Central Europe are covered by the oil price component. It is shown that the new model can explain price movements of the last few years much better than previous models. The inclusion of oil price and temperature in the regression of a least squares Monte Carlo method leads to more realistic valuation results for gas storages and swing options.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "031a9a3f977d4625e575350118d13686",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:50.796007"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的主要技术应用是通过回归和最小二乘蒙特卡洛方法来改进天然气价格的模型，并特别提到了对天然气存储和摆动期权（swing options）的更现实估值。摆动期权是一种衍生品，因此该论文的核心技术主要应用于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的主要技术应用是通过回归和最小二乘蒙特卡洛方法来改进天然气价格的模型，并特别提到了对天然气存储和摆动期权（swing options）的更现实估值。摆动期权是一种衍生品，因此该论文的核心技术主要应用于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:50.552576"
+}

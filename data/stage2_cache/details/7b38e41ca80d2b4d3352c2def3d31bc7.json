@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 45,
+    "title": "Financial Loan Overdue Risk Detection via Meta-path-based Graph Neural Network",
+    "abstract": "Overdue risk detection of consumer loans is a critical issue faced by consumer finance companies. Unlike other types of loans, such as mortgage loans and guaranteed loans, consumer loans only regard personal credit as collateral. As a high overdue rate will result in economic losses to financial companies, it is of great significance for lenders to accurately detect risky customers. However, the large volume of credit data and the variety of customer characteristics make the risk detection via manual expert analysis rather challenging. Additionally, previous loan risk detection approaches based on machine learning classification neglect the relations between different customers, and traditional graph neural networks lack the exploration of loan overdue patterns. In this paper, we construct a heterogeneous graph based on real credit data from a consumer finance company. We analyze the distribution of meta-paths and propose a meta-path-based graph neural network that combines both lower-order and higher-order features. Experimental results show that our model is able to detect more risky customers by exploring overdue patterns and can achieve the best effect in the loan overdue detection task.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9f7c8f1d6377f78a294cb89e35735b2f",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:03.869294"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on detecting overdue risks in consumer loans using a meta-path-based graph neural network, which is a specific application within financial risk management, particularly in credit risk assessment.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on detecting overdue risks in consumer loans using a meta-path-based graph neural network, which is a specific application within financial risk management, particularly in credit risk assessment.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:20:20.276344"
+}

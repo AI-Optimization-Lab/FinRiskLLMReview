@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3433,
+    "title": "Gaussian process regression for seismic fragility assessment of building portfolios",
+    "abstract": "Seismic fragility assessment of building portfolios is often based on the analysis of average building models representative of structural types (or building classes), thus neglecting building-to-building variability within a structural type. This paper proposes the use of Gaussian process (GP) regressions to develop flexible and accurate metamodels explicitly mapping building-class attributes to the seismic fragility parameters. The proposed metamodels can enable analysts to account for building-to-building variability in simulation-based seismic risk assessment of building portfolios. Unlike other commonly-used metamodels, GP regressions do not require the a-priori definition of a prediction function and they quantify the uncertainty on the predictions in a refined and explicit fashion. The proposed method is demonstrated for a portfolio of seismically-deficient reinforced concrete school buildings with construction details typical of some developing countries. Based on the available information about the building attributes (e.g. geometry, materials, detailing), building realisations are generated based on two alternative approaches, which are critically compared: design of experiment and Monte Carlo sampling. Cloud-based time-history analysis for each building realisation is performed using unsealed real ground-motion records; fragility relationships are derived for four structure-specific damage states. A GP regression is then developed for each considered fragility parameter (i.e. median and dispersion). To further increase the tractability and scalability of the methodology, alternative metamodels are defined based on numerical non-linear static pushover analyses or analytical by-hand pushover analyses, through the Simple Lateral Mechanism Analysis (SLaMA) method. The results show that, for the considered portfolio, the fitted GP regressions have a high predictive power in surrogating the modelled fragility, demonstrating the feasibility of the approach in practice. It is also shown that the choice of the sampling technique could be based on the input data availability, rather than on the expected computational burden. Finally, the use of simplified methods for response analysis shows acceptable error levels with respect to the full time-history analysis results. Such simplified methods can be promising alternatives to generate large training datasets for the proposed GP regressions. This increases the potential of training metamodels in practical portfolio risk assessment applications, in which a high number of building types, each characterised by a large number of attributes, is generally involved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f7b52df3539b02e0906b5d09fc7a71c9",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:55.601159"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用高斯过程回归进行建筑物组合的地震脆弱性评估，其应用领域是结构工程和地震风险评估，并未涉及金融领域的衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用高斯过程回归进行建筑物组合的地震脆弱性评估，其应用领域是结构工程和地震风险评估，并未涉及金融领域的衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:45.023625"
+}

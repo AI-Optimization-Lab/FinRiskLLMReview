@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1609,
+    "title": "A Portfolio Selection Model for Robo-Advisor",
+    "abstract": "In order to build a portfolio selection model for a robo-advisor, which can be used on ETFs of mainland China and get the efficient frontier, a number of models based on the mean-variance model arc studied and analyzed experimentally, the results show that the hybrid model using Hopfield neural network and genetic algorithm can output efficient frontier better than others. Based on this, exponentially weighted moving average/covariance are applied to adjust the model's inputs, that is, the mean and covariance of assets's return rate. Experiments were conducted using the collected transaction data of ETFs, the results show that after the adjustment the model can know future performance of portfolios better based on long-term historical transaction data.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "55577bcb9946529b8a89f01e37ba8056",
+    "relevant_keywords": [
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.812759"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建一个用于机器人顾问的投资组合选择模型，旨在通过改进的均值-方差模型和优化算法（如Hopfield神经网络和遗传算法）来生成有效前沿，并调整资产收益率的均值和协方差以优化投资组合。这些内容明确指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建一个用于机器人顾问的投资组合选择模型，旨在通过改进的均值-方差模型和优化算法（如Hopfield神经网络和遗传算法）来生成有效前沿，并调整资产收益率的均值和协方差以优化投资组合。这些内容明确指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:45.274582"
+}

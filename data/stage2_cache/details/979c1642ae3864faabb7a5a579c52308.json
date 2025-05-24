@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 222,
+    "title": "Artificial neural network for option pricing with and without asymptotic correction",
+    "abstract": "This paper proposes a mixed approach of asymptotic expansion (AE) and artificial neural network (ANN) methods for option pricing in order to improve computational speed, stability, and approximation accuracy. In practice, there is wide use of complex stochastic volatility models (SVMs) which can allow for skew and smile shapes. However, under these models, it is usually hard to obtain analytical solutions for options written on the asset price. AE can compute option prices and their sensitivities effectively, but it can usually only compute a finite sum of terms of the complete solution because, as the expansion order increases, both analytical and numerical calculations become tedious and messy and the computational cost grows exponentially. On the other hand, using ANN one can separate the pricing procedure into two steps: (1) approximating ANN that can be trained offline and (2) using the ANN predicted option price obtained online. The offline procedure has an extremely high-computational cost because it requires tens to hundreds of thousands of Monte Carlo (MC) or PDE numerical simulations in order to train several hidden layers and several dozens of nodes. Moreover, deep learning (DL) for option pricing shows unstable behaviour and poor quality because the sensitivity of the derivatives price with respect to the input often takes a bell-shape, which induces rapid changes in value. By combining the strong points and making up for the weak points of the two methods, our new approach offers the following improvements: (1) much less training data, layers, and nodes are required: (2) the offline training becomes more robust and the online predictions produce more stable and accurate results: and (3) it significantly speeds up the offline calculations.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "97f96ac9cde55bfcd85ca8b7e898cd2c",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "hidden layer",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.184643"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是结合渐近展开（AE）和人工神经网络（ANN）方法来改进期权定价的计算速度、稳定性和近似精度。论文明确讨论了在复杂随机波动率模型（SVMs）下期权定价的问题，并提出了新的方法来提高定价的效率和准确性。因此，该论文的主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是结合渐近展开（AE）和人工神经网络（ANN）方法来改进期权定价的计算速度、稳定性和近似精度。论文明确讨论了在复杂随机波动率模型（SVMs）下期权定价的问题，并提出了新的方法来提高定价的效率和准确性。因此，该论文的主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:03.517893"
+}

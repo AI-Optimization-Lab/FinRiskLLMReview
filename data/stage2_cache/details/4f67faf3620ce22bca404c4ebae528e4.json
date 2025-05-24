@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1771,
+    "title": "Temporal and Heterogeneous Graph Neural Network for Financial Time Series Prediction",
+    "abstract": "The price movement prediction of stock market has been a classical yet challenging problem, with the attention of both economists and computer scientists. In recent years, graph neural network has significantly improved the prediction performance by employing deep learning on company relations. However, existing relation graphs are usually constructed by handcraft human labeling or nature language processing, which are suffering from heavy resource requirement and low accuracy. Besides, they cannot effectively response to the dynamic changes in relation graphs. Therefore, in this paper, we propose a temporal and heterogeneous graph neural network-based (THGNN) approach to learn the dynamic relations among price movements in financial time series. In particular, we first generate the company relation graph for each trading day according to their historic price. Then we leverage a transformer encoder to encode the price movement information into temporal representations. Afterward, we propose a heterogeneous graph attention network to jointly optimize the embeddings of the financial time series data by transformer encoder and infer the probability of target movements. Finally, we conduct extensive experiments on the stock market in the United States and China. The results demonstrate the effectiveness and superior performance of our proposed methods compared with state-of-the-art baselines. Moreover, we also deploy the proposed THGNN in a real-world quantitative algorithm trading system, the accumulated portfolio return obtained by our method significantly outperforms other baselines.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e649581070457691112e05a3a0bddc8e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism",
+      "transformer encoder",
+      "graph neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:23.001928"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一种基于时间异构图神经网络的方法来预测股票价格变动，并实际部署于量化算法交易系统中，显著提升了投资组合的累计回报。这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一种基于时间异构图神经网络的方法来预测股票价格变动，并实际部署于量化算法交易系统中，显著提升了投资组合的累计回报。这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:07.406074"
+}

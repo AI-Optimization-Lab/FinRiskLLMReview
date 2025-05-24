@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 753,
+    "title": "Machine Learning Modeling to Predict Atrial Fibrillation Detection in Embolic Stroke of Undetermined Source Patients",
+    "abstract": "Background: In patients with embolic stroke of undetermined source (ESUS), occult atrial fibrillation (AF) has been implicated as a key source of cardioembolism. However, only a minority acquire implantable cardiac loop recorders (ILRs) to detect occult paroxysmal AF, partly due to financial cost and procedural inconvenience. Without the initiation of appropriate anticoagulation, these patients are at risk of increased ischemic stroke recurrence. Hence, cost-effective and accurate methods of predicting AF in ESUS patients are highly sought after. Objective: We aimed to incorporate clinical and echocardiography data into machine learning (ML) algorithms for AF prediction on ILRs in ESUS. Methods: This was a single-center cohort study that included 157 consecutive patients diagnosed with ESUS from October 2014 to October 2017 who had ILR evaluation. We developed four ML models, with hyperparameters tuned, to predict AF detection on an ILR. Results: The median age of the cohort was 67 (IQR 59-74) years old and the median monitoring duration was 1051 (IQR 478-1287) days. Of the 157 patients, 32 (20.4%) had occult AF detected on the ILR. Support vector machine predicted for AF with a 95% confidence interval area under the receiver operating characteristic curve (AUC) of 0.736-0.737, multilayer perceptron with an AUC of 0.697-0.708, XGBoost with an AUC of 0.697-0.697, and random forest with an AUC of 0.663-0.674. ML feature importance found that age, HDL-C, and admitting heart rate were important non-echocardiography variables, while peak mitral A-wave velocity and left atrial volume were important echocardiography parameters aiding this prediction. Conclusion: Machine learning modeling incorporating clinical and echocardiographic variables predicted AF in ESUS patients with moderate accuracy.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "236ee06ae30d0d5abe05737e622a81c5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:34.140034"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究机器学习模型在医疗领域的应用，特别是预测心房颤动的检测，与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究机器学习模型在医疗领域的应用，特别是预测心房颤动的检测，与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:23.549372"
+}

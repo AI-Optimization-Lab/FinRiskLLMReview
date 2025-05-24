@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "classification",
+    "regression"
+  ],
+  "explanations": {
+    "classification": "论文使用了Logistic回归模型来分析贷款逾期与否，这是一个典型的分类问题，预测贷款是否会逾期。",
+    "regression": "Logistic回归虽然用于分类，但它本身是一种回归方法，用于估计概率。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"classification\", \"regression\"],\n  \"explanations\": {\n    \"classification\": \"论文使用了Logistic回归模型来分析贷款逾期与否，这是一个典型的分类问题，预测贷款是否会逾期。\",\n    \"regression\": \"Logistic回归虽然用于分类，但它本身是一种回归方法，用于估计概率。\"\n  }\n}\n```"
+}

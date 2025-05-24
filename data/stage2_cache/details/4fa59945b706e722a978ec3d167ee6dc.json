@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1377,
+    "title": "Technical analysis and sentiment embeddings for market trend prediction",
+    "abstract": "Stock market prediction is one of the most challenging problems which has been distressing both researchers and financial analysts for more than half a century. To tackle this problem, two completely opposite approaches, namely technical and fundamental analysis, emerged. Technical analysis bases its predictions on mathematical indicators constructed on the stocks price, while fundamental analysis exploits the information retrieved from news, profitability, and macroeconomic factors. The competition between these schools of thought has led to many interesting achievements, however, to date, no satisfactory solution has been found. Our work aims to combine both technical and fundamental analysis through the application of data science and machine learning techniques. In this paper, the stock market prediction problem is mapped in a classification task of time series data. Indicators of technical analysis and the sentiment of news articles are both exploited as input. The outcome is a robust predictive model able to forecast the trend of a portfolio composed by the twenty most capitalized companies listed in the NASDAQ100 index. As a proof of real effectiveness of our approach, we exploit the predictions to run a high frequency trading simulation reaching more than 80% of annualized return. This project represents a step forward to combine technical and fundamental analysis and provides a starting point for developing new trading strategies. (C) 2019 Elsevier Ltd. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "831176f047937d0f4398911b0dc07d53",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:56.543519"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合技术分析和情感分析来预测股票市场趋势，并应用于构建和预测由NASDAQ100指数中二十家最大公司组成的投资组合的趋势。此外，论文还通过高频交易模拟来验证其方法的有效性，这直接关联到投资组合管理的实践。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合技术分析和情感分析来预测股票市场趋势，并应用于构建和预测由NASDAQ100指数中二十家最大公司组成的投资组合的趋势。此外，论文还通过高频交易模拟来验证其方法的有效性，这直接关联到投资组合管理的实践。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:34.279517"
+}

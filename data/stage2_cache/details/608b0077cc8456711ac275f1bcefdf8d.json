@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 652,
+    "title": "Robo-Advising: Enhancing Investment with Inverse Optimization and Deep Reinforcement Learning",
+    "abstract": "Machine Learning (ML) has been embraced as a powerful tool by the financial industry, with notable applications spreading in various domains including investment management. In this work, we propose the first full-cycle data-driven investment robo-advising framework, consisting of two ML agents. The first agent, an inverse portfolio optimization agent, infers an investor's risk preference and expected return directly from historical allocation data using online inverse optimization. The second agent, a deep reinforcement learning (RL) agent, aggregates the inferred sequence of expected returns to formulate a new multi-period mean-variance portfolio optimization problem that can be solved using deep RL approaches. The proposed investment pipeline is applied on real market data from April 1, 2016 to February 1, 2021 and has shown to consistently outperform the S&P 500 benchmark portfolio that represents the aggregate market optimal allocation. The outperformance may be attributed to the the multi-period planning (versus single-period planning) and the data-driven RL approach (versus classical estimation approach).",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a6475efb077a83621f0922183f7e4f74",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.951907"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用逆优化和深度强化学习来构建一个全周期的投资机器人顾问框架，旨在优化多期均值-方差投资组合，并实际应用于市场数据以超越基准投资组合表现。这明确属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用逆优化和深度强化学习来构建一个全周期的投资机器人顾问框架，旨在优化多期均值-方差投资组合，并实际应用于市场数据以超越基准投资组合表现。这明确属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:14.154389"
+}

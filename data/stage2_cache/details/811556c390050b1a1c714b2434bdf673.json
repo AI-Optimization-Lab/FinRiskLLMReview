@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1307,
+    "title": "Forecasting NFT coin prices using machine learning: Insights into feature significance and portfolio strategies",
+    "abstract": "With the rise in popularity of Non-Fungible Tokens (NFTs), the demand for NFT coins has also surged. NFT coins are cryptocurrencies that facilitate NFT ecosystems by supporting NFT trading and platform governance. Accurate price predictions of NFT coins are crucial for risk managing volatility and constructing optimal portfolios. This study employs machine learning techniques to predict the daily price direction of four key NFT coins, namely ENJ, MANA, THETA, and XTZ. The machine learning methods employed include three decision tree-based methods (random forests, extremely randomized trees, XGBoost), support vector machine, Lasso and Naive Bayes. The findings show that random forests, extremely randomized trees, XGBoost, and support vector machine models have accuracy ranging between 80% and 90% for predictions in the 14 to 21 day range. This adds to the literature showing that machine learning methods have high prediction accuracy for cryptocurrency prices. Conversely, Lasso or Naive Bayes models yield considerably lower prediction accuracy. Feature importance is assessed using Shapley values. The Shapley value feature importance calculated from random forests highlights that, for 14 and 21-day forecasts, four variables -five-year expected inflation, ten-year bond yields, the interest rate spread, and on balance volume -are consistently highly ranked across all NFT coins. Additionally, the MA50, MA200, and WAD also emerge as important features. These results highlight the importance of including macroeconomic variables which capture business cycle conditions and technical analysis indicators that capture investor psychology as features. NFT coin portfolios constructed using trading signals generated from Extra Trees outperforms a buy and hold port-folio. Extra Trees are easy and fast to implement and investors not making use of this information are likely making sub-optimal investment decisions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "85bb87b8a3da664e078a15d05519a1a1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:24.639008"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法预测NFT硬币的价格方向，目的是为了管理价格波动的风险（金融风险管理）和构建优化的投资组合（投资组合管理）。论文明确提到了风险管理和投资组合策略的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法预测NFT硬币的价格方向，目的是为了管理价格波动的风险（金融风险管理）和构建优化的投资组合（投资组合管理）。论文明确提到了风险管理和投资组合策略的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:04.504140"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 545,
+    "title": "Modified fuzzy support vector machine for credit approval classification",
+    "abstract": "In the recent past, credit approval is a significant problem in credit risk management. Making decision to approve a credit has been a source of major concern for financial institutions. As such the problem is formulated as classification problem where making correct decision yields maximum returns. The classification task is taken care of by modified fuzzy support vector machine (MFSVM). It is variant of fuzzy support vector machine (FSVM) developed by Chaudhuri et al. The inherent vagueness and uncertainty in training samples are handled by new fuzzy membership function with hyperbolic tangent kernel. The success of classification lies in considering fuzzy membership function as function of center and radius of each class in feature space and representing it with kernel. In nonlinear training samples, input space is mapped into high dimensional feature space to compute separating surface using linear separating method. The different input points make unique contributions to decision surface. MFSVM produces significant results for Australian Credit Approval dataset. The model is tested with both linear and nonlinear kernels. MFSVM performance is also assessed in light of number of support vectors required to model the data. The effect of variability in prediction and generalization of MFSVM is studied with respect to parameters C and delta (2). The area under curve helps to reduce imbalance issues in the dataset considered. The training samples are either linear or nonlinear separable. MFSVM effectively handles the issue of nonlinear classification problem. Experimental results on both artificial and real datasets support the fact that MFSVM achieves superior performance in reducing outliers' effects than FSVM.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4686e92577a00023f7bcfee5382cbca8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "tanh"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.266063"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit approval classification, which is a critical aspect of credit risk management in financial institutions. The proposed modified fuzzy support vector machine (MFSVM) is specifically designed to handle the uncertainty and vagueness in credit approval decisions, directly addressing financial risk management concerns.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit approval classification, which is a critical aspect of credit risk management in financial institutions. The proposed modified fuzzy support vector machine (MFSVM) is specifically designed to handle the uncertainty and vagueness in credit approval decisions, directly addressing financial risk management concerns.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:03.999432"
+}

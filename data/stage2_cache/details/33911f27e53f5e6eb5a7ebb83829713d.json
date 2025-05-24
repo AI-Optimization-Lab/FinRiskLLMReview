@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2922,
+    "title": "Extending the Markowitz model with dimensionality reduction: Forecasting efficient frontiers",
+    "abstract": "The Markowitz model is an established approach to portfolio optimization that constructs efficient frontiers allowing users to make optimal tradeoffs between risk and return. However, a limitation of this approach is that it assumes future asset returns and covariances will be identical to the asset's historical data, or that these model parameters can be accurately estimated, a notion which often does not hold in practice. Markowitz efficient frontiers are square root second-order polynomials that can be represented by three parameters, thus providing a significant dimensionality reduction of the lookback covariances and growth of the assets. Using this dimensionality reduction, we propose an extension to the Markowitz model that accounts for the nonstationary behavior of the portfolio assets' return and covariance without the necessity to forecast the complex covariance matrix and assets growths, something that has proven to be extremely difficult. Our methodology allows users to forecast the three efficient frontier coefficients using a time-series regression. By observing similar efficient frontiers, this forecasted efficient frontier can be used to select optimal assets mean-variance tradeoffs (asset weights). For exploratory testing we employ a set of assets that span a large portion of the market to demonstrate and validate this new approach.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "01906e85e2550a95510c3307821051f2",
+    "relevant_keywords": [
+      "regression",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T01:11:48.434427"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是扩展Markowitz模型，用于预测有效前沿并优化资产权重，这直接属于投资组合管理的范畴。论文中提到的技术和方法都是为了改进投资组合的风险和回报权衡，而不是衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是扩展Markowitz模型，用于预测有效前沿并优化资产权重，这直接属于投资组合管理的范畴。论文中提到的技术和方法都是为了改进投资组合的风险和回报权衡，而不是衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:02.727109"
+}

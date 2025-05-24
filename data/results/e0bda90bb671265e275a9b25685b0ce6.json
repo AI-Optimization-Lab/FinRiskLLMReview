@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper uses the CatBoost algorithm, which is a machine learning technique, to predict financial distress.",
+    "supervised learning": "The study involves predicting financial distress, which is a supervised learning task as it uses labeled data for training.",
+    "classification": "The prediction of financial distress is a classification problem where companies are classified into categories based on their risk of financial distress.",
+    "decision tree": "The paper mentions that CatBoost surpasses other models such as decision trees, indicating that decision trees were considered in the study."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper uses the CatBoost algorithm, which is a machine learning technique, to predict financial distress.\",\n    \"supervised learning\": \"The study involves predicting financial distress, which is a supervised learning task as it uses labeled data for training.\",\n    \"classification\": \"The prediction of financial distress is a classification problem where companies are classified into categories based on their risk of financial distress.\",\n    \"decision tree\": \"The paper mentions that CatBoost surpasses other models such as decision trees, indicating that decision trees were considered in the study.\"\n  }\n}\n```"
+}

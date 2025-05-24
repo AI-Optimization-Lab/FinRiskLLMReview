@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1189,
+    "title": "A two-stage hybrid credit risk prediction model based on XGBoost and graph-based deep neural network",
+    "abstract": "The credit risk prediction technique is an indispensable financial tool for measuring the default probability of credit applicants. With the rapid development of machine learning and the application of big data, increasingly sophisticated models have been designed to construct effective credit risk prediction models. In this study, we propose a two-stage hybrid model to enhance the prediction performance of credit risk. First, to make full use of the classified information hidden in credit data, we employ XGBoost to linearize and transform the original features into a high-dimensional sparse feature matrix. Second, to effectively process the transformed high dimensional data and to discover the relationships between the features, a recently proposed graph-based neural network (forgeNet) model, which is good at addressing high-dimensional data, is deployed to predict the credit risk. The real-world credit data of the Lending Club for the period from 2007 to 2016 were collected and partitioned based on the economic cycle to validate the robustness of the proposed model. The experimental results show that feature transformation and feature graph mining are two pragmatic processes for credit risk prediction when analyzing credit data. Furthermore, the proposed model is robust against different economic cycles and achieves the best average prediction results of 87.52%, 93.13% and 85.59% in terms of accuracy, F1 score, and G-mean compared with other benchmarks, including individuals, hybrid models, and ensembles. The average performance of the proposed model rose by 6.14, 7.59 and 6.18 percentage points, respectively, which demonstrates the outperformance of the proposed two-stage model in credit risk prediction applications",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "67a9612a6da0794b1c30f1e3520cfc32",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "feature learning",
+      "feature representation",
+      "XGBoost",
+      "graph-based neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.308994"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a hybrid model for credit risk prediction, which is a key aspect of financial risk management. The study aims to measure the default probability of credit applicants, a critical component in assessing and managing financial risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a hybrid model for credit risk prediction, which is a key aspect of financial risk management. The study aims to measure the default probability of credit applicants, a critical component in assessing and managing financial risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:36.758283"
+}

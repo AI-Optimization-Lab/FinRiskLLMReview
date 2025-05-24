@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 993,
+    "title": "Consolidated learning: a domain-specific model-free optimization strategy with validation on metaMIMIC benchmarks",
+    "abstract": "For many machine learning models, a choice of hyperparameters is a crucial step towards achieving high performance. Prevalent meta-learning approaches focus on obtaining good hyperparameter configurations with a limited computational budget for a completely new task based on the results obtained from the prior tasks. This paper proposes a new formulation of the tuning problem, called consolidated learning, more suited to practical challenges faced by model developers, in which a large number of predictive models are created on similar datasets. In such settings, we are interested in the total optimization time rather than tuning for a single task. We show that a carefully selected static portfolio of hyperparameter configurations yields good results for anytime optimization, while maintaining the ease of use and implementation. Moreover, we point out how to construct such a portfolio for specific domains. The improvement in the optimization is possible due to the more efficient transfer of hyperparameter configurations between similar tasks. We demonstrate the effectiveness of this approach through an empirical study for the XGBoost algorithm and the newly created metaMIMIC benchmarks of predictive tasks extracted from the MIMIC-IV medical database. In the paper, we show that the potential of consolidated learning is considerably greater due to its compatibility with many machine learning application scenarios.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4a618685e6c49ae109e1e37a308cacfe",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.722589"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种称为'consolidated learning'的机器学习优化策略，专注于超参数配置的静态组合以提高模型性能。虽然提到了'portfolio'一词，但这里的'portfolio'指的是超参数配置的组合，而非金融投资组合。论文的应用场景是基于医疗数据库的预测任务，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种称为'consolidated learning'的机器学习优化策略，专注于超参数配置的静态组合以提高模型性能。虽然提到了'portfolio'一词，但这里的'portfolio'指的是超参数配置的组合，而非金融投资组合。论文的应用场景是基于医疗数据库的预测任务，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:24.485019"
+}

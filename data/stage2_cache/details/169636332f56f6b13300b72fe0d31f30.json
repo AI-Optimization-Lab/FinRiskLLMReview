@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 420,
+    "title": "Sector-level equity returns predictability with machine learning and market contagion measure",
+    "abstract": "In this paper, we develop new latent risk measures that are designed as a prior synthesis of key forecasting information associated with financial market contagion. These measures are based on the decomposition (using high-frequency financial data) of the quadratic covariation between two assets into continuous and jump components. We also examine the usefulness of a large variety of machine learning methods for forecasting equity returns at market and sector levels. In addition to constructing predictions using standard machine learning methods, we also investigate the predictive performance of a group of hybrid machine learning methods that combine least absolute shrinkage operator and neural network methods. We demonstrate that the novel latent measures significantly reduce the MSFE when added into candidate machine learning models and are dominant predictive signals based on variable importance analysis, suggesting that the latent measures constructed using high-frequency financial data are useful for predicting returns. Overall, at the monthly frequency, we find that machine learning methods significantly improve forecasting performance relative to the random walk and linear benchmark alternatives, when comparing mean square forecast error (MSFE), and when implementing Diebold-Mariano (DM) predictive accuracy test. The best method is the random forest method, which wins in almost all permutations, across all of the target variables that we predict. It is also worth noting that our hybrid machine learning methods often outperform individual methods.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2fc752e232895f65acfbae22bccc852e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "random forest"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.609225"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法预测股票市场及行业层面的回报，这直接关系到资产配置和投资决策，属于投资组合管理的范畴。虽然论文提到了金融市场的传染性风险，但主要研究目标是预测回报而非风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法预测股票市场及行业层面的回报，这直接关系到资产配置和投资决策，属于投资组合管理的范畴。虽然论文提到了金融市场的传染性风险，但主要研究目标是预测回报而非风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:05.101109"
+}

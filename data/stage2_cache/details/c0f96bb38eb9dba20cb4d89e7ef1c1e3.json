@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 11,
+    "title": "基于改进BERTopic模型的领域主题表征及演化研究",
+    "abstract": "[目的/意义]瞄准领域前沿范围，预测未来发展研究主题，有助于科研工作者寻找该领域新的学科增长点，优化政府部门资源配置。[方法/过程]运用深度学习预训练模型增强文本的语义表示能力，提出改进BERTopic(SBERT-UMAP-HDBSCAN-TopMine)主题表征模型，以期丰富和完善主题表征与主题演化方法。首先，使用SBERT模型进行句子嵌入，弥补句子向量存在非光滑各向异性，UMAP降维后利用HDBSCAN算法进行主题聚类，为避免主题识别在语义表达上存在盲点，运用TopMine对聚类主题短语抽取进行主题表征；其次，利用WMD计算相邻时间段不同主题间相似度，发现不同时间段领域主题产生、发生和动态关联的过程，并对领域热点主题进行动态演化分析。[结果/结论]以供应链金融领域为例进行实证分析，将供应链金融的研究方向划分为供应链金融风险评估、供应链金融融资模式、现代金融科技赋能和可持续供应链金融4个类别，模型有助于提升供应链金融领域热点主题的可解释性与可识别性，通过动态演化分析发现可持续供应链金融是目前及未来关注的重点。",
+    "year": 2025,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7794ebe18718cd99387be6f050be9024",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "manifold learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder",
+      "attention mechanism",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:26:03.554670"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是改进BERTopic模型用于领域主题表征及演化分析，虽然以供应链金融领域为例进行实证分析，但其核心技术是文本挖掘和主题建模，并未直接涉及衍生品定价、金融风险管理或投资组合管理等具体金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是改进BERTopic模型用于领域主题表征及演化分析，虽然以供应链金融领域为例进行实证分析，但其核心技术是文本挖掘和主题建模，并未直接涉及衍生品定价、金融风险管理或投资组合管理等具体金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:01.416400"
+}

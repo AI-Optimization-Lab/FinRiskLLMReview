@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2254,
+    "title": "Stochastic model genetic programming: Deriving pricing equations for rainfall weather derivatives",
+    "abstract": "Rainfall derivatives are in their infancy since starting trading on the Chicago Mercantile Exchange (CME) in 2011. Being a relatively new class of financial instruments there is no generally recognised pricing framework used within the literature. In this paper, we propose a novel Genetic Programming (GP) algorithm for pricing contracts. Our novel algorithm, which is called Stochastic Model GP (SMGP), is able to generate and evolve stochastic equations of rainfall, which allows us to probabilistically transform rainfall predictions from the risky world to the risk-neutral world. In order to achieve this, SMGP's representation allows its individuals to comprise of two weighted parts, namely a seasonal component and an autoregressive component. To create the stochastic nature of an equation for each SMGP individual, we estimate the weights by using a probabilistic approach. We evaluate the models produced by SMGP in terms of rainfall predictive accuracy and in terms of pricing performance on 42 cities from Europe and the USA. We compare SMGP to 8 methods: its predecessor DGP, 5 well-known machine learning methods (M5 Rules, M5 Model trees, k-Nearest Neighbors, Support Vector Regression, Radial Basis Function), and two statistical methods, namely AutoRegressive Integrated Moving Average (ARIMA) and Monte Carlo Rainfall Prediction (MCRP). Results show that the proposed algorithm is able to statistically outperform all other algorithms.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7f4997e5ae994f0858a45aeadb70f59f",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:51.074445"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出了一种新的遗传编程算法（SMGP）用于降雨天气衍生品的定价，这直接属于衍生品定价的范畴。论文明确提到其目标是解决降雨衍生品定价框架的缺失问题，并通过实验验证了该算法在定价性能上的优越性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出了一种新的遗传编程算法（SMGP）用于降雨天气衍生品的定价，这直接属于衍生品定价的范畴。论文明确提到其目标是解决降雨衍生品定价框架的缺失问题，并通过实验验证了该算法在定价性能上的优越性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:39.803901"
+}

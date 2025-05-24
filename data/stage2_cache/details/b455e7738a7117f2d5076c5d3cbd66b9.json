@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 3988,
+    "title": "Predicting 30-day unplanned hospital readmission after revision total knee arthroplasty: machine learning model analysis of a national patient cohort",
+    "abstract": "Revision total knee arthroplasty (TKA) is associated with a higher risk of readmission than primary TKA. Identifying individual patients predisposed to readmission can facilitate proactive optimization and increase care efficiency. This study developed machine learning (ML) models to predict unplanned readmission following revision TKA using a national-scale patient dataset. A total of 17,443 revision TKA cases (2013-2020) were acquired from the ACS NSQIP database. Four ML models (artificial neural networks, random forest, histogram-based gradient boosting, and k-nearest neighbor) were developed on relevant patient variables to predict readmission following revision TKA. The length of stay, operation time, body mass index (BMI), and laboratory test results were the strongest predictors of readmission. Histogram-based gradient boosting was the best performer in distinguishing readmission (AUC: 0.95) and estimating the readmission probability for individual patients (calibration slope: 1.13; calibration intercept: -0.00; Brier score: 0.064). All models produced higher net benefit than the default strategies of treating all or no patients, supporting the clinical utility of the models. ML demonstrated excellent performance for the prediction of readmission following revision TKA. Optimization of important predictors highlighted by our model may decrease preventable hospital readmission following surgery, thereby leading to reduced financial burden and improved patient satisfaction.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d7853b4fad9cbf245bae7bcde3bc7ed1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "random forest",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:31:58.641311"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习模型预测医院再入院率，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习模型预测医院再入院率，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:42.830951"
+}

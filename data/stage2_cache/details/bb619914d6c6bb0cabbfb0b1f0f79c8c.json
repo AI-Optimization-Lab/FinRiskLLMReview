@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1557,
+    "title": "Scenario generation and risk-averse stochastic portfolio optimization applied to offshore renewable energy technologies",
+    "abstract": "This work proposes an analytical decision-making framework considering scenario generation using artificial neural networks and risk-averse stochastic programming to define renewable offshore portfolios of wind, wave, and ocean current technologies. For the scenario generation, a generative adversarial neural network is developed to generate synthetic energy scenarios considering resources distributed over large geographic regions. These scenarios are then fed to a stochastic model, which objective to determine the optimal location and number of turbines for each technology. In the stochastic model formulation, a representation of the limits in the portfolio Levelized Cost of Energy and the maximization of the five percent lower energy generation conditions, also known as Conditional Value at Risk, is presented. The framework proposed here is tested considering data from a portion of the U.S. East coast, where the generative model was successful in creating energy scenarios statistically consistent with the historical data for wind, wave, and ocean current resources at more than 500 sites. Furthermore, the Conditional Value at Risk portfolio optimization model was used to construct efficient frontiers for a combination of different technologies, showing the significance of resource diversification as a tool to improve system security.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0b334d5286644949e6eab51b886d6d19",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "generative adversarial neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:12.637541"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用生成对抗神经网络和风险厌恶随机规划来优化可再生能源技术的投资组合，包括确定最优的涡轮机位置和数量，并构建有效的资源多样化前沿。这直接对应于投资组合管理的应用，尽管是在能源领域而非传统金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用生成对抗神经网络和风险厌恶随机规划来优化可再生能源技术的投资组合，包括确定最优的涡轮机位置和数量，并构建有效的资源多样化前沿。这直接对应于投资组合管理的应用，尽管是在能源领域而非传统金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:12.061466"
+}

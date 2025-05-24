@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 131,
+    "title": "主成分分析在投资组合中的应用研究",
+    "abstract": "股票市场每时每刻都在变化，是一个高风险高收益的市场。在实际投资过程中，投资者期盼能够构建跑赢大盘的投资组合。通过Python对2019年上证50成分股的财务报表数据进行主成分分析，提取13个公共因子作为主成分，继而选出得分靠前的10只股票构造投资组合。基于以上10只股票2019年到2020年的财务报表数据，用等权重和随机权重两种方法确定投资组合中各只股票的权重，再分别计算其收益率和VaR(在险价值),验证投资组合是否稳定跑赢上证50指数。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b1e904adb105bcb55e1b90aeca42e745",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-14T22:14:19.074445"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是主成分分析，用于从财务报表数据中提取公共因子并构建投资组合，研究目标是验证投资组合是否跑赢大盘指数，这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是主成分分析，用于从财务报表数据中提取公共因子并构建投资组合，研究目标是验证投资组合是否跑赢大盘指数，这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:52.550268"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1393,
+    "title": "A Machine Learning Assisted Method of Coverage and Capacity Optimization (CCO) in 4G LTE Self Organizing Networks (SON)",
+    "abstract": "Self-Organizing Network (SON) has been introduced more than a decade by the Next Generation Mobile Networks (NGMN) and later standardized by the 3rd Generation Partner-ship Project (3GPP). However, SON has ever never fully met the expectation from Mobile Network Operators (MNOs) since day one due to lack of suitable wireless based Machine Learning (ML) techniques which can empower SON with intelligence in the old days. The authors propose, validate, and productize a wireless ML based scheme ISO-SON to mitigate cell coverage and interference problems in 4G Long Term Evolution (LTE) networks. ISO-SON algorithm portfolio targets at maximally optimizing cell weak coverage and over-coverage collectively. To scale ISO-SON from a single pain-point optimization in a silo to joint optimization for a problem cell group, a novel clustering methodology is also developed in ISO-SON to identify the social network of the targeted problem cell through modeling neighbor cell closeness rate, pair-wised handoff frequencies between problem cell and neighbor cell candidates, and traffic density of neighbor cell candidates. Finally Sequentially Unconstrained Maximization Technique (SUMT) is applied to converge the ISO-SON loss function in a specific conditional range which is feasible for engineering implementation in tuning antenna angles, due to which the gap between 3GPP SON standards and actual operations is bridged through ISO-SON. ISO-SON is productized and now up and running on a tier-1 MNO's 4G LTE networks. Reference Signal Received Power (RSRP), the coverage performance indicator, has been improved by 15% for the problem cells after ISO-SON is deployed.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f4d133b1765c2d1d9a9fc6d676c1a1bb",
+    "relevant_keywords": [
+      "machine learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.415143"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是4G LTE自组织网络中的覆盖和容量优化问题，使用了机器学习和聚类技术，但其应用场景是无线通信网络优化，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是4G LTE自组织网络中的覆盖和容量优化问题，使用了机器学习和聚类技术，但其应用场景是无线通信网络优化，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:12.981791"
+}

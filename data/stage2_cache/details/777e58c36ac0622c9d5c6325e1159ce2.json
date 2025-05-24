@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 226,
+    "title": "A Guided Neural Network Approach to Predict Early Readmission of Diabetic Patients",
+    "abstract": "Diabetes is a major chronic health problem affecting millions globally. Effective diabetes management can reduce the risk of hospital readmission and the associated financial losses for both the healthcare system and insurance companies. Hospital readmission is a high-priority healthcare quality measure that reflects the inadequacies in the healthcare system that also increase healthcare costs and negatively influence hospitals' reputation. Predicting readmissions in the early stages prompts great attention to patients with a high risk of readmission. There has been some attempt in applying machine learning predictive models such as ensemble learning with Extreme Gradient Boosting (XGBoost), Support Vector Machine (SVM) and Artificial Neural Networks (ANN) to correctly identify if the readmission can happen within 30 days (<30 days) or it may never happen or happens after 30 days (=30 days). We are proposing a new method that is applied to ANN to guide it through its gradient descent optimizers by realizing consistent vs inconsistent data in every batch. Our results show that there are up to 1.5% improvement in classification accuracies in both 2-class and 3-class variations of the experimented benchmark dataset when using the guided optimizer to train the ANN as opposed to the standard optimizer. Guided ANN is also able to achieve better error convergence than standard ANN.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f54f315ecee62c3de5fa8e10ac4ef1d9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:48:30.673425"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用神经网络预测糖尿病患者的早期再入院情况，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用神经网络预测糖尿病患者的早期再入院情况，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:54.736959"
+}

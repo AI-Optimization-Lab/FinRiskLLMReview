@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 141,
+    "title": "基于机器学习方法的多因子选股策略研究",
+    "abstract": "基于机器学习方法与多因子选股模型相结合,构建出新的多因子选股模型,通过机器学习算法对个股进行分类,从而筛选出具有投资价值的股票,进行构造有效的投资组合,并模拟回测证实其有效性。以沪深300成分股为股票池,运用6个因子,选取2010—2020年的数据,并对其进行去值化、标准化、中性化的处理。每个月底根据前一年的数据使用机器学习算法建模,以当月的数据输入预测下个月的综合因子,将综合因子排序,选取前两个分位点的股票分别构建等权重组合进行投资。借助优矿平台进行回测,结果显示,Logistic回归构建的模型比较好,具有较高的实际应用价值。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7e234a01ae8b9dc0dff22bcd8c6ca5b4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "Logistic regression"
+    ],
+    "stage1_timestamp": "2025-05-14T20:36:18.873594"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法构建多因子选股模型，并用于筛选股票构建投资组合，这直接属于投资组合管理的范畴。论文的研究目标和实验设计都集中在如何通过机器学习优化投资组合的构建和表现，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法构建多因子选股模型，并用于筛选股票构建投资组合，这直接属于投资组合管理的范畴。论文的研究目标和实验设计都集中在如何通过机器学习优化投资组合的构建和表现，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:36.687606"
+}

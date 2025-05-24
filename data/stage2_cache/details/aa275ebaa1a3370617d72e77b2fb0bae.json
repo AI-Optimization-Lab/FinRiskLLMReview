@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2202,
+    "title": "SPCM: A Machine Learning Approach for Sentiment-Based Stock Recommendation System",
+    "abstract": "Recommendation systems play a pivotal role in delivering user preference information. However, they often face the challenge of information cocoons due to repeated content delivery, particularly prevalent in stock recommendations that are susceptible to investor sentiment. In response to the information cocoons, we propose the Sentiment and Price Combined Model (SPCM), which leverages sentiment features and price factors to predict stock price movements. This novel framework combines collective sentiment analysis with state-of-the-art BERT transformer models and advanced machine learning techniques. Over a three-year period, we collected 40 million stock comments from the Guba platform, extracting investor sentiment conveyed in text information and investigating the impact of metrics such as homophily on stock recommendations. Experimental results indicate that both the volume of posts and the agreement index affect the effectiveness of investor sentiment, while homophily reduces the accuracy of participants' stock price judgments. The recognition accuracy of the BERT-based sentiment analysis model reaches an impressive 84.12%, and the portfolio constructed by SPCM yields a cumulative return four times that of the industry benchmark. Furthermore, homogeneous quantitative metrics also enhance diversification in stock selection.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "314efdcc5faa35535492aa304a538ee0",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "BERT",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:04:27.407850"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合情感分析和价格因素来预测股票价格变动，并构建投资组合。其研究目标是通过SPCM模型提高股票推荐系统的准确性，并最终构建的投资组合实现了显著高于行业基准的累计回报。这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合情感分析和价格因素来预测股票价格变动，并构建投资组合。其研究目标是通过SPCM模型提高股票推荐系统的准确性，并最终构建的投资组合实现了显著高于行业基准的累计回报。这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:43.015280"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 435,
+    "title": "Wealth Flow Model: Online Portfolio Selection Based on Learning Wealth Flow Matrices",
+    "abstract": "This article proposes a deep learning solution to the online portfolio selection problem based on learning a latent structure directly from a price time series. It introduces a novel wealth flow matrix for representing a latent structure that has special regular conditions to encode the knowledge about the relative strengths of assets in portfolios. Therefore, a wealth flow model (WFM) is proposed to learn wealth flow matrices and maximize portfolio wealth simultaneously. Compared with existing approaches, our work has several distinctive benefits: (1) the learning of wealth flow matrices makes our model more generalizable than models that only predict wealth proportion vectors, and (2) the exploitation of wealth flow matrices and the exploration of wealth growth are integrated into our deep reinforcement algorithm for the WFM. These benefits, in combination, lead to a highly-effective approach for generating reasonable investment behavior, including short-term trend following, the following of a few losers, no self-investment, and sparse portfolios. Extensive experiments on five benchmark datasets from real-world stock markets confirm the theoretical advantage of the WFM, which achieves the Pareto improvements in terms of multiple performance indicators and the steady growth of wealth over the state-of-the-art algorithms.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "7eac24ad73eeaf81e3338b989773c9da",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:49.762881"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on online portfolio selection, proposing a deep learning model to learn wealth flow matrices and maximize portfolio wealth, which directly addresses the core concerns of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on online portfolio selection, proposing a deep learning model to learn wealth flow matrices and maximize portfolio wealth, which directly addresses the core concerns of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:59.115427"
+}

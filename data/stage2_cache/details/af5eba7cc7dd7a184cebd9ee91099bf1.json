@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1055,
+    "title": "Adaptive online portfolio selection with transaction costs",
+    "abstract": "As an application of machine learning techniques in financial fields, online portfolio selection has been attracting great attention from practitioners and researchers, which makes timely sequential decision making available when market information is constantly updated. For online portfolio selection, transaction costs incurred by changes of investment proportions on risky assets have a significant impact on the investment strategy and the return in long-term investment horizon. However, in many online portfolio selection studies, transaction costs are usually neglected in the decision making process. In this paper, we consider an adaptive online portfolio selection problem with transaction costs. We first propose an adaptive online moving average method (AOLMA) to predict the future returns of risky assets by incorporating an adaptive decaying factor into the moving average method, which improves the accuracy of return prediction. The net profit maximization model (NPM) is then constructed where transaction costs are considered in each decision making process. The adaptive online net profit maximization algorithm (AOLNPM) is designed to maximize the cumulative return by integrating AOLMA and NPM together. Numerical experiments show that AOLNPM dominates several state-of-the-art online portfolio selection algorithms in terms of various performance metrics, i.e., cumulative return, mean excess return, Sharpe ratio, Information ratio and Calmar ratio. (c) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7b92890980eed15e3c6253aa56564e63",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.871967"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是自适应在线投资组合选择方法，考虑了交易成本，并设计了算法以最大化累积回报。这直接涉及投资组合管理的领域，旨在优化资产配置和投资决策。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是自适应在线投资组合选择方法，考虑了交易成本，并设计了算法以最大化累积回报。这直接涉及投资组合管理的领域，旨在优化资产配置和投资决策。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:50.242022"
+}

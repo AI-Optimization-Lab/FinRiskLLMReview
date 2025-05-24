@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2505,
+    "title": "RETRACTED: Enterprise Financial Risk Analysis Based on Improved Model C-Means Clustering Algorithm (Retracted Article)",
+    "abstract": "As a provider of loans to SMEs, banks should prudently examine loan risks while ensuring that they provide loans to SMEs from the perspective of cooperating with policy implementation and controlling their own risks. *e existing loan risk measurement tools include multiple discriminant analysis models, multiple regression models, and machine learning methods. Most machine learning methods have higher prediction accuracy than traditional models when using historical data for calculation, but the existence of problems such as overfitting seriously affects the robustness of machine learning methods. A similar method is introduced into the loan default risk prediction of SMEs, and the mean clustering method is used to preset penalty items to reduce overfitting and high accuracy to help banks effectively identify the default probability of SMEs during the loan period. * is study will use the mean clustering method to iteratively train 900,000 SME credit records published by the US Small and Medium Business Administration, with 27 dimensions of data provided by Small Business Administration (SBA) to provide partial guarantees. A regression tree evaluates the data, combining the scores of multiple regression trees to produce a final prediction of the probability of credit default on the input data. *e research results show that the mean clustering method can effectively improve the prediction accuracy of traditional machine learning methods and multiple linear regression in the scenario of SME loan default prediction and reduce the overfitting and black-box properties. As a supplementary loan default risk measurement tool, it can strengthen the ability of commercial banks to control the risk of loan business and can also promote the development of small- and medium-sized enterprises and the market economy to a certain extent.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9b2a4d9c89e25d20e3360ac9fa5af0b0",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:59.915584"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是改进的均值聚类算法，用于预测中小企业贷款违约风险，这直接属于金融风险管理中的信用风险管理范畴。论文的研究目标是帮助银行更好地控制贷款业务风险，并未涉及衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是改进的均值聚类算法，用于预测中小企业贷款违约风险，这直接属于金融风险管理中的信用风险管理范畴。论文的研究目标是帮助银行更好地控制贷款业务风险，并未涉及衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:35.666931"
+}

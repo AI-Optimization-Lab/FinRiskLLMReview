@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 708,
+    "title": "Augmenting Deep Learned Representation Based Portfolio Selection With Predictive Shallow Networks",
+    "abstract": "We propose a novel stock portfolio selection strategy based on learned deep representations and shallow neural networks. The performance of many portfolio selection strategies is affected by stock similarity. Many existing methods to measure stock similarity need (a) a long period of data which may not represent current market dynamics, (b) are linear in nature and cannot capture nonlinear relationships between stocks effectively. To solve these problems we transform multi-dimensional time series data into a learned vector space and apply clustering algorithms on these vectors to group similar stocks. We use a deep LSTM Autoencoder to learn the vector representations of the time series. We introduce a novel addition to the stock selection strategy by adding a shallow neural network to predict future price behaviour of a stock which takes the learned representation as input, further leveraging the power of the abstractions learned by the Autoencoder. Results show that the models are able to generate greater than market returns and that the models augmented by the shallow network are able to match the un-augmented models while executing fewer trades, thereby being less risky.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2ba2f359d16cc7f0e37bbc81abc64c25",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "long short-term memory",
+      "LSTM",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.507093"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on a novel stock portfolio selection strategy using deep learning and shallow neural networks to group similar stocks and predict future price behavior, which is directly related to portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on a novel stock portfolio selection strategy using deep learning and shallow neural networks to group similar stocks and predict future price behavior, which is directly related to portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:26.028697"
+}

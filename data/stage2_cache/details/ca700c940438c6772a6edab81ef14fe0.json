@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 4874,
+    "title": "A Coordinated Optimization Strategy for Energy Management of Hybrid Electric Vehicle Fleets",
+    "abstract": "This paper is concerned with the vehicle-to-grid (V2G) control problem of hybrid electric vehicle (HEV) fleets. The goal is to optimize the utilization and storage of the distributed power of HEVs through bidirectional access points such as reduces the utilization cost of each vehicle, maximizes the profits to vehicle owners and furthermore improves the power network stability that may be put at risk due to uncontrolled EVs charging and discharging. A novel distributed model multi-agent reinforcement learning (MARL) based energy management system (EMS) that is capable of simultaneously computing the optimal charging decisions and learning coordination in real-time is presented in this paper. We include a novel coordination mechanism based on the weight concept to solve the fleet management problem formulated as a Multi-Agents Markov Decision Process (MMDP). This mechanism combines Distributed Q-Learning (DQL) and W-Learning (WL) algorithms to select the optimal joint action at each time step without any prediction effort, where control decisions are made only on the current states of the system and the rewards received. It gives online solutions to efficiently coordinate between vehicles in direct competition and avoid any time or space correlation which is the main challenge in large systems where multiple agents aim to act at the same time. Furthermore, the distributed strategy allows reduce the computations of the global control problem by solving local optimizations and efficiently selecting the optimal policy in real-time while satisfying both the financial and technical constraints. Simulation results show that the proposed control method can offset the energy cost of driving over the year for every vehicle owner and generate an individual annual profit above 90$, accounting for 20% of the consumption cost while providing energy and auxiliary services to the power grid.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7a9078a44606a40cecf8466d86f9ad6b",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:42:04.838264"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究混合动力电动汽车车队的能源管理优化问题，涉及车辆到电网（V2G）控制、多智能体强化学习（MARL）和分布式优化策略。虽然提到了财务和技术约束，但其核心应用领域是能源管理和电网稳定性，而非衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究混合动力电动汽车车队的能源管理优化问题，涉及车辆到电网（V2G）控制、多智能体强化学习（MARL）和分布式优化策略。虽然提到了财务和技术约束，但其核心应用领域是能源管理和电网稳定性，而非衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:55.391521"
+}

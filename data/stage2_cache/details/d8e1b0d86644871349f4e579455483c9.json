@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 4095,
+    "title": "GraphSAGE with deep reinforcement learning for financial portfolio",
+    "abstract": "Portfolio optimization is an active management strategy that aims to maximize returns and control risk within reasonable limits. The Proximal Policy Optimization (PPO), a robust on-policy actor-critic deep reinforcement learning (DRL) model, is gaining popularity in portfolio optimization because it can help reduce emotional biases and take systematic investment actions. However, some research has found that the PPO model cannot achieve such remarkable performance in portfolio optimization as in games or robot control. In this paper, a novel GraphSAGE and DRL coupled model (GRL) is proposed to improve the architecture of the PPO agent by introducing a GraphSAGE-based feature extractor to capture the complex non-Euclidean relationships among market indexes, industry indexes and stocks. In addition, the explainable model SHAP is used to select a few but important features for GRL learning, and a method for generating a static financial graph is defined. This improves the robustness and training efficiency of the GRL model. We provide a holistic performance evaluation for GRL on three datasets using five metrics, i.e., Return On Investment (ROI), Sharpe Ratio, Sortino Ratio, Maximum Drawdown, and Calmar Ratio. The results show that the GRL model outperforms the Equal Weight strategy and the S&P 500 index. In addition, the results of the comparative analysis show that the Share-Extractor GRL and the Separate-Extractor GRL significantly outperform the PPO baseline without a feature extractor. This implies that integrating a GraphSAGE-based feature extractor into the PPO agent can improve its performance and robustness in portfolio optimization tasks.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9a2d3bcb9218903988ab1b335cf91638",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:33:03.480679"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合GraphSAGE和深度强化学习（DRL）来优化投资组合，旨在最大化回报并控制风险。论文明确提到了投资组合优化（Portfolio optimization）作为主要研究方向，并通过多种金融指标（如ROI、Sharpe Ratio等）评估模型性能，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合GraphSAGE和深度强化学习（DRL）来优化投资组合，旨在最大化回报并控制风险。论文明确提到了投资组合优化（Portfolio optimization）作为主要研究方向，并通过多种金融指标（如ROI、Sharpe Ratio等）评估模型性能，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:17.774327"
+}

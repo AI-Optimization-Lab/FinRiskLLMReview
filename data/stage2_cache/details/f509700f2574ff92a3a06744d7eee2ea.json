@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 110,
+    "title": "LSTM-Based Quantitative Trading Using Dynamic K-Top and Kelly Criterion",
+    "abstract": "With the strong capability of modeling time sequence, long short-term memory (LSTM) networks have been widely applied to predicting financial time series. This has attracted tremendous attention in the quantitative trading area. A complete quantitative trading system usually has three tasks, including market timing, stock selection, and portfolio management. In this paper, we present an LSTM-based quantitative trading system and optimize this system from the following two aspects. Firstly, in the process of stock selection, we first introduce the dynamic K-top method in the LSTM-based quantitative trading system to follow the market change. Secondly, concerning portfolio management, we further incorporate the Kelly Criterion to attain an appropriate position ratio. Taking CSI300 constituent stocks as the study example, extensive experiments have been carried out to show the superiority of the proposed method. In comparison with the straight forward LSTM-based trading strategy, the improved LSTM-based trading strategy with the dynamic K-top method and the Kelly Criterion can achieve an increase of 44.97% over ten days in terms of accumulative return. In addition, our novel method can gain a win ratio of 55.95%, a monthly alpha of 0.16, a monthly Sharpe ratio of 2.17, and a monthly Sortino ratio of 2.96 disregarding the transaction costs.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "e6672c44f14eb9227d2f9032f6fe2145",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:32:31.408051"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM网络结合动态K-top方法和Kelly准则来优化量化交易系统，特别是针对股票选择和投资组合管理。论文明确提到了投资组合管理是其量化交易系统的三个主要任务之一，并且通过实验验证了该方法在投资组合管理中的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM网络结合动态K-top方法和Kelly准则来优化量化交易系统，特别是针对股票选择和投资组合管理。论文明确提到了投资组合管理是其量化交易系统的三个主要任务之一，并且通过实验验证了该方法在投资组合管理中的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:36.308329"
+}

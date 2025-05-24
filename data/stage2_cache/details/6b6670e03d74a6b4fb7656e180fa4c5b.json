@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2081,
+    "title": "Time-varying Black-Litterman portfolio optimization using a bio-inspired approach and neuronets",
+    "abstract": "The Black-Litterman model is a very important analytical tool for active portfolio management because it allows investment analysts to incorporate investor's views into market equilibrium returns. In this paper, we define and study the time-varying Black-Litterman portfolio optimization under nonlinear constraints (TV-BLPONC) problem as a nonlinear programming (NLP) problem. More precisely, the nonlinear constraints refer to transaction costs and cardinality constraints. Furthermore, a speedy weights-and-structure-determination (WASD) algorithm for the power-activation feed-forward neuronet (PFN) is presented to solve time-series modeling and forecasting problems. Inhere, the investor's views in the TV-BLPONC problem are considered as a forecasting problem and, thus, they are produced by the WASD-based PFN. In addition, using the beetle antennae search (BAS) algorithm a computational method is introduced to solve the TV-BLPONC problem. For all we know, this is an innovative approach that integrates modern neural network and meta-heuristic optimization methods to provide a solution to the TV-BLPONC problem in large portfolios. Our approach is tested on portfolios of up to 90 stocks with real-world data, and the results show that it is more than 30 times faster than other methods. Our technique's speed and precision are verified in this way, showing that it is an outstanding alternative to ordinary methods. In order to support and promote the findings of this work, we have constructed two complete MATLAB packages for the interested user, which are freely available through GitHub. (C) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3e69399d1f67ecf771bd9994bd2cd639",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:02:32.942304"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是改进Black-Litterman模型，用于解决时间变化的投资组合优化问题，并整合了神经网络和元启发式优化方法。研究目标明确指向投资组合管理，且实验设计基于真实股票数据验证其方法在投资组合优化中的效率和精度。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是改进Black-Litterman模型，用于解决时间变化的投资组合优化问题，并整合了神经网络和元启发式优化方法。研究目标明确指向投资组合管理，且实验设计基于真实股票数据验证其方法在投资组合优化中的效率和精度。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:21.025472"
+}

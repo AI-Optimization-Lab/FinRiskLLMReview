@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2807,
+    "title": "Cluster financial time series for portfolio",
+    "abstract": "Stocks are a common kind of financial time series. In this paper we present a new similarity measure for lime series clustering, and then select a set of stocks to create efficient portfolio, which is of crucial importance in the process of creating efficient portfolio. We largely reduce the efficient times of portfolio using clustering-based selection, and only select a subset of stocks from different groups to create efficient portfolio each time, then it is easy to get the portfolio with the lowest risk at a given level of return. A set of 100 stocks were utilized for experiments, and compared with other selection methods, the results show that our method could largely reduce the efficient times of portfolio. Group-ward hierarchical cluster was used to cluster stocks.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d70d40f54b2925f8f47225d73f774a33",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:19:08.505775"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用时间序列聚类方法来选择股票以创建高效的投资组合，并显著减少投资组合优化的计算次数。这直接应用于投资组合管理的领域，旨在通过聚类方法优化投资组合的选择过程，以达到在给定回报水平下风险最低的目标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用时间序列聚类方法来选择股票以创建高效的投资组合，并显著减少投资组合优化的计算次数。这直接应用于投资组合管理的领域，旨在通过聚类方法优化投资组合的选择过程，以达到在给定回报水平下风险最低的目标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:47.454792"
+}

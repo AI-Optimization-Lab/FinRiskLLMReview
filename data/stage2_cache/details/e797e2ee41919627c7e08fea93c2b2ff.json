@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 70,
+    "title": "Portfolio optimization using deep learning with risk aversion utility function",
+    "abstract": "This paper explores portfolio optimization with deep learning (DL), which can model non-linear returns that traditional methods cannot capture. While Sharpe loss addresses the risk-return trade-off in DL-based portfolio construction, it has limitations, including interpretability issues with negative PnL and biased gradients under stochastic gradient descent (SGD). We propose a new loss function based on a risk-averse utility function, which provides unbiased gradients and clear interpretation even with negative PnL. Additionally, we use DL outputs as adjustments to baseline weights, achieving improved portfolio performance. Experiments on S&P 500 data show that our method outperforms Sharpe loss-based models across several metrics, including the Sharpe ratio.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "8316b6cd64b5c4173e7cb8759f808093",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:31:50.343003"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和风险厌恶效用函数进行投资组合优化，旨在改进投资组合的表现，这直接属于投资组合管理领域。论文中提到的实验设计和应用场景（如S&P 500数据）也明确指向投资组合管理的实践。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和风险厌恶效用函数进行投资组合优化，旨在改进投资组合的表现，这直接属于投资组合管理领域。论文中提到的实验设计和应用场景（如S&P 500数据）也明确指向投资组合管理的实践。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:40.242216"
+}

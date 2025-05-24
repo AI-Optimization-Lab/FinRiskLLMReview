@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1365,
+    "title": "Machine learning for corporate default risk: Multi-period prediction, frailty correlation, loan portfolios, and tail probabilities",
+    "abstract": "We model multi-period cumulative and forward corporate default probabilities using machine learn-ing methods and introduce a novel hybrid econometric-machine learning model which combines tree -boosting with a latent frailty model. The latter allows for modeling correlation that is not accounted for by observable predictor variables. We find that machine learning methods have higher prediction ac-curacy compared to linear models with the differences being larger for longer prediction horizons. The likely reason for this is the presence of stronger interaction effects for longer prediction horizons com-pared to short horizons. Among all methods, tree-boosting has the highest prediction accuracy. Further, the frailty component of the newly proposed LaGaBoost frailty model is overall large and exhibits strong variation over time. In contrast to prior research, we find that upper tail predictions of loan portfolio losses of frailty models are not consistently higher throughout time compared to models ignoring frailty correlation, but they show more temporal variation.(c) 2022 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ )",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "921eb7d96c3a5d36574cac2729e0ad34",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:56.446035"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用机器学习方法预测企业违约风险，并探讨了贷款组合的尾部损失预测，这些内容直接关联到信用风险管理和金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用机器学习方法预测企业违约风险，并探讨了贷款组合的尾部损失预测，这些内容直接关联到信用风险管理和金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:35.954210"
+}

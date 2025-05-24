@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 4956,
+    "title": "Semi-parametric dynamic asymmetric Laplace models for tail risk forecasting, incorporating realized measures",
+    "abstract": "This paper extends the joint Value-at-Risk (VaR) and expected shortfall (ES) quantile regression model of Taylor (2019), by incorporating a realized measure to drive the tail risk dynamics, as a potentially more efficient driver than daily returns. Furthermore, we propose and test a new model for the dynamics of the ES component. Both a maximum likelihood and an adaptive Bayesian Markov chain Monte Carlo method are employed for estimation, the properties of which are compared in a simulation study. The results favour the Bayesian approach, which is employed subsequently in a forecasting study of seven financial market indices. The proposed models are compared to a range of parametric, non-parametric and semi-parametric competitors, including GARCH, realized GARCH, the extreme value theory method and the joint VaR and ES models of Taylor (2019), in terms of the accuracy of one-day-ahead VaR and ES forecasts, over a long forecast sample period that includes the global financial crisis in 2007-2008. The results are favorable for the proposed models incorporating a realized measure, especially when employing the sub-sampled realized variance and the sub-sampled realized range. (C) 2019 International Institute of Forecasters. Published by Elsevier B.V. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "04d03c52a7617e93af22bc920cb10187",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:42:36.301327"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing models for forecasting Value-at-Risk (VaR) and expected shortfall (ES), which are key metrics in financial risk management. The study compares these models in terms of their accuracy in predicting tail risks, especially during the global financial crisis, indicating a primary application in risk assessment and management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing models for forecasting Value-at-Risk (VaR) and expected shortfall (ES), which are key metrics in financial risk management. The study compares these models in terms of their accuracy in predicting tail risks, especially during the global financial crisis, indicating a primary application in risk assessment and management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:31.817273"
+}

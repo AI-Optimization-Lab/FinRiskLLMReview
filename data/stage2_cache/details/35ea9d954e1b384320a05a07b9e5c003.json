@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1127,
+    "title": "Hidden-layer configurations in reinforcement learning models for stock portfolio optimization",
+    "abstract": "In the rapidly evolving field of artificial intelligence and financial markets, efficient and adaptive portfolio management strategies are becoming increasingly critical. This study explores the impact of hidden-layer configurations in reinforcement learning models for stock portfolio optimization. Using a portfolio of 45 actively traded stocks in the Indonesian stock market, the performance of four reinforcement learning algorithms-Advantage Actor-Critic (A2C), Deep Deterministic Policy Gradient (DDPG), Proximal Policy Optimization (PPO), and Twin Delayed Deep Deterministic Policy Gradient (TD3)-is evaluated with zero, one, and two hidden layers. The results show that A2C and DDPG models perform effectively without hidden layers, with A2C achieving the highest Cumulative Return (CuR) and Annualized Return Rate (ARR) among all configurations. Adding hidden layers to A2C improved risk management, resulting in a lower Maximum Drawdown (MDD) and a higher Annualized Sharpe Ratio (ASR). DDPG exhibited consistently strong performance, with its zero hidden- layer model showing the highest ASR. Conversely, PPO underperformed across all configurations, with negative returns in the zero-layer setup and marginal improvements with added complexity. Introducing additional hidden layers improved TD3 ' s performance, enhancing risk-adjusted returns. These findings suggest that the effectiveness of hidden-layer configurations depends on the specific algorithm used. While A2C and DDPG benefit from increased complexity, simpler architectures may be more suitable for PPO and TD3. This study offers new insights into optimizing reinforcement learning models for stock portfolio management by adjusting hidden-layer structures to balance returns and risk.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "bd7acff46ab316d0f2af94edd46379ad",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.595215"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是使用强化学习模型优化股票投资组合，通过调整隐藏层配置来平衡收益和风险，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是使用强化学习模型优化股票投资组合，通过调整隐藏层配置来平衡收益和风险，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:58.491417"
+}

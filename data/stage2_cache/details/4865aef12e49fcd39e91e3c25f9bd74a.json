@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 10,
+    "title": "Option Pricing Using LSTM: A Perspective of Realized Skewness",
+    "abstract": "Deep learning has drawn great attention in the financial field due to its powerful ability in nonlinear fitting, especially in the studies of asset pricing. In this paper, we proposed a long short-term memory option pricing model with realized skewness by fully considering the asymmetry of asset return in emerging markets. It was applied to price the ETF50 options of China. In order to emphasize the improvement of this model, a comparison with a parametric method, such as Black-Scholes (BS), and machine learning methods, such as support vector machine (SVM), random forests and recurrent neural network (RNN), was conducted. Moreover, we also took the characteristic of heavy tail into consideration and studied the effect of realized kurtosis on pricing to prove the robustness of the skewness. The empirical results indicate that realized skewness significantly improves the pricing performance of LSTM among moneyness states except for in-the-money call options. Specifically, the LSTM model with realized skewness outperforms the classical method and other machine learning methods in all metrics.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "b5dd91368f576321bfddb70f4ce9a535",
+    "relevant_keywords": [
+      "machine learning",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.440894"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用LSTM模型结合已实现偏度来定价ETF50期权，并与Black-Scholes模型及其他机器学习方法进行比较，这明确属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用LSTM模型结合已实现偏度来定价ETF50期权，并与Black-Scholes模型及其他机器学习方法进行比较，这明确属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:32.078178"
+}

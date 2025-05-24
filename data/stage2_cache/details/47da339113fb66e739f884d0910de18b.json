@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 48,
+    "title": "混合增强型机器学习算法在稀土供应链金融中评价中小企业信用风险的研究",
+    "abstract": "稀土是支撑高端技术创新和新能源产业发展的关键原材料之一，研究解决稀土供应链中小企业融资困难的问题，做强我国稀土产业链，更好地维护国家战略利益是当务之急。供应链金融作为创新型融资方式成为实现中小企业融资授信的一种主要手段，但其中信用风险问题成为融资决策中需解决的最关键问题之一。本文提出了一种混合增强型机器学习算法，首先采用动态透镜成像反向学习改进的海洋捕食者算法(IMPA)对支持向量机算法(SVM)进行优化，再采用AdaBoost算法对优化后的SVM进行集成，建立AdaBoost-IMPA-SVM模型。采用该模型对供应链金融风险进行评价，重新建立供应链金融风险体系指标，通过相关性分析进行特效选取，并从计算机通信及其他制造业选取52家中国上市中小企业2019—2021年期间140个样本作为特征变量输入模型。仿真实验结果验证了该模型相较于其他信用风险评价模型具有更好的分类识别性能。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "38247fc3c25d2a48241acf49d90bdb4a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-14T22:26:31.831877"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种混合增强型机器学习算法（AdaBoost-IMPA-SVM）用于评价供应链金融中的中小企业信用风险，这直接属于金融风险管理的范畴。论文明确提到该模型用于解决供应链金融中的信用风险问题，并通过实验验证了其分类识别性能。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一种混合增强型机器学习算法（AdaBoost-IMPA-SVM）用于评价供应链金融中的中小企业信用风险，这直接属于金融风险管理的范畴。论文明确提到该模型用于解决供应链金融中的信用风险问题，并通过实验验证了其分类识别性能。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:39:57.011079"
+}

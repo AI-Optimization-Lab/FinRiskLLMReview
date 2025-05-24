@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1402,
+    "title": "Subsampled factor models for asset pricing: The rise of Vasa",
+    "abstract": "We propose a new method, variable subsample aggregation (VASA), for equity return prediction using a large-dimensional set of factors. To demonstrate the effectiveness, robustness, and dimension reduction power of VASA, we perform a comparative analysis between state-of-the-art machine learning algorithms. As a performance measure, we explore not only the global predictive but also the stock-specific R-2's and their distribution. While the global R-2 reflects the average forecasting accuracy, we find that high variability in stock-specific R-2's can be detrimental for the portfolio performance. Since VASA shows minimal variability, portfolios formed on this method outperform the portfolios based on random forests and neural nets.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b1f23c099062b46aa3dd0879b4f91fc5",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "neural network",
+      "random forests"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.452196"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种新的方法（VASA）用于股票收益预测，并明确指出该方法构建的投资组合表现优于其他机器学习算法构建的投资组合。这直接涉及投资组合管理的核心问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种新的方法（VASA）用于股票收益预测，并明确指出该方法构建的投资组合表现优于其他机器学习算法构建的投资组合。这直接涉及投资组合管理的核心问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:11.440457"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 270,
+    "title": "An enforced support vector machine model for construction contractor default prediction",
+    "abstract": "The financial health of construction contractors is critical in successfully completing a project, and thus default prediction is highly concerned by owners and other stakeholders. In other industries many previous studies employ support vector machine (SVM) or other Artificial Neural Networks (ANN) methods for corporate default prediction using the sample-matching method, which produces sample selection biases. In order to avoid the sample selection biases, this paper used all available firm-years samples during the sample period. Yet this brings a new challenge: the number of non-defaulted samples greatly exceeds the defaulted samples, which is referred to as between-class imbalance. Although the SVM algorithm is a powerful learning process, it cannot always be applied to data with extreme distribution characteristics. This paper proposes an enforced support vector machine-based model (ESVM model) for the default prediction in the construction industry, using all available firm-years data in our sample period to solve the between-class imbalance. The traditional logistic regression model is provided as a benchmark to evaluate the forecasting ability of the ESVM model. All financial variables related to the prediction of contractor default risk as well as 7 variables selected by the Multivariate Discriminant Analysis (MDA) stepwise method are put in the models for comparison. The empirical results of this paper show that the ESVM model always outperforms the logistic regression model, and is more convenient to use because it is relatively independent of the selection of variables. Thus, we recommend the proposed ESVM model as an alternative to the traditionally used logistic model. (C) 2011 Elsevier B.V. All rights reserved.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "516826fb6eca788c2293394b5c43513d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:04.531358"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用支持向量机模型进行建筑承包商违约预测，这属于信用风险评估的范畴，是金融风险管理的一个重要方面。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用支持向量机模型进行建筑承包商违约预测，这属于信用风险评估的范畴，是金融风险管理的一个重要方面。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:30.934625"
+}

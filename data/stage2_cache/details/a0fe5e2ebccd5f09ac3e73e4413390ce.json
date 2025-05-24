@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 609,
+    "title": "Balancing Profit, Risk, and Sustainability for Portfolio Management",
+    "abstract": "Stock portfolio optimization is the process of continuous reallocation of funds to a selection of stocks. This is a particularly well-suited problem for reinforcement learning, as daily rewards are compounding and objective functions may include more than just profit, e.g., risk and sustainability. We developed a novel utility function with the Sharpe ratio representing risk and the environmental, social, and governance score (ESG) representing sustainability. We show that a stateof-the-art policy gradient method - multi-agent deep deterministic policy gradients (MADDPG) - fails to find the optimum policy due to flat policy gradients and we therefore replaced gradient descent with a genetic algorithm for parameter optimization. We show that our system outperforms MADDPG while improving on deep Q-learning approaches by allowing for continuous action spaces. Crucially, by incorporating risk and sustainability criteria in the utility function, we improve on the state-of-the-art in reinforcement learning for portfolio optimization; risk and sustainability are essential in any modern trading strategy, and we propose a system that does not merely report these metrics, but that actively optimizes the portfolio to improve on them.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3fbda292f9ec49b0e46833519a231977",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "multi-agent deep deterministic policy gradients",
+      "MADDPG",
+      "deep Q-learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:39.120687"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习进行股票投资组合优化，并考虑了风险（Sharpe比率）和可持续性（ESG评分）等因素，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习进行股票投资组合优化，并考虑了风险（Sharpe比率）和可持续性（ESG评分）等因素，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:26.271075"
+}

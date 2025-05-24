@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 7219,
+    "title": "Inference of local regression in the presence of nuisance parameters",
+    "abstract": "We consider inference based on local estimating equations in the presence of nuisance parameters. The framework is useful for a number of applications including those in economic policy evaluation based on discontinuities or kinks and in real-time financial risk management. We focus on the criterion-function-based (in particular, empirical likelihood-based) inference, and establish conditions under which the test statistic has a pivotal asymptotic distribution. In the key step of eliminating nuisance parameters in the (possibly non-smooth) criterion function, we consider two different approaches based on either concentration or Laplace-type plug-in estimation. The former is natural, and the latter does not require optimization and can be computationally attractive in applications. Our framework can easily incorporate bias correction induced by localization, and the inference is robust to the identification strength of the parameter of interest. The high-level assumptions are illustrated with several examples. We also conduct Monte Carlo simulations and provide an empirical application which assesses heterogeneous effects of academic probation in college and gender differences under the quantile regression discontinuity design. (C) 2020 Elsevier B.V. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3291f92591cc316958747bd69f7e1c2d",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T03:06:35.257545"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "论文摘要中明确提到该框架可用于实时金融风险管理（real-time financial risk management），这是论文的一个具体应用场景。虽然论文还涉及其他应用领域，如经济政策评估，但金融风险管理是其明确指出的应用之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"论文摘要中明确提到该框架可用于实时金融风险管理（real-time financial risk management），这是论文的一个具体应用场景。虽然论文还涉及其他应用领域，如经济政策评估，但金融风险管理是其明确指出的应用之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:39.695410"
+}

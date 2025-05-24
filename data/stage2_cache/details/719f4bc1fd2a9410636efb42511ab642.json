@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 1101,
+    "title": "Forecasting stock market crisis events using deep and statistical machine learning techniques",
+    "abstract": "This work contributes to this ongoing debate on the nature and the characteristics of propagation channels of crash events in international stock markets. Specifically, we investigate transmission mechanisms across stock markets along with effects from bond and currency markets. Our approach comprises a solid forecasting mechanism of the probability of a stock market crash event in various time frames. The developed approach combines different machine learning algorithms which are presented with daily stock, bond and currency data from 39 countries that cover a large spectrum of economies. Specifically, we leverage the merits of a series of techniques including Classification Trees, Support Vector Machines, Random Forests, Neural Networks, Extreme Gradient Boosting, and Deep Neural Networks. To the best of our knowledge, this is the first time that Deep Learning and Boosting approaches are considered in the literature as a means of predicting stock market crisis episodes. The independent variables included in our data contain information regarding both the two fundamental linkage channels through which financial contagion can be initiated: returns and volatility. We apply a suite of machine learning algorithms for selecting the most relevant variables out of a large set of proposed ones. Finally, we employ bootstrap sampling for adjusting the imbalanced nature of the available fitting dataset. Our experimental results provide strong evidence that stock market crises tend to exhibit persistence. We also find significant evidence of interdependence and cross-contagion effects among stock, bond and currency markets. Finally, we show that the use of Deep Neural Networks significantly increases the classification accuracy, while offering a robust way to create a global systemic early warning tool that is more efficient and risk-sensitive than the currently established ones. Thus, central banks may use these tools to early adjust their monetary policy, so as to ensure financial stability. (C) 2018 Elsevier Ltd. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b8e08b49871eda0afa2f845589ccd409",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.509302"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和统计机器学习技术预测股票市场危机事件，旨在开发一个全球系统性预警工具，以帮助中央银行调整货币政策并确保金融稳定。这直接属于金融风险管理的范畴，因为它涉及识别和管理金融市场中的系统性风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和统计机器学习技术预测股票市场危机事件，旨在开发一个全球系统性预警工具，以帮助中央银行调整货币政策并确保金融稳定。这直接属于金融风险管理的范畴，因为它涉及识别和管理金融市场中的系统性风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:00.983856"
+}

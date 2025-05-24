@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 573,
+    "title": "Cross-modal scenario generation for stock price forecasting using Wasserstein GAN and GCN",
+    "abstract": "The forecasting of stock price has always been a difficult problem, as the various inputs like company performance, technical innovation, political factors are intricate and often assessed with uncertainty. While most of the existing studies belong to deterministic forecast that focused on either the trend or exact value of future stock price, the forecasted results contain little uncertain information, thus bringing certain risks to investors. In this study, an effective scenario generation method based on wasserstein generative adversarial network (WGAN) is proposed for stock price forecasting, which can characterize the temporally and spatially correlations among different stocks, so as to help investors make proper investment strategies in complicated market environments. To the best of our knowledge, the scenario generation of stock price has been rarely studied by existing publications. Specifically, considering the inherent correlation among stocks, graph convolutional network (GCN) is used to capture the features of related stocks, whereafter the features of target stocks and related stocks are combined. In terms of feature fusion, this paper further uses a pre- trained model to obtain the key information of news headlines as text features, and fully integrates them with historical data through the attention mechanism, thus improving the overall performance of scenario generation. In summary, the proposed model can generate promising scenarios for future stock prices over time based on cross-modal information like historical data and news headlines. Numerical experiments show that our method outperforms other baseline methods in terms of root-mean-square error and average absolute percentage error (the average of several scenarios). For each part of the method, stock correlation is the most helpful for the results, followed by cross-modal information, with scenario generation contributing less to the results. Besides, experiments on a real-life portfolio selection problem also demonstrate that our method brings the highest returns, which proves its effectiveness in practical application.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "4a6a9278e98ea77cfe545dccc3336f45",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism",
+      "graph convolutional network",
+      "Wasserstein generative adversarial network",
+      "WGAN",
+      "GCN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:37:38.167296"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于Wasserstein GAN和GCN的跨模态场景生成方法，用于股票价格预测，并提到在真实投资组合选择问题上的实验表明该方法带来了最高的回报。这表明其核心技术主要用于投资组合管理领域，帮助投资者制定投资策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于Wasserstein GAN和GCN的跨模态场景生成方法，用于股票价格预测，并提到在真实投资组合选择问题上的实验表明该方法带来了最高的回报。这表明其核心技术主要用于投资组合管理领域，帮助投资者制定投资策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:33.477107"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 978,
+    "title": "基于谱聚类-独立成分分析-Granger因果检验模型的金融风险协同溢出分析",
+    "abstract": "提出了一种多路归一化割谱聚类方法、独立成分分析法、GARCH模型和Granger模型相结合的金融风险协同溢出模型。利用GARCH模型提取波动;利用谱聚类方法对波动数据集进行聚类分析;再利用独立成分分析法提取每个类的独立成分;最后,利用Granger因果检验分析每个类提取出的主成分对其余类中股指的风险溢出,从而完成金融风险的协同溢出计量。采用本文提出的模型对近几次金融危机期间全球主要股指进行了金融风险协同溢出分析。实证结果表明,本文提出的方法能较好地刻画金融风险的协同溢出效应。",
+    "year": 2015,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "05ede401439b239ebbe751f86be24dff",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-14T22:34:51.883389"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是构建一个金融风险协同溢出模型，用于分析全球主要股指在金融危机期间的风险溢出效应。这直接涉及金融风险管理领域，特别是风险传染和协同效应的计量。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是构建一个金融风险协同溢出模型，用于分析全球主要股指在金融危机期间的风险溢出效应。这直接涉及金融风险管理领域，特别是风险传染和协同效应的计量。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:36:42.117561"
+}

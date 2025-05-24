@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 301,
+    "title": "A priori-knowledge/actor-critic reinforcement learning architecture for computing the mean-variance customer portfolio: The case of bank marketing campaigns",
+    "abstract": "In this paper we propose a novel recurrent reinforcement learning approach for controllable Markov chains that adjusts its policies according to a preprocessing and an actor-critic architecture. The preprocessing is proposed when learning a new task is needed from reinforcement based on a priori knowledge, in order to decrease computation time and not explore and not learn everything from scratch. The actor-critic architecture is based on an iterated quadratic/Lagrange programming maximization algorithm for computing the optimal strategies of the mean-variance customer portfolio. This process can be viewed as a specific form of asynchronous value iteration with optimized computational properties. The use of only the value-maximizing action at each state is unlikely in practice. Then, a specific selection of policies is used to ensure convergence. The reinforcement model proposed predicts a learning process that takes the risk of the customer portfolio into account. The resulting policies dynamically optimize the customer portfolio. We propose to apply three different learning rules, based on the transition matrices, the utilities and the costs, to estimate the objective function for the current policies. In particular, the learning rule related to estimate the real costs imposes restrictions over the formulation of the portfolio: costs cannot be underestimated or overestimated. The learning rules allow the process to make use of past experiences and decide on future actions to take in or around a given state of the Markov chain. We provide implementation details of the learning process and the complete algorithm. In addition, we illustrate our approach with a bank marketing application example for showing the viability of the model for solving realistic problems. (C) 2015 Elsevier Ltd. All rights reserved.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "819fe13037d9c47623ca129646279fb0",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "actor-critic architecture",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:00.403322"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种强化学习方法，用于动态优化客户组合的均值-方差模型，这直接对应于投资组合管理的核心问题。论文明确提到了银行营销活动中的客户组合优化，属于投资组合管理的应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种强化学习方法，用于动态优化客户组合的均值-方差模型，这直接对应于投资组合管理的核心问题。论文明确提到了银行营销活动中的客户组合优化，属于投资组合管理的应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:08.023687"
+}

@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 646,
+    "title": "Portfolio Management Framework for Autonomous Stock Selection and Allocation",
+    "abstract": "Portfolio management is essential to reduce risks and maximize profits. It can be classified into two processes: stock selection and allocation. Stock selection identifies stocks with high expected profits, whereas stock allocation determines the investment ratios for the selected stocks. Most current stock selection methods employ a ranking approach that predicts a ranked stock list based on the relations between stocks. However, the ranking-based stock selection methods do not consider the stock allocation problem. Furthermore, the methods use either simple graphs or hypergraphs, but not both. The sole use of simple graphs or hypergraphs induces information loss as the collective or pairwise relations, respectively, are disregarded. To overcome these issues, we propose a novel portfolio management framework called ASA that combines ranking models with classification and regression models for autonomous stock selection and allocation. For stock selection, the simple graph- and hypergraph-based ranking models are hybridized for relational modeling to select the most profitable stocks. For stock allocation, the classification and regression models are combined to determine the investment ratio. Furthermore, ASA extracts robust features using hierarchical clustering, feature selection, and dimensionality reduction, following which it captures temporal information using long short-term memory (LSTM), bidirectional LSTM, and the Hawkes attention mechanism. The performance of ASA is compared with that of deep learning-based state-of-the-art methods. The experimental results for stocks included in the Standard & Poor's 500 index demonstrate that ASA achieves a compounded annual growth rate of 58.2%, which is 39.1%P higher than that of the second-best performing method.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5763c4b64ce226ec3eb0c4c0d991c054",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "regression",
+      "clustering",
+      "principal components analysis",
+      "feature learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.379358"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一个名为ASA的投资组合管理框架，专注于自主股票选择和分配，旨在通过结合排名模型、分类和回归模型来优化投资组合，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一个名为ASA的投资组合管理框架，专注于自主股票选择和分配，旨在通过结合排名模型、分类和回归模型来优化投资组合，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:58.632601"
+}

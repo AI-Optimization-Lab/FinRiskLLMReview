@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 1981,
+    "title": "Predictability of Post-Earnings Announcement Drift with Textual and Contextual Factors of Earnings Calls",
+    "abstract": "Post-Earnings Announcement Drift (PEAD), a well-known anomaly in financial markets, describes the tendency of cumulative stock returns to drift in the direction of an earnings surprise for a prolonged period following an earnings announcement. Numerous studies have used a supervised learning approach to predict PEAD, using earnings, fundamental and technical factors. However, there is a lack of study on how the context of the earnings call can be used for the PEAD prediction task. This paper uses computational linguistics techniques and large language models to examine the effectiveness of incorporating textual and contextual features from earnings calls for the PEAD prediction task. Our proposed supervised model includes four categories of features: 1) textual features, 2) contextual features, 3) earnings features, and 4) fundamental and technical features. We study the proposed model using earnings from 2010/01/01 to 2022/12/31 of all point-in-time S&P500 constituents in the US stock market. Our results show that contextual features provide information unexplained by earnings, fundamental and technical features, improving the average returns per trade of a hypothetical long-short portfolio against baseline solution in out-of-sample across all four different abnormal return calculations, ranging from 53 to 354 basis points and 16.9% to 108.5% improvement from baseline model, which uses only earnings, fundamental and technical features.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3ee88b2065f6065d7640c6e3049d9d24",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:41.658032"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究是利用文本和上下文特征预测Post-Earnings Announcement Drift (PEAD)，并展示了如何通过改进预测模型来提高长期-短期投资组合的平均回报。这直接关联到投资组合管理的实践，旨在优化投资决策和组合表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究是利用文本和上下文特征预测Post-Earnings Announcement Drift (PEAD)，并展示了如何通过改进预测模型来提高长期-短期投资组合的平均回报。这直接关联到投资组合管理的实践，旨在优化投资决策和组合表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:49.220013"
+}

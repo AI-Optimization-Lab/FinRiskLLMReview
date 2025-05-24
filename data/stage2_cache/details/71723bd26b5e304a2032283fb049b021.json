@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2997,
+    "title": "Low-cost solar micro-forecasts for PV smoothing",
+    "abstract": "Distribution-level PV farms with peak power capacity on the order of 0.5 MW to 2 MW are an attractive way for utilities to meet increasingly aggressive renewable portfolio standards. Although attractive in many ways, these plants are more susceptible than others to cloud-driven high-frequency intermittency. To overcome PV intermittency, and to make such systems more dispatchable, battery systems have been deployed to operate in parallel with the PV array. The joint operation of the PV array and the battery produces a power output which tracks the PV array output averaged over a moving window. It is shown here that even a fairly short window (on the order of four minues) is adequate to produce a smooth power output. It is also shown that by using a sliding window centered on real time, rather than a window trailing real time, the total energy released and absorbed by the battery can be reduced by a factor of five, with the effect of reducing battery size and/or extending its life. A method to capture detailed images of clouds in the vicinity of the sun with low-cost digital cameras is demonstrated experimentally. These images can then be processed using a neural network approach that is both accurate and computationally efficient. Specifically, a Lateral Adaptive Priming Adaptive Resonance Theory architecture is used to predict solar irradiance one minute ahead based on data extracted from an image at the present time. Steps necessary to turn this preliminary research into an inexpensive prediction tool for medium-scale PV farms with battery storage are outlined.",
+    "year": 2013,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6ce9693a295fa6c3a78b42f8e33e0ad6",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:42.993379"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究太阳能微预测和电池存储系统的联合操作，以平滑光伏发电的间歇性。虽然使用了神经网络和深度学习技术，但其应用场景是能源管理和可再生能源系统，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究太阳能微预测和电池存储系统的联合操作，以平滑光伏发电的间歇性。虽然使用了神经网络和深度学习技术，但其应用场景是能源管理和可再生能源系统，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:56.903481"
+}

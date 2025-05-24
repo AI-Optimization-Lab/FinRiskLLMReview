@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 111,
+    "title": "基于遗传算法的CART树股票选择方法",
+    "abstract": "本文以中国上海A股市场数据为研究对象，选择排名靠前的股票来制定一个等权重的投资组合，并使用CART回归树作为股票评分机制，使用遗传算法来迭代计算CART树的模型参数，从而提出一种基于遗传算法和CART树的选股模型，旨在根据候选股票的基本面和技术特征来评估候选股票。实证结果表明，新的选股模型可以使投资组合盈利，并显著优于其他模型，具有较好的投资回报率和模型鲁棒性。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ed271d0ab6c5f7f28ff7858c4fb54549",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:22.429435"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用遗传算法和CART回归树来选择股票并构建等权重投资组合，旨在提高投资回报率和模型鲁棒性，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用遗传算法和CART回归树来选择股票并构建等权重投资组合，旨在提高投资回报率和模型鲁棒性，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:49.023738"
+}

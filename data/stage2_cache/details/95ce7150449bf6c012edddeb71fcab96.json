@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2354,
+    "title": "Autocalibration and Tweedie-dominance for insurance pricing with machine learning",
+    "abstract": "Boosting techniques and neural networks are particularly effective machine learning methods for insurance pricing. Often in practice, the sum of fitted values can depart from the observed totals to a large extent. The possible lack of balance when models are trained by minimizing deviance outside the familiar GLM with canonical link setting has been documented in Wahrich (2019, 2020, 2021). The present paper aims to further study this phenomenon when learning proceeds by minimizing Tweedie deviance. It is shown that minimizing deviance involves a trade-off between the integral of weighted differences of lower partial moments and the bias measured on a specific scale. Hence, there is no guarantee that the sum of fitted values stays close to observed totals if the latter bias term is dominated by the former one entering deviance. Autocalibration is then proposed as a remedy. This new method to correct for bias adds an extra local GLM step to the analysis with the output of the first step as only predictor. Theoretically, it is shown that it implements the autocalibration concept in pure premium calculation and ensures that balance also holds on a local scale, not only at portfolio level as with existing bias-correction techniques. (C) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9e09908962031f4e63c0028f03ea3b43",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:10.674892"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是保险定价中的机器学习应用，特别是关于自校准和Tweedie偏差的平衡问题。虽然涉及定价，但这是保险领域的定价，而非金融衍生品定价。论文内容并未涉及金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是保险定价中的机器学习应用，特别是关于自校准和Tweedie偏差的平衡问题。虽然涉及定价，但这是保险领域的定价，而非金融衍生品定价。论文内容并未涉及金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:30.473035"
+}

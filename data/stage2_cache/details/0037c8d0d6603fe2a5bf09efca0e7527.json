@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1143,
+    "title": "A Data Mining Framework for Valuing Large Portfolios of Variable Annuities",
+    "abstract": "A variable annuity is a tax-deferred retirement vehicle created to address concerns that many people have about outliving their assets. In the past decade, the rapid growth of variable annuities has posed great challenges to insurance companies especially when it comes to valuing the complex guarantees embedded in these products. In this paper, we propose a novel data mining framework to address the computational issue associated with the valuation of large portfolios of variable annuity contracts. The data mining framework consists of two major components: a data clustering algorithm which is used to select representative variable annuity contracts, and a regression model which is used to predict quantities of interest for the whole portfolio based on the representative contracts. A series of numerical experiments are conducted on a portfolio of synthetic variable annuity contracts to demonstrate the performance of our proposed data mining framework in terms of accuracy and speed. The experimental results show that our proposed framework is able to produce accurate estimates of various quantities of interest and can reduce the runtime significantly.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c8d33cc5c3f50fd898c48ffc511e2437",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "regression",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.784582"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出一种数据挖掘框架，用于评估大型可变年金投资组合的价值。可变年金中的复杂保证可以被视为一种金融衍生品，因此该研究主要应用于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出一种数据挖掘框架，用于评估大型可变年金投资组合的价值。可变年金中的复杂保证可以被视为一种金融衍生品，因此该研究主要应用于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:57.236479"
+}

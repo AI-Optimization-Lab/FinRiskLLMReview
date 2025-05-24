@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 3029,
+    "title": "Hybrid Crow Search Algorithm-LSTM System for Enhanced Stock Price Forecasting",
+    "abstract": "Featured Application The proposed hybrid crow search algorithm (CSA) and long short-term memory (LSTM) system can be utilized for stock price forecasting by simultaneously leveraging multiple datasets, such as technical indicators, leading indicators, and various time series data related to stock prices. This system enhances prediction accuracy. This system can help financial institutions, investment firms, and individual traders make more informed trading decisions and optimize portfolio strategies by accurately forecasting future stock prices.Abstract This study presents a hybrid crow search algorithm-long short-term memory (CSLSTM) system for forecasting stock prices. This system allows investors to effectively avoid risks and enhance profits by predicting the closing price the following day. This method utilizes a stacking ensemble of long short-term memory (LSTM) networks, with the crow search algorithm (CSA) optimizing the weights assigned to the predictions from multiple LSTM models. To improve the overall accuracy, this system leverages three distinct datasets: technical analysis indicators; price fluctuation limits; and variation mode decomposition (VMD) subsignal sequences. The predictions for the three reference-data types are more comprehensive than single-model or single-data-type approaches. The prediction accuracies of the recurrent neural network, gate recurrent unit, and the LSTM network for five stocks were compared. The proposed CSLSTM system outperforms the other standalone models. Furthermore, we conducted backtesting to demonstrate that the prediction information from our model could generate profit in the stock market, enabling users to benefit from complex stock-market dynamics. The stock prices in this study are expressed in New Taiwan Dollars (TWD), the official currency of Taiwan.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e7bd85e138b70af80d03c0be542a1dd1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:43.129225"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是用于股票价格预测的混合算法，旨在帮助投资者优化投资组合策略和做出更明智的交易决策，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是用于股票价格预测的混合算法，旨在帮助投资者优化投资组合策略和做出更明智的交易决策，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:34.234593"
+}

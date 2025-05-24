@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3740,
+    "title": "The Analytics of Robust Satisficing: Predict, Optimize, Satisfice, Then Fortify",
+    "abstract": "We introduce a novel approach to prescriptive analytics that leverages robust satisficing techniques to determine optimal decisions in situations of distribution ambiguity and parameter estimation uncertainty. Our decision model relies on a reward function that incorporates uncertain parameters, which can be predicted using available side information. However, the accuracy of the linear prediction model depends on the quality of regression coefficient estimates derived from the available data. To achieve a desired level of fragility under distribution ambiguity, we begin by solving a residual-based robust satisficing model in which the residuals from the regression are used to construct an estimated empirical distribution and a target is established relative to the predict-then-optimize objective value. In the face of estimation uncertainty, we then solve an estimation-fortified robust satisficing model that minimizes the influence of estimation uncertainty while ensuring that the solution would maintain at most the same level of fragility in achieving a less ambitious guarding target. Our approach is supported by statistical justifications, and we propose tractable models for various scenarios, such as saddle functions, two-stage linear optimization problems, and decision-dependent predictions. We demonstrate the effectiveness of our approach through case studies involving a wine portfolio investment problem and a multiproduct pricing problem using real-world data. Our numerical studies show that our approach outperforms the predict-then-optimize approach in achieving higher expected rewards and at lower risks when evaluated on the actual distribution. Notably, we observe significant improvements over the benchmarks, particularly in cases of limited data availability.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "01a68f7a56389840725a2533e713a020",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:20:35.912593"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提到了一种新的分析方法，用于在分布模糊和参数估计不确定的情况下做出最优决策，并通过葡萄酒投资组合的案例研究展示了其应用。这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提到了一种新的分析方法，用于在分布模糊和参数估计不确定的情况下做出最优决策，并通过葡萄酒投资组合的案例研究展示了其应用。这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:51.402890"
+}

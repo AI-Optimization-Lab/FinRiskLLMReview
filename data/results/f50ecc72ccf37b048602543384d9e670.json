@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning algorithms to identify key drivers of total charges after ambulatory arthroscopic rotator cuff repair.",
+    "supervised learning": "The study developed an ensemble supervised machine learning algorithm, indicating the use of supervised learning techniques.",
+    "regression": "The study involves predicting total charges, which is a regression problem, and uses metrics like root mean squared error to evaluate performance.",
+    "decision tree": "Although not explicitly mentioned, ensemble models often include decision trees as base learners, and the use of variable importance suggests tree-based methods might be involved."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"regression\", \"decision tree\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning algorithms to identify key drivers of total charges after ambulatory arthroscopic rotator cuff repair.\",\n    \"supervised learning\": \"The study developed an ensemble supervised machine learning algorithm, indicating the use of supervised learning techniques.\",\n    \"regression\": \"The study involves predicting total charges, which is a regression problem, and uses metrics like root mean squared error to evaluate performance.\",\n    \"decision tree\": \"Although not explicitly mentioned, ensemble models often include decision trees as base learners, and the use of variable importance suggests tree-based methods might be involved.\"\n  }\n}\n```"
+}

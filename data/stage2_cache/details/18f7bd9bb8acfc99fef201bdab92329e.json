@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5387,
+    "title": "Accurate loss modelling in the DCOPF calculation for power markets via static piecewise linear loss approximation based upon line loading classification",
+    "abstract": "The objective of this paper is to explore a better curve fitting technique that can improve the power flow accuracy of the piecewise linear loss modelling in the DC optimal power flow (DCOPF) calculation. The refinement of the DCOPF model is carried out in view of a power market that employs the locational marginal pricing principle for market clearing, performs multiple settlements and issues financial transmission rights. The piecewise linear loss modelling exhibits a typical advantage over the conventional purely linearised loss modelling in terms of the risk hedging capability of financial transmission rights. Unlike the available piecewise linear loss models with static parameters, the static curve fitting technique proposed in this paper evaluates loss parameters by means of some weighted error minimisation based upon a binary classification of the line loading level. Detailed mathematical procedure is developed to obtain the solution of the proposed curve fitting optimisation problem. The power flow accuracies of different linear and piecewise linear loss models that are suitable for the specified market framework are assessed and compared. Extensive case studies are performed on a 118-bus, a 1354-bus, and a 2383-bus systems to justify the merit of the proposed piecewise linear loss modelling technique.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b9073b8b5c43853a1a17a365baf411f1",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:47:13.977840"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究电力市场中的直流最优潮流（DCOPF）计算中的损耗建模技术，虽然提到了金融输电权（financial transmission rights）的风险对冲能力，但其核心技术是电力系统的优化和曲线拟合技术，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究电力市场中的直流最优潮流（DCOPF）计算中的损耗建模技术，虽然提到了金融输电权（financial transmission rights）的风险对冲能力，但其核心技术是电力系统的优化和曲线拟合技术，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:32.164397"
+}

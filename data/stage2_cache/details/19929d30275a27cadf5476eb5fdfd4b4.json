@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2338,
+    "title": "Cardinality Minimization, Constraints, and Regularization: A Survey",
+    "abstract": "We survey optimization problems that involve the cardinality of variable vectors in constraints or the objective function. We provide a unified viewpoint on the general problem classes and models, and we give concrete examples from diverse application fields such as signal and image processing, portfolio selection, and machine learning. The paper discusses general-purpose modeling techniques and broadly applicable as well as problem-specific exact and heuristic solution approaches. While our perspective is that of mathematical optimization, a main goal of this work is to reach out to and build bridges between the different communities in which cardinality optimization problems are frequently encountered. In particular, we highlight that modern mixed-integer programming, which is often regarded as impractical due to the commonly unsatisfactory behavior of black-box solvers applied to generic problem formulations, can in fact produce provably high-quality or even optimal solutions for cardinality optimization problems, even in large-scale real-world settings. Achieving such performance typically involves drawing on the merits of problem-specific knowledge that may stem from different fields of application and, e.g., can shed light on structural properties of a model or its solutions, or can lead to the development of efficient heuristics. We also provide some illustrative examples.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f6a929bcc9a211c6ec16198ce4e15263",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:39.728484"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到了'portfolio selection'作为应用领域之一，这属于投资组合管理的范畴。虽然论文也涉及其他领域，但投资组合管理是其明确提到的金融应用领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到了'portfolio selection'作为应用领域之一，这属于投资组合管理的范畴。虽然论文也涉及其他领域，但投资组合管理是其明确提到的金融应用领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:32.446984"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 165,
+    "title": "Two robust long short-term memory frameworks for trading stocks",
+    "abstract": "This paper aims to find a superior strategy for the daily trading on a portfolio of stocks for which traditional trading strategies perform poorly due to the low frequency of new information. The experimental work is divided into a set of traditional trading strategies and a set of long short-term memory networks. The networks incorporate general and specific trading patterns, where the former takes into account the universal decision factors for trading across many stocks, while the latter takes into account stock-specific decision factors. Our research shows that both long short-term memory networks, regardless of whether they are based on universal or stock-specific decision factors, significantly outperform traditional trading strategies. Interestingly, however, on average neither has the edge compared to the other, thus remaining ambivalent as to whether universality or specificality is to be preferred when it comes to designing long short-term memory networks for optimal trading.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "c036a5ac1483b2e47e076eb3373991e0",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:33:06.097301"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用长短期记忆网络（LSTM）来优化股票投资组合的日常交易策略，这直接涉及投资组合管理的领域。论文明确提到目标是寻找一种优于传统策略的股票组合交易方法，并通过实验验证了LSTM网络在交易策略上的优越性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用长短期记忆网络（LSTM）来优化股票投资组合的日常交易策略，这直接涉及投资组合管理的领域。论文明确提到目标是寻找一种优于传统策略的股票组合交易方法，并通过实验验证了LSTM网络在交易策略上的优越性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:33.215900"
+}

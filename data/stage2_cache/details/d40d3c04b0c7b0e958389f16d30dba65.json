@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 465,
+    "title": "Support System for Trading in Exchange Market by Distributional Forecasting Model",
+    "abstract": "Integration of algorithms of investment theory and artificial intelligence allows one to create a support system for investors in exchange markets based on the ensemble of long-short-termmemory (LSTM) based recurrent neural networks (RNN). The proposed support system contains five stages: preparation of historical data, prediction by an ensemble of LSTM RNNs, assessment of prediction distributions, investment portfolio formation and verification. The prediction process outputs a multi-modal distribution, which provides useful information for investors. The research compares four different strategies based on a combination of distribution forecasting models. The high-low strategy helps decision-makers in exchange markets to recognize signals of transactions and fix limits for expectations. A combination of high-low-daily-weekly predictions helps investors to make daily transactions with knowing distribution of exchange rates during the week. The shift in time of five hours between London and New York inspired us to create a UK-NY strategy, which allows investors to recognize the signals of the market in a very short time. The joined high-low-UK-NY strategy increases the possibility of recognizing the signals of transactions in a very short time and of fixing the limits for day trading. So, this support system for investors is verified as a profitable tool for speculators in the relatively risky currency market.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "7b518004a9f801b8f140f28d1d763e91",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:36:26.487562"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM RNNs进行分布预测，以支持投资者在交易所市场的决策，包括投资组合的形成和交易策略的制定。这些内容直接关联到投资组合管理领域，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM RNNs进行分布预测，以支持投资者在交易所市场的决策，包括投资组合的形成和交易策略的制定。这些内容直接关联到投资组合管理领域，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:57.629848"
+}

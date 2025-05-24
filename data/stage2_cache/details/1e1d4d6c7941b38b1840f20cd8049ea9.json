@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 4770,
+    "title": "Statistical arbitrage in the stock markets by the means of multiple time horizons clustering",
+    "abstract": "Nowadays, statistical arbitrage is one of the most attractive fields of study for researchers, and its applications are widely used also in the financial industry. In this work, we propose a new approach for statistical arbitrage based on clustering stocks according to their exposition on common risk factors. A linear multifactor model is exploited as theoretical background. The risk factors of such a model are extracted via Principal Component Analysis by looking at different time granularity. Furthermore, they are standardized to be handled by a feature selection technique, namely the Adaptive Lasso, whose aim is to find the factors that strongly drive each stock's return. The assets are then clustered by using the information provided by the feature selection, and their exposition on each factor is deleted to obtain the statistical arbitrage. Finally, the Sequential Least SQuares Programming is used to determine the optimal weights to construct the portfolio. The proposed methodology is tested on the Italian, German, American, Japanese, Brazilian, and Indian Stock Markets. Its performances, evaluated through a Cross-Validation approach, are compared with three benchmarks to assess the robustness of our strategy.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6e19c67f3cefaeaf21151d55fd69e694",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:41:00.784003"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是统计套利策略，通过聚类股票并根据风险因素构建投资组合，最终目标是确定最优权重以构建投资组合。这直接涉及投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是统计套利策略，通过聚类股票并根据风险因素构建投资组合，最终目标是确定最优权重以构建投资组合。这直接涉及投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:57.315803"
+}

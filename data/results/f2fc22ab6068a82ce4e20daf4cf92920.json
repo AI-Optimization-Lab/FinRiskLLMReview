@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "neural network",
+    "deep learning",
+    "representation learning",
+    "backpropagation",
+    "BP",
+    "hidden layer",
+    "recurrent neural network",
+    "long short-term memory",
+    "LSTM"
+  ],
+  "explanations": {
+    "machine learning": "The paper uses neural networks (NARXNN) for predicting financial instrument prices, which is a machine learning technique.",
+    "neural network": "The paper specifically mentions the use of Nonlinear AutoRegressive with Exogenous inputs Neural Network (NARXNN).",
+    "deep learning": "NARXNN is a type of deep learning model, especially when considering its architecture with hidden layers.",
+    "representation learning": "Neural networks inherently perform representation learning by transforming input data into more useful representations.",
+    "backpropagation": "Neural networks typically use backpropagation for training, though it's not explicitly mentioned in the abstract.",
+    "BP": "BP is short for backpropagation, which is commonly used in training neural networks.",
+    "hidden layer": "Neural networks like NARXNN have hidden layers, though the abstract doesn't specify the number.",
+    "recurrent neural network": "NARXNN is a type of recurrent neural network as it deals with time-series data.",
+    "long short-term memory": "While not explicitly mentioned, NARXNN shares similarities with LSTM networks in handling temporal dependencies.",
+    "LSTM": "LSTM is a type of recurrent neural network, and NARXNN is related in its handling of sequential data."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"neural network\", \"deep learning\", \"representation learning\", \"backpropagation\", \"BP\", \"hidden layer\", \"recurrent neural network\", \"long short-term memory\", \"LSTM\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper uses neural networks (NARXNN) for predicting financial instrument prices, which is a machine learning technique.\",\n    \"neural network\": \"The paper specifically mentions the use of Nonlinear AutoRegressive with Exogenous inputs Neural Network (NARXNN).\",\n    \"deep learning\": \"NARXNN is a type of deep learning model, especially when considering its architecture with hidden layers.\",\n    \"representation learning\": \"Neural networks inherently perform representation learning by transforming input data into more useful representations.\",\n    \"backpropagation\": \"Neural networks typically use backpropagation for training, though it's not explicitly mentioned in the abstract.\",\n    \"BP\": \"BP is short for backpropagation, which is commonly used in training neural networks.\",\n    \"hidden layer\": \"Neural networks like NARXNN have hidden layers, though the abstract doesn't specify the number.\",\n    \"recurrent neural network\": \"NARXNN is a type of recurrent neural network as it deals with time-series data.\",\n    \"long short-term memory\": \"While not explicitly mentioned, NARXNN shares similarities with LSTM networks in handling temporal dependencies.\",\n    \"LSTM\": \"LSTM is a type of recurrent neural network, and NARXNN is related in its handling of sequential data.\"\n  }\n}\n```"
+}

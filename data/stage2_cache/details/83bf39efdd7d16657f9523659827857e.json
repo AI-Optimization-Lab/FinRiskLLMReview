@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1104,
+    "title": "Supervised and Unsupervised Learning for Fraud and Money Laundering Detection using Behavior Measuring Distance",
+    "abstract": "Money laundering is the process of making large amounts of fund obtained from criminal activities appear to originate from a legitimate source. Fraud occurs when a person or business intentionally deceives another with promises of services or financial benefits that do not exist or were misrepresented. Fraud and Money laundering detections require to analyze abnormal behavioral patterns. To develop a detection model, we present a machine learning-based model which incorporates risk scoring and statistical clustering approaches. Given a customer represented by its values in a set of attributes, we define its Customer Behavior Score based on its percentile rank in each attribute, which measures the behavior of the customer against the median or normal customers in the group. The Customer Behavior Score induces a distance, called Behavior Measuring Distance, between any two customers. The k-medoids clustering technique based on the Behavior Measuring Distance is then applied iteratively to classify customers. The key features of the model are that the abnormality of customers' behaviors are measured based on their percentile ranks in their respective classes and that such measurement is dynamically updated based on the reclassification after each iteration during the training. Finally, the model is tested using the country risk data collected from public and internal sources, and the model outcomes are compared against a benchmark model. The experimental results show convergence and effectiveness of the model.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "98282a346234966e2e32db4f7febfb1f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "classification",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.518574"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习和行为测量距离来检测欺诈和洗钱行为，这属于金融风险管理中的操作风险监控和防范范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习和行为测量距离来检测欺诈和洗钱行为，这属于金融风险管理中的操作风险监控和防范范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:00.649071"
+}

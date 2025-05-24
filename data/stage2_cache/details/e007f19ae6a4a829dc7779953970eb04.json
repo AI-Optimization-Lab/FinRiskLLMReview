@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 547,
+    "title": "The design and implementation of a deep reinforcement learning and quantum finance theory-inspired portfolio investment management system",
+    "abstract": "Deep Learning (DL) and Reinforcement Learning (RL) are common machine learning techniques used in automatic trading, notwithstanding, RL is deficient in portfolio investment in terms of funds distribution, potential loss control, profit maximization, and examine undetected environment. This paper proposed an intelligent Quantum Finance-based portfolio investment system (QFPIS), which is a combination of Deep Reinforcement Learning (DRL) with Quantum Finance Theory (QFT) to improve these conditions. There are two major agents embodied in the system: 1) a trading agent based on Deep Deterministic Policy Gradient algorithm to determine investment weighting for different financial products by generating continuous actions; 2) an intelligent agent based on Policy Gradient (PG) algorithm to enact risk control and determine whether to hold current orders by producing discrete actions depend on daily Quantum Price Levels (QPLs). The advantages of incorporating a two agents system design are to devise stable and realistic fund allocation for different products in portfolio. Experiment results had shown robustness, flexibility, and profitability on a series of forex products and the U.S. stocks in the back-testing phase as compared to other RL trading systems.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6db0170963d5530321a8403363c2c92f",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer",
+      "deep belief network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.273607"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合深度强化学习和量子金融理论设计一个智能投资组合管理系统，其主要目标是优化资金分配、控制潜在损失和最大化利润，这些都属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合深度强化学习和量子金融理论设计一个智能投资组合管理系统，其主要目标是优化资金分配、控制潜在损失和最大化利润，这些都属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:03.745580"
+}

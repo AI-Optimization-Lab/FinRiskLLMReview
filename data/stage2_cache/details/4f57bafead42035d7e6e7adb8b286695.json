@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 505,
+    "title": "Deep Deterministic Policy Gradient for Portfolio Management",
+    "abstract": "Portfolio management is a fmancial problem that has been the subject of much research over the years. It is a planning task where an agent constantly redistributes resources across a set of assets in order to achieve investment objectives and thereby maximize return. However, it remains difficult to obtain an optimal strategy in an environment as complex and dynamic as the financial market. Our article focuses on solving this stochastic control problem in order to obtain an optimal strategy that would allow us to make profitable decisions by interacting directly with the environment. To do this, we explore the power of deep reinforcement learning which differs from traditional Machine Learning by combining the task of predicting stock behavior and analyzing the optimal course of action in a single unit, thus aligning the problem of Machine Learning with the investor's objectives. As a method, we propose to use the Deep Deterministic Policy Gradient which is an off-policy algorithm and is used for environments with continuous action spaces. The obtained results demonstrate that the model achieves a higher rate of return than the strategy of Uniform Buy and Hold stocks and the strategy of  Buy Best Stock in last month.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ef866fa01c9243172f06a75885dc3b79",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:20.949843"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确讨论了使用深度确定性策略梯度（Deep Deterministic Policy Gradient）来解决投资组合管理问题，旨在通过动态资产分配实现投资回报最大化。论文的研究目标和实验设计都集中在投资组合管理领域，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确讨论了使用深度确定性策略梯度（Deep Deterministic Policy Gradient）来解决投资组合管理问题，旨在通过动态资产分配实现投资回报最大化。论文的研究目标和实验设计都集中在投资组合管理领域，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:07.458307"
+}

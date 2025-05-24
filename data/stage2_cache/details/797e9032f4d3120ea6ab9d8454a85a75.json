@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3213,
+    "title": "Machine learning classification and regression models for predicting directional changes trend reversal in FX markets",
+    "abstract": "Most forecasting algorithms in financial markets use physical time for studying price movements, making the flow of time discontinuous. The use of physical time scale can make traders oblivious to significant activities in the market, which poses a risk. Directional changes (DC) is an alternative approach that uses event-based time to sample data. In this work, we propose a novel DC-based framework, which uses machine learning algorithms to predict when a trend will reverse. This allows traders to be in a position to take an action before this happens and thus increase their profitability. We combine our approach with a novel DC-based trading strategy and perform an in-depth investigation, by applying it to 10-min data from 20 foreign exchange markets over a 10-month period. The total number of tested datasets is 1,000, which allows us to argue that our results can be generalised and are widely applicable. We compare our results to ten benchmarks (both DC and non-DC based, such as technical analysis and buy-and-hold). Our findings show that our proposed approach is able to return a significantly higher profit, as well as reduced risk, and statistically outperform the other trading strategies in a number of different performance metrics.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8b8e93829c4218025547af275b494557",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:24:05.003550"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习模型预测外汇市场的趋势反转，并提出了一种基于方向性变化的交易策略。虽然涉及金融市场的预测和交易，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习模型预测外汇市场的趋势反转，并提出了一种基于方向性变化的交易策略。虽然涉及金融市场的预测和交易，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:03.035977"
+}

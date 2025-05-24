@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1171,
+    "title": "Forecasting solar stock prices using tree-based machine learning classification: How important are silver prices?",
+    "abstract": "Solar energy is one of the fastest growing sources of electricity generation. Forecasting solar stock prices is important for investors and venture capitalists interested in the renewable energy sector. This paper uses tree-based machine learning methods to forecast the direction of solar stock prices. The feature set used in prediction includes a selection of well-known technical indicators, silver prices, silver price volatility, and oil price volatility. The solar stock price direction prediction accuracy of random forests, bagging, support vector machines, and extremely randomized trees is much higher than that of logit. For a forecast horizon of between 8 and 20 days, random forests, bagging, support vector machines, and extremely randomized trees achieve a prediction accuracy greater than 85%. Although not as prominent as technical indicators like MA200, WAD, and MA20, oil price volatility and silver price volatility are also important predictors. An investment portfolio trading strategy based on trading signals generated from the extremely randomized trees stock price direction prediction outperforms a simple buy and hold strategy. These results demonstrate the accuracy of using tree-based machine learning methods to forecast the direction of solar stock prices and adds to the broader literature on using machine learning techniques to forecast stock prices.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "470c2807a911ab01ccc400e4cb46073b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.868615"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用树基机器学习方法预测太阳能股票价格方向，并基于这些预测构建了一个投资组合交易策略，这直接涉及投资组合管理的领域。论文中提到的交易策略表现优于简单的买入持有策略，进一步证实了其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用树基机器学习方法预测太阳能股票价格方向，并基于这些预测构建了一个投资组合交易策略，这直接涉及投资组合管理的领域。论文中提到的交易策略表现优于简单的买入持有策略，进一步证实了其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:51.856655"
+}

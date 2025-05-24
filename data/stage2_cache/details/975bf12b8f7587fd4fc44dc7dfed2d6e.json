@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 549,
+    "title": "A Deep Deterministic Policy Gradient-based Strategy for Stocks Portfolio Management",
+    "abstract": "With the improvement of computer performance and the development of GPU-accelerated technology, trading with machine learning algorithms has attracted the attention of many researchers and practitioners. In this research, we propose a novel portfolio management strategy based on the framework of Deep Deterministic Policy Gradient, a policy-based reinforcement learning framework, and compare its performance to that of other trading strategies. In our framework, two Long Short-Term Memory neural networks and two fully connected neural networks are constructed. We also investigate the performance of our strategy with and without transaction costs. Experimentally, we choose eight US stocks consisting of four low-volatility stocks and four high-volatility stocks. We compare the compound annual return rate of our strategy against seven other strategies, e.g., Uniform Buy and Hold, Exponential Gradient and Universal Portfolios. In our case, the compound annual return rate is 14.12%, outperforming all other strategies. Furthermore, in terms of Sharpe Ratio (0.5988), our strategy is nearly 33% higher than that of the second-best performing strategy.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1bbace8335d1d63723bed1dabbb315ce",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:01.261167"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于深度确定性策略梯度的投资组合管理策略，并与其他交易策略进行了比较，主要关注的是股票投资组合的构建和优化，因此属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于深度确定性策略梯度的投资组合管理策略，并与其他交易策略进行了比较，主要关注的是股票投资组合的构建和优化，因此属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:58.234797"
+}

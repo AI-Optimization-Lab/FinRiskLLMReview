@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1501,
+    "title": "Integration of support vector machines and mean-variance optimization for capital allocation",
+    "abstract": "This work introduces a novel methodology for portfolio optimization that is the first to integrate support vector machines (SVMs) with cardinality-constrained mean-variance optimization. We propose augmenting cardinality-constrained mean-variance optimization with a preference for portfolios with the property that a low-dimensional hyperplane can separate assets eligible for investment from those ineligible. We present convex mixed-integer quadratic programming models that jointly select a portfolio and a separating hyperplane. This joint selection optimizes a tradeoff between risk-adjusted returns, hyperplane margin, and classification errors made by the hyperplane. The models are amenable to standard commercial branch-and-bound solvers, requiring no custom implementation. We discuss the properties of the proposed optimization models and draw connections between existing portfolio optimization and SVM approaches. We develop a parameter selection strategy to address the selection of big-Ms and provide a financial interpretation of the proposed approach's parameters. The parameter strategy yields valid big-M values, ensures the risk of the resulting portfolio is within a factor of the lowest possible risk, and produces informative hyperplanes for practitioners. The mathematical programming models and the associated parameter selection strategy are amenable to financial backtesting. The models are evaluated in-sample and out-of-sample on two distinct datasets in a rolling horizon backtesting framework. The portfolios resulting from the proposed approach display improved out-of-sample risk-adjusted returns compared to cardinality-constrained mean-variance optimization.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a43c5cb22afe10180bf68e3595adeca2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.826678"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是将支持向量机（SVM）与均值-方差优化相结合，用于资本配置和投资组合优化。论文明确讨论了如何通过这种方法改进投资组合的风险调整后收益，并在滚动时间框架内进行了回测。这些内容直接指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是将支持向量机（SVM）与均值-方差优化相结合，用于资本配置和投资组合优化。论文明确讨论了如何通过这种方法改进投资组合的风险调整后收益，并在滚动时间框架内进行了回测。这些内容直接指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:41.723511"
+}

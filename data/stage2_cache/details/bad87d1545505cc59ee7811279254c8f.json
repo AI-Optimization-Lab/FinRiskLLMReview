@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1132,
+    "title": "Credit Risk Estimation Model Development Process: Main Steps and Model Improvement",
+    "abstract": "The attribution of credit ratings for clients is a very important issue in the banking sector. Banks must evaluate credit risk of credit applicants by using standardized (external rating institutions) or internal ratings-based (IRB) methods. Banks which decided to use IRB method attempt to develop precise internal credit rating models for the evaluation of creditworthiness of their borrowers. The internal rating method for the estimation of default probability requires to collect the default information from the historical data in banks. The major studies about default determinating factors are based on classification methods (Zhou, Xie, Yuan, 2008). A classification model considers the default measurement as the pattern recognition where all borrowers are divided to non-default and default groups based on their financial and non financial data. Banks attempt to construct an evaluation model that can be used to discriminate new sample. This research focuses on a credit rating model development which could attribute credit ratings for Lithuanian companies. The steps of a model's development and improvement process are described in this paper. The model's development begins with the selection of initial variables (financial ratios) characterizing default and non-default companies. 20 financial ratios of 5 years were calculated according to annual financial reports. Then statistical and artificial intelligence methods were selected for the classification of companies into two groups: default and non-default. A discriminant analysis, logistic regression and artificial neural networks (multilayer perceptron) were applied for this purpose. Often statistical methods are not able to operate with a large amount of data, so the analysis of variance, Kolmogorov-Smirnov test and factor analysis were applied for data reduction. Artificial neural networks often are able to analyze a large amount of data so variable selection was accomplished by the network itself calculating ranks of importance for every initial variable. There were constructed 15 classification models and their classification accuracy was measured by calculating correct classification rates. The most accurate was a logistic regression model analyzing data of 3 years (97% of correctly classified companies). Then the sample of companies was supplemented with new data and changes in classification accuracy were estimated. The significant decrease of classification accuracy conditioned the need of model update. For this reason the logistic regression coefficients were recalculated. In order to classify non-default companies into 7 classes: profitability, liquidity, financial structure and individual possibility of default estimated by a logistic regression model were determined as rating criterions. Then the rating scale was constructed and credit ratings were attributed for companies in the sample. The calculated probabilities of default indicated that some lower ratings have lower probabilities of default. These imperfections were corrected by the modification of a rating scale. The research has shown that the developed model is a valid tool for the estimation of credit risk.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6218053d41ecc0db1b23f082221d5c7d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "neural network",
+      "artificial neural networks",
+      "logistic regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.609862"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a credit risk estimation model using statistical and machine learning methods to classify companies into default and non-default groups, which is a core aspect of financial risk management, specifically credit risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a credit risk estimation model using statistical and machine learning methods to classify companies into default and non-default groups, which is a core aspect of financial risk management, specifically credit risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:58.070902"
+}

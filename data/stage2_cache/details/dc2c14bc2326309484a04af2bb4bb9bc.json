@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 31,
+    "title": "Carbon price forecasting models based on big data analytics",
+    "abstract": "After the establishment of the European Union's Emissions Trading System (EU-ETS) carbon pricing attracted many researchers. This paper aims to develop a prediction model that anticipates future carbon prices given a real-world data set. We treat the carbon pricing issue as part of big data analytics to achieve this goal. We apply three fundamental methodologies to characterize the carbon price. First method is the artificial neural network, which mimics the principle of human brain to process relevant data. As a second approach, we apply the decision tree algorithm. This algorithm is structured through making multiple binary decisions, and it is mostly used for classification. We employ two different decision tree algorithms, namely traditional and conditional, to determine the type of decision tree that gives better results in terms of prediction. Finally, we exploit the random forest, which is a more complex algorithm compared to the decision tree. Similar to the decision tree, we test both traditional and conditional random forest algorithms to analyze their performances. We use Brent crude futures, coal, electricity and natural gas prices, and DAX and S&P Clean Energy Index as explanatory variables. We analyze the variables' effects on carbon price forecasting. According to our results, S&P Clean Energy Index is the most influential variable in explaining the changes in carbon price, followed by DAX Index and coal price. Moreover, we conclude that the traditional random forest is the best algorithm based on all indicators. We provide the details of these methods and their comparisons.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "d75ca4ebc41fe48ce2a063a2252b3bc9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.523591"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究碳价格的预测模型，虽然使用了金融数据作为解释变量，但其核心应用是环境经济中的碳定价问题，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究碳价格的预测模型，虽然使用了金融数据作为解释变量，但其核心应用是环境经济中的碳定价问题，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:28.956886"
+}

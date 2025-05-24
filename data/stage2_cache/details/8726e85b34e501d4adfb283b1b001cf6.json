@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 7,
+    "title": "A Financial Risk Early Warning Model for Listed New Energy Vehicle Companies Based on LSTM: Using SMOTE Oversampling and Simulated Annealing Optimization",
+    "abstract": "With the rapid development of artificial intelligence technology, the application of deep learning in financial data analysis is becoming increasingly widespread, particularly in the field of financial risk early warning. To address the limitations of traditional financial risk early warning models regarding insufficient samples and class imbalance issues, the paper proposed a financial risk early warning model based on Long Short-Term Memory networks for listed new energy vehicle companies, called SMOTE-SA-LSTM, which integrated SMOTE oversamping and simulated annealing optimization technique.In SMOTE-SA-LSTM, a comprehensive early warning system covering 45 key indicators is constructed by combining both financial and non-financial perspectives, and the sample categories of the training set are balanced by using the SMOTE oversampling technique in order to solve the imbalance of the sample categories in the training set, so as to improve the model's ability of identifying the risks of a few categories. Further, the number of hidden layer units of the LSTM model is optimized by Simulated Annealing SA (SA) to improve the prediction accuracy of the model. Experimental validation shows that the optimized SMOTE-SA-LSTM model performs better in predicting corporate financial changes, risk identification and early warning accuracy.Compared to other traditional models, the SMOTE-SA-LSTM model demonstrates significant advantages in prediction accuracy and recall rate, thereby confirming its practical application value in financial risk early warning.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "ad03bb88e43a6f402d6b1152d4b2358b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:32:30.200449"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是构建一个基于LSTM的财务风险预警模型，旨在提高对上市新能源汽车公司财务风险的识别和预警能力，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是构建一个基于LSTM的财务风险预警模型，旨在提高对上市新能源汽车公司财务风险的识别和预警能力，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:48.792500"
+}

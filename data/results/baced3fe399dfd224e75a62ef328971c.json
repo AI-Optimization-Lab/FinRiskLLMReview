@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "SVM",
+    "support vector machine",
+    "regression",
+    "feature representation"
+  ],
+  "explanations": {
+    "machine learning": "论文明确提到使用机器学习技术进行系统性金融风险监测预警，并比较了多种机器学习模型的表现。",
+    "supervised learning": "论文中提到的机器学习模型（如SVM、Lasso等）都是监督学习模型，用于预测系统性金融风险。",
+    "SVM": "论文中明确提到SVM模型在向前多期预测时表现更好。",
+    "support vector machine": "同上，SVM是支持向量机的缩写，论文中提到了该模型的应用。",
+    "regression": "论文中的预测任务可以视为回归问题，预测系统性金融风险的连续值。",
+    "feature representation": "论文提到从多个层面选取预测预警指标，这些指标可以视为特征表示，用于机器学习模型的输入。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"SVM\",\n    \"support vector machine\",\n    \"regression\",\n    \"feature representation\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"论文明确提到使用机器学习技术进行系统性金融风险监测预警，并比较了多种机器学习模型的表现。\",\n    \"supervised learning\": \"论文中提到的机器学习模型（如SVM、Lasso等）都是监督学习模型，用于预测系统性金融风险。\",\n    \"SVM\": \"论文中明确提到SVM模型在向前多期预测时表现更好。\",\n    \"support vector machine\": \"同上，SVM是支持向量机的缩写，论文中提到了该模型的应用。\",\n    \"regression\": \"论文中的预测任务可以视为回归问题，预测系统性金融风险的连续值。\",\n    \"feature representation\": \"论文提到从多个层面选取预测预警指标，这些指标可以视为特征表示，用于机器学习模型的输入。\"\n  }\n}\n```"
+}

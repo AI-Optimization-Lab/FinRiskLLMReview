@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 292,
+    "title": "Kernel-based Monte Carlo simulation for American option pricing",
+    "abstract": "Valuation of an American option with Monte Carlo methods is one of the most important and difficult problems in pricing, since it involves the determination of optimal exercise timing in the sense that the option can be exercised at any time prior to its own maturity. Regression approaches have been widely used to price an American-style option approximately with Monte Carlo simulation. However, the conventional regression methods are very sensitive in the kind and the number of their basis functions, thereby affecting prediction accuracy. In this paper, we propose a novel kernel-based Monte Carlo simulation algorithm to overcome such shortcomings of the regression approaches and conduct a simulation on some American options with promising results on its pricing accuracy. (c) 2008 Elsevier Ltd. All rights reserved.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ce40c45bbaa5f491c7a146a9178c48fb",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.177174"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出一种基于核的蒙特卡洛模拟算法，专门用于美式期权定价，这直接属于衍生品定价的研究领域。论文明确提到其目标是解决美式期权定价中的最优行权时机问题，并验证了其定价准确性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出一种基于核的蒙特卡洛模拟算法，专门用于美式期权定价，这直接属于衍生品定价的研究领域。论文明确提到其目标是解决美式期权定价中的最优行权时机问题，并验证了其定价准确性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:38.759245"
+}

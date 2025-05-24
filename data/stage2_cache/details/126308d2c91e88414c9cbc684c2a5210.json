@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 203,
+    "title": "Optimizing a portfolio of mean-reverting assets with transaction costs via a feedforward neural network",
+    "abstract": "Optimizing a portfolio of mean-reverting assets under transaction costs and a finite horizon is severely constrained by the curse of high dimensionality. To overcome the exponential barrier, we develop an efficient, scalable algorithm by employing a feedforward neural network. A novel concept is to apply HJB equations as an advanced start for the neural network. Empirical tests with several practical examples, including a portfolio of 48 correlated pair trades over 50 time steps, show the advantages of the approach in a high-dimensional setting. We conjecture that other financial optimization problems are amenable to similar approaches.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a7e7d038965cfd187ffc778cae86b5fa",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.103767"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用前馈神经网络优化均值回归资产的投资组合，并考虑了交易成本和有限时间范围，这直接属于投资组合管理的范畴。论文的研究目标和实验设计都集中在投资组合优化问题上，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用前馈神经网络优化均值回归资产的投资组合，并考虑了交易成本和有限时间范围，这直接属于投资组合管理的范畴。论文的研究目标和实验设计都集中在投资组合优化问题上，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:00.491161"
+}

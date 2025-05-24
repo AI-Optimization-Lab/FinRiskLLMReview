@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 121,
+    "title": "A Fuzzy Clustering Algorithm for Portfolio Selection",
+    "abstract": "This work proposes the use of a Fuzzy Clustering Algorithm for asset allocation based on their correlation. The objective of the algorithm is to propose the allocation to help investors improve their investment process, suggesting the allocation using the information of the groups and the membership degree of each asset to each group. This work is different from the approaches already proposed in the literature, which essentially use hierarchical clustering algorithms, whereas in this proposal we use a fuzzy partitioning method. The membership degree of each asset to the group was used to determine the percentage of asset allocation: the closer to the medoid, the greater its allocation. Experiments were carried out using data from the Brazilian Stock Exchange and the assets eligible to enter into the allocation were those that were part of the Ibovespa index at the time of portfolio rebalancing. The results were compared with other allocation methods and with the Ibovespa index itself. The proposed algorithm illustrates the potential of soft-computing and machine learning techniques in portfolio optimization.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "27d2bb8f656988f3062ea50f6a71c1eb",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.594583"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper proposes a Fuzzy Clustering Algorithm specifically for asset allocation and portfolio selection, aiming to improve the investment process by suggesting allocations based on asset correlations and membership degrees. The experiments conducted with data from the Brazilian Stock Exchange and comparison with other allocation methods and the Ibovespa index further confirm its application in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper proposes a Fuzzy Clustering Algorithm specifically for asset allocation and portfolio selection, aiming to improve the investment process by suggesting allocations based on asset correlations and membership degrees. The experiments conducted with data from the Brazilian Stock Exchange and comparison with other allocation methods and the Ibovespa index further confirm its application in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:25.058133"
+}

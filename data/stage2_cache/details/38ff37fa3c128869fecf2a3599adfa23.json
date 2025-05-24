@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 522,
+    "title": "A Real-Time Framework for Matching Prosumers With Minimum Risk in the Cluster of Microgrids",
+    "abstract": "Microgrids provide an economical solution to exploit increasing distributed energy sources by locally consuming generated power. The key to the reliable operation of microgrids is how to cope with the uncertainty of renewables when selling and buying power. Although the surplus power of each microgrid can fluctuate significantly, aggregating the contributions from multiple microgrids may produce a smoothed supply. We study the matching problem in the cluster of cooperative microgrids where surplus power from some microgrids (called sellers) can be consumed by other microgrids (called buyers) in need of more power. We develop a framework for predicting sellers and buyers for every time interval, and matching them based on the prediction. We first formulate the problem of matching sellers and buyers. This problem finds a portfolio of sellers contributions to every buyer with minimum risk of mismatch between supply from sellers and demand from buyers. We characterize the optimal matching and give some insight on how surplus power should be distributed to buyers. The formulation involves several statistical parameters of microgrids. We present a LSTM based method for predicting these parameters. Using surplus power data of real microgrids, we demonstrate that our framework can reduce the risk of mismatch.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "0ac1f919fafc36201a29b967fa7666e1",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:37:01.729222"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究微电网集群中电力供需匹配的问题，虽然提到了风险最小化和投资组合的概念，但这些概念是在能源管理背景下应用的，而非金融领域。论文的核心技术是LSTM预测模型，用于优化微电网间的电力分配，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究微电网集群中电力供需匹配的问题，虽然提到了风险最小化和投资组合的概念，但这些概念是在能源管理背景下应用的，而非金融领域。论文的核心技术是LSTM预测模型，用于优化微电网间的电力分配，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:54.679806"
+}

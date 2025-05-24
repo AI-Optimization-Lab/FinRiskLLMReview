@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3423,
+    "title": "A Replication Study on the Effects of Weighted Moving Windows for Software Effort Estimation",
+    "abstract": "Context: Recent studies have shown that estimation accuracy can be affected by only using a window of recent projects as training data for building an effort estimation model. The idea has been extended for regression-based estimation by weighting projects differently according to their order within the window. This significantly improved the accuracy of estimation in a single-company dataset from the ISBSG repository. Objective: To investigate the effects on estimation accuracy of using weighted moving windows with a new dataset, and compare results across datasets. Method: Using a dataset drawn from the Finnish dataset (studied previously with regard to windows but not with weighting), and using a fixed-size window policy, we examine the effect on estimation accuracy of using weighted moving windows. Results: The use of weighting functions could improve the estimation accuracy significantly, compared to using unweighted windows, with larger window sizes. The steepness of the weighting functions affects their effectiveness. However, in this dataset it is better to use a growing portfolio (retaining all past projects as training data) than to use windows. Conclusions: The results reinforce previous studies: the use of weighting functions can significantly improve the accuracy of regression-based estimation, compared to not using weighting, but in this dataset the use of moving windows reduces estimation accuracy.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "70b4568bd6e2f63595df1a40569b545c",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:55.547806"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究软件工作量估计中的加权移动窗口方法，其应用场景是软件工程而非金融领域。虽然提到了'portfolio'一词，但这里指的是项目组合而非金融投资组合。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究软件工作量估计中的加权移动窗口方法，其应用场景是软件工程而非金融领域。虽然提到了'portfolio'一词，但这里指的是项目组合而非金融投资组合。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:46.233225"
+}

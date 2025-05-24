@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "deep learning",
+    "neural network",
+    "long short-term memory",
+    "LSTM",
+    "convolutional neural network",
+    "CNN",
+    "representation learning"
+  ],
+  "explanations": {
+    "machine learning": "The paper presents a deep learning framework for stock price prediction, which is a subfield of machine learning.",
+    "deep learning": "The approach involves deep Bayesian networks and temporal generative adversarial neural networks (t-GAN), which are deep learning techniques.",
+    "neural network": "The paper uses deep Bayesian neural networks and LSTM networks, which are types of neural networks.",
+    "long short-term memory": "The temporal GAN consists of LSTM neural networks to handle the time series nature of stock prices.",
+    "LSTM": "LSTM networks are explicitly mentioned as part of the temporal GAN architecture.",
+    "convolutional neural network": "The temporal GAN also includes temporal convolutional neural networks (TCN), which are a type of CNN.",
+    "CNN": "TCN is a variant of CNN used in the paper for ensuring causality in time series data.",
+    "representation learning": "The paper involves learning representations of financial trajectories and stock price evolution, which is a form of representation learning."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"deep learning\",\n    \"neural network\",\n    \"long short-term memory\",\n    \"LSTM\",\n    \"convolutional neural network\",\n    \"CNN\",\n    \"representation learning\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper presents a deep learning framework for stock price prediction, which is a subfield of machine learning.\",\n    \"deep learning\": \"The approach involves deep Bayesian networks and temporal generative adversarial neural networks (t-GAN), which are deep learning techniques.\",\n    \"neural network\": \"The paper uses deep Bayesian neural networks and LSTM networks, which are types of neural networks.\",\n    \"long short-term memory\": \"The temporal GAN consists of LSTM neural networks to handle the time series nature of stock prices.\",\n    \"LSTM\": \"LSTM networks are explicitly mentioned as part of the temporal GAN architecture.\",\n    \"convolutional neural network\": \"The temporal GAN also includes temporal convolutional neural networks (TCN), which are a type of CNN.\",\n    \"CNN\": \"TCN is a variant of CNN used in the paper for ensuring causality in time series data.\",\n    \"representation learning\": \"The paper involves learning representations of financial trajectories and stock price evolution, which is a form of representation learning.\"\n  }\n}\n```"
+}

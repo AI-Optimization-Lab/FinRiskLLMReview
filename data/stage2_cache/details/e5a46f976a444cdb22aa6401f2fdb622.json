@@ -1,0 +1,40 @@
+{
+  "paper": {
+    "id": 1382,
+    "title": "A comparative study of hybrid and individual models for predicting the Moroccan MASI index: Integrating machine learning and deep learning approaches",
+    "abstract": "Forecasting financial market fluctuations is inherently challenging due to its complexity, volatility, and non-linear behavior. This research investigates the predictive accuracy of novel machine learning (ML) approaches for forecasting stock prices. Our approach combines individual ML and deep learning (DL) techniques to predict the daily price of the Moroccan all-share index (MASI). This study introduces novel hybrid models, specifically SVR-XGBoost, MLP-XGBoost, and LSTM-XGBoost. Daily closing price data for the MASI index and sector indices, from 2013 to 2023, is collected. The dataset is used to train and optimize Support Vector Regression (SVR), XGBoost, Multilayer Perceptron (MLP), and Long Short-Term Memory (LSTM) models using the Grid search (GS) algorithm. The performance of these individual models is compared with the hybrid model using standard metrics such as mean absolute error (MAE), mean square error (MSE), mean absolute percentage error (MAPE), and root mean square error (RMSE). In addition, backtesting and bootstrapping interval from the Skforecast library are used. The results demonstrate that the hybrid model achieves the highest accuracy. Moreover, this research holds significant value for investors, financial analysts, and policymakers by refining investment strategies and improving risk management practices.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "037a700d255a06e34e62d83d2c4ac870",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:02:22.728343"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用机器学习和深度学习技术预测股票价格指数（MASI），这直接有助于投资组合管理中的资产选择和配置决策。同时，论文提到研究结果可用于改进风险管理实践，表明其在金融风险管理领域也有应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用机器学习和深度学习技术预测股票价格指数（MASI），这直接有助于投资组合管理中的资产选择和配置决策。同时，论文提到研究结果可用于改进风险管理实践，表明其在金融风险管理领域也有应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:25.697923"
+}

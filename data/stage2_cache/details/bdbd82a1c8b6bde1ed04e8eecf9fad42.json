@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1345,
+    "title": "Statistical Models Coupling Allows for Complex Local Multivariate Time Series Analysis",
+    "abstract": "The increased availability of multivariate time-series asks for the development of suitable methods able to holistically analyse them. To this aim, we propose a novel flexible method for data-mining, forecasting and causal patterns detection that leverages the coupling of Hidden Markov Models and Gaussian Graphical Models. Given a multivariate non-stationary time-series, the proposed method simultaneously clusters time points while understanding probabilistic relationships among variables. The clustering divides the time points into stationary sub-groups whose underlying distribution can be inferred through a graphical model. Such coupling can be further exploited to build a time-varying regression model which allows to both make predictions and obtain insights on the presence of causal patterns. We extensively validate the proposed approach on synthetic data showing that it has better performance than the state of the art on clustering, graphical models inference and prediction. Finally, to demonstrate the applicability of our approach in real-world scenarios, we exploit its characteristics to build a profitable investment portfolio. Results show that we are able to improve the state of the art, by going from a -%20 profit to a noticeable 80%.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f351fd511a843fcdfacb76b8a31eca73",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:56.344806"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中提到利用所提出的方法构建了一个盈利的投资组合，并展示了从-20%到80%的利润改进，这明确表明该技术主要应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中提到利用所提出的方法构建了一个盈利的投资组合，并展示了从-20%到80%的利润改进，这明确表明该技术主要应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:39.833072"
+}

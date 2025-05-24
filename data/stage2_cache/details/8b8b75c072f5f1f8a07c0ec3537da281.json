@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3105,
+    "title": "Compound Poisson models for weighted networks with applications in finance",
+    "abstract": "We develop a modelling framework for estimating and predicting weighted network data. The edge weights in weighted networks often arise from aggregating some individual relationships between the nodes. Motivated by this, we introduce a modelling framework for weighted networks based on the compound Poisson distribution. To allow for heterogeneity between the nodes, we use a regression approach for the model parameters. We test the new modelling framework on two types of financial networks: a network of financial institutions in which the edge weights represent exposures from trading Credit Default Swaps and a network of countries in which the edge weights represent cross-border lending. The compound Poisson Gamma distributions with regression fit the data well in both situations. We illustrate how this modelling framework can be used for predicting unobserved edges and their weights in an only partially observed network. This is for example relevant for assessing systemic risk in financial networks.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "56b4c1a124e7dcec40e73b6b05cb0272",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:22:25.190082"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on modeling weighted networks to assess systemic risk in financial networks, which is a key aspect of financial risk management. The applications include modeling exposures from trading Credit Default Swaps and cross-border lending, both of which are relevant to understanding and mitigating financial risks.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on modeling weighted networks to assess systemic risk in financial networks, which is a key aspect of financial risk management. The applications include modeling exposures from trading Credit Default Swaps and cross-border lending, both of which are relevant to understanding and mitigating financial risks.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:43.789117"
+}

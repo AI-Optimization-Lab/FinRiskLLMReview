@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 5204,
+    "title": "Tree-based models for variable annuity valuation: parameter tuning and empirical analysis",
+    "abstract": "Variable annuities have become popular retirement and investment vehicles due to their attractive guarantee features. Nonetheless, managing the financial risks associated with the guarantees poses great challenges for insurers. One challenge is risk quantification, which involves frequent valuation of the guarantees. Insurers rely on the use of Monte Carlo simulation for valuation as the guarantees are too complicated to be valued by closed-form formulas. However, Monte Carlo simulation is computationally intensive. In this paper, we empirically explore the use of tree-based models for constructing metamodels for the valuation of the guarantees. In particular, we consider traditional regression trees, tree ensembles, and trees based on unbiased recursive partitioning. We compare the performance of tree-based models to that of existing models such as ordinary kriging and generalised beta of the second kind (GB2) regression. Our results show that tree-based models are efficient in producing accurate predictions and the gradient boosting method is considered the most superior in terms of prediction accuracy.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "27803c2dd38e2c0aa2a8f0429dfe8216",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:45:17.130709"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用树基模型对可变年金中的保证进行估值，这属于衍生品定价的范畴。同时，论文提到管理这些保证带来的金融风险是保险公司的挑战，因此也涉及金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用树基模型对可变年金中的保证进行估值，这属于衍生品定价的范畴。同时，论文提到管理这些保证带来的金融风险是保险公司的挑战，因此也涉及金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:07.193885"
+}

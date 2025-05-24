@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2283,
+    "title": "STOCK INDEX PATTERN DISCOVERY VIA TOEPLITZ INVERSE COVARIANCE-BASED CLUSTERING",
+    "abstract": "In this study, we attempt to discover repeated patterns of stock index through analysis of multivariate time series. Our motivation is based on the notion that financial planning guided by pattern discovery of stock index may be more effective. A two-stage architecture constructed by combining Toeplitz Inverse Covariance-Based Clustering (TICC) with betweenness centrality is applied for pattern discovery of stock index. In the first stage, TICC is used to discover repeated patterns of stock index's multivariate time series. Then, in the second stage, betweenness centrality scores that reveal the relative importance of each influencing factor are plotted by Markov random field (MRF) which is derived from the first experiment. The Hangseng Stock Index and five influencing factors are used in the experiment. Empirical results show that six kinds of time-invariant patterns with flexible and long-term time periods are discovered in Hangseng Stock Index, and that different influencing factors have different betweenness scores in each cluster. This empirical research provides new ideas of stock index prediction and portfolio construction for scholars and investors. Moreover, the long-period repeated patterns that are discovered in this paper increase the possibility to reduce transaction cost for portfolio construction which then, maybe more applicable to the real financial markets.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d8de0585ba333d95454e019c63290e86",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:04.529314"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过模式发现来指导金融规划和投资组合构建，特别是提到了减少交易成本和适用于真实金融市场，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过模式发现来指导金融规划和投资组合构建，特别是提到了减少交易成本和适用于真实金融市场，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:56.014853"
+}

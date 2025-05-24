@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 734,
+    "title": "Deep Reinforcement Learning for Trading-A Critical Survey",
+    "abstract": "Deep reinforcement learning (DRL) has achieved significant results in many machine learning (ML) benchmarks. In this short survey, we provide an overview of DRL applied to trading on financial markets with the purpose of unravelling common structures used in the trading community using DRL, as well as discovering common issues and limitations of such approaches. We include also a short corpus summarization using Google Scholar. Moreover, we discuss how one can use hierarchy for dividing the problem space, as well as using model-based RL to learn a world model of the trading environment which can be used for prediction. In addition, multiple risk measures are defined and discussed, which not only provide a way of quantifying the performance of various algorithms, but they can also act as (dense) reward-shaping mechanisms for the agent. We discuss in detail the various state representations used for financial markets, which we consider critical for the success and efficiency of such DRL agents. The market in focus for this survey is the cryptocurrency market; the results of this survey are two-fold: firstly, to find the most promising directions for further research and secondly, to show how a lack of consistency in the community can significantly impede research and the development of DRL agents for trading.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1424d7d1b6e043b0fb34937a24c86eab",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "deep belief network",
+      "DBM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:34.027388"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要探讨了深度强化学习在金融市场交易中的应用，特别是加密货币市场的交易策略优化。虽然提到了风险度量，但核心内容集中在交易策略和状态表示上，这更符合投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要探讨了深度强化学习在金融市场交易中的应用，特别是加密货币市场的交易策略优化。虽然提到了风险度量，但核心内容集中在交易策略和状态表示上，这更符合投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:26.014531"
+}

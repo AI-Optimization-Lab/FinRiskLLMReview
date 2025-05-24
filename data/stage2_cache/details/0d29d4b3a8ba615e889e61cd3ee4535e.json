@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 819,
+    "title": "Deep Portfolio Optimization Modeling based on Conv-Transformers with Graph Attention Mechanism",
+    "abstract": "Optimizing portfolios is an important concern for all investors. Nowadays, deep learning has been applied to the study of portfolio investment. Still, the widely used deep learning methods based on asset return prediction do not guarantee to maximize the performance of a portfolio. In this paper, we design a neural network with the overall return-risk ratio of the portfolio as the optimization objective to determine the optimal allocation weights of the portfolio. We design the network architecture based on the Conv-Transformer with graph attention mechanisms(CTG) to better model the temporal dependence of assets and the correlation relationship between assets. The empirical results on the Chinese stock market show that our approach achieves the best results compared to the current SOTA model.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6dd4e342b5bf7ff75bc5cedb7088f9e3",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism",
+      "convolutional neural network",
+      "CNN",
+      "graph attention mechanisms"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.432236"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on optimizing portfolio allocation weights using a neural network with the overall return-risk ratio as the optimization objective, which is a core aspect of portfolio management. The study specifically addresses the temporal dependence and correlation between assets, further confirming its application in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on optimizing portfolio allocation weights using a neural network with the overall return-risk ratio as the optimization objective, which is a core aspect of portfolio management. The study specifically addresses the temporal dependence and correlation between assets, further confirming its application in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:23.775810"
+}

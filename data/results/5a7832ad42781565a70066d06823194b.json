@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "neural network",
+    "deep learning",
+    "representation learning",
+    "backpropagation",
+    "BP",
+    "hidden layer"
+  ],
+  "explanations": {
+    "machine learning": "论文使用了深度神经网络来优化Heston定价模型，属于机器学习领域。",
+    "neural network": "论文构建了一个PINN_Heston模型，这是一种神经网络。",
+    "deep learning": "论文采用了深度学习方法（PINN与Heston方程结合）来改进期权定价模型。",
+    "representation learning": "神经网络通过学习输入（标的资产价格、到期时间及随机波动率）与输出（期权价格）之间的关系来进行表示学习。",
+    "backpropagation": "神经网络训练通常使用反向传播算法来优化模型参数。",
+    "BP": "BP是反向传播的缩写，神经网络训练中常用的优化方法。",
+    "hidden layer": "深度神经网络通常包含隐藏层，用于学习输入数据的复杂特征。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"neural network\",\n    \"deep learning\",\n    \"representation learning\",\n    \"backpropagation\",\n    \"BP\",\n    \"hidden layer\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"论文使用了深度神经网络来优化Heston定价模型，属于机器学习领域。\",\n    \"neural network\": \"论文构建了一个PINN_Heston模型，这是一种神经网络。\",\n    \"deep learning\": \"论文采用了深度学习方法（PINN与Heston方程结合）来改进期权定价模型。\",\n    \"representation learning\": \"神经网络通过学习输入（标的资产价格、到期时间及随机波动率）与输出（期权价格）之间的关系来进行表示学习。\",\n    \"backpropagation\": \"神经网络训练通常使用反向传播算法来优化模型参数。\",\n    \"BP\": \"BP是反向传播的缩写，神经网络训练中常用的优化方法。\",\n    \"hidden layer\": \"深度神经网络通常包含隐藏层，用于学习输入数据的复杂特征。\"\n  }\n}\n```"
+}

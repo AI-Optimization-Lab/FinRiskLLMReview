@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1291,
+    "title": "Dynamic Prediction Model of Financial Asset Volatility Based on Bidirectional Recurrent Neural Networks",
+    "abstract": "Predicting financial market volatility is essential for investors and risk management. This study proposes a dynamic prediction model for financial asset volatility, with a Bi-directional Recurrent Neural Network (Bi-RNN) utilized to cleverly address market complexity. Our framework integrates Bi-RNN and gated recurrent units (GRU) to perform global optimization via particle swarm optimization algorithm (PSO). Bi-RNN combines historical data and future expectations, while GRU effectively solves long-term dependency issues through a gating mechanism, which enhances model generalization. Experimental results show that the model exhibits significant performance advantages on different financial datasets, along with strong learning and generalization capabilities superior to traditional methods. This research provides advanced and practical solutions for financial asset fluctuation prediction and is of positive significance for the greater accuracy of investment decisions and risk mitigation.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "248f0fc4e7d397c37cf254efd431d17c",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.871112"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用双向循环神经网络（Bi-RNN）和门控循环单元（GRU）来预测金融资产波动性，这直接关联到金融风险管理中的市场风险测量和控制。论文明确提到其研究对投资决策和风险缓解具有积极意义，但未提及衍生品定价或投资组合管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用双向循环神经网络（Bi-RNN）和门控循环单元（GRU）来预测金融资产波动性，这直接关联到金融风险管理中的市场风险测量和控制。论文明确提到其研究对投资决策和风险缓解具有积极意义，但未提及衍生品定价或投资组合管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:30.707250"
+}

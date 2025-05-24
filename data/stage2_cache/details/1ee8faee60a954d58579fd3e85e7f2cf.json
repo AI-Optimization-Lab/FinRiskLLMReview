@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1334,
+    "title": "The measurement and early warning of daily financial stability index based on XGBoost and SHAP: Evidence from China",
+    "abstract": "Financial stability plays an important role in the economic and social development of any economy. This study selects daily frequency data of 20 indicators from the money market, stock market, bond market and foreign exchange market in China as research foundation. Firstly, construct the Index of China's Financial Stability (ICFS) by Dynamic Weighting Method based on the time-varying correlation coefficient, and divide ICFS into three categorical variables (high medium low) by Markov Regime Switching Model, results demonstrate that high risk regime can fully explain the financial risk events occurred in the same period in the history. Secondly, the basic indicators and the categorical variables are put into XGBoost model, it turns out that XGBoost model outperforms other machine learning models in the early warning of financial risk on the performance of various evaluation metrics. Moreover, this study proposed an interpretable framework to give a global and local interpretation of early warning model. It turns out that the risk factors influencing China's financial stability are mainly from real economy, financial institutions, market expectations and real estate market, and we identified the 8 most important features and their early warning values. The results provide significant information to policymakers, market regulators and investors, about employing the early warning values as a useful tool to improve resilience to financial risk.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5e5fe1b3b0bdfebc66ddf607c5333c62",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:44.776758"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on constructing a financial stability index and developing an early warning system for financial risks using machine learning techniques, which are core aspects of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on constructing a financial stability index and developing an early warning system for financial risks using machine learning techniques, which are core aspects of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:48.276974"
+}

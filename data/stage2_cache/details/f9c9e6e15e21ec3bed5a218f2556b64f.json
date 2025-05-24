@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 337,
+    "title": "Dynamic portfolio choice: a simulation-and-regression approach",
+    "abstract": "Simulation-and-regression algorithms have become a standard tool for solving dynamic programs in many areas, in particular financial engineering and computational economics. In virtually all cases, the regression is performed on the state variables, for example on current market prices. However, it is possible to regress on decision variables as well, and this opens up new possibilities. We present numerical evidence of the performance of such an algorithm, in the context of dynamic portfolio choices in discrete-time (and thus incomplete) markets. The problem is fundamentally the one considered in some recent papers that also use simulations and/or regressions: discrete time, multi-period reallocation, and maximization of terminal utility. In contrast to that literature, we regress on decision variables and we do not rely on Taylor expansions nor derivatives of the utility function. Only basic tools are used, bundled in a dynamic programming framework: simulations-which can be black-boxed-as a representation of exogenous state variable dynamics; regression surfaces, as non-anticipative representations of expected future utility; and nonlinear or quadratic optimization, to identify the best portfolio choice at each time step. The resulting approach is simple, highly flexible and offers good performance in time and precision.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "881d4000a3b64d0d532e1b66ab5d09e7",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:00.508739"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on dynamic portfolio choices in discrete-time markets, utilizing simulation-and-regression algorithms to maximize terminal utility through multi-period reallocation. This directly aligns with the core concerns of portfolio management, which involves optimizing the allocation of assets to achieve specific financial goals.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on dynamic portfolio choices in discrete-time markets, utilizing simulation-and-regression algorithms to maximize terminal utility through multi-period reallocation. This directly aligns with the core concerns of portfolio management, which involves optimizing the allocation of assets to achieve specific financial goals.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:42.836071"
+}

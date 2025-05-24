@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 513,
+    "title": "A Framework for Market State Prediction with Ontological Asset Selection: A Multimodal Approach",
+    "abstract": "In this study, we introduce a detailed framework for predicting market conditions and selecting stocks by integrating machine learning techniques with ontological financial analysis. The process starts with ontology-based stock selection, categorizing companies using fundamental financial indicators such as liquidity, profitability, debt ratios, and growth metrics. For instance, firms showcasing favorable debt-to-equity ratios along with robust revenue growth are identified as high-performing entities. This classification facilitates targeted analyses of market dynamics. To predict market states-categorizing them into bull, bear, or neutral phases-the framework utilizes a Non-Stationary Markov Chain (NMC), BERT, to assess sentiment in financial news articles and Long Short-Term Memory (LSTM) networks to identify temporal patterns. Key inputs like the Sentiment Index (SI) and Illiquidity Index (ILLIQ) play essential roles in dynamically influencing regime predictions within the NMC model; these inputs are supplemented by variables including GARCH volatility and VIX to enhance predictive precision further still. Empirical findings demonstrate that our approach achieves an impressive 97.20% accuracy rate for classifying market states, significantly surpassing traditional methods like Naive Bayes, Logistic Regression, KNN, Decision Tree, ANN, Random Forest, and XGBoost. The state-predicted strategy leverages this framework to dynamically adjust portfolio positions based on projected market conditions. It prioritizes growth-oriented assets during bull markets, defensive assets in bear markets, and maintains balanced portfolios in neutral states. Comparative testing showed that this approach achieved an average cumulative return of 13.67%, outperforming the Buy and Hold method's return of 8.62%. Specifically, for the S&P 500 index, returns were recorded at 6.36% compared with just a 1.08% gain from Buy and Hold strategies alone. These results underscore the robustness of our framework and its potential advantages for improving decision-making within quantitative trading environments as well as asset selection processes.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "62f5e2242abab5654be5acef2f2cca7b",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:21.007782"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是预测市场状态并基于预测结果动态调整投资组合，这直接涉及投资组合管理的领域。论文中提到的动态调整资产配置、选择增长型或防御型资产等策略，都是投资组合管理的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是预测市场状态并基于预测结果动态调整投资组合，这直接涉及投资组合管理的领域。论文中提到的动态调整资产配置、选择增长型或防御型资产等策略，都是投资组合管理的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:06.154248"
+}

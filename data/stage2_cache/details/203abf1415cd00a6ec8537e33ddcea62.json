@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2028,
+    "title": "Using Decision Trees to aid Algorithm Selection in Combinatorial Interaction Tests Generation",
+    "abstract": "It has been widely observed that there is no a single best CIT generation algorithm; instead, different algorithms perform best in terms of test suite size and time, also depending on different combinatorial models. Rather than following the traditional approach of leaving the choice of the best generator for a given class of models and for given testing requirements to the user, we want to automate the algorithm selection process among a given set of techniques (called portfolio). The proposed approach takes as input a distribution of combinatorial models and their test suites generated using several tools, then, using data-mining techniques, it permits to predict the algorithm that performs better given the cost estimated to execute a single test and the model characteristics. As predictors, we decide to use decision trees because they have been one of the most widely used decision support tool for many years. Their attraction lies in the simplicity of the resulting model, where a decision tree (at least one that is not too large) is quite easy to view, understand, and, importantly, explain even if it may not always deliver the best performances. We demonstrate the effectiveness of our approach to automated algorithm selection in extensive experimental results on data sets including models commonly presented in literature.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b71ecdb2b35f142724e6ac2a5717203d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:02:10.268056"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用决策树辅助算法选择在组合交互测试生成中的应用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用决策树辅助算法选择在组合交互测试生成中的应用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:43.942759"
+}

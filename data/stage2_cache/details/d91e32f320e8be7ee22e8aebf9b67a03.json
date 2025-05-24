@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 821,
+    "title": "Reward Adjustment Reinforcement Learning for risk-averse asset allocation",
+    "abstract": "Over the past decade, application of reinforcement learning (RL) in asset allocation and portfolio management has attracted much attention. However, most classical RL algorithms do not take risk into account, which may lead to treacherous trading decisions. In this paper, we propose a risk-averse RL method, named Reward Adjustment Reinforcement Learning. Our. method incorporates risk to the classical RL framework by adjusting the reward with a risk penalty obtained from the GARCH model. This approach is generally easy in implementation and analysis when compared with other risk-averse models. Analysis is given to reveal the connection between our method and existing risk-averse RL methods. Experiment results on artificial data and real data in Hong Kong stock market are provided to compare the performances of our method and risk-sensitive RL algorithm and to illustrate the superiority of our method on generalization performance.",
+    "year": 2006,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1331032e6b342bfb605e621557611393",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "machine learning",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.446562"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种风险厌恶的强化学习方法，用于资产配置和投资组合管理，并特别强调了风险管理的重要性。论文通过调整奖励函数来纳入风险惩罚，这直接涉及金融风险管理的技术。同时，资产配置和投资组合管理是其核心应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文提出了一种风险厌恶的强化学习方法，用于资产配置和投资组合管理，并特别强调了风险管理的重要性。论文通过调整奖励函数来纳入风险惩罚，这直接涉及金融风险管理的技术。同时，资产配置和投资组合管理是其核心应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:25.851284"
+}

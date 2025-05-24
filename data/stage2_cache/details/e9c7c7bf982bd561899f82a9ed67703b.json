@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 482,
+    "title": "The Network of Mutual Funds: A Dynamic Heterogeneous Graph Neural Network for Estimating Mutual Funds Performance",
+    "abstract": "Mutual funds are interconnected to each other through multiple types of links, including but not limited to co-investment, advisors, firms, and managers. These connections enable information flow among network entities, influence investment decisions, and ultimately impact mutual fund managers' performance. In this paper, we propose a dynamic graph neural network approach to model these heterogeneous relationships and their contributions to mutual fund performance. Using the graph attention mechanism, our model learns latent embedding for mutual funds and their invested assets dynamically in each month and then uses the embedding to estimate future returns. Empirical analysis confirms that the proposed method outperforms the state-of-the-art DeepWalk model by 10%. Furthermore, this study also reveals the importance of networks in mutual fund performance. The inclusion of network connections in a feedforward machine learning model significantly increases the performance of the model by 118%. Finally, portfolio analysis and regression estimation on next month's excess return show that the proposed approach has a significant economic contribution over current benchmark approaches.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "31c727f441045d6fb7402858aff8461a",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.426626"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用动态图神经网络来建模共同基金之间的异质关系，并预测其未来收益，这直接应用于投资组合管理领域。论文还提到了组合分析和超额收益的回归估计，进一步证实了其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用动态图神经网络来建模共同基金之间的异质关系，并预测其未来收益，这直接应用于投资组合管理领域。论文还提到了组合分析和超额收益的回归估计，进一步证实了其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:32.509657"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 321,
+    "title": "Quantitative strategy for the Chinese commodity futures market based on a dynamic weighted money flow model",
+    "abstract": "Due to the short mechanism of the commodity futures market, a dynamic weighted money flow model is proposed in this paper. The model proposed herein is based on the original money flow model but considers the impact of changes in both open interest and price on money flow. The proposed model aptly depicts the overall law of money flow in the Chinese commodity futures market. The results regarding correlation between current money flows and future futures prices show that there are 17 futures contracts with strong negative correlations and three futures contracts with strong positive correlations between 2011 and 2013. Then, the logistic regression, Bayesian discriminant, decision tree, random forest and support vector machine models are applied to validate the forecasting ability of the proposed money flow model with respect to price fluctuations. The average prediction accuracies of the above models exceed 55%, indicating that the money flow model proposed in this paper has a strong forecasting ability. Finally, a binary classification logistic regression strategy based on the dynamic weighted money flow model is established for back-testing and is compared to the double-moving average strategy and the buy-hold strategy. The back-testing results show that the cumulative annualized yield of the portfolio that uses the strategy proposed in this paper is 281.95%. Therefore, the proposed strategy is far superior to other strategies and exhibits better profitability. (C) 2018 Elsevier B.V. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a5f6fcd8542abfb49e9a47c7dc3db6ce",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:00.434342"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是动态加权资金流模型，用于预测商品期货价格波动，并基于此构建交易策略进行回测。研究重点在于通过模型优化投资策略，提高投资组合的收益，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是动态加权资金流模型，用于预测商品期货价格波动，并基于此构建交易策略进行回测。研究重点在于通过模型优化投资策略，提高投资组合的收益，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:45.259986"
+}

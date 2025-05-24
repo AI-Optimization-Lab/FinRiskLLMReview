@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 7251,
+    "title": "Automated Identification and Impact Quantification of Financial Budget Items from Construction Data",
+    "abstract": "Globally, the construction industry has underperformed in terms of managing budget overruns. In North America alone, about 70% of construction projects are late and over budget. Therefore, it is critical for budget planners to be fully aware of the most frequent patterns impacting the budget allocation at the project level. This will prevent neglecting essential contingencies. The budget items frequently contain unordered text-based descriptions written in plain natural language recorded per construction trade. This data are generally overlooked, and normally, it is used by stakeholders only for the ongoing project without extracting any additional value from it for future projects. Extracting these patterns and valuable insights from construction financial data can help to reduce the likelihood of budget overruns, unveil potential unknowns, and enhance project profitability. This extraction process is time-consuming by manual means. Thus, there is a necessity for an automated procedure to extract budget items' descriptions and map their frequency with their budget impact. This paper aims to quantify these budget impacts per trade. To achieve this goal, the data from 723 construction projects across North America were analyzed. Mechanical, Electrical, and Plumbing (MEP) construction discipline can represent more than 25% of the total cost of the project, hence the scope of this work focuses on MEP construction activities. The presented data-driven method is composed of: (i) trade classification based on budget items' descriptions through text and data mining techniques; and (ii) quantification of budget impact ratios of the most frequent budget descriptions. As a result, the Multilayer Perceptron (MLP) classification model showed the best performance with an obtained accuracy of 86.59%. This study helps budget planners and risk managers to lower the chance of cost overruns as it provides an automated and data-driven procedure that identifies significant budget items from previous projects that need to be considered during budget allocation and decision-making.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "04839f5757d615821ba6fef924988325",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "Multilayer Perceptron",
+      "MLP"
+    ],
+    "stage1_timestamp": "2025-05-15T03:06:35.424321"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究建筑行业预算超支的自动化识别和影响量化，虽然涉及财务数据，但其核心应用领域是建筑项目管理而非金融研究领域。论文未提及衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究建筑行业预算超支的自动化识别和影响量化，虽然涉及财务数据，但其核心应用领域是建筑项目管理而非金融研究领域。论文未提及衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:39.076310"
+}

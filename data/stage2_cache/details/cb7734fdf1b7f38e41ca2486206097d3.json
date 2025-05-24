@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1260,
+    "title": "Predicting SMT Solver Performance for Software Verification",
+    "abstract": "The Why3 IDE and verification system facilitates the use of a wide range of Satisfiability Modulo Theories (SMT) solvers through a driver-based architecture. We present Where4 : a portfolio-based approach to discharge Why3 proof obligations. We use data analysis and machine learning techniques on static metrics derived from program source code. Our approach benefits software engineers by providing a single utility to delegate proof obligations to the solvers most likely to return a useful result. It does this in a time-efficient way using existing Why3 and solver installations - without requiring low-level knowledge about SMT solver operation from the user.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7ae6a9eec73a179e20da2b869c936a39",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.102968"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是软件验证中的SMT求解器性能预测，虽然使用了机器学习和组合方法，但其应用场景是软件工程而非金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是软件验证中的SMT求解器性能预测，虽然使用了机器学习和组合方法，但其应用场景是软件工程而非金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:12.176282"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 957,
+    "title": "A Novel Implementation of Siamese Type Neural Networks in Predicting Rare Fluctuations in Financial Time Series",
+    "abstract": "Stock trading has tremendous importance not just as a profession but also as an income source for individuals. Many investment account holders use the appreciation of their portfolio (as a combination of stocks or indexes) as income for their retirement years, mostly betting on stocks or indexes with low risk/low volatility. However, every stock-based investment portfolio has an inherent risk to lose money through negative progression and crash. This study presents a novel technique to predict such rare negative events in financial time series (e.g., a drop in the S&P 500 by a certain percent in a designated period of time). We use a time series of approximately seven years (2517 values) of the S&P 500 index stocks with publicly available features: the high, low and close price (HLC). We utilize a Siamese type neural network for pattern recognition in images followed by a bootstrapped image similarity distribution to predict rare events as they pertain to financial market analysis. Extending on literature about rare event classification and stochastic modeling in financial analytics, the proposed method uses a sliding window to store the input features as tabular data (HLC price), creates an image of the time series window, and then uses the feature vector of a pre-trained convolutional neural network (CNN) to leverage pre-event images and predict rare events. This research does not just indicate that our proposed method is capable of distinguishing event images from non-event images, but more importantly, the method is effective even when only limited and strongly imbalanced data is available.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fa35ae22b3f436d1f92d8cea15922513",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:49.759015"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用Siamese类型神经网络预测金融时间序列中的罕见负面事件（如股市暴跌），这直接关联到金融风险管理中的市场风险预测和异常事件监测。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用Siamese类型神经网络预测金融时间序列中的罕见负面事件（如股市暴跌），这直接关联到金融风险管理中的市场风险预测和异常事件监测。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:06.954019"
+}

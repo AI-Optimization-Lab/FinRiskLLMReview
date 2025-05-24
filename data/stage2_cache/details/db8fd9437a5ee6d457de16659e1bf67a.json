@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1023,
+    "title": "Volatility Forecasting Using Support Vector Regression and a Hybrid Genetic Algorithm",
+    "abstract": "Volatility forecasting is an important process required to measure variability in equity prices, risk management, and several other financial activities. Generalized autoregressive conditional heteroscedastic methods have been used to forecast volatility with reasonable success due unreal assumptions about volatility underlying process. Recently, a supervised learning machine called support vector regression has been employed to forecast financial volatility. Nevertheless, the quality and stability of the model obtained through training process depend strongly on the selection of parameters. Typically, these are tuned by a grid search method ; however, this tuning procedure is prone to get trapped on local optima, requires a priori information, and it does not concurrently tune the kernels and its parameters. This paper presents a new method called for the financial volatility forecasting problem which selects simultaneously the proper kernel and its parameter values. is a hybrid genetic algorithm which uses several genetic operators to enhance the exploration of solutions space: it introduces a new genetic operator called Boltzmann selection, and the use of several random number generators. Experimental data correspond to two ASEAN and two latinoamerican market indexes. results are compared against method. It uses the mean absolute percentage error and directional accuracy functions for measuring quality results. Experimentation shows that, in general, overcomes quality of SV R-GS.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a29be5ae289788c1a348f8ecb0dab977",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:08.448023"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on volatility forecasting, which is a critical component in financial risk management for measuring variability in equity prices and assessing risk. The proposed method aims to improve the accuracy of volatility predictions, directly contributing to better risk assessment and management practices.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on volatility forecasting, which is a critical component in financial risk management for measuring variability in equity prices and assessing risk. The proposed method aims to improve the accuracy of volatility predictions, directly contributing to better risk assessment and management practices.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:41.797192"
+}

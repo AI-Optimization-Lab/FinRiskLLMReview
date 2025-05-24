@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3297,
+    "title": "Duration of Care and Operative Time Are the Primary Drivers of Total Charges After Ambulatory Hip Arthroscopy: A Machine Learning Analysis",
+    "abstract": "Purpose: To develop a machine learning algorithm to predict total charges after ambulatory hip arthroscopy and create a risk-adjusted payment model based on patient comorbidities. Methods: A retrospective review of the New York State Ambulatory Surgery and Services database was performed to identify patients who underwent elective hip arthroscopy between 2015 and 2016. Features included in initial models consisted of patient characteristics, medical comorbidities, and procedure-specific variables. Models were generated to predict total charges using 5 algorithms. Model performance was assessed by the root-mean-square error, root-mean-square logarithmic error, and coefficient of determination. Global variable importance and partial dependence curves were constructed to show the impact of each input feature on total charges. For performance benchmarking, the best candidate model was compared with a multivariate linear regression using the same input features. Results: A total of 5,121 patients were included. The median cost after hip arthroscopy was $19,720 (interquartile range, $12,399-$26,439). The gradient-boosted ensemble model showed the best performance (root-mean-square error, $3,800 [95% confidence interval, $3,700- $3,900]; logarithmic root-mean-square error, 0.249 [95% confidence interval, 0.24-0.26]; R-2 = 0.73). Major cost drivers included total hours in facility less than 12 or more than 15, longer procedure time, performance of a labral repair, age younger than 30 years, Elixhauser Comorbidity Index (ECI) of 1 or greater, African American race, residence in extreme urban and rural areas, and higher household and neighborhood income. Conclusions: The gradient-boosted ensemble model effectively predicted total charges after hip arthroscopy. Few modifiable variables were identified other than anesthesia type; nonmodifiable drivers of total charges included duration of care less than 12 hours or more than 15 hours, operating room time more than 100 minutes, age younger than 30 years, performance of a labral repair, and ECI greater than 0. Stratification of patients based on the ECI highlighted the increased financial risk borne by physicians via flat reimbursement schedules given variable degrees of comorbidities.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6a02bf7401d6f60ea09b3ec107dfa9cc",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:24:39.725693"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习预测医疗手术费用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习预测医疗手术费用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:37:18.784375"
+}

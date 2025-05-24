@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1639,
+    "title": "Quantile regression for index tracking and enhanced indexation",
+    "abstract": "Quantile regression differs from traditional least-squares regression in that one constructs regression lines for the quantiles of the dependent variable in terms of the independent variable. In this paper we apply quantile regression to two problems in financial portfolio construction, index tracking and enhanced indexation. Index tracking is the problem of reproducing the performance of a stock market index, but without purchasing all of the stocks that make up the index. Enhanced indexation deals with the problem of out-performing the index. We present a mixed-integer linear programming formulation of these problems based on quantile regression. Our formulation includes transaction costs, a constraint limiting the number of stocks that can be in the portfolio and a limit on the total transaction cost that can be incurred. Numeric results are presented for eight test problems drawn from major world markets, where the largest of these test problems involves over 2000 stocks.",
+    "year": 2013,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5b4c46198a67f75bb89fc4c3ece6de2f",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.935685"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是应用分位数回归于投资组合构建中的指数跟踪和增强指数化问题，这直接属于投资组合管理的范畴。论文明确讨论了如何通过优化方法选择股票组合以复制或超越市场指数表现，并考虑了交易成本和股票数量限制等实际问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是应用分位数回归于投资组合构建中的指数跟踪和增强指数化问题，这直接属于投资组合管理的范畴。论文明确讨论了如何通过优化方法选择股票组合以复制或超越市场指数表现，并考虑了交易成本和股票数量限制等实际问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:40.983721"
+}

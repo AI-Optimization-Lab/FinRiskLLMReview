@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 745,
+    "title": "Credit Risk and Limits Forecasting in E-Commerce Consumer Lending Service via Multi-view-aware Mixture-of-experts Nets",
+    "abstract": "Consumer lending service is escalating in E-Commerce platforms due to its capability in enhancing buyers' purchasing power, improving average order value, and increasing revenue of the platforms. Credit risk forecasting and credit limits setting are two fundamental problems in E-Commerce/online consumer lending services. Currently, the majority of institutes rely on two-separate-step methods to resolve. First, build a rating model to evaluate credit risk, and then design heuristic strategies to set credit limits, which requires a large amount of prior knowledge and lacks theoretical justifications. In this paper, we propose an end-to-end multi-view and multi-task learning based approach named MvMoE (Multi-view-aware Mixture-of-Experts network) to solve these two problems simultaneously. First, a multi-view network with a hierarchical attention mechanism is constructed to distill users' heterogeneous financial information into shared hidden representations. Then, we jointly train these two tasks with a view-aware multi-gate mixture-of experts network and a subsequent progressive network to improve their performances. With the real-world dataset contained 5.44 million users, we investigate the effectiveness of MvMoE. Experimental results exhibit that the proposed model is able to improve AP over 5.60% on credit risk forecasting and MAE over 9.52% on credit limits setting compared with conventional methods. Meanwhile, MvMoE has good interpretability, which better underpins the imperative demands in financial industries.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "0add616aca00a8c55fb9c7dde523c027",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:05.399989"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究信用风险预测和信用额度设置，这些是金融风险管理中的核心问题。论文提出的MvMoE模型旨在同时解决这两个问题，明显属于金融风险管理的应用范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究信用风险预测和信用额度设置，这些是金融风险管理中的核心问题。论文提出的MvMoE模型旨在同时解决这两个问题，明显属于金融风险管理的应用范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:24.981618"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 690,
+    "title": "A set of data mining models to classify credit cardholder behavior",
+    "abstract": "In this paper, we present a set of classification models by using multiple criteria linear programming (MCLP) to discover the various behaviors of credit cardholders. In credit card portfolio management, predicting the cardholder's spending behavior is a key to reduce the risk of bankruptcy. Given a set of predicting variables (attributes) that describes all possible aspects of credit cardholders, we first present a set of general classification models that can theoretically handle any size of multiple-group cardholders' behavior problems. Then, we implement the algorithm of the classification models by using SAS and Linux. platforms. Finally, we test the models on a special case where the cardholders' behaviors are predefined as five classes: (i) bankrupt charge-off; (ii) non-bankrupt charge-off; (iii) delinquent; (iv) current and (v) outstanding on a real-life credit card data warehouse. As a part of the performance analysis, a data testing comparison between the MCLP and induction decision tree approaches is demonstrated. These findings suggest that the MCLP-data mining techniques have a great potential in discovering knowledge patterns from a large-scale real-life database or data warehouse.",
+    "year": 2003,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0f09d979f21c884935f1577fd76253fd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.413470"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用分类模型预测信用卡持有人的行为，特别是破产风险，这直接关联到信用风险管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用分类模型预测信用卡持有人的行为，特别是破产风险，这直接关联到信用风险管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:29.834731"
+}

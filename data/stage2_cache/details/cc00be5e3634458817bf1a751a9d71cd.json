@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2529,
+    "title": "Data-driven optimization of peer-to-peer lending portfolios based on the expected value framework",
+    "abstract": "In recent years, peer-to-peer (P2P) lending has been gaining popularity amongst borrowers and individual investors. This can mainly be attributed to the easy and quick access to loans and the higher possible returns. However, the risk involved in these investments is considerable, and for most investors, being nonprofessionals, this increases the complexity and the importance of investment decisions. In this study, we focus on generating optimal investment decisions to lenders for selecting loans. We treat the loan selection process in P2P lending as a portfolio optimization problem, with the aim being to select a set of loans that provide a required return while minimizing risk. In the process, we use internal rate of return as the measure of return. As the starting point of the model, we use machine-learning algorithms to predict the default probabilities and calculate expected values for the loans based on historical data. Afterwards, we calculate the distance between loans using (i) default probabilities and, as a novel step, (ii) expected value. In the calculations, we utilize kernel functions to obtain similarity weights of loans as the input of the optimization models. Two optimization models are tested and compared on data from the popular P2P platform Lending Club. The results show that using the expected-value framework yields higher return.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7960c606f24de979cc4844fe9b7c6433",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:35.778328"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是将P2P借贷的贷款选择过程视为投资组合优化问题，旨在选择一组贷款以在最小化风险的同时提供所需回报。这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是将P2P借贷的贷款选择过程视为投资组合优化问题，旨在选择一组贷款以在最小化风险的同时提供所需回报。这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:07.310021"
+}

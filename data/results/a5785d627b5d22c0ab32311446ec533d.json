@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "classification",
+    "regression"
+  ],
+  "explanations": {
+    "classification": "The paper uses multivariable regression to predict prolonged mechanical ventilation, which can be considered a classification task (predicting whether ventilation will exceed 48 hours).",
+    "regression": "The paper explicitly mentions using multivariable regression to identify predictors of prolonged mechanical ventilation."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"classification\", \"regression\"],\n  \"explanations\": {\n    \"classification\": \"The paper uses multivariable regression to predict prolonged mechanical ventilation, which can be considered a classification task (predicting whether ventilation will exceed 48 hours).\",\n    \"regression\": \"The paper explicitly mentions using multivariable regression to identify predictors of prolonged mechanical ventilation.\"\n  }\n}\n```"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 268,
+    "title": "Comparing Supervised Classification Methods for Financial Domain Problems",
+    "abstract": "Classification is key to the success of the financial business. Classification is used to analyze risk, the occurrence of fraud, and credit-granting problems. The supervised classification methods help the analyzes by 'learning' patterns in data to predict an associated class. The most common methods include Naive Bayes, Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, Gradient Boosting, XGBoost, and Multilayer Perceptron. We conduct a comparative study to identify which methods perform best on problems of analyzing risk, the occurrence of fraud, and credit-granting. Our motivation is to identify if there is a method that outperforms systematically others for the aforementioned problems. We also consider the application of Optuna, which is a next-generation Hyperparameter optimization framework on methods to achieve better results. We applied the non-parametric Friedman test to infer hypotheses and we performed Nemeyni as a posthoc test to validate the results obtained on five datasets in Finance Domain. We adopted the performance metrics F1 Score and AUROC. We achieved better results in applying Optuna in most of the evaluations, and XGBoost was the best method. We conclude that XGBoost is the recommended machine learning classification method to overcome when proposing new methods for problems of analyzing risk, fraud, and credit.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fc331b56b5bba626cb8b5dbaf5f0b6b2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:04.523627"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on comparing supervised classification methods for analyzing risk, fraud, and credit-granting problems, which are key aspects of financial risk management. The study's primary application is in assessing and mitigating financial risks, making it relevant to this domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on comparing supervised classification methods for analyzing risk, fraud, and credit-granting problems, which are key aspects of financial risk management. The study's primary application is in assessing and mitigating financial risks, making it relevant to this domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:31.208009"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 437,
+    "title": "Variational AutoEncoder for synthetic insurance data",
+    "abstract": "This article explores the application of Variational AutoEncoders (VAEs) to insurance data. Previous research has demonstrated the successful implementation of generative models, especially VAEs, across various domains, such as image recognition, text classification, and recommender systems. However, their application to insurance data, particularly to heterogeneous insurance portfolios with mixed continuous and discrete attributes, remains unexplored. This study introduces novel insights into utilising VAEs for unsupervised learning tasks in actuarial science, including dimension reduction and synthetic data generation. We propose a VAE model with a quantile transformation for continuous (latent) variables, a reconstruction loss that combines categorical cross-entropy and mean squared error, and a KL divergence-based regularisation term. Our VAE model's architecture circumvents the need to pre-train and fine-tune a neural network to encode categorical variables into n-dimensional representative vectors within a continuous vector space of dimension R n . We assess our VAE's ability to reconstruct complex insurance data and generate synthetic insurance policies using a motor portfolio. Our experimental results and analysis highlight the potential of VAEs in addressing challenges related to data availability in the insurance industry.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e60b2a65f496dd9d0482e8c8af0b3cc6",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.612343"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要探讨了变分自编码器（VAE）在保险数据中的应用，特别是用于无监督学习任务如降维和合成数据生成。虽然保险与金融风险管理有一定的关联，但论文的核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理这些特定的金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要探讨了变分自编码器（VAE）在保险数据中的应用，特别是用于无监督学习任务如降维和合成数据生成。虽然保险与金融风险管理有一定的关联，但论文的核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理这些特定的金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:42.830420"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 21,
+    "title": "Predicting the Risk Level of a Loan Based on the Customer's Personal Factors Using Machine Learning Models",
+    "abstract": "Banks are the backbone of the global financial structure, and one of the keyways these organizations generate income is loan interest. If customers default on these loans, it can turn a gain into a significant loss for the bank, making it crucial to determine the risk of default before granting a loan. Machine learning algorithms can be a great tool for quickly and accurately determining if a loan should be granted. In this study, six machine learning models, namely Decision Tree, Random Forest, Support Vector Machine (SVM), Multi-layer Perceptron (MLP) Artificial Neural Network, Naive Bayes, and a stacking ensemble model were trained to make predictions of the risk level associated with a loan using a dataset containing twenty factors commonly included in a loan application. Among these models, the stacking ensemble model produced the best results with an accuracy of 78.75%, but the Random Tree model was more efficient and produced similar results with an accuracy of 78.15%. We observed that factors like credit amount, checking status, age of the customer, duration of the loan, and purpose of the loan were the most significant predictors of credit risk. The outcome of this study provides further evidence that machine learning models can be valuable tools in the loan approval process.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "82e82197d12050269c28b2e33c31d5a2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:03.772719"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using machine learning models to predict the risk level of loans based on customer's personal factors, which is a key aspect of credit risk management within the broader field of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using machine learning models to predict the risk level of loans based on customer's personal factors, which is a key aspect of credit risk management within the broader field of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:34.125940"
+}

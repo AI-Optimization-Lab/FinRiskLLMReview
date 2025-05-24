@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1711,
+    "title": "Detecting Anomalies in Financial Data Using Machine Learning Algorithms",
+    "abstract": "Bookkeeping data free of fraud and errors are a cornerstone of legitimate business operations. The highly complex and laborious work of financial auditors calls for finding new solutions and algorithms to ensure the correctness of financial statements. Both supervised and unsupervised machine learning (ML) techniques nowadays are being successfully applied to detect fraud and anomalies in data. In accounting, it is a long-established problem to detect financial misstatements deemed anomalous in general ledger (GL) data. Currently, widely used techniques such as random sampling and manual assessment of bookkeeping rules become challenging and unreliable due to increasing data volumes and unknown fraudulent patterns. To address the sampling risk and financial audit inefficiency, we applied seven supervised ML techniques inclusive of deep learning and two unsupervised ML techniques such as isolation forest and autoencoders. We trained and evaluated our models on a real-life GL dataset and used data vectorization to resolve journal entry size variability. The evaluation results showed that the best trained supervised and unsupervised models have high potential in detecting predefined anomaly types as well as in efficiently sampling data to discern higher-risk journal entries. Based on our findings, we discussed possible practical implications of the resulting solutions in the accounting and auditing contexts.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fa5aa8dd1e95464528f834372c9203ac",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "deep learning",
+      "autoencoder",
+      "classification",
+      "clustering",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.547658"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习算法检测财务数据中的异常和欺诈行为，虽然涉及金融数据，但其核心应用场景是会计和审计领域，而非衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习算法检测财务数据中的异常和欺诈行为，虽然涉及金融数据，但其核心应用场景是会计和审计领域，而非衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:57.889193"
+}

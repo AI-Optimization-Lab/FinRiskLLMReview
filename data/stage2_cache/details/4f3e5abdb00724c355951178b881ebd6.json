@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 588,
+    "title": "Stock Trend Prediction with Machine Learning: Incorporating Inter-Stock Correlation Information through Laplacian Matrix",
+    "abstract": "Predicting stock trends in financial markets is of significant importance to investors and portfolio managers. In addition to a stock's historical price information, the correlation between that stock and others can also provide valuable information for forecasting future returns. Existing methods often fall short of straightforward and effective capture of the intricate interdependencies between stocks. In this research, we introduce the concept of a Laplacian correlation graph (LOG), designed to explicitly model the correlations in stock price changes as the edges of a graph. After constructing the LOG, we will build a machine learning model, such as a graph attention network (GAT), and incorporate the LOG into the loss term. This innovative loss term is designed to empower the neural network to learn and leverage price correlations among different stocks in a straightforward but effective manner. The advantage of a Laplacian matrix is that matrix operation form is more suitable for current machine learning frameworks, thus achieving high computational efficiency and simpler model representation. Experimental results demonstrate improvements across multiple evaluation metrics using our LOG. Incorporating our LOG into five base machine learning models consistently enhances their predictive performance. Furthermore, backtesting results reveal superior returns and information ratios, underscoring the practical implications of our approach for real-world investment decisions. Our study addresses the limitations of existing methods that miss the correlation between stocks or fail to model correlation in a simple and effective way, and the proposed LOG emerges as a promising tool for stock returns prediction, offering enhanced predictive accuracy and improved investment outcomes.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "06e2d9d78adad491e7a0cd7a2f46fc1e",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "attention mechanism",
+      "graph attention network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:01.394718"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过Laplacian矩阵和机器学习模型（如图注意力网络）来预测股票趋势，并利用股票间的相关性信息。这直接服务于投资组合管理，因为预测股票趋势和利用相关性信息是构建和优化投资组合的关键步骤。论文还提到实验结果表明该方法能带来更高的回报和信息比率，进一步证实了其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过Laplacian矩阵和机器学习模型（如图注意力网络）来预测股票趋势，并利用股票间的相关性信息。这直接服务于投资组合管理，因为预测股票趋势和利用相关性信息是构建和优化投资组合的关键步骤。论文还提到实验结果表明该方法能带来更高的回报和信息比率，进一步证实了其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:31.024476"
+}

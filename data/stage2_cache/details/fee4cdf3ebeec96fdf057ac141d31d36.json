@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 214,
+    "title": "基于集成学习的在线高维投资组合策略",
+    "abstract": "文章结合机器学习中的交叉验证、在线学习和集成学习方法,对基于不同高维协方差估计量的投资策略权重进行动态组合,以获得优于传统投资组合策略的样本外表现.基于这一目标,文章对机器学习中比较前沿的在线加权集成(online weighted ensemble,OWE)算法的样本更新方式、学习模型和目标函数进行了替换和修改,改进后的mixed-OWE算法能够更好地适用于多组合的动态混合策略投资.通过数值模拟,文章将mixed-OWE应用在基于二次效用目标函数的投资问题上,结果表明其样本外表现优于传统静态方法.随后,文章进一步使用A股近10年的数据作为样本对mixed-OWE进行了全局最小方差组合投资,经过一定的参数调整后,mixed-OWE策略实现的组合方差优于其成分组合以及等权重组合.",
+    "year": 2020,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b27191a00bce11f71330bb01dc97f623",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:50.505762"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是改进的mixed-OWE算法，用于动态组合投资策略，并应用于全局最小方差组合投资，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是改进的mixed-OWE算法，用于动态组合投资策略，并应用于全局最小方差组合投资，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:15.924634"
+}

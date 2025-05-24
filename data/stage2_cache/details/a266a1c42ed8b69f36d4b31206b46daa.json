@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1486,
+    "title": "Forward Fall Detection Using Inertial Data and Machine Learning",
+    "abstract": "Fall risk assessment is becoming an important concern, with the realization that falls, and more importantly fainting occurrences, in most cases require immediate medical attention and can pose huge health risks, as well as financial and social burdens. The development of an accurate inertial sensor-based fall risk assessment tool combined with machine learning algorithms could significantly advance healthcare. This research aims to investigate the development of a machine learning approach for falling and fainting detection, using wearable sensors with an emphasis on forward falls. In the current paper we address the problem of the lack of inertial time-series data to differentiate the forward fall event from normal activities, which are difficult to obtain from real subjects. To solve this problem, we proposed a forward dynamics method to generate necessary training data using the OpenSim software, version 4.5. To develop a model as close to the real world as possible, anthropometric data taken from the literature was used. The raw X and Y axes acceleration data was generated using OpenSim software, and ML fall prediction methods were trained. The machine learning (ML) accuracy was validated by testing with data acquired from six unique volunteers, considering the forward fall type.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "07f0e031d5d4ea4ca3b31f3436640f7b",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.779426"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用机器学习和惯性传感器数据进行前向跌倒检测，属于医疗健康领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用机器学习和惯性传感器数据进行前向跌倒检测，属于医疗健康领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:43.074972"
+}

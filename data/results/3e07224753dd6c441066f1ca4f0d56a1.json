@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning models, specifically Random Forest and XGBoosting Classifier, for default risk prediction.",
+    "supervised learning": "The study involves training models on labeled data to predict default risk, which is a supervised learning task.",
+    "classification": "The paper focuses on predicting default risk, which is a classification problem where the outcome is binary (default or no default).",
+    "decision tree": "Random Forest is an ensemble method based on decision trees, and XGBoosting also uses decision trees as base learners, making decision trees relevant to the study."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"decision tree\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning models, specifically Random Forest and XGBoosting Classifier, for default risk prediction.\",\n    \"supervised learning\": \"The study involves training models on labeled data to predict default risk, which is a supervised learning task.\",\n    \"classification\": \"The paper focuses on predicting default risk, which is a classification problem where the outcome is binary (default or no default).\",\n    \"decision tree\": \"Random Forest is an ensemble method based on decision trees, and XGBoosting also uses decision trees as base learners, making decision trees relevant to the study.\"\n  }\n}\n```"
+}

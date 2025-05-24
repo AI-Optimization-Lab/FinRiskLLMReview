@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 106,
+    "title": "考虑投资者情绪的GARCH-改进神经网络期权定价模型",
+    "abstract": "提出了一种考虑投资者情绪的基于改进粒子群算法优化的BP神经网络,并结合GARCH模型用于预测欧式期权价格。引入单点变异算子来提升传统粒子群算法的寻优能力,并通过改进后的算法来优化BP神经网络的结构与相应参数。利用GARCH模型估计权证股票价格的历史波动率,并将其作为改进神经网络模型的输入变量之一。最后,进一步考虑投资者情绪对期权价格的影响,通过构造剔除了基本因素的投资者情绪复合指标,并融入改进后的神经网络中。选取包括鞍钢JTC1在内的10支国内认购权证的收盘价格进行实证研究。结果表明,该模型的收敛速度与预测精度优于传统的BP神经网络以及B-S模型,考虑投资者情绪的影响后,预测结果更贴近实际情况。",
+    "year": 2018,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "b4f153f25414c877b523f07b5c9292b9",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-14T22:13:08.885147"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是改进的神经网络模型，用于预测欧式期权价格，并考虑了投资者情绪的影响。这直接涉及衍生品定价领域，特别是期权定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是改进的神经网络模型，用于预测欧式期权价格，并考虑了投资者情绪的影响。这直接涉及衍生品定价领域，特别是期权定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:01.777552"
+}

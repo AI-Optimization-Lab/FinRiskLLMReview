@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 5704,
+    "title": "Two-stage consumer credit risk modelling using heterogeneous ensemble learning",
+    "abstract": "Modelling consumer credit risk is a crucial task for banks and non-bank financial institutions to support decision-making on granting loans. To model the overall credit risk of a consumer loan in terms of expected loss (EL), three key credit risk parameters must be estimated: probability of default (PD), loss given default (LGD) and exposure at default (EAD). Research to date has tended to model these parameters separately. Moreover, a neglected area in the field of LGD/EAD modelling is the application of ensemble learning, which by benefitting from diverse base learners reduces the over-fitting problem and enables modelling diverse risk profiles of defaulted loans. To overcome these problems, this paper proposes a two-stage credit risk model that integrates (1) class-imbalanced ensemble learning for predicting PD (credit scoring), and (2) an EAD prediction using a regression ensemble. Furthermore, multi-objective evolutionary feature selection is used to minimize both the misclassification cost (root mean squared error) of the PD and EAD models and the number of attributes necessary for modelling. For this task, we propose a misclassification cost metric suitable for consumer loans with fixed exposure because it combines opportunity cost and LGD. We show that the proposed credit risk model is not only more effective than single-stage credit risk models but also outperforms state-of-the-art methods used to model credit risk in terms of prediction and economic performance.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "96e4ee8c5235c4a94d099eb76529afbf",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "feature learning",
+      "ensemble learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:50:21.344688"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用集成学习方法来建模消费者信用风险，包括违约概率(PD)和违约时暴露(EAD)的预测。这些技术直接应用于信用风险管理，属于金融风险管理的范畴。论文未提及衍生品定价或投资组合管理相关的内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用集成学习方法来建模消费者信用风险，包括违约概率(PD)和违约时暴露(EAD)的预测。这些技术直接应用于信用风险管理，属于金融风险管理的范畴。论文未提及衍生品定价或投资组合管理相关的内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:38.298076"
+}

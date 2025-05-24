@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 5586,
+    "title": "Natural Language Processing and Deep Learning for Bankruptcy Prediction: An End-to-End Architecture",
+    "abstract": "Machine and Deep Learning methods are widely adopted to predict corporate bankruptcy events for their effectiveness. Bankruptcy prediction is commonly modeled as a binary classification task over accounting data where the positive label is associated with companies with a high likelihood of bankruptcy and the negative label with a low risk of failure. Most of the models mainly focus on exploiting accounting, stock market data, and data augmentation to deal with the intrinsic unbalance of this task. More recently, financial reports such as the US SEC annual reports have been investigated for feature engineering to boost the accuracy of the classification task. However, these approaches only marginally leverage Natural Language Processing advanced techniques to improve the prediction, by usually only leveraging dictionary-based approaches and word frequencies for feature engineering. These fixed features suffer from concept drift over time leading to weaker predictive models by missing a data-driven architecture to extract text disclosures from financial reports to improve the task. This paper aims to fill the gap between the bankruptcy prediction domain and the recent advances in Natural Language Processing by proposing a Transformer-based architecture that combines: a) a text summarization module that extracts text disclosures from financial reports, over time, by leveraging the self-attention mechanism and learning which contents are more valuable for the prediction in a text communication; b) a multivariate time series modeling for accounting data that is aligned and optimized along with the text module. In this way, the architecture benefits from both data sources for the prediction and ensures continual model adaptation over time. We focused on public companies listed in the American stock market with a dataset including 6190 companies from 1999 to 2018. We have deeply analyzed the contribution of the two proposed modules, the accounting time series module (Accuracy 78%) and the text disclosures module (Accuracy 81%) to finally prove that a unique model that can leverage both data sources at the same time achieves better performance (Accuracy 87.5%). The architecture also outperforms the other baselines for Recall of default events (0.84) and for type II error (16.12).",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1f99427df7b8b49f138b0f794ec1a7cd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:49:21.684679"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用自然语言处理和深度学习来预测企业破产，这属于金融风险管理中的信用风险分析范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用自然语言处理和深度学习来预测企业破产，这属于金融风险管理中的信用风险分析范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:02.534316"
+}

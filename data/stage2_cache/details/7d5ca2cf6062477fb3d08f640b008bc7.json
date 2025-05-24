@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 765,
+    "title": "New model combination meta-learner to improve accuracy prediction P2P lending with stacking ensemble learning",
+    "abstract": "Peer-to-peer (P2P) Lending is a type of financial innovation that offers loans without intermediaries to individuals and companies. In the P2P lending system, there is a risk of default on the loan which causes the company to lose. Many studies have to reduce the risk of default by developing a classification model of prediction of default that focuses on increasing accuracy. However, the big problem with prediction is data imbalance and low performance classification algorithms. The purpose of this study is to improve the accuracy of default risk prediction by balancing the data and combining the stacking model ensemble with the meta-learner. The proposed new model consists of 3 optimization parts, the first is Synthetic Minority Oversampling Technique (SMOTE), the second is the selection of features and the third is stacking ensemble learning. The SMOTE method is used to balance the data, the feature selection LightGBM and stacking ensemble learning (LGBFS-StackingXGBoost) to optimize machine learning accuracy. A new model of stacking ensemble learning by combining three base-learner algorithms namely KNN, SVM and Random Forest into the XGBoost meta-learner algorithm. The model was tested using two datasets, namely the online P2P lending dataset and the lending club loan data analysis dataset. The evaluation results show that LGBFS-StackingXGBoost is the best model for both datasets. In the online P2P lending dataset, it received an accuracy of 99,982% and in the lending club loan data analysis dataset, it received an accuracy of 91,434%. This study shows that the accuracy of the prediction model can be improved using the LGBFS-StackingXGBoost method.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9f07d8e0a82144c6f1b052b7b45ec854",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:07.978786"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型（如SMOTE、LightGBM和StackingXGBoost）来预测P2P借贷中的违约风险，这直接涉及信用风险管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型（如SMOTE、LightGBM和StackingXGBoost）来预测P2P借贷中的违约风险，这直接涉及信用风险管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:44.784199"
+}

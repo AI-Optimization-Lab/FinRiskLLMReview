@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 488,
+    "title": "Data-driven Risk Assessment for Peer-to-Peer Network Lending Agencies",
+    "abstract": "With the rapid development of Peer-to-Peer(P2P) network lending in the financial field, more data of lending agencies have appeared. P2P agencies also have problems such as absconded with ill-gotten gains and out of business. Therefore, it is necessary to assess their risks based on P2P company data. This paper proposes a framework of Data-driven Risk Assessment for P2P(DRAP2P) network lending agencies based on unstructured natural language data. First, use the natural language processing technology, such as word segmentation, keyword, LDA topic model, word2vec and doc2vec, to process and extract features of company profile which reflect its business status. Then, seven machine learning classifiers and three deep learning models are used for analysis. Since keywords show good performance in machine learning models, we improve Convolutional Neural Network(CNN) with keywords and propose two CNN+Keyword models, namely CNN+Keyword(static+BP) and CNN+Keyword (Expand word embedding). Experiments have shown that CNN+Keyword(static+BP) can achieve the best performance. Finally, we use the method of meta-learning to integrate CNN+Keyword(static+BP) and logistic regression classifier to further strengthen the performance.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "543a91328aae474f2e98f6d3c2cdb7e9",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:51:31.287468"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用自然语言处理和机器学习模型来评估P2P网络借贷机构的风险，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用自然语言处理和机器学习模型来评估P2P网络借贷机构的风险，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:37.752153"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 4010,
+    "title": "Mixture Cure Models in Prediction of Time to Default: Comparison with Logit and Cox Models",
+    "abstract": "Mixture cure models are an extension of the standard survival models used for predicting survivors in the case of two distinct subpopulations [Sy and Taylor (Biometrics 56: 227-236, 2000)]. The models assume that the studied population is a mixture of susceptible individuals, who may experience the event of interest, and non-susceptible individuals, who will never experience it [Corbiere and Joly (Comput Methods Prog Biomed 85(2): 173-180, 2007)]. Mixture cure models were used for the first time in medical statistics to model long-term survival of cancer patients. Tong et al. (Eur J Oper Res 218(1): 132-139, 2012) introduced mixture cure models to the area of credit scoring, where a large proportion of the accounts do not experience default during the loan term. In this paper, we investigate the use of a mixture cure model for a sample of 5000 consumer credit accounts from a 60-month personal loans portfolio of a Polish financial institution. All loans have been observed for 24 months. Default is the event of interest, whereas earlier repayment is considered to be censoring. We develop and compare default prediction models using the logistic regression, Cox model and mixture cure approaches. Similarities with and differences to the study results obtained by Tong et al. (Eur J Oper Res 218(1): 132-139, 2012) are scrutinised. The final discussion focuses on the usefulness of mixture cure models in predicting the probability of default, and the limitations of these models.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "58593a68efc06d43ea8ef8eded5823d2",
+    "relevant_keywords": [
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:23:07.322245"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文研究了混合治愈模型在预测信用违约时间中的应用，并与逻辑回归和Cox模型进行了比较。这直接涉及信用风险评估，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文研究了混合治愈模型在预测信用违约时间中的应用，并与逻辑回归和Cox模型进行了比较。这直接涉及信用风险评估，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:23.681375"
+}

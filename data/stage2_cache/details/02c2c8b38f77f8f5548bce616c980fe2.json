@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 74,
+    "title": "A novel two-stage method for well-diversified portfolio construction based on stock return prediction using machine learning",
+    "abstract": "The performance of portfolio model can be improved by introducing stock prediction based on machine learning methods. However, the prediction error is inevitable, which may bring losses to investors. To limit the losses, a common strategy is diversification, which involves buying low-correlation stocks and spreading the funds across different assets. In this paper, a diversified portfolio selection method based on stock prediction is proposed, which includes two stages. To be specific, the purpose of the first stage is to select diversified stocks with high predicted returns, where the returns are predicted by machine learning methods, i.e. random forest (RF), support vector regression (SVR), long short-term memory networks (LSTM), extreme learning machine (ELM) and back propagation neural network (BPNN), and the diversification level is measured by Pearson correlation coefficient. In the second stage, the predictive results are incorporated into a modified mean-variance (MMV) model to determine the proportion of each asset. Using China Securities 100 Index component stocks as study sample, the empirical results demonstrate that the RF+MMV model achieves better results than similar counterparts and market index in terms of return and return-risk metrics.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b9d31ac622337265bbe6a6e83280b3d7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:57.033963"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法预测股票收益，并结合相关性分析构建多样化的投资组合。研究目标明确指向投资组合的构建和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法预测股票收益，并结合相关性分析构建多样化的投资组合。研究目标明确指向投资组合的构建和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:53.902206"
+}

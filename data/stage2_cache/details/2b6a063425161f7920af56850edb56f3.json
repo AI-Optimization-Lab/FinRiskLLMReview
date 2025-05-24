@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 340,
+    "title": "Innovation in Financial Enterprise Risk Prediction Model: A Hybrid Deep Learning Technique Based on CNN-Transformer-WT",
+    "abstract": "In the context of predicting financial risks for enterprises, traditional methods are inadequate in capturing complex multidimensional data features, resulting in suboptimal prediction performance. Although existing deep learning techniques have shown some improvements, they still face challenges in processing time series data and detecting extended dependencies. To address these issues, this paper proposes an integrated deep learning framework utilizing Convolutional Neural Network (CNN), Transformer model, and Wavelet Transform (WT). The proposed model leverages CNN to derive local features from the data, employs the Transformer to capture long-term dependencies, and uses WT for multiscale analysis, thereby enhancing the accuracy and stability of predictions. Experimental results demonstrate that the CNN-Transformer-WT model performs excellently across various datasets, including Kaggle Dataset (Credit Card Fraud Detection Dataset), Bank Marketing Dataset, and Yahoo Finance Historical Stock Market Dataset.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "bfbd9ee2e7c0936ab9a0ec8cb5b2a0db",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "attention mechanism",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:36:59.843811"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting financial risks for enterprises using a hybrid deep learning model, which is directly related to financial risk management. The experimental datasets, such as credit card fraud detection and stock market data, further support this application domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting financial risks for enterprises using a hybrid deep learning model, which is directly related to financial risk management. The experimental datasets, such as credit card fraud detection and stock market data, further support this application domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:41.487106"
+}

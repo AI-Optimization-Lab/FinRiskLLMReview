@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3444,
+    "title": "AN AI APPROACH TO MEASURING FINANCIAL RISK",
+    "abstract": "AI artificial intelligence brings about new quantitative techniques to assess the state of an economy. Here, we describe a new measure for systemic risk: the Financial Risk Meter (FRM). This measure is based on the penalization parameter (lambda) of a linear quantile lasso regression. The FRM is calculated by taking the average of the penalization parameters over the 100 largest US publicly-traded financial institutions. We demonstrate the suitability of this AI-based risk measure by comparing the proposed FRM to other measures for systemic risk, such as VIX, SRISK and Google Trends. We find that mutual Granger causality exists between the FRM and these measures, which indicates the validity of the FRM as a systemic risk measure. The implementation of this project is carried out using parallel computing, the codes are published on www.quantlet.de with keyword FRM. The R package RiskAnalytics is another tool with the purpose of integrating and facilitating the research, calculation and analysis methods around the FRM project. The visualization and the up-to-date FRM can be found on hu.berlin/frm.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a38a4d39a68f068e1c451f1e5cd30967",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:26:09.188962"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper introduces a new measure for systemic risk, the Financial Risk Meter (FRM), which is based on AI techniques and is compared to other systemic risk measures. This clearly falls under the domain of Financial Risk Management as it focuses on assessing and measuring financial risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper introduces a new measure for systemic risk, the Financial Risk Meter (FRM), which is based on AI techniques and is compared to other systemic risk measures. This clearly falls under the domain of Financial Risk Management as it focuses on assessing and measuring financial risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:26.458446"
+}

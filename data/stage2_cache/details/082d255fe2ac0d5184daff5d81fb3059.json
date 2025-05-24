@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 840,
+    "title": "Deep reinforcement learning for the optimal placement of cryptocurrency limit orders",
+    "abstract": "This paper presents the first large-scale application of deep reinforcement learning to optimize execution at cryptocurrency exchanges by learning optimal limit order placement strategies. Execution optimization is highly relevant for both professional asset managers and private investors as execution quality affects portfolio performance at economically significant levels and is the target of regulatory supervision. To optimize execution with deep reinforcement learning, we design a problem-specific training environment that introduces a purpose-built reward function, hand-crafted market state features and a virtual limit order exchange. We empirically compare state-of-the-art deep reinforcement learning algorithms to several benchmarks with market data from major cryptocurrency exchanges, which represent an ideal test bed for our study as liquidity costs are relatively high. In total, we leverage 18 months of high-frequency data for several currency pairs with 300 million trades and more than 3.5 million order book states. We find proximal policy optimization to reliably learn superior order placement strategies. By interacting with our simulated limit order exchange, it learns cryptocurrency execution strategies that are empirically known from established markets. Order placement becomes more aggressive in anticipation of lower execution probabilities, which is indicated by trade and order imbalances. (c) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b925b6a49e685110ff041703102595a5",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.042013"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习优化加密货币交易所的限价单执行策略，这直接关系到资产组合的执行质量和绩效，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习优化加密货币交易所的限价单执行策略，这直接关系到资产组合的执行质量和绩效，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:21.169764"
+}

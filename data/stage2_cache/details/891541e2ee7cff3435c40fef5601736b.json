@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1105,
+    "title": "On the Classification of Industrial SAT Families",
+    "abstract": "The success of portfolio approaches in SAT solving relies on the observation that different SAT solving techniques perform better on different SAT instances. The Algorithm Selection Problem faces the problem of choosing, using a prediction model, the best algorithm from a predefined set, to solve a particular instance of a problem. Using Machine Learning techniques, this prediction is performed by analyzing some features of the instance and using an empirical hardness model, previously built, to select the expected fastest algorithm to solve such instance. Recently, there have been some attempts to characterize the structure of industrial SAT instances. In this paper, we use some structural features of industrial SAT instances to build some classifiers of industrial SAT families of instances. Namely, they are the scale-free structure, the community structure and the self-similar structure. We measure the effectiveness of these classifiers by comparing them to other sets of SAT instances features commonly used in portfolio SAT solving approaches. Finally, we evaluate the performance of this set of structural features when used in a real portfolio SAT solver.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "943733fdf48ae0654bba8e79f5ca91db",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.339382"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究工业SAT实例的分类和算法选择问题，虽然提到了'portfolio'一词，但这是指算法组合而非金融投资组合。论文的核心技术与衍生品定价、金融风险管理或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究工业SAT实例的分类和算法选择问题，虽然提到了'portfolio'一词，但这是指算法组合而非金融投资组合。论文的核心技术与衍生品定价、金融风险管理或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:39.845716"
+}

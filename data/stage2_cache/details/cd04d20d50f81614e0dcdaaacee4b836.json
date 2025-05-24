@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 27,
+    "title": "Characterizing, Detecting, and Correcting Comment Errors in Smart Contract Functions",
+    "abstract": "NatSpec comments play an essential role in smart contracts. Their clear and informative format helps users gain an accurate understanding of smart contract functions and diminish financial risk. However, widespread non-adherence to NatSpec standards currently causes confusion for both end-users and developers. Current research often neglects the importance of NatSpec formats or solely emphasizes user-centric comments in smart contract generation. This oversight can hinder contract trustworthiness, code reusability, maintenance efficiency, and ultimately, the development of the community ecosystem. To bridge this gap, this paper presents the first empirical study on 253 verified contracts encompassing 16,620 functions from Etherscan, uncovering that 87% of the smart contract functions have Comment Errors (CE) and pinpointing prevalent deviation patterns. Based on our findings, we propose CETerminator, an automated approach for detecting and rectifying CE in smart contract functions. Due to the scarcity of NatSpec-compliant comments for collected smart contract functions, CETerminator employs in-context learning on a large language model to generate NatSpec comments. The approach then compares the original and the generated comments, utilizing corpus-driven heuristic rules to identify and correct diverse error categories in the original comments. In our evaluation, CETerminator demonstrates a high token overlap rate for addressing missing comments. In addition, the average precision, recall, and F1-scores for handling inconsistency comments are 85.28%, 86.48%, and 85.85%, respectively, outperforming the baseline by 39.79%, 39.53%, and 39.84%.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "LLMs",
+    "cache_key": "8eacc697772e5d4cf33ca766b00087e4",
+    "relevant_keywords": [
+      "Large Language Model",
+      "LLM",
+      "In-context Learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:45:16.358644"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究智能合约中的注释错误检测与修正，虽然提到减少金融风险，但其核心技术（如大型语言模型和上下文学习）并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究智能合约中的注释错误检测与修正，虽然提到减少金融风险，但其核心技术（如大型语言模型和上下文学习）并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:37.985865"
+}

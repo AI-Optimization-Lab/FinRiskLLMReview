@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1059,
+    "title": "Splice sites detection using chaos game representation and neural network",
+    "abstract": "A novel method is proposed to detect the acceptor and donor splice sites using chaos game representation and artificial neural network. In order to achieve high accuracy, inputs to the neural network, or feature vector, shall reflect the true nature of the DNA segments. Therefore it is important to have one-to-one numerical representation, i.e. a feature vector should be able to represent the original data. Chaos game representation (CGR) is an iterative mapping technique that assigns each nucleotide in a DNA sequence to a respective position on the plane in a one-to-one manner. Using CGR, a DNA sequence can be mapped to a numerical sequence that reflects the true nature of the original sequence. In this research, we propose to use CGR as feature input to a neural network to detect splice sites on the NN269 dataset. Computational experiments indicate that this approach gives good accuracy while being simpler than other methods in the literature, with only one neural network component. The code and data for our method can be accessed from this link: https://github.com/thoang3/portfolio/tree/SpliceSites_ANN_CGR.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d7b9440e24c508c08edde84abc9330fc",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.886032"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用混沌游戏表示和神经网络检测DNA剪接位点，属于生物信息学领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用混沌游戏表示和神经网络检测DNA剪接位点，属于生物信息学领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:49.314557"
+}

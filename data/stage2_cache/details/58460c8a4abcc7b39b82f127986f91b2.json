@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2897,
+    "title": "Evolutionary algorithm with a regression model for multiobjective minimization of systemic risk in financial systems",
+    "abstract": "This paper addresses a problem of systemic risk minimization in which the optimization algorithm has to simultaneously minimize the number of companies affected by a wave of bankruptcies simulated on a graph as well as the level of reserves the companies keep to avoid going bankrupt. A MOEA/D-NN algorithm (where NN stands for a neural network) is proposed, which optimizes parameters of a machine learning model (a neural network) used in turn to determine the level of reserves the companies keep, based on several attributes describing each node in the graph. In the experiments, the proposed MOEA/D-NN algorithm was found to outperform comparison methods: evolutionary algorithms optimizing the level of reserves for all companies and a method based on the training of neural networks on a dataset previously collected by an evolutionary algorithm solving training instances of the optimization problem. The neural networks optimized by MOEA/D-NN were also tested on problem instances based on REDS graphs generated using varying values of R, E, and S parameters and were found to be applicable to these instances for certain ranges of parameters. The R parameter controlling the possibility of generating long-distance connections was found to have a bigger impact on the performance of the optimized neural networks than the other two parameters.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "17627c541028fd79dda93b31f5191913",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:20:16.933259"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on minimizing systemic risk in financial systems by optimizing the level of reserves companies keep to avoid bankruptcy, which is a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on minimizing systemic risk in financial systems by optimizing the level of reserves companies keep to avoid bankruptcy, which is a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:20.915018"
+}

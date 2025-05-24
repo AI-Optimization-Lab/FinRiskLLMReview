@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1941,
+    "title": "Enabling privacy-preserving and distributed intelligent credit scoring by zero-knowledge proof and functional encryption",
+    "abstract": "Credit scores, as quantifiable indicators of individual creditworthiness reflected in credit reports, are widely adopted by financial institutions as prerequisites for accessing various financial services. Therefore, the accuracy and objectivity of credit scores are paramount in the credit reporting system. To achieve this, there is a need to optimize scoring models while broadening the sources of credit data. However, the circulation of distributed credit data may expose sensitive customer information. Existing solutions, which protect privacy through secure multi-party computation and homomorphic encryption, introduce substantial computational costs and face challenges in resolving trust issues among multiple parties dealing with encrypted data. In response, this paper introduces a privacy-preserving credit scoring system. Initially, two range proof schemes for weights and credit data, as well as a proof scheme for the association between scores and ciphertexts, are devised to address trust concerns among parties. Building on these foundations, a privacy-preserving credit scoring (PPCS) scheme tailored for traditional models and a privacy-preserving intelligent credit scoring (PICS) scheme are constructed using inner-product functional encryption (IPFE). These schemes notably enhance the efficiency of encrypted scoring computations and encrypted vector operations in neural network model training, while introducing a novel approach to credit score prediction based on neural networks. This paper also undertakes rigorous security analyses of the proposed schemes. Experimental and performance evaluations demonstrate that PPCS and PICS exhibit superior computational and storage efficiency compared to related schemes, with PICS demonstrating exceptional performance in both binary classification prediction of default risk and credit score prediction.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c2121656f691628fd0049862081f160f",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:14.403845"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究隐私保护的信用评分系统，特别是通过神经网络模型进行违约风险分类和信用评分预测，这直接关联到金融机构对信用风险的管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究隐私保护的信用评分系统，特别是通过神经网络模型进行违约风险分类和信用评分预测，这直接关联到金融机构对信用风险的管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:11.230454"
+}

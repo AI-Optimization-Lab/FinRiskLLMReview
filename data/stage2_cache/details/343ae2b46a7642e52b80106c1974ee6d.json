@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 15,
+    "title": "Gold Price Forecast based on LSTM-CNN Model",
+    "abstract": "An accurate prediction is certainly significant in financial data analysis. Investors have used a series of econometric techniques on pricing, stock selection and risk management but few of them have found great success due to the fact that most of them only are purely based on a single scheme. Recent advances in deep learning methods have also demonstrated the outstanding performance in the fields of image recognition and sentiment analysis. In this paper, we originally propose a novel gold price forecast method based on the integration of Long Short-Term Memory Neural Networks (LSTM) and Convolutional Neural Networks (CNN) with Attention Mechanism (denoted to LSTM-Attention-CNN model). Particularly, the LSTM-Attention-CNN model consists of three components: the LSTM component, Attention Mechanism and the CNN component. The LSTM component enables to harness the sequential order of daily gold price. Meanwhile, the Attention Mechanism assigns different attention weights on the new encoding method from LSTM component to enhance the extraction of the temporal and spatial features. In addition, the CNN component enables to capture the local patterns and abstract the spatial features. Extensive experiments on real dataset collected from World Gold Council show that our proposed approach outperforms other conventional financial forecast methods.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "4ae058a48c22b451fe559059845b1dd5",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:32:30.237099"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是黄金价格预测，虽然价格预测在金融领域有广泛应用，但论文并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是黄金价格预测，虽然价格预测在金融领域有广泛应用，但论文并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:48.508770"
+}

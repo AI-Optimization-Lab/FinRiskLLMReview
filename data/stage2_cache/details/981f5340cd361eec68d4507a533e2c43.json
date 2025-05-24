@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 115,
+    "title": "人工智能与中国股票市场——基于机器学习预测的投资组合量化研究",
+    "abstract": "人工智能在21世纪以来发展迅速，它与各个领域的结合发展促进了各个领域的飞快发展。本文重点研究人工智能在中国金融市场的量化应用，通过引入20个涵盖了价值、技术、动量、情绪反转等指标和8个机器学习算法对沪深两市股票收益率进行预测。从各个指标对模型的贡献程度来看，本文发现动量、反转和技术指标对股票未来收益率的影响程度最高。随后，本文按照这些股票的预测收益率进行排序并形成了交易策略。通过比较各个模型的结果发现预测收益率形成的交易策略在中国市场能获得显著的超额收益，且深度神经网络的预测效果最佳，正则化的线性机器学习模型次之。通过机器学习深度挖掘各个因子指标对中国股市的影响，为政策的制定者提供一定的借鉴意义，同时也能更好地理解中国市场交易中的非理性因素。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ee4cbac19a911e60bedb86f980b0b071",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-14T22:14:45.067707"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习算法预测股票收益率，并基于预测结果形成交易策略，这直接应用于投资组合管理的领域。论文的研究目标和实验设计都集中在如何通过量化方法优化投资组合，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习算法预测股票收益率，并基于预测结果形成交易策略，这直接应用于投资组合管理的领域。论文的研究目标和实验设计都集中在如何通过量化方法优化投资组合，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:32.984977"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 416,
+    "title": "Deep-Control of Memory via Stochastic Optimal Control and Deep Learning",
+    "abstract": "In this survey work, we introduce Stochastic Differential Delay Equations and their impacts on Stochastic Optimal Control problems. We observe time delay in the dynamics of a state process that may correspond to inertia or memory in a financial system. For such systems, we demonstrate two special approaches to handle delayed control problems by applying the Dynamic Programming Principle. Moreover, we clarify the technical challenges rising as a consequence of the conflict between the path-dependent, infinite-dimensional nature of the problem and the necessity of the Markov property. Furthermore, we present two different Deep Learning algorithms to solve targeted delayed control tasks and illustrate the results for a complete memory portfolio optimization problem.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "63093aa5d419d8bf739a7f2f8475bf87",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "memory network",
+      "Memory Augmented Model"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:49.695226"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是应用深度学习和随机最优控制来解决具有时间延迟的控制问题，并特别提到了一个完整的记忆投资组合优化问题作为应用实例。这表明其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是应用深度学习和随机最优控制来解决具有时间延迟的控制问题，并特别提到了一个完整的记忆投资组合优化问题作为应用实例。这表明其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:59.620372"
+}

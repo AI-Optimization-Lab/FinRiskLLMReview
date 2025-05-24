@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of a machine-learning algorithm to predict fraud victimization.",
+    "supervised learning": "The study involves predicting outcomes (fraud victimization) based on labeled data (victims of investment fraud), which is characteristic of supervised learning.",
+    "classification": "The paper's goal is to predict the demographic characteristics of fraud victims, which involves classifying investors into categories (e.g., likely victims or not)."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of a machine-learning algorithm to predict fraud victimization.\",\n    \"supervised learning\": \"The study involves predicting outcomes (fraud victimization) based on labeled data (victims of investment fraud), which is characteristic of supervised learning.\",\n    \"classification\": \"The paper's goal is to predict the demographic characteristics of fraud victims, which involves classifying investors into categories (e.g., likely victims or not).\"\n  }\n}\n```"
+}

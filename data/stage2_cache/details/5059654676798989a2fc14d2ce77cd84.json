@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 58,
+    "title": "多维无套利约束的非参数期权定价",
+    "abstract": "基于现有无套利约束的非参数期权定价模型仅考虑单个期限下行权价格的单因素无套利约束的情形，本文将拓展考虑行权期限、标的资产、波动率和无风险利率等多维因素的无套利约束的非参数期权定价模型。为破解多变量约束的非参数回归模型的求解难题，本文首先通过变量变换对多维约束非参数回归模型进行降维，将多维变量变换成单个变量，可同时实现多个期限合约的估计。然后，将带约束的非参数回归模型转化为二次规划优化模型，使用优化工具箱求解。最后，选取上证50ETF期权交易数据对比实证分析的结果表明，考虑多维无套利约束的非参数期权定价模型的定价效果更优。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "b17ceb07263f15b6fef0c9de34804f13",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:18.932008"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是开发一种多维无套利约束的非参数期权定价模型，并应用于上证50ETF期权的定价，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是开发一种多维无套利约束的非参数期权定价模型，并应用于上证50ETF期权的定价，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:58.657304"
+}

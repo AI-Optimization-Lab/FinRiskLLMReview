@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2719,
+    "title": "Forecasting Stock Market Volatility Using Housing Market Indicators: A Reinforcement Learning-Based Feature Selection Approach",
+    "abstract": "This study tackles the complex challenge of accurately predicting stock market volatility through indicators from the housing market. We propose a sophisticated Early Warning System (EWS) designed to forecast stock market instability by leveraging the predictive power of housing market bubbles. Current EWS methods often face significant hurdles, including model generalization, feature selection, and hyperparameter optimization challenges. To directly address these issues, our innovative approach utilizes a spatial attention-based Transductive Long Short-Term Memory (TLSTM) model combined with a Reinforcement Learning (RL) strategy, which is further enhanced by a novel scope loss function for refined feature selection and an Artificial Bee Colony (ABC) algorithm for hyperparameter optimization. The TLSTM model surpasses traditional LSTM models by effectively capturing subtle temporal shifts and prioritizing data points proximate to the test sample, thereby enhancing model generalization. The RL component actively refines feature selection through continuous data interaction, ensuring the model captures the most significant features and effectively mitigates the risk of overfitting. The introduction of the scope loss function strategically manages the trade-off between exploiting known data and exploring new patterns, thereby maintaining a healthy balance between accuracy and generalizability. Additionally, the customized ABC algorithm specifically optimizes hyperparameters to increase the adaptability and performance of the model under varying market conditions. We validated our EWS using data from the Korean market, achieving an impressive accuracy of 90.427%. This validation demonstrates the robust capability of the system to forecast market dynamics. Our study significantly contributes to financial analytics by providing deeper insights into the interactions between housing and stock markets, particularly during periods of market bubbles. This research not only enhances predictive accuracy but also aids in understanding complex market behaviors, thereby offering valuable tools for financial risk management and decision-making.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6303f737a1676b38130c4098a81191e2",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:18:37.031844"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing an Early Warning System (EWS) to forecast stock market volatility using housing market indicators, which is directly related to identifying and managing financial risks. The proposed model aims to enhance predictive accuracy and understanding of market behaviors, particularly during periods of market bubbles, thereby contributing to financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing an Early Warning System (EWS) to forecast stock market volatility using housing market indicators, which is directly related to identifying and managing financial risks. The proposed model aims to enhance predictive accuracy and understanding of market behaviors, particularly during periods of market bubbles, thereby contributing to financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:40:12.165073"
+}

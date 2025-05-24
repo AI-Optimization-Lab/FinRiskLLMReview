@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "support vector machine",
+    "SVM",
+    "decision tree",
+    "neural network",
+    "deep learning"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning algorithms to predict the risk of gastric cancer.",
+    "supervised learning": "The study uses labeled data to train models for classification, which is a supervised learning task.",
+    "classification": "The goal of the study is to classify patients into high or low risk of developing gastric cancer.",
+    "support vector machine": "The paper mentions the use of SVM with linear and RBF kernels as one of the machine learning methods.",
+    "SVM": "This is an abbreviation for support vector machine, which is used in the study.",
+    "decision tree": "Random forest, which is mentioned in the paper, is an ensemble method based on decision trees.",
+    "neural network": "The multilayer perceptron (MLP) mentioned in the paper is a type of neural network.",
+    "deep learning": "Although not explicitly mentioned, MLP can be considered a basic form of deep learning, and XGBoost has some similarities with deep learning techniques."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"support vector machine\",\n    \"SVM\",\n    \"decision tree\",\n    \"neural network\",\n    \"deep learning\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning algorithms to predict the risk of gastric cancer.\",\n    \"supervised learning\": \"The study uses labeled data to train models for classification, which is a supervised learning task.\",\n    \"classification\": \"The goal of the study is to classify patients into high or low risk of developing gastric cancer.\",\n    \"support vector machine\": \"The paper mentions the use of SVM with linear and RBF kernels as one of the machine learning methods.\",\n    \"SVM\": \"This is an abbreviation for support vector machine, which is used in the study.\",\n    \"decision tree\": \"Random forest, which is mentioned in the paper, is an ensemble method based on decision trees.\",\n    \"neural network\": \"The multilayer perceptron (MLP) mentioned in the paper is a type of neural network.\",\n    \"deep learning\": \"Although not explicitly mentioned, MLP can be considered a basic form of deep learning, and XGBoost has some similarities with deep learning techniques.\"\n  }\n}\n```"
+}

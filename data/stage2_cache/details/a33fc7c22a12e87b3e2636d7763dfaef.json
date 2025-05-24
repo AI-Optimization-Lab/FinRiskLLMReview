@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 807,
+    "title": "Portfolio optimization through hybrid deep learning and genetic algorithms vine Copula-GARCH-EVT-CVaR model",
+    "abstract": "This study investigates the potential benefits of using the Conditional Value at Risk (CVaR) portfolio optimization approach with a GARCH model, Extreme Value Theory (EVT), and Vine Copula to obtain the optimal allocation decision for a portfolio consisting of Bitcoin, gold, oil, and stock indices. First, we fit a suitable GARCH model to the return series for each asset, followed by employing the Generalized Pareto Distribution (GPD) to model the innovation tails. Next, we construct a Vine Copula-GARCH-EVT model to capture the interdependence structure between the assets. To refine risk assessment, we combine our model with a Monte Carlo simulation and MeanCVaR model to optimize the portfolio. In addition, we utilize a novel version of deep machine learning's genetic algorithm to address the optimization decision. This research contributes new evidence to the CVaR portfolio optimization approach and provides insights for portfolio managers seeking to optimize multi-asset portfolios.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5a66f66625a7387b3b80a89546c953f9",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "genetic algorithm"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.364883"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是使用CVaR、GARCH、EVT和Vine Copula等方法来优化多资产投资组合的配置决策，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是使用CVaR、GARCH、EVT和Vine Copula等方法来优化多资产投资组合的配置决策，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:28.263270"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2873,
+    "title": "FAST: Financial News and Tweet Based Time Aware Network for Stock Trading",
+    "abstract": "Designing profitable trading strategies is complex as stock movements are highly stochastic; the market is influenced by large volumes of noisy data across diverse information sources like news and social media. Prior work mostly treats stock movement prediction as a regression or classification task and is not directly optimized towards profit-making. Further, they do not model the fine-grain temporal irregularities in the release of vast volumes of text that the market responds to quickly. Building on these limitations, we propose a novel hierarchical, learning to rank approach that uses textual data to make time-aware predictions for ranking stocks based on expected profit. Our approach outperforms state-of-the-art methods by over 8% in terms of cumulative profit and risk-adjusted returns in trading simulations on two benchmarks: English tweets and Chinese financial news spanning two major stock indexes and four global markets. Through ablative and qualitative analyses, we build the case for our method as a tool for daily stock trading.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8ed319943f4255d2f3810988bb02f837",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:20:16.824024"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用文本数据（金融新闻和推文）进行时间感知的股票排名预测，旨在设计盈利的交易策略。这直接关联到投资组合管理领域，因为其目标是优化股票选择和交易时机以提高投资回报。论文未提及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用文本数据（金融新闻和推文）进行时间感知的股票排名预测，旨在设计盈利的交易策略。这直接关联到投资组合管理领域，因为其目标是优化股票选择和交易时机以提高投资回报。论文未提及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:43.633640"
+}

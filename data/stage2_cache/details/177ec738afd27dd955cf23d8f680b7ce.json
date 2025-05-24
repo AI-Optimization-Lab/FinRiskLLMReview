@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 28,
+    "title": "Model-Agnostic Pricing of Exotic Derivatives Using Signatures",
+    "abstract": "Neural networks hold out the promise of fast and reliable derivative pricing. Such an approach usually involves the supervised learning task of mapping contract and model parameters to derivative prices. In this work, we introduce a model-agnostic path-wise approach to derivative pricing using higher-order distribution regression. Our methodology leverages the 2(nd)-order Maximum Mean Discrepancy (MMD), a notion of distance between stochastic processes based on path signatures. To overcome the high computational cost of its calculation, we pre-train a neural network that can quickly and accurately compute higher-order MMDs. This allows the combination of distribution regression with neural networks in a computationally feasible way. We test our model on down-and-in barrier options. We demonstrate that our path-wise approach extends well to the high-dimensional case by applying it to rainbow options and autocallables. Our approach has a significant speed-up over Monte Carlo pricing.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "25a9e351a11d7747152cba5d837e6f7b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "unsupervised pre-train"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.507014"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用神经网络和路径签名方法进行衍生品定价，特别是针对奇异衍生品（如障碍期权、彩虹期权和自动赎回产品），这明确属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用神经网络和路径签名方法进行衍生品定价，特别是针对奇异衍生品（如障碍期权、彩虹期权和自动赎回产品），这明确属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:29.406399"
+}

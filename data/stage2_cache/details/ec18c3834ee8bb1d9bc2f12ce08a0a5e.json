@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 115,
+    "title": "MAPS: Multi-agent Reinforcement Learning-based Portfolio Management System",
+    "abstract": "Generating an investment strategy using advanced deep learning methods in stock markets has recently been a topic of interest. Most existing deep learning methods focus on proposing an optimal model or network architecture by maximizing return. However, these models often fail to consider and adapt to the continuously changing market conditions. In this paper, we propose the Multi-Agent reinforcement learning-based Portfolio management System (MAPS). MAPS is a cooperative system in which each agent is an independent investor creating its own portfolio. In the training procedure, each agent is guided to act as diversely as possible while maximizing its own return with a carefully designed loss function. As a result, MAPS as a system ends up with a diversified portfolio. Experiment results with 12 years of US market data show that MAPS outperforms most of the baselines in terms of Sharpe ratio. Furthermore, our results show that adding more agents to our system would allow us to get a higher Sharpe ratio by lowering risk with a more diversified portfolio.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d517fa456f33acf2c7f8e81ee3a2bf85",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.571214"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于多智能体强化学习的投资组合管理系统（MAPS），旨在通过多样化的投资组合来最大化回报并降低风险。实验结果表明，该系统在夏普比率方面优于大多数基线方法，这直接关联到投资组合管理的核心目标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于多智能体强化学习的投资组合管理系统（MAPS），旨在通过多样化的投资组合来最大化回报并降低风险。实验结果表明，该系统在夏普比率方面优于大多数基线方法，这直接关联到投资组合管理的核心目标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:26.770465"
+}

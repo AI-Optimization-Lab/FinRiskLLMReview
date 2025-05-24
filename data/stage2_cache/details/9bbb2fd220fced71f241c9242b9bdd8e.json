@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 213,
+    "title": "Robust Support Vector Regression with Generalized Loss Function and Applications",
+    "abstract": "The classical support vector machine (SVM) is sensitive to outliers. This paper proposes a robust support vector regression based on a generalized non-convex loss function with flexible slope and margin. The robust model is more flexible for regression estimation. Meanwhile, it has strong ability of suppressing the impact of outliers. The generalized loss function is neither convex nor differentiable. We approximate it by combining two differentiable Huber functions, and the resultant optimization problem is a difference of convex functions (d.c.) program. We develop a Newton algorithm to solve the robust model. The numerical experiments on benchmark datasets, financial time series datasets and document retrieval dataset confirm the robustness and effectiveness of the proposed method. It also reduces the downside risk in financial time series prediction, and significantly outperforms ranking SVM for performing real information retrieval tasks.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "abbed2a8e8f5e5997303bb948d1a9d47",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:48:30.631635"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种鲁棒的支持向量回归方法，并在金融时间序列数据集上进行了测试，特别提到减少了金融时间序列预测的下行风险。这属于金融风险管理的范畴，因为下行风险是风险管理中的一个重要方面。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种鲁棒的支持向量回归方法，并在金融时间序列数据集上进行了测试，特别提到减少了金融时间序列预测的下行风险。这属于金融风险管理的范畴，因为下行风险是风险管理中的一个重要方面。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:56.561872"
+}

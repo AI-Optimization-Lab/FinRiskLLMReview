@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 0,
+    "title": "Machine Learning Solutions for Fast Real Estate Derivatives Pricing",
+    "abstract": "The rapid development of machine learning provides new ideas to solve the challenges in pricing financial derivatives, which remains a major obstacle to the further development of real estate derivatives. Previous studies for pricing real estate derivatives rely on classical parametrical models, which have the drawbacks of expensive repetitive computations and unrealistic model assumptions. However, machine learning does not rely on model parameters and quickly prices real estate derivatives by learning data samples. This paper compares four machine learning methods (neural network, eXtreme Gradient Boosting, support vector regression and random forest) in pricing derivatives and finds that neural network method can price real estate index options with higher accuracy and more stability. Studies of pricing efficiency show that neural networks are more computationally efficient than simulation methods for the same computational accuracy. Under the condition that the number of prediction samples increases, the computation time of the neural network is basically unchanged, and the computation efficiency is improved more significantly than that of the simulation method. Similar results are obtained by the neural network method in the process of pricing real estate index options with stochastic interest rate. Moreover, neural networks do not decrease computational efficiency as computational complexity increases.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "18dbaf9067dd868f07dd812d40f8a93b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.381068"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是应用机器学习方法（如神经网络、支持向量回归等）来快速且准确地定价房地产指数期权，这直接属于衍生品定价的研究领域。论文明确讨论了传统参数模型的局限性，并展示了机器学习在提高定价效率和准确性方面的优势。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是应用机器学习方法（如神经网络、支持向量回归等）来快速且准确地定价房地产指数期权，这直接属于衍生品定价的研究领域。论文明确讨论了传统参数模型的局限性，并展示了机器学习在提高定价效率和准确性方面的优势。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:33.454852"
+}

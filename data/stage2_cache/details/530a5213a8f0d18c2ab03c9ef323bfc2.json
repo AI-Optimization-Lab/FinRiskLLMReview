@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1836,
+    "title": "A Novel GSCI-Based Ensemble Approach for Credit Scoring",
+    "abstract": "Credit scoring is an efficient tool for financial institutions to implement credit risk management. In recent years, many novel machine learning models have been developed for credit scoring. Among the existing machine learning models, the heterogeneous ensemble model receives much attention because of its superior performance. This paper presents a new heterogeneous ensemble model based on the generalized Shapley value and the Choquet integral. To do this, the model first uses the fuzzy measure to express the interactive characteristics between any two coalitions of base learners. Based on the accuracy and diversity objective function, a linear programming model for determining the fuzzy measure is built. To retain the original information as much as possible in the training stage, the normal fuzzy number is employed to express the base learner predicted values. Then, the generalized Shapley Choquet integral (GSCI) aggregation operator is defined to calculate the comprehensive predicted value of the ensemble model. Based on the defined aggregation operator and linear programming model, a GSCI approach is proposed for ensemble credit scoring. To illustrate the efficiency and feasibility of the GSCI approach, an experiment of thirteen machine learning models over four public credit scoring datasets and three real-world P2P leading datasets with large volumes of samples is made. Furthermore, robust tests and comparatives analysis are made to demonstrate the adaptability and performance of the GSCI-based ensemble model.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "52c9aafc25a655ca96c69f2a5cb00874",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:03.952047"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a novel ensemble model for credit scoring, which is a critical tool in assessing and managing credit risk for financial institutions. This directly falls under the domain of Financial Risk Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a novel ensemble model for credit scoring, which is a critical tool in assessing and managing credit risk for financial institutions. This directly falls under the domain of Financial Risk Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:54.538919"
+}

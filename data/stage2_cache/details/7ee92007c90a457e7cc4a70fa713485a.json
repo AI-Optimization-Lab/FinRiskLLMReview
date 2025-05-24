@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 353,
+    "title": "CNC milling cutters condition monitoring based on empirical wavelet packet decomposition",
+    "abstract": "Machining is a versatile field in the manufacturing industry. In milling operations, tool wear is considered the most critical factor affecting the surface quality of the milled piece. Furthermore, the gradual tool wear impacts the milling process, leading to significant downtime, which has serious financial consequences. Unavoidably, a sustainable and reliable condition monitoring system must be developed to reduce the risk of downtime and enhance production quality. The deployment of prognostic and health management (PHM) solutions is becoming increasingly important. It is regarded as one of the main levers for monitoring tool wear status. In this paper, a novel methodology is proposed for extracting pertinent health indicators (HIs) that reflect the degradation behavior of a set of milling cutters and estimating their remaining useful lives (RULs). First, a new time-frequency signal-analysis approach, titled empirical wavelet packet decomposition (EWPD), is proposed to scrutinize the data collected via multi-sensor acquisition. This technique provides a new segmentation of the signal's Fourier spectrum, distributed on levels, to investigate a broader variety of frequency bands and enhance the traditional segmentation structure's performance. Second, a new health indicator is designed based on an innovative selection of the time-domain features computed for each frequency band over each level. Finally, the long short-term memory (LSTM) network is used to estimate the RUL of each cutter. A comparison between the suggested processing method and the wavelet packet transform (WPT) is made to support the hypothesis regarding the effectiveness of the proposed technique. Experimental outcomes seem to be satisfying.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "9193f9fc2867788bb0873bbc80ae6544",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:36:59.869501"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究CNC铣刀的状态监测和剩余使用寿命预测，属于制造业中的设备维护和健康管理领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究CNC铣刀的状态监测和剩余使用寿命预测，属于制造业中的设备维护和健康管理领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:41.160591"
+}

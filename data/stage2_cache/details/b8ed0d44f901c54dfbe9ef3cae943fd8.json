@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1272,
+    "title": "A Cost-Effective Strategy for Software Vulnerability Prediction Based on Bellwether Analysis",
+    "abstract": "Vulnerability Prediction Models (VPMs) aims to identify vulnerable and non-vulnerable components in large software systems. Consequently, VPMs presents three major drawbacks (i) finding an effective method to identify a representative set of features from which to construct an effective model. (ii) the way the features are utilized in the machine learning setup (iii) making an implicit assumption that parameter optimization would not change the outcome of VPMs. To address these limitations, we investigate the significant effect of the Bellwether analysis on VPMs. Specifically, we first develop a Bellwether algorithm to identify and select an exemplary subset of data to be considered as the Bellwether to yield improved prediction accuracy against the growing portfolio benchmark. Next, we build a machine learning approach with different parameter settings to show the improvement of performance of VPMs. The prediction results of the suggested models were assessed in terms of precision, recall, F-measure, and other statistical measures. The preliminary result shows the Bellwether approach outperforms the benchmark technique across the applications studied with F-measure values ranging from 51.1% - 98.5%.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b023aa80734c07f221c618236a3a53a0",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.172524"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究软件漏洞预测模型（VPMs）及其改进方法，涉及机器学习和分类技术，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究软件漏洞预测模型（VPMs）及其改进方法，涉及机器学习和分类技术，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:10.742453"
+}

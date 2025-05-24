@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 2277,
+    "title": "PreBit-A multimodal model with Twitter FinBERT embeddings for extreme price movement prediction of Bitcoin",
+    "abstract": "Bitcoin, with its ever-growing popularity, has demonstrated extreme price volatility since its origin. Extreme price fluctuations have been known to occur due to tweets from Elon Musk, Michael Saylor, and others. In this paper, we aim to investigate whether we can leverage Twitter data to predict these extreme price movements. Existing social media models often take a shortcut and include sentiment extracted from tweets. In this work, however, we want to embed the actual tweets in a domain-informed way, and investigate whether they have an impact. Hence, we propose a multimodal deep learning model for predicting extreme price fluctuations that takes as input candlestick data, prices of a variety of correlated assets, technical indicators, as well as Twitter content. To train the model, a new dataset of 5,000 tweets per day containing the keyword 'Bitcoin' was collected from 2015 to 2021. This dataset, called PreBit, is made available online1, as is our model.2 Our proposed hybrid multimodal model consists of an SVM model based on price data, which is fused with a text-based Convolutional Neural Network. In the text-based model, we use the sentence-level FinBERT embeddings, pretrained on financial lexicons, so as to capture the full contents of the tweets and feed it to the model in an understandable way. In an ablation study, we explore whether adding social media data from the general public on Bitcoin improves the model's ability to predict extreme price movements. Finally, we propose and backtest a trading strategy based on the predictions of our models with varying prediction threshold and show that it can be used to build a profitable trading strategy with a reduced risk over a 'hold' or moving average strategy.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ebccb13b97a081c3becdbb84ed41e0fd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:13:31.773398"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用Twitter数据和价格数据预测比特币的极端价格波动，并提出了一个交易策略。虽然涉及金融数据，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理中的任何一个领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用Twitter数据和价格数据预测比特币的极端价格波动，并提出了一个交易策略。虽然涉及金融数据，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理中的任何一个领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:20.761574"
+}

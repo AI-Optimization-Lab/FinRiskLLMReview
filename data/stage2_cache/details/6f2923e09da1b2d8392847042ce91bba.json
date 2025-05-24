@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1571,
+    "title": "Build Deep Neural Network Models to Detect Common Edible Nuts from Photos and Estimate Nutrient Portfolio",
+    "abstract": "Nuts are nutrient-dense foods and can be incorporated into a healthy diet. Artificial intelligence-powered diet-tracking apps may promote nut consumption by providing real-time, accurate nutrition information but depend on data and model availability. Our team developed a dataset comprising 1380 photographs, each in RGB color format and with a resolution of 4032 x 3024 pixels. These images feature 11 types of nuts that are commonly consumed. Each photo includes three nut types; each type consists of 2-4 nuts, so 6-9 nuts are in each image. Rectangular bounding boxes were drawn using a visual geometry group (VGG) image annotator to facilitate the identification of each nut, delineating their locations within the images. This approach renders the dataset an excellent resource for training models capable of multi-label classification and object detection, as it was meticulously divided into training, validation, and test subsets. Utilizing transfer learning in Python with the IceVision framework, deep neural network models were adeptly trained to recognize and pinpoint the nuts depicted in the photographs. The ultimate model exhibited a mean average precision of 0.7596 in identifying various nut types within the validation subset and demonstrated a 97.9% accuracy rate in determining the number and kinds of nuts present in the test subset. By integrating specific nutritional data for each type of nut, the model can precisely (with error margins ranging from 0.8 to 2.6%) calculate the combined nutritional content-encompassing total energy, proteins, carbohydrates, fats (total and saturated), fiber, vitamin E, and essential minerals like magnesium, phosphorus, copper, manganese, and selenium-of the nuts shown in a photograph. Both the dataset and the model have been made publicly available to foster data exchange and the spread of knowledge. Our research underscores the potential of leveraging photographs for automated nut calorie and nutritional content estimation, paving the way for the creation of dietary tracking applications that offer real-time, precise nutritional insights to encourage nut consumption.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "844961a1bb85e925cc75eac8d68c9e4a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "transfer learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:12.678751"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习模型从照片中识别常见可食用坚果并估算其营养成分，属于计算机视觉和营养学领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习模型从照片中识别常见可食用坚果并估算其营养成分，属于计算机视觉和营养学领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:09.381034"
+}

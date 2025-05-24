@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3628,
+    "title": "Fast and efficient nested simulation for large variable annuity portfolios: A surrogate modeling approach",
+    "abstract": "The nested-simulation is commonly used for calculating the predictive distribution of the total variable annuity (VA) liabilities of large VA portfolios. Due to the large numbers of policies, inner-loops and outer-loops, running the nested-simulation for a large VA portfolio is extremely time consuming and often prohibitive. In this paper, the use of surrogate models is incorporated into the nested-simulation algorithm so that the relationship between the inputs and the outputs of a simulation model is approximated by various statistical models. As a result, the nested-simulation algorithm can be run with much smaller numbers of different inputs. Specifically, a spline regression model is used to reduce the number of outer-loops and a model-assisted finite population estimation framework is adapted to reduce the number of policies in use for the nested-simulation. From simulation studies, our proposed algorithm is able to accurately approximate the predictive distribution of the total VA liability at a significantly reduced running time. (C) 2020 Elsevier B.V. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4b5f1bfa90ae590ac3d4a1a92e1f62a0",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:19:00.782423"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究如何通过替代模型加速大型可变年金（VA）投资组合的嵌套模拟，以准确预测总负债的分布。这属于金融风险管理领域，因为其核心目标是评估和管理保险公司面临的潜在负债风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究如何通过替代模型加速大型可变年金（VA）投资组合的嵌套模拟，以准确预测总负债的分布。这属于金融风险管理领域，因为其核心目标是评估和管理保险公司面临的潜在负债风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:16.515573"
+}

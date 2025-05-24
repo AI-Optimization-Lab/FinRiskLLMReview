@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2198,
+    "title": "Fast Direct Calibration of Interest Rate Derivatives Pricing Models",
+    "abstract": "To price complex derivative instruments and to manage the associated financial risk, investment banks typically model the underlying asset price dynamics using parametric stochastic models. Model parameters are calibrated by fitting cross sections of option prices on the relevant risk factors. It is fundamental for a calibration method to be accurate and fast and, to this end, Deep Learning techniques have attracted increasing attention in recent years. In this paper, the aim is to propose a Neural Network based calibration of a pricing model, where learning is directly performed on market data by using a non-trivial loss function, which includes the financial model adopted. In particular, the model chosen is the two-additive factor Gaussian Interest Rates model in a multi-curve framework calibrated on at-the-money European swaptions. The main advantage lies in the independence from an external calibrator and in the calibration time, reduced from several seconds to milliseconds, achieved by offloading the computational-intensive tasks to an offline training process, while the online evaluation can be performed in a considerably shorter time. Finally, the efficiency of the proposed approach is tested in both a single-currency and a multi-currency framework.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "686088bcb3b1f59e11bcd778ca29448c",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:17.457735"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用神经网络直接校准利率衍生品定价模型，特别是针对欧洲掉期期权的定价。论文的主要目标是提高定价模型的校准速度和准确性，这直接属于衍生品定价领域。虽然论文提到风险管理，但主要应用和实验设计集中在定价模型的校准上。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用神经网络直接校准利率衍生品定价模型，特别是针对欧洲掉期期权的定价。论文的主要目标是提高定价模型的校准速度和准确性，这直接属于衍生品定价领域。虽然论文提到风险管理，但主要应用和实验设计集中在定价模型的校准上。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:42.626366"
+}

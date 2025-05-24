@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 983,
+    "title": "Towards better help desk planning: Predicting incidents and required effort",
+    "abstract": "In this case study, a cost model for help desk operations is developed. The cost model relates predicted incidents to labor costs. Since incident estimation for hundreds of products is time-consuming, we use cluster analysis to group similarly behaving products in clusters, for which we then estimate incidents based on the representative product in the cluster. Incidents are predicted using software reliability growth models. The cost to resolve the incidents is predicted using historical labor data for the resolution of incidents. Cluster analysis is used to group products with similar help desk incident characteristics. We use Principal Components Analysis to determine one product per cluster for the prediction of incidents for all members of the cluster, so as to reduce estimation cost. We were able to predict incidents for a cluster based on this product alone and do so successfully for all clusters with accuracy comparable to making predictions for each product in the portfolio. Linear regression is used with cost data for the resolution of incidents to relate incident predictions to help desk labor costs. The cost model is then validated by successfully demonstrating cost prediction accuracy for one month prediction intervals over a 22 month period. (C) 2016 Elsevier Inc. All rights reserved.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c8615c2d6b8a7e78e9d5b327d2b952c9",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.794758"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究帮助台运营的成本模型，涉及预测事件和劳动力成本，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究帮助台运营的成本模型，涉及预测事件和劳动力成本，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:45.395434"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 4292,
+    "title": "Spectral Methods for Data Science: A Statistical Perspective",
+    "abstract": "Spectral methods have emerged as a simple yet surprisingly effective approach for extracting information from massive, noisy and incomplete data. In a nutshell, spectral methods refer to a collection of algorithms built upon the eigenvalues (resp. singular values) and eigenvectors (resp. singular vectors) of some properly designed matrices constructed from data. A diverse array of applications have been found in machine learning, imaging science, financial and econometric modeling, and signal processing, including recommendation systems, community detection, ranking, structured matrix recovery, tensor data estimation, joint shape matching, blind deconvolution, financial investments, risk managements, treatment evaluations, causal inference, amongst others. Due to their simplicity and effectiveness, spectral methods are not only used as a stand-alone estimator, but also frequently employed to facilitate other more sophisticated algorithms to enhance performance. While the studies of spectral methods can be traced back to classical matrix perturbation theory and the method of moments, the past decade has witnessed tremendous theoretical advances in demystifying their efficacy through the lens of statistical modeling, with the aid of concentration inequalities and non-asymptotic random matrix theory. This monograph aims to present a systematic, comprehensive, yet accessible introduction to spectral methods from a modern statistical perspective, highlighting their algorithmic implications in diverse large-scale applications. In particular, our exposition gravitates around several central questions that span various applications: how to characterize the sample efficiency of spectral methods in reaching a target level of statistical accuracy, and how to assess their stability in the face of random noise, missing data, and adversarial corruptions? In addition to conventional l(2) perturbation analysis, we present a systematic l(infinity) and l(2,infinity) perturbation theory for eigenspace and singular subspaces, which has only recently become available owing to a powerful leave-one-out analysis framework.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7c7daab8002762eb9216cd152b436851",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis",
+      "manifold learning",
+      "feature learning",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:35:26.293063"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要介绍谱方法在数据科学中的统计应用，虽然摘要中提到金融投资和风险管理，但这些只是众多应用领域中的一部分，并非论文的核心研究方向。论文的重点是谱方法的理论基础和通用算法，而非特定的金融领域应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要介绍谱方法在数据科学中的统计应用，虽然摘要中提到金融投资和风险管理，但这些只是众多应用领域中的一部分，并非论文的核心研究方向。论文的重点是谱方法的理论基础和通用算法，而非特定的金融领域应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:50.554439"
+}

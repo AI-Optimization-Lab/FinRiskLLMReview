@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2674,
+    "title": "A self-learning bee colony and genetic algorithm hybrid for cloud manufacturing services",
+    "abstract": "At present, cloud services and cloud manufacturing are developing rapidly, speed and accuracy have become the themes of cloud manufacturing development. The core component of cloud manufacturing is resource portfolio optimization. In cloud manufacturing today, the scale of service portfolios is expanding rapidly, and the number of candidate services which in the service pool is increasing gradually. To adapt to the development of cloud services, an optimization algorithm with faster speed, greater precision and higher stability is required to solve the problem of cloud service composition and optimization (CSCO). To increase the convergence rate and avoid falling into local optima with the artificial bee colony algorithm, a self-learning artificial bee colony genetic algorithm (SLABC-GA) is proposed in this paper, which is based on reinforcement learning (RL), and the RL is used to intelligently select the number of dimensions of each update of a feasible solution. A global optimal individual is used to search and guide the search equation to avoid obtaining local optima and improve algorithm development and the precision of the traditional artificial bee colony algorithm (ABC). A genetic algorithm (GA) is introduced in a later stage of the algorithm to further improve its accuracy and convergence speed. Additionally, this paper analyzes and constructs the self-learning model in SLABC, the optimal learning method is Q-learning algorithm, and designs a reward method and state determination method of RL in the environment of the bee colony algorithm. Finally, a large number of comparative experiments have been carried out, the results show that the accuracy and speed of the SLABC-GA outperform for CSCO problems, and the performance of the SLABC-GA for large-scale CSCO problems is better than that of genetic algorithm (GA) and the traditional artificial bee colony algorithm (ABC).",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "61dfa39edff0c20267ae74283bb43c49",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.947405"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种混合算法（SLABC-GA）用于优化云制造服务组合，虽然提到了资源组合优化，但其应用场景明确指向云制造领域，而非金融领域的衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种混合算法（SLABC-GA）用于优化云制造服务组合，虽然提到了资源组合优化，但其应用场景明确指向云制造领域，而非金融领域的衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:35.106043"
+}

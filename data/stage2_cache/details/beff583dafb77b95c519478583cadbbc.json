@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 849,
+    "title": "MADESANT: malware detection and severity analysis in industrial environments",
+    "abstract": "Malware remains a persistent threat to industrial operations, causing disruptions and financial losses. Traditional malware detection approaches struggle with the increasing complexity of false positives and negatives. However, existing Intrusion Detection Systems (IDSs) often lack the capability to assess the severity of detected malware, crucial for effective threat mitigation. This paper presents a novel model, MAlware DEtection and Severity Analysis for eNcrypted Traffic (MADESANT), designed to detect and analyze malware severity in encrypted traffic data. MADESANT combines Deep Learning (DL)-based intrusion detection with Machine Learning (ML)-based severity analysis, specifically customized for the minutiae of IoT systems and assets. Notably, MADESANT introduces a cascading model integrating a Cascading Forward Back Propagation Neural Network (CFBPNN) with the J48 tree to systematically assess risk factors in network traffic. Our assessment, conducted on diverse encrypted datasets including UNSW-NB15, IoT23, and XIIoTID, highlights the remarkable efficacy of MADESANT. Impressively, it achieves a flawless 0% false positive rate in detecting binary attack instances, surpassing benchmarks set by conventional models. Additionally, MADESANT excels in accurately estimate malware severity, providing invaluable insights into the factors contributing to the risk. To further validate its efficiency, we compared MADESANT against prevalent Neural Network models like FeedForward and Recurrent Neural Networks, with MADESANT emerging as the superior choice. The experimentation encompasses both the entire dataset and subsets generated through meticulous risk factor analysis. These results underscore MADESANT's prowess in not only identifying malware but also in evaluating its potential impact, signifying a significant leap forward in industrial cybersecurity.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4c1eb46696a442bc36dcd93482fd8d9e",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.659933"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究工业环境中恶意软件的检测和严重性分析，其核心技术应用于网络安全领域，而非金融领域的衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究工业环境中恶意软件的检测和严重性分析，其核心技术应用于网络安全领域，而非金融领域的衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:43.872642"
+}

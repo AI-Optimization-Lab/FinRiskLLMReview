@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1068,
+    "title": "RETRACTED: Analysis and Risk Assessment of Corporate Financial Leverage Using Mobile Payment in the Era of Digital Technology in a Complex Environment (Retracted Article)",
+    "abstract": "The study aims to improve the enterprise's ability to respond to financial crises and find some countermeasures to prevent potential financial risks. The enterprise financial risk is assessed, and the automatic summary function of mobile payment platforms based on long short-term memory (LSTM) is performed to extract the structured data and unstructured texts from its annual report. On this basis, the early warning system model of financial risks is implemented and its accuracy is improved. The structured data and unstructured text in the company's annual report are extracted. The enterprise financial risk early warning system model is constructed. The accuracy of the enterprise financial risk early warning system has been improved. Firstly, we use the convolutional neural network (CNN) to establish a financial risk prediction system using financial data and test various indicators of the system. Secondly, the financial annual report of the listed company is obtained from the Internet. The required financial statements are obtained in two ways. The first is to set high special treatment (ST) sample weights and delete some non-ST samples. The second is to delete punctuation marks, interjections, numbers, and so on and process the collected text data. The financial risk prediction model is established using the financial text, and the LSTM + attention mechanism is used to optimize the model. Finally, combining structured financial data and unstructured financial text to establish a forecasting model, the model uses LSTM. Combined with a single-layer neural network or CNN model, the comparison experiment is carried out in two ways. Experiments show that the CNN or LSTM attention mechanism cannot significantly improve the performance of the system only using financial data or texts. Using the financial data and financial text using the LSTM + CNN model, the F1 value reached 85.29%. Financial data and other indicators in the text have also been greatly improved, and the overall performance is the best. In summary, LSTM using financial data and financial texts combined with CNN to establish a risk prediction system can help investors and companies themselves find possible financial crises in listed companies as soon as possible and help companies deal with their financial risks in a timely manner.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ce01d1c2b06406e0755dfb202493fa45",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "classification",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.347349"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用LSTM和CNN等深度学习模型来构建企业财务风险预警系统，旨在帮助企业和投资者尽早发现潜在的财务危机，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用LSTM和CNN等深度学习模型来构建企业财务风险预警系统，旨在帮助企业和投资者尽早发现潜在的财务危机，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:19.812295"
+}

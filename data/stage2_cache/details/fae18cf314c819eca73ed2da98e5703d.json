@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1413,
+    "title": "Hedging goals",
+    "abstract": "Goal-based investing is concerned with reaching a monetary investment goal by a given finite deadline, which differs from mean-variance optimization in modern portfolio theory. In this article, we expand the close connection between goal-based investing and option hedging that was originally discovered in Browne (Adv Appl Probab 31(2):551-577, 1999) by allowing for varying degrees of investor risk aversion using lower partial moments of different orders. Moreover, we show that maximizing the probability of reaching the goal (quantile hedging, cf. Follmer and Leukert in Finance Stoch 3:251-273, 1999) and minimizing the expected shortfall (efficient hedging, cf. Follmer and Leukert in Finance Stoch 4:117-146, 2000) yield, in fact, the same optimal investment policy. We furthermore present an innovative and model-free approach to goal-based investing using methods of reinforcement learning. To the best of our knowledge, we offer the first algorithmic approach to goal-based investing that can find optimal solutions in the presence of transaction costs.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9223b4909f048e4ef51ba69986ea1e7e",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.476998"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究基于目标的投资策略，探讨了如何通过不同的风险厌恶程度和强化学习方法优化投资组合以达到特定的财务目标，这属于投资组合管理的范畴。虽然提到了期权对冲的概念，但核心应用并非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究基于目标的投资策略，探讨了如何通过不同的风险厌恶程度和强化学习方法优化投资组合以达到特定的财务目标，这属于投资组合管理的范畴。虽然提到了期权对冲的概念，但核心应用并非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:09.616212"
+}

@@ -1,0 +1,40 @@
+{
+  "paper": {
+    "id": 574,
+    "title": "DESIGNING A DEEP LEARNING-BASED FINANCIAL DECISION SUPPORT SYSTEM FOR FINTECH TO SUPPORT CORPORATE CUSTOMER'S CREDIT EXTENSION",
+    "abstract": "In the banking business, Machine Learning (ML) is critical for averting financial losses. Credit risk evaluation is perhaps the most important prediction task that may result in billions of dollars in damages each year (i.e., the risk of default on debt). Gradient Boosted Decision Tree (GBDT) models are now responsible for a large portion of the improvements in ML for predicting credit risk. However, these improvements begin to stagnate without adding pricey new data sources or carefully designed features. In this work, we describe our efforts to develop a unique Deep Learning (DL)-based technique for assessing credit risk that does not rely on additional model inputs. We present a new credit decision support approach with Gated Recurrent Unit (GRU) and Convolutional Neural Networks (CNN) that uses lengthy historical sequences of financial data while requiring few resources. We show that our DL technique, which uses Term Frequency-Inverse Document Frequency (TF-IDF) pre-classifiers, outperforms the benchmark models, resulting in considerable cost savings and early credit risk identification. We also show how our method may be utilized in a production setting, where our sampling methodology allows sequences to be effectively kept in memory and used for quick online learning and inference.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4600e8d82ed2cd68f615bc68919c87af",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "sequence-to-sequence learning",
+      "seq2seq",
+      "encoder-decoder",
+      "autoencoder",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.408205"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a deep learning-based technique for assessing credit risk, which is a key aspect of financial risk management, specifically in the context of credit risk evaluation and default prediction.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a deep learning-based technique for assessing credit risk, which is a key aspect of financial risk management, specifically in the context of credit risk evaluation and default prediction.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:41.885090"
+}

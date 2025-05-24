@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1745,
+    "title": "LEARNING TEMPORAL RELATIONSHIPS BETWEEN FINANCIAL SIGNALS",
+    "abstract": "Portfolio risk control is vital to financial institutions: investors seek to build equities with the highest return but with minimum risk. However, a general phenomenon is significant comovement among many financial signals, such as stocks and futures. One investment strategy is to choose less correlated assets. Classic approaches quantifying such relationships in real financial markets make it difficult to exclude factors such as market trends and autocorrelation. In this paper, we propose a signal process perspective for quantitative measurement. A machine learning based algorithm is designed to model returns, taking account of market sensitivity, autocorrelation, and relationships with other stocks. We then extend the model training algorithm using regularized least square and gradient descent to estimate parameters. A penalty factor is designed in the optimization function to address extreme large negative returns. After denoising common factors, the learned pure relationship parameters are applied to construct a relationship matrix. Finally, we use this matrix to build portfolios by constrained optimization. Empirical experiments on two stock datasets show that the proposed method outperforms several state-of-the-art methods in terms of mean average precision and cumulative returns.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d5e61430e6367b361352cea5a4cfc845",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "gradient descent",
+      "regularized least square"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:52.715217"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习算法来量化金融信号之间的关系，并利用这些关系构建优化的投资组合。论文明确提到了构建投资组合的目标和方法，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习算法来量化金融信号之间的关系，并利用这些关系构建优化的投资组合。论文明确提到了构建投资组合的目标和方法，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:37.748441"
+}

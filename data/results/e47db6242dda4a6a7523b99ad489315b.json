@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "support vector machine",
+    "SVM",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper uses XGBoost, a machine learning algorithm, for urban fire prediction.",
+    "supervised learning": "XGBoost is a supervised learning method, and the paper involves training a model on labeled data to predict fire risk.",
+    "classification": "The paper's task is to classify areas into fire risk categories, which is a classification problem.",
+    "support vector machine": "The paper compares XGBoost with SVM (support vector machine) as a baseline model.",
+    "SVM": "SVM is mentioned as one of the baseline models compared against XGBoost.",
+    "decision tree": "XGBoost is an ensemble method based on decision trees, so the paper implicitly involves decision trees."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"support vector machine\", \"SVM\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"The paper uses XGBoost, a machine learning algorithm, for urban fire prediction.\",\n    \"supervised learning\": \"XGBoost is a supervised learning method, and the paper involves training a model on labeled data to predict fire risk.\",\n    \"classification\": \"The paper's task is to classify areas into fire risk categories, which is a classification problem.\",\n    \"support vector machine\": \"The paper compares XGBoost with SVM (support vector machine) as a baseline model.\",\n    \"SVM\": \"SVM is mentioned as one of the baseline models compared against XGBoost.\",\n    \"decision tree\": \"XGBoost is an ensemble method based on decision trees, so the paper implicitly involves decision trees.\"\n  }\n}\n```"
+}

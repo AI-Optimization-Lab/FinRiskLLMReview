@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1073,
+    "title": "Integrating Local Learning to Improve Deep-Reinforcement-Learning-based Pairs Trading Strategies",
+    "abstract": "Instead of trying to predict unpredictable market trends, influenced by various complex factors that are challenged to be fully captured in a machine learning model, financial experts often adopt pairs trading. This strategy involves simultaneously trading two stocks to eliminate market trends. The portfolio value of a carefully selected stock pair oscillates around a mean level, with investors longing the underpriced and shorting the overpriced portfolios to profit or stop loss when the portfolio's value reverts or diverges significantly. The timing of trading actions highly depends on the characteristics of constituent stocks and significantly influences trading performance. Past literature either trains a single machine learning model with all stock pairs' trading data or multiple models, each for a specific stock pair. While the former approach avoids overfitting due to sufficient data, it struggles to capture the unique characteristics of different stock pairs. Conversely, the latter approach focuses on specific pairs but faces limited training data. To address this dilemma, our paper leverages local learning to recommend the best trading actions. We group trading data by similarity and train each model with data from a specific group. The trained model then predicts optimal actions for stock pairs in that group. Using Gaussian mixture models for data grouping in local learning outperforms other methods in scenarios with limited data for most stock pairs.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "98e495b14a5f64cbdafc74256263ce92",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "clustering",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.945956"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习和局部学习来优化配对交易策略，这直接涉及投资组合的构建和调整，属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习和局部学习来优化配对交易策略，这直接涉及投资组合的构建和调整，属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:46.213590"
+}

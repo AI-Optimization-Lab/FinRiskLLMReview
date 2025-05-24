@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2109,
+    "title": "Constrained matrix factorization for financial data clustering",
+    "abstract": "Financial time series analysis is crucial to a successful assets allocation. Applying a matrix factorization technique can generate genuine grouping knowledge for the allocation of assets according to their association with a number of underlying bases. A constrained nonnegative matrix factorization NSMF is proposed to incorporate three penalties in order to compute a solution which can maximize between-base disjointness and volatility difference. A series of quantitative measures are designed for evaluation of bases and their volatility. Different types of real data are used in the experiments and compared regarding clustering consistency. Experimental analysis of historical prices of US blue chip stocks indicates that NSMF is superior to agglomerative clustering and independent component analysis and NSMF can extract bases with a higher discrepancy of volatility. The non-stochasticity constraint increases the dissimilarity of bases and it governs basis deviation over smoothness and sparseness. The clustering results of bases and persistent pairs, which are gained from NSMF, can consolidate our understanding of financial data properties and they provide meaningful knowledge in the construction of a well risk-balanced and diversified portfolio.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "03697880ea5570aa0d2dacd253ff5e52",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:59.113335"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种约束非负矩阵分解方法（NSMF）用于金融时间序列数据的聚类，旨在提取具有高波动性差异的基础成分，以帮助构建风险平衡和多样化的投资组合。论文明确提到其研究成果可用于资产配置和投资组合构建，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种约束非负矩阵分解方法（NSMF）用于金融时间序列数据的聚类，旨在提取具有高波动性差异的基础成分，以帮助构建风险平衡和多样化的投资组合。论文明确提到其研究成果可用于资产配置和投资组合构建，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:06.583110"
+}

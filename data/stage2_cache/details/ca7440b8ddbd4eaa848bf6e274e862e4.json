@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1193,
+    "title": "A local adaptive learning system for online portfolio selection",
+    "abstract": "Online portfolio selection is an important problem in financial trading which has attracted increasing interests from the machine learning and data mining community. Most existing state-of-the-art systems, however, rely on the defensive strategies, which lack adaptivity to some extent and may lose investment opportunities in the real financial market. In this paper, we propose a novel local adaptive learning model which seamlessly integrates both defensive and aggressive strategies to enhance the adaptivity and profitability of the whole portfolio system. Different from some popular portfolio selection systems that assume a predefined price tendency, we set up an evaluation function to predict the tendency and activate the corresponding selection strategies. The total capital is allocated according to the value expectations of different assets. Through taking the bests of the complementary strategies, it can make a good balance between wealth returns and risks. In addition, our system is capable of dealing with financial data in linear time, which is suitable for real-time trading applications. Experimental results on several benchmark datasets show that our model outperforms some state-of-the-art ones both in effectiveness and efficiency. (C) 2019 Elsevier B.V. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1fa4baacbac22335c89b9154fbdd3dd4",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:09.837387"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一种局部自适应学习模型，用于在线投资组合选择，旨在提高投资组合系统的适应性和盈利能力。论文明确讨论了资本分配、财富回报和风险平衡，这些都是投资组合管理的关键问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一种局部自适应学习模型，用于在线投资组合选择，旨在提高投资组合系统的适应性和盈利能力。论文明确讨论了资本分配、财富回报和风险平衡，这些都是投资组合管理的关键问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:26.296268"
+}

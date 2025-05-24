@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1526,
+    "title": "Mixed Tabu machine for portfolio optimization problem",
+    "abstract": "In this paper, we introduce a novel artificial neural network (NN) to solve the portfolio optimization problem. The proposed NN is called the Mixed Tabu Machine (MTM) since its structure is similar to the Tabu Machine, but includes both discrete and continuous variables. Similar to the Hopfield network, the state of the MTM is updated to find the global minimum energy state. To escape from local minimum states of the energy in the MTM, the state transition mechanism is controlled by a Tabu search in both discrete and continuous search spaces. The experimental results for five standard benchmark data sets show that the MTM can clearly obtain good results in very small computation time.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "979db2309961f73e3dd3f5446c52aad3",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:39.080483"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种名为Mixed Tabu Machine (MTM)的人工神经网络，专门用于解决投资组合优化问题。论文明确提到其目标是优化投资组合，并通过实验验证了MTM在标准数据集上的有效性。因此，该论文的主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种名为Mixed Tabu Machine (MTM)的人工神经网络，专门用于解决投资组合优化问题。论文明确提到其目标是优化投资组合，并通过实验验证了MTM在标准数据集上的有效性。因此，该论文的主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:35.737455"
+}

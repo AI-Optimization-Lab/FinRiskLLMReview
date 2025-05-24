@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 229,
+    "title": "Financial Fraud Detection Using Value-at-Risk With Machine Learning in Skewed Data",
+    "abstract": "The significant losses that banks and other financial organizations suffered due to new bank account (NBA) fraud are alarming as the number of online banking service users increases. The inherent skewness and rarity of NBA fraud instances have been a major challenge to the machine learning (ML) models and happen when non-fraud instances outweigh the fraud instances, which leads the ML models to overlook and erroneously consider fraud as non-fraud instances. Such errors can erode the confidence and trust of customers. Existing studies consider fraud patterns instead of potential losses of NBA fraud risk features while addressing the skewness of fraud datasets. The detection of NBA fraud is proposed in this research within the context of value-at-risk as a risk measure that considers fraud instances as a worst-case scenario. Value-at-risk uses historical simulation to estimate potential losses of risk features and model them as a skewed tail distribution. The risk-return features obtained from value-at-risk were classified using ML on the bank account fraud (BAF) Dataset. The value-at-risk handles the fraud skewness using an adjustable threshold probability range to attach weight to the skewed NBA fraud instances. A novel detection rate (DT) metric that considers risk fraud features was used to measure the performance of the fraud detection model. An improved fraud detection model is achieved using a K-nearest neighbor with a true positive (TP) rate of 0.95 and a DT rate of 0.9406. Under an acceptable loss tolerance in the banking sector, value-at-risk presents an intelligent approach for establishing data-driven criteria for fraud risk management.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7521516d95e94408c85b2d9fa6697bb4",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "K-nearest neighbor"
+    ],
+    "stage1_timestamp": "2025-05-15T01:48:30.691530"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on detecting financial fraud using value-at-risk as a risk measure, which is a technique commonly used in financial risk management to assess and mitigate potential losses. The study specifically addresses the skewness and rarity of fraud instances in banking, aiming to improve fraud detection models for better risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on detecting financial fraud using value-at-risk as a risk measure, which is a technique commonly used in financial risk management to assess and mitigate potential losses. The study specifically addresses the skewness and rarity of fraud instances in banking, aiming to improve fraud detection models for better risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:54.236015"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3489,
+    "title": "Enhancing Enterprise Credit Risk Assessment with Cascaded Multi-level Graph Representation Learning",
+    "abstract": "The assessment of Enterprise Credit Risk (ECR) is a critical technique for investment decisions and financial regulation. Previous methods usually construct enterprise representations by credit-related indicators, such as liquidity and staff quality. However, indicators of many enterprises are not accessible, especially for the small-and medium-sized enterprises. To alleviate the indicator deficiency, graph learning based methods are proposed to enhance enterprise representation learning by the neighbor structure of enterprise graphs. However, existing methods usually only focus on pairwise relationships, and overlook the ubiquitous high -order relationships among enterprises, e.g., supply chain connecting multiple enterprises. To resolve this issue, we propose a Multi-Structure Cascaded Graph Neural Network framework (MS-CGNN) for ECR assessment. It enhances enterprise representation learning based on enterprise graph structures of different granularity, including knowledge graphs of pairwise relationships, homogeneous and heterogeneous hypergraphs of high -order relationships. To distinguish influences of different types of hyperedges, MS-CGNN redefine new type-dependent hyperedge weight matrices for heterogeneous hypergraph convolutions. Experimental results show that MS-CGNN achieves state-of-the-art performance on real-world ECR datasets.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3681352854453fdcdced8c214f9beac9",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:26:48.550047"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on enhancing Enterprise Credit Risk (ECR) assessment using advanced graph neural networks, which is a critical aspect of financial risk management, particularly in evaluating the creditworthiness of enterprises for investment and regulatory purposes.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on enhancing Enterprise Credit Risk (ECR) assessment using advanced graph neural networks, which is a critical aspect of financial risk management, particularly in evaluating the creditworthiness of enterprises for investment and regulatory purposes.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:24.771751"
+}

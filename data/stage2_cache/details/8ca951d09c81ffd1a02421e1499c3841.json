@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5993,
+    "title": "Semi-parametric Conditional Quantile Models for Financial Returns and Realized Volatility",
+    "abstract": "This paper investigates how the conditional quantiles of future returns and volatility of financial assets vary with various measures of ex post variation in asset prices as well as option-implied volatility. We work in the flexible quantile regression framework and rely on recently developed model-free measures of integrated variance, upside and downside semivariance, and jump variation. Our results for the S&P 500 and WTI Crude Oil futures contracts show that simple linear quantile regressions for returns and heterogenous quantile autoregressions for realized volatility perform very well in capturing the dynamics of the respective conditional distributions, both in absolute terms as well as relative to a couple of well-established benchmark models. The models can therefore serve as useful risk management tools for investors trading the futures contracts themselves or various derivative contracts written on realized volatility.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9bce085e81f3ad9418383df5598515e8",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:53:33.447678"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on modeling conditional quantiles of future returns and volatility, which are directly related to risk assessment and management. The explicit mention of the models serving as useful risk management tools for investors confirms its application in financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on modeling conditional quantiles of future returns and volatility, which are directly related to risk assessment and management. The explicit mention of the models serving as useful risk management tools for investors confirms its application in financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:56.051745"
+}

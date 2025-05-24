@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 36,
+    "title": "ON THE CONSISTENCY OF REGRESSION-BASED MONTE CARLO METHODS FOR PRICING BERMUDAN OPTIONS IN CASE OF ESTIMATED FINANCIAL MODELS",
+    "abstract": "In many applications of regression-based Monte Carlo methods for pricing, American options in discrete time parameters of the underlying financial model have to be estimated from observed data. In this paper suitably defined nonparametric regression-based Monte Carlo methods are applied to paths of financial models where the parameters converge toward true values of the parameters. For various Black-Scholes, GARCH, and Levy models it is shown that in this case the price estimated from the approximate model converges to the true price.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "257530951deaacc491df83ba08f9f99a",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.562847"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是回归基础的蒙特卡洛方法，用于定价离散时间的美国期权（Bermudan options），并讨论了在不同金融模型（如Black-Scholes、GARCH和Levy模型）下的参数估计和价格收敛问题。这明确属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是回归基础的蒙特卡洛方法，用于定价离散时间的美国期权（Bermudan options），并讨论了在不同金融模型（如Black-Scholes、GARCH和Levy模型）下的参数估计和价格收敛问题。这明确属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:07.151961"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 12,
+    "title": "A comparison of neural network model selection strategies for the pricing of S&P 500 stock index options",
+    "abstract": "This paper compares a number of neural network model selection approaches on the basis of pricing S&P 500 stock index options. For the choice of the optimal architecture of the neural network, we experiment with a top-down pruning technique as well as two bottom-up strategies that start with simple models and gradually complicate the architecture if data indicate so. We adopt methods that base model selection on statistical hypothesis testing and information criteria and we compare their performance to a simple heuristic pruning technique. In the first set of experiments, neural network models are employed to fit the entire options surface and in the second they are used as parts of a hybrid intelligence scheme that combines a neural network model with theoretical option-pricing hints.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "c8739f7f01160e43981fb1a025887bf1",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.450675"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用神经网络模型对S&P 500股票指数期权进行定价，这直接属于衍生品定价的范畴。论文还讨论了神经网络模型与理论期权定价方法的结合，进一步确认了其在衍生品定价领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用神经网络模型对S&P 500股票指数期权进行定价，这直接属于衍生品定价的范畴。论文还讨论了神经网络模型与理论期权定价方法的结合，进一步确认了其在衍生品定价领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:31.671961"
+}

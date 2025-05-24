@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1838,
+    "title": "Integrated Long-Term Stock Selection Models Based on Feature Selection and Machine Learning Algorithms for China Stock Market",
+    "abstract": "The classical linear multi-factor stock selection model is widely used for long-term stock price trend prediction. However, the stock market is chaotic, complex, and dynamic, for which reasons the linear model assumption may be unreasonable, and it is more meaningful to construct a better-integrated stock selection model based on different feature selection and nonlinear stock price trend prediction methods. In this paper, the features are selected by various feature selection algorithms, and the parameters of the machine learning-based stock price trend prediction models are set through time-sliding window cross-validation based on 8-year data of Chinese A-share market. Through the analysis of different integrated models, the model performs best when the random forest algorithm is used for both feature selection and stock price trend prediction. Based on the random forest algorithm, a long-short portfolio is constructed to validate the effectiveness of the best model.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "299eec0b761ad66b7086bb682bf6d803",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "feature learning",
+      "random forest"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:53.324012"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于机器学习的股票选择模型，并构建了多空投资组合来验证模型的有效性，这直接应用于投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于机器学习的股票选择模型，并构建了多空投资组合来验证模型的有效性，这直接应用于投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:42.835000"
+}

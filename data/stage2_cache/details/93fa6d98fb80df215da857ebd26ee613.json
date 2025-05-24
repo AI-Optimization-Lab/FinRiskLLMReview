@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3290,
+    "title": "Sequential Machine Learning for Activity Sequence Prediction from Daily Work Report Data",
+    "abstract": "It is critical for project owners to have a reasonable estimation of project duration before the letting date for contract time determination and project management purposes. To determine the project duration, highway agencies employ scheduling techniques and arrange activities in sequential order. Activity sequencing is a crucial task since a slight change in the sequence of critical activities can significantly influence project duration. Also, the task of activity arrangement is time-consuming for a broad portfolio of projects and requires skillful schedulers. To aid activity sequence determination, prior studies used project drawings, expert knowledge, and historical data to identify sequence rules, logic templates, and sequence prediction models. However, weaknesses and areas of improvement exist, including a lack of adequately leveraging available historical data, the necessity of human input, reliance on human experience rather than data, and poor detection of the overlapping time of activities. This study proposes a novel framework that predicts the sequences of work activities using historical daily work reports to train a long short-term memory recurrent neural network to predict the activity sequence and overlapping in future projects. The daily work reports of 720 highway projects obtained from a highway agency are used as the case study. A novel evaluation technique based on conditional probability is used to assess the model and compare its output sequence to sequences created randomly. The assessment results indicate that the model's output is superior in 94.4% of situations, suggesting a high level of model reliability. The impact of key project characteristics such as project work type and size on activity prediction is examined, indicating a significant impact of project work type and no impact of project size on activity prediction. The results of this study can assist highway project owners in activity sequence and overlap determination by entering a series of activities and receiving the likely next successors.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b1c1f60343cb2de0cb5be958a0113989",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:15:54.659102"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用LSTM神经网络预测高速公路项目的活动序列和重叠时间，属于工程项目管理领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用LSTM神经网络预测高速公路项目的活动序列和重叠时间，属于工程项目管理领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:13.623942"
+}

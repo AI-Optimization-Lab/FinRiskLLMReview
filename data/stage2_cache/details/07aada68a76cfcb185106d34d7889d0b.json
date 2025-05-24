@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 658,
+    "title": "Improving financial distress prediction using textual sentiment of annual reports",
+    "abstract": "An accurate prediction of financial distress is beneficial to investors and allows banks and other financial institutions to build an early warning system to avoid risk contagion. This study investigated financial distress prediction using textual sentiment extracted from listed firms' annual reports in the Chinese market. The sentiments reflected by the firms' management discussions and analysis (MD&A) sections and audit reports were extracted separately through the application of deep learning algorithms. We found that the sentiment score extracted from MD&A sections was more optimistic compared with that extracted from audit reports. Moreover, the experimental results demonstrated that the modeling performance was significantly improved with the incorporation of textual sentiment scores, and the inclusion of sentiment from audit reports lead to a more significant incremental improvement than that from the MD&A sections. However, when both sentiment scores were included in the modeling input, the improvement in predictive accuracy was insignificant compared to the model using audit report scores only. Our study highlights the predictive power of textual information in annual reports, and shows that the textual sentiment of annual reports should be applied in distress modeling. The results provide implications for the utilization of soft information in credit risk modeling in the context of Chinese market, and such application can be further explored in other areas of operational research studies.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "ad62fe6aef9e1e0368bea39b97274329",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:40:51.211396"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度学习算法从年度报告中提取文本情感，以改进财务困境预测。这直接应用于信用风险建模和早期风险预警系统，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用深度学习算法从年度报告中提取文本情感，以改进财务困境预测。这直接应用于信用风险建模和早期风险预警系统，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:29.198168"
+}

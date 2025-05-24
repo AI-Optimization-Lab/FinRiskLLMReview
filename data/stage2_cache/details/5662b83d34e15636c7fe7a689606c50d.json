@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 1570,
+    "title": "Deep Learning-Based Risk Prediction in Power Sector Financial Management Using Transformer and Actor-Critic Reinforcement Learning",
+    "abstract": "Precise short-term electricity demand forecasting is crucial for the grid's operation and reliability management, while long-term forecasting is for future energy policymaking. However, the nonlinear and stochastic nature of economic and environmental impact on electricity demand is a great challenge for the forecasting models. Current time series forecasting models work on the historical demand and price data and ignore the driving economic and environmental features. In this study, we developed an Actor-Critic Reinforcement Learning model named Attention Deterministic Policy Gradient (ADPG) that employs the Transformer as a Critic network to leverage the advantage of self-attention to learn complex patterns over longer time horizon information dependencies for forecasting the electricity demand and price. Second, it introduces the multi-step year-ahead and day-ahead forecasting, and one-step hour-ahead forecasting for the long-term and short-term demand and price prediction based on the historical time series electricity demand and price data along with the prices of major electricity sources and economic features which drive the electricity price, and environmental features which impact the electricity demand. A comprehensive comparison between the ADPG and other RL and supervised forecasting models is also provided via different evaluation metrics. Results show that Transformer is better capable of forecasting due to its ability to learn longer dependencies. Against the hour-ahead actual demand and price, forecasting with the ADPG has reduced the demand and price difference between predicted and actual values to 0.17% and 2.06% respectively, as compared to 0.63% demand and 4.21% price difference in day-ahead prediction. In the year-ahead forecast, ADPG shows a 3.84% demand and a 5.99% price difference between the actual demand and price. All the other models remain way behind in year-ahead and day-ahead forecasts but come closer in the hours-ahead forecast, but remain below ADPG.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "25d854768bb9bcea3454ff12500f362f",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "attention mechanism",
+      "representation learning",
+      "sequence-to-sequence learning",
+      "encoder-decoder",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:08.090985"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究电力需求与价格的预测，虽然涉及金融数据（如价格预测），但其核心应用场景是电力行业的管理与政策制定，并未明确涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究电力需求与价格的预测，虽然涉及金融数据（如价格预测），但其核心应用场景是电力行业的管理与政策制定，并未明确涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:58.685953"
+}

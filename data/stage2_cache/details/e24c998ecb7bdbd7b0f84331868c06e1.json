@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1811,
+    "title": "Emulator-based Bayesian optimization for efficient multi-objective calibration of an individual-based model of malaria",
+    "abstract": "Individual-based models have become important tools in the global battle against infectious diseases, yet model complexity can make calibration to biological and epidemiological data challenging. We propose using a Bayesian optimization framework employing Gaussian process or machine learning emulator functions to calibrate a complex malaria transmission simulator. We demonstrate our approach by optimizing over a high-dimensional parameter space with respect to a portfolio of multiple fitting objectives built from datasets capturing the natural history of malaria transmission and disease progression. Our approach quickly outperforms previous calibrations, yielding an improved final goodness of fit. Per-objective parameter importance and sensitivity diagnostics provided by our approach offer epidemiological insights and enhance trust in predictions through greater interpretability. Individual-based models have become important tools in the global battle against infectious diseases, yet model complexity can make calibration challenging. Here, the authors propose a Bayesian optimization framework to calibrate a complex malaria transmission simulator.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e3a7e0a79153244d9b1fd582382c5b15",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:53.200091"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用贝叶斯优化框架校准疟疾传播模拟器，其应用领域是传染病建模和流行病学，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用贝叶斯优化框架校准疟疾传播模拟器，其应用领域是传染病建模和流行病学，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:23.950706"
+}

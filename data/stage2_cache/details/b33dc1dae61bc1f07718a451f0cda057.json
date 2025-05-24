@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1166,
+    "title": "Generative Machine Learning for Multivariate Equity Returns",
+    "abstract": "The use of machine learning to generate synthetic data has grown in popularity with the proliferation of text-to-image models and especially large language models. The core methodology these models use is to learn the distribution of the underlying data, similar to the classical methods common in finance of fitting statistical models to data. In this work, we explore the efficacy of using modern machine learning methods, specifically conditional importance weighted autoencoders (a variant of variational autoencoders) and conditional normalizing flows, for the task of modeling the returns of equities. The main problem we work to address is modeling the joint distribution of all the members of the S&P 500, or, in other words, learning a 500-dimensional joint distribution. We show that this generative model has a broad range of applications in finance, including generating realistic synthetic data, volatility and correlation estimation, risk analysis (e.g., value at risk, or VaR, of portfolios), and portfolio optimization.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b9b7cf6c350402e9d893362bb725bb43",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "deep learning",
+      "representation learning",
+      "autoencoder",
+      "variational autoencoders",
+      "normalizing flows",
+      "generative model"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.863595"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly mentions applications such as risk analysis (e.g., VaR of portfolios) and portfolio optimization, which are key components of financial risk management and portfolio management, respectively. The focus on modeling joint distributions of equity returns further supports these applications.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper explicitly mentions applications such as risk analysis (e.g., VaR of portfolios) and portfolio optimization, which are key components of financial risk management and portfolio management, respectively. The focus on modeling joint distributions of equity returns further supports these applications.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:52.559362"
+}

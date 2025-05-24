@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2361,
+    "title": "Default risk prediction and feature extraction using a penalized deep neural network",
+    "abstract": "Online peer-to-peer lending platforms provide loans directly from lenders to borrowers without passing through traditional financial institutions. For lenders on these platforms to avoid loss, it is crucial that they accurately assess default risk so that they can make appropriate decisions. In this study, we develop a penalized deep learning model to predict default risk based on survival data. As opposed to simply predicting whether default will occur, we focus on predicting the probability of default over time. Moreover, by adding an additional one-to-one layer in the neural network, we achieve feature selection and estimation simultaneously by incorporating an L-1-penalty into the objective function. The minibatch gradient descent algorithm makes it possible to handle massive data. An analysis of a real-world loan data and simulations demonstrate the model's competitive practical performance, which suggests favorable potential applications in peer-to-peer lending platforms.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d067f5d63507b3323b1870b0879a3783",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "neural network",
+      "backpropagation",
+      "hidden layer",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:19.685729"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用惩罚性深度神经网络模型来预测借款人的违约风险，这直接应用于金融风险管理中的信用风险评估领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用惩罚性深度神经网络模型来预测借款人的违约风险，这直接应用于金融风险管理中的信用风险评估领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:55.405056"
+}

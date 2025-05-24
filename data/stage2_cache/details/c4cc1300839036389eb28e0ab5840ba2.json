@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 21,
+    "title": "Research on Pricing Methods of Convertible Bonds Based on Deep Learning GAN Models",
+    "abstract": "This paper proposes two data-driven models (including LSTM pricing model, WGAN pricing model) and an improved model of LSM based on GAN to analyze the pricing of convertible bonds. In addition, the LSM model with higher precision in traditional pricing model is selected for comparative study with other pricing models. It is found that the traditional LSM pricing model has a large error in the first-day pricing, and the pricing function needs to be further improved. Among the four pricing models, LSTM pricing model and WGAN pricing model have the best pricing effect. The WGAN pricing model is better than the LSTM pricing model (0.21%), and the LSM improved model (1.17%) is better than the traditional LSM model (2.26%). Applying the generative deep learning model GAN to the pricing of convertible bonds can circumvent the harsh preconditions of assumptions, and significantly improve the pricing effect of the traditional model. The scope of application of each model is different. Therefore, this paper proves the feasibility of the GAN model applied to the pricing of convertible bonds, and enriches the pricing function of derivatives in the financial field.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "aafa4c535b237e28b8c2471d45288121",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:26.410014"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型（如LSTM和WGAN）来改进可转换债券的定价方法，这直接属于衍生品定价的研究领域。论文明确讨论了传统定价模型的不足以及新模型在定价效果上的改进，并强调了这些模型在金融衍生品定价中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型（如LSTM和WGAN）来改进可转换债券的定价方法，这直接属于衍生品定价的研究领域。论文明确讨论了传统定价模型的不足以及新模型在定价效果上的改进，并强调了这些模型在金融衍生品定价中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:54.536529"
+}

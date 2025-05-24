@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 430,
+    "title": "Harnessing Cognitively Inspired Predictive Models to Improve Investment Decision-Making",
+    "abstract": "In the last years, researchers and practitioners have focused on defining portfolio optimization approaches. This task aims to identify a suitable distribution of assets for maximizing profits and minimizing risks, also offering protection against unexpected market behaviors. Nevertheless, the state-of-the-art approaches encounter significant limitations due to the complex nature of the task: (1) forecasting of non-stationary, non-linearity and volatile stock price; (2) budget allocation over different stocks satisfying multi-objective objective function; (3) risk costs can significantly affect the effectiveness of the designed approaches. In this paper, we propose a cognitively inspired framework for portfolio optimization by integrating deep learning-based stock forecasting for maximizing the revenue and portfolio diversification and Shape Ratio for minimizing the risk. Furthermore, the cognitively inspired forecasting module relies on the LSTM-based approach which combines historical financial data and technical indicators. Hence, this approach addresses the portfolio optimization task with the aim of designing more and more cognitive agents that perform autonomous actions for supporting decision-making. To make these agents cognitive, we further integrate stock forecasting into the portfolio optimization model, also investigating the main factors affecting both stock forecasting and portfolio optimization tasks. The proposed framework has been evaluated in two stages on a real-world dataset, composed of four years of information about stocks from six different areas. Firstly, we compare the proposed forecasting models based on LSTM and GRU, pointing out that the former achieves higher effectiveness results although the latter has a shorter training time. Finally, the proposed framework has been compared with different baselines, obtaining a net difference of $168 at the maximum. Finally, we compare the proposed approach w.r.t. several baselines in terms of total revenue, also providing an ablation analysis to investigate how stock prediction might support investors in dealing with portfolio optimization task.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "468ff0890b95efa1feb0b67c02bb1b6a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:38:17.342380"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种基于深度学习的投资组合优化框架，旨在通过股票预测和多样化来最大化收益并最小化风险，这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种基于深度学习的投资组合优化框架，旨在通过股票预测和多样化来最大化收益并最小化风险，这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:37.806141"
+}

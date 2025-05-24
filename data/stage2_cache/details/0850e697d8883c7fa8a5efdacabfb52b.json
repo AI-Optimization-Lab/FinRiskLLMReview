@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1097,
+    "title": "Optimal stock allocation for an automated portfolio recommender system in the perspective of maximum fund utilization",
+    "abstract": "Buying or sellinga favorable combination of stocks is always challenging for non-professional investors due to its inherent complex and dynamic nature. Creating an automated Portfolio Recommender System (RS) for investors, has been an active area of research. The reliable performance of a portfolio depends on several complex factors, namely market fluctuations, market, and investors' behavioral patterns, customers' demographic classification, etc. In addition, the inter-relationship between the stocks needs more investigation along with the return and associated risk for the proper selection of a portfolio. In this work, the daily closing prices and volume of 297 Indian stocks from Large, Mid, and Small Cap categories from different sectors in the National Stock Exchange (NSE) of India for the FY 2021-22 have been considered. The set of dissimilar stocks has been extracted through K-means clustering using several additional parameters, namely, beta factor and proportionate volume, along with the traditional concepts of expected return and associated risk to create sample portfolios. Subsequently, the standard portfolios from the samples have been constructed utilizing Markowitz's Modern Portfolio Theory (MPT) with a trade-off between expected return and associated risk. Next, for the purpose of comparing the maximum utilization of the investment amount, the greedy algorithm, as well as the integer programming problem, have been applied to different investment options. The associated numbers of discrete stock allocations have been obtained accordingly. The comparison shows that the greedy algorithm performs better than integer programming problem from the perspective of maximum fund utilization. The performance validation confirms that the MPT model is better than the Hierarchical Risk Parity (HRP) model, even in a period of market crisis. Finally, on the basis of different portfolio indices, the standard portfolios and other similar portfolios using the cosine similarity approach are recommended in accordance with investors' choice.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6fdabf20d697e8ef280cf877c1c9cd59",
+    "relevant_keywords": [
+      "clustering",
+      "unsupervised learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.325357"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建一个自动化的投资组合推荐系统，利用K-means聚类、Markowitz的现代投资组合理论（MPT）以及贪婪算法等技术来优化股票选择和资金利用，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建一个自动化的投资组合推荐系统，利用K-means聚类、Markowitz的现代投资组合理论（MPT）以及贪婪算法等技术来优化股票选择和资金利用，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:41.833319"
+}

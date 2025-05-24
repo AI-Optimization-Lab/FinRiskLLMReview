@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3574,
+    "title": "Applications of Clustering with Mixed Type Data in Life Insurance",
+    "abstract": "Death benefits are generally the largest cash flow items that affect the financial statements of life insurers; some may still not have a systematic process to track and monitor death claims. In this article, we explore data clustering to examine and understand how actual death claims differ from what is expected-an early stage of developing a monitoring system crucial for risk management. We extended the k-prototype clustering algorithm to draw inferences from a life insurance dataset using only the insured's characteristics and policy information without regard to known mortality. This clustering has the feature of efficiently handling categorical, numerical, and spatial attributes. Using gap statistics, the optimal clusters obtained from the algorithm are then used to compare actual to expected death claims experience of the life insurance portfolio. Our empirical data contained observations of approximately 1.14 million policies with a total insured amount of over 650 billion dollars. For this portfolio, the algorithm produced three natural clusters, with each cluster having lower actual to expected death claims but with differing variability. The analytical results provide management a process to identify policyholders' attributes that dominate significant mortality deviations, and thereby enhance decision making for taking necessary actions.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f53a095205f2d0079aff1d707aac5e2b",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:53.985337"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文探讨了使用聚类算法来监测和分析人寿保险中的死亡索赔与实际预期的差异，这是为了开发一个监控系统以进行风险管理。这直接关联到金融风险管理领域，特别是保险公司的风险监控和决策支持。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文探讨了使用聚类算法来监测和分析人寿保险中的死亡索赔与实际预期的差异，这是为了开发一个监控系统以进行风险管理。这直接关联到金融风险管理领域，特别是保险公司的风险监控和决策支持。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:59.746768"
+}

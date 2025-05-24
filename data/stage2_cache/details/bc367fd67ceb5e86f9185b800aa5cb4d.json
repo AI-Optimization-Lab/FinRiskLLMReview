@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 458,
+    "title": "Machine Learning on Imbalanced Data in Credit Risk",
+    "abstract": "In Machine Learning, we often encounter instances of imbalanced data which occur whenever there is an unequal representation in the classification categories. New found interest in Machine Learning has made its usage ubiquitous. Its applications encompass a wide plethora of scenarios ranging from Business and Banking to Bioinformatics and Psychology. These problems are often characterized by imbalanced data, the presence of which often leads to inaccurate predictive models, since the distribution of testing data may differ from that of training data while learning, leading to misclassification of the response variable. The primary focus of the paper is on Credit Risk which is defined as the probability of defaulting on the loan or credit acquired from a banking or financial institution. The base risk is that of the loss of primary principal and interest, disruption of cash flows and increased collection costs. Loan Default is an uncommon phenomena, henceforth we obtain the imbalanced data. We've adopted the approach of Logistic Regression and Classification and Regression Trees (CART) with techniques such as undersampling, Prior Probabilities, Loss Matrix and Matrix Weighing to deal with imbalanced data.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d54db1cb3dc788d024da07bf1c3ed36d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.705107"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是应用机器学习方法（如逻辑回归和分类回归树）来处理不平衡数据，以预测信用违约风险。信用风险管理是金融风险管理的重要组成部分，因此该论文的主要应用领域是金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是应用机器学习方法（如逻辑回归和分类回归树）来处理不平衡数据，以预测信用违约风险。信用风险管理是金融风险管理的重要组成部分，因此该论文的主要应用领域是金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:00.151045"
+}

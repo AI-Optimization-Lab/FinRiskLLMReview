@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2956,
+    "title": "Scenario tree reduction methods through clustering nodes",
+    "abstract": "To develop practical and efficient scenario tree reduction methods, we introduce a new methodology which depends on clustering nodes, and thus an easy-to-handle distance function to measure the difference between two scenario trees is designed. On the basis of minimizing the new distance, we constructa multiperiod scenario tree reduction model which is supported theoretically by the stability results of stochastic programs. By solving the model, we design a stage-wise scenario tree reduction algorithm which is superior to the simultaneous backward reduction method in terms of both computational complexity and solution results of stochastic programming problems, the corresponding reduction algorithm especially for fan-liked trees is also presented. We further design a multiperiod scenario tree reduction algorithm with a pre-specified distance by utilizing the stability results of stochastic programs. A series of numerical experiments with real trading data and the application to multiperiod portfolio selection problem demonstrate the practicality, efficiency and robustness of proposed reduction model and algorithms. (C) 2017 Elsevier Ltd. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "18ae44e41001db533f5327f1c32c2005",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:09.150134"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中提到该方法应用于多期投资组合选择问题，这明确属于投资组合管理领域。虽然论文也提到使用真实交易数据进行数值实验，但未明确指出与衍生品定价或金融风险管理的直接关联。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中提到该方法应用于多期投资组合选择问题，这明确属于投资组合管理领域。虽然论文也提到使用真实交易数据进行数值实验，但未明确指出与衍生品定价或金融风险管理的直接关联。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:00.216245"
+}

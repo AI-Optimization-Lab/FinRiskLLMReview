@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 835,
+    "title": "Financial Advisor Recruitment: A Smart Crowdsourcing-Assisted Approach",
+    "abstract": "Successful portfolio management requires, in addition to advanced optimization strategies, effective recruitment of specialized financial advisors. Hiring the wrong ones can be detrimental to investors' financial goals. In this article, we propose an automated crowdsourcing system to organize cooperation between financial advisors and investors. Without interfering with their private portfolio optimization techniques, we design a recruitment framework that matches financial advisors to investors based on their profiles and features, as well as the previous activities of their peers. Using the database of the crowdsourcing platform, we employ an unsupervised technique to regroup advisors with a high degree of similarities into clusters and, hence, shrink the search space. Afterward, we train a machine learning regression model to predict the matching score that can be achieved if an investor hires a particular advisor. These scores are converted to weights of bipartite graphs to which we apply a double-phased many-to-many maximum weight matching algorithm to determine a suitable investor-advisor combination. In the simulations, we investigate the performance of the proposed recruitment approach and show that, compared with other traditional approaches, higher returns can be reached for both investors and financial advisors.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "66df03a752e041339bad78a5ce96a4c0",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "regression",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.521956"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是设计一个自动化的众包系统来匹配金融顾问和投资者，以优化投资组合管理。虽然论文没有直接讨论投资组合的构建或优化策略，但其目标是提高投资组合管理的效果，通过更有效的顾问招募来间接提升投资组合的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是设计一个自动化的众包系统来匹配金融顾问和投资者，以优化投资组合管理。虽然论文没有直接讨论投资组合的构建或优化策略，但其目标是提高投资组合管理的效果，通过更有效的顾问招募来间接提升投资组合的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:22.583920"
+}

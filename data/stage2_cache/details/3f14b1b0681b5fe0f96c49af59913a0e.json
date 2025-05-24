@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1162,
+    "title": "A NEW MODEL FOR ESTIMATING THE RISK OF BANKRUPTCY OF THE INSURANCE COMPANIES BASED ON THE ARTIFICIAL NEURAL NETWORKS",
+    "abstract": "In this paper we propose a new model for estimating the risk of bankruptcy of the insurance companies. The model is developed based on the perceptron-type neural architecture with input data represented by values of indicators from the financial statements of insurances and reinsurances companies. The memory vector of the neuronal architecture will provide usefull information about the risk of bankruptcy for the next two years compared to the period referenced for insurance companies used to training the algorithm proposed. Development of the neural model (RBANN algorithm) to estimate the risk of bankruptcy for insurance companies is done according to the following steps: 1. Consider a neuronal architecture perceptron with two layers of neurons -an input layer of neurons to take the training data and an output layer of neurons of the neural network to formulate response of the processing information; 2. setting the input data represented by the fmancial-economics indicators from the financial statements of the insurance companies. In this paper we considers 21 Romanian insurance companies and a total of 33 financial indicators; the values of the economic indicators were taken from financial statements published on the official website of the Ministry of Finance. 3. neural network training based on indicator values for each company for many years. 4. establish the score function for estimating the risk of bankruptcy based on the encoded values of the neural network. The neural function for estimating the risk of bankruptcy (Fns neural score function) is determined based on neuronal synaptic weights and is calculated on the basis of neural threshold and average values, respectively, standard deviation of the responses of neural network. The neuronal function for estimating contains four risk areas: a minimal risk region, an area of low risk of bankruptcy, an area of high risk of bankruptcy and the risk of imminent bankruptcy. This function is related to the score function of the Altman model (1968) which sets two limit areas (one without risk and another of bankruptcy) and an area of uncertainty (high risk and low risk). In the end of the paper we performed the testing of the capacity for the estimation of the risk of bankruptcy for all insurance companies by applying the neural function determined by RBANN algorithm, and establishing a synthetic report on risk areas associated with each firm, and highlighting the evolution trends of neural function score estimation in the next years for insurance and reinsurance companies. The estimation algorithm developed is distinguished by the property to generalize; the neuronal function that computes the risk of bankruptcy may be determined by applying the algorithm RBANN both for the Romanian insurance reinsurance companies and for global insurance -reinsurance companies.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1fa806d9e9bb650892fe7eeeb1ea115c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.753040"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a neural network model to estimate the risk of bankruptcy for insurance companies, which is a specific application within financial risk management. The study involves analyzing financial indicators to predict bankruptcy risk, a key concern in risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a neural network model to estimate the risk of bankruptcy for insurance companies, which is a specific application within financial risk management. The study involves analyzing financial indicators to predict bankruptcy risk, a key concern in risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:44.117890"
+}

@@ -1,0 +1,42 @@
+{
+  "paper": {
+    "id": 58,
+    "title": "XPM: An Explainable Deep Reinforcement Learning Framework for Portfolio Management",
+    "abstract": "Reinforcement learning-based portfolio management has recently attracted extensive attention. However, deep reinforcement learning methods are unexplainable and considered to be potentially risky, difficult to be trusted and regulated by users. To address these problems, we propose an eXplainable reinforcement learning framework for Portfolio Management, named XPM, which is efficient, concise, and can provide faithful explanations for network outputs. Specifically, we first design a policy network for portfolio management, which uses temporal convolutional network (TCN) to extract temporal features of multiple time series in portfolio. Then, we employ global average pooling (GAP) and a fully connected layer to integrate the global feature maps to handle asset correlations. Finally, we utilize softmax to determine the output portfolio weights. To assemble explainability into our model, we employ an explainable artificial intelligence method, class activation mapping (CAM), to explain the network outputs, which computes an activation map for an asset of interest. The map highlights the important assets and time intervals in the input state. In this way, end users can understand which part of the portfolio's recent price movements makes the network decision to invest in the target asset. Experimental results show that XPM outperforms the current state-of-the-art portfolio management methods in NASDAQ and NYSE markets, and can provide faithful and informative explanations to end users.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a45c11d1977b913baf7af25d1e94d00d",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "temporal convolutional network",
+      "TCN",
+      "feature learning",
+      "feature representation",
+      "representation learning",
+      "hidden layer",
+      "softmax",
+      "global average pooling",
+      "GAP",
+      "fully connected layer",
+      "class activation mapping",
+      "CAM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.964066"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种可解释的深度强化学习框架（XPM），专门用于投资组合管理。论文明确提到其目标是解决投资组合管理中的问题，并通过实验在NASDAQ和NYSE市场上验证了其方法的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种可解释的深度强化学习框架（XPM），专门用于投资组合管理。论文明确提到其目标是解决投资组合管理中的问题，并通过实验在NASDAQ和NYSE市场上验证了其方法的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:57.945633"
+}

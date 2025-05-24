@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2836,
+    "title": "Outlier Detection via Sampling Ensemble",
+    "abstract": "Outlier detection is a key technique in data ming and machine learning fields. The deviating characters of outliers make huge detrimental effects on the learning tasks. A lot of algorithms are therefore proposed to handle outliers from different perspectives, such as distance, density, angle and so on. Among these approaches, the density-based methods achieve better performance, but also suffer from huge time complexity. Recently, in order to accelerate the speed and improve the performance, the subsampling ensemble method attracts much attention, which has a reasonable theoretical interpretation and high performance. However, existing work only gives the partial picture of outlier detection via row-sampling, the effective portfolio of bi-sampling is still void. In light of this, we propose the general outlier detection framework via bi-sampling, Bi-Sampling Outlier Detection (BSOD) and provide the effective portfolios of the row and column-sampling ratios in a theoretical way. In addition, the benefits of BSOD are fully illustrated in terms of ensemble diversity and divide-and-conquer. Further we employ LOF within BSOD as BI-LOF to conduct extensive experiments. In general, on 30 synthetic and 17 real-world data sets we thoroughly explore the characteristics of BI-LOF with different numbers of instances, features, nearest neighbors, validate the theoretical analysis of BSOD condition on synthetic data sets, and show obvious advantages over other state-of-the-art algorithms in terms of low and high dimensional real-world data sets. And finally we use BI-LOF to conduct image outlier detection and show high quality and stableness of BI-LOF.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "af8a2e9eaa993b56a76a92407de376b4",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:10:49.630742"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种通用的异常值检测方法，虽然可能应用于金融领域，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种通用的异常值检测方法，虽然可能应用于金融领域，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:25.931697"
+}

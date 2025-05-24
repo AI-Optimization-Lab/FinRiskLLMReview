@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3615,
+    "title": "CAViaR: Conditional autoregressive value at risk by regression quantiles",
+    "abstract": "Value at risk (VaR) is the standard measure of market risk used by financial institutions. Interpreting the VaR as the quantile of future portfolio values conditional on current information, the conditional autoregressive value at risk (CAViaR) model specifies the evolution of the quantile over time using an autoregressive process and estimates the parameters with regression quantiles. Utilizing the criterion that each period the probability of exceeding the VaR must be independent of all the past information, we introduce a new test of model adequacy, the dynamic quantile test. Applications to real data provide empirical support to this methodology.",
+    "year": 2004,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7fe8ed932d0df0b32814aa7ab4d39fa3",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:28:29.275098"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on the development of the Conditional Autoregressive Value at Risk (CAViaR) model, which is specifically designed to measure and manage market risk, a core aspect of financial risk management. The methodology directly addresses the calculation of Value at Risk (VaR), a standard risk measure used by financial institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on the development of the Conditional Autoregressive Value at Risk (CAViaR) model, which is specifically designed to measure and manage market risk, a core aspect of financial risk management. The methodology directly addresses the calculation of Value at Risk (VaR), a standard risk measure used by financial institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:58.482451"
+}

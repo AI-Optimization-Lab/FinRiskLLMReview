@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3862,
+    "title": "A constrained cluster-based approach for tracking the S&P 500 index",
+    "abstract": "We consider the problem of tracking a benchmark target portfolio of financial securities in particular the S&P 500. Linear integer programming models are developed that seeks to track a target portfolio using a strict subset of securities from the benchmark portfolio. The models represent a clustering approach to select securities and also include additional constraints that aim to control risk and transactions costs. Lagrangian and semi-Lagrangian methods are developed to compute solutions to the tracking models. The computational results show the effectiveness of the linear tracking models and the computational methods in tracking the S&P 500. Overall, the models and methods presented can serve as the basis of the optimization module in an optimization-based decision support for creating tracking portfolios.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "58580d16ad31374602746fbedb914b1c",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:30:28.830585"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发线性整数规划模型来跟踪S&P 500指数，并选择子集证券以控制风险和交易成本，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发线性整数规划模型来跟踪S&P 500指数，并选择子集证券以控制风险和交易成本，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:06.629813"
+}

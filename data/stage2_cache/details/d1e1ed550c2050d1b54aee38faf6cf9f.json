@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 244,
+    "title": "Research on the multifractal volatility of Chinese banks based on the synthetic minority oversampling technique, edited nearest neighbors and long short-term memory",
+    "abstract": "This paper uses five-minute high-frequency trading data for the Shanghai Stock Exchange Banks Index (ticker: SH.000134) from 2014 to 2023 as a research sample, and it employs a method based on multifractal characteristics to classify the financial market risk states of listed banks. A long short-term memory (LSTM) neural network is improved by combining it with the SMOTEENN method (itself a combination of the synthetic minority oversampling technique and edited nearest neighbors), and the SMOTEENN-LSTM model is then used to predict these risk states. The results show that the financial market for China's banking industry exhibits obvious multifractal behavior, and that we can accurately determine the normal state of the market and the states that need attention based on multifractal volatility parameters. The SMOTEENN-LSTM model greatly improves the prediction accuracy of the unmodified LSTM model, and it also significantly outperforms two traditional machine learning models - support vector machines and backpropagation neural networks - with its accuracy reaching 89.27% (as measured by the area under the receiver operating characteristic curve). Fivefold cross-validation shows that, compared with the support vector machine and backpropagation neural network models, the SMOTEENN-LSTM model has superior stability in accuracy indicators such as the area under the receiver operating characteristic curve and the geometric mean, indicating its strong robustness and reliability. This proves it can effectively deal with the problems encountered by traditional models when processing imbalanced data sets. This paper can provide effective tools for financial regulators and financial institutions to better monitor and manage the risks of banking markets and promote their healthy development.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f46b2254246558741547fa701c3b2b30",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:48:30.771420"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用改进的LSTM模型预测银行市场的风险状态，并旨在为金融监管机构和金融机构提供风险监控和管理的工具，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用改进的LSTM模型预测银行市场的风险状态，并旨在为金融监管机构和金融机构提供风险监控和管理的工具，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:52.141132"
+}

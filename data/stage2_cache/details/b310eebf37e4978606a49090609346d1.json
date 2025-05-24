@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 312,
+    "title": "S&P 500 stock selection using machine learning classifiers: A look into the changing role of factors",
+    "abstract": "This study examines the profitability of using machine learning algorithms to select a subset of stocks over the S&P 500 using factors as features. We use tree-based algorithms: Decision Tree, Random Forest, and XGBoost for their white model capabilities, allowing feature importances extraction. We defined a backtest to train the models with recent data and rebalance the portfolio. Despite incurring more risks, the selected assets of the portfolio outperform the index by using machine learning. Furthermore, we show that the feature importance that determines the best-performing assets changes at different times. Such models providing the evolution of the importance of factors can provide profitability insights while keeping explainability.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5cfbc227546a8bf68fb7b528d4172f04",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:00.416439"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文研究了使用机器学习算法选择S&P 500股票子集以构建投资组合，并通过回测验证其表现优于指数，这直接涉及投资组合管理的核心内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文研究了使用机器学习算法选择S&P 500股票子集以构建投资组合，并通过回测验证其表现优于指数，这直接涉及投资组合管理的核心内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:46.659676"
+}

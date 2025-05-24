@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 404,
+    "title": "Multi-verse metaheuristic and deep learning approach for portfolio selection with higher moments",
+    "abstract": "The market has become very volatile these days in the presence of a war-like situation with a lot of political turmoil and the rapid occurrence of natural disasters the world over. It is difficult to predict the economic condition of the country and hence the company's financial position. This paper proposes a novel approach that integrates clustering techniques, deep learning, and a metaheuristic algorithm to enhance the process of asset selection and allocation. First, S&P BSE 500 index companies have been clustered into ten groups by using the Expectation Maximization (EM) clustering technique based on 11 fundamental characteristics of the companies. The Prowess financial database has been used to collect the required data. For diversification of the portfolio across clusters and sectors, the best-performing companies are chosen based on Sharpe Ratio. Advanced analytical tools like machine learning and deep learning have been employed to increase the accuracy and precision of estimating the returns on the stocks of the selected companies. The expected return on stocks of these selected companies has been estimated with the help of Neural Basis Expansion Analysis for Interpretable Time Series (N-BEATS), a deep learning neural network-based forecasting technique. A portfolio multi-objective optimization model has been formulated by considering entropy and higher moments like skewness and kurtosis in the objective function. A metaheuristic algorithm named multi-verse is used to solve the optimization model, and hence the selection of the assets with their proportion of investment in the portfolio has been suggested under different scenarios.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "61413ce82549aaf57e197d76bd756d1a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "clustering",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.503798"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合聚类、深度学习和元启发式算法来优化资产选择和配置，特别是通过多目标优化模型考虑熵和高阶矩（如偏度和峰度）来构建投资组合，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合聚类、深度学习和元启发式算法来优化资产选择和配置，特别是通过多目标优化模型考虑熵和高阶矩（如偏度和峰度）来构建投资组合，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:11.016580"
+}

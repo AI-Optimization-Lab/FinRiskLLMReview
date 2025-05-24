@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 373,
+    "title": "Portfolio Learning Based on Deep Learning",
+    "abstract": "Traditional portfolio theory divides stocks into different categories using indicators such as industry, market value, and liquidity, and then selects representative stocks according to them. In this paper, we propose a novel portfolio learning approach based on deep learning and apply it to China's stock market. Specifically, this method is based on the similarity of deep features extracted from candlestick charts. First, we obtained whole stock information from Tushare, a professional financial data interface. These raw time series data are then plotted into candlestick charts to make an image dataset for studying the stock market. Next, the method extracts high-dimensional features from candlestick charts through an autoencoder. After that, K-means is used to cluster these high-dimensional features. Finally, we choose one stock from each category according to the Sharpe ratio and a low-risk, high-return portfolio is obtained. Extensive experiments are conducted on stocks in the Chinese stock market for evaluation. The results demonstrate that the proposed portfolio outperforms the market's leading funds and the Shanghai Stock Exchange Composite Index (SSE Index) in a number of metrics.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "70632d6776be3338a9e6dfed133360ec",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:37:32.433821"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于深度学习的方法来构建投资组合，通过提取蜡烛图的高维特征并进行聚类，最终选择低风险高回报的股票组合。这直接应用于投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于深度学习的方法来构建投资组合，通过提取蜡烛图的高维特征并进行聚类，最终选择低风险高回报的股票组合。这直接应用于投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:40.109206"
+}

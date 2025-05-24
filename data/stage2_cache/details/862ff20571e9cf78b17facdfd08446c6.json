@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 354,
+    "title": "Data Transformation in the Predict-Then-Optimize Framework: Enhancing Decision Making under Uncertainty",
+    "abstract": "Decision making under uncertainty is pivotal in real-world scenarios, such as selecting the shortest transportation route amidst variable traffic conditions or choosing the best investment portfolio during market fluctuations. In today's big data age, while the predict-then-optimize framework has become a standard method for tackling uncertain optimization challenges using machine learning tools, many prediction models overlook data intricacies such as outliers and heteroskedasticity. These oversights can degrade decision-making quality. To enhance predictive accuracy and consequent decision-making quality, we introduce a data transformation technique into the predict-then-optimize framework. Our approach transforms target values in linear regression, decision tree, and random forest models using a power function, aiming to boost their predictive prowess and, in turn, drive better decisions. Empirical validation on several datasets reveals marked improvements in decision tree and random forest models. In contrast, the benefits of linear regression are nuanced. Thus, while data transformation can bolster the predict-then-optimize framework, its efficacy is model-dependent. This research underscores the potential of tailoring transformation techniques for specific models to foster reliable and robust decision-making under uncertainty.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3b2cfb0c7029bc4ab53adec0449bba2b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.475511"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中提到选择最佳投资组合作为决策在不确定性下的一个应用场景，并且论文的主要技术是提升预测-优化框架的决策质量，这与投资组合管理的核心问题直接相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中提到选择最佳投资组合作为决策在不确定性下的一个应用场景，并且论文的主要技术是提升预测-优化框架的决策质量，这与投资组合管理的核心问题直接相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:38.514253"
+}

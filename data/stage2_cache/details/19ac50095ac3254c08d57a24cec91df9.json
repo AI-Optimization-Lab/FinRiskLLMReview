@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 857,
+    "title": "Intelligent auditing techniques for enterprise finance",
+    "abstract": "With the need of social and economic development, the audit method is also continuously reformed and improved. Traditional audit methods have defects of comprehensively considering various risk factors, and cannot meet the needs of enterprise financial work. To improve the effectiveness of audit work and meet the financial needs of enterprises, a solution for intelligent auditing of enterprise finance is proposed, including intelligent analysis of accounting vouchers and of audit reports. Then, Bi-directional Long Short-Term Memory (BiLSTM) neural network is used to classify the audit problems under three text feature extraction methods. The test results show that the accuracy, recall rate, and F1 value of the COWORDS-IOM algorithm in the aggregate clustering of accounting vouchers are 85.12, 83.28, and 84.85%, respectively, which are better than the self-organizing map algorithm before the improvement. The accuracy rate, recall rate, and F1 value of Word2vec TF-IDF LDA-BiLSTM model for intelligent analysis of audit reports are 87.43, 87.88, and 87.66%, respectively. This shows that the proposed method has good performance in accounting voucher clustering and intelligent analysis of audit reports, which can provide guidance for the development of enterprise financial intelligence software to a certain extent.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a923e01dfd7bc3491f5e6fd72db7d36a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "classification",
+      "clustering",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.723470"
+  },
+  "domain_result": {
+    "success": false,
+    "error": "Client error '429 Too Many Requests' for url 'https://api.deepseek.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "application_domains": [
+      "None"
+    ],
+    "justification": "API调用失败: Client error '429 Too Many Requests' for url 'https://api.deepseek.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "raw_response": null
+  },
+  "timestamp": "2025-05-20T15:54:15.234444"
+}

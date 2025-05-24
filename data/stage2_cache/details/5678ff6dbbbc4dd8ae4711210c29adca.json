@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 2084,
+    "title": "A combination of artificial neural network and random walk models for financial time series forecasting",
+    "abstract": "Properly comprehending and modeling the dynamics of financial data has indispensable practical importance. The prime goal of a financial time series model is to provide reliable future forecasts which are crucial for investment planning, fiscal risk hedging, governmental policy making, etc. These time series often exhibit notoriously haphazard movements which make the task of modeling and forecasting extremely difficult. As per the research evidence, the random walk (RW) is so far the best linear model for forecasting financial data. Artificial neural network (ANN) is another promising alternative with the unique capability of nonlinear self-adaptive modeling. Numerous comparisons of the performances of RW and ANN models have also been carried out in the literature with mixed conclusions. In this paper, we propose a combination methodology which attempts to benefit from the strengths of both RW and ANN models. In our proposed approach, the linear part of a financial dataset is processed through the RW model, and the remaining nonlinear residuals are processed using an ensemble of feedforward ANN (FANN) and Elman ANN (EANN) models. The forecasting ability of the proposed scheme is examined on four real-world financial time series in terms of three popular error statistics. The obtained results clearly demonstrate that our combination method achieves reasonably better forecasting accuracies than each of RW, FANN and EANN models in isolation for all four financial time series.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4eeaa60ae8f438dfcb077ea0d30e529f",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:59.030627"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究金融时间序列预测的方法，虽然提到了投资规划和风险对冲等应用场景，但并未明确指出其核心技术具体应用于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究金融时间序列预测的方法，虽然提到了投资规划和风险对冲等应用场景，但并未明确指出其核心技术具体应用于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:25.340065"
+}

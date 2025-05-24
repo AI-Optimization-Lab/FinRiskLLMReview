@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 161,
+    "title": "An auto-realignment method in quasi-Monte Carlo for pricing financial derivatives with jump structures",
+    "abstract": "Discontinuities are common in the pricing of financial derivatives and have a tremendous impact on the accuracy of quasi-Monte Carlo (QMC) method. While if the discontinuities are parallel to the axes, good efficiency of the QMC method can still be expected. By realigning the discontinuities to be axes-parallel, [Wang & Tan, 20131 succeeded in recovering the high efficiency of the QMC method for a special class of functions. Motivated by this work, we propose an auto-realignment method to deal with more general discontinuous functions. The k-means clustering algorithm, a classical algorithm of machine learning, is used to select the most representative normal vectors of the discontinuity surface. By applying this new method, the discontinuities of the resulting function are realigned to be friendly for the QMC method. Numerical experiments demonstrate that the proposed method significantly improves the performance of the QMC method. (C) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "0544a99f068629bc7ccaff0c905f24ee",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.022225"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出一种自动重新对齐方法，用于改进准蒙特卡洛方法在金融衍生品定价中的效率，特别是针对具有跳跃结构的衍生品。论文明确提到该方法用于金融衍生品定价，且实验也围绕这一应用展开。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出一种自动重新对齐方法，用于改进准蒙特卡洛方法在金融衍生品定价中的效率，特别是针对具有跳跃结构的衍生品。论文明确提到该方法用于金融衍生品定价，且实验也围绕这一应用展开。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:27.553326"
+}

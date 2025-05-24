@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 332,
+    "title": "Dynamic multi-period sparse portfolio selection model with asymmetric investors' sentiments",
+    "abstract": "Asymmetric investors' sentiments on returns and risks play an important role in updating the portfolio strategies in multi-period portfolio selection problems. By introducing the Prospect Theory to measure the asymmetric investors' sentiments, a dynamic sentiment-adjusted model (DSAM) is proposed to sparse portfolio selection problem over multiple periods, in which the objective is to minimize the risk of the portfolio. As we focus on the sparse portfolio, a l(0) constraint is added to our model. The l(0) constraint represents that we can only purchase at most k securities from N candidate securities, in which k is a small number compared to N. Since the objective function of the sparse portfolio with l(0) constraint is NP-hard, and could not be solved by the Deep Learning algorithms. The stochastic neural networks algorithm with re-parametrisation trick (SNNrP) is introduced to solve the DSAM. The back-testing framework of our paper includes a multi-period portfolio selection model, in which asymmetric investors' sentiments are modeled to iterate investors' expected return level each period. In the back-testing framework, we conduct the experiments for different investment periods with different investors' sentiments. The experimental results for the Nasdaq and CSI 300 data sets show that, on average, compared with the traditional Mean-variance model, the terminal return and risk obtained by the DSAM model outperforms by 9% and 11.75%.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "7d19ac3ef422ccfdcd5d94bfe11b8644",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:44.405838"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是动态多期稀疏投资组合选择模型，旨在通过考虑投资者的非对称情绪来优化投资组合策略，并最小化投资组合风险。这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是动态多期稀疏投资组合选择模型，旨在通过考虑投资者的非对称情绪来优化投资组合策略，并最小化投资组合风险。这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:06.512161"
+}

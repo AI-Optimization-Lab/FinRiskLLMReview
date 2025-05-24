@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1004,
+    "title": "Portfolio Optimization, a Decision-Support Methodology for Small Budgets",
+    "abstract": "Several machine learning paradigms have been applied to financial forecasting, attempting to predict the market's behavior, with the final objective of profiting from trading shares. While anticipating the performance of such a complex system is far from trivial, this issue becomes even harder when the investors do not have large amounts of money available. In this paper, we present an evolutionary portfolio optimizer for the management of small budgets. The expected returns are modeled resorting to Multi-layer Perceptrons, trained on past market data, and the portfolio composition is chosen by approximating the solution to a multi-objective constrained problem. An investment simulator is then used to measure the portfolio performance. The proposed approach is tested on real-world data from Milan stock exchange, exploiting information from January 2000 to June 2010 to train the framework, and data from July 2010 to August 2011 to validate it. The presented tool is finally proven able to obtain a more than satisfying profit for the considered time frame.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d2cbde1af6b2651eaac254c68493c366",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.762728"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用进化算法和多层感知器来优化小预算的投资组合，其研究目标和实验设计都集中在投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用进化算法和多层感知器来优化小预算的投资组合，其研究目标和实验设计都集中在投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:22.170015"
+}

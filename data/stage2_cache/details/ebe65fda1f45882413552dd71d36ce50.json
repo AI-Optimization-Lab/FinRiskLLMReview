@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1768,
+    "title": "Portfolio optimization based on GARCH-EVT-Copula forecasting models",
+    "abstract": "This study uses GARCH-EVT-copula and ARMA-GARCH-EVT-copula models to perform out-of-sample forecasts and simulate one-day-ahead returns for ten stock indexes. We construct optimal portfolios based on the global minimum variance (GMV), minimum conditional value-at-risk (Min-CVaR) and certainty equivalence tangency (CET) criteria, and model the dependence structure between stock market returns by employing elliptical (Student-t and Gaussian) and Archimedean (Clayton, Frank and Gumbel) copulas. We analyze the performances of 288 risk modeling portfolio strategies using out-of-sample back-testing. Our main finding is that the CET portfolio, based on ARMA-GARCH-EVT-copula forecasts, outperforms the benchmark portfolio based on historical returns. The regression analyses show that GARCH-EVT forecasting models, which use Gaussian or Student-t copulas, are best at reducing the portfolio risk. (C) 2018 International Institute of Forecasters. Published by Elsevier B.V. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5b9e64e5acababd4d4e46fa0c2c2e36c",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:22.968282"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用GARCH-EVT-copula和ARMA-GARCH-EVT-copula模型进行预测和模拟股票指数收益，并基于这些预测构建最优投资组合（如GMV、Min-CVaR和CET）。这些内容直接涉及投资组合管理的优化和金融风险管理中的风险建模（如CVaR）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用GARCH-EVT-copula和ARMA-GARCH-EVT-copula模型进行预测和模拟股票指数收益，并基于这些预测构建最优投资组合（如GMV、Min-CVaR和CET）。这些内容直接涉及投资组合管理的优化和金融风险管理中的风险建模（如CVaR）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:07.802571"
+}

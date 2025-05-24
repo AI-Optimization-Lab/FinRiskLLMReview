@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 5280,
+    "title": "Bagging Supervised Autoencoder Classifier for credit scoring",
+    "abstract": "Automatic credit scoring, a crucial risk management tool for banks and financial institutes, has attracted much attention in the past few decades. As such, various approaches have been developed to accurately and efficiently estimate defaults in loan applicants and seamlessly improve and facilitate decision-making in the lending process. However, the imbalanced nature of credit scoring datasets, as well as the heterogeneous nature of features in credit scoring task pose many challenges in developing and implementing effective credit scoring models, targeting the generalization power of classification models on unseen data. To mitigate these challenges, in this paper, we propose the Bagging Supervised Autoencoder Classifier (BSAC). BSAC is a learning model which simultaneously leverages the superior power of supervised autoencoders and representation learning in classification, as well as the Bagging mechanism to handle the irregularities in feature space. Supervised autoencoder has been exploited to learn an optimal latent space from heterogeneous features and perform classification on top of the learned latent space. In particular, the Bagging mechanism has been employed in the learning process to construct various samples of original data to tackle the problem that arises from imbalanced data and irregularities of features in latent space. Extensive experiments on various real-world and benchmark datasets validate the superiority and robustness of the proposed method in predicting the outcome of loan applications.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f595bfac7cb556ff3ddc26798790402b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T02:46:16.196203"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a machine learning model (BSAC) for automatic credit scoring, which is a critical tool in assessing the risk of loan defaults. This directly pertains to financial risk management, as it helps banks and financial institutions mitigate credit risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a machine learning model (BSAC) for automatic credit scoring, which is a critical tool in assessing the risk of loan defaults. This directly pertains to financial risk management, as it helps banks and financial institutions mitigate credit risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:33.745367"
+}

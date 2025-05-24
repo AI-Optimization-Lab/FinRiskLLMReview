@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3671,
+    "title": "Sparse Signal Reconstruction: LASSO and Cardinality Approaches",
+    "abstract": "The paper considers several optimization problem statements for sparse signal reconstruction problems. We tested the performance of AORDA portfolio safeguard (PSG) package with different problem formulations. We solved several medium-size test problems with cardinality functions: (a) minimize L1-error of regression subject to a constraint on cardinality of the solution vector; (b) minimize cardinality of the solution vector subject to a constraint on L1-error of regression. We compared performance of PSG and IBM CPLEX solvers on these problems. Although cardinality formulations are very appealing because of the direct control of the number of nonzero variables, large problems are beyond the reach of the tested commercial solvers. Step-down from the cardinality formulations is the formulation with the constraint on the sum of absolute values of the solution vector. This constraint is a relaxation of the cardinality constraint. Medium and large problems (from SPARCO toolbox for testing sparse reconstruction algorithms) were solved with PSG in the following formulation: minimize L1-error subject to a constraint on the sum of absolute values of the solution vector. The further step-down in the sparse reconstruction problem formulations is the LASSO approach which does not have any constraints on functions. With the LASSO approach you do not know in advance the cardinality of the solution vector and you solve many problems with different regularization parameters. Then you select a solution with appropriate regression error and cardinality. Definitely, it is a time-consuming process, but an advantage of LASSO approach is that optimization problems can be solved quite quickly even for very large problems. We have solved with PSG several medium and large problems from the SPARCO toolbox in LASSO formulation (minimize L2-error plus the weighted sum of absolute values of the solution vector).",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "31fa27e9169151ea4409f8dd6e3139da",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:19:26.230212"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要讨论了稀疏信号重构的优化问题，包括LASSO和基数方法，虽然提到了投资组合优化（AORDA portfolio safeguard），但论文的核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要讨论了稀疏信号重构的优化问题，包括LASSO和基数方法，虽然提到了投资组合优化（AORDA portfolio safeguard），但论文的核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:14.167138"
+}

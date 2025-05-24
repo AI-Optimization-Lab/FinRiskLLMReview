@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 27,
+    "title": "A Novel Deep Reinforcement Learning Framework for Stock Portfolio Optimization",
+    "abstract": "Deep reinforcement learning (DRL) is a recently concerned research field for stock portfolio optimization. The existing solutions face various challenge. In this paper, we propose a DRL framework to the stock portfolio optimization problem, which mainly includes the following three contributions: 1) We propose an Over-fitting Prevention Objective Function (OPOF) to avoid over-fitting in the training process. 2) An algorithm called Batch-Forward Recurrent Reinforcement Learning (BFRRL) is proposed to improve the stability of the training process. 3) A neural network called Multi Times Scale Transformer (MTS-Trans) is proposed to enhance stock series local feature extraction ability in multiple time scales. Compared with the current SOTA algorithm, our approach improves returns by 63% in the Chinese stock market and 138% in the U.S. stock market, while the strategy's risk is also reduced.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5ca78fd03079141c6867f17bd7e71026",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:16.294634"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习框架进行股票投资组合优化，明确提到了提高回报和降低风险的目标，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习框架进行股票投资组合优化，明确提到了提高回报和降低风险的目标，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:23.540811"
+}

@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 359,
+    "title": "LSTM in Algorithmic Investment Strategies on BTC and S&P500 Index",
+    "abstract": "We use LSTM networks to forecast the value of the BTC and S&P500 index, using data from 2013 to the end of 2020, with the following frequencies: daily, 1 h, and 15 min data. We introduce our innovative loss function, which improves the usefulness of the forecasting ability of the LSTM model in algorithmic investment strategies. Based on the forecasts from the LSTM model we generate buy and sell investment signals, employ them in algorithmic investment strategies and create equity lines for our investment. For this purpose we use various combinations of LSTM models, optimized on in-sample period and tested on out-of-sample period, using rolling window approach. We pay special attention to data preprocessing in the input layer, to avoid overfitting in the estimation and optimization process, and assure correct selection of hyperparameters at the beginning of our tests. The next stage is devoted to the conjunction of signals from various frequencies into one ensemble model, and the selection of best combinations for the out-of-sample period, through optimization of the given criterion in a similar way as in the portfolio analysis. Finally, we perform a sensitivity analysis of the main parameters and hyperparameters of the model.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "3497362393effad8f6bf82bc448f06b8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:17.441715"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM网络预测BTC和S&P500指数的价值，并基于这些预测生成买卖信号用于算法投资策略。这直接涉及投资组合管理中的资产选择和交易策略优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM网络预测BTC和S&P500指数的价值，并基于这些预测生成买卖信号用于算法投资策略。这直接涉及投资组合管理中的资产选择和交易策略优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:04.838104"
+}

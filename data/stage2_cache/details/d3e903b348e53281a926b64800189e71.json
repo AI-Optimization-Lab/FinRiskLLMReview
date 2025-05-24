@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 5390,
+    "title": "Preventing Pressure Ulcers by Image based Posture Detection",
+    "abstract": "Pressure ulcers, also known as pressure sores or bedsores, are a disease affecting the skin and underlying tissue that mostly occurs over bony parts of the body because of long-term exposure to pressure. Pressure ulcers most commonly develop in patients who are often bed- or chair-bound for long periods of time. When an ulcer occurs, its treatment is often complex and expensive. Relieving the pressure imposed on the patient skin is the most effective approach for preventing bedsores. Common practice in hospitals and nursing homes is to periodically repositioning the patient. Manually relieving patient skin pressure places a financial and physical burden on caregivers. In this paper, we are proposing a detection approach that optimally detects patient posture and spots at-risk locations on the body by using data from a pressure sensor array in a bed. Our novel ulcer detection solution is based on posture detection using an SVM-based classifier, whose performance was considerably boosted by the pre-processing pipeline we designed. The approach periodically generates outputs that can be used to trigger actuators in air-enabled mattresses to inflate and deflate the air in the target locations. This technique can also be used in robot-equipped beds to turn patients if needed to prevent bedsores. The generated outputs can also be used in reporting the patient's condition.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e1332642bb51104938030d2b1a8d6381",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:47:13.995335"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于图像和压力传感器数据的姿势检测技术，用于预防压疮，其应用领域是医疗健康，与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于图像和压力传感器数据的姿势检测技术，用于预防压疮，其应用领域是医疗健康，与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:32.109069"
+}

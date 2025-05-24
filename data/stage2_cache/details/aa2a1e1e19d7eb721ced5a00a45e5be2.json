@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 1971,
+    "title": "Forecasting the Return of Carbon Price in the Chinese Market Based on an Improved Stacking Ensemble Algorithm",
+    "abstract": "Recently, carbon price forecasting has become critical for financial markets and environmental protection. Due to their dynamic, nonlinear, and high noise characteristics, predicting carbon prices is difficult. Machine learning forecasting often uses stacked ensemble algorithms. As a result, common stacking has many limitations when applied to time series data, as its cross-validation process disrupts the temporal sequentiality of the data. Using a double sliding window scheme, we proposed an improved stacking ensemble algorithm that avoided overfitting risks and maintained temporal sequentiality. We replaced cross-validation with walk-forward validation. Our empirical experiment involved the design of two dynamic forecasting frameworks utilizing the improved algorithm. This incorporated forecasting models from different domains as base learners. We used three popular machine learning models as the meta-model to integrate the predictions of each base learner, further narrowing the gap between the final predictions and the observations. The empirical part of this study used the return of carbon prices from the Shenzhen carbon market in China as the prediction target. This verified the enhanced accuracy of the modified stacking algorithm through the use of five statistical metrics and the model confidence set (MCS). Furthermore, we constructed a portfolio to examine the practical usefulness of the improved stacking algorithm. Empirical results showed that the improved stacking algorithm could significantly and robustly improve model prediction accuracy. Support vector machines (SVR) aggregated results better than the other two meta-models (Random forest and XGBoost) in the aggregation step. In different volatility states, the modified stacking algorithm performed differently. We also found that aggressive investment strategies can help investors achieve higher investment returns with carbon option assets.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "dbe6c466abde02545489076df84802ab",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:41.624970"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是改进的堆叠集成算法，用于预测碳价格的回报，并进一步构建投资组合以验证算法的实用性。虽然论文提到了碳期权资产，但主要应用场景是投资组合的构建和优化，因此属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是改进的堆叠集成算法，用于预测碳价格的回报，并进一步构建投资组合以验证算法的实用性。虽然论文提到了碳期权资产，但主要应用场景是投资组合的构建和优化，因此属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:01.715241"
+}

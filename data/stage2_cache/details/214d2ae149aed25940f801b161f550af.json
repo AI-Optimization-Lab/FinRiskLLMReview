@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 3001,
+    "title": "Curriculum learning empowered reinforcement learning for graph-based portfolio management: Performance optimization and comprehensive analysis",
+    "abstract": "Portfolio management (PM) is a popular financial process that concerns the occasional reallocation of a particular quantity of capital into a portfolio of assets, with the main aim of maximizing profitability conditioned to a certain level of risk. Given the inherent dynamicity of stock exchanges and development for long-term performance, reinforcement learning (RL) has become a dominating solution for solving the problem of portfolio management in an automated and efficient manner. Nevertheless, the present RL-based PM methods just take into account the variations in prices of portfolio assets and the implications of price variations, while overlooking the significant relationships among different assets in the market, which are extremely valuable for managerial decisions. To close this gap, this paper introduces a novel deep model that combines two subnetworks; one to learn a temporal representation of historical prices using a refined temporal learner, while the other learns the relationships between different stocks in the market using a relation graph learner (RGL). Then, the above learners are integrated into the curriculum RL scheme for formulating the PM as a curriculum Markov Decision Process, in which an adaptive curriculum policy is presented to enable the agent to adaptively minimize risk value and maximize cumulative return. Proof-of-concept experiments are performed on data from three public stock indices (namely S&P500, NYSE, and NASDAQ), and the results demonstrate the efficiency of the proposed framework in improving the portfolio management performance over the competing RL solutions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a1763b998fe4e38f8454ccf9c6b08582",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:21:19.289761"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习和图神经网络来优化投资组合管理，旨在最大化收益并控制风险，这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习和图神经网络来优化投资组合管理，旨在最大化收益并控制风险，这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:17.179515"
+}

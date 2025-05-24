@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3381,
+    "title": "Three-step risk inference in insurance ratemaking",
+    "abstract": "As catastrophic events happen more and more frequently, accurately forecasting risk at a high level is vital for the financial stability of the insurance industry. This paper proposes an efficient three-step procedure to deal with the semicontinuous property of insurance claim data and forecast extreme risk. The first step uses a logistic regression model to estimate the nonzero claim probability. The second step employs a quantile regression model to select a dynamic threshold for fitting the loss distribution semiparametrically. The third step fits a generalized Pareto distribution to exceedances over the selected dynamic threshold. Combining these three steps leads to an efficient risk forecast. Furthermore, a random weighted bootstrap method is employed to quantify the uncertainty of the derived risk forecast. Finally, we apply the proposed method to an automobile insurance data set. (c) 2022 Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5a8e6c7aff4830667755a5ac243e5981",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:25:40.148874"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是提出了一种三步风险推断方法，用于预测极端风险，并应用于保险定价。这属于金融风险管理的范畴，因为它专注于风险评估和预测，以维护保险行业的财务稳定性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种三步风险推断方法，用于预测极端风险，并应用于保险定价。这属于金融风险管理的范畴，因为它专注于风险评估和预测，以维护保险行业的财务稳定性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:50.531217"
+}

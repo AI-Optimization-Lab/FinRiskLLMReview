@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 432,
+    "title": "An augmented Lagrangian method with constraint generation for shape-constrained convex regression problems",
+    "abstract": "Shape-constrained convex regression problem deals with fitting a convex function to the observed data, where additional constraints are imposed, such as component-wise monotonicity and uniform Lipschitz continuity. This paper provides a unified framework for computing the least squares estimator of a multivariate shape-constrained convex regression function in R-d. We prove that the least squares estimator is computable via solving an essentially constrained convex quadratic programming (QP) problem with (d + 1)n variables, n(n - 1) linear inequality constraints and n possibly non-polyhedral inequality constraints, where n is the number of data points. To efficiently solve the generally very large-scale convex QP, we design a proximal augmented Lagrangian method (proxALM) whose subproblems are solved by the semismooth Newton method. To further accelerate the computation when n is huge, we design a practical implementation of the constraint generation method such that each reduced problem is efficiently solved by our proposed proxALM. Comprehensive numerical experiments, including those in the pricing of basket options and estimation of production functions in economics, demonstrate that our proposed proxALM outperforms the state-of-the-art algorithms, and the proposed acceleration technique further shortens the computation time by a large margin.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "65f2801582e940215521fa48d98f2438",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:50.769162"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的摘要中提到其方法在定价篮子期权（pricing of basket options）中的应用，这属于衍生品定价的范畴。虽然论文的主要贡献是一个通用的优化算法，但明确指出了在金融衍生品定价中的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的摘要中提到其方法在定价篮子期权（pricing of basket options）中的应用，这属于衍生品定价的范畴。虽然论文的主要贡献是一个通用的优化算法，但明确指出了在金融衍生品定价中的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:09.003453"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1712,
+    "title": "An intelligent option trading system based on heatmap analysis via PON/POD yields",
+    "abstract": "In recent years, many studies have explored artificial intelligence (AI) in quantitative trading and financial prediction. Among financial products, options are highlighted for their risk management capabilities and defined trading cycles, yet they pose challenges due to their complexity. This paper proposes HAPPY (Heatmap Analysis via PON/POD Yield), an options trading system designed to predict expected winning rates (EW) by integrating actual profits, losses, and risk factors, thus enhancing traditional winning rate metrics. HAPPY employs heatmap analysis to address the risk of overfitting by smoothing isolated low EW values and incorporates machine learning (ML) models like random forest, extreme gradient boosting (XGBoost), and light gradient boosted machine (LGBM) for improved prediction accuracy. Employing TAIEX weekly options, the study evaluates EW and backtests trading performance, comparing empirical statistics and ML models. Findings indicate that ML models excel in accuracy and precision, though empirical statistics perform better in backtesting, especially as options near expiration. This research offers a robust options trading system that can be applied to other options markets or predictive models.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b62c13549429a609b0f31d928b146e27",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.555570"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个基于机器学习的期权交易系统（HAPPY），用于预测期权的预期胜率（EW），并整合实际利润、损失和风险因素。这直接涉及衍生品（期权）的交易策略和定价问题。同时，论文提到期权的风险管理能力，表明其研究也涉及金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一个基于机器学习的期权交易系统（HAPPY），用于预测期权的预期胜率（EW），并整合实际利润、损失和风险因素。这直接涉及衍生品（期权）的交易策略和定价问题。同时，论文提到期权的风险管理能力，表明其研究也涉及金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:57.796789"
+}

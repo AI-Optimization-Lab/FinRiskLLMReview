@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2329,
+    "title": "VaR Estimation with Quantum Computing Noise Correction Using Neural Networks",
+    "abstract": "In this paper, we present the development of a quantum computing method for calculating the value at risk (VaR) for a portfolio of assets managed by a finance institution. We extend the conventional Monte Carlo algorithm to calculate the VaR of an arbitrary number of assets by employing random variable algebra and Taylor series approximation. The resulting algorithm is suitable to be executed in real quantum computers. However, the noise affecting current quantum computers renders them almost useless for the task. We present a methodology to mitigate the noise impact by using neural networks to compensate for the noise effects. The system combines the output from a real quantum computer with the neural network processing. The feedback is used to fine tune the quantum circuits. The results show that this approach is useful for estimating the VaR in finance institutions, particularly when dealing with a large number of assets. We demonstrate the validity of the proposed method with up to 139 assets. The accuracy of the method is also proven. We achieved an error of less than 1% in the empirical measurements with respect to the parametric model.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4ae384e0554aae3849122ba3eeb31789",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:39.686490"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a quantum computing method for calculating the value at risk (VaR) for a portfolio of assets, which is a key metric in financial risk management. The proposed methodology aims to mitigate noise in quantum computers to improve VaR estimation accuracy, directly addressing challenges in risk assessment for financial institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a quantum computing method for calculating the value at risk (VaR) for a portfolio of assets, which is a key metric in financial risk management. The proposed methodology aims to mitigate noise in quantum computers to improve VaR estimation accuracy, directly addressing challenges in risk assessment for financial institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:33.832450"
+}

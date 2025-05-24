@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2485,
+    "title": "Leveraging Return Prediction Approaches for Improved Value-at-Risk Estimation",
+    "abstract": "Value at risk is a statistic used to anticipate the largest possible losses over a specific time frame and within some level of confidence, usually 95% or 99%. For risk management and regulators, it offers a solution for trustworthy quantitative risk management tools. VaR has become the most widely used and accepted indicator of downside risk. Today, commercial banks and financial institutions utilize it as a tool to estimate the size and probability of upcoming losses in portfolios and, as a result, to estimate and manage the degree of risk exposure. The goal is to obtain the average number of VaR failures or breaches (losses that are more than the VaR) as near to the target rate as possible. It is also desired that the losses be evenly distributed as possible. VaR can be modeled in a variety of ways. The simplest method is to estimate volatility based on prior returns according to the assumption that volatility is constant. Otherwise, the volatility process can be modeled using the GARCH model. Machine learning techniques have been used in recent years to carry out stock market forecasts based on historical time series. A machine learning system is often trained on an in-sample dataset, where it can adjust and improve specific hyperparameters in accordance with the underlying metric. The trained model is tested on an out-of-sample dataset. We compared the baselines for the VaR estimation of a day (d) according to different metrics (i) to their respective variants that included stock return forecast information of d and stock return data of the days before d and (ii) to a GARCH model that included return prediction information of d and stock return data of the days before d. Various strategies such as ARIMA and a proposed ensemble of regressors have been employed to predict stock returns. We observed that the versions of the univariate techniques and GARCH integrated with return predictions outperformed the baselines in four different marketplaces.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "142cdb13d6b665e6a495091f22f34f68",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:59.847703"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving Value-at-Risk (VaR) estimation, which is a key tool in financial risk management. It discusses various methods, including machine learning techniques, to enhance VaR predictions for better risk assessment and management in portfolios.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving Value-at-Risk (VaR) estimation, which is a key tool in financial risk management. It discusses various methods, including machine learning techniques, to enhance VaR predictions for better risk assessment and management in portfolios.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:36.599621"
+}

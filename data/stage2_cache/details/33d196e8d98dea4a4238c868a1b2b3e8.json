@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 201,
+    "title": "Network Traffic Prediction Model Based on Convolutional Neural Networks-Long Short-Term Memory and iTransformer",
+    "abstract": "Accurately predicting network traffic is crucial for dynamically deploying computing resources in network data centers and reducing carbon emissions. In this paper, a hybrid prediction model Convolutional Neural Networks-Long Short-Term and iTransformer (CNN-LSTM-iTransformer) based on CNN-LSTM and iTransformer is proposed. CNN-LSTM is used to capture local features and long-term dependencies, while iTransformer is employed for feature relevance learning and prediction. In addition, the Huber Loss function is used to further improve the model prediction accuracy. In the experiment, the dataset was provided by Ant Financial Group, and the experimental results show that CNN-LSTM-iTransformer significantly reduces MAE to 0.112, MSE to 0.0212, MAPE to 0.123, and RWMAPE which represents prediction risk to 0.122, so the hybrid model CNN-LSTM-iTransformer achieves not only a higher prediction accuracy but also a lower prediction risk.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "8fcaf2abaca9cf3caa81baf95e56b6cd",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.499573"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究网络流量预测模型，虽然使用了Ant Financial Group提供的数据集，但其核心技术应用于网络数据中心的资源部署和碳减排，并未明确指出在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究网络流量预测模型，虽然使用了Ant Financial Group提供的数据集，但其核心技术应用于网络数据中心的资源部署和碳减排，并未明确指出在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:03.738342"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2662,
+    "title": "Generating trading rules on US Stock Market using strongly typed genetic programming",
+    "abstract": "Extracting rules from stock market data is an important and exciting problem, where investment decisions should be as clear and intuitive as possible in order for investors to choose the composition of their portfolios. Thus, it is important to guarantee that this process is done with a good framework and reliable techniques. In this context, portfolio composition is a puzzle with respect to selecting the appropriate assets and the optimal timing to invest. There are several models and algorithms to make these decisions, and in recent years, machine learning applications have been used to solve this puzzle with exceptional results. This technique allows a large amount of data to be processed, resulting in more informed recommendations on which asset to choose. Our study uses strongly typed genetic programming to generate rules to buy, hold and sell stocks in the US stock market, considering a rolling windows approach. We propose a different training approach, focusing the fitness function on a ternary decision based on the return prediction of each stock analyzed. The ternary rule matches perfectly with the three decisions: buy, hold and sell. Therefore, the rules are simple, intuitive, and easy for investors to understand. The results show that the proposed algorithm generates higher profits than the classical optimization approach. Moreover, the profits obtained are higher than the buy-and-hold strategy and the return of the indexes representative of the US stock market.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "51a54484a382987f7ae85887de08235c",
+    "relevant_keywords": [
+      "machine learning",
+      "genetic programming"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.918910"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强类型遗传编程生成股票买卖规则，旨在优化投资组合的构成和交易时机，这直接关联到投资组合管理的领域。论文明确提到投资决策、资产选择和投资组合构成，这些都是投资组合管理的关键方面。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强类型遗传编程生成股票买卖规则，旨在优化投资组合的构成和交易时机，这直接关联到投资组合管理的领域。论文明确提到投资决策、资产选择和投资组合构成，这些都是投资组合管理的关键方面。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:36.923812"
+}

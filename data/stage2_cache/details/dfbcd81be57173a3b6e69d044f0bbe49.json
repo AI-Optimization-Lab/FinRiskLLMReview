@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1594,
+    "title": "Toward Congestion Control in Lossy Networks via Local Queue-Management Policies",
+    "abstract": "Congestion control in intermittently connected lossy networks (ICLNs) is critical to enable efficient use of network resources, and mitigate congestion-induced packet losses and delays. Unfortunately, well-known protocols for end-to-end congestion control, such as the celebrated Transmission Control Protocol (TCP), are not well-suited for use in ICLNs. This work builds on the idea of hop-by-hop flow control and dynamic buffer-space allocation to develop a congestion-control approach able to react quickly to the onset of congestion with local congestion-control actions, and propagate direct and indirect congestion-control indicators toward the traffic sources. The local flow-control policy is developed using a reinforcement learning framework that captures queue-occupancy and sojourn-time indicators, and is coupled with a dynamic buffer-space allocation policy developed based on the Markowitz portfolio selection framework. The buffer-space allocation policy is responsible for allocating unused buffer space across all active flows in the node based on the relative traffic loads. The performance of the proposed framework when handling congestion locally is explored via numerical tests on a simulated environment.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6ebef251e098b1755fa287598eadc66e",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.740391"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是网络拥塞控制，特别是针对间歇性连接的有损网络（ICLNs）。虽然提到了使用Markowitz投资组合选择框架来开发动态缓冲区空间分配策略，但这只是作为解决网络问题的一个方法，而不是直接应用于金融领域。论文的核心技术和研究成果并未涉及衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是网络拥塞控制，特别是针对间歇性连接的有损网络（ICLNs）。虽然提到了使用Markowitz投资组合选择框架来开发动态缓冲区空间分配策略，但这只是作为解决网络问题的一个方法，而不是直接应用于金融领域。论文的核心技术和研究成果并未涉及衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:36.732074"
+}

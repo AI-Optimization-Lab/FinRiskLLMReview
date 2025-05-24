@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 8,
+    "title": "Gridifying Classification-Monte Carlo algorithm for pricing high-dimensional Bermudan-American options",
+    "abstract": "Among derivative financial contracts, the widely traded in the financial markets are the Bermudan-American options. However, pricing high-dimensional Bermudan-American options is quite computationally intensive and using traditional computing infrastructures may take up to hours for these computations. This can result in potential financial losses, further weakening the competitiveness of an organization. Several parallel approaches for pricing have been practiced utilizing parallel or cluster computing techniques. We aim to address this problem in the context of grid computing, relying on the ProActive Java distributed computing platform. We parallelize the Classification-Monte Carlo algorithm, which relies on classification techniques front the machine learning domain, for pricing Bermudan-American options. Consequently, we evaluate the performance of two machine learning techniques, Boosting and Support Vector Machines, and compare the numerical results with respect to accuracy, speed up and their applicability in the grid settings. Furthermore, the paper also contributes to the numerical experiments of a high-dimensional Bermudan-American option with 40 underlying assets.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "c65a5e1fb50e225807ed46f320d3a6ff",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.428755"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用网格计算和机器学习分类技术（如Boosting和SVM）来加速高维Bermudan-American期权的定价过程。论文明确提到其目标是解决Bermudan-American期权定价的计算效率问题，并进行了相关数值实验。因此，其主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用网格计算和机器学习分类技术（如Boosting和SVM）来加速高维Bermudan-American期权的定价过程。论文明确提到其目标是解决Bermudan-American期权定价的计算效率问题，并进行了相关数值实验。因此，其主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:32.363011"
+}

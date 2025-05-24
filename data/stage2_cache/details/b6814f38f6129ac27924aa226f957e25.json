@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 5246,
+    "title": "XVA analysis from the balance sheet",
+    "abstract": "XVAs denote various counterparty risk related valuation adjustments that are applied to financial derivatives since the 2007-2009 crisis. We root a cost-of-capital XVA strategy in a balance sheet perspective which is key to identifying the economic meaning of the XVA terms. Our approach is first detailed in a static setup that is solved explicitly. It is then plugged into the dynamic and trade incremental context of a real derivative banking portfolio. The corresponding cost-of-capital XVA strategy ensures for bank shareholders a submartingale equity process corresponding to a target hurdle rate on their capital at risk, consistently between and throughout deals. Set on a forward/backward SDE formulation, this strategy can be solved efficiently using GPU computing combined with deep learning regression methods in a whole bank balance sheet context. A numerical case study emphasizes the workability and added value of the ensuing pathwise XVA computations.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ad4553de937d655eaf1b8dda18d03924",
+    "relevant_keywords": [
+      "deep learning",
+      "regression",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:45:47.440531"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究XVA（各种对手方风险相关的估值调整）在金融衍生品中的应用，并详细讨论了在银行衍生品组合中的动态和交易增量背景下的应用。这直接涉及衍生品定价和金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文主要研究XVA（各种对手方风险相关的估值调整）在金融衍生品中的应用，并详细讨论了在银行衍生品组合中的动态和交易增量背景下的应用。这直接涉及衍生品定价和金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:34.689778"
+}

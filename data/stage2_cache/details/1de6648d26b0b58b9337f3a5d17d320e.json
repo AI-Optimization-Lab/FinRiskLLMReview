@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 4302,
+    "title": "A Risk Assessment Infrastructure for Powered Wheelchair Motion Commands without Full Sensor Coverage",
+    "abstract": "Smart powered wheelchairs offer the possibility of enhanced mobility to a large and growing population-most notably older adults-and a key feature of such a chair is collision avoidance. Sensors are required to detect nearby obstacles; however, complete sensor coverage of the immediate neighbourhood is challenging for reasons including financial, computational, aesthetic, user identity and sensor reliability. It is also desirable to predict the future motion of the wheelchair based on potential input signals; however, direct modeling and control of commercial wheelchairs is not possible because of proprietary internals and interfaces. In this paper we design a dynamic egocentric occupancy map which maintains information about local obstacles even when they are outside the field of view of the sensor system, and we construct a neural network model of the mapping between joystick inputs and wheelchair motion. Using this map and model infrastructure, we can evaluate a variety of risk assessment metrics for collaborative control of a smart wheelchair. One such metric is demonstrated on a wheelchair with a single RGB-D camera in two scenarios: a doorway traversal where the near edge of the doorframe is no longer visible to the camera as the chair makes its turn, and a longer navigation through a typical cluttered office environment.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "89a7001601ccc9aaf35a6598d00c6f7d",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:35:26.338771"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究智能轮椅的碰撞避免和风险评估，涉及神经网络和深度学习技术，但其应用场景为医疗辅助设备，与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究智能轮椅的碰撞避免和风险评估，涉及神经网络和深度学习技术，但其应用场景为医疗辅助设备，与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:50.278401"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 4916,
+    "title": "Using Natural Language Processing With Explainable AI Approach to Construct a Human-Centric Consumer Application for Financial Climate Disclosures",
+    "abstract": "Climate change is becoming an increasingly urgent issue. To encourage firms to include climate-related risk information in regular financial reports, the Task Force on Climate-related Financial Disclosures (TCFD) has developed a report format that provides detailed description of the risks and opportunities that enterprises will face due to climate change. Such information is of great concern for consumers, investors and regulators. However, manually accessing this information through individual financial reports is time-consuming. This research uses pre-trained models such as BERT, RoBERTa, and ClimateBERT to automate the detection and analysis of TCFD-related texts. The generative adversarial network (GAN) model is used to generate data with fewer labels, thereby improving classification performance as measured by accuracy, recall, precision, and F1-score. The detected texts are analyzed using explainable AI (XAI) to confirm which the text variables that will affect whether the paragraphs reflect internal support for climate change remediation efforts or lack of such support. In addition, the relationship between these variables and the final prediction results can be understood through the intensity value provided by XAI which reflects the degree of influence of each feature on the model detection results. The results show that the ClimateBERT model achieves a prediction accuracy rate of 90%, thus potentially helping consumers and investors better access important information to their consumption and investment decisions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9faaa87d8bf10d21673b6a55524b7970",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:42:36.115228"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用自然语言处理和可解释AI技术来自动检测和分析与气候相关的财务披露信息，旨在帮助消费者和投资者更好地获取信息。虽然涉及金融报告，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用自然语言处理和可解释AI技术来自动检测和分析与气候相关的财务披露信息，旨在帮助消费者和投资者更好地获取信息。虽然涉及金融报告，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:32.491825"
+}

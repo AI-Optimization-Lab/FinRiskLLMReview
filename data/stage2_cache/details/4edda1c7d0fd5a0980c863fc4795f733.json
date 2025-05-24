@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 795,
+    "title": "Early Warning of Enterprise Financial Risk Based on Decision Tree Algorithm",
+    "abstract": "To improve enterprise financial early warning, we propose an algorithm based on a decision tree. According to the shortcomings and defects of the classical algorithm and the traditional decision tree algorithm, in the ordinary decision tree improved algorithm based on PCA, there is a problem that the representativeness of the data after dimensionality reduction processing are not high, resulting in the fact that the accuracy of the algorithm can be improved slightly after multiple data runs. Based on the classical algorithm, attribute eigenvalues before classification are extracted twice, and the amount of data to be classified is calculated. That is, the most important attributes of the original data are selected. After the subtree is established, the dimension reduction and merging selection of the data are performed, and the improved algorithm is verified by using three data sets in the UCI database. The results show that the average accuracy in the three datasets is 94.6%, which is improved by 1.6% and 0.6% for the traditional classical algorithm and the ordinary PCA decision tree optimization algorithm, respectively. PCA-based decision tree algorithms can improve the accuracy of the results to some extent, which is of practical importance. In the future, a classic algorithm improved for secondary modeling will be used to obtain a more efficient decision tree model. The decision tree algorithm has been proven to recognize an early warning of an enterprise's financial risks, which enhances the effectiveness of an enterprise's early financial warning.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "db4d90b7c8afcbb658d9168fd5407376",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:08.068488"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving enterprise financial early warning using a decision tree algorithm, which is directly related to identifying and managing financial risks in enterprises, thus falling under the Financial Risk Management domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving enterprise financial early warning using a decision tree algorithm, which is directly related to identifying and managing financial risks in enterprises, thus falling under the Financial Risk Management domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:39.591346"
+}

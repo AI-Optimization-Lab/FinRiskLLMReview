@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 365,
+    "title": "Fast Valuation of Large Portfolios of Variable Annuities via Transfer Learning",
+    "abstract": "Variable annuities are important financial products that result in 100 billion sales in 2018. These products contain complex guarantees that are computationally expensive to value, and insurance companies are turning to machine learning for the valuation of large portfolios of variable annuity policies. Although earlier studies, exemplified by the regression modelling approach, have shown promising results, the valuation accuracy is unsatisfying. In this paper, we show that one main cause for the poor valuation accuracy is the inefficient selection of representative policies. To overcome this problem, we propose a novel transferlearning based portfolio valuation framework. The framework first builds a backbone deep neural network using historical Monte Carlo simulation results. The backbone network provides a valuation-driven representation for selecting the policies that best represent a large portfolio. Furthermore, the transferred network provides a way to adaptively extrapolate from these representative policies to the remaining policies in the portfolio. By overcoming a major difficulty faced by the popular Kriging model, the need of matrix inversion, the transferred network can handle a large number of representative policies to sufficiently cover a diverse portfolio.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b76a6b50a57c75bf52880a5232f32a92",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.520942"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和迁移学习来快速估值可变年金产品组合，可变年金产品包含复杂的金融保证，这属于衍生品定价的范畴。论文的主要目标是提高估值效率和准确性，而不是直接涉及风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和迁移学习来快速估值可变年金产品组合，可变年金产品包含复杂的金融保证，这属于衍生品定价的范畴。论文的主要目标是提高估值效率和准确性，而不是直接涉及风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:35.952958"
+}

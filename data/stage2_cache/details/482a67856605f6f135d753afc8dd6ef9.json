@@ -1,0 +1,37 @@
+{
+  "paper": {
+    "id": 69,
+    "title": "CLAM: A Synergistic Deep Learning Model for Multi-Step Stock Trend Forecasting",
+    "abstract": "This paper introduces CLAM, a hybrid deep learning framework that integrates CNNs, LSTMs, and Attention Mechanism (AM) for straightforward multi-step stock trend forecasting. By leveraging CNNs for spatial feature extraction, LSTMs for capturing temporal dependencies, and AM for dynamically focusing on relevant data, CLAM significantly outperforms traditional models in predictive accuracy. Evaluated on diverse stock datasets from different industries, CLAM demonstrates an average reduction of over 80% in MAE and RMSE compared to standalone CNN, LSTM, and fused CNN-LSTM. The model's ability to capture both short-term and long-term trends is particularly advantageous for real-time financial trading, resulting in 75% trend prediction accuracy, with most cases witnessing consecutive accurate forecasts of flash crashes or uptrends, which aids in strategic investment decisions and risk management. Code and data are available at: https://anonymous.4open.science/r/CNN-LSTM-AM-AB13/src/CLAM.ipynb.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "e87e9b3e6eae4d2dd5bca17e55bd23cb",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism",
+      "representation learning",
+      "feature learning",
+      "feature representation",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:33:48.983704"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术CLAM模型专注于多步股票趋势预测，其应用场景包括战略投资决策和风险管理。这直接关联到投资组合管理（通过预测趋势优化投资组合）和金融风险管理（通过预测闪崩或上涨趋势来管理风险）。论文未提及衍生品定价相关的内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术CLAM模型专注于多步股票趋势预测，其应用场景包括战略投资决策和风险管理。这直接关联到投资组合管理（通过预测趋势优化投资组合）和金融风险管理（通过预测闪崩或上涨趋势来管理风险）。论文未提及衍生品定价相关的内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:35.353021"
+}

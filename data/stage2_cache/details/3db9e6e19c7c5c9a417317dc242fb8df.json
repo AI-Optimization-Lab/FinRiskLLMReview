@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 450,
+    "title": "Prediction-Based Portfolio Optimization Models Using Deep Neural Networks",
+    "abstract": "Portfolio optimization is a hot research topic, which has attracted many researchers in recent decades. Better portfolio optimization model can help investors earn more stable profits. This paper uses three deep neural networks (DNNs), i.e., deep multilayer perceptron (DMLP), long short memory (LSTM) neural network and convolutional neural network (CNN) to build prediction-based portfolio optimization models which own the advantages of both deep learning technology and modern portfolio theory. These models first use DNNs to predict each stock's future return. Then, predictive errors of DNNs are applied to measure the risk of each stock. Next, the portfolio optimization models are built by integrating the predictive returns and semi-absolute deviation of predictive errors. These models are compared with three equal weighted portfolios, where their stocks are selected by DMLP, LSTM neural network and CNN respectively. Also, two prediction-based portfolio models built with support vector regression are used as benchmarks. This paper applies component stocks of China securities 100 index in Chinese stock market as experimental data. Experimental results present that the prediction-based portfolio model based on DMLP performs the best among these models under different desired portfolio returns, and high desired portfolio return can further improve the performance of this model. This paper presents the promising performance of DNNs in building prediction-based portfolio models.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b6c7aae6c019e7f2c1327a79ffff6a10",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.296488"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是使用深度神经网络构建预测性的投资组合优化模型，旨在帮助投资者获得更稳定的收益。论文详细讨论了如何利用预测回报和预测误差的半绝对偏差来构建投资组合优化模型，并进行了实验验证。这些内容明确属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是使用深度神经网络构建预测性的投资组合优化模型，旨在帮助投资者获得更稳定的收益。论文详细讨论了如何利用预测回报和预测误差的半绝对偏差来构建投资组合优化模型，并进行了实验验证。这些内容明确属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:40.337045"
+}

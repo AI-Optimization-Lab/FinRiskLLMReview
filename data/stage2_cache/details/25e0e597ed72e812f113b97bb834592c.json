@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1656,
+    "title": "Induction of rule-based scoring functions",
+    "abstract": "We consider the problem that many portfolio managers face of selecting, on a regular basis, stocks for investment and recommendation to clients. In typical solution strategies, binary rules are developed to classify stocks as strong or weak performers based on technical indicators. Strategies based on binary classification rules have been shown to be very effective at maximizing the total profitability of the stocks that are selected. Having a fixed number of target stocks is important for portfolio maintenance and for client choice, however, and so the selection problem also engenders the additional constraint of limiting the total number of stocks selected. Binary classification rule strategies do not address this constraint. In this paper we investigate the use of scoring functions, which have the advantage of allowing one to rank order the population based on profitability, as an alternative to binary classification rules. A key feature of this work is that we develop the scoring functions by incorporating binary classification rules. In particular, we induce the score model by assigning optimal weights to sets of implicit positive binary classification rules. We use a genetic algorithm with supervised, batch learning to evolve classification rules. Fitness of a rule set is evaluated based on the success of the scoring function that it induces. We report on the relative empirical performance of this method on several large historical data sets.",
+    "year": 1998,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "908f7685285b5b2031adfc7477f42423",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:18.284035"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究如何通过评分函数和分类规则来选择股票以优化投资组合的盈利能力，这直接应用于投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究如何通过评分函数和分类规则来选择股票以优化投资组合的盈利能力，这直接应用于投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:38.902199"
+}

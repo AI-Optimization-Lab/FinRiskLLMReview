@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 120,
+    "title": "房价非线性回归模型及期权定价",
+    "abstract": "从宏微观经济学的角度出发,依照国家统计局网站的数据选取多个可能影响房地产价格的变量建立了全国房地产平均价格模型.运用R语言对数据进行了多元线性回归分析、多元非线性回归分析、相关性分析、多重共线性分析、岭回归分析等统计分析,得出房价的线性与非线性多个模型并进行了比较.结合随机微分方程、实物期权等相关金融数学知识进行了房价模型的理论推导与实际估计,并对房价期权进行了定价.利用Matlab对模型进行了大量的模拟并得到较好结果.",
+    "year": 2017,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "3763fea3cca61c798d7b384f9d4431b4",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T20:21:16.905349"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文结合随机微分方程和实物期权等金融数学知识对房价期权进行了定价，这明确属于衍生品定价的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文结合随机微分方程和实物期权等金融数学知识对房价期权进行了定价，这明确属于衍生品定价的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:37.400698"
+}

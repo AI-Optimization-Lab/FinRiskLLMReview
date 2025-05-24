@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 98,
+    "title": "基于SVR的量化选股研究",
+    "abstract": "机器学习凭借着其优越的数据分析能力和非线性拟合能力，在金融领域的渗透愈发广泛，国内知名的对冲基金幻方更是成为国内第一家完全向机器学习算法与大数据转型的百亿级私募基金。本文选用SVR模型进行多因子择股，以沪深300成分股为研究对象，通过训练各成分股的因子数据来预测个股收益率，并择优构建投资组合。结果显示调仓频率为30个交易日的SVR模型表现十分可观，年化收益达14.75%。并对比调仓频率为90个交易日的SVR模型，发现调仓周期拉长会使得SVR择股模型的表现下降。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "babbf61948f22e7095922f4bc927ad2b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:22.422433"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用SVR模型进行多因子择股并构建投资组合，这直接属于投资组合管理的范畴。论文的研究目标是预测个股收益率并择优构建投资组合，且实验结果展示了不同调仓频率下的投资组合表现，这些都是投资组合管理的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用SVR模型进行多因子择股并构建投资组合，这直接属于投资组合管理的范畴。论文的研究目标是预测个股收益率并择优构建投资组合，且实验结果展示了不同调仓频率下的投资组合表现，这些都是投资组合管理的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:50.752049"
+}

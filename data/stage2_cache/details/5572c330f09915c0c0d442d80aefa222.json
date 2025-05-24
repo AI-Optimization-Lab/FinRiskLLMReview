@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3496,
+    "title": "Robust Estimation for the Single Index Model Using Pseudodistances",
+    "abstract": "For portfolios with a large number of assets, the single index model allows for expressing the large number of covariances between individual asset returns through a significantly smaller number of parameters. This avoids the constraint of having very large samples to estimate the mean and the covariance matrix of the asset returns, which practically would be unrealistic given the dynamic of market conditions. The traditional way to estimate the regression parameters in the single index model is the maximum likelihood method. Although the maximum likelihood estimators have desirable theoretical properties when the model is exactly satisfied, they may give completely erroneous results when outliers are present in the data set. In this paper, we define minimum pseudodistance estimators for the parameters of the single index model and using them we construct new robust optimal portfolios. We prove theoretical properties of the estimators, such as consistency, asymptotic normality, equivariance, robustness, and illustrate the benefits of the new portfolio optimization method for real financial data.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8490da0d09e19022e8e066196dc5224b",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:17:54.051664"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用伪距离估计方法来优化单指数模型的参数，并构建稳健的最优投资组合。这直接应用于投资组合管理领域，旨在提高投资组合的稳健性和性能。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用伪距离估计方法来优化单指数模型的参数，并构建稳健的最优投资组合。这直接应用于投资组合管理领域，旨在提高投资组合的稳健性和性能。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:23.750867"
+}

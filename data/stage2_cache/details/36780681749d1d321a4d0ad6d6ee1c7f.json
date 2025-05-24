@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 4006,
+    "title": "Automated Ingestion Detection for a Health Monitoring System",
+    "abstract": "Obesity is a global epidemic that imposes a financial burden and increased risk for a myriad of chronic diseases. Presented here is an overview of a prototype automated ingestion detection (AID) process implemented in a health monitoring system (HMS). The automated detection of ingestion supports personal record keeping which is essential during obesity management. Personal record keeping allows the care provider to monitor the therapeutic progress of a patient. The AID-HMS determines the levels of ingestion activity from sounds captured by an external throat microphone. Features are extracted from the sound recording and presented to machine learning classifiers, where a simple voting procedure is employed to determine instances of ingestion. Using a dataset acquired from seven individuals consisting of consumption of liquid and solid, speech, and miscellaneous sounds, >94% of ingestion sounds are correctly identified with false positive rates around 9% based on 10-fold cross validation. The detected levels of ingestion activity are transmitted and stored on a remote web server, where information is displayed through a web application operating in a web browser. This information allows remote users (health provider) determine meal lengths and levels of ingestion activity during the meal. The AID-HMS also provides a basis for automated reinforcement for the patient.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a3d9e975dbc5b76518ea657eb3af9ba7",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:31:58.713695"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究健康监测系统中的自动摄入检测技术，应用于肥胖管理，与金融领域的衍生品定价、金融风险管理和投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究健康监测系统中的自动摄入检测技术，应用于肥胖管理，与金融领域的衍生品定价、金融风险管理和投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:42.149443"
+}

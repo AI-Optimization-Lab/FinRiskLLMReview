@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 6318,
+    "title": "Automatic Method for Stock Trading Combining Technical Analysis and the Artificial Bee Colony Algorithm",
+    "abstract": "There are many researches on forecasting time series for building trading systems for financial markets. Some of these studies have shown that it is possible to obtain satisfactory results, thereby contradicting the theory of Efficient Markets Hypothesis (EMH) that suggests that prices are randomly generated over time. This paper proposes an intelligent system based on historical closing prices that uses technical analysis, the Artificial Bee Colony Algorithm (ABC), a selection of past values (lags), nearest neighbor classification (k-NN) and its variation, the Adaptative Classification and Nearest Neighbor (A-k-NN). A very important step for time series prediction is the correct selection of the past observations (lags). Our method uses this strategy since it uses the k-NN and A-k-NN to decide on the buy and sell points, combined with the ABC algorithm which is used to search for the best parameter settings of system and a good set of lags. This paper compares the results obtained by the proposed method with the buy and hold strategy and with other work that performed similar experiments with the same trading model and the same stocks. The key measure for performance comparison is the profitability in the analyzed period. The proposed method generates much larger profits compared to the other method and to the buy and hold strategy. Our method outperforms the other methods in thirteen out of the fifteen stocks tested, minimizing the risk of market exposure.",
+    "year": 2013,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "35c1ce2ce02124c0448fa3a8d05385d8",
+    "relevant_keywords": [
+      "classification",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:57:07.661239"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合技术分析和人工蜂群算法来构建股票交易系统，旨在通过优化交易策略来提高盈利能力并最小化市场暴露风险。这属于投资组合管理的范畴，因为它涉及资产选择和交易时机的决策，以优化投资回报。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合技术分析和人工蜂群算法来构建股票交易系统，旨在通过优化交易策略来提高盈利能力并最小化市场暴露风险。这属于投资组合管理的范畴，因为它涉及资产选择和交易时机的决策，以优化投资回报。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:29.784839"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 899,
+    "title": "Empirical software metrics for benchmarking of verification tools",
+    "abstract": "We study empirical metrics for software source code, which can predict the performance of verification tools on specific types of software. Our metrics comprise variable usage patterns, loop patterns, as well as indicators of control-flow complexity and are extracted by simple data-flow analyses. We demonstrate that our metrics are powerful enough to devise a machine-learning based portfolio solver for software verification. We show that this portfolio solver would be the (hypothetical) overall winner of the international competition on software verification (SV-COMP) in three consecutive years (2014-2016). This gives strong empirical evidence for the predictive power of our metrics and demonstrates the viability of portfolio solvers for software verification. Moreover, we demonstrate the flexibility of our algorithm for portfolio construction in novel settings: originally conceived for SV-COMP'14, the construction works just as well for SV-COMP'15 (considerably more verification tasks) and for SV-COMP'16 (considerably more candidate verification tools).",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1f96cd589f8ee59ba529b04c94de9cbc",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.257781"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究软件验证工具的基准测试和性能预测，虽然提到了投资组合（portfolio）的概念，但这是指软件验证工具的组合，而非金融领域的投资组合管理。论文的核心技术与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究软件验证工具的基准测试和性能预测，虽然提到了投资组合（portfolio）的概念，但这是指软件验证工具的组合，而非金融领域的投资组合管理。论文的核心技术与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:42.825683"
+}

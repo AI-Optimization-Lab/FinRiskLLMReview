@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2114,
+    "title": "Robust Risk Estimation and Hedging: A Reverse Stress Testing Approach",
+    "abstract": "Traditional risk modeling using value at risk (VaR) is widely viewed as ill-equipped for dealing with tail risks. As a result, scenario-based portfolio stress testing is increasingly being promoted as central to the risk management process. Reverse stress testing, a recent innovation in portfolio stress testing endorsed by regulators, is intended to identify economic scenarios that will threaten a financial firm's viability without injecting the manager's cognitive biases into stress scenario specification. Although the idea is intuitively appealing, no template has been provided to operationalize the idea. Some first steps in developing reverse stress testing approaches have begun to appear in the literature. Complexity and computational intensity appear to be important issues. A more subtle issue appearing in this emerging research is the relationship among the concepts of likelihood, plausibility, and representativeness. In this article, the authors propose a novel method for reverse stress testing using principal components analysis (PCA) along with Gram-Schmidt orthogonalization to determine scenarios leading to a specified loss level. The approach is computationally efficient. The method includes the maximum likelihood scenario, maximizes (a definition of) representativeness of the scenarios chosen, and measures the plausibility of each scenario. In addition, empirical results for sample portfolios show this method can provide new information beyond VaR and standard stress testing analyses.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6b21ead69187ceba25ae94b3ff8810cd",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T02:11:40.475026"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on reverse stress testing, a method to identify economic scenarios that threaten a financial firm's viability, which is a key aspect of financial risk management. Additionally, the method is applied to sample portfolios, indicating relevance to portfolio management. The use of principal components analysis and Gram-Schmidt orthogonalization is aimed at improving risk estimation and hedging strategies, further supporting its application in these domains.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on reverse stress testing, a method to identify economic scenarios that threaten a financial firm's viability, which is a key aspect of financial risk management. Additionally, the method is applied to sample portfolios, indicating relevance to portfolio management. The use of principal components analysis and Gram-Schmidt orthogonalization is aimed at improving risk estimation and hedging strategies, further supporting its application in these domains.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:06.378786"
+}

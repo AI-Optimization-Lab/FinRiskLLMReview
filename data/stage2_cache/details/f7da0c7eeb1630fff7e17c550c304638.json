@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2835,
+    "title": "Ensemble of temporal Transformers for financial time series",
+    "abstract": "The accuracy of price forecasts is important for financial market trading strategies and portfolio management. Compared to traditional models such as ARIMA and other state-of-the-art deep learning techniques, temporal Transformers with similarity embedding perform better for multi-horizon forecasts in financial time series, as they account for the conditional heteroscedasticity inherent in financial data. Despite this, the methods employed in generating these forecasts must be optimized to achieve the highest possible level of precision. One approach that has been shown to improve the accuracy of machine learning models is ensemble techniques. To this end, we present an ensemble approach that efficiently utilizes the available data over an extended timeframe. Our ensemble combines multiple temporal Transformer models learned within sliding windows, thereby making optimal use of the data. As combination methods, along with an averaging approach, we also introduced a stacking meta-learner that leverages a quantile estimator to determine the optimal weights for combining the base models of smaller windows. By decomposing the constituent time series of an extended timeframe, we optimize the utilization of the series for financial deep learning. This simplifies the training process of a temporal Transformer model over an extended time series while achieving better performance, particularly when accounting for the non-constant variance of financial time series. Our experiments, conducted across volatile and non-volatile extrapolation periods, using 20 companies from the Dow Jones Industrial Average show more than 40% and 60% improvement in predictive performance compared to the baseline temporal Transformer.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d61bf71c3bf509e192ebef5e8263f775",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "attention mechanism",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:10:49.629715"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用时间Transformer模型进行金融时间序列预测，目的是提高价格预测的准确性，这对于投资组合管理中的资产配置和交易策略至关重要。论文明确提到了价格预测对投资组合管理的重要性，并进行了相关实验验证。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用时间Transformer模型进行金融时间序列预测，目的是提高价格预测的准确性，这对于投资组合管理中的资产配置和交易策略至关重要。论文明确提到了价格预测对投资组合管理的重要性，并进行了相关实验验证。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:26.074811"
+}

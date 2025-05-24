@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 112,
+    "title": "股票投资组合分析——基于均值-方差模型",
+    "abstract": "中国资本市场30多年的发展，为企业及投资者提供了较为广阔的投融资平台。随着股票这一金融市场中的主要交易品种在投资者资产配置中的作用越发凸显，对普通投资者来说，如何合理构造证券投资组合获取超额收益成为一个重要议题。利用2019年沪深300第四季度公司财务指标数据，首先对财务指标做聚类，再通过主成分分析对财务指标降维，从每个簇中选取评分较高的股票组成股票集合之后根据马科维茨的均值方差模型计算各证券的资金分配比例，构建证券投资组合，最后通过夏普比率和索提诺比率对该投资组合进行业绩评价。结果显示，此组合的业绩较为优秀。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cf76f258aee8d4ae6451a56cadfe1827",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:22.430453"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是使用均值-方差模型构建股票投资组合，并通过夏普比率和索提诺比率进行业绩评价，这直接属于投资组合管理的研究范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是使用均值-方差模型构建股票投资组合，并通过夏普比率和索提诺比率进行业绩评价，这直接属于投资组合管理的研究范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:48.777755"
+}

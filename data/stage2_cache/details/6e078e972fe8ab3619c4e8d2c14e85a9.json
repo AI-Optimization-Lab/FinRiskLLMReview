@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 4817,
+    "title": "Short term forecasting with support vector machines and application to stock price prediction",
+    "abstract": "Forecasting a stock price movement is one of the most difficult problems in finance. The reason is that financial time series are complex, non stationary. Furthermore, it is also very difficult to predict this movement with parametric models. Instead of parametric models, we propose two techniques, which are data driven and non parametric. Based on the idea that excess returns would be possible with publicly available information, we developed two models in order to forecast the short term price movements by using technical indicators. Our assumption is that the future value of a stock price depends on the financial indicators although there is no parametric model to explain this relationship. This relationship comes from the technical analysis. Comparison shows that support vector regression (SVR) out performs the multi layer perceptron (MLP) networks for a short term prediction in terms of the mean square error. If the risk premium is used as a comparison criterion, then the SVR technique is as good as the MLP method or better.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3483f554e2acfd5523baada420125ecd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:41:32.663906"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用支持向量机（SVM）和神经网络（MLP）进行股票价格的短期预测，虽然涉及金融市场，但并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用支持向量机（SVM）和神经网络（MLP）进行股票价格的短期预测，虽然涉及金融市场，但并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:56.176506"
+}

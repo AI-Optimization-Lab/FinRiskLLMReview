@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1027,
+    "title": "Bank distress in the news: Describing events through deep learning",
+    "abstract": "While many models are purposed for detecting the occurrence of significant events in financial systems, the task of providing qualitative detail on the developments is not usually as well automated. We present a deep learning approach for detecting relevant discussion in text and extracting natural language descriptions of events. Supervised by only a. small set of event information, comprising entity names and dates, the model is leveraged by unsupervised learning of semantic vector representations on extensive text data. We demonstrate applicability to the study of financial risk based on news (6.6M articles), particularly bank distress and government interventions (243 events), where indices can signal the level of bank-stress-related reporting at the entity level, or aggregated at national or European level, while being coupled with explanations. Thus, we exemplify how text, as timely, widely available and descriptive data, can serve as a useful complementary source of information for financial and systemic risk analytics. (C) 2017 Elsevier B.V. All rights reserved.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cac5a8763d307bf91befb48fc0f6aea2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "deep learning",
+      "representation learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:08.460020"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using deep learning to detect and describe bank distress events from news articles, which is directly related to monitoring and analyzing financial and systemic risks, a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using deep learning to detect and describe bank distress events from news articles, which is directly related to monitoring and analyzing financial and systemic risks, a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:41.428909"
+}

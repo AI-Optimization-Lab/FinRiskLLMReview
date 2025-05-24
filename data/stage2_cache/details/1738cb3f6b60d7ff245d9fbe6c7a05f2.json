@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2395,
+    "title": "Estimating Loss Given Default Based on Beta Regression",
+    "abstract": "Loss given default (LGD) is a key parameter in credit risk management to calculate the required regulatory minimum capital. The internal ratings-based (IRB) approach under the Basel II allows institutions to determine the loss given default (LGD) on their own. In this study, we have estimated LGD for a credit portfolio data by using beta regression with precision parameter ((sic)) and mean parameter (mu). The credit portfolio data was obtained from a banking institution in Jordan; for the period of January 2010 untilDecember 2014. In the first stage, we have used the  outstandingamount and amount of borrowing to find LGD of each default borrower (494 out of 4393 borrower). In the second stage, we fit univariate parametric distributions to the LGD data to obtain the beta distribution. After that, we have estimated the values of (sic) based on microeconomic variables (SPP, OE and LR). Moreover, we have estimated the values of mu based on macroeconomic variables (GDP and Inflation rate). Finally, we have compared between six different link functions (Logit, loglog, probit, cloglog, cauchit, and log), which have used with (sic) and mu. The results show that Beta regression with probit link function has the highest R-squared with accepted measurements for logL, AIC and BIC.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1c1ed8e50c818fa28f835b331358dbf4",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:38.028335"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on estimating Loss Given Default (LGD), which is a critical parameter in credit risk management, particularly for regulatory capital requirements under the Basel II framework. The study uses beta regression to model LGD, which is directly related to assessing and managing credit risk, a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on estimating Loss Given Default (LGD), which is a critical parameter in credit risk management, particularly for regulatory capital requirements under the Basel II framework. The study uses beta regression to model LGD, which is directly related to assessing and managing credit risk, a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:46.947883"
+}

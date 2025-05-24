@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 46,
+    "title": "基于深度学习和进化计算的外汇预测与投资组合优化",
+    "abstract": "利用深度学习和进化计算技术来分别实现对外汇价格的预测与投资组合优化.首先,利用循环神经网络建立汇率预测模型,用来预测外汇产品的价格并计算期望收益率.接着建立了一个双目标的投资组合模型,即最大化期望收益率与最小化风险.为了更接近真实的外汇交易市场,该模型中允许买空与卖空,并考虑了点差对收益的影响.基于多个外汇产品的期望收益率与投资组合模型,利用多目标进化算法来搜索出最优的投资组合.在多个外汇产品的真实历史数据上的结果表明,该方法能够实现在外汇交易市场中的盈利.",
+    "year": 2019,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "551ba8ad03f80b1cbbfd85dd95917e7d",
+    "relevant_keywords": [
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T15:02:38.090631"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用深度学习和进化计算进行外汇预测和投资组合优化，主要目标是最大化期望收益率和最小化风险，这属于投资组合管理的范畴。论文未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用深度学习和进化计算进行外汇预测和投资组合优化，主要目标是最大化期望收益率和最小化风险，这属于投资组合管理的范畴。论文未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:45:13.541137"
+}

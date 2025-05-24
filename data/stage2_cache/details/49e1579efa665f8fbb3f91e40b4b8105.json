@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 328,
+    "title": "Data Boundary and Data Pricing Based on the Shapley Value",
+    "abstract": "Data pricing is to price data as asset to promote the healthy development of data share, exchange, and reuse. However, the uncertain value index and neglection of interactivity lead to information asymmetry in the transaction process. A perfect data pricing system and a well-designed data market can widely promote data transactions. We take a three-agent data market in this paper, the data owner who provides the data record, the model buyer who is interested in buying machine learning (ML) model instances, and the broker who interacts between the data owner and the model buyer. Two interaction scenarios are defined. In scenario 1, we introduce the Shapley value (SV) to measure values of data records fairly and construct a revenue optimization problem based on the sum of the SV for data boundary. The optimal solution is obtained by calculating their derivatives. In scenario 2, we utilize market research and construct a revenue maximization (RM) problem to price the ML models. Further, An Integer Linear Programming for the RM problem (RM-ILP) process is proposed to transform the RM problem into an equivalent integer linear programming (ILP) problem and solve it with the Gurobi solver. Finally, we conduct extensive experiments, which validate that the RM-ILP process can provide high revenue to the broker and high affordability to the model buyers compared to the benchmarks.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "233809e4ce66aeaf66d1293c6236ad28",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.384452"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究数据定价和机器学习模型定价，虽然涉及资产定价的概念，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究数据定价和机器学习模型定价，虽然涉及资产定价的概念，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:16.368399"
+}

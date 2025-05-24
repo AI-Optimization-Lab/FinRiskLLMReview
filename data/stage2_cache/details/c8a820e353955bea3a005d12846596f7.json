@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3747,
+    "title": "Probabilistic Forecasts of Wind Power Generation Accounting for Geographically Dispersed Information",
+    "abstract": "Forecasts of wind power generation in their probabilistic form are a necessary input to decision-making problems for reliable and economic power systems operations in a smart grid context. Thanks to the wealth of spatially distributed data, also of high temporal resolution, such forecasts may be optimized by accounting for spatio-temporal effects that are so far merely considered. The way these effects may be included in relevant models is described for the case of both parametric and non-parametric approaches to generating probabilistic forecasts. The resulting predictions are evaluated on the real-world test case of a large offshore wind farm in Denmark (Nysted, 165 MW), where a portfolio of 19 other wind farms is seen as a set of geographically distributed sensors, for lead times between 15 minutes and 8 hours. Forecast improvements are shown to mainly come from the spatio-temporal correction of the first order moments of predictive densities. The best performing approach, based on adaptive quantile regression, using spatially corrected point forecasts as input, consistently outperforms the state-of-the-art benchmark based on local information only, by 1.5%-4.6%, depending upon the lead time.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "584bae6fe122b3f4c24862343d913a07",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:20:35.946994"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究风力发电的概率预测，并讨论了如何利用空间分布数据优化预测模型。虽然提到了'portfolio'一词，但这里的'portfolio'指的是多个风电场作为分布式传感器的集合，而非金融投资组合。论文的核心技术与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究风力发电的概率预测，并讨论了如何利用空间分布数据优化预测模型。虽然提到了'portfolio'一词，但这里的'portfolio'指的是多个风电场作为分布式传感器的集合，而非金融投资组合。论文的核心技术与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:51.124798"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 2512,
+    "title": "Algorithmic trading strategy based on the integration of deep learning models and natural language processing",
+    "abstract": "The most important goal for people trading in stock markets is to earn a profit. This profit can be obtained from price increases or decreases in a two-sided market, where stockholders gain profit from the difference in purchase and sale prices. This research aims to provide an integrated algorithmic trading system to improve the Sharpe ratio performance index for selecting stocks and maximizing returns during market ups and downs. The proposed strategy utilizes word2vector, autoencoder, and long short-term memory-artificial neural network (LSTM-ANN) methods. We assume that as the markets interact with the news, an internal connection is created between economic and political news and forecasting the market's price trend. The trading system is developed based on price and news to extract features that predict negative or positive market reactions. The tests show that the proposed Price and Price&News trading systems are superior to the Buy&Hold strategy in the S&P500 market. This research studies price data and portfolio news consisting of 15 stocks. The Price&News strategy yielded a 23% higher return than the Buy&Hold strategy, accompanied by a 2.6 improvement in the Sharpe ratio. Additionally, it outperformed the Price algorithm with an 8% higher return and a 0.82 improvement in the Sharpe ratio.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2ac558c94c738f0bc1681d4ea0dd41ef",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "autoencoder",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:35.718428"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一个集成深度学习和自然语言处理的算法交易系统，旨在通过选择股票和优化交易策略来提高Sharpe比率和最大化回报。这直接涉及投资组合管理的核心目标，即通过资产选择和交易策略优化来提高投资组合的表现。论文中提到的具体应用场景和实验设计（如比较Price&News策略与Buy&Hold策略在S&P500市场的表现）进一步证实了这一点。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一个集成深度学习和自然语言处理的算法交易系统，旨在通过选择股票和优化交易策略来提高Sharpe比率和最大化回报。这直接涉及投资组合管理的核心目标，即通过资产选择和交易策略优化来提高投资组合的表现。论文中提到的具体应用场景和实验设计（如比较Price&News策略与Buy&Hold策略在S&P500市场的表现）进一步证实了这一点。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:09.919804"
+}

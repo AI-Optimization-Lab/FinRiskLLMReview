@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "decision tree",
+    "classification",
+    "regression"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using a machine-learning approach to test their hypothesis.",
+    "decision tree": "The paper uses Random Forest models, which are based on decision trees, for their analysis.",
+    "classification": "The paper aims to predict financial performance metrics, which can involve classification tasks depending on how the metrics are categorized.",
+    "regression": "The paper focuses on predicting financial performance metrics like Return on Equity and Return on Investments, which are typically regression tasks."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"decision tree\", \"classification\", \"regression\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using a machine-learning approach to test their hypothesis.\",\n    \"decision tree\": \"The paper uses Random Forest models, which are based on decision trees, for their analysis.\",\n    \"classification\": \"The paper aims to predict financial performance metrics, which can involve classification tasks depending on how the metrics are categorized.\",\n    \"regression\": \"The paper focuses on predicting financial performance metrics like Return on Equity and Return on Investments, which are typically regression tasks.\"\n  }\n}\n```"
+}

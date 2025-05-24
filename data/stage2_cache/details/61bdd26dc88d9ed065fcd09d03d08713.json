@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 418,
+    "title": "Applying Machine Learning Techniques for Forecasting Flexibility of Virtual Power Plants",
+    "abstract": "Previous and existing evaluations of available flexibility using small device demand response have typically been done with detailed information of end-user systems. With these large numbers, having lower level information has both privacy and computational limitations. We propose a black box approach to investigating the longevity of aggregated response of a virtual power plant using historic bidding and aggregated behaviour with machine learning techniques. The two supervised machine learning techniques investigated and compared in this paper are, multivariate linear regression and single hidden layer artificial neural network (ANN). Both techniques are used to model a relationship between the aggregator portfolio state and requested ramp power to the longevity of the delivered flexibility. Using validated individual household models, a smart controlled aggregated virtual power plant is simulated. A hierarchical market-based supply-demand matching control mechanism is used to steer the heating devices in the virtual power plant. For both the training and validation set of clusters, a random number of households, between 200 and 2000, is generated with day ahead profile scaled accordingly. Further, a ramp power (power deviation) is assigned at various hours of the day and requested to hold for the remainder of the day. Using only the bidding functions and the requested ramp powers, the ramp longevity is estimated for a number of different cluster setups for both the artificial neural network as well as the multi-variant linear regression. It is found that it is possible to estimate the longevity of flexibility with machine learning. The linear regression algorithm is, on average, able to estimate the longevity with a 15% error. However, there was a significant improvement with the ANN algorithm achieving, on average, a 5.3% error. This is lowered 2.4% when learning for the same virtual power plant. With this information it would be possible to accurately offer residential VPP flexibility for market operations to safely avoid causing further imbalances and financial penalties.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e4e7c2ca77620777c93df894f0fee468",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "hidden layer",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.547654"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究机器学习技术在虚拟电厂灵活性预测中的应用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究机器学习技术在虚拟电厂灵活性预测中的应用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:07.514036"
+}

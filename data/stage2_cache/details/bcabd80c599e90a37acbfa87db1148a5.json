@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1387,
+    "title": "Risk management application of the recurrent mixture density network models",
+    "abstract": "We consider the generalization of the classical GARCH model in two directions: the first is to allow for non-linear dependencies in the conditional mean and in the conditional variance and the second concerns specification of the conditional density. As a tool for non-linear regression we use neural network-based modeling, so called recurrent mixture density networks, describing conditional mean and variance by multi-layer perceptrons. All of the models are compared for their out-of-sample predictive ability in terms of Value-at-Risk forecast evaluation. The empirical analysis is based on return series of stock indices from different financial markets. The results indicate that for all markets the improvement in the forecast by non-linear models over linear ones is negligible, while non-gaussian models significantly dominate the gaussian models with respect to most evaluation tests.",
+    "year": 2003,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "84f5e4ff452fe16ff72c340a8162dd13",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:02:22.735904"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving Value-at-Risk forecasts using neural network-based models, which is a core technique in financial risk management. The empirical analysis is based on stock index returns, further emphasizing its application in risk assessment.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving Value-at-Risk forecasts using neural network-based models, which is a core technique in financial risk management. The empirical analysis is based on stock index returns, further emphasizing its application in risk assessment.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:25.268123"
+}

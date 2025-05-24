@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1008,
+    "title": "Building portfolios based on machine learning predictions",
+    "abstract": "This paper demonstrates that portfolio optimization techniques represented by Markowitz mean-variance and Hierarchical Risk Parity (HRP) optimizers increase the risk-adjusted return of portfolios built with stocks preselected with a machine learning tool. We apply the random forest method to predict the cross-section of expected excess returns and choose n stocks with the highest monthly predictions. We compare three different techniques-mean-variance, HRP, and 1/N- for portfolio weight creation using returns of stocks from the S&P500 and STOXX600 for robustness. The out-of-sample results show that both mean-variance and HRP optimizers outperform the 1/N rule. This conclusion is in the opposition to a common criticism of optimizers' efficiency and presents a new light on their potential practical usage.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a93e51d4605dcefa083e6e9a86914a5f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.777602"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on using machine learning predictions to select stocks and compares different portfolio optimization techniques (mean-variance, HRP, and 1/N) to improve risk-adjusted returns. This directly aligns with the field of Portfolio Management, as the core research is about constructing and optimizing investment portfolios.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on using machine learning predictions to select stocks and compares different portfolio optimization techniques (mean-variance, HRP, and 1/N) to improve risk-adjusted returns. This directly aligns with the field of Portfolio Management, as the core research is about constructing and optimizing investment portfolios.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:21.086279"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 57,
+    "title": "On pricing of discrete Asian and Lookback options under the Heston model",
+    "abstract": "We propose a new, data-driven approach for efficient pricing of - fixed- and floating-strike - discrete arithmetic Asian and Lookback options when the underlying process is driven by the Heston model dynamics. The method proposed in this article constitutes an extension of Perotti and Grzelak [Fast sampling from time-integrated bridges using deep learning, J. Comput. Math. Data Sci. 5 (2022)], where the problem of sampling from time-integrated stochastic bridges was addressed. The model relies on the Seven-League scheme [S. Liu et al. The seven-league scheme: Deep learning for large time step Monte Carlo simulations of stochastic differential equations, Risks 10 (2022), p. 47], where artificial neural networks are employed to 'learn' the distribution of the random variable of interest utilizing stochastic collocation points [L.A. Grzelak et al. The stochastic collocation Monte Carlo sampler: Highly efficient sampling from expensive distributions, Quant. Finance 19 (2019), pp. 339-356]. The method results in a robust procedure for Monte Carlo pricing. Furthermore, semi-analytic formulae for option pricing are provided in a simplified, yet general, framework. The model guarantees high accuracy and a reduction of the computational time up to thousands of times compared to classical Monte Carlo pricing schemes.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "970e10a44794a47ab42dbc821f9a9d62",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:54.956469"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出了一种新的数据驱动方法，用于高效定价离散算术亚式和回望期权，这些都属于衍生品定价的范畴。论文明确提到了期权的定价问题，并讨论了蒙特卡洛定价方法，这些都是衍生品定价领域的典型研究内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出了一种新的数据驱动方法，用于高效定价离散算术亚式和回望期权，这些都属于衍生品定价的范畴。论文明确提到了期权的定价问题，并讨论了蒙特卡洛定价方法，这些都是衍生品定价领域的典型研究内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:35.248891"
+}

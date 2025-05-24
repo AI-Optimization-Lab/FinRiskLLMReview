@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 43,
+    "title": "VIX futures pricing based on high-frequency VIX: A hybrid approach combining SVR with parametric models",
+    "abstract": "We propose a novel hybrid approach for volatility index (VIX) futures pricing by combining support vector regression (SVR) with parametric models. Realized semivariances calculated based on high-frequency VIX are used to characterize the asymmetric shocks of VIX, and the direct pricing framework of the heterogeneous autoregressive model is extended by incorporating realized semivariances. VIX futures prices are first obtained via parametric models, then the predicted prices and realized semivariances are input into SVR to obtain the final predicted values. Empirical results indicate that the combination of SVR with parametric models significantly improves the pricing ability. This indicates the important information of high-frequency VIX and the necessity of combining machine learning methods with parametric models to obtain more accurate predictions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ff522f99d1fe99b0b451d671660a380a",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.600317"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是结合支持向量回归（SVR）和参数模型来预测VIX期货价格，这直接属于衍生品定价的范畴。论文明确提到使用高频VIX数据来改进定价能力，并展示了如何通过机器学习方法提高预测准确性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是结合支持向量回归（SVR）和参数模型来预测VIX期货价格，这直接属于衍生品定价的范畴。论文明确提到使用高频VIX数据来改进定价能力，并展示了如何通过机器学习方法提高预测准确性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:06.366967"
+}

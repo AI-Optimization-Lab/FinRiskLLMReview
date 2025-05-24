@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1836,
+    "title": "Consistent and Efficient Dynamic Portfolio Replication with Many Factors",
+    "abstract": "Factor investing involves choosing securities to construct portfolios with particular risk-return profiles. With the proliferation of benchmark-tracking exchange-traded funds (ETFs) virtually any risk-return profile can be reconstructed; the challenge is to find the right ETFs because the number of relevant ETFs is very large. This article proposes an innovative modification to the resampling procedure used in many popular machine learning methods for reducing the dimensionality of this problem. The proposed method allows selection of the specific ETFs used to replicate returns, taking the total costs of using the optimal portfolio to dynamically track returns into consideration. Existing variable selection algorithms are not designed to incorporate rebalancing costs, which are accumulated over time. The methodology is illustrated by replicating hedge fund returns with ETFs. The results show that, by selecting the right replication instruments in a way that is consistent with an investor's economic utility instead of using purely statistical losses, the investor can save around 60 bps per year.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "57fcdc0a4de38442b22d117f237c564d",
+    "relevant_keywords": [
+      "machine learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:53.318482"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on dynamic portfolio replication and factor investing, which are core aspects of portfolio management. It specifically addresses the selection of ETFs to replicate returns and considers rebalancing costs, aligning with the objectives of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on dynamic portfolio replication and factor investing, which are core aspects of portfolio management. It specifically addresses the selection of ETFs to replicate returns and considers rebalancing costs, aligning with the objectives of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:42.996695"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 778,
+    "title": "Bias-regularised Neural-Network Metamodelling of Insurance Portfolio Risk",
+    "abstract": "Deep learning models have attracted considerable attention in metamodelling of financial risks for large insurance portfolios. Those models, however, are generally trained in disregard of the collective nature of the data in the portfolio under study. Consequently, the training procedure often suffers from slow convergence, and the trained model often has poor accuracy. This is particularly evident in the presence of extreme individual contracts. In this paper, we advocate the view that the training of a meta-model for a portfolio should be guided by portfolio-level metrics. In particular, we propose an intuitive loss regulariser that explicitly accounts for the portfolio-level bias. Further, this training regulariser can be easily implemented with the minibatch stochastic gradient descent commonly used in training deep neural networks. Empirical evaluations on both simulated data and a benchmark dataset show that the regulariser yields more stable training, resulting in faster convergence and more reliable portfolio-level risk estimates.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "bf18895233d4f138f5fe94434fca7940",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:44.414321"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用深度学习模型对大型保险组合的金融风险进行元建模，并提出了一个针对组合层面偏差的损失正则化器。其核心应用是提高组合层面风险估计的准确性和稳定性，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用深度学习模型对大型保险组合的金融风险进行元建模，并提出了一个针对组合层面偏差的损失正则化器。其核心应用是提高组合层面风险估计的准确性和稳定性，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:24.016655"
+}

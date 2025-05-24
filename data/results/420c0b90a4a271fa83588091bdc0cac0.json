@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "neural network",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning techniques for financial distress prediction.",
+    "supervised learning": "The paper uses binomial classifiers (Logistic Regression, Artificial Neural Networks, Random Forest) which are supervised learning methods.",
+    "classification": "The paper focuses on predicting financial distress, which is a classification problem (distressed vs. non-distressed).",
+    "neural network": "The paper mentions the use of Artificial Neural Networks as one of the techniques for financial distress prediction.",
+    "decision tree": "Random Forest, which is mentioned in the paper, is an ensemble method based on decision trees."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"neural network\",\n    \"decision tree\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning techniques for financial distress prediction.\",\n    \"supervised learning\": \"The paper uses binomial classifiers (Logistic Regression, Artificial Neural Networks, Random Forest) which are supervised learning methods.\",\n    \"classification\": \"The paper focuses on predicting financial distress, which is a classification problem (distressed vs. non-distressed).\",\n    \"neural network\": \"The paper mentions the use of Artificial Neural Networks as one of the techniques for financial distress prediction.\",\n    \"decision tree\": \"Random Forest, which is mentioned in the paper, is an ensemble method based on decision trees.\"\n  }\n}\n```"
+}

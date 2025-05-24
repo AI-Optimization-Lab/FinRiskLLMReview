@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 4289,
+    "title": "Associating stock prices with web financial information time series based on support vector regression",
+    "abstract": "Over the past years, the effect of massive information from the web on the financial market has increased. How to process and utilize such information attracts both researchers and portfolio managers. In this paper, financial information obtained daily from the web is treated as a time series and then associated with stock price volatilities. First, six research topics on financial time series are outlined, namely, analyses of stock price time series P, trading volume time series V, web information time series W, and relationship between P and V, P and W, as well as V and W. Second, a model connecting P and W based on the support vector regression (SVR) is examined as an example of the six research topics. Third, given that a typically successful way of computer-based natural language processing is through the conduct of keyword analysis, the novel finance-computer time series W is explicitly defined in terms of financial keywords and is used in the present paper as the topic of investigation. The relationship between P and W is modeled using SVR. Because during the pre-web era people cannot manually and efficiently process image information from the newspapers and sounds from the television and radio over a longer period of time (e.g., a year), they were unable to obtain the time series W. Therefore, it is the web that makes the research on the relationship between P and Win the meaning of quantity of W possible. Finally, experiments on the Shanghai and Shenzhen security markets revealed that the introduction of W helps improve model accuracies. As the web further develops, more and more ordinary people share their views on the web. The long-tail of massive financial information formed by these grass roots has a noticeable effect on the financial markets. In financial markets, those who quickly capture and interpret financial information have the potential to generate profits. With the use of the newly found model connecting P with W and fast decision making, financial market practitioners can be rewarded. (C) 2013 Elsevier B.V. All rights reserved.",
+    "year": 2013,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "efbbd5075c3275863e71e2c5dc19bc7c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:25:23.432868"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究如何利用网络金融信息时间序列与股票价格波动之间的关系，通过支持向量回归（SVR）模型进行建模，以提高模型准确性。这种研究有助于投资组合管理者快速捕捉和解释金融信息，从而做出更快的决策，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究如何利用网络金融信息时间序列与股票价格波动之间的关系，通过支持向量回归（SVR）模型进行建模，以提高模型准确性。这种研究有助于投资组合管理者快速捕捉和解释金融信息，从而做出更快的决策，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:56.830085"
+}

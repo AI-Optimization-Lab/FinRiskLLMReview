@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2658,
+    "title": "Modeling tax evasion with genetic algorithms",
+    "abstract": "The U.S. tax gap is estimated to exceed $450 billion, most of which arises from non-compliance on the part of individual taxpayers (GAO 2012; IRS 2006). Much is hidden in innovative tax shelters combining multiple business structures such as partnerships, trusts, and S-corporations into complex transaction networks designed to reduce and obscure the true tax liabilities of their individual shareholders. One known gambit employed by these shelters is to offset real gains in one part of a portfolio by creating artificial capital losses elsewhere through the mechanism of inflated basis (TaxAnalysts 2005), a process made easier by the relatively flexible set of rules surrounding pass-through entities such as partnerships (IRS 2009). The ability to anticipate the likely forms of emerging evasion schemes would help auditors develop more efficient methods of reducing the tax gap. To this end, we have developed a prototype evolutionary algorithm designed to generate potential schemes of the inflated basis type described above. The algorithm takes as inputs a collection of asset types and tax entities, together with a rule-set governing asset exchanges between these entities. The schemes produced by the algorithm consist of sequences of transactions within an ownership network of tax entities. Schemes are ranked according to a fitness function (Goldberg in Genetic algorithms in search, optimization, and machine learning. Addison-Wesley, Boston, 1989); the very best schemes are those that afford the highest reduction in tax liability while incurring the lowest expected penalty.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4e49e784fa70960756fb8b280452974b",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.892909"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用遗传算法模拟避税方案，虽然涉及资产和投资组合的概念，但其核心应用是税务合规和审计，而非上述特定的金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用遗传算法模拟避税方案，虽然涉及资产和投资组合的概念，但其核心应用是税务合规和审计，而非上述特定的金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:37.083859"
+}

@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using machine learning to create a model for scoring money laundering transactions.",
+    "supervised learning": "The model uses predictive classification based on historical data, which implies a supervised learning approach where the model is trained on labeled data (true/false positives).",
+    "classification": "The paper describes the model as using predictive classification to score the likelihood of an alert being a false or true positive, which is a classification task."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using machine learning to create a model for scoring money laundering transactions.\",\n    \"supervised learning\": \"The model uses predictive classification based on historical data, which implies a supervised learning approach where the model is trained on labeled data (true/false positives).\",\n    \"classification\": \"The paper describes the model as using predictive classification to score the likelihood of an alert being a false or true positive, which is a classification task.\"\n  }\n}\n```"
+}

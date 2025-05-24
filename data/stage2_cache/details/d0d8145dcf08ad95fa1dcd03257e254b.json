@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 887,
+    "title": "Orthogonal Bandit Learning for Portfolio Selection Under Cardinality Constraint",
+    "abstract": "In this paper, we address the portfolio selection problem and solve it by means of a machine learning approach. More precisely, we study portfolio optimization under cardinality constraint, which limits the number of assets in a portfolio. This problem is known to be NP-hard and, consequently, difficult to solve for some settings of the cardinality parameter. In order to solve the problem, we introduce a hybrid approach that combines effectively an existing bandit learning algorithm with a kernel search heuristic. The bandit learning algorithm is used for conducting online portfolio selections and the kernel search manages the cardinality constraint. In order to investigate the performance of our algorithm, we carried out computational experiments on real-world market data sets. According to the numerical results, we observe that, despite the presence of cardinality constraint, our hybrid algorithm shows good performance in solving the test instances in reasonable computation time and, in many cases, the algorithm provides portfolios with higher cumulative wealth than those obtained through the existing bandit learning algorithm, which is applied on classical portfolio selection problem.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "635aaba3febfe84b621b09261540a627",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.278627"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly addresses the portfolio selection problem under cardinality constraint, which is a core issue in portfolio management. It introduces a hybrid approach combining bandit learning and kernel search to optimize portfolio selection, and validates the method using real-world market data. The focus is clearly on improving portfolio selection strategies, not on derivatives pricing or financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly addresses the portfolio selection problem under cardinality constraint, which is a core issue in portfolio management. It introduces a hybrid approach combining bandit learning and kernel search to optimize portfolio selection, and validates the method using real-world market data. The focus is clearly on improving portfolio selection strategies, not on derivatives pricing or financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:45.194199"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 518,
+    "title": "Optimizing Resource Allocation with Intelligent Agents",
+    "abstract": "Playing the stock market is one of the many frontiers of applied artificial intelligence. The problem of optimizing asset allocation within a portfolio to yield a return above the market is a hard problem. Current approaches include multi-agent systems in which the task of gathering data, predicting trend and choosing assets are divided between specialized cooperative agents that simulate the environment of an investment fund. This paper builds upon existing models to create ORACLIA (Optimizing Resource Allocation and Capital Lucrativeness with Intelligent A gents), a multi-agent system for portfolio optimization in the Brazilian Stock Market (Bovespa). A multi-agent architecture was de fined and implemented with the use of machine learning classification models to generate buy and sell signals based on the success or failure probability of a predefined strategy. The classification models are able to predict success or failure of a strategy with over 80% accuracy for certain assets. These models successfully replaces the traditional approach that uses regression to predict stock price trends. Backtesting results, conducted in a simulated environment with actual stock market data from 2015 and 2016, show ORACLIA achieves net results up to eight times higher than single asset portfolios or general benchmarks such as Ibovespa, the main index for Bovespa.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "45942fac731f25d20b6ddeaab1cb93db",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:21.042836"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用多智能体系统和机器学习分类模型来优化资产配置，旨在提高投资组合的回报率，这直接属于投资组合管理的范畴。论文明确提到了在巴西股票市场中进行投资组合优化的具体应用场景和实验设计。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用多智能体系统和机器学习分类模型来优化资产配置，旨在提高投资组合的回报率，这直接属于投资组合管理的范畴。论文明确提到了在巴西股票市场中进行投资组合优化的具体应用场景和实验设计。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:04.791800"
+}

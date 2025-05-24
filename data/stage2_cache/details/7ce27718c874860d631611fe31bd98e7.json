@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1744,
+    "title": "An experiment with ANNs and Long-Tail Probability Ranking to Obtain Portfolios with Superior Returns",
+    "abstract": "In an experimental study, we investigated the application of artificial neural networks (ANNs) and long-tail probability ranking in constructing investment portfolios to achieve superior returns compared to a benchmark. Our objective is to demonstrate that portfolio formation can be conceptualized as a classification problem by leveraging the inherent capabilities of ANNs to capture complex relationships and facilitate more informed decisions regarding portfolio composition. We conducted the experiment using lagged asset return information to predict stock returns, employing a pilot sample of 70 assets and a validation sample consisting of all companies belonging to the Standard & Poor's 500 (S&P 500) index. The study covers the period from 2018 to 2022, with 585,650 daily observations of active assets. The results indicate that the classification method proposed in this study, using the asymmetric probabilities of the Students t\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$t$$\\end{document} distribution, outperforms the market and traditional portfolios. Furthermore, the results suggest that the combined approach of ANN and security classification based on their asymmetric leptokurtic probabilities demonstrates superiority over portfolios that rely solely on security signal classification.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0be91885d2f8cd1138460cb31170a17c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:22.907836"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on using artificial neural networks and long-tail probability ranking to construct investment portfolios with superior returns, which is a core aspect of portfolio management. The study's objective and methodology are directly related to optimizing portfolio composition and performance, not derivatives pricing or risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on using artificial neural networks and long-tail probability ranking to construct investment portfolios with superior returns, which is a core aspect of portfolio management. The study's objective and methodology are directly related to optimizing portfolio composition and performance, not derivatives pricing or risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:10.114081"
+}

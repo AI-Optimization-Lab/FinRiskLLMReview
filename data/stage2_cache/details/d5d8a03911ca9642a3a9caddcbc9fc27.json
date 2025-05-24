@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 175,
+    "title": "FreQuant: A Reinforcement-Learning based Adaptive Portfolio Optimization with Multi-frequency Decomposition",
+    "abstract": "How can we leverage inherent frequency features of stock signals for effective portfolio optimization? Portfolio optimization in the domain of finance revolves around strategically allocating assets to maximize returns. Recent advancements highlight the efficacy of deep learning and reinforcement learning (RL) in capturing temporal asset patterns for portfolio optimization. However, previous methodologies focusing on time-domain often fail to detect sudden market shifts and abrupt events because their models are overly tailored to prevalent patterns, resulting in significant losses. In this paper, we propose FREQUANT (Adaptive Portfolio Optimization via Multi-Frequency Quantitative Analysis), an effective deep RL framework for portfolio optimization that fully operates in the frequency domain, tackling the limitations of time domain-focused models. By bringing the analysis into the frequency domain with the Discrete Fourier Transform, our framework captures both prominent and subtle market frequencies, enhancing its adaptability and stability in response to market shifts. This approach allows FREQUANT to adeptly identify primary asset patterns while also effectively responding to less common and abrupt market events, providing a more accurate and comprehensive asset representation. Empirical validation on diverse real-world trading datasets underscores the remarkable performance of FREQUANT, showing its superiority in terms of profitability. Notably, FREQUANT achieves up to 2.1x higher Annualized Rate of Return and 2.9x higher Portfolio Value than the best-performing competitors.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6608693841890ea2c4c326f9c6569aea",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.120638"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on portfolio optimization, which is a core aspect of portfolio management. It introduces a reinforcement-learning based framework for adaptive portfolio optimization, aiming to maximize returns by strategically allocating assets. The study does not address derivatives pricing or financial risk management directly.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on portfolio optimization, which is a core aspect of portfolio management. It introduces a reinforcement-learning based framework for adaptive portfolio optimization, aiming to maximize returns by strategically allocating assets. The study does not address derivatives pricing or financial risk management directly.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:55.069471"
+}

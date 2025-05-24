@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1252,
+    "title": "Deterministic and Stochastic Machine Learning Classification Models: A Comparative Study Applied to Companies' Capital Structures",
+    "abstract": "Corporate financing decisions, particularly the choice between equity and debt, significantly impact a company's financial health and value. This study predicts binary corporate debt levels (high or low) using supervised machine learning (ML) models and firms' characteristics as predictive variables. Key features include companies' size, tangibility, profitability, liquidity, growth opportunities, risk, and industry. Deterministic models, represented by logistic regression and multilevel logistic regression, and stochastic approaches that incorporate a certain degree of randomness or probability, including decision trees, random forests, Gradient Boosting, Support Vector Machines, and Artificial Neural Networks, were evaluated using usual metrics. The results indicate that decision trees, random forest, and XGBoost excelled in the training phase but showed higher overfitting when evaluated in the test sample. Deterministic models, in contrast, were less prone to overfitting. Notably, all models delivered statistically similar results in the test sample, emphasizing the need to balance performance, simplicity, and interpretability. These findings provide actionable insights for managers to benchmark their company's debt level and improve financing strategies. Furthermore, this study contributes to ML applications in corporate finance by comparing deterministic and stochastic models in predicting capital structure, offering a robust tool to enhance managerial decision-making and optimize financial strategies.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "12280d8362e109376f54d40aa2df1ce7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:00:30.637340"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究机器学习模型在公司资本结构预测中的应用，虽然涉及金融领域，但并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究机器学习模型在公司资本结构预测中的应用，虽然涉及金融领域，但并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:34.149036"
+}

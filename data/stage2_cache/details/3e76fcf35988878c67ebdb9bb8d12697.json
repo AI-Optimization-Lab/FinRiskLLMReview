@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 117,
+    "title": "基于股票评论的投资者情绪对持有股票收益影响的研究",
+    "abstract": "投资者行为易受互联网舆论的影响,进而造成股票收益的波动.分析投资者情绪对股票收益的影响方式有利于投资者规避投资风险,促进我国股票市场稳定发展.基于东方财富股吧2020年7月至2021年2月上证股票的评论数据,利用加权朴素贝叶斯分类模型构建了投资者情绪因子,并对情绪因子的构建方式进行了改进.随后将情绪因子引入中国版Fama-French三因子模型,针对单只股票和持股期为1个月的投资组合,基于线性回归、长短期记忆神经网络模型,从线性、非线性两个角度研究了投资者情绪对其持有股票收益率的影响.结果表明,投资者情绪对股票收益率具有非线性的正向影响.前一日的投资者情绪会对当日股票收益产生影响,投资者在研究期望收益率时需予以考虑.",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3cb49db9a10fdd467c98a783cbdd5a12",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:15:09.326611"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文研究了投资者情绪对股票收益率的影响，并特别提到了持股期为1个月的投资组合，这直接关联到投资组合管理的决策过程。论文的核心技术（如情绪因子构建和收益率预测模型）旨在帮助投资者优化投资组合，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文研究了投资者情绪对股票收益率的影响，并特别提到了持股期为1个月的投资组合，这直接关联到投资组合管理的决策过程。论文的核心技术（如情绪因子构建和收益率预测模型）旨在帮助投资者优化投资组合，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:29.460819"
+}

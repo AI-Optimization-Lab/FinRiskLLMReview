@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3345,
+    "title": "Online Kernel estimation of stationary stochastic diffusion models",
+    "abstract": "Nonparametric regression has recently become important in quantitative finance due to its distribution-free property. However, this advantage does not come without any cost. As large sample sizes are always required to adequately estimate local structures, nonparametric regression is computationally intensive in real applications. This paper proposes an online method to decrease the computational cost of nonparametric regression for estimating stationary stochastic diffusion models. We establish asymptotic behaviours of the proposed estimators under appropriate conditions. Numerical examples and an empirical study of US 3-month treasury bill rates are illustrated. The application to financial risk management is also taken into consideration.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9c83a6549c8f3ab77db5bf89ffe8535f",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:25:13.743424"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper explicitly mentions the application to financial risk management in its abstract, and the empirical study of US 3-month treasury bill rates is indicative of risk management applications, particularly in interest rate risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper explicitly mentions the application to financial risk management in its abstract, and the empirical study of US 3-month treasury bill rates is indicative of risk management applications, particularly in interest rate risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:51.531742"
+}

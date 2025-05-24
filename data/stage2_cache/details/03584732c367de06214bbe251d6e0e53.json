@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 528,
+    "title": "Performance of Different Machine Learning Algorithms in Detecting Financial Fraud",
+    "abstract": "This research investigates how the problem of money laundering (ML) can be detected in Saudi Arabia with supervised machine learning, specifically at two levels: the establishment-level means that each establishment in the dataset only has one unique record, while the annual level means each establishment has four main records for each year from 2016 to 2019. The main contribution of this study is to show how effective applying machine learning is in detecting ML activities in establishments. It helps to improve the detection process to be in a proactive manner. This research also considers the significance of machine learning techniques in improving the work of the Financial Intelligent Unit, lowering the risks and consequences of financial crime, and fulfilling the Financial Action Task Force's priorities. The Saudi General Organization for Social Insurance contributed the data used in this study from 2016 to 2019. The data pertains to medium and small establishments, it is classified using supervised machine learning algorithms [Random Forest (RF), Decision Tree (DT), Gradient Boosting (GB), and Nearest Neighbor (KNN)]. Each classifier's performance was assessed in terms of accuracy, precision, recall, fi-measure, and area under the curve. The main findings show that the RF classifier provided the best result with 93% accuracy for the establishment level by classifying the establishments and assigning classes for them based on risk levels. Then, the DT achieved an accuracy of 90%, GB and KNN are 74% and 87%, respectively. While at the annual level, the DT and RF are both achieved the same accuracy with 98%, then GB with 92% and 97% for KNN. This research was written due to its importance in improving the investigation process in Saudi Arabia and performing a deep analysis for the establishments that play the main role in passing illegal activities including ML under their umbrella.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "53de7a138907bc195e8833394bd4b3cc",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "Random Forest (RF)",
+      "Gradient Boosting (GB)",
+      "Nearest Neighbor (KNN)"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.224165"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习算法检测金融欺诈和洗钱活动，虽然涉及金融领域，但其核心技术应用并不属于衍生品定价、金融风险管理或投资组合管理中的任何一个。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习算法检测金融欺诈和洗钱活动，虽然涉及金融领域，但其核心技术应用并不属于衍生品定价、金融风险管理或投资组合管理中的任何一个。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:06.211474"
+}

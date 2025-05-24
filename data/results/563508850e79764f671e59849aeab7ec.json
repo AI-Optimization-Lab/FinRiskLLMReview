@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "decision tree",
+    "regression"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning approaches (Random Forest and XGBoost) to analyze determinants of investor sentiment.",
+    "supervised learning": "Random Forest and XGBoost are supervised learning algorithms, as they require labeled data for training.",
+    "decision tree": "Both Random Forest and XGBoost are ensemble methods based on decision trees.",
+    "regression": "The paper likely uses regression techniques to model the relationship between investor sentiment and various determinants, as it analyzes how factors affect sentiment."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"decision tree\", \"regression\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning approaches (Random Forest and XGBoost) to analyze determinants of investor sentiment.\",\n    \"supervised learning\": \"Random Forest and XGBoost are supervised learning algorithms, as they require labeled data for training.\",\n    \"decision tree\": \"Both Random Forest and XGBoost are ensemble methods based on decision trees.\",\n    \"regression\": \"The paper likely uses regression techniques to model the relationship between investor sentiment and various determinants, as it analyzes how factors affect sentiment.\"\n  }\n}\n```"
+}

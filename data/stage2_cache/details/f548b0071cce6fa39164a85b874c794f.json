@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 814,
+    "title": "ANANKE: a Q-Learning-Based Portfolio Scheduler for Complex Industrial Workflows",
+    "abstract": "Complex workflows that process sensor data are useful for industrial infrastructure management and diagnosis. Although running such workflows in clouds promises reduced operational costs, there are still numerous scheduling challenges to overcome. Such complex workflows are dynamic, exhibit periodic patterns, and combine diverse task groupings and requirements. In this work, we propose ANANKE, a scheduling system addressing these challenges. Our approach extends the state-of-the-art in portfolio scheduling for datacenters with a reinforcement-learning technique, and proposes various scheduling policies for managing complex workflows. Portfolio scheduling addresses the dynamic aspect of the workload. Q-learning, allows our approach to adapt to the periodic patterns of the workload, and to tune the other configuration parameters. The proposed policies are heuristics that guide the provisioning process, and map workflow tasks to the provisioned cloud resources. Through real-world experiments based on real and synthetic industrial workloads, we analyze and compare our prototype implementation of ANANKE with a system without portfolio scheduling (baseline) and with a system equipped with a standard portfolio scheduler. Overall, our experimental results give evidence that a learning-based portfolio scheduler can perform better and consume fewer resources than state-of-the-art alternatives, in particular for workloads with uniform arrival patterns.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8c2c06abd38743d969059aa283a2b15d",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.410261"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是工业工作流的调度系统，虽然提到了'portfolio scheduling'，但这里的'portfolio'指的是任务组合而非金融投资组合。论文的核心技术是强化学习在工业工作流调度中的应用，与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是工业工作流的调度系统，虽然提到了'portfolio scheduling'，但这里的'portfolio'指的是任务组合而非金融投资组合。论文的核心技术是强化学习在工业工作流调度中的应用，与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:27.223970"
+}

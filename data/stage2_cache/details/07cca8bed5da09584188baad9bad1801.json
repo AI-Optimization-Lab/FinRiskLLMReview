@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1617,
+    "title": "Credit risk prediction based on causal machine learning: Bayesian network learning, default inference, and interpretation",
+    "abstract": "The predictive and interpretable power of models is crucial for financial risk management. The purpose of this study was to perform credit risk prediction in a structured causal network with four stages-data processing, structural learning, parameter learning, and interpretation of inferences-and use six real credit datasets to conduct empirical research on the proposed model. Compared with traditional machine learning algorithms, we comprehensively explain the results of credit default through forward and reverse reasoning. We also compared our model with the post hoc interpretation models local interpretable model-agnostic explanations (LIME) and shapley additive explanations (SHAP) to verify the interpretability of Bayesian networks. The experimental results show that the prediction performance of Bayesian networks is superior to traditional machine learning models and similar to the performance of ensemble models. Furthermore, Bayesian networks offer valuable insights into the interplay of features by considering their causal relationships and enable an assessment of how individual features influence the prediction outcome. In this study, what-if analysis was performed to assess credit default probabilities under various conditions. This analysis provides decision-makers with the necessary tools to make informed judgments about the risk profile of borrowers. Consequently, we consider Bayesian networks as a viable tool for credit risk prediction models in terms of prediction performance and interpretability.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e403b230fb6850d601b0d8cdd5fc2188",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:42.474165"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用贝叶斯网络进行信用风险预测，并详细讨论了其在信用违约预测中的应用，这直接属于金融风险管理的范畴。论文的研究目标和实验设计都集中在信用风险评估上，并未涉及衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用贝叶斯网络进行信用风险预测，并详细讨论了其在信用违约预测中的应用，这直接属于金融风险管理的范畴。论文的研究目标和实验设计都集中在信用风险评估上，并未涉及衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:54.240076"
+}

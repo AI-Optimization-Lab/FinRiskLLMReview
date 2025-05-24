@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3764,
+    "title": "Multilevel Monte-Carlo for computing the SCR with the standard formula and other stress tests",
+    "abstract": "This paper studies the multilevel Monte-Carlo estimator for the expectation of a maximum of conditional expectations. This problem arises naturally when considering many stress tests and appears in the calculation of the interest rate module of the standard formula for the SCR. We obtain theoretical convergence results that complement the recent work of Giles and Goda (2019) and give some additional tractability through a parameter that somehow describes regularity properties around the maximum. We then apply the MLMC estimator to the calculation of the SCR at future dates with the standard formula for an ALM savings business on life insurance. We compare it with estimators obtained with Least Squares Monte-Carlo or Neural Networks. We find that the MLMC estimator is computationally more efficient and has the main advantage to avoid regression issues, which is particularly significant in the context of projection of a balance sheet by an insurer due to the path dependency. Last, we discuss the potential of this numerical method and analyse in particular the effect of the portfolio allocation on the SCR at futuredates. (C) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "656a80cc9510bfbe8d99791ea2a31889",
+    "relevant_keywords": [
+      "neural network",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:20:36.091641"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on the calculation of the Solvency Capital Requirement (SCR) using the multilevel Monte-Carlo estimator, which is a key component in financial risk management for insurers. The study specifically addresses stress tests and the projection of a balance sheet by an insurer, which are central to risk assessment and management in the insurance sector.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on the calculation of the Solvency Capital Requirement (SCR) using the multilevel Monte-Carlo estimator, which is a key component in financial risk management for insurers. The study specifically addresses stress tests and the projection of a balance sheet by an insurer, which are central to risk assessment and management in the insurance sector.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:50.676810"
+}

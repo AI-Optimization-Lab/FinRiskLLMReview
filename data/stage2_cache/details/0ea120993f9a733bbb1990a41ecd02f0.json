@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 995,
+    "title": "The extraction of early warning features for predicting financial distress based on XGBoost model and shap framework",
+    "abstract": "The purpose of this paper is to establish a framework for the extraction of early warning risk features for the predicting financial distress based on XGBoost model and SHAP. It is well known that the way to construct early warning risk features to predict financial distress of companies is very important, and by comparing with the traditional statistical methods, though the data-driven machine learning for the financial early warning, modelling has a better performance in terms of prediction accuracy, but it also brings the difficulty such as the one the corresponding model may be not explained well. Recently, eXtreme Gradient Boosting (XGBoost), an ensemble learning algorithm based on extreme gradient boosting, has become a hot topic in the area of machine learning research field due to its strong nonlinear information recognition ability and high prediction accuracy in the practice. In this study, the XGBoost algorithm is used to extract early warning features for the predicting financial distress for listed companies, with 76 financial risk features from seven categories of aspects, and 14 non-financial risk features from four categories of aspects, which are collected to establish an early warning system for the predication of financial distress. With applications, we conduct the empirical testing respect to AUC, KS and Kappa, the numerical results show that by comparing with the Logistic model, our method based on XGBoost model established in this paper has much better ability to predict the financial distress risk of listed companies. Moreover, under the framework of SHAP (SHAPley Additive exPlanations), we are able to give a reasonable explanation for important risk features and influencing ways affecting the financial distress visibly. The results given by this paper show that the XGBoost approach to model early warning features for financial distress does not only preform a better prediction accuracy, but also is explainable, which is significant for the identification of early warning to the financial distress risk for listed companies in the practice.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "187363717e907d8f414d7895524545fb",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.925830"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用XGBoost模型和SHAP框架提取财务困境的早期预警特征，并建立预测模型。这直接应用于金融风险管理中的企业财务风险预测和预警系统构建。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用XGBoost模型和SHAP框架提取财务困境的早期预警特征，并建立预测模型。这直接应用于金融风险管理中的企业财务风险预测和预警系统构建。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:44.386023"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 311,
+    "title": "ML-TEA:一套基于机器学习和技术分析的量化投资算法",
+    "abstract": "量化投资尝试利用计算机算法来预测证券的价格和进行证券的交易,并从中获取超额收益,是系统工程在金融投资领域的重要应用.本文设计了一套基于机器学习和技术指标的量化投资算法ML-TEA(machine learning and technical analysis).该模型以技术指标作为输入变量,再分别通过不同的机器学习算法来预测股票数日之后的涨跌方向,并根据预测的方向来构建投资组合.实证结果显示:第一,三种模型的年化收益率都在25%以上,远超大盘指数的10.60%、买入持有策略的3%以及现有策略.从风险调节绩效(夏普比率、特雷纳比率和詹森绩效)来看,三种策略也都远超基准策略和现有策略.以夏普比率为例,三种策略均在1.50以上,而市场指数的夏普比率为0.38.第二,Ada-TEA和SVM-TEA都可以容忍远高于市场实际成本的交易成本.",
+    "year": 2017,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "140aa760ea6375fbf2ccf2fee1c354a8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-14T22:13:53.065124"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于机器学习和技术分析的量化投资算法，用于预测股票涨跌方向并构建投资组合，这直接属于投资组合管理的范畴。论文中提到的年化收益率、夏普比率等指标也进一步证实了其应用场景是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于机器学习和技术分析的量化投资算法，用于预测股票涨跌方向并构建投资组合，这直接属于投资组合管理的范畴。论文中提到的年化收益率、夏普比率等指标也进一步证实了其应用场景是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:00.837263"
+}

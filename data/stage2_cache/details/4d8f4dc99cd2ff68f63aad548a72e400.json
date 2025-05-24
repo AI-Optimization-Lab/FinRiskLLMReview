@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1766,
+    "title": "A novel credit model risk measure: Do more data lead to lower model risk?",
+    "abstract": "Large databases and Machine Learning enhance our capacity to develop models with many observations and explanatory variables. While the literature has primarily focused on optimizing classifications, little attention has been given to model risk, especially originating from inadequate use. To address this gap, we introduce a new metric for assessing model risk in credit applications. We test the metric using cross-section LASSO default models, each incorporating 200 thousand loan observations from several banks and more than 100 explanatory variables. The results indicate that models that use loans from a single bank have lower model risk than models using loans from the entire financial system. Therefore, adding loans from different banks to increase the number of observations in a model is suboptimal, challenging the widely accepted assumption that more data leads to better predictions.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "697f82f1689fb2e13aa0e977ce428a57",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:07:25.641331"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper introduces a new metric for assessing model risk in credit applications, which is a key aspect of financial risk management. The study focuses on evaluating the risk associated with credit models, specifically addressing the issue of model risk arising from the use of large datasets and machine learning techniques in credit default prediction.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper introduces a new metric for assessing model risk in credit applications, which is a key aspect of financial risk management. The study focuses on evaluating the risk associated with credit models, specifically addressing the issue of model risk arising from the use of large datasets and machine learning techniques in credit default prediction.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:35.826452"
+}

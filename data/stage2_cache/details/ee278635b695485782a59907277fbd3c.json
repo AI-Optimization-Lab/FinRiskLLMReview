@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 832,
+    "title": "Shallow or deep? Training an autoencoder to detect anomalous flows in a retail payment system ☆",
+    "abstract": "Our paper applies a deep neural network autoencoder (AE) to detect anomalous payment flows in Canada's retail batch clearing payments system, the Automated Clearing Settlement System (ACSS). We aim to investigate an AE's potential for detecting complex changes in the liquidity outflows between participants, which could provide an early warning indication for exceptionally large outflows for a participant. As the Canadian financial system has neither faced bank runs nor severe liquidity shocks in recent history, we trained our models on normal  data and evaluated them out-of-sample using test data drawn from two constructed scenarios: a sample derived from the largest 1% of observed historical multilateral net outflows and a sample drawn from a simulated bank run. In both cases, the trained AE performed well by producing larger than usual reconstruction errors. Our approach highlights the efficacy of a class of unsupervised machine learning methods as a useful component of a system operator's risk management toolkit.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "69462d56ced51f79ca3976ec15eac278",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.559252"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on detecting anomalous payment flows in a retail payment system using an autoencoder, which is aimed at providing early warnings for large liquidity outflows. This directly addresses the identification and management of liquidity risk, a key aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on detecting anomalous payment flows in a retail payment system using an autoencoder, which is aimed at providing early warnings for large liquidity outflows. This directly addresses the identification and management of liquidity risk, a key aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:17.756355"
+}

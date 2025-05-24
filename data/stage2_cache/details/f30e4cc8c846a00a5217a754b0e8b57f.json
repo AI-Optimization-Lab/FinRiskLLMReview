@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1954,
+    "title": "Network Modularity based Clustering for Portfolio Allocation: a Monte-Carlo Simulation Study",
+    "abstract": "The need for effective simulation techniques, when studying the performance of portfolio investments in financial applications, was recognized since it was observed that backtesting typically introduces significant bias. However, while Monte Carlo simulations are commonly used in this application scenario, up to now no general frameworks have been proposed. This paper describes a general modeling and simulation framework that is used to study how allocation schemes perform when different synthetic time series generation models are employed. Moreover, we devised a novel portfolio allocation scheme where assets are nodes of a complex network and communities of correlated assets are detected and measured by means of modularity. Allocation is than obtained by equally distributing weights among different communities. We compare this novel scheme against state-of-the-art approaches in various scenarios, under Gaussian, Geometric Brownian motion and ARFIMA generation models. Results show that the proposed scheme outperforms the others in many scenarios.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9822d935ff6b1f93d5e4177a91f4dbe1",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:41.595916"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是提出一种基于网络模块化的聚类方法用于资产组合分配，并通过蒙特卡洛模拟研究不同时间序列生成模型下的分配方案表现。这直接涉及投资组合管理的核心问题，即如何有效地分配资产以优化投资表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是提出一种基于网络模块化的聚类方法用于资产组合分配，并通过蒙特卡洛模拟研究不同时间序列生成模型下的分配方案表现。这直接涉及投资组合管理的核心问题，即如何有效地分配资产以优化投资表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:52.113546"
+}

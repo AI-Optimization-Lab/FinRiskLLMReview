@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2281,
+    "title": "On improving GARCH volatility forecasts for Bitcoin via a meta-learning approach",
+    "abstract": "Modelling the volatility of Bitcoin, the cryptocurrency with the largest market share, has recently attracted considerable attention from researchers, practitioners and investors in financial markets and portfolio management. For this purpose, a wide variety of GARCH-type models have been employed. However, there is no consensus in the literature on which specification arising from the volatility equation and the assumed error distribution is better in an out-of-sample performance. This study tries to fill this gap by comparing the forecasting performances of 110 GARCH-type models for Bitcoin volatility. Furthermore, it proposes a new combining method based on support vector machines (SVM). This method effectively selects the set of superior models to perform meta-learning. The results indicate that the best performing GARCH specification depends on the loss function chosen, and the proposed method leads to more accurate volatility forecasts than those of the best GARCH-type models and other combining methods investigated. (C) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "53451e2e484efd04918b144c8852f17b",
+    "relevant_keywords": [
+      "machine learning",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:04.526898"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究比特币波动率的预测，这在金融风险管理中是一个关键问题，因为波动率是衡量金融资产风险的重要指标。此外，摘要中提到这项研究对金融市场和投资组合管理的从业者和投资者有重要意义，表明其应用也涉及投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文主要研究比特币波动率的预测，这在金融风险管理中是一个关键问题，因为波动率是衡量金融资产风险的重要指标。此外，摘要中提到这项研究对金融市场和投资组合管理的从业者和投资者有重要意义，表明其应用也涉及投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:56.411221"
+}

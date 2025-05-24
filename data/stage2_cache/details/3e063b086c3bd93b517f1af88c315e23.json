@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1467,
+    "title": "RETRACTED: Design of Financial Risk Control Model Based on Deep Learning Neural Network (Retracted Article)",
+    "abstract": "In recent years, with the continuous increase of financial business, the risk of business is on the rise. Among them, major risk cases are frequent, the cases are increasingly complex, and the means of committing crimes are concealed. The main research contents of this paper include the preprocessing of internal and external financial data and the structure design of recurrent NNs. Its purpose is to design a financial risk control model based on a deep learning NNs, thereby reducing financial risk. The Borderline-SMOTE algorithm is used first to preprocess the sample data, and the oversampling method is used to eliminate the imbalance of the data, and then, the long short-term memory deep NNs algorithm is introduced to process the sample data with time series characteristics. The final experiment shows that LSTM has a better accuracy, reaching 0.9715, compared with traditional methods; the sample preprocessing method and risk control model proposed in this paper have better ability to identify fraudulent customers, and the model itself has faster iteration efficiency.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1379d5de08b6f6f34b2bb9bb9af6e3a8",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "feature learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.683320"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是设计一个基于深度学习的金融风险控制模型，旨在通过预处理金融数据和利用LSTM算法来识别欺诈客户并降低金融风险，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是设计一个基于深度学习的金融风险控制模型，旨在通过预处理金融数据和利用LSTM算法来识别欺诈客户并降低金融风险，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:44.740857"
+}

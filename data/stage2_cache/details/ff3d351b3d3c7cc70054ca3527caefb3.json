@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 174,
+    "title": "股指期货短期价格预测模型研究——基于差分BP神经网络模型",
+    "abstract": "本文构建的短期股指期货预测模型,是采用导数分析首先判断其走势方向,再通过一阶差分BP神经网络模型预测波动幅度,进而得到预测日期指价格。以沪深300股指期货为例进行的实证表明,该方法的符号正确率达到75%以上,平均绝对误差也只有20多个点。该方法可用于研究我国股指期货市场的短期定价机制和指导股指期货短期套利。",
+    "year": 2014,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "2da2d01c8a15f3842bfcb5e7b5e6d5d5",
+    "relevant_keywords": [
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:39.691287"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是构建一个基于差分BP神经网络的模型，用于预测股指期货的短期价格，并提到该方法可用于研究股指期货市场的短期定价机制和指导短期套利。这直接涉及衍生品（股指期货）的定价问题，因此属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是构建一个基于差分BP神经网络的模型，用于预测股指期货的短期价格，并提到该方法可用于研究股指期货市场的短期定价机制和指导短期套利。这直接涉及衍生品（股指期货）的定价问题，因此属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:33.580748"
+}

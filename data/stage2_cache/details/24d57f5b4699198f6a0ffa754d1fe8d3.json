@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1215,
+    "title": "Selecting fast algorithms for the capacitated vehicle routing problem with machine learning techniques",
+    "abstract": "We present machine learning (ML) methods for automatically selecting a best performing fast algorithm for the capacitated vehicle routing problem (CVRP) with unit demands. Algorithm selection is to automatically choose among a portfolio of algorithms the one that is predicted to work best for a given problem instance, and algorithm configuration is to automatically select algorithm's parameters that are predicted to work best for a given problem instance. We present a framework incorporating both algorithm selection and configuration for a portfolio that includes the automatically configured Sweep Algorithm, the first generated feasible solution of the hybrid genetic search algorithm, and the Clarke and Wright algorithm. The automatically selected algorithm is shown here to deliver high-quality feasible solutions within very small running times making it highly suitable for real-time applications and for generating initial feasible solutions for global optimization methods for CVRP. These results bode well to the effectiveness of utilizing ML for improving combinatorial optimization methods.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6205a804eb9c8a51756c7fdaaef8ca39",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:09.923628"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究机器学习方法在解决capacitated vehicle routing problem (CVRP)中的应用，属于运筹学和组合优化领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究机器学习方法在解决capacitated vehicle routing problem (CVRP)中的应用，属于运筹学和组合优化领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:21.015092"
+}

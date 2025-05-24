@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5888,
+    "title": "Modeling rare events through a pRARMAX process",
+    "abstract": "Ferreira and Canto e Castro (2007, 2008) introduce a power max-autoregressive process, in short pARMAX, as an alternative to heavy tailed ARMA when modeling rare events. In this paper, an extension of pARMAX is considered, by including a random component which makes the model more applicable to real data. We will see conditions under which this new model, here denoted as pRARMAX, has unique stationary distribution and we analyze its extremal behavior. Based on Bortot and Tawn (1998), we derive a threshold-dependent extremal index which is a functional of the coefficient of tail dependence of Ledford and Tawn (1996, 1997) which in turn relates with the pRARMAX parameter. In order to fit a pRARMAX model to an observed data series, we present a methodology based on minimizing the Bayes risk in classification theory and analyze this procedure through a simulation study. We illustrate with an application to financial data. (C) 2010 Elsevier B.V. All rights reserved.",
+    "year": 2010,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "581607b85bcb2bd300ad546b1f0faa3c",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:52:31.446916"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要介绍了一种名为pRARMAX的统计模型，用于建模罕见事件，并讨论了其极值行为和参数估计方法。虽然论文提到在金融数据上的应用，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要介绍了一种名为pRARMAX的统计模型，用于建模罕见事件，并讨论了其极值行为和参数估计方法。虽然论文提到在金融数据上的应用，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:57.270262"
+}

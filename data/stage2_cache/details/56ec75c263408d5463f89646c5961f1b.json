@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2337,
+    "title": "Knowledge Graph Embeddings for ICU readmission prediction",
+    "abstract": "Background Intensive Care Unit (ICU) readmissions represent both a health risk for patients,with increased mortality rates and overall health deterioration, and a financial burden for healthcare facilities. As healthcare became more data-driven with the introduction of Electronic Health Records (EHR), machine learning methods have been applied to predict ICU readmission risk. However, these methods disregard the meaning and relationships of data objects and work blindly over clinical data without taking into account scientific knowledge and context. Ontologies and Knowledge Graphs can help bridge this gap between data and scientific context, as they are computational artefacts that represent the entities of a domain and their relationships to each other in a formalized way. Methods and results We have developed an approach that enriches EHR data with semantic annotations to ontologies to build a Knowledge Graph. A patient's ICU stay is represented by Knowledge Graph embeddings in a contextualized manner, which are used by machine learning models to predict 30-days ICU readmissions. This approach is based on several contributions: (1) an enrichment of the MIMIC-III dataset with patient-oriented annotations to various biomedical ontologies; (2) a Knowledge Graph that defines patient data with biomedical ontologies; (3) a predictive model of ICU readmission risk that uses Knowledge Graph embeddings; (4) a variant of the predictive model that targets different time points during an ICU stay. Our predictive approaches outperformed both a baseline and state-of-the-art works achieving a mean Area Under the Receiver Operating Characteristic Curve of 0.827 and an Area Under the Precision-Recall Curve of 0.691. The application of this novel approach to help clinicians decide whether a patient can be discharged has the potential to prevent the readmission of 40% of Intensive Care Unit patients, without unnecessarily prolonging the stay of those who would not require it. Conclusion The coupling of semantic annotation and Knowledge Graph embeddings affords two clear advantages: they consider scientific context and they are able to build representations of EHR information of different types in a common format. This work demonstrates the potential for impact that integrating ontologies and Knowledge Graphs into clinical machine learning applications can have.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "90a88ac006643da6727768ee72537647",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature representation",
+      "representation learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:19.604873"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究ICU再入院预测，应用知识图谱嵌入和机器学习技术于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究ICU再入院预测，应用知识图谱嵌入和机器学习技术于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:57.260473"
+}

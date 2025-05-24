@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 4086,
+    "title": "Simultaneous hedging strategy for price and volume risks in electricity businesses using energy and weather derivatives",
+    "abstract": "In general, electric utilities face intrinsic risks as their revenues depend on high volatility factors including price and volume of sales/procurements. Aiming for an effective strategy to control those risks, we construct a hedging portfolio based on energy and weather derivatives, which can minimize the revenue fluctuations. To this end, we provide unique methods by applying nonparametric regression techniques to synthesize the payoff functions of derivatives that change with time, based on tensor product spline functions. The proposed methodology enables us to incorporate two dimensional smoothing conditions of the underlying asset price and expiration date with a yearly cyclical trend. Moreover, we show that the applied method of Analysis of Variance (ANOVA) decomposition can separate deterministic time trends from the original multivariate payoff functions, and hence, a simultaneous estimation of multiple derivatives payoff functions is achieved. By assuming that revenues have yearly cyclical trends even when viewed at the rate of annual change, we also introduce a spline function with cross variables to consider such a mixed effect. In addition, we propose new standardized derivatives with the square of the temperature prediction error as the underlying asset. Empirical analysis using data from both the Japan Electric Power Exchange (JEPX) and PJM in the U.S. demonstrates the significant hedging effect and supports the versatility of the proposed modeling approach . (c) 2021 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY license (http:// creativecommons.org/licenses/by/4.0/).",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6b4cc0e23d814d6935c35b7e47d44af4",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:23:27.455469"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是构建基于能源和天气衍生品的对冲组合，以最小化收入波动，这直接涉及衍生品定价和金融风险管理。论文详细讨论了如何应用非参数回归技术来合成衍生品的支付函数，并展示了如何通过方差分析（ANOVA）分解来分离确定性时间趋势，这些都是衍生品定价的关键技术。同时，论文的目标是控制电力业务中的价格和数量风险，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是构建基于能源和天气衍生品的对冲组合，以最小化收入波动，这直接涉及衍生品定价和金融风险管理。论文详细讨论了如何应用非参数回归技术来合成衍生品的支付函数，并展示了如何通过方差分析（ANOVA）分解来分离确定性时间趋势，这些都是衍生品定价的关键技术。同时，论文的目标是控制电力业务中的价格和数量风险，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:01.969304"
+}

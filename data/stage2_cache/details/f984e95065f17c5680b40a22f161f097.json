@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2344,
+    "title": "Resilience for financial networks under a multivariate GARCH model of stock index returns with multiple regimes",
+    "abstract": "Targeting systemic risk, we propose a two-stage analysis of a large collection of stock markets by considering their interconnections. First, we characterize the joint dynamics of stock returns using a multivariate GARCH model in the presence of regime changes. The model detects three regimes of volatility rising from two unknown but common endogenous breaks. We compute filtered returns by normalizing them using the dynamic GARCH volatility. Second, we build a Gaussian signed weighted and undirected worldwide financial network from filtered stock returns, that evolves across regimes. The best network is built from the partial correlation matrix of filtered stock returns over each regime using regularisation and the minimum Extended Bayesian Information Criterion. To gain insights into the resilience of the financial network and its systemic risk over time, we then compute relevant nodal centrality measures-including the clustering coefficient-over each regime. Thus, we characterize the ever-changing network topology and structure by detecting group-like and community-like patterns (e.g., clustering and community detection, network cohesion). Under the resilience framework and depending on the studied regime, we analyse the propensity of a shock to propagate across the network thanks to positive weights, and the network's ability to mitigate shocks thanks to negative weights. The balance between spreading and inhibiting node influences drives the network's frailty and resilience to shocks. Hence, the network exhibits a high level of systemic risk when its connectivity is large and most edge weights are significantly positive (i.e., strong and multiple conditional dependencies of world stock markets). It is of high significance to policymakers because systemic risk/financial frailty is potentially costly (i.e., loss) while resilience is rewarding (i.e., gain).",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "22fcec7fa7ddf97c38b97aab98264de6",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:19.631415"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on analyzing systemic risk and the resilience of financial networks under different volatility regimes, which are core aspects of financial risk management. The study uses multivariate GARCH models and network analysis to assess how shocks propagate and how the network mitigates them, directly addressing financial stability and risk assessment.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on analyzing systemic risk and the resilience of financial networks under different volatility regimes, which are core aspects of financial risk management. The study uses multivariate GARCH models and network analysis to assess how shocks propagate and how the network mitigates them, directly addressing financial stability and risk assessment.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:56.650023"
+}

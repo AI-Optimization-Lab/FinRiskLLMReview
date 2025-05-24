@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1740,
+    "title": "Encoded Value-at-Risk: A machine learning approach for portfolio risk measurement",
+    "abstract": "Measuring risk is at the center of modern financial risk management. As the world economy is becoming more complex and standard modelling assumptions are violated, the advanced artificial intelligence solutions may provide the right tools to analyse the global market. In this paper, we provide a novel approach for measuring market risk called Encoded Value-at-Risk (Encoded VaR), which is based on a type of artificial neural network, called Variational Auto-encoders (VAEs). Encoded VaR is a generative model which can be used to reproduce market scenarios from a range of historical cross-sectional stock returns, while increasing the signal-to-noise ratio present in the financial data, and learning the dependency structure of the market without any assumptions about the joint distribution of stock returns. We compare Encoded VaR out-of-sample results with twelve other methods and show that it is competitive to many other well-known VaR algorithms presented in the literature. (C) 2022 International Association for Mathematics and Computers in Simulation (IMACS). Published by Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9bb5dfb07b6c320399ca46b0eda185bc",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:52.702204"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper introduces a novel approach called Encoded Value-at-Risk (Encoded VaR) for measuring market risk, which is a core aspect of financial risk management. Additionally, the method is applied to historical cross-sectional stock returns, indicating relevance to portfolio management as it involves analyzing and managing the risk of a portfolio of stocks.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper introduces a novel approach called Encoded Value-at-Risk (Encoded VaR) for measuring market risk, which is a core aspect of financial risk management. Additionally, the method is applied to historical cross-sectional stock returns, indicating relevance to portfolio management as it involves analyzing and managing the risk of a portfolio of stocks.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:38.181899"
+}

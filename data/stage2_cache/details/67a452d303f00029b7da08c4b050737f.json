@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3462,
+    "title": "A simulation-optimisation genetic algorithm approach to product allocation in vending machine systems",
+    "abstract": "In recent years, vending machines have seen increasing levels of popularity. In a fast-paced world where convenience and accessibility of products is highly sought after the vending industry has provided a suitable solution. Although the economic impact of the vending industry is indisputable, it is not without challenges, especially when it comes to the efficiency of the vending logistics operations. The optimisation of logistic vending machine systems is decidedly complex. Product allocation to columns in a vending machine, replenishment points of products, product thresholds at vending machines, and vehicle routes for inventory replenishments are all essential challenges in vending machine system management and operation. If all facets of the problem were to be addressed, it would require techniques such as forecasting, machine learning, data mining, combinatorial optimization and vehicle routing, among others. In the past, these approaches have been explored individually despite their intrinsic interdependence within the problem. This paper aims to help to fill in this gap and proposes a model for the optimisation of product allocation within a vending machine under the constraint of fixed restocking instances. The optimal product allocation is based on the definition of product profitability which accounts for the net revenue earned after the cost of restock, as opposed to the revenue earned until first stock-out to prevent arbitrary extension of the stock-out period. The whole approach is encompassed in the simulation optimisation framework that utilises a Genetic Algorithm, with fitness evaluated as simulated revenue, to determine the optimal product allocation. The acceptable threshold of missed sales for a machine is also determined as a means to make intelligent restocking decisions. Overall, the proposed approach allows the strengths of mathematically robust optimization algorithms and the implementation of analytic solutions to be combined and applied to realistic scenarios where uncertainty may rule out some high quality analytic solutions. It respects problem intricacies proper to vending and addresses the interdependence between routing and portfolio optimisation. The proposal is application-driven and stems from a collaboration with an industry partner. The model is validated against an authentic data set supplied by the partner. The case study results revealed a network-wide improvement in net revenue of approximately 3.4%, with varied efficacy based on machine popularity. The method of optimisation was found to be significantly more effective for higher performing machines, with median improvements as high as 6%. Our framework based on the optimization-simulation model yields clear benefits to vending logistics operations management. The simulation component provides the decision maker with a more comprehensive view on the actual implementation of the solution. Effectively, the joint use of simulation and optimization methods provides managers with enhanced information to help decide on both: (i) the most beneficial product portfolio, and (ii) the quality of the proposed restocking schedules. Simulation-optimisation based approach is a powerful technique used to address stochastic problems. However, it was yet to be applied specifically to logistic vending machine systems. (C) 2019 Elsevier Ltd. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "bd70cec0d6f36d6aea9428eb3ceb97d0",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:17:25.489924"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是自动售货机系统中的产品分配优化问题，虽然提到了组合优化和产品组合的概念，但这些内容与金融领域的衍生品定价、金融风险管理或投资组合管理无关。论文的核心技术是遗传算法和模拟优化框架，应用于物流和运营管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是自动售货机系统中的产品分配优化问题，虽然提到了组合优化和产品组合的概念，但这些内容与金融领域的衍生品定价、金融风险管理或投资组合管理无关。论文的核心技术是遗传算法和模拟优化框架，应用于物流和运营管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:42.593634"
+}

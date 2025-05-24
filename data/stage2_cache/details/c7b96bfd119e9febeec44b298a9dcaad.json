@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5256,
+    "title": "Visualizing information on a sphere",
+    "abstract": "We describe a method for the visualization of information units on spherical domains which is employed in the banking industry for risk analysis, stock prediction and other tasks. The system is based on a quantification of the similarity of related objects that governs the parameters of a mass-spring system. Unlike existing approaches we initialize all information units onto the inner surface of two concentric spheres and attach them with springs to the outer sphere. Since the spring stiffnesses correspond to the computed similarity measures, the system converges into an energy minimum which reveals multidimensional relations and adjacencies in terms of spatial neighborhoods. Depending on the application scenario our approach supports different topological arrangements of related objects. In order to cope with large data sets we propose a blobby clustering mechanism that enables encapsulation of similar objects by implicit shapes. In addition, we implemented various interaction techniques allowing semantic analysis of the underlying data sets. Our prototype system IVORY is written in JAVA, and its versatility is illustrated by an example from financial service providers.",
+    "year": 1997,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f6b8497e7c80c276859869ebaa72542e",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:45:47.530405"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文描述了一种用于可视化信息的方法，特别提到在银行业中用于风险分析和股票预测等任务。虽然论文的技术可以应用于多个领域，但其在金融领域的应用主要集中在风险分析，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文描述了一种用于可视化信息的方法，特别提到在银行业中用于风险分析和股票预测等任务。虽然论文的技术可以应用于多个领域，但其在金融领域的应用主要集中在风险分析，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:34.385668"
+}

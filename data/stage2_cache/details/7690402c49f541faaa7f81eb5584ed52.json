@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1850,
+    "title": "FROM CREDIT SCORING TO REGULATORY SCORING: COMPARING CREDIT SCORING MODELS FROM A REGULATORY PERSPECTIVE",
+    "abstract": "Conventional credit scoring models evaluated by predictive accuracy or profitability typically serve the financial institutions and can hardly reflect their contribution on financial sta-bility. To remedy this, we develop a novel regulatory scoring framework to quantify and compare the corresponding regulatory capital charge errors of credit scoring models. As an application of RegTech, the proposed framework considers the characteristic of example-dependence and cost -sensitivity in credit scoring, which is expected to enhance the ability of risk absorption of financial institutions and thus benefit the regulators. Validated on two real-world credit datasets, empirical results reveal that credit scoring models with good predictive accuracy or profitability do not necessarily provide low capital charge requirement error, which further highlights the importance of regulatory scoring framework. The family of gradient boosting decision tree (GBDT) provides significantly better average performance than industry benchmarks and deep multilayer percep-tron network, especially when financial stability is the primary focus. To further examine the robustness of the proposed regulatory scoring, sampling techniques, cut-off value modification, and probability calibration are employed within the framework and the main conclusions hold in most cases. Furthermore, the analysis on the interpretability via TreeSHAP algorithm alleviates the concerns on transparency of GBDT-based models, and confirms the important roles of loan characteristics, borrowers' solvency and creditworthiness as powerful predictors in credit scoring. Finally, the managerial implications for both financial institutions and regulators are discussed.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e65992f161bcb84e518135e0ba71d717",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "gradient boosting decision tree",
+      "GBDT",
+      "deep multilayer perceptron network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:03.993126"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个监管评分框架，用于评估信用评分模型对金融机构风险吸收能力的影响，这直接关联到金融风险管理领域。论文还讨论了如何通过改进信用评分模型来增强金融稳定性，进一步证实了其在金融风险管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一个监管评分框架，用于评估信用评分模型对金融机构风险吸收能力的影响，这直接关联到金融风险管理领域。论文还讨论了如何通过改进信用评分模型来增强金融稳定性，进一步证实了其在金融风险管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:52.869341"
+}

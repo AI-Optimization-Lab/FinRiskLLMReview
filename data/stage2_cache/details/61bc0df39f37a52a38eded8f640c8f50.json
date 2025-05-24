@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1293,
+    "title": "An investigational analysis on forecasting intraday values",
+    "abstract": "Purpose The algorithmic trading has advanced exponentially and necessitates the evaluation of intraday stock market forecasting on the grounds that any stock market series are foreseen to follow the random walk hypothesis. The purpose of this paper is to forecast the intraday values of stock indices using data mining techniques and compare the techniques' performance in different markets to accomplish the best results. Design/methodology/approach This study investigates the intraday values (every 60th-minute closing value) of four different markets (namely, UK, Australia, India and China) spanning from April 1, 2017 to March 31, 2018. The forecasting performance of multivariate adaptive regression spline (MARSplines), support vector regression (SVR), backpropagation neural network (BPNN) and autoregression (1) are compared using statistical measures. Robustness evaluation is done to check the performance of the models on the relative ratios of the data. Findings MARSplines produces better results than the compared models in forecasting every 60th minute of selected stocks and stock indices. Next to MARSplines, SVR outperforms neural network and autoregression (1) models. The MARSplines proved to be more robust than the other models. Practical implications - Forecasting provides a substantial benchmark for companies, which entails long-run operations. Significant profit can be earned by successfully predicting the stock's future price. The traders have to outperform the market using techniques. Policy makers need to estimate the future prices/trends in the stock market to identify the link between the financial instruments and monetary policy which gives higher insights about the mechanism of existing policy and to know the role of financial assets in many channels. Thus, this study expects that the proposed model can create significant profits for traders by more precisely forecasting the stock market. Originality/value This study contributes to the high-frequency forecasting literature using MARSplines, SVR and BPNN. Finding the most effective way of forecasting the stock market is imperative for traders and portfolio managers for investment decisions. This study reveals the changing levels of trends in investing and expectation of significant gains in a short time through intraday trading.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f4b1d0d9dccbe697a64726e852177fff",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:24.604607"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用数据挖掘和机器学习方法（如MARSplines、SVR和BPNN）来预测股票市场的日内价格，目的是为交易者和投资组合经理提供更精确的投资决策支持。这直接关联到投资组合管理领域，因为准确的股价预测有助于优化资产配置和交易策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用数据挖掘和机器学习方法（如MARSplines、SVR和BPNN）来预测股票市场的日内价格，目的是为交易者和投资组合经理提供更精确的投资决策支持。这直接关联到投资组合管理领域，因为准确的股价预测有助于优化资产配置和交易策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:07.012680"
+}

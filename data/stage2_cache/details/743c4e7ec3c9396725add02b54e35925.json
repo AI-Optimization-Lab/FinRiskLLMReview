@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 27,
+    "title": "基于机器学习算法的债券流动性预测",
+    "abstract": "对投资者而言，标的资产的流动性变化对制定投资策略、防控风险具有重要意义。本文主要关注债券在未来一段时间的流动性，创新性地融合先验知识，使用债券的动静态特征信息，训练出可解释的概率分层决策链模型，实现对流动性的预测。此外，本文提出基于投资组合的未来流动性分数指标，实现在不同投资组合之间的流动性排序，并可以观测在连续时间窗口下的未来流动性的变化。资产管理人也可对不同流动性等级的债券设置变现比例，根据债券当日市值完成对资产组合的可变现金额测算，进一步提升流动性管理能力。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1219ee9951b846f791d790e7a65729ba",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "decision tree",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-14T22:20:52.558358"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是预测债券流动性，这直接关系到金融风险管理中的流动性风险控制。同时，论文提到资产管理人可以根据预测结果调整投资组合的变现比例，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是预测债券流动性，这直接关系到金融风险管理中的流动性风险控制。同时，论文提到资产管理人可以根据预测结果调整投资组合的变现比例，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:21.966496"
+}

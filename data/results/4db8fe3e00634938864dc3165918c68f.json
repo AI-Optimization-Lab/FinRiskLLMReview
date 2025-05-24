@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "manifold learning",
+    "feature learning",
+    "feature representation"
+  ],
+  "explanations": {
+    "manifold learning": "The paper explicitly mentions using manifold learning theory to design the stock index model, assuming the stock dataset is a low-dimensional manifold embedded in a higher-dimensional Euclidean space.",
+    "feature learning": "The paper discusses detecting feature points on the eigenvectors of the discrete Laplace-Beltrami operator (LBO) matrix, which is related to learning features from the data.",
+    "feature representation": "The paper involves constructing a feature representation of the stock dataset through the eigenvectors of the LBO matrix, which is used to select constituent stocks for the index."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"manifold learning\", \"feature learning\", \"feature representation\"],\n  \"explanations\": {\n    \"manifold learning\": \"The paper explicitly mentions using manifold learning theory to design the stock index model, assuming the stock dataset is a low-dimensional manifold embedded in a higher-dimensional Euclidean space.\",\n    \"feature learning\": \"The paper discusses detecting feature points on the eigenvectors of the discrete Laplace-Beltrami operator (LBO) matrix, which is related to learning features from the data.\",\n    \"feature representation\": \"The paper involves constructing a feature representation of the stock dataset through the eigenvectors of the LBO matrix, which is used to select constituent stocks for the index.\"\n  }\n}\n```"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1249,
+    "title": "Deep-Learning Solution to Portfolio Selection with Serially Dependent Returns",
+    "abstract": "This paper investigates a deep-learning solution to high-dimensional multiperiod portfolio optimization problems with bounding constraints on the control. We propose a deep neural network (DNN) architecture to describe the underlying control process. The DNN consists of K subnetworks, where K is the total number of decision steps. The feedback control function is determined solely by the network parameters. In this way, the multiperiod portfolio optimization problem is linked to a training problem of the DNN, that can be efficiently computed by the standard optimization techniques for network training. We offer a sufficient condition for the algorithm to converge for a general utility function and general asset return dynamics including serially dependent returns. Specifically, under the condition that the global minimum of the DNN training problem is attained, we prove that the algorithm converges with the quadratic utility function when the risky asset returns jointly follow multivariate autoregressive (1) models and/or multivariate generalized autoregressive conditional heteroskedasticity (1,1) models. Numerical examples demonstrate the superior performance of the DNN algorithm in various return dynamics for a high-dimensional portfolio (up to 100 dimensions).",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4dbb2311f6c4a02f0183041b7d84325d",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.050020"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是使用深度神经网络解决高维多期投资组合优化问题，并针对序列依赖的回报进行了研究。这直接属于投资组合管理领域，论文明确提到了多期投资组合优化、控制约束以及资产回报动态等关键概念。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是使用深度神经网络解决高维多期投资组合优化问题，并针对序列依赖的回报进行了研究。这直接属于投资组合管理领域，论文明确提到了多期投资组合优化、控制约束以及资产回报动态等关键概念。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:13.787242"
+}

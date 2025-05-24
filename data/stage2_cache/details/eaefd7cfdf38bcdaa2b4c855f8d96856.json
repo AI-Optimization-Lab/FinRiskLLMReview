@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 51,
+    "title": "A multi-scale model with feature recognition for the use of energy futures price forecasting",
+    "abstract": "Energy futures pricing is a critical endeavor in terms of the global economy's trend, the sharp fluctuation of which increases the complexity of price series analysis. The majority of previous research has focused on model integration, data-driven factors and information optimization. It is, however, still not straightforward to provide a robust model for understanding the trend of the energy futures prices due to the multifaceted nature of financial markets. To provide feasibility for energy futures prediction, a multiscale model that integrates the decomposition-ensemble approach and the subcomponents clustering method is proposed, which overcomes the fluctuation position of the energy futures price. The subcomponents clustering method is used to obtain a number of subseries with different frequencies after decomposing the energy futures price series into several subcomponents. The linear model is then used to forecast the trend component, while the machine learning method predicts the nonlinearity at the same time. An examination of the multiscale model yields a plausible interpretation. The discussion and analysis evaluate forecasting dependability and feasibility, demonstrating that the developed multiscale model reduces crude oil futures price forecasting by up to 6.11% and natural gas futures price forecasting by up to 2.05%, respectively.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "e88da25431a9a25132236e86f6f3aaa7",
+    "relevant_keywords": [
+      "machine learning",
+      "clustering",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.806854"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出一个多尺度模型用于能源期货价格预测，这直接涉及衍生品定价领域。论文明确提到能源期货定价的重要性，并展示了模型在原油和天然气期货价格预测上的应用效果。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出一个多尺度模型用于能源期货价格预测，这直接涉及衍生品定价领域。论文明确提到能源期货定价的重要性，并展示了模型在原油和天然气期货价格预测上的应用效果。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:05.270499"
+}

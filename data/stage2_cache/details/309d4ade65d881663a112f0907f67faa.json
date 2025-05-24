@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 410,
+    "title": "A hybrid model integrating artificial neural network with multiple GARCH-type models and EWMA for performing the optimal volatility forecasting of market risk factors",
+    "abstract": "The 2008 financial crisis has highlighted the lack of precision in the market risk metrics that financial institutions must report to the regulator. The use of Machine Learning techniques in stock markets and the treasury (Front-Back Office) of financial institutions is a key tool for optimizing its own resources, internal processes and risk measures. We propose a hybrid methodology to better capture the volatility of market risk factors with Value-at-risk models in periods of stress, but also in periods of stability compared to traditional metrics. This hybrid model uses different types of artificial neural networks and traditional metrics to perform the optimal forecast of volatility applied to the main market risk nodes of the Spanish stock market. We use data from the following main market risk factors: returns on Santander Bank shares, the Spanish Stock Market Index, Euro/Dollar exchange rates and the index that measures the total return performance of a funded long credit position in the on-the-run iTraxx Crossover 5-Year-Index. Our contribution is a hybrid model that combines correct sequential pattern learnings with an improved prediction performance in the volatility of market risk factors. Our findings show that the Support Vector Machine and the Long-Short-Term Memory Model present better prediction results in all factors in the stability periods. Therefore, the proposed method is promising for application in risk management systems.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fd87d72b0fc9c50593fc5bb4b36ddf6a",
+    "relevant_keywords": [
+      "machine learning",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.171489"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种混合模型，用于优化市场风险因素的波动性预测，特别是应用于风险价值（Value-at-Risk）模型。这直接关联到金融机构的风险管理需求，尤其是在压力时期和稳定时期的风险度量。论文明确提到其目标是改进风险管理系统，因此属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一种混合模型，用于优化市场风险因素的波动性预测，特别是应用于风险价值（Value-at-Risk）模型。这直接关联到金融机构的风险管理需求，尤其是在压力时期和稳定时期的风险度量。论文明确提到其目标是改进风险管理系统，因此属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:06.451586"
+}

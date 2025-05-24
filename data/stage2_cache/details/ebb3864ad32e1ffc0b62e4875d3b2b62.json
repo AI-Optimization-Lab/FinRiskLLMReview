@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 47,
+    "title": "Deep Learning for Stock Price Prediction and Portfolio Optimization",
+    "abstract": "Using deep learning for stock market predictions and portfolio optimizations is a burgeoning field of research. This study focuses on the stock market dynamics in developing countries, which are often considered less stable than their developed counterparts. The study is structured in two stages. In the first stage, the authors introduce a stacked LSTM model for predicting NIFTY stocks and then rank the stocks based on their predicted returns. In the second stage, the high-return stocks are selected to form 30 different portfolios with six different objectives, each comprising the top 7, 8, 9, and 10 NIFTY stocks. These portfolios are then compared based on risk and returns. Experimental results show that portfolios with five stocks offer the best returns and that adding more than nine stocks to the portfolio leads to excessive diversification and complexity. Therefore, the findings suggest that the proposed two-stage portfolio optimization method has the potential to construct a promising investment strategy, offering a balance between historical and future information on assets.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "60498e50e4f88a3e9986889bad3384cf",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:31:16.969670"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型（LSTM）预测股票价格，并基于预测结果构建和优化投资组合。研究重点在于通过不同目标（如风险和回报）来比较和选择最佳投资组合，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型（LSTM）预测股票价格，并基于预测结果构建和优化投资组合。研究重点在于通过不同目标（如风险和回报）来比较和选择最佳投资组合，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:36:03.439683"
+}

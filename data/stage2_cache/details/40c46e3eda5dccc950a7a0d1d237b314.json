@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2084,
+    "title": "A Dirichlet Policy Reuse Approach for Financial Markets",
+    "abstract": "Reinforcement learning (RL) is the training of smart agents to take action in an interactive environment in order to maximize the cumulative reward. It has achieved great success in many applications. However, in some domains, e.g., in financial markets, two issues hampered the wide usage of RL. First, it is expensive to interact with the environment as global computation is incurred when receiving new signals. Second, an agent itself may find it difficult to sense changes in the environment. In this paper, we introduce a general framework named Dirichlet Policy Reuse (DPR) to tackle these issues in a financial investment setting. On one hand, DPR will reuse the historical experience as much as possible to control trial and error within a lower level. On the other hand, DPR is ought to be aggressive enough to make exploration when the agent encounters disagreement from the model consensus in our policy library. We validated our framework on several tasks in the financial investment context, including single asset trading and portfolio investment. We show in experiments that DPR can reuse historical knowledge, detect the potential changes in the environment and make appropriate adaptation timely. This paper is a preliminary study on the dynamic policy self-adaptation strategy between knowledge reuse and environment exploration. It lays a good foundation for future research on RL problems under non-stationary environments and especially for investment scenarios.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6605d3d864866dec29eba5a1f51bb717",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:02:32.952412"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术（Dirichlet Policy Reuse）应用于金融投资场景，特别是单资产交易和投资组合投资，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术（Dirichlet Policy Reuse）应用于金融投资场景，特别是单资产交易和投资组合投资，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:20.615277"
+}

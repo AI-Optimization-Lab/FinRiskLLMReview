@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 807,
+    "title": "Stock Market Index Prediction: A framework based on transfer learning and knowledge graph enrichment through uncertainty using natural language and fuzzy logic",
+    "abstract": "The main characteristic of stock market dynamics is uncertainty. While most studies reduce this uncertainty to risk and use objective probabilities to represent it, natural language and fuzzy logic offer tools to go beyond objective probabilities and better represent the uncertainty between the main risk factors (SCRF or super causal risk factor) and the different stock market indices. In this article, an existing knowledge graph (KG) on a complex and uncertain causal process of the financial market dynamics is consider as the main input. We combine expert knowledge, natural language and fuzzy logic to go beyond objectives probabilities and propose a solution based on three pillars: i) The enrichment of each fact in a KG using fuzzy systems theory to introduce uncertainty, then formulation of an input sequence and an output sequence for training a Seq2Seq algorithm as an inference engine. ii) The generation of features that summarize the interaction between each SCRF and each stock index contained in a KG fact. The input sequence is the assumption at time t regarding the behavior of the stock index at time t+1, based on the current interaction between each SCRF and each stock index. The realisation of stock index at time t+1 is represented by the output sequence. (iii) Finally, transfer learning is used to share knowledge (parameter learning) between all stock indexes, increase the training sample, and preserve the stability of input distribution between training, validation, and test samples. Fine-tuning is then employed to improve the predictive power on the specific stock or target index. For instance, when targeting the most significant US index (S&P500), we achieved an accuracy rate of 76%, an F1-score of 74%, and a Matthew Correlation of 0.49, surpassing consistently industry benchmarks over a twelve-year test period. Furthermore, we maintained high and stable metrics compared to two other benchmarks during three sub-periods with high volatility and difficulty in prediction.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "13a3b26b6c534c29070076a3f05fd335",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "sequence-to-sequence learning",
+      "seq2seq",
+      "encoder-decoder",
+      "transfer learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:44.495301"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究股票市场指数的预测，使用了知识图谱、模糊逻辑和迁移学习等技术，但其核心应用是预测而非衍生品定价、金融风险管理或投资组合管理。虽然预测可能与这些领域相关，但论文并未明确指出其技术在这些特定金融领域的直接应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究股票市场指数的预测，使用了知识图谱、模糊逻辑和迁移学习等技术，但其核心应用是预测而非衍生品定价、金融风险管理或投资组合管理。虽然预测可能与这些领域相关，但论文并未明确指出其技术在这些特定金融领域的直接应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:03.779651"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1247,
+    "title": "Credit Default Risk Analysis Using Machine Learning Algorithms with Hyperparameter Optimization",
+    "abstract": "Machine learning models are an important tool that provide a scientific method to identify potential debtors early and predict which clients are more likely to default on their debts, improving the accuracy of assessment in credit risk analysis in financial companies. The purpose of this study was to analyze the performance of gradient boosting machine learning algorithms (CatBoost, LightGBM, and XGBoost) in predicting customer default risk, and the ability of the RandomUnderSampler sampling technique to address unbalanced categories of credit risk. The exploratory analysis of the data set was carried out, then the data preprocessing, finally the trainingwith hyperparameter adjustmentswith theGridSearchCV method to identify the largest number of clients with credit risk. The model is evaluated based on metrics of sensitivity, specificity and precision, on a set of consumer credit data. Among the proposed algorithms, XGBoost outperformed the LightGBM and catBoost models. Experimental results confirmed that the XGBoost model performs better for credit risk prediction with historical data.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0cc959e7477ec4a86d620b811f9d4741",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:00:30.599199"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using machine learning algorithms to predict customer default risk, which is a key aspect of credit risk management in financial institutions. This directly falls under the domain of Financial Risk Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using machine learning algorithms to predict customer default risk, which is a key aspect of credit risk management in financial institutions. This directly falls under the domain of Financial Risk Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:34.571889"
+}

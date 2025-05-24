@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 221,
+    "title": "A Novel Data Driven Machine Learning Algorithm For Fuzzy Estimates of Optimal Portfolio Weights and Risk Tolerance Coefficient",
+    "abstract": "Recently, there has been a growing interest in portfolio optimization using graphical LASSO (GL) machine learning method, by assuming normality for asset returns. However, a major drawback is that most of the asset returns follow nonnormal distributions and sample percentiles are used to study the portfolio optimization with Value-at-Risk (VaR) as a risk measure. In this paper, a data-driven random weights algorithm (RWA) and a sign correlation based portfolio return distribution are used to study the fuzzy portfolio optimization. The superiority of RWA over the commonly used genetic algorithm (GA) in computing the optimal portfolio weights is demonstrated by comparing the computing time. When comparing the estimate of the risk tolerance coefficient and the theoretical value for tangency portfolios with volatility as a risk measure, RWA outperforms (smaller absolute error) the GA. The novelty of this paper is the use of RWA and GA to calculate the fuzzy estimates (interval estimates) of the risk tolerance coefficient/optimal weights and using the sign correlation to obtain the data-driven distribution of the portfolio returns. More specifically the novelty is to obtain the fuzzy estimates of the risk tolerance coefficient and portfolio weights by modelling the portfolio volatility as an asymmetric triangular fuzzy number from the data-driven observed portfolio volatilities. In particular, the proposed RWA as well as GA lead to machine learning solutions for the portfolio optimization problems without a closed form solution and provide fuzzy estimates of the risk tolerance coefficient and the optimal portfolio weights.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "69beef9e52946beb32edcc33e232ec49",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.193804"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用数据驱动的随机权重算法（RWA）和遗传算法（GA）来计算最优投资组合权重和风险容忍系数的模糊估计，并研究投资组合回报的数据驱动分布。这些内容直接涉及投资组合优化问题，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用数据驱动的随机权重算法（RWA）和遗传算法（GA）来计算最优投资组合权重和风险容忍系数的模糊估计，并研究投资组合回报的数据驱动分布。这些内容直接涉及投资组合优化问题，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:45.107825"
+}

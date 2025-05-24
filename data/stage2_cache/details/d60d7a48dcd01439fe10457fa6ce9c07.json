@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 3456,
+    "title": "MONOPOLY: Financial Prediction from MONetary POLicY Conference Videos Using Multimodal Cues",
+    "abstract": "Risk prediction and price movement classification are essential tasks in financial markets. Monetary policy calls (MPC) provide important insights into the actions taken by a country's central bank on economic goals related to inflation, employment, prices, and interest rates. Analyzing visual, vocal, and textual cues from MPC calls can help analysts and policymakers evaluate the economic risks and make sound investment decisions. To aid the analysis of MPC calls, we curate the Monopoly dataset, a collection of public conference call videos along with their corresponding audio recordings and text transcripts released by six international banks between 2009 and 2022. Our dataset is the first attempt to explore the benefits of visual cues in addition to audio and textual signals for financial prediction tasks. We introduce MPCNet, a competitive baseline architecture that takes advantage of the cross-modal transformer blocks and modality-specific attention fusion to forecast the financial risk and price movement associated with the MPC calls. Empirical results prove that the task is challenging, with the proposed architecture performing 5-18% better than strong Transformer-based baselines. We release the MPC dataset and benchmark models to motivate future research in this new challenging domain.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "28134a715639f02ba42ba173fb415f70",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism",
+      "classification",
+      "transformer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:26:09.244819"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是分析货币政策会议视频的多模态线索（视觉、声音和文本）来预测金融风险和价格变动，这直接涉及金融风险管理领域。论文明确提到风险预测和价格运动分类是金融市场中的关键任务，并且其研究目标是帮助分析师和政策制定者评估经济风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是分析货币政策会议视频的多模态线索（视觉、声音和文本）来预测金融风险和价格变动，这直接涉及金融风险管理领域。论文明确提到风险预测和价格运动分类是金融市场中的关键任务，并且其研究目标是帮助分析师和政策制定者评估经济风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:26.268616"
+}

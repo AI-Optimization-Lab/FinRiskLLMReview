@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 605,
+    "title": "Unified Deep Ensemble Architecture for Multiple Classification Tasks",
+    "abstract": "Banks face regular challenges in making decisions for ever increasing need for bank loans. Most banks use applicant's financial situations, their past history, affordability checks, credit score and risk assessment, which are time consuming, challenging, tedious process and prone to errors. Although many existing machine learning algorithms are employed to extract crucial information involving pattern/behaviour of the loan applicants, significance challenges still exist. In this work, we propose a unified deep ensemble architecture for multiple classification tasks (DEAMT) solving problems that are diverse in nature with a focus on financial datasets for bank loan approval. Traditional machine learning algorithms focus on domain specific problems for classification task ignoring their generalisation capability across multiple domain applications. DEAMT is a novel architecture that uses concatenated decision trees and convolution neural networks configured in both sequential and parallel architectures for optimising multiple classification tasks across multiple domains. The proposed architecture is very versatile for both large and smaller datasets across multiple domains. Extensive experimental results, analysis and ablation studies on various diverse datasets handling various classification problems show the superiority of our proposed architecture as compared to the baseline and other popular emerging methods.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2c90634cff2b5dc2cfb710f325041e8b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.553038"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种深度集成架构，专注于银行贷款审批的金融数据集，这直接涉及信用风险评估，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种深度集成架构，专注于银行贷款审批的金融数据集，这直接涉及信用风险评估，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:37.945434"
+}

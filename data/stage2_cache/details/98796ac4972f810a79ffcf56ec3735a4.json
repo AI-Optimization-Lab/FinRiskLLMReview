@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 2502,
+    "title": "Credit card fraud detection using a deep learning multistage model",
+    "abstract": "The banking sector is on the eve of a serious transformation and the thrust behind it is artificial intelligence (AI). Novel AI applications have been already proposed to deal with challenges in the areas of credit scoring, risk assessment, client experience and portfolio management. One of the most critical challenges in the aforementioned sector is fraud detection upon streams of transactions. Recently, deep learning models have been introduced to deal with the specific problem in terms of detecting and forecasting possible fraudulent events. The aim is to estimate the unknown distribution of normal/fraudulent transactions and then to identify deviations that may indicate a potential fraud. In this paper, we elaborate on a novel multistage deep learning model that targets to efficiently manage the incoming streams of transactions and detect the fraudulent ones. We propose the use of two autoencoders to perform feature selection and learn the latent data space representation based on a nonlinear optimization model. On the delivered significant features, we subsequently apply a deep convolutional neural network to detect frauds, thus combining two different processing blocks. The adopted combination has the goal of detecting frauds over the exposed latent data representation and not over the initial data.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8133fc77cb7da568a16f8a58c392d586",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "classification",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:35.688130"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习模型进行信用卡欺诈检测，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习模型进行信用卡欺诈检测，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:10.758561"
+}

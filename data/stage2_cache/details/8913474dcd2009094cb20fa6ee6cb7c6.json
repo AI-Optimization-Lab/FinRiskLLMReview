@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 785,
+    "title": "Automated Portfolio Rebalancing using Q-learning",
+    "abstract": "Fund Managers and retail Do-it-yourself investors constantly seek ideas and techniques to invest their wealth in various financial assets to maximize their wealth over time while trying to minimize the Investment Risk and Transaction costs. This study uses Basic Q-Learning Reinforcement Learning agents who will learn market patterns to trade in financial assets to maximize the fund value, using portfolio returns net of transaction costs as the learning criteria. 15 Indian financial assets covering Equity Sectoral Indices, Government Security Indices and Gold spot prices were chosen and a Reinforcement Learning agent was trained on each of them. The Reinforcement Learning agents were given Simple Moving Averages, 52-Week Stochastic Indicator and Price Change Momentum Indicators for their respective financial assets to train on. Testing was conducted for the Year 2019 and evaluation of the performance was done using the annual returns net of transaction costs, Max Drawdown and Standard Deviation, in comparison to the benchmarks. Most of the agents have been able to reduce the Max Drawdown and Standard Deviation while there is further scope to improve on the Fund Performance. The study has been successful in implementing a basic Q-Learning algorithm for Portfolio optimization to reduce the downside risk and the study would lay the foundation to perform further research on this Subject to maximize wealth creation from Financial Markets. Exploration of further features, tuning of hyper-parameters for each Asset & use of Deep Q-Learning algorithm could be explored further to take forward this research.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a83f42fcaa247a93716c4acfbf8de059",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "Q-learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:08.016348"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用Q-learning强化学习算法进行投资组合的自动再平衡，旨在最大化基金价值并最小化投资风险和交易成本。研究目标、实验设计和评估指标（如年化回报、最大回撤和标准差）均明确指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用Q-learning强化学习算法进行投资组合的自动再平衡，旨在最大化基金价值并最小化投资风险和交易成本。研究目标、实验设计和评估指标（如年化回报、最大回撤和标准差）均明确指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:40.589258"
+}

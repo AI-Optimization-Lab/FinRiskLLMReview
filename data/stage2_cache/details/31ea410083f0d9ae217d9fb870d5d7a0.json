@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 504,
+    "title": "Price spread prediction in high-frequency pairs trading using deep learning architectures",
+    "abstract": "High-Frequency Trading (HFT) leverages advanced algorithms and high-speed data transmission to execute a large volume of trades within extremely short timeframes and generate profit. However, predicting stock prices in this context is challenging due to the frequent fluctuations in bid and ask conditions within financial markets. Institutional investors often employ pairs trading strategies to mitigate the systemic risk associated with single products, simultaneously buying and selling highly correlated financial instruments to profit from fluctuations in abnormal price spreads. In this study, we utilized intraday continuous trading data from the Taiwan Stock Exchange, integrating commonly used stock market features relevant to HFT. By employing XGBoost for feature selection and combining it with deep learning models, we aimed to predict the relationship between price spreads and boundaries in pairs trading, thereby generating entry and exit signals. Although accurately predicting the relationship between price spreads and boundaries presents significant challenges, the model effectively learned the pattern of price spread changes. Applying the model's entry and exit signals in pairs trading demonstrated that this strategy can enhance win rates and achieve stable profits in the volatile intraday market environment. This research provides practical implications for those interested in high-frequency trading and deep learning models in the financial market, equipping them with valuable knowledge and insights.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "8a68a2f03cfaa25a7b1f276024ded71e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "feature learning",
+      "feature representation",
+      "XGBoost"
+    ],
+    "stage1_timestamp": "2025-05-15T01:38:59.310337"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和XGBoost来预测价格差，并生成配对交易的进出信号，这直接应用于投资组合管理中的交易策略优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和XGBoost来预测价格差，并生成配对交易的进出信号，这直接应用于投资组合管理中的交易策略优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:51.404349"
+}

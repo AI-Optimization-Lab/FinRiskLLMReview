@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "neural network",
+    "deep learning",
+    "regression",
+    "backpropagation",
+    "BP",
+    "hidden layer",
+    "recurrent neural network",
+    "long short-term memory",
+    "LSTM"
+  ],
+  "explanations": {
+    "machine learning": "The paper discusses the use of machine learning tools in financial applications, specifically stock market prediction.",
+    "neural network": "The paper proposes a model based on an adaptive NARX neural network for stock market prediction.",
+    "deep learning": "The paper mentions the use of deep learning algorithms to predict the stock market index.",
+    "regression": "The paper focuses on predicting the closing price of the stock market, which is a regression task.",
+    "backpropagation": "The Levenberg-Marquardt algorithm, which is a variant of backpropagation, is used for training the network.",
+    "BP": "BP is short for backpropagation, which is implicitly used in the Levenberg-Marquardt algorithm.",
+    "hidden layer": "Neural networks, including the NARX model, typically have hidden layers for processing inputs.",
+    "recurrent neural network": "The NARX model is a type of recurrent neural network that incorporates feedback loops.",
+    "long short-term memory": "The NARX model uses memory slots (delays in input and output), which is conceptually similar to LSTM networks.",
+    "LSTM": "LSTM is a type of recurrent neural network with memory capabilities, similar to the NARX model described in the paper."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"neural network\",\n    \"deep learning\",\n    \"regression\",\n    \"backpropagation\",\n    \"BP\",\n    \"hidden layer\",\n    \"recurrent neural network\",\n    \"long short-term memory\",\n    \"LSTM\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper discusses the use of machine learning tools in financial applications, specifically stock market prediction.\",\n    \"neural network\": \"The paper proposes a model based on an adaptive NARX neural network for stock market prediction.\",\n    \"deep learning\": \"The paper mentions the use of deep learning algorithms to predict the stock market index.\",\n    \"regression\": \"The paper focuses on predicting the closing price of the stock market, which is a regression task.\",\n    \"backpropagation\": \"The Levenberg-Marquardt algorithm, which is a variant of backpropagation, is used for training the network.\",\n    \"BP\": \"BP is short for backpropagation, which is implicitly used in the Levenberg-Marquardt algorithm.\",\n    \"hidden layer\": \"Neural networks, including the NARX model, typically have hidden layers for processing inputs.\",\n    \"recurrent neural network\": \"The NARX model is a type of recurrent neural network that incorporates feedback loops.\",\n    \"long short-term memory\": \"The NARX model uses memory slots (delays in input and output), which is conceptually similar to LSTM networks.\",\n    \"LSTM\": \"LSTM is a type of recurrent neural network with memory capabilities, similar to the NARX model described in the paper.\"\n  }\n}\n```"
+}

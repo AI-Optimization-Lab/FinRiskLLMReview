@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1157,
+    "title": "Constructing long-short stock portfolio with a new listwise learn-to-rank algorithm",
+    "abstract": "Factor strategies have gained growing popularity in industry with the fast development of machine learning. Usually, multi-factors are fed to an algorithm for some cross-sectional return predictions, which are then further used to construct a long-short portfolio. Instead of predicting the value of the stock return, emerging studies predict a ranked stock list using the mature learn-to-rank technology. In this study, we propose a new listwise learn-to-rank loss function which aims to emphasize both the top and the bottom of a rank list. Our loss function, motivated by the long-short strategy, is endogenously shift-invariant and can be viewed as a direct generalization of ListMLE. Under different transformation functions, our loss can lead to consistency with binary classification loss or permutation level 0-1 loss. A probabilistic explanation for our model is also given as a generalized Plackett-Luce model. Based on a dataset of 68 factors in the China A-share market from 2006 to 2019, our empirical study has demonstrated the strength of our method which achieves an out-of-sample annual return of 38% with Sharpe ratio 2.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e0fcc449bc025d12b1109ad64f6e4b17",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.851657"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是一种新的列表式学习排序算法，用于构建多空股票投资组合，这直接属于投资组合管理的范畴。论文明确提到使用该算法进行股票排名并构建投资组合，且实证研究展示了其在高回报和夏普比率方面的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是一种新的列表式学习排序算法，用于构建多空股票投资组合，这直接属于投资组合管理的范畴。论文明确提到使用该算法进行股票排名并构建投资组合，且实证研究展示了其在高回报和夏普比率方面的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:54.538697"
+}

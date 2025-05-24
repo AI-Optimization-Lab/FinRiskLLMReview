@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 237,
+    "title": "MONTE CARLO SIMULATION WITH BOOSTING REGRESSION FOR PRICING AMERICAN OPTION",
+    "abstract": "The Boosting Regression Monte Carlo (BRM) method is proposed to price American options. The boosting regression is more general and flexible than the regression method in the Least Squares Monte Carlo (LSM) method and it solves the overfitting problem of the regression method in LSM through the implementation of regularization techniques, which makes the BRM method become natural improvement of the LSM approach in American option pricing. The American option pricing results are compared between BRM and LSM in two situations when the dynamics of underlying stock price of the American option follow a geometric Brownian motion and a double exponential jump diffusion process. The results show the BRM method could discover better exercise strategy in American option pricing and give more accurate American option price.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "5c66680b10546b67a85ec6dd0a7e26fa",
+    "relevant_keywords": [
+      "regression",
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.215775"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是Boosting Regression Monte Carlo (BRM)方法，专门用于定价美式期权，这直接属于衍生品定价领域。论文明确比较了BRM和LSM在美式期权定价中的表现，并讨论了在不同股票价格动态下的定价结果，表明其主要研究目标是改进衍生品定价方法。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是Boosting Regression Monte Carlo (BRM)方法，专门用于定价美式期权，这直接属于衍生品定价领域。论文明确比较了BRM和LSM在美式期权定价中的表现，并讨论了在不同股票价格动态下的定价结果，表明其主要研究目标是改进衍生品定价方法。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:01.691214"
+}

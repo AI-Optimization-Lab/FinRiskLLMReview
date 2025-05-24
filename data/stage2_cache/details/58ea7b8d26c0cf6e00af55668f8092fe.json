@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 4102,
+    "title": "Rating prediction via generative convolutional neural networks based regression",
+    "abstract": "Ratings are an essential criterion for evaluating the quality of movies and a critical indicator of whether a customer would watch a movie. Therefore, an important related research challenge is to predict the rating of a movie before it is released in cinema or even before it is produced. Many existing approaches fail to address this challenge because they predict movie ratings based on post-production factors such as review comments from social media. Consequently, they are generally inapplicable until a movie has been released for a certain period of time when a sufficient number of review comments have become available. In this paper, we propose a regression model based on generative convolutional neural networks for movie rating prediction. Instead of post-production factors widely used by previous work, this model learns from movies' intrinsic pillars such as genres, budget, cast, director and plot information, which are obtainable before the production of movies. In particular, the model explores the correlations between the rating of a movie and its intrinsic attributes to predict its rating. The results can serve as a reference for investors and movie studios to determine an optimal portfolio for movie production and a guidance to the interested users to choose the movie to watch. Extensive experiments on a real dataset are benchmarked against a set of baselines and state of the art approaches. The results demonstrate the effectiveness of our approach. The proposed model is also general to be extended to handle other prediction tasks. (c) 2018 Elsevier B.V. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2ffcb0d98ee2214ce0475afb4cdff13d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:23:58.030720"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于生成卷积神经网络的电影评分预测模型，其应用场景是电影产业的投资决策和用户选择，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于生成卷积神经网络的电影评分预测模型，其应用场景是电影产业的投资决策和用户选择，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:00.875441"
+}

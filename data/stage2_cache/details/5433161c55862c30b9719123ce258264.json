@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2541,
+    "title": "A Self-adaptive Indicator Selection Approach for Solving Credit Risk Assessment",
+    "abstract": "Credit risk assessment, which aims at identifying high-risk users, plays a critical role in financial institutions. A common method is to use the greedy strategy to generate an interpretable rule set to classify all the users into high-risk or non-risk users. During each iteration, the greedy strategy utilizes a pre-defined indicator function to evaluate which rule is the best and then adds it to the rule set. However, in reality, the indicator function is designed manually and requires much domain knowledge and expert experience. Worse still, we need to design a suitable indicator for every situation, which is tedious and time-consuming work. This motivates us to propose a self-adaptive indicator that can be adapted to different situations without too much human intervention. In this paper, we see the indicator as a weighted sum of several sub-indicators. By tuning the weights, the indicator can be adapted to different situations automatically. That is, we transform this indicator selection problem into a weights tuning problem. To find the best weight of self-adaptive indicators, machine learning methods and black-box optimization are utilized. The experimental results demonstrated that our self-adaptive indicator can select a better rule set to identify more high-risk users compared to the human-defined indicator.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fa337af03673193122154122ea222958",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:16:32.682553"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit risk assessment, which is a key component of financial risk management, aiming to identify high-risk users to mitigate potential financial losses.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit risk assessment, which is a key component of financial risk management, aiming to identify high-risk users to mitigate potential financial losses.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:33.520608"
+}

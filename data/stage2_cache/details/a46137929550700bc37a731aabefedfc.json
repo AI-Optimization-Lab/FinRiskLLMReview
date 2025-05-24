@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 694,
+    "title": "Causal data science for financial stress testing",
+    "abstract": "The most recent financial upheavals have cast doubt on the adequacy of some of the conventional quantitative risk management strategies, such as VaR (Value at Risk), in many common situations. Consequently, there has been an increasing need for verisimilar financial stress testings, namely simulating and analyzing financial portfolios in extreme, albeit rare scenarios. Unlike conventional risk management which exploits statistical correlations among financial instruments, here we focus our analysis on the notion of probabilistic causation, which is embodied by Suppes-Bayes Causal Networks (SBCNs); SBCNs are probabilistic graphical models that have many attractive features in terms of more accurate causal analysis for generating financial stress scenarios. In this paper, we present a novel approach for conducting stress testing of financial portfolios based on SBCNs in combination with classical machine learning classification tools. The resulting method is shown to be capable of correctly discovering the causal relationships among financial factors that affect the portfolios and thus, simulating stress testing scenarios with a higher accuracy and lower computational complexity than conventional Monte Carlo simulations. (C) 2018 Elsevier B.V. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f4b97398c5300215ab7c5f93f2349441",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.392090"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用Suppes-Bayes Causal Networks (SBCNs)和机器学习分类工具进行金融压力测试，旨在更准确地模拟和分析极端情景下的金融投资组合表现。这直接属于金融风险管理的范畴，特别是针对风险测量和压力测试的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用Suppes-Bayes Causal Networks (SBCNs)和机器学习分类工具进行金融压力测试，旨在更准确地模拟和分析极端情景下的金融投资组合表现。这直接属于金融风险管理的范畴，特别是针对风险测量和压力测试的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:49.842138"
+}

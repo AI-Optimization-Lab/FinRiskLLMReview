@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 285,
+    "title": "Portfolio Selection of KOMPAS-100 Stocks Index Using B-Spline Based Clustering",
+    "abstract": "Investment risk in stocks is one of the things that need to be considered by investors. Therefore investors need to develop strategies to manage portfolios. One way to manage risk in stock investments is to diversify the portfolio by selecting stocks. In this paper, stocks in a portfolio are chosen based on the similarity of the price movement data through the clustering using K-means. Since stocks in the same cluster have a higher similarity compared to shares in different clusters, the portfolio consists of stocks selected in each different cluster. Stock price movements are high dimensional data, requiring computation costs during clustering, so the dimension reduction is applied by conducting an interpolation using B-Spline. Based on the weekly dataset in 10 years (01/01/2009 - 12/31/2018), the Mean-Variance and the Equal-Weight portfolio consists of the selected stocks using this approach offer less volatility, higher Sharpe Index, and better cumulative performance. (C) 2021 The Authors. Published by Elsevier B.V.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2947700e311af627bd6c1fdd83e9a583",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.895153"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用B-Spline基于聚类的股票选择方法，旨在通过多样化投资组合来管理风险并提高投资绩效，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用B-Spline基于聚类的股票选择方法，旨在通过多样化投资组合来管理风险并提高投资绩效，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:11.370924"
+}

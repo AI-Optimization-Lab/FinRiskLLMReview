@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1282,
+    "title": "Using Machine Learning to Better Model Long-Term Care Insurance Claims",
+    "abstract": "Long-term care insurance (LTCI) should be an essential part of a family financial plan. It could protect assets from the expensive and relatively common risk of needing disability assistance, and LTCI purchase rates are lower than expected. Though there are multiple reasons for this trend, it is partially due to the difficultly insurers have in operating profitably as LTCI providers. If LTCI providers were better able to forecast claim rates, they would have less difficulty maintaining profitability. In this article, we develop several models to improve upon those used by insurers to forecast claim rates. We find that standard logistic regression is outperformed by tree-based and neural network models. More modest improvements can be found by using a neighbor-based model. Of all of our tested models, the random forest models were the consistent top performers. Additionally, simple sampling techniques influence the performance of each of the models. This is especially true for the deep neural network, which improves drastically under oversampling. The effects of the sampling vary depending on the size of the available data. To better understand this relationship, we thoroughly examine three states with various amounts of available data as case studies.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c441e32cc47a9cb480eaf378133c5ca9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.844419"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型（如随机森林和神经网络）来预测长期护理保险（LTCI）的索赔率，这属于保险公司在运营中面临的金融风险管理问题。通过更准确地预测索赔率，保险公司可以更好地管理其风险并维持盈利能力。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型（如随机森林和神经网络）来预测长期护理保险（LTCI）的索赔率，这属于保险公司在运营中面临的金融风险管理问题。通过更准确地预测索赔率，保险公司可以更好地管理其风险并维持盈利能力。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:31.548038"
+}

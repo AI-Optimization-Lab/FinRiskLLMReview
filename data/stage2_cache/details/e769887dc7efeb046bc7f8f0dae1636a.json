@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 27,
+    "title": "基于深度学习的期权价格预测研究",
+    "abstract": "期权作为一种高杠杆的金融衍生品，拥有出色的套利和对冲性能。传统的无套利期权定价方法，包括Black-Scholes期权定价模型、Merton模型和Heston模型，他们的诞生均具有严格的假设条件，同时使用随机过程拟合期权价格走势。然而，由于实际期权市场与上述严格的假设条件具有较大差异，因此传统的无套利期权定价方法无法还原实际市场中的期权定价过程。由此，本文着眼于数据驱动方法，采取深度学习算法来模拟期权定价过程。本文选取上证50ETF期权的数据，在传统无套利的Black-Scholes期权定价理论基础上，利用深度学习中的BP神经网络及LSTM神经网络模型对欧式期权定价进行可行性研究。本文建立两个期权价格预测模型，并利用这两个模型分别对期权价格进行预测，用MSE、MAE和R-squared这三个模型评价指标来描述不同模型的预测精度。实证结果表明，LSTM模型的预测精度在预测上证50ETF期权价格时具有显著优势。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "eec0f9c9a1421999b6e88b4cc017769a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "long short-term memory",
+      "LSTM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T18:47:20.852164"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用深度学习算法（BP神经网络和LSTM神经网络）来模拟期权定价过程，特别是针对上证50ETF期权的价格预测。这直接属于衍生品定价的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用深度学习算法（BP神经网络和LSTM神经网络）来模拟期权定价过程，特别是针对上证50ETF期权的价格预测。这直接属于衍生品定价的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:45:06.522731"
+}

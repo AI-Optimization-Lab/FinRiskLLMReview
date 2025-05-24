@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 374,
+    "title": "DEEP STOCK REPRESENTATION LEARNING: FROM CANDLESTICK CHARTS TO INVESTMENT DECISIONS",
+    "abstract": "We propose a novel investment decision strategy (IDS) based on deep learning. The performance of many IDSs is affected by stock similarity. Most existing stock similarity measurements have the problems: (a) The linear nature of many measurements cannot capture nonlinear stock dynamics; (b) The estimation of many similarity metrics (e.g. covariance) needs very long period historic data (e.g. 3K days) which cannot represent current market effectively; (c) They cannot capture translation-invariance. To solve these problems, we apply Convolutional AutoEncoder to learn a stock representation, based on which we propose a novel portfolio construction strategy by: (i) using the deeply learned representation and modularity optimisation to cluster stocks and identify diverse sectors, (ii) picking stocks within each cluster according to their Sharpe ratio (Sharpe 1994). Overall this strategy provides low-risk high-return portfolios. We use the Financial Times Stock Exchange 100 Index (FTSE 100) data for evaluation. Results show our portfolio outperforms FTSE 100 index and many well known funds in terms of total return in 2000 trading days.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "592ec19d86b0b42805efd7b3f1979a83",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:37:32.436326"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习（特别是卷积自编码器）来学习股票表示，并基于此提出了一种新的投资组合构建策略。论文明确提到通过聚类股票和选择夏普比率高的股票来构建低风险高回报的投资组合，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习（特别是卷积自编码器）来学习股票表示，并基于此提出了一种新的投资组合构建策略。论文明确提到通过聚类股票和选择夏普比率高的股票来构建低风险高回报的投资组合，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:39.947632"
+}

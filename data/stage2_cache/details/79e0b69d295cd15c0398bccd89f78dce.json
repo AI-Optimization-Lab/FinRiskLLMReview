@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 337,
+    "title": "Credit Risk Assessment and Financial Decision Support Using Explainable Artificial Intelligence",
+    "abstract": "The greatest technological transformation the world has ever seen was brought about by artificial intelligence (AI). It presents significant opportunities for the financial sector to enhance risk management, democratize financial services, ensure consumer protection, and improve customer experience. Modern machine learning models are more accessible than ever, but it has been challenging to create and implement systems that support real-world financial applications, primarily due to their lack of transparency and explainability-both of which are essential for building trustworthy technology. The novelty of this study lies in the development of an explainable AI (XAI) model that not only addresses these transparency concerns but also serves as a tool for policy development in credit risk management. By offering a clear understanding of the underlying factors influencing AI predictions, the proposed model can assist regulators and financial institutions in shaping data-driven policies, ensuring fairness, and enhancing trust. This study proposes an explainable AI model for credit risk management, specifically aimed at quantifying the risks associated with credit borrowing through peer-to-peer lending platforms. The model leverages Shapley values to generate AI predictions based on key explanatory variables. The decision tree and random forest models achieved the highest accuracy levels of 0.89 and 0.93, respectively. The model's performance was further tested using a larger dataset, where it maintained stable accuracy levels, with the decision tree and random forest models reaching accuracies of 0.90 and 0.93, respectively. To ensure reliable explainable AI (XAI) modeling, these models were chosen due to the binary classification nature of the problem. LIME and SHAP were employed to present the XAI models as both local and global surrogates.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "94cdb78c136f1c3acdb769d46d4f46c8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:41.044166"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing an explainable AI model for credit risk assessment, specifically targeting peer-to-peer lending platforms. This directly addresses financial risk management by quantifying and managing credit risks, which is a core aspect of risk management in finance.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing an explainable AI model for credit risk assessment, specifically targeting peer-to-peer lending platforms. This directly addresses financial risk management by quantifying and managing credit risks, which is a core aspect of risk management in finance.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:02.558120"
+}

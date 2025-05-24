@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 303,
+    "title": "Recommendation system for technology convergence opportunities based on self-supervised representation learning",
+    "abstract": "We show how a deep neural network can be designed to learn meaningful representations from high-dimensional and heterogeneous categorical features in patent data using self-supervised learning. Based on each firm's technology portfolio and each patent's co-classification information, we propose a novel recommendation system for firms seeking new convergence opportunities through representations of convergence items and firms. The results of this work are expected to recommend convergence opportunities in multiple technology fields by considering the target firm's potential preference. First, we create a technology portfolio consisting of a set of patents owned by each firm. Then, we train a neural network to extract latent representations of firms and technology convergence items. Despite a lack of indicators related to a firm's latent preference for a convergence item, a self-supervised neural network can capture the similarity with semantic information of firm's latent preference that is implicitly present in patent's co-classification information in each firm's technology portfolio. We then calculate the similarity between the vector of a target firm and convergence items for recommendation. The top N similar convergence items that have the highest scores are recommended as the new convergence items for the target firm. We apply our framework to the dataset of patents granted by the United States Patent and Trademark Office between 2011 and 2015. The results indicate that the recent development in theories and empirical studies of deep representation learning can shed new light on extracting valuable information from the structured part of patent data.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3a350e88127567c47b742512746af69d",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "representation learning",
+      "neural network",
+      "deep learning",
+      "feature representation",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:00.405430"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于自监督表示学习的专利数据推荐系统，用于技术融合机会的推荐，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于自监督表示学习的专利数据推荐系统，用于技术融合机会的推荐，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:07.789083"
+}

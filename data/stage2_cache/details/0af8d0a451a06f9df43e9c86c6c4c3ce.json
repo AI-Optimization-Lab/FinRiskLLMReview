@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2382,
+    "title": "A Deep Reinforcement Learning-Based Adaptive Large Neighborhood Search for Capacitated Electric Vehicle Routing Problems",
+    "abstract": "The Capacitated Electric Vehicle Routing Problem (CEVRP) poses a novel challenge within the field of vehicle routing optimization, as it requires consideration of both customer service requirements and electric vehicle recharging schedules. In addressing the CEVRP, Adaptive Large Neighborhood Search (ALNS) has garnered widespread acclaim due to its remarkable adaptability and versatility. However, the original ALNS, using a weight-based scoring method, relies solely on the past performances of operators to determine their weights, thereby failing to capture crucial information about the ongoing search process. Moreover, it often employs a fixed single charging strategy for the CEVRP, neglecting the potential impact of alternative charging strategies on solution improvement. Therefore, this study treats the selection of operators as a Markov Decision Process and introduces a novel approach based on Deep Reinforcement Learning (DRL) for operator selection. This approach enables adaptive selection of both destroy and repair operators, alongside charging strategies, based on the current state of the search process. More specifically, a state extraction method is devised to extract features not only from the problem itself but also from the solutions generated during the iterative process. Additionally, a novel reward function is designed to guide the DRL network in selecting an appropriate operator portfolio for the CEVRP. Experimental results demonstrate that the proposed algorithm excels in instances with fewer than 100 customers, achieving the best values in 7 out of 8 test instances. It also maintains competitive performance in instances with over 100 customers and requires less time compared to population-based methods.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "358f2c4acda4475689a1b21dd891bdc5",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:10.807443"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于深度强化学习的自适应大邻域搜索算法，用于解决电容式电动汽车路径规划问题（CEVRP），并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于深度强化学习的自适应大邻域搜索算法，用于解决电容式电动汽车路径规划问题（CEVRP），并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:26.434176"
+}

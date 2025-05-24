@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 372,
+    "title": "Effects of Internal and External Factors on Hospital Data Breaches: Quantitative Study",
+    "abstract": "Background: Health care data breaches are the most rapidly increasing type of cybercrime; however, the predictors of health care data breaches are uncertain. Objective: This quantitative study aims to develop a predictive model to explain the number of hospital data breaches at the county level. Methods: This study evaluated data consolidated at the county level from 1032 short-term acute care hospitals. We considered the association between data breach occurrence (a dichotomous variable), predictors based on county demographics, and socioeconomics, average hospital workload, facility type, and average performance on several hospital financial metrics using 3 model types: logistic regression, perceptron, and support vector machine. Results: The model coefficient performance metrics indicated convergent validity across the 3 model types for all variables except bad debt and the factor level accounting for counties with >20% and up to 40% Hispanic populations, both of which had mixed coefficient directionality. The support vector machine model performed the classification task best based on all metrics (accuracy, precision, recall, F1-score). All the 3 models performed the classification task well with directional congruence of weights. From the logistic regression model, the top 5 odds ratios (indicating a higher risk of breach) included inpatient workload, medical center status, pediatric trauma center status, accounts receivable, and the number of outpatient visits, in high to low order. The bottom 5 odds ratios (indicating the lowest odds of experiencing a data breach) occurred for counties with Black populations of >20% and <40%, >80% and <100%, and >40% but <60%, as well as counties with <= 20% Asian or between 80% and 100% Hispanic individuals. Our results are in line with those of other studies that determined that patient workload, facility type, and financial outcomes were associated with the likelihood of health care data breach occurrence. Conclusions: The results of this study provide a predictive model for health care data breaches that may guide health care managers to reduce the risk of data breaches by raising awareness of the risk factors.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c9ccf89553d80b4098cdc56764a62a88",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.008725"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究医院数据泄露的预测模型，涉及机器学习方法的应用，但其研究领域是医疗数据安全，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究医院数据泄露的预测模型，涉及机器学习方法的应用，但其研究领域是医疗数据安全，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:29.708552"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1417,
+    "title": "Algorithm Selection Based on Exploratory Landscape Analysis and Cost-Sensitive Learning",
+    "abstract": "The steady supply of new optimization methods makes the algorithm selection problem (ASP) an increasingly pressing and challenging task, especially for real-world black-box optimization problems. The introduced approach considers the ASP as a cost-sensitive classification task which is based on Exploratory Landscape Analysis. Low-level features gathered by systematic sampling of the function on the feasible set are used to predict a well-performing algorithm out of a given portfolio. Example-specific label costs are defined by the expected runtime of each candidate algorithm. We use one-sided support vector regression to solve this learning problem. The approach is illustrated by means of the optimization problems and algorithms of the BBOB'09/10 workshop.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a0a6f76a62a0f36ca987d3173e8f68da",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.502084"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究算法选择问题，基于探索性景观分析和成本敏感学习，应用于一般的黑盒优化问题，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究算法选择问题，基于探索性景观分析和成本敏感学习，应用于一般的黑盒优化问题，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:09.016260"
+}

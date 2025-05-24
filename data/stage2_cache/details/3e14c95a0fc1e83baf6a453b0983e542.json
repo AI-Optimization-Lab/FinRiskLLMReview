@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 7609,
+    "title": "Regularized quantile regression averaging for probabilistic electricity price forecasting",
+    "abstract": "Quantile Regression Averaging (QRA) has sparked interest in the electricity price forecasting community after its unprecedented success in the Global Energy Forecasting Competition 2014, where the top two winning teams in the price track used variants of QRA. However, recent studies have reported the method's vulnerability to low quality predictors when the set of regressors is larger than just a few. To address this issue, we consider a regularized variant of QRA, which utilizes the Least Absolute Shrinkage and Selection Operator (LASSO) to automatically select the relevant regressors. We evaluate the introduced technique - dubbed LASSO QRA or LQRA for short - using datasets from the Polish and Nordic power markets. By comparing against a number of benchmarks, we provide evidence for its superior predictive performance in terms of the Kupiec test, the pinball score and the test for conditional predictive accuracy, as well as financial profits for a range of trading strategies, especially when the regularization parameter is selected ex-ante using the Bayesian Information Criterion (BIC). As such, we offer an efficient tool that can be used to boost the profitability of energy trading activities, help with bidding in day-ahead markets and improve risk management practices in the power sector. (c) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "80713c94cd95aa2bd332dd2337eaf432",
+    "relevant_keywords": [
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T03:10:05.680896"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是正则化分位数回归平均（LQRA），用于电力价格的概率预测，并特别提到其在电力行业风险管理实践中的应用。虽然论文也提到了交易策略的盈利能力，但主要关注点在于预测和风险管理，而非衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是正则化分位数回归平均（LQRA），用于电力价格的概率预测，并特别提到其在电力行业风险管理实践中的应用。虽然论文也提到了交易策略的盈利能力，但主要关注点在于预测和风险管理，而非衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:15.097099"
+}

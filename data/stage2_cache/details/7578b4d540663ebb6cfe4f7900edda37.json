@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 9,
+    "title": "基于LASSO-LSTM-CNN混合模型的中国能源指数预测研究",
+    "abstract": "伴随着经济的高速发展，中国已成为全球一次性能源消费量最大的国家。能源兼具商品属性和金融属性，为积极应对能源危机和金融风险，中国积极转变经济增长方式，倡导绿色发展新理念。能源行业股票价格是能源市场利益相关者博弈最直接、最有效的反应，能源价格波动具有溢出效应、非对称效应和聚集效应。以我国能源指数为研究对象，通过引入深度学习技术，将高频数据和低频数据有机结合成预测大数据集，创新地构建LASSO-LSTM-CNN深度学习混合模型，预测精准度得到显著提升。研究结果显示，中长期预测可将LASSO-LSTM或LASSO-LSTM-CNN修改为多步输出的静态预测，其效果显著优于动态预测，精准度和泛化能力均有提升；但对于长期预测，由于高频数据的解释能力逐渐变弱，因此要综合考虑是否使用高频数据。我国应从生态视角认识能源在产业链中的基础与核心作用，积极发展绿色清洁能源。同时，充分利用LASSO和LSTM-CNN模型的优势，有效提升能源指数预测的准确性，为金融决策提供重要参考；在中期预测中充分考虑高频数据对预测能力的正向影响，而在中长期预测中谨慎应用高频数据。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "723dc5de49561cc578c4a1b50a459932",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:25:33.424008"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究能源指数预测，虽然提到为金融决策提供参考，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究能源指数预测，虽然提到为金融决策提供参考，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:25.445832"
+}

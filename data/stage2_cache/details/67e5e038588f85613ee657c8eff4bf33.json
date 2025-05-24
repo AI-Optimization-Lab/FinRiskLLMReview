@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3320,
+    "title": "Identifying modifiable and nonmodifiable cost drivers of ambulatory rotator cuff repair: a machine learning analysis",
+    "abstract": "Introduction: Implementing novel tools that identify contributors to the cost of orthopedic procedures can help hospitals maximize efficiency, minimize waste, improve surgical decision-making, and practice value-based care. The purpose of this study was to develop and internally validate a machine learning algorithm to identify key drivers of total charges after ambulatory arthroscopic rotator cuff repair and compare its performance with a state-of-the-art statistical learning model.Methods: A retrospective review of the New York State Ambulatory Surgery and Services Database was performed to identify patients who underwent elective outpatient rotator cuff repair (RCR) from 2015 to 2016. Initial models were constructed using patient characteristics (age, gender, insurance status, patient income, Elixhauser Comorbidity Index) as well as intraoperative variables (concomitant procedures and ser-vices, operative time). These were subsequently entered into 5 separate machine learning algorithms and a generalized additive model using natural splines. Global variable importance and partial dependence curves were constructed to identify the greatest contributors to cost.Results: A total of 33,976 patients undergoing ambulatory RCR were included. Median total charges after ambulatory RCR were $16,017 (interquartile range: $11,009-$22,510). The ensemble model outperformed the generalized additive model and demonstrated the best per-formance on internal validation (root mean squared error: $7112, 95% confidence interval: 7036-7188; logarithmic root mean squared error: 0.354, 95% confidence interval: 0.336-0.373, R2: 0.53), and identified major drivers of total charges after RCR as increasing oper-ating room time, patient income level, number of anchors used, use of local infiltration anesthesia/peripheral nerve blocks, non-White race/ ethnicity, and concurrent distal clavicle excision. The model was integrated into a web-based open-access application capable of providing individual predictions and explanations on a case-by-case basis.Conclusion: This study developed an ensemble supervised machine learning algorithm that outperformed a sophisticated statistical learning model in predicting total charges after ambulatory RCR. Important contributors to total charges included operating room time, duration of care, number of anchors used, type of anesthesia, concomitant distal clavicle excision, community characteristics, and patient demographic factors. Generation of a patient-specific payment schedule based on the Agency for Healthcare Research and Quality risk of mortality highlighted the financial risk assumed by physicians in flat episodic reimbursement schedules given variable patient comorbidities and the importance of an accurate prediction algorithm to appropriately reward high-value care at low costs.Level of evidence: Level IV; Economic Analysis (c) 2022 Journal of Shoulder and Elbow Surgery Board of Trustees. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f50ecc72ccf37b048602543384d9e670",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:25:13.635986"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习算法识别门诊肩袖修复手术的成本驱动因素，属于医疗健康经济学领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习算法识别门诊肩袖修复手术的成本驱动因素，属于医疗健康经济学领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:37:17.966512"
+}

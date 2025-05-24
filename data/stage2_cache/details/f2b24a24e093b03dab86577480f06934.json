@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 3720,
+    "title": "Revisiting time-varying dynamics in stock market forecasting: A multi-source sentiment analysis approach with large language model",
+    "abstract": "This paper presents the Heterogeneous Dynamic Seemingly Unrelated Regression with Dynamic Linear Models (HD-SURDLM), an innovative framework for stock return prediction that combines cutting-edge sentiment analysis with dynamic financial modeling. The model integrates sentiment data from 2.5 million Twitter posts and various news sources, utilizing state-of-the-art sentiment analysis tools such as VADER, TextBlob, and RoBERTa. HD-SURDLM refines Gibbs sampling for enhanced numerical stability and efficiency while capturing cross-sectional dependencies across multiple assets such as a portfolio. The model consistently outperforms traditional methods like LSTM, Random Forest, and RNN in forecasting accuracy. Empirical results show a 1.02% improvement in 1-day horizon forecasts, a 0.42% gain for 20-day predictions, and a 0.36% increase for 50-day forecasts. By effectively merging public sentiment with dynamic asset modeling, HD-SURDLM offers substantial improvements in short- and long-term prediction accuracy. Its capacity to capture both crosssectional insights and temporal dynamics makes it an invaluable tool for investors, traders, and financial institutions navigating sentiment-driven markets. HD-SURDLM not only enhances predictive accuracy but also provides a robust decision-support system for financial stakeholders.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3d4d4f050a48092324a79707dfa47af3",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:20:03.484488"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术HD-SURDLM框架专注于股票回报预测，并明确提到其应用于捕捉多个资产（如投资组合）的横截面依赖性，这直接关联到投资组合管理领域。论文的研究目标和应用场景均围绕提升投资决策的准确性，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术HD-SURDLM框架专注于股票回报预测，并明确提到其应用于捕捉多个资产（如投资组合）的横截面依赖性，这直接关联到投资组合管理领域。论文的研究目标和应用场景均围绕提升投资决策的准确性，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:11.882160"
+}

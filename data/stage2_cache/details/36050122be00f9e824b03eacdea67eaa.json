@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3977,
+    "title": "Completing hedge fund missing net asset values using Kohonen maps and constrained randomization",
+    "abstract": "Analysis of financial databases is sensitive to missing values (no reported information, provider errors, outlier filters...). Risk analysis and portfolio asset allocation require cylindrical and complete samples. Moreover, return distributions are characterised by non-normalities due to heteroskedasticity, leverage effects, volatility feedbacks and asymmetric local correlations. This makes completion algorithms very useful for portfolio management applications, specifically if they can deal properly with the empirical stylised facts of asset returns. Kohonen maps constitute powerful nonlinear financial classification tools (see [3], [4] or [6] for instance), following the approach of Cottrell et al. (2003), we use a Kohonen algorithm (see [2]), altogether with the Constrained Randomization Method (see [8]) to deal with mutual fund missing Net Asset Values. The accuracy of rebuilt NAV estimated series is then evaluated according to a comparison between the first moments of the series.",
+    "year": 2005,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "913131919acc3b4f60cf6063ccd0523b",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:31:58.614777"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用Kohonen maps和constrained randomization方法来填补对冲基金缺失的净资产值(NAV)，目的是为了风险分析和投资组合资产配置。这些应用直接关联到投资组合管理的需求，即需要完整和准确的数据来进行有效的资产分配和风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用Kohonen maps和constrained randomization方法来填补对冲基金缺失的净资产值(NAV)，目的是为了风险分析和投资组合资产配置。这些应用直接关联到投资组合管理的需求，即需要完整和准确的数据来进行有效的资产分配和风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:43.200933"
+}

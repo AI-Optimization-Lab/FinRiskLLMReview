@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 137,
+    "title": "机器学习方法能识别中国系统性金融风险的概率吗？",
+    "abstract": "本文采用梯度提升树这一机器学习模型，基于美国等17个国家的25个特征变量的宏观经济数据集，构造了风险识别模型对中国的系统性风险概率进行全面解析，并通过SHAP Value解释模型，在非线性非参数模型下探索中国的风险影响因素。实证结果表明，梯度提升树模型对系统性风险的捕捉能力显著优于传统的逻辑回归模型，其能够较好地刻画中国的风险概率走势；经过SHAP Value分解可发现，信贷因素、货币因素、金融市场化因素及国内总储蓄等是主要的风险拉动因子，且均存在明显的阈值效应。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5bcd89f00f1a7907eed2bdc1b5d947d2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "decision tree",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:26:58.978930"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用梯度提升树模型来识别和解析中国的系统性金融风险概率，并分析风险影响因素。这直接涉及金融风险管理领域，特别是系统性风险的识别和评估。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用梯度提升树模型来识别和解析中国的系统性金融风险概率，并分析风险影响因素。这直接涉及金融风险管理领域，特别是系统性风险的识别和评估。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:39:27.554298"
+}

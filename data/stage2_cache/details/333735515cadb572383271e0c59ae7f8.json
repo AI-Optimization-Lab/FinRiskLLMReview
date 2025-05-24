@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 222,
+    "title": "Convolutional Neural Network Portfolio Management System with Heterogeneous Input",
+    "abstract": "We implement a cryptocurrency portfolio management system based on a convolutional neural network architecture. We train and test several models, each augmented with data from various sources past market information (price, volume, market capitalization), sentiment information (positive, neutral, negative sentiment scores extracted from online forums), and blockchain technical data (number of blocks and transactions per trading unit, amount paid in fees, block difficulty etc.). We show that augmenting the model with transaction volume history can lead to larger profits and higher Sharpe ratio, and augmenting the model with sentiment information can lead to better risk management.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "631ee3b606aeb9b478a913d03814fe88",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.195304"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用卷积神经网络（CNN）构建加密货币投资组合管理系统，并探讨了如何通过整合市场信息、情感信息和区块链技术数据来优化投资组合的收益和风险管理。这直接涉及投资组合管理的领域。同时，论文提到通过情感信息可以改善风险管理，这表明它也涉及金融风险管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用卷积神经网络（CNN）构建加密货币投资组合管理系统，并探讨了如何通过整合市场信息、情感信息和区块链技术数据来优化投资组合的收益和风险管理。这直接涉及投资组合管理的领域。同时，论文提到通过情感信息可以改善风险管理，这表明它也涉及金融风险管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:44.666733"
+}

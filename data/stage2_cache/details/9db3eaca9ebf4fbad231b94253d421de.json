@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 491,
+    "title": "基于聚类的股票波动分析及其应用",
+    "abstract": "Markowitz提出的\"期望均值收益-收益方差\"规则(M-V),模型要求选择差异性较大的资产进行组合,从而在给定收益率水平下,降低组合的风险。在M-V模型的基础上,采用了数据挖掘中聚类的方法,定义出一种衡量时间序列样本之间相似性程度的指标,这个指标反应了股票间波动行情趋势的异同。在此基础上对资产价格序列性进行聚类分析,与单纯M-V模型相比,在给定的收益率水平下降低了资产组合的风险。采用上证指数中若干股票进行实验验证表明,在给定的收益率下,采用基于密度的层次聚类方法的股票组合可以得到比随机组合更小的风险水平。",
+    "year": 2007,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "693c0db452bbfc491cf950c5aaf5d4b1",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-14T22:23:31.658766"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于聚类的股票波动分析，用于优化资产组合，在给定收益率水平下降低组合风险，这直接应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于聚类的股票波动分析，用于优化资产组合，在给定收益率水平下降低组合风险，这直接应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:33.925844"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2828,
+    "title": "Pricing of cyber insurance premiums using a Markov-based dynamic model with clustering structure",
+    "abstract": "Cyber insurance is a risk management option to cover financial losses caused by cyberattacks. Researchers have focused their attention on cyber insurance during the last decade. One of the primary issues related to cyber insurance is estimating the premium. The effect of network topology has been heavily explored in the previous three years in cyber risk modeling. However, none of the approaches has assessed the influence of clustering structures. Numerous earlier investigations have indicated that internal links within a cluster reduce transmission speed or efficacy. As a result, the clustering coefficient metric becomes crucial in understanding the effectiveness of viral transmission. We provide a modified Markov-based dynamic model in this paper that incorporates the influence of the clustering structure on calculating cyber insurance premiums. The objective is to create less expensive and less homogenous premiums by combining criteria other than degrees. This research proposes a novel method for calculating premiums that gives a competitive market price. We integrated the epidemic inhibition function into the Markov-based model by considering three functions: quadratic, linear, and exponential. Theoretical and numerical evaluations of regular networks suggested that premiums were more realistic than premiums without clustering. Validation on a real network showed a significant improvement in premiums compared to premiums without the clustering structure component despite some variations. Furthermore, the three functions demonstrated very high correlations between the premium, the total inhibition function of neighbors, and the speed of the inhibition function. Thus, the proposed method can provide application flexibility by adapting to specific company requirements and network configurations.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "92878d0888569e0631ac60db8011c62b",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:19:46.629661"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用改进的马尔可夫动态模型来计算网络保险的保费，这属于金融风险管理中针对网络攻击风险的保险定价和风险转移策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用改进的马尔可夫动态模型来计算网络保险的保费，这属于金融风险管理中针对网络攻击风险的保险定价和风险转移策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:45.863551"
+}

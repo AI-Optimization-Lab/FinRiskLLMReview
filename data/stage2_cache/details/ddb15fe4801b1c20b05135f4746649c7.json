@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 6742,
+    "title": "Package CovRegpy: Regularized covariance regression and forecasting in Python",
+    "abstract": "This paper will outline the functionality available in the CovRegpy package which was written for actuarial practitioners, wealth managers, fund managers, and portfolio analysts in the language of Python 3.11. The objective is to develop a new class of covariance regression factor models for covariance forecasting, along with a library of portfolio allocation tools that integrate with this new covariance forecasting framework. The novelty is in two stages: the type of covariance regression model and factor extractions used to construct the covariates used in the covariance regression, along with a powerful portfolio allocation framework for dynamic multi-period asset investment management. The major contributions of package CovRegpy can be found on the GitHub repository for this library in the scripts: CovRegpy.py, CovRegpy_DCC.py, CovRegpy_RPP.py, CovRegpy_SSA.py, CovRegpy_SSD.py, and CovRegpy_X11.py. These six scripts contain implementations of software features including multivariate covariance time series models based on the regularized covariance regression (RCR) framework, dynamic conditional correlation (DCC) framework, risk premia parity (RPP) weighting functions, singular spectrum analysis (SSA), singular spectrum decomposition (SSD), and X11 decomposition framework, respectively. These techniques can be used sequentially or independently with other techniques to extract implicit factors to use them as covariates in the RCR framework to forecast covariance and correlation structures and finally apply portfolio weighting strategies based on the portfolio risk measures based on forecasted covariance assumptions. Explicit financial factors can be used in the covariance regression framework, implicit factors can be used in the traditional explicit market factor setting, and RPP techniques with long/short equity weighting strategies can be used in traditional covariance assumption frameworks. We examine, herein, two real-world case studies for actuarial practitioners. The first of these is a modification (demonstrating the regularization of covariance regression) of the original example from Hoff & Niu ((2012). Statistica Sinica, 22(2), 729-753) which modeled the covariance and correlative relationship that exists between forced expiratory volume (FEV) and age and FEV and height. We examine this within the context of making probabilistic predictions about mortality rates in patients with chronic obstructive pulmonary disease. The second case study is a more complete example using this package wherein we present a funded and unfunded UK pension example. The decomposition algorithm isolates high-, mid-, and low-frequency structures from FTSE 100 constituents over 20 years. These are used to forecast the forthcoming quarter's covariance structure to weight the portfolio based on the RPP strategy. These fully funded pensions are compared against the performance of a fully unfunded pension using the FTSE 100 index performance as a proxy.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e27f1f94700befd1f8290fbbe250b554",
+    "relevant_keywords": [
+      "regression",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T03:01:03.624692"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发了一个用于协方差回归和预测的Python包，并集成了投资组合分配工具，主要用于动态多期资产投资管理。论文明确提到了投资组合风险度量、投资组合加权策略以及实际案例中的养老金投资组合管理，这些都直接指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发了一个用于协方差回归和预测的Python包，并集成了投资组合分配工具，主要用于动态多期资产投资管理。论文明确提到了投资组合风险度量、投资组合加权策略以及实际案例中的养老金投资组合管理，这些都直接指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:30.883647"
+}

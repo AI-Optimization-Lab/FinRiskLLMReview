@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 25,
+    "title": "基于深度强化学习的投资组合构建方法",
+    "abstract": "传统基于数据分析的投资组合构建方法使用简单的统计学模型，不仅难以发现市场规律，且在处理大量数据时效率不高。而深度强化学习算法具备强大的数据处理和分析能力，能够通过学习自适应调整策略，从海量金融数据中提取出有效信息，处理复杂多变市场环境并为投资决策提供科学建议。针对金融资产价格具有非平稳特点和各资产间具有相互依赖性的问题，本文基于深度强化学习中的深度确定性策略梯度DDPG算法，设计了一种并行投资组合特征提取网络PPFNet作为策略网络用于构建投资组合。实验结果表明，PPFNet相较于其他主流投资组合构建方法，取得了最优的收益效益，且表现出良好的稳定性。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "077ad347fdb8424b450906a49b7a18d6",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-14T22:20:52.557361"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于深度强化学习的投资组合构建方法，旨在通过自适应策略调整从金融数据中提取有效信息，优化投资决策。这直接对应于投资组合管理领域，且论文的实验结果也聚焦于投资组合的收益效益和稳定性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于深度强化学习的投资组合构建方法，旨在通过自适应策略调整从金融数据中提取有效信息，优化投资决策。这直接对应于投资组合管理领域，且论文的实验结果也聚焦于投资组合的收益效益和稳定性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:22.321419"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 261,
+    "title": "A novel finite-time q-power recurrent neural network and its application to uncertain portfolio model",
+    "abstract": "This paper presents a novel finite-time q-power recurrent neural network (FT-QPNN) for uncertain port-folio model. An uncertain mean-variance-skewness model under concave transaction costs is discussed. This portfolio model is essentially a nonconvex nonlinear optimization problem with a non-positive def-inite Hessian matrix of the Lagrange function. The non-positive definite Hessian matrix leads to the fail-ure of many recurrent neural network methods in solving the problem, and many recurrent neural networks cannot converge to the equilibrium point in finite time. To overcome these difficulties, the FT-QPNN is proposed. Combined with finite-time activation function and local convexification method, the FT-QPNN can solve the optimization problem with non-positive definite Hessian matrix and converge to the equilibrium point in finite time. The global finite-time stability and robustness properties of the FT-QPNN are proved theoretically and verified by numerical experiments. Furthermore, the proposed FT-QPNN is applied to solve the uncertain portfolio model. The application simulation results and comparative experiments with other methods respectively illustrate the feasibility and superiority of the FT-QPNN. (c) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b038dd9316d38511a6244de5ad7dd0dd",
+    "relevant_keywords": [
+      "neural network",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.759573"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术FT-QPNN被明确应用于解决不确定投资组合模型中的优化问题，特别是针对均值-方差-偏度模型在凹交易成本下的非凸非线性优化问题，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术FT-QPNN被明确应用于解决不确定投资组合模型中的优化问题，特别是针对均值-方差-偏度模型在凹交易成本下的非凸非线性优化问题，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:16.965569"
+}

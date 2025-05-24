@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 84,
+    "title": "Revealing Pairs-trading opportunities with long short-term memory networks",
+    "abstract": "This work examines a deep learning approach to complement investors' practices for the identification of pairs-trading opportunities among cointegrated stocks. We refer to the reversal effect, consisting in the fact that temporarily market deviations are likely to correct and finally converge again, to generate valuable pairs-trading signals based on the application of Long Short-Term Memory networks (LSTM). Specifically, we propose to use the LSTM to estimate the probability of a stock to exhibit increasing market returns in the near future compared to its peers, and we compare and combine these predictions with trading practices based on sorting stocks according to either price or returns gaps. In so doing, we investigate the ability of our proposed approach to provide valuable signals under different perspectives including variations in the investment horizons, transaction costs and weighting schemes. Our analysis shows that strategies including such predictions can contribute to improve portfolio performances providing predictive signals whose information content goes above and beyond the one embedded in both price and returns gaps. (c) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "9008fd33d129dc565fffac2beb5ce8ab",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:31:50.379305"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用长短期记忆网络（LSTM）来识别配对交易机会，并探讨了如何通过这些预测信号来改善投资组合的表现。这直接涉及到投资组合的构建和优化，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用长短期记忆网络（LSTM）来识别配对交易机会，并探讨了如何通过这些预测信号来改善投资组合的表现。这直接涉及到投资组合的构建和优化，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:39.393370"
+}

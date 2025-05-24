@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2792,
+    "title": "What You Say and How You Say It Matters: Predicting Financial Risk Using Verbal and Vocal Cues",
+    "abstract": "Predicting financial risk is an essential task in financial market. Prior research has shown that textual information in a firm's financial statement can be used to predict its stock's risk level. Nowadays, firm CEOs communicate information not only verbally through press releases and financial reports, but also non-verbally through investor meetings and earnings conference calls. There are anecdotal evidences that CEO's vocal features, such as emotions and voice tones, can reveal the firm's performance. However, how vocal features can be used to predict risk levels, and to what extent, is still unknown. To fill the gap, we obtain earnings call audio recordings and textual transcripts for S&P 500 companies in recent years. We propose a multimodal deep regression model (MDRM) that jointly model CEO's verbal (from text) and vocal (from audio) information in a conference call. Empirical results show that our model that jointly considers verbal and vocal features achieves significant and substantial prediction error reduction. We also discuss several interesting findings and the implications to financial markets. The processed earnings conference calls data (text and audio) are released for readers who are interested in reproducing the results or designing trading strategy.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a90205366219e335db5cb6b482b03f07",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:19:08.466059"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心研究是通过分析CEO在财报电话会议中的言语和声音特征来预测金融风险，这直接属于金融风险管理的范畴。论文明确提到预测金融风险是其研究目标，并讨论了如何利用这些预测结果来设计交易策略，进一步强调了其在风险管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心研究是通过分析CEO在财报电话会议中的言语和声音特征来预测金融风险，这直接属于金融风险管理的范畴。论文明确提到预测金融风险是其研究目标，并讨论了如何利用这些预测结果来设计交易策略，进一步强调了其在风险管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:40:09.151896"
+}

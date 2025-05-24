@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 559,
+    "title": "Relational Stock Selection via Probabilistic State Space Learning",
+    "abstract": "Optimizing stock selection through stock ranking is one of the critical but intricate tasks in quantitative trading areas because of the non-stationary dynamics and complicated interdependencies behind stock markets. Recent studies have made efforts to model historical market movements to enhance stock selection. However, they primarily borrowed the spirit of time series modeling and sought to build a deterministic paradigm without considering the uncertain fluctuations. In addition, some of these studies tailor to explore stock correlations from a predefined (e.g., binary) graph structure and use explicitly simple relations (such as first-order relations) to guide evolving interactions. Nevertheless, aggregating predefined but shallow relationships to collaborate with stock movements may affect selection generalizability and increase the risk of portfolio failure. This study introduces a novel Relational stock selection framework via probabilistic State Space Learning (or RSSL) for stock selection. Specifically, RSSL first attempts to build a tree-based structure to explicitly expose higher-order relations in the stock market, primarily by discovering a hierarchical delineation of ties between stocks. Whereafter, it couples with time-varying movements via an attention mechanism to smoothly explore the interactive correlations among different stocks. Inspired by recent state space models (SSM) in probabilistic Bayesian learning, we devise a Probabilistic Kalman Network (PKNet) with uncertainty estimates to recursively simulate ever-changing stock volatility, enabling more promising return-risk trade-offs. The experimental results on several real-world stock market datasets demonstrate that RSSL outperforms several representative baseline methods by a significant margin.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "017f502c04d696921a15b03454c3c8d7",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "attention mechanism",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:37:38.127562"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是优化股票选择（stock selection）和股票排名（stock ranking），这是投资组合管理中的关键任务。论文提出的RSSL框架旨在通过概率状态空间学习和高阶关系建模来改进股票选择，以实现更好的收益-风险权衡，这直接关联到投资组合的构建和优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是优化股票选择（stock selection）和股票排名（stock ranking），这是投资组合管理中的关键任务。论文提出的RSSL框架旨在通过概率状态空间学习和高阶关系建模来改进股票选择，以实现更好的收益-风险权衡，这直接关联到投资组合的构建和优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:34.291317"
+}

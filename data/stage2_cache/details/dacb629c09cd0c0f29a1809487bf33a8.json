@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 7439,
+    "title": "An Improved Kernel Extreme Learning Machine for Bankruptcy Prediction",
+    "abstract": "In this study, a novel parameter tuning strategy for a kernel extreme learning machine (KELM) is constructed using an improved particle swarm optimization method based on differential evolution (EPSO). First, the proposed EPSO is used to obtain the global optimum by introducing the differential evolution mutation strategy. Then, the EPSO is used to construct an effective and stable KELM model for bankruptcy prediction. The resultant EPSO-KELM model is compared to two other competitive KELM methods based on traditional particle swarm optimization and the genetic algorithm via a 10-fold cross validation analysis. The experimental results indicate that the proposed method achieved superior results compared to the other two methods when applied to two financial datasets. When applied to the Polish bankruptcy dataset, the EPSO-KELM achieved a classification accuracy (ACC) of 83.95%, an area under the receiver operating characteristic curve (AUC) of 0.8443, and Type I error and Type II error of 13.15% and 16.61%, respectively. In addition, the proposed method achieved an ACC of 87.10%, AUC of 0.8716, and Type I error and Type II error of 15.53% and 10.13%, respectively, when applied to the Australian dataset. Therefore, the proposed EPSO-KELM model could be effectively used as an early risk warning system for bankruptcy predication.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "62c22bfbbfc91ffa420c279b57d3cbde",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T03:08:37.858416"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是改进的核极限学习机用于破产预测，这属于金融风险管理中的信用风险预警范畴。论文明确提到该方法可作为早期风险预警系统，直接应用于金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是改进的核极限学习机用于破产预测，这属于金融风险管理中的信用风险预警范畴。论文明确提到该方法可作为早期风险预警系统，直接应用于金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:38.017284"
+}

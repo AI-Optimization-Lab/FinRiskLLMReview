@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2226,
+    "title": "Estimation risk for value-at-risk and expected shortfall",
+    "abstract": "For a given time series of daily losses that display volatility clustering, the exact nextday and ten-day value-at-risk (VaR) and expected shortfall (ES) are unknown. The usual procedure is to approximate these values by replacing true parameter values with estimates in the formulas for VaR and ES. Parameter estimation errors for a GARCH(1,1) model for this time series lead to approximate VaR and ES that differ from the exact VaR and ES, respectively. Accurate estimation of the VaR and ES is very important for the proper management of financial risks. In this paper, we find linear regression models in which the response variable is the approximate VaR (ES) and the explanatory variable is the exact VaR (ES). We use these linear regression models to determine the properties of the approximate VaR (ES), conditional on the corresponding exact value. For a given value of the exact VaR (ES), the approximate VaR (ES) is close to being an unbiased estimator of the corresponding exact value, but it may differ from this exact value by more than 10% of the exact value with substantial probability.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e613c38671c2bdc65d9925b30ce7cb8a",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:50.978407"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on the estimation of Value-at-Risk (VaR) and Expected Shortfall (ES), which are key metrics in financial risk management. The study addresses the impact of parameter estimation errors on these risk measures, which is crucial for accurate risk assessment and management in financial institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on the estimation of Value-at-Risk (VaR) and Expected Shortfall (ES), which are key metrics in financial risk management. The study addresses the impact of parameter estimation errors on these risk measures, which is crucial for accurate risk assessment and management in financial institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:41.355435"
+}

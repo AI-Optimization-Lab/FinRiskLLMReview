@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 74,
+    "title": "Forecasting the Volatility of CSI 300 Index with a Hybrid Model of LSTM and Multiple GARCH Models",
+    "abstract": "Volatility is a key indicator of market risk in financial markets. This paper proposes a novel hybrid model that combines Long Short-Term Memory (LSTM) with multiple generalized autoregressive conditional heteroskedasticity (GARCH) models to predict stock price volatility. The GARCH models serve as feature extractors, while the LSTM model utilizes these features to forecast next-day volatility. To better capture the leverage effect, the model integrates one symmetric and three asymmetric GARCH models (GEJT-LSTM-1), yielding the best forecast accuracy under a fixed-parameter approach. The proposed hybrid model significantly outperforms existing approaches by leveraging deep learning with multiple asymmetric GARCH models, demonstrating superior predictive performance. Furthermore, the methodology provides a flexible framework that can be extended to other fields, contributing to advancements in volatility forecasting techniques.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "280629c7b6bf292845a817a7b57f57ff",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:33:49.002203"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用LSTM和GARCH模型的混合模型来预测股票价格波动性，波动性是市场风险的关键指标，因此该研究主要应用于金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM和GARCH模型的混合模型来预测股票价格波动性，波动性是市场风险的关键指标，因此该研究主要应用于金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:45.929884"
+}

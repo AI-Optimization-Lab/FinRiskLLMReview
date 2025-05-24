@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1129,
+    "title": "Global optimization of support vector machines using genetic algorithms for bankruptcy prediction",
+    "abstract": "One of the most important research issues in finance is building accurate corporate bankruptcy prediction models since they are essential for the risk management of financial institutions. Tlius, researchers have applied various data-driven approaches to enhance prediction performance including statistical and artificial intelligence techniques. Recently, support vector machines (SVMs) are becoming popular because they use a risk function consisting of the empirical error and a regularized term which is derived from the structural risk minimization principle. In addition, they don't require huge training samples and have little possibility of overfitting. However, in order to use SVM, a user should determine several factors such as the parameters of a kernel function, appropriate feature subset, and proper instance subset by heuristics, which hinders accurate prediction results when using SVM. In this study, we propose a novel approach to enhance the prediction performance of SVM for the prediction of financial distress. Our suggestion is the simultaneous optimization of the feature selection and the instance selection as well as the parameters of a kernel function for SVM by using genetic algorithms (GAs). We apply our model to a real-world case. Experimental results show that the prediction accuracy of conventional SVM may be improved significantly by using our model.",
+    "year": 2006,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "eb72a9359e2677667412d03698308825",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.600825"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用支持向量机（SVM）和遗传算法（GA）来优化企业破产预测模型，这直接关系到金融机构的风险管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用支持向量机（SVM）和遗传算法（GA）来优化企业破产预测模型，这直接关系到金融机构的风险管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:58.317593"
+}

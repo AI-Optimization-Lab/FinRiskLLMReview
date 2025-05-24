@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "论文使用了基于LightGBM算法的机器学习模型进行家庭债务风险预警。",
+    "supervised learning": "论文中的预警模型是基于监督学习的方法，通过训练数据进行预测。",
+    "classification": "论文中的预警模型用于分类家庭债务风险，混淆矩阵和AUC值表明这是一个分类问题。",
+    "decision tree": "LightGBM是基于决策树的算法，因此论文涉及决策树的相关技术。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\"],\n  \"explanations\": {\n    \"machine learning\": \"论文使用了基于LightGBM算法的机器学习模型进行家庭债务风险预警。\",\n    \"supervised learning\": \"论文中的预警模型是基于监督学习的方法，通过训练数据进行预测。\",\n    \"classification\": \"论文中的预警模型用于分类家庭债务风险，混淆矩阵和AUC值表明这是一个分类问题。\",\n    \"decision tree\": \"LightGBM是基于决策树的算法，因此论文涉及决策树的相关技术。\"\n  }\n}\n```"
+}

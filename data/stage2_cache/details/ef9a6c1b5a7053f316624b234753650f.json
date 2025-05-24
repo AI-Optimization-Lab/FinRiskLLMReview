@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 281,
+    "title": "Management Analysis Method of Multivariate Time Series Anomaly Detection in Financial Risk Assessment",
+    "abstract": "The significance of financial risk lies in its impact on economic stability and individual/institutional financial security. Effective risk management is crucial for market confidence and crisis prevention. Current methods for multivariate time series anomaly detection have limitations in adaptability and generalization. To address this, we propose an innovative approach integrating contrastive learning and Generative Adversarial Networks (GANs). We use geometric distribution masking for data augmentation to enhance dataset diversity. Within the GAN framework, we train a Transformer -based autoencoder to capture normal point distributions. We include contrastive loss in the discriminator to ensure robust generalization. Rigorous experiments on four real -world datasets show that our method effectively mitigates overfitting and outperforms state-of-the-art approaches. This enhances anomaly identification in risk management, paving the way for deep learning in finance, and offering insights for future research and practical use.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "eca858aa9788f6513ad5590ca2add408",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "autoencoder",
+      "Generative Adversarial Networks",
+      "Transformer",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:36:21.917892"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on enhancing anomaly detection in multivariate time series for financial risk assessment, which is a core aspect of financial risk management. The proposed method aims to improve risk identification and mitigation, directly contributing to this field.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on enhancing anomaly detection in multivariate time series for financial risk assessment, which is a core aspect of financial risk management. The proposed method aims to improve risk identification and mitigation, directly contributing to this field.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:43.085361"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1757,
+    "title": "Artificial Neural Dynamics for Portfolio Allocation: An Optimization Perspective",
+    "abstract": "Real-time high-frequency trading poses a significant challenge to the classical portfolio allocation problem, demanding rapid computational efficiency for constructing Markowitz model-based portfolios. Building on the principles of arbitrage pricing theory (APT), this study introduces a dynamic neural network model aimed at minimizing investment risk, optimizing portfolio allocation within predefined constraints, and maximizing returns. First, a convex optimization objective function incorporating risk constraints is formulated based on APT principles. This is followed by the introduction of a novel dynamic neural network model designed to solve the convex optimization problem, accompanied by comprehensive theoretical analysis and rigorous proofs. The study uses two distinct datasets sourced from Yahoo Finance, consisting of 30 selected stocks, covering a span of 250 valid trading days to validate the proposed methodology. The results of 30 different stock market scenario experiments indicate that, when the upper limit for investment risk is set at 3.285 x 10(-4), the expected maximum investment return exceeds the Dow Jones Industrial Average (DJIA) index by 16.2816%. These empirical findings highlight the viability, stability, and efficacy of the proposed approach and framework, demonstrating its potential applicability for real-time, high-frequency trading scenarios. Furthermore, the outcomes suggest policy implications for risk management and portfolio optimization in dynamic financial environments.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "31bdc0fbf15b59e2cd80f5dde7eac514",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:52.785187"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是动态神经网络模型，用于优化投资组合分配，旨在最小化投资风险并最大化回报，这直接属于投资组合管理的范畴。论文明确提到了Markowitz模型和投资组合优化，且实验验证了其在实时高频交易中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是动态神经网络模型，用于优化投资组合分配，旨在最小化投资风险并最大化回报，这直接属于投资组合管理的范畴。论文明确提到了Markowitz模型和投资组合优化，且实验验证了其在实时高频交易中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:36.699935"
+}

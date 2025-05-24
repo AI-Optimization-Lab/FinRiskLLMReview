@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1448,
+    "title": "Black-Litterman Portfolio Optimization Using Gaussian Mixture Model",
+    "abstract": "The Black-Litterman portfolio model based on the Gaussian mixture model is proposed in this study. Different from current popular research patterns in BlackLitterman portfolio, we do not employ some forecasting algorithms to build investment views, but use the clustering method to dig the historical samples and find the representative centroids as the investment experts. Due to GMM believes that the data follows a mixed normal distribution, with each component is assigned a probability value. We build three types of Black-Litterman portfolio based on the designed selection algorithm, the optimistic-style GMM-BL, the pessimistic-style GMM-BL, and the maximum probability GMM-BL. The corresponding numerical experiments focus on testing the out-of-sample performance of the proposed portfolio models and the baseline strategy, where the maximum probability GMM-BL and the pessimistic-style GMM-BL achieve the highest Sharpe ratio and Calmar ratio, and the optimistic-style GMM-BL shows similar performance with the 1/N model. Although the proposed framework tends to be conservative, the out-of-sample effectiveness still demonstrates its practical value.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "136e7bd32c16ac3a7a8e8efc2cb40c81",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:08.259549"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用高斯混合模型改进Black-Litterman投资组合优化模型，并通过实验验证了不同风格的投资组合在样本外表现。研究目标和方法明确指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用高斯混合模型改进Black-Litterman投资组合优化模型，并通过实验验证了不同风格的投资组合在样本外表现。研究目标和方法明确指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:03.964899"
+}

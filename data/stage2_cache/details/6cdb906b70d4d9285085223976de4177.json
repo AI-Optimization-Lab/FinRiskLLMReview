@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3562,
+    "title": "Optimal planning of Microgrids using portfolio optimization with considering uncertainty",
+    "abstract": "In this paper, the candidate points for distribution and substation transformers, low and medium voltage feeders, and the Distributed Energy Resources (DERs) are considered as a construction stock portfolio. The main goal of this research is to present a design method with the availability of smart grid infrastructure, which a main network is divided into several Microgrids (MGs). The design is done from the point of view of long-term operation (30 years), and all technical and economic constraints are taken into account for the optimal design of the MG. The most optimal portfolio is selected using the Imperialistic Competitive Optimization (ICA) algorithm and constituted the network design. Moreover, the uncertainty of load values is considered and the costs deviance as well as the expected value are obtained. The simulation is performed on a green field network with known geographical characteristics, and the load information is obtained using the regional load forecasting strategy. Using random values generated for the decision variable of substations, some candidate locations of DTs are selected. The low voltage feeders are connected to the not-selected substations. In the next step, the loads are considered to the selected substations based on the load allocation algorithm. Next, the assigned load points are classified into various groups by the K-means clustering algorithm. With applying the Prim method, the minimum spanning tree, with the grid graph, is calculated. The resilience of the designed grid is examined in a robust manner and in the presence of MGs. In order to study the resilience, the considered MG is divided into 4 zones based on the wind speed. The studied network is divided into 4 states as main network without dividing to several MGs, with 20 % more robustness, with 20 % less robustness, and with several MGs. The simulations are implemented with MATLAB in 11 scenarios that 3 scenarios include the controllable DERs and the remained scenarios are rendered for various uncertainty factors of loads related to the first scenario. The results show that the total cost of MG and operation cost of DER units in the third scenario are decreased about 16 % and 18 %, respectively. The results also show that the network with 20 % more robustness has better results and lower outage of loads in comparison with other states. Moreover, the connected MGs outperformed in comparison with the wide network.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "70fd0596e7f272269d64a2d7806021ff",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:18:20.550815"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究微电网的优化规划，虽然使用了投资组合优化的概念，但其应用场景是电力系统的设计和运营，而非金融领域的投资组合管理。论文的核心技术并未涉及衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究微电网的优化规划，虽然使用了投资组合优化的概念，但其应用场景是电力系统的设计和运营，而非金融领域的投资组合管理。论文的核心技术并未涉及衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:18.842677"
+}

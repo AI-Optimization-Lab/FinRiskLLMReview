@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 407,
+    "title": "Portfolio solver for verifying Binarized Neural Networks",
+    "abstract": "Although deep learning is a very successful AI technology, many concerns have been raised about to what extent the decisions making process of deep neural networks can be trusted. Verifying of properties of neural networks such as adversarial robustness and network equivalence sheds light on the trustiness of such systems. We focus on an important family of deep neural networks, the Binarized Neural Networks (BNNs) that are useful in resource-constrained environments, like embedded devices. We introduce our portfolio solver that is able to encode BNN properties for SAT, SMT, and MIP solvers and run them in parallel, in a portfolio setting. In the paper we propose all the corresponding encodings of different types of BNN layers as well as BNN properties into SAT, SMT, cardinality constrains, and pseudo-Boolean constraints. Our experimental results demonstrate that our solver is capable of verifying adversarial robustness of medium-sized BNNs in reasonable time and seems to scale for larger BNNs. We also report on experiments on network equivalence with promising results.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "c34505df49f1451c75b7e52e7a32ecc3",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:49.664218"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是Binarized Neural Networks (BNNs)的验证技术，包括对抗鲁棒性和网络等价性验证，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是Binarized Neural Networks (BNNs)的验证技术，包括对抗鲁棒性和网络等价性验证，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:01.212426"
+}

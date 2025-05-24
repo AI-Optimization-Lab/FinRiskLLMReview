@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 875,
+    "title": "Machine learning for liquidity risk modelling: A supervisory perspective",
+    "abstract": "The purpose of an effective liquidity risk assessment policy is to ensure that any given credit institution can meet its cash flow obligations, even factoring in the uncertainty caused by external factors. As part of the Supervisory Review and Evaluation Process (SREP), the European Central Bank (ECB) has determined this assessment should take into consideration both the institution's ability to meet its short-term obligations and its long-term funding strategy. Due to the fast pace of financial markets and more demanding regulations, there is a structural need for a precise and widely accepted risk assessment methodology. Furthermore, the ability to foresee alternative scenarios by stressing the involved key risk indicators is of the utmost importance. This work investigates whether machine learning techniques can successfully model liquidity risk, thus providing insights for stress-testing scenarios. We have applied the Risk Assessment System (RAS) methodology to classify credit institutions from the Portuguese banking sector according to their liquidity risk, using real supervisory data (from 2014 until March 2021). We then studied the ability to model this risk classification, by comparing a series of well-established machine learning algorithms to a traditional statistical model for benchmarking. The results show that extreme gradient boosting (XGBoost) outperforms other methods for this classification problem. The resulting model can be set up for a production environment and provide scenarios for stress-testing, or as an early warning system (EWS), thus supporting the overall SREP exercise. (C) 2022 Economic Society of Australia, Queensland. Published by Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0448c974e01d9fe392a7572bca6ad3a3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:17.493729"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using machine learning techniques to model liquidity risk and provide insights for stress-testing scenarios, which is a core aspect of financial risk management. The study specifically addresses the assessment of liquidity risk in credit institutions, a key concern in risk management practices.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using machine learning techniques to model liquidity risk and provide insights for stress-testing scenarios, which is a core aspect of financial risk management. The study specifically addresses the assessment of liquidity risk in credit institutions, a key concern in risk management practices.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:13.136415"
+}

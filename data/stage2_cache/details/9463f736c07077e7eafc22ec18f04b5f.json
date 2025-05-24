@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3292,
+    "title": "A Semi-Naive Bayes Model to Forecast the Probability Distribution of Excess Returns in the US Stock Market",
+    "abstract": "In this paper, a semi-naive Bayes method to forecast the distribution of future excess returns of stocks in a multi-dimensional variable space is presented. Unlike regression models, the proposed model takes into account both the nonlinearity and the interaction between the variables. The conditional probability distributions of excess returns for the largest 1500 U.S. stocks are numerically estimated using only historical price and volume data. The probability distributions are then used to calculate the expected returns as a function of 20 variables. The model predictions are tested with a market neutral portfolio comprised of 21 long and 21 short stocks with an average turnover of one month. An average annual return of 31.8% with a Sharpe ratio of 2.34 was obtained over a 20-year time period, from 1987 to 2006.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9d184f065cba2bb98d7367ad1282aaba",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:15:54.678703"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用半朴素贝叶斯方法预测股票超额收益的概率分布，并应用于构建市场中性投资组合。论文明确提到使用模型预测结果来构建和测试投资组合，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用半朴素贝叶斯方法预测股票超额收益的概率分布，并应用于构建市场中性投资组合。论文明确提到使用模型预测结果来构建和测试投资组合，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:13.485131"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 171,
+    "title": "New reinforcement learning based on representation transfer for portfolio management",
+    "abstract": "Portfolio management is an important financial task, which helps to activate the capital market and boost investor confidence by finding a long -term profitable policy. Reinforcement learning is one of the most prospective method for this task. However, the policy learnt by reinforcement learning lacks robustness, because current studies cannot overcome the distribution shift between the dynamics of the current environment and the future environment. To better tackle this issue, we proposed a method that can align the distributions of different environment dynamics in a pre-trained representation space, thereby enhancing the robustness of the optimal policy in future environments. The key insight of this method is to only extract shared representation between the current and the future, which is the high -level latent information that spans across sequences. This information exists everywhere in the historical sequence, so it can be assumed that it will not disappear in the near future, thus align the distribution of different environment dynamics in this representation space. Such representations are learnt by encoding the current and the future into representations and maximizing their mutual information using probabilistic contrastive loss. Experiments demonstrates the superior performance and universality of our method.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "84fc71532f313344ba0a8a119bacc1b2",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "representation learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "encoder-decoder",
+      "autoencoder",
+      "unsupervised pre-train"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.111529"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提到其研究目标是改进投资组合管理的长期盈利策略，并提出了基于表示迁移的强化学习方法来解决环境动态分布偏移的问题，这直接应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确提到其研究目标是改进投资组合管理的长期盈利策略，并提出了基于表示迁移的强化学习方法来解决环境动态分布偏移的问题，这直接应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:14.937162"
+}

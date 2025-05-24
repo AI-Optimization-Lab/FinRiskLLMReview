@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 606,
+    "title": "Deep-learning models for forecasting financial risk premia and their interpretations",
+    "abstract": "The measurement of financial risk premia, the amount that a risky asset will outperform a risk-free one, is an important problem in asset pricing. The noisiness and non-stationarity of asset returns makes the estimation of risk premia using machine learning (ML) techniques challenging. In this work, we develop ML models that solve the problems associated with risk premia forecasting by separating risk premia prediction into two independent tasks, a time series model and a cross-sectional model, and using neural networks with skip connections to enable their deep neural network training. These models are tested robustly with different metrics, and we observe that our models outperform several existing standard ML models. A known issue with ML models is their 'black box' nature, i.e. their opaqueness to interpretability. We interpret these deep neural networks using local approximation-based techniques that provide explanations for our model's predictions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1a8aac2e3601c6bb3a25895ff96583c9",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.554541"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型预测金融风险溢价（risk premia），这是资产定价中的一个重要问题，直接关系到投资组合的构建和优化。虽然论文提到了风险，但主要关注的是风险溢价预测而非风险管理本身，因此更符合投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型预测金融风险溢价（risk premia），这是资产定价中的一个重要问题，直接关系到投资组合的构建和优化。虽然论文提到了风险，但主要关注的是风险溢价预测而非风险管理本身，因此更符合投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:37.809375"
+}

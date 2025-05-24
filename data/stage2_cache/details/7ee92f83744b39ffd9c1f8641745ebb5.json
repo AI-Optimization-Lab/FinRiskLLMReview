@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2539,
+    "title": "Implementation of Agglomerative Clustering and Modified Artificial Bee Colony Algorithm on Stock Portfolio Optimization with Possibilistic Constraints",
+    "abstract": "Portfolio optimization problem is a fundamental matter in the financial environment, where the investors form a satisfactory portfolio by obtaining optimal return and minimal risk. In this paper, we discuss the portfolio optimization problem with real-world constraints such as transaction costs, cardinality, and quantity under the assumption that the returns of risky stocks are fuzzy numbers. Thus, a mixed integer model nonlinear programming problem is discussed. At first, stock data is diversified based on their financial ratio scores by using Agglomerative Clustering to produce a homogeneous cluster. Next, the proportion of each stock in the stock portfolio is determined using a modified artificial bee colony algorithm, where in the algorithm there is a process of chaotic initialization approach. Finally, the obtained return will be compared to both the S&P 500 index return (12.34 %) and sharpe ratio (2.7). The result forms the performance of Modified Artificial Bee Colony Algorithm with Agglomerative Clustering in portfolio optimization, evaluated based on some actual dataset, showing that the higher level of return is 29.96 % and sharpe ratio is 17.562.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2fe212ddcc67df5f15b584edf9df69c0",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:16:32.679555"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on optimizing stock portfolios using clustering and a modified artificial bee colony algorithm, which is directly related to portfolio management. It discusses obtaining optimal returns with minimal risk under real-world constraints, a core aspect of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on optimizing stock portfolios using clustering and a modified artificial bee colony algorithm, which is directly related to portfolio management. It discusses obtaining optimal returns with minimal risk under real-world constraints, a core aspect of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:33.612765"
+}

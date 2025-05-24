@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 5136,
+    "title": "Investigating the Impact of Agricultural, Financial, Economic, and Political Factors on Oil Forward Prices and Volatility: A SHAP Analysis",
+    "abstract": "Accurately forecasting crude oil prices is crucial due to its vital role in the industrial economy. In this study, we explored the multifaceted impact of various financial, economic, and political factors on the forecasting of crude oil forward prices and volatility. We used various machine learning models to forecast oil forward prices and volatility based on their superior predictive power. Furthermore, we employed the SHAP framework to analyze individual features to identify their contributions in terms of the prediction. According to our findings, factors contributing to oil forward prices and volatility can be summarized into four key focal outcomes. First, it was confirmed that soybean forward pricing overwhelmingly contributes to oil forward pricing predictions. Second, the SSEC is the second-largest contributor to oil forward pricing predictions, surpassing the contributions of the S&P 500 or oil volatility. Third, the contribution of oil forward prices is the highest in predicting oil volatility. Lastly, the contribution of the DXY significantly influences both oil forward price and volatility predictions, with a particularly notable impact on oil volatility predictions. In summary, through the SHAP framework, we identified that soybean forward prices, the SSEC, oil volatility, and the DXY are the primary contributors to oil forward price predictions, while oil forward prices, the S&P 500, and the DXY are the main contributors to oil volatility predictions. These research findings provide valuable insights into the most-influential factors for predicting oil forward prices and oil volatility, laying the foundation for informed investment decisions and robust risk-management strategies.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ee3fecaf34edad4af9c41244360ceb1d",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:44:43.878016"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型预测原油远期价格和波动性，这直接涉及衍生品定价（远期合约定价）和金融风险管理（波动性预测用于风险控制）。论文明确提到这些预测为投资决策和风险管理策略提供基础，因此属于这两个领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型预测原油远期价格和波动性，这直接涉及衍生品定价（远期合约定价）和金融风险管理（波动性预测用于风险控制）。论文明确提到这些预测为投资决策和风险管理策略提供基础，因此属于这两个领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:08.403627"
+}

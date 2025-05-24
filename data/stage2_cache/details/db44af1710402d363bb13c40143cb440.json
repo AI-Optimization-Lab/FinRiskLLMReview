@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 3001,
+    "title": "A Hybrid Stock Price Prediction Model Based on PRE and Deep Neural Network",
+    "abstract": "Stock prices are volatile due to different factors that are involved in the stock market, such as geopolitical tension, company earnings, and commodity prices, affecting stock price. Sometimes stock prices react to domestic uncertainty such as reserve bank policy, government policy, inflation, and global market uncertainty. The volatility estimation of stock is one of the challenging tasks for traders. Accurate prediction of stock price helps investors to reduce the risk in portfolio or investment. Stock prices are nonlinear. To deal with nonlinearity in data, we propose a hybrid stock prediction model using the prediction rule ensembles (PRE) technique and deep neural network (DNN). First, stock technical indicators are considered to identify the uptrend in stock prices. We considered moving average technical indicators: moving average 20 days, moving average 50 days, and moving average 200 days. Second, using the PRE technique-computed different rules for stock prediction, we selected the rules with the lowest root mean square error (RMSE) score. Third, the three-layer DNN is considered for stock prediction. We have fine-tuned the hyperparameters of DNN, such as the number of layers, learning rate, neurons, and number of epochs in the model. Fourth, the average results of the PRE and DNN prediction model are combined. The hybrid stock prediction model results are computed using the mean absolute error (MAE) and RMSE metric. The performance of the hybrid stock prediction model is better than the single prediction model, namely DNN and ANN, with a 5% to 7% improvement in RMSE score. The Indian stock price data are considered for the work.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "49618ded8807e4da4232cbf3154a9221",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:43.000191"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种混合股票价格预测模型，旨在帮助投资者减少投资组合或投资中的风险。虽然论文没有直接提到投资组合管理，但股票价格预测是投资组合管理中的一个重要组成部分，用于优化资产配置和风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种混合股票价格预测模型，旨在帮助投资者减少投资组合或投资中的风险。虽然论文没有直接提到投资组合管理，但股票价格预测是投资组合管理中的一个重要组成部分，用于优化资产配置和风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:56.456654"
+}

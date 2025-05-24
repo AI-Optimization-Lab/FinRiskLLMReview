@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3439,
+    "title": "A NON-PARAMETRIC METHOD FOR INCURRED BUT NOT REPORTED CLAIM RESERVE ESTIMATION",
+    "abstract": "The number and cost of claims that will arise from each policy of an insurance company's portfolio are unknown. In fact, there is a high degree of uncertainty on how much will ultimately be the cost of claims, not only during the period of inception but also after the contract termination, since there might be future, not yet reported, losses associated with past claims. Therefore, in practice, insurance companies have to protect themselves against the possibility of this ultimate cost by creating an additional reserve known as the incurred but not reported (IBNR) reserve. This work introduces new non-parametric models to IBNR estimation based on kernel methods; namely, support vector regression and Gaussian process regression. These are used to learn certain types of nonlinear structures present in claims data using the residuals produced by a benchmark IBNR estimation model, Mack's chain ladder. The proposed models are then compared to Mack's model using real data examples. Our results show that the three new proposed models are competitive when compared to Mack's benchmark model: they may produce the closest predictions of IBNR and also more accurate estimates, given that the variance for the reserve estimation, obtained through the bootstrap technique, is usually smaller than the one given by Mack's model.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "034964be026140de8f2f9155552ce789",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:55.630803"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用非参数方法（如支持向量回归和高斯过程回归）来估计保险公司未报告但已发生的索赔（IBNR）准备金，这属于金融风险管理中保险风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用非参数方法（如支持向量回归和高斯过程回归）来估计保险公司未报告但已发生的索赔（IBNR）准备金，这属于金融风险管理中保险风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:44.394432"
+}

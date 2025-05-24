@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1792,
+    "title": "A Collaborative Neurodynamic Approach to Multiple-Objective Distributed Optimization",
+    "abstract": "This paper is concerned with multiple-objective distributed optimization. Based on objective weighting and decision space decomposition, a collaborative neurodynamic approach to multiobjective distributed optimization is presented. In the approach, a system of collaborative neural networks is developed to search for Pareto optimal solutions, where each neural network is associated with one objective function and given constraints. Sufficient conditions are derived for ascertaining the convergence to a Pareto optimal solution of the collaborative neurodynamic system. In addition, it is proved that each connected subsystem can generate a Pareto optimal solution when the communication topology is disconnected. Then, a switching-topology-based method is proposed to compute multiple Pareto optimal solutions for discretized approximation of Pareto front. Finally, simulation results are discussed to substantiate the performance of the collaborative neurodynamic approach. A portfolio selection application is also given.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "be9661681e8ccfb20c17122edb99e76a",
+    "relevant_keywords": [
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:53.125710"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到一个投资组合选择的应用，这属于投资组合管理的范畴。虽然论文主要研究多目标分布式优化和神经动力学方法，但投资组合管理是其明确的应用领域之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到一个投资组合选择的应用，这属于投资组合管理的范畴。虽然论文主要研究多目标分布式优化和神经动力学方法，但投资组合管理是其明确的应用领域之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:48.482445"
+}

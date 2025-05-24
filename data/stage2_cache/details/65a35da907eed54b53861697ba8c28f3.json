@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1846,
+    "title": "FactorVAE: A Probabilistic Dynamic Factor Model Based on Variational Autoencoder for Predicting Cross-Sectional Stock Returns",
+    "abstract": "As an asset pricing model in economics and finance, factor model has been widely used in quantitative investment. Towards building more effective factor models, recent years have witnessed the paradigm shift from linear models to more flexible nonlinear data-driven machine learning models. However, due to low signal-to-noise ratio of the financial data, it is quite challenging to learn effective factor models. In this paper, we propose a novel factor model, FactorVAE, as a probabilistic model with inherent randomness for noise modeling. Essentially, our model integrates the dynamic factor model (DFM) with the variational autoencoder (VAE) in machine learning, and we propose a prior-posterior learning method based on VAE, which can effectively guide the learning of model by approximating an optimal posterior factor model with future information. Particularly, considering that risk modeling is important for the noisy stock data, FactorVAE can estimate the variances from the distribution over the latent space of VAE, in addition to predicting returns. The experiments on the real stock market data demonstrate the effectiveness of FactorVAE, which outperforms various baseline methods.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "47b308de87f771e722de413ced401ab9",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "deep learning",
+      "representation learning",
+      "autoencoder",
+      "variational autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:03.982122"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于变分自编码器的动态因子模型（FactorVAE），用于预测横截面股票收益，并考虑了风险建模。这些技术主要用于资产定价和量化投资，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于变分自编码器的动态因子模型（FactorVAE），用于预测横截面股票收益，并考虑了风险建模。这些技术主要用于资产定价和量化投资，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:53.456461"
+}

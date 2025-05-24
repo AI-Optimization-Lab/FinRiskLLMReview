@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 469,
+    "title": "Symmetry-Aware Credit Risk Modeling: A Deep Learning Framework Exploiting Financial Data Balance and Invariance",
+    "abstract": "With the proliferation of mobile devices and payment systems in modern financial services, there is an increasing need to process and analyze continuous streams of transaction data for credit risk assessment. Leveraging the inherent symmetries in financial markets and data structures, this paper introduces DeepCreditRisk, a symmetry-aware deep learning framework that addresses key challenges while maintaining critical invariance properties in financial data representation. The framework incorporates three main components: an adaptive temporal fusion mechanism, a heterogeneous graph neural network, and an attention-based interpretable output layer. The temporal fusion mechanism effectively models both short-term fluctuations and long-term trends in financial time series, while the heterogeneous graph neural network captures intricate relationships within the financial ecosystem. The framework maintains important symmetrical properties in both temporal and structural representations, ensuring balanced feature learning and invariant risk assessment. The attention-based output layer preserves representation symmetry while enhancing model interpretability. Extensive experiments on a large-scale credit risk dataset demonstrate DeepCreditRisk's superior performance, achieving a 7.2% improvement in the Area Under the Receiver Operating Characteristic Curve (AUC-ROC) and an 18.6% improvement in the Kolmogorov-Smirnov (KS) statistic over state-of-the-art baseline models. The framework maintains high predictive power across various time horizons and provides interpretable insights into feature importance. DeepCreditRisk represents a significant advancement in applying deep learning to credit risk assessment, offering financial institutions a more accurate, robust, and transparent approach for evaluating creditworthiness and managing risk.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "58d6e1241aa60b812fd8b901ce388d1e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "feature learning",
+      "feature representation",
+      "attention mechanism",
+      "heterogeneous graph neural network",
+      "temporal fusion mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:51:31.197455"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个深度学习框架（DeepCreditRisk）用于信用风险评估，这直接属于金融风险管理领域。论文明确提到该框架用于评估信用风险和管理风险，并未涉及衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是开发一个深度学习框架（DeepCreditRisk）用于信用风险评估，这直接属于金融风险管理领域。论文明确提到该框架用于评估信用风险和管理风险，并未涉及衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:40.186583"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1731,
+    "title": "Credit Risk Scoring: A Stacking Generalization Approach",
+    "abstract": "Forecasting the creditworthiness of customers in newand existing loan contracts is a central issue of lenders' activity. Credit scoring involves the use of analytical methods to transform historical loan application and loan performance data into credit scores that signal creditworthiness, inform, and determine credit decisions, determine credit limits, and loan rates, and assist in fraud detection, delinquency intervention, or loss mitigation. The standard approach to credit scoring is to pursue a winner-take-all perspective by which, for each dataset, a single believed to be the best statistical learning or machine learning classifier is selected from a set of candidate approaches using some method or criteria often neglecting model uncertainty. This paper empirically investigates the predictive accuracy of single-based classifiers against the stacking generalization approach in credit risk modelling using real-world peer-to-peer lending data. The findings show that stacking ensembles consistently outperform most traditional individual credit scoring models in predicting the default probability. Moreover, the findings show that adopting a feature selection process and hyperparameter tuning contributes to improving the performance of individual credit risk models and the super-learner scoring algorithm, helping models to be simpler, more comprehensive, and with lower classification error rates. Improving credit scoring models to better identify loan delinquency can substantially contribute to reducing loan impairments and losses leading to an improvement in the financial performance of credit institutions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "506dfbfd5428b8dd47d57147fecb2b80",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:52.678697"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用堆叠泛化方法改进信用评分模型，以更准确地预测贷款违约概率。这直接应用于信用风险管理，属于金融风险管理的范畴。论文并未涉及衍生品定价或投资组合管理的内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用堆叠泛化方法改进信用评分模型，以更准确地预测贷款违约概率。这直接应用于信用风险管理，属于金融风险管理的范畴。论文并未涉及衍生品定价或投资组合管理的内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:56.526691"
+}

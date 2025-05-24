@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1153,
+    "title": "Hedge fund allocation: Evaluating parametric and nonparametric forecasts using alternative portfolio construction techniques",
+    "abstract": "We propose a model for constructing Asian funds of hedge funds. We compare the accuracy of forecasts of hedge fund returns using an ordinary least squares (OLS) regression model, a nonparametric regression model, and a nonlinear nonparametric model. We backtest to assess these forecasts using three different portfolio construction processes: an optimized portfolio, an equally-weighted portfolio, and the Kelly criterion-based portfolio. We find that the Kelly criterion is a reasonable method for constructing a fund of hedge funds, producing better results than a basic optimization or an equally-weighted portfolio construction method. Our backtests also indicate that the nonparametric forecasts and the OLS forecasts produce similar performance at the hedge fund index level. At the individual fund level, our analysis indicates that the OLS forecasts produce higher directional accuracy than the nonparametric methods but the nonparametric methods produce more accurate forecasts than OLS. In backtests, the highest information ratio to predict hedge fund returns is obtained from a combination of the OLS regression with the Fung-Hsieh eight-factor variables as predictors using the Kelly criterion portfolio construction method. Similarly, the highest information ratio using forecasts generated from a combination of the nonparametric regression using the Fung-Hsieh eight-factor model variables is achieved using the Kelly criterion portfolio construction method. Simulations using risk-adjusted total returns indicate that the nonparametric regression model generates superior information ratios than the analogous backtest results using the OLS. However, the benefits of diversification plateau with portfolios of more than 20 hedge funds. These results generally hold with portfolio implementation lags up to 12 months. (C) 2016 Published by Elsevier Inc.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "123316f78102227a92c23fc3e2065d8a",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.825506"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究对冲基金的配置和预测模型，比较了不同预测方法和投资组合构建技术（如优化组合、等权重组合和Kelly准则组合），并评估了它们在基金组合管理中的表现。这些内容直接涉及投资组合管理的核心问题，如资产配置和绩效评估。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究对冲基金的配置和预测模型，比较了不同预测方法和投资组合构建技术（如优化组合、等权重组合和Kelly准则组合），并评估了它们在基金组合管理中的表现。这些内容直接涉及投资组合管理的核心问题，如资产配置和绩效评估。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:55.615836"
+}

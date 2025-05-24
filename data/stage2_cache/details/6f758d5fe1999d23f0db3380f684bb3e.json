@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 4272,
+    "title": "Toward multivariate fragility functions for seismic damage and loss estimation of high-rise buildings",
+    "abstract": "Data-driven models for seismic damage and loss assessment of buildings have become more common in recent years due to the availability of large repositories of recorded and synthetic ground motions coupled with structural response simulation data. This paper explores the benefits of using bivariate and multivariate fragility functions to estimate earthquake-induced damage and economic loss in high-rise buildings. The dataset used in this study encompasses 15,000 simulations of modern high-rise reinforced concrete shear wall buildings ranging from eight to 24 stories which are subjected to ground motion records at five different intensity levels. The proposed functions are conditioned on average spectral accelerations and ground motion significant duration. The results indicate that bivariate fragility functions improve damage state prediction success (Brier score) by 16%, and multivariate fragility functions by 24% relative to conventional univariate functions (standard of practice). To develop multivariate functions, nominal and ordinal probit regression models are fit to the dataset. While both models yield satisfactory predictive performance, ordinal functions can lead to a 15% reduction in misclassified collapse instances, that is, the minority class. Univariate functions tend to overestimate seismic losses at lower intensity levels while underestimating them at higher intensities. These loss estimates are significantly improved when bivariate or multivariate building fragility functions are used. Given the increase in the use of physics-based ground motion simulations and/or multi-variate ground motion models, from which multiple intensity measures can be extracted, a shift toward a more complex representation of fragility functions, for example, multivariate curves, is necessary and inevitable. The proposed functions are used to evaluate the performance of a portfolio of modern high-rise reinforced concrete shear wall buildings at four sites across the Seattle, Washington metropolitan area under a potential magnitude-9 Cascadia subduction zone earthquake scenario. The results indicate that the proposed functions can be beneficial in enhancing damage state predictions and loss estimates at a regional scale.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "acc224d360809ffedd9564194d5d3b3a",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:25:23.315338"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究地震对高层建筑的损害和经济损失评估，虽然使用了回归模型，但其应用领域是地震工程和灾害风险管理，而非金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究地震对高层建筑的损害和经济损失评估，虽然使用了回归模型，但其应用领域是地震工程和灾害风险管理，而非金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:57.217009"
+}

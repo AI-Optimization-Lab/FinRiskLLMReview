@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 5972,
+    "title": "Application of KL distance-based intelligent recommendation method to fund recommendation for users with investment behavior in Asia Region",
+    "abstract": "Over the past decade, the spectacular growth of many economies in Asia has amazed the economics profession and Asian people's quality of life has been significantly improved. Therefore, people's savings are increasing. The booming financial market attracts more people to invest in funds for its relatively low risk and high returns. This research first analyzed the widely used recommendation algorithms. Then it adopted the K-medoids clustering algorithm based on KL divergence to make recommendations. The recommendations were also based on the user-item rating matrix. First, the improved Kullback-Leibler distance was used to calculate the distance and similarity between the funds. Next, the data set of n funds were split by the K-medoids clustering technique into k clusters to obtain funds that were similar to the target fund. Finally, the prediction accuracy of the KL-KM recommendation algorithm was compared with those of traditional recommendation algorithms. When the number of recommendations changed from 1 to 5, the average minimum KL distance varied from 0.16, 0.22, 0.29, 0.31, to 0.39. The average KL similarity is 0.85, 0.83, 0.79, 0.74, and 0.72, respectively, and the average absolute error is 0.83, 0.82, 0.82, 0.83, and 0.82, respectively. The root mean square error (RMSE) of the proposed algorithm is 0.93, 0.94, 0.93, 0.94 and 0.94, respectively. Therefore, the proposed recommendation model has a better recommendation performance than existing models to meet users' demands. This algorithm generates recommendations of similar funds based on customers' purchase history. Moreover, principal component analysis is used to simplify the large data set of indicator values into a smaller set while still maintaining significant patterns and trends, thereby improving the accuracy and reducing the complexity of the model.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8e130cae9b63d4f665f9cc717a56c980",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T02:53:33.362105"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于KL距离的智能推荐方法，用于向亚洲地区的投资者推荐基金。这属于投资组合管理的范畴，因为它涉及选择和管理投资组合中的资产以满足投资者的需求。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于KL距离的智能推荐方法，用于向亚洲地区的投资者推荐基金。这属于投资组合管理的范畴，因为它涉及选择和管理投资组合中的资产以满足投资者的需求。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:56.577419"
+}

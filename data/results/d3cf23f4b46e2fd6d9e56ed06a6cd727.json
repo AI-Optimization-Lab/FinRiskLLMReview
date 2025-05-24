@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "neural network",
+    "deep learning",
+    "representation learning",
+    "convolutional neural network",
+    "CNN",
+    "recurrent neural network",
+    "long short-term memory",
+    "LSTM"
+  ],
+  "explanations": {
+    "machine learning": "The paper proposes a deep learning model for analyzing CBCT reports, which falls under the broader category of machine learning.",
+    "supervised learning": "The model is trained on expert-annotated data, indicating a supervised learning approach.",
+    "classification": "The model aims to classify oral lesions into high-risk and low-risk categories.",
+    "neural network": "The proposed model is a deep learning model, which is a type of neural network.",
+    "deep learning": "The paper explicitly mentions the use of a deep learning model (CNN-LSTM) for analyzing textual reports.",
+    "representation learning": "The model uses word embeddings to capture semantic similarities, which is a form of representation learning.",
+    "convolutional neural network": "The model includes a CNN component for processing the data.",
+    "CNN": "Abbreviation for convolutional neural network, which is part of the proposed model.",
+    "recurrent neural network": "The model includes an LSTM component, which is a type of recurrent neural network.",
+    "long short-term memory": "The model uses LSTM to process sequential data from the radiology reports.",
+    "LSTM": "Abbreviation for long short-term memory, which is part of the proposed model."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"neural network\",\n    \"deep learning\",\n    \"representation learning\",\n    \"convolutional neural network\",\n    \"CNN\",\n    \"recurrent neural network\",\n    \"long short-term memory\",\n    \"LSTM\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper proposes a deep learning model for analyzing CBCT reports, which falls under the broader category of machine learning.\",\n    \"supervised learning\": \"The model is trained on expert-annotated data, indicating a supervised learning approach.\",\n    \"classification\": \"The model aims to classify oral lesions into high-risk and low-risk categories.\",\n    \"neural network\": \"The proposed model is a deep learning model, which is a type of neural network.\",\n    \"deep learning\": \"The paper explicitly mentions the use of a deep learning model (CNN-LSTM) for analyzing textual reports.\",\n    \"representation learning\": \"The model uses word embeddings to capture semantic similarities, which is a form of representation learning.\",\n    \"convolutional neural network\": \"The model includes a CNN component for processing the data.\",\n    \"CNN\": \"Abbreviation for convolutional neural network, which is part of the proposed model.\",\n    \"recurrent neural network\": \"The model includes an LSTM component, which is a type of recurrent neural network.\",\n    \"long short-term memory\": \"The model uses LSTM to process sequential data from the radiology reports.\",\n    \"LSTM\": \"Abbreviation for long short-term memory, which is part of the proposed model.\"\n  }\n}\n```"
+}

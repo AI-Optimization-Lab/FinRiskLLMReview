@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1394,
+    "title": "Enhancing Forecasting Accuracy in Commodity and Financial Markets: Insights from GARCH and SVR Models",
+    "abstract": "The aim of this study is to enhance the understanding of volatility dynamics in commodity returns, such as gold and cocoa, as well as the financial market index S&P500. It provides a comprehensive overview of each model's efficacy in capturing volatility clustering, asymmetry, and long-term memory effects in asset returns. By employing models like sGARCH, eGARCH, gjrGARCH, and FIGARCH, the research offers a nuanced understanding of volatility evolution and its impact on asset returns. Using the Skewed Generalized Error Distribution (SGED) in model optimization shows how important it is to understand asymmetry and fat-tailedness in return distributions, which are common in financial data. Key findings include the sGARCH model being the preferred choice for Gold Futures due to its lower AIC value and favorable parameter estimates, indicating significant volatility clustering and a slight positive skewness in return distribution. For Cocoa Futures, the FIGARCH model demonstrates superior performance in capturing long memory effects, as evidenced by its higher log-likelihood value and lower AIC value. For the S&P500 Index, the eGARCH model stands out for its ability to capture asymmetry in volatility responses, showing superior performance in both log-likelihood and AIC values. Overall, identifying superior modeling approaches like the FIGARCH model for long memory effects can enhance risk management strategies by providing more accurate estimates of Value-at-Risk (VaR) and Expected Shortfall (ES). Additionally, the out-of-sample evaluation reveals that Support Vector Regression (SVR) outperforms traditional GARCH models for short-term forecasting horizons, indicating its potential as an alternative forecasting tool in financial markets. These findings underscore the importance of selecting appropriate modeling techniques tailored to specific asset classes and forecasting horizons. Furthermore, the study highlights the potential of advanced techniques like SVR in enhancing forecasting accuracy, thus offering valuable implications for portfolio management and risk assessment in financial markets.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f096011c61d88ecf4c1d076908f07d10",
+    "relevant_keywords": [
+      "support vector machine",
+      "SVM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:02:22.748480"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究波动率建模和预测，以提高风险管理的准确性，如Value-at-Risk (VaR)和Expected Shortfall (ES)的估计，这属于金融风险管理的范畴。同时，论文提到这些技术对投资组合管理和风险评估有重要价值，因此也涉及投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文主要研究波动率建模和预测，以提高风险管理的准确性，如Value-at-Risk (VaR)和Expected Shortfall (ES)的估计，这属于金融风险管理的范畴。同时，论文提到这些技术对投资组合管理和风险评估有重要价值，因此也涉及投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:24.671878"
+}

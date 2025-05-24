@@ -1,0 +1,40 @@
+{
+  "paper": {
+    "id": 3201,
+    "title": "Automated Trading with Machine Learning on Big Data",
+    "abstract": "Financial markets are now extremely efficient, nevertheless there are still many investment funds that generate alpha systematically beating markets' return benchmarks. The emergence of big data gave professional traders the new territory, leverage and evidence and renewed opportunities of their profitable exploitation by Machine Learning (ML) models, increasingly taking over the trading floor by 24/7 automated trading in response to the continuously fed data streams. Rapidly increasing data sizes and strictly real-time requirements of the trading models render large subset of ML methods intractable, overcomplex and impossible to apply in practise. In this work we demonstrate how to efficiently approach the problem of automated trading with large portfolio strategy that continuously consumes streams of data across multiple diverse markets. We demonstrate a simple scalable trading model that learns to generate profit from multiple inter-market price predictions and markets' correlation structure. We also introduce the stochastic trade diffusion technique to maximise trading turnover while reducing strategy's exposure to market impact and construct the efficient risk-mitigating portfolio that backtests with the strong positive return.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f63cccfbf2672f0295cc850ac2f153fa",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "sequence-to-sequence learning",
+      "seq2seq",
+      "encoder-decoder",
+      "autoencoder",
+      "denoising autoencoder",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T02:23:33.593345"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型进行自动化交易，并构建了一个高效的风险缓解投资组合，这直接涉及投资组合管理的领域。论文中提到的多市场数据流处理、价格预测和相关性结构分析，以及风险缓解策略，都是投资组合管理的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型进行自动化交易，并构建了一个高效的风险缓解投资组合，这直接涉及投资组合管理的领域。论文中提到的多市场数据流处理、价格预测和相关性结构分析，以及风险缓解策略，都是投资组合管理的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:03.681532"
+}

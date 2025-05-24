@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2350,
+    "title": "The CoCVaR approach: systemic risk contribution measurement",
+    "abstract": "Systemic risk is the risk that the defaults of one or more institutions trigger a collapse of the entire financial system. In this paper, we propose a measure for systemic risk, CoCVaR, the conditional value-at-risk (CVaR) of the financial system conditional on an institution being in financial distress. This measure is similar to Adrian and Brunnermeier's CoVaR from 2008, but we change the systemic risk from VaR to CVaR. This measure considers severe losses of the financial system beyond VaR. CoCVaR is estimated using CVaR (superquantile) regression. We define the systemic risk contribution of an institution as the difference between CoCVaR conditional on the institution being under distress and the CoCVaR in the median state of the institution. We estimate the systemic risk contributions of the ten largest publicly traded banks in the United States for a sample period February 2000 to January 2015 and compare CoCVaR and CoVaR risk contributions for this period. We find that the new CoCVaR provides a unique perspective on the systemic risk contribution.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "156cff0889573d1e0969b580664a58b0",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:19.662854"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper proposes a new measure for systemic risk, CoCVaR, which is used to assess the systemic risk contribution of financial institutions. This is directly related to financial risk management, as it focuses on measuring and managing the risk of financial system collapse due to institutional defaults.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper proposes a new measure for systemic risk, CoCVaR, which is used to assess the systemic risk contribution of financial institutions. This is directly related to financial risk management, as it focuses on measuring and managing the risk of financial system collapse due to institutional defaults.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:56.309268"
+}

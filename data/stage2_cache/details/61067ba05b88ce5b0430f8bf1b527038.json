@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 38,
+    "title": "融合网络结构特征的贷款违约预测研究",
+    "abstract": "信贷违约风险是金融风险的重要组成部分，应用机器学习进行违约预测已成为研究重点。为提升机器学习模型在贷款违约中的预测能力，本文构建了贷款用户的社会网络。通过选取体现关联关系的网络结构特征，并应用DeepWalk算法和Stacking模型，将用户的社会网络拓扑结构信息作为特征加入机器学习模型进行训练。实验结果表明，该模型能够提高预测准确度，较基准模型AUC分别提高了1.38%、1.74%，对金融机构在贷前风险识别及制定信贷决策具有借鉴意义。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "49edccc7e5e088e310f425d7be2b5ea6",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "deep learning",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-14T22:26:03.576609"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是应用机器学习模型预测贷款违约风险，这直接涉及金融机构在贷前风险识别和信贷决策制定，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是应用机器学习模型预测贷款违约风险，这直接涉及金融机构在贷前风险识别和信贷决策制定，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:39:58.190050"
+}

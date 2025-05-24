@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1917,
+    "title": "A cluster-based optimization approach to support the participation of an aggregator of a larger number of prosumers in the day-ahead energy market",
+    "abstract": "Optimizing the participation of a large number of prosumers in the electricity markets is a challenging problem, especially for portfolios with thousands or millions of flexible resources. To address this problem, this paper proposes a cluster-based optimization approach to support an aggregator in the definition of demand and supply bids for the day-ahead energy market. This approach consists of two steps. In the first step, the aggregated flexibility of the entire portfolio is computed by a centroid-based clustering algorithm. In the second step, the supply and demand bids are defined by an optimization model that can assume the form of a deterministic or a two-stage stochastic problem. A case study of 10,000 prosumers from the Iberian market is used to evaluate and compare the performance of the bidding optimization models with and without pre-clustering. The numerical results show that the optimized bidding strategies outperform an inflexible strategy by more than 20% of cost savings. The centroid-based clustering algorithm reduces effectively the execution times of the bidding optimization problems, without affecting the quality of the energy bids.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "74097a8820cbc772585efb0a0c672993",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:06.151654"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是电力市场中大量产消者的集群优化问题，虽然涉及优化和集群技术，但其应用场景是能源市场的投标策略，并未明确指出与衍生品定价、金融风险管理或投资组合管理等金融研究领域的直接关联。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是电力市场中大量产消者的集群优化问题，虽然涉及优化和集群技术，但其应用场景是能源市场的投标策略，并未明确指出与衍生品定价、金融风险管理或投资组合管理等金融研究领域的直接关联。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:14.428846"
+}

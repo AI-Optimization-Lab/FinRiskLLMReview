@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 4106,
+    "title": "Mobile IP Geolocation Based on District Anchor Without Cooperation of Users or Internet Service Providers",
+    "abstract": "Mobile IP geolocation aims to obtain a mobile device's geographic location by IP. This technology is widely used in preventing financial risk, investigating cybercrime, and delivering targeted information. Currently, there are three types of IP geolocation: based on cooperation, querying in database, or network measurement. However, since restricted cooperation, low-reliability databases, and unresponsive mobile IPs, existing technologies are hard to geolocate fine-grained location of mobile IP. In this paper, we propose the concept of district anchor, and propose a non-cooperative mobile IP geolocation scheme, including three parts: acquiring district anchors by clustering, evaluating the reliability of district anchors, and geolocating mobile IPs. We also give implemented approach of this scheme. Instead of using existing clustering algorithms treating IPs and geolocations in no particular order, we propose two-stages clustering algorithm (IPG2C) to acquire district anchors, and establish reliability evaluation mechanism by IP distribution and spatial distribution of cluster. Eventually, using obtained reliable district anchors, we use subnet geolocation strategy to geolocate mobile IPs. The experimental results in 10 cities show that: 1) our scheme can be used to geolocate mobile IPs without cooperation; 2) the mean geolocation error is 12.47km, where precision of 56.67% of mobile IPs is street-level and minimum error is only 13m; 3) that the mean geolocation error of the anchor-based method is smaller than that of the landmark-based method; 4) compared with 13 clustering algorithms (e.g., K-Means ++ , Mean Shift, DBSCAN, and GMM), mean geolocation error using IPG2C's district anchors is reduced by 26.62%similar to 50.77%.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6bda2905430be6fe08e4b8bff6c6f623",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:33:03.553959"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究移动IP地理定位技术，虽然提到可以用于防止金融风险，但其核心技术是IP地理定位算法，并未深入探讨在金融风险管理中的具体应用或方法。因此，不属于上述任一金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究移动IP地理定位技术，虽然提到可以用于防止金融风险，但其核心技术是IP地理定位算法，并未深入探讨在金融风险管理中的具体应用或方法。因此，不属于上述任一金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:17.624887"
+}

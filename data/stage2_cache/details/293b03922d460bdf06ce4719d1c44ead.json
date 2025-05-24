@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 749,
+    "title": "Multi-level deep Q-networks for Bitcoin trading strategies",
+    "abstract": "The Bitcoin market has experienced unprecedented growth, attracting financial traders seeking to capitalize on its potential. As the most widely recognized digital currency, Bitcoin holds a crucial position in the global financial landscape, shaping the overall cryptocurrency ecosystem and driving innovation in financial technology. Despite the use of technical analysis and machine learning, devising successful Bitcoin trading strategies remains a challenge. Recently, deep reinforcement learning algorithms have shown promise in tackling complex problems, including profitable trading strategy development. However, existing studies have not adequately addressed the simultaneous consideration of three critical factors: gaining high profits, lowering the level of risk, and maintaining a high number of active trades. In this study, we propose a multi-level deep Q-network (M-DQN) that leverages historical Bitcoin price data and Twitter sentiment analysis. In addition, an innovative preprocessing pipeline is introduced to extract valuable insights from the data, which are then input into the M-DQN model. A novel reward function is further developed to encourage the M-DQN model to focus on these three factors, thereby filling the gap left by previous studies. By integrating the proposed preprocessing technique with the novel reward function and DQN, we aim to optimize trading decisions in the Bitcoin market. In the experiments, this integration led to a noteworthy 29.93% increase in investment value from the initial amount and a Sharpe Ratio in excess of 2.7 in measuring risk-adjusted return. This performance significantly surpasses that of the state-of-the-art studies aiming to develop an efficient Bitcoin trading strategy. Therefore, the proposed method makes a valuable contribution to the field of Bitcoin trading and financial technology.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "735aee8cd68607b334cc0c44704349e8",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "deep Q-network",
+      "DQN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:34.118193"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种多级深度Q网络（M-DQN）用于比特币交易策略优化，主要关注于提高收益、降低风险并保持高活跃交易量，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种多级深度Q网络（M-DQN）用于比特币交易策略优化，主要关注于提高收益、降低风险并保持高活跃交易量，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:24.103917"
+}

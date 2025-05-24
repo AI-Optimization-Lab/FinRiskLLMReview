@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 135,
+    "title": "Intelligent Asset Allocation using Predictions of Deep Frequency Decomposition",
+    "abstract": "The boom of financial technology and artificial intelligence (AI) has influenced financial industry. Application of AI-based techniques especially deep neural networks in the stock market has drawn particular attention in recent years. Moreover, applying modern technology in finance has created new fields such as computational finance and intelligent asset management. Following this revolution, the present research aims to shed light on deep learning models in stocks analysis and apply theses analyses in portfolio management. To this end, we introduced a novel hybrid deep learning model for stock prediction and incorporated these predictions as investors' views in Black-Litterman asset allocation model. The finding indicates that the Black-Litterman portfolio based on the predictions of the hybrid CEEMD-CNN-LSTM model constructed portfolios with high return, low extreme allocation, and low risk. Furthermore, the Black-Litterman portfolios based on the introduced prediction model outperformed the mean-variance portfolio, equal-weighted portfolio, and the Black-Litterman portfolios based on the predictions of CNN-LSTM and LSTM. This remarkable performance could be attributed to each constituting model used in the hybrid model and portfolio formation strategy.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "8fe32787d9b06138612370d1b6938294",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:34:25.394295"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是应用深度学习模型进行股票预测，并将这些预测结果整合到Black-Litterman资产分配模型中，以构建高回报、低风险的投资组合。这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是应用深度学习模型进行股票预测，并将这些预测结果整合到Black-Litterman资产分配模型中，以构建高回报、低风险的投资组合。这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:08.143136"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 130,
+    "title": "A new fuzzy support vector machine to evaluate credit risk",
+    "abstract": "Due to recent financial crises and regulatory concerns, financial intermediaries' credit risk assessment is an area of renewed interest in both the academic world and the business community. In this paper, we propose a new fuzzy support vector machine to discriminate good creditors from bad ones. Because in credit scoring areas we usually cannot label one customer as absolutely good who is sure to repay in time, or absolutely bad who will default certainly, our new fuzzy support vector machine treats every sample as both positive and negative classes, but with different memberships. By this way we expect the new fuzzy support vector machine to have more generalization ability, while preserving the merit of insensitive to outliers, as the fuzzy support vector machine (SVM) proposed in previous papers. We reformulate this kind of two-group classification problem into a quadratic programming problem. Empirical tests on three public datasets show that it can have better discriminatory power than the standard support vector machine and the fuzzy support vector machine if appropriate kernel and membership generation method are chosen.",
+    "year": 2005,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "48eefc7438e1a0bb8a7e7a3c78c7e32d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:14.047646"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a new fuzzy support vector machine for credit risk assessment, which is a key component of financial risk management, specifically in evaluating the likelihood of default by creditors.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a new fuzzy support vector machine for credit risk assessment, which is a key component of financial risk management, specifically in evaluating the likelihood of default by creditors.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:46.674833"
+}

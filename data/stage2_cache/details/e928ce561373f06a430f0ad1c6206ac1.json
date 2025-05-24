@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1167,
+    "title": "A dynamic target volatility strategy for asset allocation using artificial neural networks",
+    "abstract": "A challenge to developing data-driven approaches in finance and trading is the limited availability of data because periods of instability, such as during financial market crises, are relatively rare. This study applies a stability-oriented approach (SOA) based on statistical tests to compare data for the current period to a past set of data for a stable period, providing higher reliability due to a more abundant source of data. Based on an SOA, this study uses an artificial neural network (ANN), which is one of the commonly applied machine learning algorithms, for simultaneously forecasting the volatility and classifying the level of market stability. In addition, this study develops a dynamic target volatility strategy for asset allocation using an ANN to enhance the ability of a target volatility strategy that is established for automatically allocating capital between a risky asset and a risk-free cash position. In order to examine the impact of the proposed strategy, the results are compared to the buy-and-hold strategy, the static asset allocation strategy, and the conventional target volatility strategy using different volatility forecasting methodologies. An empirical case study of the proposed strategy is simulated in both the Korean and U.S. stock markets.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0afa554a45d3b32393df49fa6e0ed86a",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.248415"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用人工神经网络开发动态目标波动率策略，用于资产配置，这直接涉及投资组合管理的领域。论文还比较了不同策略在韩国和美国股票市场的表现，进一步证实了其应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用人工神经网络开发动态目标波动率策略，用于资产配置，这直接涉及投资组合管理的领域。论文还比较了不同策略在韩国和美国股票市场的表现，进一步证实了其应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:38.933348"
+}

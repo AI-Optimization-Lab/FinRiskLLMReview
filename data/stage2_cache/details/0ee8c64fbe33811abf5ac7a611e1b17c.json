@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 762,
+    "title": "Commission Fee is not Enough: A Hierarchical Reinforced Framework for Portfolio Management",
+    "abstract": "Portfolio management via reinforcement learning is at the forefront of fintech research, which explores how to optimally reallocate a fund into different financial assets over the long term by trial-and-error. Existing methods are impractical since they usually assume each reallocation can be finished immediately and thus ignoring the price slippage as part of the trading cost. To address these issues, we propose a hierarchical reinforced stock trading system for portfolio management (HRPM). Concretely, we decompose the trading process into a hierarchy of portfolio management over trade execution and train the corresponding policies. The high-level policy gives portfolio weights at a lower frequency to maximize the long term profit and invokes the low-level policy to sell or buy the corresponding shares within a short time window at a higher frequency to minimize the trading cost. We train two levels of policies via pre-training scheme and iterative training scheme for data efficiency. Extensive experimental results in the U.S. market and the China market demonstrate that HRPM achieves significant improvement against many state-of-the-art approaches.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8818138c2516c5817d6b057d4b3ac8c0",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "unsupervised pre-train",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:50.350361"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly focuses on portfolio management through a hierarchical reinforced framework, aiming to optimize fund reallocation into different financial assets while minimizing trading costs. The research is centered on improving portfolio management strategies, which is clearly stated in the title and abstract.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly focuses on portfolio management through a hierarchical reinforced framework, aiming to optimize fund reallocation into different financial assets while minimizing trading costs. The research is centered on improving portfolio management strategies, which is clearly stated in the title and abstract.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:56.011625"
+}

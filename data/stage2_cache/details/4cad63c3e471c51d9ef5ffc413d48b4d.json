@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 103,
+    "title": "Optimization-based spectral end-to-end deep reinforcement learning for equity portfolio management",
+    "abstract": "We propose a novel approach to equity portfolio optimization that combines spectral analysis and classical equity portfolio optimization theory with deep reinforcement learning in an end- to-end framework. We introduce the End-to-end Frequency Online Deep Deterministic Policy Gradient (EFO-DDPG) algorithm, which leverages discrete Fourier transform to decompose asset return sequences into frequency components. Unlike traditional methods that treat high-frequency components as noise, EFO-DDPG learns to adjust the influence of different frequency components dynamically. Moreover, the algorithm embeds a mean-variance portfolio optimization problem within a deep learning network, enhancing interpretability compared to black-box approaches. The framework models the investment problem as a Partially Observable Markov Decision Process (POMDP), using a state processing block with transformer encoders to capture complex relationships in the market data. By integrating spectral analysis, portfolio optimization theory, and online deep reinforcement learning, EFO-DDPG aims to adapt to non-stationary financial markets and generate superior investment strategies.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8469cd0bcccda90e2d7d1607e488b4e0",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "encoder-decoder",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.510545"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on equity portfolio optimization, proposing a novel approach that combines spectral analysis, classical equity portfolio optimization theory, and deep reinforcement learning. The primary goal is to generate superior investment strategies, which clearly falls under the domain of Portfolio Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on equity portfolio optimization, proposing a novel approach that combines spectral analysis, classical equity portfolio optimization theory, and deep reinforcement learning. The primary goal is to generate superior investment strategies, which clearly falls under the domain of Portfolio Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:49.428978"
+}

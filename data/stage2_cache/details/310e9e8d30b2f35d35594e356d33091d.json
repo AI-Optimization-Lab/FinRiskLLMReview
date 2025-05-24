@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2417,
+    "title": "Bank transactions embeddings help to uncover current macroeconomics",
+    "abstract": "Macroeconomic indexes are of high importance for banks: many risk-control decisions utilize these indexes. A typical workflow of these indexes evaluation is costly and protracted, with a lag between the actual date and available index being a couple of months. Banks predict such indexes now using autoregressive models to make decisions in a rapidly changing environment. However, autoregressive models fail in complex scenarios related to appearances of crises. We propose to use clients' financial transactions data from a large Russian bank to get such indexes. Financial transactions are long, and a number of clients is huge, so we develop an efficient approach that allows fast and accurate estimation of macroeconomic indexes based on a stream of transactions consisting of millions of transactions. The approach uses a neural networks paradigm and a smart sampling scheme. The results show that our neural network approach outperforms the baseline method on hand-crafted features based on transactions. Calculated embeddings show the correlation between the client's transaction activity and bank macroeconomic indexes over time.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9f4a2c241d25d20f4ebdd316326bf0de",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:26.935387"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是利用神经网络和智能采样方案从银行客户交易数据中快速准确地估计宏观经济指标，这些指标被银行用于风险控制决策，因此属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是利用神经网络和智能采样方案从银行客户交易数据中快速准确地估计宏观经济指标，这些指标被银行用于风险控制决策，因此属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:29.326420"
+}

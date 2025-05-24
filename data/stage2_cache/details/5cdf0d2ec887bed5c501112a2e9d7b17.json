@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2141,
+    "title": "Ensemble time series models for stock price prediction and portfolio optimization with sentiment analysis",
+    "abstract": "The work introduces a hybrid ensemble model that combines conventional stock market prediction models with sentiment analysis of news articles in order to improve the accuracy of predictions. By utilizing the advantages of Long Short-Term Memory(LSTM), Gated Recurrent Unit(GRU), Bidirectional LSTM (BiLSTM), and Recurrent Neural Network(RNN) models in an ensemble framework, we attain an impressive average prediction accuracy of 91.89% where our model was evaluated on ten stocks and surpassed the performance of current models. This outcome underscores the need to integrate news sentiment with technical indicators to get a thorough comprehension of market dynamics. Moreover, the proposed model-driven portfolio regularly outperforms the Nifty 50 benchmark at different risk tolerance levels (0.3, 0.5, and 0.7), generating a stable positive alpha. This indicates greater returns when adjusted for risk. The model's ability to adapt to the varying needs of investors is demonstrated by the performance it achieved across risk profiles. The proposed model is also compared with the existing models to show the model's efficiency.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a000145929a65b73ec740b89c8fe8af5",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:36.593878"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用混合集成模型进行股票价格预测，并进一步应用于投资组合优化，通过不同风险容忍度下的表现来展示其效果。这直接关联到投资组合管理领域，旨在通过模型驱动的策略实现超额收益。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用混合集成模型进行股票价格预测，并进一步应用于投资组合优化，通过不同风险容忍度下的表现来展示其效果。这直接关联到投资组合管理领域，旨在通过模型驱动的策略实现超额收益。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:16.190058"
+}

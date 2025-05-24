@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 924,
+    "title": "Testing machine learning models for seismic damage prediction at a regional scale using building-damage dataset compiled after the 2015 Gorkha Nepal earthquake",
+    "abstract": "Assessing post-seismic damage on an urban/regional scale remains relatively difficult owing to the significant amount of time and resources required to acquire information and conduct a building-by-building seismic damage assessment. However, the application of new methods based on artificial intelligence, combined with the increasingly systematic availability of field surveys of post-seismic damage, has provided new perspectives for urban/regional seismic damage assessment. This study analyzes the effectiveness and relevance of a number of machine learning techniques for analyzing spatially distributed seismic damage after an earthquake at the regional scale. The basic structural parameters of a portfolio of buildings and the post-earthquake damage surveyed after the Nepal 2015 earthquake are analyzed and combined with macro-seismic intensity values provided by the United States Geological Survey ShakeMap tool. Among the methods considered, the random forest regression model provides the best damage predictions for specified ground motion intensity values and structural parameters. For traffic-light-based damage classification (three classes: green-, amber-, and red-tagged buildings based on post-earthquake damage grade), a mean accuracy of 0.68 is obtained. This study shows that restricting learning to basic features of buildings (i.e. number of stories, height, plinth area, and age), which could be readily available from authoritative databases (e.g. national census) or field-surveyed databases, yields a reliable prediction of building damage (4 features/3 damage grade accuracy: 0.64).",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c52fd9b5f1725876ab8bab4c4e75cb9e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "random forest"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.363289"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究机器学习模型在地震灾害预测中的应用，特别是建筑损伤预测，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究机器学习模型在地震灾害预测中的应用，特别是建筑损伤预测，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:36.826974"
+}

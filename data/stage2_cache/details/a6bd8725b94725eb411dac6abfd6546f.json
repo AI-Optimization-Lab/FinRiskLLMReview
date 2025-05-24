@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 433,
+    "title": "A comparison of temperature density forecasts from GARCH and atmospheric models",
+    "abstract": "Density forecasts for weather variables are useful for the many industries exposed to weather risk. Weather ensemble predictions are generated from atmospheric models and consist of multiple future scenarios for a weather variable. The distribution of the scenarios can be used as a density forecast, which is needed for pricing weather derivatives. We consider one to 10-day-ahead density forecasts provided by temperature ensemble predictions. More specifically, we evaluate forecasts of the mean and quantiles of the density. The mean of the ensemble scenarios is the most accurate forecast for the mean of the density. We use quantile regression to debias the quantiles of the distribution of the ensemble scenarios. The resultant quantile forecasts compare favourably with those from a GARCH model. These results indicate the strong potential for the use of ensemble prediction in temperature density forecasting. Copyright (C) 2004 John Wiley Sons, Ltd.",
+    "year": 2004,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "7e4d332d75fa99bcd4bbb04f2fa33c46",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:50.770494"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文讨论了温度密度预测在天气衍生品定价中的应用，明确指出密度预测是定价天气衍生品所需的。虽然提到了风险管理，但主要应用场景是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文讨论了温度密度预测在天气衍生品定价中的应用，明确指出密度预测是定价天气衍生品所需的。虽然提到了风险管理，但主要应用场景是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:51.284926"
+}

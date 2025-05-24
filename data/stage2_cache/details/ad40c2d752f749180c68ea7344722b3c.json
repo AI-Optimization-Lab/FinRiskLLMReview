@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 6758,
+    "title": "Predicting stock market reactions to financial news using naive Bayesian classifiers",
+    "abstract": "Recently most research trying to build automatic trading systems have focused on various forms of Technical Analysis (TA) even though it has generally been met by skepticism by the academics. In this paper we argue that what really influences the market is news, and that little research trying to deal with this problem using soft computational techniques has been done. We use Naive Bayesian classifiers for text classification and try to predict the future trends of the Swedish All-Share index using the titles of financial news. Our results show that Naive Bayesian Classifiers are well suited for this task and that they can successfully distinguish between positive and negative news. Even though we label all articles in a day as having the same effect on the market the predictions are quite good, but they could probably be significantly improved if applied on intraday data with more accurate labeling. We also found that using single words as features in the classifier results in a higher overall accuracy, but using pairs of words increased recall of negative news, which is good for risk aversive investment policies.",
+    "year": 2003,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "da2138cc82e4994e824f8f11a0d0798f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T03:01:03.698057"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用朴素贝叶斯分类器预测股票市场对金融新闻的反应，这可以用于指导投资决策和优化投资组合，属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用朴素贝叶斯分类器预测股票市场对金融新闻的反应，这可以用于指导投资决策和优化投资组合，属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:30.598137"
+}

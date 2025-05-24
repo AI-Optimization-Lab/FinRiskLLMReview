@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 4482,
+    "title": "Identifying patterns in financial markets: extending the statistical jump model for regime identification",
+    "abstract": "Regime-driven models are popular for addressing temporal patterns in both financial market performance and underlying stylized factors, wherein a regime describes periods with relatively homogeneous behavior. Recently, statistical jump models have been proposed to learn regimes with high persistence, based on clustering temporal features while explicitly penalizing jumps across regimes. In this article, we extend the jump model by generalizing the discrete hidden state variable into a probability vector over all regimes. This allows us to estimate the probability of being in each regime, providing valuable information for downstream tasks such as regime-aware portfolio models and risk management. Our model's smooth transition from one regime to another enhances robustness over the original discrete model. We provide a probabilistic interpretation of our continuous model and demonstrate its advantages through simulations and real-world data experiments. The interpretation motivates a novel penalty term, called mode loss, which pushes the probability estimates to the vertices of the probability simplex thereby improving the model's ability to identify regimes. We demonstrate through a series of empirical and real world tests that the approach outperforms traditional regime-switching models. This outperformance is pronounced when the regimes are imbalanced and historical data is limited, both common in financial markets.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c66bcaf46c89ca254aece9e13fab3f8e",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:37:47.502762"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on extending a statistical jump model for regime identification in financial markets, which is directly applicable to regime-aware portfolio models and risk management. The abstract explicitly mentions these applications, indicating that the primary use of the research is in financial risk management and portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on extending a statistical jump model for regime identification in financial markets, which is directly applicable to regime-aware portfolio models and risk management. The abstract explicitly mentions these applications, indicating that the primary use of the research is in financial risk management and portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:55.416178"
+}

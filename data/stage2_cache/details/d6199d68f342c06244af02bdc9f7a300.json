@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 777,
+    "title": "基于Twin-SVM的多分形金融市场风险的智能预警研究",
+    "abstract": "本文以沪深300指数(CSI300)长达11年的5分钟高频交易数据为研究样本,首先提出一种基于多分形特征的金融市场正常状态与关注状态的界定方法,并引入新型的支持向量机(SVM)人工智能模型,即孪生SVM(Twin-SVM)模型对多分形特征下的金融市场风险展开预警研究。实证结果表明:(1)我国新兴金融市场的价格波动具有显著的多分形特征;(2)基于多分形特征参数界定的正常与关注状态不仅准确,而且也具有明显的统计检验意义和明确的现实意义;(3)与传统SVM和BP神经网络(NN)相比,Twin-SVM不仅在预测精度上显著更高,而且在预测稳定性上也明显更优,即Twin-SVM能够有效地解决其他预警模型存在的非对称样本问题。",
+    "year": 2018,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c06f2f0bfa285a49c981faaefa1cbc90",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:33:14.921999"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用Twin-SVM模型对多分形特征下的金融市场风险进行预警研究，这直接属于金融风险管理的范畴。论文的研究目标是风险预警，而非衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用Twin-SVM模型对多分形特征下的金融市场风险进行预警研究，这直接属于金融风险管理的范畴。论文的研究目标是风险预警，而非衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:37:16.852644"
+}

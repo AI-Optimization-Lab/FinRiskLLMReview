@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 571,
+    "title": "Fama-French three versus five, which model is better? A machine learning approach",
+    "abstract": "This research proposes new estimations of the Fama-French three- and five-factor models via a machine learning approach. Specifically, it uses a Bayesian optimization-support vector regression (BSVR) approach to obtain predictions of portfolio returns. On data from five industries' portfolio returns in the United States over the period July 1926 to January 2019, the BSVR models perform well. Specifically, our new model, called the Fama-French BSVR three-factor model, outperformed the Fama-French BSVR five-factor model. More precisely, the Fama-French BSVR three-factor estimations attain out-of-sample (testing dataset) correlation coefficients of 94% for portfolio returns for the consumption and manufacturing industries. A correlation of 92% between the predicted and experimental values of portfolio returns was found for the high-tech industry; 91% was found for the mining, construction, transportation, hotels, entertainment, and finance industries. However, for the Fama-French BSVR five-factor model, the correlation coefficients lie between 48% (health industry) and 89% (high-tech industry).",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f21985ddf898b62ee1ebc7cffaa7498c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:01.326773"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法（BSVR）来预测投资组合的回报，并比较Fama-French三因子和五因子模型的表现。这直接涉及投资组合的构建和回报预测，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法（BSVR）来预测投资组合的回报，并比较Fama-French三因子和五因子模型的表现。这直接涉及投资组合的构建和回报预测，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:34.659845"
+}

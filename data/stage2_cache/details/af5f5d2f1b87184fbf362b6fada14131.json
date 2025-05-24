@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1749,
+    "title": "Measuring multi-volatility states of financial markets based on multifractal clustering model",
+    "abstract": "Measuring multi-volatility states is an important component of financial risk management. In this paper, taking 17 years' high-frequency data of the Shanghai Stock Exchange Composite Index (SSEC) as an example, we set out to propose a novel model of multifractal clustering model (MCM), combining multifractal algorithm with k-mean clustering algorithm, to measure the multi-volatility states of financial markets. The empirical results present that the financial markets are multifractal and the multifractal parameter S-alpha measured by multifractal algorithm correlates well with the performance of financial markets. Meanwhile, the multi-volatility states recognized by k-mean clustering algorithm based on S-alpha have obvious statistical significance. More importantly, the experiment results show that by the loss functions and Diebold-Mariano (DM) test, generalized autoregressive conditional heteroscedasticity (GARCH) model with the multi-volatility state measured by MCM is superior to others measured by Markov switching (MRS) model and hidden Markov model (HMM) as well as that without the multi-volatility states, which indicates that MCM has best performance of measuring the multi-volatility states of financial markets. The robustness of MCM is also evaluated by Shenzhen Securities Component Index (SZSE) instance set, SSEC instance sets with different time intervals, and different volatility models. The results still prove that MCM has strong robustness on measuring the multi-volatility states of financial markets.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f3de07a0693da01e14cf9b4b3d7b4848",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:52.728216"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是提出了一种多分形聚类模型（MCM）来测量金融市场的多波动状态，并验证了其在金融风险管理中的优越性能。论文明确提到测量多波动状态是金融风险管理的重要组成部分，并通过实证分析展示了MCM在风险管理中的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种多分形聚类模型（MCM）来测量金融市场的多波动状态，并验证了其在金融风险管理中的优越性能。论文明确提到测量多波动状态是金融风险管理的重要组成部分，并通过实证分析展示了MCM在风险管理中的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:37.400509"
+}

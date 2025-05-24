@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1185,
+    "title": "DeepScalper: A Risk-Aware Reinforcement Learning Framework to Capture Fleeting Intraday Trading Opportunities",
+    "abstract": "Reinforcement learning (RL) techniques have shown great success in many challenging quantitative trading tasks, such as portfolio management and algorithmic trading. Especially, intraday trading is one of the most profitable and risky tasks because of the intraday behaviors of the financial market that reflect billions of rapidly fluctuating capitals. However, a vast majority of existing RL methods focus on the relatively low frequency trading scenarios (e.g., day-level) and fail to capture the fleeting intraday investment opportunities due to two major challenges: 1) how to effectively train profitable RL agents for intraday investment decision-making, which involves high-dimensional fine-grained action space; 2) how to learn meaningful multi-modality market representation to understand the intraday behaviors of the financial market at tick-level. Motivated by the efficient workflow of professional human intraday traders, we propose DeepScalper, a deep reinforcement learning framework for intraday trading to tackle the above challenges. Specifically, DeepScalper includes four components: 1) a dueling Q-network with action branching to deal with the large action space of intraday trading for efficient RL optimization; 2) a novel reward function with a hindsight bonus to encourage RL agents making trading decisions with a long-term horizon of the entire trading day; 3) an encoder-decoder architecture to learn multi-modality temporal market embedding, which incorporates both macro-level and micro-level market information; 4) a risk-aware auxiliary task to maintain a striking balance between maximizing profit and minimizing risk. Through extensive experiments on real-world market data spanning over three years on six financial futures (2 stock index and 4 treasury bond), we demonstrate that DeepScalper significantly outperforms many state-of-the-art baselines in terms of four financial criteria. Furthermore, we conduct a series of exploratory and ablative studies to analyze the contributions of each component in DeepScalper.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "dc19e33b53728d501b8fb98440170ba9",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "encoder-decoder",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.293487"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于强化学习的日内交易框架DeepScalper，旨在捕捉短暂的日内交易机会并平衡利润与风险。其核心技术包括风险感知的辅助任务和长期视野的奖励函数，这些直接应用于金融风险管理。同时，日内交易决策涉及资产配置，与投资组合管理相关。然而，论文未涉及衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于强化学习的日内交易框架DeepScalper，旨在捕捉短暂的日内交易机会并平衡利润与风险。其核心技术包括风险感知的辅助任务和长期视野的奖励函数，这些直接应用于金融风险管理。同时，日内交易决策涉及资产配置，与投资组合管理相关。然而，论文未涉及衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:37.182291"
+}

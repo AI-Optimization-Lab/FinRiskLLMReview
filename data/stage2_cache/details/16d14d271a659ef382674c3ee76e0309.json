@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 6182,
+    "title": "Spatio-temporal exposure risk estimation for COVID-19 using social network analysis and mobile phone data",
+    "abstract": "The COVID-19 pandemic highlighted the critical role of human mobility in disease transmission. Understanding and anticipating spatio-temporal exposure risk is crucial for effective public health interventions. Although various mobility datasets have been explored, the potential of anonymized Call Detail Records (CDRs), combined with social network analysis, remains largely untapped for exposure risk estimation. This study investigates the use of social network analysis for estimating spatio-temporal exposure risk, using anonymized Call Detail Records (CDRs) from Mozambique to model human mobility patterns. The study focuses on three centrality measures: weighted in-degree centrality, improved in-degree centrality, and weighted PageRank. Daily origin-destination matrices constructed from CDRs are used to build directed-weighted networks representing human flow between provinces and districts. The exposure risk scores derived from these measures are compared against a risk score calculated from daily COVID-19 case data and the time-varying reproduction number. Results at the province level show that while all three centrality measures reveal similar trends in spatio-temporal exposure risk, weighted PageRank demonstrates the highest correlation with the COVID-19-based risk score. Poisson regression models, built to predict COVID-19 cases using the three centrality measures, further support the strong influence of exposure risk on the number of cases, with the weighted PageRank model showing the best predictive performance. The district-level analysis, focusing on the Greater Maputo area, used the distribution of Points of Interest (POIs) for validation. The results indicate that education, financial, and transport POIs correlate with exposure risk across all three centrality measures. In general, weighted PageRank consistently outperforms the other two measures in capturing exposure risk across most POI categories. The study concludes that CDRs, in conjunction with weighted PageRank, can effectively estimate spatio-temporal exposure risk, aiding decision-makers in implementing informed interventions to mitigate disease spread.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4d20fef123de8bdebd08d933649e1b3e",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:55:44.520682"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用社交网络分析和移动电话数据估计COVID-19的时空暴露风险，属于公共卫生领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用社交网络分析和移动电话数据估计COVID-19的时空暴露风险，属于公共卫生领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:31.601419"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2,
+    "title": "融合风险对冲机制的投资组合对冲交易策略",
+    "abstract": "针对投资组合对市场下跌风险即系统性风险感知弱，提出融合风险对冲与投资组合策略，建立投资组合对冲交易策略，在投资过程中反向持仓对冲资产。基于深度强化学习的Actor-Critic算法，使用目标网络定时更新，模型可以持续学习；运用长短期记忆网络预测动作概率，根据概率随机选择动作。实验结果显示，对冲策略可以降低投资风险，使累计收益率稳定增长。测试集相比于传统策略，索提诺比率、夏普比率明显提升，下行风险降低22.95%，最大回撤降低56.92%。",
+    "year": 2025,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "7bb5de828a13d6353a6d627fdc903c7c",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:14:19.072424"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种融合风险对冲机制的投资组合对冲交易策略，旨在降低投资风险并提高累计收益率。通过使用深度强化学习和长短期记忆网络来优化投资组合策略，并显著降低了下行风险和最大回撤，这直接涉及金融风险管理和投资组合管理两个领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文提出了一种融合风险对冲机制的投资组合对冲交易策略，旨在降低投资风险并提高累计收益率。通过使用深度强化学习和长短期记忆网络来优化投资组合策略，并显著降低了下行风险和最大回撤，这直接涉及金融风险管理和投资组合管理两个领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:52.835446"
+}

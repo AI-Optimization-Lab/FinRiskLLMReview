@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2053,
+    "title": "GARCH-Informed Neural Networks for Volatility Prediction in Financial Markets",
+    "abstract": "Volatility, which indicates the dispersion of returns, is a crucial measure of risk and is hence used extensively for pricing and discriminating between different financial investments. As a result, accurate volatility prediction receives extensive attention. The Generalized Autoregressive Conditional Heteroscedasticity (GARCH) model and its succeeding variants are well established models for stock volatility forecasting. More recently, deep learning models have gained popularity in volatility prediction as they demonstrated promising accuracy in certain time series prediction tasks. Inspired by Physics-Informed Neural Networks (PINN), we constructed a new, hybrid Deep Learning model that combines the strengths of GARCH with the flexibility of a Long Short-Term Memory (LSTM) Deep Neural Network (DNN), thus capturing and forecasting market volatility more accurately than either class of models are capable of on their own. We refer to this novel model as a GARCH-Informed Neural Network (GINN). When compared to other time series models, GINN showed superior out-of-sample prediction performance in terms of the Coefficient of Determination (R-2), Mean Squared Error (MSE), and Mean Absolute Error (MAE).",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f6cde264ca088dde2710d0bdedcd5a76",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:25.834665"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种混合深度学习模型（GINN）用于波动率预测，而波动率是金融风险管理中的关键指标。论文明确提到波动率用于衡量风险，并用于金融投资决策，这直接关联到金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一种混合深度学习模型（GINN）用于波动率预测，而波动率是金融风险管理中的关键指标。论文明确提到波动率用于衡量风险，并用于金融投资决策，这直接关联到金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:27.771227"
+}

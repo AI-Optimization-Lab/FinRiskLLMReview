@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1421,
+    "title": "A credit scoring ensemble model incorporating fuzzy clustering particle swarm optimization algorithm",
+    "abstract": "The emergence of credit has generated a wealth of data on consumer lending behavior. In recent years, financial institutions have also started to use such data to make informed lending decisions based on fine-grained customer data, but conventional risk assessment models are inadequate in meeting the risk control requirements of the financial industry. Therefore, this paper proposes a credit scoring ensemble model incorporating fuzzy clustering particle swarm optimization (PSO) algorithm to obtain better credit risk prediction capability. First, a weighted outlier detection method based on the Induced Ordered Weighted Average Operator is proposed to preprocess the data to reduce noisy data's misleading effect on model training. Then, an undersampling method combined with fuzzy clustering PSO is proposed to overcome the negative effect of category imbalance on model training by resampling the data. In addition, a hyperparameter optimization framework is introduced to adaptively adjust important parameters in the ensemble model considering the impact of parameter settings on the training performance of the model. Based on the evaluation metrics of F-score, AUC, and Kappa coefficient, an empirical analysis was conducted on five credit risk datasets. The results show that the proposed method outperforms the comparative model with an improvement of 10% to 50% in terms of F-score and AUC. The highest achieved F-score is 0.9488, and the maximum AUC is 0.9807, demonstrating the effectiveness of the proposed method. The kappa coefficient results indicate a high level of consistency in the predicted classification results of the model.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e14198347656618a4b79655d9760b37e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "clustering",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.618098"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种信用评分集成模型，旨在提高信用风险预测能力，这直接应用于金融风险管理中的信用风险评估和控制。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种信用评分集成模型，旨在提高信用风险预测能力，这直接应用于金融风险管理中的信用风险评估和控制。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:36.283052"
+}

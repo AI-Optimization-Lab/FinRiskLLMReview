@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 357,
+    "title": "Financial Volatility Forecasting: A Sparse Multi-Head Attention Neural Network",
+    "abstract": "Accurately predicting the volatility of financial asset prices and exploring its laws of movement have profound theoretical and practical guiding significance for financial market risk early warning, asset pricing, and investment portfolio design. The traditional methods are plagued by the problem of substandard prediction performance or gradient optimization. This paper proposes a novel volatility prediction method based on sparse multi-head attention (SP-M-Attention). This model discards the two-dimensional modeling strategy of time and space of the classic deep learning model. Instead, the solution is to embed a sparse multi-head attention calculation module in the network. The main advantages are that (i) it uses the inherent advantages of the multi-head attention mechanism to achieve parallel computing, (ii) it reduces the computational complexity through sparse measurements and feature compression of volatility, and (iii) it avoids the gradient problems caused by long-range propagation and therefore, is more suitable than traditional methods for the task of analysis of long time series. In the end, the article conducts an empirical study on the effectiveness of the proposed method through real datasets of major financial markets. Experimental results show that the prediction performance of the proposed model on all real datasets surpasses all benchmark models. This discovery will aid financial risk management and the optimization of investment strategies.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "edaa43c398bd71fbcd65343f4dec141b",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "attention mechanism",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:36:59.879276"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on predicting financial volatility, which is directly applicable to financial risk management for market risk early warning. Additionally, the mention of aiding in the optimization of investment strategies indicates relevance to portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on predicting financial volatility, which is directly applicable to financial risk management for market risk early warning. Additionally, the mention of aiding in the optimization of investment strategies indicates relevance to portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:40.860101"
+}

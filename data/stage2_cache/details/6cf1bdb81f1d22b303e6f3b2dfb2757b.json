@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2015,
+    "title": "Machine learning style rotation - evidence from the Johannesburg Stock Exchange",
+    "abstract": "This study evaluates na & iuml;ve and advanced prediction models when applied to style rotation strategies on the Johannesburg Stock Exchange ('JSE'). We apply 1- and 3-month style momentum as na & iuml;ve predictors against three tree-based machine learning ('ML') algorithms (advanced predictors), namely Random Forest, XGBoost and LightGBM. Additionally, the study corrects for a shortcoming in the literature by incorporating trading costs into back-tested portfolio sorts. The results of the study are threefold. First, style rotation strategies based on advanced predictors achieve superior risk-adjusted returns when compared to na & iuml;ve momentum. Of the three ML models applied, XGboost is superior, followed by LightGBM, implying that gradient boosters are superior to less advanced ensemble methods (Random Forest) which are in-turn superior to style momentum. Second, short-term momentum results in the highest share turnover across style rotation strategies, resulting in the largest negative impact associated with trading costs. Third, contrary to similar studies, the incorporation of price momentum as an independent variable in factor spanning tests renders most time-series alphas statistically insignificant.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "65dbd3a6eca67074b2cfcc857f30aff2",
+    "relevant_keywords": [
+      "machine learning",
+      "decision tree",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:02:10.214604"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究机器学习模型在风格轮动策略中的应用，并评估了不同模型在风险调整后收益和交易成本方面的表现，这直接涉及投资组合的构建和管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究机器学习模型在风格轮动策略中的应用，并评估了不同模型在风险调整后收益和交易成本方面的表现，这直接涉及投资组合的构建和管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:46.090338"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1700,
+    "title": "Deep equal risk pricing of illiquid derivatives with multiple hedging instruments",
+    "abstract": "This paper leverages the equal risk pricing (ERP) framework for the valuation of illiquid financial derivatives. Such a method sets the derivative price as the premium, which leads to equal residual optimal hedging risk for agents hedging the long and short positions on the derivative. The inclusion of multiple hedging instruments such as liquid vanilla options in the hedging procedure ensures that information contained in the price of these liquid assets is transferred to the price of the illiquid asset. This property leads to genuine market-consistent pricing, which allows the use of observables (liquid instrument prices) to determine nonobservable prices (ie, that of illiquid derivatives) to be maximized. The ERP problem is solved numerically through deep reinforcement learning. Several numerical experiments are provided to study the properties of equal risk prices of derivatives when multiple options are used as hedging instruments. Notably, the equal risk prices produced with option hedges are typically lower than those obtained through hedges relying exclusively on the underlying asset, which is caused by a reduction in the level of market incompleteness when options become available for trading.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c4b2fd7574079c3d41ca2e012330c1d8",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.509878"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文主要研究利用equal risk pricing (ERP)框架对非流动性金融衍生品进行定价，并通过深度强化学习进行数值求解。其核心应用场景是衍生品定价，特别是针对非流动性衍生品的市场一致性定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文主要研究利用equal risk pricing (ERP)框架对非流动性金融衍生品进行定价，并通过深度强化学习进行数值求解。其核心应用场景是衍生品定价，特别是针对非流动性衍生品的市场一致性定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:58.822180"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2303,
+    "title": "Real-Time Detection of Fake-Shops through Machine Learning",
+    "abstract": "E-commerce fraud has been surging at an alarming rate, reaching an all-time high in Austria in 2019, with an increase of 32.3% since the previous year. Illegitimate subscription services, counterfeit goods and fake-shops cause consistent and enormous financial damage. Manual preventive measures fall short due to the sheer number and increasing volume of cases reported for evaluation. Reducing the window of opportunity and increasing the efficiency in flagging fake-shops is therefore key. This paper presents an approach to classify fraudulent online shops solely on the basis of the similarity of their source code structure using machine learning processes. The trained models show an Accuracy of up to 97% and a very high degree of certainty in classifying fraudulent e-commerce, with 61% of all absolute prediction values being nearly identical to the ones made by human experts. Additionally, an aggregated model was developed that plays an important factor in balancing the overall quality of predictions. The open source software components developed include the Fake-Shop Detection API and Middleware, which enables a risk assessment of any website based on the trained models. By using the developed models, the system was able to issue warnings for 48% of fake-shops at the highest prediction confidence level, meaning that these could have immediately been blacklisted by consumer protection agencies, without a single false-classification and an error rate of zero.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "57c9ac3330c15b4d7b08439f89aacf31",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:13:31.892530"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习技术检测电子商务中的欺诈性网店，虽然涉及风险管理，但其应用场景是电子商务欺诈而非特定的金融研究领域（如衍生品定价、金融风险管理或投资组合管理）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习技术检测电子商务中的欺诈性网店，虽然涉及风险管理，但其应用场景是电子商务欺诈而非特定的金融研究领域（如衍生品定价、金融风险管理或投资组合管理）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:19.400157"
+}

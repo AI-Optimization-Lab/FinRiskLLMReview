@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2471,
+    "title": "Data quality issues leading to sub optimal machine learning for money laundering models",
+    "abstract": "Purpose Good quality input data is critical to developing a robust machine learning model for identifying possible money laundering transactions. McKinsey, during one of the conferences of ACAMS, attributed data quality as one of the reasons for struggling artificial intelligence use cases in compliance to data. There were often use concerns raised on data quality of predictors such as wrong transaction codes, industry classification, etc. However, there has not been much discussion on the most critical variable of machine learning, the definition of an event, i.e. the date on which the suspicious activity reports (SAR) is filed. Design/methodology/approach The team analyzed the transaction behavior of four major banks spread across Asia and Europe. Based on the findings, the team created a synthetic database comprising 2,000 SAR customers mimicking the time of investigation and case closure. In this paper, the authors focused on one very specific area of data quality, the definition of an event, i.e. the SAR/suspicious transaction report. Findings The analysis of few of the banks in Asia and Europe suggests that this itself can improve the effectiveness of model and reduce the prediction span, i.e. the time lag between money laundering transaction done and prediction of money laundering as an alert for investigation Research limitations/implications The analysis was done with existing experience of all situations where the time duration between alert and case closure is high (anywhere between 15 days till 10 months). Team could not quantify the impact of this finding due to lack of such actual case observed so far. Originality/value The key finding from paper suggests that the money launderers typically either increase their level of activity or reduce their activity in the recent quarter. This is not true in terms of real behavior. They typically show a spike in activity through various means during money laundering. This in turn impacts the quality of insights that the model should be trained on. The authors believe that once the financial institutions start speeding up investigations on high risk cases, the scatter plot of SAR behavior will change significantly and will lead to better capture of money laundering behavior and a faster and more precise catch rate.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a546ef2a7401b686443658a595c06272",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:59.771092"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要关注的是利用机器学习改进反洗钱模型的数据质量问题，特别是可疑活动报告（SAR）的定义和时间标记。虽然涉及金融领域，但其核心研究并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要关注的是利用机器学习改进反洗钱模型的数据质量问题，特别是可疑活动报告（SAR）的定义和时间标记。虽然涉及金融领域，但其核心研究并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:37.351198"
+}

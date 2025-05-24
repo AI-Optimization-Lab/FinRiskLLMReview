@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1267,
+    "title": "Application of SVM-KNN Using SVR as Feature Selection on Stock Analysis for Indonesia Stock Exchange",
+    "abstract": "Stocks are known as high-risk and high-return investments. Forecasting stock prices movement is the challenging problem for researchers and financial analysts. Support Vector Machines (SVM) with K Nearest Neighbor (KNN) approach will be applied to forecast stock prices of a listed company in Indonesia Stock Exchange (IDX). The stock data are collected from January 2013 to December 2016. First, this paper used feature selection method to select important indicators from thirteen technical indicators using Support Vector Regression (SVR). Second, the stock data are classified using SVM to represent profit or loss and the output helps to find the best nearest neighbor from the training set. Next, stock prices are forecasted using KNN. The performance of this model is computed using Root Mean Square Error (RMSE) and relative error. In this case, the experiment result shows that three indicators selected from feature selection present good prediction capability and the accuracy for close prices prediction is 93.33 % accurately.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c6a716b761ae837c10f1b559d2944dbd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.794549"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用SVM-KNN和SVR进行股票价格预测，虽然涉及金融市场，但并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用SVM-KNN和SVR进行股票价格预测，虽然涉及金融市场，但并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:32.800968"
+}

@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 2131,
+    "title": "Design of a Personal Credit Risk Prediction Model and Legal Prevention of Financial Risks",
+    "abstract": "With the escalating demand for personal credit, banking financial institutions face the imperative to expand their user base and mitigate losses caused by non-performing loans (NPLs). This study addresses the necessity for accurate and efficient personal credit risk assessment systems, focusing on rectifying credit data imbalances and developing a high-performing credit risk prediction model. To tackle data imbalance, deep learning's Generative Adversarial Network (GAN) is employed for oversampling, learning the distribution of default samples within high-risk financial groups. New default samples are then integrated into the original dataset to achieve a balanced representation of default and normal samples. In the era of big data, marked by a surge in personal credit data dimensions and sample numbers, an advanced ensemble learning model, the Light Gradient Boosting Machine (LightGBM), is combined with the GAN model for credit risk prediction. The study utilizes six different imbalance ratio datasets from the Knowledge Extraction based on Evolutionary Learning platform to experiment with the GAN model's classification effectiveness. Additionally, consumer finance company credit data, consisting of 559 features, undergoes data preprocessing and feature extraction to validate the LightGBM-GAN model's effectiveness for credit risk prediction. Experimental results reveal that: (1) GAN significantly improves risk information classification (achieving an 86.7% accuracy), outperforming traditional oversampling methods on multiple datasets; (2) The LightGBM-GAN model excels in Area Under the Receiver Operating Characteristic Curve and Kolmogorov-Smirnov statistic values (averaging 0.86 and 0.87, respectively), establishing itself as an effective credit risk prediction model; (3) Feature importance identified by the LightGBM model underscores the predictive potential of financial weakly correlated variables, such as consumer behavior data. This study strives to equip financial institutions with efficient and precise credit risk assessment tools, ensuring compliance with laws and regulations, averting legal risks, reducing NPL risks, and fortifying the stability of the financial system.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c7025a1c294bbda73b561374987d8e4a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "classification",
+      "neural network",
+      "feature learning",
+      "feature representation",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T02:11:40.556797"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用GAN和LightGBM模型进行个人信用风险预测，旨在帮助金融机构减少不良贷款风险并增强金融系统的稳定性，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用GAN和LightGBM模型进行个人信用风险预测，旨在帮助金融机构减少不良贷款风险并增强金融系统的稳定性，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:05.492846"
+}

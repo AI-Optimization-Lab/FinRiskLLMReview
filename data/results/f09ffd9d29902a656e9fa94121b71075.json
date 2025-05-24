@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree",
+    "gradient boosting",
+    "XGBoost"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning techniques to predict zombie firms.",
+    "supervised learning": "The paper involves training and testing algorithms on financial data to predict firm failure, which is a supervised learning task.",
+    "classification": "The task of predicting whether a firm is a zombie or not based on financial data is a classification problem.",
+    "decision tree": "XGBoost, which is mentioned in the paper, is a gradient boosting algorithm that often uses decision trees as base learners.",
+    "gradient boosting": "The paper specifically mentions the use of a gradient boosting algorithm (XGBoost) for prediction.",
+    "XGBoost": "The paper explicitly states the use of XGBoost, a gradient boosting algorithm, for predicting zombie firms."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"decision tree\",\n    \"gradient boosting\",\n    \"XGBoost\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning techniques to predict zombie firms.\",\n    \"supervised learning\": \"The paper involves training and testing algorithms on financial data to predict firm failure, which is a supervised learning task.\",\n    \"classification\": \"The task of predicting whether a firm is a zombie or not based on financial data is a classification problem.\",\n    \"decision tree\": \"XGBoost, which is mentioned in the paper, is a gradient boosting algorithm that often uses decision trees as base learners.\",\n    \"gradient boosting\": \"The paper specifically mentions the use of a gradient boosting algorithm (XGBoost) for prediction.\",\n    \"XGBoost\": \"The paper explicitly states the use of XGBoost, a gradient boosting algorithm, for predicting zombie firms.\"\n  }\n}\n```"
+}

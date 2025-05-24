@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 172,
+    "title": "Kernel-based reinforcement learning in average-cost problems: An application to optimal portfolio choice",
+    "abstract": "Many approaches to reinforcement learning combine neural networks or other parametric function approximators with a form of temporal-difference learning to estimate the value function of a Markov Decision Process. A significant disadvantage of those procedures is that the resulting learning algorithms are frequently unstable. In this work, we present a new, kernel-based approach to reinforcement learning which overcomes this difficulty and provably converges to a unique solution. By contrast to existing algorithms, our method can also be shown to be consistent in the sense that its costs converge to the optimal costs asymptotically. Our focus is on learning in an average-cost framework and on a practical application to the optimal portfolio choice problem.",
+    "year": 2001,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "22ce7e798927561e716ee516e65293b3",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.112530"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是强化学习在平均成本问题中的应用，并明确指出其实际应用是优化投资组合选择问题，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是强化学习在平均成本问题中的应用，并明确指出其实际应用是优化投资组合选择问题，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:14.599466"
+}

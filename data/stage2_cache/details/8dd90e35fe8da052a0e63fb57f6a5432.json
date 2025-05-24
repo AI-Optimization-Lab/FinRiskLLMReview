@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2165,
+    "title": "Online Planner Selection with Graph Neural Networks and Adaptive Scheduling",
+    "abstract": "Automated planning is one of the foundational areas of AI. Since no single planner can work well for all tasks and domains, portfolio-based techniques have become increasingly popular in recent years. In particular, deep learning emerges as a promising methodology for online planner selection. Owing to the recent development of structural graph representations of planning tasks, we propose a graph neural network (GNN) approach to selecting candidate planners. GNNs are advantageous over a straightforward alternative, the convolutional neural networks, in that they are invariant to node permutations and that they incorporate node labels for better inference. Additionally, for cost-optimal planning, we propose a two-stage adaptive scheduling method to further improve the likelihood that a given task is solved in time. The scheduler may switch at halftime to a different planner, conditioned on the observed performance of the first one. Experimental results validate the effectiveness of the proposed method against strong baselines, both deep learning and non-deep learning based. The code is available at https://github.com/matenure/GNN_ planner.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1c8d9e0424a288c20957ec71946b359c",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "graph neural network",
+      "representation learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:36.681895"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究自动化规划中的在线规划器选择问题，使用图神经网络和自适应调度方法，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究自动化规划中的在线规划器选择问题，使用图神经网络和自适应调度方法，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:46.481034"
+}

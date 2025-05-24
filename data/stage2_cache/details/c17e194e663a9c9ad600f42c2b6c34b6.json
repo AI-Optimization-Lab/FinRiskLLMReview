@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 3436,
+    "title": "Predicting bankruptcy of firms using earnings call data and transfer learning",
+    "abstract": "Business collapse is a common event in economies, small and big alike. A firm's health is crucial to its stakeholders like creditors, investors, partners, etc. and prediction of the upcoming financial crisis is significantly important to devise appropriate strategies to avoid business collapses. Bankruptcy prediction has been regarded as a critical topic in the world of accounting and finance. Methodologies and strategies have been investigated in the research domain for predicting company bankruptcy more promptly and accurately. Conventionally, predicting the financial risk and bankruptcy has been solely achieved using the historic financial data. CEOs also communicate verbally via press releases and voice characteristics, such as emotion and tone may reflect a company's success, according to anecdotal evidence. Companies' publicly available earning calls data is one of the main sources of information to understand how businesses are doing and what are expectations for the next quarters. An earnings call is a conference call between the management of a company and the media. During the call, management offers an overview of recent performance and provides a guide for the next quarter's expectations. The earning calls summary provided by the management can extract CEO's emotions using sentiment analysis. This article investigates the prediction of firms' health in terms of bankruptcy and non-bankruptcy based on emotions extracted from earning calls and proposes a deep learning model in this regard. Features extracted from long short-term memory (LSTM) network are used to train machine learning models. Results show that the models provide results with a high score of 0.93, each for accuracy and F1 when trained on LSTM extracted feature from synthetic minority oversampling technique (SMOTE) balanced data. LSTM features provide better performance than traditional bag of words and TF-IDF features.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "393e7453a035e9a87964cabe3b918034",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:26:09.163472"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting firm bankruptcy using earnings call data and machine learning techniques, which is directly related to assessing and managing financial risk, a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting firm bankruptcy using earnings call data and machine learning techniques, which is directly related to assessing and managing financial risk, a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:26.664985"
+}

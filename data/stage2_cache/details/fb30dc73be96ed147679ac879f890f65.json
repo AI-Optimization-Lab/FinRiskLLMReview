@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3650,
+    "title": "A Newton Frank-Wolfe method for constrained self-concordant minimization",
+    "abstract": "We develop a new Newton Frank-Wolfe algorithm to solve a class of constrained self-concordant minimization problems using linear minimization oracles (LMO). Unlike L-smooth convex functions, where the Lipschitz continuity of the objective gradient holds globally, the class of self-concordant functions only has local bounds, making it difficult to estimate the number of linear minimization oracle (LMO) calls for the underlying optimization algorithm. Fortunately, we can still prove that the number of LMO calls of our method is nearly the same as that of the standard Frank-Wolfe method in the L-smooth case. Specifically, our method requires at most O(epsilon-(1+nu)) LMO's, where epsilon is the desired accuracy, and nu is an element of(0,0.139) is a given constant depending on the chosen initial point of the proposed algorithm. Our intensive numerical experiments on three applications: portfolio design with the competitive ratio, D-optimal experimental design, and logistic regression with elastic-net regularizer, show that the proposed Newton Frank-Wolfe method outperforms different state-of-the-art competitors.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "538c6fdf0edd4b312428a8f6b6c85d52",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:19:26.130225"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提到其数值实验包括投资组合设计（portfolio design with the competitive ratio），这直接涉及投资组合管理领域。虽然论文还涉及其他应用如D-optimal实验设计和逻辑回归，但投资组合设计是其明确提到的金融应用之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提到其数值实验包括投资组合设计（portfolio design with the competitive ratio），这直接涉及投资组合管理领域。虽然论文还涉及其他应用如D-optimal实验设计和逻辑回归，但投资组合设计是其明确提到的金融应用之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:15.849305"
+}

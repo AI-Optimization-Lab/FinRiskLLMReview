@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 103,
+    "title": "Financial Derivative Price Forecasting and Trading for Multiple Time Horizons with Deep Long Short-Term Memory Networks",
+    "abstract": "Price forecasting and trading in the international crude oil market are important issues for investors in energy finance. In this study, we propose an alternative forecasting approach for financial derivative price multiple days ahead and simulated trading based on long short-term memory (LSTM). This study aims to evaluate for different multiple days ahead forecasting and trading by deep LSTM-based model using technical analytic features, which have nonlinear behaviors. The effectiveness of LSTM networks trained by backpropagation through time for test objective prediction is explored. Moreover, instead of using only one crude oil market's spot price data as a data source, we build up a crude oil database with the two most important crude oil markets. The results indicate that the proposed approach outperforms others in terms of accuracy, return, and risk aspect. The forecasting and holding (for trade) time horizons are 1-3 days ahead, respectively. For all three multiple days ahead forecasting and trading, the average test accuracy (judged by root mean square error) of two crude oil markets for four datasets of deep LSTM-based model yields best results among all methods. This study also developed trading strategies, and the proposed LSTM-based method also outperforms other benchmark methods on both return and return-risk ratio (judged by Sharpe ratio). The experimental results indicate that the proposed method can help traders make profits in the financial derivative market and is more effective than the state-of-the-art methods in actual trading.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "4ff383b87f1d93ac59c6c02a1676bf63",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:33:49.060885"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用LSTM网络进行金融衍生品价格的预测和交易策略的开发，这直接涉及到衍生品定价领域。论文明确提到其目标是帮助交易者在金融衍生品市场中获利，并通过预测价格和开发交易策略来实现这一目标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用LSTM网络进行金融衍生品价格的预测和交易策略的开发，这直接涉及到衍生品定价领域。论文明确提到其目标是帮助交易者在金融衍生品市场中获利，并通过预测价格和开发交易策略来实现这一目标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:44.607422"
+}

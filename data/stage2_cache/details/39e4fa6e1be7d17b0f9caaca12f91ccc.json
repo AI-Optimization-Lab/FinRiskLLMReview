@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 230,
+    "title": "A novel recurrent neural network based online portfolio analysis for high frequency trading",
+    "abstract": "The Markowitz model, a Nobel Prize winning model for portfolio analysis, paves the theoretical foundation in finance for modern investment. However, it remains a challenging problem in the high frequency trading (HFT) era to find a more time efficient solution for portfolio analysis, especially when considering circumstances with the dynamic fluctuation of stock prices and the desire to pursue contradictory objectives for less risk but more return. In this paper, we establish a recurrent neural network model to address this challenging problem in runtime. Rigorous theoretical analysis on the convergence and the optimality of portfolio optimization are presented. Numerical experiments are conducted based on real data from Dow Jones Industrial Average (DJIA) components and the results reveal that the proposed solution is superior to DJIA index in terms of higher investment returns and lower risks.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "66faab69009679b82afec4722a429671",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.215832"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用循环神经网络（RNN）进行高频交易中的投资组合分析，旨在优化投资回报并降低风险。这直接对应于投资组合管理领域，特别是针对动态股票价格波动和高频交易环境下的投资组合优化问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用循环神经网络（RNN）进行高频交易中的投资组合分析，旨在优化投资回报并降低风险。这直接对应于投资组合管理领域，特别是针对动态股票价格波动和高频交易环境下的投资组合优化问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:42.965726"
+}

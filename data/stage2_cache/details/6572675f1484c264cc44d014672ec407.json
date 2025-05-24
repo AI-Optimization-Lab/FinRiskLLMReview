@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2821,
+    "title": "Anomaly Detection based on NSL-KDD using XGBoost with Optuna Tuning",
+    "abstract": "The enormous internet development now day across all aspects of human life has introduced various hidden risk of malicious attacks on network security that most users didn't realize. One of the malicious attacks is intrusion of system that proliferate user's account effortlessly. Hence, in order to avoid intrusion effect that lead to financial loss and any other loss, intrusion detection system is needed to identify a dynamic pattern of cyber attacks. In this paper, we propose an Optimized XGBoost Classifier model with the help of Optuna Hypertuning method to find the best parameter for the model. In order to find the most efficient method for training, we assign three Optuna scenarios combine with feature selection to learn the data and the machine learning model. Through learning, Optuna generated the best parameter for XGBoost Classifier. Optuna avoids time consuming and low efficiency training model. The propose XGBoost Classifier model with Optuna Hypertuning method results in a greater accuracy of detection intrusion compare to any other models.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a065df226f685407ed7c89200403981c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:19:46.597227"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是网络入侵检测系统，使用XGBoost和Optuna调优来提高检测准确性，其应用场景是网络安全而非金融领域。虽然提到了金融损失，但核心技术并未应用于衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是网络入侵检测系统，使用XGBoost和Optuna调优来提高检测准确性，其应用场景是网络安全而非金融领域。虽然提到了金融损失，但核心技术并未应用于衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:46.533710"
+}

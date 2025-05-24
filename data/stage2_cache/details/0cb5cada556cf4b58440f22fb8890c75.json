@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1996,
+    "title": "Predicting perinatal mortality based on maternal health status and health insurance service using homogeneous ensemble machine learning methods",
+    "abstract": "Background: Perinatal mortality in Ethiopia is the highest in Africa, with 68 per 1000 pregnancies intrapartum deaths. It is mainly associated with home delivery, which contributes to more than 75% of perinatal deaths. Financial constraints significantly impact timely access to maternal health care. Financial incentives, such as health insurance, may address the demand- and supply-side factors. This study, hence, aims to predict perinatal mortality based on maternal health status and health insurance service using homogeneous ensemble machine learning methods. Methods: The data was collected from the Ethiopian demographic health survey from 2011 to 2019 G.C. The data were pre-processed to get quality data that are suitable for the homogenous ensemble machine-learning algorithms to develop a model that predicts perinatal mortality. We have applied filter (chi-square and mutual information) and wrapper (sequential forward and sequential backward) feature selection methods. After selecting all the relevant features, we developed a predictive model using cat boost, random forest, and gradient boosting algorithms and evaluated the model using both objective (accuracy, precision, recall, F1_score, ROC) and subjective (domain expert) based evaluation techniques. Results: Perinatal mortality prediction models were developed using random forest, gradient boosting, and cat boost algorithms with the overall accuracy of 89.95%, 90.24%, and 82%, respectively. Risk factors of perinatal mortality were identified using feature importance analysis and relevant rules were extracted using the best performing model. Conclusions: A prediction model that was developed using gradient boosting algorithms was selected for further use in the risk factor analysis, generating relevant rules, development of artifacts, and model deployment because it has registered better performance with 90.24% accuracy. The most determinant risk factors of perinatal mortality were identified using feature importance and some of them are community-based health insurance, mother's educational level, region and place of residence, age, wealth status, birth interval, preterm, smoking cigarette, anemia level, hemoglobin level, and marital status.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c672214566b49059a18b61fcd9486018",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:48.407929"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习方法预测围产期死亡率，关注的是医疗健康领域，特别是母婴健康，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习方法预测围产期死亡率，关注的是医疗健康领域，特别是母婴健康，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:50.466519"
+}

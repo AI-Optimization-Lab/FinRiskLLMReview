@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2088,
+    "title": "Cross-Domain Disentanglement: A Novel Approach to Financial Market Prediction",
+    "abstract": "Profit maximization and risk mitigation require good financial market predictions. Financial markets have a correlated nature, which means that there are some shared patterns between them; therefore, learning about one market might help understand the behavior of others. End-to-end training techniques have proven successful in financial markets, but they have flaws, such as picking up noise and failing to account for the complicated relationships across markets. We present a promising model for predicting financial markets using the correlation between the two markets, which draws inspiration from the recent progress in disentanglement learning. This model learns to disentangle representations of features shared between markets from specific representations, and removes features that cause interference. We utilized a dilated convolutional neural network as an encoder to extract features while using self-attention and cross-attention to capture specifics and shared patterns. Our model uses Dynamic Time Warping (DTW) to minimize the similarity between specific and shared patterns. It also combines DTW's alignment-based similarity with the Mean Square Error (MSE) to determine the optimal balance between alignment and prediction accuracy. We conducted our experiments using datasets that included the closing prices of Apple, Samsung, Bitcoin, Ethereum, Meta platforms, and the X platform. Spearman's rank correlation coefficient was used to evaluate the disentanglement by describing the relationship between the extracted representations. The findings confirm that our model surpasses state-of-the-art approaches in prediction error, financial risk assessment, correlation evolution, and prediction net curves, thereby giving market participants more trust in their decisions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "abcaeb685ef5f0356c619ea8573bef8b",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "attention mechanism",
+      "encoder-decoder"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:59.045225"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用跨域解缠学习来预测金融市场行为，并特别提到了金融风险评估（financial risk assessment）作为其模型的一个优势。这表明其主要应用领域是金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用跨域解缠学习来预测金融市场行为，并特别提到了金融风险评估（financial risk assessment）作为其模型的一个优势。这表明其主要应用领域是金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:25.011826"
+}

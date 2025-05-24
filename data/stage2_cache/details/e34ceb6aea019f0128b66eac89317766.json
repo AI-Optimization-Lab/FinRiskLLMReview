@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 607,
+    "title": "Estimation with Uncertainty via Conditional Generative Adversarial Networks",
+    "abstract": "Conventional predictive Artificial Neural Networks (ANNs) commonly employ deterministic weight matrices; therefore, their prediction is a point estimate. Such a deterministic nature in ANNs causes the limitations of using ANNs for medical diagnosis, law problems, and portfolio management in which not only discovering the prediction but also the uncertainty of the prediction is essentially required. In order to address such a problem, we propose a predictive probabilistic neural network model, which corresponds to a different manner of using the generator in the conditional Generative Adversarial Network (cGAN) that has been routinely used for conditional sample generation. By reversing the input and output of ordinary cGAN, the model can be successfully used as a predictive model; moreover, the model is robust against noises since adversarial training is employed. In addition, to measure the uncertainty of predictions, we introduce the entropy and relative entropy for regression problems and classification problems, respectively. The proposed framework is applied to stock market data and an image classification task. As a result, the proposed framework shows superior estimation performance, especially on noisy data; moreover, it is demonstrated that the proposed framework can properly estimate the uncertainty of predictions.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fb68bdad78c28fc1edb0e3fae45df2ed",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:39.107622"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中提到该模型应用于股票市场数据，并且特别强调了预测的不确定性在投资组合管理中的重要性。虽然论文也涉及图像分类任务，但其在金融领域的应用主要集中在投资组合管理上。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中提到该模型应用于股票市场数据，并且特别强调了预测的不确定性在投资组合管理中的重要性。虽然论文也涉及图像分类任务，但其在金融领域的应用主要集中在投资组合管理上。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:26.916888"
+}

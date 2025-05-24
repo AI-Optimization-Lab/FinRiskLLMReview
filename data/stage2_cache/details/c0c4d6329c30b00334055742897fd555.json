@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 417,
+    "title": "Six-factor asset pricing and portfolio investment via deep learning: Evidence from Chinese stock market",
+    "abstract": "This paper proposes a long short-term memory (LSTM) neural network model to predict daily stock price movements based on asset pricing factors (i.e., the five factors proposed by Fama and French, and the short-term momentum factor). Based on three independent experiments, we systematically evaluate the explanatory power and the predictive power of the LSTM model by employing 3316 A-share listed companies in the Shanghai and Shenzhen stock exchanges from the in-sample period January 1, 2008 to December 31, 2019. Furthermore, we propose a four-step approach to dynamically update the underlying stocks in different portfolios based on the empirical findings. All portfolios are simulated using out-of-sample data (i.e., from January 1, 2020, to May 31, 2021) to avoid look-ahead bias. The trading results suggest that our dynamic investment strategies are superior to the benchmark index and are able to generate significant returns with relatively low risks.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "95fe76b06ad32a1f99a119876fbfa757",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:49.696718"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM神经网络预测股票价格变动，并基于这些预测动态更新投资组合中的股票。研究的主要目标是构建和评估动态投资策略，这直接属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM神经网络预测股票价格变动，并基于这些预测动态更新投资组合中的股票。研究的主要目标是构建和评估动态投资策略，这直接属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:59.370697"
+}

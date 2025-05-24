@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2332,
+    "title": "Constrained Reweighting of Distributions: An Optimal Transport Approach",
+    "abstract": "We commonly encounter the problem of identifying an optimally weight-adjusted version of the empirical distribution of observed data, adhering to predefined constraints on the weights. Such constraints often manifest as restrictions on the moments, tail behavior, shapes, number of modes, etc., of the resulting weight-adjusted empirical distribution. In this article, we substantially enhance the flexibility of such a methodology by introducing a nonparametrically imbued distributional constraint on the weights and developing a general framework leveraging the maximum entropy principle and tools from optimal transport. The key idea is to ensure that the maximum entropy weight-adjusted empirical distribution of the observed data is close to a pre-specified probability distribution in terms of the optimal transport metric, while allowing for subtle departures. The proposed scheme for the re-weighting of observations subject to constraints is reminiscent of the empirical likelihood and related ideas, but offers greater flexibility in applications where parametric distribution-guided constraints arise naturally. The versatility of the proposed framework is demonstrated in the context of three disparate applications where data re-weighting is warranted to satisfy side constraints on the optimization problem at the heart of the statistical task-namely, portfolio allocation, semi-parametric inference for complex surveys, and ensuring algorithmic fairness in machine learning algorithms.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "df3bb663fe5afbbe2f4421e0aeda7d92",
+    "relevant_keywords": [
+      "machine learning",
+      "semi-supervised learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:39.703487"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到了在投资组合分配（portfolio allocation）中的应用，这属于投资组合管理的范畴。虽然论文还涉及其他应用领域，但投资组合管理是其核心技术应用之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到了在投资组合分配（portfolio allocation）中的应用，这属于投资组合管理的范畴。虽然论文还涉及其他应用领域，但投资组合管理是其核心技术应用之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:33.304651"
+}

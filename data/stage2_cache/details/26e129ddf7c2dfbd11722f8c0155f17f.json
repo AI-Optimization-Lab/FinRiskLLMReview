@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 638,
+    "title": "Automated cryptocurrency trading approach using ensemble deep reinforcement learning: Learn to understand candlesticks",
+    "abstract": "Despite their high risk, cryptocurrencies have gained popularity as viable trading options. Cryptocurrencies are digital assets that experience significant fluctuations in a market operating 24 h a day. Recently, considerable attention has been paid to developing trading bots using machine-learning-based artificial intelligence. Previous studies have employed machine learning techniques to predict financial market trends or make trading decisions, primarily using numerical data extracted from candlesticks. However, these data often overlook the temporal and spatial information of candlesticks, leading to a limited understanding of their significance. In this study, we utilize multi-resolution candlestick images containing temporal and spatial information. Our rationale for using visual information from candlestick charts is to replicate the decision-making processes of human trading experts. To achieve this, we employ deep reinforcement learning algorithms to generate trading signals based on a state vector that includes embedded candlestick-chart images. The trading signal is generated using a multi-agent weighted voting ensemble approach. We test the proposed approach on two BTC/USDT datasets under both bullish and bearish market scenarios. Additionally, we use an attention-based technique to identify significant areas in the candlestick images targeted by the proposed approach. Our findings demonstrate that models using candlestick images 'as-is', outperform those using raw numeric data and other baseline models.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3199bb3e992401adc226948532afe98f",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.866551"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度强化学习进行加密货币交易决策，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度强化学习进行加密货币交易决策，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:15.975543"
+}

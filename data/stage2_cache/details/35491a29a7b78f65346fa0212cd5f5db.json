@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 243,
+    "title": "Neural network empowered liquidity pricing in a two-price economy under conic finance settings",
+    "abstract": "In the article at hand neural networks are used to model liquidity in financial markets, under conic finance settings, in two different contexts. That is, on the one hand this paper illustrates how the use of neural networks within a two-price economy allows to obtain accurate pricing and Greeks of financial derivatives, enhancing computational performances compared to classical approaches such as (conic) Monte Carlo. The methodology proposed for this purpose is agnostic of the underlying valuation model, and it easily adapts to all models suitable for pricing in conic financial markets. On the other hand, this article also investigates the possibility of valuing contingent claims under conic assumptions, using local stochastic volatility models, where the local volatility is approximated by means of a (combination of) neural network(s). Moreover, we also show how it is possible to generate hybrid families of distortion functions to better fit the implied liquidity of the market, as well as we introduce a conic version of the SABR model, based on the Wang transform, that still allows for analytical bid and ask pricing formulae.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "e57f8cc9377dff148a374b0da0027d5b",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.236115"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用神经网络在双价经济环境下进行流动性定价，并特别提到了如何准确计算金融衍生品的定价和Greeks，以及如何在锥形金融市场中定价或有债权。这些内容明确指向衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用神经网络在双价经济环境下进行流动性定价，并特别提到了如何准确计算金融衍生品的定价和Greeks，以及如何在锥形金融市场中定价或有债权。这些内容明确指向衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:43.626127"
+}

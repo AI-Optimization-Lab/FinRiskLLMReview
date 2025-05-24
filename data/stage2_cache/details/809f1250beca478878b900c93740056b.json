@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 206,
+    "title": "应用于投资组合优化的强化学习状态与值函数的选择",
+    "abstract": "针对金融资产未来收益的随机性,结合强化学习的原理,以Q-learning算法构造强化学习框架,来解决投资组合优化问题.采用一只股票连续数日开盘价和收盘价的涨跌幅信息作为状态,其中开盘信息在一定程度上纳入了市场消息面因素,收盘信息则直接反映股价波动情况,而连续数日的数据为模型加入了预测能力以用于指导投资.实证分析表明,投资者采用本研究方法进行投资可以得到较高且稳定的收益.",
+    "year": 2020,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1295275604a40867a8b96dea91fe4e0a",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "Q-learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:50.501726"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习（特别是Q-learning算法）来解决投资组合优化问题，通过分析股票价格数据来指导投资决策，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习（特别是Q-learning算法）来解决投资组合优化问题，通过分析股票价格数据来指导投资决策，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:16.791656"
+}

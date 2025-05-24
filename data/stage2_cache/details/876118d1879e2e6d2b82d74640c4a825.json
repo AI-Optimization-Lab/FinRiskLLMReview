@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 565,
+    "title": "An Empirical Evaluation of Distance Metrics in Hierarchical Risk Parity Methods for Asset Allocation",
+    "abstract": "Hierarchical Risk Parity methods address instability, concentration, and underperformance in asset allocation by taking advantage of machine learning techniques to build a diversified portfolio. HRP methods produce a hierarchical structure to the correlation between assets by means of tree clustering that results in a reorganization of the covariance matrix of returns. However, HRP admits multiple variations in terms of clustering algorithms and distance metrics. In this paper, we evaluate the out-of-sample performance of alternative hierarchical distance metrics for clustering purposes using real stock markets in three different market scenarios: bull market, sideways trend, and bear market. We pay special attention to the mean-variance performance of the output portfolios as an estimation of the ability of alternative methods to estimate future return and risk. Our results show that correlation-based metrics provide better performance than non-correlation metrics. In addition, HRP methods outperform quadratic optimizers in two of the three stock market scenarios.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d69d00bd1f9f2197e6422c31d69de892",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:01.318761"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是评估不同层次风险平价（HRP）方法在资产配置中的表现，特别是通过聚类算法和距离度量来优化投资组合的构建。研究重点在于资产配置和投资组合的绩效评估，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是评估不同层次风险平价（HRP）方法在资产配置中的表现，特别是通过聚类算法和距离度量来优化投资组合的构建。研究重点在于资产配置和投资组合的绩效评估，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:35.951204"
+}

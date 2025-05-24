@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1117,
+    "title": "The Front-End's Lending Decision System for the Agricultural Bank in Thailand",
+    "abstract": "The main objective of this study is to develop the front-end's lending decision system of the Bank for Agriculture and Agricultural Cooperatives, a major lender in Thailand's agricultural sector. The logit model and the artificial neural network model have been developed to reflect risk factors to identify the probability of default by each new borrower. The study supports the use of the logit model to develop the system because it gives more accuracy in predicting the probability of default and debtor classification than the artificial neural network model. The working process of the system is classified into two sections including credit risk management, which is the process of screening the loan applications and setting the credit approval or rejection criteria, and affordability risk management, which is the process of determining the maximum loan amount for the debtor who has passed the credit approval criteria. In this study, the author caps the debt service ratio as a threshold for determining the amount of credit (the loan amount approved and interest expense) at 70% and determines that the maximum loan principal is 63% of the debtor's total annual income. The system is also used as an instrument to support the implementation of appropriate credit policies in handling agricultural households' excess debt and promote the building of financial discipline for agricultural households in the rural sector of Thailand.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "57fb9b86fee791cda5295da8e159f89f",
+    "relevant_keywords": [
+      "neural network",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.567937"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a lending decision system using logit and neural network models to predict default probabilities and manage credit and affordability risks, which are key aspects of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a lending decision system using logit and neural network models to predict default probabilities and manage credit and affordability risks, which are key aspects of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:59.456431"
+}

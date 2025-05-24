@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 721,
+    "title": "An efficient dynamic model for solving a portfolio selection with uncertain chance constraint models",
+    "abstract": "This paper presents a neural network model for solving maximization programming model with chance constraint, in which the security returns are uncertain variables. The main idea is to replace the portfolio selection models when the uncertain returns are chosen as some special cases such as linear uncertain variables, trapezdidal uncertain variables and normal uncertain variables, with a linear programming (LP) problem. According to the saddle point theorem, optimization theory, convex analysis theory, Lyapunov stability theory and LaSalle invariance principle, the equilibrium point of the proposed neural network is proved to be equivalent to the optimal solution of the original problem. It is also shown that the proposed neural network model is stable in the sense of Lyapunov and it is globally convergent to an exact optimal solution of the portfolio selection problem with uncertain returns. Two illustrative examples are provided to show the feasibility and the efficiency of the proposed method in this paper. (C) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d4947fff0450daad11bcfbe41d4bb99e",
+    "relevant_keywords": [
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.578537"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是提出一种神经网络模型来解决具有机会约束的投资组合选择问题，其中证券回报是不确定变量。论文明确提到其目标是解决投资组合选择问题，并通过两个示例展示了该方法的可行性和效率。因此，该论文的主要技术应用属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是提出一种神经网络模型来解决具有机会约束的投资组合选择问题，其中证券回报是不确定变量。论文明确提到其目标是解决投资组合选择问题，并通过两个示例展示了该方法的可行性和效率。因此，该论文的主要技术应用属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:23.372142"
+}

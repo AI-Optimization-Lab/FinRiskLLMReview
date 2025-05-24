@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2707,
+    "title": "Inductive Representation Learning on Dynamic Stock Co-Movement Graphs for Stock Predictions",
+    "abstract": "Co-movement among individual firms' stock prices can reflect complex inter-firm relationships. This paper proposes a novel method to leverage such relationships for stock price predictions by adopting inductive graph representation learning on dynamic stock graphs constructed based on historical stock price co-movement. To learn node representations from such dynamic graphs for better stock predictions, we propose the hybrid-attention dynamic graph neural network, an inductive graph representation learning method. We also extended mini-batch gradient descent to inductive representation learning on dynamic stock graphs so that the model can update parameters over mini-batch stock graphs with higher training efficiency. Extensive experiments on stocks from different markets and trading simulations demonstrate that the proposed method significantly improves stock predictions. The proposed method can have important implications for the management of financial portfolios and investment risk.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f1a1dcb031502c94063241d1f5ca72ad",
+    "relevant_keywords": [
+      "machine learning",
+      "representation learning",
+      "neural network",
+      "deep learning",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:18:06.274322"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是通过动态股票协同运动图进行股票预测，这在投资组合管理中具有直接应用，因为预测股票价格有助于优化投资组合。此外，论文提到该方法对投资风险管理有重要影响，表明其也涉及金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是通过动态股票协同运动图进行股票预测，这在投资组合管理中具有直接应用，因为预测股票价格有助于优化投资组合。此外，论文提到该方法对投资风险管理有重要影响，表明其也涉及金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:40:37.690144"
+}

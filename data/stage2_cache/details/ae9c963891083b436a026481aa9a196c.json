@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2698,
+    "title": "Mixture cure models in credit scoring: If and when borrowers default",
+    "abstract": "Mixture cure models were originally proposed in medical statistics to model long-term survival of cancer patients in terms of two distinct subpopulations - those that are cured of the event of interest and will never relapse, along with those that are uncured and are susceptible to the event. In the present paper, we introduce mixture cure models to the area of credit scoring, where, similarly to the medical setting, a large proportion of the dataset may not experience the event of interest during the loan term, i.e. default. We estimate a mixture cure model predicting (time to) default on a UK personal loan portfolio, and compare its performance to the Cox proportional hazards method and standard logistic regression. Results for credit scoring at an account level and prediction of the number of defaults at a portfolio level are presented; model performance is evaluated through cross validation on discrimination and calibration measures. Discrimination performance for all three approaches was found to be high and competitive. Calibration performance for the survival approaches was found to be superior to logistic regression for intermediate time intervals and useful for fixed 12 month time horizon estimates, reinforcing the flexibility of survival analysis as both a risk ranking tool and for providing robust estimates of probability of default over time. Furthermore, the mixture cure model's ability to distinguish between two subpopulations can offer additional insights by estimating the parameters that determine susceptibility to default in addition to parameters that influence time to default of a borrower. (C) 2011 Elsevier B.V. All rights reserved.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "95b5bb96ded044217e318d2feed8346a",
+    "relevant_keywords": [
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:43.311514"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using mixture cure models for credit scoring and predicting default in a personal loan portfolio, which is directly related to assessing and managing credit risk, a key aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using mixture cure models for credit scoring and predicting default in a personal loan portfolio, which is directly related to assessing and managing credit risk, a key aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:16.240909"
+}

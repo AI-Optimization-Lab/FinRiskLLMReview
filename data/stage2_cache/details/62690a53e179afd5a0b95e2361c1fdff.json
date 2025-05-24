@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 4132,
+    "title": "Multi-label learning for dynamic model type recommendation",
+    "abstract": "Dynamic selection techniques aim at selecting the local experts around each test sample in particular for performing its classification. While generating the classifier on a local scope may make it easier for singling out the locally competent ones, as in the online local pool (OLP) technique, using the same base-classifier model in uneven distributions may restrict the local level of competence, since each region may have a data distribution that favors one model over the others. Thus, we propose in this work a problem-independent dynamic base-classifier model recommendation for the OLP technique, which uses information regarding the behavior of a portfolio of models over the samples of different problems to recommend one (or several) of them in a per-instance manner. Our proposed framework builds a multi-label meta-classifier responsible for recommending a set of relevant base-classifier models based on the local data complexity of the region surrounding each test sample. The OLP technique then produces a local pool with the model that yields the highest probability score of the meta-classifier. Experimental results show that different data distributions favored different model types on a local scope. Moreover, based on the performance of an ideal model type selector, it was observed that there is a clear advantage in choosing a relevant base-classifier model for each test instance in particular. Overall, the proposed model type recommender system yielded a statistically similar performance to the original OLP with fixed base-classifier model. However, the proposed framework struggled to recommend at least one relevant model type specially for the samples with low labelset cardinality. Given the novelty of the approach and the gap in performance between the proposed framework and the ideal selector, we regard this as a promising research direction. Code available at github.com/marianaasouza/ dynamic-model-recommender.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4e82ae8dc50d653c38676da11166e5c6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:23:58.176777"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究动态模型类型推荐的多标签学习技术，虽然提到了'portfolio of models'，但这与金融领域的投资组合管理无关。论文的核心技术是分类器的动态选择和推荐，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究动态模型类型推荐的多标签学习技术，虽然提到了'portfolio of models'，但这与金融领域的投资组合管理无关。论文的核心技术是分类器的动态选择和推荐，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:59.709776"
+}

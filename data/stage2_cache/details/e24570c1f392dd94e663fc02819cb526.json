@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 3363,
+    "title": "Complaint and Severity Identification From Online Financial Content",
+    "abstract": "The automatic detection of financial complaints (FINCORP) can benefit businesses and online merchants. Compared with manually tagged complaints, they can use this information to monitor and address issues and effectively route them to appropriate teams. This can also promote greater transparency and accountability when dealing with consumer financial products and services, strengthening the firm's brand value. In linguistic studies, complaints have been classified into severity categories based on the level of risk the complainant is prepared to accept. Furthermore, since emotions influence every speech act, an individual's emotional state considerably impacts the complaint expression. In this article, we introduce a FINCORP resource, a collection of annotated complaints arising between financial institutions and consumers expressed in English on Twitter. The dataset has been enriched with the associated emotion, sentiment, and complaint severity classes. The dataset comprises 3149 complaint and 3133 noncomplaint instances spanning over ten domains (e.g., credit cards, mortgages). For a comprehensive evaluation of our dataset, we develop a multitask framework for complaint detection and severity classification with emotion recognition (ER) and sentiment classification as the additional tasks and compare it with several existing baselines. The corpus and code are available here: https://github.com/RohanBh23/FINCORP.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "612fe39f082c18465f5fa4994af67af0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "sentiment classification",
+      "emotion recognition"
+    ],
+    "stage1_timestamp": "2025-05-15T02:25:40.064739"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是通过机器学习方法自动检测和分析金融投诉的严重性和情感，虽然涉及金融领域，但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是通过机器学习方法自动检测和分析金融投诉的严重性和情感，虽然涉及金融领域，但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:51.032266"
+}

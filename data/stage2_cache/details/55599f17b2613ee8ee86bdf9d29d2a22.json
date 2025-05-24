@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3420,
+    "title": "Individual claims reserving using activation patterns",
+    "abstract": "A claim often impacts not one but multiple insurance coverages provided in the contract. To account for this multivariate feature, we propose a new individual claim reserving model built around the activation of the different coverages to predict the reserve amounts. Using the framework of multinomial logistic regression, we model the activation of the different insurance coverages for each claim and their development in the following years, i.e., the activation of other coverages in the later years and all the possible payments that might result from them. As such, the model allows us to complete the individual development of the open claims in the portfolio. Using a recent automobile dataset from a major Canadian insurance company, we demonstrate that this approach generates accurate predictions of the total reserves and the reserves per insurance coverage. This analysis allows the insurer to get new insights into the dynamics of his claims reserves.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "68c8259e81afded1285e3ae6a80dfe5e",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:55.536698"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是保险索赔准备金预测模型，虽然涉及风险管理和预测，但其核心应用领域是保险精算而非指定的金融研究领域（衍生品定价、金融风险管理、投资组合管理）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是保险索赔准备金预测模型，虽然涉及风险管理和预测，但其核心应用领域是保险精算而非指定的金融研究领域（衍生品定价、金融风险管理、投资组合管理）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:46.816167"
+}

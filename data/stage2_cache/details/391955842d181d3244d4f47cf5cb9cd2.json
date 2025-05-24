@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2386,
+    "title": "Understanding stock market instability via graph auto-encoders",
+    "abstract": "Understanding stock market instability is a key question in financial management as practitioners seek to forecast breakdowns in long-run asset co-movement patterns which expose portfolios to rapid and devastating collapses in value. These disruptions are linked to changes in the structure of market wide stock correlations which increase the risk of high volatility shocks. The structure of these co-movements can be described as a network where companies are represented by nodes while edges capture correlations between their price movements. Co-movement breakdowns then manifest as abrupt changes in the topological structure of this network. Measuring the scale of this change and learning a timely indicator of breakdowns is central in understanding both financial stability and volatility forecasting. We propose to use the edge reconstruction accuracy of a graph auto-encoder as an indicator for how homogeneous connections between assets are, which we use, based on the literature of financial network analysis, as a proxy to infer market volatility. We show, through our experiments on the Standard and Poor's index over the 2015-2022 period, that the reconstruction errors from our model correlate with volatility spikes and can be used to improve out-of-sample autoregressive modeling of volatility. Our results demonstrate that market instability can be predicted by changes in the homogeneity in connections of the financial network which expands the understanding of instability in the stock market. We discuss the implications of this graph machine learning-based volatility estimation for policy targeted at ensuring financial market stability.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fd8adaf6a9b4022adcaa748d86e0777e",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "autoencoder",
+      "deep learning",
+      "representation learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:50.305890"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用图自动编码器来预测股票市场的不稳定性，特别是通过分析资产间相关性的变化来推断市场波动性。这直接关联到金融风险管理中的波动性预测和市场稳定性分析。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用图自动编码器来预测股票市场的不稳定性，特别是通过分析资产间相关性的变化来推断市场波动性。这直接关联到金融风险管理中的波动性预测和市场稳定性分析。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:53.556393"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 517,
+    "title": "Price Trailing for Financial Trading Using Deep Reinforcement Learning",
+    "abstract": "Machine learning methods have recently seen a growing number of applications in financial trading. Being able to automatically extract patterns from past price data and consistently apply them in the future has been the focus of many quantitative trading applications. However, developing machine learning-based methods for financial trading is not straightforward, requiring carefully designed targets/rewards, hyperparameter fine-tuning, and so on. Furthermore, most of the existing methods are unable to effectively exploit the information available across various financial instruments. In this article, we propose a deep reinforcement learning-based approach, which ensures that consistent rewards are provided to the trading agent, mitigating the noisy nature of profit-and-loss rewards that are usually used. To this end, we employ a novel price trailing-based reward shaping approach, significantly improving the performance of the agent in terms of profit, Sharpe ratio, and maximum drawdown. Furthermore, we carefully designed a data preprocessing method that allows for training the agent on different FOREX currency pairs, providing a way for developing market-wide RL agents and allowing, at the same time, to exploit more powerful recurrent deep learning models without the risk of overfitting. The ability of the proposed methods to improve various performance metrics is demonstrated using a challenging large-scale data set, containing 28 instruments, provided by Speedlab AG.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2cb1ad0e8a97a91bb8baeefec94b58ad",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.195156"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度强化学习进行金融交易，特别是外汇市场的价格追踪和交易策略优化。虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度强化学习进行金融交易，特别是外汇市场的价格追踪和交易策略优化。虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:07.741907"
+}

@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 4578,
+    "title": "A portfolio trading system using a novel pixel graph network for stock selection and a mean-CDaR optimization for portfolio rebalancing",
+    "abstract": "Due to the complexity and dynamic nature of financial markets, portfolio management tasks require continuous adaptation with market intelligence. Furthermore, to make profitable trading decisions, it is essential to predict the future performance of the market. To that end, this study proposes a dynamic portfolio trading system in two stages: stock trend prediction and portfolio optimization. In the first stage, although many researchers proposed powerful classification models to predict BUY/SELL trading signals, some scholars only focused on converting time series' features into multichannel images without considering any spatial relationships between features. Considering the relational capacity of graphs, this study proposes a novel image-based classification model, called Pixel Graph Network (PGN), to analyze the constructed images with propagating information from all neighboring pixels, build up a representation of the images as special graphs, and get advantages of a graphbased learning algorithm. In the second stage, stocks with predicted BUY trading signals in the following days, are fed into the Mean-Conditional Drawdown at Risk (M-CDaR) optimization model to prevent any significant drawdown of the investment portfolio. Moreover, a hierarchical feature selection algorithm has been proposed, combined with a continuous trend labeling method to improve the efficiency of the training process. To demonstrate the superiority of our proposed PGN model in comparison with benchmarks, 18 stocks from the New York Stock Exchange (NYSE) are used for numerical experiments. The obtained results show the improvement and effectiveness of the proposed model in both stock trend prediction and portfolio optimization. In terms of financial performance, the proposed PGN+M-CDaR portfolio-based trading system achieves an average annual return of 112%, an average annual Sortino ratio of 10.78, and an average annual Sharpe ratio of 2.79 which are promising to achieve substantial profits while mitigating downside risk.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cd57bbc9d9cb9f5b6f319992f13da7bd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer",
+      "convolutional neural network",
+      "CNN",
+      "graphbased learning algorithm"
+    ],
+    "stage1_timestamp": "2025-05-15T02:38:56.288774"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一个动态投资组合交易系统，包括股票趋势预测和投资组合优化两个阶段。具体来说，论文使用了Pixel Graph Network (PGN)进行股票选择，并采用Mean-Conditional Drawdown at Risk (M-CDaR)优化模型进行投资组合再平衡。这些技术和方法直接应用于投资组合管理领域，旨在提高投资组合的收益并降低下行风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一个动态投资组合交易系统，包括股票趋势预测和投资组合优化两个阶段。具体来说，论文使用了Pixel Graph Network (PGN)进行股票选择，并采用Mean-Conditional Drawdown at Risk (M-CDaR)优化模型进行投资组合再平衡。这些技术和方法直接应用于投资组合管理领域，旨在提高投资组合的收益并降低下行风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:22.363152"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2297,
+    "title": "Predicting Liquidity Ratio of Mutual Funds via Ensemble Learning",
+    "abstract": "We are entering a new era of AI, in which the core technology is machine learning. However, many machine learning models are opaque and not intuitive enough, making it difficult for users to understand how AI systems make decisions. In some scenarios, especially in the fields of finance, healthcare, automatic driving, users have a strong demand for the interpretability of the model. Although AI systems provide a lot of benefits, if the decision and behavior cannot be explained to users or regulators, the effectiveness and development of the systems will be restricted. To gain the trust of users, Explainable AI is necessary. Daily prediction of mutual fund holdings can be a very useful tool. If we can predict the daily holding positions of large mutual funds, we can gain insights into the sentiments of institutional investors which shed lights into the outlook of the market. How to get daily holding from the delayed disclosure information? We leverage on another source of key information - the price of a mutual fund is updated daily, often released a few hours after the market closes. Therefore, we can utilize the daily price fluctuation, combined with quarterly revealed holdings, to make daily predictions of mutual fund holdings. In this paper, we proposed an Ensemble Learning model to predict liquidity ratio of mutual funds. The model has strong interpretability, which is beneficial to users, developers and regulators and all parties involved. Compared with the real fund position data only disclosed once a quarter, our model effectuates timely and efficient high-frequency calculation. In the process of modeling, we creatively apply the framework of Ensemble Learning to portfolio decomposition for the first time. The Ensemble Learning model leverages the diversity of base learners to improve the overall prediction performance. Extensive empirical results on China A-Shares market show that our model can achieve superior accuracy, robustness, and generalization ability.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c8b33cf25c61330b1c5c1edda395b797",
+    "relevant_keywords": [
+      "machine learning",
+      "Ensemble Learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:39.591937"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用集成学习模型预测共同基金的流动性比率，并利用每日价格波动和季度披露的持仓信息来预测共同基金的每日持仓情况。这些内容直接关联到投资组合管理的领域，特别是关于基金持仓的预测和流动性管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用集成学习模型预测共同基金的流动性比率，并利用每日价格波动和季度披露的持仓信息来预测共同基金的每日持仓情况。这些内容直接关联到投资组合管理的领域，特别是关于基金持仓的预测和流动性管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:54.759487"
+}

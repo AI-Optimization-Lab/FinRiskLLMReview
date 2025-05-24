@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3988,
+    "title": "Incorporation of implicit decision-maker preferences in multi-objective evolutionary optimization using a multi-criteria classification method",
+    "abstract": "Nowadays, most Multi-Objective Evolutionary Algorithms (MOEA) concentrate mainly on searching for an approximation of the Pareto frontier to solve a multi-objective optimization problem. However, finding this set does not completely solve the problem. The decision-maker (DM) still has to choose the best compromise solution from that set. But as the number of criteria increases, several important difficulties arise in performing this task. Identifying the Region of Interest (ROI), according to the DM's preferences, is a promising alternative that would facilitate the selection process. This paper approaches the incorporation of preferences into a MOEA in order to characterize the ROI by a multi-criteria classification method. This approach is called Hybrid Multi-Criteria Sorting Genetic Algorithm and is composed of two phases. First, a metaheuristic is used to generate a small set of solutions that are classified in ordered categories by the DM. Thus, the DM's preferences will be reflected indirectly in this set. In the second phase, a multi criteria sorting method is combined with an evolutionary algorithm. The first one is used to classify new solutions. Those classified as 'satisfactory' are used for creating a selective pressure towards the ROI. The effectiveness of our method was proved in nine instances of a public project portfolio problem. The obtained results indicate that our approach achieves a good characterization of the ROI, and outperforms the standard NSGA-II in simple and complex problems. Also, these results confirm that our approach is able to deal with many-objective problems. (C) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "be1102c1c1065b20c0e66c71e37bf446",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:22:39.435553"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种多目标进化优化算法，结合多标准分类方法来反映决策者的偏好，并应用于公共项目组合问题。虽然优化算法可以应用于投资组合管理，但论文中并未明确指出其在金融领域的应用，而是以公共项目组合为例进行验证。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种多目标进化优化算法，结合多标准分类方法来反映决策者的偏好，并应用于公共项目组合问题。虽然优化算法可以应用于投资组合管理，但论文中并未明确指出其在金融领域的应用，而是以公共项目组合为例进行验证。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:23.028884"
+}

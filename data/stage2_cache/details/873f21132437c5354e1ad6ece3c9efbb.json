@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1301,
+    "title": "RECAL: Sample-Relation Guided Confidence Calibration over Tabular Data",
+    "abstract": "Tabular-format data is widely adopted in various real-world applications. Various machine learning models have achieved remarkable success in both industrial applications and datascience competitions. Despite these successes, most current machine learning methods for tabular data lack accurate confidence estimation, which is needed by some high-risk sensitive applications such as credit modeling and financial fraud detection. In this paper, we study the confidence estimation of machine learning models applied to tabular data. The key finding of our paper is that a real-world tabular dataset typically contains implicit sample relations, and this can further help to obtain a more accurate estimation. To this end, we introduce a general post-training confidence calibration framework named RECAL to calibrate the predictive confidence of current machine learning models by employing graph neural networks to model the relations between different samples. We perform extensive experiments on tabular datasets with both implicit and explicit graph structures and show that RECAL can significantly improve the calibration quality compared to the conventional method without considering the sample relations.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "857b32491047f7b84faf9ebd534dd69d",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "graph neural networks"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.895940"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是机器学习模型在表格数据上的置信度校准问题，虽然提到了信用建模和金融欺诈检测等高敏感应用，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是机器学习模型在表格数据上的置信度校准问题，虽然提到了信用建模和金融欺诈检测等高敏感应用，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:51.065762"
+}

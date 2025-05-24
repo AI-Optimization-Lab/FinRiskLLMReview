@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 59,
+    "title": "The commodity risk premium and neural networks",
+    "abstract": "The paper uses linear and nonlinear predictive models to study the linkage between a set of 128 macroeconomic and financial predictors and the risk premium of commodity futures contracts. The linear models use shrinkage methods based on either naive averaging or principal components. The nonlinear models use feedforward deep neural networks (DNN) either as stand-alone or in conjunction with a long short-term memory network (LSTM). Out of the four specifications considered, the LSTM-DNN architecture best captures the risk premium, which underscores the need to estimate models that are both nonlinear and recurrent. The superior performance of the LSTM-DNN portfolio persists after accounting for transaction costs or illiquidity and is unrelated to previously-documented commodity risk factors.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "0ba2bc337fda3e20b8fd4c2b27ecc463",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T01:33:11.380051"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度神经网络（DNN）和长短期记忆网络（LSTM）来预测商品期货合约的风险溢价，并评估其在投资组合中的表现。这直接涉及投资组合管理的领域，因为研究的目标是优化投资组合的表现，而不是衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度神经网络（DNN）和长短期记忆网络（LSTM）来预测商品期货合约的风险溢价，并评估其在投资组合中的表现。这直接涉及投资组合管理的领域，因为研究的目标是优化投资组合的表现，而不是衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:46.566079"
+}

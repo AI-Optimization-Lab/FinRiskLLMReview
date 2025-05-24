@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2954,
+    "title": "Using differential evolution to improve the accuracy of bank rating systems",
+    "abstract": "Credit rating is the evaluation of the likelihood of an obligor to default on a loan. Each obligor in the bank's credit portfolio is assigned to a certain rating class, or PD (probability of default) bucket; all obligors in a PD bucket then receive the same ''pooled'' PD, based on which a capital charge against credit risk must be computed. The only analytical approach to this problem is based on k-means and has some limitations in practice. An error minimization approach to credit rating using differential evolution (DE) is introduced. The performances of DE and other common search heuristics are compared using credit rating data of a major Italian bank. Empirical results show that DE is clearly superior compared to a genetic algorithm (GA), particle swarm optimization (PSO), random search (RS) and two naive partitioning approaches. Moreover, the proposed approach obtained better results than k-means in much less runtime for a simplified instance of the problem where within-groups variances can be used for clustering. (c) 2007 Elsevier B.V. All rights reserved.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "802c6a1b216ea0915bd0559bc7f8a71c",
+    "relevant_keywords": [
+      "clustering",
+      "unsupervised learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:09.139045"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用差分进化算法改进银行信用评级系统的准确性，信用评级是金融风险管理中信用风险管理的核心组成部分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用差分进化算法改进银行信用评级系统的准确性，信用评级是金融风险管理中信用风险管理的核心组成部分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:00.530140"
+}

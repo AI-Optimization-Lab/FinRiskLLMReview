@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 433,
+    "title": "A hybrid machine learning-based cyber-threat mitigation in energy and flexibility scheduling of interconnected local energy networks considering a negawatt demand response portfolio",
+    "abstract": "The interconnection of local energy networks (LENs) enables efficient exchange of energy and flexibility among them, fostering the integration of distributed energy resources and demand-side management strategies. Thus, the interconnected local energy systems (ILEN) structure is a viable approach to electrical distribution systems' operation and management. However, implementing distributed energy management structures such as ILEN entails a great amount of information transactions. Therefore, these structures are more vulnerable to cyber threats. Thus, the newly developed efficient and secure power systems' operation methods should take digitalization-related security risks into account. As a result, this paper is focused on the development of a secure operation method, equipped with a hybrid algorithm to mitigate cyber threats in the context of ILEN. In this regard, this research proposes a novel hybrid XGBoost-based cyber threat mitigation (HXGBTM) method to cope with the vulnerabilities of the physical and information layers of the cyber-infrastructure. The proposed cyber threat mitigation method is built upon the classification and regression capabilities of the XGBoost ensemble of decision trees to identify and mitigate anomalies in the electrical consumption data. Therefore, in the first step, the ILEN's multi-objective energy and flexibility scheduling problem considering demand response portfolio i.e., DRP is developed that encompasses a bi-level optimization problem, in which the operator of the ILEN optimizes energy and flexibility trading in the upper level. While in the lower level, each LEN operator minimizes scheduling costs along with maximizing the local flexibility as well as providing a demand response portfolio as a negawatt resource. Here, the flexibility index, which is later maximized using the second objective function, is considered as the proportion between the available ramping capacity and required ramping capacity. In this paper, direct load control, and interruptible/curtailable demand response comprehensive models are implemented as candidate programs for the suggested portfolio. Furthermore, a hybrid cyber threat is modeled considering the communication line intrinsic vulnerability, as a result of natural causes, wear, and aging of the infrastructure etc., as well as false data injection (FDI) attacks that target each LEN's electrical consumption database. Finally, the proposed HXGBTM is employed to mitigate the above-mentioned cyber-vulnerabilities and achieve near real-world conditions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3079f74fbfa1151945c5317e75921c0c",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.604277"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是能源网络中的网络安全威胁缓解方法，特别是针对互联本地能源网络（ILEN）的混合机器学习方法。虽然提到了'投资组合'（portfolio）一词，但它指的是需求响应组合（negawatt demand response portfolio），与金融领域的投资组合管理无关。论文的核心技术应用于能源系统的安全和管理，而非金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是能源网络中的网络安全威胁缓解方法，特别是针对互联本地能源网络（ILEN）的混合机器学习方法。虽然提到了'投资组合'（portfolio）一词，但它指的是需求响应组合（negawatt demand response portfolio），与金融领域的投资组合管理无关。论文的核心技术应用于能源系统的安全和管理，而非金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:03.937435"
+}

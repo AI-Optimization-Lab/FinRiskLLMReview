@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1180,
+    "title": "Reinforcement learning with dynamic convex risk measures",
+    "abstract": "We develop an approach for solving time-consistent risk-sensitive stochastic optimization problems using model-free reinforcement learning (RL). Specifically, we assume agents assess the risk of a sequence of random variables using dynamic convex risk measures. We employ a time-consistent dynamic programming principle to determine the value of a particular policy, and develop policy gradient update rules that aid in obtaining optimal policies. We further develop an actor-critic style algorithm using neural networks to optimize over policies. Finally, we demonstrate the performance and flexibility of our approach by applying it to three optimization problems: statistical arbitrage trading strategies, financial hedging, and obstacle avoidance robot control.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "626da4ba60cf025efac1adda14726c2f",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.267640"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习解决风险敏感的随机优化问题，并应用动态凸风险度量来评估风险。论文明确提到了在统计套利交易策略和金融对冲中的应用，这些属于金融风险管理和投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习解决风险敏感的随机优化问题，并应用动态凸风险度量来评估风险。论文明确提到了在统计套利交易策略和金融对冲中的应用，这些属于金融风险管理和投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:37.705673"
+}

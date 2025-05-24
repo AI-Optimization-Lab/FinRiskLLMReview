@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 369,
+    "title": "Development of an AI framework using neural process continuous reinforcement learning to optimize highly volatile financial portfolios",
+    "abstract": "High volatility presents considerable challenges in the optimization of financial portfolio assets. This study develops and explores model-based reinforcement learning (MBRL) in this context. Existing literature suggests that while model-free approach offers certain computational advantages, it frequently fails to encapsulate the nature of highly dynamic capital markets. This limitation is due to an insufficient consideration of the interactions between agents and environmental states within the reinforcement learning framework. Conversely, MBRL encounters inaccuracies representing stochastically evolving states typical of volatile capital markets. To address these limitations, we introduce an innovative AI framework in the MBRL domain by integrating attentive neural processes with continuous-time MBRL. This novel approach, termed Neural Process Continuous Reinforcement Learning (NPCRL), is posited to enhance the ability of MBRL to adapt to volatile fluctuations in capital markets. The effectiveness of NPCRL is empirically evaluated through a series of experiments using three important performance indicators of financial portfolios: returns, risk, and drawdown recovery. The results demonstrate that NPCRL surpasses other methods in achieving a balanced trade-off between long-term returns and risk management. This study advances our understanding of machine learning development by suggesting methods that are more proficient at capturing and adapting in volatile training environments.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0f601f2bc0cd4534261c30486b6315b4",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.002352"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种名为NPCRL的AI框架，旨在优化高波动性金融投资组合。论文明确提到使用三个重要的投资组合绩效指标（收益、风险和回撤恢复）来评估该框架的有效性，这直接关联到投资组合管理的核心问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种名为NPCRL的AI框架，旨在优化高波动性金融投资组合。论文明确提到使用三个重要的投资组合绩效指标（收益、风险和回撤恢复）来评估该框架的有效性，这直接关联到投资组合管理的核心问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:30.054369"
+}

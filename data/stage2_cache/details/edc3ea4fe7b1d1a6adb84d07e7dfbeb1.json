@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 808,
+    "title": "To Risk or Not to Risk: Learning with Risk Quantification for IoT Task Offloading in UAVs",
+    "abstract": "A deep reinforcement learning technique is presented for task offloading decision-making algorithms for a multi-access edge computing (MEC) assisted unmanned aerial vehicle (UAV) network in a smart farm Internet of Things (IoT) environment. The task offloading technique uses financial concepts such as cost functions and conditional variable at risk (CVaR) in order to quantify the damage that may be caused by each risky action. The approach was able to quantify potential risks to train the reinforcement learning agent to avoid risky behaviors that will lead to irreversible consequences for the farm. Such consequences include an undetected fire, pest infestation, or a UAV being unusable. The proposed CVaR-based technique was compared to other deep reinforcement learning techniques and two fixed rulebased techniques. The simulation results show that the CVaRbased risk quantifying method eliminated the most dangerous risk, which was exceeding the deadline for a fire detection task. As a result, it reduced the total number of deadline violations with a negligible increase in energy consumption.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4fe7156bc5ecd8f66195b0c7897fbaeb",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:08.118883"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是在物联网环境中使用深度强化学习进行任务卸载决策，虽然使用了金融风险管理的概念（如CVaR）来量化风险，但其应用场景是智能农业中的无人机网络，而非金融领域。因此，其核心技术并不属于上述任何一个金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是在物联网环境中使用深度强化学习进行任务卸载决策，虽然使用了金融风险管理的概念（如CVaR）来量化风险，但其应用场景是智能农业中的无人机网络，而非金融领域。因此，其核心技术并不属于上述任何一个金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:37.890592"
+}

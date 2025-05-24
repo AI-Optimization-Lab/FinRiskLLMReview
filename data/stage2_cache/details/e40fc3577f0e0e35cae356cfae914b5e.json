@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 7436,
+    "title": "VC-DRSA for Knowledge Retrieval Based on Technical Analysis and Investment Practice",
+    "abstract": "This study aims to retrieve useful knowledge from commonly adopted technical indicators, based on a soft computing model, to support investment decisions. Though the validity of technical analysis (TA) has been examined extensively by various statistical models in financial literature, a practical approach that may consider the inconsistency among various technical indicators and the down-side risk of an investment is still underexplored. As a result, the present study takes a two-stage approach to construct a variable consistency dominance-based rough set approach (VC-DRSA) model, to retrieve the imprecise patterns and implicit knowledge from technical indicators. At the first stage, the trading signals indicated by various technical indicators are suggested by domain experts, and those signals were simulated by a trading strategy to examine the outcomes of each indicator. And the simulation results of each technical indicator are further processed by VC-DRSA model at the second stage for retrieving decision rules (i.e., knowledge). To illustrate the proposed model, the weighted average index of the Taiwan stock market was examined by using its historical data from mid/2002 to mid/2014, and a set of decision rules with more than 70% classification accuracy were inducted in this empirical case. The findings suggest that certain technical indicators should be considered simultaneously, and the obtained rules have practical implications for investors.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cdd8227dde81e713a0c82622d80ae890",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T03:08:37.849367"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用VC-DRSA模型从技术指标中提取决策规则，以支持投资决策。这直接涉及投资组合管理领域，因为其目标是优化投资策略和决策过程。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用VC-DRSA模型从技术指标中提取决策规则，以支持投资决策。这直接涉及投资组合管理领域，因为其目标是优化投资策略和决策过程。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:38.124327"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3385,
+    "title": "Effect of the Profile of the Decision Maker in the Search for Solutions in the Decision-Making Process",
+    "abstract": "Many real-world optimization problems involving several conflicting objective functions frequently appear in current scenarios and it is expected they will remain present in the future. However, approaches combining multi-objective optimization with the incorporation of the decision maker's (DM's) preferences through multi-criteria ordinal classification are still scarce. In addition, preferences are rarely associated with a DM's characteristics; the preference selection is arbitrary. This paper proposes a new hybrid multi-objective optimization algorithm called P-HMCSGA (preference hybrid multi-criteria sorting genetic algorithm) that allows the DM's preferences to be incorporated in the optimization process' early phases and updated into the search process. P-HMCSGA incorporates preferences using a multi-criteria ordinal classification to distinguish solutions as good and bad; its parameters are determined with a preference disaggregation method. The main feature of P-HMCSGA is the new method proposed to associate preferences with the characterization profile of a DM and its integration with ordinal classification. This increases the selective pressure towards the desired region of interest more in agreement with the DM's preferences specified in realistic profiles. The method is illustrated by solving real-size multi-objective PPPs (project portfolio problem). The experimentation aims to answer three questions: (i) To what extent does allowing the DM to express their preferences through a characterization profile impact the quality of the solution obtained in the optimization? (ii) How sensible is the proposal to different profiles? (iii) How much does the level of robustness of a profile impact the quality of final solutions (this question is related with the knowledge level that a DM has about his/her preferences)? Concluding, the proposal fulfills several desirable characteristics of a preferences incorporation method concerning these questions.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "151207e39439d4270074f133f3906aec",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:22.225228"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种结合决策者偏好的多目标优化算法，并将其应用于项目组合问题（project portfolio problem），而非金融领域的衍生品定价、金融风险管理或投资组合管理。虽然项目组合问题与投资组合管理在概念上有相似之处，但论文并未明确涉及金融资产或金融市场。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种结合决策者偏好的多目标优化算法，并将其应用于项目组合问题（project portfolio problem），而非金融领域的衍生品定价、金融风险管理或投资组合管理。虽然项目组合问题与投资组合管理在概念上有相似之处，但论文并未明确涉及金融资产或金融市场。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:07.944898"
+}

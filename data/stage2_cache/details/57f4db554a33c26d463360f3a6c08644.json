@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 630,
+    "title": "Improving Earnings Predictions and Abnormal Returns with Machine Learning",
+    "abstract": "SYNOPSIS: Using stepwise logit regression, Ou and Penman (1989) predicts the sign of future earnings changes and uses these predictions to form a profitable hedge portfolio. Increases in computing power and advances in machine learning allow us to extend Ou and Penman (1989) using more data, computer intensive forecasting algorithms, and modern prediction models. Stepwise logit still provides good predictions and can be used to form a trading strategy that generates small abnormal returns, but random forest significantly improves forecast accuracy and returns. The models identify different variables as being important for prediction in high tech and manufacturing, but this does not lead to better predictions or higher returns. Results confirm Ou and Penman's (1989) finding that financial statement information is useful for investment decisions, and suggest that machine learning techniques can be useful in a variety of accounting contexts.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cd3ecd8edfc0dcbee3f3165a63e00507",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "random forest"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:39.185855"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型（如随机森林）来预测未来收益变化，并基于这些预测构建对冲组合以获取超额收益。这直接涉及投资组合的构建和管理，属于投资组合管理领域。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型（如随机森林）来预测未来收益变化，并基于这些预测构建对冲组合以获取超额收益。这直接涉及投资组合的构建和管理，属于投资组合管理领域。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:02.672827"
+}

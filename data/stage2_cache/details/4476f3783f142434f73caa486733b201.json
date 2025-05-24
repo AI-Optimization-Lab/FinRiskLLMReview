@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2713,
+    "title": "A new clustering algorithm for load profiling based on billing data",
+    "abstract": "In open energy markets, the settlement process between distribution operators and traders is made on an hourly (or 15 min) basis, while LV consumers' billing data continues to result from monthly energy bills. In order to reconcile these two different realities, load profiling is used as a means to redistribute the consumed energy of each trader's portfolio by hourly intervals, according to recorded consumption patterns. This paper presents a new clustering approach to derive typical load diagrams that can be used in the process. The algorithm uses real load diagrams obtained in measurement campaigns to define classes (in the billing information space) that maximize the compactness of the diagrams in each class. The methodology was developed in a project with EDP Distribution (the Portuguese distribution system operator) and the result was approved by the Regulatory Authority that adopted the proposed profiles for market use. (C) 2011 Elsevier B.V. All rights reserved.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "450b94500a1849565f8a703ba0c41e11",
+    "relevant_keywords": [
+      "clustering",
+      "unsupervised learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:43.349169"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种新的聚类算法，用于基于账单数据的负荷分析，目的是在开放能源市场中重新分配能源消耗。虽然提到了'portfolio'一词，但这里的'portfolio'指的是能源交易者的能源组合，而非金融投资组合。论文的核心技术与衍生品定价、金融风险管理或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种新的聚类算法，用于基于账单数据的负荷分析，目的是在开放能源市场中重新分配能源消耗。虽然提到了'portfolio'一词，但这里的'portfolio'指的是能源交易者的能源组合，而非金融投资组合。论文的核心技术与衍生品定价、金融风险管理或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:15.345642"
+}

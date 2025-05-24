@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "classification",
+    "regression",
+    "sigmoid"
+  ],
+  "explanations": {
+    "classification": "论文使用Logistic回归模型进行信用风险评估，这是一个典型的分类问题，将借款人分为高风险或低风险类别。",
+    "regression": "Logistic回归虽然用于分类，但本质上是广义线性回归模型的一种，用于预测概率。",
+    "sigmoid": "Logistic回归的核心是sigmoid函数，它将线性回归的输出映射到0-1之间的概率值。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"classification\", \"regression\", \"sigmoid\"], \n  \"explanations\": {\n    \"classification\": \"论文使用Logistic回归模型进行信用风险评估，这是一个典型的分类问题，将借款人分为高风险或低风险类别。\",\n    \"regression\": \"Logistic回归虽然用于分类，但本质上是广义线性回归模型的一种，用于预测概率。\",\n    \"sigmoid\": \"Logistic回归的核心是sigmoid函数，它将线性回归的输出映射到0-1之间的概率值。\"\n  }\n}\n```"
+}

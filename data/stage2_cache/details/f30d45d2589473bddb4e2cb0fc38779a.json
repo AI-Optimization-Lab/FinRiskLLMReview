@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 375,
+    "title": "A Multi-Objective Deep Reinforcement Learning Approach for Stock Index Futures's Intraday Trading",
+    "abstract": "Modern artificial intelligence has been widely discussed to practice in automated financial asserts trading. Automated intraday trading means that the agent can react to the market conditions automatically, while simultaneously make the right decisions. Besides, the profits will be made within a day considering transaction cost charged by the brokerage company. In this paper, we introduce a multi-objective deep reinforcement learning approach for intraday financial signal representation and trading. We design the deep neural networks to automatically discover the dynamic market features, then a reinforcement learning method implemented by a special kind of recurrent neural network (LSTM) is applied to make continuous trading decisions. In terms of balancing the profit and risk, we implement a multi-objective structure which includes two objectives with different weights. We conduct experiments on stock index futures data, and our analysis and experiments not only offer insights into financial market features mining, but also provide a straightforward and reliable method to make profits, which sheds light on its wide application on automated financial trading.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1b1864637d4ee859d169f70600af461b",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "long short-term memory",
+      "LSTM",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.015454"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用多目标深度强化学习方法进行股票指数期货的日内交易，虽然涉及金融交易，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用多目标深度强化学习方法进行股票指数期货的日内交易，虽然涉及金融交易，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:29.264793"
+}

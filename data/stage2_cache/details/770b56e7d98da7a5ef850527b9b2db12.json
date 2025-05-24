@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1921,
+    "title": "Resource allocation with stochastic optimal control approach",
+    "abstract": "A control-theoretic decision making system is proposed for an agent (decision maker) to optimally allocate and deploy his/her resources over time among a dynamically changing list of opportunities (e.g., financial assets), in an uncertain market environment. The solution is a sequence of actions with the objective of optimizing total reward function. This control-theoretic approach is unique in a sense that it solves the problem at distinct time epochs over a finite time horizon and strategies are discovered directly. Rather than basing a decision making system on forecasts or training via a reinforcement learning algorithm using current state data, we train our system via a Q-learning algorithm using Geometric Brownian Motion as an asset price function. While the above problem is quite general, we focus solely on the problem of dynamic financial portfolio management with the objective of maximizing the expected utility for a given risk level. The performance functions that we consider for our system are realized mean return, drawdown and standard deviation. We find that our model achieves a better return and drawdown compared to a known market index as a benchmark.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1e4eae7225b9ffbcd3e1f59d2dbdcf41",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:14.295986"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提到其研究重点是动态金融投资组合管理，目标是最大化给定风险水平下的预期效用。论文还讨论了实现均值回报、回撤和标准差等性能指标，这些都是投资组合管理的核心内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确提到其研究重点是动态金融投资组合管理，目标是最大化给定风险水平下的预期效用。论文还讨论了实现均值回报、回撤和标准差等性能指标，这些都是投资组合管理的核心内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:12.353295"
+}

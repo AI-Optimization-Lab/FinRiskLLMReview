@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 120,
+    "title": "A Deep Network-Based Trade and Trend Analysis System to Observe Entry and Exit Points in the Forex Market",
+    "abstract": "In the Forex market, trend trading, where trend traders identify trends and attempt to capture gains through the analysis of an asset's momentum in a particular direction, is a great way to profit from market movement. When the price of currency is moving in one either of the direction such as; up or down, it is known as trends. This trend analysis helps traders and investors find low risk entry points or exit points until the trend reverses. In this paper, empirical trade and trend analysis results are suggested by two-phase experimentations. First, considering the blended learning paradigm and wide use of deep-learning methodologies, the variants of long-short-term-memory (LSTM) networks such as Vanilla-LSTM, Stacked-LSTM, Bidirectional-LSTM, CNN-LSTM, and Conv-LSTM are used to build effective investing trading systems for both short-term and long-term timeframes. Then, a deep network-based system used to obtain the trends (up trends and down trends) of the predicted closing price of the currency pairs is proposed based on the best fit predictive networks measured using a few performance measures and Friedman's non-parametric tests. The observed trends are compared and validated with a few readily available technical indicators such as average directional index (ADX), rate of change (ROC), momentum, commodity channel index (CCI), and moving average convergence divergence (MACD). The predictive ability of the proposed strategy for trend analysis can be summarized as follows: (a) with respect to the previous day for short-term predictions, AUD:INR achieves 99.7265% and GBP:INR achieves 99.6582% for long-term predictions; (b) considering the trend analysis strategy with respect to the determinant day, AUD:INR achieves 98.2906% for short-term predictive days and USD:INR achieves an accuracy of trend forecasting with 96.0342%. The significant outcome of this article is the proposed trend forecasting methodology. An attempt has been made to provide an environment to understand the average, maximum, and minimum unit up and/or downs observed during trend forecasting. In turn, this deep learning-based strategy will help investors and traders to comprehend the entry and exit points of this financial market.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "fd039235ba01a86ee631ee430b46b832",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:34:25.351578"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于深度学习的趋势分析和交易系统，用于识别外汇市场的进出场点。虽然涉及金融市场，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于深度学习的趋势分析和交易系统，用于识别外汇市场的进出场点。虽然涉及金融市场，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:08.670078"
+}

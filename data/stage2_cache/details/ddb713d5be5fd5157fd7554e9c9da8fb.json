@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 184,
+    "title": "Adversarial Attacks Against Reinforcement Learning-Based Portfolio Management Strategy",
+    "abstract": "Many researchers have incorporated deep neural networks (DNNs) with reinforcement learning (RL) in automatic trading systems. However, such methods result in complicated algorithmic trading models with several defects, especially when a DNN model is vulnerable to malicious adversarial samples. Researches have rarely focused on planning for long-term attacks against RL-based trading systems. To neutralize these attacks, researchers must consider generating imperceptible perturbations while simultaneously reducing the number of modified steps. In this research, an adversary is used to attack an RL-based trading agent. First, we propose an extension of the ensemble of the identical independent evaluators (EIIE) method, called enhanced EIIE, in which information on the best bids and asks is incorporated. Enhanced EIIE was demonstrated to produce an authoritative trading agent that yields better portfolio performance relative to that of an EIIE agent. Enhanced EIIE was then applied to the adversarial agent for the agent to learn when and how much to attack (in the form of introducing perturbations).In our experiments, our proposed adversarial attack mechanisms were > 30% more effective at reducing accumulated portfolio value relative to the conventional attack mechanisms of the fast gradient sign method (FSGM) and iterative FSGM, which are currently more commonly researched and adapted to compare and improve.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6c241277d5eb59dc806ee884cd300e06",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.137054"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习（RL）和深度神经网络（DNN）来优化自动交易系统，特别是针对投资组合管理策略。论文中提到的‘portfolio performance’和‘accumulated portfolio value’明确表明其研究目标是投资组合管理。此外，论文还讨论了对抗性攻击对RL-based交易系统的影响，这进一步支持了其在投资组合管理领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习（RL）和深度神经网络（DNN）来优化自动交易系统，特别是针对投资组合管理策略。论文中提到的‘portfolio performance’和‘accumulated portfolio value’明确表明其研究目标是投资组合管理。此外，论文还讨论了对抗性攻击对RL-based交易系统的影响，这进一步支持了其在投资组合管理领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:53.717028"
+}

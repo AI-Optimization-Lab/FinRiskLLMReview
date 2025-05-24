@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2352,
+    "title": "What is the value of the cross-sectional approach to deep reinforcement learning?",
+    "abstract": "Reinforcement learning (RL) for dynamic asset allocation is an emerging field of study. Total return, the common performance metric, is useful for comparing algorithms but does not help us determine how close an RL algorithm is to an optimal solution. In real-world financial applications, a bad decision could prove to be fatal. One of the key ideas of our work is to combine the two paradigms of the mean-variance optimization approach (Markowitz criteria) and the optimal capital growth approach (Kelly criteria) via the actor-critic approach. By using an actor-critic approach, we can balance optimization of risk and growth by configuring the actor to optimize the mean-variance while the critic is configured to maximize growth. We propose a Geometric Policy Score used by the critic to assess the quality of the actions taken by the actor. This could allow portfolio manager practitioners to better understand the investment RL policy. We present an extensive and in-depth study of RL algorithms for use in portfolio management (PM). We studied eight published policy-based RL algorithms which are preferred over value-based RL because they are better suited for continuous action spaces and are considered to be state of the art, Deterministic Policy Gradient (DPG), Stochastic Policy Gradients (SPG), Deep Deterministic Policy Gradient (DDPG), Trust Region Policy Optimization (TRPO), Proximal Policy Optimization (PPO), Twin Delayed Deep Deterministic Policy Gradient (TD3), Soft Actor Critic (SAC), and Evolution Strategies (ES) for Policy Optimization. We implemented all eight and we were able to modify all of them for PM but our initial testing determined that their performance was not satisfactory. Most algorithms showed difficulty converging during the training process due to the non-stationary and noisy nature of financial environments, along with other challenges. We selected the four most promising algorithms DPG, SPG, DDPG, PPO for further improvements. The modification of RL algorithms to finance required unconventional changes. We have developed a novel approach for encoding multi-type financial data in a way that is compatible with RL. We use a multi-channel convolutional neural network (CNN-RL) framework, where each channel corresponds to a specific type of data such as high-low-open-close prices and volumes. We also designed a reward function based on concepts such as alpha, beta, and diversification that are financially meaningful while still being learnable by RL. In addition, portfolio managers will typically use a blend of time series analysis and cross-sectional analysis before making a decision. We extend our approach to incorporate, for the first time, cross-sectional deep RL in addition to time series RL. Finally, we demonstrate the performance of the RL agents and benchmark them against commonly used passive and active trading strategies, such as the uniform buy-and-hold (UBAH) index and the dynamical multi-period Mean-Variance-Optimization (MVO) model.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1911a79e2142f3def7e7e241902e804c",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:19.667353"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习（RL）进行动态资产配置，并提出了结合均值-方差优化（Markowitz标准）和最优资本增长（Kelly标准）的方法。论文明确提到其研究重点是投资组合管理（PM），并详细讨论了如何改进RL算法以适应金融环境的非平稳性和噪声。此外，论文还提出了一个基于金融概念（如alpha、beta和多样化）的奖励函数，并展示了RL代理与常用被动和主动交易策略的性能比较。这些内容都明确指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习（RL）进行动态资产配置，并提出了结合均值-方差优化（Markowitz标准）和最优资本增长（Kelly标准）的方法。论文明确提到其研究重点是投资组合管理（PM），并详细讨论了如何改进RL算法以适应金融环境的非平稳性和噪声。此外，论文还提出了一个基于金融概念（如alpha、beta和多样化）的奖励函数，并展示了RL代理与常用被动和主动交易策略的性能比较。这些内容都明确指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:56.122395"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3636,
+    "title": "Data driven value-at-risk forecasting using a SVR-GARCH-KDE hybrid",
+    "abstract": "Appropriate risk management is crucial to ensure the competitiveness of financial institutions and the stability of the economy. One widely used financial risk measure is value-at-risk (VaR). VaR estimates based on linear and parametric models can lead to biased results or even underestimation of risk due to time varying volatility, skewness and leptokurtosis of financial return series. The paper proposes a nonlinear and nonparametric framework to forecast VaR that is motivated by overcoming the disadvantages of parametric models with a purely data driven approach. Mean and volatility are modeled via support vector regression (SVR) where the volatility model is motivated by the standard generalized autoregressive conditional heteroscedasticity (GARCH) formulation. Based on this, VaR is derived by applying kernel density estimation (KDE). This approach allows for flexible tail shapes of the profit and loss distribution, adapts for a wide class of tail events and is able to capture complex structures regarding mean and volatility. The SVR-GARCH-KDE hybrid is compared to standard, exponential and threshold GARCH models coupled with different error distributions. To examine the performance in different markets, 1-day-ahead and 10-days-ahead forecasts are produced for different financial indices. Model evaluation using a likelihood ratio based test framework for interval forecasts and a test for superior predictive ability indicates that the SVR-GARCH-KDE hybrid performs competitive to benchmark models and reduces potential losses especially for 10-days-ahead forecasts significantly. Especially models that are coupled with a normal distribution are systematically outperformed.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8dc3eed79196e79a6543e2edf3d5f13c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:28:29.325968"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on forecasting value-at-risk (VaR), a widely used financial risk measure, using a hybrid SVR-GARCH-KDE approach. The primary goal is to improve risk estimation accuracy, which is a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on forecasting value-at-risk (VaR), a widely used financial risk measure, using a hybrid SVR-GARCH-KDE approach. The primary goal is to improve risk estimation accuracy, which is a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:57.734419"
+}

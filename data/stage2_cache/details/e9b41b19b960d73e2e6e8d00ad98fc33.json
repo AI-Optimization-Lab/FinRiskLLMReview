@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2692,
+    "title": "Two-stage stock portfolio optimization based on AI-powered price prediction and mean-CVaR models",
+    "abstract": "With the advancement of prediction methods in the field of artificial intelligence, accurate price predictions can effectively support financial portfolio selection. This paper proposes an intelligent stock portfolio selection method based on a prediction neural network, incorporating signal processing and hyperparameter optimization techniques. The method is divided into two key stages: stock price prediction and portfolio selection. In the first stage, we apply Savitzky-Golay filtering to denoise price data and reveal its patterns, and optimize the hyperparameters of the long short-term memory network using the sparrow search algorithm to achieve high-precision stock price predictions. In the second stage, we use the mean-Conditional Value-at-Risk (meanCVaR) model to select the optimal stock allocation, considering factors such as potential returns, prediction accuracy, and growth rate. Numerical comparisons based on multiple public financial datasets demonstrate that the proposed two-stage method significantly outperforms seven benchmark methods. Specifically, on the Shanghai and Shenzhen 300 (CSI 300) Index dataset, the proposed method achieves a determination coefficient of 0.9980 and an accuracy rate of 97.05%. Additionally, its cumulative returns reach 9.38%, 8.63%, and 7.54% at different confidence levels.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "84f9673afc3411aa3132c9a7775c6026",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:18:06.216497"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合AI预测和mean-CVaR模型进行股票投资组合优化，其研究目标和实验设计均围绕投资组合选择展开，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合AI预测和mean-CVaR模型进行股票投资组合优化，其研究目标和实验设计均围绕投资组合选择展开，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:40:38.737515"
+}

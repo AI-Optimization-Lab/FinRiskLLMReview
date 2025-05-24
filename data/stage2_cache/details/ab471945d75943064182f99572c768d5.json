@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 336,
+    "title": "Leave-one-out least squares Monte Carlo algorithm for pricing Bermudan options",
+    "abstract": "The least squares Monte Carlo (LSM) algorithm proposed by Longstaff and Schwartz (2001) is widely used for pricing Bermudan options. The LSM estimator contains undesirable look-ahead bias, and the conventional technique of avoiding it requires additional simulation paths. We present the leave-one-out LSM (LOOLSM) algorithm to eliminate look-ahead bias without doubling simulations. We also show that look-ahead bias is asymptotically proportional to the regressors-to-paths ratio. Our findings are demonstrated with several option examples in which the LSM algorithm overvalues the options. The LOOLSM method can be extended to other regression-based algorithms that improve the LSM method.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "bf9876c58ecaa3ccd1a8206d85708668",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.404018"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是改进最小二乘蒙特卡洛（LSM）算法，用于定价百慕大期权（Bermudan options），这直接属于衍生品定价领域。论文的主要研究目标是消除LSM算法中的前瞻性偏差（look-ahead bias），并展示了该方法在期权定价中的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是改进最小二乘蒙特卡洛（LSM）算法，用于定价百慕大期权（Bermudan options），这直接属于衍生品定价领域。论文的主要研究目标是消除LSM算法中的前瞻性偏差（look-ahead bias），并展示了该方法在期权定价中的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:15.325306"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 621,
+    "title": "不平衡样本下的金融市场极端风险预警研究",
+    "abstract": "为了提高金融市场极端风险识别及预警能力,采用沪深300指数作为研究数据,通过少数类样本过采样算法(SMOTE)解决样本不均衡问题,利用因子分析提取特征,通过粒子群(PSO)优化的最小二乘支持向量机(LSSVM)算法构建(SMOTE-PSO-LSSVM)预测模型。使用SMOTE-PSO-LSSVM模型对2007—2010年沪深300指标样本进行预测,样本含极端风险样本193条,模型成功识别风险样本154条,识别准确率达到了83.1%。研究结果表明SMOTE-PSO-LSSVM模型对金融风险数据识别能力较强,能够较为精准地识别风险样本,且求解速度快运行效率高,比传统BP网络和支持向量机等方法性能更优秀。该研究结论对金融市场的风险识别、市场趋势把控、股市交易管制以及投资者决策具有一定意义。",
+    "year": 2020,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "35692216a0dcb889a8c60e9f2ccf0f8c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:31:55.725224"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是构建一个预测模型（SMOTE-PSO-LSSVM）用于识别金融市场的极端风险样本，其研究目标是提高金融风险识别及预警能力，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是构建一个预测模型（SMOTE-PSO-LSSVM）用于识别金融市场的极端风险样本，其研究目标是提高金融风险识别及预警能力，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:37:44.956187"
+}

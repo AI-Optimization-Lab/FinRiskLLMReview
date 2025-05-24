@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2415,
+    "title": "SunDew: Systematic Automated Security Testing",
+    "abstract": "SunDew is a new automated test generation framework developed at Google, focused on finding security bugs in C/C++ code. It combines the strengths of multiple test generation techniques under a single cohesive platform. It leverages the vast amount of computational resources available at Google to massively parallelize the automated test generation and triage. By using a portfolio of test generation techniques, SunDew aims to overcome the coverage saturation (or plateau) that occurs with any individual technique. This saturation manifests as the inability of the technique to discover unexplored parts of a program after a certain number of generated tests. A portfolio of techniques, on the other hand, provides a diversity of test generation strategies that complement each other. SunDew embeds the most recent advances in automated test case generation, which provide precision and thoroughness. For example, symbolic execution uses powerful constraint solvers to generate tests that precisely follow desired program branches. This approach allows symbolic execution to reach code executed under very specific input preconditions that would be difficult to discover randomly. At the same time, recent improvements to coverage-guided automated fuzzing, such as AFL or LibFuzzer, generates tests faster than symbolic execution. Thus, SunDew alternates these approaches by using coverage-guided fuzzing to quickly bring the coverage to a first saturation level, then using symbolic execution to refine the search for harder-to-reach code. This, in turn, may provide additional inputs for coverage-guided fuzzers, etc. As part of SunDew, we also developed a number of format-aware fuzzers, that rely on, amongst other things, machine learning to generate language-aware fuzzers. The SunDew architecture follows a distributed continuous pipeline pattern. It allows a performance-based dynamic resource allocation for the various test generation techniques. This allows us to maximize the combined output of the test suite generation and avoid long plateaus in the coverage growth of the test suite. We discuss the application of SunDew on a variety of fuzzing targets of interest.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8744bb9f5446bab9bbf7c54156248393",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:38.089558"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要介绍了一种自动化测试生成框架SunDew，专注于发现C/C++代码中的安全漏洞，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要介绍了一种自动化测试生成框架SunDew，专注于发现C/C++代码中的安全漏洞，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:45.795750"
+}

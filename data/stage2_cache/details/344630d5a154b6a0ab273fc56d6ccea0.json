@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2968,
+    "title": "Improving Knowledge Graph Representation Learning by Structure Contextual Pre-training",
+    "abstract": "Representation learning models for Knowledge Graphs (KG) have proven to be effective in encoding structural information and performing reasoning over KGs. In this paper, we propose a novel pre-training-then-fine-tuning framework for knowledge graph representation learning, in which a KG model is firstly pre-trained with triple classification task, followed by discriminative fine-tuning on specific downstream tasks such as entity type prediction and entity alignment. Drawing on the general ideas of learning deep contextualized word representations in typical pre-trained language models, we propose SCoP to learn pre-trained KG representations with structural and contextual triples of the target triple encoded. Experimental results demonstrate that fine-tuning SCoP not only outperforms results of baselines on a portfolio of downstream tasks but also avoids tedious task-specific model design and parameter training.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3e12ea5f8f431123cc016fc2fb476a1d",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "unsupervised pre-train",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:09.193365"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究知识图谱表示学习的预训练框架，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究知识图谱表示学习的预训练框架，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:59.269466"
+}

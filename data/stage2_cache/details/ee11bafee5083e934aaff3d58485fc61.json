@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3443,
+    "title": "High dimensional covariance matrix estimation by penalizing the matrix-logarithm transformed likelihood",
+    "abstract": "It is well known that when the dimension of the data becomes very large, the sample covariance matrix S will not be a good estimator of the population covariance matrix Sigma. Using such estimator, one typical consequence is that the estimated eigenvalues from S will be distorted. Many existing methods tried to solve the problem, and examples of which include regularizing Sigma by thresholding or banding. In this paper, we estimate Sigma by maximizing the likelihood using anew penalization on the matrix logarithm of Sigma (denoted by A) of the form: parallel to A - mI parallel to(2)(F) = Sigma(i)(log(d(i)) - m)(2), where d(i) is the ith eigenvalue of Sigma. This penalty aims at shrinking the estimated eigenvalues of A toward the mean eigenvalue m. The merits of our method are that it guarantees Sigma to be non-negative definite and is computational efficient. The simulation study and applications on portfolio optimization and classification of genomic data show that the proposed method outperforms existing methods. (C) 2017 Elsevier B.V. All rights reserved.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ffb5229fee1fe22795c0428733379a26",
+    "relevant_keywords": [
+      "classification",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T01:17:25.407749"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种高维协方差矩阵估计方法，并在摘要中明确提到该方法在投资组合优化中的应用。虽然论文也提到了基因组数据分类，但其核心技术（协方差矩阵估计）在金融领域的应用主要体现在投资组合管理上。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种高维协方差矩阵估计方法，并在摘要中明确提到该方法在投资组合优化中的应用。虽然论文也提到了基因组数据分类，但其核心技术（协方差矩阵估计）在金融领域的应用主要体现在投资组合管理上。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:44.072077"
+}

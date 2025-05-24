@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 7,
+    "title": "Bayes推断和神经网络求解美式回望期权的隐含波动率",
+    "abstract": "首先，用原始对偶活跃集方法求解期权定价正问题，将相应的数值解作为监督学习的输出，然后用训练好的神经网络替代期权定价正问题模型.其次，结合Bayes推断与神经网络进行Metropolis-Hastings采样，求解隐含波动率反问题.该方法减少了采样过程中正问题计算量庞大的问题，从而加速了反问题求解过程.",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "b2d32bf8c0bd01e85152e1f5a4e48056",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:00.858464"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用Bayes推断和神经网络求解美式回望期权的隐含波动率，这直接涉及衍生品定价领域。论文的主要研究目标是解决期权定价的正问题和反问题，属于衍生品定价的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用Bayes推断和神经网络求解美式回望期权的隐含波动率，这直接涉及衍生品定价领域。论文的主要研究目标是解决期权定价的正问题和反问题，属于衍生品定价的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:03.304739"
+}

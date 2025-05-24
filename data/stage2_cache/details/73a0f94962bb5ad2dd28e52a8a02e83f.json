@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3895,
+    "title": "Improved LightGBM for Extremely Imbalanced Data and Application to Credit Card Fraud Detection",
+    "abstract": "Credit card fraud (CCF) is a significant threat to cardholders and financial institutions. CCF detection against this threat is challenging due to extremely imbalanced data (EID). EID involves extremely few instances of fraud for training and an extremely high risk of overlooking fraud. While class balancing or oversampling techniques can address the former problem by punishing negative classes or augmenting the positive data, they do not mitigate the latter. In contrast, the cost-sensitive learning approach targets only the high risk of false negative errors. Therefore, existing approaches are insufficient to solve all the issues of the EID problem. Based on the LightGBM (Light Gradient Boosting Machine) framework, this study introduces two novel machine-learning methods: the class balancing cost-harmonization LightGBM (CB-CHL-LightGBM) and the oversampling cost-harmonization LightGBM (OS-CHL-LightGBM). The new approaches combine class balancing or oversampling technology with LightGBM to solve the EID problem comprehensively. They enhance the efficacy of LightGBM in CCF detection scenarios. Experimental results on three CCF datasets indicate that the two proposed methods outperform LightGBM in several crucial performance metrics. For example, compared with the original LightGBM, CB-CHL-LightGBM or OS-CHL-LightGBM can increase the F2-score from 0.77 to 0.83 for the first dataset, from 0.77 to 0.86 for the second dataset, and from 0.70 to 0.82 for the third dataset. However, adding class balancing, oversampling, and cost-harmonization loss separately to LightGBM may not obtain better results.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0883a89c0965ebe48a046307064174d5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:30:58.378233"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是改进的LightGBM方法，用于解决信用卡欺诈检测中的极端不平衡数据问题。信用卡欺诈检测是金融风险管理的重要组成部分，旨在识别和减少欺诈行为带来的金融风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是改进的LightGBM方法，用于解决信用卡欺诈检测中的极端不平衡数据问题。信用卡欺诈检测是金融风险管理的重要组成部分，旨在识别和减少欺诈行为带来的金融风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:45.201450"
+}

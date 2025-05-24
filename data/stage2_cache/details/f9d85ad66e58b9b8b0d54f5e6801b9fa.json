@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 2062,
+    "title": "Interpreting Intentionally Flawed Models with Linear Probes",
+    "abstract": "The representational differences between generalizing networks and intentionally flawed models can be insightful on the dynamics of network training. Do memorizing networks, e.g. networks that learn random label correspondences, focus on specific patterns in the data to memorize the labels? Are the features learned by a generalizing network affected by randomization of the model parameters? In high-risk applications such as medical, legal or financial domains, highlighting the representational differences that help generalization may be even more important than the model performance itself. In this paper, we probe the activations of intermediate layers with linear classification and regression. Results show that the bias towards simple solutions of generalizing networks is maintained even when statistical irregularities are intentionally introduced.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5fd40fc3ae1c24aa072547121c2bb3ac",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:25.864124"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究神经网络中的表示学习及其在故意引入缺陷模型时的行为差异，虽然提到了金融领域作为高风险应用之一，但并未具体涉及衍生品定价、金融风险管理或投资组合管理等核心技术应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究神经网络中的表示学习及其在故意引入缺陷模型时的行为差异，虽然提到了金融领域作为高风险应用之一，但并未具体涉及衍生品定价、金融风险管理或投资组合管理等核心技术应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:27.009743"
+}

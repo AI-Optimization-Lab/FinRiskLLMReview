@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 42,
+    "title": "Gradient boosting for quantitative finance",
+    "abstract": "In this paper, we discuss how tree-based machine learning techniques can be used in the context of derivatives pricing. Gradient boosted regression trees are employed to learn the pricing map for a couple of classical, time-consuming problems in quantitative finance. In particular, we illustrate this methodology by reducing computation times for pricing exotic derivatives products and American options. Once the gradient boosting model is trained, it is used to make fast predictions of new prices. We show that this approach leads to speed-ups of several orders of magnitude, while the loss of accuracy is very acceptable from a practical point of view. In addition to the predictive performance of these methods, we acknowledge the importance of interpretability of pricing models. For both applications, we therefore look under the hood of the gradient boosting model and elaborate on how the price is constructed and interpreted.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "9f6eacee24d4f32d4795f16bfc585cf6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.589788"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文明确讨论了使用梯度提升回归树来学习衍生品定价映射，特别是针对奇异衍生品和美式期权的定价问题。论文的主要目标是提高定价的计算效率，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文明确讨论了使用梯度提升回归树来学习衍生品定价映射，特别是针对奇异衍生品和美式期权的定价问题。论文的主要目标是提高定价的计算效率，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:06.584739"
+}

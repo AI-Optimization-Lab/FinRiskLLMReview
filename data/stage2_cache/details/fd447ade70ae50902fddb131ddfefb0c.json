@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3596,
+    "title": "Combining alpha streams with costs",
+    "abstract": "In this paper, we discuss investment allocation to multiple alpha streams traded on the same execution platform with internal trade crossing. We then point out the differences between such a case and investment allocation when alpha streams are traded on separate execution platforms with no crossing. In the latter case, allocation weights are nonnegative; in the former, they can be negative. The effects of linear and nonlinear (impact) costs are different in these two cases due to turnover reduction when the trades are crossed. The turnover reduction depends on the universe of traded alpha streams, so if some alpha streams have zero allocations, turnover reduction needs to be recomputed; hence, an iterative procedure is required. We discuss an algorithm for finding allocation weights with crossing and linear costs. We also discuss a simple approximation when nonlinear costs are added, making the allocation problem tractable while still capturing nonlinear portfolio capacity bound effects. We also define regression with costs as a limit of optimization with costs, which is useful in often-occurring cases with a singular alpha covariance matrix.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "788e9bcd4e849397c831cac4fa6a2788",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:19:00.628165"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要讨论了在多个alpha流之间进行投资分配的问题，包括权重分配、交易成本的影响以及迭代算法的设计，这些都是投资组合管理的核心内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要讨论了在多个alpha流之间进行投资分配的问题，包括权重分配、交易成本的影响以及迭代算法的设计，这些都是投资组合管理的核心内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:17.459046"
+}

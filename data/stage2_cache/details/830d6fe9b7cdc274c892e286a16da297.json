@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3236,
+    "title": "Forecasting financial market structure from network features using machine learning",
+    "abstract": "We propose a model that forecasts market correlation structure from link- and node-based financial network features using machine learning. For such, market structure is modeled as a dynamic asset network by quantifying time-dependent co-movement of asset price returns across company constituents of major global market indices. We provide empirical evidence using three different network filtering methods to estimate market structure, namely Dynamic Asset Graph, Dynamic Minimal Spanning Tree and Dynamic Threshold Networks. Experimental results show that the proposed model can forecast market structure with high predictive performance with up to 40%\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$40\\%$$\\end{document} improvement over a time-invariant correlation-based benchmark. Non-pair-wise correlation features showed to be important compared to traditionally used pair-wise correlation measures for all markets studied, particularly in the long-term forecasting of stock market structure. Evidence is provided for stock constituents of the DAX30, EUROSTOXX50, FTSE100, HANGSENG50, NASDAQ100 and NIFTY50 market indices. Findings can be useful to improve portfolio selection and risk management methods, which commonly rely on a backward-looking covariance matrix to estimate portfolio risk.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "39e14949596f1494acdce0291e4988c0",
+    "relevant_keywords": [
+      "machine learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:24:05.134822"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过机器学习预测市场相关性结构，这直接有助于改进投资组合选择和风险管理方法。论文明确提到其发现可用于改进投资组合选择和风险管理方法，这些都属于投资组合管理和金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过机器学习预测市场相关性结构，这直接有助于改进投资组合选择和风险管理方法。论文明确提到其发现可用于改进投资组合选择和风险管理方法，这些都属于投资组合管理和金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:37:20.670734"
+}

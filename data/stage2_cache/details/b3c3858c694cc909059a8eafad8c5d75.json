@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 8,
+    "title": "基于机器学习的投资组合研究",
+    "abstract": "股票市场的随机性使得如何利用已知信息构造投资组合并在规避风险的前提下获得最大收益成为人们关注的重要问题。使用熵权-TOPSIS法对指标进行赋权并据此对沪深300成分股进行排序筛选。基于随机森林模型和LSTM(long short-term memory)模型对股票收盘价进行预测，选择月收益率排名前7的股票利用均值-方差模型进行投资组合构建，分析不同预测模型下投资策略的收益情况，最终通过实验验证选择LSTM预测模型得到的投资组合能够获得更高的收益，且具有较高的回报稳定性。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "382790aa558865f51a5b64b428fdefc6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:15:33.517044"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用机器学习模型（如随机森林和LSTM）预测股票价格，并基于这些预测构建投资组合。研究的主要目标是优化投资组合的收益和稳定性，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用机器学习模型（如随机森林和LSTM）预测股票价格，并基于这些预测构建投资组合。研究的主要目标是优化投资组合的收益和稳定性，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:27.183199"
+}

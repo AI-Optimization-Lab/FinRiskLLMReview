@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "support vector machine",
+    "SVM",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "论文明确提到使用机器学习算法来预测股票涨跌方向，构建投资组合。",
+    "supervised learning": "预测股票涨跌方向属于监督学习任务，因为需要标记的训练数据（涨或跌）。",
+    "classification": "预测股票涨跌方向是一个二分类问题（涨或跌）。",
+    "support vector machine": "论文中提到的SVM-TEA策略表明使用了支持向量机算法。",
+    "SVM": "SVM是支持向量机的缩写，论文中明确提到了SVM-TEA策略。",
+    "decision tree": "虽然论文没有明确提到决策树，但Ada-TEA可能使用了AdaBoost算法，而AdaBoost常与决策树结合使用。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"support vector machine\",\n    \"SVM\",\n    \"decision tree\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"论文明确提到使用机器学习算法来预测股票涨跌方向，构建投资组合。\",\n    \"supervised learning\": \"预测股票涨跌方向属于监督学习任务，因为需要标记的训练数据（涨或跌）。\",\n    \"classification\": \"预测股票涨跌方向是一个二分类问题（涨或跌）。\",\n    \"support vector machine\": \"论文中提到的SVM-TEA策略表明使用了支持向量机算法。\",\n    \"SVM\": \"SVM是支持向量机的缩写，论文中明确提到了SVM-TEA策略。\",\n    \"decision tree\": \"虽然论文没有明确提到决策树，但Ada-TEA可能使用了AdaBoost算法，而AdaBoost常与决策树结合使用。\"\n  }\n}\n```"
+}

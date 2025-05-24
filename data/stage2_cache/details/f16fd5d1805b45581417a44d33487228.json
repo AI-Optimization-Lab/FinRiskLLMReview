@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 4445,
+    "title": "A foreign exchange market trading system by combining GHSOM and SVR",
+    "abstract": "There are many researches aimed to predict times series of various financial markets. Some of these papers have shown that it is possible to obtain satisfactory results, thereby contradicting the theory that financial time series follow a random walk model. This study applies an architecture based on two stages for trading with two of the most traded foreign exchange rates (forex), the EUR/USD and GBP/USD. It also proposes a trading system to evaluate the model under a financial perspective, both in terms of profitability and risk, and to compare the application of the model in different timeframes (daily or intraday). The architecture consists of a GHSOM network, whose goal is to divide the dataset into regions with similar statistical distribution in order to circumvent the problem of nonstationarity, and a support vector regression machine (SVR), to make forecasts for the regions defined by GHSOM. We report on experiments that the SVR+GHSOM architecture performance is far superior compared to a model based solely on SVR. The comparison considered performance measures such as profitability (ROI) and the maximum drawdown (MD) and has shown that the best results are obtained in daily timeframe. The experiments have also shown that it is possible to increase profit by adjusting the risk parameter (number of lots), at the expense of increasing the risk. Furthermore, the proposed model proved to be much more profitable than a buy-and-hold model using the same time series (EUR/USD and GBP/USD); it also outperformed buy-and-hold with the Dow Jones in the same period.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fb7dd67120e8731a31e0df8b387cacee",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "clustering",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:37:16.911412"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是外汇市场交易系统的预测模型，虽然涉及了风险参数调整和最大回撤等风险相关指标，但其核心应用是外汇交易预测而非特定的金融风险管理、衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是外汇市场交易系统的预测模型，虽然涉及了风险参数调整和最大回撤等风险相关指标，但其核心应用是外汇交易预测而非特定的金融风险管理、衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:56.310003"
+}

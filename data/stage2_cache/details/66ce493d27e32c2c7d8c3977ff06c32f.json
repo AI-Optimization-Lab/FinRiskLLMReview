@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1770,
+    "title": "Benchmarking machine learning models to predict corporate bankruptcy",
+    "abstract": "Using a comprehensive sample of 2585 bankruptcies from 1990 to 2019, we bench-mark the performance of various machine learning models in predicting the financial distress of publicly traded US firms and we find that gradient-boosted trees outperform the other models in one-year-ahead forecasts. Permutation tests show that excess stock returns, idiosyncratic risk and relative size are the most important variables for predictions. Textual features derived from corporate filings do not materially improve performance. In a credit competition model that accounts for the asymmetric cost of default misclassification, the random survival forest is able to capture large dollar profits.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c6eb6cce15846f34f295e02a09ae5103",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:07:25.666677"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting corporate bankruptcy, which is a key aspect of credit risk management, a subfield of financial risk management. The use of machine learning models to forecast financial distress directly addresses risk assessment and mitigation.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting corporate bankruptcy, which is a key aspect of credit risk management, a subfield of financial risk management. The use of machine learning models to forecast financial distress directly addresses risk assessment and mitigation.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:35.501928"
+}

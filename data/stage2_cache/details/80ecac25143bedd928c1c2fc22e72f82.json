@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 203,
+    "title": "Comparison of the impact of dimensionality reduction and data splitting on classification performance in credit risk assessment",
+    "abstract": "Credit risk assessment (CRA) plays an important role in credit decision-making process of financial institutions. Today, developing big data analysis and machine learning methods have marked a new era in credit risk estimation. In recent years, using machine learning methods in credit risk estimation has emerged as an alternative method for financial institutions. The past demographic and financial data of the person whose CRA will be performed is important for creating an automatic artificial intelligence credit score prediction model based on machine learning. It is also necessary to use features correctly to create accurate machine learning models. This article aims to investigate the effects of dimensionality reduction and data splitting steps on the performance of classification algorithms widely used in the literature. In our study, dimensionality reduction was performed using Principal Component Analysis (PCA). Random Forest (RF), Logistic Regression (LR), Decision Tree (DT), Naive Bayes (NB) algorithms were chosen for classification. Percentage splitting (PER, 66-34%) and k-fold (k = 10) cross-validation techniques were used when dividing the data set into training and test data. The results obtained were evaluated with accuracy, recall, F1 score, precision, and AUC metrics. German data set was used in this study. The effect of data splitting and dimension reduction on the classification of CRA systems was examined. The highest ACC in PER and CV data splitting was obtained with the RF algorithm. Using data splitting methods and PCA, the highest accuracy was observed with RF and the highest AUC with NB, with 13 PCs in which 80% of the variance was obtained. As a result, the data set consisting of a total of 20 features, expressed by 13 PCs, achieved similar or higher success than the results obtained from the original data set.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "410ad8c00e48dd115d7ffb407e79f7f2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "principal components analysis",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:53.075543"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究信用风险评估（CRA）中的机器学习分类算法性能，这是金融风险管理中的一个重要应用领域。论文讨论了如何通过降维和数据分割提高信用风险预测的准确性，直接涉及金融机构的信用决策过程。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文主要研究信用风险评估（CRA）中的机器学习分类算法性能，这是金融风险管理中的一个重要应用领域。论文讨论了如何通过降维和数据分割提高信用风险预测的准确性，直接涉及金融机构的信用决策过程。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:57.809036"
+}

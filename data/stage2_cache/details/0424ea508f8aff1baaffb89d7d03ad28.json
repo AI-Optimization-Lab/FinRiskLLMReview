@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2076,
+    "title": "The Financial Risk Measurement EVaR Based on DTARCH Models",
+    "abstract": "The value at risk based on expectile (EVaR) is a very useful method to measure financial risk, especially in measuring extreme financial risk. The double-threshold autoregressive conditional heteroscedastic (DTARCH) model is a valuable tool in assessing the volatility of a financial asset's return. A significant characteristic of DTARCH models is that their conditional mean and conditional variance functions are both piecewise linear, involving double thresholds. This paper proposes the weighted composite expectile regression (WCER) estimation of the DTARCH model based on expectile regression theory. Therefore, we can use EVaR to predict extreme financial risk, especially when the conditional mean and the conditional variance of asset returns are nonlinear. Unlike the existing papers on DTARCH models, we do not assume that the threshold and delay parameters are known. Using simulation studies, it has been demonstrated that the proposed WCER estimation exhibits adequate and promising performance in finite samples. Finally, the proposed approach is used to analyze the daily Hang Seng Index (HSI) and the Standard & Poor's 500 Index (SPI).",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6638d032739fc6fd43ce75b73837115f",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:58.988737"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on the development of a method (EVaR based on DTARCH models) to measure and predict extreme financial risk, which is a core aspect of financial risk management. The application to daily stock indices further supports its relevance to risk assessment in financial markets.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on the development of a method (EVaR based on DTARCH models) to measure and predict extreme financial risk, which is a core aspect of financial risk management. The application to daily stock indices further supports its relevance to risk assessment in financial markets.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:25.938516"
+}

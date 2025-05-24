@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 426,
+    "title": "Predicting credit default swap prices with financial and pure data-driven approaches",
+    "abstract": "The increasing popularity of credit default swaps (CDSs) necessitates understanding their various features. In this study, we analyse the capability of CDSs in predicting CDS prices of other companies in the same risk class or CDS prices of further time horizons. In doing so, we employ the basic forms of structural (the Merton model) and reduced-form (constant intensity) models in a cross-sectional and a time series setup. By utilizing a credit default swap dataset exclusively for estimation and out-of-sample prediction, our study also serves as a comparison between the basic forms of credit risk models. Finally, it contrasts the results with the performance of a new supervised learning forecasting technique, the Support Vector Machines Regression. We show that although the Merton and the constant intensity models handle default timing and interest rates differently, the prediction performance in cross-sectional and time series analyses is, on average, similar. In one-, five-, and 10-step-ahead predictions of time series, the machine learning algorithm significantly outperforms financial models.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "bba51f2a3ce55b8c478c18d31926900f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.618289"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是预测信用违约互换（CDS）的价格，这直接涉及衍生品定价领域。论文比较了结构模型、简化模型和机器学习方法在CDS价格预测中的表现，这些都是衍生品定价中的关键技术。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是预测信用违约互换（CDS）的价格，这直接涉及衍生品定价领域。论文比较了结构模型、简化模型和机器学习方法在CDS价格预测中的表现，这些都是衍生品定价中的关键技术。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:04.405129"
+}

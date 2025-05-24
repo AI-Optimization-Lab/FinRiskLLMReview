@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "regression",
+    "decision tree",
+    "neural network",
+    "deep learning"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning models like Random Forest and XGBoost for landslide susceptibility assessment.",
+    "supervised learning": "Random Forest and XGBoost are supervised learning algorithms, as they require labeled data for training.",
+    "classification": "The study involves classifying areas into different susceptibility zones (high, moderate, low), which is a classification task.",
+    "regression": "While not explicitly stated, regression techniques might be used in the machine learning models to predict susceptibility scores.",
+    "decision tree": "Random Forest is an ensemble method based on decision trees, so decision trees are implicitly involved.",
+    "neural network": "XGBoost, while not a neural network, is sometimes considered in the broader context of machine learning that includes neural networks.",
+    "deep learning": "The term is not explicitly mentioned, but advanced machine learning techniques like XGBoost can be loosely associated with deep learning in some contexts."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"regression\",\n    \"decision tree\",\n    \"neural network\",\n    \"deep learning\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning models like Random Forest and XGBoost for landslide susceptibility assessment.\",\n    \"supervised learning\": \"Random Forest and XGBoost are supervised learning algorithms, as they require labeled data for training.\",\n    \"classification\": \"The study involves classifying areas into different susceptibility zones (high, moderate, low), which is a classification task.\",\n    \"regression\": \"While not explicitly stated, regression techniques might be used in the machine learning models to predict susceptibility scores.\",\n    \"decision tree\": \"Random Forest is an ensemble method based on decision trees, so decision trees are implicitly involved.\",\n    \"neural network\": \"XGBoost, while not a neural network, is sometimes considered in the broader context of machine learning that includes neural networks.\",\n    \"deep learning\": \"The term is not explicitly mentioned, but advanced machine learning techniques like XGBoost can be loosely associated with deep learning in some contexts.\"\n  }\n}\n```"
+}

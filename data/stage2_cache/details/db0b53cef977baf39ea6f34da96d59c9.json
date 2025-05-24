@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 8955,
+    "title": "A Proposed Simulation Technique for Population Stability Testing in Credit Risk Scorecards",
+    "abstract": "Credit risk scorecards are logistic regression models, fitted to large and complex data sets, employed by the financial industry to model the probability of default of potential customers. In order to ensure that a scorecard remains a representative model of the population, one tests the hypothesis of population stability; specifying that the distribution of customers' attributes remains constant over time. Simulating realistic data sets for this purpose is nontrivial, as these data sets are multivariate and contain intricate dependencies. The simulation of these data sets are of practical interest for both practitioners and for researchers; practitioners may wish to consider the effect that a specified change in the properties of the data has on the scorecard and its usefulness from a business perspective, while researchers may wish to test a newly developed technique in credit scoring. We propose a simulation technique based on the specification of bad ratios, this is explained below. Practitioners can generally not be expected to provide realistic parameter values for a scorecard; these models are simply too complex and contain too many parameters to make such a specification viable. However, practitioners can often confidently specify the bad ratio associated with two different levels of a specific attribute. That is, practitioners are often comfortable with making statements such as on average a new customer is 1.5 times as likely to default as an existing customer with similar attributes. We propose a method which can be used to obtain parameter values for a scorecard based on specified bad ratios. The proposed technique is demonstrated using a realistic example, and we show that the simulated data sets adhere closely to the specified bad ratios. The paper provides a link to a Github project with the R code used to generate the results.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "eeebca313c6bae9c1a4d097dc994f3c0",
+    "relevant_keywords": [
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T03:23:56.153845"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit risk scorecards and population stability testing, which are directly related to assessing and managing the risk of default in financial portfolios, a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit risk scorecards and population stability testing, which are directly related to assessing and managing the risk of default in financial portfolios, a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:13.335219"
+}

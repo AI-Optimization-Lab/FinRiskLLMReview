@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 6323,
+    "title": "Differentially private empirical risk minimization for AUC maximization",
+    "abstract": "Area under the ROC curve (AUC) is a widely used performance measure for imbalanced classification. Oftentimes, the ubiquitous imbalanced data such as financial records from fraud detection or genomic data from cancer diagnosis contains sensitive information, and therefore it is of practical and theoretical importance to develop privacy-preserving AUC maximization algorithms. In this paper, we propose differentially private empirical risk minimization (ERM) for AUC maximization, and systematically study their privacy and utility guarantees. In particular, we establish guarantees on the generalization (utility) performance of the proposed algorithms with fast rates. The technical novelty contains fast rates for the regularized ERM in AUC maximization, which is established using the peeling techniques for Rademacher averages [1] and properties of U-Statistics [2,3] to handle statistically non-independent pairs of examples in the objective function, and a new error decomposition to handle strongly smooth losses (e.g. least square loss). In addition, we revisit the private ERM with pointwise loss [4,5] and show optimal rates can be obtained using the uniform convergence approach. (c) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "efa9b198afb1256f74ba49400bb8854a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:57:07.670234"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究差分隐私下的经验风险最小化（ERM）用于AUC最大化，虽然提到金融记录（如欺诈检测）作为潜在应用场景之一，但论文的核心技术是通用的机器学习方法，并未明确指出或专注于上述特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究差分隐私下的经验风险最小化（ERM）用于AUC最大化，虽然提到金融记录（如欺诈检测）作为潜在应用场景之一，但论文的核心技术是通用的机器学习方法，并未明确指出或专注于上述特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:55.054018"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 397,
+    "title": "Design and Application of Financial Market Option Pricing System Based on High-Performance Computing and Deep Reinforcement Learning",
+    "abstract": "The option pricing estimation of financial market can be transformed into the calculation of high-dimensional integrals. In order to obtain the actual price, option pricing system can only rely on modern numerical methods; on the other hand, the improvement of calculation methods and technologies has also shifted the focus of design and application of option pricing system from a strict closed model to a less advanced but computationally intensive calculation. High-performance computing can establish a reasonable analysis model, realistically simulate the effects of various designed performance and parameters, and provide technical support for a large number of fast numerical calculations and simulations. Deep reinforcement learning can obtain a description of empirical knowledge through the learning of historical information and use the acquired experience to deal with future problems, which can well solve classification problems, regression problems, and optimization problems. Therefore, based on summarizing and analyzing previous research results, this paper expounds the current research status and significance of the design and application of financial market option pricing systems, elaborates the development background, current status, and future challenges of high-performance computing and deep reinforcement learning, introduces the methods and principles of high-performance computing platform and deep reinforcement learning algorithm, conducts no-arbitrage pricing model design, performs risk-neutral pricing model design, discusses the design of finance market option pricing system based on high-performance computing and deep reinforcement learning, analyzes the financial market option pricing considering random interest rates, implements financial market option pricing considering transaction costs, explores the application of financial market option pricing system based on high-performance computing and deep reinforcement learning, and finally carries out empirical experiment and its result analysis. The study results show that the financial market option pricing system based on high-performance computing and deep reinforcement learning records the basic information of high-performance computer system users and option pricing information in the form of relational data in a relational database. The financial market option pricing system describes the state of the controller and the upcoming option pricing situation. The system's initialization uses multiple arrays from a stochastic strategy to initialize option pricing and evaluation buffers, which uniformly selects an option pricing from the initial option pricing set in each cycle. The study results of this paper provide a reference for further researches on the design and application of financial market option pricing system based on high-performance computing and deep reinforcement learning.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ce52562347d6d0d9a453a831c7e33f0b",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.091984"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是设计和应用基于高性能计算和深度强化学习的金融市场期权定价系统，明确提到了无套利定价模型设计和风险中性定价模型设计，这些都是衍生品定价领域的核心内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是设计和应用基于高性能计算和深度强化学习的金融市场期权定价系统，明确提到了无套利定价模型设计和风险中性定价模型设计，这些都是衍生品定价领域的核心内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:26.437923"
+}

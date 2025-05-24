@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 150,
+    "title": "基于因子特征的高维稀疏投资组合优化",
+    "abstract": "在高维情形下,为了实现对期望收益率的更准确估计,提高投资组合策略的稳定性及获得更好的样本外表现,文章利用流通市值和账面市值比的双因子排序组合信息,在回归形式的均值-方差策略目标函数中引入了Group-LASSO （GLASSO）正则项,构建了GLASSOMV投资组合策略.相比包含权重l<sub>1</sub>-范数正则项的LASSO-MV策略,GLASSO-MV能够有效利用因子组合之间的定价差异信息,从而输出组间的稀疏权重,进而更有效地估计高维投资组合权重并取得更好的样本外表现.为了获得合适的正则项参数和权重稀疏度,文章在5折交叉验证寻优结果的基础上进行了稀疏度调整.为验证此策略,文章利用A股1995年至2019年共3695只股票的日际实证数据集,将GLASSO-MV与多种常见的投资组合策略进行了比较.结果显示相比LASSO-MV,MV,GMV,TZ （Tu-Zhou）,BS （Bayes-Stein）等策略,GLASSO-MV实现了更好的样本外夏普率,更低的标准差风险和换手率.",
+    "year": 2021,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8a5252d5c873c54eee61d138564a9592",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:50.474474"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建GLASSO-MV投资组合策略，旨在优化高维稀疏投资组合的权重估计，提高样本外表现，并与其他投资组合策略进行比较。这些内容明确属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建GLASSO-MV投资组合策略，旨在优化高维稀疏投资组合的权重估计，提高样本外表现，并与其他投资组合策略进行比较。这些内容明确属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:43.651008"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2445,
+    "title": "Online Estimation of Stochastic Volatility for Asset Returns",
+    "abstract": "An important application of financial institutions is quantifying the risk involved in investing in an asset. These are various measures of risk like volatility or value-at-risk. To estimate them from data, a model for underlying financial time series has to be specified and parameters have to be estimated. In the following, we propose a framework for estimation of stochastic volatility of asset returns based on adaptive fuzzy rule based system. The model is based on Takagi-Sugeno fuzzy systems, and it is built in two phases. In the first phase, the model uses the Subtractive Clustering algorithm to determine group structures in a reduced data set for initialization purpose. In the second phase, the system is modified dynamically via adding and pruning operators and a recursive learning algorithm determines automatically the number of fuzzy rules necessary at each step, whereas one step ahead predictions are estimated and parameters are updated as well. The model is applied for forecasting financial time series volatility, considering daily values the REAL/USD exchange rate. The model suggested is compared against generalized autoregressive conditional heteroskedaticity models. Experimental results show the adequacy of the adaptative fuzzy approach for volatility forecasting purposes.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6f6cff5d8ccb1c1e484fadbaf7672f58",
+    "relevant_keywords": [
+      "machine learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:27.075164"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on estimating stochastic volatility of asset returns, which is a key component in quantifying investment risk. The proposed model is specifically applied to forecasting financial time series volatility, a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on estimating stochastic volatility of asset returns, which is a key component in quantifying investment risk. The proposed model is specifically applied to forecasting financial time series volatility, a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:27.620805"
+}

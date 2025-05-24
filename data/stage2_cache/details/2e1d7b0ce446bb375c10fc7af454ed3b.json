@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 757,
+    "title": "Instance-dependent misclassification cost-sensitive learning for default prediction",
+    "abstract": "In the field of intelligent risk control, an accurate and credible classification algorithm can provide decision-making support to financial institutions. This study proposes an instance-dependent cost-sensitive misclassification algorithm to develop two classifiers: misclassification costsensitive logistic regression and misclassification cost-sensitive neural network. First, we present a cost matrix in terms of class- and difficulty-related correlations, based on which we customise a cost function to construct new classifiers and then derive an optimal decision threshold for each new instance. Experiments on seven public datasets demonstrated that the predictive performance of the proposed classifiers is competitive with that of other comparative classifiers. Furthermore, the Type-II error of the proposed classifiers in the low-instance difficulty interval is below that in the high-instance difficulty interval, indicating that the two classifiers constructed by our algorithm can help managers make accurate decisions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e3690b335a733957785d930d3d7103d5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:34.157394"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing classifiers for default prediction, which is a key aspect of credit risk management in financial institutions. The proposed algorithms aim to minimize misclassification costs, particularly Type-II errors, to support accurate decision-making in risk control, directly aligning with financial risk management objectives.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing classifiers for default prediction, which is a key aspect of credit risk management in financial institutions. The proposed algorithms aim to minimize misclassification costs, particularly Type-II errors, to support accurate decision-making in risk control, directly aligning with financial risk management objectives.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:23.105640"
+}

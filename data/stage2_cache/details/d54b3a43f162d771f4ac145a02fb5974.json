@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1040,
+    "title": "Multi-Agent Deep Reinforcement Learning With Progressive Negative Reward for Cryptocurrency Trading",
+    "abstract": "Recently, reinforcement learning has been applied to cryptocurrencies to make profitable trades. However, cryptocurrency trading is a very challenging task due to the volatility of the market, especially during bearish periods. In addressing this problem, the existing literature employs single-agent techniques such as deep Q-network (DQN), advantage actor-critic (A2C), and proximal policy optimization (PPO), or their ensembles. Moreover, in the context of cryptocurrencies, the mechanisms for restricting losses during a bearish market are insufficiently robust. Consequently, the performance of reinforcement learning methods for cryptocurrency trading in the existing literature is constrained. To overcome this limitation, we propose a novel cryptocurrency trading method based on multi-agent proximal policy optimization (MAPPO) with a collaborative multi-agent scheme and a local-global reward function to optimize both the individual and collective performance of the agents. Both a multi-objective optimization technique and a multi-scale continuous loss (MSCL) reward are used to train agents using a progressive penalty to avoid consecutive losses of portfolio value. For evaluation, we compared our method to multiple baselines. As a result, better cumulative returns are achieved than when baseline methods are used. In addition, the superiority of our method is emphasized by the result of the bearish test set, where only our method can make a profit. Specifically, our method obtains a 2.36% cumulative return, whereas the baseline methods result in negative cumulative returns. In comparison to FinRL-Ensemble, a reinforcement learning-based method, our method achieves a 46.05% greater cumulative return in the bullish test set.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "37f7fb986b98826a5607146ddf52c652",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "proximal policy optimization",
+      "multi-agent reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.814548"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是多智能体深度强化学习，用于加密货币交易，旨在优化投资组合的价值并避免连续损失，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是多智能体深度强化学习，用于加密货币交易，旨在优化投资组合的价值并避免连续损失，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:15.096293"
+}

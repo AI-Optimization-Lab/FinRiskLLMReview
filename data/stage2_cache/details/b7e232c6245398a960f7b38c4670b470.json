@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 270,
+    "title": "Computing Black Scholes with Uncertain Volatility-A Machine Learning Approach",
+    "abstract": "In financial mathematics, it is a typical approach to approximate financial markets operating in discrete time by continuous-time models such as the Black Scholes model. Fitting this model gives rise to difficulties due to the discrete nature of market data. We thus model the pricing process of financial derivatives by the Black Scholes equation, where the volatility is a function of a finite number of random variables. This reflects an influence of uncertain factors when determining volatility. The aim is to quantify the effect of this uncertainty when computing the price of derivatives. Our underlying method is the generalized Polynomial Chaos (gPC) method in order to numerically compute the uncertainty of the solution by the stochastic Galerkin approach and a finite difference method. We present an efficient numerical variation of this method, which is based on a machine learning technique, the so-called Bi-Fidelity approach. This is illustrated with numerical examples.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "bfdecbd964e29b379fc4fdc3cb02679c",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.076093"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用机器学习和广义多项式混沌（gPC）方法来计算Black Scholes模型中的不确定性波动率，并量化这种不确定性对衍生品定价的影响。论文明确提到其目标是计算衍生品的价格，因此主要应用于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用机器学习和广义多项式混沌（gPC）方法来计算Black Scholes模型中的不确定性波动率，并量化这种不确定性对衍生品定价的影响。论文明确提到其目标是计算衍生品的价格，因此主要应用于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:41.265187"
+}

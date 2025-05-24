@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2006,
+    "title": "A Large-Scale Empirical Study of Aligned Time Series Forecasting",
+    "abstract": "Automated Machine Learning (AutoML) tools for time series forecasting represent a frontier in both academic and industrial research, addressing the need for efficient, accurate predictions in various domains. This study focuses on the development of Automated Time Series Forecasting (AutoTS), specifically in the domains of demand forecasting and traffic prediction. Through a comprehensive empirical evaluation and comparative analysis, this study investigates the performance of 35 time series forecasting methods and scrutinizes the forecast quality and time series characteristics. In the experiments, we used six real and one synthetic datasets with 325 time series in total. The forecasting for four distinct horizons is studied. From our large-scale empirical study, we draw the following main conclusions: boosting-based methods, which are often overlooked, have a strong performance; the global modeling approach is promising because it provides competitive performance with a small computational cost; meta-learning via portfolio selection performs better than one based on meta-features. We hope that our empirical study will pave the way for more efficient AutoML systems for time series forecasting.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "566e0d75c800ca36e8e737cf1e4823c6",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:02:10.186058"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究时间序列预测在需求预测和交通预测领域的应用，并未提及或明确应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究时间序列预测在需求预测和交通预测领域的应用，并未提及或明确应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:46.878624"
+}

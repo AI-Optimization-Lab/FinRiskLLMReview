@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3220,
+    "title": "Detecting Deceptive Discussions in Conference Calls",
+    "abstract": "We estimate linguistic-based classification models of deceptive discussions during quarterly earnings conference calls. Using data on subsequent financial restatements and a set of criteria to identify severity of accounting problems, we label each call as truthful or deceptive. Prediction models are then developed with the word categories that have been shown by previous psychological and linguistic research to be related to deception. We find that the out-of-sample performance of models based on CEO and/or CFO narratives is significantly better than a random guess by 616% and is at least equivalent to models based on financial and accounting variables. The language of deceptive executives exhibits more references to general knowledge, fewer nonextreme positive emotions, and fewer references to shareholder value. In addition, deceptive CEOs use significantly more extreme positive emotion and fewer anxiety words. Finally, a portfolio formed from firms with the highest deception scores from CFO narratives produces an annualized alpha of between -4% and -11%.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9728acf0f4bdf20efeb64e642702a1ba",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:14:54.967493"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过语言分类模型检测季度收益电话会议中的欺骗性讨论，并基于这些欺骗性评分构建投资组合，产生显著的负alpha。这直接涉及投资组合管理的领域，因为研究结果被用于构建和评估投资组合的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过语言分类模型检测季度收益电话会议中的欺骗性讨论，并基于这些欺骗性评分构建投资组合，产生显著的负alpha。这直接涉及投资组合管理的领域，因为研究结果被用于构建和评估投资组合的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:32.993503"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 124,
+    "title": "中国股票市场动量效应有效性研究",
+    "abstract": "基于2008—2021年上证180指数和其成分股的周数据，具体实验设计考虑到中国股票市场普通投资者的实际局限，剔除建立动量效应投资组合中的做空操作，并且将动量效应有效性定义为投资组合收益率超过指数平均收益。初步实验结果表明，中国股票市场中动量效应持续性不明显，依据动量效应的策略建立投资组合的收益率还有改进空间。基于以往对于动量效应的理论解释，提出根据指数的风险因子对于市场中收益率能否保持惯性进行分类预测。考虑到传统线性模型的局限，以LSSVM模型作为分类器，最终分类预测结果显示选取的九个风险因子指标中的三个指标对于动量效应的持续性预测具有一定效力，同时根据BP神经网络的实验结果证明相关研究结论具有稳健性。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "177ed14e2f68f080c89be4f40f223c8b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:22.435972"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是动量效应在中国股票市场的有效性，并基于此构建投资组合策略，旨在提高投资组合的收益率。虽然论文中使用了机器学习方法（如LSSVM和BP神经网络）进行分类预测，但这些技术的应用是为了优化投资组合的构建和选择，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是动量效应在中国股票市场的有效性，并基于此构建投资组合策略，旨在提高投资组合的收益率。虽然论文中使用了机器学习方法（如LSSVM和BP神经网络）进行分类预测，但这些技术的应用是为了优化投资组合的构建和选择，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:48.055124"
+}

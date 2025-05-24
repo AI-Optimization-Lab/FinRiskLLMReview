@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1937,
+    "title": "A cloud weather forecasting service and its relationship with anomaly detection",
+    "abstract": "The main goal of the anomaly detection analysis is to identify the observations that do not adhere to general patterns considered normal behavior. In distributed systems, anomaly detection helps manage and monitor the system's performance. In the literature, several machine learning (ML) algorithms have been proposed to detect anomalies, each one returning anomalies according to the particular mechanism used in the search process. For a cloud orchestrator managing a data center, this paper aims to present new insights for its health monitoring based on the coupling of different anomaly detection techniques based on the portfolio principle. We do not compute the weather forecasting of the whole cloud but the weather forecasting of a single cloud system. The Portfolio's principle executes several ML anomaly detection algorithms with different anomaly detection mechanisms. The idea is to detect a maximum number of anomalies, then consolidate the results according to their similarities to keep only the relevant anomalies from a system administrator's point of view. We also offer a metric for the health of the cloud and a new cloud service, which consists of adding a barometer indicator that helps experts maintain the cloud in operational conditions and determine the quality of the analyzed cloud. The proposed cloud service allows us to compare the behavior of the cloud at different times, enabling us to trigger actions to remedy the problems of anomalies. On the experimental plan, and to validate our approach, we use datasets present in the traces of Alibaba's Cloud 2018 that include about 4000 machines over eight days. Compared to a baseline algorithm, we show that the portfolio approach is more stringent with the quality of the detection of anomalies. We also demonstrate that our method can effectively help the cloud administrator predict cloud weather. Thus, for example, he can daily monitor the state of the cloud easily in a quasi-automatic way.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8f3b27518fcae43c0e7ee55ac4e2bb43",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:06.232433"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究云计算系统中的异常检测和健康监控，虽然提到了'portfolio principle'，但其应用场景是云计算管理，而非金融领域的投资组合管理。论文内容与衍生品定价、金融风险管理或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究云计算系统中的异常检测和健康监控，虽然提到了'portfolio principle'，但其应用场景是云计算管理，而非金融领域的投资组合管理。论文内容与衍生品定价、金融风险管理或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:11.830492"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 359,
+    "title": "改进人工鱼群算法在外汇预测和投资组合中的应用",
+    "abstract": "人工鱼群算法具有良好的全局搜索能力和自适应能力,在解决投资组合问题上有较好的应用前景.本文通过改进人工鱼群算法,分别对汇率预测和外汇投资组合双目标优化两部分进行研究.首先利用基于平均距离视野的人工鱼群优化的支持向量回归机算法对汇率进行短期预测,提高了外汇预期收益率的准确性.然后建立外汇投资组合双目标模型,通过借鉴带精英策略的快速非支配排序遗传算法(non-dominated sorting genetic algorithm-Ⅱ,NSGA-Ⅱ)的思想,提出基于Pareto排序理论的双目标非支配排序人工鱼群算法(non-dominated sorting artificial fish swarm algorithm,NSAFSA).实证分析表明该算法在求解外汇投资组合方案时,获得的Pareto前沿比NSGA-II的结果分布更均匀,多样性更好.最后对NSAFSA算法进一步改进,通过两次剪枝策略提高了解的质量,并给出了可供选择的最优外汇投资组合方案.研究结果表明人工鱼群算法可以对汇率预测和外汇投资组合提供重要参考,在外汇市场中具有较大的应用潜力.",
+    "year": 2015,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "35e26d513ce432f402c6d12ed5a7eb44",
+    "relevant_keywords": [
+      "support vector machine",
+      "SVM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:22:41.540024"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术改进人工鱼群算法主要用于外汇投资组合的双目标优化，研究目标是提供最优外汇投资组合方案，这直接属于投资组合管理的范畴。虽然论文也涉及汇率预测，但主要应用场景和研究成果集中在投资组合优化上。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术改进人工鱼群算法主要用于外汇投资组合的双目标优化，研究目标是提供最优外汇投资组合方案，这直接属于投资组合管理的范畴。虽然论文也涉及汇率预测，但主要应用场景和研究成果集中在投资组合优化上。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:45.938915"
+}

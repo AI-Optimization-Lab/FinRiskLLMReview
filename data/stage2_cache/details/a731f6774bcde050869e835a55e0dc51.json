@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 387,
+    "title": "Sparse Coding with Sparse Dictionaries for Credit Risk Classification",
+    "abstract": "Credit risk analysis seeks to determine whether a customer is likely to default on the financial obligation, which is a very important problem in finance. In this paper, we will present a machine learning framework to deal with this problem by formulating it as a binary classification problem. The framework consists of two parts: dictionary learning and classifier training. Firstly, we introduce a sparse K-SVD method to discovery a sparse dictionary to represent the training data, which will contribute to good performance and efficient computation in subsequent classification. Secondly, SVM classifiers are training on the new representations of the training data. The trained classifiers will serve as a credit risk analysis expert to automatically classify the testing data. We evaluate the framework in a real-world credit risk prediction task, and the empirical results demonstrate the advantage of the method by comparing with other strategies.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "db4ad4b35a6d7da864d0daa77fa3e9b7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.059851"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit risk analysis, which is a key component of financial risk management, specifically addressing the prediction of customer defaults using machine learning techniques.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit risk analysis, which is a key component of financial risk management, specifically addressing the prediction of customer defaults using machine learning techniques.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:27.750649"
+}

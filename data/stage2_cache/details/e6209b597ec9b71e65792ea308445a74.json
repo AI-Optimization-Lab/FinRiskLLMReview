@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1612,
+    "title": "Chum Prediction for High-Value Players in Casual Social Games",
+    "abstract": "Predicting when players will leave a game creates a unique opportunity to increase players' lifetime and revenue contribution. Players can be incentivized to stay, strategically cross-linked to other games in the company's portfolio or, as a last resort, be passed on to other companies through in-game advertisement. This paper focuses on predicting churn for high-value players of casual social games and attempts to assess the business impact that can be derived from a predictive churn model. We compare the prediction performance of four common classification algorithms over two casual social games, each with millions of players. Furthermore, we implement a hidden Markov model to explicitly address temporal dynamics. We find that a neural network achieves the best prediction performance in terms of area under curve (AUC). In addition, to assess the business value of churn prediction, we design and implement an A/B test on one of the games, using free in-game currency as an incentive to retain players. Test results indicate that contacting players shortly before the predicted churn event substantially improves the effectiveness of communication with players. They further show that giving out free in-game currency does not significantly impact the churn rate or monetization of players. This suggests that players can only be retained by remarkably changing their gameplay experience ahead of the churn event and that cross-linking may be the more effective measure to deal with churning players.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7e0cf06b3ff9b9e5382b8bfc9871f70e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.824836"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是预测社交游戏中高价值玩家的流失行为，并评估预测模型的商业影响。虽然使用了机器学习技术，但其应用场景是游戏行业而非金融领域，与衍生品定价、金融风险管理或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是预测社交游戏中高价值玩家的流失行为，并评估预测模型的商业影响。虽然使用了机器学习技术，但其应用场景是游戏行业而非金融领域，与衍生品定价、金融风险管理或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:44.602494"
+}

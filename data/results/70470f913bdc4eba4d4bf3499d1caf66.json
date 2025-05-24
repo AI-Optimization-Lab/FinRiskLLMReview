@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "feature representation",
+    "representation learning"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using a multimodal data machine learning framework for stock crash prediction.",
+    "supervised learning": "The use of LightGBM for prediction implies a supervised learning approach, as it involves training on labeled data to predict stock crashes.",
+    "classification": "The task of predicting stock crashes is a classification problem, where the model classifies whether a stock will crash or not.",
+    "feature representation": "The paper discusses using market data, graph data, and text data, which involves creating feature representations for these different data types.",
+    "representation learning": "The use of node2vec for graph data and sentiment analysis for text data involves learning representations from raw data, which is a key aspect of representation learning."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"feature representation\",\n    \"representation learning\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using a multimodal data machine learning framework for stock crash prediction.\",\n    \"supervised learning\": \"The use of LightGBM for prediction implies a supervised learning approach, as it involves training on labeled data to predict stock crashes.\",\n    \"classification\": \"The task of predicting stock crashes is a classification problem, where the model classifies whether a stock will crash or not.\",\n    \"feature representation\": \"The paper discusses using market data, graph data, and text data, which involves creating feature representations for these different data types.\",\n    \"representation learning\": \"The use of node2vec for graph data and sentiment analysis for text data involves learning representations from raw data, which is a key aspect of representation learning.\"\n  }\n}\n```"
+}

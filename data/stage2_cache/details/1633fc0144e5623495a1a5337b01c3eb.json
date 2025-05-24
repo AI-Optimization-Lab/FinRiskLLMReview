@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 6084,
+    "title": "Fraud Detection Based on Credit Review Texts with Dual Channel Memory Networks",
+    "abstract": "With the rapid development of the automotive finance market in China, fraudulent behaviors present new characteristics such as intellectualization and high concealment. Graph neural networks and memory networks have strong capabilities for processing the textual data containing massive complex associations, providing a new perspective for fraud detection. During the operation of an automotive finance company, a large amount of credit review texts with recording the customers' multidimensional data are accumulated. These texts contain information that is helpful for risk management, but have not been well explored. In order to effectively identify fraud risks, we propose a fraud detection method based on credit review texts with dual-channel memory network, which combines graph and text memory networks. By utilizing pre-trained language models, the text data for credit review text is encoded into semantic vectors. The graph memory network module and the text memory network module are then employed to extract graph features and text features corresponding to the credit review text. Finally, the generated results from the three modules are fused and input into a classification network to obtain the final determination of financial fraud risk. Comparative experiments with baseline models demonstrate the validity of our model in fraud detection.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f1d4609fcdbd76adf381f708e58963b3",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "memory network",
+      "classification",
+      "representation learning",
+      "feature representation",
+      "pre-trained language models",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:54:38.798361"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用双通道记忆网络进行欺诈检测，这直接应用于金融风险管理中的信用风险评估和欺诈行为识别。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用双通道记忆网络进行欺诈检测，这直接应用于金融风险管理中的信用风险评估和欺诈行为识别。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:54.863725"
+}

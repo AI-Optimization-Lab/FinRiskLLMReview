@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 11,
+    "title": "A deep learning method for pricing high-dimensional American-style options via state-space partition",
+    "abstract": "This paper proposes a deep learning approach for solving optimal stopping problems and high-dimensional American-style options pricing problems. Through state-space partition, the method does not require recalculation of the structure of networks when the price of the asset changes, which makes tracking valuation more efficient. This paper also offers theoretical proof for the existence of a deep learning network that can determine the optimal stopping time via state-space partition. We present convergence proofs for the estimators and also test the method on Bermuda max-call options as examples.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "ee7089a625953a8ce1bcdad0d90eeee9",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:26.309138"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习方法解决高维美式期权定价问题，并提供了理论证明和实验验证，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习方法解决高维美式期权定价问题，并提供了理论证明和实验验证，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:54.692689"
+}

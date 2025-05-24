@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "neural network",
+    "recurrent neural network",
+    "backpropagation",
+    "BP",
+    "hidden layer"
+  ],
+  "explanations": {
+    "neural network": "论文使用了Elman神经网络模型进行气温预测，Elman网络是一种神经网络。",
+    "recurrent neural network": "Elman网络是一种特殊的循环神经网络（RNN），具有反馈连接。",
+    "backpropagation": "Elman网络的训练通常使用反向传播算法（backpropagation）。",
+    "BP": "BP是backpropagation的缩写，同上。",
+    "hidden layer": "Elman网络包含隐藏层（hidden layer），用于处理时序信息。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"neural network\", \"recurrent neural network\", \"backpropagation\", \"BP\", \"hidden layer\"],\n  \"explanations\": {\n    \"neural network\": \"论文使用了Elman神经网络模型进行气温预测，Elman网络是一种神经网络。\",\n    \"recurrent neural network\": \"Elman网络是一种特殊的循环神经网络（RNN），具有反馈连接。\",\n    \"backpropagation\": \"Elman网络的训练通常使用反向传播算法（backpropagation）。\",\n    \"BP\": \"BP是backpropagation的缩写，同上。\",\n    \"hidden layer\": \"Elman网络包含隐藏层（hidden layer），用于处理时序信息。\"\n  }\n}\n```"
+}

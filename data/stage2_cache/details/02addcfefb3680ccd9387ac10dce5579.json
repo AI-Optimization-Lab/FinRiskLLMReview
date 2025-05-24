@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 137,
+    "title": "Spatial Risk Premium on Weather Derivatives and Hedging Weather Exposure in Electricity",
+    "abstract": "Due to the dependency of the energy demand on temperature, weather derivatives enable the effective hedging of temperature related fluctuations. However, temperature varies in space and time and therefore the contingent weather derivatives also vary. The spatial derivative price distribution involves a risk premium. We employ a pricing model for temperature derivatives based on dynamics modeled via a vectorial Ornstein-Uhlenbeck process with seasonal variation. We use an analytical expression for the risk premia depending on variation curves of temperature in the measurement period. The dependence is exploited by a functional principal component analysis of the curves. We compute risk premia on cumulative average temperature futures for locations traded on CME and fit to it a geographically weighted regression on functional principal component scores. It allows us to predict risk premia for nontraded locations and to adopt, on this basis, a hedging strategy, which we illustrate in the example of Leipzig.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "72691ffceec022e98a31452e259b543b",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.373632"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究天气衍生品的定价模型，特别是基于温度动态的Ornstein-Uhlenbeck过程，并讨论了风险溢价的计算，这直接涉及衍生品定价。同时，论文还探讨了利用这些衍生品进行对冲的策略，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文主要研究天气衍生品的定价模型，特别是基于温度动态的Ornstein-Uhlenbeck过程，并讨论了风险溢价的计算，这直接涉及衍生品定价。同时，论文还探讨了利用这些衍生品进行对冲的策略，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:29.753421"
+}

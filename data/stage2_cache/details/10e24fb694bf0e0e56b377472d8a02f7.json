@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1341,
+    "title": "An innovative model fusion algorithm to improve the recall rate of peer-to-peer lending default customers",
+    "abstract": "Peer-to-peer (P2P) lending is a fintech innovation that provides loans to individuals and businesses without the need for additional intermediaries. However, if the borrower fails to repay the loan on time, the bank suffers a financial loss due to the borrower's default. At present, many studies are trying to improve the accuracy of credit default risk prediction models to reduce the risk of financial institutions' loan business, but it is also a meaningful study to focus on improving the recall rate of model prediction results. In the related research field of credit default risk prediction, improving the recall rate is crucial for banks and other lending institutions. The recall rate refers to the proportion of all true positive examples that are correctly identified as positive examples. In credit default risk prediction, true positive cases refer to the cases where borrowers default, while being correctly identified as positive cases means that the model can accurately predict which borrowers may default. If banks' risk prediction models can improve recall rates, this can help them better assess risk, formulate appropriate lending policies, and minimize default losses. This study aims to further improve the recall and AUC metrics (area under the ROC curve) of P2P credit default prediction using the lending dataset from Lending Club using an improved machine learning model fusion algorithm. Our proposed algorithm consists of two machine learning algorithms. The improved LightGBM algorithm and the improved XGBoost algorithm are used for model fusion to obtain the LGB-XGB-Stacking model. By optimizing the evaluation metrics in the training phase of these two algorithms, we have achieved significant improvement in results, especially in the recall rate of defaulted customers and the overall AUC metrics. After comparing the predictive performance of the models, our proposed predictive model is improved in the following aspects. First, the recall of our proposed prediction model is significantly better than other models. Second, it also outperforms other machine learning models on the AUC metric. Among them, the recall rate of the positive sample (default customer) is 24.43% higher than that of the XGBoost model, and the overall AUC index is 6.71% higher. In the end, it was found that XGBoost, LightGBM, and CatBoost models performed very well in terms of accuracy rate improvement. The accuracy rates of these three models are very close, and they are all higher than other models. Therefore, it is found that machine learning models are still an effective method for credit default prediction research, especially tree models. Although the accuracy of our model is slightly lower than the above models, our proposed model outperforms the above models in identifying defaulting customers. Our model can more accurately identify defaulting customers and minimize the risk of bad debts for financial institutions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ccf20e70b9335093fb86655b24fee7bf",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:44.815575"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving the recall rate of credit default prediction in P2P lending, which is a critical aspect of financial risk management for lending institutions to minimize default losses.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving the recall rate of credit default prediction in P2P lending, which is a critical aspect of financial risk management for lending institutions to minimize default losses.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:47.659932"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 64,
+    "title": "Evolutionary Meta Reinforcement Learning for Portfolio Optimization",
+    "abstract": "Portfolio optimization is a control problem whose objective is to find the optimal strategy for the process of selecting the proportions of assets that can provide the maximum return. Conventional approaches formulate the problem as a single Markov decision process and apply reinforcement learning methods to provide solutions. However, it is well known that financial markets involve non-stationary processes, leading to violations of this assumption in these methods. In this work, we reformulate the portfolio optimization problem to deal with the non-stationary nature of financial markets. In our approach, we divide a long-term process into multiple short-term processes to adapt to context changes and consider the portfolio optimization problem as a multitask control problem. Thereafter, we propose an evolutionary meta reinforcement learning approach to search for an initial policy that can quickly adapt to the upcoming target tasks. We model the policies as convolutional networks that can score the match of the patterns in market data charts. Finally, we test our approach using real-world cryptographic currency data and show that it adapts well to the changes in the market and leads to better profitability.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "eb0570303589d3f646b8ddaf021aef6b",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.981163"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly addresses the problem of portfolio optimization, aiming to find optimal asset allocation strategies to maximize returns. The proposed evolutionary meta reinforcement learning approach is specifically designed to adapt to non-stationary financial markets, which is a core challenge in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly addresses the problem of portfolio optimization, aiming to find optimal asset allocation strategies to maximize returns. The proposed evolutionary meta reinforcement learning approach is specifically designed to adapt to non-stationary financial markets, which is a core challenge in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:56.796897"
+}

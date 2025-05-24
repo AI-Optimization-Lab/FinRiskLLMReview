@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 681,
+    "title": "Artificial Intelligence Models to Identify Patients at High Risk for Glaucoma Using Self-reported Health Data in a United States National Cohort",
+    "abstract": "Purpose: Early glaucoma detection is key to preventing vision loss, but screening often requires specialized eye examination or photography, limiting large-scale implementation. This study sought to develop artificial intelligence models that use self-reported health data from surveys to prescreen patients at high risk for glaucoma who are most in need of glaucoma screening with ophthalmic examination and imaging. Design: Cohort study. Participants: Participants enrolled from May 1, 2018, to July 1, 2022, in the nationwide All of Us Research Program who were >= 18 years of age, had >= 2 eye-related diagnoses in their electronic health record (EHR), and submitted surveys with self-reported health history. Methods: We developed models to predict the risk of glaucoma, as determined by EHR diagnosis codes, using 3 machine learning approaches: (1) penalized logistic regression, (2) XGBoost, and (3) a fully connected neural network. Glaucoma diagnosis was identified based on International Classification of Diseases codes extracted from EHR data. An 80/20 train-test split was implemented, with cross-validation employed for hyperparameter tuning. Input features included self-reported demographics, general health, lifestyle factors, and family and personal medical history. Main Outcome Measures: Models were evaluated using standard classification metrics, including area under the receiver operating characteristic curve (AUROC). Results: Among the 8205 patients, 873 (10.64%) were diagnosed with glaucoma. Across models, AUROC scores for identifying which patients had glaucoma from survey health data ranged from 0.710 to 0.890. XGBoost achieved the highest AUROC of 0.890 (95% confidence interval [CI]: 0.860-0.910). Logistic regression followed with an AUROC of 0.772 (95% CI: 0.753-0.795). Explainability studies revealed that key features included traditionally recognized risk factors for glaucoma, such as age, type 2 diabetes, and a family history of glaucoma. Conclusions: Machine and deep learning models successfully utilized health data from self-reported surveys to predict glaucoma diagnosis without additional data from ophthalmic imaging or eye examination. These models may eventually enable prescreening for glaucoma in a wide variety of low-resource settings, after which high-risk patients can be referred for targeted screening using more specialized ophthalmic examination or imaging. Financial Disclosure(s): The author(s) have no proprietary or commercial interest in any materials discussed in this article. (c) 2024 by the American Academy of Ophthalmology. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e2d4b9e812f19f82401011ec9cfa0f91",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.343532"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用人工智能模型预测青光眼高风险患者，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用人工智能模型预测青光眼高风险患者，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:51.477917"
+}

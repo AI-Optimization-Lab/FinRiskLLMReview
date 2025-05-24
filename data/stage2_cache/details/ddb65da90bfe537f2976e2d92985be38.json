@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1916,
+    "title": "A Subgame Perfect Equilibrium Reinforcement Learning Approach to Time-Inconsistent Problems",
+    "abstract": "Time inconsistency (TIC) often arises in multiperiod decision-making through the encoding of more realistic human preferences as objectives; TIC describes a situation in which a plan, consisting of current and future actions, that is optimal today may no longer be optimal in the future. The sub- game perfect equilibrium (SPE) solution is well-known to resolve such TIC, backed by evidence from behavioral economics and stochastic control literature. Motivated by TIC proliferation and SPE desirability in handling TIC, this paper establishes a subgame perfect equilibrium reinforcement learning (SPERL) framework to search for an SPE solution for TIC problems. We propose a new class of algorithms, called extended backward policy iteration (EBPI), that solves SPERL and concurrently addresses two algorithmic challenges in TIC-RL: the nonexistence of natural recursive relationships between value functions at different time points and the questionable applicability of standard policy iteration algorithms due to unprovable policy improvement theorems. To demonstrate the practical usage of EBPI as a training framework, we adopt standard RL sample-based methods and derive two EBPI-based training algorithms. We examine our derived training frameworks on a mean-variance portfolio selection problem and evaluate some performance metrics including convergence and model identifiability.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d8ece313e0039973e72e46a45e71010d",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:06.146274"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种强化学习框架（SPERL）来解决时间不一致性问题，并在均值-方差投资组合选择问题上进行了实际应用和评估。这表明其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种强化学习框架（SPERL）来解决时间不一致性问题，并在均值-方差投资组合选择问题上进行了实际应用和评估。这表明其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:14.632663"
+}

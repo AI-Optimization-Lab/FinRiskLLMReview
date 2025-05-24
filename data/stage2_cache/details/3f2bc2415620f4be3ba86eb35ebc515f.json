@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2472,
+    "title": "Effectiveness of OLS and SVR in Return Prediction: Fama-French Three-factor Model and CAPM Framework",
+    "abstract": "This study aims to apply the Support Vector Regression (SVR) algorithm under the Fama-French 3-factor model (FF3) theoretical framework to predict the return of a diversified portfolio. Data was collected on the Ho Chi Minh City Stock Exchange (HOSE) from 2010 to 2022 by month, with 145 observations. Firstly, the study compared the two theoretical models, the Capital Asset Pricing Model (CAPM) and FF3, and investigated that FF3 explains volatili-ty in portfolio returns better than CAPM. Furthermore, to forecast the return rate, the study applied Ordinary Least Square (OLS) for CAPM and FF3 and SVR methods for CAPM and FF3. This research used the roll window method to train-test the model and Root Mean Square Error (RMSE) to evaluate the model's accuracy. An F test was used to compare the performance of these four models. As a result, the FF3 model uses the SVR algorithm more efficiently than the OLS and CAPM.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "88f3bdca0150fa2aaaa0fa0f97c3ee11",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:03.088255"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是应用支持向量回归（SVR）和普通最小二乘法（OLS）在Fama-French三因子模型（FF3）和资本资产定价模型（CAPM）框架下预测投资组合的回报率。研究的主要目标是预测投资组合的回报，这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是应用支持向量回归（SVR）和普通最小二乘法（OLS）在Fama-French三因子模型（FF3）和资本资产定价模型（CAPM）框架下预测投资组合的回报率。研究的主要目标是预测投资组合的回报，这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:40.664712"
+}

@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 4279,
+    "title": "New drugs and stock market: a machine learning framework for predicting pharma market reaction to clinical trial announcements",
+    "abstract": "Pharmaceutical companies operate in a strictly regulated and highly risky environment in which a single slip can lead to serious financial implications. Accordingly, the announcements of clinical trial results tend to determine the future course of events, hence being closely monitored by the public. Most works focus on retrospective analysis of announcement impact on company stock prices, bypassing the consideration of the problem in the predictive paradigm. In this work, we aim to close this gap by proposing a framework that allows predicting the numerical values of announcement-induced changes in stock prices. In fact, it is a problem of the impact prediction of the specific event on the corresponding time series. Our framework includes a BERT model for extracting the sentiment polarity of announcements, a Temporal Fusion Transformer for forecasting the expected return, a graph convolution network for capturing event relationships, and gradient boosting for predicting the price change. We operate with one of the biggest FDA (the Food and Drug Administration) datasets, consisting of 5436 clinical trial announcements from 681 companies for the years 2018-2022. During the study, we get several significant outcomes and domain-specific insights. Firstly, we obtain statistical evidence for the clinical result promulgation influence on the public pharma market value. Secondly, we witness inherently different patterns of responses to positive and negative announcements, reflected in a stronger and more pronounced reaction to negative clinical news. Thirdly, we discover two factors that play a crucial role in a predictive framework: (1) the drug portfolio size of the company, indicating the greater susceptibility to an announcement in the case of low diversification among drug products and (2) the announcement network effect, manifesting through an increase in predictive power when exploiting interdependencies of events belonging to the same company or nosology. Finally, we prove the viability of the forecast setting by getting ROC AUC scores predominantly greater than 0.7 for the classification of price change on historical data. We emphasize the transferability and generalizability of the developed framework on other datasets and domains but on the condition of the presence of two key entities: events and the associated time series.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cfeeeff0dcd0a250c52edcd6b4b61b21",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "neural network",
+      "BERT",
+      "Temporal Fusion Transformer",
+      "graph convolution network",
+      "gradient boosting",
+      "classification",
+      "regression",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:25:23.350495"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用机器学习框架预测制药公司股票价格对临床试验公告的反应，虽然涉及金融市场，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用机器学习框架预测制药公司股票价格对临床试验公告的反应，虽然涉及金融市场，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:57.090921"
+}

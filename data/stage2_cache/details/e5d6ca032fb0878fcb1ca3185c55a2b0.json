@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 477,
+    "title": "Multi-objective Selection of Algorithm Portfolios: Experimental Validation",
+    "abstract": "The selection of algorithms to build portfolios represents a multi-objective problem. From a possibly large pool of algorithm candidates, a portfolio of limited size but good quality over a wide range of problems is desired. Possible applications can be found in the context of machine learning, where the accuracy and runtime of different learning techniques must be weighed. Each algorithm is represented by its Pareto front, which has been approximated in an a priori parameter tuning. Our approach for multi-objective selection of algorithm portfolios (MOSAP) is capable to trade-off the number of algorithm candidates and the respective quality of the portfolio. The quality of the portfolio is defined as the distance to the joint Pareto front of all algorithm candidates. By means of a decision tree, also the selection of the right algorithm is possible based on the characteristics of the problem. In this paper, we propose a validation framework to analyze the performance of our MOSAP approach. This framework is based on a parametrized generator of the algorithm candidate's Pareto front shapes. We discuss how to sample a landscape of multiple Pareto fronts with predefined intersections. The validation is performed by calculating discrete approximations for different landscapes and assessing the effect of the landscape parameters on the MOSAP approach.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f23870476866577dd1d39cb0339881cf",
+    "relevant_keywords": [
+      "machine learning",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.414082"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究多目标算法组合的选择问题，虽然提到了'portfolio'一词，但其应用场景明确指向机器学习中的算法选择和性能权衡，而非金融领域的投资组合管理。论文未提及任何与衍生品定价或金融风险管理相关的内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究多目标算法组合的选择问题，虽然提到了'portfolio'一词，但其应用场景明确指向机器学习中的算法选择和性能权衡，而非金融领域的投资组合管理。论文未提及任何与衍生品定价或金融风险管理相关的内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:33.867649"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 752,
+    "title": "A Study on Life Insurance Early Claim Detection Modeling by Considering Multiple Features Transformation Strategies for Higher Accuracy",
+    "abstract": "Early claims in the life insurance sector can lead to significant financial losses if not properly managed. This paper experiments a number of feature selection such as values regrouping, over or undersampling, and encoding that aim to enhance early claim detection by considering five (5) different machine learning algorithms. Utilizing the built-in feature importance from Random Forest, along with regrouping and correlation techniques, we identify the top seven (7) most significant features from a total 800 feature candidates. Our proposed strategy provides a streamlined and effective way to focus on the most relevant features, thereby improving the accuracy and precision of early claim predictive models for the life insurance domain. The results of this study offer practical insights into reducing fraudulent claims and mitigating financial risk. We used Random Forest besides considering techniques such as LightGBM, XGBoost, Feed Forward Neural Network, and CatBoost to train our model and achieved a maximum accuracy of 0.92 across three samples, indicating that our approach can effectively identify critical features and produce reliable results.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "852f7f21ebccce237c4bed0e5ef22375",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:34.129809"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究通过机器学习方法提高人寿保险早期索赔检测的准确性，以减少欺诈性索赔和降低财务风险，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究通过机器学习方法提高人寿保险早期索赔检测的准确性，以减少欺诈性索赔和降低财务风险，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:23.739009"
+}

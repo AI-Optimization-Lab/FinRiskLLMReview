@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 476,
+    "title": "The Bayesian Additive Classification Tree applied to credit risk modelling",
+    "abstract": "We propose a new nonlinear classification method based on a Bayesian sum-of-trees model, the Bayesian Additive Classification Tree (BACT), which extends the Bayesian Additive Regression Tree (BART) method into the classification context. Like BART, the BACT is a Bayesian nonparametric additive model specified by a prior and a likelihood in which the additive components are trees, and it is fitted by an iterative MCMC algorithm. Each of the trees learns a different part of the underlying function relating the dependent variable to the input variables, but the sum of the trees offers a flexible and robust model. Through several benchmark examples, we show that the BACT shows excellent performance. We apply the BACT technique to classify whether firms would be insolvent. This practical example is very important for banks to construct their risk profile and operate successfully. We use the German Creditreform database and classify the solvency status of German firms based on financial statement information. We show that the BACT is a serious competitor to the logit model, CART, the Support Vector Machine, random forest and gradient boosting. (C) 2010 Published by Elsevier B.V.",
+    "year": 2010,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "365a0d732284671ee0234f4b9f4d496f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:51:31.216971"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on applying the Bayesian Additive Classification Tree (BACT) to classify firm insolvency, which is directly related to credit risk modeling—a key aspect of financial risk management in banking.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on applying the Bayesian Additive Classification Tree (BACT) to classify firm insolvency, which is directly related to credit risk modeling—a key aspect of financial risk management in banking.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:39.240808"
+}

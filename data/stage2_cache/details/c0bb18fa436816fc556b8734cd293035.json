@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 548,
+    "title": "High-dimensional multi-period portfolio allocation using deep reinforcement learning",
+    "abstract": "This paper proposes a novel investment strategy based on deep reinforcement learning (DRL) for long-term portfolio allocation in the presence of transaction costs and risk aversion. We design an advanced portfolio policy framework to model the price dynamic patterns using convolutional neural networks (CNN), capture group-wise asset dependence using WaveNet, and solve the optimal asset allocation problem using DRL. These methods are embedded within a multi-period Bellman equation framework. An additional appealing feature of our investment strategy is its ability to optimize dynamically over a large set of potentially correlated risky assets. The performance of this portfolio is tested empirically over different holding periods, risk aversion levels, transaction cost rates, and financial indices. The results demonstrate the effectiveness and superiority of the proposed long-term portfolio allocation strategy compared to several competitors based on machine learning methods and traditional optimization techniques.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ff8f78c7703d92b8e93d4b43641cbbcb",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.277190"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习（DRL）进行长期投资组合分配，包括处理交易成本和风险厌恶，这直接属于投资组合管理的范畴。论文明确提到解决最优资产分配问题，并在多期贝尔曼方程框架下进行优化，这些都是投资组合管理的典型研究内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习（DRL）进行长期投资组合分配，包括处理交易成本和风险厌恶，这直接属于投资组合管理的范畴。论文明确提到解决最优资产分配问题，并在多期贝尔曼方程框架下进行优化，这些都是投资组合管理的典型研究内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:03.611811"
+}

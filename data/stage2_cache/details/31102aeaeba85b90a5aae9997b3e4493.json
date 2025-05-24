@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2831,
+    "title": "Using parametric classification trees for model selection with applications to financial risk management",
+    "abstract": "We describe two parametric classification tree methods, which allow formal selection of a member of a class of generalised distributions. In the paper we consider generalised Beta distributions for non-negative random variables and the generalised skew-Student distribution for random variables distributed on the real line. We introduce a class of symmetric generalised multivariate Student distributions, members of which may also be selected using the classification trees. We present two versions of the parametric classification tree: specific to general and general to specific. We apply the classification methods to daily returns on stocks from a selection of 15 major, mid-cap and emerging markets. The results show that the majority of return distributions follow Student's t, but that a non-negligible minority follow a symmetric generalised Student distribution. We confirm a well-known stylised fact about skewness: it tends not to be persistent. By contrast, kurtosis is persistent. Using the symmetric generalised multivariate Student distribution, we present a risk management study based on efficient portfolios constructed from UKFTSE250 stocks and specifically concerned with the computation of value at risk. The case study demonstrates that the model selection procedures based on the classification trees lead to more accurate computation of VaR than those based on the normal distribution or on non-parametric approaches. The study also shows that the normal distribution may be used for VaR computations for larger portfolios when the holding period is longer. (C) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6f2a3da6069c77c72ada83cb11aacd0e",
+    "relevant_keywords": [
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:19:46.636309"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on applying parametric classification trees for model selection to improve the accuracy of Value at Risk (VaR) computations, which is a key aspect of financial risk management. The case study specifically addresses risk management using efficient portfolios, demonstrating the application's relevance to this field.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on applying parametric classification trees for model selection to improve the accuracy of Value at Risk (VaR) computations, which is a key aspect of financial risk management. The case study specifically addresses risk management using efficient portfolios, demonstrating the application's relevance to this field.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:45.707938"
+}

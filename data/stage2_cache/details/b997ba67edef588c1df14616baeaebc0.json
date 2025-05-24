@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 153,
+    "title": "Mercury: A Deep Reinforcement Learning-Based Investment Portfolio Strategy for Risk-Return Balance",
+    "abstract": "Stock portfolio is a hard issue in the Fintech field due to the diversity of data characteristics and the dynamic complexity of the market. Despite advances in deep learning that have made great progress in the complex and highly stochastic portfolio problem, the existing research still faces significant limitations. They either consider only investment returns or simply use some macro-market data to guide their models against risk. The preferred direction of the market greatly affects the choice of stock. And in practice, investors are more inclined to portfolios with low correlation between assets because of the ripple relationships between related things. In this paper, we propose a novel framework, called Mercury, which views stock screening as a reinforcement learning process. In particular, to enhance the ability to perceive changes in the market and generate higher returns, our framework models the sensitivity of the market preferences and learns dynamic temporal and spatial dependency patterns between assets from historical trading data. Additionally, the framework employs reinforcement learning to screen the overall low-correlation portfolio, which can better improve the ability to withstand investment risks while guaranteeing returns. The daily dataset of China's A-share market is used as the research sample to verify the effectiveness and robustness of Mercury, and our framework has strong generalization ability, which can be easily generalized to other trading procedures.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "feae2c8e1fc76106d1067bf5b4b16fac",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.075965"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于深度强化学习的投资组合策略，旨在通过动态时空依赖模式学习来优化股票筛选和投资组合构建，这直接属于投资组合管理的范畴。论文的核心目标是平衡风险与回报，并验证了其框架在中国A股市场的有效性，这些都是投资组合管理的典型研究内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于深度强化学习的投资组合策略，旨在通过动态时空依赖模式学习来优化股票筛选和投资组合构建，这直接属于投资组合管理的范畴。论文的核心目标是平衡风险与回报，并验证了其框架在中国A股市场的有效性，这些都是投资组合管理的典型研究内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:23.618739"
+}

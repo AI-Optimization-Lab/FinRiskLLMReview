@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 409,
+    "title": "基于PSO的神经网络优化证券投资组合方法研究",
+    "abstract": "针对传统人工神经网络中的BP(back propagation)神经网络自身局限以及其迭代次数多、收敛精度不高和泛化性差等缺点,提出了一种基于粒子群(particle swarm optimizer,PSO)算法的BP神经网络优化证券投资组合方法。在BP神经网络优化方法中,采用PSO算法替代了BP神经网络的梯度下降法,得到最优解,从而对BP神经网络模型进行优化。将该方法应用于证券投资组合的优化中,实验结果证明:该优化方法优于传统的BP神经网络优化方法。",
+    "year": 2013,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "608d4e313f9ac053cd4b85f2f38ffe2e",
+    "relevant_keywords": [
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:15:09.316511"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于PSO优化的BP神经网络方法，并明确应用于证券投资组合的优化，这属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于PSO优化的BP神经网络方法，并明确应用于证券投资组合的优化，这属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:30.324342"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 156,
+    "title": "Comparing writing style feature-based classification methods for estimating user reputations in social media",
+    "abstract": "In recent years, the anonymous nature of the Internet has made it difficult to detect manipulated user reputations in social media, as well as to ensure the qualities of users and their posts. To deal with this, this study designs and examines an automatic approach that adopts writing style features to estimate user reputations in social media. Under varying ways of defining Good and Bad classes of user reputations based on the collected data, it evaluates the classification performance of the state-of-art methods: four writing style features, i.e. lexical, syntactic, structural, and content-specific, and eight classification techniques, i.e. four base learners-C4.5, Neural Network (NN), Support Vector Machine (SVM), and Naive Bayes (NB)-and four Random Subspace (RS) ensemble methods based on the four base learners. When South Korea's Web forum, Daum Agora, was selected as a test bed, the experimental results show that the configuration of the full feature set containing content-specific features and RS-SVM combining RS and SVM gives the best accuracy for classification if the test bed poster reputations are segmented strictly into Good and Bad classes by portfolio approach. Pairwise t tests on accuracy confirm two expectations coming from the literature reviews: first, the feature set adding content-specific features outperform the others; second, ensemble learning methods are more viable than base learners. Moreover, among the four ways on defining the classes of user reputations, i.e. like, dislike, sum, and portfolio, the results show that the portfolio approach gives the highest accuracy.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "01b2e4d37b15a8ab89014576c38478a0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.079461"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究社交媒体中用户声誉的自动分类方法，涉及机器学习分类技术，但并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究社交媒体中用户声誉的自动分类方法，涉及机器学习分类技术，但并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:18.525824"
+}

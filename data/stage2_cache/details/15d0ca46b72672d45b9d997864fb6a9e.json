@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1267,
+    "title": "Trading futures spread portfolios: applications of higher order and recurrent networks",
+    "abstract": "This paper investigates the modelling and trading of oil futures spreads in the context of a portfolio of contracts. A portfolio of six spreads is constructed and each spread forecasted using a variety of modelling techniques, namely, a cointegration fair value model and three different types of neural network ( NN), such as multi-layer perceptron ( MLP), recurrent, and higher order NN models. In addition, a number of trading filters are employed to further improve the trading statistics of the models. Three different filters are optimized on an in-sample measure of down side risk-adjusted return, and these are then fixed out-of-sample. The filters employed are the threshold filter, correlation filter, and the transitive filter. The results show that the best in-sample model is the MLP with a transitive filter. This model is the best performer out-of-sample and also returns good out-of-sample statistics.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "16250cdabe6b19049ab26507e65df918",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.155605"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究使用神经网络模型预测和交易石油期货价差组合，并优化交易策略以提高回报，这属于投资组合管理的范畴。虽然涉及衍生品（期货），但核心研究不是定价问题，而是组合交易策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究使用神经网络模型预测和交易石油期货价差组合，并优化交易策略以提高回报，这属于投资组合管理的范畴。虽然涉及衍生品（期货），但核心研究不是定价问题，而是组合交易策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:11.376221"
+}

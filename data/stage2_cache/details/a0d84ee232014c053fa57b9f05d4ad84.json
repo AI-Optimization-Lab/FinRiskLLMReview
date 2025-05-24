@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1866,
+    "title": "A Risk-Optimized Framework for Data-Driven IPO Underperformance Prediction in Complex Financial Systems",
+    "abstract": "Accurate predictions of Initial Public Offerings (IPOs) aftermarket performance are essential for making informed investment decisions in the financial sector. This paper attempts to predict IPO short-term underperformance during a month post-listing. The current research landscape lacks modern models that address the needs of small and imbalanced datasets relevant to emerging markets, as well as the risk preferences of investors. To fill this gap, we present a practical framework utilizing tree-based ensemble learning, including Bagging Classifier (BC), Random Forest (RF), AdaBoost (Ada), Gradient Boosting (GB), XGBoost (XG), Stacking Classifier (SC), and Extra Trees (ET), with Decision Tree (DT) as a base estimator. The framework leverages data-driven methodologies to optimize decision-making in complex financial systems, integrating ANOVA F-value for feature selection, Randomized Search for hyperparameter optimization, and SMOTE for class balance. The framework's effectiveness is assessed using a hand-collected dataset that includes features from both pre-IPO prospectus and firm-specific financial data. We thoroughly evaluate the results using single-split evaluation and 10-fold cross-validation analysis. For the single-split validation, ET achieves the highest accuracy of 86%, while for the 10-fold validation, BC achieves the highest accuracy of 70%. Additionally, we compare the results of the proposed framework with deep-learning models such as MLP, TabNet, and ANN to assess their effectiveness in handling IPO underperformance predictions. These results demonstrate the framework's capability to enable robust data-driven decision-making processes in complex and dynamic financial environments, even with limited and imbalanced datasets. The framework also proposes a dynamic methodology named Investor Preference Prediction Framework (IPPF) to match tree-based ensemble models to investors' risk preferences when predicting IPO underperformance. It concludes that different models may be suitable for various risk profiles. For the dataset at hand, ET and Ada are more appropriate for risk-averse investors, while BC is suitable for risk-tolerant investors. The results underscore the framework's importance in improving IPO underperformance predictions, which can better inform investment strategies and decision-making processes.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "dbaa00e11516c7662fa71bc3965c4424",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:38.924454"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型预测IPO的短期表现，这直接关系到投资决策和投资组合的构建，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型预测IPO的短期表现，这直接关系到投资决策和投资组合的构建，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:31.593036"
+}

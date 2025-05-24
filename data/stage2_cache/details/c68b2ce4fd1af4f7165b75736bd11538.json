@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 71,
+    "title": "基于T-S模糊神经网络模型求解Black-Scholes方程",
+    "abstract": "Black-Scholes方程可以对期权进行定价,但方程的求解一直是难点问题。基于此提出了采用T-S模糊神经网络模型求解Black-Scholes方程的方法,利用欧式看涨期权定价公式生成训练样本数据,定义误差函数,并给出了T-S模糊神经网络模型求解方程的框架。数值实例结果验证了该方法的有效性。",
+    "year": 2021,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ee52baae5cda73b541d14cab97a6a768",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:18.939010"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用T-S模糊神经网络模型求解Black-Scholes方程，该方程主要用于期权定价，属于衍生品定价领域。论文明确提到利用欧式看涨期权定价公式生成训练样本数据，验证了该方法在期权定价中的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用T-S模糊神经网络模型求解Black-Scholes方程，该方程主要用于期权定价，属于衍生品定价领域。论文明确提到利用欧式看涨期权定价公式生成训练样本数据，验证了该方法在期权定价中的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:57.498612"
+}

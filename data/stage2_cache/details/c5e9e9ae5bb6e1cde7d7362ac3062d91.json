@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 833,
+    "title": "Classical Portfolio Selection with Cluster Analysis: Comparison Between Hierarchical Complete Linkage and Ward Algorithm",
+    "abstract": "In this paper we present a classical portfolio selection using cluster analysis. By applying complete linkage algorithm and Ward of agglomerative clustering, the stocks are classified into several clusters. A stock in each cluster is selected as cluster representative base on the Sharpe ratio. The selected stocks for each cluster are the stocks which has the best Sharpe ratio. The optimum portfolio is determined using the classical Mean-Variance (MV) portfolio model. Using this procedure, we may obtain the best portfolio efficiently when there are large number of stocks involved in the formulation of the portfolio. For empirical study, we used the daily return of stocks listed on the Indonesia Stock Exchange, which included in the LQ-45 indexed for the period of August 2017 to July 2018. The results of this research show that clustering with hirachical complete linkage and Ward algorithm, LQ-45 stocks are grouped into 7 group of stocks and 9 group of stocks respectively. Thus there are two portfolios that can be formed, namely the portfolio produced by the complete linkage algorithm which consists of 7 stocks and portfolios produced by the Ward algorithm which consists of 9 stocks. Furthermore, it was found that portfolio performance produced using clustering with Ward algorithm was better than portfolio performance produced by the complete linkage algorithm for all risk aversion values.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "885870da8e300ce2619ee22dc53264ed",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.506065"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on using cluster analysis to select stocks and form optimal portfolios using the Mean-Variance model, which is a core technique in portfolio management. The study's empirical application to the Indonesia Stock Exchange further confirms its primary application in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on using cluster analysis to select stocks and form optimal portfolios using the Mean-Variance model, which is a core technique in portfolio management. The study's empirical application to the Indonesia Stock Exchange further confirms its primary application in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:23.155040"
+}

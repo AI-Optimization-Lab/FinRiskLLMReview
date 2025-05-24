@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 448,
+    "title": "Efficient Reinforcement Learning in Resource Allocation Problems Through Permutation Invariant Multi-task Learning",
+    "abstract": "One of the main challenges in real-world reinforcement learning is to learn successfully from limited training samples. We show that in certain settings, the available data can be dramatically increased through a form of multi-task learning, by exploiting an invariance property in the tasks. We provide a theoretical performance bound for the gain in sample efficiency under this setting. This motivates a new approach to multi-task learning, which involves the design of an appropriate neural network architecture and a prioritized task-sampling strategy. We demonstrate empirically the effectiveness of the proposed approach on two real-world sequential resource allocation tasks where this invariance property occurs: financial portfolio optimization and meta federated learning.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ab523e91e693b7099e328b535f780fcf",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.292357"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到该方法在金融投资组合优化（financial portfolio optimization）这一实际任务中进行了实证验证，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到该方法在金融投资组合优化（financial portfolio optimization）这一实际任务中进行了实证验证，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:40.586345"
+}

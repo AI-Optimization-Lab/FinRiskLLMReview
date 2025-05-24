@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 3778,
+    "title": "Development and Validation of a Deep Learning Algorithm for Differentiation of Choroidal Nevi from Small Melanoma in Fundus Photographs",
+    "abstract": "Purpose: To develop and validate a deep learning algorithm capable of differentiating small choroidal melanomas from nevi. Design: Retrospective multicenter cohort study. Participants: A total of 802 images from 688 patients diagnosed with choroidal nevi or melanoma. Methods: Wide field and standard field fundus photographs were collected from patients diagnosed with choroidal nevi or melanoma by ocular oncologists during clinical examinations. A lesion was classified as a nevus if it was followed for at least 5 years without being rediagnosed as melanoma. A neural network optimized for image classification was trained and validated on cohorts of 495 and 168 images and subsequently tested on independent sets of 86 and 53 images. Main Outcome Measures: Area under the curve (AUC) in receiver operating characteristic analysis for differentiating small choroidal melanomas from nevi. Results: The algorithm achieved an AUC of 0.88 in both test cohorts, outperforming ophthalmologists using the Mushroom shape, Orange pigment, Large size, Enlargement, and Subretinal fluid (AUC 0.77) and To Find Small Ocular Melanoma Using Helpful Hints Daily (AUC 0.67) risk factors (DeLong's test, P < 0.001). The algorithm performed equally well for wide field and standard field photos (AUC 0.89 for both when analyzed separately). Using an optimal operating point of 0.63 (on a scale from 0.00 to 1.00) determined from the training and validation datasets, the algorithm achieved 100% sensitivity and 74% specificity in the first test cohort (F-score 0.72), and 80% sensitivity and 81% specificity in the second (F-score 0.71), which consisted of images from external clinics nationwide. It outperformed 12 ophthalmologists in sensitivity (Manne-Whitney U, P = 0.006) but not specificity (P = 0.54). The algorithm showed higher sensitivity than both resident and consultant ophthalmologists (Dunn's test, P = 0.04 and P = 0.006, respectively) but not ocular oncologists (P > 0.99, all P values Bonferroni corrected). Conclusions: This study develops and validates a deep learning algorithm for differentiating small choroidal melanomas from nevi, matching or surpassing the discriminatory performance of experienced human ophthalmologists. Further research will aim to validate its utility in clinical settings. Financial Disclosure(s): Financial DisclosuresProprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article. (c) 2024 by the American Academy of Ophthalmology. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "279855985f633be6478148abb17fc4d0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:29:59.149277"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习算法在医学图像中区分脉络膜黑色素瘤和痣，其核心技术应用于医学诊断领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习算法在医学图像中区分脉络膜黑色素瘤和痣，其核心技术应用于医学诊断领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:09.175859"
+}

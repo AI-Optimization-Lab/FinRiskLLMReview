@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 125,
+    "title": "Multi-perspective option price forecasting combining parametric and non-parametric pricing models with a new dynamic ensemble framework",
+    "abstract": "This article introduces a dynamic ensemble framework that integrates parametric and non-parametric pricing models. Within this framework, we propose a time-varying parametric pricing model optimized using artificial intelligence algorithms. Additionally, we construct a non-parametric pricing model using a 2-dimensional convolutional neural network (2D-CNN) to capture the interactions among options, enhancing the existing nonparametric pricing model. Validation using China's SSE 50 ETF options trading data reveals several key findings: Firstly, the dynamic integration method proposed in this study not only improves prediction accuracy but also enhances stability. Secondly, previous parametric pricing models do not effectively utilize their pricing performance, while our proposed time-varying parametric pricing model significantly enhances accuracy. Lastly, the 2D-CNN model, which considers interactions among options trades, proves to be reasonable and effective, outperforming common non-parametric pricing models. The dynamic ensemble framework proposed in this study effectively combines the strengths of both parametric and non-parametric pricing models. This research serves as an important reference for risk managers, institutional investors, and other stakeholders. Furthermore, it provides valuable research ideas for future scholars in the field.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "16362b3b1fa8aad5e96c005689978d2e",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.355771"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是开发一个动态集成框架，结合参数化和非参数化定价模型，专门用于期权价格预测。研究明确提到使用中国SSE 50 ETF期权交易数据进行验证，并讨论了定价模型的改进和准确性提升，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是开发一个动态集成框架，结合参数化和非参数化定价模型，专门用于期权价格预测。研究明确提到使用中国SSE 50 ETF期权交易数据进行验证，并讨论了定价模型的改进和准确性提升，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:31.501035"
+}

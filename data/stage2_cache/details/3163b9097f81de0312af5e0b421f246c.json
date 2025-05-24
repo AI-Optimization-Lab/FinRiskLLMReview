@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1645,
+    "title": "Longitudinal modeling of insurance claim counts using jitters",
+    "abstract": "Modeling insurance claim counts is a critical component in the ratemaking process for property and casualty insurance. This article explores the usefulness of copulas to model the number of insurance claims for an individual policyholder within a longitudinal context. To address the limitations of copulas commonly attributed to multivariate discrete data, we adopt a 'jittering' method to the claim counts which has the effect of continuitizing the data. Elliptical copulas are proposed to accommodate the intertemporal nature of the 'jittered' claim counts and the unobservable subject-specific heterogeneity on the frequency of claims. Observable subject-specific effects are accounted in the model by using available covariate information through a regression model. The predictive distribution together with the corresponding credibility of claim frequency can be derived from the model for ratemaking and risk classification purposes. For empirical illustration, we analyze an unbalanced longitudinal dataset of claim counts observed from a portfolio of automobile insurance policies of a general insurer in Singapore. We further establish the validity of the calibrated copula model, and demonstrate that the copula with 'jittering' method outperforms standard count regression models.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "39586bd621a3977d31eacbd09c161dde",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:18.214836"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究保险索赔次数的纵向建模，虽然涉及风险分类和费率制定，但这些内容属于保险精算领域，而非衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究保险索赔次数的纵向建模，虽然涉及风险分类和费率制定，但这些内容属于保险精算领域，而非衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:40.493470"
+}

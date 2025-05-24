@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 496,
+    "title": "Big data and portfolio optimization: A novel approach integrating DEA with multiple data sources",
+    "abstract": "The existing literature suggests that the out-of-sample performance of traditional mean-variance portfolio strategies is not robust, and their performance is even inferior to that of the equal weight strategy. To address this problem, this paper first clarifies that a complete investment process consists of two parts, namely, stock selection and investment weight formulation. Then, we design a stock selection scheme integrating Data Envelopment Analysis (DEA) with multiple data sources, including historical stock trading data, technical indicators, social media data and news data, to assess the investment value of stocks in terms of historical return, asset correlation and investor sentiment performance. In addition, we use Support Vector Machine (SVM) combined with the multi-source data on stocks to predict the stock price movements and combine the obtained stock price movements and the proposed stock selection scheme to construct the portfolio optimization model. Further, we also carry out an out-of-sample test on the proposed stock selection scheme and investment strategies, in which the constituents of CSI 300 index are selected as the test samples. The empirical results show that the proposed stock selection scheme can effectively improve the out-of-sample performance of all investment strategies. Besides, the proposed investment strategy has a better out-of-sample performance compared to the traditional global minimum variance investment strategy, tangency portfolio investment strategy, and equal weight strategy. Finally, we perform a robustness test of the above findings using an additional dataset. (C) 2021 Elsevier Ltd. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "936e70988fec747c4e2ac84f2dc0e313",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:20.923203"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on improving the out-of-sample performance of investment strategies by integrating Data Envelopment Analysis (DEA) with multiple data sources for stock selection and using Support Vector Machine (SVM) for stock price movement prediction. The primary goal is to construct a portfolio optimization model, which falls squarely under the domain of Portfolio Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on improving the out-of-sample performance of investment strategies by integrating Data Envelopment Analysis (DEA) with multiple data sources for stock selection and using Support Vector Machine (SVM) for stock price movement prediction. The primary goal is to construct a portfolio optimization model, which falls squarely under the domain of Portfolio Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:09.742779"
+}

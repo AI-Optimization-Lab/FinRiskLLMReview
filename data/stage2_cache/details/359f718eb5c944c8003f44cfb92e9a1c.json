@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 8299,
+    "title": "Boosting Fraud Detection in Mobile Payment with Prior Knowledge",
+    "abstract": "Featured Application Mobile payment fraud detection; Robotic Detection. With the prevalence of mobile e-commerce, fraudulent transactions conducted by robots are becoming increasingly common in mobile payments, which is severely undermining market fairness and resulting in financial losses. It has become a difficult problem for mobile applications to identify robotic automation accurately and efficiently from a massive number of transactions. The current research does not propose any effective method or engineering implementation. In this article, an extension to boost algorithms is presented that permits the incorporation of prior human knowledge as a means of compensating for a training data shortage and improving prediction results. Prior human knowledge is accumulated from historical fraud transactions or transferred from different domains in the form of expert rules and blacklists. The knowledge is applied to extract risk features from transaction data, risk features together with normal features are input into the boosting algorithm to perform training, and therefore we incorporate boosting algorithm with prior human knowledge to improve the performance of the model. For the first time we verified the effectiveness of the method via a widely deployed mobile APP with 150+ million users, and by taking experiments on a certain dataset, the extended boosting model shows an accuracy increase from 0.9825 to 0.9871 and a recall rate increase from 0.888 to 0.948. We also investigated feature differences between robots and normal users and we discovered the behavior patterns of robotic automation that include less spatial motion detected by device sensors (1/10 of normal user pattern), higher IP group-clustering ratio (60% in robots vs. 15% in normal users), higher jailbroken device rate (92.47% vs. 4.64%), more irregular device names and fewer IP address changes. The quantitative analysis result is helpful for APP developers and service providers to understand and prevent fraudulent transactions from robotic automation.This article proposed an optimized boosting model, which has better use in the field of robotic automation detection of mobile phones. By combining prior knowledge and feature importance analysis, the model is more robust when the actual dataset is unbalanced or with few-short samples. The model is also more explainable as feature analysis is available which can be used for generating disposal rules in the actual fake mobile user blocking systems.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f3bb5890d53f377cc26fe8607c550caa",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T03:17:21.576066"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究移动支付中的欺诈检测，虽然涉及金融领域，但其核心技术是机器学习模型在欺诈检测中的应用，并不直接涉及衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究移动支付中的欺诈检测，虽然涉及金融领域，但其核心技术是机器学习模型在欺诈检测中的应用，并不直接涉及衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:37.461164"
+}

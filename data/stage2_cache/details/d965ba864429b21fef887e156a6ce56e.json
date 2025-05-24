@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3542,
+    "title": "Implied Volatility Surface Estimation Using Transductive Gaussian Fields Regression",
+    "abstract": "Implied volatility estimation is one of the fundamental tasks for asset pricing and risk management. In this paper, we investigate the applicability of semi-supervised regression techniques to estimate an implied volatility surface from the real market option data. Specifically, we employ a transductive Gaussian field regression method since it is able to predict a distribution of the implied volatilities for unlabelled data using only partially labeled data. We've conducted simulation on S&P 500 index data before and after the global financial crisis with discussions of the observed empirical properties of the method.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f585f72bdb2c07085c65dbf7d78d8f75",
+    "relevant_keywords": [
+      "machine learning",
+      "semi-supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:19.108489"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用半监督回归技术估计隐含波动率曲面，隐含波动率是衍生品定价的关键输入，同时也用于风险管理和对冲策略。论文明确提到这是资产定价和风险管理的基本任务，并使用了实际市场期权数据进行研究。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用半监督回归技术估计隐含波动率曲面，隐含波动率是衍生品定价的关键输入，同时也用于风险管理和对冲策略。论文明确提到这是资产定价和风险管理的基本任务，并使用了实际市场期权数据进行研究。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:00.795832"
+}

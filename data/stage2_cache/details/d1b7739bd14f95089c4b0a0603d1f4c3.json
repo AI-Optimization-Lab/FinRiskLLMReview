@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 164,
+    "title": "Option valuation under no-arbitrage constraints with neural networks",
+    "abstract": "In this paper, we start from the no-arbitrage constraints in option pricing and develop a novel hybrid gated neural network (hGNN) based option valuation model. We adopt a multiplicative structure of hidden layers to ensure model differentiability. We also select the slope and weights of input layers to satisfy the no-arbitrage constraints. Meanwhile, a separate neural network is constructed for predicting option-implied volatilities. Using S&P 500 options, our empirical analyses show that the hGNN model substantially outperforms well-established alternative models in the out-of-sample forecasting and hedging exercises. The superior prediction performance stems from our model's ability in describing options on the boundary, and in offering analytical expressions for option Greeks which generate better hedging results. (C) 2020 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "5c7b3292f41ccd43d90c10e489489b36",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "hidden layer",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.034413"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是开发一种基于神经网络的期权估值模型，并明确提到其在S&P 500期权定价中的应用。论文的研究目标和实验设计都集中在期权定价领域，特别是满足无套利约束的期权估值。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是开发一种基于神经网络的期权估值模型，并明确提到其在S&P 500期权定价中的应用。论文的研究目标和实验设计都集中在期权定价领域，特别是满足无套利约束的期权估值。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:27.035549"
+}

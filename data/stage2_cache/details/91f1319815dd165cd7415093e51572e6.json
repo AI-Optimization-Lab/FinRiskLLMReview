@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 768,
+    "title": "Long-term SARS-CoV-2 neutralizing antibody level prediction using multimodal deep learning: A prospective cohort study on longitudinal data in Wuhan, China",
+    "abstract": "The ongoing epidemic of SARS-CoV-2 is taking a substantial financial and health toll on people worldwide. Assessing the level and duration of SARS-CoV-2 neutralizing antibody (Nab) would provide key information for government to make sound healthcare policies. Assessed at 3-, 6-, 12-, and 18-month postdischarge, we described the temporal change of IgG levels in 450 individuals with moderate to critical COVID-19 infection. Moreover, a data imputation framework combined with a novel deep learning model was implemented to predict the long-term Nab and IgG levels in these patients. Demographic characteristics, inspection reports, and CT scans during hospitalization were used in this model. Interpretability of the model was further validated with Shapely Additive exPlanation (SHAP) and Gradient-weighted Class Activation Mapping (GradCAM). IgG levels peaked at 3 months and remained stable in 12 months postdischarge, followed by a significant decline in 18 months postdischarge. However, the Nab levels declined from 6 months postdischarge. By training on the cohort of 450 patients, our long-term antibody prediction (LTAP) model could predict long-term IgG levels with relatively high area under the receiver operating characteristic curve (AUC), accuracy, precision, recall, and F1-score, which far exceeds the performance achievable by commonly used models. Several prognostic factors including FDP levels, the percentages of T cells, B cells and natural killer cells, older age, sex, underlying diseases, and so forth, served as important indicators for IgG prediction. Based on these top 15 prognostic factors identified in IgG prediction, a simplified LTAP model for Nab level prediction was established and achieved an AUC of 0.828, which was 8.9% higher than MLP and 6.6% higher than LSTM. The close correlation between IgG and Nab levels making it possible to predict long-term Nab levels based on the factors selected by our LTAP model. Furthermore, our model identified that coagulation disorders and excessive immune response, which indicate disease severity, are closely related to the production of IgG and Nab. This universal model can be used as routine discharge tests to identify virus-infected individuals at risk for recurrent infection and determine the optimal timing of vaccination for general populations.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "40c67795563529d396ded4d128db1de0",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:44.379961"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习模型预测SARS-CoV-2中和抗体水平，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习模型预测SARS-CoV-2中和抗体水平，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:36.904831"
+}

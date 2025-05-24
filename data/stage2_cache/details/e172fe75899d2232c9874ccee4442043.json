@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1285,
+    "title": "Modified support vector machines in financial time series forecasting",
+    "abstract": "This paper proposes a modified version of support vector machines, called C-ascending support vector machine, to model non-stationary financial time series. The C-ascending support vector machines are obtained by a simple modification of the regularized risk function in support vector machines, whereby the recent e-insensitive errors are penalized more heavily than the distant epsilon-insensitive errors. This procedure is based on the prior knowledge that in the non-stationary financial time series the dependency between input variables and output variable gradually changes over the time, specifically, the recent past data could provide more important information than the distant past data. In the experiment, C-ascending support vector machines are tested using three real futures collected from the Chicago Mercantile Market. It is shown that the C-ascending support vector machines with the actually ordered sample data consistently forecast better than the standard support vector machines, with the worst performance when the reversely ordered sample data are used. Furthermore, the C-ascending support vector machines use fewer support vectors than those of the standard support vector machines, resulting in a sparser representation of solution. (C) 2002 Elsevier Science B.V. All rights reserved.",
+    "year": 2002,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7af3407999f638970acae36e6d5e5aa0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.850625"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种改进的支持向量机方法用于金融时间序列预测，虽然涉及金融数据，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种改进的支持向量机方法用于金融时间序列预测，虽然涉及金融数据，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:31.226640"
+}

@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 3518,
+    "title": "Bidirectional Gated Recurrent Unit Neural Networks for Relation Extraction of Chinese Enterprises",
+    "abstract": "With the improvement of people's entrepreneurial awareness and the encouragement of policies, the number of enterprises is gradually increasing. However, the profit-seeking nature of enterprises has increased the number of criminal activities. In order to help financial practitioners effectively identify high-risk enterprises, legal persons or shareholders, domestic and foreign scholars construct enterprise knowledge graphs for risk warning. Extracting enterprise relations from unstructured data such as financial news plays an important role in constructing enterprise knowledge graphs, but its irregular data structure and scarce processing tools bring challenges to relation extraction. To solve this problem, this paper proposes SDP-BGRU model to extract enterprise relations from unstructured data and treats enterprise relations extraction as a classification problem. The model uses the shortest dependency path (SDP) between two entities, obtains feature vectors through Bidirectional Gated Recurrent Unit (BGRU) networks and support vector machines as classifier. Experimental results show that the model can achieve good results on test data.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "63837ff9b0106212a9da74680bbfd9f2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:19.063392"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种模型用于从非结构化数据中提取企业关系，目的是帮助金融从业者识别高风险企业、法人或股东，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种模型用于从非结构化数据中提取企业关系，目的是帮助金融从业者识别高风险企业、法人或股东，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:34.933694"
+}

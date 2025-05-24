@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1007,
+    "title": "Cluster-based regression using variational inference and applications in financial forecasting",
+    "abstract": "This paper describes an approach to simultaneously identify clusters and estimate cluster-specific regression parameters from the given data. Such an approach can be useful in learning the relationship between input and output when the regression parameters for estimating output are different in different regions of the input space. Variational Inference (VI), a machine learning approach to obtain posterior probability densities using optimization techniques, is used to identify clusters of explanatory variables and regression parameters for each cluster. From these results, one can obtain both the expected value and the full distribution of predicted output. Other advantages of the proposed approach include the elegant theoretical solution and clear interpretability of results. The proposed approach is well-suited for financial forecasting where markets have different regimes (or clusters) with different patterns and correlations of market changes in each regime. In financial applications, knowledge about such clusters can provide useful insights about portfolio performance and identify the relative importance of variables in different market regimes. An illustrative example of predicting one-day S&P change is considered to illustrate the approach and compare the performance of the proposed approach with standard regression without clusters. Due to the broad applicability of the problem, its elegant theoretical solution, and the computational efficiency of the proposed algorithm, the approach may be useful in a number of areas extending beyond the financial domain.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "326204a187e003e95e378d8d3122104e",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.772555"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于变分推断的聚类回归方法，并应用于金融预测，特别是预测S&P指数的变化。论文提到这种方法可以提供关于投资组合表现的有用见解，并识别不同市场体制下变量的相对重要性，这直接关联到投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于变分推断的聚类回归方法，并应用于金融预测，特别是预测S&P指数的变化。论文提到这种方法可以提供关于投资组合表现的有用见解，并识别不同市场体制下变量的相对重要性，这直接关联到投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:21.313849"
+}

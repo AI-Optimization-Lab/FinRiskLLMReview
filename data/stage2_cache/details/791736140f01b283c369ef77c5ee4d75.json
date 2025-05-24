@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 5719,
+    "title": "A moving-window bayesian network model for assessing systemic risk in financial markets",
+    "abstract": "Systemic risk refers to the uncertainty that arises due to the breakdown of a financial system. The concept of too connected to fail suggests that network connectedness plays an important role in measuring systemic risk. In this paper, we first recover a time series of Bayesian networks for stock returns, which allow the direction of links among stock returns to be formed with Markov properties in directed graphs. We rank the stocks in the time series of Bayesian networks based on the topological orders of the stocks in the learned Bayesian networks and develop an order distance, a new measure with which to assess the changes in the topological orders of the stocks. In an empirical study using stock data from the Hang Seng Index in Hong Kong and the Dow Jones Industrial Average, we use the order distance to predict the extreme absolute return, which is a proxy of extreme market risks, or a signal of systemic risks, using the LASSO regression model. Our results indicate that the network statistics of the time series of Bayesian networks and the order distance substantially improve the predictability of extreme absolute returns and provide insights into the assessment of systemic risk.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e0a86d01a1a3c6ea787b12bfb12b9e2d",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:50:53.854839"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on assessing systemic risk in financial markets using Bayesian networks and order distance to predict extreme market risks, which is a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on assessing systemic risk in financial markets using Bayesian networks and order distance to predict extreme market risks, which is a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:37.953122"
+}

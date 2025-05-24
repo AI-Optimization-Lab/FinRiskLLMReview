@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 173,
+    "title": "Volatility forecasting with Hybrid-long short-term memory models: Evidence from the COVID-19 period",
+    "abstract": "Volatility forecasting, a central issue in financial risk modelling and management, has attracted increasing attention after several major financial market crises. In this article, we draw upon the literature on volatility forecasting and hybrid models to construct the Hybrid-long short-term memory (LSTM) models to forecast the intraday realized volatility in three major US stock indexes. We construct the hybrid models by combining one or multiple traditional time series models with the LSTM model, and incorporating either the estimated parameters, or the predicted volatility, or both from the statistical models as additional input values into the LSTM model. We perform the out-of-sample test of our Hybrid-LSTM models in volatility forecasting during the coronavirus disease 2019 (COVID-19) period. Empirical results show that the Hybrid-LSTM models can still significantly improve the volatility forecasting performance of the LSTM model during the COVID-19 period. By analysing how the construction methods may influence the forecasting performance of the Hybrid-LSTM models, we provide some suggestions on their design. Finally, we identify the optimal Hybrid-LSTM model for each stock index and compare its performance with the LSTM model on each day during our sample period. We find that the Hybrid-LSTM models' great capability of capturing market dynamics explains their good performance in forecasting.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "e0a42a0730ebd8afbcefa289ed057638",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.367060"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用Hybrid-LSTM模型进行波动率预测，这在金融风险管理中是一个关键问题，特别是在市场危机期间。论文明确提到波动率预测是金融风险建模和管理的核心问题，并且实证研究集中在COVID-19期间的波动率预测，这直接关联到金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用Hybrid-LSTM模型进行波动率预测，这在金融风险管理中是一个关键问题，特别是在市场危机期间。论文明确提到波动率预测是金融风险建模和管理的核心问题，并且实证研究集中在COVID-19期间的波动率预测，这直接关联到金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:05.944699"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1727,
+    "title": "Navigating Inflation Challenges: AI-Based Portfolio Management Insights",
+    "abstract": "After 2010, the consumer price index fell to a low level in the EU. In the euro area, it remained low between 2010 and 2020. The European Central Bank has even had to take action against the emergence of deflation. The situation changed significantly in 2021. Inflation jumped to levels not seen for 40 years in the EU. Our study aims to use artificial intelligence to forecast inflation. We also use artificial intelligence to forecast stock index changes. Based on the forecasts, we propose portfolio reallocation decisions to protect against inflation. The forecasting literature does not address the importance of structural breaks in the time series, which, among other things, can affect both the pattern recognition and prediction capabilities of various machine learning models. The novelty of our study is that we used the Zivot-Andrews unit root test to determine the breakpoints and partitioned the time series into training and testing datasets along these points. We then examined which database partition gives the most accurate prediction. This information can be used to re-balance the portfolio. Two different AI-based prediction algorithms were used (GRU and LSTM), and a hybrid model (LSTM-GRU) was also included to investigate the predictability of inflation. Our results suggest that the average error of the inflation forecast is a quarter of that of the stock market index forecast. Inflation developments have a fundamental impact on equity and government bond returns. If we obtain a reliable estimate of the inflation forecast, we have time to rebalance the portfolio until the inflation shock is incorporated into government bond returns. Our results not only support investment decisions at the national economy level but are also useful in the process of rebalancing international portfolios.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c54ef80754d72b1e490f2bf1df208e4c",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:50.701788"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用人工智能（如GRU和LSTM）预测通货膨胀和股票指数变化，并基于这些预测提出投资组合的重新分配决策，以防范通货膨胀风险。这直接涉及投资组合管理的领域，旨在优化资产配置以应对经济变化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用人工智能（如GRU和LSTM）预测通货膨胀和股票指数变化，并基于这些预测提出投资组合的重新分配决策，以防范通货膨胀风险。这直接涉及投资组合管理的领域，旨在优化资产配置以应对经济变化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:12.073525"
+}

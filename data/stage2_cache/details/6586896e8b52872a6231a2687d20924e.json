@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1947,
+    "title": "Mixup Gamblers: Learning to Abstain with Auto-Calibrated Reward for Mixed Samples",
+    "abstract": "Deep learning models have recently been used in a wide range of fields. However, one of the problems with deep learning is the reliability of the inference results. Models that can evaluate the reliability of their inference results are important, and therefore methods such as selective classification have been proposed. Selective classification is classification with a reject option, which reduces false inferences by allowing an inference to be rejected. Inspired by portfolio theory, L. Ziyin et al. proposed a deep gamblers method that learns to reject. Taking this approach a step further, we propose a learning method for selective classification, mixup gamblers, to improve rejection ability. This method exploits data augmentation parameters for rejection learning. The proposed method outperforms existing state-of-the-art methods on a selective classification benchmark.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fff671ecb4306b5c41b6e5eb36c23ed6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:41.577800"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种改进的选择性分类方法，虽然提到受投资组合理论启发，但其核心技术和应用场景集中在机器学习中的分类问题，并未明确指出或应用于上述特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种改进的选择性分类方法，虽然提到受投资组合理论启发，但其核心技术和应用场景集中在机器学习中的分类问题，并未明确指出或应用于上述特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:10.480350"
+}

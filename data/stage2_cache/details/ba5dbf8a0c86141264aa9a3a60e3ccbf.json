@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 908,
+    "title": "Leveraging deep survival models to predict quality of care risk in diverse hospital readmissions",
+    "abstract": "Hospital readmissions rate is reportedly high and has caused huge financial burden on health care systems in many countries. It is viewed as an important indicator of health care providers' quality of care. We examine the use of machine learning-based survival analysis to assess quality of care risk in hospital readmissions. This study applies various survival models to explore the risk of hospital readmissions given patient demographics and their respective hospital discharges extracted from a health care claims dataset. We explore advanced feature representation techniques such as BioBERT and Node2Vec to encode high-dimensional diagnosis code features. To our knowledge, this study is the first to apply deep-learning based survival-analysis models for predicting hospital readmission risk agnostic of specific medical conditions and a fixed window for readmission. We found that modeling the time from discharge date to readmission date as a Weibull distribution as in the SparseDeepWeiSurv model yields the best discriminative power and calibration. In addition, embedding representations of the diagnosis codes do not contribute to improvement in model performance. We find dependency of each model's performance on the time point at which it is evaluated. This time dependency of the models' performance on the health care claims data may necessitate a different choice of model in quality of care issue detection at different points in time. We show the effectiveness of deep-learning based survival-analysis models in estimating the quality of care risk in hospital readmissions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "060205e71416acd614c362f0c021c3c6",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "feature representation",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:17.611704"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用深度学习生存分析模型预测医院再入院风险，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用深度学习生存分析模型预测医院再入院风险，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:53.326356"
+}

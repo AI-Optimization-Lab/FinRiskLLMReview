@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 351,
+    "title": "Towards Data-Driven Volatility Modeling with Variational Autoencoders",
+    "abstract": "In this study, we show how S&P 500 Index volatility surfaces can be modeled in a purely data-driven way using variational autoencoders. The approach autonomously learns concepts such as the volatility level, smile, and term structure without leaning on hypotheses from traditional volatility modeling techniques. In addition to introducing notable improvements to an existing variational autoencoder approach for the reconstruction of both complete and incomplete volatility surfaces, we showcase three practical use cases to highlight the relevance of this approach to the financial industry. First, we show how the latent space learned by the variational autoencoder can be used to produce synthetic yet realistic volatility surfaces. Second, we demonstrate how entire sequences of synthetic volatility surfaces can be generated to stress test and analyze an options portfolio. Third and last, we detect anomalous surfaces in our options dataset and pinpoint exactly which subareas are divergent.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "e9f7c8270605004eed2894bb0b0fd38f",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "autoencoder",
+      "variational autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:17.420281"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用变分自编码器（VAE）对S&P 500指数的波动率曲面进行建模，这直接涉及衍生品（如期权）的定价问题。此外，论文还展示了如何生成合成波动率曲面以进行压力测试和异常检测，这些应用属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用变分自编码器（VAE）对S&P 500指数的波动率曲面进行建模，这直接涉及衍生品（如期权）的定价问题。此外，论文还展示了如何生成合成波动率曲面以进行压力测试和异常检测，这些应用属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:20:20.232844"
+}

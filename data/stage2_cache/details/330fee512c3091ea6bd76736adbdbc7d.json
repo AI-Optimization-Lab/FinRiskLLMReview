@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1673,
+    "title": "A Hierarchical Bayesian Network-Based Approach to Keyword Auction",
+    "abstract": "Prosperity of the online keyword auctions greatly facilitates the penetration of search-engine marketing in various industries. However, the current operation rules of the search engine make it very difficult for those inexperienced advertisers to make sound bids without the support of powerful tools. Therefore, many studies have been conducted to help advertisers understand such dynamic, infinite, and opaque auction situation, and obtain as good as possible bidding result. This paper, focusing on predicting the return on investment (ROI) of a keyword portfolio, develops a hierarchical Bayesian network (BN) model to forecast keyword auctions' performance. Few papers directly predict the ROI of a keyword portfolio. This approach effectively echoes advertisers' expectation for a keyword auction by choosing the right keywords and bids to achieve the desired outcome. The building blocks of the prediction model, such as bid and rank, are organized in a tree-shaped structure with a set of joint conditional probabilities. To infer the posterior probabilities of the predictors, a Bayesian parameter-learning algorithm is conducted after validating the network's structural relationships. The empirical study demonstrates that the prediction model is appropriate and effective for keyword auctions. Moreover, the proposed hierarchical BN model shows a higher accuracy than the popular prediction approach-the back-propagation artificial neural network.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "66348f3f637c6ac1eb321d5c67a0ffed",
+    "relevant_keywords": [
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:18.373615"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是在线关键词拍卖中的投资回报率（ROI）预测，虽然涉及投资组合的概念，但其应用场景是搜索引擎营销而非金融领域的投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是在线关键词拍卖中的投资回报率（ROI）预测，虽然涉及投资组合的概念，但其应用场景是搜索引擎营销而非金融领域的投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:37.054726"
+}

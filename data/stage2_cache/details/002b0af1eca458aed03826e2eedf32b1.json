@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 9,
+    "title": "LLM-infused bi-level semantic enhancement for corporate credit risk prediction",
+    "abstract": "Corporate credit risk (CCR) prediction enables investors, governments, and companies to make informed financial decisions. Existing research primarily focuses solely on the tabular feature values, yet it often overlooks the rich inherent semantic information. In this paper, a novel bi-level semantic enhancement framework for CCR prediction is proposed. Firstly, at the data- level, a large language model (LLM) generates detailed textual descriptions of companies' financial conditions, infusing raw tabular training data with semantic information and domain knowledge. Secondly, to enable semantic perception during inference when only tabular data is available, a contrastive multimodal multitask learning model (CMML) is proposed at the model level. CMML leverages the semantically enhanced data from the previous level to acquire semantic perception capabilities during the training phase, requiring only tabular data during prediction. It aligns the representations of tabular data with textual data, enabling extracting semantically rich features from tabular data. Furthermore, a semantic alignment classifier and an MLP classifier are integrated into a weighted ensemble learner within a multitask learning architecture to enhance robustness. Empirical verification on two datasets demonstrates that CMML surpasses benchmark models in key metrics, particularly in scenarios with limited samples and high proportions of unseen corporations, implying its effectiveness in CCR prediction through bi-level semantic enhancement.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "LLMs",
+    "cache_key": "319e0a73a4be4f9cb54618409b0b83a3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:45:16.299155"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on corporate credit risk (CCR) prediction, which is a key aspect of financial risk management. The proposed bi-level semantic enhancement framework aims to improve the accuracy of CCR prediction by leveraging large language models and contrastive multimodal multitask learning, directly addressing the challenge of assessing and managing credit risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on corporate credit risk (CCR) prediction, which is a key aspect of financial risk management. The proposed bi-level semantic enhancement framework aims to improve the accuracy of CCR prediction by leveraging large language models and contrastive multimodal multitask learning, directly addressing the challenge of assessing and managing credit risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:58.249877"
+}

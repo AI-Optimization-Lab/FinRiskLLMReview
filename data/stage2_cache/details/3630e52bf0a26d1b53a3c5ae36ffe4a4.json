@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1037,
+    "title": "ParDen: Surrogate Assisted Hyper-Parameter Optimisation for Portfolio Selection",
+    "abstract": "Portfolio optimisation is a multi-objective optimisation problem (MOP), where an investor aims to optimise the conflicting criteria of maximising a portfolio's expected return whilst minimising its risk and other costs. However, selecting a portfolio is a computationally expensive problem because of the cost associated with performing multiple evaluations on test data (backtesting) rather than solving the convex optimisation problem itself. In this research, we present ParDen, an algorithm for the inclusion of any discriminative or generative machine learning model as a surrogate to mitigate the computationally expensive backtest procedure. In addition, we compare the performance of alternative metaheuristic algorithms: NSGA-II, R-NSGA-II, NSGA-III, R-NSGA-III, U-NSGA-III, MO-CMAES, and COMO-CMA-ES. We measure performance using multi-objective performance indicators, including Generational Distance Plus, Inverted Generational Distance Plus and Hypervolume. We also consider meta-indicators, Success Rate and Average Executions to Success Rate, of the Hypervolume to provide more insight into the quality of solutions. Our results show that ParDen can reduce the number of evaluations required by almost a third while obtaining an improved Pareto front over the state-of-the-art for the problem of portfolio selection.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c374e7daed69081107e038d7c0ef320b",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.846922"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是优化投资组合选择，通过使用机器学习模型作为代理来减少计算成本，并比较了多种元启发式算法在投资组合优化中的性能。这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是优化投资组合选择，通过使用机器学习模型作为代理来减少计算成本，并比较了多种元启发式算法在投资组合优化中的性能。这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:15.740219"
+}

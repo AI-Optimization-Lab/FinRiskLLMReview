@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3161,
+    "title": "Learning Mutual Fund Categorization using Natural Language Processing",
+    "abstract": "Categorization of mutual funds or Exchange-Traded-funds (ETFs) have long served the financial analysts to perform peer analysis for various purposes starting from competitor analysis, to quantifying portfolio diversification. The categorization methodology usually relies on fund composition data in the structured format extracted from the Form N-1A. Here, we initiate a study to learn the categorization system directly from the unstructured data as depicted in the forms using natural language processing (NLP). Positing as a multi-class classification problem with the input data being only the investment strategy description as reported in the form and the target variable being the Lipper Global categories, and using various NLP models, we show that the categorization system can indeed be learned with high accuracy. We discuss implications and applications of our findings as well as limitations of existing pre-trained architectures in applying them to learn fund categorization.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9b8acaa56ab8d0848fdff74bcd897c1b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:14:16.203798"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用自然语言处理（NLP）对共同基金或交易所交易基金（ETFs）进行分类，这直接服务于投资组合管理中的基金选择和多样化分析。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用自然语言处理（NLP）对共同基金或交易所交易基金（ETFs）进行分类，这直接服务于投资组合管理中的基金选择和多样化分析。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:36.331343"
+}

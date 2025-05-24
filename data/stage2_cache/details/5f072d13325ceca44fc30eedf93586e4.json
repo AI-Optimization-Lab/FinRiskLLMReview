@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 5874,
+    "title": "An optional splitting extraction based gain-AUPRC balanced strategy in federated XGBoost for mitigating imbalanced credit card fraud detection",
+    "abstract": "Credit card defaults cost the economy tens of billions of dollars every year. However, financial institutions rarely collaborate to build more comprehensive models due to legal regulations and competition. Federated XGBoost is an emerging paradigm that enables several companies to build a classification model cooperatively without transferring local data to others. The conventional Federated XGBoost suffers from the inverse inference according to splitting nodes selection and the class imbalance problem severely. Utilising the characteristic of splitting points' selection, we propose an optional splitting extraction model to reduce the leakage risk of raw data statistics. Moreover, an adjusted AUPRC (the area under the precision-recall curve) is introduced into the gain function to alleviate the class imbalance problem. Our experimental results show recall and AUPRC increased by 7%-10% and 4%-8%, respectively, without sacrificing other estimations compared to the existing state-of-the-art. Furthermore, communication iterations also decreased significantly in our proposed method.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "248f60ebab6fd86ce12ec41d22e2d748",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:52:31.378267"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是改进的联邦XGBoost模型，用于信用卡欺诈检测，这直接涉及信用风险的识别和管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是改进的联邦XGBoost模型，用于信用卡欺诈检测，这直接涉及信用风险的识别和管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:57.442251"
+}

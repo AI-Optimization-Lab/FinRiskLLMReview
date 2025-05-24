@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 103,
+    "title": "Corporation financial distress prediction with deep learning: analysis of public listed companies in Malaysia",
+    "abstract": "Purpose In the previous study of financial distress prediction, deep learning techniques performed better than traditional techniques over time-series data. This study investigates the performance of deep learning models: recurrent neural network, long short-term memory and gated recurrent unit for the financial distress prediction among the Malaysian public listed corporation over the time-series data. This study also compares the performance of logistic regression, support vector machine, neural network, decision tree and the deep learning models on single-year data. Design/methodology/approach The data used are the financial data of public listed companies that been classified as PN17 status (distress) and non-PN17 (not distress) in Malaysia. This study was conducted using machine learning library of Python programming language. Findings The findings indicate that all deep learning models used for this study achieved 90% accuracy and above with long short-term memory (LSTM) and gated recurrent unit (GRU) getting 93% accuracy. In addition, deep learning models consistently have good performance compared to the other models over single-year data. The results show LSTM and GRU getting 90% and recurrent neural network (RNN) 88% accuracy. The results also show that LSTM and GRU get better precision and recall compared to RNN. The findings of this study show that the deep learning approach will lead to better performance in financial distress prediction studies. To be added, time-series data should be highlighted in any financial distress prediction studies since it has a big impact on credit risk assessment. Research limitations/implications The first limitation of this study is the hyperparameter tuning only applied for deep learning models. Secondly, the time-series data are only used for deep learning models since the other models optimally fit on single-year data. Practical implications This study proposes recommendations that deep learning is a new approach that will lead to better performance in financial distress prediction studies. Besides that, time-series data should be highlighted in any financial distress prediction studies since the data have a big impact on the assessment of credit risk. Originality/value To the best of authors' knowledge, this article is the first study that uses the gated recurrent unit in financial distress prediction studies based on time-series data for Malaysian public listed companies. The findings of this study can help financial institutions/investors to find a better and accurate approach for credit risk assessment.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9959fbfb0a1abcd296de1e98d0b87715",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:39.608490"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting financial distress among public listed companies using deep learning models, which is directly related to assessing credit risk—a key aspect of financial risk management. The study's findings aim to improve credit risk assessment, a core component of risk management in financial institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting financial distress among public listed companies using deep learning models, which is directly related to assessing credit risk—a key aspect of financial risk management. The study's findings aim to improve credit risk assessment, a core component of risk management in financial institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:50.500806"
+}

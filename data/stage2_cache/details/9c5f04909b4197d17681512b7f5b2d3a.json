@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 848,
+    "title": "Integrating prediction in mean-variance portfolio optimization",
+    "abstract": "In quantitative finance, prediction models are traditionally optimized independently from their use in the asset allocation decision-making process. We address this limitation and present a stochastic optimization framework for integrating regression prediction models in a mean-variance optimization (MVO) setting. Closed-form analytical solutions are provided for the unconstrained and equality constrained MVO case. For the general inequality constrained case, we make use of recent advances in neural-network architecture for efficient optimization of batch quadratic programs. To our knowledge, this is the first rigorous study of integrating prediction in a mean-variance portfolio optimization setting. We present several simulations, using both synthetic and global futures data, and demonstrate the benefits of the integrated approach in comparison to the decoupled alternative.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1095f1b5c78fdec8382f3a63026c4fb5",
+    "relevant_keywords": [
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.094618"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on integrating prediction models into mean-variance optimization (MVO) for asset allocation, which is a core technique in portfolio management. The study specifically addresses the optimization framework for portfolio construction and demonstrates its application using synthetic and global futures data.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on integrating prediction models into mean-variance optimization (MVO) for asset allocation, which is a core technique in portfolio management. The study specifically addresses the optimization framework for portfolio construction and demonstrates its application using synthetic and global futures data.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:19.894157"
+}

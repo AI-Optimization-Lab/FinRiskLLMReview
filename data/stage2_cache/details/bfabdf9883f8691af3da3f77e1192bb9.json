@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 504,
+    "title": "Convolutional Neural Network for Software Vulnerability Detection",
+    "abstract": "Exploitable vulnerabilities in software are one of the root causes of cybercrime, leading to financial losses, reputational damage, and wider security breaches for both enterprise and consumers. Furthermore, checking for vulnerabilities in software is no longer a human-scale problem due to code volume and complexity. To help address this problem, our work presents a deep learning model able to identify risk signals in Java source code and output a classification for a program as either vulnerable or safe. Sequences of raw Java opcodes are used to train a convolutional neural network that automatically encapsulates discriminative characteristics of a program that are then used for the prediction. Compared to traditional machine learning methods, this approach requires no prior knowledge of the software vulnerability domain, nor any hand-crafted input features. When evaluated on the publicly available benchmark dataset Juliet Test Suite containing 38520 vulnerable and 38806 safe programs, our method achieves an F1 score of 0.92.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2cc0994623be19cc0d2c6ed1069cff65",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:51:31.326697"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用卷积神经网络检测软件漏洞，虽然提到可能导致财务损失，但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用卷积神经网络检测软件漏洞，虽然提到可能导致财务损失，但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:35.734591"
+}

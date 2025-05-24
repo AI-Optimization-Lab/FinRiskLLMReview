@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 560,
+    "title": "An Empirical Comparison of Machine-Learning Methods on Bank Client Credit Assessments",
+    "abstract": "Machine learning and artificial intelligence have achieved a human-level performance in many application domains, including image classification, speech recognition and machine translation. However, in the financial domain expert-based credit risk models have still been dominating. Establishing meaningful benchmark and comparisons on machine-learning approaches and human expert-based models is a prerequisite in further introducing novel methods. Therefore, our main goal in this study is to establish a new benchmark using real consumer data and to provide machine-learning approaches that can serve as a baseline on this benchmark. We performed an extensive comparison between the machine-learning approaches and a human expert-based modelFICO credit scoring systemby using a Survey of Consumer Finances (SCF) data. As the SCF data is non-synthetic and consists of a large number of real variables, we applied two variable-selection methods: the first method used hypothesis tests, correlation and random forest-based feature importance measures and the second method was only a random forest-based new approach (NAP), to select the best representative features for effective modelling and to compare them. We then built regression models based on various machine-learning algorithms ranging from logistic regression and support vector machines to an ensemble of gradient boosted trees and deep neural networks. Our results demonstrated that if lending institutions in the 2001s had used their own credit scoring model constructed by machine-learning methods explored in this study, their expected credit losses would have been lower, and they would be more sustainable. In addition, the deep neural networks and XGBoost algorithms trained on the subset selected by NAP achieve the highest area under the curve (AUC) and accuracy, respectively.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6532ed32b5224e536d4a9fc2b6ef29cc",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "XGBoost"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.335547"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法进行银行客户信用评估，这直接关系到信用风险的管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法进行银行客户信用评估，这直接关系到信用风险的管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:01.983528"
+}

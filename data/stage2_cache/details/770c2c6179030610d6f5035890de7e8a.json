@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 811,
+    "title": "Performance comparison analysis of classification methodologies for effective detection of intrusions",
+    "abstract": "Intrusion detection systems (IDS) are critical in many applications, including cloud environments. The intrusion poses a security threat and extracts privacy data and information from the cloud. Additionally, intrusions can cause damage to system hardware, resulting in significant financial losses and exposing critical IT infrastructure to risk. To overcome these issues, this study employs the performance comparison analysis for IDS, which has been performed with different models like Autoencoder Convolutional neural network (AE+CNN), Random forest K-means clustering assisted deep neural network (RF+K-means+DNN), Autoencoder K-means clustering assisted long short term memory (AE+K-means+LSTM), Alexnet+Bi-GRU, AE+Alexnet+Bi-GRU and Wild horse AlexNet assisted Bi-directional Gated Recurrent Unit (WABi-GRU) models to choose the best methodology for effective detection of intrusions. The data needed for the analysis is collected from CICIDS2018, UNSW-NB15, NSL-KDD and ToN-IoT datasets. The collected data are pre-processed using data normalization and data cleaning. Finally, the best model has been chosen for effective intrusion detection, which is used for further processes. Various performances, such as accuracy, precision, recall, and f1-score, are analyzed for various existing and proposed models. From this performance comparison of six models such as AE+CNN, RF+Kmeans+DNN, AE+K-means+LSTM, Alexnet+Bi-GRU, AE+Alexnet+Bi-GRU and WABi-GRU. WABi-GRU can attain an accuracy of 99.890 % for multi-class classification in the CICIDS 2018 dataset, 99.7 % in the NSL-KDD dataset, 99.53 % in the UNSW-NB 15 dataset and 99.988 % for the ToN-IoT dataset. In this analysis, the models containing AlexNet Bi-GRU-based models can obtain better performances than other existing models. The WABiGRU model can obtain better results than other models.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "49f91bff7b30f943aff2b0d940f6bf88",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "clustering",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:08.127855"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究入侵检测系统（IDS）的性能比较分析，并应用多种机器学习模型进行有效入侵检测。虽然论文提到入侵可能导致财务损失，但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究入侵检测系统（IDS）的性能比较分析，并应用多种机器学习模型进行有效入侵检测。虽然论文提到入侵可能导致财务损失，但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:37.543328"
+}

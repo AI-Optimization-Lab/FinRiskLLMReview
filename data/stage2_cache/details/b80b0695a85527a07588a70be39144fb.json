@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1859,
+    "title": "Learning techniques for automatic algorithm portfolio selection",
+    "abstract": "The purpose of this paper is to show that a well known machine learning technique based on Decision Trees can be effectively used to select the best approach (in terms of efficiency) in an algorithm portfolio for a particular case study: the Bid Evaluation Problem (BEP) in Combinatorial Auctions. In particular, we are interested in deciding when to use a Constraint Programming (CP) approach and when an Integer Programming (IP) approach, on the basis of the structure of the instance considered. Different instances of the same problem present a different structure, and one aspect (e.g. feasibility or optimality) can prevail on the other. We have extracted from a set of BEP instances, a number of parameters representing the instance structure. Some of them (few indeed) precisely identify the best strategy and its corresponding tuning to be used to face that instance. We will show that this approach is very promising, since it identifies the most efficient algorithm in the 90% of the cases.",
+    "year": 2004,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1c47bd5b05a5b98bc5bede2e563c5e8f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "decision tree",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:00:27.338761"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用决策树机器学习技术来选择算法组合中的最佳方法，应用于组合拍卖中的投标评估问题（BEP），并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用决策树机器学习技术来选择算法组合中的最佳方法，应用于组合拍卖中的投标评估问题（BEP），并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:20.877176"
+}

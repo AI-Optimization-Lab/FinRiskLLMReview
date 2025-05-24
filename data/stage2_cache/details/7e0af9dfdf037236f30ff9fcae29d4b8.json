@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 252,
+    "title": "Variance optimized bagging",
+    "abstract": "We propose and study a new technique for aggregating an ensemble of bootstrapped classifiers. In this method we seek a linear combination of the base-classifiers such that the weights are optimized to reduce variance. Minimum variance combinations are computed using quadratic programming. This optimization technique is borrowed from Mathematical Finance where it is called Markowitz Mean-Variance Portfolio Optimization. We test the new method on a number of binary classification problems from the UCI repository using a Support Vector Machine (SVM) as the base-classifier learning algorithm. Our results indicate that the proposed technique can consistently outperform Bagging and can dramatically improve the SVM performance even in cases where the Bagging fails to improve the base-classifier.",
+    "year": 2002,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1df14d471da453721aa63b76ce2fd629",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.741368"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术借鉴了Markowitz均值-方差投资组合优化方法，并将其应用于分类器的集成优化中。虽然论文的主要应用场景是机器学习分类问题，但其核心技术直接来源于投资组合管理领域，因此可以认为其主要技术应用属于投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术借鉴了Markowitz均值-方差投资组合优化方法，并将其应用于分类器的集成优化中。虽然论文的主要应用场景是机器学习分类问题，但其核心技术直接来源于投资组合管理领域，因此可以认为其主要技术应用属于投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:18.922865"
+}

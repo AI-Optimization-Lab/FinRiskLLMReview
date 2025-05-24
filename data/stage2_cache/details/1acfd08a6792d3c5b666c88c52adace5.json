@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 22,
+    "title": "基于深度学习的篮子期权定价数值算法",
+    "abstract": "在标的资产价格服从Heston模型的条件下,对欧式篮子期权定价问题进行了研究。推导出篮子期权价格满足的偏微分方程,利用基于深度学习的倒向随机微分方程求解算法,克服维度诅咒,得到了篮子期权价格的近似数值解。通过与蒙特卡罗结果的对比,表明该算法克服了维度灾难,在高维情况下是准确且稳定的,为期权定价研究提供了新的方向。",
+    "year": 2021,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "e20b19e64c8db5a2cccbf249479284eb",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:00.854443"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用深度学习算法解决篮子期权的定价问题，明确提到了在Heston模型下对欧式篮子期权定价的研究，并通过数值算法得到近似解。这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用深度学习算法解决篮子期权的定价问题，明确提到了在Heston模型下对欧式篮子期权定价的研究，并通过数值算法得到近似解。这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:04.662344"
+}

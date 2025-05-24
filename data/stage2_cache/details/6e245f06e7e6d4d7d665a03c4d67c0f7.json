@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 195,
+    "title": "中国家庭债务风险测度及其预警研究",
+    "abstract": "家庭债务风险的预警对于防范系统性金融风险具有重要意义。本文基于2013年、2015年、2017年和2019年CHFS数据，采用因子分析法分别构建了中国城镇和农村家庭债务风险指标，结果显示城镇和农村高风险率分别约为25.06%和12.29%。进一步地，使用基于LightGBM算法的机器学习模型对城镇和农村家庭债务风险分别进行了预警，预警模型的混淆矩阵显示正确率分别为98.30%和98.18%,AUC值分别为0.9725和0.9599。SHAP框架下的机器学习模型可解释性分析显示，家庭债务因素、人口结构以及流动性等因素对城镇和农村家庭债务风险均存在明显的非线性影响。经过更换机器学习参数、机器学习算法以及预警模型的可解释方法，显示本文研究结论具有稳健性。本文为中国家庭债务风险提供了相对客观的测度方法，对家庭债务风险起到预警作用。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "617061ec3271143c9b781ed103965b71",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-14T22:27:22.037599"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型（LightGBM）进行家庭债务风险的测度和预警，这直接涉及金融风险管理领域，特别是家庭债务风险的识别和预警。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型（LightGBM）进行家庭债务风险的测度和预警，这直接涉及金融风险管理领域，特别是家庭债务风险的识别和预警。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:39:20.848792"
+}

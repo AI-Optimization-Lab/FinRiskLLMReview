@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 6687,
+    "title": "Time Series Impact Through Topic Modeling",
+    "abstract": "A time-series of numerical data and a sequence of time-ordered documents are often correlated. This paper aims at modeling the impact that the underlying themes discussed in the text data have on the time series. To do so, we introduce an original topic model, Time Series Impact Through Topic Modeling (TSITM), that includes contextual data by coupling Latent Dirichlet Allocation (LDA) with linear regression, using an elastic net prior to set to zero the impact of uncorrelated topics. The resulting topics act as explanatory variables for the regression of the numerical time series, which allows us to understand the time series movements based on the events described on the text data. We have tested our model on two datasets: first, we used political news to explain the US president's disapproval ratings; then, we considered a corpus of economic news to explain the financial returns of 4 different multinational corporations. Our experiments show that an appropriate selection of hyperparameters (via repeated random subsampling validation and Bayesian optimization) leads to significant correlations: both an intrinsic baseline and state of the art methods were significantly outperformed by TSITM in MSE, MAE and out-of-sample R-2, according to our hypothesis tests. We believe that this framework can be useful in the context of reputational risk management.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "136e854afa63229ab18e0ac0f840c9c9",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "regression",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T03:00:35.442091"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是通过主题建模和时间序列分析来理解文本数据对数值时间序列的影响，并在实验中应用了经济新闻来解释跨国公司的财务回报。虽然论文没有直接提及衍生品定价或投资组合管理，但其在声誉风险管理（reputational risk management）的应用属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是通过主题建模和时间序列分析来理解文本数据对数值时间序列的影响，并在实验中应用了经济新闻来解释跨国公司的财务回报。虽然论文没有直接提及衍生品定价或投资组合管理，但其在声誉风险管理（reputational risk management）的应用属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:31.696970"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 323,
+    "title": "基于集成学习的高送转股票研究",
+    "abstract": "高送转预案公告发布前,高送转股票具有显著的累计正收益,因此预测高送转股票对于投资具有重要意义。高送转股票的预测是分类预测问题,本文利用上市公司三季度财报数据,采用3种集成学习算法:由K-近邻算法、决策树以及加lasso惩罚项的逻辑斯蒂回归算法构建预测模型——\"组合\"模型,经典的集成学习算法——Ada Boost算法以及随机森林算法进行建模。本文采用准确率以及G-mean作为模型评价标准,结果显示:\"组合\"模型的准确率最高,随机森林和\"组合\"模型的G-mean表现相当,均优于adaboost算法。由于每年高送转股票所占比例小于50%,数据可以看成是非平衡数据,为了改善\"组合\"模型较差的召回率,本文采用K-Means聚类的欠抽样方法,将此方法用在\"组合\"模型上,效果显著。最后分别对上面三种模型预测的股票构建投资组合,并以HS300指数做基准。结果显示:\"组合\"模型预测得到的高送转股票组合表现优于另外两种集成学习模型。",
+    "year": 2016,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c5dd78406c3a8def971d795d8c729dbf",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-14T22:22:41.520585"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用集成学习算法预测高送转股票，并基于预测结果构建投资组合，与HS300指数进行对比。这直接涉及投资组合的构建和绩效评估，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用集成学习算法预测高送转股票，并基于预测结果构建投资组合，与HS300指数进行对比。这直接涉及投资组合的构建和绩效评估，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:07.281078"
+}

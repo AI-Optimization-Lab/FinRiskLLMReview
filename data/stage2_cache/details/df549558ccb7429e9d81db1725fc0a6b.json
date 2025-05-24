@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1737,
+    "title": "Financial risk assessment of imbalanced data based on nonlinear causal time-series network",
+    "abstract": "Financial risk assessment holds great significance in the modern economic system, offering crucial decision-making support for enterprises and regulatory agencies. However, capturing the complex interactions between market entities poses a considerable challenge. Additionally, when data is imbalanced, traditional methods tend to favor majority classes while overlooking minority class samples, leading to reduced accuracy in risk assessment. To address these challenges, we redefine the problem as market entity risk assessment based on a Nonlinear Causal Time-series Network (NCTN). NCTN is constructed from both financial and time-series data to represent market entity attributes and the implicit relationships between entities. Based on this network, we propose a risk assessment model for directed, imbalanced graphs, called the Graph Neural Network with Symmetrical Multi-field Feature Aggregation Encoder and Imbalanced Graph Node Classifier (SIGNN). SIGNN achieves multi-level risk assessment by aggregating symmetric multi-field node features and generating hybrid minority-class graph nodes. Experimental results on the Compfinancial, Amazon-photo, and ogbn-arxiv datasets demonstrate that SIGNN outperforms stateof-the-art baseline methods, achieving a macro-F1 score that surpasses the next best by 4.45 %, 0.88 %, and 3.95 %, respectively, and a G-mean score that exceeds the next best by 1.99 %, 1.02 %, and 0.76 %, respectively. The findings of this paper provide practical insights for financial risk assessment and contribute to the prevention of major risks.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1ab26e1b7d281c1e18dfc61bdb8cdeda",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer",
+      "Graph Neural Network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:52.694251"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on financial risk assessment using a Nonlinear Causal Time-series Network and a Graph Neural Network model to address imbalanced data challenges, which directly pertains to the field of Financial Risk Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on financial risk assessment using a Nonlinear Causal Time-series Network and a Graph Neural Network model to address imbalanced data challenges, which directly pertains to the field of Financial Risk Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:38.474386"
+}

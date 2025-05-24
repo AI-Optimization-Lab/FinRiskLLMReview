@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2187,
+    "title": "InterPred: a webtool to predict chemical autofluorescence and luminescence interference",
+    "abstract": "High-throughput screening (HTS) research programs for drug development or chemical hazard assessment are designed to screen thousands of molecules across hundreds of biological targets or pathways. Most HTS platforms use fluorescence and luminescence technologies, representing more than 70% of the assays in the US Tox21 research consortium. These technologies are subject to interferent signals largely explained by chemicals interacting with light spectrum. This phenomenon results in up to 5-10% of false positive results, depending on the chemical library used. Here, we present the InterPred webserver (version 1.0), a platform to predict such interference chemicals based on the first large-scale chemical screening effort to directly characterize chemical-assay interference, using assays in the Tox21 portfolio specifically designed to measure autofluorescence and luciferase inhibition. InterPred combines 17 quantitative structure activity relationship (QSAR) models built using optimized machine learning techniques and allows users to predict the probability that a new chemical will interfere with different combinations of cellular and technology conditions. InterPred models have been applied to the entire Distributed Structure-Searchable Toxicity (DSSTox) Database (similar to 800,000 chemicals). The InterPred webserver is available at https://sandbox.ntp.niehs.nih.gov/interferences/.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3f77a803c1c02148abcd46e9631a111c",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "QSAR"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:36.778431"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是化学物质对高通量筛选（HTS）中荧光和发光技术的干扰预测，属于药物开发和化学危害评估领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是化学物质对高通量筛选（HTS）中荧光和发光技术的干扰预测，属于药物开发和化学危害评估领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:44.605371"
+}

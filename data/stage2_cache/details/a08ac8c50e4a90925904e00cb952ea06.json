@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 983,
+    "title": "QADQN: Quantum Attention Deep Q-Network for Financial Market Prediction",
+    "abstract": "Financial market prediction and optimal trading strategy development remain challenging due to market complexity and volatility. Our research in quantum finance and reinforcement learning for decision-making demonstrates the approach of quantum-classical hybrid algorithms to tackling real-world financial challenges. In this respect, we corroborate the concept with rigorous hacktesting and validate the framework's performance under realistic market conditions, by including fixed transaction cost per trade. This paper introduces a Quantum Attention Deep Q-Network (QADQN) approach to address these challenges through quantum-enhanced reinforcement learning. Our QADQN architecture uses a variational quantum circuit inside a traditional deep Q-learning framework to take advantage of possible quantum advantages in decision-making. We gauge the QADQN agent's performance on historical data from major market indices, including the S&P 500. We evaluate the agent's learning process by examining its reward accumulation and the effectiveness of its experience replay mechanism. Our empirical results demonstrate the QADQN's superior performance, achieving better risk-adjusted returns with Sortino ratios of 1.28 and 1.19 for non-overlapping and overlapping test periods respectively, indicating effective downside risk management.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "78e7be5c3b778be792780099beef27d9",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.881142"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是量子增强的强化学习框架（QADQN），用于金融市场预测和最优交易策略开发。论文明确提到评估代理的性能时关注风险调整后的收益和Sortino比率，这些指标与投资组合管理的目标直接相关。虽然提到了风险管理（Sortino比率），但主要应用场景是交易策略优化，属于投资组合管理范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是量子增强的强化学习框架（QADQN），用于金融市场预测和最优交易策略开发。论文明确提到评估代理的性能时关注风险调整后的收益和Sortino比率，这些指标与投资组合管理的目标直接相关。虽然提到了风险管理（Sortino比率），但主要应用场景是交易策略优化，属于投资组合管理范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:45.429900"
+}

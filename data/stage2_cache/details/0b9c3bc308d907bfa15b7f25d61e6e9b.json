@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 886,
+    "title": "Neural network with fixed noise for index-tracking portfolio optimization",
+    "abstract": "Index tracking portfolio optimization is popular form of passive investment strategy, with a steady and profitable performance compared to an active investment strategy. Due to the revival of deep learning in recent years, several studies have been conducted to apply deep learning in the field of finance. However, most studies use deep learning exclusively to predict stock price movement, not to optimize the portfolio directly. We propose a deep learning framework to optimize the index-tracking portfolio and overcome this limitation. We use the output distribution of the softmax layer from the fixed noise as the portfolio weights and verify the tracking performance of the proposed method on the S&P 500 index. Furthermore, by performing the ablation studies on the training-validation dataset split ratio and data normalization, we demonstrate that these are critical parameters for applying deep learning to the portfolio optimization problem. We also verify the generalization performance of the proposed method through additional experiments with another index of a major stock market, the Hang Seng Index (HSI).",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "21c4a6b17f08c5514f63535c73d66c14",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.277735"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on using deep learning to optimize index-tracking portfolios, which is a direct application in the field of portfolio management. The study specifically addresses the optimization of portfolio weights and verifies tracking performance on major stock indices, demonstrating its primary relevance to portfolio management rather than derivatives pricing or financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on using deep learning to optimize index-tracking portfolios, which is a direct application in the field of portfolio management. The study specifically addresses the optimization of portfolio weights and verifies tracking performance on major stock indices, demonstrating its primary relevance to portfolio management rather than derivatives pricing or financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:45.410730"
+}

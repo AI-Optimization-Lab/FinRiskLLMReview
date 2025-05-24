@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1648,
+    "title": "A novel classifier ensemble approach for financial distress prediction",
+    "abstract": "Financial distress prediction is very important to financial institutions who must be able to make critical decisions regarding customer loans. Bankruptcy prediction and credit scoring are the two main aspects considered in financial distress prediction. To assist in this determination, thereby lowering the risk borne by the financial institution, it is necessary to develop effective prediction models for prediction of the likelihood of bankruptcy and estimation of credit risk. A number of financial distress prediction models have been constructed, which utilize various machine learning techniques, such as single classifiers and classifier ensembles, but improving the prediction accuracy is the major research issue. In addition, aside from improving the prediction accuracy, there have been very few studies that specifically consider lowering the Type I error. In practice, Type I errors need to receive careful consideration during model construction because they can affect the cost to the financial institution. In this study, we introduce a classifier ensemble approach designed to reduce the misclassification cost. The outputs produced by multiple classifiers are combined by utilizing the unanimous voting (UV) method to find the final prediction result. Experimental results obtained based on four relevant datasets show that our UV ensemble approach outperforms the baseline single classifiers and classifier ensembles. Specifically, the UV ensemble not only provides relatively good prediction accuracy and minimizes Type I/II errors, but also produces the smallest misclassification cost.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7ec483258905b6686aa9d6e46310fa36",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:42.612918"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种分类器集成方法，用于预测财务困境（如破产预测和信用评分），这直接关系到金融机构的信用风险管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是开发一种分类器集成方法，用于预测财务困境（如破产预测和信用评分），这直接关系到金融机构的信用风险管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:18.875722"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 115,
+    "title": "A neural network versus Black-Scholes: A comparison of pricing and hedging performances",
+    "abstract": "The Black-Scholes formula is a well-known model for pricing and hedging derivative securities. It relies, however, on several highly questionable assumptions. This paper examines whether a neural network (MLP) can be used to find a call option pricing formula better corresponding to market prices and the properties of the underlying asset than the Black-Scholes formula' The neural network method is applied to the out-of-sample pricing and delta-hedging of daily Swedish stock index call options from 1997 to 1999. The relevance of a hedge-analysis is stressed further in this paper. As benchmarks, the Black-Scholes model with historical and implied volatility estimates are used. Comparisons reveal that the neural network models outperform the benchmarks both in pricing and hedging performances. A moving block bootstrap is used to test the statistical significance of the results. Although the neural networks are superior, the results are sometimes insignificant at the 5% level. Copyright (C) 2003 John Wiley Sons, Ltd.",
+    "year": 2003,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "3af030f49102fb49389036f6e17db9de",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.333549"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用神经网络模型对股票指数看涨期权进行定价和delta对冲，并与Black-Scholes模型进行比较。这直接涉及衍生品定价领域，特别是期权的定价和风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用神经网络模型对股票指数看涨期权进行定价和delta对冲，并与Black-Scholes模型进行比较。这直接涉及衍生品定价领域，特别是期权的定价和风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:32.748835"
+}

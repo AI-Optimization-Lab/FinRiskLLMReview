@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 780,
+    "title": "Unsupervised Learning Part-based Representation for Stocks Market Prediction",
+    "abstract": "Machine learning has been extensively studied for its potentials in prediction of financial markets. Popular predicting models, such as logistic regression, are quite effective in predicting the trend of a stock. A robust classifier can maximize the profit of stock purchase while keep the risk low. In this paper, we present a theoretical and empirical framework to apply L2-regularized logistic regression to predict the stock market. Firstly, we select ten factors that may influence the stock trend, and use logistics regression to model the relationship of these factors and the quality of stocks. Instead of directly using logistic regression on the original data, we firstly used NMF to unsupervised learn part-based representations of the data, and then a classifier is trained on those representations. Our experimental results suggest that logistic regression with part-based representation of data is a powerful predictive tool for stock predictions in the financial market.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ebd808e76bc6f3e5447f6d56ab982bd9",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "classification",
+      "regression",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:08.006323"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用无监督学习和逻辑回归预测股票市场趋势，虽然涉及金融市场，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用无监督学习和逻辑回归预测股票市场趋势，虽然涉及金融市场，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:41.218068"
+}

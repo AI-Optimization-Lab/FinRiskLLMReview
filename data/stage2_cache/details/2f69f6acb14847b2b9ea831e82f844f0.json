@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1098,
+    "title": "Portfolio Optimization Based on Artificial Neural Network and GARCH-EVT-Copula Models",
+    "abstract": "Forecasting volatility is an essential task in the financial market, especially in portfolio optimization. To improve the prediction accuracy of the volatilities of assets we use a hybrid ANN-EGARCH model then combining with extreme value theory and Copula models to perform out-of-sample forecasting returns for six indices in Asia stock markets then we simulate one-day-ahead returns of these indices. We use EGARCH model to capture the leverage of return shocks due to COVID-19. Based on ANN-EGARCH-EVT-Copula models, we solve our portfolio optimization consisting of these six indices with different copula models. Using different performance measures to evaluate the efficiency of the models we show that under the Sharpe ratio and Sortino ratio the Gumbel copula gives better performance whereas with Average Drawdown and Max Drawdown measures, the Gaussian copula model is a best model for optimizing the portfolio.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5cba49d6e43c2f59bea2afc2666f406b",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.326855"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用人工神经网络和GARCH-EVT-Copula模型进行投资组合优化，并评估不同Copula模型在优化投资组合中的表现。论文明确提到解决投资组合优化问题，并使用不同的绩效指标评估模型效率，这直接指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用人工神经网络和GARCH-EVT-Copula模型进行投资组合优化，并评估不同Copula模型在优化投资组合中的表现。论文明确提到解决投资组合优化问题，并使用不同的绩效指标评估模型效率，这直接指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:41.604846"
+}

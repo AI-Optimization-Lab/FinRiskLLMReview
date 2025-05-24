@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1929,
+    "title": "The FA-SAA Algorithm for CVaR Optimization",
+    "abstract": "This paper develops a unified algorithm to address the Conditional Value at Risk (CVaR) optimization problem characterized by two levels of expectations, where the inner-level expectation handles the repricing of the financial instruments and the outer-level expectation represents the risk measure. We propose an FA-SAA algorithm that tackles the inner-level expectation through function approximation (FA) method and addresses the outer-level expectation by sample average approximation (SAA). A variety of machine learning methods can be incorporated into this algorithm and eventually the optimization problem is reformulated into a linear programming problem, whose optimal value and optimal solution converge to the actual ones. Besides, we demonstrate that the convergence rate of optimal value can achieve O-P(Gamma(-1/2)). The numerical results substantiate the efficacy of our proposed algorithm.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "87ef4418361ce31f02189186b113ac81",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:14.337673"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是解决Conditional Value at Risk (CVaR)优化问题，CVaR是一种广泛用于金融风险管理的风险度量方法。论文中提到的内层期望处理金融工具的重新定价，外层期望代表风险度量，这些都直接指向金融风险管理的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是解决Conditional Value at Risk (CVaR)优化问题，CVaR是一种广泛用于金融风险管理的风险度量方法。论文中提到的内层期望处理金融工具的重新定价，外层期望代表风险度量，这些都直接指向金融风险管理的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:11.691014"
+}

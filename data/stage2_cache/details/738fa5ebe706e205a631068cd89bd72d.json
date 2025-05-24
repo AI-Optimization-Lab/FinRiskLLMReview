@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 217,
+    "title": "A spatially-continuous neural network temperature model for weather derivatives evaluation",
+    "abstract": "This manuscript develops a spatially continuous temperature model for pricing weather derivatives. We formulate temperature at any specific point as a function of its longitude and latitude coordinates. Using satellite climate data, we learn this function using deep neural networks and use it to model and forecast temperature. More specifically, our model allows for describing temperature dynamics at any point within the zone of interest, even when there is no available temperature data at that specific location. This approach enhances our ability to evaluate climate risk with greater precision across different regions. Furthermore, we design a neural network architecture that maintains model explainability, which is crucial for promoting the use of these methods in real-life applications. Through numerical experiments with NASA-MERRA-2 satellite data, we illustrate the model's application in pricing Heating Degree Day (HDD) derivatives. Additionally, we explore potential extensions of the model to improve forecasting accuracy further.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "5feb50fedd9848b655f3d556491d7bba",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.178629"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是开发一个空间连续的神经网络温度模型，用于定价天气衍生品（如HDD衍生品），这直接属于衍生品定价的范畴。论文明确提到其模型的应用场景是天气衍生品的定价，并通过数值实验验证了这一点。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是开发一个空间连续的神经网络温度模型，用于定价天气衍生品（如HDD衍生品），这直接属于衍生品定价的范畴。论文明确提到其模型的应用场景是天气衍生品的定价，并通过数值实验验证了这一点。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:04.327822"
+}

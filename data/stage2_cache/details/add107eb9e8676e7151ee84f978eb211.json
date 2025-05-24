@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 348,
+    "title": "Towards Parallel and Distributed Computing on GPU for American Basket Option Pricing",
+    "abstract": "This article presents a GPU adaptation of a specific Monte Carlo and classification based method for pricing American basket options, due to Picazo. Some optimizations are exposed to get good performance of our parallel algorithm on GPU. In order to benefit from different GPU devices, a dynamic strategy of kernel calibration is proposed. Future work is geared towards the use of distributed computing infrastructures such as Grids and Clouds, equipped with GPUs, in order to benefit for even more parallelism in solving such computing intensive problem in mathematical finance.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "34513023455b413efb28fe64a4ba9a09",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:13.135589"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用GPU进行并行和分布式计算，专门用于定价美式篮子期权（American basket options），这直接属于衍生品定价领域。论文的研究目标和应用场景明确指向金融衍生品的定价问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用GPU进行并行和分布式计算，专门用于定价美式篮子期权（American basket options），这直接属于衍生品定价领域。论文的研究目标和应用场景明确指向金融衍生品的定价问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:14.084121"
+}

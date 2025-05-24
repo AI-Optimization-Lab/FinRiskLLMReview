@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 824,
+    "title": "An application of sparse-group lasso regularization to equity portfolio optimization and sector selection",
+    "abstract": "In this paper, we propose a modified mean-variance portfolio selection model that incorporates the sparse-group lasso (abbreviated as SGLasso) regularization in machine learning. This new model essentially has three merits: first, it allows investors to incorporate their preference over equity sectors when constructing portfolios; second, it helps investors select sectors based on assets' past performances as it encourages sparsity among sectors; third, it has stabilizing and sparsifying effect on the entire portfolio. We connect our model to a robust portfolio selection problem, and investigate effects of the SGLasso regularization on the optimal strategy both theoretically and empirically. We develop an efficient algorithm to find the optimal portfolio and prove its global convergence. We demonstrate the efficiency of the algorithm through simulated experiments under large datasets and evaluate the out-of-sample performance of our model via empirical tests across different datasets.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "35e499be4692c6820271690650bd2d0c",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.466261"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on a modified mean-variance portfolio selection model that incorporates sparse-group lasso regularization, which is directly related to optimizing and selecting equity portfolios. The study's objectives, methodology, and empirical tests are all centered around improving portfolio construction and sector selection, which are core aspects of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on a modified mean-variance portfolio selection model that incorporates sparse-group lasso regularization, which is directly related to optimizing and selecting equity portfolios. The study's objectives, methodology, and empirical tests are all centered around improving portfolio construction and sector selection, which are core aspects of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:25.044946"
+}

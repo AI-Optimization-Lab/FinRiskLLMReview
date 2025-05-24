@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1351,
+    "title": "A machine learning algorithm for stock picking built on information based outliers",
+    "abstract": "Stock picking based on regularities in time series is one of the most studied topics in the financial industry. Various machine learning techniques have been employed for this task. We build a trading strategy algorithm that receives as input indicators defined through outliers in the time series of stocks (return, volume, volatility, bid-ask spread). The procedure identifies the most relevant subset of indicators for the prediction of stock returns by combining an heuristic search strategy, guided from the Information Gain Criterium, with the Naive-Bayes classification algorithm. We apply the methodology to two sets of stocks belonging respectively to the EUROSTOXX50 and the DOW JONES index. Performance is smoother than in the Buy&Hold strategy and yields a higher risk-adjusted return, in particular in a turbulent period. However, outperformance vanishes when transaction costs (5-15 basis points) are inserted. Asset return and return/volume serial correlation turn out to be the most relevant indicators to build the trading algorithm.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8c5f184c2f7f99e837767d701710003a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:44.853545"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建一个基于机器学习的股票选择算法，用于预测股票回报并构建交易策略，这直接涉及投资组合管理中的资产选择和交易策略优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建一个基于机器学习的股票选择算法，用于预测股票回报并构建交易策略，这直接涉及投资组合管理中的资产选择和交易策略优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:28.428116"
+}

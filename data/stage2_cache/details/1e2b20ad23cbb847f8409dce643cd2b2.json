@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1078,
+    "title": "Quantitative Investment with Machine Learning in US Equity Market",
+    "abstract": "Quantitative investment attempts to use computer algorithms to predict the price of securities and make automatic trading, in order to gain excess return on the stocks. This paper introduces a strategy based on machine learning algorithms and technical indicators. The model uses several popular technical indicators as inputs and predicts the movement of stock price after a certain short period. Then, a portfolio is constructed using the prediction result. The strategy buys the stocks whose returns exceed the predetermined threshold and sells (shorts) the stocks whose return are below the negative threshold. The empirical results show that the annual return is above 40%, which is far higher than the S&P500 index(2.14%). Considering the risk-adjusted return, the machine learning strategy is better than the S&P500 index. The Sharpe Ratio is higher than that of the S&P500.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "98966022c6a6842e289ae0532c9d92b7",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.954499"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于机器学习算法和技术指标预测股票价格变动，并据此构建投资组合进行自动交易，这属于投资组合管理的范畴。论文未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于机器学习算法和技术指标预测股票价格变动，并据此构建投资组合进行自动交易，这属于投资组合管理的范畴。论文未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:45.368208"
+}

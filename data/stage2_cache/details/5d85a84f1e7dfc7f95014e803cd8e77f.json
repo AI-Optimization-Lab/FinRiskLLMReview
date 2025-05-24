@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 357,
+    "title": "Pricing derivatives on graphics processing units using Monte Carlo simulation",
+    "abstract": "This paper is about using the existing Monte Carlo approach for pricing European and American contracts on a state-of-the-art graphics processing unit (GPU) architecture. First, we adapt on a cluster of GPUs two different suitable paradigms of parallelizing random number generators, which were developed for CPU clusters. Because in financial applications, we request results within seconds of simulation, the sufficiently large computations should be implemented on a cluster of machines. Thus, we make the European contract comparison between CPUs and GPUs using from one up to 16 nodes of a CPU/GPU cluster. We show that using GPUs for European contracts reduces the execution time by approximate to 40 and diminishes the energy consumed by approximate to 50 during the simulation. In the second set of experiments, we investigate the benefits of using GPUs' parallelization for pricing American options that require solving an optimal stopping problem and which we implement using the Longstaff and Schwartz regression method. The speedup result obtained for American options varies between two and 10 according to the number of generated paths, the dimensions, and the time discretization. Copyright (c) 2012 John Wiley & Sons, Ltd.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "92e4d83b128a67e17902e68c442ada30",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:13.147749"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用蒙特卡洛模拟在GPU上定价欧式和美式期权，这直接属于衍生品定价领域。论文明确提到了欧式和美式合约的定价，并讨论了Longstaff和Schwartz回归方法在美式期权定价中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用蒙特卡洛模拟在GPU上定价欧式和美式期权，这直接属于衍生品定价领域。论文明确提到了欧式和美式合约的定价，并讨论了Longstaff和Schwartz回归方法在美式期权定价中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:13.955752"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3033,
+    "title": "Adaptive stochastic risk estimation of firm operating profit",
+    "abstract": "This paper presents an adaptive stochastic approach to model and estimate the risk measures of the operating profit of a non-financial business. On the one hand, exogenous financial market variables specific to a country, including foreign exchange, interest, and inflation rates, are stochastically modeled via ARCH/GARCH, Vasicek, and regime-switching mean-reverting processes, respectively. Then, the dependency among all financial variables is captured via a residual Student-t copula. On the other hand, as opposed to traditional business planning whereby a few discrete base/best/worst-case scenarios are developed through a limited number of fixed models, nine distinct revenue and five non-revenue models, including ARIMA, principal component analysis (PCA), and principal component regression (PCR) are introduced to be adaptively selected to calculate the operating profit of a business. Finally, the stochastic exogenous financial market and operating profit model of the business are integrated to estimate various risk measures, including the CVaR, of the operating profit. The paper concludes with a case study on the adaptive generation of a stochastic business operating model and estimation of risk measures of the operating profit of a sample, publicly-traded corporation.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c431df8ed7492862f2f7f8f351fd87ff",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T02:21:52.204481"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on modeling and estimating risk measures of a firm's operating profit using stochastic approaches and various financial models, which is directly related to financial risk management. It does not specifically address derivatives pricing or portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on modeling and estimating risk measures of a firm's operating profit using stochastic approaches and various financial models, which is directly related to financial risk management. It does not specifically address derivatives pricing or portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:32.361837"
+}

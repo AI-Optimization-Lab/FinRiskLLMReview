@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 525,
+    "title": "A multi-agent reinforcement learning framework for optimizing financial trading strategies based on TimesNet",
+    "abstract": "An increasing number of studies have shown the effectiveness of using deep reinforcement learning to learn profitable trading strategies from financial market data. However, a single-agent model is not sufficient to handle complex financial scenarios. To address this problem, a novel approach called Multi-Agent Double Deep Q-Network (Later called MADDQN) is proposed in this study, which reasonably balances the pursuit of maximum revenue and the avoidance of risk under the multi-agent reinforcement learning framework by innovatively employing two different agents represented respectively by two time-series feature extraction networks, TimesNet, and the Multi-Scale Convolutional Neural Network. Furthermore, to achieve a more generalized model suitable for different underlying assets, a mixed dataset containing three major U.S. stock indexes is collected. And the proposed model has been pre-trained in this dataset and subsequently refined for the specified asset. The results from experiments on five different stock indices show that the proposed MADDQN has an average cumulative return of 23.08%, outperforming the other baseline methods. Besides, the multi-agent model demonstrates its advantage in balancing the risk and revenue, in comparison with the single-agent models. Additionally, The generalization experiments confirm that the proposed MADDQN method after pre-training in the proposed mixed dataset could be stably transferred to the other underlying assets with a refinement. These findings indicate that the proposed framework not only achieves good performance in complex financial market environments but also is able to generalize robustly across different scenarios in various markets.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4eaf08e59521ee0421d4f05eae198ba8",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "representation learning",
+      "unsupervised pre-train"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.218627"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用多智能体强化学习框架来优化金融交易策略，旨在平衡收益和风险，这直接关联到投资组合管理的核心目标。论文的实验设计和结果验证了其在股票指数交易中的应用，进一步确认了其属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用多智能体强化学习框架来优化金融交易策略，旨在平衡收益和风险，这直接关联到投资组合管理的核心目标。论文的实验设计和结果验证了其在股票指数交易中的应用，进一步确认了其属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:06.682975"
+}

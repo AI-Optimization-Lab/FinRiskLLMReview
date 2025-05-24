@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 199,
+    "title": "On application of nonparametric regression estimation to options pricing",
+    "abstract": "We consider American options also called Bermudan options in discrete time. We use the dual approach to derive upper bounds on the price of such options using only a reduced number of nested Monte Carlo steps. The key idea is to use nonparametric regression to estimate continuation values and all other required conditional expectations and to combine the resulting estimate with another estimate computed by using only a reduced number of nested Monte Carlo steps. The mean value of the resulting estimate is an upper bound on the option price. One can show that the estimates of the option prices are universally consistent, i.e., they converge to the true price regardless of the structure of the continuation values. The finite sample behavior is validated by experiments on simulated data.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "33f1a2e765f07df7584cc4d3cb3b683c",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.137683"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是非参数回归估计，用于美国期权（也称为百慕大期权）的定价。论文明确讨论了如何通过减少嵌套蒙特卡洛步骤的数量来推导此类期权价格的上限，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是非参数回归估计，用于美国期权（也称为百慕大期权）的定价。论文明确讨论了如何通过减少嵌套蒙特卡洛步骤的数量来推导此类期权价格的上限，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:06.878729"
+}

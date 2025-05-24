@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 381,
+    "title": "Moment matching machine learning methods for risk management of large variable annuity portfolios",
+    "abstract": "Variable annuity (VA) with embedded guarantees have rapidly grown in popularity around the world in recent years. Valuation of VAs has been studied extensively in past decades. However, most of the studies focus on a single contract. These methods can be extended neither to valuate nor to manage the risk of a large variable annuity portfolio due to the computational complexity. In this paper, we propose an efficient moment matching machine learning method to solve this problem. This method is proved to be a good candidate for risk management in terms of the speed of and the complexity of computing the annual dollar deltas, VaRs and CVaRs for a large variable annuity portfolio whose contracts are over a period of 25 years. There are two stages for our method. First, we select a small number of contracts and propose a moment matching Monte Carlo method based on the Johnson curve, rather than the well known nested simulations, to compute the annual dollar deltas, VaRs and CVaRs for each selected contract. Then, these computed results are used as a training set for well known machine learning methods, such as regression tree, neural network and so on. Afterwards, the annual dollar deltas, VaRs and CVaRs for the entire portfolio are predicted through the trained machine learning method. Compared to other existing methods Bauer et al. (2008); Gan (2013); Gan and Lin (2015), our method is very efficient and accurate. Finally, our test results support our claims. (C) 2017 Elsevier B.V. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9fc36746914e5667dd278ed22595422f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.587297"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a moment matching machine learning method for efficiently computing risk metrics such as annual dollar deltas, VaRs, and CVaRs for large variable annuity portfolios. The primary application is clearly in the domain of financial risk management, as it addresses the computational challenges in assessing and managing the risk of these portfolios.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a moment matching machine learning method for efficiently computing risk metrics such as annual dollar deltas, VaRs, and CVaRs for large variable annuity portfolios. The primary application is clearly in the domain of financial risk management, as it addresses the computational challenges in assessing and managing the risk of these portfolios.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:15.128708"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 225,
+    "title": "Deep weighted Monte Carlo: a hybrid option pricing framework using neural networks",
+    "abstract": "Recent studies have demonstrated the efficiency of Variational Autoencoders (VAE) to compress high-dimensional implied volatility surfaces into a low dimensional representation. Although this method can be effectively used for pricing vanilla options, it does not provide any explicit information about the dynamics of the underlying asset. In our work we present an effective way to overcome this problem. We use a Weighted Monte Carlo approach to first generate paths from a simple a priori Brownian dynamics, and then calculate path weights to price options correctly. We develop and successfully train a neural network that is able to assign these weights directly from the latent space. Combining the encoder network of the VAE and this new weight assigner module, we are able to build a dynamic pricing framework which cleanses the volatility surface from irrelevant noise fluctuations, and then can price not just vanillas, but also exotic options on this idealized vol surface. This pricing method can provide relative value signals for option traders.Key findings of the paper: We confirmed the success of Variational Autoencoders in compressing volatility surfaces into low dimensional latent spaces in the swaption market.We successfully extracted the physically meaningful information from the latent representation of the market by translating the latent coordinates into weights of Monte Carlo paths.We developed a hybrid approach by combining Deep Learning and Weighted Monte Carlo that can price any type of option consistently with the latent model represented by the fully trained VAE.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "4236d704914c745ca1a396c29d547253",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder",
+      "variational autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.190157"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是结合深度学习和加权蒙特卡洛方法来定价期权，包括普通期权和奇异期权，这直接属于衍生品定价的范畴。论文明确提到构建了一个动态定价框架，并能够为期权交易者提供相对价值信号。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是结合深度学习和加权蒙特卡洛方法来定价期权，包括普通期权和奇异期权，这直接属于衍生品定价的范畴。论文明确提到构建了一个动态定价框架，并能够为期权交易者提供相对价值信号。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:03.200757"
+}

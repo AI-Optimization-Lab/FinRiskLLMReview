@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1478,
+    "title": "An efficient and versatile Kriging-based active learning method for structural reliability analysis",
+    "abstract": "In structural reliability analysis, the development of an efficient and versatile active learning method applicable to problems of varying complexities remains a challenging task. The critical contribution of this work is the elegant implementation of the Kriging-based importance sampling and dimension reduction techniques within an active learning framework. Specifically, the proposed algorithm employs a dimension reduction technique that considers the contributions of important and unimportant random variables, enabling it to handle high-dimensional problems effectively. To exploit the merits of the adaptive Kriging method, a quasi-optimal importance sampling density is established based on the predictive information provided by the Kriging model. Additionally, a novel learning function allocation (LFA) strategy is proposed to automatically select the appropriate learning function from a portfolio of options. This facilitates the selection of new samples near the limit state surface with significant contributions to the failure probability. Moreover, an efficient stopping criterion is introduced to terminate the active learning process at an appropriate stage effectively. In other words, the proposed method inherits the merits of Adaptive Kriging, Dimension Reduction, and Importance Sampling, hence named AK-DRIS in this study. The overall performance of AK-DRIS is verified through several numerical examples of different complexities.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "966a92bcd4558bcecf434520b53b7880",
+    "relevant_keywords": [
+      "active learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:08.390122"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要讨论的是结构可靠性分析中的Kriging-based主动学习方法，虽然涉及了重要性采样和降维技术，但并未明确指出这些技术在衍生品定价、金融风险管理或投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要讨论的是结构可靠性分析中的Kriging-based主动学习方法，虽然涉及了重要性采样和降维技术，但并未明确指出这些技术在衍生品定价、金融风险管理或投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:42.559440"
+}

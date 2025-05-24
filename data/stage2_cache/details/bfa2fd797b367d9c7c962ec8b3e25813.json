@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 792,
+    "title": "Estimating Financial Fraud through Transaction-Level Features and Machine Learning",
+    "abstract": "In today's world, financial institutions (FIs) play a pivotal role in any country's economic growth and are vital for intermediation between the providers of investable funds, such as depositors, investors and users. FIs focus on developing effective policies for financial fraud risk mitigation however, timely prediction of financial fraud risk helps overcome it effectively and efficiently. Thus, herein, we propose a novel approach for predicting financial fraud using machine learning. We have used transaction-level features of 6,362,620 transactions from a synthetic dataset and have fed them to various machine-learning classifiers. The correlation of different features is also analysed. Furthermore, around 5000 more data samples were generated using a Conditional Generative Adversarial Network for Tabular Data (CTGAN). The evaluation of the proposed predictor showed higher accuracies which outperformed the previously existing machine-learning-based approaches. Among all 27 classifiers, XGBoost outperformed all other classifiers in terms of accuracy score with 0.999 accuracies, however, when evaluated through exhaustive repeated 10-fold cross-validation, the XGBoost still gave an average accuracy score of 0.998. The findings are particularly relevant to financial institutions and are important for regulators and policymakers who aim to develop new and effective policies for risk mitigation against financial fraud.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f4e392b9c9620f8f54bafd00520a4d0a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "XGBoost",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:08.062008"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法预测金融欺诈，这属于金融风险管理中的操作风险控制范畴。论文明确提到其研究目标是帮助金融机构和政策制定者开发有效的风险缓解策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法预测金融欺诈，这属于金融风险管理中的操作风险控制范畴。论文明确提到其研究目标是帮助金融机构和政策制定者开发有效的风险缓解策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:39.927483"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1290,
+    "title": "Can deep reinforcement learning beat 1/N",
+    "abstract": "Deep reinforcement learning (DRL) has emerged as a promising tool for portfolio management. However, limited datasets in prior research hinder the generalizability of findings. We conduct a large-scale evaluation of the Soft Actor-Critic (SAC) algorithm across seven diverse equity datasets, spanning over 300 years of out-of-sample data. While SAC demonstrates market timing potential, it does not systematically outperform a 1N benchmark in a frictionless setting. SAC's high turnover leads to negative net returns under modest transaction costs (0.1%), whereas the N strategy and alternative lower-turnover strategies remain robust. Distribution-based and tail- 1 risk measures do not reveal a consistent advantage for SAC. Our results highlight the practical challenges faced by high-frequency DRL strategies and emphasize the need for future research on cost-aware DRL methods and robust validation protocols.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3ac8574c2db30bba2b878ec9c9cc742a",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:24.582949"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on evaluating the performance of deep reinforcement learning (specifically the Soft Actor-Critic algorithm) in portfolio management, comparing it to a 1/N benchmark strategy. The study examines aspects like market timing, turnover, and net returns, which are central to portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on evaluating the performance of deep reinforcement learning (specifically the Soft Actor-Critic algorithm) in portfolio management, comparing it to a 1/N benchmark strategy. The study examines aspects like market timing, turnover, and net returns, which are central to portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:07.464068"
+}

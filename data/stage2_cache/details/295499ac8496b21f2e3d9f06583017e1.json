@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 2200,
+    "title": "Reassessment of Corporate Credit Risk Identification: Novel Discoveries from Integrated Machine Learning Models",
+    "abstract": "Credit risk identification has always been a crucial area of research for mitigating and resolving significant risks. However, the traditional credit risk identification model suffers from two major limitations: 'false identification' and 'heterogeneity of industry credit risk features', making it challenging for financial institutions to comprehensively grasp these features across different industries. Therefore, this study aims to address these aforementioned issues. For 'false identification', this paper constructs five sample equalization algorithm pools, mainly SMOTE, CC, ADASYN, K means-SMOTE and SMOTE-ENN. To address the 'heterogeneity of industry credit risk features', the RFE method is utilized to solve this problem. By integrating these processes into machine learning algorithm, the SMOTE-ENN-RFE-RF-RSC integrated algorithm is finally developed. Furthermore, a comprehensive evaluation index LWEI is constructed to assess the performance of the model. In the index LWEI, the entropy weight method is utilized to integrate several other metrics, including Accuracy, G-mean andYI\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\text{YI}$$\\end{document}. Finally, empirical analysis is conducted using default data obtained from listed companies collected by CNRDS (China Research Data Service Platform: https://www.cnrds.com/Home/Index) as well as data from a specific cash lending company. The empirical findings demonstrate that: 1) The proposed SMOTE-ENN-RFE-RF-RSC model outperforms the SMOTE-ENN-XGBoost-RSC, SMOTE-ENN-LightGBM-RSC and SMOTE-ENN-KNN-RSC models, as well as the Lass model or SMOTE-Logit-BPNN, LightGBM, Bayes-XGBoost and GA-BPNN models. It effectively addresses both the issues of false identification and heterogeneity of industry credit risk features simultaneously; 2) Corporate profitability-related features predominantly contribute to the credit risk, while the impact of long-term debt risk on corporate default is limited. These research outcomes offer valuable insights and support to financial institutions such as banks and financial risk regulators in enhancing their credit risk identification and management practices.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a070684cf19720cd178308e95e608c10",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:17.459773"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit risk identification using integrated machine learning models, which is a core aspect of financial risk management. The study addresses issues like 'false identification' and 'heterogeneity of industry credit risk features,' and provides empirical analysis using default data from listed companies and a cash lending company. These are directly related to managing and mitigating financial risks, particularly credit risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit risk identification using integrated machine learning models, which is a core aspect of financial risk management. The study addresses issues like 'false identification' and 'heterogeneity of industry credit risk features,' and provides empirical analysis using default data from listed companies and a cash lending company. These are directly related to managing and mitigating financial risks, particularly credit risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:42.551111"
+}

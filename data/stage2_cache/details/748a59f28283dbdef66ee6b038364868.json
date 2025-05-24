@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 6,
+    "title": "基于LSTM的期权定价研究",
+    "abstract": "期权是一种高度杠杆化的金融衍生品，在套利、套期保值方面具有突出的优势。经典的参数化定价方法，如Black-Scholes、Heston模型等，都是在较为苛刻的前提下，采用随机过程来描述股价的变化趋势。然而实际期权市场与上述严格假设条件具有较大差异，因此传统参数定价方法误差过大。因此，文章着眼于非参数定价方法，利用深度学习算法来模拟期权定价过程，选取上证50ETF期权数据，在更贴合实际情况的Heston期权定价理论基础上，利用深度学习中的LSTM神经网络对欧式期权定价进行可行研究。其结果表明LSTM模型的预测效果优于传统参数模型，且LSTM神经网络模型的预测精度与深度学习的训练次数有关。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "87f9d74a143c97a0e40cda54c315986c",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:00.857964"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用LSTM神经网络对欧式期权进行定价，并比较了其与传统参数化定价方法的性能。这直接属于衍生品定价的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用LSTM神经网络对欧式期权进行定价，并比较了其与传统参数化定价方法的性能。这直接属于衍生品定价的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:03.629589"
+}

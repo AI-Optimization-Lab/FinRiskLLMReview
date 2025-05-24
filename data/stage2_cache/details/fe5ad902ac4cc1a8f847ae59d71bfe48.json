@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1672,
+    "title": "Efficient Smooth Non-Convex Stochastic Compositional Optimization via Stochastic Recursive Gradient Descent",
+    "abstract": "Stochastic compositional optimization arises in many important machine learning applications. The objective function is the composition of two expectations of stochastic functions, and is more challenging to optimize than vanilla stochastic optimization problems. In this paper, we investigate the stochastic compositional optimization in the general smooth non-convex setting. We employ a recently developed idea of Stochastic Recursive Gradient Descent to design a novel algorithm named SARAH-Compositional, and prove a sharp Incremental First-order Oracle (IFO) complexity upper bound for stochastic compositional optimization: ((n + m)(1/2) epsilon(-2)) in the finite-sum case and O(epsilon(-3)) in the online case. Such a complexity is known to be the best one among IFO complexity results for non-convex stochastic compositional optimization. Numerical experiments on riskadverse portfolio management validate the superiority of SARAH-Compositional over a few rival algorithms.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1fd918abc5764b877c6918e8585cbbc8",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:18.373114"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到数值实验在风险厌恶投资组合管理（risk-averse portfolio management）上验证了算法的优越性，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到数值实验在风险厌恶投资组合管理（risk-averse portfolio management）上验证了算法的优越性，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:01.813307"
+}

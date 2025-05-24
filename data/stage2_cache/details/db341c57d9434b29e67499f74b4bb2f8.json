@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1177,
+    "title": "Predictability of commodity futures returns with machine learning models",
+    "abstract": "We use prevailing machine learning models to investigate the predictability of futures returns in 22 commodities with commodity-specific and macroeconomic factors as predictors. Out-of-sample prediction errors for the majority of futures contracts are lowered compared with those obtained by the baseline models of AR(1) and forecast combinations. Using Shapley values to explain feature importance, we identify dominant predictors for each commodity. A long-short portfolio strategy based on monthly light gradient-boosting machine predictions outperforms the benchmark linear models in terms of annual return, Sharpe ratio, and max drawdown.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "00c11426a2608773004062afd0ea215f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.890313"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型预测商品期货的回报，并基于这些预测构建了一个多空组合策略，这直接属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型预测商品期货的回报，并基于这些预测构建了一个多空组合策略，这直接属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:28.966815"
+}

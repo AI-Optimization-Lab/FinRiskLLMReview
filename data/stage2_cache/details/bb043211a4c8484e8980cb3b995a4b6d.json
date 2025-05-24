@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1329,
+    "title": "Weight-Selected Attribute Bagging for Credit Scoring",
+    "abstract": "Assessment of credit risk is of great importance in financial risk management. In this paper, we propose an improved attribute bagging method, weight-selected attribute bagging (WSAB), to evaluate credit risk. Weights of attributes are first computed using attribute evaluation method such as linear support vector machine (LSVM) and principal component analysis (PCA). Subsets of attributes are then constructed according to weights of attributes. For each of attribute subsets, the larger the weights of the attributes the larger the probabilities by which they are selected into the attribute subset. Next, training samples and test samples are projected onto each attribute subset, respectively. A scoring model is then constructed based on each set of newly produced training samples. Finally, all scoring models are used to vote for test instances. An individual model that only uses selected attributes will be more accurate because of elimination of some of redundant and uninformative attributes. Besides, the way of selecting attributes by probability can also guarantee the diversity of scoring models. Experimental results based on two credit benchmark databases show that the proposed method, WSAB, is outstanding in both prediction accuracy and stability, as compared to analogous methods.",
+    "year": 2013,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1c250a4ffe251af5331eb8003e26d3cf",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:44.750923"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit risk assessment using a machine learning approach, which is a key aspect of financial risk management, specifically in the context of credit risk evaluation.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit risk assessment using a machine learning approach, which is a key aspect of financial risk management, specifically in the context of credit risk evaluation.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:48.691176"
+}

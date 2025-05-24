@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 5143,
+    "title": "A decision support framework for misstatement identification in financial reporting: A hybrid tree-augmented Bayesian belief approach",
+    "abstract": "Over a six-year period, employees and managers at Wells Fargo created 3.5 million false deposit and credit card accounts resulting in $4.8 billion in fines. Following this incident, there has been a newfound focus on effective internal controls. The purpose of the current study is to improve misstatement identification by formulating a novel hybrid decision support framework to a) accurately predict financial misstatements and frauds, b) build a parsimonious model by employing a comprehensive variable selection procedure without hurting (in contrast, potentially improving) the model's prediction power, c) uncover the conditional inter-dependencies between the predictors via a Bayesian-belief based probabilistic network, and d) provide stakeholders with a firm-specific MWIC risk score. In an extensive real-life experimental setup, we validate our decision support system and find that the Tree-Augmented Bayesian Belief Network (TAN) model provides high misstatement identification accuracy results when the variables are selected through the Genetic Algorithm (GA) that employs Random Forests (RF) as the classification algorithm (AUC of 0.856 by employing only 5 out of 23 potential variables). Financial experts and stakeholders can use the probabilistic scores provided, while their intuition/incentive should collaborate with prediction models to make final decision on the cases where the model is not confident enough (i.e., when the probabilistic scores are close to 50/50). These insights enable stakeholders to improve the early warning systems for MWIC and financial misstatements and therefore potential frauds.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "155d7f142358c97f627a9237b7449f19",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:44:43.937211"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是财务报告中的错误陈述识别，虽然涉及金融领域，但其核心技术应用于内部控制和欺诈检测，不属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是财务报告中的错误陈述识别，虽然涉及金融领域，但其核心技术应用于内部控制和欺诈检测，不属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:08.230815"
+}

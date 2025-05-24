@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1799,
+    "title": "Mechanical Selection System of stock portfolio based on Grey relational analysis attribute reduction mechanism",
+    "abstract": "A stock portfolio selection system based on a Grey Relational Analysis (GRA) model, a Fuzzy C-Means (FCM) clustering scheme and Rough Set (RS) theory is proposed. In the proposed approach, 53 financial indices are collected automatically for each stock item every quarter and a GRA model is used to consolidate these indices into six predetermined financial ratios (Grey Relational Grades (GRGs)). The GRGs of the stock items are then clustered using a FCM scheme and the resulting cluster indices are processed using RS theory to identify the lower approximate set within the stock system. The stock items within the lower approximate set are filtered in accordance with established investment principles and the six GRGs of each surviving stock item are then consolidated to a single GRG indicating the overall merit of the corresponding stock item in terms of its ability to maximize the rate of return on the investment portfolio. The validity of the proposed approach is demonstrated using electronic stock data extracted from the financial database maintained by the Taiwan Economic Journal (TEJ). It is shown that the rate of return on the investment portfolio selected using the proposed GRA/FCM/RS system is higher than the average rate of return predicted by the variation in the Taiwan Stock Exchange Capitalization Weighted Stock Index (TAIEX) over the same period. Thus, the feasibility of the GRA-based attribute reduction mechanism and the overall viability of the proposed portfolio selection system are confirmed.",
+    "year": 2013,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2b52c846749794e8158c5d3211abbdd7",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:53.138891"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于灰色关联分析、模糊C均值聚类和粗糙集理论的股票投资组合选择系统，旨在通过优化投资组合来提高回报率，这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于灰色关联分析、模糊C均值聚类和粗糙集理论的股票投资组合选择系统，旨在通过优化投资组合来提高回报率，这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:47.324090"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 4515,
+    "title": "Novel hybrid model based on echo state neural network applied to the prediction of stock price return volatility",
+    "abstract": "The prediction of stock price return volatilities is important for financial companies and investors to help to measure and managing market risk and to support financial decision-making. The literature points out alternative prediction models - such as the widely used heterogeneous autoregressive (HAR) specification - which attempt to forecast realized volatilities accurately. However, recent variants of artificial neural networks, such as the echo state network (ESN), which is a recurrent neural network based on the reservoir computing paradigm, have the potential for improving time series prediction. This paper proposes a novel hybrid model that combines HAR specification, the ESN, and the particle swarm optimization (PSO) metaheuristic, named HAR-PSO-ESN, which combines the feature design of the HAR model with the prediction power of ESN, and the consistent PSO metaheuristic approach for hyperparameters tuning. The proposed model is benchmarked against existing specifications, such as autoregressive integrated moving average (ARIMA), HAR, multilayer perceptron (MLP), and ESN, in forecasting daily realized volatilities of three Nasdaq (National Association of Securities Dealers Automated Quotations) stocks, considering 1-day, 5-days, and 21-days ahead forecasting horizons. The predictions are evaluated in terms of r-squared and mean squared error performance metrics, and the statistical comparison is made through a Friedman test followed by a post-hoc Nemenyi test. Results show that the proposed HAR-PSO-ESN hybrid model produces more accurate predictions on most of the cases, with an average R-2 (coefficient of determination) of 0.635, 0.510, and 0.298, an average mean squared error of 5.78 x 10(-8,) 5.78 x 10(-8), and 1.16 x 10(-) (7), for 1, 5, and 21 days ahead on the test set, respectively. The improvement is statistically significant with an average rank of 1.44 considering the three different datasets and forecasting horizons.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ad6d4980a032fc96f82b7f6dac32cfa3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "echo state network",
+      "ESN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:38:20.269413"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting stock price return volatilities, which is crucial for measuring and managing market risk, a key aspect of financial risk management. The proposed hybrid model aims to improve volatility forecasting, directly supporting risk assessment and decision-making processes in financial markets.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting stock price return volatilities, which is crucial for measuring and managing market risk, a key aspect of financial risk management. The proposed hybrid model aims to improve volatility forecasting, directly supporting risk assessment and decision-making processes in financial markets.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:54.722307"
+}

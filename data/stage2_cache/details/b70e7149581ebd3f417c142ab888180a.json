@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2550,
+    "title": "Unleashing the Potential of Mixed Frequency Data: Measuring Risk with Dynamic Tail Index Regression Model",
+    "abstract": "Understanding why extreme events occur is crucial in many fields, particularly in managing financial market risk. In order to explain such occurrences, it is necessary to use explanatory variables. However, flexible models with explanatory variables are severely lacking in financial market risk management, particularly when the variables are sampled at different frequencies. To address this gap, this article proposes a novel dynamic tail index regression model based on mixed-frequency data, which enables the high-frequency variable of interest to depend on both high- and low-frequency variables within the framework of extreme value regression. Specifically, it concurrently leverages information from low-frequency macroeconomic variables and high-frequency market variables to model the tail distribution of high-frequency returns, consequently enabling the computation of high-frequency Value at Risk and Expected Shortfall. Monte Carlo simulations and empirical studies show that the proposed method effectively models stock market tail risk and produces satisfactory forecasts. Moreover, including macroeconomic variables in the model provides insights for macroprudential regulation.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "26e7aecdd1244a46b46a836eaeb29caa",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:16:32.714560"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on modeling tail risk of high-frequency returns and computing Value at Risk and Expected Shortfall, which are key components of financial risk management. The proposed dynamic tail index regression model is specifically designed to address challenges in financial market risk management by incorporating mixed-frequency data.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on modeling tail risk of high-frequency returns and computing Value at Risk and Expected Shortfall, which are key components of financial risk management. The proposed dynamic tail index regression model is specifically designed to address challenges in financial market risk management by incorporating mixed-frequency data.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:33.055387"
+}

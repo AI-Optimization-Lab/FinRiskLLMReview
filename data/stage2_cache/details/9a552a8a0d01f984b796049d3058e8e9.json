@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 663,
+    "title": "Predicting Mutual Fund Stress Levels Utilizing SEBI's Stress Test Parameters in MidCap and SmallCap Funds Using Deep Learning Models",
+    "abstract": "The Association of Mutual Funds of India (AMFI), under the direction of the Securities and Exchange Board of India (SEBI), provided open access to various risk parameters with respect to MidCap and SmallCap funds for the first time from February 2024. Our study utilizes AMFI datasets from February 2024 to September 2024 which consisted of 14 variables. Among these, the primary variable identified in grading mutual funds is the stress test parameter, expressed as number of days required to liquidate between 50% and 25% of the portfolio, respectively, on a pro-rata basis under stress conditions as a response variable. The objective of our paper is to build and test various neural network models which can help in predicting stress levels with the highest accuracy and specificity in MidCap and SmallCap mutual funds based on AMFI's 14 parameters as predictors. The results suggest that the simpler neural network model architectures show higher accuracy. We used Artificial Neural Networks (ANN) over other machine learning methods due to its ability to analyze the impact of dynamic interrelationships among 14 variables on the dependent variable, independent of the statistical distribution of parameters considered. Predicting stress levels with the highest accuracy in MidCap and SmallCap mutual funds will benefit investors by reducing information asymmetry while allocating investments based on their risk tolerance. It will help policy makers in designing controls to protect smaller investors and provide warnings for funds with unusually high risk.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "50a977e7ef8494df940c3a0d77f5d1d2",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.454011"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型预测共同基金的压力水平，这直接涉及评估和管理金融风险，特别是针对中小盘共同基金的流动性风险。论文的研究目标和应用场景明确指向金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型预测共同基金的压力水平，这直接涉及评估和管理金融风险，特别是针对中小盘共同基金的流动性风险。论文的研究目标和应用场景明确指向金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:53.925103"
+}

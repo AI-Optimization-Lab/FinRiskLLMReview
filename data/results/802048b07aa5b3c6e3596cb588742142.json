@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper employs the Adaboost method, which is a machine learning algorithm, to construct a prediction model.",
+    "supervised learning": "Adaboost is a supervised learning algorithm, and the paper uses it for classification tasks.",
+    "classification": "The paper focuses on predicting the removal of special treatment or delisting risk warning, which is a classification problem.",
+    "decision tree": "Adaboost often uses decision trees as weak learners, though the paper does not explicitly mention decision trees, it is implied by the use of Adaboost."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper employs the Adaboost method, which is a machine learning algorithm, to construct a prediction model.\",\n    \"supervised learning\": \"Adaboost is a supervised learning algorithm, and the paper uses it for classification tasks.\",\n    \"classification\": \"The paper focuses on predicting the removal of special treatment or delisting risk warning, which is a classification problem.\",\n    \"decision tree\": \"Adaboost often uses decision trees as weak learners, though the paper does not explicitly mention decision trees, it is implied by the use of Adaboost.\"\n  }\n}\n```"
+}

@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using machine learning for credit risk modeling in P2P lending.",
+    "supervised learning": "The paper focuses on classification algorithms (XGBoost), which is a type of supervised learning.",
+    "classification": "The paper discusses a classification algorithm (XGBoost) for credit risk modeling.",
+    "decision tree": "XGBoost is an ensemble method based on decision trees, hence relevant to decision tree keyword."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using machine learning for credit risk modeling in P2P lending.\",\n    \"supervised learning\": \"The paper focuses on classification algorithms (XGBoost), which is a type of supervised learning.\",\n    \"classification\": \"The paper discusses a classification algorithm (XGBoost) for credit risk modeling.\",\n    \"decision tree\": \"XGBoost is an ensemble method based on decision trees, hence relevant to decision tree keyword.\"\n  }\n}\n```"
+}

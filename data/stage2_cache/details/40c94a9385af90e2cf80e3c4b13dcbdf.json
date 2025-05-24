@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 332,
+    "title": "Simulation for American options: Regression now or regression later?",
+    "abstract": "Pricing American options requires solving an optimal stopping problem and therefore presents a challenge for simulation. This article investigates connections between a weighted Monte Carlo technique and regression-based methods for this problem. The weighted Monte Carlo technique is shown to be equivalent to a least-squares method in which option values are regressed at a later time than in other regression-based methods. This regression later technique is shown to have two attractive features: under appropriate conditions, (i) it results in less-dispersed estimates, and (ii) it provides a dual estimate (an upper bound) with modest additional effort. These features result, more generally, from using martingale regressors.",
+    "year": 2004,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "3a0e084a4566dfb4b97f0b0c47385da1",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.399034"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文主要研究美式期权的定价问题，通过比较不同的回归方法来解决最优停止问题，这直接属于衍生品定价的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文主要研究美式期权的定价问题，通过比较不同的回归方法来解决最优停止问题，这直接属于衍生品定价的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:15.712493"
+}

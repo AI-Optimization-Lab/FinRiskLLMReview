@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 182,
+    "title": "DGIC: A Distributed Graph Inference Computing Framework Suitable For Encoder-Decoder GNN",
+    "abstract": "*A graph is a structure that can express the relationship between objects. The emergence of GNN enables deep learning to be applied in the field of graphs. However, most GNNs are trained offline and cannot be directly used in real-time monitoring scenarios such as financial risk control. In addition, due to the large scale of graph data, a single machine often cannot meet actual needs, and there are bottlenecks such as throughput performance. Therefore, we propose a distributed graph inference computing framework, which can be applied to Encoder-Decoder GNN models. We complete the adaptation of the model by disassembling the graph data and using the extension storage and dynamic invocation mechanism to solve the model invocation problem. For inference performance, we implement dynamic graph construction through incremental composition and decouple the inference process to apply to different scenarios, so that GNNs conforming to the Encoder-Decoder style can be applied to the framework. A large number of experiments show that this method has good timeliness while improving the throughput upper limit, and can maintain the model effect of multi-tasking.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "57f8bcbf8083089757447e414f8575b8",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "encoder-decoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.409689"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提到其提出的分布式图推理计算框架可以应用于金融风险控制等实时监控场景，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提到其提出的分布式图推理计算框架可以应用于金融风险控制等实时监控场景，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:34.897361"
+}

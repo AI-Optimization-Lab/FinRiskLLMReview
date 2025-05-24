@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 7616,
+    "title": "Site-Adaptation of Modeled Solar Radiation Data: The SiteAdapt Procedure",
+    "abstract": "The adaptation of modeled solar radiation data with coincident ground measurements has become a standard practice of the industry, typically requested by financial institutions in the detailed solar resource assessments of solar projects. This practice mitigates the risk of solar projects, enhancing the adequate solar plant design and reducing the uncertainty of its yield estimates. This work presents a procedure for improving the accuracy of modeled solar irradiance series through site-adaptation with coincident ground-based measurements relying on the use of a regression preprocessing followed by an empirical quantile mapping (eQM) correction. It was tested at nine sites in a wide range of latitudes and climates, resulting in significant improvements of statistical indicators of dispersion, distribution similarity and overall performance: relative bias is reduced on average from -1.8% and -2.3% to 0.1% and 0.3% for GHI and DNI, respectively; relative root mean square deviation is reduced on average from 17.9% and 34.9% to 14.6% and 29.8% for GHI and DNI, respectively; the distribution similarity is also improved after the site-adaptation (KSIis 3.5 and 3.9 times lower for GHI and DNI at hourly scale, respectively). The methodology is freely available as supplementary material and downloadable as R-package from SiteAdapt.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "730ccbc71b121562ac40f903cd924292",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T03:10:32.976235"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究太阳能辐射数据的站点适应方法，虽然提到金融机构在太阳能项目评估中会使用此类数据来降低风险，但论文的核心技术是数据校正和统计方法，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究太阳能辐射数据的站点适应方法，虽然提到金融机构在太阳能项目评估中会使用此类数据来降低风险，但论文的核心技术是数据校正和统计方法，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:34.579678"
+}

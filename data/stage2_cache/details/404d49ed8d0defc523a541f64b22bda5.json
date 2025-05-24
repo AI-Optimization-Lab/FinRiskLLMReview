@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2235,
+    "title": "Dynamic tail dependence clustering of financial time series",
+    "abstract": "In this paper we propose a dynamic clustering procedure for time series returns, aimed at providing a criterion for portfolio selection during financial crisis periods focusing attention on the lower tails of the returns distributions. In particular, for each pair of returns a time-varying distribution function is estimated using a copula function; as a result, the coefficient measuring the lower tail dependence is also time-varying with dynamics based on past market volatility. In this way we model the possible contagion between stocks when volatility increases. Accordingly, the clustering procedure based on the lower tail dependence coefficients provides different aggregations ad each time t. The clustering solutions are used to build optimal minimum Conditional Value-at-Risk portfolios able to outperform classical strategies.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2606b12f215128e8f22e6ce2ecf82964",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:51.011403"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on dynamic clustering of financial time series based on lower tail dependence to model contagion effects during financial crises, which is directly related to risk management. Additionally, the clustering solutions are used to build optimal minimum Conditional Value-at-Risk portfolios, indicating an application in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on dynamic clustering of financial time series based on lower tail dependence to model contagion effects during financial crises, which is directly related to risk management. Additionally, the clustering solutions are used to build optimal minimum Conditional Value-at-Risk portfolios, indicating an application in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:40.779597"
+}

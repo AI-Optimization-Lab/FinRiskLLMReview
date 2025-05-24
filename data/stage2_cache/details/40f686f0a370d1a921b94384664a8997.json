@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 314,
+    "title": "Optimal portfolio selection using quantile and composite quantile regression models",
+    "abstract": "The portfolio optimization problem can be reformulated by a regression model. Mean-variance portfolios, which are constructed using the sample mean and covariance matrix of asset returns can be considered as a function of the ordinary least squares estimator of the linear regression coefficients. It is well known that this estimator has several drawbacks. In particular many researchers have pointed out its high sensitivity in the presence of outliers and its loss of efficiency in the presence of small deviations from the normality assumption. In this paper we propose a novel regression approach for optimizing portfolios by means of quantile regression models. The proposed portfolios are constructed using certain robust and distribution-free estimators and can be obtained by solving a single linear program, where estimation and portfolio optimization are performed in a single step. Our numerical results on simulated and empirical data confirm that the proposed portfolios behave much better than the traditional mean-variance portfolio, in terms of the Sharpe ratio and expected loss in utility.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "74c546a5c831ce42202a31f3e04136c4",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:00.418822"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on optimizing portfolios using quantile regression models, which is a core technique in portfolio management. The study compares the proposed method with traditional mean-variance portfolios and evaluates performance using financial metrics like the Sharpe ratio, clearly indicating its application in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on optimizing portfolios using quantile regression models, which is a core technique in portfolio management. The study compares the proposed method with traditional mean-variance portfolios and evaluates performance using financial metrics like the Sharpe ratio, clearly indicating its application in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:45.995563"
+}

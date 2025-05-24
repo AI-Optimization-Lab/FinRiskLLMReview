@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 551,
+    "title": "Learning portfolio analysis and mining for SCORM compliant environment",
+    "abstract": "With vigorous development of the Internet, e-learning system has become more and more popular. Sharable Content Object Reference Model (SCORM) 2004 provides the Sequencing and Navigation (SN) Specification to define the course sequencing behavior, control the sequencing, selecting and delivering of course, and organize the content into a hierarchical structure, namely Activity Tree. Therefore, how to provide customized course according to individual learning characteristics and capabilities, and how to create, represent and maintain the activity tree with appropriate associated sequencing definition for different learners become two important issues. However, it is almost impossible to design personalized learning activities trees for each learner manually. The information of learning behavior, called learning portfolio, can help teacher understand the reason why a learner got high or low grade. Thus, in this paper, we propose a Learning Portfolio Mining (LPM) Approach including four phases: 1. User Model Definition Phase: define the learner profile based upon existing articles and pedagogical theory. 2. Learning Pattern Extraction Phase: apply sequential pattern mining technique to extract the maximal frequent learning patterns from the learning sequence, transform original learning sequence into a bit vector, and then use distance based clustering approach to group learners with good learning performance into several clusters. 3. Decision Tree Construction Phase: use two third of the learner profiles with corresponding cluster labels as training data to create a decision tree, and the remainings are the testing data. 4. Activity Tree Generation Phase: use each created cluster including several learning patterns as sequencing rules to generate personalized activity tree with associated sequencing rules of SN. Finally, for evaluating our proposed approach of learning portfolio analysis, an experiment has been done and the results show that generated personalized activity trees with sequencing rules are workable and beneficial for learners.",
+    "year": 2006,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5cee586b096d702ad72fba6ccb7bd664",
+    "relevant_keywords": [
+      "decision tree",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:01.265161"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是电子学习系统中的个性化学习路径生成，虽然使用了决策树和聚类等技术，但其应用场景和教育技术相关，与金融领域的衍生品定价、金融风险管理或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是电子学习系统中的个性化学习路径生成，虽然使用了决策树和聚类等技术，但其应用场景和教育技术相关，与金融领域的衍生品定价、金融风险管理或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:57.951346"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 326,
+    "title": "Credit Card Default Prediction Based on XGBoost",
+    "abstract": "We introduce a credit card default prediction model that utilizes XGBoost and RandomUnderSampler to tackle data imbalance issues. We examined extensive borrower data employing various machine learning techniques, such as random forest, logistic regression, AdaBoost, XGBoost, LightGBM, and support vector machine. XGBoost showed superior performance in accuracy and ROC AUC score. To enhance model performance, we applied SMOTE and RandomUnderSampler for data resampling. Through extensive exploratory data analysis and preprocessing, combined with hyper-parameter tuning using GridSearchCV, we developed a high-performing model. This model achieved a ROC AUC score of 0.7882, a precision rate of 21.67%, a recall rate of 79.14%, and an F1 score of 33.85%. Key features influencing credit card default prediction were identified as RevolvingUtilizationOfUnsecuredLines, DebtRatio, and MonthlyIncome. The use of feature importance and SHAP values offered valuable insights into how the model makes its decisions. Additionally, we generated default probabilities to identify high-risk customers. This model serves as an efficient tool for banks and financial institutions to manage credit card default risk, blending theoretical advancements with practical applicability.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a99a73f1678fc55c07a3c619bd2c7e18",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:40.981529"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting credit card defaults using machine learning techniques, which is directly related to managing credit risk—a key aspect of financial risk management. The model aims to identify high-risk customers, providing banks and financial institutions with tools to mitigate potential losses.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting credit card defaults using machine learning techniques, which is directly related to managing credit risk—a key aspect of financial risk management. The model aims to identify high-risk customers, providing banks and financial institutions with tools to mitigate potential losses.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:04.071184"
+}

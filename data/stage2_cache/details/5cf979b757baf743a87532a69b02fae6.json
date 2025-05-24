@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 451,
+    "title": "基于Logistic回归的投资组合配置分析",
+    "abstract": "本文利用logistic模型讨论如何在风暴中安全而稳定的进行各国资产配置,结果发现,金融危机发生的时间点与资产配置的权重成反比,代表参考风险与报酬计算出来之权重,确实能反映出各国金融危机发生的机率,当发生机率越高时会减少权重的配置。然而权重改变在Logistic回归系数为显著的,但解释能力却不高,由于总体经济的变化对于股价的影响往往有时间递延的产生。",
+    "year": 2011,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4dad1b0d00b11123c4469366d4995e0e",
+    "relevant_keywords": [
+      "regression",
+      "sigmoid"
+    ],
+    "stage1_timestamp": "2025-05-14T22:23:06.381027"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用Logistic回归模型分析资产配置权重与金融危机发生机率的关系，并据此调整投资组合配置，这直接属于投资组合管理的研究范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用Logistic回归模型分析资产配置权重与金融危机发生机率的关系，并据此调整投资组合配置，这直接属于投资组合管理的研究范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:36.397101"
+}

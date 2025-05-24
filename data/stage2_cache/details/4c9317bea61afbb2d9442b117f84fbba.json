@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 890,
+    "title": "Dynamic Asset Allocation Using Machine Learning: Seeing the Forest for the Trees",
+    "abstract": "High inflation and aggressive monetary policy tightening in 2022 triggered one of the largest return drawdowns for a US 60/40 portfolio in the last 100 years. In this article, the authors develop a dynamic asset allocation framework based on macro regimes using machine learning to improve the risk/reward versus static balanced portfolios with higher macro volatility. Using both macro and market data, they construct indicators for growth, inflation, and policy to track the business cycle and for risk appetite since 1950. They then use a random forest algorithm on those indicators to identify macro regimes that drive tail risks that matter for portfolio construction around a US 60/40 equity/bond portfolio. Based on real-time regime probabilities, they implement one of three dynamic asset allocation overlays: 1) switch between a 60/40 portfolio and cash, 2) rotate between equities and bonds, and 3) allocate to commodities/gold. The overlays materially enhanced risk-adjusted returns compared with a static 60/40 portfolio since 1950, although results were mixed over time.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5e2ec38457b3ea2b9f25d3cd4c92b141",
+    "relevant_keywords": [
+      "machine learning",
+      "decision tree",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.220532"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是开发一个基于机器学习的动态资产分配框架，旨在通过识别宏观制度来优化投资组合的风险/回报比。这直接涉及投资组合的构建和调整，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是开发一个基于机器学习的动态资产分配框架，旨在通过识别宏观制度来优化投资组合的风险/回报比。这直接涉及投资组合的构建和调整，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:44.418129"
+}

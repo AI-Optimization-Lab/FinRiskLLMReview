@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 41,
+    "title": "基于深度学习的汇率风险监测预警研究",
+    "abstract": "在金融全球化背景下，准确监测和预警汇率风险传染对于防范系统性金融风险、维护金融稳定与安全具有重要意义。本研究通过构建一个包含每日开盘和收盘交易汇率、最高和最低汇率等直接市场因素，以及上证指数、道琼斯指数、黄金期货、美国原油及美元指数等外部环境因素的数据指标体系，利用CNN-BiSTM-AM模型对汇率风险进行动态监测和预警，从而及时识别潜在的汇率风险，防止金融危机的发生。研究结果表明：CNN-BiSTM-AM模型在汇率风险动态监测和预警方面具有较高的预测精度，与其他7个模型相比，平均绝对误差降低了17%，均方根误差降低了15.5%，决定系数提高到0.951。",
+    "year": 2025,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "b8cef9cb0b8e3087fe9cc1dd01b27d0e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-14T22:25:33.446091"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用CNN-BiSTM-AM模型对汇率风险进行动态监测和预警，这直接属于金融风险管理的范畴，旨在防范系统性金融风险和维护金融稳定。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用CNN-BiSTM-AM模型对汇率风险进行动态监测和预警，这直接属于金融风险管理的范畴，旨在防范系统性金融风险和维护金融稳定。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:04.484135"
+}

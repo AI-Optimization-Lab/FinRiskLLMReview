@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1873,
+    "title": "Lossless Transformations and Excess Risk Bounds in Statistical Inference",
+    "abstract": "We study the excess minimum risk in statistical inference, defined as the difference between the minimum expected loss when estimating a random variable from an observed feature vector and the minimum expected loss when estimating the same random variable from a transformation (statistic) of the feature vector. After characterizing lossless transformations, i.e., transformations for which the excess risk is zero for all loss functions, we construct a partitioning test statistic for the hypothesis that a given transformation is lossless, and we show that for i.i.d. data the test is strongly consistent. More generally, we develop information-theoretic upper bounds on the excess risk that uniformly hold over fairly general classes of loss functions. Based on these bounds, we introduce the notion of a delta-lossless transformation and give sufficient conditions for a given transformation to be universally delta-lossless. Applications to classification, nonparametric regression, portfolio strategies, information bottlenecks, and deep learning are also surveyed.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "09edbf40e05e842e822da99fc6b73cc2",
+    "relevant_keywords": [
+      "classification",
+      "regression",
+      "deep learning",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:00:27.413800"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究统计推断中的损失最小化风险和信息论上界，虽然提到了投资组合策略作为应用之一，但这并非论文的核心研究方向。论文的核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究统计推断中的损失最小化风险和信息论上界，虽然提到了投资组合策略作为应用之一，但这并非论文的核心研究方向。论文的核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:19.749381"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 40,
+    "title": "基于LSTM的沪深300ETF期权定价模型研究",
+    "abstract": "将深度学习算法中的长短记忆神经网络（LSTM）引入期权定价的研究中．构建了沪深300ETF看涨期权和看跌期权的LSTM定价模型，进行了实证分析，并和BP神经网络模型的预测结果进行了对比．结果表明，LSTM神经网络模型的预测精度与深度学习的训练次数有关，且LSTM期权定价模型的预测效果要优于传统的BP模型．",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "32acae181c4609761bd476d09a5b311d",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T19:07:40.902242"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用LSTM神经网络模型对沪深300ETF期权进行定价，并与其他模型进行对比，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用LSTM神经网络模型对沪深300ETF期权进行定价，并与其他模型进行对比，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:41.814699"
+}

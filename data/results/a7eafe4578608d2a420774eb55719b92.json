@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "neural network",
+    "deep learning"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using machine learning to predict realized variance and build a volatility index.",
+    "supervised learning": "The methods used (Ridge regression, Feedforward Neural Networks, Random Forest) are supervised learning techniques as they involve training on labeled data.",
+    "regression": "Ridge regression is a regression technique mentioned in the paper for predicting variance.",
+    "neural network": "Feedforward Neural Networks are mentioned as one of the algorithms tested.",
+    "deep learning": "Feedforward Neural Networks can be considered a part of deep learning, especially if they have multiple hidden layers."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"regression\",\n    \"neural network\",\n    \"deep learning\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using machine learning to predict realized variance and build a volatility index.\",\n    \"supervised learning\": \"The methods used (Ridge regression, Feedforward Neural Networks, Random Forest) are supervised learning techniques as they involve training on labeled data.\",\n    \"regression\": \"Ridge regression is a regression technique mentioned in the paper for predicting variance.\",\n    \"neural network\": \"Feedforward Neural Networks are mentioned as one of the algorithms tested.\",\n    \"deep learning\": \"Feedforward Neural Networks can be considered a part of deep learning, especially if they have multiple hidden layers.\"\n  }\n}\n```"
+}

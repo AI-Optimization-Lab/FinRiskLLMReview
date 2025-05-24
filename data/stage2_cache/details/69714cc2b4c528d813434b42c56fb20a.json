@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1035,
+    "title": "AT-FinGPT: Financial risk prediction via an audio-text large language model",
+    "abstract": "Financial risk prediction is crucial for investment decision-making. Traditional machine learning methods are limited by their structures and parameter size, which hinders their generalizability and effectiveness. Large language models (LLMs), which are pretrained with very large dataset and many GPUs have recently shown promising improvements in financial risk prediction. Despite this progress, most existing financial LLMs mainly rely on textual data for training and prediction, overlooking audio data and limiting analysis to text summarization. However, natural language processing studies have shown that audio from CEOs' quarterly earnings calls is crucial for financial risk prediction. In this work, we introduce an audio-text LLM named ATFinGPT, which fuses financial audio data and summarization texts for financial risk prediction. The empirical experimental results show that AT-FinGPT is superior to most advanced methods. Through an ablation study, we demonstrate that different data sources can facilitate financial risk assessment and discuss the effectiveness of each part in the AT-FinGPT model.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3a4539a1d525f02d5a0c92ae5bf318a9",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:08.497899"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on financial risk prediction using an audio-text large language model, which is a core aspect of financial risk management. The study specifically addresses the prediction of financial risks, a key component in managing and mitigating financial uncertainties.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on financial risk prediction using an audio-text large language model, which is a core aspect of financial risk management. The study specifically addresses the prediction of financial risks, a key component in managing and mitigating financial uncertainties.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:22.722366"
+}

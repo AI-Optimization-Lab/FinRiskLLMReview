@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3261,
+    "title": "A Hybrid Method for Feature Construction and Selection to Improve Wind-Damage Prediction in the Forestry Sector",
+    "abstract": "Catastrophic damage to forests resulting from major storms has resulted in serious timber and financial losses within the sector across Europe in the recent past. Developing risk assessment methods is thus one of the keys to finding forest management strategies to reduce future damage. Previous approaches to predicting damage to individual trees have used mechanistic models of wind-flow or logistical regression with mixed results. We propose a novel filter-based Genetic Programming method for constructing a large set of new features which are ranked using the Hellinger distance metric which is insensitive to skew in the data. A wrapper-based feature-selection method that uses a random forest classifier is then applied predict damage to individual trees. Using data collected from two forests within South-West France, we demonstrate significantly improved classification results using the new features, and in comparison to previously published results. The feature-selection method retains a small set of relevant variables consisting only of newly constructed features whose components provide insights that can inform forest management policies.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "048e8048ea3dfc38bd1f20d9d79a9754",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:24:05.269271"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种基于遗传编程的特征构建和选择方法，用于预测森林中树木的风害损失，其应用领域是林业风险管理，而非金融领域的衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种基于遗传编程的特征构建和选择方法，用于预测森林中树木的风害损失，其应用领域是林业风险管理，而非金融领域的衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:37:20.021776"
+}

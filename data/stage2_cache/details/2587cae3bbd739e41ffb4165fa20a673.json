@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1039,
+    "title": "Flexibility Aggregation of Temporally Coupled Resources in Real-Time Balancing Markets Using Machine Learning",
+    "abstract": "In modern power systems with high penetration of renewable energy sources, the flexibility provided by distributed energy resources is becoming invaluable. Demand aggregators offer balancing energy in the real-time balancing market on behalf of flexible resources. A challenging task is the design of the offering strategy of an aggregator. In particular, it is difficult to capture the flexibility cost of a portfolio of flexibility assets within a price-quantity offer, since the costs and constraints of flexibility resources exhibit inter-temporal dependencies. In this article, we propose a generic method for constructing aggregated balancing energy offers that best represent the portfolio's actual flexibility costs, while accounting for uncertainty in future timeslots. For the case study presented, we use offline simulations to train and compare different machine learning (ML) algorithms that receive the information about the state of the flexible resources and calculate the aggregator's offer. Once trained, the ML algorithms can make fast decisions about the portfolio's balancing energy offer in the real-time balancing market. Our simulations show that the proposed method performs reliably towards capturing the flexibility of the Aggregator's portfolio and minimizing the aggregator's imbalances.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "30b3e2b1188aa8ecc6dcdd02638b3500",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.854590"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是电力系统中分布式能源资源的灵活性聚合问题，特别是在实时平衡市场中的应用。虽然提到了'portfolio'和'cost'等术语，但其核心应用场景是能源市场而非金融领域。论文未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是电力系统中分布式能源资源的灵活性聚合问题，特别是在实时平衡市场中的应用。虽然提到了'portfolio'和'cost'等术语，但其核心应用场景是能源市场而非金融领域。论文未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:15.303142"
+}

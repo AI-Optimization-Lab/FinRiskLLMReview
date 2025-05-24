@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2875,
+    "title": "A robust approach for inference on style analysis coefficients",
+    "abstract": "Style analysis is an asset class factor model aiming at obtaining information on the internal allocation of a financial portfolio and at comparing portfolios with similar investment strategies. The aim of the paper is to investigate the use of quantile regression to draw inferences on style coefficients. In particular, we compare an approximation widely used from practitioners, the Lobosco-Di Bartolomeo solution, with robust estimators based on constrained median regression. The inference process exploits a rolling window procedure based on subsampling theory. Different sets of outliers have been simulated in order to show differences in the efficiency, in the coverage error and in the length of the resulting confidence intervals. The proposed solution shows better performance in presence of outliers in Y, in X, or in X and Y, in terms both of empirical coverage and of interval lengths, i.e. whereas the performance of the classical solution deteriorates.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3a49c31f105de5d3de06f1113085b6e1",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:11:17.451203"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究风格分析系数推断的稳健方法，旨在获取金融投资组合的内部配置信息并比较具有相似投资策略的投资组合。这直接涉及投资组合管理的核心内容，即如何分析和优化投资组合的配置和表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究风格分析系数推断的稳健方法，旨在获取金融投资组合的内部配置信息并比较具有相似投资策略的投资组合。这直接涉及投资组合管理的核心内容，即如何分析和优化投资组合的配置和表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:22.036793"
+}

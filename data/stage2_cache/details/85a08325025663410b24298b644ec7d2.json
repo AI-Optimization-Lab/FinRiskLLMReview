@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1161,
+    "title": "A reduced variance unsupervised ensemble learning algorithm based on modern portfolio theory",
+    "abstract": "Unsupervised ensemble learning or consensus clustering has gained popularity due to its ability to combine multiple clustering solutions into a single solution that is robust and often performs better than the individual ones. There have been several approaches to consensus clustering including voting and weighted voting algorithmic schemes. Although there have been several algorithms for adjusting the weights of a consensus clustering all of them are tuned based on some performance characteristic associated with clustering accuracy. In this paper, we propose a method for incorporating weights by taking into consideration the intra algorithmic variability i.e. algorithms that provide solutions with very different performance upon multiple runs. The methodology is inspired by modern portfolio theory and more specifically from Markowitz model for asset allocation where one is trying to identify the most efficient portfolio through the solution of a convex optimization problem. Here, efficiency is defined as the minimum amount of risk for an expected return. We apply this method to different datasets and compare with respect to performance and robustness. The proposed scheme appears to achieve competitive average performance with very low variability.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "06bdda5f5d702836ebe230eae429fb2d",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.857657"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术受到现代投资组合理论（Markowitz模型）的启发，用于解决无监督集成学习中的权重分配问题。虽然论文的主要应用场景是机器学习中的聚类问题，但其方法论直接借鉴了投资组合管理中的风险-回报优化框架，因此可以认为其主要技术应用属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术受到现代投资组合理论（Markowitz模型）的启发，用于解决无监督集成学习中的权重分配问题。虽然论文的主要应用场景是机器学习中的聚类问题，但其方法论直接借鉴了投资组合管理中的风险-回报优化框架，因此可以认为其主要技术应用属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:53.763216"
+}

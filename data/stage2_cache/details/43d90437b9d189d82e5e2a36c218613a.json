@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 5772,
+    "title": "A link mining algorithm for earnings forecast and trading",
+    "abstract": "The objective of this paper is to present and discuss a link mining algorithm called CorpInterlock and its application to the financial domain. This algorithm selects the largest strongly connected component of a social network and ranks its vertices using several indicators of distance and centrality. These indicators are merged with other relevant indicators in order to forecast new variables using a boosting algorithm. We applied the algorithm CorpInterlock to integrate the metrics of an extended corporate interlock (social network of directors and financial analysts) with corporate fundamental variables and analysts' predictions (consensus). CorpInterlock used these metrics to forecast the trend of the cumulative abnormal return and earnings surprise of S&P 500 companies. The rationality behind this approach is that the corporate interlock has a direct effect on future earnings and returns because these variables affect directors and managers' compensation. The financial analysts engage in what the agency theory calls the earnings game: Managers want to meet the financial forecasts of the analysts and analysts want to increase their compensation or business of the company that they follow. Following the CorpInterlock algorithm, we calculated a group of well-known social network metrics and integrated with economic variables using Logitboost. We used the results of the CorpInterlock algorithm to evaluate several trading strategies. We observed an improvement of the Sharpe ratio (risk-adjustment return) when we used long only trading strategies with the extended corporate interlock instead of the basic corporate interlock before the regulation Fair Disclosure (FD) was adopted (1998-2001). There was no major difference among the trading strategies after 2001. Additionally, the CorpInterlock algorithm implemented with Logitboost showed a significantly lower test error than when the CorpInterlock algorithm was implemented with logistic regression. We conclude that the CorpInterlock algorithm showed to be an effective forecasting algorithm and supported profitable trading strategies.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d2061d6f221feb569e84c6b9f813e51e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:51:29.976942"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术CorpInterlink算法用于预测股票收益趋势并评估交易策略，特别是通过改进Sharpe比率来优化投资组合的表现，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术CorpInterlink算法用于预测股票收益趋势并评估交易策略，特别是通过改进Sharpe比率来优化投资组合的表现，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:37.067715"
+}

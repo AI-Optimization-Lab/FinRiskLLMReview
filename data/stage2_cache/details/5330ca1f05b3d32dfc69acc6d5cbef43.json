@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 863,
+    "title": "Effective Credit Risk Prediction Using Ensemble Classifiers With Model Explanation",
+    "abstract": "Credit risk prediction is a critical task in the financial industry, allowing lenders to assess the likelihood of a borrower defaulting on a loan. Traditional machine learning (ML) classifiers have been widely used for this purpose, and they often struggle with imbalanced data and lack interpretability, making it challenging for financial institutions to make informed decisions. This article explores the use of ensemble classifiers and Synthetic minority over-sampling Edited nearest neighbor (SMOTE-ENN) technique in credit risk prediction, aiming to improve the classification performance. The ensemble classifiers include Random Forest, adaptive boosting (AdaBoost), extreme gradient boosting (XGBoost), and light gradient boosting machine (LightGBM). The study addresses the class imbalance issue by leveraging ensemble classifiers and the SMOTE-ENN technique while employing Shapley additive exPlanations (SHAP) for model interpretability. The experimental results showed that the proposed approach resulted in improved classification performance. Specifically, on the German credit dataset, XGBoost outperformed the other models with a Recall of 0.930 and a Specificity of 0.846, while Random Forest obtained the best performance on the Australian dataset, achieving a Recall of 0.907 and Specificity of 0.922. Additionally, the integration of SHAP enhanced the models' transparency by providing valuable insights into the contribution of individual features, which is crucial for informed financial decision-making.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e62ff1ea5c5dc34d26668f7a82226109",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:17.458218"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit risk prediction, which is a key aspect of financial risk management, specifically in assessing the likelihood of borrower default. The use of ensemble classifiers and techniques like SMOTE-ENN and SHAP are aimed at improving the accuracy and interpretability of credit risk models, directly addressing challenges in financial risk assessment.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit risk prediction, which is a key aspect of financial risk management, specifically in assessing the likelihood of borrower default. The use of ensemble classifiers and techniques like SMOTE-ENN and SHAP are aimed at improving the accuracy and interpretability of credit risk models, directly addressing challenges in financial risk assessment.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:14.497702"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 183,
+    "title": "Pricing Bermudan options under Merton jump-diffusion asset dynamics",
+    "abstract": "In this paper, a recently developed regression-based option pricing method, the Stochastic Grid Bundling Method (SGBM), is considered for pricing multidimensional Bermudan options. We compare SGBM with a traditional regression-based pricing approach and present detailed insight in the application of SGBM, including how to configure it and how to reduce the uncertainty of its estimates by control variates. We consider the Merton jump-diffusion model, which performs better than the geometric Brownian motion in modelling the heavy-tailed features of asset price distributions. Our numerical tests show that SGBM with appropriate set-up works highly satisfactorily for pricing multidimensional options under jump-diffusion asset dynamics.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "6d7a9e056dfedfd2a99b8c880eb80cae",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.121247"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心内容是使用Stochastic Grid Bundling Method (SGBM) 对Bermudan期权进行定价，并比较了该方法与传统回归定价方法的性能。论文明确讨论了在Merton跳扩散模型下的期权定价问题，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心内容是使用Stochastic Grid Bundling Method (SGBM) 对Bermudan期权进行定价，并比较了该方法与传统回归定价方法的性能。论文明确讨论了在Merton跳扩散模型下的期权定价问题，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:08.333729"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 322,
+    "title": "Constructing Equity Investment Strategies Using Analyst Reports and Regime Switching Models",
+    "abstract": "This study demonstrates whether analysts' sentiments toward individual stocks are useful for stock investment strategies. This is achieved by using natural language processing to create a polarity index from textual information in analyst reports. In this study, we performed time series forecasting for the created polarity index using deep learning, and clustered the forecasted values by volatility using a regime switching model. In addition, we constructed a portfolio from stock data and rebalanced it at each change point of the regime. Consequently, the investment strategy proposed in this study outperforms the benchmark portfolio in terms of returns. This suggests that the polarity index is useful for constructing stock investment strategies.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "a930a3c8c444ceeb1987eb9d5553d0f8",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "clustering",
+      "regression",
+      "time series forecasting"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:44.385837"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用自然语言处理和深度学习分析分析师报告的情绪，并结合制度转换模型构建股票投资策略。研究的主要目标是构建和优化投资组合，并通过重新平衡策略提高回报，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用自然语言处理和深度学习分析分析师报告的情绪，并结合制度转换模型构建股票投资策略。研究的主要目标是构建和优化投资组合，并通过重新平衡策略提高回报，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:01.854968"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 915,
+    "title": "Penalized and Constrained Optimization: An Application to High-Dimensional Website Advertising",
+    "abstract": "Firms are increasingly transitioning advertising budgets to Internet display campaigns, but this transition poses new challenges. These campaigns use numerous potential metrics for success (e.g., reach or click rate), and because each website represents a separate advertising opportunity, this is also an inherently high-dimensional problem. Further, advertisers often have constraints they wish to place on their campaign, such as targeting specific sub-populations or websites. These challenges require a method flexible enough to accommodate thousands of websites, as well as numerous metrics and campaign constraints. Motivated by this application, we consider the general constrained high-dimensional problem, where the parameters satisfy linear constraints. We develop the Penalized and Constrained optimization method (PaC) to compute the solution path for high-dimensional, linearly constrained criteria. PaC is extremely general; in addition to internet advertising, we show it encompasses many other potential applications, such as portfolio estimation, monotone curve estimation, and the generalized lasso. Computing the PaC coefficient path poses technical challenges, but we develop an efficient algorithm over a grid of tuning parameters. Through extensive simulations, we show PaC performs well. Finally, we apply PaC to a proprietary dataset in an exemplar Internet advertising case study and demonstrate its superiority over existing methods in this practical setting. for this article, including a standardized description of the materials available for reproducing the work, are available as an online supplement.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3e9397905db50210c8fe4706dd292f1a",
+    "relevant_keywords": [
+      "PCA"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.332102"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种通用的优化算法（PaC），虽然提到可以应用于投资组合估计（portfolio estimation），但这并不是论文的主要研究方向或应用场景。论文的核心应用是互联网广告优化，而非特定的金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种通用的优化算法（PaC），虽然提到可以应用于投资组合估计（portfolio estimation），但这并不是论文的主要研究方向或应用场景。论文的核心应用是互联网广告优化，而非特定的金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:39.293771"
+}

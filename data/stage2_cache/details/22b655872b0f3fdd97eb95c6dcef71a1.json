@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1610,
+    "title": "Benchmarking footprints of continuous black-box optimization algorithms: Explainable insights into algorithm success and failure",
+    "abstract": "The practices for comparing black-box optimization algorithms based on performance statistics over a benchmark suite are being increasingly criticized. Critics argue that these practices fail to explain why particular algorithms outperform others. Consequently, there is a growing demand for more robust comparison methods that assess the overall efficiency of the algorithms in terms of performance and also consider the specific landscape properties of the optimization problems on which the algorithms are compared. This study introduces a novel approach for comparing algorithms based on the concept of an algorithm footprint, which aims to identify easy and challenging problem instances fora given algorithm. A unique footprint is assigned to each algorithm and then compared, to highlight problem instances where an algorithm either uniquely succeeds or falls, as well as how the algorithms complement each other across the problem instances. Our solution employs a multi-task regression model (MTR) to simultaneously link the performance of multiple algorithms with the landscape features of the problem instances. By applying an Explainable Machine Learning (XML) technique, we quantify and compare the importance of the landscape features for each algorithm. The methodology is applied to a portfolio of three different BBO algorithms, highlighting their success and failure on the Black-Box Optimization Benchmarking (BBOB) suite. The efficacy of our approach is further demonstrated through a comparative analysis with two existing algorithm comparison methods, showcasing the robustness and depth of insights provided by the proposed approach.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "010e1cb75610d5a8151cd4e783c1975d",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.814768"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究黑盒优化算法的比较方法，通过算法足迹和可解释机器学习技术来分析算法的成功与失败。虽然提到了'portfolio'一词，但这里的'portfolio'指的是算法组合而非金融投资组合。论文的核心内容并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究黑盒优化算法的比较方法，通过算法足迹和可解释机器学习技术来分析算法的成功与失败。虽然提到了'portfolio'一词，但这里的'portfolio'指的是算法组合而非金融投资组合。论文的核心内容并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:45.079760"
+}

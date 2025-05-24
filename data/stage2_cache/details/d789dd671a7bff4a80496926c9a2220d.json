@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 4234,
+    "title": "A two-stage framework for credit scoring based on feature augmentation and dimension reduction",
+    "abstract": "Credit scoring is an important area for financial risk management, where a small improvement in prediction performance will save significant losses for financial institutions. This article proposes a two-stage framework for credit scoring based on feature augmentation and dimension reduction to improve the model performance. In this framework, the logarithm marginal density ratios transformation is employed to provide more prominent features for credit scoring, fully utilizing original data information. For the dimension reduction process, we apply three classifiers for L-1 penalized logistic regression (add a sum of the parameter absolute value to the criterion function), extreme gradient boosting with L-1 regularization term, and k-nearest neighbor with sequential forward selection to two different credit data sets. The results indicate that this two-stage framework can improve the performance of credit scoring models.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f19d8111fe2d3fe4d969e6cb9908bf79",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:34:48.906168"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit scoring models, which is a critical component of financial risk management, as it helps financial institutions assess the risk of default by borrowers.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit scoring models, which is a critical component of financial risk management, as it helps financial institutions assess the risk of default by borrowers.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:51.773239"
+}

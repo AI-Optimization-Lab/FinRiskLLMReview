@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1039,
+    "title": "基于尾部指数回归方法的CVaR估计以及实证研究",
+    "abstract": "在险价值VaR是一种非常重要的金融风险度量方法,近期也有很多关于动态VaR以及条件VaR(CVaR)等方面的研究。根据金融资产的收益率具有重尾特征这一事实,本文假定金融资产收益率服从重尾分布,并假定重尾分布的尾部指数随着收益率发生变化。本文基于尾部指数回归模型对重尾分布的尾部指数进行估计,进而得到收益率尾部数据所服从的条件分布,并首次运用该方法对条件VaR进行估计。本文对沪深300指数进行了实证研究,得到CVaR的估计,对估计得到的CVaR的预测效果作出检验,并与传统VaR估计方法进行了对比,实证结果发现本文方法的预测效果更好。",
+    "year": 2012,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7a03550533ec5169d5b07891141e78c6",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:35:19.612732"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是基于尾部指数回归方法对条件VaR（CVaR）进行估计，并进行了实证研究。CVaR是一种重要的金融风险度量方法，用于评估和管理金融风险，因此该论文的主要应用领域是金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是基于尾部指数回归方法对条件VaR（CVaR）进行估计，并进行了实证研究。CVaR是一种重要的金融风险度量方法，用于评估和管理金融风险，因此该论文的主要应用领域是金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:36:16.852119"
+}

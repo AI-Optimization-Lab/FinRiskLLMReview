@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 385,
+    "title": "Optimization of trading systems and portfolios",
+    "abstract": "We propose to train trading systems and portfolios by optimizing objective functions that directly measure trading and investment performance. Rather than basing a trading system on forecasts or training via a supervised learning algorithm using labelled trading data, we train our systems using recurrent reinforcement learning algorithms. The objective functions that we consider as evaluation functions for reinforcement learning are profit or wealth, economic utility, the Sharpe ratio, and our proposed Differential Sharpe Ratio. The trading and portfolio management systems require prior decisions as input in order to properly take into account the effects of transactions costs, market impact, and taxes. This temporal dependence on system state requires the use of reinforcement versions of standard recurrent learning algorithms. We present empirical results in controlled experiments that demonstrate the efficacy of some of our methods. We find that maximizing the differential Sharpe ratio yields more consistent results than maximizing profits, and that both methods outperform a trading system based on forecasts that minimize MSE.",
+    "year": 1997,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "458b74f9d0079fa4830dbe0667c27779",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "reinforcement learning",
+      "neural network",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.608830"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习算法优化交易系统和投资组合，直接目标是提高交易和投资绩效，这属于投资组合管理的范畴。论文中提到的Sharpe比率和Differential Sharpe Ratio等指标也是投资组合管理中常用的绩效评估工具。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习算法优化交易系统和投资组合，直接目标是提高交易和投资绩效，这属于投资组合管理的范畴。论文中提到的Sharpe比率和Differential Sharpe Ratio等指标也是投资组合管理中常用的绩效评估工具。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:14.382673"
+}

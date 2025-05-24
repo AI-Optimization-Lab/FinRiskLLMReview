@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3,
+    "title": "Can AI beat a naive portfolio? An experiment with anonymized data",
+    "abstract": "Using anonymized data from the United States (U.S.) market, we evaluate the performance of Google's main LLM (Large Language Model) Gemini 1.5 Flash in making investment decisions. Unlike other studies, we query the LLM for different investment horizons (1 to 36 months) and types of financial information (financial data, price data, and a combination of both). Running a total of 30,000 simulations for 1,522 companies over 20 years of data, we find that Gemini does not consistently outperform a naive portfolio and the S&P 500 index in terms of returns and Sharpe ratios. Additionally, our findings indicate a decline in risk adjusted investment performance as the investment horizon extends.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "LLMs",
+    "cache_key": "534597b7199796979be44e580c013443",
+    "relevant_keywords": [
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:45:16.280082"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper evaluates the performance of an LLM in making investment decisions and compares it to a naive portfolio and the S&P 500 index, which directly pertains to the field of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper evaluates the performance of an LLM in making investment decisions and compares it to a naive portfolio and the S&P 500 index, which directly pertains to the field of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:58.662708"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 73,
+    "title": "Deep learning for derivatives pricing: a comparative study of asymptotic and quasi-process corrections",
+    "abstract": "In this study, we compare two methods for using neural networks to efficiently learn the price of derivatives. The first method, proposed by Funahashi (Quant Financ 21(4):575-592, 2021a), involves training the neural networks to learn the difference between the derivative price and its asymptotic expansion, rather than learning the derivative price directly. The target derivative price is then obtained by adding the approximate solution with the predicted value of neural networks. This method reduces the required amount of learning data, often by a factor of one hundred to one thousand, compared to the case where the derivative price is directly learned through neural networks. In the second method, established in this paper, the neural networks learn the difference between the derivative price written on the underlying asset price that follows the target complex stochastic process and the derivative price written on the underlying asset price that has a relatively simple stochastic process that has a closed-form solution for the target derivative prices. This method provides an alternative valuation method when no efficient approximate solution for the derivative value is observed and if one can arbitrarily determine the model parameters of the quasi-process that approximates the original process. We also propose a unified method to determine the model parameters of quasi-processes from underlying asset processes. These methods prove valuable in cases where general analytic solutions are absent, as seen in widely used financial models such as the stochastic volatility models. These cases involve time-consuming numerical calculations to generate learning data, highlighting the value of the two methods, which significantly compress calculation times.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "126afb203fa0071966149c6a16183fbc",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:55.020560"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习方法比较两种衍生品定价方法，并提出了改进的定价方法，特别是在没有解析解的情况下（如随机波动率模型）。论文明确讨论了衍生品定价的问题，并提出了具体的解决方案。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习方法比较两种衍生品定价方法，并提出了改进的定价方法，特别是在没有解析解的情况下（如随机波动率模型）。论文明确讨论了衍生品定价的问题，并提出了具体的解决方案。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:34.400987"
+}

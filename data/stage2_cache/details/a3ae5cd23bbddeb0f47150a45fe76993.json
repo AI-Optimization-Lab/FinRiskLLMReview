@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 246,
+    "title": "Improved Financial Predicting Method Based on Time Series Long Short-Term Memory Algorithm",
+    "abstract": "With developments in global economic integration and the increase in future economic uncertainty, it is imperative to have the ability to predict future capital in relation to financial capital inflow and outflow predictions to ensure capital optimization is within a controllable range within the current macroeconomic environment and situation. This paper proposes an automated capital prediction strategy for the capital supply chain using time series analysis artificial intelligence methods. Firstly, to analyze the fluctuation and tail risk of the financial characteristics, the paper explores the financial characteristics for measuring the dynamic VaR from the perspectives of volatility, tail, and peak with the Bayesian peaks over threshold (POT) model. Following this, in order to make the modeling more refined, the forecast targets are split before modeling with seasonal Autoregressive Integrated Moving Average (ARIMA) models and Prophet models. Finally, the time series modeling of the wavelet Long Short-Term Memory (LSTM) model is carried out using a two-part analysis method to determine the linear separated wavelet and non-linear embedded wavelet parts to predict strong volatility in financial capital. Taking the user capital flow of the Yu'e Bao platform, the results prove the feasibility and prediction accuracy of the innovative model proposed.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "79406982ce418aef577d31df5e64c048",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:45.589805"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用时间序列分析和LSTM模型来预测金融资本的波动和动态VaR，这直接关联到金融风险管理中的风险测量和预测。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用时间序列分析和LSTM模型来预测金融资本的波动和动态VaR，这直接关联到金融风险管理中的风险测量和预测。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:01.887900"
+}

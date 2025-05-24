@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "论文摘要中提到开发了一种先进的机器学习模型，用于预测贷款违约的可能性。",
+    "supervised learning": "信贷风险评估通常是一个监督学习问题，因为模型需要根据标记的数据（如违约或非违约）进行训练。",
+    "classification": "预测贷款违约的可能性是一个典型的分类问题，模型需要将申请人分类为违约或非违约。",
+    "decision tree": "梯度提升法（如XGBoost、LightGBM等）通常基于决策树作为基础模型，论文中提到的梯度提升方法暗示了决策树的使用。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"论文摘要中提到开发了一种先进的机器学习模型，用于预测贷款违约的可能性。\",\n    \"supervised learning\": \"信贷风险评估通常是一个监督学习问题，因为模型需要根据标记的数据（如违约或非违约）进行训练。\",\n    \"classification\": \"预测贷款违约的可能性是一个典型的分类问题，模型需要将申请人分类为违约或非违约。\",\n    \"decision tree\": \"梯度提升法（如XGBoost、LightGBM等）通常基于决策树作为基础模型，论文中提到的梯度提升方法暗示了决策树的使用。\"\n  }\n}\n```"
+}

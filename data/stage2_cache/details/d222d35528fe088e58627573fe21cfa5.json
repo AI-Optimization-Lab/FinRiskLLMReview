@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 5271,
+    "title": "A Credit Scoring Model Based on Integrated Mixed Sampling and Ensemble Feature Selection: RBR XGB _",
+    "abstract": "With the rapid development of the economy, financial institutions pay more and more attention to the importance of financial credit risk. The XGBoost algorithm is often used in credit scoring. However, it should be noted that XGBoost has three disadvantages when dealing with small samples of high-dimensional imbalance: (1) the model classification results are more biased towards the majority class when the XGBoost algorithm is used in training imbalanced data, this results in reduced model accuracy. (2) XGBoost algorithm is prone to overfitting in high-dimensional data because the higher the data dimension, the sparser the samples. (3) In small datasets, it is prone to form data fragmentation, resulting in reduced model accuracy. A Credit Scoring Model Based On Integrated Mixed Sampling And Ensemble Feature Selection (RBR_XGB) is proposed on the following issues in this paper. The model first aims at the model failure and overfitting problems of XGBoost in the face of highly imbalanced small samples, and uses the improved hybrid sampling algorithm combining RUS and BSMOTE1 to balance and expand the data set. For feature redundancy problems, the RFECV_XGB algorithm is used to filter features for reducing interference features. Then, considering the strength of the distinguishing ability of different models, the validation set is used to assign weights to different models, and the weighted ensemble is used to further improve the performance of the model. The experimental results show that the classification performance of the RBR_XGB algorithm for high-dimensional imbalanced small data is higher than that of the traditional XGBoost algorithm, and it can be used for commercial use.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a5efc1eadb4fb6a84053ececbd32ce30",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:46:16.131463"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种基于集成混合采样和集成特征选择的信用评分模型（RBR_XGB），旨在解决信用风险问题。信用评分是金融风险管理中的一个重要应用，用于评估借款人的信用风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文提出了一种基于集成混合采样和集成特征选择的信用评分模型（RBR_XGB），旨在解决信用风险问题。信用评分是金融风险管理中的一个重要应用，用于评估借款人的信用风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:33.919364"
+}

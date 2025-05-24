@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1399,
+    "title": "Portfolio management system in equity market neutral using reinforcement learning",
+    "abstract": "Portfolio management involves position sizing and resource allocation. Traditional and generic portfolio strategies require forecasting of future stock prices as model inputs, which is not a trivial task since those values are difficult to obtain in the real-world applications. To overcome the above limitations and provide a better solution for portfolio management, we developed a Portfolio Management System (PMS) using reinforcement learning with two neural networks (CNN and RNN). A novel reward function involving Sharpe ratios is also proposed to evaluate the performance of the developed systems. Experimental results indicate that the PMS with the Sharpe ratio reward function exhibits outstanding performance, increasing return by 39.0% and decreasing drawdown by 13.7% on average compared to the reward function of trading return. In addition, the proposed PMS_CNN model is more suitable for the construction of a reinforcement learning portfolio, but has 1.98 times more drawdown risk than the PMS_RNN. Among the conducted datasets, the PMS outperforms the benchmark strategies in TW50 and traditional stocks, but is inferior to a benchmark strategy in the financial dataset. The PMS is profitable, effective, and offers lower investment risk among almost all datasets. The novel reward function involving the Sharpe ratio enhances performance, and well supports resource-allocation for empirical stock trading.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8f474cc1664407614a58db363583420f",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:02:22.759999"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习和神经网络开发了一个投资组合管理系统（PMS），并提出了一个涉及夏普比率的新颖奖励函数来评估系统性能。研究目标明确指向投资组合管理，包括头寸规模确定和资源分配，实验也围绕股票市场中性策略展开。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习和神经网络开发了一个投资组合管理系统（PMS），并提出了一个涉及夏普比率的新颖奖励函数来评估系统性能。研究目标明确指向投资组合管理，包括头寸规模确定和资源分配，实验也围绕股票市场中性策略展开。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:24.200733"
+}

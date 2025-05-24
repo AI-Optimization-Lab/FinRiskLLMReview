@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2031,
+    "title": "Skewed target range strategy for multiperiod portfolio optimization using a two-stage least squares Monte Carlo method",
+    "abstract": "In this paper, we propose a novel investment strategy for portfolio optimization problems. The proposed strategy maximizes the expected portfolio value bounded within a targeted range, composed of a conservative lower target representing a need for capital protection and a desired upper target representing an investment goal. This strategy favorably shapes the entire probability distribution of returns, as it simultaneously seeks a desired expected return, cuts off downside risk and implicitly caps volatility and higher moments. To illustrate the effectiveness of this investment strategy, we study a multiperiod portfolio optimization problem with transaction costs and develop a two-stage regression approach that improves the classical least squares Monte Carlo (LSMC) algorithm when dealing with difficult payoffs, such as highly concave, abruptly changing or discontinuous functions. Our numerical results show substantial improvements over the classical LSMC algorithm for both the constant relative risk-aversion (CRRA) utility approach and the proposed skewed target range strategy (STRS). Our numerical results illustrate the ability of the STRS to contain the portfolio value within the targeted range. When compared with the CRRA utility approach, the STRS achieves a similar mean-variance efficient frontier while delivering a better downside risk-return trade-off.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b0e7d2aa6713167f7ce6de3c273cdd46",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:02:10.295566"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是提出一种新的投资策略（skewed target range strategy）用于多期投资组合优化问题，并开发了一种两阶段回归方法来改进传统的LSMC算法。研究目标明确指向投资组合的优化和管理，包括处理交易成本和改善风险-回报权衡。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是提出一种新的投资策略（skewed target range strategy）用于多期投资组合优化问题，并开发了一种两阶段回归方法来改进传统的LSMC算法。研究目标明确指向投资组合的优化和管理，包括处理交易成本和改善风险-回报权衡。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:43.541610"
+}

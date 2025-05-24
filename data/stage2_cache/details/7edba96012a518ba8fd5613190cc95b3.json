@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 662,
+    "title": "A multi-agent deep reinforcement learning framework for algorithmic trading in financial markets",
+    "abstract": "Algorithmic trading based on machine learning is a developing and promising field of research. Financial markets have a complex, uncertain, and dynamic nature, making them challenging for trading. Some financial theories, such as the fractal market hypothesis, believe that the markets behave based on the collective psychology of investors who trade with different investment horizons and interpretations of information. Accordingly, a multi -agent deep reinforcement learning framework is proposed in this paper to trade on the collective intelligence of multiple agents, each of which is an expert trader on a specific timeframe. The proposed framework works in a hierarchical structure in which the flow of knowledge is from the agents trading at higher timeframes to the agents trading at lower timeframes, making them highly robust to the noise in financial time series. The Deep Q -learning algorithm is utilized for training the agents in the framework. The performance of the proposed framework is evaluated through extensive numerical experiments conducted on a historical dataset of the EUR/ USD currency pair. The results demonstrate that the proposed multi-agent framework, based on several return -based and risk-based performance measures, outperforms single independent agents and several benchmark trading strategies in all investigated trading timeframes. The robust performance of the multi-agent framework throughout the trading period makes it suitable for algorithmic trading in financial markets.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "99b8f6a6c4d29050ef87d33c800a008a",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "Deep Q -learning",
+      "multi-agent"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:25.000779"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于多智能体深度强化学习的算法交易框架，旨在通过多个智能体的集体智慧进行交易决策，并通过历史数据集评估其性能。这属于投资组合管理的范畴，因为它涉及交易策略的优化和执行，以提高投资回报并管理交易风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于多智能体深度强化学习的算法交易框架，旨在通过多个智能体的集体智慧进行交易决策，并通过历史数据集评估其性能。这属于投资组合管理的范畴，因为它涉及交易策略的优化和执行，以提高投资回报并管理交易风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:13.029998"
+}

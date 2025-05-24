@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 324,
+    "title": "A RS Model for Stock Market Forecasting and Portfolio Selection Allied with Weight Clustering and Grey System Theories",
+    "abstract": "In this study, the weight clustering model which consists of GM(1,N) with K-means Clustering is combined with Grey Systems theory and Rough Set (RS) theory to create an automatic stock market forecasting and portfolio selection mechanism. In our proposed approach, financial data are collected every quarter and are inputted to an GM(1,1) predicting model to forecast the future trends of the collected data over the next quarter. Next, the forecasted data of financial statement is transformed into financial ratios using a GM(1,N) model and clustered by using a K-means clustering algorithm, and then supplied to a RS classified module which selects appropriate investment stocks by adopting a set of decision-making rules. Finally, a grey relational analysis technique is applied to specify an appropriate weighting of the selected stocks to maximize the portfolio's rate of return. The validity of our proposed approach is demonstrated to use the electronic stock data extracted from the financial database maintained by the Taiwan Economic Journal (TEJ). The portfolio's results derived by using our proposed weight clustering model are compared with those portfolio's results of a conventionally clustering method. It is found that our proposed method yielded a greater average annual rate of return (23.42%) on the selected stocks from 2004 to 2006 in Taiwan stock market.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5c7f4f622b21547559b04fd72f4277aa",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:00.440851"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合灰色系统理论和粗糙集理论，通过聚类和预测模型来选择投资股票并优化投资组合的权重，旨在最大化投资组合的回报率。这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合灰色系统理论和粗糙集理论，通过聚类和预测模型来选择投资股票并优化投资组合的权重，旨在最大化投资组合的回报率。这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:34.764475"
+}

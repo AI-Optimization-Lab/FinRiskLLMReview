@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 498,
+    "title": "GANs and synthetic financial data: calculating VaR",
+    "abstract": "Generative Adversarial Neural nets (GANs) are a new branch of machine learning techniques. A GAN learns to generate new data from the training data set. We examine the characteristics of the fake financial data using GANs trained on samples of daily S&P 500 and FTSE 100 index values. GANs feature two competing neural networks in a game theoretic context. The Generator net generates pseudo data that is presented to the discriminator net which then attempts to distinguish between the real and the fake data. This facilitates unsupervised learning on the dataset. The generative network generates data sets, while the discriminative network evaluates them. Equilibrium is reached when the generator can fool the discriminator half the time. Potential convergence difficulties led to the development of Wasserstein GANs, which we use in the analysis. We examine the characteristics of the generated fake S&P500 and FTSE 100 data sets. A key issue is how closely does the fake series mimic the real series? We explore this using a variety of metrics including regression analysis, applications of moments and characteristic functions, plus Random Forest analysis. We provide a practical application using the fake data to calculate Value at Risk (VaR).",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cbd94d9c68a8bd77aa279cb54ffb088f",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:51:31.312689"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using GANs to generate synthetic financial data for calculating Value at Risk (VaR), which is a key tool in financial risk management. The application is specifically aimed at risk assessment rather than derivatives pricing or portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using GANs to generate synthetic financial data for calculating Value at Risk (VaR), which is a key tool in financial risk management. The application is specifically aimed at risk assessment rather than derivatives pricing or portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:36.618161"
+}

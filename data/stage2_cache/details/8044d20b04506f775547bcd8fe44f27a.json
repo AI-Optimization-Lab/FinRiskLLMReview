@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1694,
+    "title": "Dynamic Portfolio Optimization for Distributed Energy Resources in Virtual Power Plants",
+    "abstract": "The aggregation of distributed energy resources in virtual power plants (VPPs) is a feasible approach to overcome entry barriers for energy markets like, e.g., the European Power Exchange SE (EPEX SPOT SE). An increasing number of energy supply companies offer the integration of decentralized units in VPPs aiming to achieve the maximum profit by trading the power produced by the VPP at energy markets. However, the coordination of the generation units' operational modes (operation schedule) within a VPP as well as the selection of offered market products (product portfolio) are optimization problems that are mutually dependent. In this contribution a method is proposed that allows automating both the optimized composition of the product portfolio and the determination of the matching operation schedule for the VPP, in terms of profit maximization. Application example of the method is the EPEX SPOT SE day-ahead market. The concept of the approach can be roughly described as follows: First of all, machine learning techniques are used to predict the market prices for the trading day. Then, the market forecast is used in combination with feasible schedule samples from the generation units as input for the optimization process. During the optimization a hybrid approach comprising heuristic algorithms, such as simulated annealing or tabu search, and linear optimization is applied. The approach is evaluated using historical market data and intricate simulation models of generation units.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b30a0d6467a3108df9d568b7d68e75d7",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:50.584540"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究虚拟电厂（VPP）中分布式能源资源的动态组合优化，目的是在能源市场中实现利润最大化。虽然涉及优化和机器学习技术，但其应用场景是能源市场而非金融领域，不属于衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究虚拟电厂（VPP）中分布式能源资源的动态组合优化，目的是在能源市场中实现利润最大化。虽然涉及优化和机器学习技术，但其应用场景是能源市场而非金融领域，不属于衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:16.317989"
+}

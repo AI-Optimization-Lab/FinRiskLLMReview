@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3204,
+    "title": "An Application of the IFM Method for the Risk Assessment of Financial Instruments",
+    "abstract": "External influences or behavioral biases can affect the way risk is perceived. This paper studies the prediction of VaR (Value at Risk) as a measure of the risk of loss for investments on financial products. Our aim is to predict the percentage of loss that a financial product would have in the future to assess the risks and determine the potential loss of a security in the stock market, thus reducing reasoning influenced by feelings for bank and financial firms seeking to deploy AI and advanced automation. We used the IFM (inference function for margins) method in different market scenarios, with particular emphasis on the strengths and weaknesses of it. The study is assessed on single product level with the skewed studen-t GARCH(1,1) model and portfolio level with t-copulas for the inter-dependencies. It has been shown that under normal market conditions the risk is predicted properly for both levels. However, when an unexpected market event occurs, the prediction fails. To address this limitation, a combined model with sentiment analysis and regression is proposed for further investigation as a future work.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "80ab7bc487d1c808afff0bc777ce2479",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:23:33.600847"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting VaR (Value at Risk) for financial products to assess potential losses, which is a core aspect of financial risk management. The use of the IFM method and models like skewed student-t GARCH(1,1) and t-copulas for portfolio interdependencies further supports its application in risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting VaR (Value at Risk) for financial products to assess potential losses, which is a core aspect of financial risk management. The use of the IFM method and models like skewed student-t GARCH(1,1) and t-copulas for portfolio interdependencies further supports its application in risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:03.487828"
+}

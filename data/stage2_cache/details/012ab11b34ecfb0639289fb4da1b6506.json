@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 4130,
+    "title": "A clinical prediction model to identify patients at high risk of hemodynamic instability in the pediatric intensive care unit",
+    "abstract": "Background: Early recognition and timely intervention are critical steps for the successful management of shock. The objective of this study was to develop a model to predict requirement for hemodynamic intervention in the pediatric intensive care unit (PICU); thus, clinicians can direct their care to patients likely to benefit from interventions to prevent further deterioration. Methods: The model proposed in this study was trained on a retrospective cohort of all patients admitted to a tertiary PICU at a single center in the United States, and validated on another retrospective cohort of all patients admitted to the PICU at a single center in the United Kingdom. The PICU clinical information system database (Intellivue Clinical Information Portfolio, Philips, UK) was interrogated to collect physiological and laboratory data. The model was trained using a variant of AdaBoost, which learned a set of low-dimensional classifiers, each of which was age adjusted. Results: A total of 7052 patients admitted to the US PICU was used for training the model, and a total of 970 patients admitted to the UK PICU was used for validation. On the training/validation datasets, the model showed better prediction of hemodynamic intervention (area under the receiver operating characteristic (AUROC) = 0.81/0.81) than systolic blood pressure-based (AUCROC = 0.58/0.67) or shock index-based (AUCROC = 0.63/0.65) models. Both of these models were age adjusted using the same classifier. Conclusions: The proposed model reliably predicted the need for hemodynamic intervention in PICU patients and provides better classification performance when compared to systolic blood pressure-based or shock index-based models alone. This model could readily be built into a clinical information system to identify patients at risk of hemodynamic instability.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c150c5e2bf6282c36b49543ff671266f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "AdaBoost"
+    ],
+    "stage1_timestamp": "2025-05-15T01:23:58.159487"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习模型预测儿科重症监护病房患者的血流动力学不稳定风险，属于医疗健康领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习模型预测儿科重症监护病房患者的血流动力学不稳定风险，属于医疗健康领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:35.175604"
+}

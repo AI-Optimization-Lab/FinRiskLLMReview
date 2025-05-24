@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1472,
+    "title": "Development of an efficient cluster-based portfolio optimization model under realistic market conditions",
+    "abstract": "Modern portfolio theory introduced by Markowitz in 1952 is the most popular portfolio optimization framework established based on the trade-off between risk and return as an operation research model. The main shortcoming of applying Markowitz portfolio optimization in practice is that the obtained optimal weights are really sensitive to the embedded uncertainty in return series of stocks. In this paper, it is demonstrated how using a new methodology of time series clustering as a remedy can lead to a more robust and accurate portfolio in terms of the gap between mean variance efficient frontier obtained from the optimization model and the one observed in reality. In this regard, two similarity measures, the autocorrelation coefficients and the weighted dynamic time warping, are used in an innovative way to construct the desired portfolio optimization model. Moreover, the effectiveness of proposed approach is investigated in two different market conditions: semi-realistic and full-realistic. In the first one, it is assumed that the forecasted and realized stocks mean returns are the same; however, these returns are not necessarily equal in the second market conditions. Finally, a database of stock prices from the literature is utilized to show the robustness and accuracy of the proposed approach in empirical results in comparison with applied similarity measures in previous researches.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7cbff7c08ba5c45e2366edd0b1f46637",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:08.341201"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种基于时间序列聚类的高效投资组合优化模型，旨在解决Markowitz投资组合优化模型在实际应用中的不足。论文明确讨论了如何通过聚类方法提高投资组合的稳健性和准确性，这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种基于时间序列聚类的高效投资组合优化模型，旨在解决Markowitz投资组合优化模型在实际应用中的不足。论文明确讨论了如何通过聚类方法提高投资组合的稳健性和准确性，这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:43.168250"
+}

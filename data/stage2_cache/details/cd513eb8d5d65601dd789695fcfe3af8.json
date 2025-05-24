@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 794,
+    "title": "Graph Neural Networks Applied to Money Laundering Detection in Intelligent Information Systems",
+    "abstract": "Context: Financial crimes exist in all world countries, and one of the most recurrent ones is Money Laundering (MoL). This crime can harm the country's economy, increase criminality, and compromise social investments. Moreover, it can increase the investment risk factor, raising exchange and interest rates and causing high inflation. In recent years, financial institutions and government agencies have searched for solutions to detect MoL in financial transactions. Problem: Several institutions have employed naive IS for detect MoL. Most systems are based on rules and label a large transactions number as suspicious, which makes the decision process inaccurate and inefficient. Solution: The recent literature presents Graph Neural Networks (GNN) as a promising solution to illegal transaction detection. We applied the Node and Edge Neural Network (NENN) architecture to classification, using the attributes of both bank accounts (vertices) and transactions (edges). IS Theory: In the Intelligent Information Systems context, Machine Learning is a way to improve the decision-making ability of programs in IS. Method: The GCN, Skip-GCN, and NENN architectures were evaluated for the MoL detection problem, comparing two ways of representing transactions as graphs (transactions as vertices or edges). Also, was considered the performance of XG-Boost and Softmax classifiers in the solution. Summary of Results: Results showed better performance when transactions represented the nodes. In addition, NENN+XGBoost was superior for higher class imbalance values, with an F1-score of 74,51 +/- 4,21% to illicit transactions. Contributions and impacts in the IS area: This paper improves the decision-making ability of Anti-Money Laundering systems, helping the organization and efficiency of public and private institutions, and contributing to the fight against corruption. This theme is aligned with the GrandDSI-BR2016-2026.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c37eb477bd9d6da2bbbe502489d710d6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "Graph Neural Networks",
+      "GNN",
+      "XG-Boost",
+      "Softmax"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:08.066507"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用图神经网络检测洗钱行为，虽然涉及金融交易，但其核心技术应用于反洗钱（AML）系统，不属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用图神经网络检测洗钱行为，虽然涉及金融交易，但其核心技术应用于反洗钱（AML）系统，不属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:39.703458"
+}

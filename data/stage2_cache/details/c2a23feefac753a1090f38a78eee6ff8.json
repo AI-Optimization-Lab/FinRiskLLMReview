@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 64,
+    "title": "Variable Selection and Fusion Sampling of Unbalanced Data in Credit Risk Assessment",
+    "abstract": "Credit risk assessment plays a key role for financial services institutions to identify the categories (default or non-default) of borrowers. There are many machine learning algorithms for credit risk assessment. However, the credit data often present the phenomenon of unbalance (fewer defaulters and more non-defaulters) and redundant characteristic variables. In credit risk assessment, little attention is paid to the problem of data unbalance and characteristic variables screening. The paper designs a hybrid machine learning algorithm combining clustering algorithm, Random Forest (RF) and Bayesian Network (BN) to reduce redundant characteristic variables in data. Then the data processed by the hybrid machine learning algorithm is sampled (Fusion Sampling), and the sampled data is used to train the supervised learning algorithm. Experiments show that the selection of characteristic variables reduces the cost of computing resources and data storage, while also reducing the noise (the negative impact of variables on the classifier) in the data. The method of data sampling is simple and easy to implement, and greatly improves the prediction performance of the classifier. The paper applies the scheme to the analysis of three bank credit data, proving that the proposed scheme can ensure high predictive performance while deeply reducing characteristic variables and is superior to the state-of-the-art hybrid machine learning algorithms (the combination of supervised learning algorithm and unsupervised learning algorithm).",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8fa6c513468d0cadf3db536122b938c4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "classification",
+      "clustering",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:39.454124"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit risk assessment, which is a key component of financial risk management. It addresses the problem of unbalanced data and redundant characteristic variables in predicting borrower defaults, a critical aspect of managing credit risk in financial institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit risk assessment, which is a key component of financial risk management. It addresses the problem of unbalanced data and redundant characteristic variables in predicting borrower defaults, a critical aspect of managing credit risk in financial institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:11.709379"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 213,
+    "title": "l1-Regularization in Portfolio Selection with Machine Learning",
+    "abstract": "In this work, we investigate the application of Deep Learning in Portfolio selection in a Markowitz mean-variance framework. We refer to a l(1) regularized multi-period model; the choice of the l(1) norm aims at producing sparse solutions. A crucial issue is the choice of the regularization parameter, which must realize a trade-off between fidelity to data and regularization. We propose an algorithm based on neural networks for the automatic selection of the regularization parameter. Once the neural network training is completed, an estimate of the regularization parameter can be computed via forward propagation. Numerical experiments and comparisons performed on real data validate the approach.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5403b480477efab3ad5e3fb99c41608f",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.162411"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on the application of Deep Learning in Portfolio selection within a Markowitz mean-variance framework, which is a core aspect of Portfolio Management. The study specifically addresses the use of l1-regularization and neural networks for optimizing portfolio selection, a key task in this field.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on the application of Deep Learning in Portfolio selection within a Markowitz mean-variance framework, which is a core aspect of Portfolio Management. The study specifically addresses the use of l1-regularization and neural networks for optimizing portfolio selection, a key task in this field.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:47.241185"
+}

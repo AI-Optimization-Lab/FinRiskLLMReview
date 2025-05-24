@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 4104,
+    "title": "A heuristic self-organizing map trained using the Tanimoto coefficient",
+    "abstract": "A variation of the Self-Organizing Map introduced by Kohonen (1983, 1995) which uses the Tanimoto similarity measure is applied to clustering a financial risk management data set comparing companies with Internet registration data to U.S. businesses in general. Instead of the traditional measure of Euclidean distance, the node with the highest value for the Tanimoto coefficient is the winner, and the nodes forming a square neighborhood around the winner node receive weight updates along with the winning node. In this model, the Tamimoto coefficient is applied two ways: first, to select the winner, and second, as the learning coefficient for the weight updating algorithm. The result is a set of weight vectors that lends itself to heuristic interpretation for data representing set membership through the use of categorical dummy variables.",
+    "year": 1998,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6695c02473c6c188af55158065c7b518",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:33:03.545919"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper explicitly mentions applying the self-organizing map to a financial risk management dataset, specifically comparing companies with Internet registration data to U.S. businesses in general. The focus on clustering for risk management purposes clearly aligns with the financial risk management domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper explicitly mentions applying the self-organizing map to a financial risk management dataset, specifically comparing companies with Internet registration data to U.S. businesses in general. The focus on clustering for risk management purposes clearly aligns with the financial risk management domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:17.699209"
+}

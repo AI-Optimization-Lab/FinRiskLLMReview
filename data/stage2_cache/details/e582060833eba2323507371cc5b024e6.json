@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 5895,
+    "title": "Positive-Unlabeled Learning from Imbalanced Data",
+    "abstract": "Positive-unlabeled (PU) learning deals with the binary classification problem when only positive (P) and unlabeled (U) data are available, without negative (N) data. Existing PU methods perform well on the balanced dataset. However, in real applications such as financial fraud detection or medical diagnosis, data are always imbalanced. It remains unclear whether existing PU methods can perform well on imbalanced data. In this paper, we explore this problem and propose a general learning objective for PU learning targeting specially at imbalanced data. By this general learning objective, state-of-the-art PU methods based on optimizing a consistent risk estimator can be adapted to conquer the imbalance. We theoretically show that in expectation, optimizing our learning objective is equivalent to learning a classifier on the oversampled balanced data with both P and N data available, and further provide an estimation error bound. Finally, experimental results validate the effectiveness of our proposal compared to state-of-the-art PU methods.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "041f7da494527dc57d58e5a9e708e51f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:52:31.481458"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是正例-无标记学习（PU learning）在不平衡数据中的应用，虽然提到了金融欺诈检测作为应用场景之一，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是正例-无标记学习（PU learning）在不平衡数据中的应用，虽然提到了金融欺诈检测作为应用场景之一，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:57.097378"
+}

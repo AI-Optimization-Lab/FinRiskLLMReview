@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 191,
+    "title": "Volatility forecasting using deep recurrent neural networks as GARCH models",
+    "abstract": "Estimating and predicting volatility in time series is of great importance in different areas where it is required to quantify risk based on variability and uncertainty. This work proposes a new methodology to predict Time Series volatility by combining Generalized AutoRegressive Conditional Heteroscedasticity (GARCH) methods with Deep Neural Networks. Additionally, the proposal incorporates a mechanism to determine the optimal size of the sliding window used to estimate volatility. In this work, the recurrent neural networks Gated Recurrent Units, Long/Short-Term Memory (LSTM), and Bidirectional Long/Short-Term Memory (BiLSTM) are evaluated with the methods of the family Garch (fGARCH). We conducted Monte Carlo simulation studies with heteroscedastic time series to validate our proposed methodology. Moreover, we have applied the proposed method to real financial data from the stock market, such as the Selective Stock Price Index Chile index, Standard & Poor's 500 Index (S &P500), and the prices of the Stock Exchange from Australia (ASX200). The proposed methodology performs well in predicting the stock options returns volatility one week ahead.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "d416f7a53280c339da80e9afedc6f880",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.454743"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度循环神经网络（如LSTM）结合GARCH模型来预测时间序列的波动性，并应用于股票市场的实际金融数据（如S&P500等）。波动性预测是金融风险管理中的关键任务，用于量化风险和不确定性。虽然论文提到了股票期权收益波动性的预测，但主要应用场景仍是风险管理而非衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度循环神经网络（如LSTM）结合GARCH模型来预测时间序列的波动性，并应用于股票市场的实际金融数据（如S&P500等）。波动性预测是金融风险管理中的关键任务，用于量化风险和不确定性。虽然论文提到了股票期权收益波动性的预测，但主要应用场景仍是风险管理而非衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:04.665166"
+}

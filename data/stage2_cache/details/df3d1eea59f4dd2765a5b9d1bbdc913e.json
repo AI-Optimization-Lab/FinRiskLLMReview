@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 388,
+    "title": "AN ARTIFICIAL NEURAL NETWORK IN SHORT-TERM ELECTRICAL LOAD FORECASTING OF A UNIVERSITY CAMPUS: A CASE STUDY",
+    "abstract": "This paper presents an artificial neural network (ANN) for forecasting the short-term electrical load of a university campus using real historical data from Colorado State University. A spatio-temporal ANN model with multiple weather variables as well as time identifiers, such as day of week and time of day, are used as inputs to the network presented. The choice of the number of hidden neurons in the network is made using statistical information and taking into account the point of diminishing returns. The performance of this ANN is quantified using three error metrics: the mean average percent error (MAPE); the error in the ability to predict the occurrence of the daily peak hour; and the difference in electrical energy consumption between the predicted and the actual values in a 24-hour period. These error measures provide a good indication of the constraints and applicability of these predictions. In the presence of some enabling technologies such as energy storage, rescheduling of non-critical loads, and availability of time of use (ToU) pricing, the possible DSM options that could stem from an accurate prediction of energy consumption of a campus include the identification of anomalous events as well the management of usage.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "d2329dbd8077d7c0c00b986568e00229",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:13.209948"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用人工神经网络进行短期电力负荷预测，应用于大学校园的能源管理，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用人工神经网络进行短期电力负荷预测，应用于大学校园的能源管理，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:36.300469"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 97,
+    "title": "An Evaluation of Self-supervised Learning for Portfolio Diversification",
+    "abstract": "Recently self-supervised learning (SSL) has achieved impressive performance in computer vision (CV) and natural language processing (NLP) tasks, and some early attempts are made in the area of finance. In this paper, we apply SSL to extract features from financial time series data, and use those features to measure the similarities between assets in the market. As similarity measurement is the key to portfolio diversification, we consider two portfolio optimisation problems: index tracking (IT) and minimum variance portfolio (MVP), with the additional diversification terms linked to different similarity measurements, which are sourced from different SSL algorithms. Both IT and MVP are both convex optimisation problems with deterministic solutions, therefore the performance difference is traced back to SSL algorithms, rather than other factors. Extensive experiments are conducted with eight SSL algorithms, and the analysis of the results of the experiments demonstrates the advantages of SSL over non-SSL alternatives.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7363894b60bae1523b3bce56682a5d84",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "feature learning",
+      "feature representation",
+      "deep learning",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.463951"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是应用自监督学习（SSL）来提取金融时间序列数据的特征，并利用这些特征来测量资产之间的相似性，进而优化投资组合的多样化问题。论文明确提到了两个投资组合优化问题：指数跟踪（IT）和最小方差投资组合（MVP），这些都是投资组合管理的典型应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是应用自监督学习（SSL）来提取金融时间序列数据的特征，并利用这些特征来测量资产之间的相似性，进而优化投资组合的多样化问题。论文明确提到了两个投资组合优化问题：指数跟踪（IT）和最小方差投资组合（MVP），这些都是投资组合管理的典型应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:50.588191"
+}

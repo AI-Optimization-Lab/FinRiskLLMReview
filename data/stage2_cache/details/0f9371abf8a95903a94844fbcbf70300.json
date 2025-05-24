@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3132,
+    "title": "Deep Learning Based Hurricane Resilient Coplanning of Transmission Lines, Battery Energy Storages, and Wind Farms",
+    "abstract": "In this article, a multistage model for expansion coplanning of transmission lines, battery energy storages, and wind farms (WFs) is presented considering resilience against extreme weather events. In addition to high-voltage alternating current lines, multiterminal voltage source converter based high-voltage direct current lines are planned to reduce the impact of high-risk events. To evaluate the system resilience against hurricanes, probable hurricane speed scenarios are generated using Monte Carlo simulation. The fragility curve concept is utilized for calculating the failure probability of lines due to extreme hurricanes. Based on each hurricane damage, the probable scenarios are incorporated in the proposed model. Renewable portfolio standard policy is modeled to integrate high penetration of WFs. To deal with the wind power and load demand uncertainties, a chronological time-period clustering algorithm is introduced for extracting representative hours in each planning stage. A deep learning approach based on bidirectional long short-term memory networks is presented to forecast the yearly peak loads. The mixed-integer linear programming formulation of the proposed model is solved using a Benders decomposition algorithm. A modified IEEE RTS test system is used to evaluate the proposed model effectiveness.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "bde39dd9cab0044598b67b9767128935",
+    "relevant_keywords": [
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:13:45.294445"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是电力系统的规划和优化，特别是针对飓风等极端天气事件的韧性规划。虽然使用了深度学习和蒙特卡洛模拟等技术，但这些技术并未应用于金融领域，而是用于电力系统的风险管理和负荷预测。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是电力系统的规划和优化，特别是针对飓风等极端天气事件的韧性规划。虽然使用了深度学习和蒙特卡洛模拟等技术，但这些技术并未应用于金融领域，而是用于电力系统的风险管理和负荷预测。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:27.813930"
+}

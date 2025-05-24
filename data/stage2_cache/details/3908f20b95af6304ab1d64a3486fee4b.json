@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 969,
+    "title": "Detecting Predictable Segments of Chaotic Financial Time Series via Neural Network",
+    "abstract": "In this study, a new idea is proposed to analyze the financial market and detect price fluctuations, by integrating the technology of PSR (phase space reconstruction) and SOM (self organizing maps) neural network algorithms. The prediction of price and index in the financial market has always been a challenging and significant subject in time-series studies, and the prediction accuracy or the sensitivity of timely warning price fluctuations plays an important role in improving returns and avoiding risks for investors. However, it is the high volatility and chaotic dynamics of financial time series that constitute the most significantly influential factors affecting the prediction effect. As a solution, the time series is first projected into a phase space by PSR, and the phase tracks are then sliced into several parts. SOM neural network is used to cluster the phase track parts and extract the linear components in each embedded dimension. After that, LSTM (long short-term memory) is used to test the results of clustering. When there are multiple linear components in the m-dimension phase point, the superposition of these linear components still remains the linear property, and they exhibit order and periodicity in phase space, thereby providing a possibility for time series prediction. In this study, the Dow Jones index, Nikkei index, China growth enterprise market index and Chinese gold price are tested to determine the validity of the model. To summarize, the model has proven itself able to mark the unpredictable time series area and evaluate the unpredictable risk by using 1-dimension time series data.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5f112936b0927a3659520320fce8bad8",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.814562"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是通过神经网络和相空间重构技术来预测金融时间序列中的价格波动，并评估不可预测的风险。这直接关联到金融风险管理中的风险识别和预警，而非衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是通过神经网络和相空间重构技术来预测金融时间序列中的价格波动，并评估不可预测的风险。这直接关联到金融风险管理中的风险识别和预警，而非衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:05.381134"
+}

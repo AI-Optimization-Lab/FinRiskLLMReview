@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1084,
+    "title": "False Safe Haven Assets: Evidence From the Target Volatility Strategy Based on Recurrent Neural Network",
+    "abstract": "This paper examines which safe haven assets should be used when improving out-of-sample portfolio performance. We define a market state with recurrent neural network (RNN) volatility predictions and construct an investment strategy that dynamically combines equity, cash, and safe havens. The equity is allocated by targeting the volatility, and investing in safe havens depends on the predicted market state. We consider the S&P500 index with 13 safe haven assets, such as long-term government bonds, commodities, gold, and other precious metals. Other indices, NIKKEI225, NIFTY50, and STOXX50, are examined for robustness. With analysis conducted over a 20-year sample period, we find that RNN delivers sound predictions to construct the volatility targeting strategy. Among considered assets, only long-term Treasury bonds act as a safe haven and improve the strategy performance. Other considered assets have no such potential. Our findings are relevant to portfolio managers and investors actively managing portfolio risk.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "34f9ea4caaf4156f8ce3da76c9162d05",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "RNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.962090"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用递归神经网络（RNN）预测波动率，并基于此构建动态投资组合策略，旨在通过调整资产配置（如股票、现金和避险资产）来优化投资组合的表现。这直接涉及投资组合管理的核心问题，即如何在不同市场条件下分配资产以实现风险调整后的收益最大化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用递归神经网络（RNN）预测波动率，并基于此构建动态投资组合策略，旨在通过调整资产配置（如股票、现金和避险资产）来优化投资组合的表现。这直接涉及投资组合管理的核心问题，即如何在不同市场条件下分配资产以实现风险调整后的收益最大化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:43.931303"
+}

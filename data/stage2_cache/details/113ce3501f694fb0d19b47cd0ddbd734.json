@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2530,
+    "title": "Energy Profile Clustering with Balancing Mechanism towards more Reliable Distributed Virtual Nodes for Demand Response",
+    "abstract": "As the energy markets become more dynamic, customers' segmentation has become a major concern, especially for Aggregators that contain Distributed Energy Resources in their portfolio. Furthermore, the management complexity in the direction of insightful Demand Response (DR) actions that will yield high profit margins and will hedge against economical risks has been increased since the incorporation of low and medium customers in DR programs. Grouping customers, as independent accumulated virtual nodes (VNs) to the grid, based on their energy profile and their contractual characteristics, facilitates Aggregators overcoming markets' and network's constraints, as well as the designing of collective price policies and purposeful DR strategies. This paper proposes a fully featured methodology that encompasses a soft clustering approach, based on the Gaussian Mixture Model with Expectation Maximization Algorithm, presenting a Temporal Data Dynamic Segmentation (TDDS) algorithm that not only allocates low and medium customers in VNs that share common energy profiles, but also preserves an internal balance in the VNs' resources, in terms of their ability to satisfy reliably DR requests, exploiting the clusters' intersection points to balance the VNs without disrupting their energy profile purity. Experimental results demonstrate an increase in the reliability of each cluster by up to 17.6% without disrupting the clustering coherence.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fb109886e96ae285e5dcf3fc6a8d85cd",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:35.780318"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究能源市场中客户分群和需求响应策略，虽然涉及经济风险对冲，但其核心技术（聚类算法）主要应用于能源管理而非特定的金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究能源市场中客户分群和需求响应策略，虽然涉及经济风险对冲，但其核心技术（聚类算法）主要应用于能源管理而非特定的金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:07.155905"
+}

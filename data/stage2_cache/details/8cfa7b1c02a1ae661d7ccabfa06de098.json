@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3774,
+    "title": "Predicting High Frequency Prices: New Evidence from the E-mini S&P 500 Futures Market",
+    "abstract": "This paper develops and employs a robust and computationally efficient predictive model for forecasting high-frequency E-mini-S&P 500 Index futures prices. Four categories of stock prices are considered, namely Open, Low, High, and Closing prices. Utilizing Elastic Net Regression, we address key challenges inherent in high frequency financial time-series data, including noise and the risk of overfitting. A two-step methodological approach is employed: firstly, the optimal number of time-series lags is determined, thus transforming the time series to autoregressive, and secondly, the Elastic Net Regression model is trained and tested for predictive accuracy. The results reveal that three optimal time-series lags contribute significantly to the model, with the first lag being the most influential. Exceptional forecasting accuracy is achieved on the test set, resulting in Mean Absolute Percentage Errors (MAPE) ranging from 0.01 to 0.02%. The study opens avenues for future research, including the incorporation of additional financial indicators and adaptability to market shocks and volatility.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ed5d9dbbf1ca359795700326ca090966",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:29:59.132670"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究高频价格预测，虽然涉及金融时间序列数据，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究高频价格预测，虽然涉及金融时间序列数据，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:09.334785"
+}

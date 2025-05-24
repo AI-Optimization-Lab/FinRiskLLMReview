@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 738,
+    "title": "Evolve Path Tracer: Early Detection of Malicious Addresses in Cryptocurrency",
+    "abstract": "With the boom of cryptocurrency and its concomitant financial risk concerns, detecting fraudulent behaviors and associated malicious addresses has been drawing significant research effort. Most existing studies, however, rely on the full history features or full-fledged address transaction networks, both of which are unavailable in the problem of early malicious address detection and therefore failing them for the task. To detect fraudulent behaviors of malicious addresses in the early stage, we present Evolve Path Tracer which consists of Evolve Path Encoder LSTM, Evolve Path Graph GCN, and Hierarchical Survival Predictor. Specifically, in addition to the general address features, we propose Asset Transfer Paths and corresponding path graphs to characterize early transaction patterns. Furthermore, since transaction patterns change rapidly in the early stage, we propose Evolve Path Encoder LSTM and Evolve Path Graph GCN to encode asset transfer path and path graph under an evolving structure setting. Hierarchical Survival Predictor then predicts addresses' labels with high scalability and efficiency. We investigate the effectiveness and generalizability of Evolve Path Tracer on three real-world malicious address datasets. Our experimental results demonstrate that Evolve Path Tracer outperforms the state-of-the-art methods. Extensive scalability experiments demonstrate the model's adaptivity under a dynamic prediction setting.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "ece5835154cbb3898f27d025fc3df7bd",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:05.380528"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和图神经网络来早期检测加密货币中的恶意地址，这直接关联到金融风险管理中的欺诈检测和风险控制。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和图神经网络来早期检测加密货币中的恶意地址，这直接关联到金融风险管理中的欺诈检测和风险控制。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:25.523387"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5856,
+    "title": "Bayesian mixed-frequency quantile vector autoregression: Eliciting tail risks of monthly US GDP",
+    "abstract": "Timely characterizations of risks in economic and financial systems play an essential role in both economic policy and private sector decisions. However, the informational content of low frequency variables and the results from conditional mean models provide only limited evidence to investigate this problem. We propose a novel mixed-frequency quantile vector autoregression (MF-QVAR) model to address this issue. Inspired by the univariate Bayesian quantile regression literature, the multivariate asymmetric Laplace distribution is exploited under the Bayesian framework to form the likelihood. A data augmentation approach coupled with a precision sampler efficiently estimates the missing low-frequency variables at higher frequencies under the state-space representation. The proposed methods allow us to analyse conditional quantiles for multiple variables of interest and to derive quantile-related risk measures at high frequency, thus enabling timely policy interventions.The main application of the model is to detect the vulnerability in the US economy and then to nowcast conditional quantiles of the US GDP, which is strictly related to the quantification of Value-at-Risk, the Expected Shortfall and distance among percentiles of real GDP nowcasts.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b27a3459ef99b52d8db385572c6380bb",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:51:58.713203"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a model to analyze conditional quantiles and derive quantile-related risk measures, specifically mentioning Value-at-Risk and Expected Shortfall, which are key tools in financial risk management. The application is to detect vulnerabilities in the US economy, aligning with risk assessment and management objectives.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a model to analyze conditional quantiles and derive quantile-related risk measures, specifically mentioning Value-at-Risk and Expected Shortfall, which are key tools in financial risk management. The application is to detect vulnerabilities in the US economy, aligning with risk assessment and management objectives.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:35.674082"
+}

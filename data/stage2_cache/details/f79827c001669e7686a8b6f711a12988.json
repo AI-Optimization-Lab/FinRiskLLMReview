@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 425,
+    "title": "Deep differentiable reinforcement learning and optimal trading",
+    "abstract": "In many reinforcement learning applications, the underlying environment reward and transition functions are explicitly known differentiable functions. This enables us to use recent research which applies machine learning tools to stochastic control to find optimal action functions. In this paper, we define differentiable reinforcement learning as a particular case of this research. We find that incorporating deep learning in this framework leads to more accurate and stable solutions than those obtained from more generic actor critic algorithms. We apply this deep differentiable reinforcement learning (DDRL) algorithm to the problem of one asset optimal trading strategies in various environments where the market dynamics are known. Thanks to the stability of this method, we are able to efficiently find optimal strategies for complex multi-scale market models. We also extend these methods to simultaneously find optimal action functions for a wide range of environment parameters. This makes it applicable to real life financial signals and portfolio optimization where the expected return has multiple time scales. In the case of a slow and a fast alpha signal, we find that the optimal trading strategy consists in using the fast signal to time the trades associated to the slow signal.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "af02a2c6e1ec73333edb1f3eee383a46",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.579251"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是深度可微分强化学习（DDRL），并将其应用于最优交易策略的制定，特别是在多尺度市场模型中优化交易策略。这直接关联到投资组合管理中的资产配置和交易执行优化。论文中提到的‘portfolio optimization’和‘optimal trading strategies’明确表明其应用领域为投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是深度可微分强化学习（DDRL），并将其应用于最优交易策略的制定，特别是在多尺度市场模型中优化交易策略。这直接关联到投资组合管理中的资产配置和交易执行优化。论文中提到的‘portfolio optimization’和‘optimal trading strategies’明确表明其应用领域为投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:06.223426"
+}

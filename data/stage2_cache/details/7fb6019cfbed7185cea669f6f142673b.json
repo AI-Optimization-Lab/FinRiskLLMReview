@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2878,
+    "title": "Neural Network Predictive Modeling on Dynamic Portfolio Management-A Simulation-Based Portfolio Optimization Approach",
+    "abstract": "Portfolio optimization and quantitative risk management have been studied extensively since the 1990s and began to attract even more attention after the 2008 financial crisis. This disastrous occurrence propelled portfolio managers to reevaluate and mitigate the risk and return trade-off in building their clients' portfolios. The advancement of machine-learning algorithms and computing resources helps portfolio managers explore rich information by incorporating macroeconomic conditions into their investment strategies and optimizing their portfolio performance in a timely manner. In this paper, we present a simulation-based approach by fusing a number of macroeconomic factors using Neural Networks (NN) to build an Economic Factor-based Predictive Model (EFPM). Then, we combine it with the Copula-GARCH simulation model and the Mean-Conditional Value at Risk (Mean-CVaR) framework to derive an optimal portfolio comprised of six index funds. Empirical tests on the resulting portfolio are conducted on an out-of-sample dataset utilizing a rolling-horizon approach. Finally, we compare its performance against three benchmark portfolios over a period of almost twelve years (01/2007-11/2019). The results indicate that the proposed EFPM-based asset allocation strategy outperforms the three alternatives on many common metrics, including annualized return, volatility, Sharpe ratio, maximum drawdown, and 99% CVaR.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "59e1959f805129e94f84467da95e9f23",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:20:16.855748"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用神经网络结合宏观经济因素构建预测模型，并将其与Copula-GARCH模拟模型和Mean-CVaR框架结合，用于优化投资组合。这直接涉及投资组合管理的领域。同时，论文还讨论了风险与回报的权衡以及CVaR等风险管理指标，因此也涉及金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络结合宏观经济因素构建预测模型，并将其与Copula-GARCH模拟模型和Mean-CVaR框架结合，用于优化投资组合。这直接涉及投资组合管理的领域。同时，论文还讨论了风险与回报的权衡以及CVaR等风险管理指标，因此也涉及金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:43.358599"
+}

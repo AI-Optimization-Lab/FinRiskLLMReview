@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 71,
+    "title": "Prospective Portfolio Optimization With Asset Preselection Using a Combination of Long and Short Term Memory and Sharpe Ratio Maximization",
+    "abstract": "This research presents a novel portfolio optimization model that incorporates asset preselection. This model aims to demonstrate how using Long and Short-Term Memory and Sharpe Ratio Maximization can enhance the efficiency of portfolios.The suggested approach consists of three stages, each with practical applications. During the initial phase, the data is gathered. In the second phase, the LSTM network, a commonly employed tool in predicting stock price movements, is utilized to anticipate the time series of stock closing prices. The third stage of the process focuses on stock selection and determining the appropriate weighting for each stock in the portfolio. The proposed approach is tested and carefully validated using the daily closing prices of ten equities from the FTSE 100. The results demonstrate the model's resilience and efficacy, as the portfolios generated using the anticipated and validation data exhibit high similarity. Given the importance of selecting the right stocks for portfolio optimization, this study will combine asset preselection with portfolio weighting. Furthermore, this study utilized a Long Short-Term Memory network to forecast the optimization model's parameters accurately and introduced a novel portfolio optimization model.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "6595104161d7f37a253cdad0408d58dc",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:31:50.344130"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing a novel portfolio optimization model that incorporates asset preselection using LSTM and Sharpe Ratio Maximization. The primary goal is to enhance portfolio efficiency through stock selection and weighting, which is a core aspect of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing a novel portfolio optimization model that incorporates asset preselection using LSTM and Sharpe Ratio Maximization. The primary goal is to enhance portfolio efficiency through stock selection and weighting, which is a core aspect of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:39.897193"
+}

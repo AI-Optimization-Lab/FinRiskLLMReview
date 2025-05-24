@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 850,
+    "title": "Predicting asthma using imbalanced data modeling techniques: Evidence from 2019 Michigan BRFSS data",
+    "abstract": "Studies in the past have examined asthma prevalence and the associated risk factors in the United States using data from national surveys. However, the findings of these studies may not be relevant to specific states because of the different environmental and socioeconomic factors that vary across regions. The 2019 Behavioral Risk Factor Surveillance System (BRFSS) showed that Michigan had higher asthma prevalence rates than the national average. In this regard, we employ various modern machine learning techniques to predict asthma and identify risk factors associated with asthma among Michigan adults using the 2019 BRFSS data. After data cleaning, a sample of 10,337 individuals was selected for analysis, out of which 1,118 individuals (10.8%) reported having asthma during the survey period. Typical machine learning techniques often perform poorly due to imbalanced data issues. To address this challenge, we employed two synthetic data generation techniques, namely the Random Over-Sampling Examples (ROSE) and Synthetic Minority Over-Sampling Technique (SMOTE) and compared their performances. The overall performance of machine learning algorithms was improved using both methods, with ROSE performing better than SMOTE. Among the ROSE-adjusted models, we found that logistic regression, partial least squares, gradient boosting, LASSO, and elastic net had comparable performance, with sensitivity at around 50% and area under the curve (AUC) at around 63%. Due to ease of interpretability, logistic regression is chosen for further exploration of risk factors. Presence of chronic obstructive pulmonary disease, lower income, female sex, financial barrier to see a doctor due to cost, taken flu shot/spray in the past 12 months, 18-24 age group, Black, non-Hispanic group, and presence of diabetes are identified as asthma risk factors. This study demonstrates the potentiality of machine learning coupled with imbalanced data modeling approaches for predicting asthma from a large survey dataset. We conclude that the findings could guide early screening of at-risk asthma patients and designing appropriate interventions to improve care practices.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2b47d5d14f858ae62d660ac64087e325",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.666651"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习技术预测哮喘及其相关风险因素，并未涉及任何金融领域的研究或应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习技术预测哮喘及其相关风险因素，并未涉及任何金融领域的研究或应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:16.000627"
+}

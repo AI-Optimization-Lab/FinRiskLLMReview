@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1660,
+    "title": "Understanding random SAT: Beyond the clauses-to-variables ratio",
+    "abstract": "It is well known that the ratio of the number of clauses to the number of variables in a random k-SAT instance is highly correlated with the instance's empirical hardness. We consider the problem of identifying such features of random SAT instances automatically using machine learning. We describe and analyze models for three SAT solvers - kcnfs, oksolver and satz- and for two different distributions of instances: uniform random 3-SAT with varying ratio of clauses-to-variables, and uniform random 3-SAT with fixed ratio of clauses-to-variables. We show that surprisingly accurate models can be built in all cases. Furthermore, we analyze these models to determine which features are most useful in predicting whether an instance will be hard to solve. Finally we discuss the use of our models to build SATzi11a, an algorithm portfolio for SAV(1).",
+    "year": 2004,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8c95aa8cfd018014317e75d084a3ca76",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:18.321665"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究随机SAT问题的特征识别和机器学习模型构建，用于预测SAT实例的求解难度，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究随机SAT问题的特征识别和机器学习模型构建，用于预测SAT实例的求解难度，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:38.274375"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2160,
+    "title": "StockNet-GRU based stock index prediction",
+    "abstract": "Predicting financial trends of stock indexes is important for investors to reduce risk on investment and efficient decision making if the prediction is made accurately. Researchers, in recent times have applied deep learning approaches in this field which have essentially beaten conventional machine learning approaches. To overcome the issue of overfitting we presented a new data augmentation approach in our GRU based StockNet model consisting of two modules. Injection module to prohibit overfitting and Investigation module for stock index forecasting. The proposed approach has been validated on Indian stock market (CNX-Nifty). Proposed StockNet-c model produces 65.59%, 27.30% and 14.89 % less test loss in terms of RMSE, MAE and MAPE respectively, in comparison to TargetNet model where overfitting prohibition injection module is missing.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "edcbf43fe54cdb244fd28cf9208770f1",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "GRU",
+      "long short-term memory",
+      "LSTM",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T02:11:40.642118"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用GRU神经网络进行股票指数预测，虽然与投资决策相关，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用GRU神经网络进行股票指数预测，虽然与投资决策相关，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:04.471693"
+}

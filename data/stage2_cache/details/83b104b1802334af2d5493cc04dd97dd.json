@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1927,
+    "title": "Decomposition based neural dynamics for portfolio management with tradeoffs of risks and profits under transaction costs",
+    "abstract": "Real-time online optimisation plays a crucial role in high-frequency trading (HFT) strategies. The Markowitz model, as a Nobel Prize-winning framework, is widely used for portfolio management optimisation by framing the problem as a constrained quadratic programming task. While conventional analytical methods are typically effective for solving quadratic programming problems with linear constraints, the introduction of both linear equality and inequality constraints in the Markowitz model necessitates the use of numerical methods. The complexity of these numerical solutions presents technical challenges for real-time online optimisation, especially in HFT environments where computational speed and efficiency are critical. To address this challenge, we propose a simplified model that decomposes the problem into analytically solvable and unsolvable components, alongside an innovative dynamic neural network designed to quickly solve the unsolvable components. Overall, this method helps reduce computational load and is well-suited for realtime online computations in HFT settings. Furthermore, we conducted a theoretical analysis and proof of the optimality and global convergence of the solutions obtained using this method. Finally, based on a large set of real stock data, we performed three numerical experiments to validate its effectiveness. Notably, in an experiment using Dow Jones Industrial Average (DJIA) stock data, our approach reduced total costs by 5.54% compared to the commonly used MATLAB quadprog() solver, demonstrating the potential of this method as an efficient tool for portfolio management in HFT scenarios.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e0907fa844812a1fa283e83110487da3",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:06.191885"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种简化的模型和动态神经网络方法，用于实时在线优化投资组合管理问题，特别是在高频交易（HFT）环境中。论文明确提到了Markowitz模型和投资组合管理的优化问题，并通过实验验证了其方法在减少交易成本方面的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种简化的模型和动态神经网络方法，用于实时在线优化投资组合管理问题，特别是在高频交易（HFT）环境中。论文明确提到了Markowitz模型和投资组合管理的优化问题，并通过实验验证了其方法在减少交易成本方面的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:13.338245"
+}

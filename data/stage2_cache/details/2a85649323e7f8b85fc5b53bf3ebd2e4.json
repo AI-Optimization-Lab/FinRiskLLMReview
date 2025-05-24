@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 42,
+    "title": "基于深度学习的上市企业财务困境预测研究",
+    "abstract": "识别面临财务困境的公司对于维护投资者信心、防范金融风险至关重要。为此，提出了一种新的Attention-LSTM-MOWOA模型，该模型在LSTM模型中集成了注意力机制和多目标鲸鱼优化算法(MOWOA)。与依赖单目标鲸鱼算法的传统模型相比，模型结合了非优势集和拥挤距离计算，最终在鲸鱼算法中形成了一个更复杂的多目标优化框架。这一改进使分类器能够敏锐地识别输入序列中的关键数据并确定其优先级，从而生成帕累托解决方案集。",
+    "year": 2025,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "10b1f1a2c6da2f687e9a8cf220b6cc27",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "classification",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-14T22:25:33.446590"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种深度学习模型用于预测上市企业的财务困境，这直接关联到金融风险管理中的信用风险或企业违约风险预测。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一种深度学习模型用于预测上市企业的财务困境，这直接关联到金融风险管理中的信用风险或企业违约风险预测。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:04.179240"
+}

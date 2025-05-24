@@ -1,0 +1,38 @@
+{
+  "paper": {
+    "id": 994,
+    "title": "Reinforcement learning-based portfolio optimization with deterministic state transition",
+    "abstract": "Portfolio optimization has attracted substantial interest within the artificial intelligence community due to its significant impact on financial decision-making, risk management, and market analysis. Reinforcement learning fits well with portfolio optimization because their goal is to maximize cumulative returns. In reinforcement learning, state transition probabilities are often unknown and must be estimated. However, in portfolio backtesting experiments, these probabilities are deterministic, making the conventional reinforcement learning approach to estimating state transitions suboptimal for portfolio optimization. Addressing this issue, this study decomposes the portfolio optimization into two core tasks: prediction and profit policy optimization and proposes a novel reinforcement learning framework that assumes deterministic state transition probabilities, comprised of three main modules: feature extraction, prediction, and profit strategy optimization. To model assets more effectively and comprehensively, we capture their temporal features, relational features, and market state. We introduce a patch-wise correlation method and attribute based gate to enhance feature extraction. In the profit policy module, we utilize a deterministic strategy, employing a recursive reinforcement learning method based on Monte Carlo sampling to train the policy network. This enables dynamic adjustments of asset investment weights, ensuring the maximization of cumulative returns. Extensive experiments conducted on cryptocurrency datasets demonstrate the superior performance of our approach, and achieving 36.6%-75.6% improvements in main measurements on cryptocurrency datasets.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "23afbb37acf3c85729fa0db7fc3e0f24",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.922793"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on portfolio optimization using reinforcement learning, specifically addressing the maximization of cumulative returns through dynamic adjustments of asset investment weights. This directly aligns with the domain of Portfolio Management, as the core objective is to optimize investment strategies rather than pricing derivatives or managing financial risks.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on portfolio optimization using reinforcement learning, specifically addressing the maximization of cumulative returns through dynamic adjustments of asset investment weights. This directly aligns with the domain of Portfolio Management, as the core objective is to optimize investment strategies rather than pricing derivatives or managing financial risks.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:44.537215"
+}

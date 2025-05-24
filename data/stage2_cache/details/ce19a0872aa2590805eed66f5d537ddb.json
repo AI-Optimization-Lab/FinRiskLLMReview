@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 826,
+    "title": "Valuation of variable annuity portfolios using finite and infinite width neural networks",
+    "abstract": "Direct valuation of variable annuity guarantees relies on nested simulation, which is computationally costly. One way of feasibly valuing large portfolios relies on a two-step process in which such computationally intensive valuations are only performed on a set of carefully chosen representative policies. These values are then used to train a predictive model to obtain those for the remainder of the portfolio. This is known as the metamodeling framework. We empirically demonstrate that, when used as the predictive model, neural networks outperform state-of-the-art tree-based methods in terms of valuation accuracy. Further, we introduce Neural Tangent Kernel (NTK) regression as an easier-to-use and better-performing alternative to standard neural networks. NTK regression is equivalent to fitting the corresponding neural network with layers of infinite width, sidestepping the need to specify the number of nodes. As a kernel regression method, it is also easier to optimize, simplifying greatly the tuning process. We demonstrate that, in the setting of variable annuity valuation, NTK regression delivers significantly better empirical performance compared to finite-width networks.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d29d9aa33f269e23200b41f7aab6c0cd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.475175"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用神经网络和神经切线核回归来对可变年金进行估值，可变年金是一种金融衍生品，因此该研究主要应用于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用神经网络和神经切线核回归来对可变年金进行估值，可变年金是一种金融衍生品，因此该研究主要应用于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:24.575634"
+}

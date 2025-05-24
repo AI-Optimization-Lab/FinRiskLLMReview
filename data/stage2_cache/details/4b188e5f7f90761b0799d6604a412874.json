@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1686,
+    "title": "Portfolio formation with preselection using deep learning from long-term financial data",
+    "abstract": "Portfolio theory is an important foundation for portfolio management which is a well-studied subject yet not fully conquered territory. This paper proposes a mixed method consisting of long short-term memory networks and mean-variance model for optimal portfolio formation in conjunction with the asset preselection, in which long-term dependences of financial time-series data can be captured. The experiment uses a large volume of sample data from the UK Stock Exchange 100 Index between March 1994 and March 2019. In the first stage, long short-term memory networks are used to forecast the return of assets and select assets with higher potential returns. After comparing the outcomes of the long short-term memory networks against support vector machine, random forest, deep neural networks, and autoregressive integrated moving average model, we discover that long short-term memory networks are appropriate for financial time-series forecasting, to beat the other benchmark models by a very clear margin. In the second stage, based on selected assets with higher returns, the mean-variance model is applied for portfolio optimisation. The validation of this methodology is carried out by comparing the proposed model with the other five baseline strategies, to which the proposed model clearly outperforms others in terms of the cumulative return per year, Sharpe ratio per triennium as well as average return to the risk per month of each triennium. i.e. potential returns and risks. (C) 2019 Elsevier Ltd. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d87f8c5d143f75cad15629677d8ee2bf",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.447207"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用长短期记忆网络（LSTM）和均值-方差模型进行资产预选和投资组合优化，这直接应用于投资组合管理领域。论文明确提到其目标是优化投资组合的形成，并通过实验验证了其在累积年回报率、夏普比率等方面的优越性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用长短期记忆网络（LSTM）和均值-方差模型进行资产预选和投资组合优化，这直接应用于投资组合管理领域。论文明确提到其目标是优化投资组合的形成，并通过实验验证了其在累积年回报率、夏普比率等方面的优越性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:59.806352"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 248,
+    "title": "Pricing European Currency Options with High-Frequency Data",
+    "abstract": "Technological innovation has changed the financial market significantly with the increasing application of high-frequency data in research and practice. This study examines the performance of intraday implied volatility (IV) in estimating currency options prices. Options quotations at a different trading time, such as the opening period, midday period and closing period of a trading day with one-month, two months' and three months' maturity, are employed to compute intraday IV for pricing currency options. We use the Mincer-Zarnowitz regression test to analyse the volatility forecast power of IV for three different forecast horizons (within a week, one week and one month). Intraday IV's capability in estimating currency options price is measured by the mean squared error, mean absolute error and mean absolute percentage error measure. The empirical findings show that intraday IV is the key to accurately forecasting volatility and estimating currency options prices precisely. Moreover, IV at the closing period of the beginning of the week contains crucial information for options price estimation. Furthermore, the shorter maturity intraday IV is suitable for pricing options for a shorter horizon. In comparison, the intraday IV based on the longer maturity options subsumes appropriate information to price options with higher accuracy for the longer horizon. Our paper proposes a new approach to accurately pricing currency options using high-frequency data.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "2589b6440d716c1a64278b6780361d72",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:18.983277"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用高频数据（intraday implied volatility）来更准确地定价货币期权（currency options），这直接属于衍生品定价的范畴。论文通过实证分析展示了日内隐含波动率在期权定价中的关键作用，并提出了一个新的定价方法。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用高频数据（intraday implied volatility）来更准确地定价货币期权（currency options），这直接属于衍生品定价的范畴。论文通过实证分析展示了日内隐含波动率在期权定价中的关键作用，并提出了一个新的定价方法。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:43.190645"
+}

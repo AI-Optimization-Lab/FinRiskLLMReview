@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 93,
+    "title": "Howard's algorithm for high-order approximations of American options under jump-diffusion models",
+    "abstract": "Data-driven approaches to price computations of financial options are gaining in importance relative to methods based on numerical solutions of the pricing equations. Comparisons between artificial neural networks and the Black-Scholes pricing model have shown that the machine learning technique compares well in terms of performance with the parametric model. A Bayesian neural network model has recently been employed for predicting the price of options under jump-diffusion models since jump processes have a better capability of fitting market options data. The potential applicability of data-driven models for generating price approximations under jump processes is high, but due to the need of ensuring that computed prices are arbitrage-free, validation by the often employed partial differential equations approach is important. This work proposes a new algorithm that can be used for comparing prices obtained by a learning algorithm for diffusion models with jumps. Two directions are chosen in order to develop a competitive algorithm. The first is employing a higher-order discretisation of the pricing partial integro-differential equation and second using a more efficient numerical procedure for the solution of the resulting linear complementarity problem. Howard's algorithm or policy iteration is one such procedure for the second phase, but application of this method requires that the coefficient matrix is monotone. The combination of high-order approximations for the derivative and integral terms with policy iteration yields an accurate and efficient computational technique, and these properties are illustrated using an extensive set of numerical examples.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "8dafd6a448641e8ab69b29aeb6729f5d",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.981917"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是开发一种新的算法，用于比较跳跃扩散模型下学习算法获得的价格，并着重于高精度离散化和高效数值程序来解决线性互补问题，这直接应用于美式期权的定价，属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是开发一种新的算法，用于比较跳跃扩散模型下学习算法获得的价格，并着重于高精度离散化和高效数值程序来解决线性互补问题，这直接应用于美式期权的定价，属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:00.537447"
+}

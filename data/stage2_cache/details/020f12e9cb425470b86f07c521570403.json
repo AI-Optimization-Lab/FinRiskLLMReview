@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3206,
+    "title": "Bandwidth constrained client selection and scheduling for federated learning over SD-WAN",
+    "abstract": "Cross-silo federated learning (FL) has been proposed and applied in many domains such as financial risk prediction, pharmaceutical discovery, electronic health records mining. In this paradigm, multiple clients can collaboratively train machine learning models with higher accuracy while protecting their privacy under the coordination of a central server. To interconnect these geo-distributed clients and the central server, the architecture of FL is proposed over software-defined wide area network (SD-WAN). The total time to achieve the required accuracy for FL depends on both the time of each iteration and the number of iterations. Because the bandwidth for each path from client to central server is constrained, different client selection schemes and different path routing mechanisms may lead to different times of iteration. The authors propose FedMT algorithm to minimize the total time through well-designed client selection and routing, which greatly reduces the upload time of each iteration while slightly affecting the number of iterations. Extensive experiments are conducted and demonstrated the time to achieve the same accuracy for FedMT is less than half of that for FedAvg and FedProx.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5698ea5e147e4d6a96137e3f5e4fe9db",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:23:33.606357"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究联邦学习在带宽受限环境下的客户端选择和调度优化，虽然提到金融风险预测作为应用领域之一，但核心技术并未专注于任何特定的金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究联邦学习在带宽受限环境下的客户端选择和调度优化，虽然提到金融风险预测作为应用领域之一，但核心技术并未专注于任何特定的金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:03.354642"
+}

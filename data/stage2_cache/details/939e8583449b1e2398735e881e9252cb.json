@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 447,
+    "title": "An ensemble learning-based framework for assessing the energy flexibility of residential buildings with multicomponent energy systems",
+    "abstract": "A key issue in energy flexibility assessment is the lack of a scalable practicable approach to quantify and characterise the flexibility of individual residential buildings from an integrated energy system perspective without the need to use complex simulation models. In this study, this problem is addressed by explicitly quantifying the flexibility of multicomponent thermal and electrical systems commonly found in residential buildings based on an ensemble learning framework that consists of four algorithms, namely, random forests, multilayer perceptron neural network, support vector machine, and extreme gradient boosting. The day-ahead and hour-ahead prediction models developed are periodically updated considering dynamic feature selection based on residential occupancy patterns. The proposed methodology utilises synthetic data obtained from a calibrated while-box model of an all-electric residential building for two indicative occupancy profiles. The energy systems evaluated include a heat pump, a photovoltaic system, and a battery unit. The daily flexibility mappings are acquired by applying hourly independent, and consecutive demand response actions for each energy system considered, using suitable energy flexibility indicators. The results show that the ensemble models developed for each target variable outperform each of the constituent machine learning algorithms. Moreover, the storage capacity resulting from harnessing the heat pump downward flexibility demonstrates accurate accuracy with a coefficient of determination equal to 0.979 and 0.968 for day-ahead predictions and 0.998 and 0.978 for day ahead predictions for the two occupancy profiles considered, respectively. This framework can be used by electricity aggregators to evaluate a building portfolio in an end-user-tailored manner or optimally exploit its energy flexibility considering multi-step predictions to shift electricity usage to off-peak times or times of excess onsite renewable energy generation.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9db9e6f61751c27ea3e53e5a368a92a7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "random forests",
+      "multilayer perceptron neural network",
+      "extreme gradient boosting"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.290861"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是基于集成学习的住宅建筑能源灵活性评估框架，其核心技术应用于能源系统的预测和优化，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是基于集成学习的住宅建筑能源灵活性评估框架，其核心技术应用于能源系统的预测和优化，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:40.880253"
+}

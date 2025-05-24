@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 195,
+    "title": "Forecasting Stock Returns Based on Spline Wavelet Support Vector",
+    "abstract": "Stock returns forecast is vital important in finance to reduce risk and take better decisions. This paper propose a spline wavelet kernel for support vector machine (SVM), called spline wavelet support vector machine (SWSVM), to model nonstationary financial time series. The SWSVM is obtained by incorporating the spline wavelet theory into SVM. Because spline wavelet function can yield features that describe of the stock time series both at various locations and at varying time granularities, the SWSVM can forecast stock returns accurately. The applicability and validity of spline wavelet support vector machine (SWSVM) for stock returns forecast were analyzed through experiments on real-world stock data. It appears that the spline wavelet kernel perform better than the Gaussian kernel.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "df3a966f20f5353f067c6dbc75789f0e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "support vector machine",
+      "SVM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:53.039345"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用支持向量机（SVM）结合样条小波理论来预测股票收益，这直接关联到投资组合管理中的资产选择和收益预测。虽然风险管理可能间接受益于更准确的预测，但论文的主要应用场景和实验设计集中在股票收益预测，这是投资组合管理的核心任务之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用支持向量机（SVM）结合样条小波理论来预测股票收益，这直接关联到投资组合管理中的资产选择和收益预测。虽然风险管理可能间接受益于更准确的预测，但论文的主要应用场景和实验设计集中在股票收益预测，这是投资组合管理的核心任务之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:20.108555"
+}

@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "neural network",
+    "deep learning",
+    "recurrent neural network",
+    "long short-term memory",
+    "LSTM",
+    "GRU"
+  ],
+  "explanations": {
+    "neural network": "论文中使用了门控循环单元(GRU)进行高频项和低频项的估计，GRU是一种神经网络结构。",
+    "deep learning": "GRU是深度学习中的一种常用模型，用于处理序列数据。",
+    "recurrent neural network": "GRU属于循环神经网络(RNN)的一种变体。",
+    "long short-term memory": "GRU与LSTM类似，都是用于解决长序列依赖问题的RNN变体。",
+    "LSTM": "虽然论文没有直接使用LSTM，但GRU与LSTM密切相关，都是RNN的变体。",
+    "GRU": "论文明确提到使用门控循环单元(GRU)进行高频项和低频项的估计。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"neural network\", \"deep learning\", \"recurrent neural network\", \"long short-term memory\", \"LSTM\", \"GRU\"],\n  \"explanations\": {\n    \"neural network\": \"论文中使用了门控循环单元(GRU)进行高频项和低频项的估计，GRU是一种神经网络结构。\",\n    \"deep learning\": \"GRU是深度学习中的一种常用模型，用于处理序列数据。\",\n    \"recurrent neural network\": \"GRU属于循环神经网络(RNN)的一种变体。\",\n    \"long short-term memory\": \"GRU与LSTM类似，都是用于解决长序列依赖问题的RNN变体。\",\n    \"LSTM\": \"虽然论文没有直接使用LSTM，但GRU与LSTM密切相关，都是RNN的变体。\",\n    \"GRU\": \"论文明确提到使用门控循环单元(GRU)进行高频项和低频项的估计。\"\n  }\n}\n```"
+}

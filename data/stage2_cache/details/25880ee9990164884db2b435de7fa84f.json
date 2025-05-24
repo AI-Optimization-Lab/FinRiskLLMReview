@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 210,
+    "title": "Automatic phishing website detection and prevention model using transformer deep belief network",
+    "abstract": "In the digitally connected world cybersecurity is paramount, phishing where attackers pose as trusted entities to steal sensitive data, looms large. The proliferation of phishing attacks on the internet poses a substantial threat to individuals and organizations, compromising sensitive information and causing financial and reputational damage. This study's goal is to establish an automated system for the early detection and prevention of phishing websites, thereby enhancing online security and protecting users from cyber threats. This research initially employs One Hot Encoding (OHE) mechanism-based pre-processing mechanism that converts every URL string into a numerical vector with a particular dimension. This study utilizes two feature selection techniques which are transfer learning-based feature extraction using DarkNet19 and Variational Autoencoder (VAE) to select the value of the most important feature. The robust security mechanisms are presented to prevent phishing attacks and safeguard personal information on websites. List-based deep learning-based systems to prevent and detect phishing URLs more efficiently. The study proposes a transformer-based Deep Belief Network (TB-DBN), a veritable pre-trained deep transformer network model for phishing behaviour detection. A cross-validation technique with grid search hyper-parameter tuning based on the Intelligence Binary Bat Algorithm (IBBA) was designed using the proposed hybrid model. Predictions were made to classify the phishing URLs using a probabilistic estimation guided boosting classifier model and evaluate their performance in terms of accuracy, precision, recall, specificity, and F1- score. The risk level associated with the URL will be assessed based on various factors, such as the source's reputation, content analysis results, and behavioural anomalies. The computational complexity of DL model training is influenced by various factors, such as the model's complexity, the training data's size, and the optimization algorithm exploited, for training. The outcome demonstrates that tweaking variables increases the effectiveness of Python-based deep learning systems. The findings of the proposed method excel, achieving an accuracy of 99.4 %, precision of 99.2 %, recall of 99.3 %, and an F1-score of 99.2 %. This innovative automatic phishing website detection and prevention model, based on a Transformerbased Deep Belief Network, offers advanced accuracy and adaptability, strengthening cybersecurity measures to safeguard sensitive user information and mitigate the substantial threat of phishing attacks in the digitally connected world.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "a43d26eb6c4bb92be0ba175f37bce956",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "classification",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "representation learning",
+      "deep belief network",
+      "autoencoder",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.574526"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用深度学习技术检测和预防钓鱼网站，其核心应用领域是网络安全而非金融领域。虽然网络安全对金融行业有重要意义，但论文本身并未涉及衍生品定价、金融风险管理或投资组合管理等具体金融应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用深度学习技术检测和预防钓鱼网站，其核心应用领域是网络安全而非金融领域。虽然网络安全对金融行业有重要意义，但论文本身并未涉及衍生品定价、金融风险管理或投资组合管理等具体金融应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:03.076935"
+}

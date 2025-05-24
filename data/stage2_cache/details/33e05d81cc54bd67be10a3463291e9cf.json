@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 34,
+    "title": "基于双重XGBoost模型的农产品期货波动率预测——以玉米期货为例",
+    "abstract": "农产品期货的波动率在农产品衍生品定价、风险分散和农产品风险对冲等领域都起着关键性作用。对波动率进行预测，投资者可以依据波动率预测结果，对预期可能面临的风险采取相应的应对策略，更加精准地进行农产品风险管理。但波动率预测领域存在如下挑战：(1)波动率的预测期限较短，仅为1天或3天，难以反映资产在未来较长时间的价格波动率情况；(2)以往研究多关注于价格等信息，在波动率预测中对于基本面信息考虑较少；(3)神经网络、深度学习等预测模型的可解释性较差，网络构建和超参数的选择多依赖于经验选择。本文提出了一个基于XGBoost模型的波动率预测框架，考虑价格和基本面数据，对于波动率的长期趋势和短期变化进行了分析。实证结果表明，加入了更多信息维度的模型有助于提升波动率预测的精度，相比于传统的GARCH模型，均方误差MSE缩小了35%以上。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "e9fd8d22a80c148e17b7cbe2d037bfc9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-14T20:21:16.888766"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用XGBoost模型预测农产品期货的波动率，目的是帮助投资者更好地进行风险管理。虽然论文提到了衍生品定价，但主要研究焦点是波动率预测及其在风险管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用XGBoost模型预测农产品期货的波动率，目的是帮助投资者更好地进行风险管理。虽然论文提到了衍生品定价，但主要研究焦点是波动率预测及其在风险管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:37.916070"
+}

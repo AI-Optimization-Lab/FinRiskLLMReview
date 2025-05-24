@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1125,
+    "title": "Deep Neighbor Embedding for Evaluation of Large Portfolios of Variable Annuities",
+    "abstract": "Variable annuities are very profitable financial products that pose unique challenges in risk prediction. Metamodeling techniques are popular due to the significant saving in computation time. However, the current metamodeling techniques still have a low valuation accuracy. One key difficulty is the selection of a small number of contracts that optimally represent the whole portfolio. In this paper, we propose a novel and highly effective method for selecting representative contracts. At the center of this method is a deep neighbor embedding that supports robust clustering of the contracts in a portfolio. The embedding is a low-dimensional representation that respects similarities among contracts in both contract-specific features and their historical performance, achieved through abstract representation in a deep neural network. Empirical results show that the proposed model achieves significant improvement in valuation accuracy, often 10 times or more accurate compared with the popular Kriging-based model.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "095cf8f9a99ae306edf7a560cd71033e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "clustering",
+      "feature representation",
+      "manifold learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.591851"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度邻居嵌入方法来选择代表合同，以提高可变年金组合的风险预测准确性。可变年金的风险预测属于金融风险管理的范畴。虽然论文提到了投资组合，但主要关注的是风险预测而非投资组合的构建或优化，因此不属于投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度邻居嵌入方法来选择代表合同，以提高可变年金组合的风险预测准确性。可变年金的风险预测属于金融风险管理的范畴。虽然论文提到了投资组合，但主要关注的是风险预测而非投资组合的构建或优化，因此不属于投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:58.722162"
+}

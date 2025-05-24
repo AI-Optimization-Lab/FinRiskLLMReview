@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1124,
+    "title": "A novel strongly-typed Genetic Programming algorithm for combining sentiment and technical analysis for algorithmic trading",
+    "abstract": "The use of algorithms in finance and trading has become an increasingly thriving research area, with researchers creating automated and pre programmed trading instructions utilising indicators from technical and sentiment analysis. The indicators of the two analyses have been used mostly individually, despite evidence that their combination can be profitable and financially advantageous. In this paper, we examine the advantages of combining indicators from both technical and sentiment analysis through a novel genetic programming algorithm, named STGP-SATA. Our algorithm introduces technical and sentiment analysis types, through a strongly-typed architecture, whereby the associated tree contains one branch with only technical indicators and another branch with only sentiment analysis indicators. This approach allows for better exploration and exploitation of the search space of the indicators. To evaluate the performance of STGP-SATA we compare it with three other GP variants on three financial metrics, namely Sharpe ratio, rate of return and risk. We furthermore compare STGP-SATA against two financial and four algorithmic benchmarks, namely, multilayer perceptron, support vector machine, extreme gradient boosting, and long short term memory network. Our study shows that the combination of technical and sentiment analysis indicators through STGP-SATA improves the financial performance of the trading strategies and statistically and significantly outperforms the other benchmarks across the three financial metrics.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f650b63fbd8a70fa4101bb04b5ffba23",
+    "relevant_keywords": [
+      "machine learning",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.587667"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种结合情感分析和技术分析的遗传编程算法（STGP-SATA）用于算法交易，其核心目标是提高交易策略的财务表现（如夏普比率、回报率和风险），并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种结合情感分析和技术分析的遗传编程算法（STGP-SATA）用于算法交易，其核心目标是提高交易策略的财务表现（如夏普比率、回报率和风险），并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:58.802358"
+}

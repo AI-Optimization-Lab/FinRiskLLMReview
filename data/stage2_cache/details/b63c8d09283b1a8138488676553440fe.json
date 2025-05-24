@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 147,
+    "title": "Deep Learning Artificial Neural Network for Pricing Multi-Asset European Options",
+    "abstract": "This paper studies a p-layers deep learning artificial neural network (DLANN) for European multi-asset options. Firstly, a p-layers DLANN is constructed with undetermined weights and bias. Secondly, according to the terminal values of the partial differential equation (PDE) and the points that satisfy the PDE of multi-asset options, some discrete data are fed into the p-layers DLANN. Thirdly, using the least square error as the objective function, the weights and bias of the DLANN are trained well. In order to optimize the objective function, the partial derivatives for the weights and bias of DLANN are carefully derived. Moreover, to improve the computational efficiency, a time-segment DLANN is proposed. Numerical examples are presented to confirm the accuracy, efficiency, and stability of the proposed p-layers DLANN. Computational examples show that the DLANN's relative error is less than 0.5% for different numbers of assets d=1,2,3,4. In the future, the p-layers DLANN can be extended into American options, Asian options, Lookback options, and so on.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "e74494a807ae98704b760324e7661038",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:08.962638"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度人工神经网络（DLANN）来定价多资产欧式期权，并讨论了如何通过训练网络权重和偏置来优化定价模型的准确性。论文明确提到其应用场景是期权定价，并计划扩展到美式期权、亚式期权等衍生品，因此属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度人工神经网络（DLANN）来定价多资产欧式期权，并讨论了如何通过训练网络权重和偏置来优化定价模型的准确性。论文明确提到其应用场景是期权定价，并计划扩展到美式期权、亚式期权等衍生品，因此属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:28.966246"
+}

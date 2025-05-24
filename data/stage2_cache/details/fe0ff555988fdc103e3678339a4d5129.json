@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 955,
+    "title": "Know Your Clients' Behaviours: A Cluster Analysis of Financial Transactions",
+    "abstract": "In Canada, financial advisors and dealers are required by provincial securities commissions and self-regulatory organizations-charged with direct regulation over investment dealers and mutual fund dealers-to respectively collect and maintain know your client (KYC) information, such as their age or risk tolerance, for investor accounts. With this information, investors, under their advisor's guidance, make decisions on their investments that are presumed to be beneficial to their investment goals. Our unique dataset is provided by a financial investment dealer with over 50,000 accounts for over 23,000 clients covering the period from January 1st to August 12th 2019. We use a modified behavioral finance recency, frequency, monetary model for engineering features that quantify investor behaviours, and unsupervised machine learning clustering algorithms to find groups of investors that behave similarly. We show that the KYC information-such as gender, residence region, and marital status-does not explain client behaviours, whereas eight variables for trade and transaction frequency and volume are most informative. Hence, our results should encourage financial regulators and advisors to use more advanced metrics to better understand and predict investor behaviours.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cb1af0ae43c89c5daf9a7f58d057a607",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:49.750015"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究投资者行为的聚类分析，虽然涉及金融投资领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究投资者行为的聚类分析，虽然涉及金融投资领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:07.178512"
+}

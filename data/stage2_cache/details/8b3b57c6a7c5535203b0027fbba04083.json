@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1970,
+    "title": "Estimating credit risk parameters using ensemble learning methods: an empirical study on loss given default",
+    "abstract": "In credit risk modeling, banks and insurance companies routinely use a single model for estimating key risk parameters. Combining several models to make a final prediction is not often considered. Using an ensemble or a collection of models rather than a single model can improve the accuracy and robustness of prediction results. In this study, we investigate two well-established ensemble learning methods (stochastic gradient boosting and random forest) and propose two new ensembles (ensemble by partial least squares and bag-boosting) in the application of predicting the loss given default. We demonstrate that an ensemble approach significantly increases the discriminatory power of the model compared with a single decision tree. In addition, the ensemble learning methods can be applied directly to predicting the exposure at default and probability of default with some simple modifications. The proposed approaches introduce a novel modeling framework that banks and other financial institutions can use to estimate and validate credit risk parameters based on the internal data of different portfolios. Moreover, the proposed approaches can be readily extended to general portfolio risk modeling in the areas of regulatory capital and economic capital management, loss forecasting, stress testing and pre-provision net revenue projections.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "21581647b86e829f0c996797b0e88b30",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "ensemble learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:48.276750"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on estimating credit risk parameters, specifically loss given default, using ensemble learning methods. This is a core aspect of financial risk management, particularly in the context of credit risk modeling for banks and financial institutions. The study also mentions applications in regulatory capital, economic capital management, and stress testing, all of which are key components of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on estimating credit risk parameters, specifically loss given default, using ensemble learning methods. This is a core aspect of financial risk management, particularly in the context of credit risk modeling for banks and financial institutions. The study also mentions applications in regulatory capital, economic capital management, and stress testing, all of which are key components of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:09.221475"
+}

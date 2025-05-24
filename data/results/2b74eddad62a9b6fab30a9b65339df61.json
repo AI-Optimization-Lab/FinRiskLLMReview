@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "regression",
+    "neural network",
+    "deep learning",
+    "recurrent neural network",
+    "long short-term memory",
+    "LSTM"
+  ],
+  "explanations": {
+    "machine learning": "The paper mentions a machine-learning-based thermal load forecasting method, indicating the use of machine learning techniques.",
+    "regression": "Thermal load forecasting typically involves regression tasks to predict continuous values.",
+    "neural network": "Machine learning-based forecasting methods often utilize neural networks, though the specific type is not mentioned.",
+    "deep learning": "The use of LSTM (a deep learning technique) suggests the involvement of deep learning.",
+    "recurrent neural network": "LSTM is a type of recurrent neural network, which is likely used for time-series forecasting.",
+    "long short-term memory": "The paper mentions a 72-h forecast horizon, which is a time-series problem where LSTM is commonly applied.",
+    "LSTM": "Abbreviation for long short-term memory, directly mentioned in the context of forecasting."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"regression\", \"neural network\", \"deep learning\", \"recurrent neural network\", \"long short-term memory\", \"LSTM\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper mentions a machine-learning-based thermal load forecasting method, indicating the use of machine learning techniques.\",\n    \"regression\": \"Thermal load forecasting typically involves regression tasks to predict continuous values.\",\n    \"neural network\": \"Machine learning-based forecasting methods often utilize neural networks, though the specific type is not mentioned.\",\n    \"deep learning\": \"The use of LSTM (a deep learning technique) suggests the involvement of deep learning.\",\n    \"recurrent neural network\": \"LSTM is a type of recurrent neural network, which is likely used for time-series forecasting.\",\n    \"long short-term memory\": \"The paper mentions a 72-h forecast horizon, which is a time-series problem where LSTM is commonly applied.\",\n    \"LSTM\": \"Abbreviation for long short-term memory, directly mentioned in the context of forecasting.\"\n  }\n}\n```"
+}

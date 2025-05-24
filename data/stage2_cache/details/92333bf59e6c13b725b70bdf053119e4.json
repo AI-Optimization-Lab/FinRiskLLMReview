@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 74,
+    "title": "Pricing dericative securities in incomplete markets",
+    "abstract": "We propose the algorithms for pricing American and European options in incomplete markets. We consider a non-self-financing replicating portfolio and minimize the hedging error consisting of the self-financing error of the portfolio dynamics and the error of the option's payoff replication. We treat the pricing problem as regression with constraints and reduce it to a quadratic minimization problem. The algorithms of pricing American and European options differ in imposing one additional type of constraints. Prices of options for different initial and strike prices can be found in one optimization run. The algorithms create a table representing the option price as a function of time and the underlying stock price for the whole lifetime of the option. We illustrate the numerical performance of the algorithms with options on futures contracts in natural gas market.",
+    "year": 2004,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "68a3a9331eedea3ce7d0b8c1c6b9d02e",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.914732"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心内容是提出算法用于定价美式和欧式期权，并讨论了在不完全市场中的定价问题，这直接属于衍生品定价的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心内容是提出算法用于定价美式和欧式期权，并讨论了在不完全市场中的定价问题，这直接属于衍生品定价的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:02.620070"
+}

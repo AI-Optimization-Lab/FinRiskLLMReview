@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 81,
+    "title": "Cryptocurrency Portfolio Management with Deep Reinforcement Learning",
+    "abstract": "Portfolio management is the decision-making process of allocating an amount of fund into different financial investment products. Cryptocurrencies are electronic and decentralized alternatives to government-issued money, with Bitcoin as the best-known example of a cryptocurrency. This paper presents a model-less convolutional neural network with historic prices of a set of financial assets as its input, outputting portfolio weights of the set. The network is trained with 0.7 years' price data from a cryptocurrency exchange. The training is done in a reinforcement manner, maximizing the accumulative return, which is regarded as the reward function of the network. Back test trading experiments with trading period of 30 minutes is conducted in the same market, achieving 10-fold returns in 1.8 month's periods. Some recently published portfolio selection strategies are also used to perform the same back tests, whose results are compared with the neural network. The network is not limited to cryptocurrency, but can be applied to any other financial markets.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "eed0a8a6a67eaa41bca908a027d1abfb",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:57.072323"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习来优化加密货币投资组合的权重分配，其研究目标是最大化累积回报，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习来优化加密货币投资组合的权重分配，其研究目标是最大化累积回报，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:52.394895"
+}

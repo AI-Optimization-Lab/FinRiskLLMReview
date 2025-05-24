@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 5135,
+    "title": "Efficient and Secure Federated Learning for Financial Applications",
+    "abstract": "Conventional machine learning (ML) and deep learning approaches require sharing customers' sensitive information with an external credit bureau to generate a prediction model, thereby increasing the risk of privacy leakage. This poses a significant challenge for financial companies. To address this challenge, federated learning has emerged as a promising approach to protect data privacy. However, the high communication costs associated with federated systems, particularly for large neural networks, can be a bottleneck. To mitigate this issue, it is necessary to limit the number and size of communications for practical training of large neural structures. Gradient sparsification is a technique that has gained increasing attention as a method to reduce communication costs, as it updates only significant gradients and accumulates insignificant gradients locally. However, the secure aggregation framework cannot directly employ gradient sparsification. To overcome this limitation, this article proposes two sparsification methods for reducing the communication costs of federated learning. The first method is a time-varying hierarchical sparsification method for model parameter updates, which addresses the challenge of maintaining model accuracy after a high sparsity ratio. This method can significantly reduce the cost of a single communication. The second method is to apply sparsification to the secure aggregation framework. Specifically, the encryption mask matrix is sparsified to reduce communication costs while protecting privacy. Experiments demonstrate that our method can reduce the upload communication costs to approximately 2.9% to 18.9% of the conventional federated learning algorithm under different non-IID experiment settings when the sparsity rate is 0.01.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cae35c3aec9684419bda735cf0d5a5eb",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T02:44:43.867512"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究联邦学习中的通信成本优化和隐私保护技术，虽然提及金融应用背景，但并未具体涉及衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究联邦学习中的通信成本优化和隐私保护技术，虽然提及金融应用背景，但并未具体涉及衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:08.459653"
+}

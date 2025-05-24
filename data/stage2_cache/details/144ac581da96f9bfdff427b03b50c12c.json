@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 22,
+    "title": "基于LSTM与熵值—TOPSIS法的投资组合构建策略",
+    "abstract": "股票市场具有较强的波动性和不确定性，如何利用已有信息构造一个合理的投资组合一直是人们关注的问题。本文通过观察股票数据以及公司基本数据，确定了预测股票走势的指标数据，基于LSTM模型预测出所选股票的周涨跌幅，进而将预测的周涨跌幅作为其中一个因子，结合券商研报的最近一期相关数据，使用熵值—TOPSIS法对股票进行打分排序，并据此构建投资策略。最后通过实际数据的验证，说明了本文模型的有效性。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "4c65779ba89f4ea87ebe08b4afda087f",
+    "relevant_keywords": [
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T15:02:38.095254"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM模型预测股票涨跌幅，并结合熵值—TOPSIS法构建投资组合策略，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM模型预测股票涨跌幅，并结合熵值—TOPSIS法构建投资组合策略，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:45:12.132691"
+}

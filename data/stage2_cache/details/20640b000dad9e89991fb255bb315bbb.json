@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2138,
+    "title": "OptimizingEnsemble Learning to Reduce Misclassification Costs in Credit Risk Scorecards",
+    "abstract": "Credit risk scorecard models are utilized by lending institutions to optimize decisions on credit approvals. In recent years, ensemble learning has often been deployed to reduce misclassification costs in credit risk scorecards. In this paper, we compared the risk estimation of 26 widely used machine learning algorithms based on commonly used statistical metrics. The best-performing algorithms were then used for model selection in ensemble learning. For the first time, we proposed financial criteria that assess the impact of losses associated with both false positive and false negative predictions to identify optimal ensemble learning. The German Credit Dataset (GCD) is augmented with simulated financial information according to a hypothetical mortgage portfolio observed in UK, European and Australian banks to enable the assessment of losses arising from misclassification costs. The experimental results using the simulated GCD show that the best predictive individual algorithm with the accuracy of 0.87, Gini of 0.88 and Area Under the Receiver Operating Curve of 0.94 was the Generalized Additive Model (GAM). The ensemble learning method with the lowest misclassification cost was the combination of Random Forest (RF) and K-Nearest Neighbors (KNN), totaling USD 417 million in costs (USD 230 for default costs and USD 187 for opportunity costs) compared to the costs of the GAM (USD 487, USD 287 and USD 200). Implementing the proposed financial criteria has led to a significant USD 70 million reduction in misclassification costs derived from a small sample. Thus, the lending institutions' profit would considerably rise as the number of submitted credit applications for approval increases.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1e4239d33e2ff7f199877d74340072fa",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:11:40.582649"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on optimizing ensemble learning to reduce misclassification costs in credit risk scorecards, which is directly related to assessing and managing credit risk—a key aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on optimizing ensemble learning to reduce misclassification costs in credit risk scorecards, which is directly related to assessing and managing credit risk—a key aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:24.120986"
+}

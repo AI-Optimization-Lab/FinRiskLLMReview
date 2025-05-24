@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 4177,
+    "title": "A regression-based approach to estimating retrofit savings using the Building Performance Database",
+    "abstract": "Retrofitting building systems is known to provide cost-effective energy savings. However, prioritizing retrofits and computing their expected energy savings and cost/benefits can be a complicated, costly, and an uncertain effort. Prioritizing retrofits for a portfolio of buildings can be even more difficult if the owner must determine different investment strategies for each of the buildings. Meanwhile, we are seeing greater availability of data on building energy use, characteristics, and equipment. These data provide opportunities for the development of algorithms that link building characteristics and retrofits empirically. In this paper we explore the potential of using such data for predicting the expected energy savings from equipment retrofits for a large number of buildings. We show that building data with statistical algorithms can provide savings estimates when detailed energy audits and physics-based simulations are not cost- or time-feasible. We develop a multivariate linear regression model with numerical predictors (e.g., operating hours, occupant density) and categorical indicator variables (e.g., climate zone, heating system type) to predict energy use intensity. The model quantifies the contribution of building characteristics and systems to energy use, and we use it to infer the expected savings when modifying particular equipment. We verify the model using residual analysis and cross-validation. We demonstrate the retrofit analysis by providing a probabilistic estimate of energy savings for several hypothetical building retrofits. We discuss the ways understanding the risk associated with retrofit investments can inform decision making. The contributions of this work are the development of a statistical model for estimating energy savings, its application to a large empirical building dataset, and a discussion of its use in informing building retrofit decisions. (C) 2016 Elsevier Ltd. All rights reserved.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8649561e8f570ff01fe96a0c2175355b",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:24:25.444891"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究建筑改造的能源节约预测，使用回归模型分析建筑特征与能源使用的关系，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究建筑改造的能源节约预测，使用回归模型分析建筑特征与能源使用的关系，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:58.890182"
+}

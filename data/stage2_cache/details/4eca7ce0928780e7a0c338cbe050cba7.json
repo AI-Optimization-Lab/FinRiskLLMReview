@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 910,
+    "title": "Telecom Churn Prediction Using CNN with Variational Autoencoder",
+    "abstract": "Customer churn is a major problem across traditional and new age companies like telecom, digital services providers, online marketplace, payment banking and social media companies. Customer churn means customer is moving out from the company, hence impacting the top line of financial sheets. This is particularly more relevant for companies having subscription-based plans. Telecom industry which has sizable customer base and cut-throat competition is at higher risk of impact due to churn. With the customer database size running into petabyte and terabytes, it is a tedious and time-taking task to accurately predict customer churn based on some random logic. While machine learning appears to be an easier alternative, often such database contains large number of string attributes that are tough to use in machine learning algorithms. Various traditional machine learning and data mining techniques have been applied for handling such big data. All such techniques have leveraged different techniques for data engineering. In this study, we have demonstrated how a new and powerful technique convolutional neural network with variational autoencoder can help predict churn with higher accuracy. CNN automatically has the ability of good feature selection and representation of input data, and this study has come with a new aspect, i.e. integrating all string attributes in dataset (ISAD) for using all existing string variable of database helping in enhancing model performance. Experiment is done on three telecom companies Cell2Cell, Telco and Orange datasets of size 51,048, 7048 and 3333, respectively. Model outperformed on all three datasets and achieved a good accuracy level. ISAD model helped to enhance the performance by giving more feature option for predicting the customer behaviour correctly.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "499398f09b53bef863cda3ca67a23d04",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:17.614706"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用卷积神经网络和变分自编码器预测电信行业的客户流失，虽然涉及金融影响（如收入损失），但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用卷积神经网络和变分自编码器预测电信行业的客户流失，虽然涉及金融影响（如收入损失），但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:53.060798"
+}

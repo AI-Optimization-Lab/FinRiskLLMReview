@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 896,
+    "title": "A Robo-Advisor Design using Multiobjective RankNets with Gated Neural Network Structure",
+    "abstract": "With rapid developments in deep learning and financial technology, a customized robo-advisory service based on novel artificial intelligence techniques has been widely adopted to realize financial inclusion. This study proposes a novel robo-advisor system that integrates trend prediction, portfolio management, and a recommendation mechanism. A gated neural network structure combining three multiobjective RankNet kernels could rank target financial products and recommend the top-n securities to investors. The gated neural network learns to choose or weigh each RankNet for incorporating the most important partial network inputs, such as earnings per share, market index, and hidden information from the time series. Experimental results indicate that the recommendation results of our proposed robo-advisor based on a gated neural network and multiobjective RankNets can outperform existing models.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "eafccdcc809d7929b37539f051c75474",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.250072"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是设计一个基于多目标RankNet和门控神经网络的机器人顾问系统，用于推荐金融产品和构建投资组合。论文明确提到该系统整合了投资组合管理和推荐机制，并通过对目标金融产品的排名和推荐来帮助投资者，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是设计一个基于多目标RankNet和门控神经网络的机器人顾问系统，用于推荐金融产品和构建投资组合。论文明确提到该系统整合了投资组合管理和推荐机制，并通过对目标金融产品的排名和推荐来帮助投资者，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:43.668732"
+}

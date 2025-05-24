@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 336,
+    "title": "An interpretable Comprehensive Capital Analysis and Review (CCAR) neural network model for portfolio loss forecasting and stress testing",
+    "abstract": "This paper proposes an interpretable nonlinear neural network (NN) model that translates business regulatory requirements into model constraints. The model is then compared with linear and nonlinear NN models without the constraint for Comprehensive Capital Analysis and Review (CCAR) loss forecasting and scenario stress testing. Based on a monthly time series data set of credit card portfolio charge-offs, the model outperforms the benchmark linear model in mean squared errors, and the improvement increases with network architecture complexity. However, the NN models could be vulnerable to overfitting, which could make the model uninterpretable. The constrained NN model ensures model interpretability at a small cost to model performance. Thus, it is insufficient to measure the model's statistical performance without ensuring model interpretability and clear CCAR scenario narratives.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "772f4ec8741329e6192cac7083da24be",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:00.508241"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种可解释的神经网络模型，用于综合资本分析与审查(CCAR)的损失预测和情景压力测试，这直接涉及金融风险管理。同时，论文基于信用卡投资组合的月度时间序列数据进行研究，表明其应用也涉及投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文提出了一种可解释的神经网络模型，用于综合资本分析与审查(CCAR)的损失预测和情景压力测试，这直接涉及金融风险管理。同时，论文基于信用卡投资组合的月度时间序列数据进行研究，表明其应用也涉及投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:43.075664"
+}

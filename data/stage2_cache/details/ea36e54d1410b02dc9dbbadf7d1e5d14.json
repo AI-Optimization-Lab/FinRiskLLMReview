@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2484,
+    "title": "A noise-resilient online learning algorithm with ramp loss for ordinal regression",
+    "abstract": "Ordinal regression has been widely used in applications, such as credit portfolio management, recommendation systems, and ecology, where the core task is to predict the labels on ordinal scales. Due to its learning efficiency, online ordinal regression using passive aggressive (PA) algorithms has gained a much attention for solving large-scale ranking problems. However, the PA method is sensitive to noise especially in the scenario of streaming data, where the ranking of data samples may change dramatically. In this paper, we propose a noise-resilient online learning algorithm using the Ramp loss function, called PA-RAMP, to improve the performance of PA method for noisy data streams. Also, we validate the order preservation of thresholds of the proposed algorithm. Experiments on real-world data sets demonstrate that the proposed noise-resilient online ordinal regression algorithm is more robust and efficient than state-of-the-art online ordinal regression algorithms.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a0cb02b0ee5515ed9e2c32ffdcd2550c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:03.120230"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中提到ordinal regression在信用组合管理(credit portfolio management)中有应用，这属于投资组合管理的范畴。虽然论文的主要贡献是一种通用的噪声鲁棒在线学习算法，但其明确提到了在金融领域的应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中提到ordinal regression在信用组合管理(credit portfolio management)中有应用，这属于投资组合管理的范畴。虽然论文的主要贡献是一种通用的噪声鲁棒在线学习算法，但其明确提到了在金融领域的应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:39.784198"
+}

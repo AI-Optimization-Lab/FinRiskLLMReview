@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1537,
+    "title": "Hybrid artificial intelligence and robust optimization for a multi-objective product portfolio problem Case study: The dairy products industry",
+    "abstract": "The optimization of the product portfolio problem under return uncertainty is addressed here. The contribution of this study is based on the application of a hybrid improved artificial intelligence and robust optimization and presenting a new method for calculating the risk of a product portfolio. By applying an improved neural network with runner root algorithm (RRA), the future demand of each product is predicted and the risk index of each product is calculated based on its predicted future demand. A two-objective (minimizing risk and maximizing return) mathematical model is proposed where, the effect of investments, reliability and allowable lost sales on the designed product portfolio are of concern. Due to the return uncertainty, two robust counterpart models based on the Bertsimas and Sim and Ben-Tal and Nemirovski approaches are developed. Then, an exact solution method is proposed to reduce the solving time of robust model. The results of the implementation in the dairy industry of Iran indicate that an increase in the confidence level, increase the investment risk and decrease the total return. The obtained results by the statistical tests indicate that the two newly proposed robust models are of similar performance in the finding the maximum return solutions, while, here the least risky solutions, the Bertsimas model outperforms its counterparts. Moreover, the results of the proposed exact solution method indicate that this method reduces the execution time by an average of 3%, indicative of proposed method effectiveness.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e09d01e6e261feec65dd245ccd654557",
+    "relevant_keywords": [
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:39.165422"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究产品组合的优化问题，涉及风险最小化和收益最大化的目标，这与投资组合管理的核心问题高度相关。虽然论文的背景是乳制品行业，但其方法和模型（如鲁棒优化和风险计算）可以类比到金融投资组合管理中。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究产品组合的优化问题，涉及风险最小化和收益最大化的目标，这与投资组合管理的核心问题高度相关。虽然论文的背景是乳制品行业，但其方法和模型（如鲁棒优化和风险计算）可以类比到金融投资组合管理中。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:34.279612"
+}

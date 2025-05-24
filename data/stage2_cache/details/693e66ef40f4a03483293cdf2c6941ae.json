@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3749,
+    "title": "Dynamic option hedging with transaction costs: A stochastic model predictive control approach",
+    "abstract": "This paper proposes stochastic model predictive control as a tool for hedging derivative contracts (such as plain vanilla and exotic options) in the presence of transaction costs. The methodology combines stochastic scenario generation for the prediction of asset prices at the next rebalancing interval with the minimization of a stochastic measure of the predicted hedging error. We consider 3 different measures to minimize in order to optimally rebalance the replicating portfolio: a trade-off between variance and expected value of hedging error, conditional value at risk, and the largest predicted hedging error. The resulting optimization problems require solving at each trading instant a quadratic program, a linear program, and a (smaller-scale) linear program, respectively. These can be combined with 3 different scenario generation schemes: the lognormal stock model with parameters recursively identified from data, an identification method based on support vector regression, and a simpler scheme based on perturbation noise. The hedging performance obtained by the proposed stochastic model predictive control strategies is illustrated on real-world data drawn from the NASDAQ-100 composite, evaluated for a European call and a barrier option, and compared with delta hedging.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "bb1e9931ee791c8a3313e1656fdaf158",
+    "relevant_keywords": [
+      "support vector machine",
+      "SVM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:20:35.959944"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用随机模型预测控制来对冲衍生品合约（如普通和奇异期权），这直接涉及衍生品定价领域。同时，论文中提到的对冲误差的方差和期望值、条件风险价值（CVaR）等风险管理指标的应用，表明其也属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用随机模型预测控制来对冲衍生品合约（如普通和奇异期权），这直接涉及衍生品定价领域。同时，论文中提到的对冲误差的方差和期望值、条件风险价值（CVaR）等风险管理指标的应用，表明其也属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:50.973627"
+}

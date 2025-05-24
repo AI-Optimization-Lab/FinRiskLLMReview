@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 390,
+    "title": "Contextual combinatorial bandit on portfolio management",
+    "abstract": "Portfolio optimization is a classic problem in finance, and assumptions are generally accepted about the stochastic dynamics of prices and market information. The Linear Upper Confidence Bound (LinUCB) algorithm based on bandit learning is a typical reinforcement learning approach that can be a data-driven approach to the portfolio problem. Most investors may have inconsistent preferences for different assets; therefore, the reward function needs to be designed to balance exploration (allocating part of the investment to searching among other alternative portfolios) and exploitation (concentrating the investment on the historically best portfolio). The study consists of developing a two-stage investing strategy that uses the supervised adaptive decision tree approach to build a pool of candidate portfolios and the reinforcement LinUCB algorithm to derive a portfolio update rule with respect to a specific utility function. The two-stage strategy has been tested on CSI300 constitute stocks listed on the Shanghai Stock Exchange. The accumulated returns, as well as other performance measures (e.g., maximum drawdown, Sharpe ratio, and information ratio) at different testing periods achieved by the model, can well outperform the benchmark index.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9a3bdd61b8337ce39e7fa2b030e79472",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "reinforcement learning",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.454172"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于强化学习的投资组合优化策略，旨在通过数据驱动的方法优化投资组合的配置和更新规则，并已在CSI300成分股上进行了测试，这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于强化学习的投资组合优化策略，旨在通过数据驱动的方法优化投资组合的配置和更新规则，并已在CSI300成分股上进行了测试，这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:13.760563"
+}

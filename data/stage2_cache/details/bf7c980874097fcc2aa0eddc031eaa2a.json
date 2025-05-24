@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 5470,
+    "title": "Step-wise multi-grained augmented gradient boosting decision trees for credit scoring",
+    "abstract": "Credit scoring is an important financial tool for banks to determine whether to issue the loan to potential borrowers. Ensemble algorithms, which mainly can be divided into bagging ensembles and boosting ensembles, have shown great promise for credit scoring. However, some problems need to be further addressed: (1) Bagging-type algorithms enrich the feature diversity while keep the training target unchanged. However, these methods acting as feature augmentation process that highly rely on the training targets may increase the statistical similarity of the prediction results. (2) Though boosting-type ensemble algorithms avoid the problem of high prediction similarity, boosting algorithms always work on the original credit features leading to the lack of feature diversity. (3) A more intelligent credit risk management system should well balance the accuracy and its interpretability. Based on the above considerations, in this study, a step-wise multi-grained augmented gradient boosting decision trees (mg-GBDT) is proposed for credit scoring. In the proposed method, a multi-grained scanning is introduced for feature augmentation, which enriches the input feature of GBDT; the GBDT-based step-wisely optimization mechanism ensures low-deviation of credit scoring; besides, the proposed method inherits the good interpretability of tree-based structure, which provides intuitive reference results for policy-makers. Experiments on 6 credit datasets show that the proposed method outperforms classic GBDT. Moreover, numerical results indicate that mg-GBDT provides an alternative to neural network-based feature enhancement. Finally, the global interpretation results and the visualized decision path demonstrate that mg-GBDT can be a good choice for accurate credit scoring interpretation.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "841bfd3e62be8588aba3268730c73451",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:48:23.575424"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种用于信用评分的机器学习模型，信用评分是银行评估贷款违约风险的重要工具，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是开发一种用于信用评分的机器学习模型，信用评分是银行评估贷款违约风险的重要工具，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:04.175427"
+}

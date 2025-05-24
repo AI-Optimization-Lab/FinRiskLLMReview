@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 254,
+    "title": "A New Approach for Robust Mean-Variance Portfolio Selection Using Trimmed k-Means Clustering",
+    "abstract": "In this study, we consider the data preprocessing using trimmed k-means clustering for robust mean-variance portfolio selection. The proposed method trims the outliers in the data preprocessing stage. The optimum portfolio is formed by selecting the stock representation for each cluster using the Sharpe ratio. The optimum portfolio formation is accomplished by robust fast minimum covariance determinant (FMCD) and robust S mean-variance (MV) portfolio model. In the empirical experiment, we use fundamental trading data for the year 2017 (to form the clusters) and daily closing price data of LQ45 index stocks from August 2017 to July 2018 taken from the Indonesian Stock Exchange to form the optimum portfolio. As benchmark for portfolio performance formed in this study, we use the performance of the Indonesia Composite Index (ICI). The results reveal that the proposed method can reliably obtain the optimum portfolio and solve the outliers problem. Moreover, the comparison stage shows that the combination of trimmed k-means clustering and robust portfolio model is better in forming the optimum portfolio than the combination of k-means clustering and robust MV portfolio model. Finally, we also find that the combination of trimmed k-means clustering (with alpha=10%) and robust FMCD MV portfolio model outperforms portfolios produced by other methods.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2d011b10878fa89c7d3e44d08a84d87a",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.748955"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用修剪的k-means聚类和稳健的均值-方差模型来优化投资组合选择，这直接属于投资组合管理的范畴。论文的研究目标和实验设计都集中在如何构建和优化投资组合，而不是衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用修剪的k-means聚类和稳健的均值-方差模型来优化投资组合选择，这直接属于投资组合管理的范畴。论文的研究目标和实验设计都集中在如何构建和优化投资组合，而不是衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:18.393361"
+}

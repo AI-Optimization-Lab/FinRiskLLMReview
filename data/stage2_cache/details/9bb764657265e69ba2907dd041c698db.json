@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2641,
+    "title": "Evaluation of scenario reduction algorithms with nested distance",
+    "abstract": "Multistage stochastic optimization is used to solve many real-life problems where decisions are taken at multiple times. Such problems need the representation of stochastic processes, which are usually approximated by scenario trees. In this article, we implement seven scenario reduction algorithms: three based on random extraction, namedRandom, and four based on specific distance measures, namedDistance-based. Three of the latter are well known in literature while the fourth is a new approach, namely nodal clustering. We compare all the algorithms in terms of computational cost and information cost. The computational cost is measured by the time needed for the reduction, while the information cost is measured by the nested distance between the original and the reduced tree. Moreover, we also formulate and solve a multistage stochastic portfolio selection problem to measure the distance between the optimal solutions and between the optimal objective values of the original and the reduced tree.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "dff3dc3c9c55008bc58710fb8cadcad5",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.832866"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是多阶段随机优化中的情景缩减算法，并明确提到将其应用于解决多阶段随机投资组合选择问题，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是多阶段随机优化中的情景缩减算法，并明确提到将其应用于解决多阶段随机投资组合选择问题，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:39.189773"
+}

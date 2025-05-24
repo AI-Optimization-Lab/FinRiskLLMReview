@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 618,
+    "title": "What do the AI methods tell us about predicting price volatility of key natural resources: Evidence from hyperparameter tuning",
+    "abstract": "Volatility plays a significant role in pricing derivatives, managing portfolio risk, and using hedging strategies in the financial markets. As a result, it is imperative to precisely estimate the volatility of key natural resources, including crude oil, gold, copper, natural gas, and silver. The likelihood of some countries' budget deficits exceeding permissible levels increased due to recent uncertainties brought on by geo-political threats. This article employs a hybrid model of LSTM-GJR-GARCH (1,1) with hyperparameter tuning to forecast the volatility of the prices of significant natural resources using daily closing prices for crude oil, natural gas, silver, copper, and gold from January 2012 to July 2022. Our results demonstrate that, compared to utilising standard LSTM-GJR-GARCH, employing hyperparameter adjustment increases volatility predictions by an average of 40%-70%. We also looked at the connection between the geo-political risk index and the overall connectedness of natural resources. Our findings suggest that geo-political risk uncertainty does not account for the overall intercon-nectedness of natural resources' prices. Because they may better understand future volatility and manage their portfolios and budgets by estimating the price volatility of natural resources, our findings are important for politicians, governments, and investors.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "80a44dc099254a8bc441e7e6b303eeef",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:40:51.075083"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM-GJR-GARCH模型预测关键自然资源的波动性，这在金融风险管理中用于评估和预测市场风险。同时，论文提到波动性预测对投资组合管理的重要性，帮助投资者更好地管理其投资组合。虽然论文提到波动性在衍生品定价中的作用，但并未深入探讨衍生品定价的具体应用，因此衍生品定价不是主要应用领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM-GJR-GARCH模型预测关键自然资源的波动性，这在金融风险管理中用于评估和预测市场风险。同时，论文提到波动性预测对投资组合管理的重要性，帮助投资者更好地管理其投资组合。虽然论文提到波动性在衍生品定价中的作用，但并未深入探讨衍生品定价的具体应用，因此衍生品定价不是主要应用领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:47.272846"
+}

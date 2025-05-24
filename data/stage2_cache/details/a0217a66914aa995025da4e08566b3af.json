@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 78,
+    "title": "集成的深度强化学习投资组合模型",
+    "abstract": "投资组合问题是量化交易领域中的热点问题。针对现有基于深度强化学习的投资组合模型无法实现自适应的交易策略和有效利用有监督信息的缺陷，提出一种集成的深度强化学习投资组合模型（IDRLPM）。首先，采用多智能体方法构造多个基智能体并设计不同交易风格的奖励函数，以表示不同的交易策略；其次，利用集成学习方法对基智能体的策略网络进行特征融合，得到自适应市场环境的集成智能体；然后，在集成智能体中嵌入基于卷积块注意力模块（CBAM）的趋势预测网络，趋势预测网络输出引导集成策略网络自适应选择交易比重；最后，在有监督深度学习和强化学习交替迭代训练下，IDRLPM有效利用训练数据中的监督信息以增强模型盈利能力。在上证50的成分股和中证500的成分股数据集中，IDRLPM的夏普比率（SR）达到了1.87和1.88，累计收益（CR）达到了2.02和1.34；相较于集合式的深度强化学习（EDRL）交易模型，SR提高了105%和55%,CR提高了124%和79%。实验结果表明，IDRLPM能够有效解决投资组合问题。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6689c45d375b154a8690f38596ed93c5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:22.407357"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是集成的深度强化学习模型，旨在解决投资组合问题，通过多智能体方法和集成学习优化交易策略，提高夏普比率和累计收益，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是集成的深度强化学习模型，旨在解决投资组合问题，通过多智能体方法和集成学习优化交易策略，提高夏普比率和累计收益，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:18.539503"
+}

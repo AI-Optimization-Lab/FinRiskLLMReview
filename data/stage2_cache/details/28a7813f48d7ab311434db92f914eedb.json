@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 0,
+    "title": "Extended Robust Support Vector Machine Based on Financial Risk Minimization",
+    "abstract": "Financial risk measures have been used recently in machine learning. For example, v-support vector machine (v-SVM) minimizes the conditional value at risk (CVaR) of margin distribution. The measure is popular in finance because of the subadditivity property, but it is very sensitive to a few outliers in the tail of the distribution. We propose a new classification method, extended robust SVM (ER-SVM), which minimizes an intermediate risk measure between the CVaR and value at risk (VaR) by expecting that the resulting model becomes less sensitive than v-SVM to outliers. We can regard ER-SVM as an extension of robust SVM, which uses a truncated hinge loss. Numerical experiments imply the ER-SVM's possibility of achieving a better prediction performance with proper parameter setting.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8997c9844cfad426364301c5b54d2a83",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:45:16.421597"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是提出了一种新的分类方法ER-SVM，旨在最小化介于CVaR和VaR之间的中间风险度量，这些风险度量在金融风险管理中广泛应用。论文明确提到金融风险度量在机器学习中的应用，并讨论了其对异常值的敏感性，这与金融风险管理直接相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种新的分类方法ER-SVM，旨在最小化介于CVaR和VaR之间的中间风险度量，这些风险度量在金融风险管理中广泛应用。论文明确提到金融风险度量在机器学习中的应用，并讨论了其对异常值的敏感性，这与金融风险管理直接相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:37.255527"
+}

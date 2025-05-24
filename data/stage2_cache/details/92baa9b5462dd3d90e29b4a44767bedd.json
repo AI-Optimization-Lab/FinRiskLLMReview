@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 220,
+    "title": "Sequential Design for Optimal Stopping Problems",
+    "abstract": "We propose a new approach to solving optimal stopping problems via simulation. Working within the backward dynamic programming/Snell envelope framework, we augment the methodology of Longstaff and Schwartz that focuses on approximating the stopping strategy. Namely, we introduce adaptive generation of the stochastic grids anchoring the simulated sample paths of the underlying state process. This allows for active learning of the classifiers partitioning the state space into the continuation and stopping regions. To this end, we examine sequential design schemes that adaptively place new design points close to the stopping boundaries. We then discuss dynamic regression algorithms that can implement such recursive estimation and local refinement of the classifiers. The new algorithm is illustrated with a variety of numerical experiments, showing that an order of magnitude savings in terms of design size can be achieved. We also compare with existing benchmarks in the context of pricing multidimensional Bermudan options.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "42d2f425b350f446e3a148240aee7f8f",
+    "relevant_keywords": [
+      "active learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.183013"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是解决最优停止问题，并在多维Bermudan期权定价的背景下进行了数值实验，这直接关联到衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是解决最优停止问题，并在多维Bermudan期权定价的背景下进行了数值实验，这直接关联到衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:03.828703"
+}

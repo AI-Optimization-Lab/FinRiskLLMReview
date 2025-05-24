@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 567,
+    "title": "Development of Machine Learning Algorithms for the Prediction of Financial Toxicity in Localized Breast Cancer Following Surgical Treatment",
+    "abstract": "PURPOSE Financial burden caused by cancer treatment is associated with material loss, distress, and poorer outcomes. Financial resources exist to support patients but identification of need is difficult. We sought to develop and test a tool to accurately predict an individual's risk of financial toxicity based on clinical, demographic, and patient-reported data prior to initiation of breast cancer treatment. PATIENTS AND METHODS We surveyed 611 patients undergoing breast cancer therapy at MD Anderson Cancer Center. We collected data using the validated COmprehensive Score for financial Toxicity (COST) patient-reported outcome measure alongside other financial indicators (credit score, income, and insurance status). We also collected clinical and perioperative data. We trained and tested an ensemble of machine learning (ML) algorithms (neural network, regularized linear model, support vector machines, and a classification tree) to predict financial toxicity. Data were randomly partitioned into training and test samples (2:1 ratio). Predictive performance was assessed using area-under-the-receiver-operating-characteristics-curve (AUROC), accuracy, sensitivity, and specificity. RESULTS In our test sample (N = 203), 48 of 203 women (23.6%) reported significant financial burden. The algorithm ensemble performed well to predict financial burden with an AUROC of 0.85, accuracy of 0.82, sensitivity of 0.85, and specificity of 0.81. Key clinical predictors of financial burden from the linear model were neoadjuvant therapy (beta(regularized), .11) and autologous, rather than implant-based, reconstruction (beta(regularized), .06). Notably, radiation and clinical tumor stage had no effect on financial burden. CONCLUSION ML models accurately predicted financial toxicity related to breast cancer treatment. These predictions may inform decision making and care planning to avoid financial distress during cancer treatment or enable targeted financial support. Further research is warranted to validate this tool and assess applicability for other types of cancer. (C) 2021 by American Society of Clinical Oncology",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f0e71d9bf397d304a607ce031db9c477",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.381717"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习算法预测乳腺癌治疗后的财务毒性（financial toxicity），关注的是医疗费用对患者的经济影响，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习算法预测乳腺癌治疗后的财务毒性（financial toxicity），关注的是医疗费用对患者的经济影响，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:42.802937"
+}

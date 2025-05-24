@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 924,
+    "title": "Modelling of insurers' rating determinants. An application of machine learning techniques and statistical models",
+    "abstract": "In recent years, financial regulations such as Basel 11 and Solvency 11 have highlighted the utility of credit risk assessments through internal rating systems, particularly for estimating the probability of default (PD) of credit exposures. Financial entities must provide clear definitions of their internal ratings; thus, it is possible to associate internal grades to some external rating scale, and then to attribute the external PD to the internal grades. However, this mapping must be based on an extensive comparison of both internal and external rating criteria. A substantial body of research has been undertaken of rating determinants for banks and large industrial corporations. However, the academic literature on insurers' rating determinants is very limited and fitness measures have not traditionally been provided. This paper proposes a three-step model to analyse rating determinants, and it is applied to a sample of European insurance firms. Firstly, a feature selection process is performed, that mixes statistical, Bayesian, and Machine Learning approaches. From selected features, several multivariate models are run, both in the statistical field (MDA, logit models) and the decision trees research area (C4.5, CART). Their accuracies are compared through bootstrapping strategies, and a final model is proposed. Results show that the feature selection process selects a small group of relevant attributes. Regarding multivariate models, the CART Gini oblique decision tree appears to be a good strategy, providing a quite satisfactory equilibrium between precision and comprehensibility. (c) 2006 Elsevier B.V. All rights reserved.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a109c83a8eb6fb8079634f97f8432e92",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:49.551067"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究保险公司信用评级的决定因素，并应用机器学习和统计模型来预测违约概率（PD），这直接关联到信用风险管理的范畴，属于金融风险管理的一部分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究保险公司信用评级的决定因素，并应用机器学习和统计模型来预测违约概率（PD），这直接关联到信用风险管理的范畴，属于金融风险管理的一部分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:51.530662"
+}

@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "neural network",
+    "deep learning",
+    "backpropagation",
+    "BP"
+  ],
+  "explanations": {
+    "machine learning": "论文摘要中提到使用了随机森林、RBF神经网络和BP神经网络三种机器学习方法来预测股票收盘价，因此与机器学习相关。",
+    "neural network": "论文中使用了RBF神经网络和BP神经网络，这些都是神经网络的类型，因此与神经网络相关。",
+    "deep learning": "虽然论文没有明确提到深度学习，但BP神经网络和RBF神经网络是深度学习的基础模型，因此可以认为与深度学习相关。",
+    "backpropagation": "BP神经网络中的BP代表反向传播（Backpropagation），因此与反向传播相关。",
+    "BP": "论文中明确提到了BP神经网络，BP代表反向传播，因此与BP相关。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"neural network\", \"deep learning\", \"backpropagation\", \"BP\"], \n  \"explanations\": {\n    \"machine learning\": \"论文摘要中提到使用了随机森林、RBF神经网络和BP神经网络三种机器学习方法来预测股票收盘价，因此与机器学习相关。\",\n    \"neural network\": \"论文中使用了RBF神经网络和BP神经网络，这些都是神经网络的类型，因此与神经网络相关。\",\n    \"deep learning\": \"虽然论文没有明确提到深度学习，但BP神经网络和RBF神经网络是深度学习的基础模型，因此可以认为与深度学习相关。\",\n    \"backpropagation\": \"BP神经网络中的BP代表反向传播（Backpropagation），因此与反向传播相关。\",\n    \"BP\": \"论文中明确提到了BP神经网络，BP代表反向传播，因此与BP相关。\"\n  }\n}\n```"
+}

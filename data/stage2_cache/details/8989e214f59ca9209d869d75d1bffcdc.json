@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 428,
+    "title": "Simulation/Regression Pricing Schemes for CVA Computations on CDO Tranches",
+    "abstract": "We devise simulation/regression numerical schemes for pricing the CVA on CDO tranches, where CVA stands for Credit Valuation Adjustment, or price correction accounting for the defaultability of a counterparty in an OTC derivatives transaction. This is done in the setup of a continuous-time Markov chain model of default times, in which dependence between credit names is represented by the possibility of simultaneous defaults. The main idea of this article is to perform the nonlinear regressions which are used for computing conditional expectations, in the time variable for a given state of the model, rather than in the space variables at a given time in diffusive setups. This idea is formalized as a lemma which is valid in any continuous-time Markov chain model. It is then implemented on the targeted application of CVA computations on CDO tranches.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ea28a0a57881832275da85548b56942d",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:50.752971"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发模拟/回归数值方案用于计算CDO分层的信用估值调整（CVA），这直接涉及衍生品定价。同时，CVA的计算是为了应对交易对手违约风险，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发模拟/回归数值方案用于计算CDO分层的信用估值调整（CVA），这直接涉及衍生品定价。同时，CVA的计算是为了应对交易对手违约风险，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:09.279531"
+}

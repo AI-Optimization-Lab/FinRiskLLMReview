@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2337,
+    "title": "Exploring The Efficient Market Hypothesis for Accurate Stock Movement Prediction via Feature-Axis Transformer",
+    "abstract": "Stock movement forecasting is a significant challenge in financial machine-learning application fields due to its profound impact on financial markets. While the Efficient Market Hypothesis (EMH) [10] postulates that predicting stock movement is nearly impossible, recent studies using deep learning methodologies exhibit promising results. The EMH is based on the assumption that stock prices immediately incorporate all available information, such as financial statements, earnings announcements, and macroeconomic news. Input features used by the prior studies commonly include Open, High, Low, Close, and Adjusted Close (OHLCA), which potentially contain salient information for forecasting movements. However, most have yet to extract the information implicit in each price separately and utilize it to make predictions. This paper proposes FATE: Feature-Axis Transformer based on EMHdesigned to leverage each OHLCA component to facilitate stock movement prediction. FATE consists of three modules: 1) capturing each feature's temporal correlation between various stocks; 2) generating global market context data; and 3) constructing a contextual vector through correlating to other prices around the closing price. Experimental results show that FATE demonstrates better predictive results than state-of-the-art baselines on six real-world datasets. FATE also yields profitable portfolio trading gains compared to the baselines. Furthermore, it offers interpretable visualized results during its stock movement forecasting operations.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "28d3fc2a6b7b1e93ba9ec86d0d5a7487",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "feature learning",
+      "feature representation",
+      "attention mechanism",
+      "transformer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:39.727538"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用Feature-Axis Transformer进行股票走势预测，并提到其模型在投资组合交易中产生了盈利。这表明其主要应用领域是投资组合管理，而不是衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用Feature-Axis Transformer进行股票走势预测，并提到其模型在投资组合交易中产生了盈利。这表明其主要应用领域是投资组合管理，而不是衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:32.613576"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 12,
+    "title": "Black-Litterman portfolio optimization based on GARCH-EVT-Copula and LSTM models",
+    "abstract": "In constructing diversified portfolios, the investors might be interested in incorporating some quantifiable views or opinions. The Black-Litterman model is a useful approach to integrate investors' views into the Markowitz allocation model. In this paper we utilize a deep learning model to estimate the investors's views and use GARCH-EVT-Copula to model the dependence structure between stock market returns in a large portfolio. The findings show that the Black-Litterman model for portfolio optimization based on GARCH-EVT-Copula and LSTM (Long Short Term Memory) models gives better performances as compared with the traditional max-Sharpe and the original Black-Litterman portfolio problems.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "691340483f73a9d3775c9409fefbe373",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:31:16.744138"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用Black-Litterman模型结合GARCH-EVT-Copula和LSTM模型进行投资组合优化，这直接属于投资组合管理的范畴。论文明确提到其目标是改进传统的投资组合优化方法，如max-Sharpe和原始的Black-Litterman模型，因此其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用Black-Litterman模型结合GARCH-EVT-Copula和LSTM模型进行投资组合优化，这直接属于投资组合管理的范畴。论文明确提到其目标是改进传统的投资组合优化方法，如max-Sharpe和原始的Black-Litterman模型，因此其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:36:04.197254"
+}

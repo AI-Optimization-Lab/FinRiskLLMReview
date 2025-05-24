@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2055,
+    "title": "Multi-objective Graph Neural Network Explanatory Model with Local and Global Information Preservation",
+    "abstract": "Graph Neural Network (GNN) has demonstrated significant application potential in fields such as bioinformatics, social network analysis, and financial risk management. However, explainability issues have limited their widespread adoption. Although numerous explanatory models have been developed, as the range of application scenarios expands, there is still an increasing need for diverse explanations. However, current explanatory models struggle to meet the varying requirements of different scenarios. They are often tailored for specific objectives, compromising their adaptability to diverse explanatory needs. Additionally, current models commonly use instance-level explanations that mainly analyze single graph samples for structural features, leading to a focus on local information and neglect of broader global patterns and trends. To address these issues, this paper proposes the Multi-Objective Graph Neural Network Explanatory model (MOE). MOE utilizes a Pareto frontier-based strategy for exploratory subgraphs to harmonize and support multiple explanatory objectives. Additionally, MOE integrates both local and global information from the original data into each explanation, enhancing the explanatory depth. Empirical studies demonstrate that MOE excels in various datasets and explanatory tasks, significantly advancing GNN explainability.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "61e67c5ed80fd3a771e17202e16ba251",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:25.838663"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提到Graph Neural Network (GNN)在金融风险管理等领域的应用潜力，并且论文的主要研究目标是提高GNN的可解释性，这在金融风险管理中是一个重要问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提到Graph Neural Network (GNN)在金融风险管理等领域的应用潜力，并且论文的主要研究目标是提高GNN的可解释性，这在金融风险管理中是一个重要问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:27.580676"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3359,
+    "title": "USING SURVEY DATA TO FORECAST REAL ACTIVITY WITH EVOLUTIONARY ALGORITHMS. A CROSS-COUNTRY ANALYSIS",
+    "abstract": "In this study we use survey expectations about a wide range of economic variables to forecast real activity. We propose an empirical approach to derive mathematical functional forms that link survey expectations to economic growth. Combining symbolic regression with genetic programming we generate two survey-based indicators: a perceptions index, using agents' assessments about the present, and an expectations index with their expectations about the future. In order to find the optimal combination of both indexes that best replicates the evolution of economic activity in each country we use a portfolio management procedure known as index tracking. By means of a generalized reduced gradient algorithm we derive the relative weights of both indexes. In most economies, the survey-based predictions generated with the composite indicator outperform the benchmark model for one-quarter ahead forecasts, although these improvements are only significant in Austria, Belgium and Portugal.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cc2f6cd2d17cd12db6b5edc1c0701e87",
+    "relevant_keywords": [
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:22.146401"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文使用了投资组合管理中的指数跟踪（index tracking）方法来优化调查数据的组合权重，以预测经济活动。虽然主要目标是经济预测，但核心技术应用了投资组合管理的方法。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文使用了投资组合管理中的指数跟踪（index tracking）方法来优化调查数据的组合权重，以预测经济活动。虽然主要目标是经济预测，但核心技术应用了投资组合管理的方法。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:09.431438"
+}

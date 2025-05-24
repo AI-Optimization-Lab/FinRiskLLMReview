@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 310,
+    "title": "Deep learning framework for predictive modeling of crude oil price for sustainable management in oil markets",
+    "abstract": "Crude oil price predictability has continually been considered as a fundamental argument of finance literature, given its critical propositions for risk management, investment decisions, and commercial and financial policymaking. This work presents an innovative learning framework for efficient predictive modeling of daily and weekly crude oil price (COP) information, which aims to enable sustainable management in oil markets. Firstly, an optimized version of variation mode decomposition (OVMD) is proposed to adaptively decompose the original COP time series into multiple modes based on a set of optimized parameters calculated with a Tree-structured Parzen Estimator (TPE) algorithm. Secondly, an AdaBoost algorithm is redesigned using random forest (RF) to model the future price information in the modes with the high frequency. Thirdly, a new deep network is presented to develop automatically learn spatial-temporal representations from decomposed COP data, where a novel Conv-former module is designed to efficiently extract local as well as global spatial representations without incurring extra computational costs. Followingly, Multiple Long short-term Memory (LSTM) networks are stacked to learn temporal representations from input modes. To further empower the representation power of our framework, a new bidirectional learning module is presented to stack the LSTM layer to learn from COP data in the forward and backward directions. To validate the efficiency of the proposed framework, this work performs experimental simulations and analyses based on a case study from Brent crude oil prices at both daily and weekly scales. The experimental findings show up the competent predictive modeling capabilities of the proposed framework over the cutting-edge methods rendering it as a promising solution to enable sustainable management in crude oil markets. The proposed framework can be generalized to different predictive modeling tasks and hence qualified to be used as a valuable tool for oil portfolio creation, property pricing, and risk management in Crude Oil Markets.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "ef3345d76f86a021feaad099ca049d01",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "convolutional neural network",
+      "CNN",
+      "feature representation",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:36:22.096824"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是预测原油价格，这直接关联到金融风险管理（如价格波动风险）和投资组合管理（如石油资产组合的构建）。论文明确提到其框架可用于风险管理和投资组合创建，符合这两个领域的定义。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是预测原油价格，这直接关联到金融风险管理（如价格波动风险）和投资组合管理（如石油资产组合的构建）。论文明确提到其框架可用于风险管理和投资组合创建，符合这两个领域的定义。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:42.203956"
+}

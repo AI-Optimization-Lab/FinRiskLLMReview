@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1410,
+    "title": "Partially egalitarian portfolio selection",
+    "abstract": "We propose a new portfolio optimization framework, partially egalitarian portfolio selection (PEPS). Inspired by the celebrated LASSO regression and its recent variant partially egalitarian LASSO (PELASSO) developed in [1] in the context of the forecast combinations problem in econometrics in [1], we regularize the mean-variance portfolio optimization of Markowitz by adding two regularizing terms that essentially zero out portfolio weights of some of the assets in the portfolio and select and shrink portfolio weights of the remaining assets towards equal weights to hedge against parameter estimation risk. We solve our PEPS formulations by applying Gurobi 9.0 mixed integer optimization (MIO) solver that allow us to tackle large-scale portfolio problems. We test our PEPS portfolios against an array of classical portfolio optimization strategies on a number of datasets in the US equity markets. The PEPS portfolios exhibit the highest out-of-sample Sharpe ratios in all instances considered.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8b8aeeb31bf2176e9846ce7920d1a5ac",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.469467"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper proposes a new portfolio optimization framework, partially egalitarian portfolio selection (PEPS), which directly addresses the problem of portfolio selection and optimization. This is a core aspect of portfolio management, as evidenced by the focus on mean-variance optimization, regularization of portfolio weights, and comparison with classical portfolio strategies.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper proposes a new portfolio optimization framework, partially egalitarian portfolio selection (PEPS), which directly addresses the problem of portfolio selection and optimization. This is a core aspect of portfolio management, as evidenced by the focus on mean-variance optimization, regularization of portfolio weights, and comparison with classical portfolio strategies.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:09.915019"
+}

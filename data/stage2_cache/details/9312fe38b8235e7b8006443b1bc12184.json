@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 196,
+    "title": "Deep Learning for Financial Time Series Forecast Fusion and Optimal Portfolio Rebalancing",
+    "abstract": "Portfolio selection is complicated by the difficulty of forecasting financial time series and the sensitivity of portfolio optimisers to forecasting errors. To address these issues, a portfolio management model is proposed that makes use of Deep Learning Models for weekly financial time series forecasting of returns. Our model uses a late fusion of an ensemble of forecast models and modifies the standard mean-variance optimiser to account for transaction costs, making it suitable for multi-period trading. Our empirical results show that our portfolio management tool outperforms the equally-weighted portfolio benchmark and the buy-and-hold strategy, using both Long Short-Term Memory and Gated Recurrent Unit forecasts. Although the portfolios are profitable, they are also sub-optimal in terms of their risk to reward ratio. Therefore, greater forecasting accuracy is necessary to construct truly optimal portfolios.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "3350bc011cc499d24a9c9883708d79fd",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.468368"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型进行金融时间序列预测，并优化投资组合再平衡，其研究目标是改进投资组合管理工具，使其优于等权重组合基准和买入持有策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型进行金融时间序列预测，并优化投资组合再平衡，其研究目标是改进投资组合管理工具，使其优于等权重组合基准和买入持有策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:04.011089"
+}

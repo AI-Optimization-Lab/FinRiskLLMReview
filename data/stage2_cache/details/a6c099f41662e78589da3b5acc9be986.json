@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1138,
+    "title": "USING THE LISP-MINER SYSTEM FOR CREDIT RISK ASSESSMENT",
+    "abstract": "Credit risk assessment, credit scoring and loan applications approval are one of the typical tasks that can be performed using machine learning or data mining techniques. From this viewpoint, loan applications evaluation is a classification task, in which the final decision can be either a crisp yes/no decision about the loan or a numeric score expressing the financial standing of the applicant. The knowledge to be used is inferred from data about past decisions. These data usually consist of both socio-demographic and economic characteristics of the applicant (e.g., age, income, and deposit), the characteristics of the loan, and the loan approval decision. A number of machine learning algorithms can be used for this purpose. In this paper we show how this task can be performed using the LISp-Miner system, a tool that is under development at the University of Economics, Prague. LISp-Miner is primarily focused on mining for various types of association rules, but unlike classical association rules proposed by Agrawal, LISp-Miner introduces a greater variety of different types of relations between the left-hand and right-hand sides of a rule. Two other procedures that can be used for classification task are implemented in LISp-Miner as well. We describe the 4ft-Miner and KEX procedures and show how they can be used to analyze data related to loan applications. We also compare the results obtained using the presented algorithms with results from standard rule-learning methods.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "db00fba4d2f5f4a323179c5ff649a5aa",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.630992"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要讨论了使用LISp-Miner系统进行信用风险评估和贷款申请审批，这属于金融风险管理中的信用风险管理范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要讨论了使用LISp-Miner系统进行信用风险评估和贷款申请审批，这属于金融风险管理中的信用风险管理范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:57.458097"
+}

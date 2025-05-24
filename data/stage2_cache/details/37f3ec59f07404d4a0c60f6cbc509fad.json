@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 531,
+    "title": "Financial time series prediction using l2,1 RF-ELM",
+    "abstract": "Financial time series forecasting is a complicated task because the behavior of investors can be influenced by lots of tiny and unpredictable factors. In this paper, in order to maximize the return of capital and manage liquidity risk effectively, an l(2,1)-norm and Random Fourier Mapping based Extreme Learning Machine(l(2,1) RF-ELM) is applied to the problem of financial time series prediction. The advantages of ELM in efficiency and generalization performance over traditional fuzzy neural network( FNN) algorithms have been demonstrated on a wide range of problems from different fields, thanks to the integration of l(2,1)-norm, the l(2,1) RF-ELM is able to automatically prune the irrelevant and redundant hidden neurons to form a more discriminative and compact hidden layer. The performance of the l(2,1) RF-ELM is compared with other hidden layer enforcement algorithms, two long-term time series data sets, including TianChi and BCS, are used for this comparison. The performance of the l(2,1) RF-ELM was comparable to those of other widely used machine learning techniques like support vector machines (SVM), artificial neural networks (ANN) and other popular ELM method. The experiments demonstrate favorable prediction results of the l(2,1) RF-ELM in terms of annualized return, prediction error and running time. In addition, we also find that the underlying rules of the correlation between cash inflow and outflow that can help us improve accuracy, which is valuable for financial institutions to predict the trend of liquidity. (C) 2017 Elsevier B.V. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "af26825569d771b86a42fa5aa7bf0f4f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.234669"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要讨论了使用l(2,1) RF-ELM模型进行金融时间序列预测，以最大化资本回报并有效管理流动性风险。流动性风险管理是金融风险管理的一个重要方面，因此该论文的核心技术主要应用于金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要讨论了使用l(2,1) RF-ELM模型进行金融时间序列预测，以最大化资本回报并有效管理流动性风险。流动性风险管理是金融风险管理的一个重要方面，因此该论文的核心技术主要应用于金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:05.783781"
+}

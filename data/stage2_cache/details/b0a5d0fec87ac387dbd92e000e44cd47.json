@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1402,
+    "title": "Detection of malware in downloaded files using various machine learning models",
+    "abstract": "Malware has become an enormous risk in today's world. There are different kinds of malware or mali-cious programs found on the internet. Research shows that malware has grown exponentially over the last decade, causing substantial financial losses to various organizations. Malware is a malicious program or software that proves exceedingly harmful to the user's computer. The user's system can be affected in several ways. The proposed solution uses various machine learning techniques to detect whether a file downloaded from the internet contains malware or not. This research aims to use different machine learning algorithms to differentiate between malicious and benign files successfully. The main idea is to study different features of the downloaded file like MD5 hash, size of the Optional Header, and Load Configuration Size. Based on the analysis performed on these features, the files will be classified as mali-cious or non-malicious. The models are trained on these different features which enables them to learn how to classify files. The models after proper training will be compared among each other based on var-ious criteria. This comparison is made with the help of the Validation and Test datasets. Finally, the model with the best accuracy will be selected. This process helps in identifying all those types of malware that can have a detrimental impact on the user's system after getting infected. The approach used here will be able to detect malware like Adware, Trojan, Backdoors, Unknown, Multidrop, Rbot, Spam, and Ransomware. After training and testing various machine learning models, the Random Forest Classifier was found to be the most accurate. It's accuracy went as high as 99.99% in the case of the test dataset. This was closely followed by the XGBoost model with an accuracy of 99.68%. The results of five different models have been compared with those obtained in the previous research. These include the Decision Tree Classifier (99.57% accuracy), Random Forest Classifier (99.99% accuracy), Gradient Boosting Model (99.09% accuracy), XGBoost Model (99.68% accuracy), and AdaBoost Model (98.87% accuracy). Four out of five of these models have been found to have accuracies greater than those obtained in previous research works.(c) 2023 THE AUTHORS. Published by Elsevier BV on behalf of Faculty of Computers and Artificial Intel-ligence, Cairo University. This is an open access article under the CC BY-NC-ND license (http://creative-commons.org/licenses/by-nc-nd/4.0/).",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7a2059134124ff8775b46739118c23c1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:02:22.764177"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习技术检测下载文件中的恶意软件，虽然提到恶意软件可能导致财务损失，但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习技术检测下载文件中的恶意软件，虽然提到恶意软件可能导致财务损失，但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:23.935785"
+}

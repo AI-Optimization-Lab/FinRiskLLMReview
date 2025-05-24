@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 520,
+    "title": "MF-Informer for long-term QoS prediction in edge-cloud collaboration environments",
+    "abstract": "In Service-Oriented Architecture (SOA) systems, continuously stabilizing web services' quality of service (QoS) is critical to maintaining system performance. Dynamic changes in edge-cloud collaborative computing environments lead to fluctuations in QoS values, and the original service portfolio design will no longer fulfill the Service Level Agreement (SLA), resulting in performance degradation of SOA systems. To ensure the efficiency of SOA systems, long time-series prediction of services' QoS is an effective method, which can warn of SLA violations and recommend optimal candidate services. In this paper, we propose a prediction algorithm, MF-Informer, which combines matrix factorization and the Informer model to solve the sparsity problem of QoS historical data, and the self-attention mechanism of the Informer model realizes the prediction of service QoS over N steps ahead. In this paper, experiments are conducted based on real-world web service QoS datasets, and the results show that this paper's method improves the efficiency and accuracy of service QoS long-term prediction, which is significantly better than existing methods in several evaluation metrics.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "cd5662e7042bef23408b50b37649f0d1",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "attention mechanism",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:37:01.723223"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究在边缘-云协作环境中使用MF-Informer算法进行长期QoS预测，以提高服务导向架构(SOA)系统的性能。虽然涉及预测和优化，但其应用场景是服务质量(QoS)管理，而非上述任何特定的金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究在边缘-云协作环境中使用MF-Informer算法进行长期QoS预测，以提高服务导向架构(SOA)系统的性能。虽然涉及预测和优化，但其应用场景是服务质量(QoS)管理，而非上述任何特定的金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:55.023541"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1103,
+    "title": "On Machine Learning models explainability in the banking sector: the case of SHAP",
+    "abstract": "Machine Learning models explainability has recently become a very popular topic in the banking sector. We apply Shapley values and the Python library SHAP to a real credit risk database and show that the two available SHAP types (interventional and path-dependent) provide very similar results even under correlated features. The main drawback of SHAP is that it is not portfolio invariant, this is, the explanation for the prediction provided for each observation depends on the portfolio distribution of the features. This can be a serious problem for customers and banking regulators, who expect that explanations will stay stable as long as the clients characteristics do not change. We conduct several tests and show that the SHAP explanation of an observation may considerably change depending on the rest of the portfolio distribution. As a consequence, the explanation of a client may vary over time even if her characteristics do not change and banks using the same model (for ex. commercial models) may provide different explanations to the same client.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "760eb5646213d48dc642275254b25f0d",
+    "relevant_keywords": [
+      "machine learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.334893"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究机器学习模型的可解释性在银行信用风险评估中的应用，这属于金融风险管理的范畴。论文讨论了SHAP方法在信用风险数据库中的应用，并分析了其对客户信用风险评估的影响，这些都是金融风险管理的重要内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究机器学习模型的可解释性在银行信用风险评估中的应用，这属于金融风险管理的范畴。论文讨论了SHAP方法在信用风险数据库中的应用，并分析了其对客户信用风险评估的影响，这些都是金融风险管理的重要内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:40.272075"
+}

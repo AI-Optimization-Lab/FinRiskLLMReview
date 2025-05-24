@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1397,
+    "title": "A minimax theorem with applications to machine learning, signal processing, and finance",
+    "abstract": "This paper concerns a fractional function of the form x(T)a/root x(T)Bx, where B is positive definite. We consider the game of choosing x from a convex set, to maximize the function, and choosing (a,B) from a convex set, to minimize it. We prove the existence of a saddle point and describe an efficient method, based on convex optimization, for computing it We describe applications in machine learning (robust Fisher linear discriminant analysis), signal processing (robust beam-forming, robust matched filtering), and finance (robust portfolio selection). In these applications, x corresponds to some design variables to be chosen, and the pair (a, B) corresponds to the statistical model, which is uncertain.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ff48bfb61edf936f3609c2f4aff0198c",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.436167"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到应用之一是‘robust portfolio selection’（稳健投资组合选择），这属于投资组合管理的范畴。虽然论文还涉及机器学习和信号处理等其他领域，但在金融领域的应用主要集中在投资组合管理上。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到应用之一是‘robust portfolio selection’（稳健投资组合选择），这属于投资组合管理的范畴。虽然论文还涉及机器学习和信号处理等其他领域，但在金融领域的应用主要集中在投资组合管理上。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:12.196229"
+}

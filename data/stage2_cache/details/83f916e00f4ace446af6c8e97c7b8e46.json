@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 130,
+    "title": "The QLBS Q-Learner goes NuQLear: fitted Q iteration, inverse RL, and option portfolios",
+    "abstract": "The QLBS model is a discrete-time option hedging and pricing model that is based on Dynamic Programming (DP) and Reinforcement Learning (RL). It combines the famous Q-Learning method for RL with the Black-Scholes (-Merton) (BSM) model's idea of reducing the problem of option pricing and hedging to the problem of optimal rebalancing of a dynamic replicating portfolio for the option, which is made of a stock and cash. Here we expand on several NuQLear (Numerical Q-Learning) topics with the QLBS model. First, we investigate the performance of Fitted Q Iteration for an RL (data-driven) solution to the model, and benchmark it versus a DP (model-based) solution, as well as versus the BSM model. Second, we develop an Inverse Reinforcement Learning (IRL) setting for the model, where we only observe prices and actions (re-hedges) taken by a trader, but not rewards. Third, we outline how the QLBS model can be used for pricing portfolios of options, rather than a single option in isolation, thus providing its own, data-driven and model-independent solution to the (in)famous volatility smile problem of the Black-Scholes model.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "828dcbc03ded12821549c795e42dc4d9",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.363937"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术QLBS模型专注于期权定价和对冲，这直接涉及衍生品定价领域。同时，通过动态复制组合进行最优再平衡，也涉及金融风险管理中的对冲策略。虽然提到了期权组合，但主要焦点仍是定价和对冲，而非投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术QLBS模型专注于期权定价和对冲，这直接涉及衍生品定价领域。同时，通过动态复制组合进行最优再平衡，也涉及金融风险管理中的对冲策略。虽然提到了期权组合，但主要焦点仍是定价和对冲，而非投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:30.895860"
+}

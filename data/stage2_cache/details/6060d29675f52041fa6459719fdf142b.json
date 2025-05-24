@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 297,
+    "title": "Deep Reinforcement Learning Approach for Trading Automation in the Stock Market",
+    "abstract": "Deep Reinforcement Learning (DRL) algorithms can scale to previously intractable problems. The automation of profit generation in the stock market is possible using DRL, by combining the financial assets price prediction step and the allocation step of the portfolio in one unified process to produce fully autonomous systems capable of interacting with their environment to make optimal decisions through trial and error. This work represents a DRL model to generate profitable trades in the stock market, effectively overcoming the limitations of supervised learning approaches. We formulate the trading problem as a Partially Observed Markov Decision Process (POMDP) model, considering the constraints imposed by the stock market, such as liquidity and transaction costs. We then solve the formulated POMDP problem using the Twin Delayed Deep Deterministic Policy Gradient (TD3) algorithm reporting a 2.68 Sharpe Ratio on unseen data set (test data). From the point of view of stock market forecasting and the intelligent decision-making mechanism, this paper demonstrates the superiority of DRL in financial markets over other types of machine learning and proves its credibility and advantages in strategic decision-making.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "aebf01088f67012bb1db1d844586c4fa",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:00.397480"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习（DRL）来自动化股票市场的交易决策，包括资产价格预测和投资组合分配。这直接涉及投资组合管理的领域，旨在通过智能决策机制优化投资组合的表现。论文中提到的Sharpe Ratio和交易成本等概念进一步证实了这一点。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习（DRL）来自动化股票市场的交易决策，包括资产价格预测和投资组合分配。这直接涉及投资组合管理的领域，旨在通过智能决策机制优化投资组合的表现。论文中提到的Sharpe Ratio和交易成本等概念进一步证实了这一点。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:08.624420"
+}

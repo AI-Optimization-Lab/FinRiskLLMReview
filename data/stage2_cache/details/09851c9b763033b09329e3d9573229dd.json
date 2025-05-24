@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2670,
+    "title": "Kernel-Based Aggregating Learning System for Online Portfolio Optimization",
+    "abstract": "Recently, various machine learning techniques have been applied to solve online portfolio optimization (OLPO) problems. These approaches typically explore aggressive strategies to gain excess returns due to the existence of irrational phenomena in financial markets. However, existing aggressive OLPO strategies rarely consider the downside risk and lack effective trend representation, which leads to poor prediction performance and large investment losses in certain market environments. Besides, prediction with a single model is often unstable and sensitive to the noises and outliers, and the subsequent selection of optimal parameters also become obstacles to accurate estimation. To overcome these drawbacks, this paper proposes a novel kernel-based aggregating learning (KAL) system for OLPO. It includes a two-step price prediction scheme to improve the accuracy and robustness of the estimation. Specifically, a component price estimator is built by exploiting additional indicator information and the nonstationary nature of financial time series, and then an aggregating learning method is presented to combine multiple component estimators following different principles. Next, this paper conducts an enhanced tracking system by introducing a kernel-based increasing factor to maximize the future wealth of next period. At last, an online learning algorithm is designed to solve the system objective, which is suitable for large-scale and time-limited situations. Experimental results on several benchmark datasets from diverse real markets show that KAL outperforms other state-of-the-art systems in cumulative wealth and some risk-adjusted metrics. Meanwhile, it can withstand certain transaction costs.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cf2f6047b6115f19159c94d88657c7c3",
+    "relevant_keywords": [
+      "machine learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:18:06.134297"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一种基于核的聚合学习系统，用于在线投资组合优化（OLPO），旨在通过改进价格预测和增强跟踪系统来最大化未来财富。这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一种基于核的聚合学习系统，用于在线投资组合优化（OLPO），旨在通过改进价格预测和增强跟踪系统来最大化未来财富。这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:36.887785"
+}

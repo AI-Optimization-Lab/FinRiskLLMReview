@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1530,
+    "title": "Hedging beyond duration and convexity",
+    "abstract": "Hedging of fixed income securities remains one of the most challenging problems faced by financial institutions. The predominantly used measures of duration and convexity do not completely capture the interest rate risks borne by the holder of these securities. Using historical data for the entire yield curve, we perform a principal components analysis and find that the first four factors capture over 99.99% of the yield curve variation. Incorporating these factors into the pricing of arbitrary fixed income securities via Monte Carlo simulation, we derive perturbation analysis (PA) estimators for the price sensitivities with respect to the factors. Computational results for mortgage-backed securities (MBS) indicate that using these sensitivity measures in hedging provides far more protection against interest risk exposure than the conventional measures of duration and convexity.",
+    "year": 2002,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2dacdd61c8279fd611976a82cef20949",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T02:04:20.053984"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究固定收益证券的对冲问题，通过主成分分析和蒙特卡洛模拟来改进传统的久期和凸性对冲方法，以更好地管理利率风险。这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究固定收益证券的对冲问题，通过主成分分析和蒙特卡洛模拟来改进传统的久期和凸性对冲方法，以更好地管理利率风险。这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:22.014431"
+}

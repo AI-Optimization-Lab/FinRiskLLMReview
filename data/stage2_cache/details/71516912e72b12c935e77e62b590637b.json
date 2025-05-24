@@ -1,0 +1,38 @@
+{
+  "paper": {
+    "id": 487,
+    "title": "A survey on uncertainty quantification in deep learning for financial time series prediction",
+    "abstract": "Investors make decisions about buying and selling a financial asset based on available information. The traditional approach in Deep Learning when trying to predict the behavior of an asset is to take a price history, train a model, and forecast one single price in the near future. This is called the frequentist perspective. Uncertainty Quantification is an alternative in which models manage a probability distribution for prediction. It provides investors with more information than the traditional frequentist way, so they can consider the risk of making or not making a certain decision. We systematically reviewed the existing literature on Uncertainty Quantification methods in Deep Learning to predict the behavior of financial assets, such as foreign exchange, stock market, cryptocurrencies and others. The article discusses types of model, categories of financial assets, prediction characteristics and types of uncertainty. We found that, in general terms, references focus on price accuracy as a metric, although other metrics, such as trend accuracy, might be more appropriate. Very few authors analyze both epistemic and aleatoric uncertainty, and none analyze in depth how to decouple them. The time period analyzed includes the years 2001 to 2022.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "688e284afb51988f62914209a39e9d2a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "sequence-to-sequence learning",
+      "seq2seq",
+      "encoder-decoder",
+      "autoencoder",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T01:38:59.245407"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究深度学习中的不确定性量化方法，用于预测金融资产（如外汇、股票市场、加密货币等）的行为。不确定性量化提供了预测的概率分布，帮助投资者评估决策风险，这直接关联到金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究深度学习中的不确定性量化方法，用于预测金融资产（如外汇、股票市场、加密货币等）的行为。不确定性量化提供了预测的概率分布，帮助投资者评估决策风险，这直接关联到金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:52.487116"
+}

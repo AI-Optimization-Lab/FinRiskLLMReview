@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 4011,
+    "title": "Two-step square wave testing: A 110-second method for diagnosing internal short circuit and two states of lithium-ion batteries",
+    "abstract": "As batteries lose capacity over time, disposing of them presents substantial environmental and financial challenges. Regrouping retired batteries extends their life and reduces the need for new manufacturing costs. Regrouping necessitates evaluating performance indicators and identifying safety concerns, with prompt recognition of internal short circuits (ISC) helping lower the risk of thermal runaway and serious accidents. Current ISC detection techniques are time-consuming, generally requiring full charge-discharge cycles or extended relaxation periods for data collection. This study presents a quick diagnostic method that uses two consecutive unequal square waves over 110 s to simultaneously assess safety information and battery states. The duration and magnitude of each square wave are thoroughly discussed, where the first wave primarily identifies the two battery states, i.e., state of health (SOH) and state of charge (SOC), while the second wave with its associated impedance spectrum offers key insights for ISC detection. We employ machine learning techniques that draw on features from both waves: initial voltage and ohmic resistance from the first, and three low- frequency impedances from the second. This approach accurately classifies ISC severity levels with 93.83 % accuracy, while simultaneously predicting the SOH and SOC with root mean square errors of 2.22 % and 1.72 %, respectively.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5c7b24efac97828c96a51e55b549707c",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:31:58.722508"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究锂离子电池的内部短路检测和状态评估，属于能源技术和电池管理领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究锂离子电池的内部短路检测和状态评估，属于能源技术和电池管理领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:42.000658"
+}

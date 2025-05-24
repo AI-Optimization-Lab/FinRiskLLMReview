@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3658,
+    "title": "Precision Least Squares: Estimation and Inference in High-Dimensions",
+    "abstract": "The least squares estimator can be cast as depending only on the precision matrix of the data, similar to the weights of a global minimum variance portfolio. We give conditions under which any plug-in precision matrix estimator produces an unbiased and consistent least squares estimator for stationary time series regressions, in both low- and high-dimensional settings. Such conditions define a class of Precision Least Squares (PrLS) estimators, which are shown to be approximately Gaussian, efficient, and to provide automatic family-wise error control in large samples. For estimating high-dimensional sparse regression models, we propose a LASSO Cholesky estimator of the plug-in precision matrix. We show its consistency and how to properly bias correct it, thereby obtaining a LASSO Cholesky-based PrLS (LC-PrLS) estimator. LC-PrLS performs well in finite samples and better than state-of-the-art high-dimensional estimators. We employ LC-PrLS to investigate the dynamic network of predictive connections among a large set of global bank stock returns. We find that crisis years correspond to a collapse of predictive linkages.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "37c8ef0a3720f5fee1c573bfe15c55d0",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:19:26.174811"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文中提到最小二乘估计器与全局最小方差投资组合的权重类似，并且应用了提出的LC-PrLS方法来研究全球银行股票回报的动态预测网络，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文中提到最小二乘估计器与全局最小方差投资组合的权重类似，并且应用了提出的LC-PrLS方法来研究全球银行股票回报的动态预测网络，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:15.423982"
+}

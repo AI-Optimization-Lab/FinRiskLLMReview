@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 145,
+    "title": "Expert Learning through Generalized Inverse Multiobjective Optimization: Models, Insights, and Algorithms",
+    "abstract": "We consider a new unsupervised learning task of inferring parameters of a multiobjective decision making model, based on a set of observed decisions from the human expert. This setting is important in applications (such as the task of portfolio management) where it may be difficult to obtain the human expert's intrinsic decision making model. We formulate such a learning problem as an inverse multiobjective optimization problem (IMOP) and propose its first sophisticated model with statistical guarantees. Then, we reveal several fundamental connections between IMOP, K-means clustering, and manifold learning. Leveraging these critical insights and connections, we propose two algorithms to solve IMOP through manifold learning and clustering. Numerical results confirm the effectiveness of our model and the computational efficacy of algorithms.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "bd279b3d4bf1dba549b3fd6c2e1574a0",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "manifold learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.052758"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要明确提到该研究在投资组合管理等应用中具有重要意义，并且其提出的逆多目标优化问题（IMOP）模型旨在推断人类专家的决策模型，这与投资组合管理的决策过程直接相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要明确提到该研究在投资组合管理等应用中具有重要意义，并且其提出的逆多目标优化问题（IMOP）模型旨在推断人类专家的决策模型，这与投资组合管理的决策过程直接相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:21.473107"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 5709,
+    "title": "Leveraging Bayesian Quadrature for Accurate and Fast Credit Valuation Adjustment Calculations",
+    "abstract": "Counterparty risk, which combines market and credit risks, gained prominence after the 2008 financial crisis due to its complexity and systemic implications. Traditional management methods, such as netting and collateralization, have become computationally demanding under frameworks like the Fundamental Review of the Trading Book (FRTB). This paper explores the combined application of Gaussian process regression (GPR) and Bayesian quadrature (BQ) to enhance the efficiency and accuracy of counterparty risk metrics, particularly credit valuation adjustment (CVA). This approach balances excellent precision with significant computational performance gains. Focusing on fixed-income derivatives portfolios, such as interest rate swaps and swaptions, within the One-Factor Linear Gaussian Markov (LGM-1F) model framework, we highlight three key contributions. First, we approximate swaption prices using Bachelier's formula, showing that forward-starting swap rates can be modeled as Gaussian dynamics, enabling efficient CVA computations. Second, we demonstrate the practical relevance of an analytical approximation for the CVA of an interest rate swap portfolio. Finally, the combined use of Gaussian processes and Bayesian quadrature underscores a powerful synergy between precision and computational efficiency, making it a valuable tool for credit risk management.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9e8886660d0c3831f5e22d2128478d69",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:50:21.395083"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术应用于信用估值调整（CVA）的计算，这直接涉及衍生品定价（如利率互换和互换期权）和金融风险管理（如对手方风险的管理）。论文明确提到使用高斯过程回归和贝叶斯积分来提高CVA计算的效率和准确性，这些都是金融风险管理和衍生品定价的关键技术。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术应用于信用估值调整（CVA）的计算，这直接涉及衍生品定价（如利率互换和互换期权）和金融风险管理（如对手方风险的管理）。论文明确提到使用高斯过程回归和贝叶斯积分来提高CVA计算的效率和准确性，这些都是金融风险管理和衍生品定价的关键技术。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:38.156399"
+}

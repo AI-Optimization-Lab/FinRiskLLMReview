@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 414,
+    "title": "Exploring Low-Risk Anomalies: A Dynamic CAPM Utilizing a Machine Learning Approach",
+    "abstract": "Low-risk pricing anomalies, characterized by lower returns in higher-risk stocks, are prevalent in equity markets and challenge traditional asset pricing theory. Previous studies primarily relied on linear regression methods, which analyze a limited number of factors and overlook the advantages of machine learning in handling high-dimensional data. This study aims to address these anomalies in the Chinese market by employing machine learning techniques to measure systematic risk. A large dataset consisting of 770 variables, encompassing macroeconomic, micro-firm, and cross-effect factors, was constructed to develop a machine learning-based dynamic capital asset pricing model. Additionally, we investigated the differences in factors influencing time-varying beta between state-owned enterprises (SOEs) and non-SOEs, providing economic explanations for the black-box issues. Our findings demonstrated the effectiveness of random forest and neural networks, with the four-layer neural network performing best and leading to a substantial rise in the excess return of the long-short portfolio, up to 0.36%. Notably, liquidity indicators emerged as the primary drivers influencing beta, followed by momentum. Moreover, our analysis revealed a shift in variable importance during the transition from SOEs to non-SOEs, as liquidity and momentum gradually replaced fundamentals and valuation as key determinants. This research contributes to both theoretical and practical domains by bridging the research gap in incorporating machine learning methods into asset pricing research.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6587ac74bba7cdf76959df88534b0dee",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "random forest",
+      "decision tree",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.526639"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究低风险定价异常，并利用机器学习技术构建动态资本资产定价模型，以提高投资组合的超额回报。研究重点在于资产定价和投资组合的优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究低风险定价异常，并利用机器学习技术构建动态资本资产定价模型，以提高投资组合的超额回报。研究重点在于资产定价和投资组合的优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:08.683871"
+}

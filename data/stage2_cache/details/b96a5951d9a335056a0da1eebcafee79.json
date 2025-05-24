@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5209,
+    "title": "Financial prediction with constrained tail risk",
+    "abstract": "A new class of asymmetric loss functions derived from the least absolute deviations or least squares loss with a constraint on the mean of one tail of the residual error distribution, is introduced for analyzing financial data. Motivated by risk management principles, the primary intent is to provide cautious forecasts under uncertainty. The net effect on fitted models is to shape the residuals so that on average only a prespecified proportion of predictions tend to fall above or below a desired threshold. The loss functions are reformulated as objective functions in the context of parameter estimation for linear regression models, and it is demonstrated how optimization can be implemented via linear programming. The method is a competitor of quantile regression, but is more flexible and broader in scope. An application is illustrated on prediction of NDX and SPX index returns data, while controlling the magnitude of a fraction of worst losses. (C) 2007 Elsevier B.V. All rights reserved.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "21896a2552a85acab7b6451873a6b523",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:45:17.148309"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper introduces a new class of asymmetric loss functions with constraints on tail risk, motivated by risk management principles. It focuses on controlling the magnitude of worst losses in financial predictions, which is directly related to financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper introduces a new class of asymmetric loss functions with constraints on tail risk, motivated by risk management principles. It focuses on controlling the magnitude of worst losses in financial predictions, which is directly related to financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:07.066967"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 97,
+    "title": "Option Pricing Based on the Residual Neural Network",
+    "abstract": "We employ an innovative deep learning method to price options quickly and accurately. Specifically, we construct the Residual Neural Network model (ResNet) by two different basic residual blocks with three one-dimensional convolution layers and a shortcut. This model is a generalized option pricing method, and it can be used to approximate the option pricing formula without any assumptions. Besides, the model also can be easily extended to the deep ResNet model to achieve higher prediction accuracy. Comprehensive numerical experiments show that the deep ResNet model has excellent performance in the pricing of 50ETF options in the Chinese market, and the prediction accuracy of our model is higher than that of commonly used deep learning models, including deep neural network (DNN) and fully convolutional networks (FCN).",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "b92be548b00b4d17da493cd3ae3b0f61",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.290501"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用残差神经网络（ResNet）进行期权定价，特别是针对中国市场的50ETF期权。论文明确提到这是一种广义的期权定价方法，并且通过数值实验验证了其定价的准确性和性能。因此，该论文的主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用残差神经网络（ResNet）进行期权定价，特别是针对中国市场的50ETF期权。论文明确提到这是一种广义的期权定价方法，并且通过数值实验验证了其定价的准确性和性能。因此，该论文的主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:59.909089"
+}

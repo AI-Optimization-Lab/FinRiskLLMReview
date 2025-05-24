@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1516,
+    "title": "Exploring the synergetic effects of sample types on the performance of ensembles for credit risk and corporate bankruptcy prediction",
+    "abstract": "Credit risk and corporate bankruptcy prediction has widely been studied as a binary classification problem using both advanced statistical and machine learning models. Ensembles of classifiers have demonstrated their effectiveness for various applications in finance using data sets that are often characterized by imperfections such as irrelevant features, skewed classes, data set shift, and missing and noisy data. However, there are other corruptions in the data that might hinder the prediction performance mainly on the default or bankrupt (positive) cases, where the misclassification costs are typically much higher than those associated to the non-default or non-bankrupt (negative) class. Here we characterize the complexity of 14 real-life financial databases based on the different types of positive samples. The objective is to gain some insight into the potential links between the performance of classifier ensembles (BAGGING, AdaBoost, random subspace, DECORATE, rotation forest, random forest, and stochastic gradient boosting) and the positive sample types. Experimental results reveal that the performance of the ensembles indeed depends on the prevalent type of positive samples.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "32a4d0c0e4bb09c8f9e3594a5b05a821",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:04:19.998818"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit risk and corporate bankruptcy prediction using machine learning ensembles, which is a core aspect of financial risk management, specifically in assessing and mitigating credit risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit risk and corporate bankruptcy prediction using machine learning ensembles, which is a core aspect of financial risk management, specifically in assessing and mitigating credit risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:23.565496"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1842,
+    "title": "DMDP2: A Dynamic Multi-source Based Default Probability Prediction Framework",
+    "abstract": "In this paper, we propose a dynamic forecasting framework, named DMDP2 (Dynamic Multi-source based Default Probability Prediction), to predict the default probability of a company. The default probability is a very important factor to assess the credit risk of listed companies on a stock market. Aiming at aiding financial institutions in decision making, our DMDP2 framework not only analyses financial data to well capture the historical performance of a company, but also utilizes Long Short-Term Memory model (LSTM) to dynamically incorporate daily news from social media to take the perceptions of market participants and public opinions into consideration. The study of this paper makes two key contributions. First, we make use of unstructured news crawled from social media to alleviate the impact of financial fraud issue made on default probability prediction. Second, we propose a neural network method to integrate both structured financial factors and unstructured social media data with appropriate time alignment for default probability prediction. Extensive experimental results demonstrate the effectiveness of DMDP2 in predicting default probability for the listed companies in mainland China, compared with various baselines.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f78576c6b088177a6720a68613551ca9",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:03.962728"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是预测公司的违约概率，这是信用风险评估的重要组成部分，属于金融风险管理的范畴。论文明确提到其目标是帮助金融机构进行决策，并利用财务数据和社交媒体数据来预测违约概率，这些都是金融风险管理中的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是预测公司的违约概率，这是信用风险评估的重要组成部分，属于金融风险管理的范畴。论文明确提到其目标是帮助金融机构进行决策，并利用财务数据和社交媒体数据来预测违约概率，这些都是金融风险管理中的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:53.876740"
+}

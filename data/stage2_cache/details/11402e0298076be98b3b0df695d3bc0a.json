@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 781,
+    "title": "Portfolio formation and optimization with continuous realignment: A suggested method for choosing the best portfolio of stocks using variable length NSGA-II",
+    "abstract": "In this paper, we introduce a method of portfolio formation through vertical and horizontal clustering. The clustering algorithm incorporates sufficiently diversified number of stocks in the portfolio with exposure limits on each stock. On obtaining the near Pareto optimal portfolios by using the proposed variable-length Non-dominated Sorting based Genetic Algorithm (NSGA-II), quarter-wise weights of each portfolio's constituent stocks are determined through the proposed single objective Genetic Algorithm (GA) based Markowitz model. This enables dynamic realignment of the portfolios and can incorporate the macroeconomic environment of the time. The performance of the portfolios is then compared with a benchmark portfolio. Our results show that returns from each of our portfolios, dynamically realigned each quarter, have been able to beat the benchmark index return over our study's time period. The performance of the clustering algorithm is validated with 4 well-known clustering algorithms.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c319ea80fdd26e085beb35b7fb41891f",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:50.424774"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用改进的遗传算法（NSGA-II）和聚类方法进行投资组合的形成和优化，并动态调整组合权重以超越基准指数表现。这直接涉及投资组合管理的核心问题，即资产选择和权重分配。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用改进的遗传算法（NSGA-II）和聚类方法进行投资组合的形成和优化，并动态调整组合权重以超越基准指数表现。这直接涉及投资组合管理的核心问题，即资产选择和权重分配。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:52.005590"
+}

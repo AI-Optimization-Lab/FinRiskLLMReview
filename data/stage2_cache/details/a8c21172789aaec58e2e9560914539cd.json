@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 328,
+    "title": "A Reinforcement Learning Approach for Solving the Mean Variance Customer Portfolio in Partially Observable Models",
+    "abstract": "In problems involving control of financial processes, it is usually complicated to quantify exactly the state variables. It could be expensive to acquire the exact value of a given state, even if it may be physically possible to do so. In such cases it may be interesting to support the decision-making process on inaccurate information pertaining to the system state. In addition, for modeling real-world application, it is necessary to compute the values of the parameters of the environment (transition probabilities and observation probabilities) and the reward functions, which are typically, hand-tuned by experts in the field until it has acquired a satisfactory value. This results in an undesired process. To address these shortcomings, this paper provides a new Reinforcement Learning (RL) framework for computing the mean-variance customer portfolio with transaction costs in controllable Partially Observable Markov Decision Processes (POMDPs). The solution is restricted to finite state, action, observation sets and average reward problems. For solving this problem, a controller/actor-critic architecture is proposed, which balance the difficult tasks of exploitation and exploration of the environment. The architecture consists of three modules: controller, fast-tracked portfolio learning and an actor-critic module. Each module involves the design of a convergent Temporal Difference (TD) learning algorithm. We employ three different learning rules to estimate the real values of: (a) the transition matrices (pi) over cap (j vertical bar ik) (t), (b) the rewards (J) over cap((ijk))(t) and (c) the resources destined for carrying out a promotion (zeta) over cap((i) over cap vertical bar (k) over cap ) (t). We present a proof for the estimated transition matrix rule (pi) over cap (j vertical bar ik) (t) and showing that it converges when t -> infinity. For solving the optimization programming problem we extend the c-variable method for partially observable Markov chains. The c-variable is conceptualized as joint strategy given by the product of the control policy, the observation kernel Q(y vertical bar s) and the stationary distribution vector. A major advantage of this procedure is that it can be implemented efficiently for real settings in controllable POMDP. A numerical example illustrates the results of the proposed method.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1f42da9484235786d510e4aec68bd7e1",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:00.458486"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种新的强化学习框架，用于计算带有交易成本的平均方差客户投资组合，这直接涉及投资组合管理的核心问题。论文的研究目标和应用场景明确指向投资组合优化，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种新的强化学习框架，用于计算带有交易成本的平均方差客户投资组合，这直接涉及投资组合管理的核心问题。论文的研究目标和应用场景明确指向投资组合优化，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:44.423867"
+}

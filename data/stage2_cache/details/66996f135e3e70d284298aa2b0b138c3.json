@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 41,
+    "title": "Online Portfolio Selection Based on the Posts of Winners and Losers in Stock Microblogs",
+    "abstract": "Online portfolio selection is an application of online learning in the machine learning literature to the financial problem of portfolio selection. The objective of online portfolio selection is to maximize the cumulative return over sequential multiple periods, where two types of online portfolio selection approaches have been proposed, Follow-the-Winner and Follow-the-Loser. Although the former approaches were well studied so far, the latter approaches have been found to outperform the former empirically in recent years. Thus, we propose a new type of Follow-the-Loser portfolio strategy by applying a semi-supervised learning method to the posts in stock microblogs. In microblogs, each stock has a thread of posts, some of which are associated with an emotion such as bullish or bearish. Our method estimates the missing emotions in a supervised learning manner and uses them to predict the stock price.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "91ff784691a789b4ab739311033ade06",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "semi-supervised learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.871792"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on online portfolio selection, which is a direct application in the field of portfolio management. It proposes a new Follow-the-Loser strategy using semi-supervised learning on stock microblog posts to predict stock prices and optimize portfolio returns, clearly aligning with investment portfolio management objectives.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on online portfolio selection, which is a direct application in the field of portfolio management. It proposes a new Follow-the-Loser strategy using semi-supervised learning on stock microblog posts to predict stock prices and optimize portfolio returns, clearly aligning with investment portfolio management objectives.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:02.287837"
+}

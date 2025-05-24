@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 110,
+    "title": "Improving Deep Learning for Forecasting Accuracy in Financial Data",
+    "abstract": "Financial forecasting is based on the use of past and present financial information to make the best prediction of the future financial situation, to avoid high-risk situations, and to increase benefits. Such forecasts are of interest to anyone who wants to know the state of possible finances in the future, including investors and decision-makers. However, the complex nature of financial data makes it difficult to get accurate forecasts. Artificial intelligence, which has been shown to be suitable for analyzing very complex problems, can be applied to financial forecasting. Financial data is both nonlinear and nonstationary, with broadband frequency features. In other words, there is a large range of fluctuation, meaning that predictions made only using long short-term memory (LSTM) are not enough to ensure accuracy. This study uses an LSTM model for analysis of financial data, followed by a comparison of the analytical results with the actual data to see which has a larger root-mean-square-error (RMSE). The proposed method combines deep learning with empirical mode decomposition (EMD) to understand and predict financial trends from financial data. The financial data for this study are from the Taiwan corporate social responsibility (CSR) index. First, the EMD method is used to transform the CSR index data into a limited number of intrinsic mode functions (IMF). The bandwidth of these IMFs becomes narrower, with regular cyclic, periodic, or seasonal components in the time domain. In other words, the range of fluctuation is small. LSTM is a good way to forecast cyclic or seasonal data. The forecast result is obtained by adding all the IMFs together. It has been verified in past studies that only the LSTM and LSTM combined with the EMD can be used. The analytical results show that smaller RMSEs can be obtained using the LSTM combined with EMD compared to real data.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "76b955bfc9618f5dfbd7f267c4b4f169",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:33:49.072599"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习和经验模态分解（EMD）来提高金融数据预测的准确性，但其应用场景是通用的金融预测，并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习和经验模态分解（EMD）来提高金融数据预测的准确性，但其应用场景是通用的金融预测，并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:43.991434"
+}

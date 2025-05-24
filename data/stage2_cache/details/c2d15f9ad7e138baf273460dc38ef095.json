@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 4385,
+    "title": "High-order Hidden Markov Model for trend prediction in financial time series",
+    "abstract": "Financial price series trend prediction is an essential problem which has been discussed extensively using tools and techniques of economic physics and machine learning. Time dependence and volatility issues in this problem have made Hidden Markov Model (HMM) a useful tool in predicting the states of stock market. In this paper, we present an approach to predict the stock market price trend based on high-order HMM. Different from the commonly used first-order HMM, short and long-term time dependence are both considered in the high order HMM. By introducing a dimension reduction method which could transform the high-dimensional state vector of high-order HMM into a single one, we present a dynamic high-order HMM trading strategy to predict and trade CSI 300 and S&P 500 stock index for the next day given historical data. In our approach, we make a statistic of the daily returns in the history to demonstrate the relationship between hidden states and the price change trend. Experiments on CSI 300 and S&P 500 index illustrate that high-order HMM has preferable ability to identify market price trend than first-order one. Thus, the high-order HMM has higher accuracy and lower risk than the first-order model in predicting the index price trend. (C) 2018 Elsevier B.V. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2f01932098e9cc0395aaf9c7bdfe21d5",
+    "relevant_keywords": [
+      "machine learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:36:38.458611"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是高阶隐马尔可夫模型（HMM）用于预测股票市场价格趋势，并提出了一个动态交易策略。这直接关联到投资组合管理领域，因为预测市场趋势和制定交易策略是投资组合管理的关键组成部分。论文未提及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是高阶隐马尔可夫模型（HMM）用于预测股票市场价格趋势，并提出了一个动态交易策略。这直接关联到投资组合管理领域，因为预测市场趋势和制定交易策略是投资组合管理的关键组成部分。论文未提及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:19.518607"
+}

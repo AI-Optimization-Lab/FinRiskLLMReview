@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1680,
+    "title": "AI-Driven Framework for Predicting Oil Pipeline Failure Causes Based on Leak Properties and Financial Impact",
+    "abstract": "The current oil pipeline system is at risk for leaks and ruptures due to aging infrastructure, corrosion, and extreme weather. Addressing these vulnerabilities demands a robust disaster preparedness and response strategy that can be adapted to various incident causes. This study evaluates a data-driven framework with artificial intelligence (AI)-based algorithms for classifying failure causes in oil pipelines. For this purpose, a data set summarizing oil pipeline incidents from 2010 to 2022 obtained from the Pipeline and Hazardous Materials Safety Administration, which comprises various incident attributes, including the severity of incidents and estimated financial impacts, was processed for data balancing with a variation of synthetic minority oversampling technique. Further, this study employs extreme gradient boosting gradient, random forest, K-nearest neighbors, and support vector machine algorithms for multiclassification tasks in predicting the failure cause. The results indicate that majority-class incident causes can be effectively predicted across algorithms, achieving over 90% accuracy for corrosion failures and over 80% for equipment failures. The proposed methods can be integrated into the mitigation stage of a disaster management framework to aid with decision-making in maintenance activities and improve emergency response based on incident urgency.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d8d82d8bc76ee15355d8d14e54f0a6e1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.428570"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用AI算法预测石油管道故障原因，并评估其财务影响，但并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用AI算法预测石油管道故障原因，并评估其财务影响，但并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:00.177412"
+}

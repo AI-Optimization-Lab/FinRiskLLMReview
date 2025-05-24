@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3774,
+    "title": "A UNIFIED APPROACH TO MIXED-INTEGER OPTIMIZATION PROBLEMS WITH LOGICAL CONSTRAINTS",
+    "abstract": "We propose a unified framework to address a family of classical mixed-integer optimization problems with logically constrained decision variables, including network design, facility pal component analysis, and sparse learning problems. These problems exhibit logical relationships between continuous and discrete variables, which are usually reformulated linearly using a big-M formulation. In this work, we challenge this long-standing modeling practice and express the logical constraints in a nonlinear way. By imposing a regularization condition, we reformulate these problems as convex binary optimization problems, which are solvable using an outer-approximation procedure. In numerical experiments, we establish that a general-purpose numerical strategy, which combines cutting-plane, first-order, and local search methods, solves these problems faster and at a larger scale than state-of-the-art mixed-integer linear or second-order cone methods. Our approach successfully solves network design problems with 100s of nodes and provides solutions up to 40\\% better than the state of the art, sparse portfolio selection problems with up to 3,200 securities compared with 400 securities for previous attempts, and sparse regression problems with up to 100,000 covariates.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "46c46a54a70537f69be0c0f11c4a87d8",
+    "relevant_keywords": [
+      "regression",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T01:20:36.105653"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提到其方法可以应用于稀疏投资组合选择问题，并成功处理了多达3,200种证券的情况，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提到其方法可以应用于稀疏投资组合选择问题，并成功处理了多达3,200种证券的情况，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:50.326818"
+}

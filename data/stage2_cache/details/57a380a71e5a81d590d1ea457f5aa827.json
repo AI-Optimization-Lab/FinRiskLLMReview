@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2647,
+    "title": "Towards Predicting Length of Stay and Identification of Cohort Risk Factors Using Self-Attention-Based Transformers and Association Mining: COVID-19 as a Phenotype",
+    "abstract": "Predicting length of stay (LoS) and understanding its underlying factors is essential to minimizing the risk of hospital-acquired conditions, improving financial, operational, and clinical outcomes, and better managing future pandemics. The purpose of this study was to forecast patients' LoS using a deep learning model and to analyze cohorts of risk factors reducing or prolonging LoS. We employed various preprocessing techniques, SMOTE-N to balance data, and a TabTransformer model to forecast LoS. Finally, the Apriori algorithm was applied to analyze cohorts of risk factors influencing hospital LoS. The TabTransformer outperformed the base machine learning models in terms of F1 score (0.92), precision (0.83), recall (0.93), and accuracy (0.73) for the discharged dataset and F1 score (0.84), precision (0.75), recall (0.98), and accuracy (0.77) for the deceased dataset. The association mining algorithm was able to identify significant risk factors/indicators belonging to laboratory, X-ray, and clinical data, such as elevated LDH and D-dimer levels, lymphocyte count, and comorbidities such as hypertension and diabetes. It also reveals what treatments have reduced the symptoms of COVID-19 patients, leading to a reduction in LoS, particularly when no vaccines or medication, such as Paxlovid, were available.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4263bdb73679e8e004e899ceef133a3a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:17:32.261526"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习和关联挖掘技术预测住院时间和分析风险因素，应用于医疗健康领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习和关联挖掘技术预测住院时间和分析风险因素，应用于医疗健康领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:40:41.207101"
+}

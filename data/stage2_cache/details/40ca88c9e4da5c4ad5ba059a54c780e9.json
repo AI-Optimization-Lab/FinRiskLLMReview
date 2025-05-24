@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 198,
+    "title": "Agglomerative Clustering and Genetic Algorithm in Portfolio Optimization",
+    "abstract": "Creating and managing a successful stock portfolio are a difficult and challenging practice caused by the uncertainty created by the fluctuation of the stocks and the randomness in the market itself. Portfolio diversification, as stated in modern portfolio theory, is a go-to solution to manage risks. The purpose of portfolio diversification is to reduce the return's variance compared with a single stock investment or undiversified portfolio. The primary motivation of this research is to investigate the portfolio selection strategies through clustering and application of genetic algorithm. Cluster analysis serves as a method to cluster assets with similar financial ratio scores which is the scores of Earnings/Share (EPS), Price/Earnings Ratio (PER), Price/Earnings to Growth (PEG), Return on Asset (ROA), Return on Equity (ROE), and Debt to Equity Ratio (DER). By clustering method, homogeneous clusters are produced and can be used in diversifying portfolio. In this paper, Agglomerative Clustering (AC) is used as the clustering method. Then Genetic Algorithm (GA) will be applied to each resulting cluster to obtain the optimal proportion of each stock in the portfolio. Genetic algorithm is a searching algorithm based on genetic principles and natural selection. The performance of Genetic Algorithm combined with Agglomerative Clustering (ACGA) in portfolio optimization, evaluated based on some actual datasets, gives a portfolio with bigger expected return than a portfolio constructed with only Genetic Algorithm or a portfolio constructed by uniformly weighted stock.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4b6f74c3162097e77936dda5b4983cd9",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.091009"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用Agglomerative Clustering和Genetic Algorithm来优化股票投资组合，目的是通过聚类和遗传算法来分散风险并提高预期回报，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用Agglomerative Clustering和Genetic Algorithm来优化股票投资组合，目的是通过聚类和遗传算法来分散风险并提高预期回报，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:50.158717"
+}

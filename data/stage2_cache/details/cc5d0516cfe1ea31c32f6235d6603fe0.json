@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1274,
+    "title": "A neuro-structural framework for bankruptcy prediction",
+    "abstract": "We develop a framework to simultaneously compute the unobservable parameters underlying the structural-parametric models for bankruptcy prediction. More specifically, we compute the unobservable parameters such as, asset value and asset volatility, through learning by embedding in the structural models a neural network that maps the neural network's input space (e.g. companies' observable financial and market data) to the unobservable parameter space. Within such a 'neuro-structural' framework, the neural network and the structural model work together as a one unit during the learning phase by providing to each other forward and backward information, respectively, until the weights of the neural network are optimized according to a merit function. Empirical results show that structural models, like the Black-Scholes-Merton and the Down-and-Out option models, with parameters computed with our approach, perform better than alternative specifications of the structural models, out of sample, in terms of discriminatory power, information content and economic impact. Importantly, they also perform better than a standard neural network, suggesting that the co-joint dynamics between the neural network and the structural model are useful during the learning phase and can improve the prediction performance (and the training efficiency) of neural networks. Finally, our approach provides methodological (and empirical) enhancements over logit specifications such as, Campbell et al. [In search of distress risk. J Finance, 2008, 63, 2899-2939]. There, financial and market data are the inputs, and the output is the probability of bankruptcy whereas our approach includes an intermediary step to obtain the unobservable parameters and subsequently the probability of bankruptcy.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "615491e335c74104c3ffae9a7f639f01",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.811201"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个神经结构框架来预测破产，这属于信用风险管理的范畴，是金融风险管理的一个重要子领域。虽然论文提到了Black-Scholes-Merton和Down-and-Out期权模型，但这些模型被用作结构模型的一部分来计算不可观测的参数，而不是直接用于衍生品定价。因此，论文的主要应用领域是金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一个神经结构框架来预测破产，这属于信用风险管理的范畴，是金融风险管理的一个重要子领域。虽然论文提到了Black-Scholes-Merton和Down-and-Out期权模型，但这些模型被用作结构模型的一部分来计算不可观测的参数，而不是直接用于衍生品定价。因此，论文的主要应用领域是金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:20:20.260263"
+}

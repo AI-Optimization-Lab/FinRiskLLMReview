@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 794,
+    "title": "INSURANCE VALUATION: A TWO-STEP GENERALISED REGRESSION APPROACH",
+    "abstract": "Current approaches to fair valuation in insurance often follow a two-step approach, combining quadratic hedging with application of a risk measure on the residual liability, to obtain a cost-of-capital margin. In such approaches, the preferences represented by the regulatory risk measure are not reflected in the hedging process. We address this issue by an alternative two-step hedging procedure, based on generalised regression arguments, which leads to portfolios that are neutral with respect to a risk measure, such as Value-at-Risk or the expectile. First, a portfolio of traded assets aimed at replicating the liability is determined by local quadratic hedging. Second, the residual liability is hedged using an alternative objective function. The risk margin is then defined as the cost of the capital required to hedge the residual liability. In the case quantile regression is used in the second step, yearly solvency constraints are naturally satisfied; furthermore, the portfolio is a risk minimiser among all hedging portfolios that satisfy such constraints. We present a neural network algorithm for the valuation and hedging of insurance liabilities based on a backward iterations scheme. The algorithm is fairly general and easily applicable, as it only requires simulated paths of risk drivers.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "47de7dba923ae1811ec26b5b3a043f19",
+    "relevant_keywords": [
+      "regression",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.261860"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究保险负债的公允估值和风险对冲，特别是通过广义回归方法处理风险度量（如Value-at-Risk或expectile）下的对冲问题，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究保险负债的公允估值和风险对冲，特别是通过广义回归方法处理风险度量（如Value-at-Risk或expectile）下的对冲问题，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:49.144948"
+}

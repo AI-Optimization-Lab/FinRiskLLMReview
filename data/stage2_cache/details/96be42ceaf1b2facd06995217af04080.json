@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 263,
+    "title": "Deep Signature Algorithm for Multidimensional Path-Dependent Options",
+    "abstract": "In this work, we study the deep signature algorithms for path-dependent options. We extend the state-dependent FBSDEs with reflections to path-dependent FBSDEs with reflections, by adding the signature layer to the backward scheme. Our algorithm applies to both European and American type option pricing problems, while the payoff function depends on the whole paths of the underlying forward stock process. We prove the convergence analysis of our numerical algorithm with explicit dependence on the truncation order of the signature and the neural network approximation errors. Numerical examples for the algorithm are provided, including Amerasian option under the Black-Scholes model, American option with a path-dependent geometric mean payoff function, and Shiryaev's optimal stopping problem.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "e07df0a7364d077dce5ad9e9395ee9d6",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.048860"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是深度签名算法，用于处理路径依赖型期权的定价问题，包括欧式和美式期权。论文明确提到了Black-Scholes模型下的Amerasian期权定价和路径依赖的几何平均支付函数的美式期权定价，这些都是衍生品定价领域的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是深度签名算法，用于处理路径依赖型期权的定价问题，包括欧式和美式期权。论文明确提到了Black-Scholes模型下的Amerasian期权定价和路径依赖的几何平均支付函数的美式期权定价，这些都是衍生品定价领域的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:41.785078"
+}

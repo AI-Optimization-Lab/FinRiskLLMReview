@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 82,
+    "title": "A Deep Reinforcement Learning Model for Portfolio Management Incorporating Historical Stock Prices and Risk Information",
+    "abstract": "At present, more and more studies have begun to apply deep reinforcement learning (DRL) to portfolio management problems. However, most cutting-edge DRL models have some limitations in processing time series data, while also not considering the extent to which historical risks impact the current market. To solve this problem, this paper proposes a DRL model that takes into account historical stock prices and risk information. Based on the double-delay depth deterministic strategy gradient (TD3) model, this study incorporates a convolutional short term neural network (CNN-LSTM) to enable TD3 to handle time series data and account for the interrelation between multiple features. To consider the degree of influence of historical risk on the current market, a risk assessment unit is introduced, which processes the risk indicators through long and short term neural network (LSTM) and dynamically weights the results. The experiments reveal that the proposed model is capable of attaining higher returns when accounting for risks.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3f059966781b9ec9bfeb6eba306c84c7",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:57.082887"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是应用深度强化学习模型（DRL）来处理投资组合管理问题，特别是通过结合历史股票价格和风险信息来优化投资决策。论文明确提到其研究目标是解决投资组合管理中的问题，并通过实验验证了模型在考虑风险的情况下能够获得更高的回报。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是应用深度强化学习模型（DRL）来处理投资组合管理问题，特别是通过结合历史股票价格和风险信息来优化投资决策。论文明确提到其研究目标是解决投资组合管理中的问题，并通过实验验证了模型在考虑风险的情况下能够获得更高的回报。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:52.148037"
+}

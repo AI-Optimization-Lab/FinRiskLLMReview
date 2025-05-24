@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3036,
+    "title": "Sparse Covariance Matrix Estimation by DCA-Based Algorithms",
+    "abstract": "This letter proposes a novel approach using the l(0)-norm regularization for the sparse covariance matrix estimation (SCME) problem. The objective function of SCME problem is composed of a nonconvex part and the l(0) term, which is discontinuous and difficult to tackle. Appropriate DC (difference of convex functions) approximations of l(0)-norm are used that result in approximation SCME problems that are still nonconvex. DC programming and DCA (DC algorithm), powerful tools in nonconvex programming framework, are investigated. Two DC formulations are proposed and corresponding DCAschemes developed. Two applications of the SCME problem that are considered are classification via sparse quadratic discriminant analysis and portfolio optimization. Acareful empirical experiment is performed through simulated and real data sets to study the performance of the proposed algorithms. Numerical results showed their efficiency and their superiority compared with seven stateof- the-art methods.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "213d2d8b8cf5a727fe67e9574bb6e31e",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:43.146017"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要明确提到稀疏协方差矩阵估计（SCME）问题的一个应用是投资组合优化（portfolio optimization），这属于投资组合管理领域。虽然论文也提到了分类问题，但投资组合优化是其明确指出的金融应用之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要明确提到稀疏协方差矩阵估计（SCME）问题的一个应用是投资组合优化（portfolio optimization），这属于投资组合管理领域。虽然论文也提到了分类问题，但投资组合优化是其明确指出的金融应用之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:33.510856"
+}

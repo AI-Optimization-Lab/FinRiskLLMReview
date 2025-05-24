@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2437,
+    "title": "An improved sparrow search algorithm optimized LightGBM approach for credit risk prediction of SMEs in supply chain finance",
+    "abstract": "Predicting the credit risk of small and medium-sized enterprises (SMEs) in supply chain finance accurately is critical to the sustainability of the entire supply chain and supply chain participants (e.g., core enterprises and financial service providers). Previous studies apply a series of machine learning algorithms to address this issue. However, these methods are inadequate in terms of prediction efficiency and accuracy. Therefore, we propose a novel approach based on the Improved Sparrow Search Algorithm (ISSA) and Light Gradient Boosting Machine (LightGBM). ISSA is an enhanced Sparrow Search Algorithm (SSA), which combines original SSA with fractional calculus concepts and Cauchy-Gaussian mutation, to accelerate convergence and reinforce global search capability. Then ISSA is used to search the global optimal hyper- parameters of LightGBM since the prediction performance of LightGBM is determined by numerous hyper-parameters. The experimental results show that the proposed ISSA-LightGBM approach has a superior prediction performance compared with the other five models and the ISSA possesses better convergence speed and global search capability over the other four swarm intelligence optimization algorithms. DeLong's test results show that ISSA-LightGBM is statistically significant in terms of AUC score compared to other models. Finally, machine learning model is interpreted using the Shapley-Lorenz tool to comply with the requirements of industry practitioners and policy makers.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "27bf15b0ee1dcf1a3b08c49539b34445",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:27.014562"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用改进的麻雀搜索算法优化LightGBM模型来预测供应链金融中小型企业的信用风险，这直接属于金融风险管理中的信用风险评估范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用改进的麻雀搜索算法优化LightGBM模型来预测供应链金融中小型企业的信用风险，这直接属于金融风险管理中的信用风险评估范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:28.208321"
+}

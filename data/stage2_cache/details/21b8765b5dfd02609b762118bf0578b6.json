@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 621,
+    "title": "Can machine learning models save capital for banks? Evidence from a Spanish credit portfolio",
+    "abstract": "We study the impact of machine learning (ML) models for credit default prediction in the calculation of regu-latory capital by financial institutions. We do so by using a unique and anonymized database from a major Spanish bank. We first compare the statistical performance of five models based on supervised learning like Logistic Lasso, Trees (CART), Random Forest, XGBoost and Deep Learning, with a well-known model like Logit. We measure the statistical performance through different metrics, and for different sample sizes and features available. We find that ML models outperform, even when relatively low amount of data is used. We then translate this statistical performance into economic impact by estimating the savings in capital when using an advanced ML model instead of a simpler one to compute the risk-weighted assets following the Internal Ratings Based (IRB) approach. Our benchmark results show that implementing XGBoost instead of Logistic Lasso could yield savings from 12.4% to 17% in terms of regulatory capital requirements.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fcdfbac7c9107d993999164a4d48470c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.760063"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using machine learning models for credit default prediction and its impact on regulatory capital requirements, which is a key aspect of financial risk management in banking institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using machine learning models for credit default prediction and its impact on regulatory capital requirements, which is a key aspect of financial risk management in banking institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:18.142081"
+}

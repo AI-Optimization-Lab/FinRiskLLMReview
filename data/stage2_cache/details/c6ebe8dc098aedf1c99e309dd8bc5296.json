@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 391,
+    "title": "Index Tracking Via Learning to Predict Market Sensitivities",
+    "abstract": "Index funds are substantially preferred by investors nowadays, and market sensitivities are instrumental in managing index funds. An index fund is a mutual fund aiming to track the returns of a pre-defined market index (e.g., the S&P 500). A basic strategy to manage an index fund is replicating the index's constituents and weights identically, which is, however, cost-ineffective and impractical. To address this issue, it is required to replicate the index partially with accurately predicted market sensitivities. Accordingly, we propose a novel partial-replication method via learning to predict market sensitivities. We first examine deep-learning models to predict market sensitivities in a supervised manner with our data-processing methods. Then, we propose a partial-index-tracking optimization model controlling the net predicted market sensitivities of the portfolios and index to be the same. These processes' efficacy is corroborated by our experiments on the Korea Composite Stock Price Index 200. Our experiments show a significant reduction of the prediction errors compared with historical estimations and competitive tracking errors of replicating the index utilizing fewer than half of the entire constituents. Therefore, we show that applying deep learning to predict market sensitivities is promising and that our portfolio construction methods are practically effective. Additionally, to our knowledge, this is the first study addressing market sensitivities focused on deep learning.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "5bb5f38907460f5c1360decc61824c68",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:17.585710"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过深度学习预测市场敏感性，并用于部分复制市场指数以构建投资组合，这直接属于投资组合管理的范畴。论文的研究目标是优化指数基金的跟踪策略，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过深度学习预测市场敏感性，并用于部分复制市场指数以构建投资组合，这直接属于投资组合管理的范畴。论文的研究目标是优化指数基金的跟踪策略，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:02.441543"
+}

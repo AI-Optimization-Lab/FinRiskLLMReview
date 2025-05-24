@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 281,
+    "title": "Pricing American-style options by Monte Carlo simulation: alternatives to ordinary least squares",
+    "abstract": "We investigate the performance of the ordinary least squares (OLS) regression method in Monte Carlo simulation algorithms for pricing American options. We compare OLS regression against several alternatives and find that OLS regression underperforms methods that penalize the size of coefficient estimates when the number of simulation paths is small. Based on our findings, we recommend an alternative method based on a modification of the matching projection pursuit that we introduce in this paper.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "d18eb76ecb1972be5a575afa7104b729",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.120629"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用蒙特卡洛模拟方法对美式期权进行定价，并比较了不同的回归方法在定价中的表现。这直接属于衍生品定价领域的研究。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用蒙特卡洛模拟方法对美式期权进行定价，并比较了不同的回归方法在定价中的表现。这直接属于衍生品定价领域的研究。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:40.007936"
+}

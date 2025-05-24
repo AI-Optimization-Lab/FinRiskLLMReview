@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2012,
+    "title": "Neural network calibrated stochastic processes: forecasting financial assets",
+    "abstract": "If a given dynamical process contains an inherently unpredictable component, it may be modeled as a stochastic process. Typical examples from financial markets are the dynamics of prices (e.g. prices of stocks or commodities) or fundamental rates (exchange rates etc.). The unknown future value of the corresponding stochastic process is usually estimated as the expected value under a suitable measure, which may be determined from distribution of past (historical) values. The predictive power of this estimation is limited by the simplifying assumptions of common calibration methods. Here we propose a novel method of intelligent calibration, using learning (2-layer) neural networks in order to dynamically adapt the parameters of a stochastic model to the most recent time series of fixed length (memory depth) to the past. The process parameters are determined by the weights of the intermediate layer of the neural network. The final layer combines these parameters in a meaningful manner yielding the forecasting value for the stochastic process. On each actual finite memory, the neural network is trained by back-propagation, obtaining a much more flexible and realistic parameter calibration than an analogous fit to an autoregressive models could do. In the context of processes related to financial assets, the final combination of the output layer relates to their market-price-of-risk. The back propagation is limited to the typical memory length of the financial market (for example 10 previous business days). We demonstrate the learning efficiency of the new algorithm by tracking the next-day forecasts with one typical examples each, for the asset classes of currencies and stocks.",
+    "year": 2013,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5ae41c329abe2f6df48e576b6eb263af",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:48.470243"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用神经网络校准随机过程以预测金融资产价格，虽然涉及金融市场，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用神经网络校准随机过程以预测金融资产价格，虽然涉及金融市场，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:49.004076"
+}

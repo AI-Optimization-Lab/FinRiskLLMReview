@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3182,
+    "title": "An Algorithmic Assessment of Parole Decisions",
+    "abstract": "Objectives Parole is an important mechanism for alleviating the extraordinary social and financial costs of mass incarceration. Yet parole boards can also present a major obstacle, denying parole to low-risk inmates who could safely be released from prison. We evaluate a major parole institution, the New York State Parole Board, quantifying the costs of non-risk-based decision-making. Methods Using ensemble machine Learning, we predict any arrest and any violent felony arrest within three years to generate criminal risk predictions for individuals released on parole in New York from 2012-2015. We quantify the social welfare loss of the Board's non-risked-base decisions by rank ordering inmates by their predicted risk and estimating the crime rates that could have been achieved with counterfactual, risk-based release decisions. We also estimate the release rates that could have been achieved holding arrest rates constant. We attend to the selective labels problem in several ways, including by testing the validity of the algorithm for individuals who were denied parole but later released after the expiration of their sentence. Results We conservatively estimate that the Board could have more than doubled the release rate without increasing the total or violent felony arrest rate, and that they could have achieved these gains while simultaneously eliminating racial disparities in release rates. Conclusions This study demonstrates the utility of algorithms for evaluating criminal justice decision-making. Our analyses suggest that many individuals are being denied parole and incarcerated past their minimum sentence despite being a low risk to public safety.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9e6aa8bc16754f9fe003cebf416fc044",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "ensemble machine Learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:23:33.524925"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用机器学习评估假释决策及其社会影响，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用机器学习评估假释决策及其社会影响，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:04.476113"
+}

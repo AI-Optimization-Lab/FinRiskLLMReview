@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 2939,
+    "title": "Long-term financial predictions based on Feynman-Dirac path integrals, deep Bayesian networks and temporal generative adversarial networks",
+    "abstract": "This paper presents a new deep learning framework, QuantumPath, for long-term stock price prediction, which is of great significance in portfolio management and risk mitigation, especially when the market becomes volatile due to unpredictable circumstances such as a pandemic. Our approach is based on stochastic equations, the Feynman-Dirac path integral, deep Bayesian networks, and temporal generative adversarial neural networks (t-GAN). The expected financial trajectory is evaluated with a Feynman-Dirac path integral. The latter involves summing all possible financial trajectories that could have been taken by the financial instrument. These trajectories are generated with a t-GAN. A probability is attributed to each point of each path. The probability is a function of the Lagrangian, which is derived from a stochastic equation describing the temporal evolution of the stock. The drift and the volatility at each point, which are required in order to evaluate the Lagrangian, are predicted with a deep Bayesian neural network. Given that the evolution of a stock's price is isomorphic to a time series, our temporal GAN consists of long short-term memory (LSTM) neural networks, which introduce a memory mechanism, and temporal convolutional neural networks (TCN), which ensure causality. Stock prices are predicted over periods of twenty and thirty days for nine stocks, eight of which are included in the S&P 500 index. Our experimental results clearly demonstrate the efficiency of our approach.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3b2769b1a79f339fa199245c4fe2677f",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "convolutional neural network",
+      "CNN",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:20:48.229210"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是用于长期股票价格预测，这在投资组合管理中具有重要意义，因为准确的预测可以帮助优化资产配置。同时，论文也提到该方法对于风险缓解（risk mitigation）的重要性，这属于金融风险管理的范畴。论文并未提及衍生品定价相关的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是用于长期股票价格预测，这在投资组合管理中具有重要意义，因为准确的预测可以帮助优化资产配置。同时，论文也提到该方法对于风险缓解（risk mitigation）的重要性，这属于金融风险管理的范畴。论文并未提及衍生品定价相关的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:19.203410"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 29,
+    "title": "A Synergetic Approach to Ethereum Option Valuation Using XGBoost and Soft Reordering 1D Convolutional Neural Networks",
+    "abstract": "In an ever-evolving realm of cryptocurrencies, Ethereum has emerged as a prominent player, captivating both investors and enthusiasts alike. Within the diverse financial landscape of cryptocurrencies, options stand out as a versatile tool, offering flexibility and hedging opportunities. This paper introduces a cutting-edge approach to pricing Ethereum options, harnessing the formidable power of XGBoost and the visionary capabilities of Convolutional Neural Networks (CNN). This research proposes a novel method that utilizes XGBoost for implied volatility estimation by integrating historical volatility, and generalized auto-regressive conditional heteroscedasticity (GARCH) model-predicted volatility. Subsequently, a soft reordering 1-dimensional CNN (1D-CNN) model is employed to enhance the pricing accuracy of Ethereum options. The soft reordering mechanism is used to dynamically rearrange the initial tabular dataset, optimizing it for enhanced learning within the CNN framework. The outcome indicates the ability of the proposed model in estimating implied volatility and pricing options with remarkable accuracy, outperforming traditional option pricing models and data-driven models documented in literature. The proposed model also exhibits the lowest pricing error across all maturities and various moneyness criteria, with the exception of long term put and deep out of the money (DOTM) options.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "8b49a0e7773cc508acfa4c2bab28eb15",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:26.432961"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用XGBoost和1D-CNN模型来定价以太坊期权，这直接属于衍生品定价的范畴。论文明确提到其目标是提高期权定价的准确性，并比较了其模型与传统期权定价模型的性能。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用XGBoost和1D-CNN模型来定价以太坊期权，这直接属于衍生品定价的范畴。论文明确提到其目标是提高期权定价的准确性，并比较了其模型与传统期权定价模型的性能。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:36.289461"
+}

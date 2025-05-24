@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 75,
+    "title": "Deep Reinforcement Learning for Quantitative Portfolio Management",
+    "abstract": "Quantitative Portfolio Management (QPM) is a method of efficiently modeling financial data to improve portfolio returns. Modeling financial data in portfolio management tasks is challenging due to non-stationary price series and complex asset correlations, which make it difficult to learn effective feature representations. To address the above challenges, this paper proposes a QPM approach based on Deep Reinforcement Learning (DRL), and we design a Temporal Attention, Temporal Convolutional, and Graph-based Network (TTG), which includes temporal branch, correlation branch and decision-making module. Temporal branch uses temporal attention and Temporal Convolutional Network (TCN) to extract temporal features of asset price series. Correlation branch uses graph convolutional layer to extract correlations among multiple assets. Finally, we utilize softmax to determine the portfolio weights in decision-making module. Experiments on stock datasets demonstrate that the effectiveness of the proposed method in terms of profitability and representation abilities.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8c81ffcb9010f5d4167772e93e593cd5",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "feature representation",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:57.038550"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly focuses on Quantitative Portfolio Management (QPM) and proposes a Deep Reinforcement Learning approach to improve portfolio returns by modeling financial data and determining portfolio weights. The core technology and research objectives are directly aligned with the field of Portfolio Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly focuses on Quantitative Portfolio Management (QPM) and proposes a Deep Reinforcement Learning approach to improve portfolio returns by modeling financial data and determining portfolio weights. The core technology and research objectives are directly aligned with the field of Portfolio Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:53.598262"
+}

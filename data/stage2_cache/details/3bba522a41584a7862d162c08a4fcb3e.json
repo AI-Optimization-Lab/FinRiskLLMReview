@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1687,
+    "title": "Portfolio Risk and Return with a New Simple Moving Average of Price Change Ratio",
+    "abstract": "Cluster analysis is a commonly used technique by investors to create a diversified portfolio. The approach aims at maximizing returns for a tolerable degree of risks. To diversify effectively, investors use similarity measures to enable clustering. Traditional price indexes, such as Return on Asset and Return on Equity, are known to perform inconsistently in identifying acceptable clusters. Our study proposes a novel indicator, Simple Moving Average of Price Change Ratios (SMA-PCR-N), for use as a similarity measure. It is an adjusted version of the traditional Simple Moving Average (SMA) calculated based on stocks' closing price over a number of time periods, to observe price trend and potential changes. Instead, the SMA-PCR-N considers the daily opening prices, the closing prices and the average price of stocks. We demonstrate the use of k-means clustering with SMA-PCR-N to create a diversified stock portfolio. Data on approximately three hundred stocks were retrieved from the Stock Exchange of Thailand for the fiscal years 2015-2017, and were used experiments to evaluate the effectiveness of our SMA-PCR-N diversification approach. The results show that SMA-PCR-N based portfolios gave higher returns than portfolios created based on SMA clusters, in most cases.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "41453bb9bd06b7b637e11818f77677d1",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:18.430416"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一种新的简单移动平均价格变化比率（SMA-PCR-N）作为相似性度量，用于通过k-means聚类创建多样化的股票投资组合。研究目标是最大化回报并控制风险，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一种新的简单移动平均价格变化比率（SMA-PCR-N）作为相似性度量，用于通过k-means聚类创建多样化的股票投资组合。研究目标是最大化回报并控制风险，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:17.466128"
+}

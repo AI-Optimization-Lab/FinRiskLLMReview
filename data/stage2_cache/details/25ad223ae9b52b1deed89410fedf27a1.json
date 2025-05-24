@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 614,
+    "title": "Multi-quantile systemic financial risk based on a monotone composite quantile regression neural network",
+    "abstract": "This study proposes a novel perspective to calibrate the conditional value at risk (CoVaR) of countries based on the monotone composite quantile regression neural network (MCQRNN). MCQRNN can fix the quantile crossing problem, which is more robust in CoVaR estimating. In addition, we extend the MCQRNN method with quantile-on-quantile (QQ), which can avoid the bias in quantile regression. Building on the estimation results, we construct a systemic risk spillover network across countries in the Asia-Pacific region by considering the suffering and overflow effects. A comparison among MCQRNN, QRNN, and MCQRNN-QQ indicates the significance of monotone composite quantiles in modeling CoVaR. Additionally, the network analysis of composite risk spillovers illustrates the advantages of MCQRNN-QQ-CoVaR compared with QRNN-CoVaR. Moreover, the average composite systemic suffering index and the average composite systemic overflow index are introduced as country-specific measures that enable identifying systemically relevant countries during extreme events.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7c2edc4b087d8b3060ebc4dde106dec8",
+    "relevant_keywords": [
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.730806"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on estimating conditional value at risk (CoVaR) and analyzing systemic risk spillovers across countries, which are core topics in financial risk management. The proposed MCQRNN method is specifically designed to improve robustness in CoVaR estimation, and the study further constructs risk spillover networks and introduces systemic risk indices, all of which are directly related to financial risk assessment and management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on estimating conditional value at risk (CoVaR) and analyzing systemic risk spillovers across countries, which are core topics in financial risk management. The proposed MCQRNN method is specifically designed to improve robustness in CoVaR estimation, and the study further constructs risk spillover networks and introduces systemic risk indices, all of which are directly related to financial risk assessment and management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:19.083604"
+}

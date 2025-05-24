@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1025,
+    "title": "A Parallel Hybrid Intelligent Algorithm for Fuzzy Mean-CVaR Portfolio Model",
+    "abstract": "In recent years, fuzzy portfolio selection theory has been well developed and widely applied. Based on the credibility theory, several fuzzy portfolio selection models have been proposed. The fuzzy Mean-CVaR portfolio model is one of the state-of-the-art. However, its' fuzzy nature which increases the computational complexity makes it take a long time to solve. In order to solve the fuzzy Mean-CVaR portfolio model efficiently, a hybrid intelligent algorithm is designed by integrating Genetic Algorithm(GA) with adaptive penalty function, Simulated Annealing Resilient Back Propagation (SARPROP) neural network and fuzzy simulation techniques, and to accelerate the computation speed further, we parallelize the hybrid intelligent algorithm with MPI technology. In order to demonstrate its validity and efficiency, we achieve numerical experiments on the Era supercomputer, and the results are compared with the method which is obtained by integrating traditional GA and fuzzy simulation directly. The results show that hybrid intelligent algorithm can get better performance. Experiments under different processor cores also achieved on the Era supercomputer demonstrate the scalability of the parallel hybrid intelligent algorithm.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "242a63e5a6d66d4859f882cc6e039cf3",
+    "relevant_keywords": [
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.827727"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是设计一种混合智能算法来解决模糊Mean-CVaR投资组合模型，这直接应用于投资组合管理的领域。论文明确提到模糊投资组合选择理论和模糊Mean-CVaR投资组合模型，这些都是投资组合管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是设计一种混合智能算法来解决模糊Mean-CVaR投资组合模型，这直接应用于投资组合管理的领域。论文明确提到模糊投资组合选择理论和模糊Mean-CVaR投资组合模型，这些都是投资组合管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:17.997293"
+}

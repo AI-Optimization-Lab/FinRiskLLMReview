@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 2688,
+    "title": "Evaluation of Sentiment Analysis in Finance: From Lexicons to Transformers",
+    "abstract": "Financial and economic news is continuously monitored by financial market participants. According to the efficient market hypothesis, all past information is reflected in stock prices and new information is instantaneously absorbed in determining future stock prices. Hence, prompt extraction of positive or negative sentiments from news is very important for investment decision-making by traders, portfolio managers and investors. Sentiment analysis models can provide an efficient method for extracting actionable signals from the news. However, financial sentiment analysis is challenging due to domain-specific language and unavailability of large labeled datasets. General sentiment analysis models are ineffective when applied to specific domains such as finance. To overcome these challenges, we design an evaluation platform which we use to assess the effectiveness and performance of various sentiment analysis approaches, based on combinations of text representation methods and machine-learning classifiers. We perform more than one hundred experiments using publicly available datasets, labeled by financial experts. We start the evaluation with specific lexicons for sentiment analysis in finance and gradually build the study to include word and sentence encoders, up to the latest available NLP transformers. The results show improved efficiency of contextual embeddings in sentiment analysis compared to lexicons and fixed word and sentence encoders, even when large datasets are not available. Furthermore, distilled versions of NLP transformers produce comparable results to their larger teacher models, which makes them suitable for use in production environments.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6ff0c7fd2d38a38f4e7aab8117a7708b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "encoder-decoder",
+      "attention mechanism",
+      "Large Language Model",
+      "LLM",
+      "GPT-4"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.992714"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究情感分析在金融新闻中的应用，目的是为交易员、投资组合经理和投资者提供投资决策支持，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究情感分析在金融新闻中的应用，目的是为交易员、投资组合经理和投资者提供投资决策支持，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:00.338346"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2285,
+    "title": "Rapid seismic response prediction of RC frames based on deep learning and limited building information",
+    "abstract": "Building portfolio is the important urban engineering system, and the seismic resilience assessment of a city needs the quick and accurate prediction of the seismic responses of existed buildings. However, many existed buildings generally possess the problem that the design information materials are incomplete or completely lost. The major challenge in the seismic resilience assessment of building portfolio is how to predict the seismic responses of buildings quickly and accurately just using limited building information. This manuscript aims to develop a method for the seismic response prediction of the existed reinforced concrete (RC) frame buildings just using limited building information. A total of 162 typical RC frame buildings of low to medium rise are designed, and the inter-story drift (IDR) as well as peak floor acceleration (PFA) of each floor in each building are computed for 200 ground motions with nonlinear time history analysis (NLTHA) method. A convolutional neural network (CNN) is developed with ground motion records and five easy-getting building parameters as inputs. The outputs are IDR and PFA of each floor for the given building. Considering the physical means of an input parameter-number of stories, the modified loss function and modified evaluation function are proposed. The developed network is trained with the computed dataset and the modified loss function, and the trained model (referred to StruNet) can take the characteristics of ground motions and structures into consideration together comparing to previous studies. The proposed model is verified through four cases (i.e., 4 actual buildings with different construction time, occupancy types, and plane layouts), which are independent of the deep learning dataset. The results confirm that the proposed method offers prediction results with sufficient accuracy and shows high computational efficiency.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4f11f447c0a9d031f6acd913033a7743",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:04.532812"
+  },
+  "domain_result": {
+    "success": false,
+    "error": "Client error '429 Too Many Requests' for url 'https://api.deepseek.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "application_domains": [
+      "None"
+    ],
+    "justification": "API调用失败: Client error '429 Too Many Requests' for url 'https://api.deepseek.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "raw_response": null
+  },
+  "timestamp": "2025-05-20T16:15:55.857402"
+}

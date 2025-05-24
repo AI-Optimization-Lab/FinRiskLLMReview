@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 580,
+    "title": "Using Supervised Learning to Estimate Inequality in the Size and Persistence of Income Shocks",
+    "abstract": "Household responses to income shocks are important drivers of financial fragility, the evolution of wealth inequality, and the effectiveness of fiscal and monetary policy. Traditional approaches to measuring the size and persistence of income shocks are based on restrictive econometric models that impose strong homogeneity across households and over time. In this paper, we propose a more flexible, machine learning framework for estimating income shocks that allows for variation across all observable features and time horizons. First, we propose non-parametric estimands for shocks and shock persistence. We then show how to estimate these quantities by using off-the-shelf supervised learning tools to approximate the conditional expectation of future income given present information. We solve this income prediction problem in a large Icelandic administrative dataset, and then use the estimated shocks to document several features of labor income risk in Iceland that are not captured by standard economic income models.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "16c6f53eca12a0e478a81a452bc06384",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.421113"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习方法估计收入冲击的不平等性及其持续性，关注的是家庭收入动态和财富不平等问题，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习方法估计收入冲击的不平等性及其持续性，关注的是家庭收入动态和财富不平等问题，并未直接涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:41.132428"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 6420,
+    "title": "A Recommender System and Risk Mitigation Strategy for Supply Chain Management Using the Counterfactual Explanation Algorithm",
+    "abstract": "Supply chain management (SCM) and its disruptions and risks have been the focus of many researchers in recent times. It is important how to identify these disruptions and risks to avoid them, therefore many risk mitigation strategies have been developed. Artificial intelligence (AI) is a powerful tool to identify and predict the occurrence of risks, it is also important that the solutions to avoiding risks must be explainable for risk managers. Recently, making transparent and explainable AI models has been the focus of a large number of research studies and many posthoc algorithms such as counter-factual explanation (CE) algorithms have been developed. In this paper, first we propose an optimization problem to design a transportation schedule for the supply chain network (SCN), then to increase the resiliency and transparency of the designed schedule, the CE model is integrated into the model as a set of constraints. To design the CE, a logistic regression model is developed. The CE helps to plan the transportation schedule to avoid any transportation delay risk. The integrated CE and SCM model is used as a recommender system for risk managers to mitigate risk to the system. Finally, to validate the recommender system, a real case study is analyzed and the solutions of the model with and without the CE are compared and it is shown that the CE-added constraints increase the resiliency of the system significantly while the increase in financial cost is less than 1%. Therefore, the model is validated for use for different risks and disruptions.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9e30348034910ffd2dd531c363d8dfe1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:58:05.584573"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究供应链管理中的风险缓解策略和推荐系统，虽然涉及风险管理，但其应用场景是供应链而非金融领域。论文未提及衍生品定价、金融风险管理或投资组合管理等金融研究领域的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究供应链管理中的风险缓解策略和推荐系统，虽然涉及风险管理，但其应用场景是供应链而非金融领域。论文未提及衍生品定价、金融风险管理或投资组合管理等金融研究领域的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:54.006864"
+}

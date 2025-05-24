@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 676,
+    "title": "Multiperiod Corporate Default Prediction Through Neural Parametric Family Learning",
+    "abstract": "Default analysis plays an essential role in financial markets because it narrows the information gap between borrowers and lenders. Of late, machine learning-based methods have found their way to default analysis and typically view it as a risk classification task by slotting obligors into risk categories. The quality of such an approach is assessed by its prediction accuracy in risk rankings. Rarely considered but important are issues on the predicted numbers of default occurrences and the term structure of cumulative default probabilities for which classification tools are by nature silent. In this paper, we depart from the typical practice of risk classification and focus on employing machine learning to estimate the term structure of cumulative default probabilities|a structured estimation that contains default probabilities from short-term to long-term periods. To this end, we formulate the task as a problem of parametric family learning via a neural model consisting of two segments: parameter generation and parametric family determination. The proposed neural approach offers added flexibility in improving long-term default predictions. Moreover, the carefully designed model successfully maintains vital economic characteristics of its predictions. Experiments on a US corporate default dataset show that our approach achieves measurably better prediction performance in both risk classification and matching the predicted numbers of default occurrences with the actual ones.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "12c41403f04be86d76f2b91fd4457b9a",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.317740"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using machine learning to estimate the term structure of cumulative default probabilities, which is a key aspect of credit risk assessment in financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using machine learning to estimate the term structure of cumulative default probabilities, which is a key aspect of credit risk assessment in financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:52.157505"
+}

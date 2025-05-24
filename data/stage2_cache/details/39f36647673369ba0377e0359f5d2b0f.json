@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1651,
+    "title": "Investment factor timing: Harvesting the low-risk anomaly using artificial neural networks",
+    "abstract": "We perform investment factor timing based on risk forecasts exploiting the low-risk anomaly. Among various risk measures, we find downside deviation most suited for this task. We apply Long Short Term Memory Artificial Neural Networks (LSTM ANNs) to model the relationship between macro-economic as well as financial market data and the downside deviation of factors. The LSTM ANNs allow for complex, non-linear long-term dependencies. We use LSTM-based forecasts to select high-and low-risk factors in setting up an investment strategy. The strategy succeeds in differentiating positive from negative yielding factor investments, and an accordingly constructed investment strategy outperforms every factor individually as well as LASSO and Multilayer Perceptron neural network benchmark models.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f0fb23b54c08723a5242627bb1b7ddb3",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:42.616950"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM神经网络进行投资因子时机选择，并基于风险预测构建投资策略，这直接涉及投资组合的构建和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM神经网络进行投资因子时机选择，并基于风险预测构建投资策略，这直接涉及投资组合的构建和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:18.635807"
+}

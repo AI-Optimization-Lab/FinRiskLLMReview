@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 411,
+    "title": "Deep Reinforcement Learning based Multi-Objective Systems for Financial Trading",
+    "abstract": "Because of the risky nature of stock market, most people do not feel a secure option to invest their money in financial trading. Focusing on this basic concern of investors much research efforts are devoted to develop automated trading systems that make intelligent decisions according to the market situation and help investor to make profit beside risk. In contrast, in this paper we proposed multi-objective systems based on deep reinforcement learning for stock trading. Target of the multi-objective systems is to get maximum profit by adjusting risk. We design the whole structure of systems consisting two deep neural networks first is LSTM autoencoder for robust feature extraction and second deep reinforcement learning with LSTM recurrent neural network for decision making in order to achieve the investor's goal. We conduct an experiment on real historic data for verification of the systems and compare them with conventional trading systems.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7d4d18ffff6a2657f79735f508370969",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "long short-term memory",
+      "LSTM",
+      "autoencoder",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.175683"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于深度强化学习的多目标系统，旨在通过调整风险来获取最大利润，这直接关联到投资组合管理的核心目标，即通过资产配置和风险管理来实现投资目标。论文中提到的实验设计和目标明确指向了投资决策和风险管理，而非衍生品定价或更广泛的金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于深度强化学习的多目标系统，旨在通过调整风险来获取最大利润，这直接关联到投资组合管理的核心目标，即通过资产配置和风险管理来实现投资目标。论文中提到的实验设计和目标明确指向了投资决策和风险管理，而非衍生品定价或更广泛的金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:06.328689"
+}

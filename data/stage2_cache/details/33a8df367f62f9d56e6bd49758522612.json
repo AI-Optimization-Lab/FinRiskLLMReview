@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5115,
+    "title": "Bayesian Tail Risk Interdependence Using Quantile Regression",
+    "abstract": "Recent financial disasters emphasised the need to investigate the consequences associated with the tail co-movements among institutions; episodes of contagion are frequently observed and increase the probability of large losses affecting market participants' risk capital. Commonly used risk management tools fail to account for potential spillover effects among institutions because they only provide individual risk assessment. We contribute to the analysis of the interdependence effects of extreme events, providing an estimation tool for evaluating the co-movement Value-at-Risk. In particular, our approach relies on a Bayesian quantile regression framework. We propose a Markov chain Monte Carlo algorithm, exploiting the representation of the Asymmetric Laplace distribution as a location-scale mixture of Normals. Moreover, since risk measures are usually evaluated on time series data and returns typically change over time, we extend the model to account for the dynamics of the tail behaviour. We apply our model to a sample of U. S. companies belonging to different sectors of the Standard and Poor's Composite Index and we provide an evaluation of the marginal contribution to the overall risk of each individual institution.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "63de922a953353cfec9aa2d0af356e95",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:44:43.805146"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on analyzing tail risk interdependence and evaluating co-movement Value-at-Risk, which are core aspects of financial risk management. The proposed Bayesian quantile regression framework and the application to U.S. companies' risk assessment further confirm its primary application in financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on analyzing tail risk interdependence and evaluating co-movement Value-at-Risk, which are core aspects of financial risk management. The proposed Bayesian quantile regression framework and the application to U.S. companies' risk assessment further confirm its primary application in financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:09.069830"
+}

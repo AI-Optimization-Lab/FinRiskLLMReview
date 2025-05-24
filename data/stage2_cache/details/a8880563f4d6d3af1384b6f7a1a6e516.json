@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2157,
+    "title": "An Ensemble System Based on Hybrid EGARCH-ANN with Different Distributional Assumptions to Predict S&P 500 Intraday Volatility",
+    "abstract": "Accurate forecasting of stock market volatility is an important issue in portfolio risk management. In this paper, an ensemble system for stock market volatility is presented. It is composed of three different models that hybridize the exponential generalized autoregressive conditional heteroscedasticity (GARCH) process and the artificial neural network trained with the backpropagation algorithm (BPNN) to forecast stock market volatility under normal, t-Student, and generalized error distribution (GED) assumption separately. The goal is to design an ensemble system where each single hybrid model is capable to capture normality, excess skewness, or excess kurtosis in the data to achieve complementarity. The performance of each EGARCH-BPNN and the ensemble system is evaluated by the closeness of the volatility forecasts to realized volatility. Based on mean absolute error and mean of squared errors, the experimental results show that proposed ensemble model used to capture normality, skewness, and kurtosis in data is more accurate than the individual EGARCH-BPNN models in forecasting the S&P 500 intra-day volatility based on one and five-minute time horizons data.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ab8be2486f5f6911e461a3892aaffcaf",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:36.663271"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用混合EGARCH-ANN模型预测S&P 500的日内波动性，这直接应用于金融风险管理中的波动性预测。同时，论文提到波动性预测在投资组合风险管理中的重要性，表明其研究也与投资组合管理相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用混合EGARCH-ANN模型预测S&P 500的日内波动性，这直接应用于金融风险管理中的波动性预测。同时，论文提到波动性预测在投资组合风险管理中的重要性，表明其研究也与投资组合管理相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:47.358854"
+}

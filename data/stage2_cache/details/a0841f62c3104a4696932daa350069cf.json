@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 1471,
+    "title": "Harnessing a Hybrid CNN-LSTM Model for Portfolio Performance: A Case Study on Stock Selection and Optimization",
+    "abstract": "Portfolio theory underpins portfolio management, a much-researched yet uncharted field. This research suggests a collective framework combined with the essence of deep learning for stock selection through prediction and optimal portfolio formation through the mean-variance (MV) model. The CNN-LSTM model, proposed in Stage I blends the benefits of the convolutional neural network (CNN) and the long-short-term memory network (LSTM). The model combines feature extraction and sequential learning about temporal data fluctuations. The experiment considers thirteen input features, combining fundamental market data and technical indicators to capture the nuances of the wildly fluctuating stock market data. The input data sample of 21 stocks was collected from the National Stock Exchange (NSE) of India from January 2005 to December 2021, spanning two significant market crashes. Thus, the sample makes it possible to catch subtle market shifts for model execution. The shortlisted stocks with high potential returns are advanced to Stage II for optimal stock allocation using the MV model. The proposed hybrid CNN-LSTM outperformed the single models, i.e., CNN and LSTM, per the six-performance metrics and advocated by the 10-fold cross-validation technique. Furthermore, the statistical significance of the model is established using non-parametric tests followed by post hoc analysis. In addition, this method is validated by comparing the proposed model to four baseline strategies and relevant pieces of research, which it considerably outperforms in terms of cumulative return per year, Sharpe ratio, and average return to risk with and without transaction cost. These findings highlight the effectiveness of the hybrid CNN-LSTM approach in stock selection and portfolio optimization.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c4b4b2797f74939d4ecbe0851901810e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "feature learning",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:08.337188"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on using a hybrid CNN-LSTM model for stock selection and optimal portfolio formation through the mean-variance model, which are core aspects of portfolio management. The study's primary goal is to enhance portfolio performance, a key objective in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on using a hybrid CNN-LSTM model for stock selection and optimal portfolio formation through the mean-variance model, which are core aspects of portfolio management. The study's primary goal is to enhance portfolio performance, a key objective in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:43.348210"
+}

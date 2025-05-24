@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 91,
+    "title": "PCA-ARMA-EGARCH气温预测模型及实证分析",
+    "abstract": "气温预测一直是气温衍生品精确定价的难点及关键点.为有效捕捉气温变化的缓慢衰减过程及其波动率的非对称动态特征，本文在ARMA-EGARCH模型的基础上构建一个PCA-ARMA-EGARCH气温预测模型.该模型融入众多与每日平均气温有联动作用的其他气象因子信息，能进一步提高模型拟合及预测精度.我们以中国杭州市为例进行实证分析，比较气温残差服从不同分布(正态分布、t分布与GED分布)时对预测模型精度的影响.结果表明PCA-ARMA-EGARCH模型与已有模型相比有更好的拟合及预测效果.杭州市每日平均气温缓慢衰减特征明显，气温波动率具有非对称性，即高温热浪对气温冲击的影响程度远大于强冷空气.气温残差服从GED分布，具有尖峰、厚尾特征，已有研究中正态分布假设可能低估风险的发生.论文结果可为杭州市高温风险管理提供依据.",
+    "year": 2019,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "7000a3156b8b733b09f190b7f9a2f9c0",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:18.948008"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "论文明确指出气温预测是气温衍生品精确定价的难点及关键点，并且提到研究结果可为杭州市高温风险管理提供依据。因此，该论文的核心技术主要应用于衍生品定价和金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"论文明确指出气温预测是气温衍生品精确定价的难点及关键点，并且提到研究结果可为杭州市高温风险管理提供依据。因此，该论文的核心技术主要应用于衍生品定价和金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:38.336065"
+}

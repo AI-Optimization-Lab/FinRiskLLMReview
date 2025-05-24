@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 717,
+    "title": "Constrained Portfolio Management Using Action Space Decomposition for Reinforcement Learning",
+    "abstract": "Financial portfolio managers typically face multi-period optimization tasks such as short-selling or investing at least a particular portion of the portfolio in a specific industry sector. A common approach to tackle these problems is to use constrained Markov decision process (CMDP) methods, which may suffer from sample inefficiency, hyperparameter tuning, and lack of guarantees for constraint violations. In this paper, we propose Action Space Decomposition Based Optimization (ADBO) for optimizing a more straightforward surrogate task that allows actions to be mapped back to the original task. We examine our method on two real-world data portfolio construction tasks. The results show that our new approach consistently outperforms state-of-the-art benchmark approaches for general CMDPs.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6ea2c957063fbddf185a6c03131414ae",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.567621"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on optimizing multi-period portfolio construction tasks using reinforcement learning, which is a core aspect of portfolio management. The study specifically addresses constraints like short-selling and sector allocation, which are directly related to portfolio management strategies.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on optimizing multi-period portfolio construction tasks using reinforcement learning, which is a core aspect of portfolio management. The study specifically addresses constraints like short-selling and sector allocation, which are directly related to portfolio management strategies.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:24.480747"
+}

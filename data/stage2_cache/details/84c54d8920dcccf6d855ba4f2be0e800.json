@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 398,
+    "title": "Neural network approach to portfolio optimization with leverage constraints: a case study on high inflation investment",
+    "abstract": "Motivated by the current global high inflation scenario, we aim to discover a dynamic multi-period allocation strategy to optimally outperform a passive benchmark while adhering to a bounded leverage limit. We formulate an optimal control problem to outperform a benchmark portfolio throughout the investment horizon. To obtain strategies under the bounded leverage constraint among other realistic constraints, we propose a novel leverage-feasible neural network (LFNN) to represent the control, which converts the original constrained optimization problem into an unconstrained optimization problem that is computationally feasible with gradient descent, without dynamic programming. We establish mathematically that the LFNN approximation can yield a solution that is arbitrarily close to the solution of the original optimal control problem with bounded leverage. We further validate the performance of the LFNN empirically by deriving a closed-form solution under jump-diffusion asset price models and show that a shallow LFNN model achieves comparable results on synthetic data. In the case study, we apply the LFNN approach to a four-asset investment scenario with bootstrap-resampled asset returns from the filtered high inflation regimes. The LFNN strategy is shown to consistently outperform the passive benchmark strategy by about 200 bps (median annualized return), with a greater than 90% probability of outperforming the benchmark at the end of the investment horizon.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "74f750abb115d3fcca441dd59a43cc85",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.483760"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing a dynamic multi-period allocation strategy for portfolio optimization under leverage constraints, specifically aiming to outperform a passive benchmark. The proposed leverage-feasible neural network (LFNN) is designed to address the challenges of portfolio management in high inflation scenarios, which is a core aspect of investment portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing a dynamic multi-period allocation strategy for portfolio optimization under leverage constraints, specifically aiming to outperform a passive benchmark. The proposed leverage-feasible neural network (LFNN) is designed to address the challenges of portfolio management in high inflation scenarios, which is a core aspect of investment portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:12.101757"
+}

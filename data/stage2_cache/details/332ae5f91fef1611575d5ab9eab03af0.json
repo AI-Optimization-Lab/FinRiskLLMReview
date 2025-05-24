@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 34,
+    "title": "MA-FDRNN: Multi-Asset Fuzzy Deep Recurrent Neural Network Reinforcement Learning for Portfolio Management",
+    "abstract": "Reinforcement learning (RL) in the context of portfolio optimisation (PO) aims to generate profits beyond the abilities of human traders. However, there is no definitive framework sufficiently able to generate consistent profits in line with expectations on real-world stock exchanges. Previous research has demonstrated the ability of Deep Deterministic Policy Gradient (DDPG), Proximal Policy Optimisation (PPO), Ensemble of Identical Independent Evaluators (EIIE) and Fuzzy Deep Recurrent Neural Network (FDRNN) methodologies to generate positive results within controlled testing environments. This paper consolidates recent progress by evaluating these RL methodologies applied to five different stock exchanges. The selected methodologies are tested on real-world data within a simulated trading framework to assess their performance under different market conditions. To this end, we extend the FDRNN method to allow it to interact with a multi-asset market. As a result, in contrast to previous methods, our new Multi-Asset FDRNN (MA-FDRNN) can take short positions, which we hypothesised would give it an advantage over DDPG, PPO and EIIE. To assess the performance of the RL methods, we compare their results to a selection of benchmark PO algorithms. The results show the superiority of the MA-FDRNN method within the sideways and bear market, where it can exploit short positions and earn higher returns at lower risk than the other methods. In the bull markets, the benchmark algorithms outperform the RL agents, and in the crashed market, the RL methods and benchmark algorithms demonstrate similar performance. The results indicate that while RL methods do show some promise in achieving the goals of portfolio management, further research is needed to create an RL framework capable of succeeding in real-world market conditions.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ac52f565e5d2cac6bd5fb79abf3f1377",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:16.307197"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是强化学习在投资组合优化中的应用，旨在通过多资产模糊深度循环神经网络（MA-FDRNN）来管理投资组合，并在不同的市场条件下评估其性能。论文明确提到了投资组合管理（Portfolio Management）作为研究目标，并比较了多种强化学习方法在模拟交易框架中的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是强化学习在投资组合优化中的应用，旨在通过多资产模糊深度循环神经网络（MA-FDRNN）来管理投资组合，并在不同的市场条件下评估其性能。论文明确提到了投资组合管理（Portfolio Management）作为研究目标，并比较了多种强化学习方法在模拟交易框架中的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:21.607074"
+}

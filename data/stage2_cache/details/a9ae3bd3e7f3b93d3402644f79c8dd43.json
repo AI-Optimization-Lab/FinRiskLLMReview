@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3352,
+    "title": "Surrogate probabilistic seismic demand modelling of inelastic single-degree-of-freedom systems for efficient earthquake risk applications",
+    "abstract": "This paper proposes surrogate models (or metamodels) mapping the parameters controlling the dynamic behaviour of inelastic single-degree-of-freedom (SDoF) systems (i.e., force-displacement capacity curve, hysteretic behaviour) and the parameters of their probabilistic seismic demand model (PSDM, i.e., conditional distribution of an engineering demand parameter [EDP] given a ground-motion intensity measure [IM]). These metamodels allow the rapid derivation of fragility curves of SDoF representation of structures. Gaussian Process (GP) regression is selected as the metamodelling approach because of their flexibility in implementation, the resulting accuracy and computational efficiency. The metamodel training dataset includes 10,000 SDoF systems analysed via cloud-based non-linear time-history analysis (NLTHA) using recorded ground motions. The proposed GP regressions are tested in predicting the PSDM of both the SDoF database (through ten-fold cross validation) and eight realistic reinforced concrete (RC) frames, benchmarking the results against NLTHA. An application is conducted to propagate such modelling uncertainty to both fragility and vulnerability/loss estimations. Error levels are deemed satisfactory for practical applications, especially considering the low required modelling effort and analysis time. Regarding single-building applications enabled by the proposed metamodel, this paper presents a first attempt at a direct loss-based design procedure, which allows setting a target loss level for the designed structure (shown for a realistic RC frame). An earthquake risk model involving dynamic exposure and vulnerability modules is illustrated as an example of building portfolio applications. Specifically, the proposed application considers a retrofit-based seismic risk-reduction policy for a synthetic building portfolio, for which it is possible estimating the loss evolution over time.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cdff7007c7c2cf8ebbf51e2570450cb5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:22.101232"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究地震风险评估中的替代模型（如高斯过程回归）及其在结构工程中的应用，如快速推导脆弱性曲线和损失估计。虽然涉及风险建模，但其应用领域是地震工程和结构安全，而非金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究地震风险评估中的替代模型（如高斯过程回归）及其在结构工程中的应用，如快速推导脆弱性曲线和损失估计。虽然涉及风险建模，但其应用领域是地震工程和结构安全，而非金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:09.644358"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2443,
+    "title": "Developing a smart stock trading system equipped with a novel risk control mechanism for investors with different risk appetites",
+    "abstract": "Due to the increasing complexity of financial markets and the importance of prompt decision-making in these markets, the use of smart trading systems by investors and capital market participants has become vital. With regard to the turbulent and risky nature of financial markets, comprehensive smart systems should be able to manage the risks. In addition, since investors have different levels of risk-taking, it is essential to consider their risk appetite in the risk management system. In this regard, the present study proposes a framework for smart stock trading that uses a new approach to risk management. The proposed system selects blue-chip stocks through a fundamental analysis. Then, trading signals are predicted with technical indicators and a deep neural network model for the selected stocks. By equally weighting the shares, a portfolio is formed, and a new index called risk control index is used to manage the portfolio risk. After the calculation of that risk, the index systematically tries to maintain the risk to a certain extent by using leveraged trading and depositing cash. Using this approach, the amount of investment in stocks is revised on a daily basis, and, for investors with different risk appetites, different approaches to risk management are offered. The performance of the proposed system is evaluated based on the data obtained from Tehran Stock Exchange. The results show that the proposed system can produce different portfolios for investors with different risk appetites. As the investors' risk appetite is increased in the proposed portfolios, the average annual return is increased too. The portfolios have proved to outperform the market in terms of such metrics as maximum drawdown as well as Sharpe and Sortino ratios.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0820811ce9d3f63dc7d0af8835db2ffc",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "deep neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:27.057228"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一个智能股票交易系统，该系统通过深度神经网络模型预测交易信号，并使用风险控制指数来管理投资组合风险。此外，系统还根据不同投资者的风险偏好提供不同的风险管理方法。这些内容明确涉及金融风险管理和投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一个智能股票交易系统，该系统通过深度神经网络模型预测交易信号，并使用风险控制指数来管理投资组合风险。此外，系统还根据不同投资者的风险偏好提供不同的风险管理方法。这些内容明确涉及金融风险管理和投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:27.785625"
+}

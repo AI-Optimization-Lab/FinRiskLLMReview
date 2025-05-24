@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "support vector machine",
+    "SVM",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "论文使用了随机森林、极端梯度提升和支持向量回归三种机器学习方法来预测股票收益率。",
+    "supervised learning": "论文中使用的机器学习方法（随机森林、XGBoost、SVR）都是监督学习方法，因为它们需要标记数据（股票收益率）进行训练。",
+    "regression": "论文使用支持向量回归（SVR）进行股票收益率的预测，这是一个回归问题。",
+    "support vector machine": "论文中使用了支持向量回归（SVR），这是支持向量机（SVM）的一种变体。",
+    "SVM": "支持向量回归（SVR）是支持向量机（SVM）的一种应用形式。",
+    "decision tree": "随机森林（RF）和极端梯度提升（XGBoost）都是基于决策树的集成学习方法。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"regression\",\n    \"support vector machine\",\n    \"SVM\",\n    \"decision tree\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"论文使用了随机森林、极端梯度提升和支持向量回归三种机器学习方法来预测股票收益率。\",\n    \"supervised learning\": \"论文中使用的机器学习方法（随机森林、XGBoost、SVR）都是监督学习方法，因为它们需要标记数据（股票收益率）进行训练。\",\n    \"regression\": \"论文使用支持向量回归（SVR）进行股票收益率的预测，这是一个回归问题。\",\n    \"support vector machine\": \"论文中使用了支持向量回归（SVR），这是支持向量机（SVM）的一种变体。\",\n    \"SVM\": \"支持向量回归（SVR）是支持向量机（SVM）的一种应用形式。\",\n    \"decision tree\": \"随机森林（RF）和极端梯度提升（XGBoost）都是基于决策树的集成学习方法。\"\n  }\n}\n```"
+}

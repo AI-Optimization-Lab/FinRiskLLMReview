@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 83,
+    "title": "机器学习在投资组合中的应用研究",
+    "abstract": "随着我国股票市场的快速发展，对投资组合进行优化的重要性逐步凸显。选择优良的股票是个人投资者获取盈利的首要且关键的一步。运用6种机器学习算法预测沪深300指数成分股的上涨概率，依次选取上涨概率最高的前k只股票。运用蒙特卡罗模拟方法对选取的前k只股票构建最优资产配比，以夏普比率为评价指标。最后构建RSI交易策略对这k只股票进行回测，观察其收益是否优于买入并持有沪深300指数。研究结论：1.AdaBoost模型对股票价格走势预测具有比较理想的预测结果，预测的准确率和F1-Value均高达70%以上；2.构建的投资组合夏普比率为0.6165，说明该投资组合每承受1单位风险能带来0.6165单位的超额收益，较为优良；3.机器学习算法选出的k只股票回测结果均较优，胜率都超过65%，最大回撤大多低于20%，说明机器学习算法在选股上具有一定优势。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cef8c174f6174bec582629451bc73ff6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:22.411404"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是运用机器学习算法预测股票上涨概率，并构建最优资产配比的投资组合，以夏普比率为评价指标，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是运用机器学习算法预测股票上涨概率，并构建最优资产配比的投资组合，以夏普比率为评价指标，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:53.474915"
+}

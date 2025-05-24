@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 5477,
+    "title": "An entity-weights-based convolutional neural network for large-sale complex knowledge embedding",
+    "abstract": "Knowledge graph (KG) has increasingly been seen as a significant resource in financial applications (e.g., risk control, auditing and anti-fraud). However, there are few prior studies that focus on multi-relational circles, extracting additional information under the completed KG and selecting similarity measures for knowledge representation. In this paper, we introduce multi-relational circles and propose a novel embedding model, which considers entity weights calculated by PageRank algorithm to improve TransE method. In order to extract additional information, we use entity weights to convert embeddings into an on-map mining problem, and propose a model called CNNe based on entity weights and a convolutional neural network with three hidden layers, which converts vectors of entities, entity weights and relationships into matrices to perform link prediction in the same way as image processing. With the help of ten different similarity measures, it is demonstrated that the choice of distance measure greatly effect the results of the translation embedding models. Moreover, we propose two embedding methods, sMFE and tMFE, to enhance the results using matrix factorization. The complete incidence matrix is first applied to knowledge embedding, which contains the most comprehensive topological properties of the graph. Experimental results on standard benchmark datasets demonstrate that the proposed models are effective. In particular, CNNe achieves a mean rank of 166 less than the baseline method and an improvement of 2.1% on the proportion of correct entities ranked in the top ten on YAGO3-10 dataset. (C) 2022 Elsevier Ltd. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2fc669fc6631f530504fb7f251c00ef3",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:48:23.622436"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提到知识图谱在金融应用中的重要性，特别是在风险控制、审计和反欺诈方面。虽然论文的主要技术是知识图谱嵌入和卷积神经网络，但其应用场景明确指向金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提到知识图谱在金融应用中的重要性，特别是在风险控制、审计和反欺诈方面。虽然论文的主要技术是知识图谱嵌入和卷积神经网络，但其应用场景明确指向金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:04.040118"
+}

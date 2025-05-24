@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1097,
+    "title": "On the Black-Box Challenge for Fraud Detection Using Machine Learning (I): Linear Models and Informative Feature Selection",
+    "abstract": "Artificial intelligence (AI) is rapidly shaping the global financial market and its services due to the great competence that it has shown for analysis and modeling in many disciplines. What is especially remarkable is the potential that these techniques could offer to the challenging reality of credit fraud detection (CFD); but it is not easy, even for financial institutions, to keep in strict compliance with non-discriminatory and data protection regulations while extracting all the potential that these powerful new tools can provide to them. This reality effectively restricts nearly all possible AI applications to simple and easy to trace neural networks, preventing more advanced and modern techniques from being applied. The aim of this work was to create a reliable, unbiased, and interpretable methodology to automatically evaluate CFD risk. Therefore, we propose a novel methodology to address the mentioned complexity when applying machine learning (ML) to the CFD problem that uses state-of-the-art algorithms capable of quantifying the information of the variables and their relationships. This approach offers a new form of interpretability to cope with this multifaceted situation. Applied first is a recent published feature selection technique, the informative variable identifier (IVI), which is capable of distinguishing among informative, redundant, and noisy variables. Second, a set of innovative recurrent filters defined in this work are applied, which aim to minimize the training-data bias, namely, the recurrent feature filter (RFF) and the maximally-informative feature filter (MIFF). Finally, the output is classified by using compelling ML techniques, such as gradient boosting, support vector machine, linear discriminant analysis, and linear regression. These defined models were applied both to a synthetic database, for better descriptive modeling and fine tuning, and then to a real database. Our results confirm that our proposal yields valuable interpretability by identifying the informative features' weights that link original variables with final objectives. Informative features were living beyond one's means, lack or absence of a transaction trail, and unexpected overdrafts, which are consistent with other published works. Furthermore, we obtained 76% accuracy in CFD, which represents an improvement of more than 4% in the real databases compared to other published works. We conclude that with the use of the presented methodology, we do not only reduce dimensionality, but also improve the accuracy, and trace relationships among input and output features, bringing transparency to the ML reasoning process. The results obtained here were used as a starting point for the companion paper which reports on our extending the interpretability to nonlinear ML architectures.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5a233139ec9d2dde317e594c48b4e7fd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.463588"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是信用欺诈检测（CFD）中的机器学习应用，虽然涉及金融领域，但并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是信用欺诈检测（CFD）中的机器学习应用，虽然涉及金融领域，但并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:01.334562"
+}

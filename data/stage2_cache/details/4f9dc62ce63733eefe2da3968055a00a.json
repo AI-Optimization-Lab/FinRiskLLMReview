@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 163,
+    "title": "M估计在单指数投资组合模型中的应用",
+    "abstract": "股票收益率中离群值的存在导致股票收益率并不完全服从正态分布,传统的单指数模型使用的最小二乘法(OLS)对回归参数的估计误差十分敏感,且不稳定的权重随时间推移大幅波动。鲁棒估计(M-Huber估计和MTukey估计)具有一定的稳健性,将其引入单指数模型中,构建鲁棒估计单指数投资组合模型,以便减小离群值对回归结果的影响,提高权重的稳定性,增加模型的可操作性和实用性。实证结果表明:相对于最小二乘法(OLS)的单指数模型,改进的鲁棒估计单指数投资组合模型对股票收益率偏离正态分布的程度不太敏感,具有更好的稳健性。",
+    "year": 2021,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c02da37d184a13bcc2fd1a2bfa3d2b13",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:50.481544"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用鲁棒估计方法改进单指数投资组合模型，以提高权重的稳定性和模型的稳健性，这直接应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用鲁棒估计方法改进单指数投资组合模型，以提高权重的稳定性和模型的稳健性，这直接应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:41.896930"
+}

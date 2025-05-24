@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 4726,
+    "title": "Enhancing Auto Insurance Fraud Detection Using Convolutional Neural Networks",
+    "abstract": "With the increasing number of vehicles in the global fleet, the size of the auto insurance market is projected to reach $ 1.3 billion USD by 2030. While this growth in the issuance of auto insurance policies brings prosperity to the industry, it also amplifies the risk of fraudulent activities. These fraudulent practices have a significant impact on the industry, resulting in the loss of billions of USD annually. Despite efforts to prevent such activities, the expertise available is often overwhelmed by the sheer volume of cases. In this paper, we propose an auto insurance fraud detection system that leverages a one-dimensional Convolution Neural Network (1D-CNN) model in combination with two data augmentation techniques, Synthetic Minority Over-sampling Technique (SMOTE) and Conditional Tabular Generative Adversarial Networks (CTGAN), to address the class imbalance problem prevalent in fraud detection datasets. Furthermore, we also employ Focal Loss as the loss function in our deep learning model to effectively tackle the difficulty in classifying the minority class. By combining the 1D-CNN model with these imbalance manipulation techniques and the Focal Loss function, we aim to enhance the system's ability to accurately identify fraudulent activities, even in the presence of highly imbalanced data. Our proposed approach seeks to mitigate the financial losses incurred by the auto insurance industry due to fraud and provide a more robust and efficient fraud detection system.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "69336feb644bd3ea297e4c629b366054",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:40:27.908093"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用卷积神经网络和数据增强技术来检测汽车保险欺诈，虽然涉及金融行业，但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用卷积神经网络和数据增强技术来检测汽车保险欺诈，虽然涉及金融行业，但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:58.374801"
+}

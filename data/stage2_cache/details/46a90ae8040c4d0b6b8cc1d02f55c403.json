@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 594,
+    "title": "Hyperbolic Online Time Stream Modeling",
+    "abstract": "The rapidly rising ubiquity and dissemination of online information such as social media text and news improve user accessibility towards financial markets, however, modeling these vast streams of irregular, temporal data poses a challenge. Such temporal streams of information show power-law dynamics, scale-free characteristics, and time irregularities that sequential models are unable to accurately model. In this work, we propose the first Hierarchical Time-Aware Hyperbolic LSTM (HTLSTM), which leverages the Riemannian manifold for encoding the scale-free nature of a sequence of text in a time-aware fashion. Through experiments on three financial tasks: stock trading, equity price movement prediction, and financial risk prediction, we demonstrate HTLSTM's applicability for modeling temporal sequences of online information. On real-world data from four global stock markets and three stock indices spanning data in English and Chinese, we make a step towards time-aware text modeling via hyperbolic geometry.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "0e4669afd684ba778bbe92f8ab31dfa4",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:40:14.290441"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术（HTLSTM）被应用于金融风险预测任务，这直接属于金融风险管理的范畴。虽然论文也提到了股票交易和股价预测，但这些并未明确归类为衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术（HTLSTM）被应用于金融风险预测任务，这直接属于金融风险管理的范畴。虽然论文也提到了股票交易和股价预测，但这些并未明确归类为衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:47.921858"
+}

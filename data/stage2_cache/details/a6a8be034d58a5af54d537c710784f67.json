@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3555,
+    "title": "Evolving possibilistic fuzzy modeling for equity options pricing",
+    "abstract": "The correct pricing of financial derivatives plays a key role in risk management and in hedge operations. Besides the Black and Scholes closed-form formula simplicity and good results for pricing European options, several of the assumptions used in the method may be unrealistic and influence the results significantly. In order to overcome this limitation, this paper suggests an evolving possibilistic fuzzy modeling (ePFM) approach for European equity options pricing. The approach is based on an extension of the possibilistic fuzzy c-means clustering and functional fuzzy rule-based modeling. ePFM employs memberships and typicalities to recursively cluster data, and uses participatory learning to adapt the model structure as a stream data is input. The model does not require any assumptions about data distribution, it is an effective robust method to handle noisy data and outliers in option price dynamics modeling, and it is also capable to access volatility clustering due to its clustering based nature. Computational experiments consider the pricing of European equity options (calls and puts) on preference shares of Petrobras (PETR4), one of the most liquidity options traded in the Brazilian derivatives market. The results show that ePFM is a potential candidate for equity options pricing, with comparable or better performance than the Black and Scholes method and alternative evolving fuzzy approaches.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3fb9d981a6e8696ac1b6373914e8d601",
+    "relevant_keywords": [
+      "clustering",
+      "unsupervised learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:19.132288"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出了一种基于模糊建模的方法（ePFM）用于欧洲股票期权的定价，并明确提到该方法用于克服Black和Scholes模型在定价中的局限性。论文的实验部分专注于欧洲股票期权的定价，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出了一种基于模糊建模的方法（ePFM）用于欧洲股票期权的定价，并明确提到该方法用于克服Black和Scholes模型在定价中的局限性。论文的实验部分专注于欧洲股票期权的定价，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:00.308202"
+}

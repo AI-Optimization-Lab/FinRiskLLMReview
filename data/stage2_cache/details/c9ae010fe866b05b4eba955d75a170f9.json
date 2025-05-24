@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1184,
+    "title": "Cost of Explainability in AI: An Example with Credit Scoring Models",
+    "abstract": "This paper examines the cost of explainability in machine learning models for credit scoring. The analysis is conducted under the constraint of meeting the regulatory requirements of the European Central Bank (ECB), using a real-life dataset of over 50,000 credit exposures. We compare the statistical and financial performances of black-box models, such as XGBoost and neural networks, with inherently explainable models like logistic regression and GAMs. Notably, statistical performance does not necessarily correlate with financial performance. Our results reveal a difference of 15 to 20 basis points in annual return on investment between the best performing black-box model and the best performing inherently explainable model, as cost of explainability. We also find that the cost of explainability increases together with the risk appetite. To enhance the interpretability of explainable models, we apply isotonic smoothing of features' shape functions based on expert judgment. Our findings suggest that incorporating expert judgment in the form of isotonic smoothing improves the explainability without compromising the performance. These results have significant implications for the use of explainable models in credit risk assessment and for regulatory compliance.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "44b9db52e19b2a90b94e11aac290cf1d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.291589"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on the application of machine learning models for credit scoring, which is a critical component of credit risk assessment in financial risk management. The study evaluates the trade-off between model explainability and financial performance under regulatory constraints, directly addressing risk management concerns in lending and credit operations.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on the application of machine learning models for credit scoring, which is a critical component of credit risk assessment in financial risk management. The study evaluates the trade-off between model explainability and financial performance under regulatory constraints, directly addressing risk management concerns in lending and credit operations.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:37.276613"
+}

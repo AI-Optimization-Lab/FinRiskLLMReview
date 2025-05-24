@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 195,
+    "title": "基于ANN-EGARCH模型的沪深300指数波动趋势预测",
+    "abstract": "风险控制是股指期货操作的首要目标,对指数波动的准确预测直接关系到金融资产的风险控制及衍生产品的合理定价。在对指数波动趋势预测中,EGARCH模型具有精确度高的特点,但是通常的EGARCH模型没有考虑到均值方程中的非线性成分,人工神经网络能逼近任意非线性函数并被引入到均值方程。文章运用混合的ANN-EGARCH模型对沪深300指数进行实证分析,结果证明该模型可以更好的预测指数的短期波动趋势,对于机构投资者提高管理效率,防范投资风险具有现实的指导意义。",
+    "year": 2013,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "5b392d009c197c265e91df52ab37a66a",
+    "relevant_keywords": [
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:25:03.394804"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用ANN-EGARCH模型预测沪深300指数的波动趋势，主要目的是为了风险控制和防范投资风险，这直接属于金融风险管理的范畴。虽然提到了衍生产品的合理定价，但论文的主要研究方向和实证分析集中在波动预测和风险控制上。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用ANN-EGARCH模型预测沪深300指数的波动趋势，主要目的是为了风险控制和防范投资风险，这直接属于金融风险管理的范畴。虽然提到了衍生产品的合理定价，但论文的主要研究方向和实证分析集中在波动预测和风险控制上。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:32.313424"
+}

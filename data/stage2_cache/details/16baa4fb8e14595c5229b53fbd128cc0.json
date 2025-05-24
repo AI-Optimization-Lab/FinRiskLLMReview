@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 7259,
+    "title": "Time-varying quantile association regression model with applications to financial contagion and VaR",
+    "abstract": "This paper develops a quantile association regression model, which is able to capture the dynamic quantile dependence in the tails of conditional distributions. The association measure, the quantile-specific odds ratio (qor), captures the tendency of two random variables being simultaneously below specific quantiles. It is independent of marginal distributions and invariant to monotonic transformation, and enjoys methodological advantages over popular alternatives such as the copula. The ability of the qor measure to capture and forecast a range of different dependence structures is first shown via simulations. In the financial application, we implement the model and compute the qor on a daily basis to assess contagion for 10 stock markets during two recent crises. Our empirical results show that contagion exists during the US banking crisis between the US and all tested markets and between Greece and the tested European markets during the Euro crisis. Hence the model is able to capture the changes in quantile dependence between stock markets and offer a vivid description of market events. In addition, the model provides an accurate valuation of daily value-at-risk (VaR). (C) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "bb656722b22b439f2859b6bf5cd1e026",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T03:06:35.451650"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a quantile association regression model to assess financial contagion and compute daily value-at-risk (VaR), which are key aspects of financial risk management. The model's ability to capture dynamic quantile dependence and provide accurate VaR valuations directly addresses risk assessment and management in financial markets.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a quantile association regression model to assess financial contagion and compute daily value-at-risk (VaR), which are key aspects of financial risk management. The model's ability to capture dynamic quantile dependence and provide accurate VaR valuations directly addresses risk assessment and management in financial markets.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:39.023501"
+}

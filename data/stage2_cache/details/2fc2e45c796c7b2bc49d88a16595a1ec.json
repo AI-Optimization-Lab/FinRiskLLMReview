@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 693,
+    "title": "A Policy Gradient Based Particle Swarm Optimizer for Portfolio Optimization Problem",
+    "abstract": "Due to complexity and uncertainty of financial market, how to reasonably distribute wealth amongst different assets to maximize return or minimize risk has long been a challenging research topic, which is usually called the portfolio optimization problem (POP). To deal with such difficulties, this paper proposes a policy gradient based particle swarm optimizer (PG-PSO). By combining PSO with policy gradient algorithms in reinforcement learning, the proposed method provides a novel PSO parameters adjustment mechanism which improved the optimization accuracy while at the same time reducing the workloads of manually configuring parameters. A policy neural network as an agent is constructed and interacts with the particle swarm to realize the adaptive update of PSO parameters. According to the test results of several typical benchmark functions, it can be seen that PG-PSO has better performance compared with other algorithms mentioned in this paper. The experimental results of POP show that PG-PSO can also improve Sharpe ratio value of the entire portfolio more effectively.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "062e6481bd38501f9acf065475b5b615",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.380774"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提出了一个用于解决投资组合优化问题（POP）的新方法，即基于策略梯度的粒子群优化器（PG-PSO），并通过实验验证了其在提高投资组合夏普比率方面的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确提出了一个用于解决投资组合优化问题（POP）的新方法，即基于策略梯度的粒子群优化器（PG-PSO），并通过实验验证了其在提高投资组合夏普比率方面的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:49.967578"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1072,
+    "title": "A hybrid model for stock market forecasting and portfolio selection based on ARX, grey system and RS theories",
+    "abstract": "In this study, the moving average autoregressive exogenous (ARX) prediction model is combined with grey systems theory and rough set (RS) theory to create an automatic stock market forecasting and portfolio selection mechanism. In the proposed approach, financial data are collected automatically every quarter and are input to an ARX prediction model to forecast the future trends of the collected data over the next quarter or half-year period. The forecast data is then reduced using a GM(1,N) model, clustered using a K-means clustering algorithm and then supplied to a RS classification module which selects appropriate investment stocks by applying a set of decision-making rules. Finally, a grey relational analysis technique is employed to specify an appropriate weighting of the selected stocks such that the portfolio's rate of return is maximized. The validity of the proposed approach is demonstrated using electronic stock data extracted from the financial database maintained by the Taiwan Economic journal (TEJ). The predictive ability and portfolio results obtained using the proposed hybrid model are compared with those of a GM(1,1) prediction method. It is found that the hybrid method not only has a greater forecasting accuracy than the GM(1,1) method, but also yields a greater rate of return on the selected stocks. (C) 2008 Elsevier Ltd. All rights reserved.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0cf1f3164029aaea6505218e5a35f555",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.944906"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合ARX预测模型、灰色系统理论和粗糙集理论，用于股票市场预测和投资组合选择，旨在最大化投资组合的回报率，这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合ARX预测模型、灰色系统理论和粗糙集理论，用于股票市场预测和投资组合选择，旨在最大化投资组合的回报率，这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:46.431251"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 71,
+    "title": "Machine learning for quantitative finance: fast derivative pricing, hedging and fitting",
+    "abstract": "In this paper, we show how we can deploy machine learning techniques in the context of traditional quant problems. We illustrate that for many classical problems, we can arrive at speed-ups of several orders of magnitude by deploying machine learning techniques based on Gaussian process regression. The price we have to pay for this extra speed is some loss of accuracy. However, we show that this reduced accuracy is often well within reasonable limits and hence very acceptable from a practical point of view. The concrete examples concern fitting and estimation. In the fitting context, we fit sophisticated Greek profiles and summarize implied volatility surfaces. In the estimation context, we reduce computation times for the calculation of vanilla option values under advanced models, the pricing of American options and the pricing of exotic options under models beyond the Black-Scholes setting.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ea48861adbc473b5a23a5738c0e61a01",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.907256"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用机器学习（特别是高斯过程回归）来加速传统量化问题中的衍生品定价过程，包括计算香草期权价值、美式期权定价以及超越Black-Scholes模型的奇异期权定价。这些应用明确属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用机器学习（特别是高斯过程回归）来加速传统量化问题中的衍生品定价过程，包括计算香草期权价值、美式期权定价以及超越Black-Scholes模型的奇异期权定价。这些应用明确属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:02.962923"
+}

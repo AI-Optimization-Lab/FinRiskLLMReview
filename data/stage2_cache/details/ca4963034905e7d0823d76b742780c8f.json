@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1522,
+    "title": "Research on crude oil price forecasting based on computational intelligence",
+    "abstract": "The crude oil market, as a complex evolutionary nonlinear driving system, is by nature a highly noisy, nonlinear and deterministic chaotic series of price series. In this paper, a computational intelligence-based portfolio model is constructed to forecast crude oil prices using weekly price data of West Texas intermediate crude oil (WTI) crude oil futures from 2011 to 2021. First, the WTI crude oil price series are decomposed using the ensemble empirical modal decomposition method (EEMD) and the set of component series is reconstructed using the cluster analysis method. Second, the reconstructed series are modeled and predicted using neural network models such as time-delay neural network (TDNN), extreme learning machine (ELM), multilayer perceptron (MLP) and the GM (1,1) gray prediction algorithm and the output of the model with the best prediction effect for each component is integrated. Finally, the EGARCH model is used to further optimize the predictive power of the combined model and output the final predicted values. The results show that the combined model based on computational intelligence has higher forecasting accuracy than single models such as GM (1,1), ARIMA, MLP and the combined EEMD-ELM model for forecasting crude oil futures prices.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "63c6ab206e534e923e327ee452870bad",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:39.065370"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究原油价格预测，虽然使用了金融数据（WTI原油期货价格），但其核心是预测模型的构建和优化，并未直接涉及衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究原油价格预测，虽然使用了金融数据（WTI原油期货价格），但其核心是预测模型的构建和优化，并未直接涉及衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:36.440926"
+}

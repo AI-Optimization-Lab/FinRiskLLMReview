@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1864,
+    "title": "Comprehensive Capital Analysis and Review consistent yield curve stress testing: from Nelson-Siegel to machine learning",
+    "abstract": "Following the global financial crisis of 2007-9, the regulators established a stress testing framework known as Comprehensive Capital Analysis and Review (CCAR). The regulatory stress scenarios in this framework are macroeconomic and do not define stress values for all the relevant risk factors. In particular, only three Treasury rates are captured in these scenarios. CCAR scenarios can be complemented by defining stress values for the missing risk factors. The Treasury rates corresponding to different nodes are highly correlated. Hence, the changes in the three Treasury rates defined in the regulatory scenarios may impact the other rates. This paper focuses on CCAR-consistent Treasury yield curve stress testing. We assessed via backtesting three modeling approaches that allow us to build the stressed curves under CCAR scenarios: the Nelson-Siegel approach, principal component analysis (PCA) and the artificial neural network approach. The PCA approach fits the scenario-generation problem better than Nelson-Siegel because it explicitly takes into consideration correlation among historical changes in rates corresponding to different nodes, while the artificial neural network approach allows us to directly link the changes in the three Treasury rates to the changes in the other rates.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "413612e3821aea86250ad2236f209789",
+    "relevant_keywords": [
+      "machine learning",
+      "principal components analysis",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:38.916069"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on stress testing the Treasury yield curve under the Comprehensive Capital Analysis and Review (CCAR) framework, which is a regulatory requirement aimed at assessing the financial resilience of institutions under adverse economic conditions. This directly pertains to financial risk management, as it involves evaluating potential risks to financial stability under stressed scenarios.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on stress testing the Treasury yield curve under the Comprehensive Capital Analysis and Review (CCAR) framework, which is a regulatory requirement aimed at assessing the financial resilience of institutions under adverse economic conditions. This directly pertains to financial risk management, as it involves evaluating potential risks to financial stability under stressed scenarios.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:31.824436"
+}

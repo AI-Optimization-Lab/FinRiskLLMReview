@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 485,
+    "title": "Improving the prediction of petroleum reservoir characterization with a stacked generalization ensemble model of support vector machines",
+    "abstract": "The ensemble learning paradigm has proved to be relevant to solving most challenging industrial problems. Despite its successful application especially in the Bioinformatics, the petroleum industry has not benefited enough from the promises of this machine learning technology. The petroleum industry, with its persistent quest for high-performance predictive models, is in great need of this new learning methodology. A marginal improvement in the prediction indices of petroleum reservoir properties could have huge positive impact on the success of exploration, drilling and the overall reservoir management portfolio. Support vector machines (SVM) is one of the promising machine learning tools that have performed excellently well in most prediction problems. However, its performance is a function of the prudent choice of its tuning parameters most especially the regularization parameter, C. Reports have shown that this parameter has significant impact on the performance of SVM. Understandably, no specific value has been recommended for it. This paper proposes a stacked generalization ensemble model of SVM that incorporates different expert opinions on the optimal values of this parameter in the prediction of porosity and permeability of petroleum reservoirs using datasets from diverse geological formations. The performance of the proposed SVM ensemble was compared to that of conventional SVM technique, another SVM implemented with the bagging method, and Random Forest technique. The results showed that the proposed ensemble model, in most cases, outperformed the others with the highest correlation coefficient, and the lowest mean and absolute errors. The study indicated that there is a great potential for ensemble learning in petroleum reservoir characterization to improve the accuracy of reservoir properties predictions for more successful explorations and increased production of petroleum resources. The results also confirmed that ensemble models perform better than the conventional SVM implementation. (C) 2014 Elsevier B.V. All rights reserved.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6552a7b9b5d26cef6beda7cb41d08b9e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.436187"
+  },
+  "domain_result": {
+    "success": false,
+    "error": "Client error '429 Too Many Requests' for url 'https://api.deepseek.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "application_domains": [
+      "None"
+    ],
+    "justification": "API调用失败: Client error '429 Too Many Requests' for url 'https://api.deepseek.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "raw_response": null
+  },
+  "timestamp": "2025-05-20T16:30:31.806681"
+}

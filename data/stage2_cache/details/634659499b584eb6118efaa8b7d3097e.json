@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 422,
+    "title": "Risk-aware multi-armed bandit problem with application to portfolio selection",
+    "abstract": "Sequential portfolio selection has attracted increasing interest in the machine learning and quantitative finance communities in recent years. As amathematical framework for reinforcement learning policies, the stochastic multi-armed bandit problem addresses the primary difficulty in sequential decision-making under uncertainty, namely the exploration versus exploitation dilemma, and therefore provides a natural connection to portfolio selection. In this paper, we incorporate risk awareness into the classic multi-armed bandit setting and introduce an algorithm to construct portfolio. Through filtering assets based on the topological structure of the financial market and combining the optimal multi-armed bandit policy with the minimization of a coherent risk measure, we achieve a balance between risk and return.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e37a6094e3468f2f3e859844671bb628",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.613404"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是将风险感知的多臂老虎机问题应用于投资组合选择，并讨论了如何通过最小化一致风险度量来平衡风险和回报。这直接涉及投资组合管理和金融风险管理两个领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是将风险感知的多臂老虎机问题应用于投资组合选择，并讨论了如何通过最小化一致风险度量来平衡风险和回报。这直接涉及投资组合管理和金融风险管理两个领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:04.864712"
+}

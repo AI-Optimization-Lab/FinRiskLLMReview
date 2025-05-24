@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 211,
+    "title": "Noxtrader: Lstm-Based Stock Return Momentum Prediction For Quantitative Trading",
+    "abstract": "We introduce NoxTrader, a sophisticated system designed for portfolio construction and trading execution with the primary objective of achieving profitable outcomes in the stock market, specifically aiming to generate moderate to long-term profits. The underlying learning process of NoxTrader is rooted in the assimilation of valuable insights derived from historical trading data, particularly focusing on time-series analysis due to the nature of the dataset employed. In our approach, we utilize price and volume data of US stock market for feature engineering to generate effective features, including Return Momentum, Week Price Momentum, and Month Price Momentum. We choose the Long Short-Term Memory (LSTM) model to capture continuous price trends and implement dynamic model updates during the trading execution process, enabling the model to continuously adapt to the current market trends. Notably, we have developed a comprehensive trading backtesting system - NoxTrader, which allows us to manage portfolios based on predictive scores and utilize custom evaluation metrics to conduct a thorough assessment of our trading performance. Our rigorous feature engineering and careful selection of prediction targets enable us to generate prediction data with an impressive correlation range between 0.65 and 0.75. Finally, we monitor the dispersion of our prediction data and perform a comparative analysis against actual market data. Through the use of filtering techniques, we improved the initial-60% investment return to 325%.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "67b84ffe1445a940546ff36adfc5b387",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:33:39.428740"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM模型进行股票回报动量预测，并构建了一个名为NoxTrader的系统用于投资组合构建和交易执行，旨在实现股票市场的盈利。这直接涉及投资组合管理的领域，因为它关注于如何选择和调整投资组合以实现收益目标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM模型进行股票回报动量预测，并构建了一个名为NoxTrader的系统用于投资组合构建和交易执行，旨在实现股票市场的盈利。这直接涉及投资组合管理的领域，因为它关注于如何选择和调整投资组合以实现收益目标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:30.551946"
+}

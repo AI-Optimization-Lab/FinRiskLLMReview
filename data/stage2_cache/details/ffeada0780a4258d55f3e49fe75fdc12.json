@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 70,
+    "title": "Dual-Hybrid Modeling for Option Pricing of CSI 300ETF",
+    "abstract": "The reasonable pricing of options can effectively help investors avoid risks and obtain benefits, which plays a very important role in the stability of the financial market. The traditional single option pricing model often fails to meet the ideal expectations due to its limited conditions. Combining an economic model with a deep learning model to establish a hybrid model provides a new method to improve the prediction accuracy of the pricing model. This includes the usage of real historical data of about 10,000 sets of CSI 300 ETF options from January to December 2020 for experimental analysis. Aiming at the prediction problem of CSI 300ETF option pricing, based on the importance of random forest features, the Convolutional Neural Network and Long Short-Term Memory model (CNN-LSTM) in deep learning is combined with a typical stochastic volatility Heston model and stochastic interests CIR model in parameter models. The dual hybrid pricing model of the call option and the put option of CSI 300ETF is established. The dual-hybrid model and the reference model are integrated with ridge regression to further improve the forecasting effect. The results show that the dual-hybrid pricing model proposed in this paper has high accuracy, and the prediction accuracy is tens to hundreds of times higher than the reference model; moreover, MSE can be as low as 0.0003. The article provides an alternative method for the pricing of financial derivatives.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "0be79b4810d91568ae7237e2d636f7a9",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.906617"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是结合经济模型和深度学习模型建立混合模型，用于提高CSI 300ETF期权定价的预测准确性。论文明确提到其目标是解决CSI 300ETF期权的定价问题，并建立了双混合定价模型。因此，其主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是结合经济模型和深度学习模型建立混合模型，用于提高CSI 300ETF期权定价的预测准确性。论文明确提到其目标是解决CSI 300ETF期权的定价问题，并建立了双混合定价模型。因此，其主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:03.103575"
+}

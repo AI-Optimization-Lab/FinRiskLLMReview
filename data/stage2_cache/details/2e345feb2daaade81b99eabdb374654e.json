@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1195,
+    "title": "Deep reinforcement learning for portfolio selection",
+    "abstract": "This study proposes an advanced model-free deep reinforcement learning (DRL) framework to construct optimal portfolio strategies in dynamic, complex, and large-dimensional financial markets. Investors' risk aversion and transaction cost constraints are embedded in an extended Markowitz's mean-variance reward function by employing a twin-delayed deep deterministic policy gradient (TD3) algorithm. This study designs a DRL-TD3-based risk and transaction costsensitive portfolio that combines advanced exploration strategies and dynamic policy updates. The proposed portfolio method effectively addresses the challenges posed by high-dimensional state and action spaces in complex financial markets. This methodology provides two optimal portfolios by flexibly controlling transaction and risk costs with (i) the constituents of the Dow Jones Industrial Average and (ii) the constituents of the S&P100 index. Results demonstrate a strong portfolio performance of the proposed DRL portfolio compared to those of several competitors from the traditional and DRL literatures.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "368030fa1d26a962c2e87b4067889da2",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "deep belief network",
+      "DBM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.337353"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是使用深度强化学习框架来构建动态投资组合策略，并考虑了投资者的风险厌恶和交易成本约束，这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是使用深度强化学习框架来构建动态投资组合策略，并考虑了投资者的风险厌恶和交易成本约束，这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:57.527840"
+}

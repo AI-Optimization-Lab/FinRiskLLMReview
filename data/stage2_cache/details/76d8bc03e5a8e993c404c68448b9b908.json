@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2059,
+    "title": "Stock Recommendation Model with Investor Risk Acceptance",
+    "abstract": "In this era of high inflation and low interest rates, the public often invests in financial products to increase their passive income and thus increase their savings. Current data show that the public still considers stocks as investment targets. However, because investment is risky and each person's investment personality (risk tolerance) is different, some prefer to take risks to obtain the maximum return, and some are afraid of risks and avoid them to obtain stable returns; nevertheless, the recommendations of current research give little consideration to the risk characteristics of the investment target and the personal characteristics of the investor. However, investment is a trade-off between risk and reward, and the risk acceptance associated with an investment depends on the investor's ability to accept risk. Therefore, in the context of recommending, a consideration of investors' personal characteristics brings recommendations more in line with users' expectations. This study proposes a method to manage investment portfolios based on investors' risk personalities. It is mainly used to classify stocks according to beta indicators (select stocks according to investors' personalities), and financial indicators and an autoencoder are used to score stocks; moreover, technical indicators, covariance matrices, deep reinforcement learning-advantage actor critic (A2C), and proximal policy optimization (PPO) are used for asset allocation with the aim of developing investment portfolios with good performance that are optimally suitable for different types of investors. In the training results, the cumulative return rate obtained by the A2C model is as high as 49.61% for conservative investments, 82.04% for stable investments, and 99.69% for active investments. The cumulative return obtained by the PPO model is as high as 39.92% for conservative investments, 89.89% for stable investments, and 85.61% for active investments.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6dff552a8bb6ccb8926f2e972a8d95b8",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "autoencoder",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:25.854060"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习和自动编码器来根据投资者的风险偏好构建和优化投资组合，这直接属于投资组合管理的范畴。论文明确提到其目标是开发适合不同类型投资者的投资组合，并通过实验展示了不同风险偏好下的累积回报率。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习和自动编码器来根据投资者的风险偏好构建和优化投资组合，这直接属于投资组合管理的范畴。论文明确提到其目标是开发适合不同类型投资者的投资组合，并通过实验展示了不同风险偏好下的累积回报率。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:27.293119"
+}

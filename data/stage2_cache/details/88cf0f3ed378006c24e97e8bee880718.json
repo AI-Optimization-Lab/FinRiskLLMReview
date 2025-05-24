@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 15,
+    "title": "Explainable Deep Reinforcement Learning for Portfolio Management: An Empirical Approach",
+    "abstract": "Deep reinforcement learning (DRL) has been widely studied in the portfolio management task. However, it is challenging to understand a DRL-based trading strategy because of the black-box nature of deep neural networks. In this paper, we propose an empirical approach to explain the strategies of DRL agents for the portfolio management task. First, we use a linear model in hindsight as the reference model, which finds the best portfolio weights by assuming knowing actual stock returns in foresight. In particular, we use the coefficients of a linear model in hindsight as the reference feature weights. Secondly, for DRL agents, we use integrated gradients to define the feature weights, which are the coefficients between reward and features under a linear regression model. Thirdly, we study the prediction power in two cases, single-step prediction and multi-step prediction. In particular, we quantify the prediction power by calculating the linear correlations between the feature weights of a DRL agent and the reference feature weights, and similarly for machine learning methods. Finally, we evaluate a portfolio management task on Dow Jones 30 constituent stocks during 01/01/2009 to 09/01/2021. Our approach empirically reveals that a DRL agent exhibits a stronger multi-step prediction power than machine learning methods.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1ba42c4e2fa045fbc2b5b0892d5be75a",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "feature learning",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:16.245133"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是深度强化学习（DRL）在投资组合管理任务中的应用，旨在解释DRL代理的策略，并通过实证方法评估其在多步预测中的表现。论文明确提到在道琼斯30成分股上进行投资组合管理任务的评估，这直接指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是深度强化学习（DRL）在投资组合管理任务中的应用，旨在解释DRL代理的策略，并通过实证方法评估其在多步预测中的表现。论文明确提到在道琼斯30成分股上进行投资组合管理任务的评估，这直接指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:26.085408"
+}

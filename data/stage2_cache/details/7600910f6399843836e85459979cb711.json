@@ -1,0 +1,39 @@
+{
+  "paper": {
+    "id": 8,
+    "title": "Composite Triple Activation Function: Enhancing CNN-BiLSTM-AM for Sustainable Financial Risk Prediction in Manufacturing",
+    "abstract": "As a key pillar of China's economy, the manufacturing industry faces sustainable financial risk management challenges as it undergoes digital and green low-carbon transformation. However, existing financial risk prediction models often suffer from limited accuracy, insufficient robustness, and a suboptimal activation function design. In this study, we investigated advanced deep learning architectures to address these limitations, and we introduced a novel composite triple activation function (CTAF) framework to enhance predictive performance and model robustness. We began by evaluating several deep learning models, such as CNNs, BiLSTM, CNN-AM, and BiLSTM-AM, demonstrating that CNN-BiLSTM-AM achieved the highest performance. On the basis of this model structure, we proposed a CTAF, a composite activation mechanism that combines two distinct functions applied to the raw input x, effectively mitigating gradient instability and enhancing nonlinear expressiveness. Through ablation experiments with different composite activation functions, we verified that the CTAF consistently outperformed alternatives. Meanwhile, the mainstream activation functions and CTAF were applied to different layers for comparison, further verifying the CTAF's advantages in various structures. The optimal configuration was achieved when tanh was used in the CNN and Dense layers and the CTAF (tanh_relu) was applied in a Lambda layer after a BiLSTM layer, resulting in the highest accuracy of 99.5%. Furthermore, paired t-tests and evaluations on cross-industry datasets confirmed the optimal model's stability and generalizability.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "4ace0272c33e9f3004b93f61ca829eee",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "classification",
+      "neural network",
+      "rectified linear unit",
+      "ReLU",
+      "sigmoid",
+      "tanh",
+      "hidden layer",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:32:30.201049"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种复合三重激活函数（CTAF）框架，用于增强CNN-BiLSTM-AM模型在制造业可持续金融风险预测中的性能。论文明确提到其研究目标是解决制造业在数字化和绿色低碳转型过程中面临的可持续金融风险管理挑战，因此属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一种复合三重激活函数（CTAF）框架，用于增强CNN-BiLSTM-AM模型在制造业可持续金融风险预测中的性能。论文明确提到其研究目标是解决制造业在数字化和绿色低碳转型过程中面临的可持续金融风险管理挑战，因此属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:48.630347"
+}

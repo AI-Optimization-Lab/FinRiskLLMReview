@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 625,
+    "title": "Multi-Model Generative Adversarial Network Hybrid Prediction Algorithm (MMGAN-HPA) for stock market prices prediction",
+    "abstract": "Deep learning has achieved greater success in optimizing solutions associated with Artificial Intelligence (AI). In the financial domain, it is widely used for stock market prediction, trade execution strategies and portfolio optimization. Stock market prediction is a very significant use case in this domain. Generative Adversarial Networks (GANs) with advanced AI models have gained significance of late. However, it is used in image-image-translation and other computer vision scenarios. GANs are not used much for stock market prediction due to its difficulty in setting the right set of hyperparameters. In this paper, overcome this problem with reinforcement learning and Bayesian optimization. A deep learning framework based on GAN, named Stock-GAN, is implemented with generator and discriminator. The former is realized with LSTM, a variant of Recurrent Neural Network (RNN), while the latter uses Convolutional Neural Network. An algorithm named Generative Adversarial Network based Hybrid Prediction Algorithm (GAN-HPA) is proposed. An empirical study revealed that Stock-GAN achieves promising performance in stock price prediction when compared with the state of the art model known as Multi-Model based Hybrid Prediction Algorithm (MM-HPA). Afterwards, MM-HPA and GAN-HPA combined to form yet another hybrid model known as MMGAN-HPA for improved performance over MM-HPA and GAN-HPA.(c) 2021 The Authors. Published by Elsevier B.V. on behalf of King Saud University. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4b833262df5f54a4946f40c2ecd8fe9c",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:39.173828"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用生成对抗网络（GAN）和深度学习技术进行股票价格预测，虽然股票价格预测在金融领域有广泛应用，但论文并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用生成对抗网络（GAN）和深度学习技术进行股票价格预测，虽然股票价格预测在金融领域有广泛应用，但论文并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:03.853498"
+}

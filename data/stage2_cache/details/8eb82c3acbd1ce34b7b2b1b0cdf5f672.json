@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 34,
+    "title": "Deep learning-based least squares forward-backward stochastic differential equation solver for high-dimensional derivative pricing",
+    "abstract": "We propose a new forward-backward stochastic differential equation solver for high-dimensional derivative pricing problems by combining a deep learning solver with a least squares regression technique widely used in the least squares Monte Carlo method for the valuation of American options. Our numerical experiments demonstrate the accuracy of our least squares backward deep neural network solver and its capability to produce accurate prices for complex early exercisable derivatives, such as callable yield notes. Our method can serve as a generic numerical solver for pricing derivatives across various asset groups, in particular, as an accurate means for pricing high-dimensional derivatives with early exercise features.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "d976e85b921a9d6ba2461fd4a03ab03e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.542145"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是结合深度学习和最小二乘回归技术来解决高维衍生品定价问题，特别是针对具有早期行使特征的复杂衍生品（如可赎回收益票据）。论文明确提到其方法可以作为一种通用的数值求解器用于各种资产类别的衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是结合深度学习和最小二乘回归技术来解决高维衍生品定价问题，特别是针对具有早期行使特征的复杂衍生品（如可赎回收益票据）。论文明确提到其方法可以作为一种通用的数值求解器用于各种资产类别的衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:28.434156"
+}

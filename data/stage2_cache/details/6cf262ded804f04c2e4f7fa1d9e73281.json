@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 54,
+    "title": "An analysis of conditional mean-variance portfolio performance using hierarchical clustering",
+    "abstract": "This paper studies portfolio optimization through improvements of ex-ante conditional covariance estimates. We use the cross-section of stock returns over a 52-year sample to analyze trading performance by implementing the machine learning algorithm of hierarchical clustering. We find that higher out-of-sample risk-adjusted returns are achieved relative to the traditional Markowitz portfolio through hierarchical clustering using a 3-month buy-and-hold, long-only strategy. Additionally, the average change in portfolio weights at each rebalancing period is significantly lower for the portfolio formed using machine learning relative to Markowitz, decreasing investor trading costs. The results are robust to various settings and subsamples.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "eaa5551f4d8b540cf60622716207dd2d",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.949429"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用层次聚类算法改进投资组合优化中的条件协方差估计，以提高风险调整后的收益并降低交易成本，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用层次聚类算法改进投资组合优化中的条件协方差估计，以提高风险调整后的收益并降低交易成本，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:59.032675"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 272,
+    "title": "Company2Vec-German Company Embeddings Based on Corporate Websites",
+    "abstract": "With Company2Vec, the paper proposes a novel application in representation learning. The model analyzes business activities from unstructured company website data using Word2Vec and dimensionality reduction. Company2Vec maintains semantic language structures and thus creates efficient company embeddings in fine-granular industries. These semantic embeddings can be used for various applications in banking.Direct relations between companies and words allow semantic business analytics (e.g., top-n words for a company). Furthermore, industry prediction is presented as a supervised learning application and evaluation method. The vectorized structure of the embeddings allows measuring companies' similarities with the cosine distance. Company2Vec hence offers a more fine-grained comparison of companies than the standard industry labels (NACE). This property is relevant for unsupervised learning tasks, such as clustering. An alternative industry segmentation is shown with k-means clustering on the company embeddings. Finally, this paper proposes three algorithms for (1) firm-centric, (2) industry-centric and (3) portfolio-centric peer-firm identification.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "529af6543798c5c0e716cfe747c90d2e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "clustering",
+      "representation learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.795756"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出的Company2Vec模型和三种算法（包括portfolio-centric peer-firm identification）可以用于更精细的公司比较和行业分析，这些技术在投资组合管理中具有潜在应用价值，帮助投资者识别相似公司或行业细分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出的Company2Vec模型和三种算法（包括portfolio-centric peer-firm identification）可以用于更精细的公司比较和行业分析，这些技术在投资组合管理中具有潜在应用价值，帮助投资者识别相似公司或行业细分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:14.459419"
+}

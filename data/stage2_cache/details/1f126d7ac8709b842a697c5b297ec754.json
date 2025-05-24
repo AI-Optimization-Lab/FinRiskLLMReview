@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 624,
+    "title": "STOCK MOVEMENT PREDICTION THAT INTEGRATES HETEROGENEOUS DATA SOURCES USING DILATED CAUSAL CONVOLUTION NETWORKS WITH ATTENTION",
+    "abstract": "The purpose of this research is to develop a high performing model for stock movement prediction utilizing financial indicators and news data. Until recently, the majority of prediction models have employed only the financial indicators, but they possess the risk of missing unconventional agitators that can be derived from other heterogeneous sources. To address this, few research studies began to explore the use of news data and other social features along with financial indicators. In this work, we propose a novel integrative approach to effectively blend views from the news and financial time series. We generate event-knowledge representations from news data by capturing direct and inverse relationships among event tuples, and then apply attention mechanism to infer inter-day relationships among the representations. To capture temporal dynamics of financial indicators, we further integrate an attention augmented dilated causal convolutional network. We report empirically that our model achieves a substantial 5% improvement from 68.81% to 74.29% in stock movement prediction for the Standard & Poor's 500 (S&P500) index and companies over existing models.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "3f56e9bf6eda86410a44aa68fd419d84",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "attention mechanism",
+      "sequence-to-sequence learning",
+      "seq2seq",
+      "encoder-decoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:40:51.080584"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究股票价格变动的预测，虽然与金融市场相关，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究股票价格变动的预测，虽然与金融市场相关，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:46.710226"
+}

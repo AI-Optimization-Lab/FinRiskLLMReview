@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2379,
+    "title": "Multi-Factor Models and Gradient Boosting for Improved Factor Selection",
+    "abstract": "Multi-factor models are widely applied for explaining and predicting financial asset returns. Conventionally, methods like the Fama-MacBeth regression are employed to test factor validity, yet they overlook the potential heterogeneity in factor impacts across different assets. This paper proposes an improved approach by leveraging CatBoost and LightGBM to classify differentiate scenarios where factors are effective or ineffective, aiming to enhance the accuracy of factor selection. Using data from macro funds spanning 2018 to 2023, we first compare the performance of investment portfolios constructed without factor screening against those subjected to the Fama-MacBeth test. The results reveal instability in the traditional method. Subsequently, we train CatBoost and LightGBM, and construct portfolios by retaining funds exhibiting valid factor influences as predicted by the models. The improved method yields higher average portfolio returns but also increased return volatility. Further analysis indicates that the performance of our method is closely tied to the prediction accuracy of the models and the degree of matching between the training and test data distributions. When these align, our improved method can achieve considerable returns; conversely, a mismatch leads to extreme portfolio return fluctuations. These findings highlight the importance of enhancing model generalization capabilities and optimizing portfolio construction approaches for future research.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "91c7b6ee15e74755fa4d016a2ae470b1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:10.794532"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用CatBoost和LightGBM改进因子选择方法，以构建更优的投资组合。研究目标明确指向提高投资组合的回报，并通过实验验证了方法的有效性，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用CatBoost和LightGBM改进因子选择方法，以构建更优的投资组合。研究目标明确指向提高投资组合的回报，并通过实验验证了方法的有效性，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:26.815261"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 383,
+    "title": "Reinforcement learning for deep portfolio optimization",
+    "abstract": "Portfolio optimization is an important financial task that has received widespread attention in the field of artificial intelligence. In this paper, a novel deep portfolio optimization (DPO) framework was proposed, combining deep learning and reinforcement learning with modern portfolio theory. DPO not only has the advantages of machine learning methods in investment decision-making, but also retains the essence of modern portfolio theory in portfolio optimization. Additionaly, it was crucial to simultaneously consider the time series and complex asset correlations of financial market information. Therefore, in order to improve DPO performance, features of assets information were extracted and fused. In addition, a novel risk-cost reward function was proposed, which realized optimal portfolio decision-making considering transaction cost and risk factors through reinforcement learning. Our results showed the superiority and generalization of the DPO framework for portfolio optimization tasks. Experiments conducted on two real-world datasets validated that DPO achieved the highest accumulative portfolio value compared to other strategies, demonstrating strong profitability. Its Sharpe ratio and maximum drawdown also performed excellently, indicating good economic benefits and achieving a trade-off between portfolio returns and risk. Additionally, the extraction and fusion of financial information features can significantly improve the applicability and effectiveness of DPO.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "054cf3343c57651e38112f6220928793",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.052927"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合深度学习和强化学习进行投资组合优化，提出了一个深度投资组合优化框架（DPO），并考虑了交易成本和风险因素，以实现最优的投资组合决策。这些内容明确指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合深度学习和强化学习进行投资组合优化，提出了一个深度投资组合优化框架（DPO），并考虑了交易成本和风险因素，以实现最优的投资组合决策。这些内容明确指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:28.247512"
+}

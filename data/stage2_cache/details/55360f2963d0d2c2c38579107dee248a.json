@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2289,
+    "title": "Regulating Systemic Crises: Stemming the Contagion Risk in Networked-Loans Through Deep Graph Learning",
+    "abstract": "In networked-loans, guarantor enterprises have a legal duty to repay debt to the commercial bank when the guaranteed borrower enterprise defaults (fail to repay). During an economic recession, the risk of defaults may spread like wildfire - the loan network structure could amplify both reach and impact; thus leading to a large-scale corporation defaults even systemic financial crises. The Central Bank urges advanced regulation technology to recognize and act on the contagion risk in order to avoid the gray rhino. Therefore, we present a novel approach to help the regulators quantify the systemic risk and provide stemming clues. In particular, we report a state-of-the-art graph neural network architecture (iConReg) for detecting and isolating of contagion risk in China's national-wide networked-loans. The overall accuracy of our model reaches over 91% of AUC (Area under the ROC Curve), which considerably outperforms the compared benchmark methods. By isolating the top 1% of predicted high-risky nodes in the contagion chains, iConReg reports a significant shrink (averaged 25.8%) of loan default rates. Moreover, we conduct extensive case and user studies to evaluate the effectiveness of our proposed method and the result also demonstrates its superior performance. Our presented approach opens up a new direction of using deep graph learning techniques to regulate the contagion risk of networked-loans, which enables the authorities to design more prompt prevention measures against systemic financial crises.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9182b13efe2b8f55c4f5c9bff0f8fb7b",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "graph neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:13:31.837637"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用图神经网络来检测和隔离网络贷款中的传染风险，旨在帮助监管机构量化系统性风险并设计预防措施，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用图神经网络来检测和隔离网络贷款中的传染风险，旨在帮助监管机构量化系统性风险并设计预防措施，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:20.191542"
+}

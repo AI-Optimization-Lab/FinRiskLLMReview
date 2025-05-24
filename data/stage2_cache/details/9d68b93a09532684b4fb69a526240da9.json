@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 5564,
+    "title": "A sparse regression and neural network approach for financial factor modeling",
+    "abstract": "Factor models are central to understanding risk-return trade-offs in finance. Since Fama and French (1993), hundreds of factors have been found to have explanatory power for asset pricing. To construct a factor model, two tasks have to be performed: Feature Selection, selecting a small subset given a large number of factors to overcome overfitting in regression, and Feature Engineering, determining the interactions between the factors. In this work, the process of constructing factor models (not the factors themselves) is examined. A unified, two-step process of dimensionality reduction and nonlinear transformation that produces parsimonious, general factor models is proposed. Comparisons between frameworks implementing linear feature selection models as well as non-linear feature reduction techniques are conducted. A second stage generalizes the models by learning nonlinear interactions. The framework attempts to strike a balance between accuracy and interpretability. Results of computational experiments on historical financial data, on three models of varying degrees of nonlinearity and interpretability suggest that mixed-integer-programming-based formulations are suitable for the task of linear financial factor selection and that the second-stage nonlinearity due to neural networks improves accuracy. (C) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "42f9fbaff0801a2a00b2a2b4b4cefe6a",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "feature learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:49:21.592510"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究金融因子模型的构建，用于理解风险-回报权衡，并应用于资产定价。这直接关联到投资组合管理中的资产选择和风险控制。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究金融因子模型的构建，用于理解风险-回报权衡，并应用于资产定价。这直接关联到投资组合管理中的资产选择和风险控制。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:02.756839"
+}

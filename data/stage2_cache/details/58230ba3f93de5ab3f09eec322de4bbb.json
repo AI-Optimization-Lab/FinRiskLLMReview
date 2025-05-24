@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 244,
+    "title": "MONTE CARLO METHOD FOR PRICING LOOKBACK TYPE OPTIONS IN LEVY MODELS",
+    "abstract": "We construct a universal Monte Carlo method for pricing the options whose payout function depends on the final position of the extremum of the Levy process. The proposed method is capable of evaluating the prices of floating and fixed strike lookback options not only at the initial time but also during the entire period when the current position of the Levy process may be different from its extremum. Our algorithm involves three stages: approximation of the cumulative distribution function (c.d.f.) of the extremum process, evaluation of its inversion, and simulation of the final position of the extremum of the Levy process. We obtain new approximate formulas for the c.d.f.'s of the supremum and infimum processes for Levy models via Wiener-Hopf factorization. We also describe the principles of developing a hybrid Monte Carlo method, which combines classical numerical methods for construction of the c.d.f. of the final position of the extremum process and machine learning methods for inverting the c.d.f. with the help of tensor neural networks. The efficiency of the universal Monte Carlo method for lookback option pricing is supported by numerical experiments.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ffaabd9c5d71984c8174710192c7515b",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.237604"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是构建一个通用的蒙特卡洛方法，用于定价回溯型期权（lookback options），这直接属于衍生品定价领域。论文详细讨论了如何通过蒙特卡洛模拟和机器学习方法来评估这类期权的价格，并进行了数值实验验证其有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是构建一个通用的蒙特卡洛方法，用于定价回溯型期权（lookback options），这直接属于衍生品定价领域。论文详细讨论了如何通过蒙特卡洛模拟和机器学习方法来评估这类期权的价格，并进行了数值实验验证其有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:43.477671"
+}

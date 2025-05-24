@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1207,
+    "title": "Covariance estimation for risk-based portfolio optimization: an integrated approach",
+    "abstract": "Many problems in quantitative finance involve both predictive forecasting and decision-based optimization. Traditionally, covariance forecasting models are optimized with unique prediction-based objectives and constraints, and users are therefore unaware of how these predictions would ultimately be used in the context of the models' final decision-based optimization. We present a stochastic optimization framework for integrating time-varying factor covariance models in a risk-based portfolio optimization setting. We make use of recent advances in neural-network architecture for efficient optimization of batch convex programs. We consider three risk-based portfolio optimizations: minimum variance, maximum diversification and equal risk contribution, and we provide a first-order method for performing the integrated optimization. We present several historical simulations using US industry and stock data, and we demonstrate the benefits of the integrated approach in comparison with the decoupled alternative.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "12cacb26ca5874dcc0b66f54c04f289c",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:09.890578"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一个随机优化框架，用于在风险投资组合优化中整合时变因子协方差模型。论文明确提到了三种风险投资组合优化方法：最小方差、最大多样化和等风险贡献，并通过历史模拟验证了其方法的有效性。因此，其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一个随机优化框架，用于在风险投资组合优化中整合时变因子协方差模型。论文明确提到了三种风险投资组合优化方法：最小方差、最大多样化和等风险贡献，并通过历史模拟验证了其方法的有效性。因此，其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:22.999431"
+}

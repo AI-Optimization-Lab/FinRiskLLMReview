@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 106,
+    "title": "A hybrid modeling approach for option pricing",
+    "abstract": "The complexity of option pricing has led many researchers to develop sophisticated models for such purposes. The commonly used Black-Scholes model suffers from a number of limitations. One of these limitations is the assumption that the underlying probability distribution is lognormal and this is so controversial. We propose a couple of hybrid models to reduce these limitations and enhance the ability of option pricing. The key input to option pricing model is volatility. In this paper, we use three popular GARCH type model for estimating volatility. Then, we develop two non-parametric models based on neural networks and neuro-fuzzy networks to price call options for S&P 500 index. We compare the results with those of Black-Scholes model and show that both neural network and neuro-fuzzy network models outperform Black-Scholes model. Furthermore, comparing the neural network and neuro-fuzzy approaches, we observe that for at-the-money options, neural network model performs better and for both in-the-money and an out-of-the money option, neuro-fuzzy model provides better results.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ead05b5af8ca461f1cb793e47e197740",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.318277"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心内容是开发混合模型（包括神经网络和神经模糊网络）用于期权定价，并比较其与Black-Scholes模型的性能。这直接涉及衍生品定价领域，特别是期权定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心内容是开发混合模型（包括神经网络和神经模糊网络）用于期权定价，并比较其与Black-Scholes模型的性能。这直接涉及衍生品定价领域，特别是期权定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:33.386442"
+}

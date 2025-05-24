@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1427,
+    "title": "Balanced weighted extreme learning machine for imbalance learning of credit default risk and manufacturing productivity",
+    "abstract": "Imbalanced class distribution exists in real world problems and is considered an important research topic. The weighted extreme learning machine (WELM) is a cost sensitive method that effectively handles imbalance problems. However, the effect of data complexity on classifier performance is considered to be greater compared to the imbalance distribution. To address this issue, this work proposes a balanced WELM (BLWELM) by integrating various sampling methods and WELM in k-fold learning to reduce the data complexity and improve class distribution. The main idea is to generate new samples and remove overlapping noisy samples that exist on the borderline to improve the separating boundary between minority and majority class samples. Extensive experimental work on benchmarking datasets has demonstrated the effectiveness of the proposed method. In addition, credit default and manufacturing productivity were predicted by BLWELM. The analyses show that BLWELM gives better classification results compared to WELM and many other popular machine learning methods. The work may be used to facilitate financial institutions in allocating credit to applicants based on their previous history to avoid financial risk, and manufacturing companies can allocate highly productive workers to customer orders that need immediate delivery to avoid delays in the entire supply chain network.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "742712f42efe98a49679bdc8ccd7acb7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.643628"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是改进的加权极限学习机（BLWELM），用于处理不平衡数据分类问题，并特别应用于信用违约预测。信用违约预测是金融风险管理中的一个重要应用场景，旨在帮助金融机构基于历史数据分配信贷以避免金融风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是改进的加权极限学习机（BLWELM），用于处理不平衡数据分类问题，并特别应用于信用违约预测。信用违约预测是金融风险管理中的一个重要应用场景，旨在帮助金融机构基于历史数据分配信贷以避免金融风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:03.799119"
+}

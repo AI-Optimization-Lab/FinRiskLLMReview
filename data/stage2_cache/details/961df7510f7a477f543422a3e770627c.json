@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3816,
+    "title": "A novel separation-ensemble analyzing and forecasting method for the gold price forecasting based on RLS-type independent component analysis",
+    "abstract": "Gold has practical applications in jewellery, technology, investors and by central banks. This diversity of gold demand and self-balancing nature of the gold market underpin gold's robust qualities as an investment asset. Accurately forecasting gold price is conductive to protect and promote portfolio's performing. The extant studies, however, fail to capture the volatility in gold price from the perspective of analyzing and forecasting. In this study, a novel separation-ensemble method, which incorporates decomposition, separation, prediction and integration (DSPI) approaches, is proposed to analyze and predict the international gold price. In particular, the proposed DSPI method begins with extreme-point symmetric mode decomposition (ESMD) for retrieving the intrinsic mode functions (IMFs), which is used to generate the multi-channel mixed signals of the gold price. Next, hierarchical agglomerative clustering (HAC) algorithm is utilized to reconstruct the IMFs. Additionally, the recombination of IMFs is regarded as input of separation module and independent components (ICs) can be separated by the RLS-type independent component analysis (RLS-ICA). Especially, we compare the interactive relationship between the gold price and underlying meanings of the ICs. Finally, the proposed heterogeneous forecasting scheme based on induced ordered weighted averaging (IOWA) approach, in the sense that it assigns a diverse contribution to the forecasting results of the ICs predicted by the individual forecasting approaches, is utilized to achieve the forecasting result of the gold price. Experimental results on the gold price collected from World Gold Council confirm the effectiveness of the proposed DSPI approach, and the comparison results show that it is superior to the extant combination methods.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0fb6fd6967d06469f51a5098eb45158d",
+    "relevant_keywords": [
+      "clustering",
+      "principal components analysis",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:21:08.227850"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种新的分离-集成方法来预测国际金价，并明确指出准确预测金价有助于保护和促进投资组合的表现。这直接关联到投资组合管理领域，因为金价预测是投资决策和资产配置的重要依据。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种新的分离-集成方法来预测国际金价，并明确指出准确预测金价有助于保护和促进投资组合的表现。这直接关联到投资组合管理领域，因为金价预测是投资决策和资产配置的重要依据。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:47.413357"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 76,
+    "title": "Stable Multilevel Deep Neural Networks for Option Pricing and xVAs Using Forward-Backward Stochastic Differential Equations",
+    "abstract": "Deep learning techniques have significantly impacted fields such as image processing, computer vision, and natural language processing. However, their influence on quantitative finance, particularly in option pricing, hedging, and portfolio management, has been limited. Traditional financial applications rely on rigorous mathematical models and established numerical methods like Monte Carlo and finite difference methods. However, these methods struggle with high-dimensional problems. Recent works propose using Deep Neural Networks (DNNs) to solve high-dimensional Partial Differential Equations (PDEs) in finance, potentially overcoming the limitations of conventional techniques. Despite the recent progress, DNN methods face high computational costs, stability issues, and generally fail to meet the high accuracy requirements of the financial industry. This paper addresses these challenges. To address the high computational cost of training deep neural networks for financial applications, we propose a multilevel architecture inspired by multilevel Monte Carlo methods. To enhance stability, we adopt a dynamical systems perspective and utilize the NAIS-Net architecture, which ensures global asymptotic stability. For improving accuracy, we leverage the forward and backward systems of stochastic differential equations (FBSDEs) for option pricing problems. We also provide a theoretical argument that suggests that the proposed approach is superior to Physics Informed Neural Networks. Finally, the proposed methodology is implemented on several option pricing and xVA problems and is shown to achieve higher efficiency and accuracy, notably improving the pricing of options and xVAs by an order of magnitude over state-of-the-art methods.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "49f36d3e1ec4efca7b2d181e0aab01b9",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:55.049862"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度神经网络解决高维偏微分方程，并明确提到应用于期权定价和xVAs（衍生品定价中的调整项），这直接属于衍生品定价领域。虽然论文也提到对冲和组合管理，但主要应用和实验集中在期权定价和xVAs上。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度神经网络解决高维偏微分方程，并明确提到应用于期权定价和xVAs（衍生品定价中的调整项），这直接属于衍生品定价领域。虽然论文也提到对冲和组合管理，但主要应用和实验集中在期权定价和xVAs上。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:34.254806"
+}

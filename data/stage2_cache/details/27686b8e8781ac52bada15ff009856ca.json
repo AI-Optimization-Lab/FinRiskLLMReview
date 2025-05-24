@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 173,
+    "title": "Implementation of machine learning in l∞-based sparse Sharpe ratio portfolio optimization: a case study on Indian stock market",
+    "abstract": "Constructing the optimal portfolio by determining and selecting the best combinations of multiple portfolios is computationally challenging due to its exponential complexity. This paper considers the above issue and demonstrates an efficient portfolio selection method based on the sparse minimax Sharpe ratio model involving pre-selected stocks by an unsupervised machine learning approach. Different clustering techniques, such as k-means, fuzzy c-means, and ward linkage, have been used to cluster the stock market data into a finite number of clusters created based on their return rates and related risk levels. Several validity indices have been applied to arrive at the most appropriate number of groups to opt into the portfolio. Further, the sparse minimax Sharpe ratio model is implemented for the selection of the most efficient portfolio. Finally, the efficacy of the developed technique is justified and validated by illustrating a numerical example based on the historical dataset taken from the Bombay stock exchange (BSE), India.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9ea1f329b1f54cfc35e892d16665d43f",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.113538"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是使用机器学习和稀疏最小化Sharpe比率模型来优化投资组合选择，这直接属于投资组合管理领域。论文还通过实际案例（印度股票市场）验证了该方法的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是使用机器学习和稀疏最小化Sharpe比率模型来优化投资组合选择，这直接属于投资组合管理领域。论文还通过实际案例（印度股票市场）验证了该方法的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:14.336771"
+}

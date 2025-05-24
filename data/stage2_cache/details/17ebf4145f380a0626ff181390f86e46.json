@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 1258,
+    "title": "Recurrent neural networks for stochastic control problems with delay",
+    "abstract": "Stochastic control problems with delay are challenging due to the path-dependent feature of the system and thus its intrinsic high dimensions. In this paper, we propose and systematically study deep neural network-based algorithms to solve stochastic control problems with delay features. Specifically, we employ neural networks for sequence modeling (e.g., recurrent neural networks such as long short-term memory) to parameterize the policy and optimize the objective function. The proposed algorithms are tested on three benchmark examples: a linear-quadratic problem, optimal consumption with fixed finite delay, and portfolio optimization with complete memory. Particularly, we notice that the architecture of recurrent neural networks naturally captures the path-dependent feature with much flexibility and yields better performance with more efficient and stable training of the network compared to feedforward networks. The superiority is even evident in the case of portfolio optimization with complete memory, which features infinite delay.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "87b67d4f398053a53b1c43a4dca8f887",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.094963"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用递归神经网络解决具有延迟特征的随机控制问题，并在投资组合优化（portfolio optimization）这一具体金融应用场景中进行了测试和验证。论文明确提到在具有完全记忆的投资组合优化问题中，递归神经网络表现出优越性能，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用递归神经网络解决具有延迟特征的随机控制问题，并在投资组合优化（portfolio optimization）这一具体金融应用场景中进行了测试和验证。论文明确提到在具有完全记忆的投资组合优化问题中，递归神经网络表现出优越性能，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:12.381639"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1730,
+    "title": "Dynamic portfolio rebalancing through reinforcement learning",
+    "abstract": "Portfolio managements in financial markets involve risk management strategies and opportunistic responses to individual trading behaviours. Optimal portfolios constructed aim to have a minimal risk with highest accompanying investment returns, regardless of market conditions. This paper focuses on providing an alternative view in maximising portfolio returns using Reinforcement Learning (RL) by considering dynamic risks appropriate to market conditions through dynamic portfolio rebalancing. The proposed algorithm is able to improve portfolio management by introducing the dynamic rebalancing of portfolios with vigorous risk through an RL agent. This is done while accounting for market conditions, asset diversifications, risk and returns in the global financial market. Studies have been performed in this paper to explore four types of methods with variations in fully portfolio rebalancing and gradual portfolio rebalancing, which combine with and without the use of the Long Short-Term Memory (LSTM) model to predict stock prices for adjusting the technical indicator centring. Performances of the four methods have been evaluated and compared using three constructed financial portfolios, including one portfolio with global market index assets with different risk levels, and two portfolios with uncorrelated stock assets from different sectors and risk levels. Observed from the experiment results, the proposed RL agent for gradual portfolio rebalancing with the LSTM model on price prediction outperforms the other three methods, as well as returns of individual assets in these three portfolios. The improvements of the returns using the RL agent for gradual rebalancing with prediction model are achieved at about 27.9-93.4% over those of the full rebalancing without prediction model. It has demonstrated the ability to dynamically adjust portfolio compositions according to the market trends, risks and returns of the global indices and stock assets.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a57524c5fe083cc99539158311a91e67",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "long short-term memory",
+      "LSTM",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:52.674698"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习和LSTM模型进行动态投资组合再平衡，旨在最大化投资回报并管理风险，这直接属于投资组合管理领域。论文明确讨论了投资组合的构建、再平衡策略以及风险与回报的优化，这些都是投资组合管理的核心内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习和LSTM模型进行动态投资组合再平衡，旨在最大化投资回报并管理风险，这直接属于投资组合管理领域。论文明确讨论了投资组合的构建、再平衡策略以及风险与回报的优化，这些都是投资组合管理的核心内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:56.603404"
+}

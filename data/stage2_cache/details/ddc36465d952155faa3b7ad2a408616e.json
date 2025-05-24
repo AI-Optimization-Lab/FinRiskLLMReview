@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 157,
+    "title": "Simul-RL Portfolio Framework: Black-Scholes-Merton and Reinforcement Learning for Asset Allocation",
+    "abstract": "Asset allocation method using reinforcement learning is being actively researched. However, the existing asset allocation methods do not consider the following viewpoints in solving the asset allocation problem. First, State design without considering portfolio management and financial market characteristics. Second, Model Overfitting. Third, Model training design without considering the statistical structure of financial time series data. To solve these problems, we propose a new Reinforcement Learning asset allocation method. First, financial market state and agent state. Second, Monte Carlo simulation data are used to increase training data complexity. Third, Monte Carlo simulation data are created considering various statistical structures of financial markets. We show experimentally that our method outperforms the benchmark at several test intervals.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a0ab51326bf0bdc340f870cf1cae1b05",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.083523"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习进行资产分配，并特别提到了投资组合管理和金融市场的特性，这直接指向投资组合管理领域。论文中未提及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习进行资产分配，并特别提到了投资组合管理和金融市场的特性，这直接指向投资组合管理领域。论文中未提及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:18.295009"
+}

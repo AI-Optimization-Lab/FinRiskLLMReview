@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 864,
+    "title": "Credit default swap prediction based on generative adversarial networks",
+    "abstract": "Purpose Financial price forecast issues are always a concern of investors. However, the financial applications based on machine learning methods mainly focus on stock market predictions. Few studies have explored credit risk predictions. Understanding credit risk trends can help investors avoid market risks. The purpose of this study is to investigate the prediction model that can effectively predict credit default swaps (CDS). Design/methodology/approach A novel generative adversarial network (GAN) for CDS prediction is proposed. The authors take three features into account that are highly relevant to the future trends of CDS: historical CDS price, news and financial leverage. The main goal of this model is to improve the existing GAN-based regression model by adding finance and news feature extraction approaches. The proposed model adopts an attentional long short-term memory network and convolution network to process historical CDS data and news information, respectively. In addition to enhancing the effectiveness of the GAN model, the authors also design a data sampling strategy to alleviate the overfitting issue. Findings The authors conduct an experiment with a real dataset and evaluate the performance of the proposed model. The components and selected features of the model are evaluated for their ability to improve the prediction performance. The experimental results show that the proposed model performs better than other machine learning algorithms and traditional regression GAN. Originality/value There are very few studies on prediction models for CDS. With the proposed novel approach, the authors can improve the performance of CDS predictions. The proposed work can thereby increase the commercial value of CDS predictions to support trading decisions.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "10a3ba0cb1b11635a354d95969860917",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:17.461799"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用生成对抗网络（GAN）来预测信用违约互换（CDS），这直接关系到信用风险的评估和管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用生成对抗网络（GAN）来预测信用违约互换（CDS），这直接关系到信用风险的评估和管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:36.925344"
+}

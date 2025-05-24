@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 8966,
+    "title": "Support vector regression with chaos-based firefly algorithm for stock market price forecasting",
+    "abstract": "Due to the inherent non-linearity and non-stationary characteristics of financial stock market price time series, conventional modeling techniques such as the Box-Jenkins autoregressive integrated moving average (ARIMA) are not adequate for stock market price forecasting. In this paper, a forecasting model based on chaotic mapping, firefly algorithm, and support vector regression (SVR) is proposed to predict stock market price. The forecasting model has three stages. In the first stage, a delay coordinate embedding method is used to reconstruct unseen phase space dynamics. In the second stage, a chaotic firefly algorithm is employed to optimize SVR hyperparameters. Finally in the third stage, the optimized SVR is used to forecast stock market price. The significance of the proposed algorithm is 3-fold. First, it integrates both chaos theory and the firefly algorithm to optimize SVR hyperparameters, whereas previous studies employ a genetic algorithm (GA) to optimize these parameters. Second, it uses a delay coordinate embedding method to reconstruct phase space dynamics. Third, it has high prediction accuracy due to its implementation of structural risk minimization (SRM). To show the applicability and superiority of the proposed algorithm, we selected the three most challenging stock market time series data from NASDAQ historical quotes, namely Intel, National Bank shares and Microsoft daily closed (last) stock price, and applied the proposed algorithm to these data. Compared with genetic algorithm-based SVR (SVR-GA), chaotic genetic algorithm-based SVR (SVR-CGA), firefly-based SVR (SVR-FA), artificial neural networks (ANNs) and adaptive neuro-fuzzy inference systems (ANFIS), the proposed model performs best based on two error measures, namely mean squared error (MSE) and mean absolute percent error (MAPE). Crown Copyright (C) 2012 Published by Elsevier B.V. All rights reserved.",
+    "year": 2013,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5ca6adfc8f4bd9f6b7b7bacc05ce2ec6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T03:24:26.257895"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是股票市场价格预测的模型优化，虽然涉及金融数据，但其核心技术（支持向量回归与混沌萤火虫算法）并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是股票市场价格预测的模型优化，虽然涉及金融数据，但其核心技术（支持向量回归与混沌萤火虫算法）并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:13.236986"
+}

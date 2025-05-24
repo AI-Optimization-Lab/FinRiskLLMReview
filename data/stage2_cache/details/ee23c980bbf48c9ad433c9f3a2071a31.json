@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 388,
+    "title": "CARROT: Simultaneous prediction of anomalies from groups of correlated cryptocurrency trends",
+    "abstract": "Cryptocurrencies are virtual currencies that exploit cryptography to perform secure financial transactions. They gained widespread popularity in recent years due to their decentralized nature, (pseudo-)anonymity, and ability to facilitate cross-border transactions without the need for intermediaries. However, their price on the market exhibits a huge volatility, that makes them prone to market anomalies. Therefore, predicting anomalies in cryptocurrency time series can be considered an important task for financial institutions, traders, and investors, to maximize their profit or minimize losses. In this paper, we propose a novel approach for predicting anomalies in cryptocurrency time series by exploiting temporal correlations among different cryptocurrencies. Our approach, called CARROT, is based on the idea that groups of cryptocurrencies exhibit similar trends, possibly due to common influencing factors. CARROT analyzes the temporal correlation between different cryptocurrencies, and identifies clusters showing similar patterns that can be useful for gaining insights into future anomalies. Subsequently, CARROT exploits multiple (i.e., one for each cluster) multi-target LSTM models to predict anomalies. Our experiments, performed on a dataset of 17 cryptocurrencies, proved that CARROT outperforms single- target LSTM models of up to 20%, as well as other approaches based on neural networks, i.e., MLP and CNN, in terms of macro F1-score. Therefore, the proposed approach can be considered as a promising tool for predicting anomalies in cryptocurrency time series data and can potentially be used to improve risk management and trading strategies in the cryptocurrency market.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "9a8edc0a93c3df1f6d8012593530258b",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "clustering",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:37:32.478503"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是预测加密货币市场中的异常现象，旨在帮助金融机构、交易者和投资者最大化利润或最小化损失，这直接关联到金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是预测加密货币市场中的异常现象，旨在帮助金融机构、交易者和投资者最大化利润或最小化损失，这直接关联到金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:39.357070"
+}

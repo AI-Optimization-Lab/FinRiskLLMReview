@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1413,
+    "title": "Conditional Value-at-Risk for Quantitative Trading: A Direct Reinforcement Learning Approach",
+    "abstract": "We propose a convex formulation for a trading system with the Conditional Value-at-Risk as a risk-adjusted performance measure under the notion of Direct Reinforcement Learning. Due to convexity, the proposed approach can uncover a lucrative trading policy in a pure online manner where it can interactively learn and update the policy without multi-epoch training and validation. We assess our proposed algorithm on a real financial market where it trades one of the largest US trust funds, SPDR, for three years. Numerical experiments demonstrate the algorithm's robustness in detecting central market-regime switching. Moreover, the results show the algorithm's effectiveness in extracting profitable policy while meeting an investor's risk preference under a conservative frictional market with a transaction cost of 0.15% per trade.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ee017f30bd0cdf455551587fb839a7b9",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.597603"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习来优化交易系统，并以Conditional Value-at-Risk（CVaR）作为风险调整后的绩效衡量标准。CVaR是金融风险管理中常用的风险度量工具，而交易系统的优化和策略学习属于投资组合管理的范畴。论文的实验部分也涉及实际金融市场的交易，进一步证实了其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习来优化交易系统，并以Conditional Value-at-Risk（CVaR）作为风险调整后的绩效衡量标准。CVaR是金融风险管理中常用的风险度量工具，而交易系统的优化和策略学习属于投资组合管理的范畴。论文的实验部分也涉及实际金融市场的交易，进一步证实了其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:04.909305"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1729,
+    "title": "A new approach to robustness-based optimization using uncertainty set constructed through machine learning",
+    "abstract": "This paper proposes three machine learning-based uncertainty set construction methods and a novel uncertainty quantification method for robustness-based optimization. The proposed methods are capable of capturing all possible types of uncertainties in the form of sparse point and/or interval data and efficiently quantify uncertainty in robustness-based optimization. In contrast to traditional approaches that rely on expert opinion or assumptions to construct uncertainty sets, our methods leverage machine learning algorithms to extract uncertainty patterns from historical data and effectively capture epistemic uncertainty in input variables. Another challenge in existing robustness-based optimization under epistemic uncertainty is the high computational cost associated with the iterative method of epistemic analysis. Moreover, these methods struggle with uncertainty sets containing a mixture of point and interval data. To overcome these limitations, we propose a unified probabilistic approach that utilizes maximum likelihood estimation to efficiently quantify uncertainty, regardless of the data form. Using the proposed methods, we introduce new approaches for robustness-based portfolio optimization (RPO) and multidisciplinary design optimization (RO/MDO), namely the worst-case maximum likelihood estimation (WMLE)-based single-loop RPO and WMLE-based RO/MDO approach, respectively. Illustrated through applications to minimum variance portfolios, our methods consistently demonstrate significant improvements over established formulations in terms of both return and risk. Additionally, when applied to a complex multidisciplinary engineering design, the WMLE-based RO/MDO approach showcases a computationally efficient solving technique, yielding more realistic results than the existing methodologies.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "34d3d1a3a1b0cbb1b95c8b21961227a8",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:50.713809"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提到了将提出的方法应用于最小方差投资组合（minimum variance portfolios），并展示了在回报和风险方面的改进，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确提到了将提出的方法应用于最小方差投资组合（minimum variance portfolios），并展示了在回报和风险方面的改进，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:11.816215"
+}

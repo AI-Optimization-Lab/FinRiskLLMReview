@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 410,
+    "title": "Prediction of the resilient modulus of compacted subgrade soils using ensemble machine learning methods",
+    "abstract": "The accurate estimation of resilient modulus (MR) of compacted subgrade soil is imperative for the safe and sustainable design of flexible pavement systems. The aim of this study is to explore the potential of ensemble machine learning techniques for predicting the MR of pavement subgrade soil. For this, 2813 data points from twelve compacted subgrade soils were collected which consists of the following inputs parameters: dry unit weight, weighted plasticity index, deviator stress, confining stress, number of freeze???thaw cycles, and moisture content. Four commonly used machine learning (ML) methods, namely, gradient boosting regression (GBR), decision tree regression (DTR), K nearest neighbour regression (KNR), and random forest regression (RFR) were developed and implemented for forecasting the MR value. Thereafter, several ensemble ML techniques including voting ensemble (VO-ENSM), voting ensemble with RF as a meta-model (VO-ENSM (RF)), stacking ensemble (STENSM) and bagging ensemble (BG-ENSM) were utilised to amalgamate the outputs from the developed standalone ML models. Additionally, a multiple linear regression model was also developed as a baseline. The predictive veracity, reliability and trustworthiness of the developed ensemble models were corroborated using rigorous statistical testing, ranking technique, and uncertainty analysis. The results as obtained have shown that the BG-ENSM outperformed its counterparts in predicting the MR of subgrade soil. Hence, it can be a part of portfolio of predicting tools utilised by the practitioners in evaluating the strength of the pavement subgrade soil. Finally, the sensitivity analysis was performed to assess the strength of input variables on the MR.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "74257633bf1df471d7faf0e4dabb2863",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree",
+      "gradient boosting regression",
+      "random forest regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.523486"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用集成机器学习方法预测压实路基土壤的弹性模量，属于土木工程领域，与衍生品定价、金融风险管理或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用集成机器学习方法预测压实路基土壤的弹性模量，属于土木工程领域，与衍生品定价、金融风险管理或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:09.842265"
+}

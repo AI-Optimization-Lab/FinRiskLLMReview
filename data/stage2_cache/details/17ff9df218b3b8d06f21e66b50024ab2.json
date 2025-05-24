@@ -1,0 +1,38 @@
+{
+  "paper": {
+    "id": 1276,
+    "title": "Financial Warning of Manufacturing Listed Companies Based on Text Mining",
+    "abstract": "The audit report, as disclosed in the annual reports of listed companies, represents a critical source of textual data for assessing enterprise risk and conducting financial analysis. Descriptions of key audit matters in the audit report offer detailed explanations and insights. This study aims to develop predictive models for assessing the financial distress status of Chinese manufacturing listed companies, enhancing early warning accuracy through the integration of financial indicators and textual data. Utilizing data from 2016 to 2022, which includes Z-Score, F-Score, and descriptions of key audit matters from the financial reports of manufacturing listed companies, we introduce text mining techniques such as TF-IDF, Word2Vec, Doc2Vec, and LDA to extract crucial information. Subsequently, the extracted textual features are dimensionally reduced via PCA and Truncated SVD techniques. We construct multiple deep learning models, including Multilayer Perceptron (MLP), Convolutional Neural Network (CNN), Recurrent Neural Network (RNN), and Long Short-Term Memory (LSTM), using ACC and AUC-ROC as evaluation metrics. The findings indicate that deep learning models incorporating textual data surpass those relying solely on traditional financial indicators in predicting financial distress, achieving an AUC value of 0.9028, marking an improvement of 0.0483. This study not only furnishes a new perspective on financial distress prediction research but also provides effective tools for investors and regulatory agencies to identify potential financial crises.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "192f57f17d55c528ea32c581798248a0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "principal components analysis",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.828194"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用文本挖掘和深度学习模型来预测制造业上市公司的财务困境，这属于金融风险管理的范畴，特别是企业财务风险的早期预警。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用文本挖掘和深度学习模型来预测制造业上市公司的财务困境，这属于金融风险管理的范畴，特别是企业财务风险的早期预警。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:32.062400"
+}

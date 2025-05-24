@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2906,
+    "title": "A Deep Learning Method for Landing Pitch Prediction based on Flight Data",
+    "abstract": "With the development of the aviation industry, aircraft has increasingly become one of the most preferred long-distance transportation tools, and aviation safety incidents have attracted extensive attention. The key to dealing with aviation safety incidents is to accurately predict anomalies and potential hazards in advance and instruct pilots to perform corrective operations. As one of the safety incidents, tail strike may cause damage to the aircraft fuselage which may bring financial losses, or even threaten lives. However, there are few studies on tail strike in depth at present. In order to fill this gap, this paper mainly focuses on the tail strike risk, which is defined as the incident that the maximum pitch angle of the aircraft one second after and before touchdown exceeds a certain threshold. Specifically, we employ the LSTM model to make predictions of the maximum pitch angle with 22 parameters from QAR data. Extensive experiments based on a large-scale data show that the prediction model in this paper achieves the lowest MSE, MAE and the highest fitting coefficient R2-score, as compared to 9 traditional machine learning algorithms, which validates the effectiveness of our model in finding high risk flights.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8c0e0344f61dee525e68c30e2e5df303",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:20:16.979110"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用LSTM模型预测飞机着陆时的最大俯仰角，以防止尾部撞击事故，属于航空安全领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用LSTM模型预测飞机着陆时的最大俯仰角，以防止尾部撞击事故，属于航空安全领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:20.641321"
+}

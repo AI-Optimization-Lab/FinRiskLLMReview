@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 755,
+    "title": "A Hybrid AI Framework for Enhanced Stock Movement Prediction: Integrating ARIMA, RNN, and LightGBM Models",
+    "abstract": "Forecasting stock market movements is a critical yet challenging endeavor due to the inherent nonlinearity, chaotic behavior, and dynamic nature of financial markets. This study proposes the Autoregressive Integrated Moving Average Ensemble Recurrent Light Gradient Boosting Machine (AR-ERLM), an innovative model designed to enhance the precision and reliability of stock movement predictions. The AR-ERLM integrates ARIMA for identifying linear dependencies, RNN for capturing temporal dynamics, and LightGBM for managing large-scale datasets and non-linear relationships. Using datasets from Netflix, Amazon, and Meta platforms, the model incorporates technical indicators and Google Trends data to construct a comprehensive feature space. Experimental results reveal that the AR-ERLM outperforms benchmark models such as GA-XGBoost, Conv-LSTM, and ANN. For the Netflix dataset, the AR-ERLM achieved an RMSE of 2.35, MSE of 5.54, and MAE of 1.58, surpassing other models in minimizing prediction errors. Moreover, the model demonstrates robust adaptability to real-time data and consistently superior performance across multiple metrics. The findings emphasize AR-ERLM's potential to enhance predictive accuracy, mitigating overfitting and reducing computational overhead. These implications are crucial for financial institutions and investors seeking reliable tools for risk assessment and decision-making. The study sets the foundation for integrating advanced AI models into financial forecasting, encouraging future exploration of hybrid optimization techniques to further refine predictive capabilities.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "279a63e9e6c3bae8fffe8b48d509b9bd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:05.439756"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究股票市场走势预测，虽然与金融相关，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究股票市场走势预测，虽然与金融相关，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:24.346714"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1473,
+    "title": "From intuition to intelligence: a text mining-based approach for movies' green-lighting process",
+    "abstract": "Purpose The purpose of this paper is to develop a predictive model for box office performance based on the textual information in movie scripts in the green-lighting process of movie production. Design/methodology/approach The authors use Latent Dirichlet Allocation to determine the hidden textual structure in movie scripts by extracting topic probabilities as predictors for classification. The extracted topic probabilities are used as inputs for the predictive model for the box office performance. For the predictive model, the authors utilize a variety of classification algorithms such as logistic classification, decision trees, random forests, k-nearest neighbor algorithms, support vector machines and artificial neural networks, and compare their relative performances in predicting movies' market performance. Findings This approach for extracting textual information from movie scripts produces a valuable typology for movies. Moreover, our modeling approach has significant power to predict movie scripts' profitability. It provides a superior prediction performance compared to previous benchmarks, such as that of Eliashberg et al. (2007). Research limitations/implications This work contributes to literature on predicting the box office performance in the green-lighting process and literature regarding suggesting models for the idea screening stage in the new product development process. Besides, this is one of the few studies that use movie script data to predict movies' financial performance by proposing an approach to integrate text mining models and machine learning algorithms with movie experts' intuition. Practical implications First, the authors' approach can significantly reduce the financial risk associated with movie production decisions before the pre-production stage. Second, this paper proposes an approach that is applicable at a very early stage of new product development, such as the idea screening stage. The authors also introduce an online-based movie scenario database system that can help movie studios make more systematic and profitable decisions in the green-lighting process. Third, this approach can help movie studios estimate movie scripts' financial value. Originality/value This study is one of the few studies to forecast market performance in the green-lighting process.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7f891a793db7bdd57e83892ae1d04a08",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.715947"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用文本挖掘和机器学习技术预测电影票房表现，其应用场景集中在电影产业的新产品开发过程，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用文本挖掘和机器学习技术预测电影票房表现，其应用场景集中在电影产业的新产品开发过程，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:44.239063"
+}

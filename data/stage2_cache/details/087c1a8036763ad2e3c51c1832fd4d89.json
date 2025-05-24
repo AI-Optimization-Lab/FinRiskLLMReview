@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2460,
+    "title": "A global MINLP approach to symbolic regression",
+    "abstract": "Symbolic regression methods generate expression trees that simultaneously define the functional form of a regression model and the regression parameter values. As a result, the regression problem can search many nonlinear functional forms using only the specification of simple mathematical operators such as addition, subtraction, multiplication, and division, among others. Currently, state-of-the-art symbolic regression methods leverage genetic algorithms and adaptive programming techniques. Genetic algorithms lack optimality certifications and are typically stochastic in nature. In contrast, we propose an optimization formulation for the rigorous deterministic optimization of the symbolic regression problem. We present a mixed-integer nonlinear programming (MINLP) formulation to solve the symbolic regression problem as well as several alternative models to eliminate redundancies and symmetries. We demonstrate this symbolic regression technique using an array of experiments based upon literature instances. We then use a set of 24 MINLPs from symbolic regression to compare the performance of five local and five global MINLP solvers. Finally, we use larger instances to demonstrate that a portfolio of models provides an effective solution mechanism for problems of the size typically addressed in the symbolic regression literature.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "40ae9eefd0f9ca826464fd0eabe17876",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:03.006018"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究符号回归问题的优化方法，提出了一种混合整数非线性规划（MINLP）方法，并进行了实验验证。虽然符号回归在金融领域可能有潜在应用，但论文中并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究符号回归问题的优化方法，提出了一种混合整数非线性规划（MINLP）方法，并进行了实验验证。虽然符号回归在金融领域可能有潜在应用，但论文中并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:42.002880"
+}

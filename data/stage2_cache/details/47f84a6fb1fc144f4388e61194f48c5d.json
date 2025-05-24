@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2086,
+    "title": "Support vector machine regression for volatile stock market prediction",
+    "abstract": "Recently, Support Vector Regression (SVR) has been introduced to solve regression and prediction problems. In this paper, we apply SVR to financial prediction tasks. In particular, the financial data are usually noisy and the associated risk is time-varying. Therefore, our SVR model is an extension of the standard SVR which incorporates margins adaptation. By varying the margins of the SVR, we could reflect the change in volatility of the financial data. Furthermore, we have analyzed the effect of asymmetrical margins so as to allow for the reduction of the downside risk. Our experimental results show that the use of standard deviation to calculate a variable margin gives a good predictive result in the prediction of Hang Seng Index.",
+    "year": 2002,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ce76e60ca6f0d50b920f96a5b68a5818",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:59.039286"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要应用支持向量回归（SVR）来预测波动性较大的股票市场，特别是通过调整SVR的边际来反映金融数据的波动性变化，并分析不对称边际以减少下行风险。这些内容直接关联到金融风险管理中的市场风险预测和控制。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要应用支持向量回归（SVR）来预测波动性较大的股票市场，特别是通过调整SVR的边际来反映金融数据的波动性变化，并分析不对称边际以减少下行风险。这些内容直接关联到金融风险管理中的市场风险预测和控制。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:25.209978"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 247,
+    "title": "A NOVEL NONLINEAR NEURAL NETWORK BASED ON COEFFICIENT OF VARIATION FOR SOLVING CARDINALITY CONSTRAINT PORTFOLIO OPTIMIZATION PROBLEM",
+    "abstract": "Today, determining stocks in the portfolio is the major problems in the finance world. In 1952, Harry Markowitz had proposed standard portfolio optimization which is cornerstone of portfolio optimization. Mainly, in the Portfolio optimization problem main goal is minimizing the risk, while maximizing the expected return of portfolio. Since portfolio optimization problem is an NP-hard problem, hard computing techniques does not meet today's conditions. Due to time constraints and the necessity of economic situations, many heuristic methods were used to solve portfolio optimization method such as particle swarm optimization, ant colony optimization etc. In this study, Markowitz's mean-variance portfolio optimization with cardinality constraint is tried to solve which is not only quadratic optimization problem but also it is a binary integer programming problem. In order to solve mixed-integer quadratic optimization problem, we suggested nonlinear neural network based on coefficient of variation for solving cardinality constraint portfolio optimization (CCPO) problem. While analyzing the proposed algorithm efficiency, ISE-30 data (Istanbul Stock Exchange 30) was used between 10.06.2015-14.05.2017. Finally, the obtained results from the proposed algorithm are compared with the results obtained from the classic portfolio selection models in the literature.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f9d5c49f2c9e00ad2d34843a32b2f486",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.730472"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于变异系数的非线性神经网络，用于解决带基数约束的投资组合优化问题。论文明确提到目标是最大化预期收益同时最小化风险，并使用了伊斯坦布尔证券交易所的数据进行验证，这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于变异系数的非线性神经网络，用于解决带基数约束的投资组合优化问题。论文明确提到目标是最大化预期收益同时最小化风险，并使用了伊斯坦布尔证券交易所的数据进行验证，这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:20.386383"
+}

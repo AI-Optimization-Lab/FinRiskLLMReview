@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1358,
+    "title": "Derivatives of feed-forward neural networks and their application in real-time market risk management",
+    "abstract": "Market risk management of financial derivatives requires the efficient calculation of their price sensitivities with respect to changes in market factors. This paper shows how a deep feed-forward neural network which has been trained for pricing derivative instruments can be efficiently used to calculate these sensitivities as well. The proposed method is a fast and easily implementable alternative approach to automatic differentiation, and it simultaneously calculates all the first- and second-order derivatives of a multilayer feed-forward neural network with respect to its input features. The paper quantifies the performance improvement of the proposed method over a recent, publicly available implementation of automatic differentiation for a wide range of network sizes. The number of input parameters in these networks corresponds to those of commonly used financial models with stochastic volatility. The numerical accuracy of the proposed sensitivity calculations is demonstrated with a case study, calculating price sensitivities of European options under stochastic volatility. While the paper focuses on financial applications, the results presented herein are applicable to all deep feed-forward neural networks with sufficiently smooth activation functions.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d5ba6a4db8a2b09a125c3ee29552b5ef",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:44.867075"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度前馈神经网络计算金融衍生品的价格敏感性，这直接应用于衍生品定价。同时，论文明确提到这些敏感性计算用于实时市场风险管理，因此也属于金融风险管理的范畴。论文中的案例研究涉及欧式期权在随机波动率下的价格敏感性计算，进一步证实了这两个应用领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度前馈神经网络计算金融衍生品的价格敏感性，这直接应用于衍生品定价。同时，论文明确提到这些敏感性计算用于实时市场风险管理，因此也属于金融风险管理的范畴。论文中的案例研究涉及欧式期权在随机波动率下的价格敏感性计算，进一步证实了这两个应用领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:27.574239"
+}

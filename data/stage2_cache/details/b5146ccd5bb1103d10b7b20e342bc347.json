@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 383,
+    "title": "IntelliPortfolio: Intelligent Portfolio for Enhanced Index Tracking Using Clustering and LSTM",
+    "abstract": "Enhanced index tracking (EIT) is an active research area in portfolio management that focuses on adding reliable value relative to the index on the basis of mimicking the behavior of the benchmark index. To solve the EIT problem, many approaches have been proposed. However, it still remains a critical challenge to efficiently generate a portfolio with good quality. In this study, we propose a learning-based approach named IntelliPortfolio for the EIT problem. IntelliPortfolio uses PCA and clustering to select stock and estimates the investment weight for each constituent stock using a long short-term memory (LSTM) network. Two advantages of the proposed algorithm are as follows. (1) It considers both the fundamentals and the price information for stocks and can balance the trade-off between the performance and the diversity of the selected stocks. (2) It uses a LSTM model to estimate investment weights, which is more capable to handle long sequences of input and is more robust to predict the future trend of stock market. Experimental results on the five real-world datasets of the international stock market illustrate the significant performance superiority of the proposed approach in comparison with five state-of-the-art algorithms.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "442776d238b5e00afb05d890d37b4d0c",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.595802"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用聚类和LSTM网络来优化增强指数跟踪（EIT）问题，这直接属于投资组合管理的范畴。论文明确提到其目标是生成高质量的资产组合，并通过实验验证了在国际股票市场上的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用聚类和LSTM网络来优化增强指数跟踪（EIT）问题，这直接属于投资组合管理的范畴。论文明确提到其目标是生成高质量的资产组合，并通过实验验证了在国际股票市场上的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:14.603857"
+}

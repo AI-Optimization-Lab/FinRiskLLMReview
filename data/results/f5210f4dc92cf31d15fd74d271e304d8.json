@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "decision tree",
+    "regression"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions applying a machine learning approach to analyze time on market in real estate markets.",
+    "supervised learning": "The random survival forest approach used in the paper is a supervised learning method, as it involves predicting a target variable (time on market) based on input features.",
+    "decision tree": "The random survival forest is an ensemble method based on decision trees, which are mentioned implicitly through the use of this technique.",
+    "regression": "The analysis involves predicting a continuous variable (time on market), which is a regression task, even though the specific term 'regression' is not used in the abstract."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"decision tree\", \"regression\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions applying a machine learning approach to analyze time on market in real estate markets.\",\n    \"supervised learning\": \"The random survival forest approach used in the paper is a supervised learning method, as it involves predicting a target variable (time on market) based on input features.\",\n    \"decision tree\": \"The random survival forest is an ensemble method based on decision trees, which are mentioned implicitly through the use of this technique.\",\n    \"regression\": \"The analysis involves predicting a continuous variable (time on market), which is a regression task, even though the specific term 'regression' is not used in the abstract.\"\n  }\n}\n```"
+}

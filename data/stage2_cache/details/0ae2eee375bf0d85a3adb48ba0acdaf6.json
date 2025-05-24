@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 6276,
+    "title": "Development of a prediction model for antimicrobial stewardship pharmacy consultations to identify high-risk pediatric patients: a retrospective study across two centers",
+    "abstract": "BackgroundAntimicrobial Stewardship Pharmacy Consultation (ASPC) in China has been shown to reduce patients' length of stay (LOS). However, prolonged LOS remains a challenge, resulting in unnecessary psychological and financial burden for patients.ObjectiveThis study aimed to develop a prediction model using ASPC parameters to identify high-risk pediatric patients with infectious diseases. These patients received ASPC interventions but still experienced prolonged LOS, which defined their high-risk status.MethodsPredictors for the ASPC model were selected using lasso regression, a nomogram was developed using multivariate logistic regression, and internal validation was performed using tenfold cross-validation. The data set consisted of 474 electronic medical records of pediatric patients with infectious diseases from two hospitals. LOS was dichotomized at the median, and patients with LOS greater than the median were considered to have achieved the outcome.ResultsThe proportion of outcome events was set at 50% by design. Five independent predictors were identified in the ASPC model: (1) the suggestions from the crucial consultation (OR: 1.74; 95% CI: 1.10 to 2.74), (2) weight (OR: 0.98; 95% CI: 0.97 to 1.00), (3) whether the patient received first aid (OR: 0.54; 95% CI: 0.3 to 1.00), (4) the aim of the crucial consultation (OR: 0.15; 95% CI: 0.03 to 0.66), and (5) whether the patient was critically ill (OR: 0.22; 95% CI: 0.12 to 0.41). The ASPC model showed good discrimination with a C-statistic of 0.772 (95% CI: 0.748 to 0.797) and good calibration performance with intercept and slope values of 0.00 (95% CI: -0.12 to 0.12) and 0.93 (95% CI: 0.82 to 1.04), respectively, under tenfold cross-validation.ConclusionsThe antimicrobial stewardship pharmacy consultation model has good discrimination and calibration, and effectively identifies patients at risk for prolonged length of stay.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2de7749effb180fa417fd0a321c43b28",
+    "relevant_keywords": [
+      "regression",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:56:37.291963"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是医疗领域的预测模型，用于识别高风险儿科患者，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是医疗领域的预测模型，用于识别高风险儿科患者，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:30.452845"
+}

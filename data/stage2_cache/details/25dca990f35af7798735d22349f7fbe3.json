@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 179,
+    "title": "Forecasting stock volatility and value-at-risk based on temporal convolutional networks",
+    "abstract": "In recent years, deep learning has attracted increasing popularity in modern financial fields. The volatility of financial asset returns as well as the Value-at-Risk (VaR) play a significant role in many applications such as risk management, investment portfolios and etc. Thus, it is extremely essential to accurately estimate volatility and VaR. Temporal convolutional networks (TCNs), a relatively new deep learning architecture for solving sequential modeling tasks, have demonstrated convincingly good performance in many applications. In this paper, we utilize TCNs to forecast stock volatility and VaR. To the best of our knowledge, this is the first attempt to address this task with TCNs. In the experiments conducted with both synthetic data and some real stock data, TCNs are compared with other twelve popular models which include nine conventional approaches (i.e., three GARCH-type models with each being considered three tail distributions) and three deep learning methods (i.e., LSTM, LSTM with attention mechanism and GRU). The Friedman test followed by the Nemenyi post-hoc test is also employed to analyze whether TCNs perform significantly better than the other methods across the real stock datasets. As for volatility modeling, experimental results show that TCNs outperforms all the other methods in terms of RMSE (root mean squared error) and MAE (mean absolute error). In the meantime, TCNs behave best in calculating VaR when evaluating their performance with several metrics. More importantly, the superiority of TCNs over GARCH-type methods are statistically significant. As a result, TCNs can be regarded as an important technique to forecast return volatility and the associated VaR.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "9ec3c44ab6544d102752342fbe902f0d",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.395188"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用时间卷积网络（TCNs）来预测股票波动率和风险价值（VaR），这些都是金融风险管理中的关键指标。论文明确提到这些预测在风险管理中的应用，并且实验设计也围绕这些金融风险指标展开。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用时间卷积网络（TCNs）来预测股票波动率和风险价值（VaR），这些都是金融风险管理中的关键指标。论文明确提到这些预测在风险管理中的应用，并且实验设计也围绕这些金融风险指标展开。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:05.516351"
+}

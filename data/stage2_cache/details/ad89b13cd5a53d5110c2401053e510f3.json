@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1092,
+    "title": "Robust Median Reversion Strategy for Online Portfolio Selection",
+    "abstract": "Online portfolio selection has attracted increasing attention from data mining and machine learning communities in recent years. An important theory in financial markets is mean reversion, which plays a critical role in some state-of-the-art portfolio selection strategies. Although existing mean reversion strategies have been shown to achieve good empirical performance on certain datasets, they seldom carefully deal with noise and outliers in the data, leading to suboptimal portfolios, and consequently yielding poor performance in practice. In this paper, we propose to exploit the reversion phenomenon by using robust L-1-median estimators, and design a novel online portfolio selection strategy named Robust Median Reversion (RMR), which constructs optimal portfolios based on the improved reversion estimator. We examine the performance of the proposed algorithms on various real markets with extensive experiments. Empirical results show that RMR can overcome the drawbacks of existing mean reversion algorithms and achieve significantly better results. Finally, RMR runs in linear time, and thus is suitable for large-scale real-time algorithmic trading applications.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0a6bffa4a9f39c420485731e5afdc1a4",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.311234"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是设计一种名为Robust Median Reversion (RMR)的在线投资组合选择策略，旨在通过改进的回归估计器构建最优投资组合。这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是设计一种名为Robust Median Reversion (RMR)的在线投资组合选择策略，旨在通过改进的回归估计器构建最优投资组合。这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:42.602355"
+}

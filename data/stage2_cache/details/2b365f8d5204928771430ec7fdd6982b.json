@@ -1,0 +1,40 @@
+{
+  "paper": {
+    "id": 514,
+    "title": "A Methodology for Developing Deep Reinforcement Learning Trading Strategies: A Case Study in the Futures Market",
+    "abstract": "Quantitative algorithmic trading and machine learning have transformed financial markets by introducing advanced computational techniques for market analysis, decision-making, risk management, and order execution. This paper explores Deep Reinforcement Learning (DRL) for developing day trading strategies within the Ibovespa futures market, the world's most traded stock index futures contract. We chose the Ibovespa market for its high liquidity and volatility, which present unique challenges and opportunities for trading. We propose a novel methodology for the development, evaluation, and deployment of DRL-powered strategies. This methodology involves model generation, approval, selection, and execution, supported by comprehensive metrics for assessing returns, risk, and stability. We introduce the FUT-DRL trading strategy, a new approach that models the trading problem as a Partially Observable Markov Decision Process using DRL agents and the Deep Q-Network algorithm to navigate market complexities. Our empirical study, utilizing a diverse five-year dataset under varied conditions, shows that FUT-DRL outperforms traditional strategies, such as trend-following and mean-reversion, achieving an annualized return over 100% and a Probabilistic Sharpe Ratio of 0.96. This research advances the integration of machine learning with quantitative trading, offering a robust framework for strategy development, and highlighting DRL's effectiveness in the volatile Ibovespa market, demonstrating the potential of adaptive and intelligent systems to evolve trading strategies in rapidly changing financial markets.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "329d07e05d42822482c69afb721521d0",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "rectified linear unit",
+      "ReLU",
+      "sigmoid",
+      "tanh",
+      "hidden layer",
+      "deep belief network",
+      "DBM",
+      "restricted Boltzmann machine",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.181492"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习（DRL）开发交易策略，特别是在期货市场中。虽然论文提到了风险管理和回报评估，但主要研究目标是开发高效的交易策略，这更符合投资组合管理的范畴。论文并未涉及衍生品定价的具体方法，也未专注于金融风险管理的系统性分析。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习（DRL）开发交易策略，特别是在期货市场中。虽然论文提到了风险管理和回报评估，但主要研究目标是开发高效的交易策略，这更符合投资组合管理的范畴。论文并未涉及衍生品定价的具体方法，也未专注于金融风险管理的系统性分析。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:08.092096"
+}

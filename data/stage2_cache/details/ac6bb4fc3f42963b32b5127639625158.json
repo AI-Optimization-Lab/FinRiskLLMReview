@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2315,
+    "title": "Multi -objective evolutionary optimization for hardware -aware neural network pruning",
+    "abstract": "Neural network pruning is a popular approach to reducing the computational complexity of deep neural networks. In recent years, as growing evidence shows that conventional network pruning methods employ inappropriate proxy metrics, and as new types of hardware become increasingly available, hardware-aware network pruning that incorporates hardware characteristics in the loop of network pruning has gained growing attention. Both network accuracy and hardware efficiency (latency, memory consumption, etc.) are critical objectives to the success of network pruning, but the conflict between the multiple objectives makes it impossible to find a single optimal solution. Previous studies mostly convert the hardware-aware network pruning to optimization problems with a single objective. In this paper, we propose to solve the hardware-aware network pruning problem with Multi-Objective Evolutionary Algorithms (MOEAs). Specifically, we formulate the problem as a multi-objective optimization problem, and propose a novel memetic MOEA, namely HAMP, that combines an efficient portfolio- based selection and a surrogate-assisted local search, to solve it. Empirical studies demonstrate the potential of MOEAs in providing simultaneously a set of alternative solutions and the superiority of HAMP compared to the state-of-the-art hardware-aware network pruning method.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6ef0d1934afd73d228250546a066f9ae",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:39.635092"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究硬件感知的神经网络剪枝技术，并提出了多目标进化算法来解决这一问题。虽然论文涉及优化算法，但并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究硬件感知的神经网络剪枝技术，并提出了多目标进化算法来解决这一问题。虽然论文涉及优化算法，但并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:53.076740"
+}

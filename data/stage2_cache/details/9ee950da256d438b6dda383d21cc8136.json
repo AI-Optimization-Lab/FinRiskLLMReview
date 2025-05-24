@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 1574,
+    "title": "Leveraging BiLSTM-GAT for enhanced stock market prediction: a dual-graph approach to portfolio optimization",
+    "abstract": "Stock price prediction remains a critical challenge in financial research due to its potential to inform strategic decision-making. Existing approaches predominantly focus on two key tasks: (1) regression, which forecasts future stock prices, and (2) classification, which identifies trading signals such as buy, sell, or hold. However, the inherent limitations of financial data hinder effective model training, often leading to suboptimal performance. To mitigate this issue, prior studies have expanded datasets by aggregating historical data from multiple companies. This strategy, however, fails to account for the unique characteristics and interdependencies among individual stocks, thereby reducing predictive accuracy. To address these limitations, we propose a novel BiLSTM-GAT-AM model that integrates bidirectional long short-term memory (BiLSTM) networks with graph attention networks (GAT) and an attention mechanism (AM). Unlike conventional graph-based models that define edges based solely on technical or fundamental relationships, our approach employs a dual-graph structure: one graph captures technical similarities, while the other encodes fundamental industry relationships. These two representations are aligned through an attention mechanism, enabling the model to exploit both technical and fundamental insights for enhanced stock market predictions. We conduct extensive experiments, including ablation studies and comparative evaluations against baseline models. The results demonstrate that our model achieves superior predictive performance. Furthermore, leveraging the model's forecasts, we construct an optimized portfolio and conduct backtesting on the test dataset. Empirical results indicate that our portfolio consistently outperforms both baseline models and the S&P 500 index, highlighting the effectiveness of our approach in stock market prediction and portfolio optimization.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d376b411ad720694545444b80a9a4281",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:12.699789"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用BiLSTM-GAT-AM模型进行股票市场预测，并基于预测结果构建和优化投资组合。论文明确提到利用模型的预测进行投资组合优化，并通过回测验证其表现优于基准模型和S&P 500指数，这直接指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用BiLSTM-GAT-AM模型进行股票市场预测，并基于预测结果构建和优化投资组合。论文明确提到利用模型的预测进行投资组合优化，并通过回测验证其表现优于基准模型和S&P 500指数，这直接指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:08.708321"
+}

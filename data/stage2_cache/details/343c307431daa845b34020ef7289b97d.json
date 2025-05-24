@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2683,
+    "title": "Quick, Correct, and Consistent Text Annotations: An Active Learning-Based Annotation Workflow and Tool for Sequence Labeling of Construction Schedules",
+    "abstract": "Today, construction planning and scheduling are still conducted by expert planners whose knowledge is preserved in a portfolio of previous construction schedules and weekly work plans. While research has focused on assisting new planners by creating new artificial intelligence (AI) algorithms that automatically learn patterns of construction activities, a common underlying challenge to these algorithms is the lack of annotated data necessary for their training and testing. Towards this goal, this paper provides a new annotation method and an AI-based tool for part-of-activity tagging, i.e., for decoding the constructional functionalities embedded in a given construction activity name such as the activity's action, object, and location. When annotating, the tool's active learning mechanism allows the tool's AI-engine to suggest the most relevant annotations to expert planners performing the task while learning from their approvals and revisions on the fly. We evaluate the applicability of this algorithm on a dataset of similar to 1,350 construction schedule activities, and we demonstrate that our method enables fast generation of high-quality ground truth annotations. Furthermore, we extend the tool's capability to provide sequence annotations for any text data and we make it customizable and openly available on GitHub for the benefit of the research community.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2b29c3e2f403851c56e857b25ad5e294",
+    "relevant_keywords": [
+      "machine learning",
+      "active learning",
+      "classification",
+      "sequence-to-sequence learning",
+      "encoder-decoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.982635"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是建筑计划中的文本标注工具和方法，涉及机器学习和主动学习技术，但其应用场景是建筑行业的计划与调度，并未提及任何金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是建筑计划中的文本标注工具和方法，涉及机器学习和主动学习技术，但其应用场景是建筑行业的计划与调度，并未提及任何金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:17.266720"
+}

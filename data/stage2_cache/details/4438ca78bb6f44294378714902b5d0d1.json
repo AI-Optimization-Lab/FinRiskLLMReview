@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 469,
+    "title": "Multi-Sensor Temporal Fusion Transformer for Stock Performance Prediction: An Adaptive Sharpe Ratio Approach",
+    "abstract": "Accurate prediction of the Sharpe ratio, a key metric for risk-adjusted returns in financial markets, remains a significant challenge due to the complex and stochastic nature of stock price movements. This paper introduces a novel deep learning model, the Temporal Fusion Transformer with Adaptive Sharpe Ratio Optimization (TFT-ASRO), designed to address this challenge. The model incorporates real-time market sensor data and financial indicators as input signals, leveraging multiple data streams including price sensors, volume sensors, and market sentiment sensors to capture the complete market state. Using a comprehensive dataset of US historical stock prices and earnings data, we demonstrate that TFT-ASRO outperforms traditional methods and existing deep learning models in predicting Sharpe ratios across various time horizons. The model's multi-task learning framework, which simultaneously predicts returns and volatility, provides a more nuanced understanding of risk-adjusted performance. Furthermore, our adaptive optimization approach effectively balances the trade-off between return maximization and risk minimization, leading to more robust predictions. Empirical results show that TFT-ASRO achieves a 18% improvement in Sharpe ratio prediction accuracy compared to state-of-the-art baselines, with particularly strong performance in volatile market conditions. The model also demonstrates superior uncertainty quantification, providing reliable confidence intervals for its predictions. These findings have significant implications for portfolio management and investment strategy optimization, offering a powerful tool for financial decision-makers in the era of data-driven investing.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "355b551f9af0e68724dd68ad00329729",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:38:59.155719"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是预测Sharpe比率，这是投资组合管理中用于评估风险调整后收益的关键指标。论文明确提到其研究成果对投资组合管理和投资策略优化有重要意义。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是预测Sharpe比率，这是投资组合管理中用于评估风险调整后收益的关键指标。论文明确提到其研究成果对投资组合管理和投资策略优化有重要意义。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:53.342703"
+}

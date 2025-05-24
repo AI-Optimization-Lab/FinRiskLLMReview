@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3626,
+    "title": "Modeling default risk via a hidden Markov model of multiple sequences",
+    "abstract": "Default risk in commercial lending is one of the major concerns of the creditors. In this article, we introduce a new hidden Markov model (HMM) with multiple observable sequences (MHMM), assuming that all the observable sequences are driven by a common hidden sequence, and utilize it to analyze default data in a network of sectors. Efficient estimation method is then adopted to estimate the model parameters. To further illustrate the advantages of MHMM, we compare the hidden risk state process obtained by MHMM with that from the traditional HMMs using credit default data. We then consider two applications of our MHMM. The calculation of two important risk measures: Value-at-risk (VaR) and expected shortfall (ES) and the prediction of global risk state. We first compare the performance of MHMM and HMM in the calculation of VaR and ES in a portfolio of default-prone bonds. A logistic regression model is then considered for the prediction of global economic risk using our MHMM with default data. Numerical results indicate our model is effective for both applications.",
+    "year": 2010,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "215af22719516a7bbc2f910ba5f227a2",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:19:00.764937"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on modeling default risk using a hidden Markov model, specifically addressing the calculation of Value-at-Risk (VaR) and expected shortfall (ES), which are key measures in financial risk management. The application to default-prone bonds further underscores its relevance to risk assessment in lending and credit markets.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on modeling default risk using a hidden Markov model, specifically addressing the calculation of Value-at-Risk (VaR) and expected shortfall (ES), which are key measures in financial risk management. The application to default-prone bonds further underscores its relevance to risk assessment in lending and credit markets.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:16.655063"
+}

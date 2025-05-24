@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 881,
+    "title": "Real-Time Autonomous Residential Demand Response Management Based on Twin Delayed Deep Deterministic Policy Gradient Learning",
+    "abstract": "With the roll-out of smart meters and the increasing prevalence of distributed energy resources (DERs) at the residential level, end-users rely on home energy management systems (HEMSs) that can harness real-time data and employ artificial intelligence techniques to optimally manage the operation of different DERs, which are targeted toward minimizing the end-user's energy bill. In this respect, the performance of the conventional model-based demand response (DR) management approach may deteriorate due to the inaccuracy of the employed DER operating models and the probabilistic modeling of uncertain parameters. To overcome the above drawbacks, this paper develops a novel real-time DR management strategy for a residential household based on the twin delayed deep deterministic policy gradient (TD3) learning approach. This approach is model-free, and thus does not rely on knowledge of the distribution of uncertainties or the operating models and parameters of the DERs. It also enables learning of neural-network-based and fine-grained DR management policies in a multi-dimensional action space by exploiting high-dimensional sensory data that encapsulate the uncertainties associated with the renewable generation, appliances' operating states, utility prices, and outdoor temperature. The proposed method is applied to the energy management problem for a household with a portfolio of the most prominent types of DERs. Case studies involving a real-world scenario are used to validate the superior performance of the proposed method in reducing the household's energy costs while coping with the multi-source uncertainties through comprehensive comparisons with the state-of-the-art deep reinforcement learning (DRL) methods.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4abbfa14d17444a8b0e9fd9ac73de7da",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.228863"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究住宅需求响应管理，利用强化学习优化家庭能源使用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究住宅需求响应管理，利用强化学习优化家庭能源使用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:46.467096"
+}

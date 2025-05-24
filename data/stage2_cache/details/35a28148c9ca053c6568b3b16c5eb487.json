@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 59,
+    "title": "基于ELSTM-L模型的股票预测系统",
+    "abstract": "文章提出了采用支持向量机(SVM)和改进的长短期记忆网络(LSTM)与Lasso方法相结合的两个投资组合模型。选取技术指标作为模型的输入变量,使用改进的网格搜索法和指数衰减法分别改进SVM和LSTM。再通过这两种算法对HS300中所有股票进行涨跌预测,并统计预测为上涨的股票,最后基于变量选择观点的Lasso方法对预测上涨的股票进行筛选和权重计算,构建GSVM-L和ELSTM-L投资组合模型。结果表明:相对于其他组合模型,该模型具有较好的投资收益和较强的抗风险能力,且ELSTM-L模型可以容忍更高的交易成本。",
+    "year": 2019,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "f48ef017aded7d9f2acd7c22aba8554d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T20:19:38.842031"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建GSVM-L和ELSTM-L投资组合模型，用于股票预测和投资组合构建，直接应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建GSVM-L和ELSTM-L投资组合模型，用于股票预测和投资组合构建，直接应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:39.808306"
+}

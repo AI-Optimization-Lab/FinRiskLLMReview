@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 816,
+    "title": "An Adaptive Master-Slave Regularized Model for Unexpected Revenue Prediction Enhanced with Alternative Data",
+    "abstract": "Revenue prediction is an essential component in security analysis since the revenue of a company has a great impact on the performance of its stock. For investment, one of the most valuable pieces of information is the company's unexpected revenue, which is the difference between the officially reported revenue and the consensus estimate for revenue predicted by analysts. Since it is the unexpected revenue that indicates something exceeding or under analysts' expectation, it is an indispensable factor that influences the performance of a stock. Besides conventional trading data from stock market and companies' financial reports, recent years have witnessed an extensive application of alternative data for gaining an information edge in stock investment. In this paper, we study the challenging problem of better predicting unexpected revenue of a company via machine learning with alternative data. To the best of our knowledge, this is the first work studying this problem in literature. However, it is nontrivial to quantitatively model the relations between the unexpected revenue and the information provided by alternative data with a machine learning approach. Thus we proposed an adaptive master-slave regularized model, called AMS for short, to effectively leverage alternative data for unexpected revenue prediction. AMS first trains a master model upon a company graph, which captures the relations among companies, using a graph neural network (GNN). Then for a target company, the master model generates an adaptive slave-model, which is specially optimized for this target company. Finally, we use this slave-model to predict the unexpected revenue of the target company. Besides its excellent prediction performance, another critical advantage of our AMS model lies in its superior interpretability, which is crucial for portfolio managers to understand the predicted results. With extensive experiments using two real-world alternative datasets, we have demonstrated the effectiveness of our model against a set of competitors.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0562151430ac27fdae25ac82306f7025",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "graph neural network",
+      "GNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.420189"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习和图神经网络预测公司的意外收入，这直接服务于股票投资分析，是投资组合管理的关键组成部分。论文明确提到预测结果对投资组合经理的重要性，且研究目标是提供信息优势以支持股票投资决策。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习和图神经网络预测公司的意外收入，这直接服务于股票投资分析，是投资组合管理的关键组成部分。论文明确提到预测结果对投资组合经理的重要性，且研究目标是提供信息优势以支持股票投资决策。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:27.000619"
+}

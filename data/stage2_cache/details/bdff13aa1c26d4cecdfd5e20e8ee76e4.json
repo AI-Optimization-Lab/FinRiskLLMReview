@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 3990,
+    "title": "Stock Index Forecasting Using an Explainable TAFT Model with Online Data-Driven Social Sentiment Index",
+    "abstract": "Forecasting financial indices presents significant challenges owing to the inherent nonlinearity, noise, and disorder in financial time series data. To address these challenges, this study introduces a novel approach that integrates social sentiment analysis with advanced deep learning models. Specifically, a social sentiment index (SSI) is developed using FinBERT to analyze the sentiment scores of online article data from Investing.com. Additionally, a target-auxiliary fusion transformer (TAFT) is designed to effectively integrate SSI as an auxiliary feature with other indicators. This integration captures long-term dependencies and complex patterns in financial data more effectively than traditional time-series models. By incorporating the SSI, the model can capture the influence of social sentiment on financial markets, thus providing a more comprehensive and accurate prediction framework. Furthermore, TAFT incorporates a dynamic attention mechanism during both training and testing, thereby enhancing the explainability of the relative importance across auxiliary input features. The empirical results indicate that incorporating SSI significantly enhances the predictive accuracy of the financial forecasting model. TAFT achieved a 33.3% improvement in a mean absolute error (MAE) over the best-performing benchmark model for the S&P 500. Additionally, in a classification task, the model outperformed benchmark models with an accuracy of 0.71, a precision of 0.74, a recall of 0.64, and an F1 score of 0.63. This approach provides valuable insights for investors, analysts, and portfolio managers, demonstrating the efficacy of combining sentiment analysis with advanced time series models to improve financial decision-making.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1cf66d0676cc39c35a5ca7e35fda7986",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "attention mechanism",
+      "classification",
+      "regression",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:23:07.212327"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合社交情绪分析和深度学习模型来预测金融指数，如S&P 500，这直接有助于投资决策和资产配置，属于投资组合管理的范畴。论文还提到该方法为投资者和分析师提供了有价值的见解，进一步支持其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合社交情绪分析和深度学习模型来预测金融指数，如S&P 500，这直接有助于投资决策和资产配置，属于投资组合管理的范畴。论文还提到该方法为投资者和分析师提供了有价值的见解，进一步支持其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:22.791852"
+}

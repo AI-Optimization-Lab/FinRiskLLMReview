@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 512,
+    "title": "Portfolio optimization for American options",
+    "abstract": "American options allow early exercise, which yields an additional challenge - besides the weights of each option - when optimizing a portfolio of American options. In this work, we construct strategies for an American option portfolio by exercising options at optimal timings with optimal weights determined concurrently. To model such portfolios, a reinforcement learning (Q-learning) algorithm is proposed, combining an iterative progressive hedging method and a quadratic approximation to Q-values by regression. By means of Monte Carlo simulation and empirical experiments, using data from the SPY options market, we evaluate the quality of our algorithms and examine their performance under various investment assumptions, such as different portfolio settings and distributions of the underlying asset returns. With discretized timings, our strategies work better in a relatively long time horizon and when the portfolio is hedged using the underlying instrument. Due to the highly leveraged and risky nature of our strategies, overly risk-averse investors are proved unsuitable for such investment opportunities.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f209aa6c71d7ee050caa8701f1f37f4e",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:20.992840"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用强化学习（Q-learning）算法来优化美国期权的投资组合，包括确定最优行权时机和权重。这直接涉及投资组合管理。同时，由于美国期权的定价问题（尤其是早期行权的考虑）是衍生品定价的一部分，因此也涉及衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用强化学习（Q-learning）算法来优化美国期权的投资组合，包括确定最优行权时机和权重。这直接涉及投资组合管理。同时，由于美国期权的定价问题（尤其是早期行权的考虑）是衍生品定价的一部分，因此也涉及衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:06.378435"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1974,
+    "title": "Prediction of mortality in Intensive Care Units: a multivariate feature selection",
+    "abstract": "Context: The critical nature of patients in Intensive Care Units (ICUs) demands intensive monitoring of their vital signs as well as highly qualified professional assistance. The combination of these needs makes ICUs very expensive, which requires investment to be prioritized. Administrative issues emerge, and health institutions face dilemmas such as: How many beds should an ICU provide to serve the population, at the lowest costs and Which is the most critical body information to monitor in an ICU?. Due to financial and ethical implications, these judgments require technical and precise knowledge. Decisions have usually relied on clinical scores, like the APACHE (Acute Physiology And Chronic Health Evaluation) and SOFA (Sequential Organ Failure Assessment) scores, which are imprecise and outdated. The popularization of machine learning techniques has shed some light on the topic as a way to renew score purposes. In 2012, the PhysioNet/Computing in Cardiology launched the Challenge - ICU Patients. This Challenge aimed to stimulate the development of techniques to predict mortality in ICUs. Based on biometric and physiological features collected from patients, the participants predicted the patient's death risk by using their classifiers. Several participants achieved results that were better than the results produced by the SOFA and the APACHE scores; the prediction levels were approximate to 54%, which is weak. Objectives: Here, we investigate the reasons that led to these results as a means to ground our solution. Then, we propose alternative practices in an attempt to improve the results. Our main goal is to improve the prediction of mortality in ICUs by using the same data employed during the 2012 PhysioNet Challenge. Our specific objectives are (i) to simplify the problem by reducing the dimensionality; (ii) to reduce the uncontrolled variance, and (iii) to make classifiers less dependent on the training set. Methods: Accordingly, we propose a methodology based on extensive steps, including sample filter and data normalization. To select features and to reduce the infra-group variance, we employ multivariate data analysis by using Principal Component Analysis, Factor Analysis, Spectral Clustering, and Tukey's HSD Test, recursively. After that, we use machine learning techniques to create classifiers according to different methods. We evaluate our results with the same metrics proposed by the 2012 PhysioNet Challenge. Results: For classifiers constructed and tested by using independent datasets, our best classifier was a linear SVM, which provided results of approximate to 0.73. These results were significantly better than the approximate to 0.54 achieved in previous work at >99% confidence interval. Furthermore, our approach only demanded twelve features, which was consistently smaller than the number of features required by the previous approaches. Conclusion: Our results indicated that our approach presented: (a) higher performance to predict death risks (+ 20%); (b) smaller dependence on the training set; and (c) lower costs for ICU monitoring (few features). Besides the better prediction power, our approach also demanded lower costs for implementation and a more extensive range of potential ICUs. Future studies should employ our proposal to investigate the possibility of including some physiological features that were not available for the 2012 PhysioNet Challenge.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f7093cbe426e415f5e95fd97444f6b7e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "principal components analysis",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:48.295852"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用机器学习技术预测重症监护病房（ICU）患者的死亡率，其应用场景是医疗健康领域，而非金融领域。虽然论文中提到了成本和管理问题，但这些都与金融风险管理、衍生品定价或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用机器学习技术预测重症监护病房（ICU）患者的死亡率，其应用场景是医疗健康领域，而非金融领域。虽然论文中提到了成本和管理问题，但这些都与金融风险管理、衍生品定价或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:09.060902"
+}

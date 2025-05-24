@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "论文明确提到使用机器学习方法（包括个体机器学习和集成机器学习）来预测中小企业信用风险。",
+    "supervised learning": "信用风险预测是一个典型的监督学习问题，论文中使用的决策树、bagging、boosting等方法都属于监督学习范畴。",
+    "classification": "信用风险预测本质上是将企业分类为不同风险等级的分类问题。",
+    "decision tree": "论文明确提到使用决策树作为个体机器学习方法之一。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"论文明确提到使用机器学习方法（包括个体机器学习和集成机器学习）来预测中小企业信用风险。\",\n    \"supervised learning\": \"信用风险预测是一个典型的监督学习问题，论文中使用的决策树、bagging、boosting等方法都属于监督学习范畴。\",\n    \"classification\": \"信用风险预测本质上是将企业分类为不同风险等级的分类问题。\",\n    \"decision tree\": \"论文明确提到使用决策树作为个体机器学习方法之一。\"\n  }\n}\n```"
+}

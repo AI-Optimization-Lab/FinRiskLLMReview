@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 856,
+    "title": "GBMVis: Visual Analytics for Interpreting Gradient Boosting Machine",
+    "abstract": "The gradient boosting machine (GBM) composed of multiple weak learners is an efficient and widely used machine learning method. As a key factor in the prediction process of the gradient boosting machine, feature affects the performance of the gradient boosting machine when splitting nodes. The idea of GBM gives it a natural advantage to discover a variety of distinguishing features and feature combinations. Once the gradient boosting machine has the correct features, other factors play a relatively weak role. However, the GBM is a complicated and tedious process with diverse structure and attributes of decision tree, leading the model to be less interpretable, especially for high risk areas such as medical diagnosis and financial analytics that require transparent prediction. To tackle this issue, we have proposed an interactive visual analytic system, GBMVis, to help experts quickly analyze and of the gradient boosting machine. In addition to providing information about the features, we have also provided a visualization of the structure of boosting trees, which aims to display the major data flow in the gradient boosting machine. We have demonstrated the effectiveness of our system in a real dataset.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "029709c6705d2015be593c1c382b695b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.713348"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是梯度提升机（GBM）的可视化分析系统GBMVis，旨在提高模型的解释性。虽然提到了金融分析作为高风险领域之一，但论文的核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理等具体金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是梯度提升机（GBM）的可视化分析系统GBMVis，旨在提高模型的解释性。虽然提到了金融分析作为高风险领域之一，但论文的核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理等具体金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:15.365256"
+}

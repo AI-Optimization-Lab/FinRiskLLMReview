@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 8405,
+    "title": "Modeling health and well-being measures using ZIP code spatial neighborhood patterns",
+    "abstract": "Individual-level assessment of health and well-being permits analysis of community well-being and health risk evaluations across several dimensions of health. It also enables comparison and rankings of reported health and well-being for large geographical areas such as states, metropolitan areas, and counties. However, there is large variation in reported well-being within such large spatial units underscoring the importance of analyzing well-being at more granular levels, such as ZIP codes. In this paper, we address this problem by modeling well-being data to generate ZIP code tabulation area (ZCTA)-level rankings through spatially informed statistical modeling. We build regression models for individual-level overall well-being index and scores from five subscales (Physical, Financial, Social, Community, Purpose) using individual-level demographic characteristics as predictors while including a ZCTA-level spatial effect. The ZCTA neighborhood information is incorporated by using a graph Laplacian matrix; this enables estimation of the effect of a ZCTA on well-being using individual-level data from that ZCTA as well as by borrowing information from neighboring ZCTAs. We deploy our model on well-being data for the U.S. states of Massachusetts and Georgia. We find that our model can capture the effects of demographic features while also offering spatial effect estimates for all ZCTAs, including ones with no observations, under certain conditions. These spatial effect estimates provide community health and well-being rankings of ZCTAs, and our method can be deployed more generally to model other outcomes that are spatially dependent as well as data from other states or groups of states.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0d3f04c5b809c44916b83015512fc665",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T03:18:19.692006"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究健康与福祉的测量模型，通过空间统计建模分析邮政编码级别的数据，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究健康与福祉的测量模型，通过空间统计建模分析邮政编码级别的数据，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:37.142114"
+}

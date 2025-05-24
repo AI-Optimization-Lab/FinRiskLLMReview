@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 804,
+    "title": "A multi-scale convolutional neural network-based model for clustering economic risk detection",
+    "abstract": "After the public health event of COVID-19, more academics are looking into how to predict combined economic hazards associated with public health incidents. There are currently just a few approaches for detecting aberrant behaviour in aggregated financial risk, and most only work after the economic risk has already been inappropriately aggregated. As a result, we provide a multi-scale convolutional neural network-based model for clustering financial risk anomaly detection (MCNN). First, we use MCNN to train a model for counting economic risks that are used to evaluate aberrant risk aggregating data. Second, we can use the test results to extract the financial risk statistics and economic risk precursor coordinate points. Then, we calculate the economic risk distribution entropy, distance, potential energy and density. To train the three elements of the development state and create the prediction model, we finally use the particle swarm optimization-based extreme learning machine (PSO-ELM). The results of the experiments demonstrate that, in comparison to existing algorithms, our model can efficiently realize early warning and detect abnormal behaviours of aggregated economic risks with high timeliness. Additionally, our method achieves a forecast accuracy of 97.68% and can give additional time to take emergency action.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "598cdef99690beb6ebb3f2c49c4c859d",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:08.112067"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用多尺度卷积神经网络模型来检测和预警经济风险的异常行为，这直接涉及金融风险管理中的风险识别和预警。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用多尺度卷积神经网络模型来检测和预警经济风险的异常行为，这直接涉及金融风险管理中的风险识别和预警。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:38.431768"
+}

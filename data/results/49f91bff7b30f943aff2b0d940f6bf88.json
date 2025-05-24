@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "clustering",
+    "neural network",
+    "deep learning",
+    "convolutional neural network",
+    "CNN",
+    "recurrent neural network",
+    "long short-term memory",
+    "LSTM",
+    "autoencoder"
+  ],
+  "explanations": {
+    "machine learning": "The paper discusses various machine learning models for intrusion detection.",
+    "supervised learning": "The models used (e.g., CNN, LSTM) are typically trained in a supervised manner.",
+    "classification": "The paper focuses on classification methodologies for intrusion detection.",
+    "clustering": "The paper mentions K-means clustering as part of some models (e.g., RF+K-means+DNN).",
+    "neural network": "The paper employs various neural network architectures like CNN and LSTM.",
+    "deep learning": "The models used (e.g., CNN, LSTM, Autoencoder) are deep learning models.",
+    "convolutional neural network": "The paper uses CNN as part of the AE+CNN model.",
+    "CNN": "Abbreviation for convolutional neural network, used in the AE+CNN model.",
+    "recurrent neural network": "The paper uses Bi-GRU, which is a type of recurrent neural network.",
+    "long short-term memory": "The paper uses LSTM in the AE+K-means+LSTM model.",
+    "LSTM": "Abbreviation for long short-term memory, used in the AE+K-means+LSTM model.",
+    "autoencoder": "The paper uses autoencoder in models like AE+CNN and AE+K-means+LSTM."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"clustering\",\n    \"neural network\",\n    \"deep learning\",\n    \"convolutional neural network\",\n    \"CNN\",\n    \"recurrent neural network\",\n    \"long short-term memory\",\n    \"LSTM\",\n    \"autoencoder\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper discusses various machine learning models for intrusion detection.\",\n    \"supervised learning\": \"The models used (e.g., CNN, LSTM) are typically trained in a supervised manner.\",\n    \"classification\": \"The paper focuses on classification methodologies for intrusion detection.\",\n    \"clustering\": \"The paper mentions K-means clustering as part of some models (e.g., RF+K-means+DNN).\",\n    \"neural network\": \"The paper employs various neural network architectures like CNN and LSTM.\",\n    \"deep learning\": \"The models used (e.g., CNN, LSTM, Autoencoder) are deep learning models.\",\n    \"convolutional neural network\": \"The paper uses CNN as part of the AE+CNN model.\",\n    \"CNN\": \"Abbreviation for convolutional neural network, used in the AE+CNN model.\",\n    \"recurrent neural network\": \"The paper uses Bi-GRU, which is a type of recurrent neural network.\",\n    \"long short-term memory\": \"The paper uses LSTM in the AE+K-means+LSTM model.\",\n    \"LSTM\": \"Abbreviation for long short-term memory, used in the AE+K-means+LSTM model.\",\n    \"autoencoder\": \"The paper uses autoencoder in models like AE+CNN and AE+K-means+LSTM.\"\n  }\n}\n```"
+}

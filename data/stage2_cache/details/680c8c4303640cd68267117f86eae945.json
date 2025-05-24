@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 163,
+    "title": "A Deep Neural Network Algorithm for Linear-Quadratic Portfolio Optimization With MGARCH and Small Transaction Costs",
+    "abstract": "We analyze a fixed-point algorithm for reinforcement learning (RL) of optimal portfolio mean-variance preferences in the setting of multivariate generalized autoregressive conditional-heteroskedasticity (MGARCH) with a small penalty on trading. A numerical solution is obtained using a neural network (NN) architecture within a recursive RL loop. A fixed-point theorem proves that NN approximation error has a big-oh bound that we can reduce by increasing the number of NN parameters. The functional form of the trading penalty has a parameter epsilon > 0 that controls the magnitude of transaction costs. When epsilon is small, we can implement an NN algorithm based on the expansion of the solution in powers of epsilon. This expansion has a base term equal to a myopic solution with an explicit form, and a first-order correction term that we compute in the RL loop. Our expansion-based algorithm is stable, allows for fast computation, and outputs a solution that shows positive testing performance.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ace5e32e5cc05f03cb97d3e29fe1f77c",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.094018"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on optimizing portfolio mean-variance preferences using reinforcement learning and neural networks within the context of MGARCH and small transaction costs, which is directly related to portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on optimizing portfolio mean-variance preferences using reinforcement learning and neural networks within the context of MGARCH and small transaction costs, which is directly related to portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:16.514392"
+}

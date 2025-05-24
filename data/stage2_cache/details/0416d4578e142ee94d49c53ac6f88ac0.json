@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5118,
+    "title": "The Shapley value of regression portfolios",
+    "abstract": "By viewing portfolio optimization as a cooperative game played by the assets minimizing risk for a given return, investors can compute the exact value each security adds to the common payoff of the game. This is known the Shapley value that imputes the contribution of each asset, by looking at all the possible portfolios in which securities might participate. In this paper I use the Shapley value to decompose the risk and return of optimal portfolios that result from minimizing ordinary least squares. These regression portfolios are identical to tangency portfolios obtained by maximizing the Sharpe ratio of holdings on the mean-variance efficient frontiers. The Shapley value of individual assets is computed using the statistics resulting from the regressions. The value imputation prices assets by their comprehensive contribution to portfolio risk and return. This procedure allows investors to make unbiased decisions when analyzing the inherent risk of their holdings. By running OLS regressions, the Shapley value is calculated for asset allocation using Ibbotson's aggregate financial data for the years 1926-2019.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2a013174be8208ab86df0d794ddbea67",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:44:43.809030"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用Shapley值来分解最优投资组合的风险和回报，并利用回归分析来计算资产对投资组合的贡献。这些内容直接涉及投资组合的构建和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用Shapley值来分解最优投资组合的风险和回报，并利用回归分析来计算资产对投资组合的贡献。这些内容直接涉及投资组合的构建和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:08.811410"
+}

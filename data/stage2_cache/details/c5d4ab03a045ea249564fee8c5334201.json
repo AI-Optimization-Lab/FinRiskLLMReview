@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1558,
+    "title": "A method for managing scientific research project resource conflicts and predicting risks using BP neural networks",
+    "abstract": "This study begins by considering the resource-sharing characteristics of scientific research projects to address the issues of resource misalignment and conflict in scientific research project management. It comprehensively evaluates the tangible and intangible resources required during project execution and establishes a resource conflict risk index system. Subsequently, a resource conflict risk management model for scientific research projects is developed using Back Propagation (BP) neural networks. This model incorporates the Dropout regularization technique to enhance the generalization capacity of the BP neural network. Leveraging the BP neural network's non-linear fitting capabilities, it captures the intricate relationship between project resource demand and supply. Additionally, the model employs self-learning to continuously adapt to new scenarios based on historical data, enabling more precise resource conflict risk assessments. Finally, the model's performance is analyzed. The results reveal that risks in scientific research project management primarily fall into six categories: material, equipment, personnel, financial, time, and organizational factors. This study's model algorithm exhibits the highest accuracy in predicting time-related risks, achieving 97.21%, surpassing convolutional neural network algorithms. Furthermore, the Root Mean Squared Error of the model algorithm remains stable at approximately 0.03, regardless of the number of hidden layer neurons, demonstrating excellent fitting capabilities. The developed BP neural network risk prediction framework in this study, while not directly influencing resource utilization efficiency or mitigating resource conflicts, aims to offer robust data support for research project managers when making decisions on resource allocation. The framework provides valuable insights through sensitivity analysis of organizational risks and other factors, with their relative importance reaching up to 20%. Further research should focus on defining specific strategies for various risk factors to effectively enhance resource utilization efficiency and manage resource conflicts.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ffcc23bbdaefdd35848b9d171960250e",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "convolutional neural network",
+      "CNN",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T02:04:20.143284"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是科研项目管理中的资源冲突和风险预测，虽然使用了BP神经网络等技术，但其应用场景是科研项目管理而非金融领域。论文中提到的风险类别如物质、设备、人员、财务、时间和组织因素，均与金融风险管理、衍生品定价或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是科研项目管理中的资源冲突和风险预测，虽然使用了BP神经网络等技术，但其应用场景是科研项目管理而非金融领域。论文中提到的风险类别如物质、设备、人员、财务、时间和组织因素，均与金融风险管理、衍生品定价或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:19.321434"
+}

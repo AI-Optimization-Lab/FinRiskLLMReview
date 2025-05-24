@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 4668,
+    "title": "Deep learning-based NT-proBNP prediction from the ECG for risk assessment in the community",
+    "abstract": "Objectives: The biomarker N-terminal pro B-type natriuretic peptide (NT-proBNP) has predictive value for identifying individuals at risk for cardiovascular disease (CVD). However, it is not widely used for screening in the general population, potentially due to financial and operational reasons. This study aims to develop a deep-learning model as an efficient means to reliably identify individuals at risk for CVD by predicting serum levels of NT-proBNP from the ECG.Methods: A deep convolutional neural network was developed using the population-based cohort study Hamburg City Health Study (HCHS, n=8,253, 50.9 % women). External validation was performed in two independent population-based cohorts (SHIP-START, n=3,002, 52.1 % women, and SHIP-TREND, n=3,819, 51.2 % women). Assessment of model performance was conducted using Pearson correlation (R) and area under the receiver operating characteristics curve (AUROC).Results: NT-proBNP was predictable from the ECG (R, 0.566 [HCHS], 0.642 [SHIP-START-0], 0.655 [SHIP-TREND-0]). Across cohorts, predicted NT-proBNP (pNT-proBNP) showed good discriminatory ability for prevalent and incident heart failure (HF) (baseline: AUROC 0.795 [HCHS], 0.816 [SHIP-START-0], 0.783 [SHIP-TREND-0]; first follow-up: 0.669 [SHIP-START-1, 5 years], 0.689 [SHIP-TREND-1, 7.3 years]), comparable to the discriminatory value of measured NT-proBNP. pNT-proBNP also demonstrated comparable results for other incident CVD, including atrial fibrillation, stroke, myocardial infarction, and cardiovascular death.Conclusions: Deep learning ECG algorithms can predict NT-proBNP concentrations with high diagnostic and predictive value for HF and other major CVD and may be used in the community to identify individuals at risk. Long-standing experience with NT-proBNP can increase acceptance of such deep learning models in clinical practice.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "89bfc805131c3ccc84d12a8b27d9cf18",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:39:57.418139"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习模型从心电图中预测NT-proBNP水平，用于心血管疾病的风险评估，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习模型从心电图中预测NT-proBNP水平，用于心血管疾病的风险评估，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:20.870527"
+}

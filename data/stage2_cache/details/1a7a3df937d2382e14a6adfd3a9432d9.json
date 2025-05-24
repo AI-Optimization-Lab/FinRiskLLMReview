@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 349,
+    "title": "Gaussian process regression for derivative portfolio modeling and application to credit valuation adjustment computations",
+    "abstract": "Modeling counterparty risk is computationally challenging because it requires the simultaneous evaluation of all trades between each counterparty under both market and credit risk. We present a multi-Gaussian process regression approach, which is well suited for the over-the-counter derivative portfolio valuation involved in credit valuation adjustment (CVA) computation. Our approach avoids nested simulation or simulation and regression of cashflows by learning a Gaussian metamodel for the mark-to-market cube of a derivative portfolio. We model the joint posterior of the derivatives as a Gaussian process over function space, imposing the spatial covariance structure on the risk factors. Monte Carlo simulation is then used to simulate the dynamics of the risk factors. The uncertainty in portfolio valuation arising from the Gaussian process approximation is quantified numerically. Numerical experiments demonstrate the accuracy and convergence properties of our approach for CVA computations, including a counterparty portfolio of interest rate swaps.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a9273e5aa6009044bbe55203b150ac5c",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.461094"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用高斯过程回归来建模衍生品组合，并应用于信用估值调整（CVA）的计算。CVA是衍生品定价和金融风险管理中的重要组成部分，特别是针对对手方风险的评估。论文明确提到了对OTC衍生品组合的估值和CVA计算，这直接关联到衍生品定价和金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用高斯过程回归来建模衍生品组合，并应用于信用估值调整（CVA）的计算。CVA是衍生品定价和金融风险管理中的重要组成部分，特别是针对对手方风险的评估。论文明确提到了对OTC衍生品组合的估值和CVA计算，这直接关联到衍生品定价和金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:39.873734"
+}

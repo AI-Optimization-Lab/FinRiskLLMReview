@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 73,
+    "title": "Deep reinforcement learning for portfolio management",
+    "abstract": "Portfolio management facilitates trading off risks against returns for multiple financial assets. Reinforcement Learning (RL) is one of the most promising algorithms for portfolio management. However, these state-of-the-art RL algorithms only complete the task of portfolio management, i.e., acquire the different asset features of portfolio, without considering the global context information from portfolio, which leads to non-optimal portfolio representations; Moreover, the corresponding optimizations are implemented using only the loss function in the viewpoint of RL, without considering the relationships between the local asset information and global context embeddings, which leads to non-optimal portfolio policies. To deal with these issues, this paper proposes a Task-Context Mutual Actor-Critic (TC-MAC) algorithm for portfolio management. Specifically, TC-MAC algorithm is developed based on: (1) representation learning introduces a proposed Task-Context (TC) learning algorithm, which not only encodes the task (i.e., acquire different asset features) of portfolio, but also encodes the global dynamic context of portfolio, thus which helps to learn optimal portfolio embeddings; (2) policy learning introduces a proposed Mutual Actor-Critic (MAC) framework, which can measure the relationships between local embedding of each asset and global context embeddings by maximizing mutual information, the corresponding Mutual-Information loss function combines with RL loss function (i.e., Actor-Critic loss) to collectively optimize the whole algorithm, thus which helps to learn optimal portfolio policies. Experimental results on real-world datasets demonstrate the superior performance of TC-MAC algorithm over the well-known traditional portfolio methods and these state-of-the-art RL algorithms, at the same time, show its advantageous transferability. (c) 2023 Elsevier B.V. All rights reserved.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5a0993a105fe3c685223eb099479d881",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:57.031734"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种名为TC-MAC的深度强化学习算法，专门用于优化投资组合管理。论文明确讨论了如何通过该算法来获取不同资产特征和全局动态上下文信息，以学习最优的投资组合嵌入和策略。实验部分也验证了该算法在投资组合管理任务上的优越性能。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种名为TC-MAC的深度强化学习算法，专门用于优化投资组合管理。论文明确讨论了如何通过该算法来获取不同资产特征和全局动态上下文信息，以学习最优的投资组合嵌入和策略。实验部分也验证了该算法在投资组合管理任务上的优越性能。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:54.144968"
+}

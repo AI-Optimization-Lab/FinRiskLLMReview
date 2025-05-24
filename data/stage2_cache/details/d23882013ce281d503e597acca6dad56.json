@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1432,
+    "title": "Risk-Sensitive Reinforcement Learning: a Martingale Approach to Reward Uncertainty",
+    "abstract": "We introduce a novel framework to account for sensitivity to rewards uncertainty in sequential decision-making problems. While risk-sensitive formulations for Markov decision processes studied so far focus on the distribution of the cumulative reward as a whole, we aim at learning policies sensitive to the uncertain/stochastic nature of the rewards, which has the advantage of being conceptually more meaningful in some cases. To this end, we present a new decomposition of the randomness contained in the cumulative reward based on the Doob decomposition of a stochastic process, and introduce a new conceptual tool - the chaotic variation - which can rigorously be interpreted as the risk measure of the martingale component associated to the cumulative reward process. We innovate on the reinforcement learning side by incorporating this new risk-sensitive approach into model-free algorithms, both policy gradient and value function based, and illustrate its relevance on grid world and portfolio optimization problems.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "bc675b71010877d9ff1d7345fc1254cf",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.588083"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中提到该方法在网格世界和投资组合优化问题中的应用，表明其核心技术（风险敏感的强化学习）被应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中提到该方法在网格世界和投资组合优化问题中的应用，表明其核心技术（风险敏感的强化学习）被应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:06.737824"
+}

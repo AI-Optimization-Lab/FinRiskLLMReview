@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 276,
+    "title": "Investor sentiment-aware prediction model for P2P lending indicators based on LSTM",
+    "abstract": "In recent years, online lending has created many risks while providing lending convenience to Chinese individuals and small and medium-sized enterprises. The timely assessment and prediction of the status of industry indicators is an important prerequisite for effectively preventing the spread of risks in China's new financial formats. The role of investor sentiment should not be underestimated. We first use the BERT model to divide investor sentiment in the review information of China's online lending third-party information website into three categories and analyze the relationship between investor sentiment and quantitative indicators of online lending product transactions. The results show that the percentage of positive comments has a positive relationship to the borrowing interest rate of P2P platforms that investors are willing to participate in for bidding projects. The percentage of negative comments has an inverse relationship to the borrowing period. Second, after introducing investor sentiment into the long short-term memory (LSTM) model, the average RMSE of the three forecast periods for borrowing interest rates is 0.373, and that of the borrowing period is 0.262, which are better than the values of other control models. Corresponding suggestions for the risk prevention of China's new financial formats are made.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "d6f96472d1eed3a9a3a1a8a4e26aaf6a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "BERT",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:36:21.909708"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用LSTM模型结合投资者情绪分析来预测P2P借贷指标，如借款利率和借款期限，目的是为了有效预防中国新型金融业态中的风险传播。这直接关联到金融风险管理领域，特别是信用风险和市场风险的评估与预测。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM模型结合投资者情绪分析来预测P2P借贷指标，如借款利率和借款期限，目的是为了有效预防中国新型金融业态中的风险传播。这直接关联到金融风险管理领域，特别是信用风险和市场风险的评估与预测。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:43.411078"
+}

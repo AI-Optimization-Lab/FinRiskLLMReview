@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1385,
+    "title": "Portfolio Choices with Orthogonal Bandit Learning",
+    "abstract": "The investigation and development of new methods from diverse perspectives to shed light on portfolio choice problems has never stagnated in financial research. Recently, multi-armed bandits have drawn intensive attention in various machine learning applications in online settings. The tradeoff between exploration and exploitation to maximize rewards in bandit algorithms naturally establishes a connection to portfolio choice problems. In this paper, we present a bandit algorithm for conducting online portfolio choices by effectually exploiting correlations among multiple arms. Through constructing orthogonal portfolios from multiple assets and integrating with the upper confidence bound bandit framework, we derive the optimal portfolio strategy that represents the combination of passive and active investments according to a risk-adjusted reward function. Compared with oft-quoted trading strategies in finance and machine learning fields across representative real-world market datasets, the proposed algorithm demonstrates superiority in both risk-adjusted return and cumulative wealth.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2629bbf1fd7edf553e91f6929321ab57",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:02:22.730876"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing a bandit algorithm for online portfolio choices, explicitly addressing the problem of portfolio selection and optimization, which is a core aspect of portfolio management. The study aims to maximize risk-adjusted returns through a combination of passive and active investments, directly aligning with the objectives of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing a bandit algorithm for online portfolio choices, explicitly addressing the problem of portfolio selection and optimization, which is a core aspect of portfolio management. The study aims to maximize risk-adjusted returns through a combination of passive and active investments, directly aligning with the objectives of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:25.432702"
+}

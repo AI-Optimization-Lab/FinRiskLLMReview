@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1678,
+    "title": "Enhancing combinatorial optimization with classical and quantum generative models",
+    "abstract": "Devising an efficient exploration of the search space is one of the key challenges in the design of combinatorial optimization algorithms. Here, we introduce the Generator-Enhanced Optimization (GEO) strategy: a framework that leverages any generative model (classical, quantum, or quantum-inspired) to solve optimization problems. We focus on a quantum-inspired version of GEO relying on tensor-network Born machines, and referred to hereafter as TN-GEO. To illustrate our results, we run these benchmarks in the context of the canonical cardinality-constrained portfolio optimization problem by constructing instances from the S&P 500 and several other financial stock indexes, and demonstrate how the generalization capabilities of these quantum-inspired generative models can provide real value in the context of an industrial application. We also comprehensively compare state-of-the-art algorithms and show that TN-GEO is among the best; a remarkable outcome given the solvers used in the comparison have been fine-tuned for decades in this real-world industrial application. Also, a promising step toward a practical advantage with quantum-inspired models and, subsequently, with quantum generative models Solving combinatorial optimization problems using quantum or quantum-inspired machine learning models would benefit from strategies able to work with arbitrary objective functions. Here, the authors use the power of generative models to realise such a black-box solver, and show promising performances on some portfolio optimization examples.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "022991cc0b33f6e1043660656e9e39dd",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:18.392718"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用生成模型（包括量子启发式模型）来解决组合优化问题，并在论文中明确提到将其应用于投资组合优化问题，特别是基于S&P 500等金融股票指数的实例。这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用生成模型（包括量子启发式模型）来解决组合优化问题，并在论文中明确提到将其应用于投资组合优化问题，特别是基于S&P 500等金融股票指数的实例。这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:36.146898"
+}

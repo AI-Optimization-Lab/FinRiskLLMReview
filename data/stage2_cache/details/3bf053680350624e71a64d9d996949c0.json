@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1910,
+    "title": "Handling Uncertainty in Financial Decision Making: A Clustering Estimation of Distribution Algorithm With Simplified Simulation",
+    "abstract": "In financial decision making models, parameters are usually obtained based on historical data, which involve strong uncertainties. In some cases, the fluctuation caused by environmental uncertainty may even be more significant than that caused by utilizing different strategies. Such phenomenon makes the optimization and uncertainty handling in finical optimization a great challenge. In this article, a group insurance portfolio problem is considered as an instance of financial optimization with strong uncertainty. To handle uncertainty, we first analyze the feature of the problem and discover that in such kind of optimization problem with strong uncertainty, the solutions are strongly relative to the scenario. In view of the scenario-relevant feature, a simplified simulation approach is designed. Only one scenario is simulated for each generation in the evolution process to deal with the uncertainties. Combining this approach with a clustering estimation of distribution algorithm, a new algorithm (CEDA-SS) is proposed. Estimation of current profit is made by Monte Carlo (MC) simulation based on historical data. Solutions in each generation are evaluated in the same scenario. Two kinds of clustering mechanisms are applied to further improve the performance of the algorithm. Moreover, a comparison mechanism based on the Wilcoxon rank sum test is proposed to evaluate the performance of the algorithms. Experimental results show that the proposed CEDA-SS is suitable for the group insurance portfolio problem and it outperforms other uncertain evolutionary algorithms.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "73a9d0dcb68a9b35707c0aef15bcbce0",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:06.107980"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术应用于解决团体保险投资组合问题，这属于投资组合管理的范畴。论文提出了一种新的算法（CEDA-SS）来处理不确定性，并优化投资组合决策，这直接关联到投资组合管理的核心问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术应用于解决团体保险投资组合问题，这属于投资组合管理的范畴。论文提出了一种新的算法（CEDA-SS）来处理不确定性，并优化投资组合决策，这直接关联到投资组合管理的核心问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:15.815866"
+}

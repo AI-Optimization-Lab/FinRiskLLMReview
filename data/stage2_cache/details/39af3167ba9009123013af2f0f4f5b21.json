@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1599,
+    "title": "HMM based scenario generation for an investment optimisation problem",
+    "abstract": "The Geometric Brownian motion (GBM) is a standard method for modelling financial time series. An important criticism of this method is that the parameters of the GBM are assumed to be constants; due to this fact, important features of the time series, like extreme behaviour or volatility clustering cannot be captured. We propose an approach by which the parameters of the GBM are able to switch between regimes, more precisely they are governed by a hidden Markov chain. Thus, we model the financial time series via a hidden Markov model (HMM) with a GBM in each state. Using this approach, we generate scenarios for a financial portfolio optimisation problem in which the portfolio CVaR is minimised. Numerical results are presented.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9bb21c2d6c5c9580fb24030a41376b25",
+    "relevant_keywords": [
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.753611"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用隐马尔可夫模型（HMM）生成金融时间序列的场景，并应用于投资组合优化问题，其中目标是最小化投资组合的CVaR（条件风险价值）。这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用隐马尔可夫模型（HMM）生成金融时间序列的场景，并应用于投资组合优化问题，其中目标是最小化投资组合的CVaR（条件风险价值）。这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:05.144390"
+}

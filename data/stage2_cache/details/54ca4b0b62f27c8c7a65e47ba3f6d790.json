@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 630,
+    "title": "Research on Decision-Making of Complex Venture Capital Based on Financial Big Data Platform",
+    "abstract": "The prediction of stock premium has always been a hot issue. By predicting stock premiums to provide a way for companies to respond to financial risk investments, companies can avoid investment failures. In this paper, under the financial big data platform, bootstrap resampling technology and long short-term memory (LSTM) are used to predict the value of the stock premium within 20 months. First, using the theme crawler, jsoup page parsing, Solr search, and Hadoop architecture to build a platform for financial big data. Secondly, based on the block bootstrap resampling technology, the existing data information is expanded to make full use of the existing data information. Then, based on the LSTM network, the stock premium in 20 months is predicted and compared with the values predicted by support vector machine regression (SVR), and the SSE and R-square average indicators are calculated, respectively. The calculation results show that the SSE value of LSTM is lower than SVR, and the R-square value of LSTM is higher than SVR, which means that the effect of LSTM prediction is better than SVR. Finally, based on the forecast results and evaluation indicators of the stock premium, we provide countermeasures for the company's financial risk investment.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "76233f2a3a3d0e0b7685e0c9d4798252",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.807276"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用LSTM和SVR预测股票溢价，目的是为公司提供应对金融风险投资的对策，这直接关联到金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM和SVR预测股票溢价，目的是为公司提供应对金融风险投资的对策，这直接关联到金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:17.043260"
+}

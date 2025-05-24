@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3273,
+    "title": "D-vine copula based quantile regression",
+    "abstract": "Quantile regression, that is the prediction of conditional quantiles, has steadily gained importance in statistical modeling and financial applications. A new semiparametric quantile regression method is introduced. It is based on sequentially fitting a likelihood optimal D-vine copula to given data resulting in highly flexible models with easily extractable conditional quantiles. As a subclass of regular vine copulas, D-vines enable the modeling of multivariate copulas in terms of bivariate building blocks, a so-called pair-copula construction (PCC). The proposed algorithm works fast and accurate even in high dimensions and incorporates an automatic variable selection by maximizing the conditional log-likelihood. Further, typical issues of quantile regression such as quantile crossing or transformations, interactions and collinearity of variables are automatically taken care of. In a simulation study the improved accuracy and reduced computation time of the approach in comparison with established quantile regression methods is highlighted. An extensive financial application to international credit default swap (CDS) data including stress testing and Value-at-Risk (VaR) prediction demonstrates the usefulness of the proposed method. (C) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ab0fbe2dbec8fac3b9db16cbf17784c6",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:24:39.579057"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种基于D-vine copula的分位数回归方法，并在金融应用中展示了其在信用违约互换（CDS）数据的压力测试和风险价值（VaR）预测中的实用性。这些应用明确属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种基于D-vine copula的分位数回归方法，并在金融应用中展示了其在信用违约互换（CDS）数据的压力测试和风险价值（VaR）预测中的实用性。这些应用明确属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:37:19.660700"
+}

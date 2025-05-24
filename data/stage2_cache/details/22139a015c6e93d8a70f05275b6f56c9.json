@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1139,
+    "title": "On the impact of disproportional samples in credit scoring models: An application to a Brazilian bank data",
+    "abstract": "Statistical methods have been widely employed to assess the capabilities of credit scoring classification models in order to reduce the risk of wrong decisions when granting credit facilities to clients. The predictive quality of a classification model can be evaluated based on measures such as sensitivity, specificity, predictive values, accuracy, correlation coefficients and information theoretical measures, such as relative entropy and mutual information. In this paper we analyze the performance of a naive logistic regression model (Hosmer & Lemeshow, 1989) and a logistic regression with state-dependent sample selection model (Cramer, 2004) applied to simulated data. Also, as a case study, the methodology is illustrated on a data set extracted from a Brazilian bank portfolio. Our simulation results so far revealed that there is no statistically significant difference in terms of predictive capacity between the naive logistic regression models and the logistic regression with state-dependent sample selection models. However, there is strong difference between the distributions of the estimated default probabilities from these two statistical modeling techniques, with the naive logistic regression models always underestimating such probabilities, particularly in the presence of balanced samples. (C) 2012 Elsevier Ltd. All rights reserved.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2041ba9aea2782039cf033d1d1d5345f",
+    "relevant_keywords": [
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.426381"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit scoring models to assess the risk of wrong decisions in granting credit facilities, which is a key aspect of financial risk management, specifically credit risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit scoring models to assess the risk of wrong decisions in granting credit facilities, which is a key aspect of financial risk management, specifically credit risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:57.814365"
+}

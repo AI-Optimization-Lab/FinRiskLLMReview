@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 388,
+    "title": "Latent factor model for asset pricing",
+    "abstract": "One of the fundamental questions in asset pricing is Why different assets earn different average returns?' In this paper, we designed an autoencoder based asset pricing model to explain the return difference among the stocks in an index. The trained autoencoder generates a set of latent representations that constitutes a combined -`communal'- factor to better explains a large portion of the return differences among the stocks in an index. After analyzing all the stocks in S&P-500, Russel-3000, and NASDAQ-100, we found that our proposed latent factor model outperforms many other factor models in predicting the next day's return. Notably, the experiment results show that on average non-communal stocks earn 0.05% over communal stocks. However, the risk associated with this non-communal stock is also 0.8% higher than communal stocks. The experiments confirm that the superior performance comes from the compensation of high risk associated with these non-communal stocks. Investors will benefit from our latent factor model to identify these communal and non-communal stocks for a high return while diversifying their asset portfolio. (C) 2020 Elsevier B.V. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "740d5754b8f7d413353b31fef309553a",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:17.568081"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是设计了一个基于自动编码器的资产定价模型，用于解释股票回报差异，并帮助投资者识别不同类型的股票以优化资产组合。这直接关联到投资组合管理的领域，旨在通过模型识别高回报股票并分散风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是设计了一个基于自动编码器的资产定价模型，用于解释股票回报差异，并帮助投资者识别不同类型的股票以优化资产组合。这直接关联到投资组合管理的领域，旨在通过模型识别高回报股票并分散风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:03.158519"
+}

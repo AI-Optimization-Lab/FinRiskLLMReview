@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 901,
+    "title": "A Genetic Algorithm Model for Financial Asset Diversification",
+    "abstract": "Machine learning models can produce balanced financial portfolios through a variety of methods. Genetic algorithms are one such method that can optimally combine different funds that may occupy a portfolio. This study introduces a genetic algorithm model that finds optimal combinations of funds for a portfolio through a new approach to fitness formula calculation. Each fund in a given population has a base fitness score consisting of the sum of several technical analysis indicators. Each indicator chosen measures a different performance aspect of a fund, allowing for a balanced fitness score. Additionally, each fund has multiple category variables that determine diversity when combined into a portfolio. The base fitness score for each portfolio is the sum of its funds' individual fitness scores. Portfolio fitness scores adjust based on the included funds' category variable diversity. Portfolios that consist of funds with largely similar categories receive lower adjusted fitness scores and do not cross over. This process encourages strong and diversified portfolios to reproduce. This model creates diverse portfolios that outperform market benchmarks and demonstrates future potential as a diversification-aware investment strategy.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c52728b81418ebce97f2c1bb38884f12",
+    "relevant_keywords": [
+      "machine learning",
+      "genetic algorithm"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.263350"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用遗传算法来优化金融资产组合，通过计算适应度分数和考虑多样性来构建平衡的投资组合，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用遗传算法来优化金融资产组合，通过计算适应度分数和考虑多样性来构建平衡的投资组合，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:42.355440"
+}

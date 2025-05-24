@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 170,
+    "title": "Merged LSTM-MLP for option valuation",
+    "abstract": "Traditional option pricing models rely on estimates of expected volatility. The true volatility is not directly observable and must hence be estimated, inevitably with error. Any measurement errors immediately translate into inaccurate pricing, leading to potential losses for economic agents trading options for hedging or speculative purposes. This paper proposes a novel merged LSTM-MLP model for option pricing that circumvents the need for an explicit volatility estimate, leading to more accurate valuations. Through extensive out-of-sample testing on S&P500 call options data from 2015 to 2022 we document the statistical accuracy and economic benefits of the model when compared to relevant benchmarks. The superior performance is enabled by the combined LSTM-MLP architecture, which simultaneously utilizes both time series data and the cross-section of observed option characteristics in a deep learning neural network that accurately captures the complex price dynamics. The results are consistent over time and robust across option moneyness and time-to-expiry.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "a907066ee45ebf70ec6c8e7f158e583d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.069598"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出了一种新的LSTM-MLP模型，专门用于期权定价，旨在通过深度学习神经网络更准确地捕捉复杂的期权价格动态，从而避免传统方法中对波动率估计的依赖。论文的实验数据和分析都集中在S&P500看涨期权的定价上，这明确表明其主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出了一种新的LSTM-MLP模型，专门用于期权定价，旨在通过深度学习神经网络更准确地捕捉复杂的期权价格动态，从而避免传统方法中对波动率估计的依赖。论文的实验数据和分析都集中在S&P500看涨期权的定价上，这明确表明其主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:26.105991"
+}

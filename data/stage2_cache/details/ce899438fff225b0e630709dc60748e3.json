@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 26,
+    "title": "A hybrid approach of wavelet transform, ARIMA and LSTM model for the share price index futures forecasting",
+    "abstract": "In this study, a novel hybrid model for share price index futures forecasting named WT-ARIMALSTM is proposed. In this hybrid model, share price index futures are decomposed to extract data characteristics at different time scales by the wavelet transform and the ARIMA-LSTM model are applied to predict the close price of futures. The findings of the study are as follows. 1) The DWT hybrid model and the MODWT hybrid model have higher forecasting accuracy than some commonly used forecasting models under the three metrics of MAE, MAPE and RMSE. The DWTARIMA-LSTM model has better forecasting performance when the forecasting performance in different markets and the operational efficiency of the method are combined. 2) The DWT method is more applicable than the MODWT method in forecasting models of futures closing price series; the approximate signals obtained from the DWT decomposition have lower volatility and can better characterise the original signals. 3) The LSTM model has better prediction performance for noisy residual series, while the ARIMA model has better prediction performance for less noisy approximate signals. 4) Based on the forecasting results, a timing trading strategy is constructed that can maintain a robust return performance under different market conditions, especially on the risk side with significant advantages. In addition, this work examines the impact of the unexpected event of the COVID-19 epidemic on the forecasting performance of the model, and the results show that the model can adapt to different data structures to achieve more robust forecasting performance. This work provides insights into the integration of deep learning methods with econometric methods in the field of asset pricing.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "3a32e46a33afbaacfbcb9b745c5d4f8f",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:26.423666"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是开发一种混合模型（WT-ARIMA-LSTM）用于预测股票指数期货的收盘价，并基于预测结果构建交易策略。股票指数期货是一种衍生品，因此该研究主要应用于衍生品定价领域。虽然论文也提到了风险管理方面的优势，但主要研究目标仍是期货价格的预测和交易策略的构建，而非直接的风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是开发一种混合模型（WT-ARIMA-LSTM）用于预测股票指数期货的收盘价，并基于预测结果构建交易策略。股票指数期货是一种衍生品，因此该研究主要应用于衍生品定价领域。虽然论文也提到了风险管理方面的优势，但主要研究目标仍是期货价格的预测和交易策略的构建，而非直接的风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:54.382639"
+}

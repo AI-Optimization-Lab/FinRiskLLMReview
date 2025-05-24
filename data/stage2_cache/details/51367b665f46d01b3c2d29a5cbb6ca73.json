@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 3562,
+    "title": "DeepClue: Visual Interpretation of Text-Based Deep Stock Prediction",
+    "abstract": "The recent advance of deep learning has enabled trading algorithms to predict stock price movements more accurately. Unfortunately, there is a significant gap in the real-world deployment of this breakthrough. For example, professional traders in their long-term careers have accumulated numerous trading rules, the myth of which they can understand quite well. On the other hand, deep learning models have been hardly interpretable. This paper presents DeepClue, a system built to bridge text-based deep learning models and end users through visually interpreting the key factors learned in the stock price prediction model. We make three contributions in DeepClue. First, by designing the deep neural network architecture for interpretation and applying an algorithm to extract relevant predictive factors, we provide a useful case on what can be interpreted out of the prediction model for end users. Second, by exploring hierarchies over the extracted factors and displaying these factors in an interactive, hierarchical visualization interface, we shed light on how to effectively communicate the interpreted model to end users. Specially, the interpretation separates the predictables from the unpredictables for stock prediction through the use of intercept model parameters and a risk visualization design. Third, we evaluate the integrated visualization system through two case studies in predicting the stock price with financial news and company-related tweets from social media. Quantitative experiments comparing the proposed neural network architecture with state-of-the-art models and the human baseline are conducted and reported. Feedbacks from an informal user study with domain experts are summarized and discussed in details. The study results demonstrate the effectiveness of DeepClue in helping to complete stock market investment and analysis tasks.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b6e72d1f70069a6a75a4336dfff8ad54",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer",
+      "backpropagation",
+      "BP",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:19.146662"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是通过深度学习模型预测股票价格变动，并提供一个可视化解释系统DeepClue来帮助用户理解模型预测的关键因素。虽然涉及股票市场，但其核心技术是模型解释和可视化，并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是通过深度学习模型预测股票价格变动，并提供一个可视化解释系统DeepClue来帮助用户理解模型预测的关键因素。虽然涉及股票市场，但其核心技术是模型解释和可视化，并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:00.246733"
+}

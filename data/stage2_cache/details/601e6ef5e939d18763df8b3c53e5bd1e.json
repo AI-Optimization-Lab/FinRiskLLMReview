@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 266,
+    "title": "An improved least squares Monte Carlo valuation method based on heteroscedasticity",
+    "abstract": "Longstaff-Schwartz's least squares Monte Carlo method is one of the most applied numerical methods for pricing American-style derivatives. We examine the algorithms regression step, demonstrating that the OLS regression is not the best linear unbiased estimator because of heteroscedasticity. We prove the existence of heteroscedasticity for single-asset and multi-asset payoffs numerically and theoretically, and propose weighted-least squares MC valuation method to correct for it. An extensive numerical study shows that the proposed method produces significantly smaller pricing bias than the Longstaff-Schwartz method under several well-known price dynamics. An empirical pricing exercise using market data confirms the advantages of the improved method. (c) 2017 Elsevier B.V. All rights reserved.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "15528047ea060504b3750208132ef4b9",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.063091"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文主要研究改进最小二乘蒙特卡洛方法用于美式衍生品定价，并提出了加权最小二乘蒙特卡洛估值方法，其核心应用场景是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文主要研究改进最小二乘蒙特卡洛方法用于美式衍生品定价，并提出了加权最小二乘蒙特卡洛估值方法，其核心应用场景是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:41.506828"
+}

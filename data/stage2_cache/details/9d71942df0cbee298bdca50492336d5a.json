@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3914,
+    "title": "ModAugNet: A new forecasting framework for stock market index value with an overfitting prevention LSTM module and a prediction LSTM module",
+    "abstract": "Forecasting a financial asset's price is important as one can lower the risk of investment decision- making with accurate forecasts. Recently, the deep neural network is popularly applied in this area of research; however, it is prone to overfitting owing to limited availability of data points for training. We propose a novel data augmentation approach for stock market index forecasting through our ModAugNet framework, which consists of two modules: an overfitting prevention LSTM module and a prediction LSTM module. The performance of the proposed model is evaluated using two different representative stock market data (S&P500 and Korea Composite Stock Price Index 200 (KOSPI200)). The results confirm the excellent forecasting accuracy of the proposed model. ModAugNet-c yields a lower test error than the comparative model (SingleNet) in which an overfitting prevention LSTM module is absent. The test mean squared error (MSE), mean absolute percentage error (MAPE), and mean absolute error (MAE) for S&P500 decreased to 54.1%, 35.5%, and 32.7%, respectively, of the corresponding S&P500 forecasting errors of SingleNet, while the same for KOSPI200 decreased to 48%, 23.9%, and 32.7%, respectively, of the corresponding KOSPI200 forecasting errors of SingleNet. Furthermore, through the analyses of the trained ModAugNet-c, we found that test performance is entirely dependent on the prediction LSTM module. The contribution of this study is its applicability in various instances where it is challenging to artificially augment data, such as medical data analysis and financial time-series modeling. (C) 2018 Elsevier Ltd. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "257b54ea9d2b8c1671b171a3b68756bc",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T02:31:28.330816"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是股票市场指数的预测方法，虽然与金融相关，但其核心技术（LSTM和数据增强）并未直接应用于衍生品定价、金融风险管理或投资组合管理。论文的重点是提高预测准确性，而不是上述特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是股票市场指数的预测方法，虽然与金融相关，但其核心技术（LSTM和数据增强）并未直接应用于衍生品定价、金融风险管理或投资组合管理。论文的重点是提高预测准确性，而不是上述特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:44.060231"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 181,
+    "title": "Gated Neural Networks for Option Pricing: Rationality by Design",
+    "abstract": "We propose a neural network approach to price EU call options that significantly outperforms some existing pricing models and comes with guarantees that its predictions are economically reasonable. To achieve this, we introduce a class of gated neural networks that automatically learn to divide-and-conquer the problem space for robust and accurate pricing. We then derive instantiations of these networks that are 'rational by design' in terms of naturally encoding a valid call option surface that enforces no arbitrage principles. This integration of human insight within data-driven learning provides significantly better generalisation in pricing performance due to the encoded inductive bias in the learning, guarantees sanity in the model's predictions, and provides econometrically useful byproduct such as risk neutral density.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "9ec12d3250bccb830423ac70bee63aae",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.116214"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用门控神经网络对欧式看涨期权进行定价，并确保其预测结果符合无套利原则。这直接属于衍生品定价的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用门控神经网络对欧式看涨期权进行定价，并确保其预测结果符合无套利原则。这直接属于衍生品定价的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:08.691393"
+}

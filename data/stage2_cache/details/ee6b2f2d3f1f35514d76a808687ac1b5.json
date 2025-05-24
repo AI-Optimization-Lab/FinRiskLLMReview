@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 800,
+    "title": "Online risk-based portfolio allocation on subsets of crypto assets applying a prototype-based clustering algorithm",
+    "abstract": "Mean-variance portfolio optimization models are sensitive to uncertainty in risk-return estimates, which may result in poor out-of-sample performance. In particular, the estimates may suffer when the number of assets considered is high and the length of the return time series is not sufficiently long. This is precisely the case in the cryptocurrency market, where there are hundreds of crypto assets that have been traded for a few years. We propose enhancing the mean-variance (MV) model with a pre-selection stage that uses a prototype-based clustering algorithm to reduce the number of crypto assets considered at each investment period. In the pre-selection stage, we run a prototype-based clustering algorithm where the assets are described by variables representing the profit-risk duality. The prototypes of the clustering partition are automatically examined and the one that best suits our risk-aversion preference is selected. We then run the MV portfolio optimization with the crypto assets of the selected cluster. The proposed approach is tested for a period of 17 months in the whole cryptocurrency market and two selections of the cryptocurrencies with the higher market capitalization (175 and 250 cryptos). We compare the results against three methods applied to the whole market: classic MV, risk parity, and hierarchical risk parity methods. We also compare our results with those from investing in the market index CCI30. The simulation results generally favor our proposal in terms of profit and risk-profit financial indicators. This result reaffirms the convenience of using machine learning methods to guide financial investments in complex and highly-volatile environments such as the cryptocurrency market.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "88c2c9fb0df0bdba54601067880b0da6",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:08.083997"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用原型聚类算法优化加密货币资产的投资组合选择，并应用均值-方差模型进行投资组合优化，这直接属于投资组合管理领域。论文的研究目标和实验设计都集中在提高投资组合的盈利和风险调整后的表现上，而不是衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用原型聚类算法优化加密货币资产的投资组合选择，并应用均值-方差模型进行投资组合优化，这直接属于投资组合管理领域。论文的研究目标和实验设计都集中在提高投资组合的盈利和风险调整后的表现上，而不是衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:38.924870"
+}

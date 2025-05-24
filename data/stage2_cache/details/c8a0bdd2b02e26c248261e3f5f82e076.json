@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 6440,
+    "title": "False discovery rate control for high-dimensional Cox model with uneven data splitting",
+    "abstract": "Statistical inference for high-dimensional survival data is important for obtaining valid scientific results in many research areas, including biomedical studies and financial risk management. In this paper, a novel framework for feature selection in Cox model is proposed, which achieves false discovery rate (FDR) control asymptotically. The key step is to construct a sequence of ranking statistics based on two independent estimators of the regression coefficients. The FDR control is reached by choosing a data-driven threshold along the ranking of symmetric-based statistics. The de-sparsified estimator and uneven data splitting strategy are employed to improve the robustness of variable selection results and the power in finite sample analysis. We establish the asymptotic FDR control property for the proposed approach at any designated level. Extensive simulation studies and an empirical application on a P2P loan dataset confirm the robustness of the proposed method in FDR control, and show that it often leads to higher power among competitors.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f2acf0f6515d7eacf6e016910548201e",
+    "relevant_keywords": [
+      "regression",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:58:05.714891"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的摘要明确提到其方法在金融风险管理中的应用，特别是在P2P贷款数据集上的实证应用，这直接关联到信用风险评估和管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的摘要明确提到其方法在金融风险管理中的应用，特别是在P2P贷款数据集上的实证应用，这直接关联到信用风险评估和管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:53.572562"
+}

@@ -1,0 +1,39 @@
+{
+  "paper": {
+    "id": 60,
+    "title": "机器学习驱动的基本面量化投资研究",
+    "abstract": "基本面量化投资是近年来金融科技和量化投资研究的新热点。作为人工智能的代表性技术,机器学习能够大幅度提高经济学和管理学中预测类研究的效果。本文系统性地运用机器学习,来提升基本面量化投资中的股票收益预测模块。基于1997年1月至2018年10月A股市场的96项异象因子,本文采用预测组合算法、Lasso回归、岭回归、弹性网络回归、偏最小二乘回归、支持向量机、梯度提升树、极端梯度提升树、集成神经网络、深度前馈网络、循环神经网络和长短期记忆网络等12种机器学习算法,构建股票收益预测模型及投资组合。实证结果显示,机器学习算法能够有效地识别异象因子—超额收益间的复杂模式,其投资策略能够获得比传统线性算法和所有单因子更好的投资绩效,基于深度前馈网络预测的多空组合最高能够获得2.78%的月度收益。本文进一步检验了因子在预测模型中的重要性,发现交易摩擦因子在A股市场具有较强的预测能力,深度前馈网络在筛选因子数据上的多空组合月度收益达到了3.41%。本文尝试将机器学习引入基本面量化投资领域,有助于促进人工智能、机器学习与经济学和管理学的交叉融合研究,为推进国家人工智能战略的有效实施提供参考。",
+    "year": 2019,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "c1d50dc27d703e8988d276bf7eefe58e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T18:47:20.837140"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是运用多种机器学习算法构建股票收益预测模型及投资组合，并实证检验了这些算法在提升投资绩效方面的效果。这直接涉及投资组合的构建和管理，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是运用多种机器学习算法构建股票收益预测模型及投资组合，并实证检验了这些算法在提升投资绩效方面的效果。这直接涉及投资组合的构建和管理，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:45:07.507953"
+}

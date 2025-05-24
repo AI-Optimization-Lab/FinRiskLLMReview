@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 203,
+    "title": "Index tracking using shapley additive explanations and one-dimensional pointwise convolutional autoencoders",
+    "abstract": "The aim of index tracking is to mimic the performance of a benchmark index via minimizing the tracking error between the returns of the market index and the tracking portfolio. Lately, various deep learning solutions have been proposed to perform stock prediction or active investment. However, there remains a gap in literature to explore the application of deep learning to index tracking. In this paper, the one-dimensional Pointwise Convolutional Autoencoder is proposed to capture the main market characteristics and the Shapley Additive Explanations feature importance ranking is applied to select stocks to implement the partial replication index tracking with and without Covid-19 data. Moreover, portfolios with different holding periods and with different rebalancing frequency are created on different financial markets to check the effectiveness of the proposed strategy. Compared with different benchmark stock selection strategies, including Pearson correlation, mutual information, and Euclidean distance, the proposed strategy achieves state-of-the-art performance on different financial markets.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "7c7f33130f6de814331c85a1720086fb",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "autoencoder",
+      "convolutional neural network",
+      "CNN",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:33:39.411738"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用一维点卷积自编码器和Shapley加性解释特征重要性排名来选择股票，以实现部分复制指数跟踪。这直接涉及投资组合的构建和管理，旨在通过最小化跟踪误差来模仿基准指数的表现。因此，其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用一维点卷积自编码器和Shapley加性解释特征重要性排名来选择股票，以实现部分复制指数跟踪。这直接涉及投资组合的构建和管理，旨在通过最小化跟踪误差来模仿基准指数的表现。因此，其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:31.115169"
+}

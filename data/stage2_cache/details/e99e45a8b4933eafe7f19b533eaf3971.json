@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2060,
+    "title": "Handling outliers in bankruptcy prediction models based on logistic regression",
+    "abstract": "The primary tool for managing bank default risk is the credit rating of potential customers. The focus of the present study is on the logistic regression method used to construct 95% of the lender scorecards. The aim of the research is to determine how much the treatment of outliers improves the classification accuracy of the mod-els when using a method that is highly sensitive to outliers, and which method of treating outliers results in the highest classification accuracy. Furthermore, what cri-teria should be used to determine the cut-off value of the models for a sample that does not contain solvent and insolvent businesses in equal proportions. The analysis was carried out on a sample of 1677 construction companies. The results show that the treatment of outliers significantly improves the predictive ability of the models, while the replacement of outliers with the closest non-outlier proved to be the most effective for treating outliers. When determining the cut-off, it is inappropriate to use the value that results in the highest classification accuracy, as this may lead to an increase in the proportion of first-order errors. The optimisation of this value may depend on the degree of credit risk taken by a given financial institution in its portfolio of loans.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5c8582069eacf21a5b644b8e186b36b7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:25.858060"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving bankruptcy prediction models using logistic regression, which is directly related to assessing and managing credit risk—a key aspect of financial risk management in banking institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving bankruptcy prediction models using logistic regression, which is directly related to assessing and managing credit risk—a key aspect of financial risk management in banking institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:27.197453"
+}

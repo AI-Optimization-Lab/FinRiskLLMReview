@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 1681,
+    "title": "Transformer-Gated Recurrent Unit Method for Predicting Stock Price Based on News Sentiments and Technical Indicators",
+    "abstract": "News sentiment can influence stock prices indirectly, in addition to the technical indicators already used to analyze stock prices. The information quantification of news sentiment by considering time sequence data in the stock analysis has been the primary issue; this article proposes methods for quantifying news sentiments by considering time sequence data. The news sentiment quantification uses a daily confidence score from the classification model. The active learning model uses to build a classification model considering time sequence data, which results in sentiment indicators. Then the sentiment indicators are utilized by stock price forecasting using the proposed Transformer Encoder Gated Recurrent Unit (TEGRU) architecture. The TEGRU consists of a transformer encoder to learn pattern time series data with multi-head attention and pass it into the GRU layer to determine stock price. The accuracy mean absolute percentage error (AcMAPE) uses to evaluate forecasting models sensitive to the misclassification of stock price trends. Our experiment showed that the sentiment indicator could influence stock issuers based on the increased performance of the stock price forecasting model. The TEGRU architecture outperformed other transformer architecture on five feature scenarios. In addition, TEGRU presented the best-fit parameters to produce low financial risk for each stock issuer.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3c876692468a98867ca2a47c22a0c6d8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "active learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "encoder-decoder",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.429943"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用新闻情感和技术指标预测股票价格，虽然涉及金融领域，但其核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用新闻情感和技术指标预测股票价格，虽然涉及金融领域，但其核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:00.105237"
+}

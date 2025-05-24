@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 9,
+    "title": "Pricing and Hedging American-Style Options with Deep Learning",
+    "abstract": "In this paper we introduce a deep learning method for pricing and hedging American-style options. It first computes a candidate optimal stopping policy. From there it derives a lower bound for the price. Then it calculates an upper bound, a point estimate and confidence intervals. Finally, it constructs an approximate dynamic hedging strategy. We test the approach on different specifications of a Bermudan max-call option. In all cases it produces highly accurate prices and dynamic hedging strategies with small replication errors.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "7ce4e0eacd21bab3dc72db17d49270c7",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:26.290877"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习方法对美式期权进行定价和对冲，这直接属于衍生品定价的范畴。论文明确提到了定价、对冲策略以及具体的期权类型（Bermudan max-call option），这些都是衍生品定价领域的典型研究内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习方法对美式期权进行定价和对冲，这直接属于衍生品定价的范畴。论文明确提到了定价、对冲策略以及具体的期权类型（Bermudan max-call option），这些都是衍生品定价领域的典型研究内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:54.906696"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2338,
+    "title": "Enterprise Event Risk Detection Based on Supply Chain Contagion",
+    "abstract": "As the micro-foundation of the market economy, identifying and preventing various risks are crucial both for the companies themselves and for market regulators, financial institutions and investors. To detect enterprise risks, many studies have constructed and utilized various indicator metrics based on information about each company to assess the level of enterprise risk. However, enterprises are not independent in the market, they form a complex network on the basis of their production activities. The enterprise risk comes not only from the operation of each enterprise itself, but also from the related enterprises in its business network. In addition, the risk detection methods relied on indicator metrics aims to asset a specific or a certain kind of risk faced by enterprises. That is, these methods are incapability of identifying the constantly changing risks caused by the uncertainty of enterprises. To this end, this study aims to (i) construct a network of enterprises based on supply chain relationships to incorporate the contagion effect of related companies, (ii) learn event prototype representations from company action event data via a self-supervised learning method, and capture the time-varying operational states of enterprises using the learned prototypes, (iii) adopt graph neural networks to identify enterprise risks from the perspective of supply chain contagion and comprehensive events. The experimental results on real datasets show that the proposed method is important for predicting and assessing enterprise risks and provides useful information for the decision-making of companies and investors.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d5e02fe81629491ad4c31145fa9d9b9c",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "representation learning",
+      "neural network",
+      "deep learning",
+      "graph neural networks"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:19.615943"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是通过构建供应链网络和使用图神经网络来识别企业风险，这直接关联到金融风险管理中的企业风险预测和评估。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是通过构建供应链网络和使用图神经网络来识别企业风险，这直接关联到金融风险管理中的企业风险预测和评估。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:57.175266"
+}

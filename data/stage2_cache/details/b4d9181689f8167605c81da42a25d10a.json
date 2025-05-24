@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2485,
+    "title": "Risk and return prediction for pricing portfolios of non-performing consumer credit",
+    "abstract": "We design a system for risk-analyzing and pricing portfolios of non-performing consumer credit loans. The rapid development of credit lending business for consumers heightens the need for trading portfolios formed by overdue loans as a manner of risk transferring. However, the problem is nontrivial technically and related research is absent. We tackle the challenge by building a bottom-up architecture, in which we model the distribution of every single loan's repayment rate, followed by modeling the distribution of the portfolio's overall repayment rate. To address the technical issues encountered, we adopt the approaches of simultaneous quantile regression, R-copula, and Gaussian one-factor copula model. To our best knowledge, this is the first study that successfully adopts a bottom-up system for analyzing credit portfolio risks of consumer loans. We conduct experiments on a vast amount of data and prove that our methodology can be applied successfully in real business tasks.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3a98435ea14117d239e27a9379b955af",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:03.124287"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on risk-analyzing and pricing portfolios of non-performing consumer credit loans, which directly involves financial risk management. Additionally, the study models the distribution of the portfolio's overall repayment rate, indicating a significant application in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on risk-analyzing and pricing portfolios of non-performing consumer credit loans, which directly involves financial risk management. Additionally, the study models the distribution of the portfolio's overall repayment rate, indicating a significant application in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:39.605113"
+}

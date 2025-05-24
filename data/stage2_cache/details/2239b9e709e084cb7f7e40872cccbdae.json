@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 933,
+    "title": "A Combined Algorithm Approach for Optimizing Portfolio Performance in Automated Trading: A Study of SET50 Stocks",
+    "abstract": "This study investigates portfolio optimization for SET50 stocks using Deep Reinforcement Learning (DRL) algorithms to address market volatility. Five DRL algorithms-Advantage Actor-Critic (A2C), Proximal Policy Optimization (PPO), Deep Deterministic Policy Gradient (DDPG), Soft Actor-Critic (SAC), and Twin Delayed DDPG (TD3)-were evaluated for their effectiveness in managing risk and optimizing returns. We propose an Iterative Model Combining Algorithm (IMCA) that dynamically adjusts model weights based on market conditions to enhance performance. Our results demonstrate that IMCA consistently outperformed traditional strategies, including the Minimum Variance model. IMCA achieved a cumulative return of 14.20% and a Sharpe Ratio of 0.220, compared to the Minimum Variance model's return of -4.35% and Sharpe Ratio of 0.018. This research highlights the adaptability and robustness of DRL algorithms for portfolio management, particularly in emerging markets like Thailand. It underscores the advantages of dynamic, data-driven strategies over static approaches.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b7ee7d46e0c074e80133d1258d335651",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.404910"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是使用深度强化学习算法优化SET50股票的投资组合表现，并提出了动态调整模型权重的IMCA方法，这直接属于投资组合管理的范畴。论文明确讨论了管理风险和优化回报，但没有涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是使用深度强化学习算法优化SET50股票的投资组合表现，并提出了动态调整模型权重的IMCA方法，这直接属于投资组合管理的范畴。论文明确讨论了管理风险和优化回报，但没有涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:56.399652"
+}

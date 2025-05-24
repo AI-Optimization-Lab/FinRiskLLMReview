@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1070,
+    "title": "A Multimodal Deep Neural Network-based Financial Fraud Detection Model Via Collaborative Awareness of Semantic Analysis and Behavioral Modeling",
+    "abstract": "The monitoring and early warning of financial risks have become a crucial link in maintaining market stability and safeguarding the rights and interests of investors. Traditional financial risk monitoring methods often rely on a single data source or analysis model, making it challenging to comprehensively and accurately capture risk signals. Therefore, this paper proposes a novel financial risk monitoring model based on multimodal neural networks, which innovatively integrates multiple data sources, such as vision, language and audio, and utilizes their inherent correlations to enhance the accuracy of risk identification. First, by employing the Bidirectional Long Short-Term Memory Network (BiLSTM) structure and incorporating the self-attention mechanism, the semantic information of financial texts is deeply analyzed through the calculation of dynamic weight coefficients. Additionally, Option-based Hierarchical Reinforcement Learning (OHRL) is utilized to accurately model the behavior of market participants, capturing nuanced changes in their decision-making process. By integrating these two types of information, a comprehensive BiLSTM-OHRL model is formulated to evaluate the risk status of financial markets in a more comprehensive and accurate manner. The results demonstrate that the model performs impressively in financial risk monitoring, accurately capturing the emotional and behavioral characteristics of market participants, thereby enhancing the comprehensiveness and predictive capability of the monitoring model. It provides robust technical support for the stable operation of the financial market.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fb4a5012e9d97dac2c54e71472b419b1",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.349847"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个多模态神经网络模型，用于金融风险监测和欺诈检测，这直接属于金融风险管理的范畴。论文中提到的语义分析和行为建模都是为了更准确地识别和预测金融风险，而不是衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一个多模态神经网络模型，用于金融风险监测和欺诈检测，这直接属于金融风险管理的范畴。论文中提到的语义分析和行为建模都是为了更准确地识别和预测金融风险，而不是衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:19.645200"
+}

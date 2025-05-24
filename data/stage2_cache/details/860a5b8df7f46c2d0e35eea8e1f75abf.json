@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3410,
+    "title": "Lasso-based index tracking and statistical arbitrage long-short strategies",
+    "abstract": "In this paper, we apply the lasso-type regression to solve the index tracking (IT) and the long-short investing strategies. In both cases, our objective is to exploit the mean-reverting properties of prices as reported in the literature. This method is an interesting technique for portfolio selection due to its capacity to perform variable selection in linear regression and to solve high-dimensional problems (which is the case if we consider broader indexes such as the S&P 500 or the Russell 1000). We use lasso to solve IT and long-short with three market benchmarks (S&P 100 and Russell 1000 - US stock market; and Ibovespa - Brazilian market), comprising data from 2010 to 2017. Also, we formed IT portfolios using cointegration (a method widely used for index tracking) to have a basis for comparison of the results using lasso. The findings for IT showed similar overall performance between portfolios using lasso and cointegration, with a slight advantage to cointegration in some cases. Nonetheless, lasso-based IT portfolios presented average monthly turnover at least 40% smaller, indicating that lasso generated portfolios that had not only a consistent tracking performance but also a considerable advantage in terms of transaction costs (represented by the average turnover).",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6bc721d561e5db17c46b12be6fdd7286",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:55.464104"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on applying lasso-type regression for index tracking and long-short investing strategies, which are core techniques in portfolio management. The study aims to optimize portfolio selection and reduce transaction costs, directly aligning with the objectives of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on applying lasso-type regression for index tracking and long-short investing strategies, which are core techniques in portfolio management. The study aims to optimize portfolio selection and reduce transaction costs, directly aligning with the objectives of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:47.486334"
+}

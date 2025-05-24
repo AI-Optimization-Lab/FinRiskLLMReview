@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 726,
+    "title": "An Explainable ADASYN-Based Focal Loss Approach for Credit Assessment",
+    "abstract": "The integration of deep learning techniques with financial technology (fintech) has revolutionized the credit risk analysis, a critical component of financial risk management. A pervasive challenge in credit risk assessment lies in the skewed distribution of data, hindering accurate predictions, particularly for minority class instances. In available literature, various solutions have been proposed to address class imbalance, albeit with limitations. Focal loss is one of the well-known loss functions proposed for handling class imbalance by running the hyperparameter gamma$$ \\gamma $$. However, imbalance still remains in terms of number of hard-to-learn observations between the classes. In this paper, we have proposed integration of ADASYN with focal loss to mitigate class imbalance and enhance credit scoring accuracy. ADASYN systematically generates synthetic data based on hard-to-learn examples to counter skewed distributions, while focal loss prioritizes the training of challenging examples, fostering a more balanced model performance. This approach has been rigorously tested using real-world imbalanced datasets and credit assessment data, and the outcomes have been compared against a range of sample technique and loss function combinations. The results clearly show that our suggested strategy is better than other approaches. Although improving the accuracy of credit risk analysis is critical, model interpretability is just as important for enabling financial analysts to make wise choices. In order to solve this, we have measured the global and local contributions of each feature using SHAP (Shapley additive explanation). According to global interpretability, the top 4 parameters influencing credit risk assessment are checking account status, loan purpose, borrower age, credit history, and interest rate/installment rate. Moreover, local interpretability analysis reveals quantitative and direction differences in feature contributions. These revelations not only broaden our knowledge of credit assessment services but also highlight how important a role they could play in attracting new clients and generating income. This paper also highlights how the suggested approach may be scaled to other imbalanced real-world datasets, demonstrating how it can improve model performance in terms of AUC, G-mean, and F-measure.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "f49adcff77717692290e3678fe7fe7a0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:05.353341"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit risk assessment through advanced machine learning techniques, specifically addressing class imbalance in credit scoring data. This is a key aspect of financial risk management, as credit risk is a major concern for financial institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit risk assessment through advanced machine learning techniques, specifically addressing class imbalance in credit scoring data. This is a key aspect of financial risk management, as credit risk is a major concern for financial institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:26.163982"
+}

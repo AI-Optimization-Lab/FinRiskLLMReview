@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 4401,
+    "title": "CATASTROPHIC RISK MANAGEMENT: STOCHASTIC HYBRID MODEL TO CALCULATE THE LOSS INDEX TRIGGER FOR CATASTROPHE BONDS (CAT BONDS). ADJUSTMENT USING EVOLUTIONARY STRATEGIES",
+    "abstract": "Purpose: This paper develops a stochastic model to calculate the loss index trigger for catastrophe bonds as alternative instruments for the management of major insured risks, such as natural catastrophe. Methodology: The underlying loss index of catastrophe bonds is the aggregate catastrophe losses reported before the end of certain period. The catastrophe severity is defined as the sum of two random variable: the reported loss amount and incurred-but-not-yet-reported loss amount, and the central hypothesis is that the latter decreases proportionally to a linearly increasing function up to a certain time and constant thereafter, called the hybrid claim reporting rate. Randomness in the reporting process is represented by a geometric Brownian motion in the claim reporting rate. The validity of the proposed model is evaluated by estimating its parameters using machine learning techniques (specifically, evolutionary strategies, ES). Findings: The results shows that the model accurately captures the uneven behavior of the claim reporting process over time and therefore correctly describes the catastrophic claims reporting process. Originality: The model proposed allows for an easy calculation of catastrophic loss indexes, thus facilitating the pricing of loss index-triggered Cat bonds. This translates into better catastrophe risk management for both insurance and reinsurance companies, as well as for those companies that diversify their portfolios with this type of financial instruments. The simplicity of the presented model facilitates parameter estimation and simulation.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "afd9b7b1291a72f1fcbf9fb0e9f13f3f",
+    "relevant_keywords": [
+      "machine learning",
+      "evolutionary strategies"
+    ],
+    "stage1_timestamp": "2025-05-15T02:36:38.540657"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个随机模型来计算巨灾债券（Cat Bonds）的损失指数触发点，这直接涉及衍生品定价。同时，论文明确提到该模型有助于保险公司和再保险公司更好地管理巨灾风险，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一个随机模型来计算巨灾债券（Cat Bonds）的损失指数触发点，这直接涉及衍生品定价。同时，论文明确提到该模型有助于保险公司和再保险公司更好地管理巨灾风险，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:18.993356"
+}

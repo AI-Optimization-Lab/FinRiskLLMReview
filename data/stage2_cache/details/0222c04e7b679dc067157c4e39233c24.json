@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 106,
+    "title": "Applying hybrid machine learning algorithms to assess customer risk-adjusted revenue in the financial industry",
+    "abstract": "A Peer-to-Peer (P2P) service is a decentralized platform that directly connects individuals, buyers (lenders) and sellers (investors) without the intermediation of a third party. In the P2P lending market, customer cash flows are undeniably linked to their financial risk of default. Thus, forecasting customers' Risk-Adjusted Revenue (RAR) value is one of the most critical issues in financial decision-making. With the emergence of big data, traditional forecasting methods cannot provide the high predictive power needed for such metrics. We propose a hybrid method by integrating the use of supervised and unsupervised Machine Learning (ML) algorithms to enhance the accuracy of predicting customer-adjusted risk metrics. Using a real P2P dataset from the Lending Club, containing over two million cases, we forecast customers' risk-adjusted revenue by applying ML algorithms for the first time. These include individual methods such as gradient boosting and decision trees, and hybrid frameworks that group customers using a clustering algorithm (k-Means or Density-Based Spatial Clustering of Applications with Noise (DBSCAN)) prior to implementing the individual methods. We compare the efficiency (processing time and accuracy) of this hybrid approach with the performance of individual regressor-based models to predict RAR. Our results indicate high predictive power for many individual ML algorithms (R2 score over 90%). Further, in most cases, hybrid models outperform the individual ones in both predictive performance and processing time. Finally, the feature importance analysis in the best predictive frameworks helps identify the most influential factors in predicting customers' RAR in the P2P lending market.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ea4e4e10151af0a831894dc26d095d57",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "regression",
+      "decision tree",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:39.615990"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting customers' Risk-Adjusted Revenue (RAR) in the P2P lending market, which is directly related to assessing and managing financial risk, particularly credit risk. The use of machine learning algorithms to enhance the accuracy of these predictions falls under the domain of Financial Risk Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting customers' Risk-Adjusted Revenue (RAR) in the P2P lending market, which is directly related to assessing and managing financial risk, particularly credit risk. The use of machine learning algorithms to enhance the accuracy of these predictions falls under the domain of Financial Risk Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:50.052352"
+}

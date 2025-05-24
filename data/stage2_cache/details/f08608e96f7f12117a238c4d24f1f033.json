@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 641,
+    "title": "Deep Gamblers: Learning to Abstain with Portfolio Theory",
+    "abstract": "We deal with the selective classification problem (supervised-learning problem with a rejection option), where we want to achieve the best performance at a certain level of coverage of the data. We transform the original rn-class classification problem to (m + 1)-class where the (m + 1)-th class represents the model abstaining from making a prediction due to disconfidence. Inspired by portfolio theory, we propose a loss function for the selective classification problem based on the doubling rate of gambling. Minimizing this loss function corresponds naturally to maximizing the return of a horse race, where a player aims to balance between betting on an outcome (making a prediction) when confident and reserving one's winnings (abstaining) when not confident. This loss function allows us to train neural networks and characterize the disconfidence of prediction in an end-to-end fashion. In comparison with previous methods, our method requires almost no modification to the model inference algorithm or model architecture. Experiments show that our method can identify uncertainty in data points, and achieves strong results on SVHN and CIFAR1O at various coverages of the data.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0efd3310e92a12131e385d548e3fbc8f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.361056"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是选择性分类问题，虽然受到投资组合理论的启发，但其核心技术和应用场景是机器学习中的分类问题，而非特定的金融领域。论文中提到的投资组合理论仅作为方法论的灵感来源，并未直接应用于金融投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是选择性分类问题，虽然受到投资组合理论的启发，但其核心技术和应用场景是机器学习中的分类问题，而非特定的金融领域。论文中提到的投资组合理论仅作为方法论的灵感来源，并未直接应用于金融投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:00.001179"
+}

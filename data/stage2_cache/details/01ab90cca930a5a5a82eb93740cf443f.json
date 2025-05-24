@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1332,
+    "title": "Quadratic Unconstrained Binary Optimization Approach for Incorporating Solvency Capital into Portfolio Optimization",
+    "abstract": "In this paper, we consider the inclusion of the solvency capital requirement (SCR) into portfolio optimization by the use of a quadratic proxy model. The Solvency II directive requires insurance companies to calculate their SCR based on the complete loss distribution for the upcoming year. Since this task is, in general, computationally challenging for insurance companies (and therefore, not taken into account during portfolio optimization), employing more feasible proxy models provides a potential solution to this computational difficulty. Here, we present an approach that is also suitable for future applications in quantum computing. We analyze the approximability of the solvency capital ratio in a quadratic form using machine learning techniques. This allows for an easier consideration of the SCR in the classical mean-variance analysis. In addition, it allows the problem to be formulated as a quadratic unconstrained binary optimization (QUBO), which benefits from the potential speedup of quantum computing. We provide a detailed description of our model and the translation into a QUBO. Furthermore, we investigate the performance of our approach through experimental studies.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cad29b5f547625876e6a5a57ef61bda1",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:24.702089"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是将偿付能力资本要求（SCR）纳入投资组合优化中，通过二次无约束二进制优化（QUBO）和机器学习技术来近似计算SCR。这直接涉及投资组合管理和金融风险管理，特别是针对保险公司的资本充足性要求。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是将偿付能力资本要求（SCR）纳入投资组合优化中，通过二次无约束二进制优化（QUBO）和机器学习技术来近似计算SCR。这直接涉及投资组合管理和金融风险管理，特别是针对保险公司的资本充足性要求。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:41.493560"
+}

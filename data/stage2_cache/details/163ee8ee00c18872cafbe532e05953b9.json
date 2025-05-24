@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 652,
+    "title": "Landscape-Aware Fixed-Budget Performance Regression and Algorithm Selection for Modular CMA-ES Variants",
+    "abstract": "Automated algorithm selection promises to support the user in the decisive task of selecting a most suitable algorithm for a given problem. A common component of these machine-trained techniques are regression models which predict the performance of a given algorithm on a previously unseen problem instance. In the context of numerical black-box optimization, such regression models typically build on exploratory landscape analysis (ELA), which quantifies several characteristics of the problem. These measures can be used to train a supervised performance regression model. First steps towards ELA-based performance regression have been made in the context of a fixed-target setting. In many applications, however, the user needs to select an algorithm that performs best within a given budget of function evaluations. Adopting this fixed-budget setting, we demonstrate that it is possible to achieve high-quality performance predictions with off-the-shelf supervised learning approaches, by suitably combining two differently trained regression models. We test this approach on a very challenging problem: algorithm selection on a portfolio of very similar algorithms, which we choose from the family of modular CMA-ES algorithms.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c773e5e461dcb0488dd85fb1bd20cc28",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.405860"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究自动化算法选择和性能回归模型在数值黑盒优化中的应用，特别是针对CMA-ES算法变体的选择。虽然提到了'portfolio'一词，但这里的'portfolio'指的是算法组合而非金融投资组合。论文的核心技术并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究自动化算法选择和性能回归模型在数值黑盒优化中的应用，特别是针对CMA-ES算法变体的选择。虽然提到了'portfolio'一词，但这里的'portfolio'指的是算法组合而非金融投资组合。论文的核心技术并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:56.761096"
+}

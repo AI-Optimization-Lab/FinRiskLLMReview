@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2348,
+    "title": "Multi-Representation Approach to Text Regression of Financial Risks",
+    "abstract": "Different approaches for textual feature extraction have been proposed starting with simple word count features and continuing with deeper representations capturing distributional semantics. In recent publications word embedding methods have been successfully used as a representation basis for a large number of NLP tasks like text classification, part of speech tagging and many others. In this article we explore opportunities of using multiple text representations simultaneously within one regression task in order to exploit conventional bag of words approach with the more semantically rich embeddings. We investigate performance of this multi-representation approach on the financial risk prediction problem. Publicly available 10-K reports filled by US trading companies are used as the basis for predicting next year change in stock price volatility. Our study shows that models based on single representations achieve performance that is comparable to the previously published results on risk prediction and models with multiple representations benefit from complementary information and outperform both baseline and single representation models.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "28074245038e640b826afcfb0a0fba75",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:19.658621"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting changes in stock price volatility using textual data from 10-K reports, which is a direct application in financial risk management, specifically in assessing and predicting market risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting changes in stock price volatility using textual data from 10-K reports, which is a direct application in financial risk management, specifically in assessing and predicting market risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:44.674247"
+}

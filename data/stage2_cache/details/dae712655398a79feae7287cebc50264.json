@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 5,
+    "title": "基于FFT与Transformer算法的混合期权定价模型研究",
+    "abstract": "为解决经典期权定价模型与实际价格数据偏差较大的问题，选取BS期权定价模型，采用快速傅里叶变换（Fast Fourier Transform, FFT）结合Transformer多头注意力机制深度学习算法，对上证300ETF期权与上海期货交易所黄金期权数据进行实证研究，通过改进的Transformer算法对基于FFT算法的期权定价模型与实际金融市场期权价格数据之间的残差值进行二次训练。结果表明，与其他算法（BS、FFT-BS）及其他混合算法（FFT-BS+ARIMA、FFT-BS+LSTM）模型相比，基于FFT-BS+Transformer的算法在R<sup>2</sup>、MSE、NRMSE以及MAE等统计指标上均有很好的表现，且针对不同波动、不同品种的期权，该混合算法模型均取得了较好的结果。将改进后的Transformer算法应用到期权定价中，可弥补经典期权定价模型的不足，提供了更加精确的期权定价模型。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "c0179ca949851a714df36a2c50e7566a",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "attention mechanism",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:00.846441"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是改进期权定价模型，通过结合FFT和Transformer算法来提高期权定价的准确性，这直接属于衍生品定价领域。论文中明确提到对上证300ETF期权和黄金期权进行实证研究，并比较了不同定价模型的性能，这些都是衍生品定价的典型应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是改进期权定价模型，通过结合FFT和Transformer算法来提高期权定价的准确性，这直接属于衍生品定价领域。论文中明确提到对上证300ETF期权和黄金期权进行实证研究，并比较了不同定价模型的性能，这些都是衍生品定价的典型应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:05.935456"
+}

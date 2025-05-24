@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2366,
+    "title": "Fractal-Based Robotic Trading Strategies Using Detrended Fluctuation Analysis and Fractional Derivatives: A Case Study in the Energy Market",
+    "abstract": "This paper presents an integrated robotic trading strategy developed for the day-ahead energy market that includes different methods for time series analysis and forecasting, such as Detrended Fluctuation Analysis (DFA), Rescaled Range Analysis (R/S analysis), fractional derivatives, Long Short-Term Memory (LSTM) Networks, and Seasonal Autoregressive Integrated Moving Average (SARIMA) models. DFA and R/S analysis may capture the long-range dependencies and fractal features inherited by the nature of the electricity price time series and give information about persistence and variability in their behavior. Given this, fractional derivatives can be used to analyze price movements concerning the minor changes in price and time acceleration for that change, which makes the proposed framework more flexible for quickly changing market conditions. LSTM, from their perspective, may capture complex and non-linear dependencies, while SARIMA models may help handle seasonal trends. This integrated approach improves market signal interpretation and optimizes the market risk through adjustable stop-loss and take-profit levels which could lead to better portfolio performance. The proposed integrated strategy is based on actual data from the Bulgarian electricity market for the years 2017-2024. Findings from this research show how the combination of fractals with statistical and machine learning models can improve complex trading strategies implementation for the energy markets.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d61972b3b4de11038235d43601266ffa",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:10.743053"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种集成的机器人交易策略，旨在通过优化市场信号解释和调整止损和获利水平来提高投资组合的表现。虽然论文提到了风险管理，但其主要目标是优化投资组合的表现，因此更符合投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种集成的机器人交易策略，旨在通过优化市场信号解释和调整止损和获利水平来提高投资组合的表现。虽然论文提到了风险管理，但其主要目标是优化投资组合的表现，因此更符合投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:28.641126"
+}

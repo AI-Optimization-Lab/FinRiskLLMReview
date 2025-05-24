@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 4005,
+    "title": "Cash flow prediction of a bank deposit using scalable graph analysis and machine learning",
+    "abstract": "Cash flow prediction of a bank is an important task as it is not only related to liquidity risk but is also regulated by financial authorities. To improve the prediction, a graph analysis of bank transaction data is promising, while its size, scale-free nature, and various attributes make the task challenging. In this paper, we propose a graph-based machine learning method for the cash flow p rediction t ask. O ur contributions are as follows. (i) We introduce an extensible and scalable shared-memory parallel graph analysis platform that supports the vertex-centric, bulk synchronous parallel programming paradigm. (ii) We introduce two novel graph features upon the platform: (ii-a) an internal money flow f eature b ased o n the Markov process approximation, and (ii-b) an anomaly score feature derived from other graph features. The proposed method is examined with real bank transaction data. The proposed graph features reduce the error of a longterm (31-day) cash flow prediction by 5 6 % f rom t hat o f a non-graph-based time-series prediction model. The graph analysis platform can compute graph features from a graph with 10 x 10(6) nodes and 593 x 10(6) edges in 2 hours 20 minutes.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4eea5fb25688a33ab3fa65d003a8622a",
+    "relevant_keywords": [
+      "machine learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:31:58.712190"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用图分析和机器学习方法预测银行的现金流，这直接关系到流动性风险的管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用图分析和机器学习方法预测银行的现金流，这直接关系到流动性风险的管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:42.208692"
+}

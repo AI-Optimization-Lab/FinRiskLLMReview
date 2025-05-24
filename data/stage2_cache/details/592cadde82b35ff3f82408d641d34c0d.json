@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 6819,
+    "title": "OptIForest: Optimal Isolation Forest for Anomaly Detection",
+    "abstract": "Anomaly detection plays an increasingly important role in various fields for critical tasks such as intrusion detection in cybersecurity, financial risk detection, and human health monitoring. A variety of anomaly detection methods have been proposed, and a category based on the isolation forest mechanism stands out due to its simplicity, effectiveness, and efficiency, e.g., iForest is often employed as a state-of-the-art detector for real deployment. While the majority of isolation forests use the binary structure, a framework LSHiForest has demonstrated that the multi-fork isolation tree structure can lead to better detection performance. However, there is no theoretical work answering the fundamentally and practically important question on the optimal tree structure for an isolation forest with respect to the branching factor. In this paper, we establish a theory on isolation efficiency to answer the question and determine the optimal branching factor for an isolation tree. Based on the theoretical underpinning, we design a practical optimal isolation forest OptIForest incorporating clustering based learning to hash which enables more information to be learned from data for better isolation quality. The rationale of our approach relies on a better bias-variance trade-off achieved by bias reduction in OptIForest. Extensive experiments on a series of benchmarking datasets for comparative and ablation studies demonstrate that our approach can efficiently and robustly achieve better detection performance in general than the state-of-the-arts including the deep learning based methods.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9b86fcbe4256ced7b3a39ab51ddfb869",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "decision tree",
+      "clustering",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T03:02:07.424458"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种优化的隔离森林算法用于异常检测，虽然提到了金融风险检测作为应用场景之一，但论文的核心技术并未专门针对金融领域的任何特定问题，而是作为一种通用的异常检测方法。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种优化的隔离森林算法用于异常检测，虽然提到了金融风险检测作为应用场景之一，但论文的核心技术并未专门针对金融领域的任何特定问题，而是作为一种通用的异常检测方法。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:30.018373"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 416,
+    "title": "Cost-Sensitive Portfolio Selection via Deep Reinforcement Learning",
+    "abstract": "Portfolio Selection is an important real-world financial task and has attracted extensive attention in artificial intelligence communities. This task, however, has two main difficulties: (i) the non-stationary price series and complex asset correlations make the learning of feature representation very hard; (ii) the practicality principle in financial markets requires controlling both transaction and risk costs. Most existing methods adopt handcraft features and/or consider no constraints for the costs, which may make them perform unsatisfactorily and fail to control both costs in practice. In this paper, we propose a cost-sensitive portfolio selection method with deep reinforcement learning. Specifically, a novel two-stream portfolio policy network is devised to extract both price series patterns and asset correlations, while a new cost-sensitive reward function is developed to maximize the accumulated return and constrain both costs via reinforcement learning. We theoretically analyze the near-optimality of the proposed reward, which shows that the growth rate of the policy regarding this reward function can approach the theoretical optimum. We also empirically evaluate the proposed method on real-world datasets. Promising results demonstrate the effectiveness and superiority of the proposed method in terms of profitability, cost-sensitivity and representation abilities.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d114328132ffb5cb22b046ca737a68c5",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "feature representation",
+      "neural network",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.605869"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习进行投资组合选择，并特别关注成本敏感性，这直接属于投资组合管理领域。论文明确讨论了资产价格序列、资产相关性以及交易和风险成本的控制，这些都是投资组合管理的关键问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习进行投资组合选择，并特别关注成本敏感性，这直接属于投资组合管理领域。论文明确讨论了资产价格序列、资产相关性以及交易和风险成本的控制，这些都是投资组合管理的关键问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:05.631974"
+}

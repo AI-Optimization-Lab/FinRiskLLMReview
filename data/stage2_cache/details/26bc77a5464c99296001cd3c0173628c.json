@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1694,
+    "title": "Toward interpretable machine learning: evaluating models of heterogeneous predictions",
+    "abstract": "AI and machine learning have made significant progress in the past decade, powering many applications in FinTech and beyond. But few machine learning models, especially deep learning models, are interpretable by humans, creating challenges for risk management and model improvements. Here, we propose a simple yet powerful framework to evaluate and interpret any black-box model with binary outcomes and explanatory variables, and heterogeneous relationships between the two. Our new metric, the signal success share (SSS) cross-entropy loss, measures how well the model captures the relationship along any feature or dimension, thereby providing actionable guidance on model improvements. Simulations demonstrate that our metric works for heterogeneous and nonlinear predictions, and distinguishes itself from traditional loss functions in evaluating model interpretability. We apply the methodology to an example of predicting loan defaults with real data. Our framework is more broadly applicable to a wide range of problems in financial and information technology.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a9437128f358b9f4364f8988c2ff8d01",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "classification",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.487918"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种评估和解释机器学习模型的方法，并应用于预测贷款违约的实例，这直接关联到信用风险管理的领域，属于金融风险管理的一部分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种评估和解释机器学习模型的方法，并应用于预测贷款违约的实例，这直接关联到信用风险管理的领域，属于金融风险管理的一部分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:59.251195"
+}

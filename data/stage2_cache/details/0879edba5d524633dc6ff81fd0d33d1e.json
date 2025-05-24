@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 278,
+    "title": "PRIMA plus plus : A Probabilistic Framework for User Choice Modelling With Small Data",
+    "abstract": "We face choice problems every day, where we have to choose from options with multiple conflicting attributes, and learning a user's personal preference in choice problems is particularly important. For example, in E-commerce applications, this study may help make personal recommendations and sales prediction, and may offer important guidelines on sellers' pricing and discount strategies. Prior works either do not consider the competition among different options, or cannot handle the convex hull problem where a user selects an option that is regarded as unlikely to be the user's best choice by the models. Those supervised learning methods assume that a huge amount of data is available for training, while in reality, we may only have just a few records. In this work, we propose PRIMA++, a probabilistic framework that jointly considers the inter-attribute tradeoff and the inter-item competition, and a novel method to learn the user's personal preference from just a few past records. It can effectively address the convex hull problem and significantly improves the performance. We also borrow the concept of indifference curve from microeconomics and theoretically analyze a user's decision-making process and the competition among different available options. Real user test results show that our proposed framework can learn the user's preference from just a few records and achieves better performance than state-of-the-art works, especially when the data available for training are limited.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "a6f6ac834a3309ce617bbd32d5d91fed",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "few-shot Learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.112592"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究用户选择建模的概率框架，应用于电子商务中的个性化推荐和销售预测，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究用户选择建模的概率框架，应用于电子商务中的个性化推荐和销售预测，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:40.251427"
+}

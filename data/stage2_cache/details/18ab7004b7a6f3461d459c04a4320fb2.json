@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 318,
+    "title": "Default Prediction Model: The Significant Role of Data Engineering in the Quality of Outcomes",
+    "abstract": "For financial institutions and the banking industry, it is very crucial to have predictive models for their core financial activities, and especially those activities which play major roles in risk management. Predicting loan default is one of the critical issues that banks and financial institutions focus on, as huge revenue loss could be prevented by predicting customer's ability not only to pay back, but also to be able to do that on time. Customer loan default prediction is a task of proactively identifying customers who are most probably to stop paying back their loans. This is usually done by dynamically analyzing customers' relevant information and behaviors. This is significant so as the bank or the financial institution can estimate the borrowers' risk. Many different machine learning classification models and algorithms have been used to predict customers' ability to pay back loans. In this paper, three different classification methods (Naive Bayes, Decision Tree, and Random Forest) are used for prediction, comprehensive different pre-processing techniques are being applied on the dataset in order to gain better data through fixing some of the main data issues like missing values and imbalanced data, and three different feature extractions algorithms are used to enhance the accuracy and the performance. Results of the competing models were varied after applying data preprocessing techniques and features selections. The results were compared using F1 accuracy measure. The best model achieved an improvement of about 40%, whilst the least performing model achieved an improvement of 3% only. This implies the significance and importance of data engineering (e.g., data preprocessing techniques and features selections) course of action in machine learning exercises.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d2fcee154bef6c9d8a2317facf650026",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:40.956719"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习分类模型（如Naive Bayes、Decision Tree和Random Forest）来预测贷款违约，这直接应用于金融机构的风险管理，特别是信用风险管理。论文明确提到预测贷款违约是银行和金融机构风险管理的核心活动之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用机器学习分类模型（如Naive Bayes、Decision Tree和Random Forest）来预测贷款违约，这直接应用于金融机构的风险管理，特别是信用风险管理。论文明确提到预测贷款违约是银行和金融机构风险管理的核心活动之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:05.188627"
+}

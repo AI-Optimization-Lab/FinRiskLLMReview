@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2319,
+    "title": "Seismic erratic noise attenuation using unsupervised anomaly detection",
+    "abstract": "This study introduces a new attribute to identify seismic erratic noise, i.e. outlier, in the context of unsupervised anomaly detection and is defined as local outlier probabilities. The local outlier probabilities calculate scores of degrees of isolation, i.e. outlier-ness, for each object in a data set, which represents how far an object is deviated from its surrounding objects. Since the local outlier probabilities combines a density-based outlier detection method with a statistically oriented scheme, its scoring system provides regularized outlier-ness, which is an outlier probability, to be used for making a binary decision to do inclusion or exclusion of an object; such a decision only requires a simple and straightforward threshold on a probability. Based on the binary decision that flags outliers versus non-outliers, local outlier probabilities-denoising workflows are developed by combining multiple steps to complete an application of the local outlier probabilities to attenuate seismic erratic noise. Higher stability and improved robustness in the detection and rejection of seismic erratic noise have been achieved by implementing moving windows and decision tree-based processes. To avoid loss of useful signal energy, signal enhancement applications are additionally suggested. Numerical experiments on synthetic data investigate the applicability of the proposed algorithms to seismic erratic noise attenuation. Field data examples demonstrate the feasibility of a local outlier probabilities-denoising application as an effective tool in seismic denoising portfolio.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1118580f9a06b94f3b3971520aaa396d",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:39.652646"
+  },
+  "domain_result": {
+    "success": false,
+    "error": "Client error '429 Too Many Requests' for url 'https://api.deepseek.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "application_domains": [
+      "None"
+    ],
+    "justification": "API调用失败: Client error '429 Too Many Requests' for url 'https://api.deepseek.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "raw_response": null
+  },
+  "timestamp": "2025-05-20T16:15:52.376287"
+}

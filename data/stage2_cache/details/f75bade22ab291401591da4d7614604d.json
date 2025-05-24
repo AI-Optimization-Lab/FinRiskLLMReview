@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2748,
+    "title": "Latent state recognition by an enhanced hidden Markov model",
+    "abstract": "In this paper, we start from relaxing assumptions of traditional hidden Markov model then develop a novel framework for decoding the latent states, from which the dynamics of multi-variable financial data is generated. To construct the framework, we model the observed variables as a p-order vector autoregressive process, allow the latent state to evolve through a semi-Markov chain, and shrink the auto-regression and covariance matrices via a penalized maximization likelihood method. Using the 50-dimensional simulated data, the 12-dimensional 5-min order book data of the Chinese CSI 300 index component stocks, the 49-dimensional daily data of U.S. industry portfolio, and 1-dimensional hourly data of four primary foreign exchange rates, our empirical analyses show that the proposed model outperforms the alternative model in accurately recognizing anomalous events and achieves better sharp ratio in a pseudo trading strategy via the latent states. The superior performance is across the data frequency of minute, hour and daily, the dimension of one, twelve, and fifty, the data type of stock, foreign exchange rate, and industry portfolio. (c) 2020 Elsevier Ltd. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e1c11b5f80bc44e65cc952a60538389b",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:10:16.435740"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种增强的隐马尔可夫模型框架，用于识别金融数据的潜在状态，并在实证分析中展示了其在伪交易策略中通过潜在状态实现更好的夏普比率。这表明该技术主要用于优化投资组合的表现，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种增强的隐马尔可夫模型框架，用于识别金融数据的潜在状态，并在实证分析中展示了其在伪交易策略中通过潜在状态实现更好的夏普比率。这表明该技术主要用于优化投资组合的表现，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:13.271455"
+}

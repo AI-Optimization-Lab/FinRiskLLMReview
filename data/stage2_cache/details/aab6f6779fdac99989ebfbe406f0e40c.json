@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 254,
+    "title": "E2EAI: End-to-End Deep Learning Framework for Active Investing",
+    "abstract": "Active investing aims to construct a portfolio of assets that are expected to be relatively profitable in the markets. A popular strategy involves the use of factor-based methods. Recently, efforts have increased to apply deep learning to identify deep factors that could provide more active returns or promising pipelines for asset trend prediction. However, the question of constructing an active investment portfolio via an end-to-end deep learning framework (E2E) remains largely unexplored in existing research. In this paper, we are the first to propose an E2E approach that encompasses nearly the entire process of factor investing, including factor selection, combination, stock selection, and portfolio construction. A key challenge we address is the potential divergence in the directions of deep factors across different horizon lengths, which can create conflicts in the learning process of our multi-task learning model, E2EAI. To overcome this, we design a directional recovery algorithm that ensures consistent learning across tasks. Extensive experiments on real stock market data demonstrate the effectiveness of our end-to-end deep learning framework in active investing. Our approach not only enhances the potential returns of active investment strategies but also provides a comprehensive solution for managing multi-task learning conflicts in the context of deep learning-based factor investing.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "f5de80d2021c8055862730c6b85e5051",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "multi-task learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:13.489157"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建一个端到端的深度学习框架（E2EAI），用于主动投资，包括因子选择、组合、股票选择和投资组合构建。这些内容直接关联到投资组合管理的领域，旨在通过深度学习提高主动投资策略的潜在回报。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建一个端到端的深度学习框架（E2EAI），用于主动投资，包括因子选择、组合、股票选择和投资组合构建。这些内容直接关联到投资组合管理的领域，旨在通过深度学习提高主动投资策略的潜在回报。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:28.517279"
+}

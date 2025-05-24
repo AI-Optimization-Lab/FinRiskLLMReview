@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 1819,
+    "title": "A movie box office revenue prediction model based on deep multimodal features",
+    "abstract": "Demand forecasting a film's opening weekend box office revenue is a difficult and complex task that decision-makers face due to a lack of historical data and various complex factors. We proposed a novel Deep Multimodal Feature Classifier Neural Network model (DMFCNN) for predicting a film's opening weekend box office revenue using deep multimodal visual features extracted from movie posters and movie metadata. DMFCNN is an end-to-end predictive model that fuses two different feature classifiers' predictive power in estimating the movie box office revenue. Initially, a pre-trained residual convolutional neural network (ResNet50) architecture using transfer learning techniques extracts visual, and object representations learned from movie posters. The movie posters' discriminative and financial success-related features are combined with other movie metadata to classify the movie box office revenue. The proposed DMFCNN aided in developing a robust predictive model that jointly learns and defines useful revenue-related poster features and objects semantics, which strongly correlates with movie box office revenue and aesthetic appearance. Although our main task was classification, we also analyzed regressions between our exogenous variables as a regularizer to avoid the risk of overfitting. We evaluated DMFCNN's performance and compared it to various state-of-the-art models on the Internet Movie Database by collecting 49,857 movies metadata and posters from 2006 to 2019. The learned information on movie posters and predicted outcomes outperformed existing models, achieving 59.30% prediction accuracy. The proposed fusion strategy outperformed the existing fusion schemes in precision, Area Under Cover, sensitivity, and specificity by achieving 80%, 81%, 79%, and 78%, respectively.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5ef3bb9b6a457943445b39e7302abfdb",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "transfer learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:03.870045"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是基于深度多模态特征的电影票房收入预测模型，其核心技术应用于电影产业的需求预测，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是基于深度多模态特征的电影票房收入预测模型，其核心技术应用于电影产业的需求预测，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:56.058130"
+}

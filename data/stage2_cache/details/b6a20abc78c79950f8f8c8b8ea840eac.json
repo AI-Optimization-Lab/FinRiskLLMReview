@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1119,
+    "title": "Synthetic Dataset Generation of Driver Telematics",
+    "abstract": "This article describes the techniques employed in the production of a synthetic dataset of driver telematics emulated from a similar real insurance dataset. The synthetic dataset generated has 100,000 policies that included observations regarding driver's claims experience, together with associated classical risk variables and telematics-related variables. This work is aimed to produce a resource that can be used to advance models to assess risks for usage-based insurance. It follows a three-stage process while using machine learning algorithms. In the first stage, a synthetic portfolio of the space of feature variables is generated applying an extended SMOTE algorithm. The second stage is simulating values for the number of claims as multiple binary classifications applying feedforward neural networks. The third stage is simulating values for aggregated amount of claims as regression using feedforward neural networks, with number of claims included in the set of feature variables. The resulting dataset is evaluated by comparing the synthetic and real datasets when Poisson and gamma regression models are fitted to the respective data. Other visualization and data summarization produce remarkable similar statistics between the two datasets. We hope that researchers interested in obtaining telematics datasets to calibrate models or learning algorithms will find our work ot be valuable.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "edc1e66b1655fe8a7475683dfbf8ea85",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.363036"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是生成合成数据集以用于基于使用的保险风险评估，这直接关联到金融风险管理领域中的保险风险建模和评估。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是生成合成数据集以用于基于使用的保险风险评估，这直接关联到金融风险管理领域中的保险风险建模和评估。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:00.947015"
+}

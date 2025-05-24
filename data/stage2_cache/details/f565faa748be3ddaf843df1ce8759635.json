@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1415,
+    "title": "Risk-Sensitive Portfolio Management by Using C51 Algorithm",
+    "abstract": "Financial trading is one of the most popular problems for reinforcement learning in recent years. One of the important challenges is that investment is a multi-objective problem. That is, professional investors do not act solely on expected profit but also carefully consider the potential risk of a given investment. To handle such a challenge, previous studies have explored various kinds of risk-sensitive rewards, for example, the Sharpe ratio as computed by a fixed length of previous returns. This work proposes a new approach to deal with the profit-to-risk tradeoff by applying distributional reinforcement learning to build a risk awareness policy instead of a simple risk-based reward function. Our new policy, termed C51-Sharpe, is to select the action based on the Sharpe ratio computed from the probability mass function of the return. This produces a significantly higher Sharpe ratio and lower maximum drawdown without sacrificing profit compared to the C51algorithm utilizing a purely profit-based policy. Moreover, it can outperform other benchmarks, such as a Deep Q-Network (DQN) with a Sharpe ratio reward function. Besides the policy, we also studied the effect of using double networks and the choice of exploration strategies with our approach to identify the optimal training confi guration. We find that the epsilon-greedy policy is the most suitable exploration for C51-Sharpe and that the use of double network has no significant impact on performance. Our study provides statistical evidence of the efficiency in risk-sensitive policy implemented by using distributional reinforcement algorithms along with an optimized training process.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d7b505342512d964df50862db67b998e",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "Deep Q-Network",
+      "DQN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.600606"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是应用分布强化学习（C51算法）来构建风险敏感的投资策略，旨在优化投资组合的夏普比率和最大回撤，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是应用分布强化学习（C51算法）来构建风险敏感的投资策略，旨在优化投资组合的夏普比率和最大回撤，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:04.752512"
+}

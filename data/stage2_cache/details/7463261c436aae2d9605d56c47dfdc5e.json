@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 576,
+    "title": "A Visual Analytics Approach to Understanding Gradient Boosting Tree via Click Prediction on Ads",
+    "abstract": "As an iterative algorithm consisting of multiple decision trees, gradient boosting decision tree (GBDT) is widely used in problems such as classification and regression prediction. The ensemble decision trees of the algorithm obtain predictive effect by automatically filtering and combining new feature vectors, which contributes to discovering effective feature combinations. However, gradient boosting tree (GBT) is a tedious model, especially the boosting tree approach. It is difficult to interpret the principle of the model due to the characteristic of each tree of the model with weights and the unique structural properties of each decision tree, which is a challenge in many fields that require high interpretation such as financial risk control. In this paper, we design an interactive visual analytic system to solve this problem, to explain the structure and prediction process of the gradient boosting tree model, and to help experts in related fields to perform efficient analysis. We have designed a graphical representation of the feature information and a visual model of the boosting tree to show the basic mechanism of the GBT algorithm in a comprehensive way. The case study is conducted on the dataset of Kaggle competition to prove the effectiveness of the system.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0d2f1cf69f4039c7ae808bbe1aa0eb54",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.411741"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究梯度提升树的可视化分析系统，虽然提到金融风险控制作为高解释性需求的领域之一，但论文的核心技术和案例研究并未具体应用于金融风险管理或其他指定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究梯度提升树的可视化分析系统，虽然提到金融风险控制作为高解释性需求的领域之一，但论文的核心技术和案例研究并未具体应用于金融风险管理或其他指定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:41.652403"
+}

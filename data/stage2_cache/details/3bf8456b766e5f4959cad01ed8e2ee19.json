@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2776,
+    "title": "A kind of new time-weighted nonnegative lasso index-tracking model and its application",
+    "abstract": "This study describes improved index-tracking methods to replicate the target index's market performance in a high-dimensional sparse linear regression with nonnegative constraints on the coefficients. The main objective of this study is to construct a sparse portfolio with a better prediction effect and robustness. Considering the influence of time factors on index tracking, we propose a time-weighted nonnegative lasso index tracking model under different market constraints and define two new time-weighted construction methods. This index tracking model is an extension of Lasso and has variable selection consistency and estimation consistency under time-weighted nonnegative irrepresentable conditions similar to the irrepresentable condition in Lasso. We use the multiplicative updates algorithm to obtain the model's solution since it is faster and simpler. The constrained index tracking problem in the stock market without short sales is studied in the latter part. The empirical results indicate that the optimized time-weighted nonnegative lasso index tracking model can obtain a smaller out-of-sample tracking error. The constructed portfolio has a better prediction effect and robustness, and we find that the exponential time-weighted method is better than the linear time-weighted method in capturing time information.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8f71c7612bd23bee97a3dccf0fdc0176",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:10:16.528953"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是改进的指数跟踪方法，旨在构建稀疏投资组合以更好地复制目标指数的市场表现，这直接属于投资组合管理的范畴。论文还讨论了在无卖空约束下的股票市场中的指数跟踪问题，进一步证实了其应用领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是改进的指数跟踪方法，旨在构建稀疏投资组合以更好地复制目标指数的市场表现，这直接属于投资组合管理的范畴。论文还讨论了在无卖空约束下的股票市场中的指数跟踪问题，进一步证实了其应用领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:10.882292"
+}

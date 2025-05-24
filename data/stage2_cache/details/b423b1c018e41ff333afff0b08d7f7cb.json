@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 116,
+    "title": "A Hierarchical Reinforcement Learning Framework for Stock Selection and Portfolio",
+    "abstract": "Investment is a common economics task in which investors maximize future profits by continuously reallocating their current assets. A large number of studies are based on specifying stocks and constantly adjusting the ratio between these stocks to gain more benefits. However, the question of which stocks should be included in the portfolio is not addressed, while some investment strategies only select stocks and buy them without portfolio optimization, which may also cause unexpected loss owing to market oscillation. We try to integrate stock selection and portfolio optimization as a complete process to address this problem using hierarchical reinforcement learning. The high-level policy selects stocks with a high profitable probability, and then the low-level policy makes portfolio optimization on the selected stocks to gain more profit. The performance in China market demonstrates that our hierarchical agents can over performance a single stock selection agent.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "bb5956e4386e2f19a089bac3a203d52d",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.572409"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用分层强化学习框架进行股票选择和投资组合优化，旨在通过动态调整资产配置来最大化未来利润，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用分层强化学习框架进行股票选择和投资组合优化，旨在通过动态调整资产配置来最大化未来利润，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:26.530939"
+}

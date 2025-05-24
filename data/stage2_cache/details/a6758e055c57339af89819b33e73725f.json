@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1559,
+    "title": "A Regularized High-Dimensional Positive Definite Covariance Estimator with High-Frequency Data",
+    "abstract": "This paper proposes a novel large-dimensional positive definite covariance estimator for high-frequency data under a general factor model framework. We demonstrate an appealing connection between the proposed estimator and a weighted group least absolute shrinkage and selection operator (LASSO) penalized least-squares estimator. The proposed estimator improves on traditional principal component analysis by allowing for weak factors, whose signal strengths are weak relative to idiosyncratic components. Despite the presence of microstructure noises and asynchronous trading, the proposed estimator achieves guarded positive definiteness without sacrificing the convergence rate. To make our method fully operational, we provide an extended simultaneous alternating direction method of multipliers algorithm to solve the resultant constrained convex minimization problem efficiently. Empirically, we study the monthly high-frequency covariance structure of the stock constituents of the S&P 500 index from 2008 to 2016, using all traded stocks from the NYSE, AMEX, and NASDAQ stock markets to construct the high-frequency Fama-French four and extended eleven economic factors. We further examine the out-of sample performance of the proposed method through vast portfolio allocations, which deliver significantly reduced out-of-sample portfolio risk and enhanced Sharpe ratios. The success of our method supports the usefulness of machine learning techniques in finance.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9d5aa7d02866ac03aa88bc8ac913bed0",
+    "relevant_keywords": [
+      "machine learning",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:12.640021"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种用于高频数据的协方差估计方法，并实证研究了其在S&P 500成分股的投资组合分配中的应用，显著降低了样本外投资组合风险并提高了夏普比率，这直接关联到投资组合管理的核心问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种用于高频数据的协方差估计方法，并实证研究了其在S&P 500成分股的投资组合分配中的应用，显著降低了样本外投资组合风险并提高了夏普比率，这直接关联到投资组合管理的核心问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:11.831119"
+}

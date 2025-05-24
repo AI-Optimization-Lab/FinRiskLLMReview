@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 112,
+    "title": "A Two-level Reinforcement Learning Algorithm for Ambiguous Mean-variance Portfolio Selection Problem",
+    "abstract": "Traditional modeling on the mean-variance portfolio selection often assumes a full knowledge on statistics of assets' returns. It is, however, not always the case in real financial markets. This paper deals with an ambiguous mean-variance portfolio selection problem with a mixture model on the returns of risky assets, where the proportions of different component distributions are assumed to be unknown to the investor, but being constants (in any time instant). Taking into consideration the updates of proportions from future observations is essential to find an optimal policy with active learning feature, but makes the problem intractable when we adopt the classical methods. Using reinforcement learning, we derive an investment policy with a learning feature in a two-level framework. In the lower level, the time-decomposed approach (dynamic programming) is adopted to solve a family of scenario subcases where in each case the series of component distributions along multiple time periods is specified. At the upper level, a scenario-decomposed approach (progressive hedging algorithm) is applied in order to iteratively aggregate the scenario solutions from the lower layer based on the current knowledge on proportions, and this twolevel solution framework is repeated in a manner of rolling horizon. We carry out experimental studies to illustrate the execution of our policy scheme.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1e90a30ed1d2bcddb230aa5910e1f768",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "active learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.567204"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习解决模糊均值-方差投资组合选择问题，这直接属于投资组合管理的范畴。论文明确讨论了资产回报的统计不确定性以及如何通过两层次强化学习框架优化投资策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习解决模糊均值-方差投资组合选择问题，这直接属于投资组合管理的范畴。论文明确讨论了资产回报的统计不确定性以及如何通过两层次强化学习框架优化投资策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:27.627594"
+}

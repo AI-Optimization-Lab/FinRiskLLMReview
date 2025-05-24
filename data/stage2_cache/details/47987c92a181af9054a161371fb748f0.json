@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1912,
+    "title": "A heuristic rule adaptive selection approach for multi-work package project scheduling problem",
+    "abstract": "Effectively scheduling a project is crucial for its success, especially after generating work packages from the work breakdown structure during the planning phase. Nevertheless, solving project scheduling problems with multiple work packages is challenging due to the inefficient utilization of work package information in existing scheduling approaches. To address this issue, this paper proposes the Heuristic Rule Adaptive Selection (HAS) approach for the Multi-Work Package Project Scheduling Problem (MWPSP). This approach involves work package information and employs reinforcement learning (RL) for intelligent decision-making in scheduling. First, the MWPSP with the optimization objective of minimizing the Portfolio Delay (PDEL) and the Average Percent Delay (APD) is defined, and a scheduling environment is established that integrates information from both work packages and tasks. Second, a Double Deep Q-network (DDQN) is employed to train agents for adaptively selecting heuristic rules of tasks and work packages. The performance of the HAS approach is then evaluated using a case project and the newly created MWPSP dataset. The experimental results demonstrate that the HAS approach exhibits superior solution quality and computational efficiency in optimizing PDEL and APD compared to heuristics approaches, e.g., single-priority rule-based heuristics and genetic algorithms. This achievement sets the stage for the development of next-generation adaptive scheduling for construction projects.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c4b8ec108d2f73b27020c1a7ca7e1a6a",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:06.117491"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究多工作包项目调度问题，提出了一种基于强化学习的启发式规则自适应选择方法，其应用场景是建筑项目的调度优化，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究多工作包项目调度问题，提出了一种基于强化学习的启发式规则自适应选择方法，其应用场景是建筑项目的调度优化，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:15.347117"
+}

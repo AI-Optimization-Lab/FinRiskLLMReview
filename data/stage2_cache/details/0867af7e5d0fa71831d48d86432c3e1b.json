@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 475,
+    "title": "Reinforcement Learning for Systematic FX Trading",
+    "abstract": "We explore online inductive transfer learning, with a feature representation transfer from a radial basis function network formed of Gaussian mixture model hidden processing units to a direct, recurrent reinforcement learning agent. This agent is put to work in an experiment, trading the major spot market currency pairs, where we accurately account for transaction and funding costs. These sources of profit and loss, including the price trends that occur in the currency markets, are made available to the agent via a quadratic utility, who learns to target a position directly. We improve upon earlier work by targeting a risk position in an online transfer learning context. Our agent achieves an annualised portfolio information ratio of 0.52 with a compound return of 9.3%, net of execution and funding cost, over a 7-year test set; this is despite forcing the model to trade at the close of the trading day at 5 pm EST when trading costs are statistically the most expensive.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fa84c705e290c1b9ff4e5055178287dc",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "feature representation",
+      "neural network",
+      "representation learning",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.406698"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究使用强化学习进行外汇交易，目标是优化投资组合的表现，包括考虑交易成本和资金成本，并直接针对风险头寸进行管理。这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究使用强化学习进行外汇交易，目标是优化投资组合的表现，包括考虑交易成本和资金成本，并直接针对风险头寸进行管理。这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:34.343948"
+}

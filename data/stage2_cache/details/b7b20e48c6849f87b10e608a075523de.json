@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1985,
+    "title": "Neural Network Based Relation Extraction of Enterprises in Credit Risk Management",
+    "abstract": "The effective identification of associated relations between enterprises is one of the vital methods for credit risk management. It is a common phenomenon that the failure to identify the relations between the customer groups results in the increasing of credit risks of financial institutions, including granting multi-end or excessive credit or inappropriately distributes the amount of credit line to customer group. The existing technologies for mining associated relations of credit customers are relatively lagging behind, most rely on open business information without timely update, and the risk management of financial institutions faces enormous challenges. This paper proposed a model named Enterprise Relation Extraction based GRU (ERE-GRU) to auto-extract the relations between enterprises from unstructured text data, which used Bi-directional Gated Recurrent Unit (GRU) to build the neural network, and extracts the lexical features such as word embedding and syntactic features such as dependency to explore the relation between entities. The experimental results show that the effectiveness of the ERE-GRU model in enterprise relation extraction, and the F1-score reached 0.71.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9e145f67f0ed94c48a7081f3635c8ee1",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:48.363592"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on identifying associated relations between enterprises to improve credit risk management, which is a key aspect of financial risk management. The proposed model aims to mitigate risks related to granting credit, a core concern in this domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on identifying associated relations between enterprises to improve credit risk management, which is a key aspect of financial risk management. The proposed model aims to mitigate risks related to granting credit, a core concern in this domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:00.354405"
+}

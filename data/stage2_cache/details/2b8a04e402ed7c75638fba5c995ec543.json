@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 282,
+    "title": "A study of variance reduction techniques for American option pricing",
+    "abstract": "American option pricing is a challenging problem in financial mathematics for which several approaches have been proposed in the last few years. In this paper, we consider the regression-based method of Longstaff and Schwartz (2001) to price these options, and then investigate the use of different variance reduction techniques to improve the efficiency of the Monte Carlo estimators thus obtained. The techniques considered have been shown to work well for European option pricing. One of them is importance sampling, in which the approach of Glasserman, Heidelberger, and Shahabuddin (1999) is applied to find an appropriate change of measure. We also consider control variates and randomized quasi-Monte Carlo methods, and use numerical experiments on American Asian call options to investigate the performance of these methods.",
+    "year": 2005,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "9a24ce101b267db65837a6f9454c8ac5",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.124128"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是研究方差减少技术在美国期权定价中的应用，特别是通过回归方法和蒙特卡洛估计器来提高定价效率。这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是研究方差减少技术在美国期权定价中的应用，特别是通过回归方法和蒙特卡洛估计器来提高定价效率。这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:39.762035"
+}

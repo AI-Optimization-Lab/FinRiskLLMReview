@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 245,
+    "title": "融合RACNN和BiLSTM的金融领域事件隐式因果关系抽取",
+    "abstract": "金融领域的文本信息量大、价值高，尤其是其中的隐式因果关系事件包含着巨大的潜在利用价值。对金融领域文本进行隐式因果关系分析，挖掘隐式因果关系事件中隐含的重要信息，了解金融领域事件更深层的演化逻辑，进而构建金融领域知识库，对金融风险控制、风险预警等具有重要意义。为了提高金融领域中隐式因果关系事件识别的准确度，从特征挖掘的角度入手，提出了一种基于自注意力机制的融合循环注意力卷积神经网络(Recurrent Attention Convolution Neural Network, RACNN)和双向长短时记忆网络(Bidirectional Long Short-Term Memory, BiLSTM)的隐式因果关系抽取方法。该方法结合了基于迭代反馈机制能提取更重要文本局部特征的RACNN、能更好地提取文本全局特征的BiLSTM以及能更深入地挖掘融合特征语义信息的自注意力机制，在SemEval-2010 Task 8数据集和金融领域数据集上进行了实验，结果表明，评估指标F1值分别达到了72.98%和75.74%,均显著优于其他对比模型。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f4b47cc6c5bd63467a97b1719dfff63d",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-14T22:27:55.679001"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是金融领域文本的隐式因果关系抽取，旨在挖掘金融事件中的深层演化逻辑，用于金融风险控制和风险预警，这直接关联到金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是金融领域文本的隐式因果关系抽取，旨在挖掘金融事件中的深层演化逻辑，用于金融风险控制和风险预警，这直接关联到金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:38:59.292230"
+}

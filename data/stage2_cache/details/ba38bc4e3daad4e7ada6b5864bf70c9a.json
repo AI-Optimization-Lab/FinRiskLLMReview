@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1136,
+    "title": "Efficient differentiable quadratic programming layers: an ADMM approach",
+    "abstract": "Recent advances in neural-network architecture allow for seamless integration of convex optimization problems as differentiable layers in an end-to-end trainable neural network. Integrating medium and large scale quadratic programs into a deep neural network architecture, however, is challenging as solving quadratic programs exactly by interior-point methods has worst-case cubic complexity in the number of variables. In this paper, we present an alternative network layer architecture based on the alternating direction method of multipliers (ADMM) that is capable of scaling to moderate sized problems with 100-1000 decision variables and thousands of training examples. Backward differentiation is performed by implicit differentiation of a customized fixed-point iteration. Simulated results demonstrate the computational advantage of the ADMM layer, which for medium scale problems is approximately an order of magnitude faster than the state-of-the-art layers. Furthermore, our novel backward-pass routine is computationally efficient in comparison to the standard approach based on unrolled differentiation or implicit differentiation of the KKT optimality conditions. We conclude with examples from portfolio optimization in the integrated prediction and optimization paradigm.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "829a7171fa7f66e29be8dd7412b6ebee",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.415888"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到'portfolio optimization'作为应用示例，说明其核心技术（基于ADMM的可微分二次规划层）被应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到'portfolio optimization'作为应用示例，说明其核心技术（基于ADMM的可微分二次规划层）被应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:58.436407"
+}

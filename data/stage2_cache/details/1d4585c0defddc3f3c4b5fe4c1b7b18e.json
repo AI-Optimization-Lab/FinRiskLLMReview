@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 6513,
+    "title": "Transductive Semi-Supervised Metric Network for Reject Inference in Credit Scoring",
+    "abstract": "Credit scoring is an essential technique for credit risk management in the financial industry. However, most credit scoring models face the challenge of reject inference, which refers to the lack of post-loan performance data for rejected applicants, leading to sample selection bias and inaccurate credit assessment. Traditional credit scoring methods tackle this issue by assuming that the missing labels for rejected samples are missing at random (MAR) and by measuring sample similarity directly in the original feature space. Nevertheless, these strategies are not suitable for real-world business scenarios. Inspired by metric learning and transductive learning, we propose a novel credit scoring model called transductive semi-supervised metric network (TSSMN), which formalizes reject inference as a semi-supervised binary classification problem with the prior assumption of missing not at random (MNAR). TSSMN consists of two interconnected modules: the embedding metric network (EMN) that maps samples from the original feature space to the metric space for similarity measurement, and the transductive propagation network (TPN) that performs label propagation based on sample similarity. We evaluate TSSMN on a real-world credit dataset and compare it with traditional credit scoring methods. The results indicate that TSSMN can overcome sample selection bias and more accurately classify credit applicants. Therefore, TSSMN has the potential to enhance credit risk assessment in real-world business scenarios.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "319d041099a04fc95ce13667ae90a368",
+    "relevant_keywords": [
+      "machine learning",
+      "semi-supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:59:07.389138"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit scoring models to address sample selection bias in credit risk assessment, which is a key aspect of financial risk management in the banking and lending industry.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit scoring models to address sample selection bias in credit risk assessment, which is a key aspect of financial risk management in the banking and lending industry.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:52.766895"
+}

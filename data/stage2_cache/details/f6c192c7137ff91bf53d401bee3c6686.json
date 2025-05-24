@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 991,
+    "title": "Optimal dynamic fixed-mix portfolios based on reinforcement learning with second order stochastic dominance",
+    "abstract": "We propose a reinforcement learning (RL) approach to address a multiperiod optimization problem in which a portfolio manager seeks an optimal constant proportion portfolio strategy by minimizing a tail risk measure consistent with second order stochastic dominance (SSD) principles. As a risk measure, we consider in particular the Interval Conditional Value -at -Risk (ICVaR) shown to be mathematically related to SSD principles. By including the ICVaR in the reward function of an RL method we show that an optimal fixed -mix policy can be derived as solution of short- to medium -term allocation problems through an accurate specification of the learning parameters under general statistical assumptions. The financial optimization problem, thus, carries several novel features and the article details the required steps to accommodate those features within a reinforcement learning architecture. The methodology is tested in- and out -of -sample on market data showing good performance relative to the SP500, adopted as benchmark policy.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0b09d6a3a0fcd2718fc42d7eab91df9a",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.906968"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用强化学习来优化多期投资组合策略，并采用与二阶随机优势（SSD）原则一致的尾部风险度量（ICVaR）作为风险指标。这直接涉及投资组合管理的优化问题，同时也属于金融风险管理中风险度量和控制的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习来优化多期投资组合策略，并采用与二阶随机优势（SSD）原则一致的尾部风险度量（ICVaR）作为风险指标。这直接涉及投资组合管理的优化问题，同时也属于金融风险管理中风险度量和控制的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:44.726666"
+}

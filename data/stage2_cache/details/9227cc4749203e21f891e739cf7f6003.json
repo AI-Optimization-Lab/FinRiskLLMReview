@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 67,
+    "title": "Numerical solving of the generalized Black-Scholes differential equation using Laguerre neural network",
+    "abstract": "Reasonable pricing of options in the financial derivatives market is crucial. For American options, or when volatility and interest rate are not constant, it is often difficult to obtain analytical solutions to the Black-Scholes (BS) equation. In this paper, the Laguerre neural network was proposed as a novel numerical algorithm with three layers of neurons for solving BS equations. The validity period and stock price are the input of the network, and the option price is the only output layer. Laguerre functions are used as the activation function of the neuron in the hidden layer. The BS equation and boundary conditions are set as penalty function, the training points are uniformly selected in the domain, and the improved extreme learning machine algorithm is used to optimize the network connection weights. Three experiments calculated the numerical solutions of BS equations for European options and generalized option pricing models. Compared with existing algorithms such as the finite element method and radial basis function neural network, the numerical solutions obtained by Laguerre neural network have higher accuracy and smaller errors, which illustrates the feasibility and superiority of the proposed method for solving BS equations. (C) 2021 Elsevier Inc. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "83630869e3a1b5612d7c9b4a9902e14c",
+    "relevant_keywords": [
+      "neural network",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.894983"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用Laguerre神经网络数值求解Black-Scholes方程，主要用于期权定价，这直接属于衍生品定价领域。论文明确提到其目标是解决金融衍生品市场中期权的合理定价问题，并通过实验验证了该方法在欧式期权和广义期权定价模型中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用Laguerre神经网络数值求解Black-Scholes方程，主要用于期权定价，这直接属于衍生品定价领域。论文明确提到其目标是解决金融衍生品市场中期权的合理定价问题，并通过实验验证了该方法在欧式期权和广义期权定价模型中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:03.532380"
+}

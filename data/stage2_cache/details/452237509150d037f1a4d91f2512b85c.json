@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 478,
+    "title": "基于MIDAS-Expectile回归模型的加密货币风险测度",
+    "abstract": "风险测度EVaR(以Expectile模型为基础)作为QVaR(以分位数为基础)的替代技术,其计算更加简便,且能够更加准确地反映极端值的影响.为了充分综合利用不同频率数据所包含的信息,构建了MIDAS-Expectile回归模型,并基于非线性非对称最小二乘方法得到参数及条件EVaR的估计,同时给出了估计的渐近正态性以及条件Expectile的coverage检验.此外,还从极大似然估计的角度给出了Expectile回归模型的似然函数及信息准则,以完成不同Expectile回归模型的比较与检验.为了对加密货币的金融风险进行研究,在实证部分,将MIDAS-Expectile回归模型应用于加密货币收益风险的度量,同时探讨了其他传统金融市场对这一新兴金融资产的风险传染现象.加密货币月度数据的风险实证结果表明其他金融市场的信号将对加密货币市场风险有显著的或正向或负向的影响,加密货币市场不是孤立于传统金融市场.",
+    "year": 2020,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7b2827c3ee0e0e56c3484638f6fa39d3",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:30:29.689382"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是构建MIDAS-Expectile回归模型用于加密货币的风险测度，并探讨了传统金融市场对加密货币市场的风险传染现象，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是构建MIDAS-Expectile回归模型用于加密货币的风险测度，并探讨了传统金融市场对加密货币市场的风险传染现象，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:38:20.643487"
+}

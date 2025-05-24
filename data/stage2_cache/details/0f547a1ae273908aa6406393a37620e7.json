@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 77,
+    "title": "Portfolio Management System with Reinforcement Learning",
+    "abstract": "Portfolio management is a critical issue which should be skilled by position sizing and resource allocation. Traditional and generic portfolio strategies require to forecast the future stocks prices as the model inputs, which is not a trivial task in the real-world applications. To solve the above limitations and provide a better solution for the portfolio management to the inventors, we then develop a portfolio management system (PMS) with equity market neutral strategy in reinforcement learning. A novel reward function involving Sharpe ratio is also designed to evaluate the performance of the developed systems. Experimental results indicate that the PMS with Sharpe ratio reward function has the outstanding performance, and increase the return 39.0% and decrease the drawdown of 13.7% on average than that with reward function of trading return. In addition, the developed PMS_CNN model is more suitable and profitable to construct RL portfolio, but has a 1.98 times more drawdown risk than the PMS_RNN. Overall, the proposed PMS outperforms the benchmark strategies in the measurements of total return and Sharpe ratio. The PMS is profitable and effective with lower investment risk, and the novel reward function by involving Sharpe ratio really enhances the performance, and well support the resource-allocation in the empirical stock trading.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "400d264b077148f60a27f68e8f2e864d",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:57.043190"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是开发一个基于强化学习的投资组合管理系统（PMS），并设计了包含夏普比率的新型奖励函数来评估系统性能。研究目标明确指向投资组合管理，通过实验验证了系统在总回报和夏普比率方面的优越表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是开发一个基于强化学习的投资组合管理系统（PMS），并设计了包含夏普比率的新型奖励函数来评估系统性能。研究目标明确指向投资组合管理，通过实验验证了系统在总回报和夏普比率方面的优越表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:52.941006"
+}

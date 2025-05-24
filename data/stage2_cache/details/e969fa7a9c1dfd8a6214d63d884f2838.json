@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 41,
+    "title": "SVM-Jacobi for fitting linear combinations of exponential distributions with applications to finance and insurance",
+    "abstract": "We propose a method called SVM-Jacobi to approximate probability distributions by linear combinations of exponential distributions, associated with a comprehensive asymptotic analysis. In multivariate cases, the multivariate distribution is approximated by linear combinations of products of independent exponential distributions, and the method works effectively. The proposed method has many applications in both quantitative finance and insurance, especially for modeling random time, like default time and remaining lifetime. In addition to the methodology and theoretical analysis, we provide examples of pricing defaultable bonds, European options, credit default swaps, equity-linked death benefits, and calculating the credit value adjustment of credit default swaps. Finally, some numerical results based on real data and simulated data are presented for illustration.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "f334dd860253429e6c501c2c6b6b9a21",
+    "relevant_keywords": [
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.587290"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文提出的SVM-Jacobi方法被应用于定价违约债券、欧洲期权和信用违约互换（CDS），这些都是典型的衍生品定价问题。虽然论文也提到了信用价值调整（CVA）这一风险管理相关的内容，但主要应用和示例集中在衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文提出的SVM-Jacobi方法被应用于定价违约债券、欧洲期权和信用违约互换（CDS），这些都是典型的衍生品定价问题。虽然论文也提到了信用价值调整（CVA）这一风险管理相关的内容，但主要应用和示例集中在衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:06.721719"
+}

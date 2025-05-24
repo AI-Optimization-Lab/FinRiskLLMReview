@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 408,
+    "title": "基于增强多维多粒度级联森林的信用评分模型",
+    "abstract": "信用风险是商业银行所面临的主要金融风险之一,而传统的基于统计学习的信用评分方法不能有效利用现有的特征学习方法,因此预测准确度不高。为解决这个问题,提出一种增强多维多粒度级联森林的方法建立信用评分模型,借鉴残差学习的思想,建立了多维多粒度级联残差森林(grc Forest)模型,从而大幅增加提取的特征。除此之外,使用多维多粒度的扫描尽可能多地提取原始数据的特征,从而提高了特征提取的效率。对各模型的实验结果通过AUC(Area Under Curve)、准确率等指标进行评价,同时把所提模型与现有的统计学习和机器学习算法在四个不同的信用评分数据集上进行对比,可知所提出的模型的AUC值相较于轻量级梯度提升机(Light GBM)方法平均高1.13%,相较于极端梯度提升(XGBoost)方法平均高1.44%。从实验结果可以看出,提出的模型预测效果最佳。",
+    "year": 2021,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8668b0fba96f4de960546f202ab99e24",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:30:01.765417"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种增强多维多粒度级联森林的信用评分模型，旨在提高信用风险预测的准确性。信用风险是商业银行面临的主要金融风险之一，因此该研究直接应用于金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种增强多维多粒度级联森林的信用评分模型，旨在提高信用风险预测的准确性。信用风险是商业银行面临的主要金融风险之一，因此该研究直接应用于金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:38:27.145935"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 533,
+    "title": "Use of Prediction Bias in Active Learning and Its Application to Large Variable Annuity Portfolios",
+    "abstract": "Given the computational challenges associated with valuing large variable annuity (VA) portfolios, a variety of data mining frameworks, including metamodeling and active learning, have been proposed in recent years. Active learning, a promising alternative to metamodeling, enhances the efficiency of VA portfolio assessments by adaptively improving a predictive regression model. This is achieved by augmenting data for model training with strategically selected informative samples. Successful application of active learning requires an effective metric in order to gauge the informativeness of data. Current sampling methods, which focus on prediction error-based informativeness, typically rely solely on prediction variance and assume an unbiased predictive model. In this paper, we address the fact that prediction bias can be nonnegligible in large VA portfolio valuation and investigate the impact of prediction bias in both the modeling and sampling stages of active learning. Our experimental results suggest that bias-based sampling can rival the efficacy of traditional ambiguity-based sampling, with its success contingent upon the extent of bias present in the predictive model.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c50348d027c95ee67387d822af85c446",
+    "relevant_keywords": [
+      "machine learning",
+      "active learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:21.128177"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是应用主动学习方法来提高大型可变年金（VA）投资组合的估值效率。可变年金是一种复杂的金融衍生品，其定价涉及多种风险和不确定性。论文的研究目标是优化估值过程，这直接关联到衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是应用主动学习方法来提高大型可变年金（VA）投资组合的估值效率。可变年金是一种复杂的金融衍生品，其定价涉及多种风险和不确定性。论文的研究目标是优化估值过程，这直接关联到衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:01.347847"
+}

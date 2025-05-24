@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2619,
+    "title": "FEATURE CLUSTERING WITH SELF-ORGANIZING MAPS AND AN APPLICATION TO FINANCIAL TIME-SERIES FOR PORTFOLIO SELECTION",
+    "abstract": "The portfolio selection is an important technique for decreasing the risk in the stock investment. In the portfolio selection, the investor's property is distributed for a set of stocks in order to minimize the financial risk in market downturns. With this in mind, and aiming to develop a tool to assist the investor in finding balanced portoffios, we achieved a generic method for feature clustering with Self-Organizing Maps (SOM). The ability of neural networks to discover nonlinear relationships in input data makes them ideal for modeling dynamic systems as the stock market. The method proposed makes use the remarkable visualization capabilities of the SOM, namely the Component Planes, to detect non-linear correlations between features. An appropriate metric - the improved R-nu coefficient - is also proposed to compare Component Planes and generate a distance matrix between features, after which an hierarchical clustering method is used to obtain the clusters of features. Results obtained are empirically sound, although at this moment we do not provide mathematical comparisons with other methods. Results also show that feature clustering with the SOM presents itself as a viable method to cluster time-series.",
+    "year": 2010,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0108b693e1785025e15f7b0b3e9cdfb0",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "neural network",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:17:32.070920"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly discusses the application of Self-Organizing Maps (SOM) for feature clustering in financial time-series data to assist in portfolio selection, which is a core aspect of portfolio management. The research aims to minimize financial risk in market downturns by distributing investments across a set of stocks, aligning with the goals of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly discusses the application of Self-Organizing Maps (SOM) for feature clustering in financial time-series data to assist in portfolio selection, which is a core aspect of portfolio management. The research aims to minimize financial risk in market downturns by distributing investments across a set of stocks, aligning with the goals of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:06.897745"
+}

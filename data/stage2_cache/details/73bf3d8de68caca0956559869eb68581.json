@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2147,
+    "title": "Nonlinear trading models through Sharpe Ratio maximization",
+    "abstract": "While many trading strategies are based on price prediction, traders in financial markets are typically interested in optimizing risk-adjusted performance such as the Sharpe Ratio, rather than the price predictions themselves. This paper introduces an approach which generates a nonlinear strategy that explicitly maximizes the Sharpe Ratio. It is expressed as a neural network model whose output is the position size between a risky and a risk-free asset. The iterative parameter update rules are derived and compared to alternative approaches. The resulting trading strategy is evaluated and analyzed on both computer-generated data and real world data (DAX, the daily German equity index). Trading based on Sharpe Ratio maximization compares favorably to both profit optimization and probability matching (through cross-entropy optimization). The results show that the goal of optimizing out-of-sample risk-adjusted profit can indeed be achieved with this nonlinear approach.",
+    "year": 1997,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6304581b916d8ea8c6dee2871d915778",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:11:40.601826"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过神经网络模型优化Sharpe Ratio，直接涉及资产配置（在风险资产和无风险资产之间的头寸分配）和风险调整后的绩效优化，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过神经网络模型优化Sharpe Ratio，直接涉及资产配置（在风险资产和无风险资产之间的头寸分配）和风险调整后的绩效优化，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:04.911867"
+}

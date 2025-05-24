@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3216,
+    "title": "NEUD-TRI: Network Embedding Based on Upstream and Downstream for Transaction Risk Identification",
+    "abstract": "Invoices serve as records of financial transactions of taxpayers and significant b asis t o c ontrolling t ax source and collection of tax, via analyzing which, we can discern diversified tasks of tax risk, such as industry identification, hidden transaction detection, and illegal behavior mining. Among all the existing studies related to the identification of t ax r isk, there are some weaknesses through the machine learning model and network analysis because of the dependence on tax knowledge. Different from the manual selection of indicators and the manual definitions mode with the guidance of tax knowledge in the past, in this paper, we propose a novel method, namely, network embedding based on upstream and downstream for tax risk identification (NEUD-TRI), which considers the taxpayers serving as both seller and purchaser. The method designs optimization functions respectively to capture local and global static network structures and dynamic network structure. In view of the significant discrepancy of weights in the transaction network, this paper normalizes the weight within the range of the upstream and downstream of the vertex. Negative sampling and edge sampling are adopted to deal with the large-scale trait of the transaction network. Empirical results on tax data-sets of a province substantiate the effectiveness of our models.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "436855fa1d0f37b4d77b64944cf71ee8",
+    "relevant_keywords": [
+      "machine learning",
+      "representation learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:24:05.010414"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是基于网络嵌入的税务风险识别方法，虽然涉及风险管理，但其应用场景是税务风险而非金融风险管理。论文未提及衍生品定价或投资组合管理相关内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是基于网络嵌入的税务风险识别方法，虽然涉及风险管理，但其应用场景是税务风险而非金融风险管理。论文未提及衍生品定价或投资组合管理相关内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:37:21.143784"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 447,
+    "title": "Predicting Churn of Credit Card Customers Using Machine Learning and AutoML",
+    "abstract": "Nowadays, a major concern for most retail banks is the risk that originates from customer fluctuation and that increases the cost of almost every financial product. In this work, the authors compared different approaches and algorithms to predict the relevant features that affect the customer churn, which means we can find ways to reduce the customer churn and create financial inclusion. This research was conducted by applying different machine learning techniques like decision tree classifier, random forest classifier, AdaBoost classifier, extreme gradient boosting, and balancing data with random under-sampling and random oversampling. The authors have also implemented AutoML to further compare different models and improve the accuracy of the model to predict customer churn. It was observed that applying AutoML highest accuracy model gave the accuracy of 97.53% in comparison to that of the decision tree classifier, which was 93.48% with the use of low processing power. Important features were `total transaction amount' and `total transaction count' to predict customer churn for a given dataset.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1fd5689ee1af2d58a7828d7f40a0a6e2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.675800"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用机器学习和AutoML技术预测信用卡客户的流失，这属于金融机构在客户关系管理中的风险控制范畴，因此可以归类为金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用机器学习和AutoML技术预测信用卡客户的流失，这属于金融机构在客户关系管理中的风险控制范畴，因此可以归类为金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:01.491921"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 645,
+    "title": "Readmission Prediction for Patients with Heterogeneous Medical History: A Trajectory-Based Deep Learning Approach",
+    "abstract": "Hospital readmission refers to the situation where a patient is re-hospitalized with the same primary diagnosis within a specific time interval after discharge. Hospital readmission causes $26 billion preventable expenses to the U.S. health systems annually and often indicates suboptimal patient care. To alleviate those severe financial and health consequences, it is crucial to proactively predict patients' readmission risk. Such prediction is challenging because the evolution of patients' medical history is dynamic and complex. The state-of-the-art studies apply statistical models which use static predictors in a period, failing to consider patients' heterogeneous medical history. Our approach - Trajectory-BAsed DEep Learning (TADEL) - is motivated to tackle the deficiencies of the existing approaches by capturing dynamic medical history. We evaluate TADEL on a five-year national Medicare claims dataset including 3.6 million patients per year over all hospitals in the United States, reaching an F1 score of 87.3% and an AUC of 88.4%. Our approach significantly outperforms all the state-of-the-art methods. Our findings suggest that health status factors and insurance coverage are important predictors for readmission. This study contributes to IS literature and analytical methodology by formulating the trajectory-based readmission prediction problem and developing a novel deep-learning-based readmission risk prediction framework. From a health IT perspective, this research delivers implementable methods to assess patients' readmission risk and take early interventions to avoid potential negative consequences.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "b45bec75822a942778654d5dea0b5fbc",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:40:51.153317"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是医疗领域的再入院预测问题，使用深度学习技术分析患者的动态医疗历史，其应用场景和核心技术均与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是医疗领域的再入院预测问题，使用深度学习技术分析患者的动态医疗历史，其应用场景和核心技术均与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:29.462617"
+}

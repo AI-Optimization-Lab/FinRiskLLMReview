@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 5119,
+    "title": "Electricity demand error corrections with attention bi-directional neural networks",
+    "abstract": "Reliable forecast of electricity demand is crucial to stability, supply, and management of electricity grids. Shortterm hourly and sub -hourly demand forecasts are difficult due to the stochastic nature of electricity demand. To improve the electricity demand forecasts, artificial neural networks are combined with attention -based bidirectional neural network as well as Error Correction methods, and Bayesian hyperparameter optimizations. As part of the hybrid VMD-CABLSTM-ANN-EC model, the intrinsic mode functions, representing distinct predictive features, are separated from electricity demand data using variational mode decomposition algorithm. For predicting each intrinsic mode function and respective error time series, convolutional neural networks -bidirectional long short-term memory algorithms are applied. In a second stage, error time series are split, followed by a model to predict the error series' intrinsic mode functions, and a final integration stage to predict the error. The results of the proposed VMD-CABLSTM-ANN-EC model are benchmarked against decompositionbased and standalone models at substations in Queensland, Australia. The proposed VMD-CABLSTM-ANN-EC model outperformed all benchmark models. By splitting the predictor and target variables, it will be shown that the variational model decomposition method improves error corrections by revealing key features of historical demand data. Using error correction method in short-term electricity demand modelling can provide greater confidence in the prediction of electricity demand. The models can be used by energy providers for market analysis and insight research, to manage power failure risk, and make financial decisions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ae3ac4827978e70937d30c58427b08e2",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:44:43.810688"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究电力需求预测的误差修正方法，虽然提到了金融决策，但其核心技术应用于电力需求预测和电网管理，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究电力需求预测的误差修正方法，虽然提到了金融决策，但其核心技术应用于电力需求预测和电网管理，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:08.723691"
+}

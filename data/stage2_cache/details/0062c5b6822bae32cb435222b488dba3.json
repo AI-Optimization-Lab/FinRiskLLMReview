@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 6200,
+    "title": "On predicting software intensity using wavelets and nonlinear regression",
+    "abstract": "In the digital age, computer systems are vital in daily life. Many use software, but it often has problems like bugs, risk system failures, financial losses, and public safety. The need for reliable software is increasingly crucial as these issues become more common. In this paper, we consider predicting the number of software faults to evaluate the reliability of software quantitatively. We propose a new prediction method that combines Wavelet Shrinkage Estimation (WSE) with nonlinear regression. The critical aspect of our proposal is that it splits data into specific data lengths, enabling its application to a small number of data points. By modeling the time series variation of wavelet coefficients using periodic functions, we achieve long-term prediction within the nonparametric framework that can predict software intensity at any time point in the future. We verify the prediction accuracy of the proposed method and existing methods using real data.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e37fe1111a4ede63604496e74831c7f6",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:55:44.627473"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用小波和非线性回归预测软件故障数量，以提高软件可靠性。虽然提到了金融损失，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用小波和非线性回归预测软件故障数量，以提高软件可靠性。虽然提到了金融损失，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:31.364018"
+}

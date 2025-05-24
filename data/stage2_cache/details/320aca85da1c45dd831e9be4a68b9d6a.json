@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 244,
+    "title": "Portfolio selection under non-gaussianity and systemic risk: A machine learning based forecasting approach",
+    "abstract": "The Sharpe-ratio-maximizing portfolio becomes questionable under non-Gaussian returns, and it rules out, by construction, systemic risk, which can negatively affect its out-of-sample performance. In the present work, we develop a new performance ratio that simultaneously addresses these two problems when building optimal portfolios. To robustify the portfolio optimization and better represent extreme market scenarios, we simulate a large number of returns via a Monte Carlo method. This is done by obtaining probabilistic return forecasts through a distributional machine learning approach in a big data setting and then combining them with a fitted copula to generate return scenarios. Based on a large-scale comparative analysis conducted on the US market, the backtesting results demonstrate the superiority of our proposed portfolio selection approach against several popular benchmark strategies in terms of both profitability and minimizing systemic risk. This outperformance is robust to the inclusion of transaction costs. (c) 2023 International Institute of Forecasters. Published by Elsevier B.V. All rights reserved.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9a61524a4f7a2dea4446e66dee441fef",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.724129"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种新的绩效比率，用于在非高斯回报和系统性风险条件下构建最优投资组合，并通过机器学习和蒙特卡洛模拟来优化投资组合。这直接涉及投资组合管理和金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一种新的绩效比率，用于在非高斯回报和系统性风险条件下构建最优投资组合，并通过机器学习和蒙特卡洛模拟来优化投资组合。这直接涉及投资组合管理和金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:21.282668"
+}

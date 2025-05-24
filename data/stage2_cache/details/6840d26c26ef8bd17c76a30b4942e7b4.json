@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 240,
+    "title": "Learning the random variables in Monte Carlo simulations with stochastic gradient descent: Machine learning for parametric PDEs and financial derivative pricing",
+    "abstract": "In financial engineering, prices of financial products are computed approximately many times each trading day with (slightly) different parameters in each calculation. In many financial models such prices can be approximated by means of Monte Carlo (MC) simulations. To obtain a good approximation the MC sample size usually needs to be considerably large resulting in a long computing time to obtain a single approximation. A natural deep learning approach to reduce the computation time when new prices need to be calculated as quickly as possible would be to train an artificial neural network (ANN) to learn the function which maps parameters of the model and of the financial product to the price of the financial product. However, empirically it turns out that this approach leads to approximations with unacceptably high errors, in particular when the error is measured in the L infinity-norm, and it seems that ANNs are not capable to closely approximate prices of financial products in dependence on the model and product parameters in real life applications. This is not entirely surprising given the high-dimensional nature of the problem and the fact that it has recently been proved for a large class of algorithms, including the deep learning approach outlined above, that such methods are in general not capable to overcome the curse of dimensionality for such approximation problems in the L infinity-norm. In this article we introduce a new numerical approximation strategy for parametric approximation problems including the parametric financial pricing problems described above and we illustrate by means of several numerical experiments that the introduced approximation strategy achieves a very high accuracy for a variety of high-dimensional parametric approximation problems, even in the L infinity-norm. A central aspect of the approximation strategy proposed in this article is to combine MC algorithms with machine learning techniques to, roughly speaking, learn the random variables (LRV) in MC simulations. In other words, we employ stochastic gradient descent (SGD) optimization methods not to train parameters of standard ANNs but instead to learn random variables appearing in MC approximations. In that sense, the proposed LRV strategy has strong links to Quasi-Monte Carlo (QMC) methods as well as to the field of algorithm learning. Our numerical simulations strongly indicate that the LRV strategy might indeed be capable to overcome the curse of dimensionality in the L infinity-norm in several cases where the standard deep learning approach has been proven not to be able to do so. This is not a contradiction to the established lower bounds mentioned above because this new LRV strategy is outside of the class of algorithms for which lower bounds have been established in the scientific literature. The proposed LRV strategy is of general nature and not only restricted to the parametric financial pricing problems described above, but applicable to a large class of approximation problems. In this article we numerically test the LRV strategy in the case of the pricing of European call options in the Black-Scholes model with one underlying asset, in the case of the pricing of European worst-of basket put options in the Black-Scholes model with three underlying assets, in the case of the pricing of European average put options in the Black-Scholes model with three underlying assets and knock-in barriers, as well as in the case of stochastic Lorentz equations. For these examples the LRV strategy produces highly convincing numerical results when compared with standard MC simulations, QMC simulations using Sobol sequences, SGD-trained shallow ANNs, and SGD-trained deep ANNs.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "3ff44ea49142b178dba2b792296744f5",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "stochastic gradient descent",
+      "SGD",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.225584"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是结合蒙特卡洛模拟和机器学习技术来加速金融衍生品的定价过程，特别是针对欧式期权、篮子期权和障碍期权等金融产品的定价问题。论文明确提到了在Black-Scholes模型下的多种期权定价应用，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是结合蒙特卡洛模拟和机器学习技术来加速金融衍生品的定价过程，特别是针对欧式期权、篮子期权和障碍期权等金融产品的定价问题。论文明确提到了在Black-Scholes模型下的多种期权定价应用，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:44.149428"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2265,
+    "title": "An Optimized Hybrid Model for Price Deviation Evaluation based on Neural Network",
+    "abstract": "As a strong displaying approach, neural networks have been broadly utilized in finance and financial forecasting. Scientific and fair trading-type open-end index fund (ETF) option pricing is favorable to maximizing the risk hedging function of the ETF, but it is also a sophisticated modelling procedure that necessitates a thorough understanding of market laws and economic importance. Based on China SSE 50 ETF, Harvest CSI 300 ETF, and high-frequency option data of 300ETF from Berry, this paper proposes another hybrid modelling method that consolidates the settled long-short-term memory neural network model (NLSTM) with the Heston model to acknowledge dynamic rectification of ETF choice price deviations. The research results show that the volatility characteristics of different types of ETF option prices are significantly different. Whether it is based on the BS pricing model or the Heston pricing model, it is difficult to accurately describe the complex changes in ETF option prices. By combining the NLSTM neural network model with the Heston model, it can effectively capture the dynamic changes of different types of ETF options, thereby improving the accuracy of ETF option pricing.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "28c73d879ce8a7b7506093a6f44086e3",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:13:31.720749"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是结合神经网络和Heston模型来改进ETF期权定价的准确性，这直接属于衍生品定价领域。论文明确提到目标是提高ETF期权定价的准确性，并讨论了不同定价模型在描述ETF期权价格变化时的局限性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是结合神经网络和Heston模型来改进ETF期权定价的准确性，这直接属于衍生品定价领域。论文明确提到目标是提高ETF期权定价的准确性，并讨论了不同定价模型在描述ETF期权价格变化时的局限性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:21.554232"
+}

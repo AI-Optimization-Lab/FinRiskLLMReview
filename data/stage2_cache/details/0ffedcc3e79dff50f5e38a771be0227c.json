@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3095,
+    "title": "A dynamic scorecard for monitoring baseline performance with application to tracking a mortgage portfolio",
+    "abstract": "A principled technique for monitoring the performance of a consumer credit scorecard through time is derived from Kalman filtering. Standard approaches sporadically compare certain characteristics of the new applicants with those predicted from the scorecard. The new approach systematically updates the scorecard combining new applicant information with the previous best estimate. The dynamically updated scorecard is tracked through time and compared to limits calculated by sequential simulation from the baseline scorecard. The observation equation of the Kalman filter is tailored to take the results of fitting local scorecards by logistic regression to batches of new clients that arrive in the current time interval. The states in the Kalman filter represent the true or underlying score for each attribute in the card: the parameters of the logistic regression. Their progress in time is modelled by a random walk and the filter provides the best estimate of the scores using past and present information. We illustrate the technique using a commercial mortgage portfolio and the results indicate significant emerging deficiencies in the baseline scorecard.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e201307e6ec2aae19b5769ce36cebb74",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:13:45.097627"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用Kalman滤波技术动态监控消费者信用评分卡的表现，并应用于商业抵押贷款组合的风险监控，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用Kalman滤波技术动态监控消费者信用评分卡的表现，并应用于商业抵押贷款组合的风险监控，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:37.017140"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 348,
+    "title": "Clustering-based return prediction model for stock pre-selection in portfolio optimization using PSO-CNN plus MVF",
+    "abstract": "Incorporating return prediction in portfolio optimization can make portfolio optimization more efficient by selecting the stocks expected to perform well in the future. This paper proposes a hybrid method that integrates a convolutional neural network (CNN) with optimized hyperparameters by the particle swarm optimization (PSO) for stock pre-selection and a mean-variance with forecasting (MVF) model for portfolio optimization. In the stock pre-selection step, to reduce the computational complexity of the model, the CNN network is trained on the clustered stocks via the K-means method instead of training on each stock. The proposed model also includes a novel feature selection method that weighs features based on their impact on predicting stock returns for more accurate predictions. The results of implementing this model on 21 stocks from the New York Stock Exchange (NYSE) market demonstrate that the proposed method for training the CNN network on clustered stocks does not signicantly differ in prediction accuracy to conventional methods. Moreover, in the portfolio optimization step, the returns predicted in the stock pre-selection step are used to optimize the weight of stocks in the portfolio. Compared to other benchmark models, the proposed model exhibits superior financial performance. & COPY; 2023 The Author(s). Published by Elsevier B.V. on behalf of King Saud University. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3f35fc76d90d37c5876927daffd8300a",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.458966"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合卷积神经网络（CNN）和粒子群优化（PSO）进行股票预选，并使用均值-方差预测（MVF）模型进行投资组合优化。这些技术直接应用于投资组合管理领域，旨在通过预测股票回报来优化投资组合的权重分配。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合卷积神经网络（CNN）和粒子群优化（PSO）进行股票预选，并使用均值-方差预测（MVF）模型进行投资组合优化。这些技术直接应用于投资组合管理领域，旨在通过预测股票回报来优化投资组合的权重分配。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:40.154940"
+}

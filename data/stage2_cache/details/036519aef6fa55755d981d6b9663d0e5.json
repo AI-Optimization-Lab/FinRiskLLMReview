@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 5076,
+    "title": "Bayesian Markov-Switching Tensor Regression for Time-Varying Networks",
+    "abstract": "Modeling time series of multilayer network data is challenging due to the peculiar characteristics of real-world networks, such as sparsity and abrupt structural changes. Moreover, the impact of external factors on the network edges is highly heterogeneous due to edge- and time-specific effects. Capturing all these features results in a very high-dimensional inference problem. A novel tensor-on-tensor regression model is proposed, which integrates zero-inflated logistic regression to deal with the sparsity, and Markov-switching coefficients to account for structural changes. A tensor representation and decomposition of the regression coefficients are used to tackle the high-dimensionality and account for the heterogeneous impact of the covariate tensor across the response variables. The inference is performed following a Bayesian approach, and an efficient Gibbs sampler is developed for posterior approximation. Our methodology applied to financial and email networks detects different connectivity regimes and uncovers the role of covariates in the edge-formation process, which are relevant in risk and resource management. Code is available on GitHub. Supplementary materials for this article are available online.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1d8b64121e9f2c8526f0d818c2034926",
+    "relevant_keywords": [
+      "regression",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:44:10.989266"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种新的张量回归模型，用于处理多层网络数据的时间序列，并应用于金融网络，检测不同的连接状态和协变量在边形成过程中的作用，这些在风险管理中是相关的。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种新的张量回归模型，用于处理多层网络数据的时间序列，并应用于金融网络，检测不同的连接状态和协变量在边形成过程中的作用，这些在风险管理中是相关的。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:29.601294"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 990,
+    "title": "Portfolio Selections in P2P Lending: A Multi-Objective Perspective",
+    "abstract": "P2P lending is an emerging wealth-management service for individuals, which allows lenders to directly bid and invest on the loans created by borrowers. In these platforms, lenders often pursue multiple objectives (e.g., non-default probability, fully-funded probability and winning-bid probability) when they select loans to invest. How to automatically assess loans from these objectives and help lenders select loan portfolios is a very important but challenging problem. To that end, in this paper, we present a holistic study on portfolio selections in P2P lending. Specifically, we first propose to adapt gradient boosting decision tree, which combines both static features and dynamic features, to assess loans from multiple objectives. Then, we propose two strategies, i.e., weighted objective optimization strategy and multi-objective optimization strategy, to select portfolios for lenders. For each lender, the first strategy attempts to provide one optimal portfolio while the second strategy attempts to provide a Pareto-optimal portfolio set. Further, we design two algorithms, namely DPA and EVA, which can efficiently resolve the optimizations in these two strategies, respectively. Finally, extensive experiments on a large-scale real-world data set demonstrate the effectiveness of our solutions.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "dfdc4e45e8ff7c69394ffbb696564b6b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "decision tree",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.703080"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是P2P借贷平台上的贷款组合选择问题，提出了基于多目标优化的投资组合选择策略和算法，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是P2P借贷平台上的贷款组合选择问题，提出了基于多目标优化的投资组合选择策略和算法，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:25.114464"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 266,
+    "title": "Affinity Propagation Clustering for Intelligent Portfolio Diversification and Investment Risk Reduction",
+    "abstract": "In this paper, an intelligent portfolio selection method based on Affinity Propagation clustering algorithm is proposed to solve the stable investment problem. The goal of this work is to minimize the volatility of the selected portfolio from the component stocks of S&P 500 index. Each independent stock can be viewed as a node in graph, and the similarity measurements of stock price variations between companies are calculated as the edge weights. Affinity Propagation clustering algorithm solve the graph theory problem by repeatedly update responsibility and availability message passing matrices. This research tried to find most representative and discriminant features to model the stock similarity. The testing features are divided into two major categories, including time-series covariance, and technical indicators. The historical price and trading volume data is used to simulate the portfolio selection and volatility measurement. After grouping these investment targets into a small set of clusters, the selection process will choose fixed number of stocks from different clusters to form the portfolio. The experimental results show that the proposed system can effectively generate more stable portfolio by Affinity Propagation clustering algorithm with proper similarity features than average cases with similar settings.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9b1bed099b453a091627d91dac4448ab",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.778018"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用Affinity Propagation聚类算法进行智能投资组合选择，旨在通过聚类方法减少投资波动性并优化投资组合的稳定性，这直接属于投资组合管理的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用Affinity Propagation聚类算法进行智能投资组合选择，旨在通过聚类方法减少投资波动性并优化投资组合的稳定性，这直接属于投资组合管理的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:15.819396"
+}

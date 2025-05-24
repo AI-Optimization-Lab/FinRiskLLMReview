@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5361,
+    "title": "Risk Modelling of Energy Futures: A Comparison of RiskMetrics, Historical Simulation, Filtered Historical Simulation, and Quantile Regression",
+    "abstract": "Prices of energy commodity futures often display high volatility and changes in return distribution over time, making accurate risk modelling both important and challenging. Non-complex risk measuring methods that work quite well for financial assets perform worse when applied to energy commodities. More advanced approaches have been developed to deal with these issues, but either are too complex for practitioners or do not perform consistently as they work for one commodity but not for another. The goal of this paper is to examine, from the viewpoint of a European energy practitioner, whether some non-estimation complex methods for calculating Value-at-Risk can be found to provide consistent results for different energy commodity futures. We compare Risklvletrics (TM), historical simulation, filtered historical simulation and quantile regression applied to crude oil, gas oil, natural gas, coal, carbon and electricity futures. We find that historical simulation filtered with an exponential weighted moving average (EWMA) for recent trends and volatility performs best and most consistent among the commodities in this paper.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "bf9289d78a6a7c8e1738c9f8ab202190",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:46:45.050353"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心内容是评估和比较不同的风险测量方法（如Value-at-Risk）在能源商品期货中的应用，这直接属于金融风险管理的范畴。论文的研究目标是找到一种能够为不同能源商品期货提供一致结果的风险测量方法，而不是衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心内容是评估和比较不同的风险测量方法（如Value-at-Risk）在能源商品期货中的应用，这直接属于金融风险管理的范畴。论文的研究目标是找到一种能够为不同能源商品期货提供一致结果的风险测量方法，而不是衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:32.475241"
+}

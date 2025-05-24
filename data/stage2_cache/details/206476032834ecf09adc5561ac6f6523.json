@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 313,
+    "title": "Transpiling Python to Rust for Optimized Performance",
+    "abstract": "PYTHON has become the de facto programming language in machine learning and scientific computing, but high performance implementations are challenging to create especially for embedded systems with limited resources. We address the challenge of compiling and optimizing PYTHON source code for a low-level target by introducing RUST as an intermediate source code step. We show that pre-existing PYTHON implementations that depend on optimized libraries, such as NumPy, can be transpiled to RUST semi-automatically, with potential for further automation. We use two representative test cases, Black-Scholes for financial options pricing and robot trajectory optimization. The results show up to 12x speedup and 1.5x less memory use on PC, and the same performance but 4x less memory use on an ARM processor on PYNQ SoC FPGA. We also present a comprehensive list of factors for the process, to show the potential for fully automated transpilation. Our findings are generally applicable and can improve the performance of many PYTHON applications while keeping their easy programmability.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "a3c32cd7cd3144b9b8eacb445f98f1cc",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.312022"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文的核心技术是Python到Rust的代码转换和性能优化，虽然提到了Black-Scholes模型作为测试案例之一，但这只是用于展示技术性能的一个例子，并非论文的主要研究方向。论文的主要目标是通用的性能优化方法，而非特定的金融领域应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文的核心技术是Python到Rust的代码转换和性能优化，虽然提到了Black-Scholes模型作为测试案例之一，但这只是用于展示技术性能的一个例子，并非论文的主要研究方向。论文的主要目标是通用的性能优化方法，而非特定的金融领域应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:36.707940"
+}

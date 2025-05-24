@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 147,
+    "title": "A constrained portfolio trading system using particle swarm algorithm and recurrent reinforcement learning",
+    "abstract": "This study extends a recurrent reinforcement portfolio allocation and rebalancing management system with complex portfolio constraints using particle swarm algorithms. In particular, we propose to use a combination of recurrent reinforcement learning (RRL) and particle swarm algorithm (PSO) with Calmar ratio for both asset allocation and constraint optimization. Using S&P100 index stocks, we show such a system with a Calmar ratio based objective function yields a better efficient frontier than the Sharpe ratio and mean-variance based portfolios. By comparing with multiple PSO based long only constrained portfolios, we propose an optimal portfolio trading system that is capable of generating both long and short signals and handling the common portfolio constraints. We further develop an adaptive RRL-PSO portfolio rebalancing decision system with a market condition stop-loss retraining mechanism, and we show that the proposed portfolio trading system outperforms the benchmarks consistently especially under high transaction cost conditions. (C) 2019 Elsevier Ltd. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "10fa16dd47ae09eb5641ebebfddc944a",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.063300"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合递归强化学习（RRL）和粒子群算法（PSO）来优化投资组合的资产配置和再平衡，并处理复杂的投资组合约束。研究目标是开发一个能够生成多空信号并处理常见投资组合约束的最优投资组合交易系统，这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合递归强化学习（RRL）和粒子群算法（PSO）来优化投资组合的资产配置和再平衡，并处理复杂的投资组合约束。研究目标是开发一个能够生成多空信号并处理常见投资组合约束的最优投资组合交易系统，这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:20.771638"
+}

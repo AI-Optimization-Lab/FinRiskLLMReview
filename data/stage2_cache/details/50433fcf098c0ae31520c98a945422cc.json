@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3379,
+    "title": "Knowing factors or factor loadings, or neither? Evaluating estimators of large covariance matrices with noisy and asynchronous data",
+    "abstract": "We investigate estimators of factor-model-based large covariance (and precision) matrices using high-frequency data, which are asynchronous and potentially contaminated by the market microstructure noise. Our estimation strategies rely on the pre-averaging method with refresh time to solve the microstructure problems, while using three different specifications of factor models with a variety of thresholding methods, respectively, to battle the curse of dimensionality. To estimate a factor model, we either adopt the time series regression (TSR) to recover loadings if factors are known, or use the cross-sectional regression (CSR) to recover factors from known loadings, or use the principal component analysis (PCA) if neither factors nor their loadings are assumed known. We compare the convergence rates in these scenarios using the joint in-fill and increasing dimensionality asymptotics. To evaluate the empirical trade-off between robustness to model misspeci-fication and statistical efficiency among all 30 combinations of estimation strategies, we run a horse race on the out-of-sample portfolio allocation with Dow Jones 30, S&P 100, and S&P 500 index constituents, respectively, and find the pre-averaging-based strategy using TSR or PCA with location thresholding dominates, especially over the subsampling-based alternatives. (C) 2018 Elsevier B.V. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0d336f554fc4ef51fabd960e0df658b3",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:22.216728"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是估计大型协方差矩阵，用于优化投资组合分配，并在实证研究中通过道琼斯30、标普100和标普500指数成分股进行了样本外投资组合分配的比较，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是估计大型协方差矩阵，用于优化投资组合分配，并在实证研究中通过道琼斯30、标普100和标普500指数成分股进行了样本外投资组合分配的比较，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:08.353002"
+}

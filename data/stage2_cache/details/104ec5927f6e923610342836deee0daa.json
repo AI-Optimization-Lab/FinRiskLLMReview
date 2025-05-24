@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 48,
+    "title": "Building Risk Prediction Models for Type 2 Diabetes Using Machine Learning Techniques",
+    "abstract": "Introduction As one of the most prevalent chronic diseases in the United States, diabetes, especially type 2 diabetes, affects the health of millions of people and puts an enormous financial burden on the US economy. We aimed to develop predictive models to identify risk factors for type 2 diabetes, which could help facilitate early diagnosis and intervention and also reduce medical costs. Methods We analyzed cross-sectional data on 138,146 participants, including 20,467 with type 2 diabetes, from the 2014 Behavioral Risk Factor Surveillance System. We built several machine learning models for predicting type 2 diabetes, including support vector machine, decision tree, logistic regression, random forest, neural network, and Gaussian Naive Bayes classifiers. We used univariable and multivariable weighted logistic regression models to investigate the associations of potential risk factors with type 2 diabetes. Results All predictive models for type 2 diabetes achieved a high area under the curve (AUC), ranging from 0.7182 to 0.7949. Although the neural network model had the highest accuracy (82.4%), specificity (90.2%), and AUC (0.7949), the decision tree model had the highest sensitivity (51.6%) for type 2 diabetes. We found that people who slept 9 or more hours per day (adjusted odds ratio [aOR] = 1.13, 95% confidence interval [CI], 1.03-1.25) or had checkup frequency of less than 1 year (aOR = 2.31, 95% CI, 1.86-2.85) had higher risk for type 2 diabetes. Conclusion Of the 8 predictive models, the neural network model gave the best model performance with the highest AUC value; however, the decision tree model is preferred for initial screening for type 2 diabetes because it had the highest sensitivity and, therefore, detection rate. We confirmed previously reported risk factors and also identified sleeping time and frequency of checkup as 2 new potential risk factors related to type 2 diabetes.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e2352eccf83670933134be4460f978f4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:03.890814"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习技术预测2型糖尿病的风险因素，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习技术预测2型糖尿病的风险因素，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:14.203740"
+}

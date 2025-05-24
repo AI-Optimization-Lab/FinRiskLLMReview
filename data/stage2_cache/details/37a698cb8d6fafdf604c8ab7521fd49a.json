@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3876,
+    "title": "GA-MSSR: Genetic Algorithm Maximizing Sharpe and Sterling Ratio Method for RoboTrading",
+    "abstract": "Foreign exchange is the largest financial market in the world, and it is also one of the most volatile markets. Technical analysis plays an important role in the forex market and trading algorithms are designed utilizing machine learning techniques. Most literature used historical price information and technical indicators for training. However, the noisy nature of the market affects the consistency and profitability of the algorithms. To address this problem, we designed trading rule features that are derived from technical indicators and trading rules. The parameters of technical indicators are optimized to maximize trading performance. We also proposed a novel cost function that computes the risk-adjusted return, Sharpe and Sterling Ratio (SSR), in an effort to reduce the variance and the magnitude of drawdowns. An automatic robotic trading (RoboTrading) strategy is designed with the proposed Genetic Algorithm Maximizing Sharpe and Sterling Ratio model (GA-MSSR) model. The experiment was conducted on intraday data of 6 major currency pairs from 2018 to 2019. The results consistently showed significant positive returns and the performance of the trading system is superior using the optimized rule-based features. The highest return obtained was 320% annually using 5-minute AUDUSD currency pair. Besides, the proposed model achieves the best performance on risk factors, including maximum drawdowns and variance in return, comparing to benchmark models. The code can be accessed at https://github.com/zzzac/rule-based-forex-trading-system",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d1c3ca7e3aeb9e5668a6ef6fe1166872",
+    "relevant_keywords": [
+      "machine learning",
+      "genetic algorithm"
+    ],
+    "stage1_timestamp": "2025-05-15T02:30:58.234111"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用遗传算法优化交易规则，以最大化风险调整后的回报（Sharpe和Sterling比率），并设计自动交易策略。这属于投资组合管理的范畴，因为它涉及优化交易策略以提高回报并控制风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用遗传算法优化交易规则，以最大化风险调整后的回报（Sharpe和Sterling比率），并设计自动交易策略。这属于投资组合管理的范畴，因为它涉及优化交易策略以提高回报并控制风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:06.389883"
+}

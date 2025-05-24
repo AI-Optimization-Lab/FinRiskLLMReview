@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 63,
+    "title": "A regularization approach to continuous learning with an application to financial derivatives pricing",
+    "abstract": "We consider the training of neural networks in cases where the nonlinear relationship of interest gradually changes over time. One possibility to deal with this problem is by regularization where a variation penalty is added to the usual mean squared error criterion. To learn the regularized network weights we suggest the Iterative Extended Kalman Filter (IEKF) as a learning rule, which may be derived from a Bayesian perspective on the regularization problem. A primary application of our algorithm is in financial derivatives pricing, where neural networks may be used to model the dependency of the derivatives' price on one or several underlying assets. After giving a brief introduction to the problem of derivatives pricing we present experiments with German stock index options data showing that a regularized neural network trained with the IEKF outperforms several benchmark models and alternative learning procedures. In particular, the performance may be greatly improved using a newly designed neural network architecture that accounts for no-arbitrage pricing restrictions. (C) 1999 Elsevier Science Ltd. All rights reserved.",
+    "year": 1999,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "629ee31045b0f0cc72f40a61943ca19f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.854279"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文明确提到其主要应用是在金融衍生品定价领域，使用神经网络来建模衍生品价格与标的资产之间的关系，并通过实验验证了其在德国股票指数期权数据上的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文明确提到其主要应用是在金融衍生品定价领域，使用神经网络来建模衍生品价格与标的资产之间的关系，并通过实验验证了其在德国股票指数期权数据上的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:04.074812"
+}

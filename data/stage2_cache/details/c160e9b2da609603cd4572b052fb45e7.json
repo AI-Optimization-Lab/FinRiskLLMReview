@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1277,
+    "title": "Efficient cluster-based portfolio optimization",
+    "abstract": "The sample mean and covariance matrix of historical data provide a disappointing out-of-sample performance in mean-variance portfolio rules. This poor performance is certainly due to the high estimation error incurred in the optimization model. Our purpose in this article is to find a method that enhances the out-of-sample performance of the portfolio weights. Using hierarchical clustering, we propose an alternative cluster-based portfolio to obtain a sequence of cluster assets. On the basis of Gram-Schmidt orthogonalization, the estimation risk of the data set becomes the sum of the estimations of the clusters in the sequence. The performance of our method and its competitors is compared empirically and via some simulations in high dimension.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "35bb7d8521ba5b68272eda11e1a945c4",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.182831"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用层次聚类和Gram-Schmidt正交化来优化投资组合权重，以提高样本外表现。这直接涉及投资组合的构建和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用层次聚类和Gram-Schmidt正交化来优化投资组合权重，以提高样本外表现。这直接涉及投资组合的构建和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:09.488498"
+}

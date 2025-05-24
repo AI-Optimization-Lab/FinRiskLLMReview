@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 4537,
+    "title": "A TSICN-based Inferential Synthesis Method for Class Imbalance in Credit Scoring",
+    "abstract": "Classimbalance and data obsolescence are two major issues in the field of credit scoring, leading to excessive bias and inaccuracies in the classification process of credit scoring models. In order to augment minority class samples and balance time dependencies, this paper proposes a credit scoring model based on Temporal Sample Interaction Convolutional Network (TSICN) to facilitate better credit risk assessment for financial institutions. It relies on the intrinsic features of the minority class samples to synthesize new data, thereby increasing the quantity of the minority class samples. Through inference and synthesis, It greatly mitigates the loss of information from minority class samples. The synthesized minority class samples, blended with the original data, are inputted into the causal convolutional layers and dilated convolutional layers. The information flow and memory updates are regulated through reset gate and update gate, The reset gate determines how to combine past information with the current input, while the update gate determines how to combine the previous hidden state with the current candidate hidden state. Compared to common methods, TSICN can integrate information features from minority class samples into the synthesis data, focusing more on short-term dependencies while reducing the capture of long-term dependencies. Experimental results show that TSICN achieves excellent credit scoring classification performance on real-world datasets. This enables more accurate prediction of applicant credit risk, thus reducing the risk of loan default.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6c8352a800fb41cb31fc88662801b196",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:38:20.380438"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit scoring models to better assess credit risk for financial institutions, which is a key aspect of financial risk management. The proposed TSICN method aims to mitigate class imbalance and data obsolescence issues, leading to more accurate prediction of applicant credit risk and reducing loan default risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit scoring models to better assess credit risk for financial institutions, which is a key aspect of financial risk management. The proposed TSICN method aims to mitigate class imbalance and data obsolescence issues, leading to more accurate prediction of applicant credit risk and reducing loan default risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:54.111936"
+}

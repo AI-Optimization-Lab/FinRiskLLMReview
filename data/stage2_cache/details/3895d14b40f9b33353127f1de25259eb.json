@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1635,
+    "title": "CoCDaR and mCoCDaR: New Approach for Measurement of Systemic Risk Contributions",
+    "abstract": "Systemic risk is the risk that the distress of one or more institutions trigger a collapse of the entire financial system. We extend CoVaR (value-at-risk conditioned on an institution) and CoCVaR (conditional value-at-risk conditioned on an institution) systemic risk contribution measures and propose a new CoCDaR (conditional drawdown-at-risk conditioned on an institution) measure based on drawdowns. This new measure accounts for consecutive negative returns of a security, while CoVaR and CoCVaR combine together negative returns from different time periods. For instance, ten 2% consecutive losses resulting in 20% drawdown will be noticed by CoCDaR, while CoVaR and CoCVaR are not sensitive to relatively small one period losses. The proposed measure provides insights for systemic risks under extreme stresses related to drawdowns. CoCDaR and its multivariate version, mCoCDaR, estimate an impact on big cumulative losses of the entire financial system caused by an individual firm's distress. It can be used for ranking individual systemic risk contributions of financial institutions (banks). CoCDaR and mCoCDaR are computed with CVaR regression of drawdowns. Moreover, mCoCDaR can be used to estimate drawdowns of a security as a function of some other factors. For instance, we show how to perform fund drawdown style classification depending on drawdowns of indices. Case study results, data, and codes are posted on the web.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ee9d9e3c41d8fd4314ba9be65f4411c6",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:42.560248"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on proposing new measures (CoCDaR and mCoCDaR) for assessing systemic risk contributions of financial institutions, which is a key aspect of financial risk management. The study aims to measure and manage the risk of financial system collapse triggered by individual institution distress, aligning with the objectives of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on proposing new measures (CoCDaR and mCoCDaR) for assessing systemic risk contributions of financial institutions, which is a key aspect of financial risk management. The study aims to measure and manage the risk of financial system collapse triggered by individual institution distress, aligning with the objectives of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:01.689205"
+}

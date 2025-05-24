@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1494,
+    "title": "Risk identification of listed companies violation by integrating knowledge graph and multi-source risk factors",
+    "abstract": "The regulatory compliance supervision of listed enterprises is of great significance for ensuring the stable operation of financial markets. However, existing graph propagation algorithms used to identify corporate violations are limited by their inherent randomness. At the same time, current methods consider a relatively narrow range of risk dimensions, making it difficult to accurately distinguish the different characteristics of enterprises. To this end, this paper designs a Propagation of Violation Risks for Listed Enterprises (PVR-LE) algorithm, which reduces the risk of false propagation through a risk weight decay mechanism and dynamic updating of risk propagation patterns. Furthermore, a Multi-source Risk Fusion Neural Network (MRFNN) for corporate violation prediction tasks is proposed, which fuses the liquidity risk characteristics between enterprises, clustering characteristics, and the enterprise's risk characteristics to endow the violating enterprise nodes with more distinctive and characteristic vector features, thereby identifying whether there are violations in the company. At the same time, a generative adversarial network is used to generate samples of violating enterprises to solve the problem of class imbalance. Experiments are conducted on areal dataset constructed from information on Chinese listed companies, and this method improves the accuracy, recall, the weighted harmonic mean of precision and recall(F1-score), and geometric mean(G-mean) metrics by 2.12%, 3.19%, 2.14%, and 2.79%, respectively, compared to the best performance of existing models. The experimental results show that the proposed method effectively improves the accuracy of identifying corporate violations and helps promote the development of intelligent regulatory work for listed enterprises.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "62bf50e056c543543c78d0af431b7cde",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "clustering",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.812159"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是设计算法和神经网络模型来识别上市公司的违规行为，这直接关联到金融风险管理中的企业风险监控和合规监管。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是设计算法和神经网络模型来识别上市公司的违规行为，这直接关联到金融风险管理中的企业风险监控和合规监管。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:42.347964"
+}

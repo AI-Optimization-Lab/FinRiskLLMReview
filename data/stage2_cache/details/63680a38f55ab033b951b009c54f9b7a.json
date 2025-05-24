@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2490,
+    "title": "Threshold-based portfolio: the role of the threshold and its applications",
+    "abstract": "This paper aims at developing a new method by which to build a data-driven portfolio featuring a target risk-return. We first present a comparative study of recurrent neural network models (RNNs), including a simple RNN, long short-term memory (LSTM), and gated recurrent unit. The models are applied to the investment universe consisted of 10 stocks in theS&P500 The experimental results show that the LSTM-based prediction model outperforms the others in terms of hit ratio of 1-month-ahead forecasts. We then build predictive threshold-based portfolios (TBPs) that are subsets of the universe satisfying given threshold criteria for the LSTM-based return forecasts. The TBPs are rebalanced monthly to restore equal weight to the constituents of the TBPs. We find that the risk and return profile of the realized TBP represents a monotonically increasing frontier on the risk-return plane, where the equally weighted universe portfolio plays a role in the lower bound of TBPs. This shows the availability of TBPs in targeting specific risk-return levels, and the EWP of an universe plays a role in the reference portfolio of the TBPs. In the process, thresholds play dominant roles in characterizing risk, return, and the prediction accuracy of the TBPs. The TBP is more data-driven in designing portfolio return and risk than existing ones, in the sense that it requires no prior knowledge of finance such as financial assumptions, financial mathematics, or expert insights. For practical uses, we present a multiperiod TBP management method and also discuss the application of TBP to mean-variance portfolios to reduce estimation risk.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1ffae27966c8b1cde7475d93a428df20",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:59.859626"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing a data-driven portfolio method using LSTM-based predictions to target specific risk-return levels, which is a core aspect of portfolio management. It discusses portfolio construction, rebalancing, and risk-return profiling, all of which are central to portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing a data-driven portfolio method using LSTM-based predictions to target specific risk-return levels, which is a core aspect of portfolio management. It discusses portfolio construction, rebalancing, and risk-return profiling, all of which are central to portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:36.205916"
+}

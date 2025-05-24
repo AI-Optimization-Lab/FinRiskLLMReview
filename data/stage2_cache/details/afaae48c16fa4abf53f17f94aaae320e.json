@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1826,
+    "title": "A hybrid intelligent system for predicting bank holding structures",
+    "abstract": "A composite model of neural network and rough sets components was constructed to predict a sample of bank holding patterns. The final model was able to correctly classify 96% of a testing set of four types of bank holding structures, Holding structure is defined as the number of banks under common ownership. For this study, forms of bank holding structure include: banks that are not owned by another company, single banks that are held by another firm, pairs of banks that are held by another enterprise. and three or more banks that are held by another company. Initially, input to the neural network model was 28 financial ratios for more than 200 banks in Arkansas for 1992. The 28 ratios are organized by categories such as liquidity, credit risk, leverage, efficiency, and profitability. The ratios were constructed with 70 bank variables such as net worth, deposits, total assets. net loans. total operating income, etc. The first neural network model correctly classified 84% of the testing set at a tolerance level of 0.20, Another artificial intelligence (AI) procedure known as two-dimensional rough sets was then applied to the dataset. Rough sets reduced the number of input variables from 28 to 18, a drop of 36% in the number of input variables. This version of rough sets also eliminated a number of records, thereby reducing the information system (i.e., matrix) on both vertical and horizontal dimensions. A second neural network was trained with the reduced number of input variables and records. This network correctly classified 96% of the testing set at a tolerance level of 0.20, an increase of 11% in the accuracy of the prediction. By applying two-dimensional reducts to the dataset of financial ratios, the predictive accuracy of the neural network model was improved substantially. Banking institutions that are prime candidates for mergers or acquisitions call then be more accurately identified through the use of this hybrid decision support system (DSS) which combines different types of AI techniques for the purposes of data management and modeling. (C) 1998 Elsevier Science B.V. All rights reserved.",
+    "year": 1998,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1e7d5f38cac7fbfff32ef239718738cb",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:03.911407"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用混合智能系统预测银行控股结构，虽然涉及金融数据，但其核心应用是分类和预测银行控股模式，并未直接涉及衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用混合智能系统预测银行控股结构，虽然涉及金融数据，但其核心应用是分类和预测银行控股模式，并未直接涉及衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:55.423211"
+}

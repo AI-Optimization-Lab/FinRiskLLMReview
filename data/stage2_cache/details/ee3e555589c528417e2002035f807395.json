@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2045,
+    "title": "Use of a principal components analysis for the generation of daily time series",
+    "abstract": "A new approach for generating daily time series is considered in response to the weather-derivatives market. This approach consists of performing a principal components analysis to create independent variables, the values of which are then generated separately with a random process. Weather derivatives are financial or insurance products that give companies the opportunity to cover themselves against adverse climate conditions. The aim of a generator is to provide a wider range of feasible situations to be used in an assessment of risk. Generation of a temperature time series is required by insurers or bankers for pricing weather options. The provision of conditional probabilities and a good representation of the interannual variance are the main challenges of a generator when used for weather derivatives. The generator was developed according to this new approach using a principal components analysis and was applied to the daily average temperature time series of the Paris-Montsouris station in France. The observed dataset was homogenized and the trend was removed to represent correctly the present climate. The results obtained with the generator show that it represents correctly the interannual variance of the observed climate; this is the main result of the work, because one of the main discrepancies of other generators is their inability to represent accurately the observed interannual climate variance-this discrepancy is not acceptable for an application to weather derivatives. The generator was also tested to calculate conditional probabilities: for example, the knowledge of the aggregated value of heating degree-days in the middle of the heating season allows one to estimate the probability if reaching a threshold at the end of the heating season. This represents the main application of a climate generator for use with weather derivatives.",
+    "year": 2004,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2ed1cf215c61abbaf845ca6f3876d8f9",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:25.812313"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用主成分分析生成每日时间序列，目的是为天气衍生品定价提供支持。论文明确指出，温度时间序列的生成是保险公司或银行定价天气期权所需的，这直接关联到衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用主成分分析生成每日时间序列，目的是为天气衍生品定价提供支持。论文明确指出，温度时间序列的生成是保险公司或银行定价天气期权所需的，这直接关联到衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:28.365947"
+}

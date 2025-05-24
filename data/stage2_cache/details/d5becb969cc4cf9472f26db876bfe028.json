@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 324,
+    "title": "Trading sparse, mean reverting portfolios using VAR(1) and LSTM prediction",
+    "abstract": "We investigated the predictability of mean reverting portfolios and the VAR(1) model in several aspects. First, we checked the dependency of the accuracy of VAR(1) model on different data types including the original data itself, the return of prices, the natural logarithm of stock and on the log return. Then we compared the accuracy of predictions of mean reverting portfolios coming from VAR(1) with different generative models such as VAR(1) and LSTM for both online and offline data. It was eventually shown that the LSTM predicts much better than the VAR(1) model. The conclusion is that the VAR(1) assumption works well in selecting the mean reverting portfolio, however, LSTM is a better choice for prediction. With the combined model a strategy with positive trading mean profit was successfully developed. We found that online LSTM outperforms all VAR(1) predictions and results in a positive expected profit when used in a simple trading algorithm.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "5dbaa33a8713575bf30ec87ebb1f3f35",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:44.392836"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究了均值回归投资组合的可预测性，并比较了VAR(1)和LSTM模型在预测中的表现，最终开发了一个产生正交易平均利润的策略。这些内容直接涉及投资组合的构建、预测和交易策略，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究了均值回归投资组合的可预测性，并比较了VAR(1)和LSTM模型在预测中的表现，最终开发了一个产生正交易平均利润的策略。这些内容直接涉及投资组合的构建、预测和交易策略，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:07.642328"
+}

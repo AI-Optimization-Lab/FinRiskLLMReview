@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "support vector machine",
+    "SVM"
+  ],
+  "explanations": {
+    "machine learning": "论文明确提到使用机器学习进行量化选股，并讨论了其在金融领域的应用。",
+    "supervised learning": "SVR（支持向量回归）是一种监督学习方法，论文中使用SVR模型进行预测。",
+    "regression": "SVR用于回归任务，预测个股收益率，属于回归问题。",
+    "support vector machine": "论文中使用的SVR是支持向量机（SVM）的一种变体，用于回归任务。",
+    "SVM": "SVR是支持向量机（SVM）的回归版本，论文中直接使用了SVR模型。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"regression\", \"support vector machine\", \"SVM\"], \n  \"explanations\": {\n    \"machine learning\": \"论文明确提到使用机器学习进行量化选股，并讨论了其在金融领域的应用。\",\n    \"supervised learning\": \"SVR（支持向量回归）是一种监督学习方法，论文中使用SVR模型进行预测。\",\n    \"regression\": \"SVR用于回归任务，预测个股收益率，属于回归问题。\",\n    \"support vector machine\": \"论文中使用的SVR是支持向量机（SVM）的一种变体，用于回归任务。\",\n    \"SVM\": \"SVR是支持向量机（SVM）的回归版本，论文中直接使用了SVR模型。\"\n  }\n}\n```"
+}

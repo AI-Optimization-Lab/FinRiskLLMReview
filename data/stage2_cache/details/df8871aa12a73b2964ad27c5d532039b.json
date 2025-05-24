@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 451,
+    "title": "Leveraging Weather Dynamics in Insurance Claims Triage Using Deep Learning",
+    "abstract": "In property insurance claims triage, insurers often use static information to assess the severity of a claim and to identify the subsequent actions. We hypothesize that the pattern of weather conditions throughout the course of a loss event is predictive of the insured losses, and hence appropriate use of weather dynamics improves the operation of insurers' claim management. To test this hypothesis, we propose a deep learning method to incorporate dynamic weather information in the predictive modeling of the insured losses for reported claims. The proposed method features a hierarchical network architecture to address the challenges in claims triage due to the nature of weather dynamics. In the empirical analysis, we examine a portfolio of hail damage property insurance claims obtained from a major U.S. insurance carrier. When supplemented by dynamic weather information, the deep learning method exhibits substantial improvement in the hold-out predictive performance. We further design a cost-conscious decision strategy for triaging claims using the probabilistic forecasts of the insurance claim amounts. We show that leveraging weather dynamics in claims triage leads to a reduction of up to 9% and 6% in operational costs compared to when the triaging decision is based on forecasts without any weather information and with only static weather information, respectively. Supplementary materials for this article are available online.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "66237a02e8ff26eb7a59fb28c527b7e5",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:36:26.434070"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用深度学习方法改进保险索赔分类，虽然涉及风险管理概念，但其核心应用领域是保险运营而非金融风险管理、衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用深度学习方法改进保险索赔分类，虽然涉及风险管理概念，但其核心应用领域是保险运营而非金融风险管理、衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:58.137012"
+}

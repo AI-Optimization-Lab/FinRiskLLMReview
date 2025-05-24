@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 741,
+    "title": "A Novel Class-Imbalance-Oriented Feature Selection Method Based on BPNNs and AdaBoost for Enterprise Credit Risk Prediction in the Supply Chain Context",
+    "abstract": "The precision of business decisions and early warning of financial crises are linked to the accuracy of supply chain enterprise credit risk prediction. The high-dimensional information and class imbalance of the prediction task increase the difficulty of learning. An increase in prediction performance can be achieved by combining learning algorithms to select class-imbalance-oriented features. With respect to enterprise credit risk prediction, artificial neural networks have demonstrated remarkable capabilities in capturing nonlinear relationships. A feature selection method based on backpropagation neural networks and the AdaBoost algorithm (FS-BPNN-Ada) is suggested. FS-BPNN-Ada obtains differential mean influence values while considering class imbalance and then obtains integrated mean influence values (IMIVs) in accordance with the classifier weights. On the basis of this information, the cumulative contribution rates of the features are calculated, and a robust feature subset oriented toward class imbalance is output. By utilizing credit risk data from Chinese listed enterprises in supply chains, this study reveals that the proposed FS-BPNN-Ada outperforms nine alternative approaches (including the FS-BPNN, Garson, Yoon, Tsaur, Howes, Olden, RF, CHI2 and Fisher methods). FS-BPNN-Ada is a useful method for forecasting corporate credit risk in a supply chain when faced with class imbalance. Furthermore, the paper also provides a summary of the pertinent managerial insights derived from the model test findings.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "f9bd453b70a21505753d9e333836aa40",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:05.388189"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a feature selection method for enterprise credit risk prediction, which is a key aspect of financial risk management, particularly in assessing and mitigating credit risk in supply chains.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a feature selection method for enterprise credit risk prediction, which is a key aspect of financial risk management, particularly in assessing and mitigating credit risk in supply chains.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:35.241510"
+}

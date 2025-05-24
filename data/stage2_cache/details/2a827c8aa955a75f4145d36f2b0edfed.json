@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 5900,
+    "title": "Quantitative trading of gold and silver using nonlinear models",
+    "abstract": "The main aim of this paper is to forecast gold and silver daily returns with advanced regression analysis using various linear and non-linear models. ARMA models are used as a linear benchmark for comparison purposes with established non-linear models such as Nearest Neighbours and MultiLayer Perceptron (MLP), and Higher Order Neural Networks (HONN) whose application to financial markets is quite new. All models are assessed using statistical criteria such as correct directional change as well as financial criteria such as risk adjusted return. The main aim is to find which of these models generate the best returns and if nonlinear models can be used for generating excess returns in the precious metals market. This is achieved by implementing a trading simulation where the forecast is translated into a trading signal. Profit statistics are calculated taking into account transaction costs. It is concluded that, for the January 2000-May 2006 period under review, non-, linear models like MLPs and HONNs did outperform the linear ARMA models. In the end, the performance of both MLP and HONN models showed the presence of nonlinearities in the gold and silver prices as it was found that nonlinear models can be effectively used for generating excess returns in these markets.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3ee76137646ceb111db3904ab22aac3d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:52:31.495946"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用非线性模型预测黄金和白银的日收益率，并通过交易模拟评估模型的表现。虽然涉及金融市场，但其核心应用是量化交易策略的开发，而非衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用非线性模型预测黄金和白银的日收益率，并通过交易模拟评估模型的表现。虽然涉及金融市场，但其核心应用是量化交易策略的开发，而非衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:57.039280"
+}

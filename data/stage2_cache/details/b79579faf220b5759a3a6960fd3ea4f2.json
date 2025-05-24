@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5460,
+    "title": "Mixed-frequency quantile regressions to forecast value-at-risk and expected shortfall",
+    "abstract": "Although quantile regression to calculate risk measures is widely established in the financial literature, when considering data observed at mixed-frequency, an extension is needed. In this paper, a model is built on a mixed-frequency quantile regressions to directly estimate the Value-at-Risk (VaR) and the Expected Shortfall (ES) measures. In particular, the low-frequency component incorporates information coming from variables observed at, typically, monthly or lower frequencies, while the high-frequency component can include a variety of daily variables, like market indices or realized volatility measures. The conditions for the weak stationarity of the daily return process are derived and the finite sample properties are investigated in an extensive Monte Carlo exercise. The validity of the proposed model is then explored through a real data application using two energy commodities, namely, Crude Oil and Gasoline futures. Results show that our model outperforms other competing specifications, on the basis of some popular VaR and ES backtesting test procedures.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2e9ac26449ec08f24f1fcf5eea52c3a4",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:47:43.098020"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a mixed-frequency quantile regression model to directly estimate Value-at-Risk (VaR) and Expected Shortfall (ES), which are key metrics in financial risk management. The application is demonstrated through risk assessment of energy commodities, further confirming its relevance to risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a mixed-frequency quantile regression model to directly estimate Value-at-Risk (VaR) and Expected Shortfall (ES), which are key metrics in financial risk management. The application is demonstrated through risk assessment of energy commodities, further confirming its relevance to risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:04.396534"
+}

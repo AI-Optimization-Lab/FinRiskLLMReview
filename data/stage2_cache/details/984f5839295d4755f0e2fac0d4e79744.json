@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 6044,
+    "title": "Efficient and Automated Deployment Architecture for OpenStack in TianHe SuperComputing Environment",
+    "abstract": "Recently, with the large-scale outbreak of the global financial crisis and public safety incidents (such as COVID-19), high-performance computing has been widely applied to risk prediction, vaccine development, and other fields. In scenarios where high-performance computing infrastructure responds to the instantaneous explosion of computing demands, a crucial issue is to provide large-scale flexible allocation and adjustment of computing capability by rapidly constructing computing clusters. Existing large-scale computing cluster deployment solutions usually utilize source code deployment or other deployment tools. The great challenge of existing deployment methods is to reduce excessive image distribution time and refrain from configuration defects. In this article, we design an intelligent distributed registry deployment (IDRD) architecture based on the OpenStack cloud platform, which adaptively places distributed image repositories using the containerized deployment of multiple registries. We propose a server load priority algorithm to solve multiple registries placement problems in IDRD. Furthermore, we devise a clustering algorithm based on demand density that can optimize the global performance of IDRD and improve large-scale cluster load balancing capabilities, which has been implemented in the TianHe Supercomputing environment. Extensive experimental results demonstrate that IDRD can effectively reduce 30%-50% of the distribution time of component images and significantly improve the efficiency of large-scale cluster deployment.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4046d701bf50a3a8cceb77671b806fba",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:54:03.467844"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是高性能计算环境下OpenStack的自动化部署架构，虽然提到了金融危机的背景，但其核心技术是分布式镜像仓库的部署和负载均衡算法，并未直接应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是高性能计算环境下OpenStack的自动化部署架构，虽然提到了金融危机的背景，但其核心技术是分布式镜像仓库的部署和负载均衡算法，并未直接应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:55.416156"
+}

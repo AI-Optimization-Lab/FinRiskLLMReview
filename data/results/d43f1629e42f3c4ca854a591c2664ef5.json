@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning models (Random Forest and Gradient Boosted Decision Tree) to predict default risk.",
+    "supervised learning": "The task of predicting default risk is a supervised learning problem, where models are trained on labeled data (companies that have defaulted or not).",
+    "classification": "Predicting default risk is a binary classification problem (default vs. non-default), and the paper evaluates models using ROC curves, a common metric for classification tasks.",
+    "decision tree": "The paper uses Gradient Boosted Decision Tree, a model based on decision trees, and compares its performance with Random Forest (another decision tree-based model)."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning models (Random Forest and Gradient Boosted Decision Tree) to predict default risk.\",\n    \"supervised learning\": \"The task of predicting default risk is a supervised learning problem, where models are trained on labeled data (companies that have defaulted or not).\",\n    \"classification\": \"Predicting default risk is a binary classification problem (default vs. non-default), and the paper evaluates models using ROC curves, a common metric for classification tasks.\",\n    \"decision tree\": \"The paper uses Gradient Boosted Decision Tree, a model based on decision trees, and compares its performance with Random Forest (another decision tree-based model).\"\n  }\n}\n```"
+}

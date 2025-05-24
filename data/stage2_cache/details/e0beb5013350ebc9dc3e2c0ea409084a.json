@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3775,
+    "title": "Forecasting commodity futures returns with stepwise regressions: Do commodity-specific factors help?",
+    "abstract": "The aim of this paper is to assess whether three well-known commodity-specific variables (basis, hedging pressure, and momentum) may improve the predictive power for commodity futures returns of models otherwise based on macroeconomic factors. We compute recursive, out-of-sample forecasts for the monthly returns of fifteen commodity futures, when estimation is based on a stepwise model selection approach under a probability-weighted regime-switching regression that identifies different volatility regimes. We systematically compare these forecasts with those produced by a simple AR(1) model that we use as a benchmark and we find that the inclusion of commodity-specific factors does not improve the forecasting power. We perform a back-testing exercise of a mean-variance investment strategy that exploits any predictability of the conditional risk premium of commodities, stocks, and bond returns, also consider transaction costs caused by portfolio rebalancing. The risk-adjusted performance of this strategy does not allow us to conclude that any forecasting approach outperforms the others. However, there is evidence that investment strategies based on commodity-specific predictors outperform the remaining strategies in the high-volatility state.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "642a0f9f7d58f203aade5cc39104f9c8",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:20:36.106654"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是预测商品期货回报，并基于这些预测进行均值-方差投资策略的回测，这直接涉及投资组合管理的领域。虽然论文提到了商品期货，但其主要应用场景是投资策略的构建和评估，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是预测商品期货回报，并基于这些预测进行均值-方差投资策略的回测，这直接涉及投资组合管理的领域。虽然论文提到了商品期货，但其主要应用场景是投资策略的构建和评估，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:50.166473"
+}

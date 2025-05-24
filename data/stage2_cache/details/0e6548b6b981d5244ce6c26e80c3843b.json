@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 398,
+    "title": "Enhancing Option Pricing Accuracy in the Indian Market: A CNN-BiLSTM Approach",
+    "abstract": "Due to overly optimistic economic and statistical assumptions, the classical option pricing model frequently falls short of ideal predictions. Rapid progress in artificial intelligence, the availability of massive datasets, and the rise in computational power in machines have all created an environment conducive to the development of complex methods for predicting financial derivatives prices. This study proposes a hybrid deep learning (DL) based predictive model for accurate and prompt prediction of option prices by fusing a one-dimensional convolutional neural network (CNN) and a bidirectional long short-term memory (BiLSTM). A set of 15 predictive factors is carefully built under the umbrella of fundamental market data and technical indicators. Our proposed model is compared with other DL-based models using six evaluation metrics-root mean square error (RMSE), mean absolute percentage error, mean percentage error, determination coefficient (R2\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$R<^>2$$\\end{document}), maximum error and median absolute error. Further, statistical analysis of models is also done using one-way ANOVA and posthoc analysis using the Tukey HSD test to demonstrate that the CNN-BiLSTM model outperforms competing models in terms of fit and prediction accuracy.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "90d3a42dd38799c0bf3e9ca6e1b732e8",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning",
+      "feature learning",
+      "feature representation",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:50.606178"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用CNN-BiLSTM混合深度学习模型来预测期权价格，这直接属于衍生品定价领域。论文明确提到目标是提高期权定价的准确性，并与其他模型进行了比较。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用CNN-BiLSTM混合深度学习模型来预测期权价格，这直接属于衍生品定价领域。论文明确提到目标是提高期权定价的准确性，并与其他模型进行了比较。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:11.415600"
+}

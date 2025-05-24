@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 446,
+    "title": "Stock market anomalies and machine learning across the globe",
+    "abstract": "We identify the characteristics and specifications that drive the out-of-sample performance of machine-learning models across an international data sample of nearly 1.9 billion stock-month-anomaly observations from 1980 to 2019. We demonstrate significant monthly value-weighted (long-short) returns of around 1.8-2.2%, and a vast majority of tested models outperform a linear combination of predictors (our baseline factor benchmark) by a substantial margin. Composite predictors based on machine learning have long-short portfolio returns that remain significant even with transaction costs up to 300 basis points. By comparing 46 variations of machine-learning models, we find that the models with the highest return predictability apply a feed-forward neural network or composite predictors, with extending rolling windows, including elastic net as a feature reduction, and using percent ranked returns as a target. The results of our nonlinear models are significant across several classical asset pricing models and uncover market inefficiencies that challenge current asset pricing theories in international markets.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d93dc1eb86d318839fa85f4cc45fd2ac",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "feature learning",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.289857"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究机器学习模型在国际股票市场异常现象中的应用，特别是通过构建长-短投资组合（long-short portfolio）来实现超额收益。论文的核心技术（如神经网络和复合预测器）被直接应用于投资组合的构建和优化，这属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究机器学习模型在国际股票市场异常现象中的应用，特别是通过构建长-短投资组合（long-short portfolio）来实现超额收益。论文的核心技术（如神经网络和复合预测器）被直接应用于投资组合的构建和优化，这属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:41.213303"
+}

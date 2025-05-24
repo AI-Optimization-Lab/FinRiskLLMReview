@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1762,
+    "title": "Vine copula-based scenario tree generation approaches for portfolio optimization",
+    "abstract": "This paper presents an efficient heuristic to generate multi-stage scenario trees for portfolio selection problems. In the case of two or more risky assets, investors need to account for the complex multivariate dependence among different assets. The dependence patterns have shown not only asymmetric and fat tails but also time-varying, and the upper and lower tails have different effect on portfolio management. In this paper, we design a new scenario generation method by combining the GARCH-type model and vine copula model to properly reflect these complex dependence patterns in multiple assets in a flexible way. A multi-stage scenario tree is generated sequentially from this model by simultaneously utilizing the simulation and clustering methods. The scenarios' nodal probabilities are determined by solving an improved moment matching model, whose objective is to maintain the central moments and lower tails of the original distribution. The resulting scenario trees are then tested on a multi-stage portfolio selection model. The experimental results prove the efficiency and advantages of our proposed scenario generation method over other existing models or methods and the positive influence of moment matching on our method.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "327540dabef9691e3b54dabd862a9a67",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:22.947698"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是生成多阶段情景树用于投资组合选择问题，并讨论了资产间的复杂依赖关系对投资组合管理的影响。论文明确提到将生成的情景树应用于多阶段投资组合选择模型，这直接指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是生成多阶段情景树用于投资组合选择问题，并讨论了资产间的复杂依赖关系对投资组合管理的影响。论文明确提到将生成的情景树应用于多阶段投资组合选择模型，这直接指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:08.057507"
+}

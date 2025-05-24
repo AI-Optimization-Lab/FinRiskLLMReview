@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 96,
+    "title": "Option Pricing With Modular Neural Networks",
+    "abstract": "This paper investigates a nonparametric modular neural network (MNN) model to price the S&P-500 European call options. The modules are based on time to maturity and moneyness of the options. The option price function of interest is homogeneous of degree one with respect to the underlying index price and the strike price. When compared to an array of parametric and nonparametric models, the MNN method consistently exerts superior out-of-sample pricing performance. We conclude that modularity improves the generalization properties of standard feedforward neural network option pricing models (with and without the homogeneity hint).",
+    "year": 2009,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "092a4f06a89cdf13e813a91191fb505f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.986955"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用模块化神经网络（MNN）模型来定价S&P-500欧洲看涨期权，这直接属于衍生品定价的研究领域。论文明确提到该方法在样本外定价性能上优于其他参数和非参数模型，进一步证实了其应用方向。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用模块化神经网络（MNN）模型来定价S&P-500欧洲看涨期权，这直接属于衍生品定价的研究领域。论文明确提到该方法在样本外定价性能上优于其他参数和非参数模型，进一步证实了其应用方向。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:00.097191"
+}

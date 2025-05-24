@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 11,
+    "title": "A nonparametric kernel regression approach for pricing options on stock market index",
+    "abstract": "Previous options studies typically assume that the dynamics of the underlying asset price follow a geometric Brownian motion (GBM) when pricing options on stocks, stock indices, currencies or futures. However, there is mounting empirical evidence that the volatility of asset price or return is far from constant. This article, in contrast to studies that use parametric approach for option pricing, employs nonparametric kernel regression to deal with changing volatility and, accordingly, prices options on stock index. Specifically, we first estimate nonparametrically the volatility of asset return in the GBM based on the Nadaraya-Watson (N-W) kernel estimator. Then, based on the N-W estimates for the volatility, we use Monte Carlo simulation to compute option prices under different settings. Finally, we compare the index option prices under our nonparametric model with those under the Black-Scholes model and the Stein-Stein model.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "32314988e56568b9ee55402a49794a8b",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.443916"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是非参数核回归方法，用于处理资产价格波动率的变化，并据此对股票指数期权进行定价。论文明确提到使用蒙特卡洛模拟计算不同设置下的期权价格，并将结果与Black-Scholes模型和Stein-Stein模型进行比较，这直接涉及衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是非参数核回归方法，用于处理资产价格波动率的变化，并据此对股票指数期权进行定价。论文明确提到使用蒙特卡洛模拟计算不同设置下的期权价格，并将结果与Black-Scholes模型和Stein-Stein模型进行比较，这直接涉及衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:31.898690"
+}

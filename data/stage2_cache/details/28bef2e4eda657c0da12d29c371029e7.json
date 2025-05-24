@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1154,
+    "title": "AlphaStock: A Buying-Winners-and-Selling-Losers Investment Strategy using Interpretable Deep Reinforcement Attention Networks",
+    "abstract": "Recent years have witnessed the successful marriage of finance innovations and AI techniques in various finance applications including quantitative trading (QT). Despite great research efforts devoted to leveraging deep learning (DL) methods for building better QT strategies, existing studies still face serious challenges especially from the side of finance, such as the balance of risk and return, the resistance to extreme loss, and the interpretability of strategies, which limit the application of DL-based strategies in real-life financial markets. In this work, we propose AlphaStock, a novel reinforcement learning (RL) based investment strategy enhanced by interpretable deep attention networks, to address the above challenges. Our main contributions are summarized as follows: i) We integrate deep attention networks with a Sharpe ratio-oriented reinforcement learning framework to achieve a risk-return balanced investment strategy; ii) We suggest modeling interrelationships among assets to avoid selection bias and develop a cross-asset attention mechanism; iii) To our best knowledge, this work is among the first to offer an interpretable investment strategy using deep reinforcement learning models. The experiments on long-periodic U.S. and Chinese markets demonstrate the effectiveness and robustness of AlphaStock over diverse market states. It turns out that AlphaStock tends to select the stocks as winners with high long-term growth, low volatility, high intrinsic value, and being undervalued recently.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "51216e6df617356e49e2f953affe90e8",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.733129"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于强化学习和深度注意力网络的量化投资策略AlphaStock，旨在通过选择具有高长期增长、低波动性、高内在价值和近期被低估的股票来实现风险回报平衡的投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于强化学习和深度注意力网络的量化投资策略AlphaStock，旨在通过选择具有高长期增长、低波动性、高内在价值和近期被低估的股票来实现风险回报平衡的投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:40.108576"
+}

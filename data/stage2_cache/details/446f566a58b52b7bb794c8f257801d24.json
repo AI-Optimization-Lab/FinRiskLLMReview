@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 7003,
+    "title": "Secured Data Movement using Data Ring Fencing",
+    "abstract": "The exponential increase in data volume, the growing pervasiveness of digital technologies, and frequent data breaches have given rise to a broad range of privacy concerns. These concerns stem from the fact that data privacy measures have not kept pace with the scale and heterogeneity of sensitive data being produced, leading to unauthorized and unintended access, especially in multi-party scenarios. In the context of enterprises and individuals, data is one of the most important crown jewels to be protected. Current data protection frameworks struggle to regulate data sharing across multiple parties due to the existence of varying data access rules, and privacy and data governance policies across these institutions and individuals. The notion of Ring Fencing has been used in the financial sector to create a virtual barrier that isolates a portion of a company's financial assets to mitigate risk. In this paper, we propose to leverage this concept in order to enhance data security through the integration of a Data Ring Fencing architecture. Our Data Ring Fencing framework offers a multi-layered security paradigm that models privacy-preserving data-sharing agreements across multiple institutions. It achieves this goal by governing data privileges and regulating who can access what and for what purpose, and at what cost. Our data ring fencing framework supports three phases: Evaluate, Enforce, and Execute (referred to as the Three-E architecture). The Three-E architecture leverages deep learning-based models such as BERT + Multiclass LR for query classification and Transfer Learning on a sequence-to-sequence model for text-to-SQL generation. We demonstrate a practical application of the Three-E architecture based on Data Ring Fencing using a multi-institution instance from the healthcare domain. After conducting extensive experimentation on our custom datasets, our BERT + Multiclass LR model gave us the best performance achieving more than 99% accuracy.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "606400e6d195063e28e718768cd2ebd9",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "classification",
+      "neural network",
+      "sequence-to-sequence learning",
+      "seq2seq",
+      "encoder-decoder",
+      "BERT",
+      "Transfer Learning"
+    ],
+    "stage1_timestamp": "2025-05-15T03:03:55.851793"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究数据安全和隐私保护，提出了一种数据环围栏架构，虽然提到环围栏概念源自金融领域，但论文的核心技术和应用场景集中在数据安全和隐私保护，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究数据安全和隐私保护，提出了一种数据环围栏架构，虽然提到环围栏概念源自金融领域，但论文的核心技术和应用场景集中在数据安全和隐私保护，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:06.363960"
+}

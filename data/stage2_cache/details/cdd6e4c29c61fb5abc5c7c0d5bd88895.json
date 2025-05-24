@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1876,
+    "title": "Multi-Transformer: A New Neural Network-Based Architecture for Forecasting S&P Volatility",
+    "abstract": "Events such as the Financial Crisis of 2007-2008 or the COVID-19 pandemic caused significant losses to banks and insurance entities. They also demonstrated the importance of using accurate equity risk models and having a risk management function able to implement effective hedging strategies. Stock volatility forecasts play a key role in the estimation of equity risk and, thus, in the management actions carried out by financial institutions. Therefore, this paper has the aim of proposing more accurate stock volatility models based on novel machine and deep learning techniques. This paper introduces a neural network-based architecture, called Multi-Transformer. Multi-Transformer is a variant of Transformer models, which have already been successfully applied in the field of natural language processing. Indeed, this paper also adapts traditional Transformer layers in order to be used in volatility forecasting models. The empirical results obtained in this paper suggest that the hybrid models based on Multi-Transformer and Transformer layers are more accurate and, hence, they lead to more appropriate risk measures than other autoregressive algorithms or hybrid models based on feed forward layers or long short term memory cells.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "395013d9c7c5706d65c498fd94c1444c",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:38.998365"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a neural network-based architecture for forecasting stock volatility, which is directly related to equity risk estimation and risk management actions by financial institutions. This falls under the domain of Financial Risk Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a neural network-based architecture for forecasting stock volatility, which is directly related to equity risk estimation and risk management actions by financial institutions. This falls under the domain of Financial Risk Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:30.911226"
+}

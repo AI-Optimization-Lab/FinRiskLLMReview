@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 20,
+    "title": "Regression methods in pricing American and Bermudan options using consumption processes",
+    "abstract": "Numerical algorithms for the efficient pricing of multidimensional discrete-time American and Bermudan options are constructed using regression methods and a new approach for computing upper bounds of the options' price. Using the sample space with payoffs at optimal stopping times, we propose sequential estimates for continuation values, values of the consumption process, and stopping times on the sample paths. The approach allows the constructing of both lower and upper bounds for the price by Monte Carlo simulations. The algorithms are tested by pricing Bermudan max-calls and swaptions in the Libor market model.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "97d55b2aa27921975832bde739a7d654",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.486851"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用回归方法和蒙特卡洛模拟来定价多维离散时间的美式和百慕大式期权，这直接属于衍生品定价领域。论文还具体提到了对百慕大式max-calls和Libor市场模型中的互换期权的定价测试，进一步证实了其在衍生品定价中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用回归方法和蒙特卡洛模拟来定价多维离散时间的美式和百慕大式期权，这直接属于衍生品定价领域。论文还具体提到了对百慕大式max-calls和Libor市场模型中的互换期权的定价测试，进一步证实了其在衍生品定价中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:30.355412"
+}

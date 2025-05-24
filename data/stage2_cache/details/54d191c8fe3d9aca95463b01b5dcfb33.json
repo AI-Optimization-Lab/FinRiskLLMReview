@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1919,
+    "title": "Risk Estimation via Regression",
+    "abstract": "We introduce a regression-based nested Monte Carlo simulation method for the estimation of financial risk. An outer simulation level is used to generate financial risk factors and an inner simulation level is used to price securities and compute portfolio losses given risk factor outcomes. The mean squared error (MSE) of standard nested simulation converges at the rate k(-2/3), where k measures computational effort. The proposed regression method combines information from different risk factor realizations to provide a better estimate of the portfolio loss function. The MSE of the regression method converges at the rate k(-1) until reaching an asymptotic bias level which depends on the magnitude of the regression error. Numerical results consistent with our theoretical analysis are provided and numerical comparisons with other methods are also given.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6e19f05df1aa8476fbfb10555179d2ed",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:14.293504"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper introduces a regression-based nested Monte Carlo simulation method specifically for the estimation of financial risk, focusing on generating financial risk factors and computing portfolio losses, which are key aspects of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper introduces a regression-based nested Monte Carlo simulation method specifically for the estimation of financial risk, focusing on generating financial risk factors and computing portfolio losses, which are key aspects of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:12.493370"
+}

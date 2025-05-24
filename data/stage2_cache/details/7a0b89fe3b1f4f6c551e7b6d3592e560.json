@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 126,
+    "title": "The Application of Symbolic Regression on Identifying Implied Volatility Surface",
+    "abstract": "One important parameter in the Black-Scholes option pricing model is the implied volatility. Implied volatility surface (IVS) is an important concept in finance that describes the variation of implied volatility across option strike price and time to maturity. Over the last few decades, economists and financialists have long tried to exploit the predictability in the IVS using various parametric models, which require deep understanding of financial practices in the area. In this paper, we explore how a data-driven machine learning method, symbolic regression, performs in identifying the implied volatility surface even without deep financial knowledge. Two different approaches of symbolic regression are explored through a simulation study and an empirical study using a large panel of option data in the United States options market.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "970669317a820e1fdca894d797a7cab0",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "symbolic regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.356763"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是应用符号回归方法来识别隐含波动率曲面（IVS），而隐含波动率是Black-Scholes期权定价模型中的重要参数。论文的研究目标是通过数据驱动的方法改进对IVS的理解和预测，这直接关联到期权等衍生品的定价问题。因此，其主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是应用符号回归方法来识别隐含波动率曲面（IVS），而隐含波动率是Black-Scholes期权定价模型中的重要参数。论文的研究目标是通过数据驱动的方法改进对IVS的理解和预测，这直接关联到期权等衍生品的定价问题。因此，其主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:31.362303"
+}

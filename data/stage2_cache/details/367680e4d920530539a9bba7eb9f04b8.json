@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 6242,
+    "title": "Sample selection bias in credit scoring models",
+    "abstract": "One of the aims of credit scoring models is to predict the probability of repayment of any applicant and yet such models are usually parameterised using a sample of accepted applicants only. This may lead to biased estimates of the parameters. In this paper we examine two issues. First, we compare the classification accuracy of a model based only on accepted applicants, relative to one based on a sample of all applicants. We find only a minimal difference, given the cutoff scores for the old model used by the data supplier. Using a simulated model we examine the predictive performance of models estimated from bands of applicants, ranked by predicted creditworthiness. We find that the lower the risk band of the training sample, the less accurate the predictions for all applicants. We also find that the lower the risk band of the training sample, the greater the overestimate of the true performance of the model, when tested on a sample of applicants within the same risk band - as a financial institution would do. The overestimation may be very large. Second, we examine the predictive accuracy of a bivariate probit model with selection (BVP). This parameterises the accept-reject model allowing for (unknown) omitted variables to be correlated with those of the original good-bad model. The BVP model may improve accuracy if the loan officer has overridden a scoring rule. We find that a small improvement when using the BVP model is sometimes possible.",
+    "year": 2003,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2c37dbb6f9bd9e22fd5d8fbb7647bdec",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:56:10.970232"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究信用评分模型中的样本选择偏差问题，并探讨了如何提高预测准确性。信用评分是金融机构用于评估借款人信用风险的重要工具，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文主要研究信用评分模型中的样本选择偏差问题，并探讨了如何提高预测准确性。信用评分是金融机构用于评估借款人信用风险的重要工具，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:30.979462"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 90,
+    "title": "Soft imitation reinforcement learning with value decomposition for portfolio management",
+    "abstract": "Imitation learning has been recognized as a method to accelerate the training process of deep reinforcement learning agents in search of optimal strategies. Nevertheless, existing imitation learning algorithms have limitations in effectively leveraging expert demonstrations when confronted with dynamic environments, as the behavior cloning loss weight cannot be adaptively updated. To overcome this challenge, we propose a novel approach called Soft Imitation Reinforcement Learning (SIRL), which combines imitation learning and reinforcement learning to guide the training of reinforcement learning agents in an adaptive manner. Additionally, we addressed the challenge of high-dimensional action spaces for reinforcement learning in portfolio management with value decomposition, and provide theoretical proof of convergence for this method. To validate the effectiveness of the SIRL algorithm, we conduct extensive experiments using stock market data from emerging (China) and developed (the US) countries. Our experiments indicate the versatility of the proposed SIRL across different types of trading data, encompassing both high-frequency (5-minute interval) and low-frequency (daily and weekly) data.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "66efdba08edc8f6d94424e99ad993665",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.443253"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合模仿学习和强化学习来优化投资组合管理策略，并针对高维动作空间问题提出了价值分解方法。实验部分使用了股票市场数据来验证算法的有效性，明确表明其应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合模仿学习和强化学习来优化投资组合管理策略，并针对高维动作空间问题提出了价值分解方法。实验部分使用了股票市场数据来验证算法的有效性，明确表明其应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:34.665715"
+}

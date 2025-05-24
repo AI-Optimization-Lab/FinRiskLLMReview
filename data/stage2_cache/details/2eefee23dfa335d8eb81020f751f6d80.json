@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 622,
+    "title": "Heterogeneous Ensemble for Default Prediction of Peer-to-Peer Lending in China",
+    "abstract": "As a novel financing method, peer-to-peer (P2P) lending has drawn extensive attention as it provides those financers who cannot participate in the traditional financial market with funds. In P2P lending marketplaces, one of the crucial challenges that P2P online lending platforms are facing is to accurately predict the default risk of each loan by tapping into default prediction models, thus effectively helping P2P lending companies avoid credit risks. That traditional credit risk prediction models fail to meet the demand of P2P lending companies for default risk prediction, which is because of the uneven distribution of credit data samples in the P2P lending marketplaces (i.e., the default sampled data are scarce). In this paper, we designed a multi-round ensemble learning model based on heterogeneous ensemble frameworks to predict default risk. In this model, an extreme gradient boosting (XGBoost) is initially used for ensemble learning, and the XGBoost, deep neural network, and logistic regression are then regarded as heterogeneous individual learners to undergo a linear weighted fusion. To verify the designed default risk prediction model, real credit data from a famous P2P online lending marketplace in China were used in a test. The results of the experiment indicate that this model can effectively increase the predictive accuracy compared with traditional machine learning models and ensemble learning models.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b898c3b00ead19158279e86953216996",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "XGBoost",
+      "logistic regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.761871"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting default risk in peer-to-peer lending using machine learning models, which is a key aspect of credit risk management under the broader umbrella of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting default risk in peer-to-peer lending using machine learning models, which is a key aspect of credit risk management under the broader umbrella of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:17.953518"
+}

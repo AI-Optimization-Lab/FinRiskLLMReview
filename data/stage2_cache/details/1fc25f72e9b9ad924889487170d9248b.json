@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 904,
+    "title": "State-dependent asset allocation using neural networks",
+    "abstract": "Changes in market conditions present challenges for investors as they cause performance to deviate from the ranges predicted by long-term averages of means and covariances. The aim of conditional asset allocation strategies is to overcome this issue by adjusting portfolio allocations to hedge changes in the investment opportunity set. This paper proposes a new approach to conditional asset allocation that is based on machine learning; it analyzes historical market states and asset returns and identifies the optimal portfolio choice in a new period when new observations become available. In this approach, we directly relate state variables to portfolio weights, rather than firstly modeling the return distribution and subsequently estimating the portfolio choice. The method captures nonlinearity among the state (predicting) variables and portfolio weights without assuming any particular distribution of returns and other data, without fitting a model with a fixed number of predicting variables to data and without estimating any parameters. The empirical results for a portfolio of stock and bond indices show the proposed approach generates a more efficient outcome compared to traditional methods and is robust in using different objective functions across different sample periods.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b1e5f537c68f11e3a718f4f9bd87e527",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.286932"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用神经网络进行状态依赖的资产配置，旨在根据市场状态调整投资组合权重，以提高投资效率。这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络进行状态依赖的资产配置，旨在根据市场状态调整投资组合权重，以提高投资效率。这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:41.548183"
+}

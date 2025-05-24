@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1208,
+    "title": "Embedded draw-down constraint reward function for deep reinforcement learning",
+    "abstract": "Money management, also known as asset allocation, is constantly at the forefront of research in the trading and investing fields. Since Markowitz established the current portfolio theory in 1952, it has drawn many experts to this intriguing topic. The Kelly criteria are one of the brightest stars among these new techniques. It provides an elegant solution for players and investors to get the best bidding fraction and maximize their logarithm worth over time. However, it ignores the fact that each investor has a different risk tolerance, and the proportion was calculated using the Kelly criterion without taking into account the downside risk. This paper attempts to develop a risk prediction model using a probability-based method and adjust the reward function of deep reinforcement learning to account for the downside risk. To summarize, rather than a naive reward function that solely optimizes the return, the improved deep reinforcement learning may consider an investor's risk tolerance. Finally, we solely analyze the scenario of a single asset and employ DXY, GBP/USD, and EUR/USD as the underlying training and validation data sets. The outcome demonstrates that the adjustment to the reward mechanism produces an interesting performance. When the required MDD (Maximum draw-down) is greater than 3%, the likelihood is on average greater than 70%. (c) 2022 Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "334d22421b897653c968530c54aeff5c",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:09.891573"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究如何通过改进深度强化学习的奖励函数来考虑投资者的风险容忍度，特别是下行风险（Maximum draw-down），这直接涉及金融风险管理。同时，论文也提到了资产分配（asset allocation）和Kelly准则在投资组合中的应用，因此也涉及投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文主要研究如何通过改进深度强化学习的奖励函数来考虑投资者的风险容忍度，特别是下行风险（Maximum draw-down），这直接涉及金融风险管理。同时，论文也提到了资产分配（asset allocation）和Kelly准则在投资组合中的应用，因此也涉及投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:22.772182"
+}

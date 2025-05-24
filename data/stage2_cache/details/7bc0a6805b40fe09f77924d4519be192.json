@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3141,
+    "title": "Synthetic Dataset Generation for an Electricity Market Simulation Game",
+    "abstract": "This paper introduces the Electricity Markets Game (EMGA), an online multiplayer serious game developed to be used in courses on electricity markets at the Eindhoven University of Technology (TU/e). The game aims to enhance students' understanding of the structure and dynamics of short-term electricity markets, covering aspects of energy trading and investments in renewable and non-renewable energy sources. Within the game, students are tasked with submitting dayahead energy offers, utilizing statistical or machine learning (ML) forecasting models and portfolio optimization techniques. To ensure a comprehensive learning experience, each participant engages in energy trading over a full month. Since the game is asynchronous, collusion between students in order to obtain foresight into the future values of the time series data they are supposed to predict cannot be guaranteed if all students are given the same dataset. At the same time, simple slicing of historical data to produce unique datasets can lead to unfairness. Quantities relevant for electricity market participation can be more volatile in certain time periods; therefore, some students can be exposed to more volatile time spans, making prediction tasks more challenging and potentially skewing performance evaluations. To mitigate this, the game incorporates synthetic data generated using a Gaussian Copula (GC) synthesizer. This method ensures that all participants have access to equitable data conditions, fostering fair competition and allowing for an accurate assessment of skills and strategies across uniformly challenging scenarios. The synthesizer is specifically designed to replicate the statistical properties and interdependencies of real-world data, including day-ahead market prices, solar, and wind generation outputs. Comprehensive statistical analysis and ML predictive modeling are conducted to confirm that the synthetic data maintain the essential characteristics and behaviors of actual data. This confirms the efficacy of the GC synthesizer in creating realistic, educational simulations.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b1252d64a7e0425cf1d07ffa2ad14c6b",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:14:16.123273"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要关注电力市场模拟游戏中的合成数据生成，用于教育目的，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要关注电力市场模拟游戏中的合成数据生成，用于教育目的，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:27.161570"
+}

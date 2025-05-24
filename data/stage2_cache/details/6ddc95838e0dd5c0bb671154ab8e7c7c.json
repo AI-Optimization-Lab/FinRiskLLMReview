@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1,
+    "title": "基于粗糙随机模型的参数校准与定价研究",
+    "abstract": "传统Black-Scholes期权定价模型因假定波动率为常数，导致定价结果存在较大误差。文章采用分数布朗运动驱动的粗糙Bergomi随机波动率模型，针对国内金融市场进行波动率曲面刻画，并采用2022年1月4日至2022年12月30日的沪深300ETF期权的日交易数据进行实证分析，利用神经网络两步法进行参数校准，结果表明，粗糙Bergomi模型的定价精度优于Heston模型和BS模型，神经网络两步法在参数优化效果上优于差分进化算法。",
+    "year": 2025,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "e9703a6e1fdfb037409df996c655e92e",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:00.855949"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是改进期权定价模型，通过粗糙Bergomi随机波动率模型和神经网络方法提高定价精度，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是改进期权定价模型，通过粗糙Bergomi随机波动率模型和神经网络方法提高定价精度，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:04.324464"
+}

@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "unsupervised learning",
+    "regression",
+    "decision tree",
+    "clustering"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using machine learning to predict degradation rates in PV systems.",
+    "supervised learning": "The use of a random forest regressor implies supervised learning, as it involves training a model on labeled data to predict degradation rates.",
+    "unsupervised learning": "The paper mentions using K-Means clustering, which is an unsupervised learning technique to find patterns in the data.",
+    "regression": "The random forest regressor is used to predict year-over-year degradation rates, which is a regression task.",
+    "decision tree": "Random forest is an ensemble method based on decision trees, so decision trees are implicitly part of the methodology.",
+    "clustering": "The paper uses K-Means clustering to analyze metadata features, which is a clustering technique."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"unsupervised learning\",\n    \"regression\",\n    \"decision tree\",\n    \"clustering\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using machine learning to predict degradation rates in PV systems.\",\n    \"supervised learning\": \"The use of a random forest regressor implies supervised learning, as it involves training a model on labeled data to predict degradation rates.\",\n    \"unsupervised learning\": \"The paper mentions using K-Means clustering, which is an unsupervised learning technique to find patterns in the data.\",\n    \"regression\": \"The random forest regressor is used to predict year-over-year degradation rates, which is a regression task.\",\n    \"decision tree\": \"Random forest is an ensemble method based on decision trees, so decision trees are implicitly part of the methodology.\",\n    \"clustering\": \"The paper uses K-Means clustering to analyze metadata features, which is a clustering technique.\"\n  }\n}\n```"
+}

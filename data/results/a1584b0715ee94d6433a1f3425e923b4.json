@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "deep learning",
+    "neural network",
+    "long short-term memory",
+    "LSTM",
+    "BiLSTM",
+    "regression",
+    "feature representation",
+    "representation learning"
+  ],
+  "explanations": {
+    "machine learning": "The paper discusses the use of deep learning techniques for stock market prediction, which is a subset of machine learning.",
+    "deep learning": "The paper explicitly mentions the use of deep learning techniques, specifically Mobile U-Net V3 and BiLSTM, for stock price prediction.",
+    "neural network": "The proposed methods (Mobile U-Net V3 and BiLSTM) are types of neural networks.",
+    "long short-term memory": "The paper uses BiLSTM (Bi-Long Short-Term Memory), which is a variant of LSTM, for sequence prediction.",
+    "LSTM": "BiLSTM is based on LSTM architecture, making LSTM relevant to the paper's methodology.",
+    "BiLSTM": "The paper specifically proposes the use of BiLSTM as part of its hybrid deep learning approach.",
+    "regression": "The task of predicting stock prices is a regression problem, as it involves predicting continuous values.",
+    "feature representation": "The paper involves processing and representing stock data features for prediction, which relates to feature representation.",
+    "representation learning": "Deep learning models like Mobile U-Net V3 and BiLSTM inherently perform representation learning by transforming input data into more useful representations for the prediction task."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"deep learning\",\n    \"neural network\",\n    \"long short-term memory\",\n    \"LSTM\",\n    \"BiLSTM\",\n    \"regression\",\n    \"feature representation\",\n    \"representation learning\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper discusses the use of deep learning techniques for stock market prediction, which is a subset of machine learning.\",\n    \"deep learning\": \"The paper explicitly mentions the use of deep learning techniques, specifically Mobile U-Net V3 and BiLSTM, for stock price prediction.\",\n    \"neural network\": \"The proposed methods (Mobile U-Net V3 and BiLSTM) are types of neural networks.\",\n    \"long short-term memory\": \"The paper uses BiLSTM (Bi-Long Short-Term Memory), which is a variant of LSTM, for sequence prediction.\",\n    \"LSTM\": \"BiLSTM is based on LSTM architecture, making LSTM relevant to the paper's methodology.\",\n    \"BiLSTM\": \"The paper specifically proposes the use of BiLSTM as part of its hybrid deep learning approach.\",\n    \"regression\": \"The task of predicting stock prices is a regression problem, as it involves predicting continuous values.\",\n    \"feature representation\": \"The paper involves processing and representing stock data features for prediction, which relates to feature representation.\",\n    \"representation learning\": \"Deep learning models like Mobile U-Net V3 and BiLSTM inherently perform representation learning by transforming input data into more useful representations for the prediction task.\"\n  }\n}\n```"
+}

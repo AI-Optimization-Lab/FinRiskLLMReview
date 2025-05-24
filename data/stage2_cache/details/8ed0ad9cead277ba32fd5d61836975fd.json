@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 342,
+    "title": "基于复杂网络理论的股票聚类分析",
+    "abstract": "选取中证100指数的成分股作为研究对象,深入研究了各成分股收益率之间的关联并得到了明确的分组信息.首先利用随机矩阵理论,从收益率关联矩阵中提取出主成分信息并进行了粗略的分组;其次利用基于优先概率最大似然法的复杂网络理论对粗略分组进行了定量优化;最后得到明确的分组结果及对应的可靠性指标.最终的分组结果很好地符合股票所在行业分类,结果精确地展示了不同行业大类内的股票关联强弱,以及行业大类之间的关联性.研究为基于投资组合理论的程序化交易提供了定量分析的基础.",
+    "year": 2016,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "dc4079523c661b19b1fcea6a94946db5",
+    "relevant_keywords": [
+      "clustering",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-14T22:22:41.533468"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文研究了股票收益率之间的关联性并进行聚类分析，为基于投资组合理论的程序化交易提供了定量分析基础，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文研究了股票收益率之间的关联性并进行聚类分析，为基于投资组合理论的程序化交易提供了定量分析基础，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:04.764235"
+}

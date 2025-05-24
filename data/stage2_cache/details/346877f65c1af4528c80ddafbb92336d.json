@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 878,
+    "title": "A Robust Genetic Programming Model for a Dynamic Portfolio Insurance Strategy",
+    "abstract": "In this paper, we propose a robust genetic programming model for a dynamic strategy of stock portfolio insurance. With portfolio insurance strategy, we need to allocate part of the money in risky asset and the other part in risk-free asset. Our applied strategy is based on constant proportion portfolio insurance (CPPI) strategy. For determining the amount for investing in risky assets, the critical parameter is a constant risk multiplier which is used in traditional CPPI method so that it may not reflect the changes occurring in market condition. Thus, we propose a model in which, the risk multiplier is calculated with robust genetic programming. In our model, risk variables are used to generate equation trees for calculating the risk multiplier. We also implement an artificial neural network to enhance our model's robustness. We also combine the portfolio insurance strategy with a well-known portfolio optimization model to get the best possible portfolio weights of risky assets for insurance. Experimental results using five stocks from New York Stock Exchange (NYSE) show that our proposed robust genetic programming model outperforms the other two models: the basic genetic programming for portfolio insurance without portfolio optimization, and the basic genetic programming for portfolio insurance with portfolio optimization.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4389c2c1de792de07f528fbb5db9b05a",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.211900"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用遗传编程和人工神经网络来优化动态投资组合保险策略，特别是通过计算风险乘数和优化投资组合权重来管理投资组合。这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用遗传编程和人工神经网络来优化动态投资组合保险策略，特别是通过计算风险乘数和优化投资组合权重来管理投资组合。这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:47.061481"
+}

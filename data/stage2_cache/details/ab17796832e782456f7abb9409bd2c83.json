@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 5673,
+    "title": "A text analysis of operational risk loss descriptions",
+    "abstract": "Financial institutions manage operational risk (OpRisk) by carrying out activities required by regulation, such as collecting loss data, calculating capital requirements and reporting. For this purpose, for each OpRisk event, the loss amounts, dates, event types and descriptions and organizational units involved are recorded in OpRisk databases, and in recent years, OpRisk functions have been required to go beyond their regulatory tasks and to proactively manage OpRisk, preventing or mitigating its impact. As OpRisk databases contain, among other things, event descriptions, one area of opportunity is the extraction of information from such texts. This paper introduces a novel structured workflow for the application of text analysis techniques (one of the main natural language processing tasks) to OpRisk event descriptions in order to identify managerial clusters (which are more granular than regulatory categories) that cause the underlying risks. We complement and enrich the established framework of statistical methods based on quantitative data. Specifically, after delicate tasks such as data cleaning, text vectorization and semantic adjustment, we apply methods of dimensionality reduction and several algorithmic clustering models, and we compare their performance and weaknesses. Our results add to the knowledge of historical loss events and enable the mitigation of future risks.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "97cb24ee2585f3e9701bb62f0122a592",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:50:21.182388"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on analyzing operational risk (OpRisk) event descriptions using text analysis techniques to identify managerial clusters that cause underlying risks. This directly pertains to the management and mitigation of operational risk, which is a key component of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on analyzing operational risk (OpRisk) event descriptions using text analysis techniques to identify managerial clusters that cause underlying risks. This directly pertains to the management and mitigation of operational risk, which is a key component of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:38.772376"
+}

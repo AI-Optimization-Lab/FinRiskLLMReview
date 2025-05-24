@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2579,
+    "title": "Robust Statistics for Portfolio Construction and Analysis",
+    "abstract": "Asset returns and factor exposures frequently exhibit small fractions of extreme outliers, which are often associated with fat-tailed distributions and can have very adverse influence on classical least-squares regression estimators and sample covariance matrices. Over a number of decades, a solid theoretical and computational foundation has been developed for alternative robust estimators that are not much influenced by outliers. Unfortunately, such methods have seen relatively little use in portfolio construction and analysis. An overarching goal of this article is to encourage the use of robust statistics by portfolio managers and analysts, minimally as a complement to classical estimators and in some cases as a replacement. In support of this goal, the authors briefly describe the main data and the oretical foundations of robust statistics, then introduce a best-of-breed robust regression estimator with applications to cross-sectional and time-series factor model data. They go on to describe a highly robust covariance matrix estimator and the closely related robust multidimensional distance measure for outlier detection and shrinkage, applied to stock return and factor exposure data with influential outliers. A unique aspect of the robust estimators and most of the data used in this article is that they are freely available in several open source R packages. Consequently, most of the exhibits are reproducible with R code that may be found at: https://github.com/robustport/PCRA/blob/main/README.md.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ca2a0b251e123ad9ab0dbf087c2fd056",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:08:10.929714"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是稳健统计方法在投资组合构建和分析中的应用，包括稳健回归估计和协方差矩阵估计，旨在帮助投资组合经理和分析师更好地处理极端异常值，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是稳健统计方法在投资组合构建和分析中的应用，包括稳健回归估计和协方差矩阵估计，旨在帮助投资组合经理和分析师更好地处理极端异常值，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:02.986862"
+}

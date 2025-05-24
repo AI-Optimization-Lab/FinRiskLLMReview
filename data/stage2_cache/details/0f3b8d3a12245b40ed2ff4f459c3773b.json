@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3319,
+    "title": "Equity Portfolio Optimization Using Reinforcement Learning: Emerging Market Case",
+    "abstract": "Making investment decisions under uncertainty has always been a challenge for investors. There have been extensive number of studies in the literature, proposing methods under the portfolio optimization framework. The majority of the theoretical and practical approaches focused on two different perspectives, return and risk. However, optimizing with respect to these variables has been a notoriously difficult task due to the stochastic and unpredictable nature of the financial time series. To avoid such difficulties, investors could invest in portfolios managed by professionals according to predetermined criteria. One common approach for this is to invest in index funds. They provide a generic risk and return profile via market-capitalization weighting method, thus, they are good fit for many investors. In this study, we seek to gain better performance than this weighting method. Accordingly, we propose two reinforcement learning agents to solve this portfolio optimization problem under Markov decision process framework. These models do not have a prior knowledge about the stock market environment, they directly learn by trial-and-error and output policy as the portfolio weighting model. We train our models with a dataset composed of price indicators and fundamental company information. The proposed models were tested with BIST30 market constituents in a 1 year time duration. We show that these agents can generate 45% greater returns and 1.17 greater Sharpe ratio compared to BIST30 market index. While generating higher returns, we also encourage agents to diversify the portfolio through a modified reward function to increase real life applicability.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8eaffbad75eac20937aa84047eb89c4b",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:25:13.630588"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on using reinforcement learning to optimize equity portfolios, specifically aiming to outperform index funds by generating higher returns and better Sharpe ratios. This directly aligns with the domain of Portfolio Management, as it involves the selection and weighting of assets to achieve investment objectives.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on using reinforcement learning to optimize equity portfolios, specifically aiming to outperform index funds by generating higher returns and better Sharpe ratios. This directly aligns with the domain of Portfolio Management, as it involves the selection and weighting of assets to achieve investment objectives.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:37:18.028799"
+}

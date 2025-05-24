@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 984,
+    "title": "Quantifying ESG Alpha Using Scholar Big Data: An Automated Machine Learning Approach",
+    "abstract": "ESG (Environmental, social and governance) alpha strategy that makes sustainable investment has gained popularity among investors. The ESG fields of study in scholar big data is a valuable alternative data that reflects a company's long-term ESG commitment. However, it is considered a difficulty to quantitatively measure a company's ESG premium and its impact to the company's stock price using scholar big data. In this paper, we utilize ESG scholar data as alternative data to develop an automatic trading strategy and propose a practical machine learning approach to quantify the ESG premium of a company and capture the ESG alpha. First, we construct our ESG investment universe and apply feature engineering on the companies' ESG scholar data from the Microsoft Academic Graph database. Then, we train six complementary machine learning models using a combination of financial indicators and ESG scholar data features and employ an ensemble method to predict stock prices and automatically set up portfolio allocation. Finally, we manage our portfolio, trade and rebalance the portfolio allocation monthly using predicted stock prices. We backtest our ESG alpha strategy and compare its performance with benchmarks. The proposed ESG alpha strategy achieves a cumulative return of 2,154.4% during the backtesting period of ten years, which significantly outperforms the NASDAQ-100 index's 397.4% and S&P 500's 226.9%. The traditional financial indicators results in only 1,443.7%, thus our scholar data-based ESG alpha strategy is better at capturing ESG premium than traditional financial indicators.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "aeceff7fd80efd2d9b78a5e58dfd3eab",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "feature learning",
+      "feature representation",
+      "ensemble method"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.796758"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用机器学习和ESG学者大数据来构建自动交易策略，并通过预测股票价格来设置和调整投资组合分配。这直接涉及投资组合管理的核心内容，包括资产配置、交易和再平衡。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用机器学习和ESG学者大数据来构建自动交易策略，并通过预测股票价格来设置和调整投资组合分配。这直接涉及投资组合管理的核心内容，包括资产配置、交易和再平衡。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:45.154515"
+}

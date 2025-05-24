@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2015,
+    "title": "Portfolio Optimization Techniques for Cryptocurrencies",
+    "abstract": "This article addresses the shortcomings of the existing literature regarding cryptocurrency portfolio construction. First, we address the effectiveness of time-series models that capture stylized features. We perform a comparison study on various methods for estimating distributions for asset returns, including normal, historical, and GARCH models within a CVaR setting. The goal of this comparison is to determine the financial benefits of constructing portfolios based on estimated distributions that consider stylized features of crypto return series. Next, we create and compare various prediction models for cryptocurrencies and integrate them with mean-variance optimization to base performance on portfolio management metrics, such as Sharpe ratio and level of diversification, rather than statistical metrics like accuracy and R-2 on which the literature solely focuses. We determine it is unclear which optimization approach (CVaR or Robust MVO) leads to better crypto portfolios, and so, to address this, we compare optimization procedures on out-of-sample data through a thorough cross-validation of hyperparameters for each technique. We then compare the resulting risk-optimal portfolios from each technique. The results show that a CVaR approach with a GARCH simulation and a decision tree prediction model with robust mean-variance optimization yield portfolios of similar risk. We also show that using statistical metrics to evaluate models may not always yield the best financial performance.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c0e8e52151b9352d7d30b9050ebef590",
+    "relevant_keywords": [
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:25.651237"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究加密货币投资组合的构建和优化，包括使用CVaR和均值-方差优化等技术来改进投资组合的性能，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究加密货币投资组合的构建和优化，包括使用CVaR和均值-方差优化等技术来改进投资组合的性能，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:48.828085"
+}

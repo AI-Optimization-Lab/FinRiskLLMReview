@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 177,
+    "title": "Quantitative investment prediction analysis for enterprise asset management using machine learning algorithms",
+    "abstract": "Quantitative investment can manage enterprise assets better to obtain higher revenues. This paper analyzed quantitative investment prediction using machine learning algorithms. First, the support vector machine (SVM) algorithm was introduced, and stock changes were predicted by the SVM algorithm. Then, the feature factors in stock data were extracted by maximum information coefficient (MIC) as the input of the SVM algorithm. Finally, the performance and backtest results of the SVM algorithm was analyzed. It was found that the SVM algorithm had a good performance, and its Fl-score was 0.9884, which was better than C4.5 and random forest algorithms. In terms of backtesting, the portfolio built based on the prediction results of the SVM algorithm obtained a higher annualized return rate when the number of stocks was small; when the number of stocks was 10, the portfolio built based on the SVM algorithm had an annualized return rate of 83.67%, a smaller maximum retracement, and a higher Sharpe ratio than the other algorithms, which balanced the risk and return well. The results demonstrate the reliability of the SVM algorithm in predicting quantitative investment, which is beneficial to achieving the optimization of enterprise asset management.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "434f219623d842fa6ac54429e6d2f15b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.123147"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用支持向量机（SVM）算法进行股票变化的预测，并基于预测结果构建投资组合。论文明确提到了投资组合的构建、年化回报率、最大回撤和夏普比率等投资组合管理的关键指标，因此其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用支持向量机（SVM）算法进行股票变化的预测，并基于预测结果构建投资组合。论文明确提到了投资组合的构建、年化回报率、最大回撤和夏普比率等投资组合管理的关键指标，因此其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:54.802298"
+}

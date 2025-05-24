@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1430,
+    "title": "TOWARDS A VIRTUAL PERSONAL ASSISTANT BASED ON A USER-DEFINED PORTFOLIO OF MULTI- DOMAIN VOCAL APPLICATIONS",
+    "abstract": "This paper proposes a novel approach to defining and simulating a new generation of virtual personal assistants as multi-application multi-domain distributed dialogue systems. The first contribution is the assistant architecture, composed of independent third-party applications handled by a Dispatcher. In this view, applications are black-boxes responding with a self-scored answer to user requests. Next, the Dispatcher distributes the current request to the most relevant application, based on these scores and the context (history of interaction etc.), and conveys its answer to the user. To address variations in the user-defined portfolio of applications, the second contribution, a stochastic model automates the online optimisation of the Dispatcher's behaviour. To evaluate the learnability of the Dispatcher's policy, several parametrisations of the user and application simulators are enabled, in such a way that they cover variations of realistic situations. Results confirm in all considered configurations of interest, that reinforcement learning can learn adapted strategies.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d8ea12e386b0c7bf46c74029625bbc4d",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.582375"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究虚拟个人助理的架构和优化策略，虽然提到了'portfolio'一词，但这是指用户定义的多领域应用组合，而非金融投资组合。论文的核心技术与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究虚拟个人助理的架构和优化策略，虽然提到了'portfolio'一词，但这是指用户定义的多领域应用组合，而非金融投资组合。论文的核心技术与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:07.175711"
+}

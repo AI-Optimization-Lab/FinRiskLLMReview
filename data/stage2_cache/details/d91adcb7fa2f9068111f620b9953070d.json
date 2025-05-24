@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 197,
+    "title": "Effective Machine Learning Techniques for Dealing with Poor Credit Data",
+    "abstract": "Credit risk is a crucial component of daily financial services operations; it measures the likelihood that a borrower will default on a loan, incurring an economic loss. By analysing historical data for assessment of the creditworthiness of a borrower, lenders can reduce credit risk. Data are vital at the core of the credit decision-making processes. Decision-making depends heavily on accurate, complete data, and failure to harness high-quality data would impact credit lenders when assessing the loan applicants' risk profiles. In this paper, an empirical comparison of the robustness of seven machine learning algorithms to credit risk, namely support vector machines (SVMs), na & iuml;ve base, decision trees (DT), random forest (RF), gradient boosting (GB), K-nearest neighbour (K-NN), and logistic regression (LR), is carried out using the Lending Club credit data from Kaggle. This task uses seven performance measures, including the F1 Score (recall, accuracy, and precision), ROC-AUC, and HL and MCC metrics. Then, the harnessing of generative adversarial networks (GANs) simulation to enhance the robustness of the single machine learning classifiers for predicting credit risk is proposed. The results show that when GANs imputation is incorporated, the decision tree is the best-performing classifier with an accuracy rate of 93.01%, followed by random forest (92.92%), gradient boosting (92.33%), support vector machine (90.83%), logistic regression (90.76%), and na & iuml;ve Bayes (89.29%), respectively. The classifier is the worst-performing method with a k-NN (88.68%) accuracy rate. Subsequently, when GANs are optimised, the accuracy rate of the na & iuml;ve Bayes classifier improves significantly to (90%) accuracy rate. Additionally, the average error rate for these classifiers is over 9%, which implies that the estimates are not far from the actual values. In summary, most individual classifiers are more robust to missing data when GANs are used as an imputation technique. The differences in performance of all seven machine learning algorithms are significant at the 95% level.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "14e2bb306ed3a8a9d913194c61b54e0f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:53.045693"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心内容是使用机器学习算法评估借款人的信用风险，并探讨如何通过生成对抗网络（GANs）提高信用风险预测的准确性。这直接涉及信用风险管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心内容是使用机器学习算法评估借款人的信用风险，并探讨如何通过生成对抗网络（GANs）提高信用风险预测的准确性。这直接涉及信用风险管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:19.777760"
+}

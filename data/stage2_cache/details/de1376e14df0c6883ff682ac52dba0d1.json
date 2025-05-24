@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 330,
+    "title": "Multi-View MOOC Quality Evaluation via Information-Aware Graph Representation Learning",
+    "abstract": "In this paper, we study the problem of MOOC quality evaluation which is essential for improving the course materials, promoting students' learning efficiency, and benefiting user services. While achieving promising performances, current works still suffer from the complicated interactions and relationships of entities in MOOC platforms. To tackle the challenges, we formulate the problem as a course representation learning task-based and develop an Information-aware Graph Representation Learning(IaGRL) for multi-view MOOC quality evaluation. Specifically, We first build a MOOC Heterogeneous Network (HIN) to represent the interactions and relationships among entities in MOOC plat-forms. And then we decompose the MOOC HIN into multiple single-relation graphs based on meta-paths to depict the multi-view semantics of courses. The course representation learning can be further converted to a multi-view graph representation task. Different from traditional graph representation learning, the learned course representations are expected to match the following three types of validity: (1) the agreement on expressiveness between the raw course portfolio and the learned course representations; (2) the consistency between the representations in each view and the unified representations; (3) the alignment between the course and MOOC platform representations. Therefore, we propose to exploit mutual information for preserving the validity of course representations. We conduct extensive experiments over real-world MOOC datasets to demonstrate the effectiveness of our proposed method.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "b86f8258eba78b3607f680350503ce2d",
+    "relevant_keywords": [
+      "machine learning",
+      "representation learning",
+      "deep learning",
+      "feature representation",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:44.403336"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究MOOC（大规模开放在线课程）质量评估，通过信息感知图表示学习来改进课程材料和提升学生学习效率。虽然使用了机器学习和表示学习技术，但并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究MOOC（大规模开放在线课程）质量评估，通过信息感知图表示学习来改进课程材料和提升学生学习效率。虽然使用了机器学习和表示学习技术，但并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:06.752077"
+}

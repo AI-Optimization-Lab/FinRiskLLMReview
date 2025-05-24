@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2034,
+    "title": "Implementation of a Commitment Machine for an Adaptive and Robust Expected Shortfall Estimation",
+    "abstract": "This study proposes a metaheuristic for the selection of models among different Expected Shortfall (ES) estimation methods. The proposed approach, denominated Commitment Machine (CM), has a strong focus on assets cross-correlation and allows to measure adaptively the ES, dynamically evaluating which is the most performing method through the minimization of a loss function. The CM algorithm compares four different ES estimation techniques which all take into account the interaction effects among assets: a Bayesian Vector autoregressive model, Stochastic Differential Equation (SDE) numerical schemes with Exponential Weighted Moving Average (EWMA), a Generalized AutoRegressive Conditional Heteroskedasticity (GARCH) volatility model and a hybrid method that integrates Dynamic Recurrent Neural Networks together with a Monte Carlo approach. The integration of traditional Monte Carlo approaches with Machine Learning technologies and the heterogeneity of dynamically selected methodologies lead to an improved estimation of the ES. The study describes the techniques adopted by the CM and the logic behind model selection; moreover, it provides a market application case of the proposed metaheuristic, by simulating an equally weighted multi-asset portfolio.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "94226fd6265b42818268c1c9cd544ce9",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:02:10.328813"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on improving the estimation of Expected Shortfall (ES), a key metric in financial risk management, through a metaheuristic approach. Additionally, it provides a market application case involving a multi-asset portfolio, which relates to portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on improving the estimation of Expected Shortfall (ES), a key metric in financial risk management, through a metaheuristic approach. Additionally, it provides a market application case involving a multi-asset portfolio, which relates to portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:24.532508"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1531,
+    "title": "A classification scheme to improve conclusion instability using Bellwether moving windows",
+    "abstract": "Context The use of a subset of recently completed and exemplary data, namely, Bellwether moving window (BMW) has proven successful to result in improved accuracy in software effort estimation (SEE). These outcomes were achieved based on the theory that estimation outcome of a future event depends on previous events. Thus, the existence of a BMW yield improved prediction accuracy for new project estimation. However, the conclusion instability problem across learners still threatens the reliability of SEE for new projects. Such instability concerns are attributed to the data subset considered for the training and validation needs of learners. Objective To investigate whether the use of BMWs together with an effort classification scheme can minimize the conclusion instability problem across learners. Method We apply a Bellwether method comprising of three operators, namely, SORT+CLUSTER, GENERATE_TPM, and APPLY to sample the BMW from a pool of chronological projects from the Maxwell and International Software Benchmarking Standards Group (ISBSG) datasets. The sampled BMW is benchmarked against the entire collection of preprocessed projects, namely, growing portfolio to evaluate prediction and classification accuracy across a set of learners-ElasticNet regression, deep neural networks, and automatically transformed linear model. Results (1) BMW exists in the studied projects and (2) training the learners with a BMW of average window size 28.5%-75.5% of the growing portfolio (not older than 3 years) relatively minimizes the conclusion instability of prediction results. Conclusion When BMWs are available, we recommend their use for estimating the effort for a new project to minimize the conclusion instability problem.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "040e5b6e49b2564ee8228f7490d19f87",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:39.115085"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究软件工作量估计（SEE）中的结论不稳定问题，并提出了使用Bellwether移动窗口和分类方案来改进预测准确性。虽然涉及机器学习和预测模型，但并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究软件工作量估计（SEE）中的结论不稳定问题，并提出了使用Bellwether移动窗口和分类方案来改进预测准确性。虽然涉及机器学习和预测模型，但并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:35.274221"
+}

@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "decision tree",
+    "regression"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning models such as Decision Tree, Random Forest, Gradient Boosted Trees, and XGBoost to predict non-performing loans (NPLs).",
+    "supervised learning": "The study employs supervised learning techniques, as it uses labeled data (NPLs) to train models for prediction.",
+    "decision tree": "The paper specifically mentions the use of Decision Tree as one of the machine learning models for predicting NPLs.",
+    "regression": "The study involves predicting a continuous variable (NPLs), which is a regression task, and the models used (e.g., XGBoost) are commonly applied in regression problems."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"decision tree\",\n    \"regression\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning models such as Decision Tree, Random Forest, Gradient Boosted Trees, and XGBoost to predict non-performing loans (NPLs).\",\n    \"supervised learning\": \"The study employs supervised learning techniques, as it uses labeled data (NPLs) to train models for prediction.\",\n    \"decision tree\": \"The paper specifically mentions the use of Decision Tree as one of the machine learning models for predicting NPLs.\",\n    \"regression\": \"The study involves predicting a continuous variable (NPLs), which is a regression task, and the models used (e.g., XGBoost) are commonly applied in regression problems.\"\n  }\n}\n```"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 706,
+    "title": "Customer Credit Risk: Application and Evaluation of Machine Learning and Deep Learning Models",
+    "abstract": "Financial institutions rely on credit risk evaluation or credit scoring models for decision-making, as these models analyse the creditworthiness of customers. Machine learning models can predict with high accuracy, and they are widely utilized in this sector. This study selected a dataset from openml.org, and after data pre-processing, visualization, and exploratory data analysis, seven algorithms were applied. The models were evaluated using various performance metrics. Support Vector Machines (SVM) achieved the highest accuracy (80.67%) with a good Recall of 93.55%. Also, when dimensions were reduced to 10 (from 20) through Principal Component Analysis, SVM demonstrated the highest accuracy (83.57%), an F1 score of 84.70%, a Recall of 88.84%, and an ROC AUC Score of 83.44%. By generating synthetic records using SMOTE, the open-source algorithm Extreme Gradient Boosting achieved the highest accuracy score of 83.3% and an ROC AUC of 83.29%. Future work may involve tuning the hyperparameters of these algorithms to improve other performance metrics.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "18a7217f515a1e13e88e06a5592020a7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "principal components analysis",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.478705"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究机器学习模型在信用风险评估中的应用，信用风险评估是金融风险管理的重要组成部分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文主要研究机器学习模型在信用风险评估中的应用，信用风险评估是金融风险管理的重要组成部分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:48.299215"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3713,
+    "title": "Transformer-Based Downside Risk Forecasting: A Data-Driven Approach with Realized Downward Semi-Variance",
+    "abstract": "Realized downward semi-variance (RDS) has been realized as a key indicator to measure the downside risk of asset prices, and the accurate prediction of RDS can effectively guide traders' investment behavior and avoid the impact of market fluctuations caused by price declines. In this paper, the RDS rolling prediction performance of the traditional econometric model, machine learning model, and deep learning model is discussed in combination with various relevant influencing factors, and the sensitivity analysis is further carried out with the rolling window length, prediction length, and a variety of evaluation methods. In addition, due to the characteristics of RDS, such as aggregation and jumping, this paper further discusses the robustness of the model under the impact of external events, the influence of emotional factors on the prediction accuracy of the model, and the results and analysis of the hybrid model. The empirical results show that (1) when the rolling window is set to 20, the overall prediction effect of the model in this paper is the best. Taking the Transformer model under SSE as an example, compared with the prediction results under the rolling window length of 5, 10, and 30, the RMSE improvement ratio reaches 24.69%, 15.90%, and 43.60%, respectively. (2) The multivariable Transformer model shows a better forecasting effect. Compared with traditional econometric, machine learning, and deep learning models, the average increase percentage of RMSE, MAE, MAPE, SMAPE, MBE, and SD indicators is 52.23%, 20.03%, 62.33%, 60.33%, 37.57%, and 18.70%, respectively. (3) In multi-step prediction scenarios, the DM test statistic of the Transformer model is significantly positive, and the prediction accuracy of the Transformer model remains stable as the number of prediction steps increases. (4) Under the impact of external events of COVID-19, the Transformer model has stability, and the addition of emotional factors can effectively improve the prediction accuracy. In addition, the model's prediction performance and generalization ability can be further improved by stacked prediction models. An in-depth study of RDS forecasting is of great value to capture the characteristics of downside risks, enrich the financial risk measurement system, and better evaluate potential losses.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "de893d79daced970169a044d2d5f126f",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "Transformer",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:29:27.921183"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用Transformer模型预测Realized Downward Semi-Variance (RDS)，这是一种衡量资产价格下行风险的关键指标。论文的研究目标是准确预测RDS以指导投资行为并避免市场波动的影响，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用Transformer模型预测Realized Downward Semi-Variance (RDS)，这是一种衡量资产价格下行风险的关键指标。论文的研究目标是准确预测RDS以指导投资行为并避免市场波动的影响，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:32.622120"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 3065,
+    "title": "Hierarchical Gated Recurrent Unit with Semantic Attention for Event Prediction",
+    "abstract": "Event prediction plays an important role in financial risk assessment and disaster warning, which can help government decision-making and economic investment. Previous works are mainly based on time series for event prediction such as statistical language model and recurrent neural network, while ignoring the impact of prior knowledge on event prediction. This makes the direction of event prediction often biased or wrong. In this paper, we propose a hierarchical event prediction model based on time series and prior knowledge. To ensure the accuracy of the event prediction, the model obtains the time-based event information and prior knowledge of events by Gated Recurrent Unit and Associated Link Network respectively. The semantic selective attention mechanism is used to fuse the time-based event information and prior knowledge, and finally generate predicted events. Experimental results on Chinese News datasets demonstrate that our model significantly outperforms the state-of-the-art methods, and increases the accuracy by 2.8%.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a7e4ae27112269b8fca24afd49c2e29a",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:22:25.052639"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种基于时间序列和先验知识的事件预测模型，并明确提到其在金融风险评估中的应用，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种基于时间序列和先验知识的事件预测模型，并明确提到其在金融风险评估中的应用，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:31.379825"
+}

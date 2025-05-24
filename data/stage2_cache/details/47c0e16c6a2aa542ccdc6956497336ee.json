@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 50,
+    "title": "基于ARIAM-GARCH深度学习的股价预测与决策",
+    "abstract": "对于绝大多数股民而言，大盘股具有投入成本高、损失大、资金流转慢等特性，为使得股民减少损失，提高收益，通过针对于中小企业股，采用两阶段的方法对股价进行了预测，给出了一种最优投资组合决策方法。第一阶段先用ARIMA-GARCH模型进行建模，提取每日收益率的波动率，再将波动率加入到原有数据集中，构建CNN-BiLSTM-AT深度神经网络模型进行预测，最后使用XGBoost算法对预测值进行修正。第二阶段在给定投资者的期望收益率的条件下，用Bayes方法进行投资组合，获取最优投资决策。实证研究表明，此方法对于选取的10只中小企业股有着较好的研究结果。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cd516cd45435f920009c674746e9224e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-14T20:36:18.876095"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用ARIMA-GARCH模型和深度学习模型进行股价预测，并在第二阶段使用Bayes方法进行投资组合优化，以获取最优投资决策。这明确属于投资组合管理领域。论文未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用ARIMA-GARCH模型和深度学习模型进行股价预测，并在第二阶段使用Bayes方法进行投资组合优化，以获取最优投资决策。这明确属于投资组合管理领域。论文未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:35.830070"
+}

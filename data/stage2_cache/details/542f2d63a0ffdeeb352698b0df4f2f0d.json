@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1325,
+    "title": "Deep Learning Using Risk-Reward Function for Stock Market Prediction",
+    "abstract": "Many recent studies have attempted to apply a deep learning approach to build a model for stock market prediction. Most of these studies have concentrated on using prediction accuracy as a performance metric. Some of them have also performed trading simulations to evaluate financial performance. However, financial performance was not improved significantly because the loss function used in the training process focused primarily on prediction accuracy. In this paper, we propose a new framework to train a deep neural network for stock market prediction. A new loss function was developed by adding a risk-reward function, which is derived by the trading simulation results. A new scoring metric called Sharpe-F1 score, which is a combination of Sharpe ratio and F1 score is used for model selection. We employ the best prediction model from our previous work, which consists of Convolutional Neural Network (CNN) and Long Short-Term Memory Network (LSTM) architectures and takes event embedding vectors, historical prices and a set of technical indicators as inputs. The robustness of our framework is evaluated on two datasets by varying the key parameters used in the proposed framework. The results show that financial performance can be improved by adding a risk-reward function into the loss function used in the training process.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fc4276758c3243ea13fb70ff86a29cda",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:44.727949"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过深度学习模型改进股票市场预测，并引入风险-回报函数和Sharpe-F1评分来优化金融表现。这些技术直接应用于投资决策和资产配置，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过深度学习模型改进股票市场预测，并引入风险-回报函数和Sharpe-F1评分来优化金融表现。这些技术直接应用于投资决策和资产配置，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:49.091044"
+}

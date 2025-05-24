@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 225,
+    "title": "Integrating Macroeconomic and Technical Indicators into Forecasting the Stock Market: A Data-Driven Approach",
+    "abstract": "Forecasting stock markets is challenging due to the influence of various internal and external factors compounded by the effects of globalization. This study introduces a data-driven approach to forecast S&P 500 returns by incorporating macroeconomic indicators including gold and oil prices, the volatility index, economic policy uncertainty, the financial stress index, geopolitical risk, and shadow short rate, with ten technical indicators. We propose three hybrid deep learning models that sequentially combine convolutional and recurrent neural networks for improved feature extraction and predictive accuracy. These models include the deep belief network with gated recurrent units, the LeNet architecture with gated recurrent units, and the LeNet architecture combined with highway networks. The results demonstrate that the proposed hybrid models achieve higher forecasting accuracy than the single deep learning models. This outcome is attributed to the complementary strengths of convolutional networks in feature extraction and recurrent networks in pattern recognition. Additionally, an analysis using the Shapley method identifies the volatility index, financial stress index, and economic policy uncertainty as the most significant predictors, underscoring the effectiveness of our data-driven approach. These findings highlight the substantial impact of contemporary uncertainty factors on stock markets, emphasizing their importance in studies analyzing market behaviour.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "48390fc06b641309631fa00a24f0bec7",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "deep belief network",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:45.478997"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用深度学习方法预测股票市场回报，虽然涉及金融市场，但其核心应用并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用深度学习方法预测股票市场回报，虽然涉及金融市场，但其核心应用并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:02.486693"
+}

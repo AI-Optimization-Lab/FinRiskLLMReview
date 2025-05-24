@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 228,
+    "title": "An Empirical Study on the Effectiveness of Bi-LSTM-Based Industry Rotation Strategies in Thai Equity Portfolios",
+    "abstract": "Portfolio optimization poses a significant challenge due to asset price volatility caused by various economic factors. Portfolio optimization typically aims to achieve a high risk-adjusted return through asset allocation. However, high-volatility assets such as equities can lead to significant losses in the event of crises, such as trade wars. An industry rotation strategy can reduce portfolio risk by investing in industry indexes. This research aims to develop industry rotation strategies for Thailand by analyzing previous consecutive months of economic variables with the goal of maximizing the portfolio's Sharpe ratio in the following period. Two strategies are proposed in this paper, one with cash and the other without, both of which include eight Thai industry indexes in their portfolios. Both strategies are developed using Bidirectional Long Short-term Memory (BiLSTM) models, which generate the allocation ratio based on historical economic variable data. The models then optimize the allocation ratio by using a modified loss function to maximize the Sharpe ratio. In addition to the Sharpe ratio, the return on investment and the Calmar ratio are used to assess the performance of the strategies. The results showed that our strategies outperformed the baseline buy-and-hold SET50 and equal-weight strategies.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "12d3f0f7d257e678215b7eddb6415dd0",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:33:39.482539"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用Bi-LSTM模型开发行业轮动策略，旨在通过优化资产配置比例来最大化投资组合的夏普比率，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用Bi-LSTM模型开发行业轮动策略，旨在通过优化资产配置比例来最大化投资组合的夏普比率，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:29.571788"
+}

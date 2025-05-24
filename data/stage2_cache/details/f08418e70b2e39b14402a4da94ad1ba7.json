@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1484,
+    "title": "Construction of stock portfolios based on k-means clustering of continuous trend features",
+    "abstract": "How to construct a promising portfolio to reduce the risk of investment and to improve returns has markedly attracted scholars' attention. Firstly, it is hard to choose prospective set of assets for the portfolio. When the number of candidate stock pools is relatively large, it is challenging to screen out qualified stocks to construct the portfolio and to calculate the corresponding weights. Traditional portfolio theories, such as risk parity and Markowitz's portfolio theories, are only used to calculate the corresponding weights in the given stock portfolio, and cannot be used to automatically select good stocks in a large stock pool. Secondly, for these theories, the weights are calculated based on the covariance relationship between different stocks, and the differences caused by alternative industries and market data are not taken into account. Thirdly, when metrics, including the Sharpe ratio, are used to evaluate the investment results, these theories do not consider the risk aversion in the downward stage of stocks. In order to address the three problems above, this paper aimed to propose a portfolio construction method based on the continuous trend characteristics of the market. For this purpose, the k-means clustering algorithm was used to cluster the stocks, divide the different types of stock pools, and revise the calculation of returns for the Sharp ratio based on the continuous trend characteristics of the market, so as to avoid the downward risk. Finally, combined with inverse volatility weighting, risk parity, and Markowitz's portfolio theories, the required weights were calculated. Through the experiments, the optimal number of stocks in the portfolio was obtained. The results of both the statistics and experiments confirmed the superiority of the proposed method. (c) 2022 Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "214a549d1a603de73758dd415ec170f5",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:08.444661"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是使用k-means聚类算法来构建股票投资组合，并优化权重计算以降低风险和提升回报，这直接属于投资组合管理的研究范畴。论文中并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是使用k-means聚类算法来构建股票投资组合，并优化权重计算以降低风险和提升回报，这直接属于投资组合管理的研究范畴。论文中并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:41.455329"
+}

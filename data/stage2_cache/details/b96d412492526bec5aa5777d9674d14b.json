@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 135,
+    "title": "FINANCIAL DERIVATIVE VALUATION - A DYNAMIC SEMIPARAMETRIC APPROACH",
+    "abstract": "A dynamic semiparametric pricing method is proposed for financial derivatives, including European and American-type options and convertible bonds. The proposed method is an iterative procedure which uses nonparametric regression to approximate derivative values, and parametric asset models to derive the continuation values. Extension to higher-dimensional option pricing is also developed, in which the dependence structure of financial time series is modeled by copula functions. In the simulation study, we valuate one-dimensional American options, convertible bonds, multi-dimensional American geometric average options, and max options. The considered one-dimensional underlying asset models include the Black-Scholes, jump-diffusion, and NGARCH models and, for the multivariate case, we study copula models Such as the Gaussian, Clayton, and Gumbel copulae. Convergence of the method is proved tinder continuity assumption on the transition densities of the underlying asset models, and the orders of the supnorm errors are derived. Both the theoretical findings and the simulation results show the proposed approach to be tractable for numerical implementation and that it provides a unified and accurate technique for financial derivative pricing.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "a4a18e2c0a4d01a3be34e6f317d814f9",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.370446"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出了一种动态半参数定价方法，专门用于金融衍生品（如欧式和美式期权、可转换债券）的估值。论文详细讨论了该方法在不同资产模型下的应用，并进行了数值模拟，明确表明其主要研究方向是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出了一种动态半参数定价方法，专门用于金融衍生品（如欧式和美式期权、可转换债券）的估值。论文详细讨论了该方法在不同资产模型下的应用，并进行了数值模拟，明确表明其主要研究方向是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:30.187178"
+}

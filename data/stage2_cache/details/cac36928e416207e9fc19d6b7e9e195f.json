@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 209,
+    "title": "Dynamic sparse portfolio rebalancing model: A perspective of investors' behavior-related decisions",
+    "abstract": "By using the elaboration likelihood model (ELM) and prospect theory (PT) to model investors' behavior-related decisions in portfolio optimization, we propose a novel dynamic behavior-based sparse portfolio selection model (BPSM) operating over multiple periods. With the BPSM model, we complement recent research that involves only investors' sentiments by also considering market sentiments to model investors' portfolio rebalancing behavior. Market sentiments are obtained by analyzing the online information through deep learning text analysis algorithms based on the Bi-directional Long Short-Term Memory (Bi-LSTM) model. The stochastic neural networks-based algorithm is designed to solve the BPSM. We demonstrate the effectiveness of the BPSM model on the Shanghai 50 and Hushen 300 data sets. The frame of experiments includes a dynamic portfolio rebalancing model, in which both the investors' sentiments and the market sentiments are modeled to analyze investors' dynamic portfolio rebalancing behavior. The experiment results show that, first, by updating the expected return rate of each period according to investors' sentiments and market sentiments, in all cases, the BPSM model achieves a higher investment return per unit risk (Rpr) than the conventional Mean-variance (MV) model to minimize investment risk. Second, compared with the two baseline models that include only investors' sentiments, the BPSM realizes a portfolio policy that improves investment return per unit risk (Rpr) in 70% of situations. These results reveal that incorporating investors' behavior-related signals into the portfolio selection model is beneficial to investors' investment results, which offers implications for financial stakeholders.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "8d22ff9388b02901a274d007fbb0fbce",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.567690"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种动态行为稀疏投资组合选择模型（BPSM），用于分析投资者的动态投资组合再平衡行为，并优化投资回报与风险的比例。这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种动态行为稀疏投资组合选择模型（BPSM），用于分析投资者的动态投资组合再平衡行为，并优化投资回报与风险的比例。这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:03.285012"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1495,
+    "title": "Advanced Default Risk Prediction in Small and Medum-Sized Enterprises Using Large Language Models",
+    "abstract": "Predicting default risk in commercial bills for small and medium-sized enterprises (SMEs) is crucial, as these enterprises represent one of the largest components of a nation's economic structure, and their financial stability can impact systemic financial risk. However, data on the commercial bills of SMEs are scarce and challenging to gather, which has impeded research on risk prediction for these businesses. This study aims to address this gap by leveraging 38 multi-dimensional, non-financial features collected from 1972 real SMEs in China to predict bill default risk. We identified the most influential factors among these 38 features and introduced a novel prompt-based learning framework using large language models for risk assessment, benchmarking against seven mainstream machine learning algorithms. In the experiments, the XGBoost algorithm achieved the best performance on the Z-Score standardized dataset, with an accuracy of 81.42% and an F1 score of 80%. Additionally, we tested both the standard and fine-tuned versions of the large language model, which yielded accuracies of 75% and 82.1%, respectively. These results indicate that the proposed framework has significant potential for predicting risks in SMEs and offers new insights for related research.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0f81f75d5fd815f524cb6b269cdce31b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "Large Language Model",
+      "LLM",
+      "Instruction Tuning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.814141"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用大型语言模型和机器学习算法预测中小企业的票据违约风险，这直接属于金融风险管理中的信用风险管理范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用大型语言模型和机器学习算法预测中小企业的票据违约风险，这直接属于金融风险管理中的信用风险管理范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:42.249848"
+}

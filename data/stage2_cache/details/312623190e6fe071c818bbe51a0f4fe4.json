@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1851,
+    "title": "On the impact of publicly available news and information transfer to financial markets",
+    "abstract": "We quantify the propagation and absorption of large-scale publicly available news articles from the World Wide Web to financial markets. To extract publicly available information, we use the news archives from the Common Crawl, a non-profit organization that crawls a large part of the web. We develop a processing pipeline to identify news articles associated with the constituent companies in the S&P 500 index, an equity market index that measures the stock performance of US companies. Using machine learning techniques, we extract sentiment scores from the Common Crawl News data and employ tools from information theory to quantify the information transfer from public news articles to the US stock market. Furthermore, we analyse and quantify the economic significance of the news-based information with a simple sentiment-based portfolio trading strategy. Our findings provide support for that information in publicly available news on the World Wide Web has a statistically and economically significant impact on events in financial markets.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a5bdd5807ef369c821d32af6f50996c6",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:00:27.307971"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习提取新闻情感分数，并基于此构建了一个简单的投资组合交易策略，这直接应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习提取新闻情感分数，并基于此构建了一个简单的投资组合交易策略，这直接应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:41.342697"
+}

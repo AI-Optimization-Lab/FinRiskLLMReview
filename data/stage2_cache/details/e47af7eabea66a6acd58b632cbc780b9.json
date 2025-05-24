@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 925,
+    "title": "Online payment fraud: from anomaly detection to risk management",
+    "abstract": "Online banking fraud occurs whenever a criminal can seize accounts and transfer funds from an individual's online bank account. Successfully preventing this requires the detection of as many fraudsters as possible, without producing too many false alarms. This is a challenge for machine learning owing to the extremely imbalanced data and complexity of fraud. In addition, classical machine learning methods must be extended, minimizing expected financial losses. Finally, fraud can only be combated systematically and economically if the risks and costs in payment channels are known. We define three models that overcome these challenges: machine learning-based fraud detection, economic optimization of machine learning results, and a risk model to predict the risk of fraud while considering countermeasures. The models were tested utilizing real data. Our machine learning model alone reduces the expected and unexpected losses in the three aggregated payment channels by 15% compared to a benchmark consisting of static if-then rules. Optimizing the machine-learning model further reduces the expected losses by 52%. These results hold with a low false positive rate of 0.4%. Thus, the risk framework of the three models is viable from a business and risk perspective.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "86482cab82178b28dfd562d309ea6285",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:49.555183"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究在线支付欺诈的检测和风险管理，通过机器学习模型减少预期和非预期损失，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文主要研究在线支付欺诈的检测和风险管理，通过机器学习模型减少预期和非预期损失，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:51.418271"
+}

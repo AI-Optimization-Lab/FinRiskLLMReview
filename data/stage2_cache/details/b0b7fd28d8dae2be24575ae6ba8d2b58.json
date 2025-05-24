@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2071,
+    "title": "A Deep Learning Model for Pediatric Patient Risk Stratification",
+    "abstract": "OBJECTIVES: Current models for patient risk prediction rely on practitioner expertise and domain knowledge. This study presents a deep learning model-a type of machine learning that does not require human inputs-to analyze complex clinical and financial data for population risk stratification. STUDY DESIGN: A comparative predictive analysis of deep learning versus other popular risk prediction modeling strategies using medical claims data from a cohort of 112,641 pediatric accountable care organization members. METHODS: Skip-Gram, an unsupervised deep learning approach that uses neural networks for prediction modeling, used data from 2014 and 2015 to predict the risk of hospitalization in 2016. The area under the curve (AUC) of the deep learning model was compared with that of both the Clinical Classifications Software and the commercial DxCG Intelligence predictive risk models, each with and without demographic and utilization features. We then calculated costs for patients in the top 1% and 5% of hospitalization risk identified by each model. RESULTS: The deep learning model performed the best across 6 predictive models, with an AUC of 75.1%. The top 1% of members selected by the deep learning model had a combined healthcare cost $5 million higher than that of the group identified by the DxCG Intelligence model. CONCLUSIONS: The deep learning model outperforms the traditional risk models in prospective hospitalization prediction. Thus, deep learning may improve the ability of managed care organizations to perform predictive modeling of financial risk, in addition to improving the accuracy of risk stratification for population health management activities.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "902d81d742978318997508dfd2f42b4e",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:58.949979"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用深度学习模型进行儿科患者的风险分层和住院预测，虽然提到了金融风险预测，但其核心应用领域是医疗健康管理，而非上述特定的金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用深度学习模型进行儿科患者的风险分层和住院预测，虽然提到了金融风险预测，但其核心应用领域是医疗健康管理，而非上述特定的金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:26.383567"
+}

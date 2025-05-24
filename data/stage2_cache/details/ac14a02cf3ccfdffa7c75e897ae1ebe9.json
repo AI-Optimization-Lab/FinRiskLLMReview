@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 931,
+    "title": "Company Similarity using Large Language Models",
+    "abstract": "Identifying companies with similar profiles is a core task in finance with a wide range of applications in portfolio construction, asset pricing and risk attribution. When a rigorous definition of similarity is lacking, financial analysts usually resort to 'traditional' industry classifications such as Global Industry Classification System (GICS (R))1 which assign a unique category to each company at different levels of granularity. Due to their discrete nature, though, GICS (R) classifications do not allow for ranking companies in terms of similarity. In this paper, we explore the ability of pre-trained and finetuned large language models (LLMs) to learn company embeddings based on the business descriptions reported in SEC filings. We show that we can reproduce GICS (R) classifications using the embeddings as features. We also benchmark these embeddings on various machine learning and financial metrics and conclude that the companies that are similar according to the embeddings are also similar in terms of financial performance metrics including return correlation.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8fed101beb6e2c56de691365274d0bd0",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "clustering",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:49.569008"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用大型语言模型（LLMs）来识别具有相似业务描述的公司，并生成公司嵌入。这些嵌入可以用于投资组合构建（portfolio construction），这是投资组合管理的一个关键方面。论文还提到这些嵌入可以用于资产定价和风险归因，但这些应用在论文中并不是主要研究方向。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用大型语言模型（LLMs）来识别具有相似业务描述的公司，并生成公司嵌入。这些嵌入可以用于投资组合构建（portfolio construction），这是投资组合管理的一个关键方面。论文还提到这些嵌入可以用于资产定价和风险归因，但这些应用在论文中并不是主要研究方向。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:10.027718"
+}

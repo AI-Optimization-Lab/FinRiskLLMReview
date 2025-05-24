@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 78,
+    "title": "Practical Bayesian support vector regression for financial time series prediction and market condition change detection",
+    "abstract": "Support vector regression (SVR) has long been proven to be a successful tool to predict financial time series. The core idea of this study is to outline an automated framework for achieving a faster and easier parameter selection process, and at the same time, generating useful prediction uncertainty estimates in order to effectively tackle flexible real-world financial time series prediction problems. A Bayesian approach to SVR is discussed, and implemented. It is found that the direct implementation of the probabilistic framework of Gao et al. returns unsatisfactory results in our experiments. A novel enhancement is proposed by adding a new kernel scaling parameter mu to overcome the difficulties encountered. In addition, the multi-armed bandit Bayesian optimization technique is applied to automate the parameter selection process. Our framework is then tested on financial time series of various asset classes (i.e. equity index, credit default swaps spread, bond yields, and commodity futures) to ensure its flexibility. It is shown that the generalization performance of this parameter selection process can reach or sometimes surpass the computationally expensive cross-validation procedure. An adaptive calibration process is also described to allow practical use of the prediction uncertainty estimates to assess the quality of predictions. It is shown that the machine-learning approach discussed in this study can be developed as a very useful pricing tool, and potentially a market condition change detector. A further extension is possible by taking the prediction uncertainties into consideration when building a financial portfolio.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "7daf6addfbf7ada8b9bc42f8e40dd278",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.931317"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是支持向量回归（SVR）在金融时间序列预测中的应用，并提出了一个自动化的参数选择框架。虽然论文提到可以作为一种有用的定价工具，并可能用于市场条件变化检测，但并未明确指出其核心技术或研究成果主要应用于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是支持向量回归（SVR）在金融时间序列预测中的应用，并提出了一个自动化的参数选择框架。虽然论文提到可以作为一种有用的定价工具，并可能用于市场条件变化检测，但并未明确指出其核心技术或研究成果主要应用于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:02.195920"
+}

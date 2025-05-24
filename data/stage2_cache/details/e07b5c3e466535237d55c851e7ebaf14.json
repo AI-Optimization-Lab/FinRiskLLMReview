@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 445,
+    "title": "A Gated Recurrent Unit Approach to Bitcoin Price Prediction",
+    "abstract": "In today's era of big data, deep learning and artificial intelligence have formed the backbone for cryptocurrency portfolio optimization. Researchers have investigated various state of the art machine learning models to predict Bitcoin price and volatility. Machine learning models like recurrent neural network (RNN) and long short-term memory (LSTM) have been shown to perform better than traditional time series models in cryptocurrency price prediction. However, very few studies have applied sequence models with robust feature engineering to predict future pricing. In this study, we investigate a framework with a set of advanced machine learning forecasting methods with a fixed set of exogenous and endogenous factors to predict daily Bitcoin prices. We study and compare different approaches using the root mean squared error (RMSE). Experimental results show that the gated recurring unit (GRU) model with recurrent dropout performs better than popular existing models. We also show that simple trading strategies, when implemented with our proposed GRU model and with proper learning, can lead to financial gain.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "253a42185608351afd7cfc6ac3173b0a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "gated recurrent unit",
+      "GRU",
+      "dropout regularization",
+      "feature learning",
+      "representation learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.285833"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用GRU模型预测比特币价格，并提到通过简单的交易策略可以实现财务收益，这属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用GRU模型预测比特币价格，并提到通过简单的交易策略可以实现财务收益，这属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:41.454356"
+}

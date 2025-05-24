@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 232,
+    "title": "Online portfolio management via deep reinforcement learning with high-frequency data",
+    "abstract": "Recently, models that based on Transformer (Vaswani et al., 2017) have yielded superior results in many sequence modeling tasks. The ability of Transformer to capture long-range dependen-cies and interactions makes it possible to apply it in the field of portfolio management (PM). However, the built-in quadratic complexity of the Transformer prevents its direct application to the PM task. To solve this problem, in this paper, we propose a deep reinforcement learning -based PM framework called LSRE-CAAN, with two important components: a long sequence representations extractor and a cross-asset attention network. Direct Policy Gradient is used to solve the sequential decision problem in the PM process. We conduct numerical experiments in three aspects using four different cryptocurrency datasets, and the empirical results show that our framework is more effective than both traditional and state-of-the-art (SOTA) online portfolio strategies, achieving a 6x return on the best dataset. In terms of risk metrics, our framework has an average volatility risk of 0.46 and an average maximum drawdown risk of 0.27 across the four datasets, both of which are lower than the vast majority of SOTA strategies. In addition, while the vast majority of SOTA strategies maintain a poor turnover rate of approximately greater than 50% on average, our framework enjoys a relatively low turnover rate on all datasets, efficiency analysis illustrates that our framework no longer has the quadratic dependency limitation.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d1b1f235720755e0e97e42556028e575",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.219935"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习框架（LSRE-CAAN）进行在线投资组合管理，通过长序列表示提取器和跨资产注意力网络优化投资决策，并在加密货币数据集上验证了其有效性。这明确属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习框架（LSRE-CAAN）进行在线投资组合管理，通过长序列表示提取器和跨资产注意力网络优化投资决策，并在加密货币数据集上验证了其有效性。这明确属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:42.718602"
+}

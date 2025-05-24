@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 116,
+    "title": "Artificial Neural Networks Performance in WIG20 Index Options Pricing",
+    "abstract": "In this paper, the performance of artificial neural networks in option pricing was analyzed and compared with the results obtained from the Black-Scholes-Merton model, based on the historical volatility. The results were compared based on various error metrics calculated separately between three moneyness ratios. The market data-driven approach was taken to train and test the neural network on the real-world options data from 2009 to 2019, quoted on the Warsaw Stock Exchange. The artificial neural network did not provide more accurate option prices, even though its hyperparameters were properly tuned. The Black-Scholes-Merton model turned out to be more precise and robust to various market conditions. In addition, the bias of the forecasts obtained from the neural network differed significantly between moneyness states. This study provides an initial insight into the application of deep learning methods to pricing options in emerging markets with low liquidity and high volatility.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "c16c025eaf42fdf1f8a51bbdb2e56f51",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.335086"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用人工神经网络对WIG20指数期权进行定价，并与Black-Scholes-Merton模型进行比较。这直接涉及衍生品定价领域，特别是期权的定价问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用人工神经网络对WIG20指数期权进行定价，并与Black-Scholes-Merton模型进行比较。这直接涉及衍生品定价领域，特别是期权的定价问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:32.594105"
+}

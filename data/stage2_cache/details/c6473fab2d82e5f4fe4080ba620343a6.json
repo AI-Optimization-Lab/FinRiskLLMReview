@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 525,
+    "title": "Pairs trading via unsupervised learning",
+    "abstract": "This paper develops a pairs trading strategy via unsupervised learning. Unlike conventional pairs trading strategies that identify pairs based on return time series, we identify pairs by incorporating firm charac-teristics as well as price information. Firm characteristics are revealed to provide important information for pair identification and significantly improve the performance of the pairs trading strategy. Applied to the US stock market from January 1980 to December 2020, the long-short portfolio constructed via the agglomerative clustering earns a statistically significant annualized mean return of 24.8% and a Sharpe ratio of 2.69. The strategy remains profitable after accounting for transaction costs and removing stocks below 20% NYSE-size quantile. A host of robustness tests confirm that the results are not driven by data snooping.& COPY; 2022 Elsevier B.V. All rights reserved.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "02db1b7d5edb0ac4b090736011f31a2c",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:21.068576"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过无监督学习（聚类方法）开发配对交易策略，并构建多空投资组合，这直接属于投资组合管理的范畴。论文的主要研究目标是提高投资组合的收益和夏普比率，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过无监督学习（聚类方法）开发配对交易策略，并构建多空投资组合，这直接属于投资组合管理的范畴。论文的主要研究目标是提高投资组合的收益和夏普比率，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:03.149048"
+}

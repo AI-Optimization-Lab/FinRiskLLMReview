@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 18,
+    "title": "基于LSTM的两阶段均值-CVaR投资组合决策",
+    "abstract": "文章提出了一种基于长短期记忆网络(Long-short Term Memory network, LSTM)的两阶段均值-CVaR投资组合模型(LSTM+CVaR)。该模型在第一阶段采用LSTM预测股票收益并对股票进行选择；在第二阶段运用均值-CVaR模型来确定所选股票的投资比例。最后，以沪深300指数股为样本数据，在考虑交易成本和上界约束的情况下，比较LSTM+CVaR模型、LSTM预测选股的等比例模型、随机选股的CVaR模型、随机选股的等比例模型和沪深300指数的风险收益特征、累计收益率和夏普比率。实证结果表明：LSTM+CVaR模型能够实现比传统的投资组合模型更高的平均收益率、收益风险比、累计收益率和夏普比率；减少交易成本和放宽上界约束能提升投资组合模型的表现。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "03a4e06b0b617ec9a5bf45dc5e013f4f",
+    "relevant_keywords": [
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T15:02:38.099731"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM和均值-CVaR模型进行股票选择和投资比例确定，这直接应用于投资组合管理的领域。论文的研究目标和实证结果都集中在优化投资组合的风险收益特征，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM和均值-CVaR模型进行股票选择和投资比例确定，这直接应用于投资组合管理的领域。论文的研究目标和实证结果都集中在优化投资组合的风险收益特征，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:45:11.106002"
+}

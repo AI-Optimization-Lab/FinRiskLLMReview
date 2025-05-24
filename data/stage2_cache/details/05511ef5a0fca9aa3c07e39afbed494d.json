@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3059,
+    "title": "International carbon market price forecasting using an integration model based on SVR",
+    "abstract": "Better forecast of carbon emission prices may increase risk control capabilities of emission market stakeholders, and provide decision support for policy makers, financial institutions and enterprises. However, the issue of carbon price forecasting is complicated and several existing prediction models are difficult to achieve satisfactory results. This paper proposes an integration model based on SVR to predict international carbon market price. The model we suggest includes two steps: we respectively establish ARIMA, BP neural network, grey model GM(1,1) and genetic programming to fit the original sequence of the carbon price at the first phase, and get four prediction results. Additionally, SVR is used to integrate these four results and eventually obtain prediction result. For verification and testing, EUA (DEC15) carbon price from December 3, 2012 to April 10, 2015 under the EU ETS was used to examine the forecasting ability of the proposed integration model. The result demonstrates the accuracy of integration model proposed in this paper is superior to the other three basic models.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1d0fcbf98ad1440bd50424afadf1e92b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T02:21:52.312921"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用SVR集成模型预测国际碳市场价格，其应用场景明确提到提高排放市场利益相关者的风险控制能力，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用SVR集成模型预测国际碳市场价格，其应用场景明确提到提高排放市场利益相关者的风险控制能力，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:31.709444"
+}

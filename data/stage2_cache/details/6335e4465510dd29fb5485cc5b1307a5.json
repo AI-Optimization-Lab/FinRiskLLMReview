@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1917,
+    "title": "Enhancing Supervised Model Performance in Credit Risk Classification Using Sampling Strategies and Feature Ranking",
+    "abstract": "For the financial health of lenders and institutions, one important risk assessment called credit risk is about correctly deciding whether or not a borrower will fail to repay a loan. It not only helps in the approval or denial of loan applications but also aids in managing the non-performing loan (NPL) trend. In this study, a dataset provided by the LendingClub company based in San Francisco, CA, USA, from 2007 to 2020 consisting of 2,925,492 records and 141 attributes was experimented with. The loan status was categorized as Good or Risk. To yield highly effective results of credit risk prediction, experiments on credit risk prediction were performed using three widely adopted supervised machine learning techniques: logistic regression, random forest, and gradient boosting. In addition, to solve the imbalanced data problem, three sampling algorithms, including under-sampling, over-sampling, and combined sampling, were employed. The results show that the gradient boosting technique achieves nearly perfect Accuracy, Precision, Recall, and F1score values, which are better than 99.92%, but its MCC values are greater than 99.77%. Three imbalanced data handling approaches can enhance the model performance of models trained by three algorithms. Moreover, the experiment of reducing the number of features based on mutual information calculation revealed slightly decreasing performance for 50 data features with Accuracy values greater than 99.86%. For 25 data features, which is the smallest size, the random forest supervised model yielded 99.15% Accuracy. Both sampling strategies and feature selection help to improve the supervised model for accurately predicting credit risk, which may be beneficial in the lending business.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d3e5454fd6f6df571177a813245ff0c2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:14.290997"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit risk classification using machine learning techniques, which is a key aspect of financial risk management, specifically in assessing and managing the risk of loan defaults.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit risk classification using machine learning techniques, which is a key aspect of financial risk management, specifically in assessing and managing the risk of loan defaults.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:12.636151"
+}

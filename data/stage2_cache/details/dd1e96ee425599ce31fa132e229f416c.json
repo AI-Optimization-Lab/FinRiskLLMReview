@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 334,
+    "title": "股票市场投资组合策略构造及模型检验",
+    "abstract": "股票市场是一个高风险高收益的市场,通过构造投资组合分散风险,可以在一定风险情况下实现收益的最大化或者在收益一定的情况下实现风险最小化.文中从十七个财务因子中提取了八个共同因子进行主成分分析,进而分析沪深A股所有股票的财务状况.通过给每只股票打分,选出前五只股票构造一个投资组合,然后确定各种资产的最优权重和估计出投资组合的VaR,并对VaR进行回测以检验投资组合的可靠性.",
+    "year": 2016,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fd68fffd068239b4addac9969feacd52",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-14T22:22:41.527927"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心内容是构造股票投资组合并确定最优权重，这属于投资组合管理的范畴。同时，论文还涉及计算和回测投资组合的VaR（风险价值），这是金融风险管理的重要内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心内容是构造股票投资组合并确定最优权重，这属于投资组合管理的范畴。同时，论文还涉及计算和回测投资组合的VaR（风险价值），这是金融风险管理的重要内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:05.484307"
+}

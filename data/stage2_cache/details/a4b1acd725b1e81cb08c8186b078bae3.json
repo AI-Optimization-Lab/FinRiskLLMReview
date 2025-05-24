@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3159,
+    "title": "A COMPARISON OF CAPM AND FAMA-FRENCH THREE-FACTOR MODEL UNDER MACHINE LEARNING APPROACHING",
+    "abstract": "With the economy experiencing rapid growth in recent years, more individuals have started venturing into the stock market. Precisely forecasting the rate of return can mitigate investment risks for stock investors and significantly enhance their investment returns. The Capital Asset Pricing Model (CAPM) and the 3-factor Fama-French model (FF3) are widely recognized in academic and practical settings. This model comparison provides frameworks to analyze the relationship between portfolio risk and return in inefficient markets, contributing to applied data science in finance behavior. This research utilized the Support Vector Regression (SVR) algorithm to forecast the returns of a diversified portfolio in the Hanoi stock market (HNX) from 2010 to 2022. Initially, this study calculated the factors and subsequently constructed diversified portfolios. Subsequently, the explanatory power of the CAPM and FF3 models were compared using the Ordinary Least Squares (OLS) algorithm. Finally, this research incorporated the SVR algorithm within the FF3 framework to develop a predictive model. The research findings demonstrate that the FF3 model provides a superior explanation to the CAPM model. Additionally, the study reveals that the SVR algorithm outperforms the OLS algorithm in terms of efficiency, as it yields lower Root Mean Square Error (RMSE) values. Nevertheless, despite its advantages, the FF3 model still falls short regarding explanatory factors. Consequently, the next research direction entails replacing the FF3 model with a more comprehensive multi-factor model, anticipating obtaining an enhanced predictive model.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "578de646b0d87fc7d6beae18ec4f4df7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:14:16.189781"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究利用机器学习方法（如SVR）预测投资组合的回报率，并比较CAPM和Fama-French三因子模型在投资组合分析中的表现。这些内容直接涉及投资组合的构建、风险与回报关系的分析，属于投资组合管理领域。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究利用机器学习方法（如SVR）预测投资组合的回报率，并比较CAPM和Fama-French三因子模型在投资组合分析中的表现。这些内容直接涉及投资组合的构建、风险与回报关系的分析，属于投资组合管理领域。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:36.494289"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 387,
+    "title": "Deep neural network expressivity for optimal stopping problems",
+    "abstract": "This article studies deep neural network expression rates for optimal stopping problems of discrete-time Markov processes on high-dimensional state spaces. A general framework is established in which the value function and continuation value of an optimal stopping problem can be approximated with error at most epsilon \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$\\varepsilon $\\end{document} by a deep ReLU neural network of size at most kappa d q epsilon - r \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$\\kappa d<^>{\\mathfrak{q}} \\varepsilon <^>{-\\mathfrak{r}}$\\end{document} . The constants kappa , q , r >= 0 \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$\\kappa ,\\mathfrak{q},\\mathfrak{r} \\geq 0$\\end{document} do not depend on the dimension d \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$d$\\end{document} of the state space or the approximation accuracy epsilon \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$\\varepsilon $\\end{document} . This proves that deep neural networks do not suffer from the curse of dimensionality when employed to approximate solutions of optimal stopping problems. The framework covers for example exponential L & eacute;vy models, discrete diffusion processes and their running minima and maxima. These results mathematically justify the use of deep neural networks for numerically solving optimal stopping problems and pricing American options in high dimensions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "d2db952df2aae2aa4e0098c56d605e35",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "rectified linear unit",
+      "ReLU"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:13.208947"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度神经网络解决最优停止问题，并明确指出这些结果可以用于高维情况下美式期权的定价，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度神经网络解决最优停止问题，并明确指出这些结果可以用于高维情况下美式期权的定价，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:12.359099"
+}

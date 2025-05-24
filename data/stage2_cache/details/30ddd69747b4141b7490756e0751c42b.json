@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 280,
+    "title": "Prediction of corporate financial distress based on digital signal processing and multiple regression analysis",
+    "abstract": "In order to reduce the default rate of corporate bond market, the author proposes to use digital signal processing and multiple regression analysis to study the prediction system of financial distressed companies. First, design the research method, Logistic regression model is the most commonly used multivariate statistical method when modeling binary dependent variables, it can solve the problem of nonlinear classification, it has no specific requirements for the distribution of variables, and the accuracy of judgment is high. The author selects 32 financial ratios from the perspectives of solvency, operating ability, profitability, development ability, per share index, and risk level. Taking special treatment (ST) due to abnormal financial status as a sign of financial distress in listed companies, when selecting samples, the matching principle is adopted to select non-ST companies as matching samples. Two methods of logistic regression and support vector machine are used for empirical testing, and both in-sample testing and out-of-sample prediction are performed. The results show that when using the logistic regression method, the propensity to default indicator (TTD) reflected in the text content, it can indeed improve the out-of-sample prediction accuracy of the financial distress prediction model, and it is consistent with the in-sample test, this is mainly reflected in the reduction of the first type of error, that is, the probability of misjudging a financially distressed company as a normal company. Changes in the proportions have little effect on the relative importance of financial ratio variables when modeling with support vector machines, the propensity to default indicator (TTD) entered the top ten important variables in both ratios, and ranked fourth among all indicators when the ratio was 1:2, importance has increased significantly. From this it can be seen that, when using support vector machine to build a financial distress prediction model, the propensity to default indicator (TTD) has played an important role. In the case of using the support vector machine method, adding the default tendency indicator (TTD) reflected by the text information can also improve the accuracy of the financial distress prediction model.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b3f8f7648bbd9cd8826090af764e6786",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:04.559877"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用数字信号处理和多元回归分析来预测企业财务困境，这直接关联到信用风险的管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用数字信号处理和多元回归分析来预测企业财务困境，这直接关联到信用风险的管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:29.423022"
+}

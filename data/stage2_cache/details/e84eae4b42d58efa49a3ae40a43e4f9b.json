@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 104,
+    "title": "A portfolio construction framework usingLSTM-based stock markets forecasting",
+    "abstract": "A novel framework that injects future return predictions into portfolio constructionstrategies is proposed in this study. First, a long-short-term-memory (LSTM) model is trained to learn the monthly closing prices of the stocks. Then these predictions are used in the calculation of portfolio weights. Five different portfolio construction strategies are introduced including modifications to smart-beta strategies. The suggested methods are compared to a number of baseline methods, using the stocks of BIST30 Turkey index. Our strategies yield a very high mean annualized return (25%) which is almost 50% higher than the baseline approaches. The mean Sharpe ratio of our strategies is 0.57, whereas the compared methods' are 0.29 and -0.32. Comprehensive analysis of the results demonstrates that utilizing predicted returns in portfolio construction enables a significant improvement on the performance of the portfolios.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "9fe81c499c2d31f53a02aaab13fa4f71",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:32:31.386544"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper proposes a framework that uses LSTM-based predictions of stock returns to construct and optimize investment portfolios, which is a core aspect of portfolio management. The study focuses on improving portfolio performance through predictive modeling and strategic weight allocation, directly aligning with the objectives of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper proposes a framework that uses LSTM-based predictions of stock returns to construct and optimize investment portfolios, which is a core aspect of portfolio management. The study focuses on improving portfolio performance through predictive modeling and strategic weight allocation, directly aligning with the objectives of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:36.845467"
+}

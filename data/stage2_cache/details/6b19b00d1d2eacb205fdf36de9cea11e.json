@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 3839,
+    "title": "Gaussian Process Regression with a Hybrid Risk Measure for Dynamic Risk Management in the Electricity Market",
+    "abstract": "In this work, we introduce an innovative approach to managing electricity costs within Germany's evolving energy market, where dynamic tariffs are becoming increasingly normal. In line with recent German governmental policies, particularly the Energiewende (Energy Transition) and European Union directives on clean energy, this work introduces a risk management strategy based on a combination of the well-known risk measures of the Value at Risk (VaR) and Conditional Value at Risk (CVaR). The goal is to optimize electricity procurement by forecasting hourly prices over a certain horizon and allocating a fixed budget using the aforementioned measures to minimize the financial risk. To generate price predictions, a Gaussian process regression model is used. The aim of this hybrid approach is to design a model that is easily understandable but allows for a comprehensive evaluation of potential financial exposure. It enables consumers to adjust their consumption patterns or market traders to invest and allows more cost-effective and risk-aware decision-making. The potential of our approach is shown in a case study based on the German market. Moreover, by discussing the political and economical implications, we show how the implementation of our method can contribute to the realization of a sustainable, flexible, and efficient energy market, as outlined in Germany's Renewable Energy Act.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "92adfe5a6904e85f115a18843a65c8aa",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:30:28.733878"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是结合VaR和CVaR风险度量方法，通过高斯过程回归模型预测电价并优化电力采购策略，以最小化财务风险。这直接涉及金融风险管理领域，特别是动态风险管理的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是结合VaR和CVaR风险度量方法，通过高斯过程回归模型预测电价并优化电力采购策略，以最小化财务风险。这直接涉及金融风险管理领域，特别是动态风险管理的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:07.302165"
+}

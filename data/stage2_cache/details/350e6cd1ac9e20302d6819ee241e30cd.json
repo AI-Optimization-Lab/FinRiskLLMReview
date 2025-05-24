@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 507,
+    "title": "Machine Learning-Driven Virtual Bidding With Electricity Market Efficiency Analysis",
+    "abstract": "This paper develops a machine learning-driven portfolio optimization framework for virtual bidding in electricity markets considering both risk constraint and price sensitivity. The algorithmic trading strategy is developed from the perspective of a proprietary trading firm to maximize profit. A recurrent neural network-based Locational Marginal Price (LMP) spread forecast model is developed by leveraging the inter-hour dependencies of the market clearing algorithm. The LMP spread sensitivity with respect to net virtual bids is modeled as a monotonic function with the proposed constrained gradient boosting tree. We leverage the proposed algorithmic virtual bid trading strategy to evaluate both the profitability of the virtual bid portfolio and the efficiency of U.S. wholesale electricity markets. The comprehensive empirical analysis on PJM, ISO-NE, and CAISO indicates that the proposed virtual bid portfolio optimization strategy considering the price sensitivity explicitly outperforms the one that neglects the price sensitivity. The Sharpe ratio of virtual bid portfolios for all three electricity markets are much higher than that of the S&P 500 index. It was also shown that the efficiency of CAISO's two-settlement system is lower than that of PJM and ISO-NE.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1e279d0e10b96b81b0fcc650f0c009f1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:20.959906"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是开发一个机器学习驱动的投资组合优化框架，用于电力市场中的虚拟投标交易，旨在最大化利润并考虑风险约束和价格敏感性。这直接涉及投资组合管理的领域，因为它专注于优化交易策略和资产组合的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是开发一个机器学习驱动的投资组合优化框架，用于电力市场中的虚拟投标交易，旨在最大化利润并考虑风险约束和价格敏感性。这直接涉及投资组合管理的领域，因为它专注于优化交易策略和资产组合的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:36.868244"
+}

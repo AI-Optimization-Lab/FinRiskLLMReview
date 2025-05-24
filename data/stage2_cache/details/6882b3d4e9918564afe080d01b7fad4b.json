@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 4998,
+    "title": "A novel fuzzy credit risk assessment decision support system based on the python web framework",
+    "abstract": "When a financial institute constructs a credit risk assessment model, qualitative, and quantitative data must be considered at the same time due to differences in the attributes of each form of data. While qualitative data are usually relied on professional appraisers' judgment, 2-tuple fuzzy linguistic representation could assist to organize appraisers' scores to avoid any loss of information. In practice, a financial institute needs to regularly update its credit risk assessment model to maintain correct assessment results. However, every update involves a lot of numerical experiments using multiple systems or even software packages for evaluating the effect of different sampling methods and classifiers to construct a suitable model for the updated dataset. Such an assessment process is time-consuming with many repetitive processes. This study applied the latest web-based technology to develop a fuzzy decision support system (DSS) that used logistic regression as the classifier combined with different sampling methods and model threshold settings to make data preprocessing and model fitting process more structured and efficient. This DSS was written by Django, a Python web framework, using the RESTful architecture that has good database imaging mechanism and good interaction between the front-end (user side) and the back-end (service side). After verification of multiple actual data set, the average time spent on constructing one model combination per dataset is less than 1 min, which indeed is significantly shorter than the original time required for credit risk assessment and provided a practical tool for the related work of credit risk assessment.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "65c725f4a06a5e68011a9f110c51208d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:43:06.818785"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个基于模糊逻辑的信用风险评估决策支持系统，主要用于信用风险的管理和评估，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一个基于模糊逻辑的信用风险评估决策支持系统，主要用于信用风险的管理和评估，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:31.176497"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 6767,
+    "title": "Revisiting Multimodal Transformers for Tabular Data with Text Fields",
+    "abstract": "Tabular data with text fields can be leveraged in applications such as financial risk assessment or medical diagnosis prediction. When employing multimodal approaches to make predictions based on these modalities, it is crucial to make the most appropriate modeling choices in terms of numerical feature encoding or fusion strategy. In this paper, we focus on multimodal classification tasks based on tabular datasets with text fields. We build on multimodal Transformers to propose the Tabular-Text Transformer (TTT), a tabular/text dual-stream Transformer network. This architecture includes a distance-to-quantile embedding scheme for numerical features and an overall attention module which concurrently considers self-attention and cross-modal attention. Further, we leverage the two well-informed modality streams to estimate whether a prediction is uncertain or not. To explain uncertainty in terms of feature values, we use a sampling-based approximation of Shapley values in a bimodal context, with two options for the value function. To show the efficacy and relevance of this approach, we compare it to six baselines and measure its ability to quantify and explain uncertainty against various methods. Our code is available at https://github.com/thomas-bonnier/TabularTextTransformer.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f2d17548de38e292621baf0f47fdf536",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T03:01:31.348509"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提到其技术可以应用于金融风险评估，这是金融风险管理的一个关键组成部分。论文的主要研究目标是通过多模态Transformer模型处理表格数据和文本字段，以进行预测和不确定性估计，这与金融风险管理中的信用风险评估或违约预测等任务相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提到其技术可以应用于金融风险评估，这是金融风险管理的一个关键组成部分。论文的主要研究目标是通过多模态Transformer模型处理表格数据和文本字段，以进行预测和不确定性估计，这与金融风险管理中的信用风险评估或违约预测等任务相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:30.546438"
+}

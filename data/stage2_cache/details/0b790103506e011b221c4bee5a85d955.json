@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1110,
+    "title": "Hybrid ML models for volatility prediction in financial risk management",
+    "abstract": "Predicting volatility in financial markets is an important task with practical uses in decision- making, regulation, and academic research. This study focuses on forecasting realized volatility in stock indices using advanced machine learning techniques. We examine three key indices: the Shanghai Stock Exchange Composite (SSE), Infosys (INFY), and the National Stock Exchange Index (NIFTY). To achieve this, we propose a hybrid model that combines optimized Variational Mode Decomposition (VMD) with deep learning methods like Artificial Neural Networks (ANN), Long Short-Term Memory (LSTM), and Gated Recurrent Units (GRU). Using data from 2015 to 2022, we analyse how well these models predict volatility. Our findings reveal distinct patterns: the SSE shows high unpredictability, INFY is prone to extreme positive volatility, and NIFTY is relatively moderate. Among the models tested, the Q-VMD-ANN-LSTM-GRU hybrid model consistently performs best, providing highly accurate predictions for all three indices. This model has practical benefits for financial institutions. It improves risk management, supports investment decisions, and provides real-time insights for traders and risk managers. Additionally, it can enhance stress testing and inspire innovative trading strategies. Overall, our study highlights the potential of advanced machine learning, especially hybrid models, to address financial market complexities and improve risk management practices.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "dc14bf0e3851d30bc8d0be067c086ccd",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.531102"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting volatility in financial markets using hybrid machine learning models, which is directly applicable to financial risk management. The study explicitly mentions improving risk management, supporting investment decisions, and providing real-time insights for traders and risk managers, all of which are key aspects of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting volatility in financial markets using hybrid machine learning models, which is directly applicable to financial risk management. The study explicitly mentions improving risk management, supporting investment decisions, and providing real-time insights for traders and risk managers, all of which are key aspects of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:00.059095"
+}

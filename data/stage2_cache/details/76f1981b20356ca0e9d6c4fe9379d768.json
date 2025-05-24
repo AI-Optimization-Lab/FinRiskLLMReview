@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2639,
+    "title": "Improving the Prediction of Asset Returns With Machine Learning by Using a Custom Loss Function",
+    "abstract": "Not all errors from models predicting asset returns are equal in terms of impact on the efficiency of the algorithm: a small error could trigger poor investment decisions while a significant error has no financial consequences. This economic asymmetry, critical for assessing the performance of algorithms, can usefully be replicated within the machine learning algorithms itself through the loss function to improve its prediction capability. . In this article: (a) we analyze symmetric and asymmetric loss functions for deep learning algorithms. We develop custom loss functions that mimic the asymmetry in economic consequences of prediction errors. (b) We compare the efficiency of these custom loss functions with MSE and the linear- exponential loss LinEx. (c) We present an efficient custom loss function that significantly improves the prediction of asset returns with improved risk-return metrics (like Sharpe ratio twice better), and which we confirm to be robust.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fbdeef345b1cbf95c0936fd185e1162d",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "regression",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:17:32.206947"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是改进资产回报预测的机器学习算法，通过自定义损失函数来优化预测能力，并提到改进风险-回报指标（如夏普比率），这直接关联到投资组合管理的优化和决策过程。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是改进资产回报预测的机器学习算法，通过自定义损失函数来优化预测能力，并提到改进风险-回报指标（如夏普比率），这直接关联到投资组合管理的优化和决策过程。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:40:41.784360"
+}

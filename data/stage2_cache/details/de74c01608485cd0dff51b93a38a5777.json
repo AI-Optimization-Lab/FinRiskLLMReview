@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1801,
+    "title": "Mexican Stock Return Prediction with Differential Evolution for Hyperparameter Tuning",
+    "abstract": "Technical analysis aims to predict market movement by examining historical data through statistical procedures. Nevertheless, it is sensitive to the parameter it is working with. An optimization problem is defined to tune technical analysis parameters by minimizing an error metric for stock return prediction. Differential Evolution is a metaheuristic that provides good solutions to an optimization problem, searching for the optimal combination of parameters for technical analyzers to predict Mexican stock returns. For the application of the metaheuristic, an objective function based on a Random Forest prediction is used. The literature has proven the use of different macroeconomic variables (MEV) to determine expected returns, such as the Capital Asset Pricing Model (CAPM) or different Arbitrage Pricing Theories (APT). This paper considers the influence of macroeconomic factors on stock prices; it is approached with a Granger-causality test on the different sector indexes of the Mexican stock exchange, to see the relationship they hold. Instead of supervising the error from the machine learning models, it is proposed to analyze their performance in a more realistic scenario, by simulating a portfolio. Constructing a diversified portfolio is a smart way to allocate your money parting from the expected returns computed, still, other relevant factors may alter its performance. This work shows the performance of different portfolios constructed from the same expected return computations, reaching excess returns over the benchmarks of the 12% in the 3 years analyzed.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f4e70299a1c220416966c15970838776",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree",
+      "random forest"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:53.141390"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过优化技术分析参数来预测股票回报，并进一步构建和评估多样化投资组合的表现。论文明确提到模拟投资组合和计算超额回报，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过优化技术分析参数来预测股票回报，并进一步构建和评估多样化投资组合的表现。论文明确提到模拟投资组合和计算超额回报，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:46.938698"
+}

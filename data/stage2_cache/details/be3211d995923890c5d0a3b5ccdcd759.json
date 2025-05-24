@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 25,
+    "title": "TREND-HEURISTIC REINFORCEMENT LEARNING FRAMEWORK FOR NEWS-ORIENTED STOCK PORTFOLIO MANAGEMENT",
+    "abstract": "Recent studies have shown that reinforcement learning (RL) methods have brought significant performance gains for stock portfolio management (PM) because they effectively utilize historical price information and directly generate portfolio weights. We found, however, that there is still great room for improvement in how to fully consider the impact of financial news and stock trends on PM while avoiding model instability caused by feature disparity and fragile convergence due to RL itself. Addressing this allows us to develop more profitable and robust PM strategies. To this end, we propose TrendTrader, a novel RL framework for news-oriented stock portfolio management with trend heuristics. Specifically, TrendTrader utilizes a large language model (LLM) to obtain sentiment scores of stock news and generates heterogeneous contexts based on global sentiment embedding, which enhances model stability in processing multimodal features. Further, TrendTrader incorporates trend heuristics into both the network architecture and the reward function, while combining supervised learning and reinforcement learning in the form of incremental training to facilitate policy network convergence. Extensive experiments in the U.S. market and the China market verify the state-of-the-art performance of TrendTrader.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0817089d292f4dd11ebad04b6ef68ba7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:16.285109"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly focuses on developing a reinforcement learning framework for stock portfolio management, incorporating financial news and stock trends to enhance performance. The research aims to improve portfolio management strategies, which directly aligns with the investment portfolio management domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly focuses on developing a reinforcement learning framework for stock portfolio management, incorporating financial news and stock trends to enhance performance. The research aims to improve portfolio management strategies, which directly aligns with the investment portfolio management domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:24.082425"
+}

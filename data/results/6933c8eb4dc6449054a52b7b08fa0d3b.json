@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "论文明确提到使用LightGBM算法构建训练集，这是一种机器学习算法。",
+    "supervised learning": "论文基于财务数据训练模型并进行预测，属于监督学习的范畴。",
+    "classification": "论文预测上市公司是否实施'高送转'，这是一个分类问题。",
+    "decision tree": "LightGBM是基于决策树的算法，因此与决策树相关。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"论文明确提到使用LightGBM算法构建训练集，这是一种机器学习算法。\",\n    \"supervised learning\": \"论文基于财务数据训练模型并进行预测，属于监督学习的范畴。\",\n    \"classification\": \"论文预测上市公司是否实施'高送转'，这是一个分类问题。\",\n    \"decision tree\": \"LightGBM是基于决策树的算法，因此与决策树相关。\"\n  }\n}\n```"
+}

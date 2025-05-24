@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1457,
+    "title": "Jump Aggregation, Volatility Prediction, and Nonlinear Estimation of Banks' Sustainability Risk",
+    "abstract": "Extreme financial events usually lead to sharp jumps in stock prices and volatilities. In addition, jump clustering and stock price correlations contribute to the risk amplification acceleration mechanism during the crisis. In this paper, four Jump-GARCH models are used to forecast the jump diffusion volatility, which is used as the risk factor. The linear and asymmetric nonlinear effects are considered, and the value at risk of banks is estimated by support vector quantile regression. There are three main findings. First, in terms of the volatility process of bank stock price, the Jump Diffusion GARCH model is better than the Continuous Diffusion GARCH model, and the discrete jump volatility is significant. Secondly, due to the difference of the sensitivity of abnormal information shock, the jump behavior of bank stock price is heterogeneous. Moreover, CJ-GARCH models are suitable for most banks, while ARJI-R2-GARCH models are more suitable for small and medium sized banks. Thirdly, based on the jump diffusion volatility information, the performance of the support vector quantile regression is better than that of the parametric quantile regression and nonparametric quantile regression.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "290c820a75bb7cb46d3fa583d36eafaa",
+    "relevant_keywords": [
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.818727"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on forecasting jump diffusion volatility and estimating the value at risk (VaR) of banks using support vector quantile regression, which are key techniques in financial risk management. The study aims to understand and predict extreme financial events and their impact on bank stock prices, directly addressing risk assessment and management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on forecasting jump diffusion volatility and estimating the value at risk (VaR) of banks using support vector quantile regression, which are key techniques in financial risk management. The study aims to understand and predict extreme financial events and their impact on bank stock prices, directly addressing risk assessment and management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:02.168570"
+}

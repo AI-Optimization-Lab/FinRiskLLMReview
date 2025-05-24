@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "regression",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "论文中使用了朴素贝叶斯法和回归随机森林算法，这些都是机器学习的方法。",
+    "supervised learning": "朴素贝叶斯法和回归随机森林算法都属于监督学习的范畴。",
+    "classification": "朴素贝叶斯法通常用于分类任务，论文中用于提取股吧发帖文本的情绪指标。",
+    "regression": "回归随机森林算法用于对股票的未来收益率进行预测，这是一个回归问题。",
+    "decision tree": "随机森林算法是基于决策树的集成学习方法，论文中使用了回归随机森林算法。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"regression\", \"decision tree\"],\n  \"explanations\": {\n    \"machine learning\": \"论文中使用了朴素贝叶斯法和回归随机森林算法，这些都是机器学习的方法。\",\n    \"supervised learning\": \"朴素贝叶斯法和回归随机森林算法都属于监督学习的范畴。\",\n    \"classification\": \"朴素贝叶斯法通常用于分类任务，论文中用于提取股吧发帖文本的情绪指标。\",\n    \"regression\": \"回归随机森林算法用于对股票的未来收益率进行预测，这是一个回归问题。\",\n    \"decision tree\": \"随机森林算法是基于决策树的集成学习方法，论文中使用了回归随机森林算法。\"\n  }\n}\n```"
+}

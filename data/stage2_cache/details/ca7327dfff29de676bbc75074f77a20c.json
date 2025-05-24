@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 187,
+    "title": "基于BP神经网络的期权定价模型",
+    "abstract": "运用BP神经网络的方法,根据S&P 500看涨期权的金融数据,利用一步预测法对期权定价做预测.通过其自主的学习机制以及大量的样本训练网络,提高了判断精度,使得对期权的估测更加准确.并运用Matlab的神经网络函数和数学分析的知识对期权定价进行模拟预测,预测价格的结果与市场的真实价格较为接近.",
+    "year": 2013,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "9cf6b08abd3e093335e55bfd99b090f6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:39.696290"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用BP神经网络对S&P 500看涨期权进行定价预测，这直接属于衍生品定价的研究领域。论文明确提到利用神经网络提高期权估测的准确性，并进行了价格预测的模拟实验。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用BP神经网络对S&P 500看涨期权进行定价预测，这直接属于衍生品定价的研究领域。论文明确提到利用神经网络提高期权估测的准确性，并进行了价格预测的模拟实验。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:32.901844"
+}

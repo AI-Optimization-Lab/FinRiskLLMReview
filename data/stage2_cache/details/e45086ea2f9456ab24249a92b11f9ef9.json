@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 460,
+    "title": "A Systematic Approach to Portfolio Optimization: A Comparative Study of Reinforcement Learning Agents, Market Signals, and Investment Horizons",
+    "abstract": "This paper presents a systematic exploration of deep reinforcement learning (RL) for portfolio optimization and compares various agent architectures, such as the DQN, DDPG, PPO, and SAC. We evaluate these agents' performance across multiple market signals, including OHLC price data and technical indicators, while incorporating different rebalancing frequencies and historical window lengths. This study uses six major financial indices and a risk-free asset as the core instruments. Our results show that CNN-based feature extractors, particularly with longer lookback periods, significantly outperform MLP models, providing superior risk-adjusted returns. DQN and DDPG agents consistently surpass market benchmarks, such as the S&P 500, in annualized returns. However, continuous rebalancing leads to higher transaction costs and slippage, making periodic rebalancing a more efficient approach to managing risk. This research offers valuable insights into the adaptability of RL agents to dynamic market conditions, proposing a robust framework for future advancements in financial machine learning.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "650f0669a66409a200970ae2e979db0f",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.715260"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on using deep reinforcement learning for portfolio optimization, comparing different agent architectures and their performance in managing investment portfolios. The study evaluates risk-adjusted returns and rebalancing strategies, which are central to portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on using deep reinforcement learning for portfolio optimization, comparing different agent architectures and their performance in managing investment portfolios. The study evaluates risk-adjusted returns and rebalancing strategies, which are central to portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:41.226302"
+}

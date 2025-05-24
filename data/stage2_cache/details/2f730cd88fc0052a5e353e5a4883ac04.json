@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 715,
+    "title": "ARIMA-SVR-based risk aggregation modeling in the financial behavior",
+    "abstract": "PurposeOnce regional financial risks erupt, they not only affect the stability and security of the financial system in the region, but also trigger a comprehensive financial crisis, damage the national economy, and affect social stability. Therefore, it is necessary to regulate regional financial risks through artificial intelligence methods.Design/methodology/approachIn this manuscript, we scrutinize the loan data pertaining to aggregated regional financial risks and proffer an ARIMA-SVR loan data regression model, amalgamating traditional statistical regression methods with a machine learning framework. This model initially employs the ARIMA model to accomplish historical data fitting and subsequently utilizes the resultant error as input for SVR to refine the non-linear error. Building upon this, it integrates with the original data to derive optimized prediction results.FindingsThe experimental findings reveal that the ARIMA-SVR (Autoregress Integrated Moving Average Model-Support Vector Regression) method advanced in this discourse surpasses individual methods in terms of RMSE (Root Mean Square Error) and MAE (Mean Absolute Error) indices, exhibiting superiority to the deep learning LSTM method.Originality/valueAn ARIMA-SVR framework for the financial risk recognition is proposed. This presentation furnishes a benchmark for future financial risk prediction and the forecasting of associated time series data.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f2d5c8b8c1b06fdf21edf89b313304ed",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:33.982505"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing an ARIMA-SVR model for predicting and managing regional financial risks, which is a core aspect of financial risk management. The study aims to improve risk recognition and prediction, directly addressing financial stability and security concerns.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing an ARIMA-SVR model for predicting and managing regional financial risks, which is a core aspect of financial risk management. The study aims to improve risk recognition and prediction, directly addressing financial stability and security concerns.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:28.432636"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 29,
+    "title": "基于物理信息神经网络的天气衍生品定价研究",
+    "abstract": "基于温度指数的天气衍生品定价研究是一个热点.拟应用物理信息神经网络(PINNs)以求解基于O-U过程的天气衍生品定价偏微分方程，对HDD看跌期权进行了数值模拟.改进了PINNs算法的采样点，调整了梯度下降算法、学习率、迭代次数、权重分配等以加快收敛速度和提升拟合效果.通过与MCMC仿真模拟和单侧有限差分求解方法对比发现基于PINNs的方法具有相当的精度和计算速度，证明了PINNs算法求解天气衍生品定价偏微分方程的可行性.",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "c97c2a688be07f60bb8b133f815f1e0d",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:00.869530"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是应用物理信息神经网络(PINNs)求解基于O-U过程的天气衍生品定价偏微分方程，并针对HDD看跌期权进行了数值模拟。这明确属于衍生品定价的研究范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是应用物理信息神经网络(PINNs)求解基于O-U过程的天气衍生品定价偏微分方程，并针对HDD看跌期权进行了数值模拟。这明确属于衍生品定价的研究范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:01.060511"
+}

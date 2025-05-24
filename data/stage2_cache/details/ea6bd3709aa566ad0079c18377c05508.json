@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1182,
+    "title": "Evidence From Data Science on the Relationship Between Individual Beliefs/Behaviors Survey During COVID-19 Pandemic and Risk Preferences",
+    "abstract": "The factors that affect individual risk preference have been of central interest to behavioral economics and psychology. However, how to measure it and its stability remain a challenge. Dutch law requires financial institutions, including pension providers, to consider customers' risk preferences when offering their services. In this study, we apply data science to investigate whether individual perceptions of risk and social effects associated with COVID-19 are related to general risk preferences of individuals, while observing whether the relevant features that influence risk preferences remain consistent. A supervised machine learning task over two different target measures of risk preferences (a self reported risk preference measure from the survey and a lottery based experimental measure) using three datasets: a main study dataset with (N= 4, , 282) ) adult survey participants in the Netherlands and two pretest survey dataset with (N = 314) ) and (N = 306) ) respectively. The experimental measure employs a multiple price list to estimate an average number of safe choices of participants which is an integer, as such, a regression task using lasso regression over all of the datasets has been carried out to detect the relationship between behavior during the pandemic and the experimental risk preference measure. The self reported risk measure employs a likert scale to determine the risk likelihood of participants, as such, a classification task using a random forest model over the different risk tolerance classes on all of the datasets has also been studied. This assesses the stability of correlating such behavioral features to the revealed preference approach of eliciting risk preference as compared to self-reported risk preference from surveys. The hypothesis is that the individual choices selected regarding COVID-19 survey questions reflect the perceived risk of the pandemic, which is related to the general risk preferences of the individual. We find that adherence to social distancing and expected changes in relationships with colleagues, friends and neighbors are relevant to revealed risk preferences while stockpiling and social distancing are relevant to self-reported risk preferences. Additionally, results from correlation analysis of revealed risk preferences are more consistent and hence, more stable than self-reported risk preference.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f119e60651498dc24e9c74e043329bd4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.277825"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究个体风险偏好的测量及其稳定性，虽然涉及金融领域的风险偏好概念，但并未具体应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究个体风险偏好的测量及其稳定性，虽然涉及金融领域的风险偏好概念，但并未具体应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:37.467252"
+}

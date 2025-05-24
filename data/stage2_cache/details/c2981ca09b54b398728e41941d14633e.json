@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 5415,
+    "title": "Credit Scoring Model Implementation in a Microfinance Context",
+    "abstract": "The purpose of the credit scoring process is the classification of the loan as default or non-default trying to reduce the risk for financial institutions. Paper aims to illustrate the implementation of a credit scoring model using boosting techniques. Specifically, the proposed solution is implemented using XGBoost algorithm discussing the role of hyperparameter tuning and feature selection in result optimization. Data used for obtaining performance scores is real-world data provided by a microfinance institution based in Bosnia and Herzegovina. Results suggest that significant optimization of XGBoost may be performed, yet, the model fails to outperform typically recommended approaches for solving credit scoring problem. Given that, it is suggested that although boosting techniques are increasingly being relied upon, it is unaccountable to make a decision without understanding the specificity of data and questioning whether other techniques are more suitable.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8781df3d56860bab7018016c843969da",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:47:42.874473"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要讨论了使用XGBoost算法进行信用评分模型的实现，目的是为了分类贷款违约风险，这直接关联到金融机构的风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文主要讨论了使用XGBoost算法进行信用评分模型的实现，目的是为了分类贷款违约风险，这直接关联到金融机构的风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:31.817612"
+}

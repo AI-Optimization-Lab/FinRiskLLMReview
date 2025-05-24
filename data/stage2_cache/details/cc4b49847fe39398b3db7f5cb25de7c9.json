@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1290,
+    "title": "Applied Artificial Intelligence: A risk management problem in trade finance",
+    "abstract": "Rolling credit facilities secured on trade debt present a risk of financial loss to a lender; their client may defraud them e.g. by presenting fictitious debt. Attempts to minimise losses due to this risk involve the lender in detection and mitigation activities which are expensive in terms of staff cost, and may be inconsistently performed. This paper explores the possibility of reducing both the cost of risk management, and the percentage of loan monies lost, by means of the introduction of Artificial Intelligence support for these risk management activities. A data sample drawn from a lending organisation's operational databases is analysed by decision tree induction, in order to identify case features associated with instances of loss. A k-nearest: neighbour algorithm is then devised, using these features both to rank cases in order of risk, and to enable case-based reasoning support to the formulation of a risk mitigation plan. A proposal is presented, for the trial implementation of the risk management support tools which have been created. This proposal provides for the critical evaluation and assessment of these tools, both against each other and against the status quo. In the best of the trials conducted, minimal overlap occurred at score 41, with 9% of bads scoring 41 and above, compared to 73% of goods. This result is equivalent to misclassifications of 9% bad-as-good and 27% good-as-bad for a rule If the score is 41 or over, the classification is good.",
+    "year": 2000,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2f244f9957daf87a887200dd7fa49c99",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.866591"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是应用人工智能（特别是决策树和k-近邻算法）来识别和管理贸易融资中的信用风险，这直接属于金融风险管理的范畴。论文明确讨论了如何通过AI支持降低风险管理的成本和贷款损失，这是金融风险管理的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是应用人工智能（特别是决策树和k-近邻算法）来识别和管理贸易融资中的信用风险，这直接属于金融风险管理的范畴。论文明确讨论了如何通过AI支持降低风险管理的成本和贷款损失，这是金融风险管理的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:30.784901"
+}

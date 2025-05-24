@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 394,
+    "title": "Multi-source data driven cryptocurrency price movement prediction and portfolio optimization",
+    "abstract": "The existing cryptocurrency portfolio studies have relied heavily on historical asset returns and ignored the importance of the prediction information of asset returns, which leads to poor out-of-sample performance of the resulting portfolio strategies. To this end, we first crawl the tweets related to cryptocurrencies on Twitter, analyze tweets' sentiment, and construct sentiment indicators. Second, we use the historical trading data, daily Google Trends, and sentiment indicators to forecast the movement of cryptocurrency prices using Support Vector Machine (SVM). Third, we propose a portfolio optimization model by considering both the forecasting infor-mation and the global minimum variance model, and then derive the corresponding portfolio strategy. Finally, we compare the out-of-sample performance of the proposed strategy with classic portfolio strategies and the Cryptocurrency Index. The empirical results show that: on the one hand, the proposed multi-source data can effectively help forecast the cryptocurrency price movements; on the other hand, the proposed portfolio strategy outperforms traditional portfolio strategies regarding the out-of-sample Sharpe ratio, Sortino ratio, and certainty equivalent return, this proves that the proposed strategy can sufficiently combine information between history and future. More importantly, the above conclusions are well verified in the robustness test.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "79efeafeb36aef098b2958ea59dea36a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.468343"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用多源数据（包括社交媒体情绪分析和Google Trends）预测加密货币价格变动，并基于这些预测信息优化投资组合策略。论文明确提到其目标是改进投资组合策略的样本外表现，并通过实证分析验证了所提策略在夏普比率、索提诺比率等方面的优越性。这些内容直接指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用多源数据（包括社交媒体情绪分析和Google Trends）预测加密货币价格变动，并基于这些预测信息优化投资组合策略。论文明确提到其目标是改进投资组合策略的样本外表现，并通过实证分析验证了所提策略在夏普比率、索提诺比率等方面的优越性。这些内容直接指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:13.034200"
+}

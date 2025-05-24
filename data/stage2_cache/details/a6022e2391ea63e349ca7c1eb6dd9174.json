@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1621,
+    "title": "QLBS: Q-Learner in the Black-Scholes(-Merton) Worlds",
+    "abstract": "This article presents a discretetime option pricing model that is rooted in reinforcement learning (RL), and more specifically in the famous Q-Learning method of RL. We construct a risk-adjusted Markov Decision Process for a discrete-time version of the classical Black-Scholes-Merton (BSM) model, where the option price is an optimal Q-function, while the optimal hedge is a second argument of this optimal Q-function, so that both the price and hedge are parts of the same formula. Pricing is done by learning to dynamically optimize risk-adjusted returns for an option replicating portfolio, as in Markowitz portfolio theory. Using Q-Learning and related methods, once created in a parametric setting, the model can go model-free and learn to price and hedge an option directly from data, without an explicit model of the world. This suggests that RL may provide efficient data-driven and model-free methods for the optimal pricing and hedging of options. Once we depart from the academic continuous-time limit, and vice versa, option pricing methods developed in Mathematical Finance may be viewed as special cases of model-based reinforcement learning. Further, due to the simplicity and tractability of our model, which only needs basic linear algebra (plus Monte Carlo simulation, if we work with synthetic data), and its close relationship to the original BSM model, we suggest that our model could be used in the benchmarking of different RL algorithms for financial trading applications.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "958ac5ab2134d6a8de1cdb7b538b6b0b",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "Q-Learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:42.484916"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用强化学习（特别是Q-Learning）来构建离散时间的期权定价模型，并优化期权复制组合的风险调整回报。这直接涉及衍生品定价领域，尤其是期权的定价和对冲。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用强化学习（特别是Q-Learning）来构建离散时间的期权定价模型，并优化期权复制组合的风险调整回报。这直接涉及衍生品定价领域，尤其是期权的定价和对冲。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:20.888843"
+}

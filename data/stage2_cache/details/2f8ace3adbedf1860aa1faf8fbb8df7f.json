@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 432,
+    "title": "Using BERT to Predict the Brazilian Stock Market",
+    "abstract": "Stock market prediction considering financial news is still an open challenge in the literature. Generally, related works consider the sentiment present in news with the following approaches: (1) lexicons; or (2) machine learning algorithms. However, both strategies are subject to errors introduced by human factors. While the lexical approach needs a specific dictionary for the financial domain, algorithms based on machine learning need a database manually labeled by experts. In this sense, this work aims to propose an approach to forecast the Brazilian stock market using news headlines preprocessed through BERT (Bidirectional Encoders Representations from Transformers), stock prices, technical indicators, and a Multilayer Perceptron neural network. Thus, the prediction is carried out directly with the embeddings of the financial news alongside technical analysis indicators and the financial time series, avoiding human intervention in the process. Our results are promising, with the developed approach overcoming the baselines Buy & Hold and Moving Average Crossover, considering both profitability and risk during the investment process.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fb5a37adb47e9fcd5bc09a90245e7fed",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "BERT",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.630637"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用BERT模型和神经网络预测巴西股市走势，并结合技术指标进行投资决策。这直接关联到投资组合管理中的资产选择和时机决策，旨在提高投资回报并控制风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用BERT模型和神经网络预测巴西股市走势，并结合技术指标进行投资决策。这直接关联到投资组合管理中的资产选择和时机决策，旨在提高投资回报并控制风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:03.521188"
+}

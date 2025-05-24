@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1184,
+    "title": "Doubly elastic net regularized online portfolio optimization with transaction costs",
+    "abstract": "Online portfolio optimization with transaction costs is a big challenge in large-scale intelligent computing community, since its undersample from rapidly-changing market and complexity from varying transaction costs. In this paper, we focus on this problem and solve it by machine learning system. Specifically, we reformulate the optimization problem with the minimization over simplex containing three items, which are negative expected return, the elastic net regularization of transaction costs controlled term and portfolio variable, respectively. We propose to apply linearized augmented Lagrangian method (LALM) and the alternating direction method of multipliers (ADMM) to solve the optimization model in a higher efficiency, meanwhile theoretically guarantee their convergence and deduce closed-form solutions of their subproblems in each iteration. Furthermore, we conduct extensive experiments on five benchmark datasets from real market to demonstrate that the proposed algorithms outperform compared state-of-the-art strategies in most cases in six dimensions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5c0f669987a3dcc796187e8e4e46c059",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.946454"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on online portfolio optimization with transaction costs, which is a core topic in portfolio management. It proposes machine learning methods to solve the optimization problem, aiming to improve portfolio performance in real-market scenarios.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on online portfolio optimization with transaction costs, which is a core topic in portfolio management. It proposes machine learning methods to solve the optimization problem, aiming to improve portfolio performance in real-market scenarios.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:02.377104"
+}

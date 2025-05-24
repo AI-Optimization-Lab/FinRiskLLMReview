@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2309,
+    "title": "Machine Learning for Earnings Prediction: A Nonlinear Tensor Approach for Data Integration and Completion",
+    "abstract": "Successful predictive models for financial applications often require harnessing complementary information from multiple datasets. Incorporating data from different sources into a single model can be challenging as they vary in structure, dimensions, quality, and completeness. Simply merging those datasets can cause redundancy, discrepancy, and information loss. This paper proposes a convolutional neural network-based nonlinear tensor coupling and completion framework (NLTCC) to combine heterogeneous datasets without compromising data quality. We demonstrate the effectiveness of NLTCC in solving a specific business problem - predicting firms' earnings from financial analysts' earnings forecast. First, we apply NLTCC to fuse firm characteristics and stock market information into the financial analysts' earnings forecasts data to impute missing values and improve data quality. Subsequently, we predict the next quarter's earnings based on the imputed data. The experiments reveal that the prediction error decreases by 65% compared with the benchmark analysts' consensus forecast. The long-short portfolio returns based on NLTCC outperform analysts' consensus forecast and the S&P-500 index from three-day up to two-month holding period. The prediction accuracy improvement is robust with different performance metrics and various industry sectors. Notably, it is more salient for the sectors with higher heterogeneity.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fea74a45b81459ebd6f0daf721196a5a",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:39.619937"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术应用于预测企业盈利，并基于预测结果构建了长短期投资组合，其表现优于分析师共识预测和标普500指数，这直接关联到投资组合管理的实践。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术应用于预测企业盈利，并基于预测结果构建了长短期投资组合，其表现优于分析师共识预测和标普500指数，这直接关联到投资组合管理的实践。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:53.747332"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 11,
+    "title": "A novel prediction based portfolio optimization model using deep learning",
+    "abstract": "Portfolio optimization is an important part of portfolio management. It realizes the trade-off between maximizing expected return and minimizing risk. A better portfolio optimization model helps investors achieve higher expected returns under the same risk level. This paper proposes a novel prediction based portfolio optimization model. This model uses autoencoder (AE) for feature extraction and long short term memory (LSTM) network to predict stock return, then predicted and historical returns are utilized to build a portfolio optimization model by advancing worst-case omega model. In order to show the effect of AE, the LSTM network without any feature extraction methods is used as a benchmark in stock prediction. Also, an equally weighted portfolio is considered as a comparison to reveal the advantage of the worst-case omega model. Empirical results show that the proposed model significantly outperforms the equally weighted portfolio, and a high risk-return preference is more suitable to this model. In addition, even after deducting transaction fees, this model still achieves a satisfying return and performs better than the state-of-art prediction based portfolio optimization models. Thus, this paper recommends applying this model in practical investment.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "d7ec1df284ae3aa69e9380d3737cc8ee",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "autoencoder",
+      "feature learning",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:31:16.732897"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing a novel prediction-based portfolio optimization model using deep learning techniques, specifically for the purpose of portfolio management. It discusses maximizing expected return and minimizing risk, which are core aspects of portfolio management, and does not address derivatives pricing or financial risk management as its primary focus.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing a novel prediction-based portfolio optimization model using deep learning techniques, specifically for the purpose of portfolio management. It discusses maximizing expected return and minimizing risk, which are core aspects of portfolio management, and does not address derivatives pricing or financial risk management as its primary focus.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:36:04.556447"
+}

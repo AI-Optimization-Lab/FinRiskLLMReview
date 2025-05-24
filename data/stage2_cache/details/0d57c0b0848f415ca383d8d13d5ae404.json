@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 4114,
+    "title": "A dropout weight-constrained recurrent neural network model for forecasting the price of major cryptocurrencies and CCi30 index",
+    "abstract": "Cryptocurrency is widely recognized as an alternative method for paying and exchanging currency instead of using classic coins or gold; thus, it has infiltrated almost in all financial transactions worldwide. Nowadays, cryptocurrency trade constitutes one of the most popular and promising type of profitable investments. Nevertheless, this new and constantly increasing financial market is characterized by high volatility and strong fluctuations of prices over time. As a result, it is considered essential for portfolio optimization and management, the development of a forecasting model. In this work, we propose a new time-series model based on dropout weight-constrained recurrent neural networks for forecasting cryptocurrency prices and the value of Crypto-Currency index 30 (CCi30). The proposed forecasting model exploits advanced regularization techniques for reducing the fundamental problem of overfitting. More specifically, it is characterized by the imposition of box-constraints on the weights of the network for reducing the likelihood of them blowing up to unrealistic values. Additionally, the adoption of dropout technique aims to explore hard-reaching regions of the weight space and forces the weights to away from zero. The proposed forecasting model was evaluated against state-of-the-art types of neural networks and regression models for forecasting the price of the four most widely traded digital currencies and for the prediction of CCi30 index. Our conducted experimental and detailed statistical analysis demonstrate that although weight-constrained networks give significant improvements the adoption of dropout technique in weight-constrained networks provides a boost in increasing the forecasting performance.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4ab47781adff647d84759c62e8107af7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T01:23:58.069902"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于dropout weight-constrained recurrent neural network的时间序列模型，用于预测加密货币价格和CCi30指数。论文明确指出这种预测模型对于投资组合优化和管理至关重要，因此其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于dropout weight-constrained recurrent neural network的时间序列模型，用于预测加密货币价格和CCi30指数。论文明确指出这种预测模型对于投资组合优化和管理至关重要，因此其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:00.364293"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 402,
+    "title": "A novel ensemble classification model based on neural networks and a classifier optimisation technique for imbalanced credit risk evaluation",
+    "abstract": "Significant research has been performed on credit risk evaluation, with many machine learning and data mining techniques being employed for financial decision-making. The back propagation (BP) neural network has been a popular choice for credit risk evaluation problems, but many studies have found classifier ensembles to be superior to single classifiers. In this paper, a novel ensemble model based on the synthetic minority over-sampling technique (SMOTE) and a classifier optimisation technique is proposed for personal credit risk evaluation. To mitigate the negative effects of imbalanced datasets on the performance of the credit evaluation model, the SMOTE technique is used to rebalance the target training dataset. The particle swarm optimisation (PSO) algorithm is employed to search for the best-connected weights and deviations in the BP neural networks. Based on the optimised BP neural network classifiers, an ensemble model is developed that combines the AdaBoost approach with the base classifiers. To ensure that the proposed model provides accurate and stable performance, we thoroughly explore and discuss the optimal parameters for the ensemble classification model. Finally, the proposed ensemble model is tested on German and Australian real-world imbalanced datasets. The results demonstrate that this model is more effective at processing credit data problems compared to the other classification models examined in this study. (C) 2019 Elsevier B.V. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3e2453a1eb2f5bc59c441d32f0175dd4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.104972"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a novel ensemble model for personal credit risk evaluation, which is a key aspect of financial risk management. The proposed model aims to improve the accuracy and stability of credit risk assessment, directly addressing risk management challenges in financial decision-making.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a novel ensemble model for personal credit risk evaluation, which is a key aspect of financial risk management. The proposed model aims to improve the accuracy and stability of credit risk assessment, directly addressing risk management challenges in financial decision-making.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:25.830747"
+}

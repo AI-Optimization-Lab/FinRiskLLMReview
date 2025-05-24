@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "classification",
+    "regression",
+    "feature representation"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning techniques for selecting theorem proving methods and predicting prover runtimes.",
+    "classification": "Machine learning techniques are used to classify geometric theorems to select the most appropriate solving technique, which implies classification tasks.",
+    "regression": "The paper mentions runtime prediction models for provers, which typically involve regression tasks to predict continuous values (runtime).",
+    "feature representation": "The paper proposes a set of features to characterize geometric theorems, which is directly related to feature representation in machine learning."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"classification\", \"regression\", \"feature representation\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning techniques for selecting theorem proving methods and predicting prover runtimes.\",\n    \"classification\": \"Machine learning techniques are used to classify geometric theorems to select the most appropriate solving technique, which implies classification tasks.\",\n    \"regression\": \"The paper mentions runtime prediction models for provers, which typically involve regression tasks to predict continuous values (runtime).\",\n    \"feature representation\": \"The paper proposes a set of features to characterize geometric theorems, which is directly related to feature representation in machine learning.\"\n  }\n}\n```"
+}

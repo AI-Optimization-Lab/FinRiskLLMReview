@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 15,
+    "title": "Pricing high-dimensional American options by kernel ridge regression",
+    "abstract": "In this paper, we propose using kernel ridge regression (KRR) to avoid the step of selecting basis functions for regression-based approaches in pricing high-dimensional American options by simulation. Our contribution is threefold. Firstly, we systematically introduce the main idea and theory of KRR and apply it to American option pricing for the first time. Secondly, we show how to use KRR with the Gaussian kernel in the regression-later method and give the computationally efficient formulas for estimating the continuation values and the Greeks. Thirdly, we propose to accelerate and improve the accuracy of KRR by performing local regression based on the bundling technique. The numerical test results show that our method is robust and has both higher accuracy and efficiency than the Least Squares Monte Carlo method in pricing high-dimensional American options.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "c22448e8f0d19506d75083c52b24b3c4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.475070"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用核岭回归（KRR）来定价高维美式期权，这直接属于衍生品定价领域。论文明确提到该方法在定价高维美式期权中的应用，并通过数值测试验证了其准确性和效率。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用核岭回归（KRR）来定价高维美式期权，这直接属于衍生品定价领域。论文明确提到该方法在定价高维美式期权中的应用，并通过数值测试验证了其准确性和效率。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:31.209659"
+}

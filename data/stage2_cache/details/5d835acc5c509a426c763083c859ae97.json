@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1868,
+    "title": "Online Newton Step for Portfolio Selection with Side Information",
+    "abstract": "Online portfolio selection, as a research hotspot in financial signal processing, has been widely studied with machine learning perspective in recent years. Online Newton Step (ONS), which generates portfolio with low-complexity online convex optimization and achieves the same asymptotic wealth as the Best Constant-Rebalanced Portfolio in hindsight, is one promising algorithm among various portfolio selection strategies. However, ONS does not consider the downside risk, which leads to large investment loss in some market environments. To overcome this limitation, this paper proposes a novel portfolio selection method, namely ONS with Side Information (ONS-SI), which incorporates ONS with the side information derived from the market, to reduce the investment risk. The performance of ONS-SI is evaluated on the Chinese A-share market. Experiment results show that the proposed ONS-SI achieves higher wealth and lower downside risk than ONS.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3c17bda51a8131210957b2973c163f44",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:38.928320"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种新的在线投资组合选择方法（ONS-SI），旨在通过结合市场侧信息来降低投资风险并提高财富积累。这直接属于投资组合管理领域，因为它专注于优化资产配置和投资策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种新的在线投资组合选择方法（ONS-SI），旨在通过结合市场侧信息来降低投资风险并提高财富积累。这直接属于投资组合管理领域，因为它专注于优化资产配置和投资策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:31.447685"
+}

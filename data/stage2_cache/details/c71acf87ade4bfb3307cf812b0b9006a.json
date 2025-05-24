@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 145,
+    "title": "Approximation of single-barrier options partial differential equations using feed-forward neural network",
+    "abstract": "Artificial neural networks are generally employed in the numerical solution of differential equation problems. In this article, we propose an approach that deals with the combination of the feed-forward neural network method and the optimization technique in solving the partial differential equation arising from the valuation of barrier options. The methodology entails transforming the extended Black-Scholes partial differential equations (PDE), which defines a barrier option, into a constrained optimization problem, and then proposing a trial solution that reduces the differential equation problem to an unconstrained one. This trial function consists of the adjustable and non-adjustable neural network parameters. We design it to be differentiable, analytic, and satisfy the initial and boundary conditions of the corresponding option pricing PDE. We compare the corresponding option values to the Monte-Carlo simulated values, Crank-Nicolson finite-difference values and the exact Black-Scholes prices. Numerical results presented in this research show that neural networks can sufficiently solve PDE-related problems with sufficient precision and accuracy. Furthermore, they can be applied in the fast and accurate valuation of financial derivatives without closed analytic forms.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "07691c43383ae26a01b66a9ef30a952f",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.407577"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用前馈神经网络解决障碍期权定价中的偏微分方程问题，明确提到了金融衍生品（障碍期权）的快速和准确估值，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用前馈神经网络解决障碍期权定价中的偏微分方程问题，明确提到了金融衍生品（障碍期权）的快速和准确估值，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:29.174898"
+}

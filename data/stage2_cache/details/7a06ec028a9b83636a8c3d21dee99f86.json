@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 395,
+    "title": "基于MF-DFA的股票时间序列聚类分析及其应用",
+    "abstract": "多重分形消除趋势波动分析法(MF-DFA)不仅能够去除股票时间序列的长期趋势波动,还能够精确反应股票时间序列的多重分形特性。首先利用MF-DFA方法对股票时间序列进行多重分形分析,结果表明,相比标准多重分析,MF-DFA方法更能反映时间序列的多重分形特性。其次,定义一种以多重分形谱参数作为相似性度量函数的聚类方法对股票时间序列进行聚类。最后,在Markowitz提出的\"期望均值收益—收益方差\"(M-V)模型的基础上,把聚类结果运用股票投资组合当中。采用上海证券市场28支股票进行实验验证表明,在给定的收益率下,采用基于多重分形谱参数的聚类方法的股票组合可以得到比随机组合更小的风险水平。",
+    "year": 2013,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9eb6b5f9b39da1dc67aee069c1c91812",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-14T18:21:52.860789"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用MF-DFA方法和聚类分析来优化股票投资组合，其最终应用是在Markowitz的M-V模型基础上构建更优的投资组合，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用MF-DFA方法和聚类分析来优化股票投资组合，其最终应用是在Markowitz的M-V模型基础上构建更优的投资组合，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:45:10.361784"
+}

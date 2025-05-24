@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 3023,
+    "title": "Predicting Stock Price Returns using Microblog Sentiment for Chinese Stock Market",
+    "abstract": "Recently there have been many efforts to study the predictability of stock market trend using post sentiments on social media sites. These studies have mainly focused on US stock market. In this paper we investigate the relationship between stock price movement and social media sentiment in China, which has a large stock capitalization and a unique social media landscape. We collect data from several different types of social media sites (microblogs, chat rooms, web forums), and find that data from these sites exhibit distinct characteristics in activity level, post length, and correlation with stock market behavior. Users in stock market related chat rooms tend to post more but much shorter blogs. The activity level is much more highly correlated with market trading hours and stock trading volumes. We then investigated several machine learning models to classify post sentiment in chat rooms, and achieved a performance similar to the state-of-the-art sentiment analysis result for short posts. We find that there is strong correlation and Granger causality between chat room post sentiment and stock price movement, indicating that post sentiments can be used to improve the prediction of stock price return over using the historic stock trading information alone. We further propose a prediction model that uses chat room sentiment to forecast the market direction, and develop a trading strategy that utilizes the prediction as trading indicators. Backtest using our strategy achieves promising portfolio returns. A total return of 19.54% is obtained at the end of the seven-month period when taking into account of slippage and commissions, compared to a loss of -25.26% by a passive buy-and-hold baseline strategy.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5e65b52f87a2b525f84ff7fe54beb762",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:43.082661"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用社交媒体情绪分析预测股票价格走势，并开发了基于预测结果的交易策略。通过回测展示了该策略在投资组合管理中的应用效果，显著优于被动持有策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用社交媒体情绪分析预测股票价格走势，并开发了基于预测结果的交易策略。通过回测展示了该策略在投资组合管理中的应用效果，显著优于被动持有策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:34.638660"
+}

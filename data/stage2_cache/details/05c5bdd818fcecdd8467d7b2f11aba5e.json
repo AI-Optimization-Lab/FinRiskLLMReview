@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2387,
+    "title": "Soft Actor-Critic Algorithm Featured Residential Demand Response Strategic Bidding for Load Aggregators",
+    "abstract": "Load aggregators (LAs) gather regional demand response (DR) resources as a representative of regional users to transact with the grid. They achieve this by facilitating residential customers to flexibly participate in DR programs. This article proposes a residential DR strategic bidding approach for LAs to improve system reliability while maximizing their financial advantages. It is based on the deep reinforcement learning (DRL) algorithm and is capable of overcoming the computational limitations of conventional model-based strategy design. A probabilistic model considering the electricity usage habits and response willingness was developed to reliably quantify the uncertainty responsive behaviors. A DR bidding model considering bilateral interaction with declaration risk was developed to balance the contradictory relationship between subsidy prices with uncertain DR quantities. In addition, the soft actor-critic algorithm was implemented to optimize the decision-making process, and thereby, optimize the continuous-action-space problem of maximizing the profits of LAs by DR scheduling. The proposed approach demonstrated its effectiveness and superiority in diverse DR situations, compared with a conventional method and another DRL approach.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7be233298e9e392d261356504b5edb14",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:50.307531"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是住宅需求响应策略投标，涉及的是电力市场和负荷聚合商的利润最大化问题，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是住宅需求响应策略投标，涉及的是电力市场和负荷聚合商的利润最大化问题，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:53.478038"
+}

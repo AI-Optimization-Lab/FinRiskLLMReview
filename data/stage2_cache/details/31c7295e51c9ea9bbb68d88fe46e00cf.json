@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2031,
+    "title": "Enhanced Forecasting of Equity Fund Returns Using Machine Learning",
+    "abstract": "This paper aims to explore the integration of machine learning with risk and return performance measures, to provide a data-driven approach to identifying opportunities in equity funds. We built a dataset with 72 performance measures in the columns calculated for multiple periods ranging from 1 to 120 months. By shifting the values in the 1- and 3-month return columns, we created two new columns, aligning the data for the month t with the return for the month t+1. We categorized each row into one of three classes based on the mean and standard deviation of the shifted 1- and 3-month returns during the period. Based on cross-validated accuracy, we focused on the top three classifiers. As a result, the developed models achieved accuracy, recall, and precision values exceeding 0.92 on the test data. In addition, models trained on 1 year of data maintained predictive reliability for up to 2 months into the future, achieving precision above 90% in forecasting funds with 3-month returns above the average. Thus, this study highlights the effectiveness of machine learning in financial forecasting, particularly within the environment of the Brazilian equity market.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f33895f8b109d5a65cfe0d6f983d64af",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:25.735637"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型预测股票基金的回报，这直接关联到投资组合管理中的资产选择和绩效评估。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型预测股票基金的回报，这直接关联到投资组合管理中的资产选择和绩效评估。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:44.833118"
+}

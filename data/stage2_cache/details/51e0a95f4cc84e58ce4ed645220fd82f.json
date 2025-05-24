@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1129,
+    "title": "Efficient valuation of SCR via a neural network approach",
+    "abstract": "As part of the new regulatory framework of Solvency II, introduced by the European Union, insurance companies are required to monitor their solvency by computing a key risk metric called the Solvency Capital Requirement (SCR). The official description of the SCR is not rigorous and has lead researchers to develop their own mathematical frameworks for calculation of the SCR. These frameworks are complex and are difficult to implement. Recently, Bauer et al. suggested a nested Monte Carlo (MC) simulation framework to calculate the SCR. But the proposed MC framework is computationally expensive even for a simple insurance product. In this paper, we propose incorporating a neural network approach into the nested simulation framework to significantly reduce the computational complexity in the calculation. We study the performance of our neural network approach in estimating the SCR for a large portfolio of an important class of insurance products called Variable Annuities (VAs). Our experiments show that the proposed neural network approach is both efficient and accurate. (C) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "43803fae41b4b65c4d0c32df54160b2b",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.384164"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用神经网络方法来高效计算Solvency Capital Requirement (SCR)，这是欧盟Solvency II监管框架下保险公司监控偿付能力的关键风险指标。论文明确提到该方法用于评估Variable Annuities (VAs)这类保险产品的SCR，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络方法来高效计算Solvency Capital Requirement (SCR)，这是欧盟Solvency II监管框架下保险公司监控偿付能力的关键风险指标。论文明确提到该方法用于评估Variable Annuities (VAs)这类保险产品的SCR，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:35.130204"
+}

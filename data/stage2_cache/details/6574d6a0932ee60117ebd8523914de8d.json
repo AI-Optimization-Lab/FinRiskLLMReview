@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3818,
+    "title": "A simple two-component model for the distribution of intraday returns",
+    "abstract": "We model the conditional distribution of high-frequency financial returns by means of a two-component quantile regression model. Using three years of 30 minute returns, we show that the conditional distribution depends on past returns and on the time of the day. Two practical applications illustrate the usefulness of the model. First, we provide quantile-based measures of conditional volatility, asymmetry and kurtosis that do not depend on the existence of moments. We find seasonal patterns and time dependencies beyond volatility. Second, we estimate and forecast intraday Value at Risk. The two-component model is able to provide good-risk assessments and to outperform GARCH-based Value at Risk evaluations.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "60b7f47cce32f636073d6d3cf54bc941",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:30:28.624412"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on modeling high-frequency financial returns and estimating intraday Value at Risk (VaR), which are key components of financial risk management. The study aims to improve risk assessments and outperforms GARCH-based VaR evaluations, indicating a primary application in risk management rather than derivatives pricing or portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on modeling high-frequency financial returns and estimating intraday Value at Risk (VaR), which are key components of financial risk management. The study aims to improve risk assessments and outperforms GARCH-based VaR evaluations, indicating a primary application in risk management rather than derivatives pricing or portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:08.084667"
+}

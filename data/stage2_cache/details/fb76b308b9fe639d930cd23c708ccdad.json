@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 499,
+    "title": "Convolutional LSTM Network for forecasting correlations between stocks based on spatiotemporal sequence",
+    "abstract": "The correlation between stocks is important for investment portfolio pricing and evaluation, risk management, and formulating trading and hedging strategies. The COVID-19 has led to a general increase in the degree of correlation between stocks, the market-wide allocation has lost its meaning, and the hedging strategy has failed. It is more necessary and urgent to predict the correlation between stocks under the influence of the epidemic. However, previous studies mostly focused on traditional financial models. There are problems such as too many assumptions and restrictions, the dimensional disaster of the estimated parameters, and the poor effect of fitting nonlinearity and tail risk, which cannot provide reliable and accurate estimates. In this paper, the covariance matrix for stock return is considered as a sequence with both time and space characteristics, to transform the problem into the study of spatiotemporal sequence prediction. We Innovatively apply the end-to-end Convolutional LSTM (ConvLSTM) to the correlation prediction between stocks and use random matrix theory (RMT) to improve mean squared error (MSE) to eliminate the influence of noise. Experiments show that the performance of ConvLSTM on this problem is better than that of traditional financial model, especially after de-nosing by Random Matrix Theory (RMT). Compared with Fully Connected LSTM (FC-LSTM), ConvLSTM acquired a better out-of-sample MSE and RMT_MSE, which proves the effectiveness of the method. Finally, we repeat experiments with other stock dataset to verify the robustness of the model.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "e8e0dd65526bdf2360da030d116292ef",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:38:59.290753"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用Convolutional LSTM网络预测股票之间的相关性，这直接应用于投资组合的定价和评估，以及风险管理和对冲策略的制定。这些应用明确属于投资组合管理和金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用Convolutional LSTM网络预测股票之间的相关性，这直接应用于投资组合的定价和评估，以及风险管理和对冲策略的制定。这些应用明确属于投资组合管理和金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:51.795562"
+}

@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "regression",
+    "decision tree",
+    "neural network",
+    "deep learning"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning algorithms, including RandomForestRegressor, to analyze sentiment and predict stock price movements.",
+    "regression": "The paper uses RandomForestRegressor, which is a regression model, to predict stock price changes based on sentiment analysis.",
+    "decision tree": "RandomForestRegressor is an ensemble method based on decision trees, indicating the relevance of decision trees in the study.",
+    "neural network": "While not explicitly mentioned, the context of machine learning and deep learning in financial analytics suggests potential relevance, though the paper focuses more on traditional machine learning methods.",
+    "deep learning": "The paper discusses advanced machine learning techniques for sentiment analysis and stock prediction, which could include deep learning, though it is not explicitly detailed."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"regression\",\n    \"decision tree\",\n    \"neural network\",\n    \"deep learning\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning algorithms, including RandomForestRegressor, to analyze sentiment and predict stock price movements.\",\n    \"regression\": \"The paper uses RandomForestRegressor, which is a regression model, to predict stock price changes based on sentiment analysis.\",\n    \"decision tree\": \"RandomForestRegressor is an ensemble method based on decision trees, indicating the relevance of decision trees in the study.\",\n    \"neural network\": \"While not explicitly mentioned, the context of machine learning and deep learning in financial analytics suggests potential relevance, though the paper focuses more on traditional machine learning methods.\",\n    \"deep learning\": \"The paper discusses advanced machine learning techniques for sentiment analysis and stock prediction, which could include deep learning, though it is not explicitly detailed.\"\n  }\n}\n```"
+}

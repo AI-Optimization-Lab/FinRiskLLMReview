@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 359,
+    "title": "A High-Dimensional Choice Model for Online Retailing",
+    "abstract": "Online retailers are facing an increasing variety of product choices and diversified consumer decision journeys. To improve many operations decisions for online retailers, such as demand forecasting and inventory management and pricing, an important first step is to obtain an accurate estimate of the substitution patterns among a large number of products offered in the complex online environment. Classic choice models either do not account for these substitution patterns beyond what is reflected through observed product features or do so in a simplified way by making a priori assumptions. These shortcomings become particularly restrictive when the underlying substitution patterns get complex as the number of options increases. We provide a solution by developing a high-dimensional choice model that allows for flexible substitution patterns and easily scales up. We leverage consumer clickstream data and combine econometric and machine learning (graphical lasso, in particular) methods to learn the substitution patterns among a large number of products. We show our method offers more accurate demand forecasts in a wide range of synthetic scenarios when compared with classical models (e.g., the independent and identically distributed Probit model), reducing out-of-sample mean absolute percentage error by 10%-30%. Such performance improvement is further supported by observations from a real-world empirical setting. More importantly, our method excels in precisely recovering substitution patterns across products. Compared with benchmark models, it reduces the percentage deviation from the underlying elasticity matrix by approximately half. This precision serves as a critical input for enhancing business decisions such as assortment planning, inventory management, and pricing strategies.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "84629c4435c8595494ed02d602f5999f",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:13.152310"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究在线零售中的高维选择模型，用于需求预测、库存管理和定价策略，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究在线零售中的高维选择模型，用于需求预测、库存管理和定价策略，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:13.829562"
+}

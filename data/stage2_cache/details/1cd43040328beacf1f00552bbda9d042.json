@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 94,
+    "title": "A Physics informed neural network approach for solving time fractional Black-Scholes partial differential equations",
+    "abstract": "We present a novel approach for solving time fractional Black-Scholes partial differential equations (tfBSPDEs) using Physics Informed Neural Network (PINN) approach. Traditional numerical methods are faced with challenges in solving fractional PDEs due to the non-locality and non-differentiability nature of fractional derivative operators. By leveraging the ideas of Riemann sums and the refinement of tagged partitions of the time domain, we show that fractional derivatives can directly be incorporated into the loss function when applying the PINN approach to solving tfBSPDEs. The approach allows for the simultaneous learning of the underlying process dynamics and the involved fractional derivative operator without a need for the use of numerical discretization of the fractional derivatives. Through some numerical experiments, we demonstrate that, the PINN approach is efficient, accurate and computationally inexpensive particularly when dealing with high frequency and noisy data. This work augments the understanding between advanced mathematical modeling and machine learning techniques, contributing to the body of knowlege on the advancement of accurate derivative pricing models.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "fe5972b3c7af859824b5338e5794b6e2",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.984330"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用物理信息神经网络（PINN）方法解决时间分数阶Black-Scholes偏微分方程（tfBSPDEs），Black-Scholes方程是衍生品定价中的核心数学模型。论文明确提到该方法有助于提高衍生品定价模型的准确性，因此其主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用物理信息神经网络（PINN）方法解决时间分数阶Black-Scholes偏微分方程（tfBSPDEs），Black-Scholes方程是衍生品定价中的核心数学模型。论文明确提到该方法有助于提高衍生品定价模型的准确性，因此其主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:00.385680"
+}

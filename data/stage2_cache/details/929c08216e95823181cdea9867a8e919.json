@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1475,
+    "title": "Distance-Based Ensemble Online Classifier with Kernel Clustering",
+    "abstract": "In this paper an on-line distance-based classifier is considered. The approach extends earlier proposed idea where a family of the online distance-based classifiers based on fuzzy C-means clustering followed by calculation of distances between cluster centroids and the incoming instance for which the class label is to be predicted, were suggested [8]. Now, instead of fuzzy C-means clustering we use kernel-based clustering method. The proposed algorithm works in rounds, where at each round a new instance is given and the algorithm makes a prediction. A portfolio of similarity or distance measures used to construct the ensemble of classifiers predicting the class of coming instances. The proposed approach is validated experimentally.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e3182a4690b60676339efd70db58aeb7",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:08.367764"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种基于距离的在线分类器，并采用核聚类方法改进分类性能。虽然提到了'portfolio'一词，但这里的'portfolio'指的是分类器的集合，而非金融投资组合。论文未提及任何具体的金融应用场景或研究目标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种基于距离的在线分类器，并采用核聚类方法改进分类性能。虽然提到了'portfolio'一词，但这里的'portfolio'指的是分类器的集合，而非金融投资组合。论文未提及任何具体的金融应用场景或研究目标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:42.961442"
+}

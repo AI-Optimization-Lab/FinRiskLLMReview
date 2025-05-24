@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3162,
+    "title": "An improved method for solving Hybrid Influence Diagrams",
+    "abstract": "While decision trees are a popular formal and quantitative method for determining an optimal decision from a finite set of choices, for all but very simple problems they are computationally intractable. For this reason, Influence Diagrams (IDs) have been used as a more compact and efficient alternative. However, most algorithmic solutions assume that all chance variables are discrete, whereas in practice many are continuous. For such 'Hybrid' IDs (HIDs) the current-state-of-the-art algorithms suffer from various limitations on the kinds of inference that can be performed. This paper presents a novel method that overcomes a number of these limitations. The method solves a HID by transforming it to a Hybrid Bayesian Network (HBN) and carrying out inference on this HBN using Dynamic Discretization (DD). It generates a simplified decision tree from the propagated HBN to compute and present the optimal decisions under different decision scenarios. To provide satisfactory performance the method uses 'inconsistent evidence' to model functional and structural asymmetry. By using the entire marginal probability distribution of the continuous utility and chance nodes, rather than expected values alone, our method also enhances decision analysis by offering the possibility to consider additional statistics other than expected utility, such as measures of risk. We illustrate our method by using the oil wildcatter example and its variations with continuous nodes. We also use a financial score to combine risk and return measures, for illustration. (C) 2018 Elsevier Inc. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "81d6b03d506a7e34a6cd20e9df11f5e5",
+    "relevant_keywords": [
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:22:56.872071"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种改进的混合影响图（Hybrid Influence Diagrams）解决方法，虽然提到了金融评分（financial score）作为示例，但其核心技术是通用的决策分析方法，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种改进的混合影响图（Hybrid Influence Diagrams）解决方法，虽然提到了金融评分（financial score）作为示例，但其核心技术是通用的决策分析方法，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:05.342517"
+}

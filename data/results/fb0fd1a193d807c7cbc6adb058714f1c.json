@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "classification",
+    "regression",
+    "principal components analysis"
+  ],
+  "explanations": {
+    "classification": "论文使用Logistic回归模型进行金融风险评价，Logistic回归是一种分类方法，用于预测二元结果（如高风险/低风险）。",
+    "regression": "论文提到使用逐步回归筛选重要主成分变量，逐步回归是一种回归分析方法。",
+    "principal components analysis": "论文明确提到使用主成分分析法对财务指标进行降维处理，形成综合指标。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"classification\", \"regression\", \"principal components analysis\"],\n  \"explanations\": {\n    \"classification\": \"论文使用Logistic回归模型进行金融风险评价，Logistic回归是一种分类方法，用于预测二元结果（如高风险/低风险）。\",\n    \"regression\": \"论文提到使用逐步回归筛选重要主成分变量，逐步回归是一种回归分析方法。\",\n    \"principal components analysis\": \"论文明确提到使用主成分分析法对财务指标进行降维处理，形成综合指标。\"\n  }\n}\n```"
+}

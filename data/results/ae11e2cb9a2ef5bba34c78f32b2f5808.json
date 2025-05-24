@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "unsupervised learning",
+    "classification",
+    "clustering",
+    "principal components analysis"
+  ],
+  "explanations": {
+    "unsupervised learning": "The paper uses clustering techniques (k-means and Ward's method) which are a part of unsupervised learning.",
+    "classification": "The paper aims to develop a classification scheme for German housing markets.",
+    "clustering": "The paper explicitly mentions using a two-step clustering algorithm combining k-means with Ward's method.",
+    "principal components analysis": "The paper uses principal component analysis to retain the most important dimensions of the market parameters before clustering."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"unsupervised learning\", \"classification\", \"clustering\", \"principal components analysis\"], \n  \"explanations\": {\n    \"unsupervised learning\": \"The paper uses clustering techniques (k-means and Ward's method) which are a part of unsupervised learning.\",\n    \"classification\": \"The paper aims to develop a classification scheme for German housing markets.\",\n    \"clustering\": \"The paper explicitly mentions using a two-step clustering algorithm combining k-means with Ward's method.\",\n    \"principal components analysis\": \"The paper uses principal component analysis to retain the most important dimensions of the market parameters before clustering.\"\n  }\n}\n```"
+}

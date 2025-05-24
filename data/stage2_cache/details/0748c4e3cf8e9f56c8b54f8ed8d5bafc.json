@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 280,
+    "title": "Reinforcement learning for continuous-time mean-variance portfolio selection in a regime-switching market",
+    "abstract": "We propose a reinforcement learning (RL) approach to solve the continuous-time mean-variance portfolio selection problem in a regime-switching market, where the market regime is unobservable. To encourage exploration for learning, we formulate an exploratory stochastic control problem with an entropy-regularized mean-variance objective. We obtain semi-analytical representations of the optimal value function and optimal policy, which involve unknown solutions to two linear parabolic partial differential equations (PDEs). We utilize these representations to parametrize the value function and policy for learning with the unknown solutions to the PDEs approximated based on polynomials. We develop an actor-critic RL algorithm to learn the optimal policy through interactions with the market environment. The algorithm carries out filtering to obtain the belief probability of the market regime and performs policy evaluation and policy gradient updates alternately. Empirical results demonstrate the advantages of our RL algorithm in relatively long-term investment problems over the classical control approach and an RL algorithm developed for the continuous-time mean-variance problem without considering regime switches.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3c8d214ea45c7874eae68277d7807f12",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.863896"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是强化学习在连续时间均值-方差投资组合选择问题中的应用，特别是在市场状态不可观测的情况下。研究目标是优化投资组合策略，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是强化学习在连续时间均值-方差投资组合选择问题中的应用，特别是在市场状态不可观测的情况下。研究目标是优化投资组合策略，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:12.519149"
+}

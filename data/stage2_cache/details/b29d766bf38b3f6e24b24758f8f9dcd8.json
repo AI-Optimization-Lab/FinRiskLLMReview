@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 936,
+    "title": "基于ODR-ADASYN-SVM的极端金融风险预警研究",
+    "abstract": "针对合成少数类过采样(synthetic minority over-sampling technique,SMOTE)方法在提升支持向量机(support vector machine,SVM)的非均衡样本学习能力中出现的过拟合(over fitting),引入自适应合成抽样方法(adaptive synthetic sampling approach,ADASYN)和逐级优化递减欠采样方法(optimization of decreasing reduction,ODR)分别克服SMOTE在生成新样本中的盲目性和在处理对象上的局限性,进而与SVM相结合,构造出改进SVM,即ODR-ADASYNSVM模型来预测中国极端金融风险;最后运用T检验对各模型预测精度的差异性进行显著性检验以及对各模型的预测稳定性进行评价.实证结果表明,ODR-ADASYN-SVM模型不仅能够显著地提升SVM的非均衡样本学习能力,同时也能够有效地克服SMOTE的过拟合,从而展示出优越的极端金融风险预测性能.",
+    "year": 2016,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1d2406d082b2fa36388cc2f12ac8ac94",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:34:27.128143"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是改进的SVM模型，用于预测中国极端金融风险，这直接属于金融风险管理的范畴。论文的研究目标和实证结果都集中在风险预测上，并未涉及衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是改进的SVM模型，用于预测中国极端金融风险，这直接属于金融风险管理的范畴。论文的研究目标和实证结果都集中在风险预测上，并未涉及衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:37:07.917744"
+}

@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "unsupervised learning",
+    "classification",
+    "clustering",
+    "deep learning",
+    "representation learning",
+    "autoencoder"
+  ],
+  "explanations": {
+    "unsupervised learning": "The paper uses K-means clustering, which is an unsupervised learning method, to group stocks based on investor attention patterns.",
+    "classification": "The paper proposes a classification method for collective investor attention, though the abstract does not specify if it's supervised or unsupervised classification.",
+    "clustering": "The method explicitly uses K-means clustering to arrange stocks into different groups based on investor attention patterns.",
+    "deep learning": "The paper utilizes a self-encoding algorithm (autoencoder) in deep learning to extract features from image representations.",
+    "representation learning": "The method converts search volume data to image representations and learns features from them, which is a form of representation learning.",
+    "autoencoder": "The paper mentions using a self-encoding algorithm, which refers to an autoencoder, to extract features from the image representations."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"unsupervised learning\",\n    \"classification\",\n    \"clustering\",\n    \"deep learning\",\n    \"representation learning\",\n    \"autoencoder\"\n  ],\n  \"explanations\": {\n    \"unsupervised learning\": \"The paper uses K-means clustering, which is an unsupervised learning method, to group stocks based on investor attention patterns.\",\n    \"classification\": \"The paper proposes a classification method for collective investor attention, though the abstract does not specify if it's supervised or unsupervised classification.\",\n    \"clustering\": \"The method explicitly uses K-means clustering to arrange stocks into different groups based on investor attention patterns.\",\n    \"deep learning\": \"The paper utilizes a self-encoding algorithm (autoencoder) in deep learning to extract features from image representations.\",\n    \"representation learning\": \"The method converts search volume data to image representations and learns features from them, which is a form of representation learning.\",\n    \"autoencoder\": \"The paper mentions using a self-encoding algorithm, which refers to an autoencoder, to extract features from the image representations.\"\n  }\n}\n```"
+}

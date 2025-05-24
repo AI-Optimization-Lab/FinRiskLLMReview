@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2655,
+    "title": "Algorithm for cardinality-constrained quadratic optimization",
+    "abstract": "This paper describes an algorithm for cardinality-constrained quadratic optimization problems, which are convex quadratic programming problems with a limit on the number of non-zeros in the optimal solution. In particular, we consider problems of subset selection in regression and portfolio selection in asset management and propose branch-and-bound based algorithms that take advantage of the special structure of these problems. We compare our tailored methods against CPLEX's quadratic mixed-integer solver and conclude that the proposed algorithms have practical advantages for the special class of problems we consider.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "effe37855614a214a90334b609023f70",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.886319"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提到了在资产管理的投资组合选择中应用其算法，这属于投资组合管理的范畴。虽然也提到了回归中的子集选择，但这不属于指定的金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确提到了在资产管理的投资组合选择中应用其算法，这属于投资组合管理的范畴。虽然也提到了回归中的子集选择，但这不属于指定的金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:37.428440"
+}

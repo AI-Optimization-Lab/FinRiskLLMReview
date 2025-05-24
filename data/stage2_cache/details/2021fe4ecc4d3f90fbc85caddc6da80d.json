@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1006,
+    "title": "Equity-Market-Neutral Strategy Portfolio Construction Using LSTM-Based Stock Prediction and Selection: An Application to S&P500 Consumer Staples Stocks",
+    "abstract": "In recent years, a great deal of attention has been devoted to the use of neural networks in portfolio management, particularly in the prediction of stock prices. Building a more profitable portfolio with less risk has always been a challenging task. In this study, we propose a model to build a portfolio according to an equity-market-neutral (EMN) investment strategy. In this portfolio, the selection of stocks comprises two steps: a prediction of the individual returns of stocks using LSTM neural network, followed by a ranking of these stocks according to their predicted returns. The stocks with the best predicted returns and those with the worst predicted returns constitute, respectively, the long side and the short side of the portfolio to be built. The proposed model has two key benefits. First, data from historical quotes and technical and fundamental indicators are used in the LSTM network to provide good predictions. Second, the EMN strategy allows for the funding of long-position stocks by short-sell-position stocks, thus hedging the market risk. The results show that the built portfolios performed better compared to the benchmarks. Nonetheless, performance slowed down during the COVID-19 pandemic.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0f90ee0dcaa9e1ed982920a5cd957444",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.768389"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM神经网络预测股票收益并构建市场中性的投资组合，这直接属于投资组合管理的范畴。论文明确提到构建投资组合的策略和风险管理方法，但并未涉及衍生品定价或更广泛的金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM神经网络预测股票收益并构建市场中性的投资组合，这直接属于投资组合管理的范畴。论文明确提到构建投资组合的策略和风险管理方法，但并未涉及衍生品定价或更广泛的金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:21.543808"
+}

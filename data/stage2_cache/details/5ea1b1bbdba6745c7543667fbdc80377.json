@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 4926,
+    "title": "The Stock Index Prediction Based on SVR Model with Bat Optimization Algorithm",
+    "abstract": "Accurate stock market prediction models can provide investors with convenient tools to make better data-based decisions and judgments. Moreover, retail investors and institutional investors could reduce their investment risk by selecting the optimal stock index with the help of these models. Predicting stock index price is one of the most effective tools for risk management and portfolio diversification. The continuous improvement of the accuracy of stock index price forecasts can promote the improvement and maturity of China's capital market supervision and investment. It is also an important guarantee for China to further accelerate structural reforms and manufacturing transformation and upgrading. In response to this problem, this paper introduces the bat algorithm to optimize the three free parameters of the SVR machine learning model, constructs the BA-SVR hybrid model, and forecasts the closing prices of 18 stock indexes in Chinese stock market. The total sample comes from 15 January 2016 (the 10th trading day in 2016) to 31 December 2020. We select the last 20, 60, and 250 days of whole sample data as test sets for short-term, mid-term, and long-term forecast, respectively. The empirical results show that the BA-SVR model outperforms the polynomial kernel SVR model and sigmoid kernel SVR model without optimized initial parameters. In the robustness test part, we use the stationary time series data after the first-order difference of six selected characteristics to re-predict. Compared with the random forest model and ANN model, the prediction performance of the BA-SVR model is still significant. This paper also provides a new perspective on the methods of stock index forecasting and the application of bat algorithms in the financial field.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "dc4e865921b2f12b1085e45671c8d8ca",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "sigmoid",
+      "neural network",
+      "ANN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:42:36.130297"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用优化的SVR模型预测股票指数价格，这直接有助于投资者进行风险管理和投资组合多样化。论文明确提到预测股票指数价格是风险管理和投资组合多样化的有效工具，因此其应用领域包括金融风险管理和投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用优化的SVR模型预测股票指数价格，这直接有助于投资者进行风险管理和投资组合多样化。论文明确提到预测股票指数价格是风险管理和投资组合多样化的有效工具，因此其应用领域包括金融风险管理和投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:32.270666"
+}

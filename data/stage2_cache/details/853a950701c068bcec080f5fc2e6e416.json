@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 5284,
+    "title": "Quantile Regression using Random Forest Proximities",
+    "abstract": "Due to the dynamic nature of financial markets, maintaining models that produce precise predictions over time is difficult. Often the goal isn't just point prediction but determining uncertainty. Quantifying uncertainty, especially the aleatoric uncertainty due to the unpredictable nature of market drivers, helps investors understand varying risk levels. Recently, quantile regression forests (QRF) have emerged as a promising solution: Unlike most basic quantile regression methods that need separate models for each quantile, quantile regression forests estimate the entire conditional distribution of the target variable with a single model, while retaining all the salient features of a typical random forest. We introduce a novel approach to compute quantile regressions from random forests that leverages the proximity (i.e., distance metric) learned by the model and infers the conditional distribution of the target variable. We evaluate the proposed methodology using publicly available datasets and then apply it towards the problem of forecasting the average daily volume of corporate bonds. We show that using quantile regression using Random Forest proximities demonstrates superior performance in approximating conditional target distributions and prediction intervals to the original version of QRF. We also demonstrate that the proposed framework is significantly more computationally efficient than traditional approaches to quantile regressions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2e5829bb41156767d54bb9e452f916a1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:46:16.222699"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用随机森林邻近度进行分位数回归，用于预测公司债券的平均日交易量，并量化不确定性。这直接关联到金融风险管理中的风险量化和预测，帮助投资者理解不同风险水平。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用随机森林邻近度进行分位数回归，用于预测公司债券的平均日交易量，并量化不确定性。这直接关联到金融风险管理中的风险量化和预测，帮助投资者理解不同风险水平。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:33.538833"
+}

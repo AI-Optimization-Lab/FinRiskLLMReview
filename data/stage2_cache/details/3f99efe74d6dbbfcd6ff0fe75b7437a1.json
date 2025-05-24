@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1567,
+    "title": "Deterministic modelling of implied volatility in cryptocurrency options with underlying multiple resolution momentum indicator and non-linear machine learning regression algorithm",
+    "abstract": "Modeling implied volatility (IV) is important for option pricing, hedging, and risk management. Previous studies of deterministic implied volatility functions (DIVFs) propose two parameters, moneyness and time to maturity, to estimate implied volatility. Recent DIVF models have included factors such as a moving average ratio and relative bid-ask spread but fail to enhance modeling accuracy. The current study offers a generalized DIVF model by including a momentum indicator for the underlying asset using a relative strength index (RSI) covering multiple time resolutions as a factor, as momentum is often used by investors and speculators in their trading decisions, and in contrast to volatility, RSI can distinguish between bull and bear markets. To the best of our knowledge, prior studies have not included RSI as a predictive factor in modeling IV. Instead of using a simple linear regression as in previous studies, we use a machine learning regression algorithm, namely random forest, to model a nonlinear IV. Previous studies apply DVIF modeling to options on traditional financial assets, such as stock and foreign exchange markets. Here, we study options on the largest cryptocurrency, Bitcoin, which poses greater modeling challenges due to its extreme volatility and the fact that it is not as well studied as traditional financial assets. Recent Bitcoin option chain data were collected from a leading cryptocurrency option exchange over a four-month period for model development and validation. Our dataset includes short-maturity options with expiry in less than six days, as well as a full range of moneyness, both of which are often excluded in existing studies as prices for options with these characteristics are often highly volatile and pose challenges to model building. Our in-sample and out-sample results indicate that including our proposed momentum indicator significantly enhances the model's accuracy in pricing options. The nonlinear machine learning random forest algorithm also performed better than a simple linear regression. Compared to prevailing option pricing models that employ stochastic variables, our DIVF model does not include stochastic factors but exhibits reasonably good performance. It is also easy to compute due to the availability of real-time RSIs. Our findings indicate our enhanced DIVF model offers significant improvements and may be an excellent alternative to existing option pricing models that are primarily stochastic in nature.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fe747abb2807e18f7ac0d292aafd893d",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:08.082097"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用机器学习和动量指标来建模隐含波动率，并应用于加密货币期权的定价。论文明确提到其研究目标是提高期权定价的准确性，这直接属于衍生品定价领域。虽然论文也提到风险管理和对冲，但这些是衍生品定价的延伸应用，而非主要研究方向。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用机器学习和动量指标来建模隐含波动率，并应用于加密货币期权的定价。论文明确提到其研究目标是提高期权定价的准确性，这直接属于衍生品定价领域。虽然论文也提到风险管理和对冲，但这些是衍生品定价的延伸应用，而非主要研究方向。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:59.084968"
+}

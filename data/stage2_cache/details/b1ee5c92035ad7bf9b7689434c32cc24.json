@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 62,
+    "title": "Deep reinforcement learning portfolio model based on mixture of experts",
+    "abstract": "In the field of artificial intelligence, the portfolio management problem has received widespread attention. Portfolio models based on deep reinforcement learning enable intelligent investment decision-making. However, most models only consider modeling the temporal information of stocks, neglecting the correlation between stocks and the impact of overall market risk. Moreover, their trading strategies are often singular and fail to adapt to dynamic changes in the trading market. To address these issues, this paper proposes a Deep Reinforcement Learning Portfolio Model based on Mixture of Experts (MoEDRLPM). Firstly, a spatio-temporal adaptive embedding matrix is designed, temporal and spatial self-attention mechanisms are employed to extract the temporal information and correlations of stocks. Secondly, dynamically select the current optimal expert from the mixed expert pool through router. The expert makes decisions and aggregates to derive the portfolio weights. Next, market index data is utilized to model the current market risk and determine investment capital ratios. Finally, deep reinforcement learning is employed to optimize the portfolio strategy. This approach generates diverse trading strategies according to dynamic changes in the market environment. The proposed model is tested on the SSE50 and CSI300 datasets. Results show that the total returns of this model increase by 12% and 8%, respectively, while the Sharpe Ratios improve by 64% and 51%.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "16fb9251b0b6da8667b011095af34ded",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.977165"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习和混合专家模型来优化投资组合策略，并明确提到在SSE50和CSI300数据集上进行测试，以提高总回报和夏普比率。这些内容直接指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习和混合专家模型来优化投资组合策略，并明确提到在SSE50和CSI300数据集上进行测试，以提高总回报和夏普比率。这些内容直接指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:57.442353"
+}

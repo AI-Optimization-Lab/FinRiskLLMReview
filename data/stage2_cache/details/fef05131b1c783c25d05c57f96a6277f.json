@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 4974,
+    "title": "The individual borrowers recognition: Single and ensemble trees",
+    "abstract": "Banks provide a financial intermediary service by channeling funds efficiently between borrowers and lenders. Bank lending is Subject to credit risk when loans are not paid back on a timely basis or are in default. The ability or possessing a methodology to evaluate the creditworthiness of a borrower is therefore crucial to managing the bank's risk management and profitability. The aim of the paper is dichotomous classification of the individual borrowers to the groups of creditworthy or non-creditworthy clients. The recognition of borrowers is provided applying single and aggregated classification trees. Classification trees are a powerful alternative to the more traditional statistical models. This model has the advantage of being able to detect non-linear relationships and showing a good performance in presence of qualitative information as it happens in the creditworthiness evaluation of individual borrowers. As a result, they are widely used as base classifiers for ensemble methods. Aggregated classification trees are constructed employing two ensemble methods: Adaboost and bagging. AdaBoost constructs its base classifiers in sequence, updating a distribution over the training examples to create each base classifier. Bagging combines the individual classifiers built in bootstrap replicates of the training set. The research is conducted employing actual data regarding the individual borrowers that got a mortgage credit in one of the commercial banks that operate in Poland. Each of the clients is described by 11 variables. The grouping variable informs if the client pays off the credit regularly due to the credit agreement or lie is back in loan redemption. Diagnostic variables describe the clients in terms of demographic features and characterize the credits that are to be paid back (i.e. value and currency of the credit, credit rate, etc.). (C) 2008 Elsevier Ltd. All rights reserved.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c2e0de266ca05c1f9342e9e02265ce70",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:43:06.705588"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on evaluating the creditworthiness of individual borrowers using machine learning techniques, which is a key aspect of credit risk management in financial institutions. This directly relates to Financial Risk Management as it aims to mitigate the risk of loan defaults.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on evaluating the creditworthiness of individual borrowers using machine learning techniques, which is a key aspect of credit risk management in financial institutions. This directly relates to Financial Risk Management as it aims to mitigate the risk of loan defaults.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:31.608795"
+}

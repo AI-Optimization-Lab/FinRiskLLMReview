@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 145,
+    "title": "Construction and Application Research of Isomap-RVM Credit Assessment Model",
+    "abstract": "Credit assessment is the basis and premise of credit risk management systems. Accurate and scientific credit assessment is of great significance to the operational decisions of shareholders, corporate creditors, and management. Building a good and reliable credit assessment model is key to credit assessment. Traditional credit assessment models are constructed using the support vector machine (SVM) combined with certain traditional dimensionality reduction algorithms. When constructing such a model, the dimensionality reduction algorithms are first applied to reduce the dimensions of the samples, so as to prevent the correlation of the samples' characteristic index from being too high. Then, machine learning of the samples will be conducted using the SVM, in order to carry out classification assessment. To further improve the accuracy of credit assessment methods, this paper has introduced more cutting-edge algorithms, applied isometric feature mapping (Isomap) for dimensionality reduction, and used the relevance vector machine (RVM) for credit classification. It has constructed an Isomap-RVM model and used it to conduct financial analysis of China's listed companies. The empirical analysis shows that the credit assessment accuracy of the Isomap-RVM model is significantly higher than that of the Isomap-SVM model and slightly higher than that of the PCA-RVM model. It can correctly identify the credit risks of listed companies.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "75c7697ae310929e21158a67826815cd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "principal components analysis",
+      "manifold learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:14.120226"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究信用评估模型的构建与应用，信用评估是信用风险管理的基础和前提，因此该论文的核心技术主要应用于金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究信用评估模型的构建与应用，信用评估是信用风险管理的基础和前提，因此该论文的核心技术主要应用于金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:44.487254"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2699,
+    "title": "Trajectory-based Algorithm Selection with Warm-starting",
+    "abstract": "Landscape-aware algorithm selection approaches have so far mostly been relying on landscape feature extraction as a preprocessing step, independent of the execution of optimization algorithms in the portfolio. This introduces a significant overhead in computational cost for many practical applications, as features are extracted and computed via sampling and evaluating the problem instance at hand, similarly to what the optimization algorithm would perform anyway within its search trajectory. As suggested in [Jankovic et al., EvoAPP 2021], trajectory-based algorithm selection circumvents the problem of costly feature extraction by computing landscape features from points that a solver sampled and evaluated during the optimization process. Features computed in this manner are used to train algorithm performance regression models, upon which a per-run algorithm selector is then built. In this work, we apply the trajectory-based approach onto a portfolio of five algorithms. We study the quality and accuracy of performance regression and algorithm selection models in the scenario of predicting different algorithm performances after a fixed budget of function evaluations. We rely on landscape features of the problem instance computed using one portion of the aforementioned budget of the same function evaluations. Moreover, we consider the possibility of switching between the solvers once, which requires them to be warm-started, i.e. when we switch, the second solver continues the optimization process already being initialized appropriately by making use of the information collected by the first solver. In this new context, we show promising performance of the trajectory-based per-run algorithm selection with warm-starting.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "723f690af089456642bb4958b81518ab",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:43.315535"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于轨迹的算法选择和预热启动技术，虽然提到了算法组合（portfolio），但这是指优化算法的组合，而非金融投资组合。论文内容并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于轨迹的算法选择和预热启动技术，虽然提到了算法组合（portfolio），但这是指优化算法的组合，而非金融投资组合。论文内容并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:16.088557"
+}

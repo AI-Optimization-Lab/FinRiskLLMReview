@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2490,
+    "title": "Robust strategies for quantitative investment management",
+    "abstract": "We show how quantile estimation combined with robust methods can be used in quantitative investment management. A portfolio manager uses a quantitative model to select securities. The objective is to outperform a benchmark portfolio, subject to risk constraints. Traditional stock selection models express expected returns as a function of factors where all parts of the return distribution are affected similarly. This is subsumed by the quantile approach in which a stock's entire return distribution is a conditional function of factors. Robust methods insure that our estimates do not depend on a small subset of the data. Regression quantile estimates then detect the potentially different impact of factors at the center and tails of the return distribution. This is illustrated in assessing a model's forecasting accuracy while controlling for return differences between economic sectors. We are thereby able to detect forecasting properties that would have been missed by a conventional analysis of the data.",
+    "year": 2004,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "60559dcf9875151379634712fd586950",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:35.643431"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用分位数估计和稳健方法进行定量投资管理，旨在通过改进的股票选择模型来超越基准投资组合的表现，同时控制风险。这直接涉及投资组合管理的核心问题，即如何选择和优化投资组合以实现特定的投资目标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用分位数估计和稳健方法进行定量投资管理，旨在通过改进的股票选择模型来超越基准投资组合的表现，同时控制风险。这直接涉及投资组合管理的核心问题，即如何选择和优化投资组合以实现特定的投资目标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:39.092518"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 149,
+    "title": "High-Dimensional Stock Portfolio Trading with Deep Reinforcement Learning",
+    "abstract": "This paper proposes a Deep Reinforcement Learning algorithm for financial portfolio trading based on Deep Q-learning [1]. The algorithm is capable of trading high-dimensional portfolios from cross-sectional datasets of any size which may include data gaps and non-unique history lengths in the assets. We sequentially set up environments by sampling one asset for each environment while rewarding investments with the resulting asset's return and cash reservation with the average return of the set of assets. This enforces the agent to strategically assign capital to assets that it predicts to perform above-average. We apply our methodology in an out-of-sample analysis to 48 US stock portfolio setups, varying in the number of stocks from ten up to 500 stocks, in the selection criteria and in the level of transaction costs. The algorithm on average outperforms all considered passive and active benchmark investment strategies by a large margin using only one hyperparameter setup for all portfolios.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "64f68ca608149fb8ed47ecff911b1989",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "deep belief network",
+      "DBM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.068454"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing a Deep Reinforcement Learning algorithm for financial portfolio trading, specifically addressing high-dimensional stock portfolios and outperforming benchmark investment strategies. This directly aligns with the domain of Portfolio Management, as it involves strategic capital allocation and active trading of assets to achieve above-average returns.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing a Deep Reinforcement Learning algorithm for financial portfolio trading, specifically addressing high-dimensional stock portfolios and outperforming benchmark investment strategies. This directly aligns with the domain of Portfolio Management, as it involves strategic capital allocation and active trading of assets to achieve above-average returns.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:20.158970"
+}

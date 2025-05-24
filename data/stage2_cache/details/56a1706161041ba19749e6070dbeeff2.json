@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1538,
+    "title": "The Poisson regression with fixed and random effects in non-life insurance ratemaking",
+    "abstract": "Important part of data analysis in insurance business is the construction of a fair tariff structure called classification ratemaking. The goal of this classification is partition all policies in particular portfolio into homogeneous classes. Within every class, all policyholders pay the same pure premium. To design classification rating plans, actuaries use the generalized linear models (GLM) technique. In GLM model, the dependent variable is usually the claim severity or the claim frequency for ith policy. In the paper we focus on the claim frequency. The rating variables are the categorical variables with few categories like e.g. gender or a large number of categories like e.g. spatial variables. The GLM model assumes observed responses are independent. However many portfolios of policies yield correlated observations. Correlation results from the sampling design or the way data are collected. The aim of this paper is to propose mixed models based on Poisson regression which are useful in claim frequency modelling. In this models we take into account specificities of insurance data: correlation, overdispersion and zero-inflation effects in data. The case study demonstrate the validity of the application of these models.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a7fa316dbbcf239cc71644474c7e9b93",
+    "relevant_keywords": [
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:39.167965"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是非寿险费率制定中的Poisson回归模型，虽然涉及保险业务中的风险建模，但并不直接属于衍生品定价、金融风险管理或投资组合管理这些特定的金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是非寿险费率制定中的Poisson回归模型，虽然涉及保险业务中的风险建模，但并不直接属于衍生品定价、金融风险管理或投资组合管理这些特定的金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:14.478116"
+}

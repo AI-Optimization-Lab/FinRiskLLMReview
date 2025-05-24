@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 233,
+    "title": "The Study on Option Pricing Based on Wiener-Itô Chaos Expansion and Generative Adversarial Networks",
+    "abstract": "The stochastic volatility model, for pricing complex financial products, adequately considers the skewness and smile shape of asset volatility. However, it is often challenging to obtain analytical solutions for options on asset prices under such models. Therefore, this study proposes a hybrid approach for forecasting the prices of European options based on the Heston model, utilizing the Wiener-It & ocirc; chaos (WIC) expansion and generative adversarial networks (GANs). Firstly, a two-step approach is constructed based on the simulated annealing algorithm and trust region reflective algorithm to globally optimize the Heston model. Secondly, the WIC method is adopted to derive a closed-form approximate pricing formula for European call options under the mixed volatility model, which in turn yields an approximation of option prices under the Heston model. Thirdly, the GANs model, incorporating long short-term memory networks and multi-layer perceptrons, is utilized to train the residual term D, representing the difference between the actual option price and its asymptotic approximation, which substantially improves the forecasting model's accuracy and robustness. Empirical research on SSE 50 ETF options demonstrates that the proposed model achieves better results in terms of accuracy and stability. The empirical results of training the residual term D significantly outperform those of training the actual option price. Additionally, the adversarial game concept of the GANs model leads to significantly better forecast performance compared to other machine learning models.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "0b2bca1b50df03ea6fed2994b8db58f2",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "generative adversarial networks",
+      "GANs"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.206020"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是基于Wiener-Itô混沌展开和生成对抗网络（GANs）的混合方法，用于预测欧式期权的价格。研究目标明确针对期权定价问题，并通过实证研究验证了模型在期权定价中的准确性和稳定性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是基于Wiener-Itô混沌展开和生成对抗网络（GANs）的混合方法，用于预测欧式期权的价格。研究目标明确针对期权定价问题，并通过实证研究验证了模型在期权定价中的准确性和稳定性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:02.063382"
+}

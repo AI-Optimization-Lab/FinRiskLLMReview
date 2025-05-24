@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 2652,
+    "title": "Co-evolution of neural architectures and features for stock market forecasting: A multi-objective decision perspective",
+    "abstract": "In a multi-objective setting, a portfolio manager's highly consequential decisions can benefit from assessing alternative forecasting models of stock index movement. The present investigation proposes a new approach to identify a set of non-dominated neural network models for further selection by the decision-maker. A new co -evolution approach is proposed to simultaneously select the features and topology of neural networks (collectively referred to as neural architecture), where the features are viewed from a topological perspective as input neurons. Further, the co-evolution is posed as a multi-criteria problem to evolve sparse and efficacious neural architectures. The well-known dominance and decomposition based multi-objective evolutionary algorithms are augmented with a non-geometric crossover operator to diversify and balance the search for neural architectures across conflicting criteria. Moreover, the co-evolution is augmented to accommodate the data-based implications of distinct market behaviors prior to and during the ongoing COVID-19 pandemic. A detailed comparative evaluation is carried out with the conventional sequential approach of feature selection followed by neural topology design, as well as a scalarized co-evolution approach. The results on three market indices (NASDAQ, NYSE, and S&P500) in pre-and peri-COVID time windows convincingly demonstrate that the proposed co-evolution approach can evolve a set of non-dominated neural forecasting models with better generalization capabilities.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "43f44812b4e58b5886c7b6a7fcd9b919",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "feature learning",
+      "feature representation",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.882320"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种新的多目标决策方法，用于评估股票指数走势的预测模型，旨在帮助投资组合经理做出更好的决策。论文的研究目标和技术应用主要集中在投资组合管理领域，通过优化神经网络架构和特征选择来提高股票市场预测的准确性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种新的多目标决策方法，用于评估股票指数走势的预测模型，旨在帮助投资组合经理做出更好的决策。论文的研究目标和技术应用主要集中在投资组合管理领域，通过优化神经网络架构和特征选择来提高股票市场预测的准确性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:37.964134"
+}

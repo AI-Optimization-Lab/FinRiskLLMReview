@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1679,
+    "title": "Algorithm Design for Asset Trading Under Multiple Factors",
+    "abstract": "For the strategy of investing in gold and Bitcoin, first collect the historical prices of two types of investment products in the market, and use the wavelet neural network model and WT-LSTM model to model and analyze to predict the future price trends of gold and Bitcoin. Second, considering the difference in price fluctuations between gold and Bitcoin, based on the GARCH-EVT model to increase the risk uncertainty of financial assets, proposes how to achieve the best trading strategy under risk characteristics. Finally, considering the influence of transaction rate on income, we use particle swarm algorithm and genetic algorithm to study what kind of transaction rate can achieve maximum income. The study found that although traders can predict future trends based on daily price changes, due to the different risk factors of gold and Bitcoin, and the different sensitivity of the two financial assets to transaction costs, trading strategies will be very different.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4b3791f1f02c63b68cb0b77c1b3e833c",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.423944"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究如何通过预测黄金和比特币的价格趋势，并考虑风险因素和交易成本，来优化交易策略以实现最大收益。这属于投资组合管理的范畴，因为它涉及资产选择和交易策略的优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究如何通过预测黄金和比特币的价格趋势，并考虑风险因素和交易成本，来优化交易策略以实现最大收益。这属于投资组合管理的范畴，因为它涉及资产选择和交易策略的优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:00.264863"
+}

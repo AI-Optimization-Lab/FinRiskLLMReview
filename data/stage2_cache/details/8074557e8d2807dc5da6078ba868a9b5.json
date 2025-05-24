@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 682,
+    "title": "Robo-Advising: Learning Investors' Risk Preferences via Portfolio Choices",
+    "abstract": "We introduce a reinforcement learning framework for retail robo-advising. The robo-advisor does not know the investor's risk preference but learns it over time by observing her portfolio choices in different market environments. We develop an exploration-exploitation algorithm that trades off costly solicitations of portfolio choices by the investor with autonomous trading decisions based on stale estimates of investor's risk aversion. We show that the approximate value function constructed by the algorithm converges to the value function of an omniscient robo-advisor over a number of periods that is polynomial in the state and action space. By correcting for the investor's mistakes, the robo-advisor may outperform a standalone investor, regardless of the investor's opportunity cost for making portfolio decisions.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0edf648de8116c1b8f15f98041279195",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.536832"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是强化学习框架，用于零售机器人顾问（robo-advising），通过观察投资者的投资组合选择来学习其风险偏好，并优化投资组合决策。这直接涉及投资组合管理的领域，而不涉及衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是强化学习框架，用于零售机器人顾问（robo-advising），通过观察投资者的投资组合选择来学习其风险偏好，并优化投资组合决策。这直接涉及投资组合管理的领域，而不涉及衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:31.570858"
+}

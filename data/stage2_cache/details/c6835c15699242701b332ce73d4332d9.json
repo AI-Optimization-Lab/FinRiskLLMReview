@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 183,
+    "title": "Modeling Price and Risk in Chinese Financial Derivative Market with Deep Neural Network Architectures",
+    "abstract": "As rapid growth, Chinese financial derivative market is holding increasingly large proportions in entire domestic capital market as well as in global shares. To the nature of derivative instruments, plenty of market data features (such as prices and trading volumes) and off-market factors (such as financial news and policies) can directly impact on the price and risk in Chinese financial derivative markets, which is becoming more and more infeasible to model by using only traditional financial models and hand-crafted features. To alleviate the issue, in this paper we introduce some state-of-art deep neural network architectures and model two significant futures market price and risk indicators that are widely used by Chinese regulators, which are turn-over ratio (ratio of daily trading volumes and daily open interest volumes) and price basis (gap between futures price and corresponding spot product price). The extensive experimental results show that deep learning methods perform better prediction accuracy than traditional methods, among which convolutional LSTM achieves better results in most cases as it can capture local time-variant patterns. In addition, we also propose methods to exploit alternative off-market features (such as social media emotions and Baidu Search Index) with DNN models, which are proven beneficial to the price and risk prediction by rendering extra information than only market data.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b0b421a9ee909fa1f2608e1843e85d0a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:52.997406"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度神经网络架构来建模中国金融衍生品市场的价格和风险指标，如换手率和价格基差。这些内容直接涉及衍生品定价和金融风险管理领域。论文明确提到预测价格和风险指标，这些都是衍生品定价和风险管理的关键组成部分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度神经网络架构来建模中国金融衍生品市场的价格和风险指标，如换手率和价格基差。这些内容直接涉及衍生品定价和金融风险管理领域。论文明确提到预测价格和风险指标，这些都是衍生品定价和风险管理的关键组成部分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:21.699087"
+}

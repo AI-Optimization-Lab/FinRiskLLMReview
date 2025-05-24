@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 205,
+    "title": "Gated Neural Network-Based Mean-EVaR-Skewness Portfolio Optimization under Uncertain Environment",
+    "abstract": "Numerous empirical studies show that portfolio returns are generally asymmetric, and investor would prefer a portfolio return with larger degree of asymmetry along with risk and return. In this paper, a concept of skewness is defined as the third central moment and studied its mathematical properties. To predict the stock prices, a novel recurrent neural network with gated recurrent unit (GRU) cell is preferred. Based on these predictions, stock returns, entropic value at risks and skewness are calculated. A mean-EVaR-skewness multi-objective portfolio optimization model is devised to account for market uncertainty. Cardinality, bounding restrictions, and liquidity are considered in addition to risk and return to make the model more effective. Uncertain goal programming is used to solve the proposed model. Finally, an example portfolio is presented to display the efficacy and the feasibility of the model suggested in this paper.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c30048db0056052c4890b1f8d1151aa4",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "gated recurrent unit",
+      "GRU"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.107767"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是构建一个基于GRU神经网络的多目标投资组合优化模型，考虑了风险、收益、偏度等多个因素，并应用于股票投资组合的优化，这明显属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是构建一个基于GRU神经网络的多目标投资组合优化模型，考虑了风险、收益、偏度等多个因素，并应用于股票投资组合的优化，这明显属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:44.509669"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1900,
+    "title": "Predicting product life cycle environmental impacts with machine learning: Uncertainties and implications for future reporting requirements",
+    "abstract": "With the introduction of the European Green Deal, companies must increasingly report the environmental impacts of their products using life cycle assessment methodology. Since the number of products in a company's portfolio can include thousands of different products, there is an urgent need for faster ways to estimate impact hotspots and to ultimately obtain adequate inventories. In recent years machine learning (ML) has emerged as a promising strategy to tackle cost- and resource-prohibitive accounting practices. However, to be practically applied, new concepts must not only be built on a large data basis allowing to predict diverse products with varying reference flows, but they must also ensure high data quality by reflecting different types of uncertainties. Therefore, in this publication we pursued three distinct objectives: building on digitized environmental product declarations, we first predicted life cycle environmental impacts with artificial neural networks (ANN) and second performed an in-depth characterization of uncertainty and sensitivity analysis methods to identify which methods can analyze what uncertainty types. Based on this analysis, we chose residual Gaussian Process Regression (rGPR) as suitable uncertainty analysis method and employed, in a third step, an advanced ANN-rGPR hybrid model to quantify associated model uncertainties. While our final model derived high prediction performances and low model uncertainties across a large impact range, we conclude that the practical use of MLbased predictions remains limited, as long as reported product disclosures lack critical modeling specifications. However, if future reporting requirements comprehensively demanded such information, ML models could conceptually incorporate this information, thereby not only substantially improving the data quality but also the feasibility of practical implementation.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e8f27cde897ecbe9f70ae288bf929748",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:06.075082"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习预测产品生命周期环境影响，并分析相关不确定性，其应用领域为环境评估和可持续性报告，与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习预测产品生命周期环境影响，并分析相关不确定性，其应用领域为环境评估和可持续性报告，与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:17.529015"
+}

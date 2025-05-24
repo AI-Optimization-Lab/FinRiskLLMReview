@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 87,
+    "title": "Pricing options with exponential Levy neural network",
+    "abstract": "In this paper, we propose the exponential Levy neural network (ELNN) for option pricing, which is a new non-parametric exponential Levy model using artificial neural networks (ANN). The ELNN fully integrates the ANNs with the exponential Levy model, a conventional pricing model. So, the ELNN can improve ANN-based models to avoid several essential issues such as unacceptable outcomes and inconsistent pricing of over-the-counter products. Moreover, the ELNN is the first applicable non-parametric exponential Levy model by virtue of outstanding researches on optimization in the field of ANN. The existing non-parametric models are rather not robust for application in practice. The empirical tests with S&P 500 option prices show that the ELNN fits the data better than two parametric exp-Levy models and its estimates are less overfit than another network-based model. (C) 2019 Elsevier Ltd. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "acadab54d88a88168642658cf9a73f1e",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.973368"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出了一种用于期权定价的指数Levy神经网络（ELNN），并实证测试了其在S&P 500期权定价中的应用。这明确属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出了一种用于期权定价的指数Levy神经网络（ELNN），并实证测试了其在S&P 500期权定价中的应用。这明确属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:01.060248"
+}

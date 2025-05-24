@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 5863,
+    "title": "A joint model of failures and credit ratings",
+    "abstract": "We propose a novel framework for credit risk modeling, where default or failure information and rating or expert information are jointly incorporated in the model. These sources of information are modeled as response variables in a multivariate ordinal regression model estimated by a composite likelihood procedure. The proposed framework provides probabilities of default conditional on the rating information observed at the beginning of a predetermined period and is able to account for missing failure or credit rating information. Our approach is, to the best of our knowledge, the first that consistently combines failure-prediction models, where default indicators are used as responses, with so-called shadow rating models, where the responses are estimates of default probabilities usually derived from the leading credit rating agencies. In our empirical analysis we apply the proposed framework to a data set of US firms over the period from 1985 to 2014. Different sets of financial ratios constructed from financial statements and market information are selected as bankruptcy predictors in line with the standard literature in failure-prediction modeling. We find that the joint model of failures and credit ratings outperforms state-of-the-art failure-prediction models and shadow rating approaches in terms of prediction accuracy and discriminatory power.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "41f71a529283031c5b3d9406e950dc82",
+    "relevant_keywords": [
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:52:31.351044"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit risk modeling by jointly incorporating default information and credit ratings to improve prediction accuracy. This directly addresses the assessment and management of credit risk, which is a key aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit risk modeling by jointly incorporating default information and credit ratings to improve prediction accuracy. This directly addresses the assessment and management of credit risk, which is a key aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:57.707810"
+}

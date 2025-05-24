@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 22,
+    "title": "基于时间加权和AdaBoost集成的动态多因子选股模型",
+    "abstract": "本文重点研究了如何有效地构建动态的量化选股模型。考虑到股票数据中存在的概念漂移现象，构建一种基于时间加权和AdaBoost支持向量机集成的动态选股模型——ADASVM-TW<sup>*</sup>。该模型通过将时间权重嵌入ADASVM中，根据样本的新旧以及是否错分更新样本权重。考虑到因子的时变性，采用随机森林算法进行动态因子选择。以2011年至2020年上证50各成分股为研究对象进行实证研究。研究发现，ADASVM-TW<sup>*</sup>模型的平均准确率和平均精度分别达到了53.24%和56.10%,基于预测结果构建的投资组合实现了29.86%的年化收益率，远高于其他投资组合和基准，并且该模型同时通过了显著性检验和稳健性检验。",
+    "year": 2025,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ce49d28d24a830c649466e1ca118244c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:14:45.069222"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建动态的量化选股模型，并通过预测结果构建投资组合，这直接属于投资组合管理的范畴。论文的研究目标和实证结果都集中在提高投资组合的收益率上，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建动态的量化选股模型，并通过预测结果构建投资组合，这直接属于投资组合管理的范畴。论文的研究目标和实证结果都集中在提高投资组合的收益率上，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:32.597663"
+}

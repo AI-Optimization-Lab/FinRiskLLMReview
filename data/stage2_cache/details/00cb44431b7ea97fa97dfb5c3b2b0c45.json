@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 117,
+    "title": "Continual portfolio selection in dynamic environments via incremental reinforcement learning",
+    "abstract": "Portfolio selection, as an important topic in the finance community, has attracted increased attention from artificial intelligence practitioners. Recently, the reinforcement learning (RL) paradigm, with the self-learning and model-free property, provides a promising candidate to solve complex portfolio selection tasks. Traditional research on RL-based portfolio selection focuses on batch-mode stationary problems, where all the market data is assumed to be available for the one-time training process. However, the real-world financial markets are often dynamic where the streaming data increments with new patterns keep emerging continually. In the paper, we address the continual portfolio selection problem in such dynamic environments. We propose to utilize the incremental RL approach with a two-step solution for efficiently adjusting the existing portfolio policy to a new one when the market changes as a new data increment comes. The first step, policy relaxation, forces the agent to execute a relaxed policy for encouraging a sufficient exploration in the new market. The second step, importance weighting, puts emphasis on learning samples consisting of more new information for stimulating the existing portfolio policy to more rapidly adapt to the new market. Evaluation results on real-world portfolio tasks verify the effectiveness and superiority of our method for addressing the continual portfolio selection in dynamic environments.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d614cb3f9270249a4ae942767d97de47",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.573447"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用增量强化学习方法来解决动态环境中的持续投资组合选择问题，这直接属于投资组合管理的研究领域。论文明确提到其研究目标是调整投资组合策略以适应市场变化，并验证了方法在实际投资组合任务中的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用增量强化学习方法来解决动态环境中的持续投资组合选择问题，这直接属于投资组合管理的研究领域。论文明确提到其研究目标是调整投资组合策略以适应市场变化，并验证了方法在实际投资组合任务中的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:26.279390"
+}

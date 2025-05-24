@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 494,
+    "title": "Early warning of systemic risk in stock market based on EEMD-LSTM",
+    "abstract": "With the increasing importance of the stock market, it is of great practical significance to accurately describe the systemic risk of the stock market and conduct more accurate early warning research on it. However, the existing research on the systemic risk of the stock market lacks multi-dimensional factors, and there is still room for improvement in the forecasting model. Therefore, to further measure the systemic risk profile of the Chinese stock market, establish a risk early warning system suitable for the Chinese stock market, and improve the risk management awareness of investors and regulators. This paper proposes a combination model of EEMD-LSTM, which can describe the complex nonlinear interaction. Firstly, 35 stock market systemic risk indicators are selected from the perspectives of macroeconomic operation, market cross-contagion and the stock market itself to build a comprehensive indicator system that conforms to the reality of China. Furthermore, based on TEI@I complex system methodology, an EEMD-LSTM model is proposed. The EEMD method is adopted to decompose the composite index sequence into intrinsic mode function components (IMF) of different scales and one trend term. Then the LSTM algorithm is used to predicted and model the decomposed sub-sequences. Finally, the forecast result of the composite index is obtained through integration. The empirical results show that the stock market systemic risk index constructed in this paper can effectively identify important risk events within the sample period. In addition, compared with the benchmark model, the EEMD-LSTM model constructed in this paper shows a stronger early warning ability for systemic financial risks in the stock market.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "f5ba8c10679166c3a075e8c11b87faa0",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:38:59.275729"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用EEMD-LSTM模型进行股票市场系统性风险的早期预警，这直接属于金融风险管理的范畴。论文明确提到建立风险预警系统并提高风险管理意识，且实证结果表明该模型能有效识别风险事件。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用EEMD-LSTM模型进行股票市场系统性风险的早期预警，这直接属于金融风险管理的范畴。论文明确提到建立风险预警系统并提高风险管理意识，且实证结果表明该模型能有效识别风险事件。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:52.204298"
+}

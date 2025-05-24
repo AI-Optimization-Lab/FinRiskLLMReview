@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 702,
+    "title": "Unsupervised neural networks approach for understanding fraudulent financial reporting",
+    "abstract": "Purpose - Creditor reliance on accounting-based numbers as a persistent and traditional standard to assess a firm's financial soundness and viability suggests that the integrity of financial statements is essential to credit decisions. The purpose of this paper is to provide an approach to explore fraudulent financial reporting (FFR) via growing hierarchical self-organizing map (GHSOM), an unsupervised neural network tail, to help capital providers evaluate the integrity of financial statements, and to facilitate analysis further to reach prudent credit decisions. Design/methodology/approach - This paper develops a two-stage approach: a classification stage that well trains the GHSOM to cluster the sample into subgroups with hierarchical relationship, and a pattern-disclosure stage that uncovers patterns of the common FFR techniques and relevant risk indicators of each subgroup. Findings - An application is conducted and its results show that the proposed two-stage approach can help capital providers evaluate the reliability of financial statements and accounting numbers-based decisions. Practical implications - Following the SOM theories, it seems that common FFR techniques and relevant risk indicators extracted from the GHSOM clustering result are applicable to all samples clustered in the same leaf node (subgroup). This principle and any pre-warning signal derived from the identified indicators can be applied to assessing the reliability of financial statements and forming a basis for further analysis in order to reach prudent decisions. The limitation of this paper is the subjective parameter setting of GHSOM. Originality/value - This is the first application of GHSOM to financial data and demonstrates an alternative way to help capital providers such as lenders to evaluate the integrity of financial statements, a basis for further analysis to reach prudent decisions. The proposed approach could be applied to other scenarios that rely on accounting numbers as a basis for decisions.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ffb9421a06a8fa8cdd5126d0998b7993",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "classification",
+      "clustering",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.451832"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用无监督神经网络（GHSOM）来检测财务报表欺诈，帮助资本提供者评估财务报表的可靠性。这属于金融风险管理领域，因为它涉及识别和管理与财务报告相关的风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用无监督神经网络（GHSOM）来检测财务报表欺诈，帮助资本提供者评估财务报表的可靠性。这属于金融风险管理领域，因为它涉及识别和管理与财务报告相关的风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:48.859889"
+}

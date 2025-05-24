@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 593,
+    "title": "An automated treatment planning portfolio for whole breast radiotherapy",
+    "abstract": "BackgroundAutomation in radiotherapy presents a promising solution to the increasing cancer burden and workforce shortages. However, existing automated methods for breast radiotherapy lack a comprehensive, end-to-end solution that meets varying standards of care.PurposeThis study aims to develop a complete portfolio of automated radiotherapy treatment planning for intact breasts, tailored to individual patient factors, clinical approaches, and available resources.MethodsWe developed five automated conventional treatment approaches and utilized an established RapidPlan model for volumetric arc therapy. These approaches include conventional tangents for whole breast treatment, two variants for supraclavicular nodes (SCLV) treatment with/without axillary nodes, and two options for comprehensive regional lymph nodes treatment. The latter consists of wide tangents photon fields with a SCLV field, and a photon tangents field with a matched electron field to treat the internal mammary nodes (IMNs), and a SCLV field. Each approach offers the choice of a single or two isocenter setup (with couch rotation) to accommodate a wide range of patient sizes. All algorithms start by automatically generating contours for breast clinical target volume, regional lymph nodes, and organs at risk using an in-house nnU-net deep learning models. Gantry angles and field shapes are then automatically generated and optimized to ensure target coverage while limiting the dose to nearby organs. The dose is optimized using field weighting for the lymph nodes fields and an automated field-in-field approach for the tangents. These algorithms were integrated into the RayStation treatment planning system and tested for clinical acceptability on 15 internal whole breast patients (150 plans) and 40 external patients from four different institutions in Switzerland, Argentina, Iran, and the USA (360 plans). Evaluation criteria included ensuring adequate coverage of targets and adherence to dose constraints for normal structures. A breast radiation oncologist reviewed the single institution dataset for clinical acceptability (5-point scale) and a physicist evaluated the multi-institutional dataset (use as is or edit).ResultsThe dosimetric evaluation across all datasets (510 plans) showed that 100% of the automated plans met the dose coverage requirements for the breast, 99% for the SCLV, 98% for the axillary nodes, and 91% for the IMN. As expected, hot spots were more prevalent when multiple fields were combined. For the heart, ipsilateral lung, and contralateral breast, automated plans met constraints for 95%, 92%, and 95% of the plans, respectively. Physician evaluation of the 15 internal patients indicated that all automated plans were clinically acceptable with minor edits. Notably, the use of automated contours with the RapidPlan model resulted in plans that were immediately ready for use in 73% of cases (95% confidence interval, 95% CI [51- 96]) of patients, with the remaining cases requiring minor stylistic edits. Similarly, the physicist's review of the 40 multi-institution patients showed that the auto-plans were ready for use 79% (95% CI [73,85]) of the time (95% CI [73,85]), with edits needed for the remaining cases.ConclusionThis study demonstrates the feasibility of a comprehensive automated treatment planning model for whole breast radiotherapy, effectively accommodating diverse treatment paradigms.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "7b65ad85af8c061238bf61daadf2ae9f",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:37:38.214056"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究自动化放射治疗计划在乳腺癌治疗中的应用，涉及深度学习模型和自动化算法，但未提及任何与金融领域相关的应用或技术。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究自动化放射治疗计划在乳腺癌治疗中的应用，涉及深度学习模型和自动化算法，但未提及任何与金融领域相关的应用或技术。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:32.588106"
+}

@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "support vector machine",
+    "SVM",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "论文摘要明确提到使用多种机器学习算法处理个人数据，并比较不同算法的效果。",
+    "supervised learning": "个人信用评价是一个典型的监督学习问题，需要根据已知标签（如正常用户或违约用户）进行分类。",
+    "classification": "论文研究的是个人信用评价，这是一个分类问题，需要将用户分为正常用户或违约用户。",
+    "support vector machine": "摘要中明确提到支持向量机（SVM）在捕捉违约用户方面准确率高。",
+    "SVM": "SVM是支持向量机的缩写，论文中提到了这一算法。",
+    "decision tree": "随机森林是基于决策树的集成学习方法，论文中提到了随机森林算法。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"support vector machine\",\n    \"SVM\",\n    \"decision tree\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"论文摘要明确提到使用多种机器学习算法处理个人数据，并比较不同算法的效果。\",\n    \"supervised learning\": \"个人信用评价是一个典型的监督学习问题，需要根据已知标签（如正常用户或违约用户）进行分类。\",\n    \"classification\": \"论文研究的是个人信用评价，这是一个分类问题，需要将用户分为正常用户或违约用户。\",\n    \"support vector machine\": \"摘要中明确提到支持向量机（SVM）在捕捉违约用户方面准确率高。\",\n    \"SVM\": \"SVM是支持向量机的缩写，论文中提到了这一算法。\",\n    \"decision tree\": \"随机森林是基于决策树的集成学习方法，论文中提到了随机森林算法。\"\n  }\n}\n```"
+}

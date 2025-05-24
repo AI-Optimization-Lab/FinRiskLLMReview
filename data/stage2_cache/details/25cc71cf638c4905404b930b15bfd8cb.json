@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 403,
+    "title": "Explainable Ensemble Machine Learning Method for Credit Risk Classification",
+    "abstract": "Credit risk classification (CRC) is a crucial task for banks to determine the financial position of the client for credit. Several machine learning models were proposed to deal with credit risk classification. However, conventional methods operate as black-box models that provide only the classification of clients without providing further explanations. To address this issue, we propose an explainable ensemble machine learning method for credit risk classification named EEML. The proposed method is based on combining five different machine learning models into an aggregate-learner, creating a standalone ensemble model. The interpretability and explainability of EEML outputs are enhanced by leveraging the capabilities of Shapley Additive exPlanations (SHAP). Experiments conducted on two real credit risk datasets have shown the performance of EEML compared to existing explainable credit risk classification methods. The EEML method gives high accuracy in classifying clients while providing explainability.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7b62e14c8c8dec2da1287fe4f20f963d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.108980"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit risk classification, which is a key aspect of financial risk management, particularly in assessing the likelihood of client default. The proposed explainable ensemble machine learning method is specifically designed to enhance the interpretability of credit risk assessments, a critical task in risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit risk classification, which is a key aspect of financial risk management, particularly in assessing the likelihood of client default. The proposed explainable ensemble machine learning method is specifically designed to enhance the interpretability of credit risk assessments, a critical task in risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:25.633273"
+}

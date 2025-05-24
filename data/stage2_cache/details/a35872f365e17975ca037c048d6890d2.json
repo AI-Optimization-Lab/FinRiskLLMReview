@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1276,
+    "title": "Prediction of stock price movement based on daily high prices",
+    "abstract": "Prediction of stock close price movements has attracted a lot of research interest. Using machine learning techniques, especially statistical classifiers, for day ahead forecasting of the movement of daily close prices of a broad range of several hundreds of liquid stocks is generally not very successful. We suspect that one of the reasons for failure is the relatively high volatility of prices in the last minutes before the market closes. There have been some attempts to use less volatile daily high prices instead, but the studies concentrated only on a specific non-statistical machine learning approach on a small number of specific securities. We show that incorporating statistical classifiers for day ahead daily high price movement predictions in to some simple portfolio management techniques significantly increases their performance. Tests performed on S&P 500 stocks show that such a strategy is robust, i.e. the difference in reliability for different stocks does not vary significantly, and that such a strategy greatly outperforms the S&P 500 index and several other benchmarks while increasing the risk only by a small amount.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "952f34545ff05e78b5ed7116f29fff8e",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.179345"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用机器学习分类器预测股票每日最高价格的变动，并将其应用于简单的投资组合管理技术中，显著提高了投资组合的表现。论文明确提到这种策略在S&P 500股票上的测试表现优于基准指数，且风险增加较小，这直接关联到投资组合管理的实践。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用机器学习分类器预测股票每日最高价格的变动，并将其应用于简单的投资组合管理技术中，显著提高了投资组合的表现。论文明确提到这种策略在S&P 500股票上的测试表现优于基准指数，且风险增加较小，这直接关联到投资组合管理的实践。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:09.717115"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1068,
+    "title": "Self-tuning portfolio-based Bayesian optimization",
+    "abstract": "Portfolio strategies for Bayesian optimization (BO) aim to mitigate the issue of choosing an acquisition function when performing black-box optimization with Gaussian processes (GP) surrogate models. In that sense, the GP-Hedge is a straightforward portfolio framework commonly used in practice. Our work proposes to overcome existing limitations on the GP-Hedge and related methods, such as reducing the influence of far past evaluations and promoting better exploration. Moreover, we aim to achieve such improvements without sacrificing the practicality of simpler portfolio strategies. More specifically, we propose a new BO method equipped with the aforementioned enhancements enabled by additional self-tuned hyperparameters, which are sampled during the optimization via Thompson sampling. We are able to update the posteriors analytically at each iteration by carefully choosing meaningful conjugate priors. The new approach, named Self-Tuning Portfolio-based BO (SETUP-BO), improves standard portfolio strategies without the need for manually tuning hyperparameters, which preserves easiness of use. We evaluate our method and its competitors in the task of hyperparameter optimization (HPO), a critical step towards automated machine learning (AutoML), following a thorough meta-surrogate benchmarking approach. We also consider a real-world scenario related to the task of fault detection in energy plants. Our methodology achieves promising results, which indicates the viability of the proposed SETUP-BO.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5388ac42c6cff8edb41abf73813db1a7",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.933778"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种基于贝叶斯优化的自调整组合策略，用于超参数优化（HPO）和自动化机器学习（AutoML），并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种基于贝叶斯优化的自调整组合策略，用于超参数优化（HPO）和自动化机器学习（AutoML），并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:47.450667"
+}

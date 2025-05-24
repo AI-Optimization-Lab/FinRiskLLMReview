@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 46,
+    "title": "Twin-system recurrent reinforcement learning for optimizing portfolio strategy",
+    "abstract": "Portfolio management is important for sequential investment decisions in response to fluctuating financial markets. As portfolio management can be formulated as a sequential decision -making problem, it has been addressed using reinforcement learning in recent years. However, reinforcement learning methods face challenges in addressing portfolio management problems considering practical constraints. To overcome the limitations, this study proposes a twin -system approach, establishing a tractable twin that mirrors the original problem but with more manageable constraints and system dynamics. Once an optimized portfolio strategy is achieved within the tractable twin, the proposed mapping function translates it back to the original problem, ensuring the retention of optimized performance. Unlike the previous study, the proposed recurrent reinforcement learning method optimizes the portfolio strategy for a single agent managing all candidate assets. This method allows for comprehensive investment decisions by incorporating the features of candidate assets, leading to a more globally optimized portfolio strategy. Experimental studies demonstrate that the proposed method consistently outperforms benchmark strategies on the US sector and foreign exchange portfolios.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "71b6208548e6471e248c2380d667d9e4",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.906339"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习优化投资组合策略，直接针对投资组合管理问题，旨在通过改进的算法实现更优的资产配置决策。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习优化投资组合策略，直接针对投资组合管理问题，旨在通过改进的算法实现更优的资产配置决策。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:01.461232"
+}

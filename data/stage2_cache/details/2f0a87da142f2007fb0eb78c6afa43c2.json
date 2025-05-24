@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1964,
+    "title": "Navigating the Difficulty of Achieving Global Optimality under Variance-Induced Time Inconsistency",
+    "abstract": "Measuring the long-term uncertainty of following a policy is important and insightful in many risk-sensitive applications such as in finance. In the context of reinforcement learning (RL), risk-based decision-making is commonly incorporated through an RL agent's goal to optimize the trade-off between the mean and variance of cumulative rewards. However, variance-based objectives are known to induce time inconsistency (TIC). This paper aims to see how TIC permeates into the design and behavior of mean-variance (MV) agents. We approach this by zooming into two optimality classes under TIC: global optimality and equilibrium, for each of which we identify a TIC-aware MV RL method, respectively, episodic policy gradient (EPG) and subgame perfect equilibrium RL (SPERL). We position both methods as approximate tools for achieving global optimality and evaluate their performance in two discerning financial environments: portfolio management and optimal execution. Noteworthily, our results show that despite EPG's globally optimal objective, its policy does not necessarily attain global optimality and is dominated by equilibrium/SPERL's policy in numerous environment setups.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "36f971cf12aa9bb0c3b8c8fa371e0387",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:48.241305"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文研究了在强化学习框架下基于均值-方差目标的决策问题，并特别提到了在投资组合管理和最优执行两个金融环境中的应用。这些应用直接关联到金融风险管理和投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文研究了在强化学习框架下基于均值-方差目标的决策问题，并特别提到了在投资组合管理和最优执行两个金融环境中的应用。这些应用直接关联到金融风险管理和投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:09.723105"
+}

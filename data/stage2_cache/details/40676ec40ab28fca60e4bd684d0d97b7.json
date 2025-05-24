@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1829,
+    "title": "Development and validation of a prediction model for ED using machine learning: according to NHANES 2001-2004",
+    "abstract": "Erectile Dysfunction (ED) is a form of sexual dysfunction in males that imposes significant health and financial burdens globally. Despite its high prevalence, diagnosing ED remains challenging due to the limitations of current diagnostic methods and patients' reluctance to seek medical help. Currently, some studies have used machine learning techniques for developing ED prediction models, but the performance and interpretability of existing models need to be further improved. This study utilized data from the National Health and Nutrition Examination Survey (NHANES) for the years 2001 to 2004, adhering to the Transparent Reporting of a Multivariable Prediction Model for Individual Prognosis or Diagnosis (TRIPOD) statement. After excluding male respondents who did not meet the study criteria, a total of 3,869 participants were included. Gradient boosting decision tree (GBDT) algorithms (XGBoost, CatBoost, LightGBM) were used to develop the ED prediction model. Data preprocessing, feature selection, model evaluation, and interpretability analysis were performed to ensure the reliability and effectiveness of the model. The model evaluation results revealed that the AUC values are XGBoost: 0.887 +/- 0.016; LightGBM: 0.879 +/- 0.016; CatBoost: 0.871 +/- 0.019. The F1-Scores are XGBoost: 0.695 +/- 0.023; LightGBM: 0.681 +/- 0.025; CatBoost: 0.681 +/- 0.025. The Recall values are XGBoost: 0.789 +/- 0.026; LightGBM: 0.739 +/- 0.030; CatBoost: 0.711 +/- 0.030. These results confirmed that the XGBoost model is the best-performing ED prediction model in this study. Interpretability analysis results of the XGBoost model showed that age, obesity, cardiovascular risk factors, prostate-related diseases, and socioeconomic status are key features for predicting ED, playing a significant role in the ED mechanism. Therefore, we believe the ED prediction model trained in this study has strong predictive performance and high interpretability. This model can help to expand the diagnostic options for ED, improve the diagnosis rate of ED, and assist doctors in early intervention for patients with ED, ultimately improving patient prognosis.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7c9e77970506775b683aad05419619f0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:03.929912"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习技术开发勃起功能障碍（ED）的预测模型，属于医疗健康领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习技术开发勃起功能障碍（ED）的预测模型，属于医疗健康领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:55.266660"
+}

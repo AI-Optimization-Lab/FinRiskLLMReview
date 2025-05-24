@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1805,
+    "title": "Predicting the Global Minimum Variance Portfolio",
+    "abstract": "We propose a novel dynamic approach to forecast the weights of the global minimum variance portfolio (GMVP) for the conditional covariance matrix of asset returns. The GMVP weights are the population coefficients of a linear regression of a benchmark return on a vector of return differences. This representation enables us to derive a consistent loss function from which we can infer the GMVP weights without imposing any distributional assumptions on the returns. In order to capture time variation in the returns' conditional covariance structure, we model the portfolio weights through a recursive least squares (RLS) scheme as well as by generalized autoregressive score (GAS) type dynamics. Sparse parameterizations and targeting toward the weights of the equally weighted portfolio ensure scalability with respect to the number of assets. We apply these models to daily stock returns, and find that they perform well compared to existing static and dynamic approaches in terms of both the expected loss and unconditional portfolio variance.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cfd3ca62a373136107bb3974b7f0e996",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:53.168539"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on forecasting the weights of the global minimum variance portfolio (GMVP) and compares its performance with existing static and dynamic approaches. This directly pertains to the optimization and management of investment portfolios, which is a core aspect of Portfolio Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on forecasting the weights of the global minimum variance portfolio (GMVP) and compares its performance with existing static and dynamic approaches. This directly pertains to the optimization and management of investment portfolios, which is a core aspect of Portfolio Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:46.134228"
+}

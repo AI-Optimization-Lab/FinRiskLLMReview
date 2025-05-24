@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "support vector machine",
+    "SVM",
+    "classification",
+    "regression"
+  ],
+  "explanations": {
+    "machine learning": "论文摘要中提到利用机器学习算法构建预警模型，明确涉及机器学习。",
+    "support vector machine": "论文使用了LSSVM（Least Squares Support Vector Machine）方法，这是一种支持向量机的变体。",
+    "SVM": "LSSVM是支持向量机（SVM）的一种，因此SVM相关。",
+    "classification": "论文在微观层面通过财务指标和个体指标判断单只债券的违约概率，这属于分类问题。",
+    "regression": "论文在宏观层面通过时间序列拟合市场波动情况，这涉及回归分析。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"support vector machine\", \"SVM\", \"classification\", \"regression\"],\n  \"explanations\": {\n    \"machine learning\": \"论文摘要中提到利用机器学习算法构建预警模型，明确涉及机器学习。\",\n    \"support vector machine\": \"论文使用了LSSVM（Least Squares Support Vector Machine）方法，这是一种支持向量机的变体。\",\n    \"SVM\": \"LSSVM是支持向量机（SVM）的一种，因此SVM相关。\",\n    \"classification\": \"论文在微观层面通过财务指标和个体指标判断单只债券的违约概率，这属于分类问题。\",\n    \"regression\": \"论文在宏观层面通过时间序列拟合市场波动情况，这涉及回归分析。\"\n  }\n}\n```"
+}

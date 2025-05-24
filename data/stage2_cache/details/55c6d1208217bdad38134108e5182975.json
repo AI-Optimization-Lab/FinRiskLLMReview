@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2664,
+    "title": "Adaptive constraint handling technique selection for constrained multi-objective optimization",
+    "abstract": "Constrained multi-objective optimization problems involve the optimization of multiple conflicting objectives simultaneously subject to a number of constraints, which pose a great challenge for the existing algorithms. When utilizing evolutionary algorithms to solve them, the constraint handling technique (CHT) plays a pivotal role in the environmental selection. Several CHTs, such as penalty functions, superiority of feasible solutions, and epsilon-constraint methods, have been developed. However, there are still some issues with the existing methods. On the one hand, different CHTs are typically better suited to specific problem and selecting the most appropriate CHT for a given problem is crucial. On the other hand, the suitability of CHTs may vary throughout different stages of the optimization process. Regrettably, limited attention has been given to the adaptive selection of CHTs. In order to address this research gap, we develop an adaptive CHT selection method based on deep reinforcement learning, allowing for the selection of CHTs that are tailored to different evolutionary states. In the proposed method, we adopt the deep Q-learning network to evaluate the impact of various CHTs and operators on the population state during evolution. Through a dynamic evaluation, the network adaptively outputs the most appropriate CHT and operator portfolio based on the current state of the population. Specifically, we propose novel state representation and reward calculation methods to accurately capture the performance of diverse actions across varying evolutionary states. Furthermore, to enhance network training, we introduce a two-stage training method that facilitates the collection of diverse samples. Moreover, this adaptive selection method can be easily integrated into the existing methods. The proposed algorithm is tested on 37 test problems, the optimal results can be achieved on 19 instances in terms of the inverted generational distance metric. Experimental results verify the proposed method generalizes well to different types of problems.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "edb4375c6ca15e4bae444f0faa12a954",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "deep Q-learning network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.930957"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种基于深度强化学习的自适应约束处理技术选择方法，用于解决多目标优化问题。虽然该方法可能具有广泛的潜在应用，但论文中并未明确指出或讨论其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种基于深度强化学习的自适应约束处理技术选择方法，用于解决多目标优化问题。虽然该方法可能具有广泛的潜在应用，但论文中并未明确指出或讨论其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:36.579687"
+}

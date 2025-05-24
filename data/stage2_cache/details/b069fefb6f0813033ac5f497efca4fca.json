@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3283,
+    "title": "Customer price sensitivities in competitive insurance markets",
+    "abstract": "Insurers are increasingly adopting more demand-based strategies to incorporate the indirect effect of premium changes on their policyholders' willingness to stay. However, since in practice both insurers' renewal premia and customers' responses to these premia typically depend on the customer's level of risk, it remains challenging in these strategies to determine how to properly control for this confounding. We therefore consider a causal inference approach in this paper to account for customers' price sensitivity and to deduce optimal, multi-period profit maximizing premium renewal offers. More specifically, we extend the discrete treatment framework of Guelman and Guillen (2014) by Extreme Gradient Boosting, or XGBoost, and by multiple imputation to better account for the uncertainty in the counterfactual responses. We additionally introduce the continuous treatment framework with XGBoost to the insurance literature to allow identification of the exact optimal renewal offers and account for any competition in the market by including competitor offers. The application of the two treatment frameworks to a Dutch automobile insurance portfolio suggests that a policy's competitiveness in the market is crucial for a customer's price sensitivity and that XGBoost is more appropriate to describe this than the traditional logistic regression. Moreover, an efficient frontier of both frameworks indicates that substantially more profit can be gained on the portfolio than realized, also already with less churn and in particular if we allow for continuous rate changes. A multi-period renewal optimization confirms these findings and demonstrates that the competitiveness enables temporal feedback of previous rate changes on future demand.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cd678d25a7fd7d637c06cace1b7b99f7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:15:26.184675"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究保险公司如何利用机器学习方法（如XGBoost）来优化续保保费策略，并分析客户的价格敏感性。虽然涉及金融领域，但其核心应用是保险定价和客户保留策略，不属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究保险公司如何利用机器学习方法（如XGBoost）来优化续保保费策略，并分析客户的价格敏感性。虽然涉及金融领域，但其核心应用是保险定价和客户保留策略，不属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:14.008430"
+}

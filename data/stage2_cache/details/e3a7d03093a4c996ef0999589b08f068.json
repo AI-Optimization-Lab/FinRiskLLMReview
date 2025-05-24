@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3307,
+    "title": "RISK MARGIN QUANTILE FUNCTION VIA PARAMETRIC AND NON-PARAMETRIC BAYESIAN APPROACHES",
+    "abstract": "We develop quantile functions from regression models in order to derive risk margin and to evaluate capital in non-life insurance applications. By utilizing the entire range of conditional quantile functions, especially higher quantile levels, we detail how quantile regression is capable of providing an accurate estimation of risk margin and an overview of implied capital based on the historical volatility of a general insurers loss portfolio. Two modeling frameworks are considered based around parametric and non-parametric regression models which we develop specifically in this insurance setting. In the parametric framework, quantile functions are derived using several distributions including the flexible generalized beta (GB2) distribution family, asymmetric Laplace (AL) distribution and power-Pareto (PP) distribution. In these parametric model based quantile regressions, we detail two basic formulations. The first involves embedding the quantile regression loss function from the nonparameteric setting into the argument of the kernel of a parametric data likelihood model, this is well known to naturally lead to the AL parametric model case. The second formulation we utilize in the parametric setting adopts an alternative quantile regression formulation in which we assume a structural expression for the regression trend and volatility functions which act to modify a base quantile function in order to produce the conditional data quantile function. This second approach allows a range of flexible parametric models to be considered with different tail behaviors. We demonstrate how to perform estimation of the resulting parametric models under a Bayesian regression framework. To achieve this, we design Markov chain Monte Carlo (MCMC) sampling strategies for the resulting Bayesian posterior quantile regression models. In the non-parametric framework, we construct quantile functions by minimizing an asymmetrically weighted loss function and estimate the parameters under the AL proxy distribution to resemble the minimization process. This quantile regression model is contrasted to the parametric AL mean regression model and both are expressed as a scale mixture of uniform distributions to facilitate efficient implementation. The models are extended to adopt dynamic mean, variance and skewness and applied to analyze two real loss reserve data sets to perform inference and discuss interesting features of quantile regression for risk margin calculations.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4e7233cf492e4afbad1656797ff71cc3",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:15:54.727456"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发分位数回归模型以计算风险边际和评估资本，这直接应用于非寿险领域的金融风险管理。论文详细讨论了如何利用这些模型来准确估计风险边际和基于历史波动性的资本概述，这些都是金融风险管理的关键组成部分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发分位数回归模型以计算风险边际和评估资本，这直接应用于非寿险领域的金融风险管理。论文详细讨论了如何利用这些模型来准确估计风险边际和基于历史波动性的资本概述，这些都是金融风险管理的关键组成部分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:12.372138"
+}

@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 2358,
+    "title": "A Deep Reinforcement Learning Approach for Portfolio Management in Non-Short-Selling Market",
+    "abstract": "Reinforcement learning (RL) has been applied to financial portfolio management in recent years. Current studies mostly focus on profit accumulation without much consideration of risk. Some risk-return balanced studies extract features from price and volume data only, which is highly correlated and missing representation of risk features. To tackle these problems, we propose a weight control unit (WCU) to effectively manage the position of portfolio management in different market statuses. A loss penalty term is also designed in the reward function to prevent sharp drawdown during trading. Moreover, stock spatial interrelation representing the correlation between two different stocks is captured by a graph convolution network based on fundamental data. Temporal interrelation is also captured by a temporal convolutional network based on new factors designed with price and volume data. Both spatial and temporal interrelation work for better feature extraction from historical data and also make the model more interpretable. Finally, a deep deterministic policy gradient actor-critic RL is applied to explore optimal policy in portfolio management. We conduct our approach in a challenging non-short-selling market, and the experiment results show that our method outperforms the state-of-the-art methods in both profit and risk criteria. Specifically, with 6.72% improvement on an annualized rate of return, 7.72% decrease in maximum drawdown, and a better annualized Sharpe ratio of 0.112. Also, the loss penalty and WCU provide new aspects for future work in risk control.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cf20771522a537784ca87f077cdd8655",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "temporal convolutional network",
+      "deep deterministic policy gradient",
+      "actor-critic"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:19.681126"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习方法来优化投资组合管理，特别是在非卖空市场中。论文明确提到了投资组合管理的研究目标，并设计了特定的方法来控制风险和优化收益，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习方法来优化投资组合管理，特别是在非卖空市场中。论文明确提到了投资组合管理的研究目标，并设计了特定的方法来控制风险和优化收益，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:55.651366"
+}

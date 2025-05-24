@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 92,
+    "title": "Pricing financial derivatives with neural networks",
+    "abstract": "Neural network algorithms are applied to the problem of option pricing and adopted to simulate the nonlinear behavior of such financial derivatives. Two different kinds of neural networks, i.e. multi-layer perceptrons and radial basis functions, are used and their performances compared in detail. The analysis is carried out both for standard European options and American ones, including evaluation of the Greek letters, necessary for hedging purposes. Detailed numerical investigation show that, after a careful phase of training, neural networks are able to predict the value of options and Greek letters with high accuracy and competitive computational time. (C) 2004 Elsevier B.V. All rights reserved.",
+    "year": 2004,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "82a2c94e5b2a4433ebc7b571425fb0b4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.980399"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是应用神经网络算法进行期权定价，包括欧式和美式期权，并评估了对冲所需的希腊字母。这些内容明确属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是应用神经网络算法进行期权定价，包括欧式和美式期权，并评估了对冲所需的希腊字母。这些内容明确属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:00.671376"
+}

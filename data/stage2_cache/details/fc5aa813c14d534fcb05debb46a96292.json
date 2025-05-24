@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1272,
+    "title": "Identifying clusters of anomalous payments in the salvadorian payment system",
+    "abstract": "We develop an unsupervised methodology to group payments and identify possible anomalies. With our methodology, we identify clusters based on a set of network features, using transactional (unlabeled) information from a systemically important payment system of El Salvador. We first preprocess network features, such as degree and strength, through a principal components analysis we reduce the dimensionality of the newly defined data, then we place the main variables into clustering algorithms ( k-means and DBSCAN) ) to analyze anomalous payments. We then analyze, these clusters using random forest to obtain the main network feature. Our results suggest that the proposed methodology works very well to detect anomalous payments, and it is very important to study the case of El Salvador, because of the recent restructuring of the Massive Payment System in El Salvador (promoted by the Transfer365 project), because the authorities want to increase financial inclusion. This change will make the SPM available to the public, to diversify services and incorporate more participants because, historically, it has operated with only three active participants. We expected that Transfer365 will interconnect the LBTR participants' systems with their banking core, the systems of the Ministry of Finance, and other authorized participants to channel large payment flows. Then, identifying possible anomalies through methodology will enhance risk monitoring and management by payment systems overseers.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8b0d632b4a2f57a8c867ab8cee905a69",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.801542"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on identifying anomalous payments in a payment system to enhance risk monitoring and management, which falls under the domain of Financial Risk Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on identifying anomalous payments in a payment system to enhance risk monitoring and management, which falls under the domain of Financial Risk Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:32.401049"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2289,
+    "title": "High-dimensional macroeconomic forecasting and variable selection via penalized regression",
+    "abstract": "This study examines high-dimensional forecasting and variable selection via folded-concave penalized regressions. The penalized regression approach leads to sparse estimates of the regression coefficients and allows the dimensionality of the model to be much larger than the sample size. First, we discuss the theoretical aspects of a penalized regression in a time series setting. Specifically, we show the oracle inequality with ultra-high-dimensional time-dependent regressors. Then we show the validity of the penalized regression using two empirical applications. First, we forecast quarterly US gross domestic product data using a high-dimensional monthly data set and the mixed data sampling (MIDAS) framework with penalization. Second, we examine how well the penalized regression screens a hidden portfolio based on a large New York Stock Exchange stock price data set. Both applications show that a penalized regression provides remarkable results in terms of forecasting performance and variable selection.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3cab8174d24382d5dabb0c6aef92668a",
+    "relevant_keywords": [
+      "regression",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:04.547996"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的第二项实证应用涉及基于纽约证券交易所股票价格数据集筛选隐藏投资组合，这直接与投资组合管理相关。虽然论文的主要技术是高维预测和变量选择，但其应用场景明确指向投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的第二项实证应用涉及基于纽约证券交易所股票价格数据集筛选隐藏投资组合，这直接与投资组合管理相关。虽然论文的主要技术是高维预测和变量选择，但其应用场景明确指向投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:55.699153"
+}

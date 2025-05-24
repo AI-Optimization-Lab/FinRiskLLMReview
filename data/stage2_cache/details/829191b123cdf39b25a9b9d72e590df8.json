@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 190,
+    "title": "亚式期权的MCMC回归模拟定价",
+    "abstract": "在Boyle将几何平均亚式期权定价作为算术平均亚式期权定价的控制变量基础上,提出将马尔科夫链蒙特卡洛算法融入到方差减少方法的控制变量技术中,对回归方程系数进行有效估计,实现算术平均亚式期权的更加合理定价.并以对无红利算术平均亚式看涨股票期权定价为例,进行大量实证模拟,从期权价格、期权价格标准差等方面与蒙特卡洛模拟方法、最小二乘控制变量方法进行对比分析,结果表明,基于MCMC回归模拟的定价方法具有可行性与有效性.",
+    "year": 2013,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "cee222bc70a383b7f57bce411939ca48",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:15:33.513463"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用MCMC回归模拟方法对亚式期权进行定价，并与其他定价方法进行对比分析。这直接属于衍生品定价的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用MCMC回归模拟方法对亚式期权进行定价，并与其他定价方法进行对比分析。这直接属于衍生品定价的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:27.725226"
+}

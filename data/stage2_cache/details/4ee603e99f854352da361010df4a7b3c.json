@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 111,
+    "title": "GPM: A graph convolutional network based reinforcement learning framework for portfolio management",
+    "abstract": "Portfolio management is a decision-making process of periodically reallocating a certain amount of funds into a portfolio of assets, with the objective of maximizing the profits constrained to a given risk level. Due to its nature of learning from dynamic interactions and planning for long-run performance, reinforcement learning (RL) recently has received much attention in portfolio management. However, most of existing RL-based PM approaches in general only consider price changes of portfolio assets and the implicit correlations between price changes, while ignoring the rich relations between companies in the market, such as two assets in the same sector or two companies have a supplier-customer relation, which are very important for trading decision making. To address these limitations, in this paper, we propose GPM, a novel graph convolutional network-based reinforcement learning framework for portfolio management, which first employs Relational Graph Convolutional Network (R-GCN) to extract asset relational features, and then combines relational features with multi-scale temporal features to make trading decisions for better performance. We also introduce softmax with temperature to increase portfolio diversity, which leads to further increase in profits. Experimental results on two real-world datasets: NASDAQ and NYSE, validate the effectiveness of GPM over state-of-the-art PM methods. Further, more experiments are conducted to evaluate GPM with different graph neural networks and different number of network layers, to explore proper settings for different markets. (c) 2022 Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e7dbd2d3eaf99e7b0dfaeba424670819",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "graph convolutional network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.561716"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用图卷积网络和强化学习框架进行投资组合管理，旨在通过动态资产配置最大化收益并控制风险，这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用图卷积网络和强化学习框架进行投资组合管理，旨在通过动态资产配置最大化收益并控制风险，这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:27.879821"
+}

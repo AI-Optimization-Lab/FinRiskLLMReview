@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "unsupervised learning",
+    "support vector machine",
+    "SVM",
+    "clustering"
+  ],
+  "explanations": {
+    "machine learning": "The paper presents a hybrid model for portfolio optimization, which involves machine learning techniques like LS-SVM and clustering.",
+    "supervised learning": "The first step of the model predicts future returns on shares, which is a supervised learning task as it involves learning from labeled data.",
+    "unsupervised learning": "The second step applies a hierarchical clustering algorithm to identify groups of shares, which is an unsupervised learning task as it involves grouping data without predefined labels.",
+    "support vector machine": "The paper mentions LS-SVM (Least Squares Support Vector Machine), which is a variant of SVM used for regression tasks.",
+    "SVM": "LS-SVM is a type of SVM, indicating the use of support vector machines in the model.",
+    "clustering": "The paper explicitly mentions the use of a hierarchical clustering algorithm to group shares, which is a key part of the proposed hybrid model."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"unsupervised learning\", \"support vector machine\", \"SVM\", \"clustering\"], \n  \"explanations\": {\n    \"machine learning\": \"The paper presents a hybrid model for portfolio optimization, which involves machine learning techniques like LS-SVM and clustering.\",\n    \"supervised learning\": \"The first step of the model predicts future returns on shares, which is a supervised learning task as it involves learning from labeled data.\",\n    \"unsupervised learning\": \"The second step applies a hierarchical clustering algorithm to identify groups of shares, which is an unsupervised learning task as it involves grouping data without predefined labels.\",\n    \"support vector machine\": \"The paper mentions LS-SVM (Least Squares Support Vector Machine), which is a variant of SVM used for regression tasks.\",\n    \"SVM\": \"LS-SVM is a type of SVM, indicating the use of support vector machines in the model.\",\n    \"clustering\": \"The paper explicitly mentions the use of a hierarchical clustering algorithm to group shares, which is a key part of the proposed hybrid model.\"\n  }\n}\n```"
+}

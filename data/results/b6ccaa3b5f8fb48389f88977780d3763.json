@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "neural network",
+    "deep learning",
+    "representation learning",
+    "recurrent neural network",
+    "long short-term memory",
+    "LSTM",
+    "sequence-to-sequence learning",
+    "seq2seq",
+    "encoder-decoder",
+    "attention mechanism"
+  ],
+  "explanations": {
+    "machine learning": "The paper proposes a sequence-to-sequence model guided by physical information, which falls under the umbrella of machine learning.",
+    "neural network": "The model uses a multidirectional gated recurrent unit (GRU) network, which is a type of neural network.",
+    "deep learning": "The proposed model involves deep learning techniques, specifically using GRU networks and attention mechanisms.",
+    "representation learning": "The model learns representations of the input sequences through the GRU network and attention module.",
+    "recurrent neural network": "The GRU network is a type of recurrent neural network (RNN).",
+    "long short-term memory": "GRU is related to LSTM as both are types of RNNs designed to handle sequential data.",
+    "LSTM": "GRU is a simplified variant of LSTM, and the paper's focus on GRU implies relevance to LSTM.",
+    "sequence-to-sequence learning": "The paper describes the model as a sequence-to-sequence model, which is a framework for learning mappings between sequences.",
+    "seq2seq": "Abbreviation for sequence-to-sequence learning, which the paper explicitly mentions.",
+    "encoder-decoder": "Sequence-to-sequence models typically use an encoder-decoder architecture, which is implied in the paper.",
+    "attention mechanism": "The paper mentions the use of an attention module to balance feature weights of hidden variables."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"neural network\",\n    \"deep learning\",\n    \"representation learning\",\n    \"recurrent neural network\",\n    \"long short-term memory\",\n    \"LSTM\",\n    \"sequence-to-sequence learning\",\n    \"seq2seq\",\n    \"encoder-decoder\",\n    \"attention mechanism\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper proposes a sequence-to-sequence model guided by physical information, which falls under the umbrella of machine learning.\",\n    \"neural network\": \"The model uses a multidirectional gated recurrent unit (GRU) network, which is a type of neural network.\",\n    \"deep learning\": \"The proposed model involves deep learning techniques, specifically using GRU networks and attention mechanisms.\",\n    \"representation learning\": \"The model learns representations of the input sequences through the GRU network and attention module.\",\n    \"recurrent neural network\": \"The GRU network is a type of recurrent neural network (RNN).\",\n    \"long short-term memory\": \"GRU is related to LSTM as both are types of RNNs designed to handle sequential data.\",\n    \"LSTM\": \"GRU is a simplified variant of LSTM, and the paper's focus on GRU implies relevance to LSTM.\",\n    \"sequence-to-sequence learning\": \"The paper describes the model as a sequence-to-sequence model, which is a framework for learning mappings between sequences.\",\n    \"seq2seq\": \"Abbreviation for sequence-to-sequence learning, which the paper explicitly mentions.\",\n    \"encoder-decoder\": \"Sequence-to-sequence models typically use an encoder-decoder architecture, which is implied in the paper.\",\n    \"attention mechanism\": \"The paper mentions the use of an attention module to balance feature weights of hidden variables.\"\n  }\n}\n```"
+}

@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "deep learning",
+    "neural network",
+    "convolutional neural network",
+    "CNN"
+  ],
+  "explanations": {
+    "machine learning": "The paper mentions training a deep learning model to segment retinal capillaries, which is a machine learning task.",
+    "supervised learning": "The model is trained using labeled data from FFA images, which is a supervised learning approach.",
+    "deep learning": "The paper explicitly mentions using a deep learning model (RMHAS-FA) for segmentation.",
+    "neural network": "Deep learning models are a type of neural network, and the paper uses such a model for capillary segmentation.",
+    "convolutional neural network": "The segmentation task involves image data, which is typically handled by CNNs, though the specific architecture is not detailed.",
+    "CNN": "Abbreviation for convolutional neural network, relevant for the same reason as above."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"deep learning\", \"neural network\", \"convolutional neural network\", \"CNN\"], \n  \"explanations\": {\n    \"machine learning\": \"The paper mentions training a deep learning model to segment retinal capillaries, which is a machine learning task.\",\n    \"supervised learning\": \"The model is trained using labeled data from FFA images, which is a supervised learning approach.\",\n    \"deep learning\": \"The paper explicitly mentions using a deep learning model (RMHAS-FA) for segmentation.\",\n    \"neural network\": \"Deep learning models are a type of neural network, and the paper uses such a model for capillary segmentation.\",\n    \"convolutional neural network\": \"The segmentation task involves image data, which is typically handled by CNNs, though the specific architecture is not detailed.\",\n    \"CNN\": \"Abbreviation for convolutional neural network, relevant for the same reason as above.\"\n  }\n}\n```"
+}

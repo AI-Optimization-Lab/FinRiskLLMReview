@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 405,
+    "title": "Momentum portfolio selection based on learning-to-rank algorithms with heterogeneous knowledge graphs",
+    "abstract": "Artificial intelligence techniques for financial time series analysis have been used to enhance momentum trading methods. However, most previous studies, which have treated stocks as independent entities, have overlooked the significance of correlations among individual stocks, thus compromising portfolio performance. To address this gap, a momentum trading framework is proposed that combines heterogeneous data, such as corporate governance factors and financial domain knowledge, to model the relationships between stocks. Our approach involves adopting a knowledge graph embedding approach to map relations among heterogeneous relationships in the data, which is then utilized to train a multitask supervised learning approach based on a learning-to-rank algorithm. This method culminates in a robust portfolio selection method on the basis of the framework. Experimental results using data from the Taiwan Stock Exchange demonstrate that our proposed method outperforms traditional linear models and other machine learning methods in predictive ability. The investment portfolio constructed serves as an invaluable aid to investment decision-making.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fdfaf3e52d6a34e57328522ee439cdaf",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "learning-to-rank",
+      "representation learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.510515"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合知识图谱和学习排序算法来优化动量交易策略，最终目标是构建一个表现优异的投资组合。这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合知识图谱和学习排序算法来优化动量交易策略，最终目标是构建一个表现优异的投资组合。这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:10.769254"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 715,
+    "title": "A Peak Price Tracking-Based Learning System for Portfolio Selection",
+    "abstract": "We propose a novel linear learning system based on the peak price tracking (PPT) strategy for portfolio selection (PS). Recently, the topic of tracking control attracts intensive attention and some novel models are proposed based on backstepping methods, such that the system output tracks a desired trajectory. The proposed system has a similar evolution with a transform function that aggressively tracks the increasing power of different assets. As a result, the better performing assets will receive more investment. The proposed PPT objective can be formulated as a fast backpropagation algorithm, which is suitable for large-scale and time-limited applications, such as high-frequency trading. Extensive experiments on several benchmark data sets from diverse real financial markets show that PPT outperforms other state-of-the-art systems in computational time, cumulative wealth, and risk-adjusted metrics. It suggests that PPT is effective and even more robust than some defensive systems in PS.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "1a84c8e9ec105331ac7670b6a8a6247b",
+    "relevant_keywords": [
+      "machine learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:41:29.966161"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于峰值价格跟踪（PPT）策略的线性学习系统，用于投资组合选择（PS）。论文明确提到该系统适用于高频交易等大规模和时间受限的应用，并通过在多个金融市场的基准数据集上的实验验证了其在计算时间、累积财富和风险调整指标方面的优越性。这些内容直接指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于峰值价格跟踪（PPT）策略的线性学习系统，用于投资组合选择（PS）。论文明确提到该系统适用于高频交易等大规模和时间受限的应用，并通过在多个金融市场的基准数据集上的实验验证了其在计算时间、累积财富和风险调整指标方面的优越性。这些内容直接指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:26.540184"
+}

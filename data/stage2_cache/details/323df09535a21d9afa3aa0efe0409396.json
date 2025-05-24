@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 156,
+    "title": "Risk Analysis of the Chinese Financial Market with the Application of a Novel Hybrid Volatility Prediction Model",
+    "abstract": "This paper endeavors to enhance the prediction of volatility in financial markets by developing a novel hybrid model that integrates generalized autoregressive conditional heteroskedasticity (GARCH) models and long short-term memory (LSTM) neural networks. Using high-frequency data, we first estimate realized volatility as a robust measure of volatility. We then feed the outputs of multiple GARCH models into an LSTM network, creating a hybrid model that leverages the strengths of both approaches. The predicted volatility from the hybrid model is used to generate trading strategy signals, which are subsequently used to build an investment strategy. Empirical analysis using the China Securities Index 300 (CSI300) dataset demonstrates that the hybrid model significantly improves value-at-risk (VaR) prediction performance compared to traditional GARCH models. This study's findings have broad implications for risk management in financial markets, suggesting that hybrid models incorporating mathematical models and economic mechanisms can enhance derivative pricing, portfolio risk management, hedging transactions, and systemic risk early-warning systems.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "013ea845f61f7d2387daedcdda192172",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:34:25.464116"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种混合模型（GARCH-LSTM）用于预测金融市场的波动性，并利用预测结果生成交易策略信号和构建投资策略。这直接涉及金融风险管理（如VaR预测）和投资组合管理（如交易策略构建）。虽然论文提到衍生品定价，但这不是主要研究目标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种混合模型（GARCH-LSTM）用于预测金融市场的波动性，并利用预测结果生成交易策略信号和构建投资策略。这直接涉及金融风险管理（如VaR预测）和投资组合管理（如交易策略构建）。虽然论文提到衍生品定价，但这不是主要研究目标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:07.033915"
+}

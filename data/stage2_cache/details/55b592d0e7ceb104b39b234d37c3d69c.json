@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 5684,
+    "title": "Markov Chain K-Means Cluster Models and Their Use for Companies' Credit Quality and Default Probability Estimation",
+    "abstract": "This research aims to determine the existence of inflection points when companies' credit risk goes from being minimal (Hedge) to being high (Ponzi). We propose an analysis methodology that determines the probability of hedge credits to migrate to speculative and then to Ponzi, through simulations with homogeneous Markov chains and the k-means clustering method to determine thresholds and migration among clusters. To prove this, we used quarterly financial data from a sample of 35 public enterprises over the period between 1 July 2006 and 28 March 2020 (companies listed on the USA, Mexico, Brazil, and Chile stock markets). For simplicity, we make the assumption of no revolving credits for the companies and that they face their next payment only with their operating cash flow. We found that Ponzi companies (1) have a 0.79 probability average of default, while speculative ones had (0) 0.28, and hedge companies (-1) 0.009, which are the inflections point we were looking for. Our work's main limitation lies in not considering the entities' behavior when granting credits in altered states (credit relaxation due to credit supply excess).",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a7ad2f662f498990c7c8fe382d809f48",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:50:21.224431"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on estimating companies' credit quality and default probability using Markov chains and k-means clustering, which are techniques primarily applied in assessing and managing credit risk, a key aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on estimating companies' credit quality and default probability using Markov chains and k-means clustering, which are techniques primarily applied in assessing and managing credit risk, a key aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:38.537478"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2408,
+    "title": "A Global Flood Risk Modeling Framework Built With Climate Models and Machine Learning",
+    "abstract": "Large scale flood risk analyses are fundamental to many applications requiring national or international overviews of flood risk. While large-scale climate patterns such as teleconnections and climate change become important at this scale, it remains a challenge to represent the local hydrological cycle over various watersheds in a manner that is physically consistent with climate. As a result, global models tend to suffer from a lack of available scenarios and flexibility that are key for planners, relief organizations, regulators, and the financial services industry to analyze the socioeconomic, demographic, and climatic factors affecting exposure. Here we introduce a data-driven, global, fast, flexible, and climate-consistent flood risk modeling framework for applications that do not necessarily require high-resolution flood mapping. We use statistical and machine learning methods to examine the relationship between historical flood occurrence and impact from the Dartmouth Flood Observatory (1985-2017), and climatic, watershed, and socioeconomic factors for 4,734 HydroSHEDS watersheds globally. Using bias-corrected output from the NCAR CESM Large Ensemble (1980-2020), and the fitted statistical relationships, we simulate 1 million years of events worldwide along with the population displaced in each event. We discuss potential applications of the model and present global flood hazard and risk maps. The main value of this global flood model lies in its ability to quickly simulate realistic flood events at a resolution that is useful for large-scale socioeconomic and financial planning, yet we expect it to be useful to climate and natural hazard scientists who are interested in socioeconomic impacts of climate.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0d634cbd8193a871c4c90fe898b25ab0",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:50.378649"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种全球洪水风险建模框架，旨在为金融服务业等提供大规模社会经济和金融规划所需的风险分析工具。虽然论文未直接提及具体的金融产品，但其对洪水风险的建模和预测能力可以应用于金融风险管理领域，例如评估自然灾害对金融资产的影响。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种全球洪水风险建模框架，旨在为金融服务业等提供大规模社会经济和金融规划所需的风险分析工具。虽然论文未直接提及具体的金融产品，但其对洪水风险的建模和预测能力可以应用于金融风险管理领域，例如评估自然灾害对金融资产的影响。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:29.817829"
+}

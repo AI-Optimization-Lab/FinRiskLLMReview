@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 798,
+    "title": "Portfolio management via two-stage deep learning with a joint cost",
+    "abstract": "Portfolio management is a series of processes that maximize returns and minimize risk by allocating assets efficiently. Along with the developments in machine learning technology, it has been studied to apply machine learning methods to prediction-based portfolio management. However, such methods have a few limitations. First, they do not consider the relations between assets for the prediction. In addition, the studies commonly focus on the prediction accuracy, neglecting the construction of portfolios. Furthermore, the methods have usually been evaluated with index data, which hardly represent actual prices to buy or sell an asset. To overcome these problems, Exchange Traded Funds (ETFs) are employed for base assets for the evaluation, and we propose a two-stage deep learning framework, called Grouped-ETFs Model (GEM), with a joint cost function. The GEM is designed to learn the features of inter-asset and groups in each stage. Also, the proposed joint cost can consider relative returns for the training while the relative returns are a crucial factor to construct a portfolio. The results of a rigorous evaluation with global ETF data indicate that the proposed GEM with the joint cost outperforms the equally weighted portfolio and the ordinary deep learning model by 33.7% and 30.1%, respectively. An additional experiment using sector ETFs verifies the generality of the proposed model where the results accord with those of the previous experiment. (C) 2019 Elsevier Ltd. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "650569908f52cf48377866c1d72d1dd3",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.285967"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly focuses on portfolio management, proposing a two-stage deep learning framework (GEM) with a joint cost function to maximize returns and minimize risk by efficiently allocating assets. The study uses ETF data for evaluation, which is directly related to constructing and managing investment portfolios, not derivatives pricing or general risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly focuses on portfolio management, proposing a two-stage deep learning framework (GEM) with a joint cost function to maximize returns and minimize risk by efficiently allocating assets. The study uses ETF data for evaluation, which is directly related to constructing and managing investment portfolios, not derivatives pricing or general risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:48.707351"
+}

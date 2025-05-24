@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 273,
+    "title": "Power approximation for pricing American options",
+    "abstract": "American options are one of the most traded instruments in the financial markets. However, pricing them is challenging because of the early exercise possibility. We propose a robust pricing method based on nonlinear regression over a representative set of exact pricing instances obtained via a binomial lattice. Our power approximation approach is inspired from the literature on the well-known (s,S)$(s,S)$ periodic review inventory system. Our objective is to develop a closed-form approximation for pricing American options that performs well on accuracy, computational efficiency (speed), and simplicity. Our results include developing a large set of exact American option premiums and critical stock price (indicating when to exercise the option) over a carefully designed grid with parameter values, which are common in practice. In addition, we compile the literature for existing American option pricing approximations and identify suitable ones. These approximations serve two purposes: (i) providing a starting point for our approximations and (ii) developing a benchmark for our work. We develop two closed-form approximations for the critical stock price, and premium of an American put option, which perform very well with a median error below 0.45% for both.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "11ac78eab1c45458e337af2a1a86919a",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.091079"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是开发一种封闭形式的近似方法来定价美式期权，这直接属于衍生品定价领域。论文明确提到其目标是提高美式期权定价的准确性、计算效率和简便性，这些都是衍生品定价的关键问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是开发一种封闭形式的近似方法来定价美式期权，这直接属于衍生品定价领域。论文明确提到其目标是提高美式期权定价的准确性、计算效率和简便性，这些都是衍生品定价的关键问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:40.770896"
+}

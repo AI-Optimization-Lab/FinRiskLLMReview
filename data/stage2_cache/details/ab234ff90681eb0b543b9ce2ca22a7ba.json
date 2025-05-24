@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 687,
+    "title": "A sentiment-based risk indicator for the Mexican financial sector",
+    "abstract": "We apply sentiment analysis to Twitter messages in Spanish to build a sentiment risk index for the financial sector in Mexico. We classify a sample of tweets from 2006-2019 to identify messages in response to a positive or negative shock to the Mexican financial sector, relative to merely informative ones. We use a voting classifier approach based on three different classifiers: one based on word polarities from a pre-defined dictionary, one based on a support vector machine classifier, and one based on neural networks. We find that the voting classifier outperforms each of the other classifiers when taken alone. Next, we compare our sentiment index with existing indicators of financial stress based on quantitative variables. We find that this novel index captures the impact of sources of financial stress not explicitly encompassed in quantitative risk measures, such as financial frauds, failures in payment systems, and money laundering. Finally, we show that a shock in our Twitter sentiment index correlates positively with an increase in financial market risk, stock market volatility, sovereign risk, and foreign exchange rate volatility.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e14bd76d903215f4e04fa5eb3d9a90d7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.358822"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on building a sentiment risk index for the financial sector in Mexico using sentiment analysis of Twitter messages. It compares this index with existing financial stress indicators and shows its correlation with various financial market risks, which is directly related to financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on building a sentiment risk index for the financial sector in Mexico using sentiment analysis of Twitter messages. It compares this index with existing financial stress indicators and shows its correlation with various financial market risks, which is directly related to financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:50.691104"
+}

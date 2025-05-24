@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3016,
+    "title": "Testing stochastic dominance with many conditioning variables",
+    "abstract": "We propose tests of the conditional first- and second-order stochastic dominance in the presence of growing numbers of covariates. Our approach builds on a semiparametric location-scale model, where the conditional distribution of the outcome given the covariates is characterized by nonparametric mean and skedastic functions with independent innovations from an unknown distribution. The nonparametric regression functions are estimated by utilizing the l1-penalized nonparametric series estimation with thresholding. Deviation bounds for the regression functions and series coefficients estimates are obtained allowing for the time series dependence. We propose test statistics, which are the maximum (integrated) deviation of a composite of the estimated regression functions and the residual empirical distribution, and introduce a smooth stationary bootstrap to compute p-values. We investigate the finite sample performance of the bootstrap critical values by a set of Monte Carlo simulations. Finally, our method is illustrated by an application to stochastic dominance among portfolio returns given all the past information.& COPY; 2022 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d63bc430b53d917196dd5a84118de50d",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:43.070164"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是测试条件随机优势，并在论文摘要中明确提到该方法被应用于投资组合回报的随机优势分析，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是测试条件随机优势，并在论文摘要中明确提到该方法被应用于投资组合回报的随机优势分析，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:01.831834"
+}

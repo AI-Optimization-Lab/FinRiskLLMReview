@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 32,
+    "title": "Pricing options on flow forwards by neural networks in a Hilbert space",
+    "abstract": "We propose a new methodology for pricing options on flow forwards by applying infinite-dimensional neural networks. We recast the pricing problem as an optimisation problem in a Hilbert space of real-valued functions on the positive real line, which is the state space for the term structure dynamics. This optimisation problem is solved by using a feedforward neural network architecture designed for approximating continuous functions on the state space. The proposed neural network is built upon the basis of the Hilbert space. We provide case studies that show its numerical efficiency, with superior performance over that of a classical neural network trained on sampling the term structure curves.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "f9edf7efa3f9eb4d7621a02d990b595b",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.529579"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是应用无限维神经网络对流动远期期权进行定价，这直接属于衍生品定价的研究领域。论文明确提到将定价问题转化为Hilbert空间中的优化问题，并通过神经网络架构解决，其研究目标和应用场景均围绕衍生品定价展开。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是应用无限维神经网络对流动远期期权进行定价，这直接属于衍生品定价的研究领域。论文明确提到将定价问题转化为Hilbert空间中的优化问题，并通过神经网络架构解决，其研究目标和应用场景均围绕衍生品定价展开。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:28.727098"
+}

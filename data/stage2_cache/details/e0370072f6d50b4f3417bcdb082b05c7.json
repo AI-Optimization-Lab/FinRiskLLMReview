@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1646,
+    "title": "Embedded Mixed-Integer Quadratic Optimization Using the OSQP Solver",
+    "abstract": "We present a novel branch-and-bound solver for mixed-integer quadratic programs (MIQPs) that efficiently exploits the first-order OSQP solver for the quadratic program (QP) sub-problems. Our algorithm is very robust, requires no dynamic memory allocation and is division-free once an initial factorization is computed. Thus, it suitable for embedded applications with low computing power. Moreover, it does not require any assumption on the problem data such as strict convexity of the objective function. We exploit factorization caching and warm-starting to reduce the computational cost of QP relaxations during branch-and-bound and over repeated solutions of parametric MIQPs such as those arising in embedded control, portfolio optimization, and machine learning. Numerical examples show that our method, using a simple high-level Python implementation interfaced with the OSQP solver, is competitive with established commercial solvers.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8eae7d45d0e0aec892ffb066d3680298",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:18.215829"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到该算法可以应用于投资组合优化（portfolio optimization），这是投资组合管理领域的一个核心问题。虽然论文也提到其他应用如嵌入式控制和机器学习，但投资组合优化是其明确指出的金融应用之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到该算法可以应用于投资组合优化（portfolio optimization），这是投资组合管理领域的一个核心问题。虽然论文也提到其他应用如嵌入式控制和机器学习，但投资组合优化是其明确指出的金融应用之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:40.290985"
+}

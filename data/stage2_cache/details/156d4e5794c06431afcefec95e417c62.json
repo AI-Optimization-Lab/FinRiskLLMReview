@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1841,
+    "title": "Novel hybrid ensemble credit scoring model with stacking-based noise detection and weight assignment",
+    "abstract": "Credit scoring is used to help financial institutions control default risks and reduce economic losses, and a variety of mainstream machine learning and data mining algorithms have been applied for this purpose. However, realworld datasets are generally noisy, which seriously affects the performance of credit scoring models. Among the mainstream strategies for handling noise, instance filtering may result in information loss, especially for hard-toaccess credit datasets, and label noise correction may produce erroneous information in the dataset. In this study, to reduce the adverse impact of noisy data on the performance of classification algorithms, a novel hybrid ensemble credit scoring model with stacking-based noise detection and weight assignment is developed to remove or adapt noisy data in raw datasets and to form noise-detected training data to obtain excellent default risk prediction competence. Furthermore, a new weight assignment approach based on a cloud model is proposed, which is applied to calculate the weight values of the classifiers in the weighted voting ensemble model to improve the prediction accuracy of the proposed model. In this study, five public datasets are adopted using five performance metrics to evaluate the performance of the proposed model. The experimental results demonstrate good model prediction power and robustness.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4a68d0487541af1822279db63ab2a9a8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "ensemble learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:03.960583"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a hybrid ensemble credit scoring model to predict default risks, which is a key aspect of financial risk management in credit assessment and loan approval processes.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a hybrid ensemble credit scoring model to predict default risks, which is a key aspect of financial risk management in credit assessment and loan approval processes.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:53.994772"
+}

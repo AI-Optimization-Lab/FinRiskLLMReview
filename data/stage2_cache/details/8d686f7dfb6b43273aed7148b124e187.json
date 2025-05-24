@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 938,
+    "title": "Stock Ranking Prediction Based on an Adversarial Game Neural Network",
+    "abstract": "With the globalization of the economy and financial markets today, predicting stock rankings and constructing appropriate portfolio strategies have become hot research topics for many scholars. However, because the stock market has different styles in different periods, market-style switching will seriously affect the prediction performance of the model. To eliminate the influence of style exposure and make the stock selection performance of the deep learning model more balanced, we propose an adversarial game neural network model based on LSTM and an attention mechanism for stock ranking prediction. We also combined trading tasks to construct an MS-WRSE loss function that considers stock rankings to optimize the network. Compared with classic time series prediction models, the adversarial game neural network can eliminate the influence of market-style factors on stock ranking predictions through the mutual game between the main neural network and the auxiliary neural network. This can strengthen the stock selection performance of the model.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c3d4ecefe10f057129015541721fdf4e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.423522"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用对抗游戏神经网络模型进行股票排名预测，并构建考虑股票排名的损失函数以优化网络，其研究目标是预测股票排名并构建适当的投资组合策略，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用对抗游戏神经网络模型进行股票排名预测，并构建考虑股票排名的损失函数以优化网络，其研究目标是预测股票排名并构建适当的投资组合策略，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:55.132194"
+}

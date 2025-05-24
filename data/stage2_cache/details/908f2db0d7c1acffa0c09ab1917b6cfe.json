@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 820,
+    "title": "Combining deep reinforcement learning with technical analysis and trend monitoring on cryptocurrency markets",
+    "abstract": "Cryptocurrency markets experienced a significant increase in the popularity, which motivated many financial traders to seek high profits in cryptocurrency trading. The predominant tool that traders use to identify profitable opportunities is technical analysis. Some investors and researchers also combined technical analysis with machine learning, in order to forecast upcoming trends in the market. However, even with the use of these methods, developing successful trading strategies is still regarded as an extremely challenging task. Recently, deep reinforcement learning (DRL) algorithms demonstrated satisfying performance in solving complicated problems, including the formulation of profitable trading strategies. While some DRL techniques have been successful in increasing profit and loss (PNL) measures, these techniques are not much risk-aware and present difficulty in maximizing PNL and lowering trading risks simultaneously. This research proposes the combination of DRL approaches with rule-based safety mechanisms to both maximize PNL returns and minimize trading risk. First, a DRL agent is trained to maximize PNL returns, using a novel reward function. Then, during the exploitation phase, a rule-based mechanism is deployed to prevent uncertain actions from being executed. Finally, another novel safety mechanism is proposed, which considers the actions of a more conservatively trained agent, in order to identify high-risk trading periods and avoid trading. Our experiments on 5 popular cryptocurrencies show that the integration of these three methods achieves very promising results.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f283a80902bb6e105e162633769ea8e8",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "deep reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.540089"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合深度强化学习与基于规则的安全机制来开发加密货币交易策略，旨在最大化利润并降低交易风险。这属于投资组合管理的范畴，因为它涉及资产选择和交易策略的优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合深度强化学习与基于规则的安全机制来开发加密货币交易策略，旨在最大化利润并降低交易风险。这属于投资组合管理的范畴，因为它涉及资产选择和交易策略的优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:19.180023"
+}

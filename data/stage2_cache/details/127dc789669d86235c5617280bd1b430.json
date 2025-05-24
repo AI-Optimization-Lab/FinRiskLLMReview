@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 205,
+    "title": "Is Reinforcement Learning Good at American Option Valuation?",
+    "abstract": "This paper investigates algorithms for identifying the optimal policy for pricing American Options. The American Option pricing is reformulated as a Sequential Decision-Making problem with two binary actions (Exercise or Continue), transforming it into an optimal stopping time problem. Both the least square Monte Carlo simulation method (LSM) and Reinforcement Learning (RL)-based methods were utilized to find the optimal policy and, hence, the fair value of the American Put Option. Both Classical Geometric Brownian Motion (GBM) and calibrated Stochastic Volatility models served as the underlying uncertain assets. The novelty of this work lies in two aspects: (1) Applying LSM- and RL-based methods to determine option prices, with a specific focus on analyzing the dynamics of Decisions made by each method and comparing final decisions chosen by the LSM and RL methods. (2) Assess how the RL method updates Decisions at each batch, revealing the evolution of the decisions during the learning process to achieve optimal policy.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "45e63161a98a699eaea13e604958cf04",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "machine learning",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.146192"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用强化学习和最小二乘蒙特卡洛方法来定价美式期权，这直接属于衍生品定价的范畴。论文明确讨论了如何确定美式看跌期权的公平价值，并比较了不同方法在定价决策上的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用强化学习和最小二乘蒙特卡洛方法来定价美式期权，这直接属于衍生品定价的范畴。论文明确讨论了如何确定美式看跌期权的公平价值，并比较了不同方法在定价决策上的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:00.663455"
+}

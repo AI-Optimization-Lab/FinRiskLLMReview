@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 231,
+    "title": "A factor model for option returns",
+    "abstract": "Due to their short lifespans and migrating moneyness, options are notoriously difficult to study with the factor models commonly used to analyze the risk-return trade-off in other asset classes. Instrumented principal components analysis solves this problem by tracking contracts in terms of their pricing-relevant characteristics via time-varying latent factor loadings. We find that a model with three latent factors prices the cross-section of option returns and explains more than 85% of the variation in a panel of monthly S&P 500 option returns from 1996 to 2017. In particular, we show that the IPCA factors can be rationalized via an economically plausible three-factor model consisting of a level, slope and skew factor. Finally, out-of-sample trading strategies based on insights from the IPCA model have significant alpha over previously studied option strategies. (c) 2022 Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "31dee29a7679436d678de9f3455f8d1c",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.204123"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究使用因子模型（特别是工具化主成分分析）来定价期权回报，并基于这些因子构建交易策略。这直接涉及衍生品定价领域，同时也涉及投资组合管理，因为论文提到了基于模型洞察的交易策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"投资组合管理\"],\n  \"justification\": \"该论文主要研究使用因子模型（特别是工具化主成分分析）来定价期权回报，并基于这些因子构建交易策略。这直接涉及衍生品定价领域，同时也涉及投资组合管理，因为论文提到了基于模型洞察的交易策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:02.360240"
+}

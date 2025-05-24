@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3554,
+    "title": "WDM equipped universal linear optics for programmable neuromorphic photonic processors",
+    "abstract": "Non-von-Neumann computing architectures and deep learning training models have sparked a new computational era where neurons are forming the main architectural backbone and vector, matrix and tensor multiplications comprise the basic mathematical toolbox. This paradigm shift has triggered a new race among hardware technology candidates; within this frame, the field of neuromorphic photonics promises to convolve the targeted algebraic portfolio along a computational circuitry with unique speed, parallelization, and energy efficiency advantages. Fueled by the inherent energy efficient analog matrix multiply operations of optics, the staggering advances of photonic integration and the enhanced multiplexing degrees offered by light, neuromorphic photonics has stamped the resurgence of optical computing brining a unique perspective in low-energy and ultra-fast linear algebra functions. However, the field of neuromorphic photonics has relied so far on two basic architectural schemes, i.e., coherent linear optical circuits and incoherent WDM approaches, where wavelengths have still not been exploited as a new mathematical dimension. In this paper, we present a radically new approach for promoting the synergy of WDM with universal linear optics and demonstrate a new, high-fidelity crossbar-based neuromorphic photonic platform, able to support matmul with multidimensional operands. Going a step further, we introduce the concept of programmable input and weight banks, supporting in situ reconfigurability, forming in this way the first WDM-equipped universal linear optical operator and demonstrating different operational modes like matrix-by-matrix and vector-by-tensor multiplication. The benefits of our platform are highlighted in a fully convolutional neural network layout that is responsible for parity identification in the MNIST handwritten digit dataset, with physical layer simulations revealing an accuracy of & SIM;94%, degraded by only 2% compared to respective results obtained when executed entirely by software. Finally, our in-depth analysis provides the guidelines for neuromorphic photonic processor performance improvement, revealing along the way that 4 bit quantization is sufficient for inputs, whereas the weights can be implemented with as low as 2 bits of precision, offering substantial benefits in terms of driving circuitry complexity and energy savings.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0da4395d944ab67a6c100db83b3bfa59",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:18:20.539322"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是神经形态光子学平台，用于支持矩阵乘法和张量运算，其应用场景集中在光学计算和神经网络处理，并未提及在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是神经形态光子学平台，用于支持矩阵乘法和张量运算，其应用场景集中在光学计算和神经网络处理，并未提及在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:19.285160"
+}

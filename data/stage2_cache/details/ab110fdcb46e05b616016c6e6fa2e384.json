@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 870,
+    "title": "PORTFOLIO OPTIMIZATION WITH PRIOR STOCK SELECTION",
+    "abstract": "We consider the problem of a decision maker, who is concerned with the management of a single-period portfolio that consists of holdings in n risky assets and is adjusted at the beginning of the time-period, The portfolio optimization problem consists in choosing the optimal rebalancing decisions in response to new information on market future prices (returns) of the risky assets in the portfolio in order to maximize the expected value of the end of period wealth in the presence of transaction costs, while satisfying a set of constraints. Rebalancing decisions are manifested in the revision of holdings through sales and purchases of assets. We assume that the assets are sufficiently liquid that market impacts can be neglected. We propose to solve the portfolio optimization problem in two steps: first, the phase of stock selection and second, the asset allocation phase. For the stock selection, we use principal component analysis to reduce the number of characteristics that will be taken into account. After that, applying clustering techniques, we find the similarities between the assets and we obtain a partition of the set of assets in clusters. Taking one element from each class, we get the set of assets that will be used to build the optimal portfolio. Once the stock selection completed, the optimal portfolio is obtained using an algorithm that combines the specific features of the convex programming with approximation techniques. The unique nature of our work is the combination of the classification theory with the portfolio optimization techniques and the study of this approach. To illustrate the behaviour of the proposed method, we consider the case of a portfolio of assets from Bucharest Stock Exchange.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a2824dff834097c1e2bd6d90c2e98a58",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "classification",
+      "clustering",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.163860"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是研究如何通过股票选择和资产分配来优化投资组合，以最大化预期期末财富，这直接属于投资组合管理的范畴。论文中提到的技术如主成分分析和聚类方法都是为了优化投资组合的构建和管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"该论文的核心内容是研究如何通过股票选择和资产分配来优化投资组合，以最大化预期期末财富，这直接属于投资组合管理的范畴。论文中提到的技术如主成分分析和聚类方法都是为了优化投资组合的构建和管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:48.860825"
+}

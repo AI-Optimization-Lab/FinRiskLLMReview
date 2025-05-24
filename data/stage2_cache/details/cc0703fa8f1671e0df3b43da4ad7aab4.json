@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 2227,
+    "title": "Neural networks vs logistic regression: a comparative study on a large data set",
+    "abstract": "Neural networks and logistic regression have been among the most widely used AI techniques in applications of pattern classification. Much has been discussed about if there is any significant difference in between them but much less has been actually done with real-world applications data (large scale) to help settle this matter, with a few exceptions. This paper presents a performance comparison between these two techniques on the market application of credit risk assessment, making use of a large database from an outstanding credit bureau and financial institution (a sample of 180,000 examples). The comparison was carried out through a 30-fold stratified cross-validation process to define the confidence intervals for the performance evaluation. Several metrics were applied both on the optimal decision point and along the continuous output domain. The statistical tests showed that multilayer perceptrons perform better than logistic regression at 95% confidence level, for all the metrics used.",
+    "year": 2004,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fb4df664fc812eae4597c5a6d7391c08",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "sigmoid",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:50.980408"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on comparing neural networks and logistic regression for credit risk assessment, which is a key application in financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on comparing neural networks and logistic regression for credit risk assessment, which is a key application in financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:41.280558"
+}

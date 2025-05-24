@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2468,
+    "title": "Generalized Exponentiated Gradient Algorithms and Their Application to On-Line Portfolio Selection",
+    "abstract": "Stochastic gradient descent (SGD) and exponentiated gradient (EG) update methods are widely used in signal processing and machine learning. This study introduces a novel family of generalized Exponentiated Gradient updates (EGAB) derived from the alpha-beta (AB) divergence regularization. The EGAB framework provides enhanced flexibility for processing data with varying distributions, thanks to the tunable hyperparameters of the AB divergence. We explore the applicability of these updates in online portfolio selection (OLPS) for financial markets with the goal of developing algorithms that achieve high risk-adjusted returns, even under relatively high transaction costs. The proposed EGAB algorithms are developed using constrained gradient optimization with regularization terms, demonstrating their versatility in OLPS by unifying the directional search of various algorithms and enabling interpolation between them. Our analysis and extensive computer simulations reveal that EGAB updates outperform existing OLPS algorithms, delivering good results on several performance metrics, such as cumulative return, average excess return, Sharpe ratio, and Calmar ratio, especially when transaction costs are significant. In conclusion, this study introduces a new family of exponentiated gradient updates and demonstrates their flexibility and effectiveness through extensive simulations across a wide range of real-world financial datasets.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e2afa55809eb6fa3ab5d82c4485c7829",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:59.762835"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是广义指数梯度算法（EGAB），并明确应用于在线投资组合选择（OLPS），旨在实现高风险调整后的回报，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是广义指数梯度算法（EGAB），并明确应用于在线投资组合选择（OLPS），旨在实现高风险调整后的回报，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:26.134703"
+}

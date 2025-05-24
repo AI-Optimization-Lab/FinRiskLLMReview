@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 3593,
+    "title": "Deep learning in the stock market-a systematic survey of practice, backtesting, and applications",
+    "abstract": "The widespread usage of machine learning in different mainstream contexts has made deep learning the technique of choice in various domains, including finance. This systematic survey explores various scenarios employing deep learning in financial markets, especially the stock market. A key requirement for our methodology is its focus on research papers involving backtesting. That is, we consider whether the experimentation mode is sufficient for market practitioners to consider the work in a real-world use case. Works meeting this requirement are distributed across seven distinct specializations. Most studies focus on trade strategy, price prediction, and portfolio management, with a limited number considering market simulation, stock selection, hedging strategy, and risk management. We also recognize that domain-specific metrics such as returns and volatility appear most important for accurately representing model performance across specializations. Our study demonstrates that, although there have been some improvements in reproducibility, substantial work remains to be done regarding model explainability. Accordingly, we suggest several future directions, such as improving trust by creating reproducible, explainable, and accountable models and emphasizing prediction of longer-term horizons-potentially via the utilization of supplementary data-which continues to represent a significant unresolved challenge.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f91dbcfb4a8554865f24f162369731d6",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "autoencoder",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:54.087403"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要明确指出大多数研究集中在交易策略、价格预测和投资组合管理上，其中投资组合管理是论文的主要应用领域之一。虽然也提到了风险管理和对冲策略，但这些并不是论文的主要研究方向。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要明确指出大多数研究集中在交易策略、价格预测和投资组合管理上，其中投资组合管理是论文的主要应用领域之一。虽然也提到了风险管理和对冲策略，但这些并不是论文的主要研究方向。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:58.979106"
+}

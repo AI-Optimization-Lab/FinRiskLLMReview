@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 943,
+    "title": "极端VaR风险测度的新方法:QRNN+POT",
+    "abstract": "由于金融时间序列极端尾部数据的稀疏性,一方面非线性分位数回归存在非线性函数形式选择困难;另一方面非线性分位数回归的极端VaR风险测度精度一直不高.为此,提出了使用神经网络分位数回归(QRNN)模拟金融系统的非线性结构,并使用极值理论的POT方法弥补非线性分位数回归对极端尾部数据信息处理能力的不足,得到了一个新的金融风险测度方法:QRNN+POT,给出了其基本算法,并将其应用于极端VaR风险测度.选取了世界范围内代表性国家股票市场为研究对象,从样本内与样本外两个方面实证比较了QRNN+POT方法与已有的非线性分位数回归模型在VaR风险测度中的表现,结果表明:第一,直接使用非线性分位数回归模型能够准确地得到正常VaR风险测度,而极端VaR风险测度效果却差强人意;第二,使用QRNN+POT方法,极大地改善了极端VaR风险测度效果,能够有效地描述金融危机期间出现的极端风险.",
+    "year": 2016,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "966ac06cb107d612cf6a98eca9036539",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:34:27.140657"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用神经网络分位数回归(QRNN)和极值理论的POT方法来改进极端VaR风险测度，这直接应用于金融风险管理领域，特别是针对极端风险的量化和管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络分位数回归(QRNN)和极值理论的POT方法来改进极端VaR风险测度，这直接应用于金融风险管理领域，特别是针对极端风险的量化和管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:36:46.930722"
+}

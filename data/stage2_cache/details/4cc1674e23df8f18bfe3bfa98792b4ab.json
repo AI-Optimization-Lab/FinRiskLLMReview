@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 300,
+    "title": "An Intelligent Learning and Ensembling Framework for Predicting Option Prices",
+    "abstract": "Estimating option prices and implied volatilities are critical for option risk management and trading. Common strategies in previous studies have relied on parametric models, including the stochastic volatility model (SV), jump-diffusion model (JD), and Black-Scholes model (BS). However, these models are built on several strict and idealistic assumptions, including lognormality and sample-path continuity. In addition, previous studies on option pricing mainly relied on its own market-level indicators without considering the effect of other concurrent options. To address these challenges, we propose an intelligent learning and ensembling framework based on convolutional neural network (CNN). Specifically, the customized nonparametric learning approach is first utilized to estimate option prices. Second, several traditional parametric models are also applied to estimate these prices. The estimated prices are combined by a CNN to obtain the final estimations. Our experiments based on Chinese SSE 50 ETF options demonstrate that the proposed intelligent framework outperforms the traditional SV model, JD model, and BS model with at least 41.52% performance enhancement in terms of RMSE.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "beb10e6ce0e822703034f562546f886f",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.246248"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用卷积神经网络（CNN）来预测期权价格，并比较了其与传统模型（如Black-Scholes模型）的性能。论文明确提到其目标是估计期权价格和隐含波动率，这直接属于衍生品定价的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用卷积神经网络（CNN）来预测期权价格，并比较了其与传统模型（如Black-Scholes模型）的性能。论文明确提到其目标是估计期权价格和隐含波动率，这直接属于衍生品定价的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:37.861416"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 68,
+    "title": "Option pricing with neural networks vs. Black-Scholes under different volatility forecasting approaches for BIST 30 index options",
+    "abstract": "This study compares the performances of neural network and Black-Scholes models in pricing BIST30 (Borsa Istanbul) index call and put options with different volatility forecasting approaches. Since the volatility is the key parameter in pricing options, GARCH (Generalized Autoregressive Conditional Heteroskedasticity), implied volatility, historical volatility, and implied volatility index (VBI) are used to determine the best volatility approach for pricing options according to moneyness and time-to-maturity dimensions. The paper also includes a subsample analysis in which the pricing performance of the models are evaluated during the turbulent periods. Overall results indicate that neural network outperforms Black-Scholes during tranquil times while Black-Scholes outperforms neural network during turbulent periods for call options. For put options, the Black-Scholes model is the best model during tranquil periods while neural network is the best model during turbulent periods. Copyright (c) 2021, Borsa Istanbul Anonim S, irketi. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "2f7a3dace216318f451de2029d02c328",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.901554"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究是比较神经网络和Black-Scholes模型在BIST30指数期权定价中的表现，并探讨了不同波动率预测方法对期权定价的影响。这直接涉及衍生品定价领域，特别是期权定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究是比较神经网络和Black-Scholes模型在BIST30指数期权定价中的表现，并探讨了不同波动率预测方法对期权定价的影响。这直接涉及衍生品定价领域，特别是期权定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:03.393731"
+}

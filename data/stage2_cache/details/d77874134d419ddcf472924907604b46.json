@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 4803,
+    "title": "Probabilistic Risk Assessment in Power Systems With High Wind Energy Penetration",
+    "abstract": "Power systems are increasingly confronted with operational uncertainties. These stem from the integration of wind and solar energy sources with inherently stochastic generation behavior. The ensuing risks include power plant curtailments or grid imbalances. The deterministic approaches that currently underpin most planning have proven insufficient to manage these risks. This paper presents an alternative in the form of a data-driven probabilistic approach with direct relevance for transmission system operators. The models present a novel methodology that is independent of the common boundary conditions, e.g. case-specific models. First, we compare several data-driven algorithms and assign the forecasting task to the best-performing one. Second, the resulting forecast serves as an input for three optimal power flow (OPF) problems we tailor to the German power system. These problems minimize energy import volumes, energy import costs, and overall power losses. Third, based on the OPF results, we perform a risk assessment for operational instability, power loss, financial losses, and renewable energy waste. The results show that neural networks slightly outperform traditional machine learning algorithms in forecasting accuracy. However, linear-quadratic regulators remain attractive for their simplicity-performance ratio. Our probabilistic OPF approach can reduce power losses and identify frequency and line loading irregularities that deterministic methods do not. The data-driven approach we propose is superior to existing approaches in terms of its performance, usability, and applicability to complex power systems.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "23946888f5f6abf9874dcf0142071629",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:41:00.905604"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究电力系统中高风能渗透下的概率风险评估，涉及机器学习、神经网络等技术，但其应用场景是电力系统的运行优化和风险评估，而非金融领域的衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究电力系统中高风能渗透下的概率风险评估，涉及机器学习、神经网络等技术，但其应用场景是电力系统的运行优化和风险评估，而非金融领域的衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:56.430989"
+}

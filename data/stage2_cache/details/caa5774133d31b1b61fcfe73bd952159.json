@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 180,
+    "title": "A hybrid framework based on extreme learning machine, discrete wavelet transform, and autoencoder with feature penalty for stock prediction",
+    "abstract": "Accurate prediction of the stock market trend can assist efficient portfolio and risk management. In recent years, with the rapid development of deep learning, it can make the classifiers more robust, which can be used for solving nonlinear problems. In our previous research, we proposed a numerical model for predicting the stock market via combination of discrete wavelet transform (DWT) denoising and extreme learning machine (ELM), and promising outcomes are achieved. The current research presents a hybrid framework using DWT, ELM, and autoencoder (AE) with feature penalty. Firstly, the backpropagation of the AE with feature penalty was deduced theoretically. Then, the raw data were denoised by DWT. The denoised data were used to train the AE with feature penalty after feature preprocessing and utilization of the labeling method. Afterward, the encoder part of the well-trained AE was utilized as the feature extraction model to train ELM model, and the hybrid framework named DAELM (DWT-AE-ELM) could be successfully developed. We also carried out experiments on the cor-responding dataset of 400 stocks, and the prediction accuracy of the current study was higher than that of our previous research. According to the predicted labels, we presented an investment strategy, and the yield-to -maturity of 400 stocks was significantly higher than that of the buy-and-hold (BAH) strategy. The results confirmed the superiority of the proposed hybrid framework.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "c0c176e2275a606e3198eb7f3878495d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "autoencoder",
+      "denoising autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T00:33:06.156213"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一个混合框架用于股票市场趋势预测，并基于预测结果提出了一种投资策略，其应用场景直接关联到投资组合管理。论文中提到的‘efficient portfolio and risk management’以及‘investment strategy’表明其主要应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一个混合框架用于股票市场趋势预测，并基于预测结果提出了一种投资策略，其应用场景直接关联到投资组合管理。论文中提到的‘efficient portfolio and risk management’以及‘investment strategy’表明其主要应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:32.970003"
+}

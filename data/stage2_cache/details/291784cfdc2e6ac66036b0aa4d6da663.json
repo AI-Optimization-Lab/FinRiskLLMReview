@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 828,
+    "title": "A Hybrid CNN and LSTM based Model for Financial Crisis Prediction",
+    "abstract": "The detection and prediction of financial crises in listed companies are crucial for investors to mitigate potential losses. Traditional prediction methods primarily rely on financial indicators, yet they often overlook valuable insights hidden in financial text. To address this limitation, our study explores the integration of financial indicators and financial text from annual reports to enhance financial crisis prediction. We propose a two-step approach, leveraging a Convolutional Neural Network (CNN) model to extract features from financial indicators and utilizing a Long Short-Term Memory (LSTM) network with attention mechanism to capture the underlying semantics in financial text. Subsequently, we combine the extracted features from both sources for effective classification. Through extensive experiments with various models, we demonstrate the efficacy of our combined approach in achieving optimal prediction results. Our findings highlight the importance of considering financial text alongside traditional financial indicators for enhanced financial crisis detection and prediction. The proposed methodology contributes to the existing literature and offers valuable insights for investors and financial analysts seeking more accurate and comprehensive risk assessment tools.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "dd42d876d44ba8a129039a49932d3251",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.551847"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用CNN和LSTM模型结合财务指标和财务文本来预测上市公司的财务危机，这直接属于金融风险管理的范畴，旨在帮助投资者和金融分析师更准确地评估和预测风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用CNN和LSTM模型结合财务指标和财务文本来预测上市公司的财务危机，这直接属于金融风险管理的范畴，旨在帮助投资者和金融分析师更准确地评估和预测风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:18.242473"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2391,
+    "title": "Quantification of model risk that is caused by model misspecification",
+    "abstract": "In this paper, we suggest a technique to quantify model risk, particularly model misspecification for binary response regression problems found in financial risk management, such as in credit risk modelling. We choose the probability of default model as one instance of many other credit risk models that may be misspecified in a financial institution. By way of illustrating the model misspecification for probability of default, we carry out quantification of two specific statistical predictive response techniques, namely the binary logistic regression and complementary log-log. The maximum likelihood estimation technique is employed for parameter estimation. The statistical inference, precisely the goodness of fit and model performance measurements, are assessed. Using the simulation dataset and Taiwan credit card default dataset, our finding reveals that with the same sample size and very small simulation iterations, the two techniques produce similar goodness-of-fit results but completely different performance measures. However, when the iterations increase, the binary logistic regression technique for balanced dataset reveals prominent goodness of fit and performance measures as opposed to the complementary log-log technique for both simulated and real datasets.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "18a7661924e165d7bda5cd61e351c90a",
+    "relevant_keywords": [
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:50.318246"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on quantifying model risk, specifically model misspecification in binary response regression problems within financial risk management, such as credit risk modeling. The study uses probability of default models as an example, which is a key component in assessing credit risk, a major aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on quantifying model risk, specifically model misspecification in binary response regression problems within financial risk management, such as credit risk modeling. The study uses probability of default models as an example, which is a key component in assessing credit risk, a major aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:30.641033"
+}

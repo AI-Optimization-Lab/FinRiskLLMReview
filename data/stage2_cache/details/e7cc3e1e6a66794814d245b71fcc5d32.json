@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1186,
+    "title": "Scenario Generation for Financial Data with a Machine Learning Approach Based on Realized Volatility and Copulas",
+    "abstract": "Portfolio optimisation is a core problem in quantitative finance and scenario generation techniques play a crucial role in simulating the future behaviour of the assets that can be used in allocation strategies. In the literature, there are different approaches to generating scenarios, from historical observations to models that predict the volatility of assets. In this paper, we propose a new methodology to generate one-day-ahead discrete scenarios, which are then used as input in choosing the portfolio that optimises the conditional value at risk (CVaR). Our approach uses machine learning supervised algorithms as forecasting models to predict the realized variance and intraday Kendall correlation of assets. With the predictions, we use an EVT-Copula approach to simulate the multivariate probability distribution of the assets. Our computational experiments suggest that our approach could produce more accurate volatility and correlation forecasts, and lower risk portfolios than traditional literature baselines.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "96bab80e713548a6e61d228b4364fc57",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.953124"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习和Copula方法生成金融数据的情景，用于优化投资组合的条件风险价值（CVaR）。这直接涉及投资组合管理和金融风险管理领域。论文明确提到这些情景用于选择优化CVaR的投资组合，表明其主要应用在投资组合管理和风险管理上。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习和Copula方法生成金融数据的情景，用于优化投资组合的条件风险价值（CVaR）。这直接涉及投资组合管理和金融风险管理领域。论文明确提到这些情景用于选择优化CVaR的投资组合，表明其主要应用在投资组合管理和风险管理上。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:27.801659"
+}

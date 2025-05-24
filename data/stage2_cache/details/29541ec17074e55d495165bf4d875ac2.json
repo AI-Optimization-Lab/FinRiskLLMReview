@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3515,
+    "title": "Shaping graph pattern mining for financial risk",
+    "abstract": "In recent years graph pattern mining took a prominent role in knowledge discovery in many scientific fields. From Web advertising to biology and finance, graph data is ubiquitous making pattern-based graph tools increasingly important. When it comes to financial settings, data is very complex and although many successful approaches have been proposed often they neglect the intertwined economic risk factors, which seriously affects the goodness of predictions. In this paper, we posit that financial risk analysis can be leveraged if structure can be taken into account by discovering financial motifs. We look at this problem from a graph-based perspective in two ways, by considering the structure in the inputs, the graphs themselves, and by taking into account the graph embedded structure of the data. In the first, we use gBoost combined with a substructure mining algorithm. In the second, we take a subspace learning graph embedded approach. In our experiments two datasets are used: a qualitative bankruptcy data benchmark and a real-world French database of corporate companies. Furthermore, we propose a graph construction algorithm to extract graph structure from feature vector data. Finally, we empirically show that in both graph-based approaches the financial motifs are crucial for the classification, thereby enhancing the prediction results. (C) 2017 Elsevier B.V. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "407ca69f2e49cda1b5d2c18104b2309f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:19.057717"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是图模式挖掘，用于金融风险分析，特别是通过发现金融模式来增强预测结果。论文明确提到金融风险分析是其应用场景，并使用了定性破产数据基准和法国公司数据库进行实验，这直接关联到金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是图模式挖掘，用于金融风险分析，特别是通过发现金融模式来增强预测结果。论文明确提到金融风险分析是其应用场景，并使用了定性破产数据基准和法国公司数据库进行实验，这直接关联到金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:23.955867"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 550,
+    "title": "Penalized logistic regressions with technical indicators predict up and down trends",
+    "abstract": "Correctly predicting up and down trends for stock prices is of immense important in the financial market. To further improve the prediction performance, in this paper we introduce five penalties: ridge, least absolute shrinkage and selection operator, elastic net, smoothly clipped absolute deviation and minimax concave penalty to logistic regressions with 19 technical indicators, and propose the five penalized logistic regressions to predict up and down trends for stock prices. Firstly, we translate the five penalized logistic log-likelihood functions into the five penalized weighted least squares functions and combine them with the tenfold cross-validation method to calculate the solution path to parameter estimators. Secondly, we combine the binomial deviation with cross-validation error as a risk measure to choose an appropriate tuning parameter for the penalty functions and apply the training set and the coordinate descent algorithm to obtain parameter estimators and probability estimators. Thirdly, we employ the testing set and the chosen optimal thresholds to construct two-class confusion matrices and receiver operating characteristic curves to assess the prediction performances to the five regressions. Finally, we compare the proposed five penalized logistic regressions with logistic regression, support vector machine and artificial neural network and found that the minimax concave penalty logistic regression performs the best in terms of the prediction performance to up and down trends for Google's stock prices. Therefore, in this paper we propose the five new prediction methods to improve the prediction accuracy of stock returns and bring economic benefits for investors.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1338b26cec1c2179b47db75439fd54a0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.287290"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用惩罚逻辑回归模型预测股票价格的涨跌趋势，虽然涉及金融市场，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。论文的重点是预测方法的改进和性能评估，而非上述特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用惩罚逻辑回归模型预测股票价格的涨跌趋势，虽然涉及金融市场，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。论文的重点是预测方法的改进和性能评估，而非上述特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:03.323953"
+}

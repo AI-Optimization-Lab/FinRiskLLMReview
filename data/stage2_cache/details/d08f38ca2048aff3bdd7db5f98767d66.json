@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1829,
+    "title": "A Lagrange-Newton algorithm for sparse nonlinear programming",
+    "abstract": "The sparse nonlinear programming (SNP) problem has wide applications in signal and image processing, machine learning and finance, etc. However, the computational challenge posed by SNP has not yet been well resolved due to the nonconvex and discontinuous to-norm involved. In this paper, we resolve this numerical challenge by developing a fast Newton-type algorithm. As a theoretical cornerstone, we establish a first-order optimality condition for SNP based on the concept of strong beta-Lagrangian stationarity via the Lagrangian function, and reformulate it as a system of nonlinear equations called the Lagrangian equations. The nonsingularity of the corresponding Jacobian is discussed, based on which the Lagrange-Newton algorithm (LNA) is then proposed. Under mild conditions, we establish the locally quadratic convergence and its iterative complexity estimation. To further demonstrate the efficiency and superiority of our proposed algorithm, we apply LNA to two specific problems arising from compressed sensing and sparse high-order portfolio selection, in which significant benefits accrue from the restricted Newton step.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9f22996309a6699a4560ff5a4a07fa2f",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:53.291150"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提到将提出的算法应用于稀疏高阶投资组合选择问题，这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提到将提出的算法应用于稀疏高阶投资组合选择问题，这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:44.250817"
+}

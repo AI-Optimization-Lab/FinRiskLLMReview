@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 33,
+    "title": "A comparative analysis of option pricing models: Black-Scholes, Bachelier, and artificial neural networks",
+    "abstract": "Practitioners and academics alike have applied the Black-Scholes model when pricing options practically since its introduction in 1973. The COVID-19 pandemic and the oil futures price crash of April 2020 caused major markets to briefly switch to the less widely known Bachelier model to price derivatives, as the model allows for negative strikes on the underlying. This study evaluates the predictive ability and accuracy of the Bachelier model and the Black-Scholes model when pricing European call options on the Standard & Poor's 500 index using five volatility estimation methods. Moreover, it compares the forecasts of the two parameterized models to a deep feed-forward artificial neural network (ANN) which is also used to price such options. Overall, the ANN is statistically superior in its predictive ability relative to both parameterized models, and there is no statistical difference in predictive ability between the Black-Scholes and Bachelier models. These results are of relevance to both academics and participants in the options markets.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "7f854bd7d6bbad9449e229b2e7bbafb3",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.537647"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是评估和比较不同的期权定价模型（Black-Scholes、Bachelier和人工神经网络）在预测欧洲看涨期权价格方面的表现。这直接涉及衍生品定价领域，特别是期权的定价问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是评估和比较不同的期权定价模型（Black-Scholes、Bachelier和人工神经网络）在预测欧洲看涨期权价格方面的表现。这直接涉及衍生品定价领域，特别是期权的定价问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:28.582459"
+}

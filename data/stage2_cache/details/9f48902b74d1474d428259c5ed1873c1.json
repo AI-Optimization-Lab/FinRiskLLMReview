@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 745,
+    "title": "Location-Aware and Budget-Constrained Service Brokering in Multi-Cloud via Deep Reinforcement Learning",
+    "abstract": "Multi-cloud makes it possible to effectively utilize various cloud services provided by multiple cloud providers at different locations. To process the requests for latency-sensitive applications, cloud brokers must select proper cloud services in multi-cloud to minimize the network latency without running into the risk of over-spending. The problem of location-aware and budget-constrained service brokering in multicloud demands a machine learning approach to handle the highly dynamic requests. In this paper, we apply deep reinforcement learning to solve the problem. The proposed algorithm, named DeepBroker, can dynamically and adaptively select virtual machines in multi-cloud for new arriving requests at a global scale. Specifically, DeepBroker trains brokering policies by employing a deep Q-network combined with the newly designed state extractor and action executor. To ensure financial viability, we introduce a penalty-based reward function to prevent over-budget situations. Evaluation based on real-world datasets shows that DeepBroker can significantly outperform several commonly used heuristic-based algorithms in terms of network latency minimization and budget satisfaction.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "94f478bd1f0b1c360b0950c6b41d2bec",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "deep belief network",
+      "DBM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:34.101690"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究在多云环境中使用深度强化学习进行服务代理，以优化网络延迟和预算控制，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究在多云环境中使用深度强化学习进行服务代理，以优化网络延迟和预算控制，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:24.542553"
+}

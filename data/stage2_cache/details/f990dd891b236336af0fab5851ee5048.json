@@ -1,0 +1,39 @@
+{
+  "paper": {
+    "id": 409,
+    "title": "Research on green supply chain finance risk identification based on two-stage deep learning",
+    "abstract": "As a resonance product between financial services and the upgrading of the green industry, green supply chain finance has garnered extensive attention in the process of ecological civilization construction. Effectively promoting the green transformation of small and medium-sized enterprises and achieving the dual carbon goals necessitate the avoidance of corporate green risks. However, the complex interdependence and information asymmetry among green supply chain finance enterprises result in data characteristics such as multi-source small samples and high-dimensional imbalance. To address these issues, this paper proposes a risk assessment model based on two-stage deep learning. In the first stage, we employ Generative Adversarial Network (GAN) to generate minority class default samples, and utilize Stacked Auto-Encoder (SAE) to extract data features with closed-form parameter calculation capability. In the second stage, the obtained features are input into a Deep Neural Network (DNN), and parameter learning and model optimization are conducted through joint training. Finally, to model low-order feature interactions, we integrate the Support Vector Machine (SVM) algorithm. The paper is grounded in the green innovation production of enterprises, collecting financial data of 176 upstream and downstream enterprises and corresponding core enterprise green indicators from 2013 to 2022. Experimental results demonstrate that GAN oversampling technique not only enhances the model's AUC metric but also significantly improves the F1 score. Compared with traditional deep learning methods, the proposed two-stage deep integration model effectively reduces training loss and exhibits superiority in identifying green supply chain finance risks.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1d83864b2d24a3ec618cea90b73a4b17",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "representation learning",
+      "autoencoder",
+      "Generative Adversarial Network",
+      "GAN",
+      "Stacked Auto-Encoder",
+      "SAE",
+      "Deep Neural Network",
+      "DNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.163865"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用两阶段深度学习模型进行绿色供应链金融风险识别，这直接涉及金融风险管理领域。论文的研究目标是评估和识别企业绿色风险，以促进中小企业的绿色转型和实现双碳目标，这属于金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用两阶段深度学习模型进行绿色供应链金融风险识别，这直接涉及金融风险管理领域。论文的研究目标是评估和识别企业绿色风险，以促进中小企业的绿色转型和实现双碳目标，这属于金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:06.589517"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 343,
+    "title": "Deep Risk Model: A Deep Learning Solution for Mining Latent Risk Factors to Improve Covariance Matrix Estimation",
+    "abstract": "Modeling and managing portfolio risk is perhaps the most important step to achieve growing and preserving investment performance. Within the modern portfolio construction framework that built on Markowitz's theory, the covariance matrix of stock returns is a required input to calculate portfolio risk. Traditional approaches to estimate the covariance matrix are based on human-designed risk factors, which often require tremendous time and effort to design better risk factors to improve the covariance estimation. In this work, we formulate the quest of mining risk factors as a learning problem and propose a deep learning solution to effectively design risk factors with neural networks. The learning objective is also carefully set to ensure the learned risk factors are effective in explaining the variance of stock returns as well as having desired orthogonality and stability. Our experiments on the stock market data demonstrate the effectiveness of the proposed solution: our method can obtain 1.9% higher explained variance measured by R-2 and also reduce the risk of a global minimum variance portfolio. The incremental analysis further supports our design of both the architecture and the learning objective.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "ccfc91a37b3c2466107d688f8c55052c",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:44.427337"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习挖掘潜在风险因素以改进协方差矩阵估计，这直接应用于投资组合风险管理和优化，属于金融风险管理和投资组合管理的范畴。论文明确提到其目标是改进投资组合风险的计算和管理，并通过实验验证了其在全球最小方差投资组合风险降低方面的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习挖掘潜在风险因素以改进协方差矩阵估计，这直接应用于投资组合风险管理和优化，属于金融风险管理和投资组合管理的范畴。论文明确提到其目标是改进投资组合风险的计算和管理，并通过实验验证了其在全球最小方差投资组合风险降低方面的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:06.000003"
+}

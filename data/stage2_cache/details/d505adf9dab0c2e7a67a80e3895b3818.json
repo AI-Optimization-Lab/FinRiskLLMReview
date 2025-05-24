@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 88,
+    "title": "Supply chain finance credit risk assessment using support vector machine-based ensemble improved with noise elimination",
+    "abstract": "Recently, support vector machines, a supervised learning algorithm, have been widely used in the scope of credit risk management. However, noise may increase the complexity of the algorithm building and destroy the performance of classifier. In our work, we propose an ensemble support vector machine model to solve the risk assessment of supply chain finance, combined with reducing noises method. The main characteristics of this approach include that (1) a novel noise filtering scheme that avoids the noisy examples based on fuzzy clustering and principal component analysis algorithm is proposed to remove both attribute noise and class noise to achieve an optimal clean set, and (2) support vector machine classifiers, based on the improved particle swarm optimization algorithm, are seen as component classifiers. Then, we obtained the final classification results by combining finally individual prediction through AdaBoosting algorithm on the new sample set. Some experiments are applied on supply chain financial analysis of China's listed companies. Results indicate that the credit assessment accuracy can be increased by applying this approach.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "00292cb1294de5227830bc3bb3aa3b3e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "clustering",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:39.581951"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用支持向量机集成模型结合噪声消除方法来评估供应链金融的信用风险，这直接涉及信用风险管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用支持向量机集成模型结合噪声消除方法来评估供应链金融的信用风险，这直接涉及信用风险管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:08.745642"
+}

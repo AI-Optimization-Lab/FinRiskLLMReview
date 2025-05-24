@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 103,
+    "title": "Demand Forecast in E-commerce Using a Long Short-Term Memory Neural Network Methodology",
+    "abstract": "Generating accurate and reliable sales forecasts is crucial in the E-commerce business. The current state-of-the-art techniques are typically univariate methods, which produce forecasts considering only the historical sales data of a single product. However, in a situation where large quantities of related time series are available, conditioning the forecast of an individual time series on past behaviour of similar, related time series can be beneficial. Since the product assortment hierarchy in an E-commerce platform contains large numbers of related products, in which the sales demand patterns can be correlated, our attempt is to incorporate this cross-series information in a unified model. We achieve this by globally training a Long Short-Term Memory network (LSTM) that exploits the non-linear demand relationships available in an E-commerce product assortment hierarchy. Aside from the forecasting framework, we also propose a systematic pre-processing framework to overcome the challenges in the E-commerce business. We also introduce several product grouping strategies to supplement the LSTM learning schemes, in situations where sales patterns in a product portfolio are disparate. We empirically evaluate the proposed forecasting framework on a real-world online marketplace dataset from Walmart.com. Our method achieves competitive results on category level and super-departmental level datasets, outperforming state-of-the-art techniques.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "1304f6df34f1a368525627542d49fe07",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:32:31.382046"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用LSTM神经网络进行电子商务中的需求预测，虽然涉及时间序列分析和预测技术，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用LSTM神经网络进行电子商务中的需求预测，虽然涉及时间序列分析和预测技术，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:37.148457"
+}

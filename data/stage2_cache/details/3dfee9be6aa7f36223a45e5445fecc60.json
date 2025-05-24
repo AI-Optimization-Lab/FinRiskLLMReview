@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1001,
+    "title": "Optimal solution for immunizing arbitrarily scheduled multiple liabilities",
+    "abstract": "Immunization, a control tool for interest rate dependent changes in the value of an asset portfolio given a similar dependency for a target liability portfolio, is central to portfolio management. A vast body of academic literature describes various immunization models either for the case of a single liability payout or assuming a specific change in the yield curve, or both. This paper is the first to propose an immunization solution for the case of multiple liability payouts assuming arbitrary changes in the yield curve. For the case of multiple liability payouts, we generalize M-Absolute, which is a risk measure proposed by Nawalkha. Chambers (1996), and estimate the proximity of payment streams with EMD (the Wasserstein distance) which is a well-known tool in machine learning. In line with Fong and Vasicek (1984), it is shown that portfolio's interest rate risk is constrained to a product of two factors with one factor, EMD between asset and liability streams, being only dependent on the portfolio structure and the other factor, the sup-norm of the function of interest rate shocks, being solely determined by changes in the yield curve. We also show the unimprovability of the estimate and obtain, in an explicit form, a computational procedure for the optimal immunizing portfolio. The results are practically applicable as exemplified by the immunization of an annuity-type security with a portfolio of government bonds.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "813583ed81bb40dca5b30a69d4e7d8a6",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.754948"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是针对利率风险进行资产组合免疫，以匹配多个负债支付，这直接属于投资组合管理的范畴。论文中提到的免疫策略和风险度量方法（如M-Absolute和EMD）都是为了优化投资组合以应对利率变化，而不是衍生品定价或广义的金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是针对利率风险进行资产组合免疫，以匹配多个负债支付，这直接属于投资组合管理的范畴。论文中提到的免疫策略和风险度量方法（如M-Absolute和EMD）都是为了优化投资组合以应对利率变化，而不是衍生品定价或广义的金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:22.651013"
+}

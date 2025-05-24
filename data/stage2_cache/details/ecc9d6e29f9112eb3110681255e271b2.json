@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1506,
+    "title": "A machine learning approach for individual claims reserving in insurance",
+    "abstract": "Accurate loss reserves are an important item in the financial statement of an insurance company and are mostly evaluated by macrolevel models with aggregate data in run-off triangles. In recent years, a new set of literature has considered individual claims data and proposed parametric reserving models based on claim history profiles. In this paper, we present a nonparametric and flexible approach for estimating outstanding liabilities using all the covariates associated to the policy, its policyholder, and all the information received by the insurance company on the individual claims since its reporting date. We develop a machine learning-based method and explain how to build specific subsets of data for the machine learning algorithms to be trained and assessed on. The choice for a nonparametric model leads to new issues since the target variables (claim occurrence and claim severity) are right-censored most of the time. The performance of our approach is evaluated by comparing the predictive values of the reserve estimates with their true values on simulated data. We compare our individual approach with the most used aggregate data method, namely, chain ladder, with respect to the bias and the variance of the estimates. We also provide a short real case study based on a Dutch loan insurance portfolio.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6bd82a926ef11415a8b34149beacd06a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:39.008397"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用机器学习方法对保险公司的个体索赔进行准备金评估，这属于金融风险管理中的保险风险管理和损失准备金评估范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用机器学习方法对保险公司的个体索赔进行准备金评估，这属于金融风险管理中的保险风险管理和损失准备金评估范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:38.799571"
+}

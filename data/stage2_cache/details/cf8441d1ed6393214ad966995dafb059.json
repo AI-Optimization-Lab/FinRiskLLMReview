@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 326,
+    "title": "Theoretically Motivated Data Augmentation and Regularization for Portfolio Construction",
+    "abstract": "The task we consider is portfolio construction in a speculative market, a fundamental problem in modern finance. While various empirical works now exist to explore deep learning in finance, the theory side is almost non-existent. In this work, we focus on developing a theoretical framework for understanding the use of data augmentation for deep-learning-based approaches to quantitative finance. The proposed theory clarifies the role and necessity of data augmentation for finance; moreover, our theory implies that a simple algorithm of injecting a random noise of strength root|r(t) (-) (1)| to the observed return r(t) is better than not injecting any noise and a few other financially irrelevant data augmentation techniques.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "34a611f3e547ae98afd959b75e5bce47",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:44.395339"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提到其任务是解决投资组合构建问题，这是投资组合管理的核心内容。论文的理论框架和数据增强技术都是为了改进投资组合的构建方法。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确提到其任务是解决投资组合构建问题，这是投资组合管理的核心内容。论文的理论框架和数据增强技术都是为了改进投资组合的构建方法。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:07.402457"
+}

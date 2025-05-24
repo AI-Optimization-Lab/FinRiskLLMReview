@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2815,
+    "title": "Automated Trading System for Stock Index Using LSTM Neural Networks and Risk Management",
+    "abstract": "Financial time series predictions are a challenge due to their nonlinear and chaotic nature. In recent decades, many researchers and investors have studied methods to improve quantitative analysis. In the field of artificial intelligence, sophisticated machine learning techniques, such as deep learning showed better performance. In this paper, an automated trading system is built to predict future trends of stock index prices. Using an LSTM-based agent to learn temporal patterns in the data, the algorithm triggers automatic trades according to the historical data, technical analysis indicators, and risk management. The results demonstrate that the proposed method, called LSTM-RMODV, shows better performance when compared with other methods, including the buy-and-hold technique. The proposed method also works in bear or bull market conditions, showing a rate over net income based on invested capital of 228.94%. That is, despite the low accuracy, the algorithm is capable of generating consistent profits when all the transaction costs are considered.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6c5b30e3565cefd1c96b5d8fcf25990f",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:19:46.578731"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM神经网络构建自动交易系统，并明确提到了风险管理的应用。此外，自动交易系统通常涉及投资组合的构建和调整，因此也属于投资组合管理的范畴。然而，论文并未提及衍生品定价相关内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM神经网络构建自动交易系统，并明确提到了风险管理的应用。此外，自动交易系统通常涉及投资组合的构建和调整，因此也属于投资组合管理的范畴。然而，论文并未提及衍生品定价相关内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:46.872727"
+}

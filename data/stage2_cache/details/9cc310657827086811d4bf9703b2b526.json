@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 4257,
+    "title": "Evaluation of Tree-Based Ensemble Machine Learning Models in Predicting Stock Price Direction of Movement",
+    "abstract": "Forecasting the direction and trend of stock price is an important task which helps investors to make prudent financial decisions in the stock market. Investment in the stock market has a big risk associated with it. Minimizing prediction error reduces the investment risk. Machine learning (ML) models typically perform better than statistical and econometric models. Also, ensemble ML models have been shown in the literature to be able to produce superior performance than single ML models. In this work, we compare the effectiveness of tree-based ensemble ML models (Random Forest (RF), XGBoost Classifier (XG), Bagging Classifier (BC), AdaBoost Classifier (Ada), Extra Trees Classifier (ET), and Voting Classifier (VC)) in forecasting the direction of stock price movement. Eight different stock data from three stock exchanges (NYSE, NASDAQ, and NSE) are randomly collected and used for the study. Each data set is split into training and test set. Ten-fold cross validation accuracy is used to evaluate the ML models on the training set. In addition, the ML models are evaluated on the test set using accuracy, precision, recall, F1-score, specificity, and area under receiver operating characteristics curve (AUC-ROC). Kendall W test of concordance is used to rank the performance of the tree-based ML algorithms. For the training set, the AdaBoost model performed better than the rest of the models. For the test set, accuracy, precision, F1-score, and AUC metrics generated results significant to rank the models, and the Extra Trees classifier outperformed the other models in all the rankings.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3251026430a4764ee800c9df0a37aaa7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:34:48.961066"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用树基集成机器学习模型预测股票价格的运动方向，这直接有助于投资者做出更明智的投资决策，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用树基集成机器学习模型预测股票价格的运动方向，这直接有助于投资者做出更明智的投资决策，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:51.195516"
+}

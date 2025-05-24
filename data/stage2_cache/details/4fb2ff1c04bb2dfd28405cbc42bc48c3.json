@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 246,
+    "title": "Optimized radial basis function neural network for improving approximate dynamic programming in pricing high dimensional options",
+    "abstract": "Pricing American basket option is one of the essential problems in quantitative finance. The complexity of this type of option has motivated many practitioners and researchers to develop simulation-based methods. In this paper, we develop an optimized radial basis function neural network (RBFNN), which is optimally tuned by the particle swarm optimization algorithm to enhance the efficiency and accuracy of approximate dynamic programming (ADP) for pricing the American basket option. Additionally, for the scenario generation, a simulation-based technique using a copula-GARCH method and Extreme Value Theory is performed to tackle the nonlinearity of dependencies between variables. The prices obtained through the proposed approach compared with those ones achieved from pure RBFNN and ADP in different situations. This is also illustrated that the obtained prices of American basket option can outperform the results obtained through the RBFNN and ADP approaches in terms of the predefined fitness measures.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "c3974719c146ff9d6993edcc5f3d32f5",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.242492"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是优化径向基函数神经网络（RBFNN）和近似动态规划（ADP），用于定价美式篮子期权（American basket option），这直接属于衍生品定价领域。论文明确提到这是量化金融中的一个基本问题，并且通过实验比较了不同方法的定价效果。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是优化径向基函数神经网络（RBFNN）和近似动态规划（ADP），用于定价美式篮子期权（American basket option），这直接属于衍生品定价领域。论文明确提到这是量化金融中的一个基本问题，并且通过实验比较了不同方法的定价效果。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:43.327228"
+}

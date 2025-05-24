@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "active learning",
+    "classification",
+    "sequence-to-sequence learning",
+    "encoder-decoder"
+  ],
+  "explanations": {
+    "machine learning": "The paper discusses the use of AI algorithms for learning patterns of construction activities, which falls under the broader category of machine learning.",
+    "active learning": "The paper explicitly mentions the tool's active learning mechanism that suggests relevant annotations to expert planners and learns from their feedback.",
+    "classification": "The paper focuses on part-of-activity tagging, which involves classifying parts of construction activity names into categories like action, object, and location.",
+    "sequence-to-sequence learning": "The paper extends the tool's capability to provide sequence annotations for any text data, which is related to sequence-to-sequence learning tasks.",
+    "encoder-decoder": "Sequence annotation tasks often utilize encoder-decoder architectures, which are implied by the sequence-to-sequence learning aspect of the tool."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"active learning\", \"classification\", \"sequence-to-sequence learning\", \"encoder-decoder\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper discusses the use of AI algorithms for learning patterns of construction activities, which falls under the broader category of machine learning.\",\n    \"active learning\": \"The paper explicitly mentions the tool's active learning mechanism that suggests relevant annotations to expert planners and learns from their feedback.\",\n    \"classification\": \"The paper focuses on part-of-activity tagging, which involves classifying parts of construction activity names into categories like action, object, and location.\",\n    \"sequence-to-sequence learning\": \"The paper extends the tool's capability to provide sequence annotations for any text data, which is related to sequence-to-sequence learning tasks.\",\n    \"encoder-decoder\": \"Sequence annotation tasks often utilize encoder-decoder architectures, which are implied by the sequence-to-sequence learning aspect of the tool.\"\n  }\n}\n```"
+}

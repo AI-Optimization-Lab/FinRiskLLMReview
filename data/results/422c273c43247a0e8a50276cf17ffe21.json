@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "regression",
+    "clustering"
+  ],
+  "explanations": {
+    "regression": "论文摘要中提到'首先以风险因子为自变量,对股票收益率建立线性回归模型'，表明研究中使用了回归分析方法。",
+    "clustering": "摘要中提到'通过引入惩罚函数将取值非常接近的回归系数归为一组'，这实际上是一种聚类方法的应用，用于对回归系数进行分组。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"regression\", \"clustering\"],\n  \"explanations\": {\n    \"regression\": \"论文摘要中提到'首先以风险因子为自变量,对股票收益率建立线性回归模型'，表明研究中使用了回归分析方法。\",\n    \"clustering\": \"摘要中提到'通过引入惩罚函数将取值非常接近的回归系数归为一组'，这实际上是一种聚类方法的应用，用于对回归系数进行分组。\"\n  }\n}\n```"
+}

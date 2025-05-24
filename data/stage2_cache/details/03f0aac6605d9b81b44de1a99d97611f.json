@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 632,
+    "title": "Deep learning-based financial risk early warning model for listed companies: A multi-dimensional analysis approach",
+    "abstract": "This study proposes a novel deep learning-based approach for financial risk early warning in listed companies through a hierarchical attention network that integrates multi-dimensional data sources. Traditional financial risk prediction models often struggle with complex non-linear relationships and fail to effectively combine diverse information types. We develop a comprehensive framework that simultaneously processes financial statements, market trading data, and textual information through specialized neural network components. The model employs a two-level attention mechanism that dynamically weights both individual features and information sources, enabling interpretable risk assessment. Using data from 2,876 Chinese A-share listed companies from 2015 to 2024, our empirical analysis demonstrates that the proposed model achieves superior predictive performance (AUC-ROC: 0.873) compared to traditional statistical approaches (0.742-0.768) and conventional machine learning methods (0.812-0.845). The model provides early warning signals approximately 4.2 months before actual distress events, significantly outperforming benchmark models (2.3-3.7 months). Notably, the model maintains robust performance during market stress periods (accuracy: 0.798) compared to traditional models (accuracy: 0.678). The attention mechanism reveals that the relative importance of different risk indicators varies systematically with market conditions, with financial ratios dominating during stable periods (weight: 0.435) and market signals becoming more crucial during crises (weight: 0.412). These findings contribute to both the theoretical understanding of financial risk dynamics and practical risk management applications, while demonstrating the effectiveness of interpretable deep learning approaches in financial analysis.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5a3bd45a5fac91f485722aeea185c10a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "attention mechanism",
+      "representation learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.826391"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a deep learning-based model for financial risk early warning in listed companies, which is a direct application in financial risk management. The study aims to predict financial distress and provide early warning signals, which are core aspects of risk management in financial institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a deep learning-based model for financial risk early warning in listed companies, which is a direct application in financial risk management. The study aims to predict financial distress and provide early warning signals, which are core aspects of risk management in financial institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:16.789049"
+}

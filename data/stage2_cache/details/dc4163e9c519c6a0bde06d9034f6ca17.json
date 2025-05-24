@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 739,
+    "title": "Leveraging Cloud Computing for Stock Market Forecasting with Reinforcement Learning",
+    "abstract": "Stock market volatility poses significant challenges for models aiming to consistently outperform benchmark indices, as market-specific characteristics can undermine model performance across different markets. This variability necessitates extensive retraining, which is both time-consuming and computationally expensive with traditional sequential methods. To address these issues, we employed cloud-based concurrent execution to optimize the training of five reinforcement learning algorithms for stock market forecasting. Our approach led to a 19.40% reduction in training time compared to sequential methods. Notably, during the COVID-19 pandemic, the reinforcement learning algorithms demonstrated superior performance, with the Proximal Policy Optimization (PPO) algorithm achieving a 60% increase in portfolio returns compared to traditional benchmarks. This enhanced efficiency and performance underline the benefits of leveraging concurrent execution and cloud-based resources for advanced financial modeling.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e409561e2aabb7e92e2a0e8b6a3c5301",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "Proximal Policy Optimization (PPO)"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.664215"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习算法进行股票市场预测，并特别提到了在COVID-19疫情期间，PPO算法实现了投资组合回报的显著提升。这表明其主要应用是在投资组合管理领域，旨在优化投资决策和提升回报。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习算法进行股票市场预测，并特别提到了在COVID-19疫情期间，PPO算法实现了投资组合回报的显著提升。这表明其主要应用是在投资组合管理领域，旨在优化投资决策和提升回报。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:18.731588"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3538,
+    "title": "Using Asymmetric Cost Matrices to Optimize Care Management Interventions",
+    "abstract": "The majority of health care expenditures are incurred by a small portion of the population. Care management or intervention programs may help reduce medical costs, especially those of extremely high-cost members. For these programs to be effective, however, the insurer must identify and select potential high-cost members to be assigned to an intervention before they incur those costs. Because high medical costs are often connected to an accident or traumatic event that cannot be anticipated, it can be difficult to predict who will be high-cost in the future. In this article, we explore the use of machine learning in predicting high-cost members. Specifically, we use the extreme gradient boosting algorithm to develop risk scores for members based on demographic, medical, and financial histories. To select members for intervention, we develop asymmetric cost matrices that account for potentially unequal savings or losses for assigning interventions to members. We show how these matrices can be reduced to a function of the expected savings per dollar of intervention, which is easily used to optimize the risk score threshold at which members are assigned an intervention. These techniques, which can be tailored to the specific needs of an insurer, may help insurers select the optimal members for intervention programs, reduce overall costs, and improve member health outcomes.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "de62713ddc5f347d5c94023967b179c3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:19.104488"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要探讨了在医疗保健管理中使用机器学习和不对称成本矩阵来预测高成本成员并优化干预措施，其应用场景是医疗保健而非金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要探讨了在医疗保健管理中使用机器学习和不对称成本矩阵来预测高成本成员并优化干预措施，其应用场景是医疗保健而非金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:00.851921"
+}

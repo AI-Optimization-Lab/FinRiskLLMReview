@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "support vector machine",
+    "SVM",
+    "decision tree",
+    "neural network",
+    "deep learning",
+    "backpropagation",
+    "BP",
+    "long short-term memory",
+    "LSTM"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning methods for stock return prediction.",
+    "supervised learning": "The methods used (RF, SVR, LSTM, ELM, BPNN) are typically supervised learning techniques as they involve training on labeled data.",
+    "regression": "Stock return prediction is a regression problem, predicting continuous values.",
+    "support vector machine": "The paper mentions the use of support vector regression (SVR), which is based on support vector machines.",
+    "SVM": "SVR is a variant of SVM, hence SVM is relevant.",
+    "decision tree": "Random forest (RF) is an ensemble method based on decision trees.",
+    "neural network": "The paper mentions back propagation neural network (BPNN) and LSTM, which are types of neural networks.",
+    "deep learning": "LSTM is a deep learning technique, hence deep learning is relevant.",
+    "backpropagation": "The paper mentions back propagation neural network (BPNN), which uses backpropagation for training.",
+    "BP": "BP stands for backpropagation, which is used in BPNN.",
+    "long short-term memory": "The paper explicitly mentions the use of LSTM for stock return prediction.",
+    "LSTM": "LSTM is a type of recurrent neural network used in the paper for prediction."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"regression\",\n    \"support vector machine\",\n    \"SVM\",\n    \"decision tree\",\n    \"neural network\",\n    \"deep learning\",\n    \"backpropagation\",\n    \"BP\",\n    \"long short-term memory\",\n    \"LSTM\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning methods for stock return prediction.\",\n    \"supervised learning\": \"The methods used (RF, SVR, LSTM, ELM, BPNN) are typically supervised learning techniques as they involve training on labeled data.\",\n    \"regression\": \"Stock return prediction is a regression problem, predicting continuous values.\",\n    \"support vector machine\": \"The paper mentions the use of support vector regression (SVR), which is based on support vector machines.\",\n    \"SVM\": \"SVR is a variant of SVM, hence SVM is relevant.\",\n    \"decision tree\": \"Random forest (RF) is an ensemble method based on decision trees.\",\n    \"neural network\": \"The paper mentions back propagation neural network (BPNN) and LSTM, which are types of neural networks.\",\n    \"deep learning\": \"LSTM is a deep learning technique, hence deep learning is relevant.\",\n    \"backpropagation\": \"The paper mentions back propagation neural network (BPNN), which uses backpropagation for training.\",\n    \"BP\": \"BP stands for backpropagation, which is used in BPNN.\",\n    \"long short-term memory\": \"The paper explicitly mentions the use of LSTM for stock return prediction.\",\n    \"LSTM\": \"LSTM is a type of recurrent neural network used in the paper for prediction.\"\n  }\n}\n```"
+}

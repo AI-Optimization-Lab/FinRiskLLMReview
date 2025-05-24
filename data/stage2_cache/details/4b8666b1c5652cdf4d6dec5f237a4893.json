@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 984,
+    "title": "Machine learning for enhanced prognostication: predicting 30-day outcomes following posterior fossa decompression surgery for Chiari malformation type I in a pediatric cohort",
+    "abstract": "OBJECTIVE Chiari malformation type I (CM -I) is a congenital disorder occurring in 0.1% of the population. In symptomatic cases, surgery with posterior fossa decompression (PFD) is the treatment of choice. Surgery is, however, associated with peri- and postoperative complications that may require readmission or renewed surgical intervention. Given the associated financial costs and the impact on patients' well-being, there is a need for predictive tools that can assess the likelihood of such adverse events. The aim of this study was therefore to leverage machine learning algorithms to develop a predictive model for 30 -day readmissions and reoperations after PFD in pediatric patients with CM -I. METHODS This was a retrospective study based on data from the National Surgical Quality Improvement Program-Pediatric database. Eligible patients were those undergoing PFD (Current Procedural Terminology code 61343) for CM -I between 2012 and 2021. Patients undergoing surgery for tumors or vascular lesions were excluded. Unplanned 30 -day readmission and unplanned 30 -day reoperation were the main study outcomes. Additional outcome data considered included the length of hospital stay, 30 -day complications, discharge disposition, and 30 -day mortality. Training and testing samples were randomly generated (80:20) to study the 30 -day readmission and reoperation using logistic regression, decision tree, random forest (RF), K -nearest neighbors, and Gaussian naive Bayes algorithms. RESULTS A total of 7106 pediatric patients undergoing PFD were included. The median age was 9.2 years (IQR 4.7, 14.2 years). Most of the patients were female (56%). The 30 -day readmission and reoperation rates were 7.5% and 3.4%, respectively. Headaches (32%) and wound -related complications (30%) were the most common reasons for 30day readmission, while wound revisions and evacuation of fluid or blood (62%), followed by CSF diversion -related proce - dures (28%), were the most common reasons for 30 -day reoperation. RF classifiers had the highest predictive accuracy for both 30 -day readmissions (area under the curve [AUC] 0.960) and reoperations (AUC 0.990) compared with the other models. On feature importance analysis, sex, developmental delay, ethnicity, respiratory disease, premature birth, hydrocephalus, and congenital/genetic anomaly were some of the variables contributing the most to both RF models. CONCLUSIONS Using a large-scale nationwide dataset, machine learning models for the prediction of both 30 -day readmissions and reoperations were developed and achieved high accuracy. This highlights the utility of machine learning in risk stratification and surgical decision -making for pediatric CM -I.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "be0c23e86e3f9a9c39b62215de245bff",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "random forest",
+      "logistic regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.885256"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习模型预测儿科患者手术后30天内的再入院和再手术情况，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习模型预测儿科患者手术后30天内的再入院和再手术情况，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:45.337943"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 178,
+    "title": "基于神经网络的股指预测与选股研究",
+    "abstract": "本文主要针对投资组合矩阵与投资组合协方差矩阵的研究，利用Python绘制时间序列调和曲线，更加直观地发现缺损数据，并以RBP神经网络对缺损值进行预测补全。首先，建立Markowitz均值-方差组合模型，通过绘制边界曲线，寻求最小风险的方法来确定最佳收益，其中，单支股票投资由标准差来决定，组合股投资由其协方差来决定；其次，选取投资组合相关矩阵与投资组合协方差矩阵两个角度来评估，其两者分别代表了组合股票收益之间的线性关系以及股票的波动情况；最后，将神经网络与时间序列相结合，建立NARX神经网络的非线性多步预测模型来预测未来一年的股指，使实际的输出值与期望值的误差达到最小。结果表明，该模型股指预测均误差在0.092以内，并且还在预测精度上有明显的优势。",
+    "year": 2021,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d9292a0172507678cea691a2829c6ed9",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "NARX"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:50.489045"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用神经网络和时间序列分析来预测股指并优化投资组合，主要应用于投资组合管理领域。论文中明确提到了Markowitz均值-方差组合模型，以及通过协方差矩阵来评估组合股票的风险和收益，这些都是投资组合管理的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络和时间序列分析来预测股指并优化投资组合，主要应用于投资组合管理领域。论文中明确提到了Markowitz均值-方差组合模型，以及通过协方差矩阵来评估组合股票的风险和收益，这些都是投资组合管理的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:39.508519"
+}

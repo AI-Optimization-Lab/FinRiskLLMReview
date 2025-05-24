@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 162,
+    "title": "Neural network copula portfolio optimization for exchange traded funds",
+    "abstract": "This paper attempts to investigate if adopting accurate forecasts from Neural Network (NN) models can lead to statistical and economically significant benefits in portfolio management decisions. In order to achieve that, three NNs, namely the Multi-Layer Perceptron, Recurrent Neural Network and the Psi Sigma Network (PSN), are applied to the task of forecasting the daily returns of three Exchange Traded Funds (ETFs). The statistical and trading performance of the NNs is benchmarked with the traditional Autoregressive Moving Average models. Next, a novel dynamic asymmetric copula model (NNC) is introduced in order to capture the dependence structure across ETF returns. Based on the above, weekly re-balanced portfolios are obtained and compared using the traditional mean-variance and the mean-CVaR portfolio optimization approach. In terms of the results, PSN outperforms all models in statistical and trading terms. Additionally, the asymmetric skewed t copula statistically outperforms symmetric copulas when it comes to modelling ETF returns dependence. The proposed NNC model leads to significant improvements in the portfolio optimization process, while forecasting covariance accounting for asymmetric dependence between the ETFs also improves the performance of obtained portfolios.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "23d42a6ee8da867c0bb5c0ad46394278",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.091519"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用神经网络和动态不对称copula模型来优化ETF的投资组合，并通过均值-方差和均值-CVaR方法进行组合优化，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络和动态不对称copula模型来优化ETF的投资组合，并通过均值-方差和均值-CVaR方法进行组合优化，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:16.753197"
+}

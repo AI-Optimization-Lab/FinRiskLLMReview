@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 173,
+    "title": "Pricing Bermudan Options Using Regression Trees/Random Forests",
+    "abstract": "The value of an American option is the maximized value of the discounted cash flows from the option. At each time step, one needs to compare the immediate exercise value with the continuation value and decide to exercise as soon as the exercise value is strictly greater than the continuation value. We can formulate this problem as a dynamic programming equation, where the main difficulty comes from the computation of the conditional expectations representing the continuation values at each time step. In Longstaff and Schwartz [Rev. Financ. Studies, 14 (2001), pp. 113--147], these conditional expectations were estimated using regressions on a finite-dimensional vector space (typically a polynomial basis). In this paper, we follow the same algorithm; only the conditional expectations are estimated using regression trees or random forests. We discuss the convergence of the Longstaff and Schwartz algorithm when the standard least squares regression is replaced by regression trees. Finally, we expose some numerical results with regression trees and random forests. The random forest algorithm gives excellent results in high dimensions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ecb9585174de32cc1f315826d29febe3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.084514"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用回归树和随机森林来估计Bermudan期权定价中的条件期望，这直接应用于衍生品定价领域。论文明确讨论了期权定价的动态编程问题，并提供了数值结果来验证方法的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用回归树和随机森林来估计Bermudan期权定价中的条件期望，这直接应用于衍生品定价领域。论文明确讨论了期权定价的动态编程问题，并提供了数值结果来验证方法的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:25.816799"
+}

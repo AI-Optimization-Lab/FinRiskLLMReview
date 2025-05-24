@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3541,
+    "title": "Copula Regression for Compound Distributions with Endogenous Covariates with Applications in Insurance Deductible Pricing",
+    "abstract": "This article concerns deductible pricing in nonlife insurance contracts. The primary interest of insurers is the effect of the contract deductible on a policyholder's aggregate loss that is determined by a compound distribution where the sum of individual claim amount is stopped by the number of claims. Policyholders choose the deductible level based on their hidden risks, which makes deductible endogenous in the regressions for both claim frequency and claim severity. To address the endogeneity in the regression for the compound aggregate loss, we introduce a novel approach using pair copula constructions to jointly model the policyholder's deductible, number of claims, and individual claim amounts, in the context of compound distributions. The proposed method provides insurers an empirical tool to uncover the underlying risk distribution of the potential customers. In the application we consider an insurance portfolio from the property insurance program that provides property coverage for building and contents of local government entities of the Wisconsin. Using the historical data on policyholder and insurance claims, we first provide empirical evidence of the endogeneity of the deductible. Interestingly, we find that the policyholder's deductible is negatively associated with the claim frequency but positively associated with the claim severity. For the portfolio of policyholders, the endogenous deductible model provides superior prediction for 65% and 71% of policyholders for claim frequency and severity, respectively. The endogeneity of deductible shows significant managerial implications on insurance operations. In particular, the risk score suggested by the proposed method allows the insurer to identify additional profitable underwriting strategies which are quantified by the Gini indices of 0.22 and 0.13 when switching from the exogenous deductible premium and the insurer's contract premium, respectively. for this article are available online.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2c7c4f5def5dd649bd22d263ee053ff6",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:18:20.491508"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究保险免赔额定价，虽然涉及风险建模和预测，但其核心应用领域是保险而非金融衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究保险免赔额定价，虽然涉及风险建模和预测，但其核心应用领域是保险而非金融衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:19.804556"
+}

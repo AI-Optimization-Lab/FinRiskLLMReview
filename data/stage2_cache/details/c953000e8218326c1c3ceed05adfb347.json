@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 211,
+    "title": "Nickel Price Forecast Based on the LSTM Neural Network Optimized by the Improved PSO Algorithm",
+    "abstract": "Nickel is a vital strategic metal resource with commodity and financial attributes simultaneously, whose price fluctuation will affect the decision-making of stakeholders. Therefore, an effective trend forecast of nickel price is of great reference for the risk management of the nickel market's participants; yet, traditional forecast methods are defective in prediction accuracy and applicability. Therefore, a prediction model of nickel metal price is proposed based on improved particle swarm optimization algorithm (PSO) combined with long-short-term memory (LSTM) neural networks, for higher reliability. This article introduces a nonlinear decreasing assignment method and sine function to improve the inertia weight and learning factor of PSO, respectively, and then uses the improved PSO algorithm to optimize the parameters of LSTM. Nickel metal's closing prices in London Metal Exchange are sampled for empirical analysis, and the improved PSO-LSTM model is compared with the conventional LSTM and the integrated moving average autoregressive model (ARIMA). The results show that compared with the standard PSO, the improved PSO has a faster convergence rate and can improve the prediction accuracy of the LSTM model effectively. In addition, compared with the conventional LSTM model and the integrated moving average autoregressive (ARIMA) model, the prediction error of the LSTM model optimized by the improved PSO is reduced by 9% and 13%, respectively, which has high reliability and can provide valuable guidance for relevant managers.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "5a4a015f7e503a450e593ca81ceaefb0",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.581794"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用改进的PSO-LSTM模型预测镍金属价格，其应用场景明确提到为镍市场参与者的风险管理提供参考，因此属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用改进的PSO-LSTM模型预测镍金属价格，其应用场景明确提到为镍市场参与者的风险管理提供参考，因此属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:02.938374"
+}

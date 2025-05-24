@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 113,
+    "title": "机器学习驱动的大类资产因子配置研究",
+    "abstract": "机器学习模型能够有效解决变量间的共线性问题，处理变量间的非线性关系及交互影响，故其预测能力显著高于普通的线性模型。选取2004年1月—2021年12月8个大类资产因子的周数据，构造随机森林模型考察了模型的预测能力、特征的重要性和影响以及所建投资组合的投资绩效。研究结果表明：相对于普通OLS及LASSO模型，随机森林模型的预测能力显著提高；量价特征尤其是动量因子在随机森林模型中的重要性要远高于宏观特征；特征对因变量的影响是非线性的，且特征之间存在着显著的交互作用；随机森林模型构造的投资组合的投资绩效远好于等权重、均值—方差、最小风险、风险平价及趋势投资组合。研究结论是对投资组合理论以及人工智能理论的有益补充，对于投资实践也具有较强的借鉴价值。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7cecce76ef4a37d38bea72f50fa8a2f9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-14T22:15:09.320991"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是使用随机森林模型进行大类资产因子配置，并构建投资组合，其研究目标和实验设计均围绕投资组合的绩效优化展开，因此主要应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是使用随机森林模型进行大类资产因子配置，并构建投资组合，其研究目标和实验设计均围绕投资组合的绩效优化展开，因此主要应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:34.538091"
+}

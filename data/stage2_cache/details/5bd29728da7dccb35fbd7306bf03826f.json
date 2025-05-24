@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2952,
+    "title": "RISK-MANAGED SPARSE INDEX TRACKING VIA MARKET GRAPH CLUSTERING",
+    "abstract": "In this paper, we propose a risk-managed sparse index tracking framework. In this approach, we impose market-graph neutrality and turnover sparsity on the index tracking problem. Historically, sector neutrality has been researched to diversify investment across various sectors, preventing the portfolio from being biased toward specific industries. This strategy can act as a failsafe in scenarios where assets linked to a particular industry may fall simultaneously due to industry-wide events. However, pre-defined sectors may not always be suitable for all situations. In response, we propose replacing these sectors by grouping assets through graph clustering on a market graph. We refer to using these newly defined market-graph clusters to ensure diversified investments as market-graph neutrality. Additionally, to offset the probable rise in transaction costs caused by the frequent redefinition of these clusters, we introduce turnover sparsity to our formulation. We confirm our hypothesis that clusters generated from actual data could perform better than pre-defined heuristically and exhibit the advantageous results of our method through experiments on a real-world finance dataset, specifically, the S&P500 dataset.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d8d5fb8ffaafd582047544964d06ee1e",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:09.131545"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种风险管理的稀疏指数跟踪框架，通过市场图聚类来优化投资组合的多样性和交易成本，这直接应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种风险管理的稀疏指数跟踪框架，通过市场图聚类来优化投资组合的多样性和交易成本，这直接应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:00.675123"
+}

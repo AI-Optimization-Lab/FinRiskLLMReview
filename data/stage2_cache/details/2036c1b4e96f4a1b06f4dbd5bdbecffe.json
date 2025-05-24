@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3257,
+    "title": "Algorithmic trading with directional changes",
+    "abstract": "Directional changes (DC) is a recent technique that summarises physical time data (e.g. daily closing prices, hourly data) into events, offering traders a unique perspective of the market to create novel trading strategies. This paper proposes the use of a genetic algorithm (GA) to optimize the recommendations of multiple DC-based trading strategies. Each trading strategy uses a novel framework that combines classification and regression techniques to predict when a trend will reverse. We evaluate the performance of the proposed multiple DC-strategy GA algorithm against nine benchmarks: five single DC-based trading strategies, three technical analysis indicators, as well as buy-and-hold, which is a popular financial benchmark. We perform experiments using 200 monthly physical time datasets from 20 foreign exchange markets-these datasets were created from snapshots of 10 min intervals. Experimental results show that our proposed algorithm is able to statistically significantly outperform all DC and non-DC benchmarks in terms of both return and risk, and establish multi-threshold DCs as an effective algorithmic trading technique.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4423d5d76f26cf288499c387e2d12653",
+    "relevant_keywords": [
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:24:05.262404"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用遗传算法优化基于方向变化(DC)的交易策略，并评估其在算法交易中的表现。虽然涉及金融市场的交易策略，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用遗传算法优化基于方向变化(DC)的交易策略，并评估其在算法交易中的表现。虽然涉及金融市场的交易策略，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:37:20.147471"
+}

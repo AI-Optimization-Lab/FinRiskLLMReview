@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 79,
+    "title": "基于Knockoff的分位数回归变量选择方法及其投资组合决策应用",
+    "abstract": "在数据驱动时代，变量选择广泛应用于投资组合，如何从众多资产中挑选恰当的资产并进行配比，对稳定收益、控制风险非常关键。现有选择资产的方法未考虑到控制错误发现率（FDR），不利于作出稳健的投资决策。为此，本文在Lasso分位数回归下基于Knockoff方法控制FDR，并用于求解条件风险价值（CVaR）投资组合决策模型。其中，用Lasso惩罚实现变量选择，用Knockoff方法通过模仿解释变量的相关结构构造Knockoff变量，将变量选择的FDR控制在给定水平。模型在两步迭代算法下采用线性规划求解，模拟分析从不同的误差分布、变量分布和维度下多角度展开。结果显示，与已有模型相比，基于Knockoff的Lasso分位数回归模型能良好地控制FDR且呈现出最好的预测效果。最后基于上证50指数成分股进行实证分析，利用滚动建模技术进行投资组合决策分析，发现新模型在收益指标和风险指标上均具有一定优势。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "81bc838e0f3cbe514de575b54f8adc8f",
+    "relevant_keywords": [
+      "regression",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:22.408866"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于Knockoff的分位数回归变量选择方法，并明确应用于投资组合决策，旨在从众多资产中挑选恰当的资产并进行配比，以稳定收益和控制风险。论文还提到利用滚动建模技术进行投资组合决策分析，并验证了新模型在收益和风险指标上的优势。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于Knockoff的分位数回归变量选择方法，并明确应用于投资组合决策，旨在从众多资产中挑选恰当的资产并进行配比，以稳定收益和控制风险。论文还提到利用滚动建模技术进行投资组合决策分析，并验证了新模型在收益和风险指标上的优势。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:18.273311"
+}

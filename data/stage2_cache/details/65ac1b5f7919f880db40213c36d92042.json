@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 40,
+    "title": "WaveCorr: Deep reinforcement learning with permutation invariant convolutional policy networks for portfolio management",
+    "abstract": "We present a new portfolio policy convolutional neural network architecture, WaveCorr, for deep reinforcement learning applied to portfolio optimization. WaveCorr is the first to treat asset correlation while preserving asset invariance property, a new permutation invariance property that significantly increases the stability of performance in problems where input indexing is done arbitrarily. A general theory is also derived for verifying this property in other fields of application. Our experiments show that WaveCorr consistently outperforms other state-of-the-art convolutional architectures.(c) 2023 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons .org /licenses /by /4 .0/).",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "00ab90d46807e63f81058d1f9b33f5fb",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.850956"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种新的卷积神经网络架构WaveCorr，专门用于深度强化学习在投资组合优化中的应用。论文明确提到这是用于portfolio management（投资组合管理）的，并且实验部分也展示了其在投资组合优化中的性能优势。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种新的卷积神经网络架构WaveCorr，专门用于深度强化学习在投资组合优化中的应用。论文明确提到这是用于portfolio management（投资组合管理）的，并且实验部分也展示了其在投资组合优化中的性能优势。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:02.601356"
+}

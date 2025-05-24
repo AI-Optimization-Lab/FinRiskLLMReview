@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 316,
+    "title": "Stock Selection with a Novel Sigmoid-Based Mixed Discrete-Continuous Differential Evolution Algorithm",
+    "abstract": "A stock selection model with both discrete and continuous decision variables is proposed, in which a novel sigmoid-based mixed discrete-continuous differential evolution algorithm is especially developed for model optimization. In particular, a stock scoring mechanism is first designed to evaluate candidate stocks based on their fundamental and technical features, and the top-ranked stocks are selected to formulate an equal-weighted portfolio. Generally, the proposed model makes literature contributions from two main perspectives. First, to determine the optimal solution in terms of feature selections (discrete variables) and the corresponding weights (continuous variables), the original differential evolution algorithm focusing only on continuous problems is extended to a novel mixed discrete-continuous variant based on sigmoid-based conversion for the discrete part. Second, the stock selection model also resolves the gap of the application of differential evolution algorithm to stock selection. Using the Shanghai A share market of China as the study sample, the empirical results show that the novel stock selection model can make a profitable portfolio and significantly outperform its benchmarks (with other model designs and optimization algorithms used in the existing studies) in terms of both investment return and model robustness.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "4502d375ec521e6da6f36177767e5170",
+    "relevant_keywords": [
+      "sigmoid"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:44.341554"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是一种用于股票选择的混合离散-连续差分进化算法，旨在构建一个等权重投资组合。研究目标明确指向投资组合的构建和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是一种用于股票选择的混合离散-连续差分进化算法，旨在构建一个等权重投资组合。研究目标明确指向投资组合的构建和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:08.149560"
+}

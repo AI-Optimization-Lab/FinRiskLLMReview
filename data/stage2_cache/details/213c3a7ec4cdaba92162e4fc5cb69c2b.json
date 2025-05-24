@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 5116,
+    "title": "Short term wind speed forecasting using artificial and wavelet neural networks with and without wavelet filtered data based on feature selections technique",
+    "abstract": "Wind speed forecasting plays a crucial role in enhancing the efficiency, reliability, and profitability of renewable energy systems. Accurate wind speed forecasting optimizes energy production and grid integration in renewable energy systems. It assists in maintenance scheduling, decision-making in energy markets, and supports risk management for financial planning. This paper investigates the difficult balance between model complexity and forecasting accuracy in wind speed forecasting using Artificial Neural Networks (ANNs) and Wavelet Neural Networks (WNNs). Employing a time series approach, the study develops models for 1-h-ahead wind speed forecasting, utilizing recent averaged data and exploiting correlations between consecutive wind speeds for improved short-term predictions. Models training involve the Backpropagation algorithm, with careful input variable selection to minimize errors. This study emphasizes that simpler ANN and WNN models can outperform complex ones and explores the effectiveness of wavelet filtering techniques and demonstrates the benefits of using wavelet filtering to enhance forecasting accuracy. The robustness of the developed models is validated through K-fold cross-validation, confirming the efficacy of the proposed models. Evaluation across two datasets demonstrates the superiority of the proposed models over the persistence model, with enhancements of 7-14% in RMSE. Additionally, the efficacy of wavelet transforms in enhancing forecasting accuracy compared to regular neural network predictions is emphasized, underscoring the effectiveness of wavelet filtering offering a strategic approach for optimizing wind power management in electrical grids.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "458148c3ad343e3cbce20315a4e758ca",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:44:43.806036"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究风能预测技术，虽然提到了风险管理和金融规划，但其核心技术（人工神经网络和小波神经网络）主要用于提高风能预测的准确性，并未直接应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究风能预测技术，虽然提到了风险管理和金融规划，但其核心技术（人工神经网络和小波神经网络）主要用于提高风能预测的准确性，并未直接应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:08.956153"
+}

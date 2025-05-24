@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 511,
+    "title": "High frequency volatility forecasting and risk assessment using neural networks-based heteroscedasticity model",
+    "abstract": "High frequency volatility forecasting is essential for timely risk management and informed decision-making in dynamic financial markets. However, accurate forecasting is challenging due to the rapid nature of market movements and the complexity of underlying economic factors. This paper introduces a novel architecture combining Generalized Autoregressive Conditional Heteroscedasticity (GARCH) and Multi-layer Perceptron (MLP)-based models for enhanced volatility forecasting and risk assessment, where input variables are processed through GARCH-type models for volatility forecasting. The proposed GARCH-based MLP-Mixer (GaMM) model incorporates the stacking of multi-layer perceptrons, enabling deep representation learning, facilitating the extraction of temporal and feature information through operations along both time and feature dimensions, and addressing the complexity of high-frequency time-series data. The proposed model is evaluated on three high frequency financial times series datasets over three different years. The computational results demonstrate the proposed model's superior performance over sixteen forecasting methods in three error metrics, Value-at-risk, and statistical tests for high frequency volatility forecasting and risk assessment tasks.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "1f861864bcf65cccc01814eb8f9d54fc",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer",
+      "multi-layer perceptron"
+    ],
+    "stage1_timestamp": "2025-05-15T01:38:59.331386"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on high frequency volatility forecasting and risk assessment, specifically mentioning Value-at-Risk (VaR) as a key metric. These are core components of financial risk management, aimed at measuring and mitigating market risks in dynamic financial environments.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on high frequency volatility forecasting and risk assessment, specifically mentioning Value-at-Risk (VaR) as a key metric. These are core components of financial risk management, aimed at measuring and mitigating market risks in dynamic financial environments.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:50.746404"
+}

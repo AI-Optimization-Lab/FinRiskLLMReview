@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 958,
+    "title": "基于分位数回归的金融风险度量",
+    "abstract": "运用分位数回归与GARCH模型结合的GARCH-Q模型,计算深圳交易所上市公司江苏国泰的VaR值,并与GARCH模型计算的VaR结果进行比较。结果发现,GARCH-Q模型能够很好地克服GARCH模型进行风险度量时对风险的低估现象,有效地刻画出股票波动时的风险状况,为金融市场风险管理提供一种更为有效的风险度量方法。",
+    "year": 2015,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "89add9c8736e9c7397768f4da3225b0a",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:34:51.860807"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是运用分位数回归与GARCH模型结合的GARCH-Q模型计算VaR值，并与传统GARCH模型进行比较，旨在改进金融风险度量方法。这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是运用分位数回归与GARCH模型结合的GARCH-Q模型计算VaR值，并与传统GARCH模型进行比较，旨在改进金融风险度量方法。这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:36:44.717780"
+}

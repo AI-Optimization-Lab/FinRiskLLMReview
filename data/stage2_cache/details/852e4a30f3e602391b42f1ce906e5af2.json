@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 570,
+    "title": "A Practical Machine Learning Approach for Dynamic Stock Recommendation",
+    "abstract": "Stock recommendation is vital to investment companies and investors. However, no single stock selection strategy will always win while analysts may not have enough time to check all S&P 500 stocks (the Standard & Poor's 500). In this paper, we propose a practical scheme that recommends stocks from S&P 500 using machine learning. Our basic idea is to buy and hold the top 20% stocks dynamically. First, we select representative stock indicators with good explanatory power. Secondly, we take five frequently used machine learning methods, including linear regression, ridge regression, stepwise regression, random forest and generalized boosted regression, to model stock indicators and quarterly log-return in a rolling window. Thirdly, we choose the model with the lowest Mean Square Error in each period to rank stocks. Finally, we test the selected stocks by conducting portfolio allocation methods such as equally weighted, mean-variance, and minimum-variance. Our empirical results show that the proposed scheme outperforms the long-only strategy on the S&P 500 index in terms of Sharpe ratio and cumulative returns.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "30e5d5317edac377c719da6b63b3c5e7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "random forest"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:01.325752"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法动态推荐股票，并通过投资组合分配方法（如等权重、均值-方差和最小方差）进行测试，这直接应用于投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法动态推荐股票，并通过投资组合分配方法（如等权重、均值-方差和最小方差）进行测试，这直接应用于投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:34.915797"
+}

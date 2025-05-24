@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 725,
+    "title": "Portfolio optimization for cointelated pairs: SDEs vs Machine learning",
+    "abstract": "With the recent rise of Machine Learning (ML) as a candidate to partially replace classic Financial Mathematics (FM) methodologies, we investigate the performances of both in solving the problem of dynamic portfolio optimization in continuous-time, finite-horizon setting for a portfolio of two assets that are intertwined. In the Financial Mathematics approach we model the asset prices not via the common approaches used in pairs trading such as a high correlation or cointegration, but with the cointelation model in Mahdavi-Damghani (2013) that aims to reconcile both short-term risk and long-term equilibrium. We maximize the overall P&L with Financial Mathematics approach that dynamically switches between a mean-variance optimal strategy and a power utility maximizing strategy. We use a stochastic control formulation of the problem of power utility maximization and solve numerically the resulting HJB equation with the Deep Galerkin method introduced in Sirignano and Spiliopoulos (2018). We turn to Machine Learning for the same P&L maximization problem and use clustering analysis to devise bands, combined with in-band optimization. Although this approach is model agnostic, results obtained with data simulated from the same cointelation model gives a slight competitive advantage to the ML over the FM methodology(1).",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9b2f5b268c79adb403e59ecd81bad4a2",
+    "relevant_keywords": [
+      "machine learning",
+      "clustering",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:34.001427"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on dynamic portfolio optimization for a pair of cointelated assets, comparing Financial Mathematics and Machine Learning approaches to maximize P&L. The core research problem and methodologies are directly related to portfolio management, specifically in optimizing asset allocation strategies.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on dynamic portfolio optimization for a pair of cointelated assets, comparing Financial Mathematics and Machine Learning approaches to maximize P&L. The core research problem and methodologies are directly related to portfolio management, specifically in optimizing asset allocation strategies.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:27.158239"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 2046,
+    "title": "Predicting distresses using deep learning of text segments in annual reports",
+    "abstract": "Corporate distress models are central to regulators and financial institutions that need to evaluate the default risk of corporate firms. They are traditionally only based on the numerical financial variables in the firms' annual reports. In this paper we develop a model that employs the unstructured textual data in the reports as well, namely the auditors' reports and managements' statements. Our model consists of a convolutional recurrent neural network which, when concatenated with the numerical financial variables, learns a descriptive representation of the text that is suited for corporate distress prediction. We find that the unstructured data provides a statistically significant enhancement of the distress prediction performance, in particular for large firms where accurate predictions are of the utmost importance. Furthermore, we find that auditors' reports are more informative than managements' statements and that a joint model including both managements' statements and auditors' reports displays no enhancement relative to a model including only auditors' reports. Our model demonstrates a direct improvement over existing state-of-the-art models in the field of distress modelling. (C) 2019 Elsevier Ltd. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7fee9c09714591bb3a1a8bbcdd7d30d2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:25.813538"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a model to predict corporate distress, which is directly related to assessing default risk—a key aspect of financial risk management. The use of deep learning to analyze textual data in annual reports aims to enhance the accuracy of distress prediction, a critical task for financial institutions and regulators in managing credit risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a model to predict corporate distress, which is directly related to assessing default risk—a key aspect of financial risk management. The use of deep learning to analyze textual data in annual reports aims to enhance the accuracy of distress prediction, a critical task for financial institutions and regulators in managing credit risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:28.281430"
+}

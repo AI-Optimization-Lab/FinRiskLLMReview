@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 706,
+    "title": "AlphaVC: A Reinforcement Learning-based Venture Capital Investment Strategy",
+    "abstract": "Venture capital investments play a powerful role in fueling the emergence and growth of early-stage startups. However, only a small fraction of venture-backed startups can survive and exit successfully. Prior data-driven prediction based or recommendation based solutions are incapable of providing effective and actionable strategies on proper investment timing and amounts for startups across different investment rounds. In this paper, we develop a novel reinforcement learning-based method, AlphaVC, to facilitate venture capitalists' decision-making. Our policy-based reinforcement learning agents can dynamically identify the best candidates and sequentially place the optimal investment amounts at proper rounds to maximize financial returns for a given portfolio. We retrieve company demographics and investment activity data from Crunchbase. Our methodology demonstrates its efficacy and superiority in both ranking and portfolio-based performance metrics in comparison with various state-of-the-art baseline methods. Through sensitivity and ablation analyses, our research highlights the significance of factoring in the distal outcome and acknowledging the learning effect when making decisions at different time points. Additionally, we observe that AlphaVC concentrates on a select number of high-potential companies, but distributes investments evenly across various stages of the investment process.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9629399cb44b6a4b3e2c07998df24876",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.502101"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习来优化风险投资决策，包括动态识别最佳投资候选人和在不同投资轮次中分配最优投资金额，以最大化投资组合的财务回报。这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习来优化风险投资决策，包括动态识别最佳投资候选人和在不同投资轮次中分配最优投资金额，以最大化投资组合的财务回报。这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:26.237351"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 665,
+    "title": "A toolkit for exploiting contemporaneous stock correlations",
+    "abstract": "Contemporaneous correlations are important for portfolio optimization problems. We propose a newly developed machine learning tool, the OWL shrinkage method, which explicitly exploits stocks' contemporaneous correlations by assigning similar positions to correlated stocks (the grouping property). We find strong evidence that OWL-based portfolio strategies outperform other benchmark strategies in the literature when stocks exhibit strong correlations. In particular, the OWL shrinkage method bridges the gap between the naive (but well performing) 1/N portfolio strategy and the portfolio optimization framework: our OWL-based portfolio strategies yield very similar portfolio weights to (yet not the same as) the 1/N portfolio strategy, but outperform the 1/N portfolio strategy in terms of both the Sharpe ratio and turnovers. We also show that the superior performance in Sharpe ratio against the 1/N portfolio is significant.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f14ce0eaa73c521c72dba923cf5c145d",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.468226"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术OWL shrinkage method被用于优化投资组合，通过利用股票间的同期相关性来改进投资组合策略的表现，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术OWL shrinkage method被用于优化投资组合，通过利用股票间的同期相关性来改进投资组合策略的表现，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:53.381616"
+}

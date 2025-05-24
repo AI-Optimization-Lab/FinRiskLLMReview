@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 766,
+    "title": "Advanced Fraud Detection: Leveraging K-SMOTEENN and Stacking Ensemble to Tackle Data Imbalance and Extract Insights",
+    "abstract": "This study proposes an innovative solution for credit card fraud detection, utilizing a stacking ensemble of machine learning classifiers enhanced with sophisticated data resampling techniques. The model demonstrates exceptional performance, achieving an F1-score of 0.92, precision of 0.95, recall of 0.88, an AUPRC of 0.96, and a perfect ROC-AUC of 1.00. These results significantly outperform standalone models like XGBoost and Decision Tree, showcasing the strength of the proposed approach. The study addresses two critical challenges, class imbalance and overfitting, by employing K-means SMOTEENN to balance minority class representation while reducing synthetic data noise, thus lowering the risk of overfitting. Additionally, the stacking ensemble's integration of diverse classifiers produces a generalized decision boundary, enhancing model robustness in real-world scenarios. This ensures a precise fraud detection mechanism without compromising sensitivity. Furthermore, the proposed model incorporates Explainable AI (XAI) techniques to enhance interpretability and trust. The study identifies key features driving model predictions by leveraging Local Interpretable Model-Agnostic Explanations (LIME), illustrating how base learners and the meta-learner contribute to the final decision. This transparency bolsters stakeholder confidence and provides actionable insights for financial institutions. Overall, the proposed approach marks a notable step in protecting financial transactions from fraud.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7aa6ef03b4b72c63515b298e610a0237",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:07.980295"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是信用卡欺诈检测，这属于金融风险管理中的操作风险控制范畴。论文提出的模型旨在通过机器学习和数据平衡技术提高欺诈检测的准确性和可解释性，从而帮助金融机构降低欺诈风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是信用卡欺诈检测，这属于金融风险管理中的操作风险控制范畴。论文提出的模型旨在通过机器学习和数据平衡技术提高欺诈检测的准确性和可解释性，从而帮助金融机构降低欺诈风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:42.803270"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 5600,
+    "title": "Novel Financial Capital Flow Forecast Framework Using Time Series Theory and Deep Learning: A Case Study Analysis of Yu'e Bao Transaction Data",
+    "abstract": "Appropriate monetary liquidity is important for financial institutions. When institutions lack adequate cash flow for customer redemption, their income will decrease, their reputation will be affected, and they may even go bankrupt. However, the opposite extreme in which more cash is reserved than needed may result in lost opportunities to make successful investments. This study uses Yu'e Bao transaction data to investigate a method for forecasting financial capital flow. Yu' e Bao, which is a financial product launched by Alibaba, faces the core challenge of maximizing commercial profits to reduce investment risks. Liquidity risk is considered the main factor in Yu'e Bao's investment strategy. First, a linear model called YEB_ARIMA is proposed by determining the autocorrelation (ACF) and partial autocorrelation (PACF) parameters, which are optimized by the grid search method. Second, a deep learning model called YEB_LSTM is introduced to strengthen the expressiveness of the model that yields nonlinear transaction features. Then, a hybrid learning method called YEB_Hybrid is applied to improve the original weak classifiers. This model includes both a linear combination and logistic regression learning. Third, a set of experiments and analyses are conducted based on subscription and redemption datasets to demonstrate that the hybrid model achieves an accuracy of 84.39% and 84.36%, respectively, under a variety of evaluation indexes. Finally, various proposed fund reserve ratios are provided based on capital forecasts.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "503229b8cfc605b7e3fe97c69b4dca57",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "regression",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:49:21.732737"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用时间序列理论和深度学习模型来预测金融资本流动，特别是针对Yu'e Bao的流动性风险进行管理。这直接涉及金融机构如何优化现金储备以应对赎回需求，同时避免过度储备导致的投资机会损失，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用时间序列理论和深度学习模型来预测金融资本流动，特别是针对Yu'e Bao的流动性风险进行管理。这直接涉及金融机构如何优化现金储备以应对赎回需求，同时避免过度储备导致的投资机会损失，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:02.481002"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2248,
+    "title": "Heterogeneous Graph Attention Network for Small and Medium-Sized Enterprises Bankruptcy Prediction",
+    "abstract": "Credit assessment for Small and Medium-sized Enterprises (SMEs) is of great interest to financial institutions such as commercial banks and Peer-to-Peer lending platforms. Effective credit rating modeling can help them make loan-granted decisions while limiting their risk exposure. Despite a substantial amount of research being conducted in this domain, there are three existing issues. Firstly, many of them are mainly developed based on financial statements, which usually are not publicly-accessible for SMEs. Secondly, they always neglect the rich relational information embodied in financial networks. Finally, existing graph-neural-network-based (GNN) approaches for credit assessment are only applicable to homogeneous networks. To address these issues, we propose a heterogeneous-attention-network-based model (HAT) to facilitate SMEs bankruptcy prediction using publicly-accessible data. Specifically, our model has two major components: a heterogeneous neighborhood encoding layer and a triple attention output layer. While the first layer can encapsulate target nodes' heterogeneous neighborhood information to address the graph heterogeneity, the latter can generate the prediction by considering the importance of different metapath-based neighbors, metapaths, and networks. Extensive experiments in a real-world dataset demonstrate the effectiveness of our model compared with baselines.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "49091f2996669dd563300441f7400fe7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:51.057187"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用异构图注意力网络（HAT）来预测中小企业的破产风险，这直接关系到金融机构的信用风险评估，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用异构图注意力网络（HAT）来预测中小企业的破产风险，这直接关系到金融机构的信用风险评估，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:40.019649"
+}

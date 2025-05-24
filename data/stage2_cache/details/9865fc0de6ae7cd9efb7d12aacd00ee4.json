@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2845,
+    "title": "Addressing the Diet Problem with Constraint Programming Enhanced with Machine Learning",
+    "abstract": "In Colombia there is a problem related to eating habits that has its origin, mainly, in two causes: the lack of budget that allows access to a wider variety of food, and the lack of awareness among the population about their nutritional needs. To tackle this issue, a solution has been proposed using a Constraint Programming (CP) approach enhanced with Machine Learning (ML) for a version of the Diet Problem (DP). A CP model was developed to find a shopping list that meets a family's nutritional needs while minimizing costs; and a synthetic dataset was created to test the model, which was run multiple times to collect results. Since DP is an NP-complete problem and computational time to find optimal solutions varies from one solver to another, a ML classifier was used to choose a solver that best performs in small cap time limits based on instance features (i.e., selection from an Algorithm Portfolio). After carrying out an extensive evaluation of the CP model, including our approach that implements a Classifier for algorithm selection, the model correctly selects the best solver over 68.07% of the time, for a sample of 1378 instances. By analyzing the performance of different solvers on a set of instances, it can be predicted which solver is likely to achieve the best results on new instances. This approach could be extended to tuning solver parameters, which would further improve their efficiency and effectiveness. (The dataset used for the creation of this paper is available on: https://github.com/Git- Fanfo/dataset CCC)",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5f4654ff266890b399aed84a184bff4d",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:11:17.299500"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用约束编程和机器学习解决饮食问题，旨在优化购物清单以满足营养需求并最小化成本，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用约束编程和机器学习解决饮食问题，旨在优化购物清单以满足营养需求并最小化成本，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:25.399642"
+}

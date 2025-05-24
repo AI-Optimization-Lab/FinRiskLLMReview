@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 231,
+    "title": "基于BP神经网络的S&P500指数期权定价",
+    "abstract": "期权定价理论源于影响期权价格的变量和期权价格之间的非线性关系,传统的Black-Scholes期权定价公式过于严格的假设削弱了该公式在现实中的适用性,使其在理论与应用上均存在缺陷。因此,能够以任意精度近似复杂非线性系统的神经网络运用于期权定价。分别利用BP神经网络和Black-Scholes期权定价公式对S&P 500指数看跌期权进行定价,实证结果表明BP神经网络的定价结果要优于Black-Scholes定价公式。",
+    "year": 2008,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "296a93aca4112cb9e9a5bd780bc235ee",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:13:08.895656"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用BP神经网络对S&P500指数期权进行定价，并比较其与传统Black-Scholes模型的性能。这直接涉及衍生品定价领域，特别是期权定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用BP神经网络对S&P500指数期权进行定价，并比较其与传统Black-Scholes模型的性能。这直接涉及衍生品定价领域，特别是期权定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:59.117844"
+}

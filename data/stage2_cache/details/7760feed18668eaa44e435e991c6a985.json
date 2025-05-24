@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 259,
+    "title": "A three-stage prediction model for firm default risk: An integration of text sentiment analysis",
+    "abstract": "Predicting firm default risk is vital for financial institutions to avert significant economic losses, making the enhancement of its prediction precision both imperative and intricate. This research introduces a three-stage prediction model, including association rule algorithm (ARA), support vector machine (SVM) and modified particle swarm optimization algorithm (MPSO). Features selected by ARA are used as inputs for SVM, and penalty parameter and kernel parameter of SVM is optimized by MPSO that uses the adaptive inertia weight. The importance of text sentiment variables are emphasized to predict firm default risk. In the first stage, feature selection seeks to curtail the dimensions of both financial and non-financial variables. The empirical findings validate the efficacy of the ARA, revealing a strong correlation between text sentiment and default risk. The subsequent two stages deploy the SVM, refined by the MPSO, to predict the default risk. Compared with renowned models, the proposed model displays superior prediction precision and a reduced computational overhead. This research furnishes a potent instrument for regulators and firms alike, aiding in mitigating prospective default risks and forestalling broader economic upheavals.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6be33e413d3e8d7bb5b90232cdc7493c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:48:30.829646"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting firm default risk using a three-stage model integrating text sentiment analysis, which is a key aspect of financial risk management, specifically credit risk assessment.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting firm default risk using a three-stage model integrating text sentiment analysis, which is a key aspect of financial risk management, specifically credit risk assessment.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:32.293943"
+}

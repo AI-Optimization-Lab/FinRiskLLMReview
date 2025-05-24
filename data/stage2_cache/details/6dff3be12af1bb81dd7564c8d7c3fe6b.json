@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 886,
+    "title": "Hashing for Financial Credit Risk Analysis",
+    "abstract": "Hashing techniques have recently become the trend for accessing complex content over large data sets. With the overwhelming financial data produced today, binary embeddings are efficient tools of indexing big datasets for financial credit risk analysis. The rationale is to find a good hash function such that similar data points in Euclidean space preserve their similarities in the Hamming space for fast data retrieval. In this paper, first we use a semi-supervised hashing method to take into account the pairwise supervised information for constructing the weight adjacency graph matrix needed to learn the binarised Laplacian EigenMap. Second, we train a generalised regression neural network (GRNN) to learn the k-bits hash code. Third, the k-bits code for the test data is efficiently found in the recall phase. The results of hashing financial data show the applicability and advantages of the approach to credit risk assessment.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d2deba56798c613c511c4b8ec9f7f252",
+    "relevant_keywords": [
+      "machine learning",
+      "semi-supervised learning",
+      "regression",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:17.538923"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using hashing techniques and machine learning for financial credit risk analysis, which is a key aspect of financial risk management, specifically in assessing credit risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using hashing techniques and machine learning for financial credit risk analysis, which is a key aspect of financial risk management, specifically in assessing credit risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:55.435575"
+}

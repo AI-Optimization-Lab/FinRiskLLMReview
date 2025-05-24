@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 319,
+    "title": "Interpretable State-Space Model of Urban Dynamics for Human-Machine Collaborative Transportation Planning",
+    "abstract": "Strategic Long-Range Transportation Planning (SLRTP) is pivotal in shaping prosperous, sustainable, and resilient urban futures. Existing SLRTP decision support tools predominantly serve forecasting and evaluative functions, leaving a gap in directly recommending optimal planning decisions. To bridge this gap, we propose an Interpretable State-Space Model (ISSM) that considers the dynamic interactions between transportation infrastructure and the broader urban system. The ISSM directly facilitates the development of optimal controllers and reinforcement learning (RL) agents for optimizing infrastructure investments and urban policies while still allowing human-user comprehension. We carefully examine the mathematical properties of our ISSM; specifically, we present the conditions under which our proposed ISSM is Markovian, and a unique and stable solution exists. Then, we apply an ISSM instance to a case study of the San Diego region of California, where a partially observable ISSM represents the urban environment. We also propose and train a Deep RL agent using the ISSM instance representing San Diego. The results show that the proposed ISSM approach, along with the well-trained RL agent, captures the impacts of coordinating the timing of infrastructure investments, environmental impact fees for new land development, and congestion pricing fees. The results also show that the proposed approach facilitates the development of prescriptive capabilities in SLRTP to foster economic growth and limit induced vehicle travel. We view the proposed ISSM approach as a substantial contribution that supports the use of artificial intelligence in urban planning, a domain where planning agencies need rigorous, transparent, and explainable models to justify their actions.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "60ebd79966f2e53969cd6f452e92dca3",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.335757"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是城市动态的可解释状态空间模型及其在人类-机器协作交通规划中的应用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是城市动态的可解释状态空间模型及其在人类-机器协作交通规划中的应用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:16.875573"
+}

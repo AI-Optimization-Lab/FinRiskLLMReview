@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 522,
+    "title": "Integration of CNN Models and Machine Learning Methods in Credit Score Classification: 2D Image Transformation and Feature Extraction",
+    "abstract": "The problem of accurately classifying credit scores is critical for financial institutions to assess individual creditworthiness and effectively manage credit risk. Traditional methods often face limitations when processing large datasets, resulting in lower accuracy and longer processing time. To address this issue, this paper proposes a novel approach to credit score classification by integrating convolutional neural networks (CNN) with machine learning methods. First, a 1D dataset of sequential text data is transformed into 2D greyscale images to use 2D CNN models for feature extraction and classification. Six CNN architectures-DenseNet201, GoogLeNet, MobileNetV2, ResNet18, ShuffleNet, and SqueezeNet-are implemented, and the features in the last layer (1000 features) of each CNN are classified using the softmax method. To further improve the performance, the two best CNN models were selected, and a new fully connected layer (NewFC) was added. A class-based feature set [3 x 31,695] representing three credit score types (good, poor, and standard) was extracted from each model and merged into a feature set [6 x 31,695]. This combined feature set was then reclassified using KNN, LDA, Naive Bayes, and SVM algorithms. The performance of both CNN and machine learning methods was evaluated using accuracy, precision, sensitivity, specificity, and F-score metrics. To optimize classification performance and reduce computational cost, the RelieF algorithm was used to select the best 5 out of 6 features. Compared to using all 6 features, significant improvements in accuracy and efficiency were observed, demonstrating the effectiveness of the proposed method in credit score classification.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1cee3c5842fdd79a04799981e1ecee5e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.208637"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit score classification, which is a critical component of credit risk assessment and management in financial institutions. This directly relates to financial risk management, as accurate credit scoring helps mitigate potential losses from credit defaults.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit score classification, which is a critical component of credit risk assessment and management in financial institutions. This directly relates to financial risk management, as accurate credit scoring helps mitigate potential losses from credit defaults.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:07.062688"
+}

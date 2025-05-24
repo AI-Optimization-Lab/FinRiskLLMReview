@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2927,
+    "title": "Risk spillover network structure learning for correlated financial assets: A directed acyclic graph approach",
+    "abstract": "Using cross-asset return data in global financial markets, we propose a novel empirical framework to identify the causal structure of the asset risk spillover network. The joint return distribution of the global financial system can be characterized using a directed acyclic graph approach. However, since assets tend to be highly correlated during market turbulence, when adopting a nodewise penalized regression approach for neighborhood estimation, parameter estimates will receive large standard errors, and edges cannot be reliably estimated. In this work, we propose a two-stage approach for directed acyclic graph skeleton estimation for highly correlated variables. In the first stage, a variable screening ensemble is incorporated into the sparse partial least squares regression method to both reduce the size of the active variables set and impose an adaptive penalization on the weight vectors. In the second stage, a modified PC algorithm based on Gram-Schmidt orthogonalization is applied to remove the false positive edges. Simulation studies are conducted to demonstrate the effectiveness of the proposed method. Finally, we apply our method to analyze the asset risk spillover channels for international financial assets during the COVID-19 pandemic. (c) 2021 Elsevier Inc. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9d726162859d3ba9e637d6879e5e326c",
+    "relevant_keywords": [
+      "regression",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T02:20:48.138075"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是识别资产风险溢出网络的因果结构，并应用于分析国际金融资产在COVID-19疫情期间的风险溢出渠道。这直接涉及金融风险管理中的风险识别和传导机制分析。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是识别资产风险溢出网络的因果结构，并应用于分析国际金融资产在COVID-19疫情期间的风险溢出渠道。这直接涉及金融风险管理中的风险识别和传导机制分析。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:19.620511"
+}

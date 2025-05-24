@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1076,
+    "title": "Explainable Machine Learning Models Assessing Lending Risk",
+    "abstract": "This work aims to assess the credit risk of a financial institution using various machine learning models that are both powerful and interpretable. To meet the challenge posed by imbalanced data, different sampling techniques were tested with machine learning algorithms such as Random Forest (RF) and XGBoost. The results revealed that the RF model combined with Randomoversampler and the XGB model with SMOTEENN offered the best performance in terms of precision, recall, and F1-score. To ensure the comprehensibility of the decisions made by these high-performance models, interpretability techniques such as SHAP and LIME were applied, revealing the relative contributions of the different variables. The study shows that these results are useful for the responsible deployment of decision support models in the financial sector.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "887f903fdf12e7bc3e01f198a0839c85",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.359891"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on assessing credit risk using machine learning models, which is a key aspect of financial risk management. The study aims to improve the interpretability and performance of models used for lending risk assessment, directly addressing risk management challenges in the financial sector.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on assessing credit risk using machine learning models, which is a key aspect of financial risk management. The study aims to improve the interpretability and performance of models used for lending risk assessment, directly addressing risk management challenges in the financial sector.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:19.149753"
+}

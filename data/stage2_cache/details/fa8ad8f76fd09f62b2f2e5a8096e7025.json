@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 771,
+    "title": "Deep reinforcement trading with predictable returns",
+    "abstract": "Classical portfolio optimization often requires forecasting asset returns and their cor-responding variances in spite of the low signal-to-noise ratio provided in the financial markets. Modern deep reinforcement learning (DRL) offers a framework for optimizing sequential trader decisions but lacks theoretical guarantees of convergence. On the other hand, the performances on real financial trading problems are strongly affected by the goodness of the signal used to predict returns. To disentangle the effects coming from return unpredictability from those coming from algorithm un-trainability, we investigate the performance of model-free DRL traders in a market environment with different known mean-reverting factors driving the dynamics. When the framework admits an exact dynamic programming solution, we can assess the limits and capabilities of different value-based algorithms to retrieve meaningful trading signals in a data-driven manner. We consider DRL agents that leverage classical strategies to increase their performances and we show that this approach guarantees flexibility, outperforming the benchmark strategy when the price dynamics is misspecified and some original assumptions on the market environment are violated with the presence of extreme events and volatility clustering.(c) 2023 Elsevier B.V. All rights reserved.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e4a1c67d6869a84463e7e0923957fd4a",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "deep reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:50.396409"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要探讨了使用深度强化学习（DRL）优化顺序交易决策，并在市场环境中评估不同价值基础算法的性能，以改进投资组合管理策略。论文的核心技术应用于投资组合管理领域，旨在通过数据驱动的方法提高交易信号的质量和策略的灵活性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要探讨了使用深度强化学习（DRL）优化顺序交易决策，并在市场环境中评估不同价值基础算法的性能，以改进投资组合管理策略。论文的核心技术应用于投资组合管理领域，旨在通过数据驱动的方法提高交易信号的质量和策略的灵活性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:53.963552"
+}

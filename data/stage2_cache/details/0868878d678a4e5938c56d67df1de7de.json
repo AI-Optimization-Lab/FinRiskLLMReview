@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 3787,
+    "title": "Credit risk prediction of SMEs in supply chain finance by fusing demographic and behavioral data",
+    "abstract": "The credit risk of small and medium-sized enterprises (SMEs) in supply chain finance (SCF) is defined as the probability that the SME would default on loans derived from financing for the SCF platform. Traditional models make use of merely the static data of SMEs, such as enterprise demographic data and financial statement data, to predict the credit risk of SMEs in SCF. Nevertheless, behavioral data, which reflect the dynamic financing behavior of SMEs in SCF, are overlooked by these models, which limits the performance of credit risk prediction. To address this problem, a novel approach is proposed called DeepRisk to fuse enterprise demographic data and financing behavioral data to predict the credit risk of SMEs in SCF. We adopt the multi-modal learning strategy to fuse the two different sources of data. The concatenated vectors derived from data fusion are then used as the input of the feed forward neural network to predict the credit risk of SMEs. Experiments on a real SCF dataset demonstrate that the proposed DeepRisk approach outperforms the baseline methods in credit risk prediction in terms of precision, recall, F1-score, area under curve (AUC), and economic loss. The fusion of the two different sources of data is superior to the existing approaches to the credit risk prediction of SMEs in SCF. Both the static enterprise demographic data and the dynamic financing behavioral data are crucial to improve the credit risk prediction of SMEs. Nevertheless, the variables derived from the financing behavioral data have a better predictability than those from the enterprise demographic data. Managerial implications have been identified for decision makers involved in SCF in utilizing the benefits of SCF and in managing their credit risks.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "44c2d1b1890b12cfa7cb461574c9deb9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:29:59.176501"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting credit risk for SMEs in supply chain finance, which is a key aspect of financial risk management. The proposed DeepRisk approach aims to improve credit risk prediction by fusing demographic and behavioral data, directly addressing risk assessment challenges in financial contexts.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting credit risk for SMEs in supply chain finance, which is a key aspect of financial risk management. The proposed DeepRisk approach aims to improve credit risk prediction by fusing demographic and behavioral data, directly addressing risk assessment challenges in financial contexts.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:02.417909"
+}

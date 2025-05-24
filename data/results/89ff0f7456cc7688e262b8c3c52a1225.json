@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "regression",
+    "neural network",
+    "artificial neural network"
+  ],
+  "explanations": {
+    "machine learning": "The paper applies machine learning techniques, specifically logistic regression and artificial neural networks, to estimate and measure microcredit risk.",
+    "supervised learning": "The paper uses supervised learning methods (logistic regression and neural networks) to predict the probability of default, which is a supervised learning task.",
+    "classification": "The paper involves predicting the probability of default, which can be framed as a classification problem (default vs. non-default).",
+    "regression": "Logistic regression is used as one of the techniques to estimate the probability of default, which is a regression method for binary outcomes.",
+    "neural network": "The paper explicitly mentions the use of an artificial neural network to estimate the probability of default.",
+    "artificial neural network": "The paper uses an artificial neural network as a non-parametric technique to predict microcredit risk, comparing its performance with logistic regression."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"regression\", \"neural network\", \"artificial neural network\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper applies machine learning techniques, specifically logistic regression and artificial neural networks, to estimate and measure microcredit risk.\",\n    \"supervised learning\": \"The paper uses supervised learning methods (logistic regression and neural networks) to predict the probability of default, which is a supervised learning task.\",\n    \"classification\": \"The paper involves predicting the probability of default, which can be framed as a classification problem (default vs. non-default).\",\n    \"regression\": \"Logistic regression is used as one of the techniques to estimate the probability of default, which is a regression method for binary outcomes.\",\n    \"neural network\": \"The paper explicitly mentions the use of an artificial neural network to estimate the probability of default.\",\n    \"artificial neural network\": \"The paper uses an artificial neural network as a non-parametric technique to predict microcredit risk, comparing its performance with logistic regression.\"\n  }\n}\n```"
+}

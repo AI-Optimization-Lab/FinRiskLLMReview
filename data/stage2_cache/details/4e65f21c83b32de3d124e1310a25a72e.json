@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 337,
+    "title": "Option Pricing via Breakeven Volatility",
+    "abstract": "The fair value of an option is given by breakeven volatility, the value of implied volatility that sets the profit and loss of a delta-hedged option to zero. We calculate breakeven volatility for 400,000 options on the S&P 500 and build a predictive model for these volatilities. A two-stage regression approach captures the majority of the observed variation. By providing a link between option characteristics and breakeven volatility, we establish a non-parametric approach to pricing options without the need to specify the underlying price process. We illustrate the economic value of our approach with a simulated trading strategy based on breakeven volatility predictions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "89d1046d5ba91cab42c437bdb6f84b8e",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.405005"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是计算和预测期权的breakeven波动率，并建立了一个非参数化的期权定价方法。这直接涉及到期权（一种衍生品）的定价问题，因此属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是计算和预测期权的breakeven波动率，并建立了一个非参数化的期权定价方法。这直接涉及到期权（一种衍生品）的定价问题，因此属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:15.122866"
+}

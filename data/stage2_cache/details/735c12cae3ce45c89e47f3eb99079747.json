@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 8431,
+    "title": "Forecasting Uganda's Net Electricity Consumption Using a Hybrid PSO-ABC Algorithm",
+    "abstract": "Long-term electricity consumption forecasting is used by decision makers to make decisions regarding system expansion planning. Over the past decade, research on electricity consumption forecasting has reported results as point forecasts. Specifically for long-term forecasting, point forecasts are of little interest because it is hard to use them to assess the financial risk associated with system expansion versus demand variability and forecasting uncertainty. In this study, firstly we use power and quadratic forms to model Uganda's net electricity consumption using population, gross domestic product, number of subscribers and average electricity price as variables in the forecasting models. We optimize the parameters of the forecasting models using a hybrid algorithm based on particle swarm optimization and artificial bee colony algorithms. Secondly we model the forecast residuals using simple linear regression to obtain 90% significance level lower and upper error bounds. The lower and upper error bounds were used to construct predication intervals for Uganda's net electricity consumption up to year 2040. We accessed the accuracy and performance of the models using MAPE and R2. We obtained 1.4387 and 1.1741% for MAPE and 0.9920 and 0.9948 for R2, respectively, for power and quadratic models. According to our results, in year 2040 Uganda's electricity consumption will be between [35,471.5, 36,317.6] GWh for the power model indicating an annual average increase of 10.1-11.3%. For the quadratic model consumption is expected to be between [47,443.1, 48,289.4] GWh which indicates an average annual increase of 11.2-12.4%.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f88be9459f41d04670e42c705ef47684",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T03:18:51.582267"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究电力消费预测模型的优化和误差边界构建，虽然提到了金融风险，但核心应用是电力系统规划而非特定的金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究电力消费预测模型的优化和误差边界构建，虽然提到了金融风险，但核心应用是电力系统规划而非特定的金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:36.985369"
+}

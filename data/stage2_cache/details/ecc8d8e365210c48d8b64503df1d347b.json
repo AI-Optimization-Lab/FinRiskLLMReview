@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 37,
+    "title": "基于改进粒子群算法的LSTM混合神经网络期权定价模型",
+    "abstract": "引入改进粒子群算法(IPSO)对长短时记忆神经网络模型(LSTM)超参数进行自适应匹配，并结合Heston模型进行混合建模，提出一种全新的IPSO-LSTM-Heston期权定价模型。为验证模型的定价效果，基于上证50ETF期权高频数据进行实证分析。结果表明：IPSO算法具有优异的全局寻优能力和收敛速度，能够大幅提高LSTM混合神经网络模型的定价效率。通过将优化的LSTM神经网络模型与Heston模型结合，不仅可以捕捉高频数据的动态特征，而且能够发挥神经网络模型的非线性拟合能力与传统模型定价过程的严密性等优点，在降低定价误差的同时显著提高定价精准度。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "15b9ed81c46b4d68d1e483cab25b5a7e",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:18.908191"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是改进粒子群算法与LSTM混合神经网络模型，用于期权定价，并基于上证50ETF期权高频数据进行实证分析，这明确属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是改进粒子群算法与LSTM混合神经网络模型，用于期权定价，并基于上证50ETF期权高频数据进行实证分析，这明确属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:00.206010"
+}

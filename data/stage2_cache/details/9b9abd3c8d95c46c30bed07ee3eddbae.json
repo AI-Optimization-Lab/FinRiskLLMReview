@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 33,
+    "title": "Continuous-time mean-variance portfolio selection: A reinforcement learning framework",
+    "abstract": "We approach the continuous-time mean-variance portfolio selection with reinforcement learning (RL). The problem is to achieve the best trade-off between exploration and exploitation, and is formulated as an entropy-regularized, relaxed stochastic control problem. We prove that the optimal feedback policy for this problem must be Gaussian, with time-decaying variance. We then prove a policy improvement theorem, based on which we devise an implementable RL algorithm. We find that our algorithm and its variant outperform both traditional and deep neural network based algorithms in our simulation and empirical studies.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8dc4d5abe38c39f7bd09f929169a7116",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:16.304199"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习框架解决连续时间均值-方差投资组合选择问题，这直接属于投资组合管理的范畴。论文明确提到目标是实现探索与利用之间的最佳权衡，并通过模拟和实证研究验证了算法的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习框架解决连续时间均值-方差投资组合选择问题，这直接属于投资组合管理的范畴。论文明确提到目标是实现探索与利用之间的最佳权衡，并通过模拟和实证研究验证了算法的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:21.912508"
+}

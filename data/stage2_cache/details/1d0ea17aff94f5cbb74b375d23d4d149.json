@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1304,
+    "title": "Ranking Risk Factors in Financial Losses From Railroad Incidents: A Machine Learning Approach",
+    "abstract": "The reported financial losses from railroad accidents since 2009 have been more than US$4.11 billion dollars. This considerable loss is a major concern for the industry, society, and the government. Therefore, identifying and ranking the factors that contribute to financial losses from railroad accidents would inform strategies to minimize them. To achieve that goal, this paper evaluates and compares the results of applying different non-parametric statistical and regression methods to 15 years of railroad Class I freight train accident data. The models compared are random forest, k-nearest neighbors, support vector machines, stochastic gradient boosting, extreme gradient boosting, and stepwise linear regression. The results indicate that these methods are all suitable for analyzing non-linear and heterogeneous railroad incident data. However, the extreme gradient boosting method provided the best performance. Therefore, the analysis used that model to identify and rank factors that contribute to financial losses, based on the gain percentage of the prediction accuracy. The number of derailed freight cars and the absence of territory signalization dominated as contributing factors in more than 57% and 20% of the accidents, respectively. Partial-dependence plots further explore the complex non-linear dependencies of each factor to better visualize and interpret the results.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b298b3b3ee06f9e16d60bbb464b85105",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.900905"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究铁路事故中导致经济损失的因素的识别和排序，虽然涉及经济损失和风险管理，但其核心应用领域是铁路行业的安全和事故分析，而非特定的金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究铁路事故中导致经济损失的因素的识别和排序，虽然涉及经济损失和风险管理，但其核心应用领域是铁路行业的安全和事故分析，而非特定的金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:50.805688"
+}

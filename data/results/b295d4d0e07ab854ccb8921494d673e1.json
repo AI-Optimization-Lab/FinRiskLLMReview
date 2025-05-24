@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "unsupervised learning",
+    "clustering",
+    "principal components analysis",
+    "neural network"
+  ],
+  "explanations": {
+    "machine learning": "论文使用了自适应神经模糊推理系统（ANFIS）和K-means聚类算法，这些都是机器学习的方法。",
+    "unsupervised learning": "K-means聚类算法是一种无监督学习方法，用于确定预警区间。",
+    "clustering": "论文明确提到使用K-means聚类算法对区域金融风险进行分类。",
+    "principal components analysis": "论文使用了时序全局主成分分析法来构建区域金融风险综合指数。",
+    "neural network": "自适应神经模糊推理系统（ANFIS）结合了神经网络和模糊逻辑，属于神经网络的应用。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"unsupervised learning\", \"clustering\", \"principal components analysis\", \"neural network\"],\n  \"explanations\": {\n    \"machine learning\": \"论文使用了自适应神经模糊推理系统（ANFIS）和K-means聚类算法，这些都是机器学习的方法。\",\n    \"unsupervised learning\": \"K-means聚类算法是一种无监督学习方法，用于确定预警区间。\",\n    \"clustering\": \"论文明确提到使用K-means聚类算法对区域金融风险进行分类。\",\n    \"principal components analysis\": \"论文使用了时序全局主成分分析法来构建区域金融风险综合指数。\",\n    \"neural network\": \"自适应神经模糊推理系统（ANFIS）结合了神经网络和模糊逻辑，属于神经网络的应用。\"\n  }\n}\n```"
+}

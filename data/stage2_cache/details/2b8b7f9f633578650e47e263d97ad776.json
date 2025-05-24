@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 468,
+    "title": "SMALL SCALE ENERGY STORAGE FOR PEAK DEMAND SHAVING",
+    "abstract": "Utilities in regulated energy markets manage power generation, transmission, and delivery to consumers. Matching peak demand with peak generation is costly, and the increasing penetration of renewable energy into the grid adds complexity due to fluctuations in supply. A few options exist for addressing the task of balancing supply and demand, including demand response, energy storage, and time-varying pricing (tariffs). Arizona Public Service (APS), the largest electric utility company in Arizona, employs tariffs that charge more for electricity at certain times (on-peak periods) and a demand charge for the highest power demand throughout the billing period. Such tariffs incentivize end users to lower peak demand. Arizona State University (ASU), a public university with its largest campus in Tempe, AZ, participates in a time-of-use tariff structure with APS. Analysis in this paper shows that ASU's 16MWdc of onsite solar capacity alone can lower its monthly electricity bills by over 10% by decreasing on-peak power demand. A novel contribution of the paper is the analysis of the value of small scale, on-campus energy storage in lowering the demand charge. Most analyses consider savings from transferring offpeak electric power to peak-electric power, but this paper considers using stored electricity solely to reduce peak demand and thus lower the demand charge. Small amounts of electricity could greatly reduce overall cost. An algorithm was developed and executed in Python to decide when on-campus storage should be charged and discharged. The critical part of the algorithm is to decide when to discharge. Deploying too early, or too late, will not change peak demand. The paper's storage dispatch model is implemented alongside a financial model that calculates the savings in electricity bills and determines the net present value (NPV) of different storage technologies as a function of storage lifetime and installed capacity (kWh). The results show that, for all storage technologies considered, a positive NPV is realized. NPVs are very sensitive to actual power demand and thus vary from year to year. This is to be expected because the storage dispatch strategy operates on extreme values, which tend to include very rare events. This analysis uses actual data from ASU, which allows us to extend the results to other universities and commercial customers. The favorable results suggest that a smarter dispatch algorithm based on machine learning would enable further cost savings by determining what can be thought of as a shadow price of electricity.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "18c3d9297ee37eae7fc7687ef722533a",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:32:30.165406"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究小型能源存储用于削峰填谷的经济效益分析，虽然涉及财务模型和净现值计算，但其核心应用领域是能源管理和成本优化，而非衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究小型能源存储用于削峰填谷的经济效益分析，虽然涉及财务模型和净现值计算，但其核心应用领域是能源管理和成本优化，而非衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:49.454128"
+}

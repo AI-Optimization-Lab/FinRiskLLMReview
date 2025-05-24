@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2895,
+    "title": "Prediction of Precious Metal Index Based on Ensemble Learning and SHAP Interpretable Method",
+    "abstract": "In recent years, the challenging global economy has induced a surge in the investment risk. Precious metal index has gained popularity among investors because of its ability to diversify investments and hedge risk. To facilitate optimal decision-making in the face of market volatility, financial institutions, investors and related enterprises need an efficient and reliable method to predict the price fluctuations of precious metals. Based on these, the primary objective of this study is to develop an ensemble model which could predict precious metal index better. In this study, K-means method is employed for label segmentation, categorizing the price percentage changes of precious metal index into five distinct labels, and four machine learning models are selected for predictive performance comparison: XGBoost, LightGBM, CatBoost, and Random Forests. Then three models with better predictive performance are selected for ensemble. The ensemble model shows improved prediction ability compared to these individual ones and the empirical evidence is provided to demonstrate its robustness. In addition, this study provides an interpretable analysis of the characteristics with the SHAP method and proposes some investment recommendations. These results could provide ideas to the participants in the precious metal market.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1605d740f8b5f50180140a4bf187407e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:20:16.929732"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的主要目标是开发一个集成模型来预测贵金属指数的价格波动，并提供投资建议。这直接关联到投资组合管理领域，因为贵金属常被用作投资组合多样化和对冲风险的工具。论文中的预测模型和解释性分析有助于投资者做出更优的投资决策，符合投资组合管理的核心目标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的主要目标是开发一个集成模型来预测贵金属指数的价格波动，并提供投资建议。这直接关联到投资组合管理领域，因为贵金属常被用作投资组合多样化和对冲风险的工具。论文中的预测模型和解释性分析有助于投资者做出更优的投资决策，符合投资组合管理的核心目标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:21.103959"
+}

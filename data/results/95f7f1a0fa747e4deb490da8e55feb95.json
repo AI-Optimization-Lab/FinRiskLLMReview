@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "neural network",
+    "deep learning",
+    "hidden layer",
+    "backpropagation",
+    "BP",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using machine learning (ML) for detecting liquidity risk in banks.",
+    "supervised learning": "The study involves classification tasks, which are a form of supervised learning.",
+    "classification": "The paper focuses on classifying banks' liquidity risk (LR) using ML models.",
+    "neural network": "The study uses a Multi-Layer Perceptron (MLP) model, which is a type of neural network.",
+    "deep learning": "The MLP model with multiple hidden layers indicates the use of deep learning techniques.",
+    "hidden layer": "The MLP model described includes multiple hidden layers (10-512-250-120-80-60-6).",
+    "backpropagation": "The MLP model implies the use of backpropagation for training, though not explicitly mentioned.",
+    "BP": "BP is short for backpropagation, which is implied in the training of the MLP model.",
+    "decision tree": "The study uses Random Forest (RF), which is an ensemble method based on decision trees."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"neural network\",\n    \"deep learning\",\n    \"hidden layer\",\n    \"backpropagation\",\n    \"BP\",\n    \"decision tree\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using machine learning (ML) for detecting liquidity risk in banks.\",\n    \"supervised learning\": \"The study involves classification tasks, which are a form of supervised learning.\",\n    \"classification\": \"The paper focuses on classifying banks' liquidity risk (LR) using ML models.\",\n    \"neural network\": \"The study uses a Multi-Layer Perceptron (MLP) model, which is a type of neural network.\",\n    \"deep learning\": \"The MLP model with multiple hidden layers indicates the use of deep learning techniques.\",\n    \"hidden layer\": \"The MLP model described includes multiple hidden layers (10-512-250-120-80-60-6).\",\n    \"backpropagation\": \"The MLP model implies the use of backpropagation for training, though not explicitly mentioned.\",\n    \"BP\": \"BP is short for backpropagation, which is implied in the training of the MLP model.\",\n    \"decision tree\": \"The study uses Random Forest (RF), which is an ensemble method based on decision trees.\"\n  }\n}\n```"
+}

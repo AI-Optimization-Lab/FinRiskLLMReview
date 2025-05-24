@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1392,
+    "title": "Multiagent-based deep reinforcement learning for risk-shifting portfolio management",
+    "abstract": "The growing popularity of quantitative trading in pursuit of a systematic and algorithmic approach to investment has drawn considerable attention among traders and investment firms. Consequently, an effective computational method for evaluating potential risk factors and returns is crucial for the development of algorithmic trading strategies. In traditional finance and financial engineering research, statistical approaches have been widely applied to quantitative analysis. Meanwhile, investor demand for quantitative hedge funds has surged worldwide. In the current study, the multiperiod portfolio selection problem was considered in terms of the realistic transaction cost model, which is a major concern for quantitative hedge fund managers. We developed a dedicated multiagent-based deep reinforcement learning framework with a two-level nested agent structure to determine effective portfolio management methods with different objectives. In addition, we proposed a specially-designed reward function for investment performance evaluation and a novel policy network structure for trading decision-making. To efficiently identify specific asset attributes in a portfolio, each agent is equipped with a refined deep policy network and a special training method that enables the proposed reinforcement learning agent to learn risk transfer behaviors. The results revealed the effectiveness of our proposed framework, which outperformed several established or representative portfolio selection strategies.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "464cfbab818868272a1ed1d08c085cd9",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:02:22.746481"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是多智能体深度强化学习框架，用于解决多期投资组合选择问题，并考虑了实际交易成本模型，这直接属于投资组合管理的范畴。论文的研究目标是开发有效的投资组合管理方法，并通过实验验证了其框架在投资组合选择策略上的优越性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是多智能体深度强化学习框架，用于解决多期投资组合选择问题，并考虑了实际交易成本模型，这直接属于投资组合管理的范畴。论文的研究目标是开发有效的投资组合管理方法，并通过实验验证了其框架在投资组合选择策略上的优越性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:24.829860"
+}

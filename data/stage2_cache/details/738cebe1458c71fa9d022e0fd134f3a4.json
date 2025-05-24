@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1166,
+    "title": "Foreign Exchange Trading: A Risk-Averse Batch Reinforcement Learning Approach",
+    "abstract": "Automated Trading Systems' impact on financial markets is ever growing, particularly on the intraday Foreign Exchange market. Historically, the FX trading systems are based on advanced statistical methods and technical analysis able to extract trading signals from financial data. In this work, we explore how to find a trading strategy via Reinforcement Learning by means of a state-of-the-art batch algorithm, Fitted Q-Iteration. Furthermore, we include a Multi-Objective formulation of the problem to keep the risk of noisy profits under control. We show that the algorithm is able to detect favorable temporal patterns, which are used by the agent to maximize the return. Finally, we show that as risk aversion increases, the resulting policies become smoother, as the portfolio positions are held for longer periods.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e225887fcf3ca612442465b6d04437ac",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.247374"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究通过强化学习算法（Fitted Q-Iteration）来优化外汇交易策略，并引入多目标优化以控制风险。这直接涉及投资组合管理（交易策略优化）和金融风险管理（风险控制）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文主要研究通过强化学习算法（Fitted Q-Iteration）来优化外汇交易策略，并引入多目标优化以控制风险。这直接涉及投资组合管理（交易策略优化）和金融风险管理（风险控制）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:39.032620"
+}

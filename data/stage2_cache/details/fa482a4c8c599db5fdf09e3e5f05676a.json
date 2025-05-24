@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1303,
+    "title": "A Self-Learning Based Preference Model for Portfolio Optimization",
+    "abstract": "An investment in a portfolio can not only guarantee returns but can also effectively control risk factors. Portfolio optimization is a multi-objective optimization problem. In order to better assist a decision maker to obtain his/her preferred investment solution, an interactive multi-criterion decision making system (MV-IMCDM) is designed for the Mean-Variance (MV) model of the portfolio optimization problem. Considering the flexibility requirement of a preference model that provides a guiding role in MV-IMCDM, a self-learning based preference model DT-PM (decision tree-preference model) is constructed. Compared with the present function based preference model, the DT-PM fully considers a decision maker's bounded rationality. It does not require an assumption that the decision maker's preference structure and preference change are known a priori and can be automatically generated and completely updated by learning from the decision maker's preference feedback. Experimental results of a comparison show that, in the case that the decision maker's preference structure and preference change are unknown a priori, the performances of guidance and fitness of the DT-PM are remarkably superior to function based preference models; in the case that the decision maker's preference structure is known a priori, the performances of guidance and fitness of the DT-PM is approximated to the predefined function based model. It can be concluded that the DT-PM can agree with the preference ambiguity and the variability of a decision maker with bounded rationality and be applied more widely in a real decision system.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "64dc8b5e2219afa7e4d95a6d4f01730a",
+    "relevant_keywords": [
+      "machine learning",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:24.624205"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建一个基于自学习的偏好模型（DT-PM），用于辅助决策者在投资组合优化问题中获得其偏好的投资解决方案。论文明确提到了投资组合优化（Portfolio Optimization）和均值-方差（Mean-Variance）模型，这些都是投资组合管理领域的核心内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建一个基于自学习的偏好模型（DT-PM），用于辅助决策者在投资组合优化问题中获得其偏好的投资解决方案。论文明确提到了投资组合优化（Portfolio Optimization）和均值-方差（Mean-Variance）模型，这些都是投资组合管理领域的核心内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:01.623363"
+}

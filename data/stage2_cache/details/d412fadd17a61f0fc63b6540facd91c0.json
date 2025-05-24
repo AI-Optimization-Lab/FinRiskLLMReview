@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 7776,
+    "title": "JutePestDetect: An intelligent approach for jute pest identification using fine-tuned transfer learning",
+    "abstract": "In certain Asian countries, Jute is one of the primary sources of income and Gross Domestic Product (GDP) for the agricultural sector. Like many other crops, Jute is prone to pest infestations, and its identification is typically made visually in countries like Bangladesh, India, Myanmar, and China. In addition, this method is time-consuming, challenging, and somewhat imprecise, which poses a substantial financial risk. To address this issue, the study proposes a high-performing and resilient transfer learning (TL) based JutePestDetect model to identify jute pests at the early stage. Firstly, we prepared jute pest dataset containing 17 classes and around 380 photos per pest class, which were evaluated after manual and automatic pre-processing and cleaning, such as background removal and resizing. Subsequently, five prominent pre-trained models-DenseNet201, Incep-tionV3, MobileNetV2, VGG19, and ResNet50-were selected from a previous study to design the JutePestDetect model. Each model was revised by replacing the classification layer with a global average pooling layer and incorporating a dropout layer for regularization. To evaluate the models' performance, various metrics such as precision, recall, F1 score, ROC curve, and confusion matrix were employed. These analyses provided additional insights for determining the efficacy of the models. Among them, the customized regularized DenseNet201-based proposed JutePestDetect model outperformed the others, achieving an impressive accuracy of 99%. As a result, our proposed method and strategy offer an enhanced approach to pest identification in the case of Jute, which can significantly benefit farmers worldwide.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "891a47fca4b26e6a49de3190fb60606a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "dropout regularization",
+      "transfer learning"
+    ],
+    "stage1_timestamp": "2025-05-15T03:12:11.507990"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用深度学习技术进行黄麻害虫识别，属于农业领域的应用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用深度学习技术进行黄麻害虫识别，属于农业领域的应用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:55.923917"
+}

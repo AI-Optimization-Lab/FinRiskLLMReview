@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2396,
+    "title": "k-Nearest Neighbors Estimator for Functional Asymmetry Shortfall Regression",
+    "abstract": "This paper deals with the problem of financial risk management using a new expected shortfall regression. The latter is based on the expectile model for financial risk-threshold. Unlike the VaR model, the expectile threshold is constructed by an asymmetric least square loss function. We construct an estimator of this new model using the k-nearest neighbors (kNN) smoothing approach. The mathematical properties of the constructed estimator are stated through the establishment of the pointwise complete convergence. Additionally, we prove that the constructed estimator is uniformly consistent over the nearest neighbors (UCNN). Such asymptotic results constitute a good mathematical support of the proposed financial risk process. Thus, we examine the easy implantation of this process through an artificial and real data. Our empirical analysis confirms the superiority of the kNN-approach over the kernel method as well as the superiority of the expectile over the quantile in financial risk analysis.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "55f306e6e28168b64dbba800a4097c0a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:50.330356"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper explicitly addresses financial risk management by proposing a new expected shortfall regression model based on the expectile model for financial risk-threshold. It compares this approach with VaR and quantile methods, and validates its effectiveness through empirical analysis, which is central to financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper explicitly addresses financial risk management by proposing a new expected shortfall regression model based on the expectile model for financial risk-threshold. It compares this approach with VaR and quantile methods, and validates its effectiveness through empirical analysis, which is central to financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:30.177178"
+}

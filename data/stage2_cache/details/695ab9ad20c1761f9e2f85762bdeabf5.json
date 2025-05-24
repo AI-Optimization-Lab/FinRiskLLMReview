@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2980,
+    "title": "GARCHNet: Value-at-Risk Forecasting with GARCH Models Based on Neural Networks",
+    "abstract": "This paper proposes a new GARCH specification that adapts the architecture of a long-term short memory neural network (LSTM). It is shown that classical GARCH models generally give good results in financial modeling, where high volatility can be observed. In particular, their high value is often praised in Value-at-Risk. However, the lack of nonlinear structure in most approaches means that conditional variance is not adequately represented in the model. On the contrary, the recent rapid development of deep learning methods is able to describe any nonlinear relationship in a clear way. We propose GARCHNet, a nonlinear approach to conditional variance that combines LSTM neural networks with maximum likelihood estimators in GARCH. The variance distributions considered in the paper are normal, t and skewed t, but the approach allows extension to other distributions. To evaluate our model, we conducted an empirical study on the logarithmic returns of the WIG 20 (Warsaw Stock Exchange Index), S&P 500 (Standard & Poor's 500) and FTSE 100 (Financial Times Stock Exchange) indices over four different time periods from 2005 to 2021 with different levels of observed volatility. Our results confirm the validity of the solution, but we provide some directions for its further development.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1d95504fa1d43a770bfdfd68f9a41e51",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:21:19.228552"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving Value-at-Risk (VaR) forecasting using a combination of GARCH models and LSTM neural networks. VaR is a key metric in financial risk management, used to estimate the potential loss in value of a portfolio under normal market conditions over a defined period for a given confidence interval. The empirical study on stock indices further confirms its application in assessing market risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving Value-at-Risk (VaR) forecasting using a combination of GARCH models and LSTM neural networks. VaR is a key metric in financial risk management, used to estimate the potential loss in value of a portfolio under normal market conditions over a defined period for a given confidence interval. The empirical study on stock indices further confirms its application in assessing market risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:17.627927"
+}

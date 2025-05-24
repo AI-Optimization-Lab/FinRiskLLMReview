@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 49,
+    "title": "Pricing high-dimensional Bermudan optionsusing deep learning and higher-order weakapproximation",
+    "abstract": "This paper proposes a new deep-learning-based algorithm for high-dimensionalBermudan option pricing. To the best of our knowledge, this is the first study ofthe arbitrary-order discretization scheme in Bermudan option pricing or dynamicprogramming problems. By discretizing the interval between early-exercise datesusing a higher-order weak approximation of stochastic differential equations, it ispossible to accurately approximate the price of Bermudan options. In particular,we provide the theoretical rate of convergence for the discretization of a Bermudanoption price by utilizing the error analysis of the weak approximation of stochas-tic differential equations for the case of irregular payoff functions. This high-performance deep-learning method permits the conditional expectations appearingin Bermudan option pricing to be estimated quickly even if the dimension is high The new approximation scheme is an alternative to the least squares regressionmethod. Numerical examples for Bermudan option pricing in high-dimensional set-tings (including a 100-dimensional stochastic alpha-beta-rho model) demonstratethe validity of the proposed scheme",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "864423a13ca1c8fbb78684830d905276",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:54.931248"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和高阶弱近似方法来定价高维百慕大期权，这直接属于衍生品定价领域。论文明确提到其研究目标是准确近似百慕大期权的价格，并通过数值实验验证了方法的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和高阶弱近似方法来定价高维百慕大期权，这直接属于衍生品定价领域。论文明确提到其研究目标是准确近似百慕大期权的价格，并通过数值实验验证了方法的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:37.135576"
+}

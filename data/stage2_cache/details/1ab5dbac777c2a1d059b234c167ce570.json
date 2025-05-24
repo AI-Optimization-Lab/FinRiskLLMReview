@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3724,
+    "title": "Forecasting volatility of crude oil futures using a GARCH-RNN hybrid approach",
+    "abstract": "Volatility is an important element for various financial instruments owing to its ability to measure the risk and reward value of a given financial asset. Owing to its importance, forecasting volatility has become a critical task in financial forecasting. In this paper, we propose a suite of hybrid models for forecasting volatility of crude oil under different forecasting horizons. Specifically, we combine the parameters of generalized autoregressive conditional heteroscedasticity (GARCH) and Glosten-Jagannathan-Runkle (GJR)-GARCH with long short-term memory (LSTM) to create three new forecasting models named GARCH-LSTM, GJR-LSTM, and GARCH-GJRGARCH LSTM in order to forecast crude oil volatility of West Texas Intermediate on different forecasting horizons and compare their performance with the classical volatility forecasting models. Specifically, we compare the performances against existing methodologies of forecasting volatility such as GARCH and found that the proposed hybrid models improve upon the forecasting accuracy of Crude Oil: West Texas Intermediate under various forecasting horizons and perform better than GARCH and GJR-GARCH, with GG-LSTM performing the best of the three proposed models at 7-, 14-, and 21-day-ahead forecasts in terms of heteroscedasticity-adjusted mean square error and heteroscedasticity-adjusted mean absolute error, with significance testing conducted through the model confidence set showing that GG-LSTM is a strong contender for forecasting crude oil volatility under different forecasting regimes and rolling-window schemes. The contribution of the paper is that it enhances the forecasting ability of crude oil futures volatility, which is essential for trading, hedging, and purposes of arbitrage, and that the proposed model dwells upon existing literature and enhances the forecasting accuracy of crude oil volatility by fusing a neural network model with multiple econometric models.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4d4da12f79d07a9d31bd6266c91e69d3",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:29:27.965973"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用GARCH-RNN混合模型预测原油期货的波动性，波动性预测是金融风险管理中的重要组成部分，用于衡量和管理金融资产的风险。论文明确提到其研究对于交易、对冲和套利至关重要，这些都是风险管理的关键应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用GARCH-RNN混合模型预测原油期货的波动性，波动性预测是金融风险管理中的重要组成部分，用于衡量和管理金融资产的风险。论文明确提到其研究对于交易、对冲和套利至关重要，这些都是风险管理的关键应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:32.247907"
+}

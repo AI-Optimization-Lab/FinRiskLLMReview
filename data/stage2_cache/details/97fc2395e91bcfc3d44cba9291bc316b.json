@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 4364,
+    "title": "Risk measurement in Bitcoin market by fusing LSTM with the joint-regression-combined forecasting model",
+    "abstract": "Purpose The purpose of the paper is to better measure the risks and volatility of the Bitcoin market by using the proposed novel risk measurement model. Design/methodology/approach The joint regression analysis of value at risk (VaR) and expected shortfall (ES) can effectively overcome the non-elicitability problem of ES to better measure the risks and volatility of financial markets. And because of the incomparable advantages of the long- and short-term memory (LSTM) model in processing non-linear time series, the paper embeds LSTM into the joint regression combined forecasting framework of VaR and ES, constructs a joint regression combined forecasting model based on LSTM for jointly measuring VaR and ES, i.e. the LSTM-joint-combined (LSTM-J-C) model, and uses it to investigate the risks of the Bitcoin market. Findings Empirical results show that the proposed LSTM-J-C model can improve forecasting performance of VaR and ES in the Bitcoin market more effectively compared with the historical simulation, the GARCH model and the joint regression combined forecasting model. Social implications The proposed LSTM-J-C model can provide theoretical support and practical guidance to cryptocurrency market investors, policy makers and regulatory agencies for measuring and controlling cryptocurrency market risks. Originality/value A novel risk measurement model, namely LSTM-J-C model, is proposed to jointly estimate VaR and ES of Bitcoin. On the other hand, the proposed LSTM-J-C model provides risk managers more accurate forecasts of volatility in the Bitcoin market.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "612cd5b2fab2935ae9e266a98065d934",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:36:38.369953"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用LSTM模型结合联合回归分析来测量比特币市场的风险（VaR和ES），这直接属于金融风险管理的范畴。论文的研究目标和应用场景明确指向风险测量和控制，而非衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM模型结合联合回归分析来测量比特币市场的风险（VaR和ES），这直接属于金融风险管理的范畴。论文的研究目标和应用场景明确指向风险测量和控制，而非衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:20.183339"
+}

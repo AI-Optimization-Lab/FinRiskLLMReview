@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 70,
+    "title": "基于ELSTM-BL模型的股票投资组合研究",
+    "abstract": "为了提高股票收益率预测精度，达到利用深度学习算法构建股票投资组合模型谋求高额收益的目的。首先通过指数衰减法对长短期记忆（Long Short-Term Memory, LSTM）神经网络参数进行优化，形成ELSTM模型；其次利用改进后的LSTM模型对次日的个股收益率进行预测，以形成BL模型的主观观点参数；最终将收益率预测结果输入到BL模型得到股票投资组合的配置权重，并将资产按照模型给出结构配置。在方案实施阶段，将基于ELSTM-BL模型的股票投资方案与LSTM-BL模型、市值权重模型与历史BL模型的投资组合方案作比较，ELSTM-BL模型表现出明显优势。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cb972710cd2e016dd2dae5eaa8e4f897",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:20:52.569500"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用改进的LSTM模型预测股票收益率，并将预测结果输入到BL模型中以确定股票投资组合的配置权重。这直接涉及投资组合的构建和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用改进的LSTM模型预测股票收益率，并将预测结果输入到BL模型中以确定股票投资组合的配置权重。这直接涉及投资组合的构建和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:19.521609"
+}

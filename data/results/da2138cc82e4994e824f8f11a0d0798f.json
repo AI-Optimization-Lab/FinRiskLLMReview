@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification"
+  ],
+  "explanations": {
+    "machine learning": "The paper uses Naive Bayesian classifiers, which are a type of machine learning technique, for text classification to predict stock market trends.",
+    "supervised learning": "Naive Bayesian classifiers are a supervised learning method, as they require labeled data (positive and negative news) for training.",
+    "classification": "The paper focuses on classifying financial news into positive and negative categories to predict market trends, which is a classification task."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper uses Naive Bayesian classifiers, which are a type of machine learning technique, for text classification to predict stock market trends.\",\n    \"supervised learning\": \"Naive Bayesian classifiers are a supervised learning method, as they require labeled data (positive and negative news) for training.\",\n    \"classification\": \"The paper focuses on classifying financial news into positive and negative categories to predict market trends, which is a classification task.\"\n  }\n}\n```"
+}

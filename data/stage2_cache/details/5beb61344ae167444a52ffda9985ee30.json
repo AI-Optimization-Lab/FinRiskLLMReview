@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 30,
+    "title": "Portfolio optimization with return prediction using deep learning and machine learning",
+    "abstract": "Integrating return prediction of traditional time series models in portfolio formation can improve the performance of original portfolio optimization model. Since machine learning and deep learning models have shown overwhelming superiority than time series models, this paper combines return prediction in portfolio formation with two machine learning models, i.e., random forest (RF) and support vector regression (SVR), and three deep learning models, i.e., LSTM neural network, deep multilayer perceptron (DMLP) and convolutional neural network. To be specific, this paper first applies these prediction models for stock preselection before portfolio formation. Then, this paper incorporates their predictive results in advancing mean-variance (MV) and omega portfolio optimization models. In order to present the superiority of these models, portfolio models with autoregressive integrated moving average's return prediction are used as benchmarks. Evaluation is based on historical data of 9 years from 2007 to 2015 of component stocks of China securities 100 index. Experimental results show that MV and omega models with RF return prediction, i.e., RF+MVF and RF+OF, outperform the other models. Further, RF+MVF is superior to RF+OF. Due to the high turnover of these two models, this paper discusses their performance after deducting the transaction fee cased by turnover. Experiments present that RF+MVF still performs the best among MVF models and omega model with SVR prediction (SVR+OF) performs the best among OF models. Moreover, RF+MVF performs better than SVR+OF and high turnover erodes nearly half of their total returns especially for RF+OF and RF+MVF. Therefore, this paper recommends investors to build MVF with RF return prediction for daily trading investment.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e7e0e00807b92b4f4f7c068f4c5199c4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:16.300136"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on integrating return prediction models (machine learning and deep learning) into portfolio formation and optimization, specifically advancing mean-variance and omega portfolio optimization models. The primary application is clearly in the domain of investment portfolio management, as evidenced by the research objectives, methodology, and experimental results.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on integrating return prediction models (machine learning and deep learning) into portfolio formation and optimization, specifically advancing mean-variance and omega portfolio optimization models. The primary application is clearly in the domain of investment portfolio management, as evidenced by the research objectives, methodology, and experimental results.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:22.600439"
+}

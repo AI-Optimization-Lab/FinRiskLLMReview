@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 2249,
+    "title": "Forecasting cryptocurrencies volatility using statistical and machine learning methods: A comparative study",
+    "abstract": "Forecasting cryptocurrency volatility can help investors make better-informed investment decisions in order to minimize risks and maximize potential profits. Accurate forecasting of cryptocurrency price fluctuations is crucial for effective portfolio management and contributes to the stability of the financial system by identifying potential threats and developing risk management strategies. The objective of this paper is to provide a comprehensive study of statistical and machine learning methods for predicting daily and weekly volatility of the following four cryptocurrencies: Bitcoin, Ethereum, Litecoin, and Monero. Several models and forecasting methods are compared in terms of their forecasting accuracy, i.e., HAR (heterogeneous autoregressive), ARFIMA (autoregressive fractionally integrated moving average), GARCH (generalized autoregressive conditional heteroscedasticity), LASSO (least absolute shrinkage and selection operator), RR (ridge regression), SVR (support vector regression), MLP (multilayer perceptron), FNM (fuzzy neighbourhood model), RF (random forest), and LSTM (long short-term memory). The realized variance calculated from intraday returns is used as the input variable for the models. In order to assess the predictive power of the models considered, the model confidence set (MCS) procedure is applied. Our experimental results demonstrate that there is no single best method for forecasting volatility of each cryptocurrency, and different models may perform better depending on the specific cryptocurrency, choice of the error metric and forecast horizon. For daily forecasts, the method that is always found in a set of best models is linear SVR, while for weekly forecasts, there are two such methods, namely FNM and RR. Furthermore, we show that simple linear models such as HAR and ridge regression, perform not worse than more complex models like LSTM and RF. The research provides a useful reference point for the development of more sophisticated models.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "edd9e5feb1650385fffc8e47e3c37ff1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:51.059693"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用统计和机器学习方法预测加密货币的波动性，这直接有助于金融风险管理（通过识别潜在威胁和制定风险管理策略）和投资组合管理（通过帮助投资者做出更明智的投资决策以最小化风险和最大化利润）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用统计和机器学习方法预测加密货币的波动性，这直接有助于金融风险管理（通过识别潜在威胁和制定风险管理策略）和投资组合管理（通过帮助投资者做出更明智的投资决策以最小化风险和最大化利润）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:39.940038"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1000,
+    "title": "Semi-Universal Portfolios with Transaction Costs",
+    "abstract": "Online portfolio selection (PS) has been extensively studied in artificial intelligence and machine learning communities in recent years. An important practical issue of online PS is transaction cost, which is unavoidable and nontrivial in real financial trading markets. Most existing strategies, such as universal portfolio (UP) based strategies, often rebalance their target portfolio vectors at every investment period, and thus the total transaction cost increases rapidly and the final cumulative wealth degrades severely. To overcome the limitation, in this paper we investigate new investment strategies that rebalances its portfolio only at some selected instants. Specifically, we design a novel on-line PS strategy named semi-universal portfolio (SUP) strategy under transaction cost, which attempts to avoid rebalancing when the transaction cost outweighs the benefit of trading. We show that the proposed SUP strategy is universal and has an upper bound on the regret. We present an efficient implementation of the strategy based on non-uniform random walks and online factor graph algorithms. Empirical simulation on real historical markets show that SUP can overcome the drawback of existing UP based transaction cost aware algorithms and achieve significantly better performance. Furthermore, SUP has a polynomial complexity in the number of stocks and thus is efficient and scalable in practice.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "119c8ec09522ee42a81b107d3bec865f",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.746942"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究在线投资组合选择策略，特别是在考虑交易成本的情况下优化投资组合的再平衡策略。这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究在线投资组合选择策略，特别是在考虑交易成本的情况下优化投资组合的再平衡策略。这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:22.893038"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2974,
+    "title": "Efficient sparse portfolios based on composite quantile regression for high-dimensional index tracking",
+    "abstract": "Index tracking is a well-known passive management strategy that seeks to match the performance of a benchmark index. To the best of our knowledge, the existing literatures for sparse index tracking are mainly focus on the penalized least squares (LS) regression under the no-short selling constraint. In this paper, we propose an efficient sparse portfolio that based on composite quantile regression to simultaneously perform stock selection and capital allocation for high-dimensional index tracking. A special consideration is made concerning the budget constraint that has been ignored by the existing LS-type procedures. Furthermore, we develop a specialized linear programming algorithm for the implementation of the proposed method. Through the simulation, we show that the proposed method outperforms (or at least matches) existing procedures in terms of prediction accuracy and variable selection. Finally, we apply the proposed method to track the SP 500 index in the New York Stock Exchange.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "18e7825cba3ccf48e45bd705f4a4c466",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:09.209958"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on index tracking, which is a passive investment strategy aimed at replicating the performance of a benchmark index. It discusses stock selection and capital allocation, both of which are core aspects of portfolio management. The proposed method is specifically designed for high-dimensional index tracking, further confirming its application in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on index tracking, which is a passive investment strategy aimed at replicating the performance of a benchmark index. It discusses stock selection and capital allocation, both of which are core aspects of portfolio management. The proposed method is specifically designed for high-dimensional index tracking, further confirming its application in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:58.571496"
+}

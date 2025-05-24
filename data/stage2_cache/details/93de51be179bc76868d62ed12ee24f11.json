@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 3585,
+    "title": "Task-Based Learning via Task-Oriented Prediction Network with Applications in Finance",
+    "abstract": "Real-world applications often involve domain-specific and task-based performance objectives that are not captured by the standard machine learning losses, but are critical for decision making. A key challenge for direct integration of more meaningful domain and task-based evaluation criteria into an end-to-end gradient-based training process is the fact that often such performance objectives are not necessarily differentiable and may even require additional decision-making optimization processing. We propose the Task-Oriented Prediction Network (TOPNet), an end-to-end learning scheme that automatically integrates task-based evaluation criteria into the learning process via a learnable surrogate loss function, which directly guides the model towards the task-based goal. A major benefit of the proposed TOPNet learning scheme lies in its capability of automatically integrating non-differentiable evaluation criteria, which makes it particularly suitable for diversified and customized task-based evaluation criteria in real-world tasks. We validate the performance of TOPNet on two real-world financial prediction tasks, revenue surprise forecasting and credit risk modeling. The experimental results demonstrate that TOPNet significantly outperforms both traditional modeling with standard losses and modeling with hand-crafted heuristic differentiable surrogate losses.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "bd13c2f7d906ee5fe51af579d4f89cdb",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:54.046181"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术TOPNet被应用于信用风险建模，这属于金融风险管理的范畴。虽然论文还提到了收入惊喜预测，但未明确指出其与衍生品定价或投资组合管理的直接关联。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术TOPNet被应用于信用风险建模，这属于金融风险管理的范畴。虽然论文还提到了收入惊喜预测，但未明确指出其与衍生品定价或投资组合管理的直接关联。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:59.373203"
+}

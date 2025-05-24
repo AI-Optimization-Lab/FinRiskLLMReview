@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 709,
+    "title": "A hybrid model based on iTransformer for risk warning of crude oil price fluctuations",
+    "abstract": "In order to reduce the unpredictability of crude oil price fluctuations caused by its increasingly prominent financial and geopolitical attributes, and to minimize its negative impact on the world economy, further research on risk warning models for crude oil price fluctuations is urgently needed. To improve the accuracy of early warning, a multi-factor prediction based risk warning method for crude oil price fluctuations is proposed. This method includes three main steps: (1) Risk factor analysis, which systematically identifies the risk factors of crude oil prices from socio-economic, market, production, and environmental aspects, uses Random Forest algorithm to screen key factors, and predicts future trends through LSTM model; (2) Prediction of crude oil prices, which constructs a prediction model for crude oil prices based on the iTransformer algorithm; (3) Fluctuation risk warning, based on historical volatility, constructs a crude oil price fluctuation risk warning mechanism, and analyzes the warning results. This article takes the historical data of WTI crude oil futures closing prices and risk factors as samples, and the model error comparison results confirm that the warning mechanism has significant superiority in accuracy, which can provide scientific and accurate reference basis for government intervention policies.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "715de861fd94ca087173864e904d27e9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:41:29.946498"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是构建一个基于iTransformer的原油价格波动风险预警模型，旨在通过多因素预测和风险预警机制来减少原油价格波动的负面影响。这直接涉及金融风险管理领域，特别是市场风险的管理和预警。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是构建一个基于iTransformer的原油价格波动风险预警模型，旨在通过多因素预测和风险预警机制来减少原油价格波动的负面影响。这直接涉及金融风险管理领域，特别是市场风险的管理和预警。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:26.810361"
+}

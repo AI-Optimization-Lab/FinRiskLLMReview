@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 528,
+    "title": "Data-driven robust portfolio optimization with semi mean absolute deviation via support vector clustering",
+    "abstract": "The portfolio optimization (PO) model with semi-mean absolute deviation (SMAD) risk measure has been commonly applied to construct optimal portfolios due to the ease of solving the corresponding linear programming model. We propose a robust PO model with SMAD that considers the uncertainty associated with asset expected returns. This uncertainty is dealt by adopting a data-driven approach that captures the uncertain asset returns in a convex uncertainty set through support vector clustering. The proposed model involves solving a quadratic programming problem to identify support vectors and a robust linear PO model. The ability of the proposed technique to control the conservatism and the computational ease associated with it makes it a practical approach to yield robust optimal portfolios. The effectiveness of the model is demonstrated by constructing optimal portfolios with the constituents of four global market indices, namely Dow Jones Industrial Average (USA), DAX 30 (Germany), Nifty 50 (India), and EURO STOXX 50 (Europe). The out-of -sample statistics generated from the robust portfolios are compared with the optimal portfolios obtained from its nominal counterpart, naive 1/n strategy, and other robust technique available in the literature. We find that the proposed model consistently performs well in most data sets over several performance measures like average returns, risk measured by standard deviation, value at risk, conditional value at risk and various reward-risk ratios. Comparative analysis of these models in different market phases of EURO STOXX 50 demonstrates the effectiveness of the developed robust technique, especially during the bearish phase.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "07076950186e5a003f5d7430a793ed28",
+    "relevant_keywords": [
+      "support vector machine",
+      "SVM",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:21.089152"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是提出一种基于半均值绝对偏差和支持向量聚类的稳健投资组合优化模型，并应用于构建全球市场指数的投资组合。研究重点在于优化投资组合的构建和性能评估，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是提出一种基于半均值绝对偏差和支持向量聚类的稳健投资组合优化模型，并应用于构建全球市场指数的投资组合。研究重点在于优化投资组合的构建和性能评估，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:02.393718"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1169,
+    "title": "Deep graph convolutional reinforcement learning for financial portfolio management-DeepPocket",
+    "abstract": "Portfolio management aims at maximizing the return on investment while minimizing risk by continuously reallocating the assets forming the portfolio. These assets are not independent but correlated during a short time period. A graph convolutional reinforcement learning framework called DeepPocket is proposed whose objective is to exploit the time-varying interrelations between financial instruments. These interrelations are represented by a graph whose nodes correspond to the financial instruments while the edges correspond to a pair-wise correlation function in between assets. DeepPocket consists of a restricted, stacked autoencoder for feature extraction, a convolutional network to collect underlying local information shared among financial instruments and an actor-critic reinforcement learning agent. The actor-critic structure contains two convolutional networks in which the actor learns and enforces an investment policy which is, in turn, evaluated by the critic in order to determine the best course of action by constantly reallocating the various portfolio assets to optimize the expected return on investment. The agent is initially trained offline with online stochastic batching on historical data. As new data become available, it is trained online with a passive concept drift approach to handle unexpected changes in their distributions. DeepPocket is evaluated against five real-life datasets over three distinct investment periods, including during the Covid-19 crisis, and clearly outperformed market indexes.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4ba82f4936a8540e43e861b907fabceb",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "autoencoder",
+      "convolutional neural network",
+      "CNN",
+      "actor-critic"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.250518"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种名为DeepPocket的图卷积强化学习框架，旨在通过动态调整投资组合中的资产分配来最大化投资回报并最小化风险。论文明确提到其目标是利用金融工具之间的时变相互关系进行投资组合管理，并通过实验验证了其在真实数据集上的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种名为DeepPocket的图卷积强化学习框架，旨在通过动态调整投资组合中的资产分配来最大化投资回报并最小化风险。论文明确提到其目标是利用金融工具之间的时变相互关系进行投资组合管理，并通过实验验证了其在真实数据集上的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:38.754753"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 19,
+    "title": "A NOVEL STOCK PORTFOLIO MODEL BASED ON DEEP REINFORCEMENT LEARNING",
+    "abstract": "Deep reinforcement learning is a method to address the problem of achieving maximum return or getting specific goals through learning strategies when interact with environment, which can be used in portfolio investments to achieve more benefits. In this paper, we use two deep reinforcement learning methods, that is, the policy gradient (PG) and the deep deterministic policy gradient (DDPG), to develop models for stock portfolio investments. To determine the weights for a group of stocks, we first process the data using the wavelet transform method; then, we improve the methods by constructing a neural network framework with a convolution neural network (CNN) along with a Squeeze-and-Excitation Block (SE Block); in the model, we employ the average logarithmic cumulative returns and the cumulative Sharpe Ratio as the reward functions. Our experimental results show the improved model is robustness, and perform significantly better over the actual Chinese stocks in risk prevention and returns increment.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "789ef3bb01812ae37ad72848587f613e",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:16.260500"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习方法（如PG和DDPG）来优化股票投资组合的权重分配，并通过实验验证了其在风险预防和收益增加方面的表现。这明确属于投资组合管理的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习方法（如PG和DDPG）来优化股票投资组合的权重分配，并通过实验验证了其在风险预防和收益增加方面的表现。这明确属于投资组合管理的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:44.165678"
+}

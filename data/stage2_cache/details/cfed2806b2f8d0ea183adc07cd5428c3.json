@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1242,
+    "title": "Automatic algorithm selection for Pseudo-Boolean optimization with given computational time limits",
+    "abstract": "Machine learning (ML) techniques have been proposed to automatically select the best solver from a portfolio of solvers. They have been applied to various problems including Boolean Satisfiability, Traveling Salesperson and Graph Coloring. These techniques are used to implement meta-solvers that receive, as input, the instance of a problem, predict the best-performing solver in the portfolio, and execute it to deliver a solution. Typically, the quality of the solution improves with a longer computational time. This has led to the development of anytime meta-solvers, , which consider both the instance and a user-prescribed computational time limit. Anytime meta-solvers predict the best-performing solver within the specified time limit. In this study, we focus on designing anytime meta-solvers for the NP-hard optimization problem of Pseudo-Boolean Optimization (PBO), which generalizes Satisfiability and Maximum Satisfiability problems. The effectiveness of our approach is demonstrated via extensive empirical study in which our anytime meta-solver, named PBO_MS, improves dramatically on the performance of Mixed Integer Programming solver Gurobi, which is the best-performing single solver in the portfolio. We generalize the anytime meta-solver by predicting a given number p >= 1 of best solvers in the portfolio and then run these, each with equal share of the specified time limit. This anytime p-meta-solver is shown here to outperform both the anytime 1-meta-solver as well as a fixed selection of p solvers by a wide margin.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b86012bf0679fe0820a41f3e6cd510b9",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.029024"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是Pseudo-Boolean优化问题的自动算法选择，虽然提到了机器学习技术的应用，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是Pseudo-Boolean优化问题的自动算法选择，虽然提到了机器学习技术的应用，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:15.123629"
+}

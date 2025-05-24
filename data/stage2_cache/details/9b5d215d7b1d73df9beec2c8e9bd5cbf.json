@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1673,
+    "title": "Static-RWArmor: A Static Analysis Approach for Prevention of Cryptographic Windows Ransomware",
+    "abstract": "The everlasting fight between security researchers and ransomware authors, including cyber criminals who leverage ransomware to cripple organizations worldwide, has continued to evolve as novel techniques are used to evade ransomware detection. The victim not only endures paramount financial loss from business downtime for several days and/or paying ransom to regain control of their environment but also becomes at risk of being exposed to the stolen digital assets out on the Internet. To tackle these threats against ransomware, our research project aims to identify (1) structural similarities among 2,436 cryptographic Windows ransomware samples per calendar year between 2017 and 2021 and (2) structural dissimilarities against 3,014 benign applications using machine learning classifiers. We base our analysis on PE metadata for similarity analysis and binary classification tasks. With the Cosine Index, we capture 71% - 87.80% and 66% - 82.30% of similarities based on imports and function names feature spaces, respectively. On the other hand, after designing four experimental settings, Random Forest outperforms other applied classifiers by achieving 91.75%, 91.99%, 90.47%, and 91.05% at best for accuracy, precision, recall, and F1 scores, respectively, for ransomware detection.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4a9c762d6a471fa28e6ea1a3361e73a4",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.404375"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用静态分析和机器学习技术来检测和预防Windows勒索软件，其核心应用领域是网络安全而非金融领域。虽然勒索软件可能导致金融损失，但论文的研究重点并不涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用静态分析和机器学习技术来检测和预防Windows勒索软件，其核心应用领域是网络安全而非金融领域。虽然勒索软件可能导致金融损失，但论文的研究重点并不涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:17.188317"
+}

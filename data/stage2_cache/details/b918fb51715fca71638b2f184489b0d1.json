@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1993,
+    "title": "Prediction of Energy Consumption for Variable Customer Portfolios Including Aleatoric Uncertainty Estimation",
+    "abstract": "Using hourly energy consumption data recorded by smart meters, retailers can estimate the day-ahead energy consumption of their customer portfolio. Deep neural networks are especially suited for this task as a huge amount of historical consumption data is available from smart meter recordings to be used for model training. Probabilistic layers further enable the estimation of the uncertainty of the consumption forecasts. Here, we propose a method to calculate hourly day-ahead energy consumption forecasts which include an estimation of the aleatoric uncertainty. To consider the statistical properties of energy consumption values, the aleatoric uncertainty is modeled using lognormal distributions whose parameters are calculated by deep neural networks. As a result, predictions of the hourly day-ahead energy consumption of single customers are represented by random variables drawn from lognormal distributions obtained as output from the neural network. We further demonstrate, how these random variables corresponding to single customers can be aggregated to probabilistic forecasts of customer portfolios of arbitrary composition.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a0106858fdd90d5354a6c290c940db60",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:02:10.083223"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用深度神经网络预测能源消耗，并估计不确定性，其应用场景是能源零售商的客户组合管理，而非金融领域的衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用深度神经网络预测能源消耗，并估计不确定性，其应用场景是能源零售商的客户组合管理，而非金融领域的衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:47.929982"
+}

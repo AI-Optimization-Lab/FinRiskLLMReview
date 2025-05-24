@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 4657,
+    "title": "Low correlation portfolio formation with preselection using rich relational data",
+    "abstract": "The integration of return prediction and portfolio optimization has been widely proven effective. Traditional portfolio optimization approaches, however, rely solely on financial time series data, neglecting the inherent correlations among assets. This study introduces a novel low-correlation portfolio construction methodology utilizing rich relational data integrated via meta-paths. The proposed framework enhances return prediction while minimizing portfolio risk. In the first stage, Long Short-Term Memory (LSTM) networks are implemented to capture sequential patterns in the data. A Graph Neural Network (GNN) with a dual attention mechanism is employed in our framework. This network structure effectively summarizes information from relevant assets while selectively updating features. In the second stage, we develop an asset correlation scoring metric derived from the comprehensive relational data. Based on the predicted returns and correlation scores, we introduce two portfolio construction strategies: (1) a low-correlation strategy and (2) a hybrid strategy with high returns and low correlation. We use sample data from the S&P 500 Index between January 2017 and December 2021 to justify our proposed method. Results demonstrate that incorporating rich relational data significantly improves prediction accuracy. Under Markowitz's framework, the correlation of high-quality assets is negatively related to their optimal weights. The correlation scoring metric is demonstrated to facilitate portfolio optimization. Assets exhibiting low correlations contribute to portfolio variance reduction and enhanced risk-adjusted performance. Our Prediction-based Low Correlation Portfolio (P-LCP) enhances returns at lower levels of risk. The Prediction-based Hybrid Portfolio (P-HP) demonstrates exceptional performance in terms of cumulative returns and Sharpe ratios. This work implements a data-driven portfolio construction method that utilizes historical and relational data, highlighting the effectiveness of combining predictive theory with low-correlation portfolio strategies.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9032d53219e60ee54285fa40aea838db",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:39:27.053534"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建低相关性投资组合，通过整合丰富的关联数据和使用LSTM及GNN模型来预测收益和评估资产相关性，最终在Markowitz框架下优化投资组合。这明确属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建低相关性投资组合，通过整合丰富的关联数据和使用LSTM及GNN模型来预测收益和评估资产相关性，最终在Markowitz框架下优化投资组合。这明确属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:21.124220"
+}

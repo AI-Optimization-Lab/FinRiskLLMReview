@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 361,
+    "title": "Deep Learning-Based Imbalance Market Price Range Predictions in the Day-Ahead Horizon",
+    "abstract": "Variable Renewable Energy (VRE) sources are characterized by production uncertainty that is largely due to weather forecast errors. This leads to greater volumes in the real-time balancing markets that drive Imbalance Market (IM) price higher, creating economic opportunities for flexibility providers. However, lack of information on foreseen IM prices and regulation states at the time of day-ahead market closure, reduces the flexibility providers' opportunity of optimizing their portfolio. The objective of this paper is to investigate to which extent there is a correlation between the IM prices and weather parameters in the Dutch Imbalance Market. A Deep Learning (DL) model based on Feed-Forward Deep Neural Network (FFDNN) is developed with the aim to support VRE asset owners and flexibility providers to predict IM price ranges and regulation states in the day-ahead horizon. The parameters considered are temperature, solar radiation, wind speed, relative humidity, and cloud cover. A benchmark model using Support Vector Machine (SVM) is used to compare with the DL's model performance. Both models are trained and tested using data from the weather prediction model provided by Royal Netherlands Meteorological Institute (KNMI), and historical IM prices from the Dutch Transmission System Operator (TenneT), for the years 2018-2020.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "da38432da7fc712cff899aa656b0abfc",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "neural network",
+      "support vector machine",
+      "SVM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.501114"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习模型预测不平衡市场价格范围和调节状态，以支持可变可再生能源资产所有者和灵活性提供者优化其决策。虽然涉及市场价格的预测，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习模型预测不平衡市场价格范围和调节状态，以支持可变可再生能源资产所有者和灵活性提供者优化其决策。虽然涉及市场价格的预测，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:37.065690"
+}

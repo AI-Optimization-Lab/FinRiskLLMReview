@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 568,
+    "title": "Enhancing a Pairs Trading strategy with the application of Machine Learning",
+    "abstract": "Pairs Trading is one of the most valuable market-neutral strategies used by hedge funds. It is particularly interesting because it overcomes the arduous process of valuing securities by focusing on relative pricing. By buying a relatively undervalued security and selling a relatively overvalued one, a profit can be made upon the pair's price convergence. However, with the growing availability of data, it became increasingly harder to find rewarding pairs. In this work, we address two problems: (i) how to find profitable pairs while constraining the search space and (ii) how to avoid long decline periods due to prolonged divergent pairs. To manage these difficulties, the application of promising Machine Learning techniques is investi-gated in detail. We propose the integration of an Unsupervised Learning algorithm, OPTICS, to handle problem (i). The results obtained demonstrate the suggested technique can outperform the common pairs' search methods, achieving an average portfolio Sharpe ratio of 3.79, in comparison to 3.58 and 2.59 obtained by standard approaches. For problem (ii), we introduce a forecasting-based trading model, capable of reducing the periods of portfolio decline by 75%. Yet, this comes at the expense of decreasing overall profitability. The proposed strategy is tested using an ARMA model, an LSTM and an LSTM Encoder-Decoder. This work's results are simulated during varying periods between January 2009 and December 2018, using 5-min price data from a group of 208 commodity-linked ETFs, and accounting for transaction costs. (c) 2020 Elsevier Ltd. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3150e47edb8c74256f81d3ff98054d8d",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "encoder-decoder"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:01.323771"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究如何通过机器学习技术改进Pairs Trading策略，包括寻找有利可图的交易对和减少投资组合的衰退期。这些内容直接涉及投资组合的构建和优化，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究如何通过机器学习技术改进Pairs Trading策略，包括寻找有利可图的交易对和减少投资组合的衰退期。这些内容直接涉及投资组合的构建和优化，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:35.142852"
+}

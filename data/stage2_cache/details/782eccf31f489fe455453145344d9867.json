@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 53,
+    "title": "Markowitz Mean-Variance Portfolio Optimization with Predictive Stock Selection Using Machine Learning",
+    "abstract": "With the advances in time-series prediction, several recent developments in machine learning have shown that integrating prediction methods into portfolio selection is a great opportunity. In this paper, we propose a novel approach to portfolio formation strategy based on a hybrid machine learning model that combines convolutional neural network (CNN) and bidirectional long short-term memory (BiLSTM) with robust input features obtained from Huber's location for stock prediction and the Markowitz mean-variance (MV) model for optimal portfolio construction. Specifically, this study first applies a prediction method for stock preselection to ensure high-quality stock inputs for portfolio formation. Then, the predicted results are integrated into the MV model. To comprehensively demonstrate the superiority of the proposed model, we used two portfolio models, the MV model and the equal-weight portfolio (1/N) model, with LSTM, BiLSTM, and CNN-BiLSTM, and employed them as benchmarks. Between January 2015 and December 2020, historical data from the Stock Exchange of Thailand 50 Index (SET50) were collected for the study. The experiment shows that integrating preselection of stocks can improve MV performance, and the results of the proposed method show that they outperform comparison models in terms of Sharpe ratio, mean return, and risk.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d8a016bf3e7de1ef366874099614c3d9",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.947425"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on integrating machine learning techniques with the Markowitz mean-variance model for stock preselection and optimal portfolio construction, which is a core aspect of portfolio management. The study explicitly mentions improving portfolio performance in terms of Sharpe ratio, mean return, and risk, all of which are key metrics in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on integrating machine learning techniques with the Markowitz mean-variance model for stock preselection and optimal portfolio construction, which is a core aspect of portfolio management. The study explicitly mentions improving portfolio performance in terms of Sharpe ratio, mean return, and risk, all of which are key metrics in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:59.465012"
+}

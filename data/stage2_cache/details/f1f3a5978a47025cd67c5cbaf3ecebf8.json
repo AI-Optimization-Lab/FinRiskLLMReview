@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 635,
+    "title": "Stock selection with random forest: An exploitation of excess return in the Chinese stock market",
+    "abstract": "In recent years, a variety of research fields, including finance, have begun to place great emphasis on machine learning techniques because they exhibit broad abilities to simulate more complicated problems. In contrast to the traditional linear regression scheme that is usually used to describe the relationship between the stock forward return and company characteristics, the field of finance has experienced the rapid development of tree-based algorithms and neural network paradigms when illustrating complex stock dynamics. These nonlinear methods have proved to be effective in predicting stock prices and selecting stocks that can outperform the general market. This article implements and evaluates the robustness of the random forest (RF) model in the context of the stock selection strategy. The model is trained for stocks in the Chinese stock market, and two types of feature spaces, fundamental/technical feature space and pure momentum feature space, are adopted to forecast the price trend in the long run and the short run, respectively. It is evidenced that both feature paradigms have led to remarkable excess returns during the past five out-of-sample period years, with the Sharpe ratios calculated to be 2.75 and 5 for the portfolio net value of the multi-factor space strategy and momentum space strategy, respectively. Although the excess return has weakened in recent years with respect to the multi-factor strategy, our findings point to a less efficient market that is far from equilibrium.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "91d7ed0697dd1d5db6e5aa2c41c0b4ed",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree",
+      "neural network",
+      "random forest"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:39.199356"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用随机森林模型进行股票选择，旨在构建能够跑赢大盘的投资组合，并通过夏普比率等指标评估其表现，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用随机森林模型进行股票选择，旨在构建能够跑赢大盘的投资组合，并通过夏普比率等指标评估其表现，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:01.309511"
+}

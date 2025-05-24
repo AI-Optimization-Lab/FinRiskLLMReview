@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 185,
+    "title": "Financial Option Valuation by Unsupervised Learning with Artificial Neural Networks",
+    "abstract": "Artificial neural networks (ANNs) have recently also been applied to solve partial differential equations (PDEs). The classical problem of pricing European and American financial options, based on the corresponding PDE formulations, is studied here. Instead of using numerical techniques based on finite element or difference methods, we address the problem using ANNs in the context of unsupervised learning. As a result, the ANN learns the option values for all possible underlying stock values at future time points, based on the minimization of a suitable loss function. For the European option, we solve the linear Black-Scholes equation, whereas for the American option we solve the linear complementarity problem formulation. Two-asset exotic option values are also computed, since ANNs enable the accurate valuation of high-dimensional options. The resulting errors of the ANN approach are assessed by comparing to the analytic option values or to numerical reference solutions (for American options, computed by finite elements). In the short note, previously published, a brief introduction to this work was given, where some ideas to price vanilla options by ANNs were presented, and only European options were addressed. In the current work, the methodology is introduced in much more detail.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "4e7ba0a371eac965cf7237b585f07363",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.129600"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用人工神经网络（ANNs）解决偏微分方程（PDEs），特别是用于定价欧式和美式金融期权。论文明确提到解决Black-Scholes方程和线性互补问题，这些都是衍生品定价中的经典问题。此外，论文还讨论了高维奇异期权的定价，进一步确认了其应用领域为衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用人工神经网络（ANNs）解决偏微分方程（PDEs），特别是用于定价欧式和美式金融期权。论文明确提到解决Black-Scholes方程和线性互补问题，这些都是衍生品定价中的经典问题。此外，论文还讨论了高维奇异期权的定价，进一步确认了其应用领域为衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:08.076551"
+}

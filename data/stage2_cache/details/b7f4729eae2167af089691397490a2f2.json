@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 755,
+    "title": "Enhancing Performance of Credit Card Model by Utilizing LSTM Networks and XGBoost Algorithms",
+    "abstract": "This research paper presents novel approaches for detecting credit card risk through the utilization of Long Short-Term Memory (LSTM) networks and XGBoost algorithms. Facing the challenge of securing credit card transactions, this study explores the potential of LSTM networks for their ability to understand sequential dependencies in transaction data. This research sheds light on which model is more effective in addressing the challenges posed by imbalanced datasets in credit risk assessment. The methodology utilized for imbalanced datasets includes the use of the Synthetic Minority Oversampling Technique (SMOTE) to address any imbalance in class distribution. This paper conducts an extensive literature review, comparing various machine learning methods, and proposes an innovative framework that compares LSTM with XGBoost to improve fraud detection accuracy. LSTM, a recurrent neural network renowned for its ability to capture temporal dependencies within sequences of transactions, is compared with XGBoost, a formidable ensemble learning algorithm that enhances feature-based classification. By meticulously carrying out preprocessing tasks, constructing competent training models, and implementing ensemble techniques, our proposed framework demonstrates unwavering performance in accurately identifying fraudulent transactions. The comparison of LSTM and XGBoost shows that LSTM is more effective for our imbalanced dataset. Compared with XGBOOST's 97% accuracy, LSTM's accuracy is 99%. The final result emphasizes how crucial it is to select the optimal algorithm based on particular criteria within financial concerns, which will ultimately result in more reliable and knowledgeable credit score decisions.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "edb0300827026c24bb7859ce1c051114",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:34.145854"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究利用LSTM和XGBoost算法进行信用卡风险检测和欺诈交易识别，这属于金融风险管理中的信用风险管理和欺诈检测范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文主要研究利用LSTM和XGBoost算法进行信用卡风险检测和欺诈交易识别，这属于金融风险管理中的信用风险管理和欺诈检测范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:23.330321"
+}

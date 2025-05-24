@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 429,
+    "title": "Grid-based Urban Fire Prediction Using Extreme Gradient Boosting (XGBoost)",
+    "abstract": "Fires in urban areas lead to enormous financial and human losses because cities have high densities of people and buildings. Although a recent advanced IoT technology improves early fire detection, it is crucial to predict fire risk to manage and prevent urban fires. We propose a method of predicting urban fires using extreme gradient boosting (XGBoost), which is based on grid-based data, to consider the characteristics of urban fires occurring in local areas. Before model training, we conducted a correlation analysis and variance inflation factor (VIF) analysis to remove variables with a strong correlation between independent variables. Furthermore, oversampling and feature selection techniques were applied to improve the model's performance. Experimental results revealed that the overall accuracy of XGBoost was 81.25%, the F1-score was 86.43%, and the area under the curve (AUC) was 84.59%. XGBoost performed better than baseline models, such as the support vector machine (SVM) and logistic regression. The results of this study show that it can be used for local area management and the prevention of urban fires.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e47db6242dda4a6a7523b99ad489315b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.622797"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用XGBoost进行城市火灾预测，其应用场景为城市安全管理，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用XGBoost进行城市火灾预测，其应用场景为城市安全管理，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:04.063097"
+}

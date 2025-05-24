@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 459,
+    "title": "Application of credit-scoring methods in a decision support system of investment for peer-to-peer lending",
+    "abstract": "Peer-to-peer lending, as a novel lending model, has challenged investors to make effective investment decisions. Issued loans are grouped into default and nondefault. Therefore, different classification methods can be utilized to predict the status of loans in the future. Our study aim is to propose an investment decision model based on the nondefault loans predicted using three different classifiers, including random forest (RF) that is a multitude of decision trees, support vector machine, and naive Bayes. In fact, we combine each of these classifiers with the portfolio optimization problem to understand which combination leads to the best portfolio concerning the risk and return. In order to find the best combined model, numerical studies are conducted based on real-world data. In addition, the performances of these classifiers are evaluated based on different performance measures using the 10-fold cross-validation method. The results indicate that combining the RF algorithm and portfolio optimization problem leads to the least level of risk. Moreover, it is concluded that RF is the best classifier in terms of performance analysis.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ff3bcdfb3eb46a505e11001d6fd00f26",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.332558"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是结合分类方法（如随机森林、支持向量机等）与投资组合优化问题，旨在通过预测贷款违约状态来优化投资决策，这直接涉及投资组合管理。同时，预测违约状态和评估风险水平也属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是结合分类方法（如随机森林、支持向量机等）与投资组合优化问题，旨在通过预测贷款违约状态来优化投资决策，这直接涉及投资组合管理。同时，预测违约状态和评估风险水平也属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:38.402326"
+}

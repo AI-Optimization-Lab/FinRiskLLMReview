@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1626,
+    "title": "Portfolios with return and volatility prediction for the energy stock market",
+    "abstract": "Energy portfolios have important applications in many aspects of the energy market. This paper commonly integrates return and volatility prediction to advance portfolio models for the sake of building more efficient energy portfolios. In this regard, the extreme gradient boosting regression tree is applied to predict energy returns and volatilities, respectively. And six classical portfolio models are utilized to test the efficiency of this approach. Also, since these advanced portfolios own multiple objectives, this paper introduces prediction -based weights to transform these objectives. In addition, the component stocks of the CSI energy index are adopted for empirical tests. Empirical results show that commonly using return and volatility prediction to advance portfolio models significantly increases the performance of these models advanced only by return prediction. And prediction-based weights generally perform better than equal weights in transforming the multiple objectives of these advanced portfolios. Among these portfolios, the CVaR-F-PW portfolio performs the best. Robust tests show that 90% is the optimal confidence level for this portfolio. Therefore, the CVaR-F-PW portfolio is recommended for portfolio management in the energy stock market, and this portfolio is also useful to energy structure optimization, energy efficiency enhancement, and other applications in energy market.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c862acd1539f457e3e047c13a2a78f8c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.902569"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用极端梯度提升回归树预测能源股票的回报和波动性，并将其应用于构建更有效的能源投资组合。论文明确提到使用六种经典的投资组合模型来测试该方法的效率，并推荐特定的投资组合（CVaR-F-PW）用于能源股票市场的投资组合管理。因此，其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用极端梯度提升回归树预测能源股票的回报和波动性，并将其应用于构建更有效的能源投资组合。论文明确提到使用六种经典的投资组合模型来测试该方法的效率，并推荐特定的投资组合（CVaR-F-PW）用于能源股票市场的投资组合管理。因此，其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:42.736988"
+}

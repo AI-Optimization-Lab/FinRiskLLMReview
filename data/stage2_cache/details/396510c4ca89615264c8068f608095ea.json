@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5555,
+    "title": "Financial Risk Meter FRM based on Expectiles",
+    "abstract": "The Financial Risk Meter (FRM) is an established quantitative tool that, based on conditional Value at Risk (VaR) ideas, yields insight into the dynamics of network risk. Originally, the FRM has been composed via Lasso based quantile regression, but we here extend it by incorporating the idea of expectiles, thus indicating not only the tail probability but rather the actual tail loss given a stress situation in the network. The expectile variant of the FRM enjoys several advantages: Firstly, the multivariate tail risk indicator conditional expectile-based VaR (CoEVaR) can be derived, which is sensitive to the magnitude of extreme losses. Next, FRM index is not restricted to an index compared to the quantile based FRM mechanisms, but can be expanded to a set of systemic tail risk indicators, which provide investors with numerous tools in terms of diverse risk preferences. The power of FRM also lies in displaying the FRM distribution across various entities every day. In a functional data context, the FRM identifies outlying curves and serves as a signal box to display aberrant functional behavior. Two distinct patterns can be discovered under high stress and during stable periods from the empirical results in the United States stock market. Furthermore, the framework is able to identify individual risk characteristics and to capture spillover effects in a network. (C) 2021 Elsevier Inc. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e10274ffaaf1037d402c304830fb0f19",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:48:51.388610"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on the development of the Financial Risk Meter (FRM) based on expectiles, which is designed to measure and monitor systemic tail risk in financial networks. It discusses conditional Value at Risk (VaR) and introduces a multivariate tail risk indicator (CoEVaR), both of which are central to financial risk management. The paper's emphasis on identifying individual risk characteristics and capturing spillover effects in a network further underscores its application in financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on the development of the Financial Risk Meter (FRM) based on expectiles, which is designed to measure and monitor systemic tail risk in financial networks. It discusses conditional Value at Risk (VaR) and introduces a multivariate tail risk indicator (CoEVaR), both of which are central to financial risk management. The paper's emphasis on identifying individual risk characteristics and capturing spillover effects in a network further underscores its application in financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:02.882148"
+}

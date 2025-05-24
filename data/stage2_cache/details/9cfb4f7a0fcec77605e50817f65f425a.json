@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 31,
+    "title": "高频数据下基于LSTM的协方差矩阵预测模型",
+    "abstract": "协方差矩阵的建模与预测，对于金融风险管理、投资组合管理等至关重要。针对时间序列模型对高维变量预测精度较低的问题，利用长短记忆神经网络模型(LSTM),提出了基于深度学习的高频数据已实现协方差矩阵预测模型。利用金融高频数据得到已实现协方差矩阵，对其进行DRD分解，针对相关系数矩阵R进行向量化处理，利用向量异质自回归模型(HAR)预测已实现相关系数矩阵R;针对已实现波动率矩阵D,利用半协方差(semi covariance)思想，结合LSTM模型，得到已实现波动率矩阵D的深度学习预测模型，构建了LSTM-SDRD-HAR已实现协方差矩阵动态预测模型。LSTM模型和HAR模型能捕捉实际数据的长期记忆性，半协方差有利于捕捉金融数据的杠杆性。实证分析表明：相较于传统向量HAR已实现协方差矩阵预测模型，LSTM-SDRD-HAR预测已实现协方差矩阵更为准确，基于LSTM-SDRD-HAR预测已实现协方差矩阵构造的有效前沿组合投资效果更佳。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "68150732dfcb94f0864d369c346bbb65",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T19:07:40.903241"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM模型预测协方差矩阵，并明确指出其在金融风险管理和投资组合管理中的应用。摘要中提到协方差矩阵的建模与预测对这两个领域至关重要，并且实证分析表明该模型在构造有效前沿组合投资方面效果更佳。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM模型预测协方差矩阵，并明确指出其在金融风险管理和投资组合管理中的应用。摘要中提到协方差矩阵的建模与预测对这两个领域至关重要，并且实证分析表明该模型在构造有效前沿组合投资方面效果更佳。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:41.413149"
+}

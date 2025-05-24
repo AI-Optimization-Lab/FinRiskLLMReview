@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2449,
+    "title": "Comparing machine learning algorithms for non-invasive detection and classification of failure in piezoresistive bone cement via electrical impedance tomography",
+    "abstract": "At an estimated cost of $8 billion annually in the United States, revision surgeries to total joint replacements represent a substantial financial burden to the health care system and a tremendous mental and physical burden on patients and their caretakers. Fixation failures, such as implant loosening, wear, and mechanical instability of the poly(methyl methacrylate) (PMMA) cement, which bonds the implant to the bone, are the main causes of long-term implant failure. Early and accurate diagnosis of cement failure is critical for developing novel therapeutic strategies and reducing the high risk of a misjudged revision. Unfortunately, prevailing imaging modalities, notably plain radiographs, struggle to detect the precursors of implant failure and are often interpreted incorrectly. Our prior work has shown that the modification of PMMA bone cement with low concentrations of conductive fillers makes it piezoresistive and therefore self-sensing. When combined with a conductivity imaging modality such as electrical impedance tomography (EIT), it is possible to monitor load transfer across the PMMA using cost-effective, physiologically benign, non-contact, and real-time electrical measurements. Despite the ability of EIT for monitoring load transfer across self-sensing PMMA bone cement, it is unable to accurately characterize failure mechanisms. Overcoming this challenge is critical to the success of this technology in practice. Therefore, we herein expand upon our previous results by integrating machine learning techniques with EIT for cement condition characterization with the goal of establishing the feasibility of even off-the-shelf machine learning algorithms to address this important problem. We survey a wide variety of different machine learning algorithms for application to this problem, including neural networks on voltage readings of an EIT phantom for tracking the spatial position of a sample, specifying defect orientation within a sample, and classifying defect types, including cracks and delaminations. In addition, we explore the utilization of principal component analysis (PCA) for pre-treating impedance signals in each of these problems. Within the tested algorithms, our results show clear advantages of neural networks, support vector machines, and K-nearest neighbor algorithms for interpreting EIT signals. We also show that PCA is an effective addition to machine learning. These preliminary results demonstrate that the combination of smart materials, EIT, and machine learning may be a powerful instrumentation tool for diagnosing the origin and evolution of mechanical failure in joint replacements.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d073313119d5666345331d0cfba0f64d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "principal components analysis",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:27.083557"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习和电阻抗断层扫描技术来检测和分类骨水泥的失效模式，属于医疗工程领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习和电阻抗断层扫描技术来检测和分类骨水泥的失效模式，属于医疗工程领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:27.353134"
+}

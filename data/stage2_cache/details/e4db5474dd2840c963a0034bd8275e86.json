@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 385,
+    "title": "Advancing credit risk modelling with Machine Learning: A comprehensive review of the state-of-the-art",
+    "abstract": "Ensuring financial stability necessitates responsible credit granting, so lending institutions maintain sufficient regulatory capital to withstand losses from defaults. Classification methods like Logistic Regression (LR) have long been the standard for estimating default likelihood, but they struggle with increasing operational demands and regulatory standards. Advances in Machine Learning (ML) now allow models to handle larger datasets with greater predictive power. Algorithms such as Decision Trees (DT), Support Vector Machines (SVM), and Neural Networks (NN), though not readily transferable to practical applications, have the potential to enhance the credit risk modelling process. While much of the literature on ML in credit risk focuses on sophisticated, experimental algorithms not yet ready for commercial use, few address the steps and nuances of model development. Our article fills this gap by systematically reviewing the literature on ML in consumer credit risk modelling, highlighting the current state of scientific knowledge. We analyze the frequent steps involved and demonstrate how ML's strengths can be leveraged throughout them. From pre-processing steps like data cleaning, transformation, and reduction, to variable selection and parameter optimization, our findings indicate that ML is becoming increasingly important in financial risk management. However, standardized modelling procedures are needed before complex ML classifiers can be commercially deployed. Meanwhile, although relatively interpretable ML models built around DTs and Random Forests (RF) do showcase increased performance in popular credit risk datasets, it is clear that the potential to benefit from ML spans further, with complex models enabling increased performance by aiding simpler, explainable classification algorithms.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8003f4683c6da7ab975eedeca755e0a3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.055839"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on advancing credit risk modeling using machine learning techniques, which is a core aspect of financial risk management. It discusses the application of various ML algorithms to improve the prediction of default likelihood, a key concern in managing credit risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on advancing credit risk modeling using machine learning techniques, which is a core aspect of financial risk management. It discusses the application of various ML algorithms to improve the prediction of default likelihood, a key concern in managing credit risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:27.997251"
+}

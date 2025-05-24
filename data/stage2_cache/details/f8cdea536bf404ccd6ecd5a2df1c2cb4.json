@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 4,
+    "title": "A Multi-Scale Temporal Feature Aggregation Convolutional Neural Network for Portfolio Management",
+    "abstract": "Financial portfolio management is the process of periodically reallocating a fund into different financial investment products, with the goal of achieving the maximum profits. While conventional financial machine learning methods try to predict the price trends, reinforcement learning based portfolio management methods makes trading decisions according to the price changes directly. However, existing reinforcement learning based methods are limited in extracting the price change information at single-scale level, which makes their performance still not satisfactory. In this paper, inspired by the Inception network that has achieved great success in computer vision and can extract multi-scale features simultaneously, we propose a novel Ensemble of Identical Independent Inception (EI3) convolutional neural network, with the objective of addressing the limitation of existing reinforcement learning based portfolio management methods. With EI3, multiple assets can be processed independently while sharing the same network parameters. Moreover, price movement information for each product can be extracted at multiple scales via wide network and then aggregated to make trading decision. Based on EI3, we further propose a recurrent reinforcement learning framework to provide a deep machine learning solution for the portfolio management problem. Comprehensive experiments on the cryptocurrency datasets demonstrate the superiority of our method over existing competitors, in both upswing and downswing environments.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6dc2f28e64515c92893d3b188364b950",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:16.201899"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种新的卷积神经网络（EI3）和强化学习框架，专门用于投资组合管理问题，旨在通过多尺度特征提取和资产独立处理来优化投资决策。论文明确提到其目标是解决投资组合管理中的问题，并在加密货币数据集上进行了实验验证。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种新的卷积神经网络（EI3）和强化学习框架，专门用于投资组合管理问题，旨在通过多尺度特征提取和资产独立处理来优化投资决策。论文明确提到其目标是解决投资组合管理中的问题，并在加密货币数据集上进行了实验验证。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:28.825859"
+}

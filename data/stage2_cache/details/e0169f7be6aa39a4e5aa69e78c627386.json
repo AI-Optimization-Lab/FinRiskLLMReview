@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 24,
+    "title": "基于深度强化学习构建股票交易智能体",
+    "abstract": "在复杂多变的金融市场环境中，构建稳定盈利的交易策略面临重大挑战。传统投资组合方法不能有效适应市场快速变化而进行及时权重调整，且关于市场效率、正态分布收益率等市场假设并不能真实反映快速变化的市场环境。针对这些挑战，将DRL算法与金融交易应用场景有效结合，探讨了DRL算法在优化股票交易策略并实现稳定盈利方面的应用潜力。通过选取上证50成分股作为交易品种，综合利用股票价格、成交量、均线等技术指标构建了交易市场环境，合理设计状态空间、动作空间和目标函数，并采用DDPG、SAC、TD3等DRL算法训练出适应性强的交易智能体。结果表明：该股票交易智能体在盈利能力和风险控制方面与传统投资组合策略相比具有显著优势。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6ed948e6035f5b1dcb4cbc892f595c2d",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:20:52.556857"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是深度强化学习，用于构建股票交易智能体，优化股票交易策略并实现稳定盈利。这属于投资组合管理的范畴，因为其主要目标是优化资产配置和交易策略以提高收益和控制风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是深度强化学习，用于构建股票交易智能体，优化股票交易策略并实现稳定盈利。这属于投资组合管理的范畴，因为其主要目标是优化资产配置和交易策略以提高收益和控制风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:22.602107"
+}

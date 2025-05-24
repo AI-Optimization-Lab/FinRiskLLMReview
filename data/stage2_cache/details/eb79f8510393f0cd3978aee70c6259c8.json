@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2520,
+    "title": "Portfolio Optimization via a Surrogate Risk Measure: Conditional Desirability Value at Risk (CDVaR)",
+    "abstract": "A risk measure that specifies minimum capital requirements is the amount of cash that must be added to a portfolio to make its risk acceptable to regulators. The 2008 financial crisis highlighted the demise of the most widely used risk measure, Value-at-Risk. Unlike the Conditional VaR model of Rockafellar & Uryasev, VaR ignores the possibility of abnormal returns and is not even a coherent risk measure as defined by Pflug. Both VaR and CVaR portfolio optimizers use asset-price return histories. Our novelty here is introducing an annual Desirability Value (DV) for a company and using the annual differences of DVs in CVaR optimization, instead of simply utilizing annual stock-price returns. The DV of a company is the perpendicular distance from the fundamental position of that company to the best separating hyperplane H-0 that separates profitable companies from losers during training. Thus, we introduce both a novel coherent surrogate risk measure, Conditional-Desirability-Value-at-Risk (CDVaR) and a direction along which to reduce (downside) surrogate risk, the perpendicular to H-0. Since it is a surrogate measure, CDVaR optimization does not produce a cash amount as the risk measure. However, the associated CVaR (or VaR) is trivially computable. Our machine-learning-fundamental-analysis-based CDVaR portfolio optimization results are comparable to those of mainstream price-returns-based CVaR optimizers.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e10e629f61a3397770731e5eb6078043",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:16:32.578234"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper introduces a novel coherent surrogate risk measure, Conditional-Desirability-Value-at-Risk (CDVaR), and applies it to portfolio optimization. This directly addresses financial risk management by proposing a new risk measure and portfolio management by optimizing portfolios based on this measure. The focus on risk measures and portfolio optimization clearly places it within these two financial research domains.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper introduces a novel coherent surrogate risk measure, Conditional-Desirability-Value-at-Risk (CDVaR), and applies it to portfolio optimization. This directly addresses financial risk management by proposing a new risk measure and portfolio management by optimizing portfolios based on this measure. The focus on risk measures and portfolio optimization clearly places it within these two financial research domains.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:34.740312"
+}

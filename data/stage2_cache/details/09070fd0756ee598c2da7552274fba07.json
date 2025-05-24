@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3787,
+    "title": "Using Support Vector Regression to Estimate Valence Level from EEG",
+    "abstract": "Emotion recognition is an integral part of affective computing. An affective brain-computer-interface (BCI) can benefit the user in a number of applications. In most existing studies, EEG (electroencephalograph)-based emotion recognition is explored in a classificatory manner. In this manner, human emotions are discretized by a set of emotion labels. However, human emotions are more of a continuous phenomenon than discrete. A regressive approach is more suited for continuous emotion recognition. Few studies have looked into a regressive approach. In this study, we investigate a portfolio of EEG features including fractal dimension, statistics and band power. Support vector regression (SVR) is employed in this study to estimate subject's valence level by means of different features under two evaluation schemes. In the first scheme, a SVR is constructed with full training resources, whereas in the second scheme, a SVR only receives minimal training resources. MAE (mean absolute error) averages of 0.74 and 1.45 can be achieved under the first and the second scheme, respectively, by fractal feature. The advantages of a regressive approach over classificatory approach lie in continuous emotion recognition and the possibility to reduce training resources to minimal level.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8c85a006a440df1ef3ebeaad4eafe1bc",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:20:36.136937"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用支持向量回归（SVR）从脑电图（EEG）数据中估计情感效价水平，属于情感计算和脑机接口领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用支持向量回归（SVR）从脑电图（EEG）数据中估计情感效价水平，属于情感计算和脑机接口领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:49.546275"
+}

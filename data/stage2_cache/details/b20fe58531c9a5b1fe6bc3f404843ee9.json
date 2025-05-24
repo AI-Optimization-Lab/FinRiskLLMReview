@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2451,
+    "title": "EXTRACTING GARCH EFFECTS FROM ASSET RETURNS USING ROBUST NMF",
+    "abstract": "Identification of assets on the stock market that exhibit co-movement is a critical task for generating an efficiently diversified portfolio. We present a new application of non-negative matrix factorization to factor analysis of financial time series. We consider a conditionally heteroscedastic latent factor model, where each series is parameterized by a univariate ARCH model. Volatility clustering characteristics, e.g. GARCH effects, of the constituent assets of the Dow Jones Industrial Average are lever-aged to cluster assets based on the commonality of their volatility clusters. We present a new non-negative matrix factorization algorithm which is robust in the presence of noise, Robust NMF. We use a mixed low-rank over-complete dictionary learning approach to separate out the background Gaussian noise, emphasize the GARCH effects and achieve clearer asset groupings.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1321d8ef1961e925281dd3eeffd25295",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:02.976919"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用非负矩阵分解（NMF）和鲁棒NMF算法来识别股票市场中具有共同波动特征的资产，目的是为了构建一个高效分散的投资组合。这直接关联到投资组合管理领域，特别是资产选择和多样化策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用非负矩阵分解（NMF）和鲁棒NMF算法来识别股票市场中具有共同波动特征的资产，目的是为了构建一个高效分散的投资组合。这直接关联到投资组合管理领域，特别是资产选择和多样化策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:42.848653"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 243,
+    "title": "Automatic Generation of Critical Audit Matters (CAMs) Using LSTM-MacBert-Based Dual-Stream Transfer Learning",
+    "abstract": "The disclosure of critical audit matters (CAMs) plays an important part in audit report reform and financial risk warnings. Current CAMs include matters that need to be focused on from the audit after a comprehensive evaluation of the internal control and other enterprise information, combined with the experience of the project manager, which is closely related to subjective factors, such as auditor professionalism and independence. An increase in subjective judgment becomes a breeding ground for audit failure. First, since long short-term memory (LSTM) is often used to process temporal data, MacBERT is often used as a text encoding, so LSTM is used to encode financial information to overcome the influence of subjective factors, and MacBert is used to encode nonfinancial information. The two modes are then separately encoded to form a dual-stream structure that simulates the process of auditors reviewing documents. Second, a transformer is used to perform multimodal interactions on the dual-stream encoding results to simulate the process of auditors integrating important information. Finally, the multimodal interaction results are fed into the fully connected layers and the SoftMax function to achieve cross-modal fusion, which simulates the process of auditors obtaining CAMs. Simulating single-modal coding, multimodal interaction, and cross-modal fusion helps to realize the automatic generation of CAMs. This ensemble model is called the CAMs automatic generation model and is based on LSTM-MacBert dual-stream transfer learning. The experimental results show that the features of financial statements and public disclosure text extracted by the model can effectively screen CAMs and realize the automatic generation of high-level CAMs.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "b28c1592d47d524410101243f34a244e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning",
+      "attention mechanism",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:45.582796"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用LSTM-MacBert双流迁移学习模型自动生成关键审计事项（CAMs），这些事项在审计报告改革和财务风险预警中扮演重要角色。虽然论文涉及财务信息处理，但其主要应用场景是审计和财务风险预警，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM-MacBert双流迁移学习模型自动生成关键审计事项（CAMs），这些事项在审计报告改革和财务风险预警中扮演重要角色。虽然论文涉及财务信息处理，但其主要应用场景是审计和财务风险预警，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:02.022981"
+}

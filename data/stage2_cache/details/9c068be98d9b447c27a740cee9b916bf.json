@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2962,
+    "title": "Reactive global minimum variance portfolios with k-BAHC covariance cleaning",
+    "abstract": "We introduce a covariance cleaning method which works well in the very high-dimensional regime, i.e. when there are many more assets than data points per asset. This opens the way to unconditional reactive portfolio optimization when there are not enough points to calibrate dynamical conditional covariance models, which happens, for example, when new assets appear in a market. The method is a k-fold boosted version of the Bootstrapped Average Hierarchical Clustering cleaning procedure for correlation and covariance matrices. We apply this method to global minimum variance portfolios and find that k should increase with the calibration window length. We compare the performance of k-BAHC with other state-of-the-art covariance cleaning methods, including dynamical conditional covariance (DCC) with non-linear shrinkage. Generally, we find that our method yields better Sharpe ratios after transaction costs than competing unconditional covariance filtering methods, despite requiring a larger turnover. Finally, k-BAHC yields better Global Minimum Variance portfolios with long-short positions than DCC in a non-stationary investment universe.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "15c5f69ff2ef8750d81ecfcbd3d394a6",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:09.177839"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种协方差矩阵清洗方法，并将其应用于全球最小方差投资组合的构建和优化。论文明确讨论了投资组合的表现和夏普比率，这些都是投资组合管理领域的关键问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种协方差矩阵清洗方法，并将其应用于全球最小方差投资组合的构建和优化。论文明确讨论了投资组合的表现和夏普比率，这些都是投资组合管理领域的关键问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:59.689027"
+}

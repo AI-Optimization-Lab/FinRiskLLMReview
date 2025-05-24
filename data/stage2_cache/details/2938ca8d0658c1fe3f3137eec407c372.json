@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1507,
+    "title": "On the empirical performance of different covariance-matrix forecasting methods",
+    "abstract": "In the study of financial time series, covariance/correlation matrices play a central role in risk-related applications, including financial contagion and portfolio selection. Different methodologies have been used in their prediction, from methods based on Financial Econometrics DCC-GARCH (Engle in J Bus Econ Stat 20(3):339-350, 2002), to others linked to Ecophysics like Random Matrix Theory (Wang et al. in Comput Econ 51:607-635, 2018), and more recently to Machine Learning (Fiszeder and Orzeszko in Appl Intell 51(10):7029-7042, 2021). Despite these developments, there is no state-of-the-art study that compares all these methods and assesses their predictive power in an out-of-sample setting. Indeed, in this work, we focus on measuring the out-of-sample predictive power of correlation matrices of these different statistical methods, in particular from three different fields that have converged in recent years in the analysis of financial data: Econometrics, Econophysics, and Machine Learning. Thus, using a moving window scheme, we studied the correlation matrices of 29 stock market indexes from different latitudes of the world. Among our findings, we see the relationship between the measures of Eigen Entropy found in the market, with the error found in the forecast of each method in the form of Square Forecast Error. We find that in the period from 2008 to 2022, considering 2608 moving windows, the out-of-sample error tends to converge between the different methods, highlighting the performance of DCC-GARCH.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5fb29523fb0ca6d66a9f33a9b95f63fd",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.851304"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究不同协方差矩阵预测方法在金融时间序列中的应用，特别提到了风险相关应用和投资组合选择。这些内容直接关联到金融风险管理和投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文主要研究不同协方差矩阵预测方法在金融时间序列中的应用，特别提到了风险相关应用和投资组合选择。这些内容直接关联到金融风险管理和投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:24.521205"
+}

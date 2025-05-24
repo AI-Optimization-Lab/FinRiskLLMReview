@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1705,
+    "title": "Constructing treatment portfolios using affinity propagation",
+    "abstract": "A key problem of interest to biologists and medical researchers is the selection of a subset of queries or treatments that provide maximum utility for a population of targets. For example, when studying how gene deletion mutants respond to each of thousands of drugs, it is desirable to identify a small subset of genes that nearly uniquely define a drug 'footprint' that provides maximum predictability about the organism's response to the drugs. As another example, when designing a cocktail of HIV genome sequences to be used as a vaccine, it is desirable to identify a small number of sequences that provide maximum immunological protection to a specified population of recipients. We refer to this task as 'treatment portfolio design' and formalize it as a facility location problem. Finding a treatment portfolio is NP-hard in the size of portfolio and number of targets, but a variety of greedy algorithms can be applied. We introduce a new algorithm for treatment portfolio design based on similar insights that made the recently-published affinity propagation algorithm work quite well for clustering tasks. We demonstrate this method using the two problems described above: selecting a subset of yeast genes that act as a drug-response footprint, and selecting a subset of vaccine sequences that provide maximum epitope coverage for an HIV genome population.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "27a86309e63b5c8c89d75876ce55f87b",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:50.599064"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要讨论的是在生物学和医学研究中选择治疗组合的问题，如基因删除突变体对药物的反应和HIV疫苗序列的选择。虽然使用了'portfolio'这一术语，但其应用场景与金融领域的投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要讨论的是在生物学和医学研究中选择治疗组合的问题，如基因删除突变体对药物的反应和HIV疫苗序列的选择。虽然使用了'portfolio'这一术语，但其应用场景与金融领域的投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:01.169754"
+}

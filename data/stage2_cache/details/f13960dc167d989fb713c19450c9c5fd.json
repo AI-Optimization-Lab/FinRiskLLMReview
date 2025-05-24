@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 3194,
+    "title": "Leveraging network topology for credit risk assessment in P2P lending: A comparative study under the lens of machine learning",
+    "abstract": "Peer -to -Peer (P2P) lending markets have witnessed remarkable growth, revolutionizing the way borrowers and lenders interact. Despite the increasing popularity of P2P lending, it poses significant challenges related to credit risk assessment and default prediction with meaningful implications for financial stability. Traditional credit risk models have been widely employed in the field of P2P lending; however, they may not be capable to capture latent factor information inherent to a loan network based on similarity distances. Thus, in this study we propose an enhanced two-step modeling approach for Machine Learning (ML) that utilizes insights from network analysis and subsequently combines derived network centrality metrics with traditional credit risk factors to improve the prediction accuracy in the credit default prediction process. Through a comparative analysis of three classical ML models with varying degrees of complexity, namely Elastic Net (EN), Random Forest (RF), and Multi -Layer Perceptron (MLP), we showcase novel evidence that the systematic inclusion of network topology features in the credit scoring process can significantly improve the prediction accuracy of the scoring models. Additional robustness tests via the inclusion of randomly shuffled centrality metrics in the analysis, and a further comparison of the graph -based models against a pertinent state-of-the-art credit scoring model in form of XGBoost, further confirm our results. The insights from this study bear valuable conclusions for P2P lending platforms to further improve their scoring systems with graph -enhanced metrics, thereby reducing default risk and facilitating greater access to credit.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a8005624df8c765beb793be7534220bf",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "random forest",
+      "decision tree",
+      "multi-layer perceptron",
+      "MLP",
+      "XGBoost"
+    ],
+    "stage1_timestamp": "2025-05-15T02:23:33.553424"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习和网络分析来改进P2P借贷中的信用风险评估和违约预测，这直接属于金融风险管理的范畴。论文的研究目标和应用场景都集中在信用风险的管理和预测上，并未涉及衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用机器学习和网络分析来改进P2P借贷中的信用风险评估和违约预测，这直接属于金融风险管理的范畴。论文的研究目标和应用场景都集中在信用风险的管理和预测上，并未涉及衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:04.022573"
+}

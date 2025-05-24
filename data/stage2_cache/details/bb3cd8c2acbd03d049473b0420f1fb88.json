@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 28,
+    "title": "FinCaKG: A Framework to Construct Financial Causality Knowledge Graph from Text",
+    "abstract": "Causality analysis holds a prominent role in finance, and the presentation of causality could offer valuable insights for risk mitigation and investment decisions. Recent research has extensively investigated the identification of causality from text, yet there is still a significant deficiency in providing a comprehensive causality presentation from those textual discoveries. In this paper, we present an end-to-end framework to automatically construct Financial Causality Knowledge Graph (FinCaKG) from text, which allows us to visualize the captured causality from a holistic perspective. This framework involves three distinct tasks, including causality sentence detection, cause-effect span identification, and causal dependency representation. To examine the adaptability of FinCaKG framework, we generate, compare, and analyze the distinct FinCaKGs created from different corpus. The results show that this framework has the capability to not only capture the confidential causality but also represent them in a highly detailed manner in the resulting knowledge graphs. We perform a comparative study with ConceptNet, revealing the notable contributions of FinCaKGs in terms of domain coverage and the density of its causal knowledge. Furthermore, we implement two case studies to examine the capability of financial role declaration and distinction of ChatGPT and FinCaKGs applications. We found that, compared to ChatGPT, FinCaKGs are able to represent the much clearer and more distinctive logic opinions among diverse financial roles. The related resources will be available in the webpage https://www.ai.iee.e.titech.ac.jp/FinCaKG/.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "LLMs",
+    "cache_key": "32b9bd5a371d8d5a9aee84c42df65473",
+    "relevant_keywords": [
+      "Large Language Model",
+      "LLM",
+      "ChatGPT"
+    ],
+    "stage1_timestamp": "2025-05-15T01:45:16.365862"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是从文本中构建金融因果关系知识图谱（FinCaKG）的框架，虽然提到了风险缓解和投资决策，但其核心技术是因果关系分析和知识图谱构建，并未具体涉及衍生品定价、金融风险管理或投资组合管理的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是从文本中构建金融因果关系知识图谱（FinCaKG）的框架，虽然提到了风险缓解和投资决策，但其核心技术是因果关系分析和知识图谱构建，并未具体涉及衍生品定价、金融风险管理或投资组合管理的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:37.854470"
+}

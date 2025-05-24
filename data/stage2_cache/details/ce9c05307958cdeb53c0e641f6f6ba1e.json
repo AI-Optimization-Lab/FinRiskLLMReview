@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2156,
+    "title": "Patent Quality Valuation with Deep Learning Models",
+    "abstract": "Patenting is of significant importance to protect intellectual properties for individuals, organizations and companies. One of practical demands is to automatically evaluate the quality of new patents, i.e., patent valuation, which can be used for patent indemnification and patent portfolio. However, to solve this problem, most traditional methods just conducted simple statistical analyses based on patent citation networks, while ignoring much crucial information, such as patent text materials and many other useful attributes. To that end, in this paper, we propose a Deep Learning based Patent Quality Valuation (DLPQV) model which can integrate the above information to evaluate the quality of patents. It consists of two parts: Attribute Network Embedding (ANE) and Attention-based Convolutional Neural Network (ACNN). ANE learns the patent embedding from citation networks and attributes, and ACNN extracts the semantic representation from patent text materials. Then their outputs are concatenated to predict the quality of new patents. The experimental results on a real-world patent dataset show our method outperforms baselines significantly with respect to patent valuation.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7f45e53699c7e8ec5aa55bbbe86093f2",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:36.661768"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习模型评估专利质量，虽然提到了专利组合（patent portfolio），但并未涉及金融领域的衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习模型评估专利质量，虽然提到了专利组合（patent portfolio），但并未涉及金融领域的衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:47.506941"
+}

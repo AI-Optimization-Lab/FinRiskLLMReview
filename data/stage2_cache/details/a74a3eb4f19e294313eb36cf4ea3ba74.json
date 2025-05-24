@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 970,
+    "title": "Weighted Multivariate Mean Reversion for Online Portfolio Selection",
+    "abstract": "Portfolio selection is a fundamental task in finance and it is to seek the best allocation of wealth among a basket of assets. Nowadays, Online portfolio selection has received increasing attention from both AI and machine learning communities. Mean reversion is an essential property of stock performance. Hence, most state-of-the-art online portfolio strategies have been built based on this. Though they succeed in specific datasets, most of the existing mean reversion strategies applied the same weights on samples in multiple periods and considered each of the assets separately, ignoring the data noise from short-lived events, trend changing in the time series data, and the dependence of multi-assets. To overcome these limitations, in this paper, we exploit the reversion phenomenon with multivariate robust estimates and propose a novel online portfolio selection strategy named Weighted Multivariate Mean Reversion (WMMR) (Code is available at: https://github.com/boqian333/WMMR).. Empirical studies on various datasets show that WMMR has the ability to overcome the limitations of existing mean reversion algorithms and achieve superior results.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "450c28291323512ab14301ec3676537e",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.759636"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing a novel online portfolio selection strategy named Weighted Multivariate Mean Reversion (WMMR), which directly addresses the task of wealth allocation among assets, a core aspect of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing a novel online portfolio selection strategy named Weighted Multivariate Mean Reversion (WMMR), which directly addresses the task of wealth allocation among assets, a core aspect of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:48.458958"
+}

@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 1471,
+    "title": "NMal-Droid: network-based android malware detection system using transfer learning and CNN-BiGRU ensemble",
+    "abstract": "Currently, malware activities pose a substantial risk to the security of Android applications. These risks are capable of stealing important information and causing chaos in the economy, social structure, and financial sector. Malicious network traffic targets Android applications due to their constant connectivity. This study develops the NMal-Droid approach for network-based Android malware detection and classification. First, we designed a packet parser algorithm that filters the combination of HTTP traces and TCP flows from PCAPs (Packet Capturing) files. Second, the fine-tune embedding approach is developed that uses a word2vec pre-trained model to analyze features' embeddings in three different ways, i.e., random, static, and dynamic. It is used to learn and extract feature-matrix matrices with related meanings. Third, The Convolutional Neural Network (CNN) is used to extract effective features from embedded information. Fourth, the Bi-directional Gated Recurrent Unit (Bi-GRU) neural network is designed to compute gradient computation in the context of time-forward and time-reversed. Finally, a multi-head ensemble of CNN-BiGRU is developed for accurate malware classification and detection. The proposed approach is evaluated on five different activation functions with 100 filters and a range of 1-5 kernel sizes for in-depth investigation. An explainable AI-based experiment is conducted to interpret and validate the proposed approach. The proposed method is tested using two big Android malware datasets, CIC-AAGM2017 and CICMalDroid 2020, which comprise a total of 10.2k malware and 3.2K benign samples. It is shown that the proposed approach outperforms as compared to the state-of-the-art methods.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "37cf506bfa3cb435de98e1198082a25f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.707947"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是基于网络的Android恶意软件检测系统，使用了迁移学习和CNN-BiGRU集成技术。虽然提到了恶意软件可能对金融领域造成影响，但论文的核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是基于网络的Android恶意软件检测系统，使用了迁移学习和CNN-BiGRU集成技术。虽然提到了恶意软件可能对金融领域造成影响，但论文的核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:44.405065"
+}

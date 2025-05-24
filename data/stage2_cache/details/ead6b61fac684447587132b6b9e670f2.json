@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1347,
+    "title": "Novel Resilient Model Risk Forecasts based on Neuro Volatility Models",
+    "abstract": "Recently, there has been a growing interest in using neuro volatility models in fuzzy forecasting and fuzzy option pricing. Neuro volatility models are used to model and predict financial market volatility by extending the neural network autoregressive (NNAR) model for nonlinear nonstationary times series data. In financial risk forecasting, various risk forecasting models for volatility are used to obtain the volatility forecasts, and the model risk ratio based on all the models is calculated to assess the stability of the financial system. However, the recently proposed neuro volatility models (based on neural networks such as LSTM, NNAR, etc.) are not used in evaluating the model risk. In this paper, novel 'neuro model risk forecasts' are obtained by including recently proposed neuro volatility models, and the resiliency of the financial system is studied. Unlike the existing model risk ratio forecasting based on linear volatility models, the driving idea is to use more appropriate nonlinear nonstationary neuro volatility forecasting models to obtain the model risk forecasts. The proposed model risk forecasts in this paper have been evaluated through extensive experiments, and it is shown that the model risk ratio can effectively serve as a metric for assessing the resilience and stability of the targeted financial system.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ec885e75710e21e953ce5502ddb57b1d",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:44.840090"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用神经波动率模型（如LSTM、NNAR等）来预测金融市场的波动性，并评估模型风险比率以研究金融系统的韧性和稳定性。这直接涉及金融风险管理领域，特别是市场风险预测和系统稳定性评估。虽然论文提到了模糊期权定价，但这并不是主要研究方向。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用神经波动率模型（如LSTM、NNAR等）来预测金融市场的波动性，并评估模型风险比率以研究金融系统的韧性和稳定性。这直接涉及金融风险管理领域，特别是市场风险预测和系统稳定性评估。虽然论文提到了模糊期权定价，但这并不是主要研究方向。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:47.095646"
+}

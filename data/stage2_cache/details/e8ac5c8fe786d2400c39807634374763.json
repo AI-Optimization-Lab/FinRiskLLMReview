@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 936,
+    "title": "Transformative reconstruction of missing acoustic well logs using multi-head self-attention BiRNNs",
+    "abstract": "Acoustic well logs are vital for many industrial projects, such as mining, oil and gas, civil engineering, geothermal energy, water resource exploration, mineral exploration, and carbon capture and storage. However, these important well log data, which reveal acoustic properties of the subsurface properties, due to operational or financial constraints, may not be always available. This hinders well planning, drilling operation risk assessment, reservoir evaluation, and production optimization in these projects. In recent years, deep learning has gained prominence in well log prediction. Recurrent neural networks (RNNs), especially suited for capturing geological-driven trends in well logs, have emerged as a preferred technique. Multihead attention (MHA) is used to evaluate diverse facets of relationships within the data, enhancing contextual understanding and overcoming challenges. To the best of our knowledge, this study, for the first time, has examined three RNN variants, (BiRNN, BiLSTM and BiGRU), combined with MHA mechanism for the objective of reconstructing acoustic well logs using the existing well log data (i.e. Neutron, Gamma, Density). To this aim, three different models, MHA-BiRNN, MHABiLSTM, and MHA-BiGRU were designed, trained, validated and tested on well logging data taken from Shengli Oilfield. It is noteworthy that, to enhance the significance and reliability of the models, the dataset originated from a discerningly selected subset of 100 wells, purposefully chosen from a pool of 463 (making over 500,000 sequences). This deliberate approach ensures the impartiality of the data, enhancing the trustworthiness and robustness of our models. The results showed promising performance of MHA-BiGRU, MHA-BiRNN and MHA-BiLSTM in capturing nonlinear relationships and vertical depth sequence information between logging curves and good prediction accuracy in actual testing wells. Among them, MHA-BiGRU outperformed (R2 = 0.807, Pearson = 0.914). The proposed method provides a fast and effective way for filling missing values, which is valuable for geological research and engineering applications.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "20a39477b44f01a0c79ef8d436e47cfb",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:44:35.452993"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习方法重建声波测井数据，应用于石油、天然气等工业项目，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习方法重建声波测井数据，应用于石油、天然气等工业项目，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:59.665843"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 9,
+    "title": "基于TSO-LSTM神经网络的股票收益率均值预测模型及其在智能投资中的应用",
+    "abstract": "根据股票收益的历史数据，建立数据和模型双驱动的智能资产配置系统，指导股民投资实现收益最大化.使用金枪鱼群优化(TSO)算法寻参的长短期记忆(LSTM)神经网络为分布鲁棒优化投资组合模型提供收益率的均值与协方差矩阵，求解更符合实际情况的分布鲁棒模型得到投资方案.该模型提出的方案在未来前10 d的收益明显高于直接使用历史均值的分布鲁棒模型，亏损天数少于直接使用历史均值的分布鲁棒模型和平均分配资金的方案.同时该文提出的决策系统随着时间的推移，可以通过更新历史数据重新训练LSTM网络，使得模型保持良好的效果.TSO-LSTM神经网络能有效地抓住股票收益率的历史数据特征，实时动态地为投资者提供良好的投资决策.",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "a2b90a3077f0df92b08f6eb7534e2ce4",
+    "relevant_keywords": [
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T15:02:38.094074"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用TSO-LSTM神经网络预测股票收益率，并将其应用于分布鲁棒优化投资组合模型，以指导资产配置和投资决策，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用TSO-LSTM神经网络预测股票收益率，并将其应用于分布鲁棒优化投资组合模型，以指导资产配置和投资决策，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:45:12.444491"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1377,
+    "title": "A Hybrid Evolutionary Under-sampling Method for Handling the Class Imbalance Problem with Overlap in Credit Classification",
+    "abstract": "Credit risk assessment is an important task of risk management for financial institutions. Machine learning-based approaches have made promising progress in credit risk assessment by treating it as imbalanced binary classification tasks. However, few efforts have been made to deal with the class overlap problem that accompanies imbalances simultaneously. To this end, this study proposes a Tomek link and genetic algorithm (GA)-based under-sampling framework (TEUS) to address the class imbalance and overlap issues in binary credit classification by eliminating majority class instances with considering multi-perspective factors. TEUS first determines boundary majority instances with Tomek link, then take the distance from each majority instance to its nearest boundary as the radius and assigns the density of opposite class samples within the radius as the overlap potential of that majority instance. Second, TEUS weighs each non-borderline majority instance based on its information contribution in estimating class labels. After partitioning non-borderline majority instances into subgroups according to overlap potential and information contribution, TEUS applies GA to select samples from subgroups and merge them with the minority samples into a new training set. Innovatively, the design of the fitness function in GA and the grouping of the non-borderline majority not only trade off the multi-perspective characteristics of instances but also help reduce the computational complexity of the sampling optimization search. Numerical experiments on real-world credit data sets demonstrate the effectiveness of the proposed TEUS.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0d4869ab8187a1718765a8638fb22a41",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:02:22.711203"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit risk assessment, which is a key component of financial risk management. It proposes a machine learning-based method to handle class imbalance and overlap in credit classification, directly addressing risk evaluation for financial institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit risk assessment, which is a key component of financial risk management. It proposes a machine learning-based method to handle class imbalance and overlap in credit classification, directly addressing risk evaluation for financial institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:26.177735"
+}

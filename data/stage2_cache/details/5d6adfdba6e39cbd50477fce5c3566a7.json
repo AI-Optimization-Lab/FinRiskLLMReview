@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 911,
+    "title": "Learning the dynamics of technical trading strategies",
+    "abstract": "We use an adversarial expert based online learning algorithm to learn the optimal parameters required to maximise wealth trading zero-cost portfolio strategies. The learning algorithm is used to determine the dynamics of a large population of technical trading strategies that can survive historical back-testing as well as form an overall aggregated portfolio trading strategy from the set of underlying trading strategies implemented on daily and intraday Johannesburg Stock Exchange data. The resulting population time-series are investigated using unsupervised learning for dimensionality reduction and visualisation. A key contribution is that the overall aggregated trading strategies are tested for statistical arbitrage using a novel hypothesis test, on both daily sampled and intraday time-scales. The (low frequency) daily sampled strategies fail the arbitrage tests after costs, while the (high frequency) intraday sampled strategies are not falsified as statistical arbitrages after costs. The estimates of trading strategy success, cost of trading and slippage are considered along with an offline benchmark portfolio algorithm for performance comparison. In addition, the algorithms generalisation error is analysed by recovering a probability of back-test overfitting estimate using a nonparametric procedure. The work aims to explore and better understand the interplay between different technical trading strategies from a data-informed perspective.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c87a4222fd7b4ef3956bfd8c271d8409",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis",
+      "manifold learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.314486"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习算法来优化零成本投资组合策略的参数，并研究技术交易策略的动态性，这直接涉及投资组合的构建和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习算法来优化零成本投资组合策略的参数，并研究技术交易策略的动态性，这直接涉及投资组合的构建和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:40.085836"
+}

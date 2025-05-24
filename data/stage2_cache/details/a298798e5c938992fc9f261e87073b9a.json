@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 408,
+    "title": "Establishing machine learning models to predict the early risk of gastric cancer based on lifestyle factors",
+    "abstract": "Background Gastric cancer is one of the leading causes of death worldwide. Screening for gastric cancer greatly relies on endoscopy and pathology biopsy, which are invasive and pose financial burdens. Thus, the prevention of the disease by modifying lifestyle-related behaviors and dietary habits or even the prevention of risk factor formation is of great importance. This study aimed to construct an inexpensive, non-invasive, fast, and high-precision diagnostic model using six machine learning (ML) algorithms to classify patients at high or low risk of developing gastric cancer by analyzing individual lifestyle factors.Methods This retrospective study used the data of 2029 individuals from the gastric cancer database of Ayatollah Taleghani Hospital in Abadan City, Iran. The data were randomly separated into training and test sets (ratio 0.7:0.3). Six ML methods, including multilayer perceptron (MLP), support vector machine (SVM) (linear kernel), SVM (RBF kernel), k-nearest neighbors (KNN) (K = 1, 3, 7, 9), random forest (RF), and eXtreme Gradient Boosting (XGBoost), were trained to construct prognostic models before and after performing the relief feature selection method. Finally, to evaluate the models' performance, the metrics derived from the confusion matrix were calculated via a test split and cross-validation.Results This study found 11 important influence factors for the risk of gastric cancer, such as Helicobacter pylori infection, high salt intake, and chronic atrophic gastritis, among other factors. Comparisons indicated that the XGBoost had the best performance for the risk prediction of gastric cancer.Conclusions The results suggest that based on simple baseline patient data, the ML techniques have the potential to start the prescreening of gastric cancer and identify high-risk individuals who should proceed with invasive examinations. Our model could also considerably lessen the number of cases that need endoscopic surveillance. Future studies are required to validate the efficacy of the models in a larger and multicenter population.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b98efd59212ab960867b5a33188592e8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.160265"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习模型预测胃癌风险，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习模型预测胃癌风险，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:06.713090"
+}

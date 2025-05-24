@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2245,
+    "title": "Contrastive Learning of Asset Embeddings from Financial Time Series",
+    "abstract": "Representation learning has emerged as a powerful paradigm for extracting valuable latent features from complex, high-dimensional data. In financial domains, learning informative representations for assets can be used for tasks like sector classification, and risk management. However, the complex and stochastic nature of financial markets poses unique challenges. We propose a novel contrastive learning framework to generate asset embeddings from financial time series data. Our approach leverages the similarity of asset returns over many subwindows to generate informative positive and negative samples, using a statistical sampling strategy based on hypothesis testing to address the noisy nature of financial data. We explore various contrastive loss functions that capture the relationships between assets in different ways to learn a discriminative representation space. Experiments on real-world datasets demonstrate the effectiveness of the learned asset embeddings on benchmark industry classification and portfolio optimization tasks. In each case our novel approaches significantly outperform existing baselines highlighting the potential for contrastive learning to capture meaningful and actionable relationships in financial data.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "99921a65a99f97ee03ad53d0f537299e",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "classification",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:51.053697"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用对比学习框架生成资产嵌入，并明确提到这些嵌入在投资组合优化任务中的有效性。虽然也提到了风险管理，但投资组合管理是论文的主要应用领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用对比学习框架生成资产嵌入，并明确提到这些嵌入在投资组合优化任务中的有效性。虽然也提到了风险管理，但投资组合管理是论文的主要应用领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:40.236067"
+}

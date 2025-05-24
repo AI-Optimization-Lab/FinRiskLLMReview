@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 283,
+    "title": "利率期限结构预测、国债定价及国债组合管理",
+    "abstract": "国债利率期限结构是固定收益产品定价和投资组合管理的核心问题。本文利用NARX(Nonlinear AutoRegressive network with e Xogenous inputs)神经网络模型研究利率曲线的运动机制,拟合并预测利率期限结构,在此基础上利用Hermite插值方法构造平滑的利率曲线并计算得到国债理论价格及其预测值。实证分析发现:我国国债定价效率不足,交易价格显著偏离理论价格,但国债理论价格的实际值和预测值均对交易价格具有显著的预测能力。基于上述发现,本文提出了主动国债组合管理策略,通过预测的期限结构得到国债理论价格的预测值构建的多空对冲组合和单边多头组合均能获得显著的收益。",
+    "year": 2018,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c7e30d536d311a2ccada091e7600d51d",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-14T22:12:43.495311"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用神经网络模型预测利率期限结构，并基于此构建国债理论价格的预测值来提出主动国债组合管理策略，这直接应用于投资组合管理领域。虽然论文也涉及国债定价，但主要研究目标是组合管理策略的构建和收益验证，而非衍生品定价或风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用神经网络模型预测利率期限结构，并基于此构建国债理论价格的预测值来提出主动国债组合管理策略，这直接应用于投资组合管理领域。虽然论文也涉及国债定价，但主要研究目标是组合管理策略的构建和收益验证，而非衍生品定价或风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:05.032157"
+}

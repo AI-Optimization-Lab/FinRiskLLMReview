@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 650,
+    "title": "Improving the state-of-the-art in the Traveling Salesman Problem: An Anytime Automatic Algorithm Selection",
+    "abstract": "This work presents a new metaheuristic for the euclidean Traveling Salesman Problem (TSP) based on an Anytime Automatic Algorithm Selection model using a portfolio of five state-of-the-art solvers. We introduce a new spatial representation of nodes, in the form of a matrix grid, avoiding costly calculation of features. Furthermore, we use a new compact staggered representation for the ranking of algorithms at each time step. Then, we feed inputs (matrix grid) and outputs (staggered representation) into a classifying convolutional neural network to predict the ranking of the solvers at a given time. We use the available datasets for TSP and generate new instances to augment their number, reaching 6,689 instances, distributed into training and test sets. Results show that the time required to predict the best solver is drastically reduced in comparison to previous traditional feature selection and machine learning methods. Furthermore, the prediction can be obtained at any time and, on average, the metasolver is better than running all the solvers separately on all the datasets, obtaining 79.8% accuracy.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fefcbfc9ce1edc1b354afd9d722434d7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.393859"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是旅行商问题（TSP）的元启发式算法和自动算法选择模型，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是旅行商问题（TSP）的元启发式算法和自动算法选择模型，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:57.414614"
+}

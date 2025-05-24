@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 44,
+    "title": "Uncovering Financial Statement Fraud: A Machine Learning Approach With Key Financial Indicators and Real-World Applications",
+    "abstract": "Financial statement fraud is a serious threat to the stability of the financial market. Therefore, effective detection methods are crucial to prevent significant losses to investors and damage to companies' reputations. This study aims to explore the performance of different machine learning models in identifying financial statement fraud, and to analyze the impact of key financial indicators on the model performance. The study adopts the data of financial statement frauds disclosed by SEC for the period 2016-2019 (disclosed between 2021-2023), selects fifteen financial indicators as features and applies five classification models, including Decision Tree, Logistic Regression, Support Vector Machine, Random Forest, and Extreme Gradient Boosting, for training and testing. To address the issue of data imbalance, the Synthetic Minority Oversampling Technique (SMOTE) is employed. The results indicate that Extreme Gradient Boosting and SVM outperform other models in financial fraud identification, though SVM shows some risk of overfitting. Random Forest exhibits relatively stable performance. At the financial indicator level, IBD/TIC (Interest-Bearing Debt/Total Invested Capital), QR (Quick Ratio), APTR (Accounts Payable Turnover Ratio), GP (Goodwill Proportion), and GW(Goodwill) have a greater impact on the identification results of most models, reflecting their important roles in identifying financial fraud. This study's contribution focuses on the interpretability of key financial indicators enhances model transparency, providing actionable insights for real-world fraud detection applications. The findings of this study contribute to the development of more effective financial statement fraud detection systems, and provide valuable insights for auditors, financial analysts, and regulators. By integrating model performance with indicator-level analysis, this research bridges theoretical advancements with practical implementation.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f5ef159f3fbf2d044cd1b732e7e47730",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:03.867794"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习模型检测财务报表欺诈，虽然与金融相关，但并不直接涉及衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习模型检测财务报表欺诈，虽然与金融相关，但并不直接涉及衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:14.556887"
+}

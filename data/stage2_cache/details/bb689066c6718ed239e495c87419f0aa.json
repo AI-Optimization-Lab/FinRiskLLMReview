@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2181,
+    "title": "Learning Descriptors for Novelty-Search Based Instance Generation via Meta-evolution",
+    "abstract": "The ability to generate example instances from a domain is important in order to benchmark algorithms and to generate data that covers an instance-space in order to train machine-learning models for algorithm selection. Quality-Diversity (QD) algorithms have recently been shown to be effective in generating diverse and discriminatory instances with respect to a portfolio of solvers in various combinatorial optimisation domains. However these methods all rely on defining a descriptor which defines the space in which the algorithm searches for diversity: this is usually done manually defining a vector of features relevant to the domain. As this is a limiting factor in the use of QD methods, we propose a meta-QD algorithm which uses an evolutionary algorithm to search for a non-linear 2D projection of an original feature-space such that applying novelty-search method in this space to generate instances improves the coverage of the instance-space. We demonstrate the effectiveness of the approach by generating instances from the Knapsack domain, showing the meta-QD approach both generates instances in regions of an instance-space not covered by other methods, and also produces significantly more instances.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ae786e879d69a682c28a4caa1b751e1f",
+    "relevant_keywords": [
+      "machine learning",
+      "feature learning",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:36.744184"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种元进化算法用于生成多样化的实例，以支持算法选择和机器学习模型的训练，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种元进化算法用于生成多样化的实例，以支持算法选择和机器学习模型的训练，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:45.218211"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2213,
+    "title": "Predicting and interpreting financial distress using a weighted boosted tree-based tree",
+    "abstract": "Financial distress prediction aims at providing an early warning solution of financial distress to help business participants, investors, and regulators to achieve better profit growth and financial risk management. Extreme gradient boosting (XGBoost), has been recognized as a favorable competitor compared with machine learning -based individual classifiers. However, its commercial value for FDP is hindered by two reasons. First, FDP is a classical imbalance issue, traditional XGBoost is considered a cost-insensitive approach that yields skew-sensitive FDP results. Second, XGBoost is a complex ensemble approach that faces the performance -interpretability dilemma, making the decision logic of XGBoost cannot be easily understood. To solve the above limitations, in this study, we first focus on addressing the imbalance issue in FDP by introducing a weighted cost-sensitive XGBoost, reducing the error of misclassifying financial distress firms. Next, we merge the decision rules extracted from the optimized weighted XGBoost to reconstruct a new tree as the approximation of the cost-sensitive ensemble model, making the proposed weighted XGBoost-based tree (XGBoost-W-BT) an accurate and interpretable solution for imbalanced FDP. Experimental results on a Chinese FDP dataset collected from China Security Market Accounting Research Database (CSMARD) showed that XGBoost-W-BT can be an alternative to weighted XGBoost to predict financial distress at an early stage. Besides, the transparent tree -based structure provides an explicit explanation to help industry participants and regulators make scientific policies, guiding investors to make rational investments.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "39bb9d50c52e083f2d33758c5ab860e9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:50.910930"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用加权提升树模型预测财务困境，旨在为商业参与者、投资者和监管机构提供早期预警解决方案，以帮助实现更好的利润增长和金融风险管理。这直接关联到金融风险管理领域，特别是信用风险和财务风险的早期识别与管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用加权提升树模型预测财务困境，旨在为商业参与者、投资者和监管机构提供早期预警解决方案，以帮助实现更好的利润增长和金融风险管理。这直接关联到金融风险管理领域，特别是信用风险和财务风险的早期识别与管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:41.856395"
+}

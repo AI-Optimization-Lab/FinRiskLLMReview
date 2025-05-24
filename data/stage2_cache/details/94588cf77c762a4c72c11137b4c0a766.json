@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 365,
+    "title": "Generative Bayesian neural network model for risk-neutral pricing of American index options",
+    "abstract": "Financial models with stochastic volatility or jumps play a critical role as alternative option pricing models for the classical Black-Scholes model, which have the ability to fit different market volatility structures. Recently, machine learning models have elicited considerable attention from researchers because of their improved prediction accuracy in pricing financial derivatives. We propose a generative Bayesian learning model that incorporates a prior reflecting a risk-neutral pricing structure to provide fair prices for the deep ITM and the deep OTM options that are rarely traded. We conduct a comprehensive empirical study to compare classical financial option models with machine learning models in terms of model estimation and prediction using S&P 100 American put options from 2003 to 2012. Results indicate that machine learning models demonstrate better prediction performance than the classical financial option models. Especially, we observe that the generative Bayesian neural network model demonstrates the best overall prediction performance.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "dfc75ba419a8c8fda88c5435a10e3190",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:13.992183"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出了一种生成贝叶斯学习模型，用于为美国指数期权提供风险中性定价，特别是针对深度实值和深度虚值期权。论文的主要研究目标是改进期权定价模型的预测性能，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出了一种生成贝叶斯学习模型，用于为美国指数期权提供风险中性定价，特别是针对深度实值和深度虚值期权。论文的主要研究目标是改进期权定价模型的预测性能，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:30.585999"
+}

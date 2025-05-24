@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 60,
+    "title": "一种基于金融时间序列数据的深度学习风险预测方法",
+    "abstract": "金融时间序列数据的指标按照不同的会计准则会得到不同的数值，如何取舍会受到人为因素的干预。针对金融时序数据的领域泛化专门提出一种异常检测方法，解决特征分布的多样性和复杂性，捕捉金融序列数据的特有表征模式。将循环神经网络之后获得的结果仅作为学习到的知识，通过标准分类器在特征空间对其边缘分布进行适配，然后再通过隐变量自回归模型进一步进行预测，以此来提高预测的精度。然后，构建一个隐变量自回归模型来进行风险预测，通过捕捉金融时间序列数据之间的特征分布来识别其中的金融风险，实验结果表明，模型具有一定的可行性。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3eba0fa0c4f57f1e23d1b7d3a536b9a6",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "representation learning",
+      "feature representation",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:26:31.843375"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是构建隐变量自回归模型来进行风险预测，通过捕捉金融时间序列数据之间的特征分布来识别其中的金融风险，这明确属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是构建隐变量自回归模型来进行风险预测，通过捕捉金融时间序列数据之间的特征分布来识别其中的金融风险，这明确属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:39:54.568108"
+}

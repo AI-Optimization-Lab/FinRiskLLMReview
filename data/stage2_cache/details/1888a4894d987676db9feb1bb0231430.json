@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 333,
+    "title": "From deterministic to stochastic: an interpretable stochastic model-free reinforcement learning framework for portfolio optimization",
+    "abstract": "As a fundamental problem in algorithmic trading, portfolio optimization aims to maximize the cumulative return by continuously investing in various financial derivatives within a given time period. Recent years have witnessed the transformation from traditional machine learning trading algorithms to reinforcement learning algorithms due to their superior nature of sequential decision making. However, the exponential growth of the imperfect and noisy financial data that is supposedly leveraged by the deterministic strategy in reinforcement learning, makes it increasingly challenging for one to continuously obtain a profitable portfolio. Thus, in this work, we first reconstruct several deterministic and stochastic reinforcement algorithms as benchmarks. On this basis, we introduce a risk-aware reward function to balance the risk and return. Importantly, we propose a novel interpretable stochastic reinforcement learning framework which tailors a stochastic policy parameterized by Gaussian Mixtures and a distributional critic realized by quantiles for the problem of portfolio optimization. In our experiment, the proposed algorithm demonstrates its superior performance on U.S. market stocks with a 63.1% annual rate of return while at the same time reducing the market value max drawdown by 10% when back-testing during the stock market crash around March 2020.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4a140138bf1fe1b5267000260074c320",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:41.022817"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是使用强化学习框架进行投资组合优化，旨在通过连续投资于各种金融衍生品来最大化累积回报，并引入风险感知奖励函数来平衡风险和回报。这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是使用强化学习框架进行投资组合优化，旨在通过连续投资于各种金融衍生品来最大化累积回报，并引入风险感知奖励函数来平衡风险和回报。这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:03.146338"
+}

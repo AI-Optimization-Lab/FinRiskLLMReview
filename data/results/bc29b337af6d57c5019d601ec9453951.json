@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper uses LightGBM, a machine learning algorithm, for cryptocurrency price trend forecasting.",
+    "supervised learning": "The forecasting model is trained on labeled data (price trends), which is a supervised learning approach.",
+    "classification": "The model predicts the price trend as falling or not falling, which is a binary classification task.",
+    "decision tree": "LightGBM is based on Gradient Boosting Decision Trees (GBDT), which involves decision trees."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"decision tree\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper uses LightGBM, a machine learning algorithm, for cryptocurrency price trend forecasting.\",\n    \"supervised learning\": \"The forecasting model is trained on labeled data (price trends), which is a supervised learning approach.\",\n    \"classification\": \"The model predicts the price trend as falling or not falling, which is a binary classification task.\",\n    \"decision tree\": \"LightGBM is based on Gradient Boosting Decision Trees (GBDT), which involves decision trees.\"\n  }\n}\n```"
+}

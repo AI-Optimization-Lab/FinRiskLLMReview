@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1209,
+    "title": "Smoothing the Subjective Financial Risk Tolerance: Volatility and Market Implications",
+    "abstract": "This study explores smoothing techniques to refine financial risk tolerance (FRT) data for the improved prediction of financial market indicators, including the Volatility Index and S&P 500 ETF. Raw FRT data often contain noise and volatility, obscuring their relationship with market dynamics. Seven smoothing methods were applied to derive smoothed mean and standard deviation values, including exponential smoothing, ARIMA, and Kalman filter. Machine learning models, including support vector machines and neural networks, were used to assess predictive performance. The results demonstrate that smoothed FRT data significantly enhance prediction accuracy, with the smoothed standard deviation offering a more explicit representation of investor risk tolerance fluctuations. These findings highlight the value of smoothing techniques in behavioral finance, providing more reliable insights into market volatility and investor behavior. Smoothed FRT data hold potential for portfolio optimization, risk assessment, and financial decision-making, paving the way for more robust applications in financial modeling.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6465a2b2fc5473f4e247c2affe1cf50b",
+    "relevant_keywords": [
+      "machine learning",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.419322"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是应用平滑技术和机器学习模型来改进金融风险容忍度（FRT）数据的预测能力，以更好地理解市场波动和投资者行为。这直接关联到金融风险管理领域。此外，论文提到平滑后的FRT数据可用于投资组合优化，表明其应用也涉及投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是应用平滑技术和机器学习模型来改进金融风险容忍度（FRT）数据的预测能力，以更好地理解市场波动和投资者行为。这直接关联到金融风险管理领域。此外，论文提到平滑后的FRT数据可用于投资组合优化，表明其应用也涉及投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:56.224433"
+}

@@ -1,0 +1,38 @@
+{
+  "paper": {
+    "id": 3509,
+    "title": "Which uncertainty measure better predicts gold prices? New evidence from a CNN-LSTM approach",
+    "abstract": "Quantifying the influence of uncertainty on gold prices is significant for improving related financial decision making. This study proposes a novel CNN-LSTM neural network that can extract potential features from sample data to effectively predict gold prices. Specifically, we demonstrate various uncertainty measures containing market volatility information, such as the economic policy uncertainty index (EPU), epidemic stock market volatility index (IDEMV), and volatility index (VIX), which can contribute to the prediction of gold prices rather than relying solely on the history of tickers, which is conventionally used for prediction. In addition, the proposed model is evaluated against SVR and two different LSTM models. The empirical findings reveal that incorporating additional features, such as uncertainty measures, contributes to improving the predictive accuracy of the model. The CNN-LSTM model, with the inclusion of EPU, IDEMV, and both, achieves a high prediction accuracy. Additionally, the overall prediction accuracy of the CNN-LSTM model outperforms the other proposed methods. The findings provide profound insight into portfolio diversification and risk management practices for governments and businesses.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "06c2065e1f48df39ae9ff58f8235f0ca",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:26:48.605941"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用CNN-LSTM模型预测黄金价格，并探讨了不确定性指标对预测的影响。这直接关联到金融风险管理中的价格波动预测和投资组合管理中的资产配置决策。论文明确提到研究结果为投资组合多样化和风险管理实践提供了深刻见解。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用CNN-LSTM模型预测黄金价格，并探讨了不确定性指标对预测的影响。这直接关联到金融风险管理中的价格波动预测和投资组合管理中的资产配置决策。论文明确提到研究结果为投资组合多样化和风险管理实践提供了深刻见解。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:24.128297"
+}

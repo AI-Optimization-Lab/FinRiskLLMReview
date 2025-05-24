@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 883,
+    "title": "Machine-learning based vulnerability analysis of existing buildings",
+    "abstract": "The paper presents a machine-learning based framework, named VULMA (VULnerability analysis using MAchinelearning), for vulnerability analysis of existing buildings. The underlying idea is to provide an indication of the seismic vulnerability by exploiting available photographs, which can be properly processed to provide some input data for empirical vulnerability algorithms. To this scope, a complete processing pipeline has been defined, which consists in four consecutive modules offering different and specific services. The first module, Street VULMA, performs the image gathering starting from the raw data; the second module, Data VULMA, provides a mean for the data labelling and storage; the third module, Bi VULMA, uses the collected data to train several machine-learning models for image classification; the fourth module, In VULMA, performs a ranking of the images, their analysis and consequently assigns the vulnerability index. The proposed procedure has been employed on the existing building portfolio in an extended area of the municipality of Bisceglie, Puglia, Southern Italy, for which all the modules have been tested and, above all, the machine-learning models of Bi VULMA have been trained. After, in order to test the efficiency and the reliability of the proposed tools, the entire procedure has been applied on five case study buildings. The results in terms of vulnerability index have been compared with the manual computations performed by the authors applying the same algorithm. Despite the proposed tool could be improved or modified in some of its modules, the obtained results show a good effectiveness of VULMA, which opens new scenarios in the field of vulnerability assessment procedures and risk mitigation strategies.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3c99e89fb9b6765e1424632691084ff0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.243889"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是基于机器学习的建筑物地震脆弱性分析，其应用领域是结构工程和灾害风险管理，与金融领域的衍生品定价、金融风险管理和投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是基于机器学习的建筑物地震脆弱性分析，其应用领域是结构工程和灾害风险管理，与金融领域的衍生品定价、金融风险管理和投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:46.259346"
+}

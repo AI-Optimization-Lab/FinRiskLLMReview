@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 974,
+    "title": "Portfolio of Automated Trading Systems: Complexity and Learning Set Size Issues",
+    "abstract": "In this paper, we consider using profit/loss histories of multiple automated trading systems (ATSs) as N input variables in portfolio management. By means of multivariate statistical analysis and simulation studies, we analyze the influences of sample size (L) and input dimensionality on the accuracy of determining the portfolio weights. We find that degradation in portfolio performance due to inexact estimation of N means and N(N - 1)/2 correlations is proportional to N/L; however, estimation of N variances does not worsen the result. To reduce unhelpful sample size/dimensionality effects, we perform a clustering of N time series and split them into a small number of blocks. Each block is composed of mutually correlated ATSs. It generates an expert trading agent based on a nontrainable 1/N portfolio rule. To increase the diversity of the expert agents, we use training sets of different lengths for clustering. In the output of the portfolio management system, the regularized mean-variance framework-based fusion agent is developed in each walk-forward step of an out-of-sample portfolio validation experiment. Experiments with the real financial data (2003-2012) confirm the effectiveness of the suggested approach.",
+    "year": 2013,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6314670f22bb35a57ae75328b96de023",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.781723"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用多元统计分析和模拟研究来确定投资组合权重，并提出了基于聚类和专家交易代理的方法来优化投资组合管理。论文明确提到了投资组合管理的应用场景和目标，因此其主要应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用多元统计分析和模拟研究来确定投资组合权重，并提出了基于聚类和专家交易代理的方法来优化投资组合管理。论文明确提到了投资组合管理的应用场景和目标，因此其主要应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:47.410717"
+}

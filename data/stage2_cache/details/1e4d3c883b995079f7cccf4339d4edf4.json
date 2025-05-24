@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 4320,
+    "title": "Neural network predictions of the high-frequency CSI300 first distant futures trading volume",
+    "abstract": "Predictions of financial index trading volumes represent an essential issue to market participants and policy makers. We investigate this problem for the high-frequency one-minute CSI300 first distant futures trading volume from the launch of the futures index to two years after all its constituent stocks becoming shortable, a period with generally continuously expanding trading magnitude. We utilize the neural network to model this complex and irregular trading volume series and attempt to answer the following questions: can the trading volume be predicted by its own lags, and if so, how far to predict and how well; can the nearby futures or spot trading volume series help predictions, and if so, by how much; how complex does the model need to be and how robust can it be? We find that the trading volume could be predicted using one to thirty minutes ahead data through a relatively low complex model with five hidden neurons based on its own lags, resulting in generally accurate and stable performance based on the relative root mean square error. Incorporating the nearby futures or spot trading volume series generally does not help improve predictions. Results here should be of interest and use to design trading platforms, monitor system risk, and form index price predictions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "aa067faa398e6391c30b1f11d2bf300e",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "regression",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:36:05.144248"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用神经网络预测高频交易量，虽然涉及金融领域，但并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。其核心目标是预测交易量，而非上述领域的具体问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用神经网络预测高频交易量，虽然涉及金融领域，但并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。其核心目标是预测交易量，而非上述领域的具体问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:21.586243"
+}

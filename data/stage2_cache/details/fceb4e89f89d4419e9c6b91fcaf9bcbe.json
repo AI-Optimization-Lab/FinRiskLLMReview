@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 41,
+    "title": "基于机器学习预测的M-SV投资组合决策研究",
+    "abstract": "运用随机森林(Random forest,RF)、极端梯度提升(eXtreme Gradient boosting,XGBoost)、支持向量回归(Support vector regression,SVR)三种机器学习方法预测股票的收益率.运用预测的平均股票收益率,计算投资组合的期望收益、下半方差和下半协方差.考虑交易成本、借贷约束和交易量限制等,构建了基于机器学习预测的均值-下半方差(M-SV)投资组合模型,并运用不等式的旋转算法求解.最后,运用中证100指数成分股,进行样本内和样本外实证分析.研究结果表明,在样本内检验中SVR+M-SV模型的有效前沿水平相较于RF+M-SV、XGBoost+M-SV模型更高;在样本外检验中,三种机器学习混合方法+M-SV模型在收益、夏普比率、索提诺比率等的表现优于M-SV和等比例模型.",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "99d34c8ec0e1b47bc3e6d16d0254323f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-14T22:20:52.562001"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是运用机器学习方法预测股票收益率，并构建均值-下半方差(M-SV)投资组合模型，其研究目标明确指向投资组合的优化和管理。论文中提到的期望收益、下半方差、夏普比率等指标都是投资组合管理中的关键概念，实证分析也围绕投资组合的表现展开。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是运用机器学习方法预测股票收益率，并构建均值-下半方差(M-SV)投资组合模型，其研究目标明确指向投资组合的优化和管理。论文中提到的期望收益、下半方差、夏普比率等指标都是投资组合管理中的关键概念，实证分析也围绕投资组合的表现展开。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:21.605399"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 475,
+    "title": "Prediction of subjective cognitive decline after corpus callosum infarction by an interpretable machine learning-derived early warning strategy",
+    "abstract": "Background and purposeCorpus callosum (CC) infarction is an extremely rare subtype of cerebral ischemic stroke, however, the symptoms of cognitive impairment often fail to attract early attention of patients, which seriously affects the long-term prognosis, such as high mortality, personality changes, mood disorders, psychotic reactions, financial burden and so on. This study seeks to develop and validate models for early predicting the risk of subjective cognitive decline (SCD) after CC infarction by machine learning (ML) algorithms. MethodsThis is a prospective study that enrolled 213 (only 3.7%) CC infarction patients from a nine-year cohort comprising 8,555 patients with acute ischemic stroke. Telephone follow-up surveys were carried out for the patients with definite diagnosis of CC infarction one-year after disease onset, and SCD was identified by Behavioral Risk Factor Surveillance System (BRFSS) questionnaire. Based on the significant features selected by the least absolute shrinkage and selection operator (LASSO), seven ML models including Extreme Gradient Boosting (XGBoost), Logistic Regression (LR), Light Gradient Boosting Machine (LightGBM), Adaptive Boosting (AdaBoost), Gaussian Naive Bayes (GNB), Complement Naive Bayes (CNB), and Support vector machine (SVM) were established and their predictive performances were compared by different metrics. Importantly, the SHapley Additive exPlanations (SHAP) was also utilized to examine internal behavior of the highest-performance ML classifier. ResultsThe Logistic Regression (LR)-model performed better than other six ML-models in SCD predictability after the CC infarction, with the area under the receiver characteristic operator curve (AUC) of 77.1% in the validation set. Using LASSO and SHAP analysis, we found that infarction subregions of CC infarction, female, 3-month modified Rankin Scale (mRS) score, age, homocysteine, location of angiostenosis, neutrophil to lymphocyte ratio, pure CC infarction, and number of angiostenosis were the top-nine significant predictors in the order of importance for the output of LR-model. Meanwhile, we identified that infarction subregion of CC, female, 3-month mRS score and pure CC infarction were the factors which independently associated with the cognitive outcome. ConclusionOur study firstly demonstrated that the LR-model with 9 common variables has the best-performance to predict the risk of post-stroke SCD due to CC infarcton. Particularly, the combination of LR-model and SHAP-explainer could aid in achieving personalized risk prediction and be served as a decision-making tool for early intervention since its poor long-term outcome.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0b925e9cbff2cef2965d7ea3ec26b6a3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:51:31.214461"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习模型预测脑卒中后的主观认知下降，其应用领域为医疗健康，与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习模型预测脑卒中后的主观认知下降，其应用领域为医疗健康，与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:39.443237"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 943,
+    "title": "DeepPricing: pricing convertible bonds based on financial time-series generative adversarial networks",
+    "abstract": "Convertible bonds are an important segment of the corporate bond market, however, as hybrid instruments, convertible bonds are difficult to value because they depend on variables related to the underlying stock, the fixed-income part, and the interaction between these components. Besides, embedded options, such as conversion, call, and put provisions are often restricted to certain periods, may vary over time, and are subject to additional path-dependent features of the state variables. Moreover, the most challenging problem in convertible bond valuation is the underlying stock return process modeling as it retains various complex statistical properties. In this paper, we propose DeepPricing, a novel data-driven convertible bonds pricing model, which is inspired by the recent success of generative adversarial networks (GAN), to address the above challenges. The method introduces a new financial time-series generative adversarial networks (FinGAN), which is able to reproduce risk-neutral stock return process that retains the unique statistical properties such as the fat-tailed distributions, the long-range dependence, and the asymmetry structure etc., and then transit to its risk-neutral distribution. Thus it is more flexible and accurate to capture the dynamics of the underlying stock return process and keep the rich set of real-world convertible bond specifications compared with previous model-driven models. The experiments on the Chinese convertible bond market demonstrate the effectiveness of DeepPricing model. Compared with the convertible bond market prices, our model has a better convertible bonds pricing performance than both model-driven models, i.e. Black-Scholes, the constant elasticity of variance, GARCH, and the state-of-the-art GAN-based models, i.e. FinGAN-MLP, FinGAN-LSTM. Moreover, our model has a better fitting capacity for higher-volatility convertible bonds and the overall convertible bond market implied volatility smirk, especially for equity-liked convertible bonds, convertible bonds trading in the bull market, and out-of-the-money convertible bonds. Furthermore, the Long-Short and Long-Only investment strategies based on our model earn a significant annualized return with 41.16% and 31.06%, respectively, for the equally-weighted portfolio during the sample period.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "5744fcdecbe5ac316d9762415e0cd357",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "generative adversarial networks",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:44:35.495094"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种基于生成对抗网络（GAN）的新型数据驱动可转换债券定价模型（DeepPricing），这直接属于衍生品定价领域。此外，论文还提到基于该模型的Long-Short和Long-Only投资策略在样本期内获得了显著的年化回报，这表明其研究成果也应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种基于生成对抗网络（GAN）的新型数据驱动可转换债券定价模型（DeepPricing），这直接属于衍生品定价领域。此外，论文还提到基于该模型的Long-Short和Long-Only投资策略在样本期内获得了显著的年化回报，这表明其研究成果也应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:02.354600"
+}

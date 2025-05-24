@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 831,
+    "title": "SafeAR: Safe Algorithmic Recourse by Risk-Aware Policies",
+    "abstract": "With the growing use of machine learning (ML) models in critical domains such as finance and healthcare, the need to offer recourse for those adversely affected by the decisions of ML models has become more important; individuals ought to be provided with recommendations on actions to take for improving their situation and thus receiving a favorable decision. Prior work on sequential algorithmic recourse-which recommends a series of changes-focuses on action feasibility and uses the proximity of feature changes to determine action costs. However, the uncertainties of feature changes and the risk of higher than average costs in recourse have not been considered. It is undesirable if a recourse could (with some probability) result in a worse situation from which recovery requires an extremely high cost. It is essential to incorporate risks when computing and evaluating recourse. We call the recourse computed with such risk considerations as Safe Algorithmic Recourse (SafeAR). The objective is to empower people to choose a recourse based on their risk tolerance. In this work, we discuss and show how existing recourse desiderata can fail to capture the risk of higher costs. We present a method to compute recourse policies that consider variability in cost and connect algorithmic recourse literature with risk-sensitive reinforcement learning. We also adopt measures Value at Risk and Conditional Value at Risk from the financial literature to summarize risk concisely. We apply our method to two real-world datasets and compare policies with different risk-aversion levels using risk measures and recourse desiderata (sparsity and proximity).",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fc4a4031d7a0e1d73d65d7c492664246",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.557727"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是算法性追索（algorithmic recourse）的风险感知策略，虽然提到了金融领域和使用了金融风险管理中的风险度量（如Value at Risk和Conditional Value at Risk），但其核心应用场景并非专门针对衍生品定价、金融风险管理或投资组合管理，而是更通用的机器学习模型决策追索问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是算法性追索（algorithmic recourse）的风险感知策略，虽然提到了金融领域和使用了金融风险管理中的风险度量（如Value at Risk和Conditional Value at Risk），但其核心应用场景并非专门针对衍生品定价、金融风险管理或投资组合管理，而是更通用的机器学习模型决策追索问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:17.870175"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2682,
+    "title": "Beating the market with a bad predictive model",
+    "abstract": "It is a common misconception that in order to make consistent profits as a trader, one needs to possess some extra information leading to an asset value estimation that is more accurate than that reflected by the current market price. While the idea makes intuitive sense and is also well substantiated by the widely popular Kelly criterion, we prove that it is generally possible to make systematic profits with a completely inferior price-predicting model. The key idea is to alter the training objective of the predictive models to explicitly decorrelate them from the market. By doing so, we can exploit inconspicuous biases in the market maker's pricing, and profit from the inherent advantage of the market taker. We introduce the problem setting throughout the diverse domains of stock trading and sports betting to provide insights into the common underlying properties of profitable predictive models, their connections to standard portfolio optimization strategies, and the commonly overlooked advantage of the market taker. Consequently, we prove the desirability of the decorrelation objective across common market distributions, translate the concept into a practical machine learning setting, and demonstrate its viability with real-world market data. (c) 2022 The Author(s). Published by Elsevier B.V. on behalf of International Institute of Forecasters. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "20000550ca0e793f5300da9a5ce516af",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.977137"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过改变预测模型的训练目标来与市场去相关，从而在股票交易和体育博彩中实现系统性盈利。这与投资组合管理中的策略优化和资产配置密切相关，旨在通过不同的市场条件实现盈利。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过改变预测模型的训练目标来与市场去相关，从而在股票交易和体育博彩中实现系统性盈利。这与投资组合管理中的策略优化和资产配置密切相关，旨在通过不同的市场条件实现盈利。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:17.422467"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3382,
+    "title": "Profit-sensitive machine learning classification with explanations in credit risk: The case of small businesses in peer-to-peer lending",
+    "abstract": "We propose a comprehensive profit -sensitive approach for credit risk modeling in P2P lending for small businesses, one of the most financially complex segments. We go beyond traditional and cost-sensitive approaches by including the financial costs and incomes through profits and introducing the profit information at three points of the modeling process: the estimation of the learning function of the classification algorithm (XGBoost in our case), the hyperparameter optimization, and the decision function. The profit -sensitive approaches achieve a higher level of profitability than the profit-insensitive approach in the small business case analyzed by granting mostly lower-risk, lower-amount loans. Explainability tools help us to discover the key features of such loans. Our proposal can be extended to other loan markets or other classification problems as long as the cells of the misclassification matrix have an economic value.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d4c087975831fc0279b0cbdee12fec35",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:25:40.154298"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种利润敏感的信用风险建模方法，专门用于P2P借贷中的小企业信用风险评估，这直接属于金融风险管理的范畴。论文的核心技术（XGBoost分类算法）被应用于信用风险预测，并通过利润敏感的方法优化决策过程，以提高盈利能力并降低风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文提出了一种利润敏感的信用风险建模方法，专门用于P2P借贷中的小企业信用风险评估，这直接属于金融风险管理的范畴。论文的核心技术（XGBoost分类算法）被应用于信用风险预测，并通过利润敏感的方法优化决策过程，以提高盈利能力并降低风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:50.459654"
+}

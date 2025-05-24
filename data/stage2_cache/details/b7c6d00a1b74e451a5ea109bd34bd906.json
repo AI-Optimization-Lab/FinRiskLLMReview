@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2917,
+    "title": "Risk-sensitive learning via minimization of empirical conditional value-at-risk",
+    "abstract": "We extend the framework of cost-sensitive classification to mitigate risks of huge costs occurring with low probabilities, and propose an algorithm that achieves this goal. Instead of minimizing the expected cost commonly used in cost-sensitive learning, our algorithm minimizes conditional value-at-risk, also known as expected shortfall, which is considered a good risk metric in the area of financial engineering. The proposed algorithm is a general meta-learning algorithm that can exploit existing example-dependent cost-sensitive learning algorithms, and is capable of dealing with not only alternative actions in ordinary classification tasks, but also allocative actions in resource-allocation type tasks. Experiments on tasks with example-dependent costs show promising results.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a813ee9f34d9d31e98fa6fb199920ea7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:20:48.097974"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是优化条件风险价值（CVaR），这是一种在金融风险管理中广泛使用的风险度量方法。虽然论文提出的是一个通用的机器学习算法，但其明确提到CVaR在金融工程中的应用，并且算法的设计目标是处理低概率高成本事件的风险，这与金融风险管理的研究目标高度一致。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是优化条件风险价值（CVaR），这是一种在金融风险管理中广泛使用的风险度量方法。虽然论文提出的是一个通用的机器学习算法，但其明确提到CVaR在金融工程中的应用，并且算法的设计目标是处理低概率高成本事件的风险，这与金融风险管理的研究目标高度一致。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:19.959113"
+}

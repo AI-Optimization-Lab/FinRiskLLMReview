@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 275,
+    "title": "Multi-Step Multidimensional Statistical Arbitrage Prediction Using PSO Deep-ConvLSTM: An Enhanced Approach for Forecasting Price Spreads",
+    "abstract": "Due to its effectiveness as a risk-hedging trading strategy in financial markets, futures arbitrage is highly sought after by investors in turbulent market conditions. The essence of futures arbitrage lies in formulating strategies based on predictions of future futures price differentials. However, contemporary research predominantly focuses on projections of single indicators for the subsequent temporal juncture, and devising efficacious arbitrage strategies often necessitates the examination of multiple indicators across timeframes. To tackle the aforementioned challenge, our methodology leverages a PSO Deep-ConvLSTM network, which, through particle swarm optimization (PSO), refines hyperparameters, including layer architectures and learning rates, culminating in superior predictive performance. By analyzing temporal-spatial data within financial markets through ConvLSTM, the model captures intricate market patterns, performing better in forecasting than traditional models. Multistep forward simulation experiments and extensive ablation studies using future data from the Shanghai Futures Exchange in China validate the effectiveness of the integrated model. Compared with the gate recurrent unit (GRU), long short-term memory (LSTM), Transformer, and FEDformer, this model exhibits an average reduction of 39.8% in root mean squared error (RMSE), 42.5% in mean absolute error (MAE), 45.6% in mean absolute percentage error (MAPE), and an average increase of 1.96% in coefficient of determination (R2) values.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "84d0948d0117f2da558328584a487b43",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "convolutional neural network",
+      "CNN",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:36:21.908311"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用PSO Deep-ConvLSTM网络预测期货价格差异，以制定套利策略。虽然涉及金融市场的应用，但其核心技术更侧重于预测模型的优化和性能提升，并未直接涉及衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用PSO Deep-ConvLSTM网络预测期货价格差异，以制定套利策略。虽然涉及金融市场的应用，但其核心技术更侧重于预测模型的优化和性能提升，并未直接涉及衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:43.556327"
+}

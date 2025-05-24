@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 191,
+    "title": "American Options in Time-Dependent One-Factor Models: Semi-Analytic Pricing, Numerical Methods, and ML Support",
+    "abstract": "Semi -analytical pricing of American options in a time -dependent Ornstein-Uhlenbeck model was presented in Carr and Itkin (2021). It was shown that to obtain these prices one needs to numerically solve a nonlinear Volterra integral equation of the second kind to find the exercise boundary, which is a function of the time only. Once this is done, the option prices follow. It was also shown that computationally this method is as efficient as the forward finite difference solver, while also providing better accuracy and stability. Later this approach, called the generalized integral transform method, was significantly extended to various time -dependent one factor (Itkin et al. 2021) and stochastic volatility (Carr et al. 2022, Itkin and Muravey 2022b) models as applied to pricing barrier options. For American options, though, despite being possible, this was not explicitly reported anywhere. In this article our goal is to fill this gap and also discuss which numerical method can be efficient to solve the corresponding Volterra equations, also including machine learning.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "7c4149ccf17a5e95eccbc8b4ab5ba958",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.143606"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是半解析定价方法和数值方法在美式期权定价中的应用，并讨论了如何高效求解相应的Volterra方程。这些内容明确指向衍生品定价领域，特别是期权定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是半解析定价方法和数值方法在美式期权定价中的应用，并讨论了如何高效求解相应的Volterra方程。这些内容明确指向衍生品定价领域，特别是期权定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:07.596627"
+}

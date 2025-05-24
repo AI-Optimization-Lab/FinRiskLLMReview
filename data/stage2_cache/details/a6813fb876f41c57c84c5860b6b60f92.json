@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3262,
+    "title": "QUADRATIC CONVEX REFORMULATIONS FOR SEMICONTINUOUS QUADRATIC PROGRAMMING",
+    "abstract": "We consider in this paper a class of semicontinuous quadratic programming problems, which arises in many real-world applications such as production planning, portfolio selection, and subset selection in regression. We build upon the idea of the quadratic convex reformulation approach, i.e., adding to the original objective function an additional convex term that is zero at all points of the feasible region. Exploiting the structure of semicontinuous variables, we derive the most general set of quadratic functions that can be added. We also incorporate the state-of-the-art perspective reformulation into our new framework. Within this framework, the set of optimal reformulations with the tightest continuous relaxation can be found by solving a semidefinite programming problem. We also explore the relationship among different reformulations within our framework and simplify the search for optimal ones in certain cases with the help of second-order cone programming. Among the proposed set of optimal reformulations, we can choose one with or without the perspective component. If the perspective component is present, the new reformulation can be solved by the perspective cut algorithm in the literature. If the perspective component is not present, the new reformulation is a standard mixed-integer quadratic programming (MIQP) problem and can be plugged into and solved by any MIQP solvers. Our preliminary numerical tests in both portfolio selection and subset selection problems have demonstrated the effectiveness of our new reformulations, and the comparison results indicate that the performance of the new reformulation without the perspective component, when solved in general MIQP solvers, is competitive to the perspective cut approach.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "04ce359bf6933c416a0f095a1397800a",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:15:26.112628"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要明确提到该技术应用于投资组合选择（portfolio selection）问题，这是投资组合管理领域的核心应用之一。虽然论文也提到其他应用如生产规划和回归子集选择，但投资组合管理是其明确的金融应用领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要明确提到该技术应用于投资组合选择（portfolio selection）问题，这是投资组合管理领域的核心应用之一。虽然论文也提到其他应用如生产规划和回归子集选择，但投资组合管理是其明确的金融应用领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:30.653756"
+}

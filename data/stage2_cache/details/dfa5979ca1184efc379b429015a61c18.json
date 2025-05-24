@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3554,
+    "title": "DeepVol: volatility forecasting from high-frequency data with dilated causal convolutions",
+    "abstract": "Volatility forecasts play a central role among equity risk measures. Besides traditional statistical models, modern forecasting techniques based on machine learning can be employed when treating volatility as a univariate, daily time-series. Moreover, econometric studies have shown that increasing the number of daily observations with high-frequency intraday data helps to improve volatility predictions. In this work, we propose DeepVol, a model based on Dilated Causal Convolutions that uses high-frequency data to forecast day-ahead volatility. Our empirical findings demonstrate that dilated convolutional filters are highly effective at extracting relevant information from intraday financial time-series, proving that this architecture can effectively leverage predictive information present in high-frequency data that would otherwise be lost if realised measures were precomputed. Simultaneously, dilated convolutional filters trained with intraday high-frequency data help us avoid the limitations of models that use daily data, such as model misspecification or manually designed handcrafted features, whose devise involves optimising the trade-off between accuracy and computational efficiency and makes models prone to lack of adaptation into changing circumstances. In our analysis, we use two years of intraday data from NASDAQ-100 to evaluate the performance of DeepVol. Our empirical results suggest that the proposed deep learning-based approach effectively learns global features from high-frequency data, resulting in more accurate predictions compared to traditional methodologies and producing more accurate risk measures.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0567b97bd5fc9bbf446885fe00caf526",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:19.131262"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型（Dilated Causal Convolutions）从高频数据中预测波动率，波动率预测是金融风险管理中的关键组成部分，用于衡量和管理市场风险。论文明确提到波动率预测在股权风险度量中的核心作用，并展示了如何通过高频数据提高预测准确性，从而产生更准确的风险度量。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型（Dilated Causal Convolutions）从高频数据中预测波动率，波动率预测是金融风险管理中的关键组成部分，用于衡量和管理市场风险。论文明确提到波动率预测在股权风险度量中的核心作用，并展示了如何通过高频数据提高预测准确性，从而产生更准确的风险度量。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:00.365896"
+}

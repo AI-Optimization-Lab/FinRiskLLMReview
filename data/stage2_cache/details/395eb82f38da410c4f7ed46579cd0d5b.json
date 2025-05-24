@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 216,
+    "title": "基于主成分分析与Fourier变换的动态投资组合",
+    "abstract": "提出了一种将主成分分析与Fourier变换组合的资产投资组合方法.对于N个资产,首先利用主成分分析中第一主成分确定各资产的组合权重并建立投资组合,利用Fourier变换获得该组合残差的复合周期趋势,最后利用ARMA模型对趋势残差进行区间预测.为使资产保值,当组合股价达到最低点时,各资产以第一主成分对应权重进行组合建仓;当组合股价反向上升达到最高点时,则以第N主成分对应权重进行组合并调仓.在实证模拟方面,选取2016年1月4日-2018年6月8日全球股票主要指数的收盘价数据进行实证分析.模拟结果表明:基于主成分分析的投资组合在收益及资产保值方面表现更佳.",
+    "year": 2019,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f61757e9967c81f748d4ebc8a5d11e7c",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:50.506760"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种结合主成分分析和Fourier变换的动态投资组合方法，并详细描述了如何利用这些技术进行资产组合的构建和调仓，其核心研究目标是优化投资组合的收益和资产保值，这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种结合主成分分析和Fourier变换的动态投资组合方法，并详细描述了如何利用这些技术进行资产组合的构建和调仓，其核心研究目标是优化投资组合的收益和资产保值，这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:15.404635"
+}

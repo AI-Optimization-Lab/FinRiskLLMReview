@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 852,
+    "title": "Construction of an efficient portfolio of power purchase decisions based on risk-diversification tradeoff",
+    "abstract": "We present a methodology based on the tradeoff between risk and diversification in order to evaluate a purchase portfolio of energy, where the assets refer to purchasing strategies of a retailer-generator of electricity in three markets: spot, regulated and non-regulated markets. We use two measures of diversification: i) entropy based on factors, constructed by principal components analysis, and ii) entropy based on asset risk. In each case, weights for each strategy are estimated by using the interior point method, for which monthly forecasts of returns are calculated a year ahead for each market Spot prices are modeled using an ARIMA model and bilateral contracts are modeled using growth rates. We compare risk-diversified portfolios with mean-variance portfolio. Although diversification does not necessarily mean a lower risk, we show that the mean-variance portfolio's risk is not always lower than the risk-diversified approaches. Also, we show that diversification converges to one for the highest risk portfolio, but this does not happen in the case of entropy based on factors, because one asset can participate in more than one principal component. Clearly, the mean-variance approach is unable to perform a diversified allocation. These results are useful for retailer-generators who want combine the criteria of risk and diversification. (C) 2017 Elsevier B.V. All rights reserved.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f391d4108db79bcc532cda8744197482",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.122594"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究如何构建一个高效的能源购买决策组合，通过风险与多样化的权衡来优化投资组合。论文使用了主成分分析和基于资产风险的熵来衡量多样化，并通过内点法估计每种策略的权重。这些方法和技术都是投资组合管理领域的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究如何构建一个高效的能源购买决策组合，通过风险与多样化的权衡来优化投资组合。论文使用了主成分分析和基于资产风险的熵来衡量多样化，并通过内点法估计每种策略的权重。这些方法和技术都是投资组合管理领域的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:18.804728"
+}

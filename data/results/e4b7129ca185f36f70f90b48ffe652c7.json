@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "regression",
+    "clustering"
+  ],
+  "explanations": {
+    "regression": "论文中使用了混合效应逻辑回归（mixed effects logistic regression）来评估年龄、性别和饲料类型与包虫病报告之间的关联。",
+    "clustering": "论文中使用了离散泊松模型（Discrete-Poisson models）来检测包虫病阳性牛在空间和时间上的聚类现象。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"regression\", \"clustering\"], \n  \"explanations\": {\n    \"regression\": \"论文中使用了混合效应逻辑回归（mixed effects logistic regression）来评估年龄、性别和饲料类型与包虫病报告之间的关联。\",\n    \"clustering\": \"论文中使用了离散泊松模型（Discrete-Poisson models）来检测包虫病阳性牛在空间和时间上的聚类现象。\"\n  }\n}\n```"
+}

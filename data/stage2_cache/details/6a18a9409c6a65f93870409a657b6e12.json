@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2203,
+    "title": "Data-driven modelling of fully nonlinear wave loads on offshore wind-turbine monopiles at prototype scale",
+    "abstract": "Offshore wind energy constitutes a vital component of the renewable energy portfolio, and accurate and efficient prediction of nonlinear wave loads on monopile foundations is critical for ensuring structural integrity and prolonging wind turbines' operational lifespans. Unlike large-volume marine structures, third-order and higher wave loading is important for such slender structures due to ringing response. Traditional approaches, such as the numerical wave tank based on the fully nonlinear potential flow theory and computational fluid dynamics (CFD), are often computationally expensive. This paper proposes data-driven approaches to model nonlinear wave loads using machine learning (ML) techniques. These approaches offer substantial reductions in computational cost while maintaining reasonable predictive accuracy for high-order wave loadings under a range of wave conditions. Two ML-based models are developed and trained based on high-fidelity CFD data to capture linear and nonlinear wave load components, where the CFD data are classified into clusters using the K-means algorithm, an unsupervised clustering technique to optimise the dataset. A representative subset of data is selected from each cluster to construct the training and testing datasets for the ML models, ensuring that sufficient patterns are captured to facilitate model training and generalisation. The first ML model implements a hybrid approach to predicting the nonlinear wave load in the time domain. It combines a physics-based linear predictor for the inline force with a long short-term memory (LSTM) predictor to estimate the residual between the linear model and CFD results. The second model adopts the spirit of reduced-order modelling by predicting the fundamental and higher-order harmonics of the nonlinear wave load in the frequency domain, which are subsequently reconstructed into the time domain. A comparative study of the two models reveals that the second ML-based approach is more robust for the present application, eliminating the trade-off between overfitting and underfitting high-frequency oscillations, an inherent issue in the first model. We also compare the performance of the ML model with the FNV wave load model (Faltinsen et al., 1995; Kristiansen and Faltinsen, 2017). The proposed ML model is applied to predict nonlinear wave loads under various wave conditions, and the variation of maximum force and force nonlinearity is investigated.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2149b7e7af1e440b3f66f1e5436f507d",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:04:27.410227"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习技术预测海上风力涡轮机单桩的非线性波浪载荷，以提高结构完整性和延长使用寿命。虽然使用了机器学习方法，但其应用领域是海洋工程和可再生能源，与金融领域的衍生品定价、金融风险管理和投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习技术预测海上风力涡轮机单桩的非线性波浪载荷，以提高结构完整性和延长使用寿命。虽然使用了机器学习方法，但其应用领域是海洋工程和可再生能源，与金融领域的衍生品定价、金融风险管理和投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:42.746030"
+}

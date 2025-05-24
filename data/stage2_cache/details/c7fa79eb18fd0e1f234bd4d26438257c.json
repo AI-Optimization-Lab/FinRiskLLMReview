@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 784,
+    "title": "Predicting early breast cancer recurrence from histopathological images in the Carolina Breast Cancer Study",
+    "abstract": "Approaches for rapidly identifying patients at high risk of early breast cancer recurrence are needed. Image-based methods for prescreening hematoxylin and eosin (H&E) stained tumor slides could offer temporal and financial efficiency. We evaluated a data set of 704 1-mm tumor core H&E images (2-4 cores per case), corresponding to 202 participants (101 who recurred; 101 non-recurrent matched on age and follow-up time) from breast cancers diagnosed between 2008-2012 in the Carolina Breast Cancer Study. We leveraged deep learning to extract image information and trained a model to identify recurrence. Cross-validation accuracy for predicting recurrence was 62.4% [95% CI: 55.7, 69.1], similar to grade (65.8% [95% CI: 59.3, 72.3]) and ER status (66.3% [95% CI: 59.8, 72.8]). Interestingly, 70% (19/27) of early-recurrent low-intermediate grade tumors were identified by our image model. Relative to existing markers, image-based analyses provide complementary information for predicting early recurrence.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "1d04807267a5aa3dc9b7f3d34b3e4c5c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:44.438364"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用深度学习从组织病理学图像中预测乳腺癌早期复发，其核心技术应用于医疗领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用深度学习从组织病理学图像中预测乳腺癌早期复发，其核心技术应用于医疗领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:23.613065"
+}

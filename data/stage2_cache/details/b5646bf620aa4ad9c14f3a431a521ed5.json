@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1774,
+    "title": "Eigentaste 5.0: Constant-Time Adaptability in a Recommender System Using Item Clustering",
+    "abstract": "Recommender systems strive to recommend items that users will appreciate and rate highly, often presenting items in order of highest predicted ratings first. In this working paper we present Eigentaste 5.0, a constant-time recommender system that dynamically adapts the order that items are recommended by integrating user clustering with item clustering and monitoring item portfolio effects. This extends our Eigentaste 2.0 algorithm, which uses principal component analysis to cluster users offline. In preliminary experiments we backtested Eigentaste 5.0 on data collected from Jester, our online joke recommender system. Results suggest that it will perform better than Eigentaste 2.0. The new algorithm also uses item clusters to address the cold-start problem for introducing new items.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "549e15364400f644524728a15104fa0b",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:23.019562"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究推荐系统算法（Eigentaste 5.0），涉及用户聚类和项目聚类技术，但其应用场景是笑话推荐系统（Jester），并未提及任何金融领域的特定应用或问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究推荐系统算法（Eigentaste 5.0），涉及用户聚类和项目聚类技术，但其应用场景是笑话推荐系统（Jester），并未提及任何金融领域的特定应用或问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:07.136342"
+}

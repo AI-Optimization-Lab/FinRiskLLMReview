@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "deep learning",
+    "neural network",
+    "representation learning",
+    "long short-term memory",
+    "LSTM"
+  ],
+  "explanations": {
+    "machine learning": "The paper discusses predictive models for stock-value prediction, which inherently involves machine learning techniques.",
+    "deep learning": "The paper specifically mentions 'dictionary-based deep learning' as a competitive model for stock value prediction.",
+    "neural network": "Deep learning models are a subset of neural networks, and the paper's focus on deep learning implies the use of neural networks.",
+    "representation learning": "The paper discusses improving the quality of input and sentiment score generation, which involves learning representations from data.",
+    "long short-term memory": "Given the temporal nature of stock price data, LSTM networks are commonly used in such predictive models, though not explicitly mentioned.",
+    "LSTM": "Similar to 'long short-term memory', LSTMs are likely used for handling sequential data in stock price prediction."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"deep learning\", \"neural network\", \"representation learning\", \"long short-term memory\", \"LSTM\"], \n  \"explanations\": {\n    \"machine learning\": \"The paper discusses predictive models for stock-value prediction, which inherently involves machine learning techniques.\",\n    \"deep learning\": \"The paper specifically mentions 'dictionary-based deep learning' as a competitive model for stock value prediction.\",\n    \"neural network\": \"Deep learning models are a subset of neural networks, and the paper's focus on deep learning implies the use of neural networks.\",\n    \"representation learning\": \"The paper discusses improving the quality of input and sentiment score generation, which involves learning representations from data.\",\n    \"long short-term memory\": \"Given the temporal nature of stock price data, LSTM networks are commonly used in such predictive models, though not explicitly mentioned.\",\n    \"LSTM\": \"Similar to 'long short-term memory', LSTMs are likely used for handling sequential data in stock price prediction.\"\n  }\n}\n```"
+}

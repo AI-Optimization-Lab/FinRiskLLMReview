@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "support vector machine",
+    "SVM",
+    "neural network",
+    "deep learning",
+    "recurrent neural network",
+    "RNN"
+  ],
+  "explanations": {
+    "machine learning": "The paper proposes a deep nonlinear ensemble framework for stock index forecasting, which involves machine learning techniques.",
+    "supervised learning": "The methods used (EWSVM, RNN, GPR) are supervised learning approaches as they involve training on labeled data for forecasting.",
+    "regression": "The paper focuses on forecasting stock indices, which is a regression task (predicting continuous values).",
+    "support vector machine": "The paper proposes an Enhanced Weighted Support Vector Machine (EWSVM) for forecasting components of the stock index.",
+    "SVM": "EWSVM is a variant of SVM, used in the proposed framework.",
+    "neural network": "Recurrent Neural Network (RNN) is used to integrate forecasts into the final point forecast.",
+    "deep learning": "The proposed framework is described as a 'deep nonlinear ensemble framework', indicating the use of deep learning techniques.",
+    "recurrent neural network": "RNN is explicitly mentioned as being used in the framework.",
+    "RNN": "Recurrent Neural Network is used in the proposed model for integrating component forecasts."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"regression\",\n    \"support vector machine\",\n    \"SVM\",\n    \"neural network\",\n    \"deep learning\",\n    \"recurrent neural network\",\n    \"RNN\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper proposes a deep nonlinear ensemble framework for stock index forecasting, which involves machine learning techniques.\",\n    \"supervised learning\": \"The methods used (EWSVM, RNN, GPR) are supervised learning approaches as they involve training on labeled data for forecasting.\",\n    \"regression\": \"The paper focuses on forecasting stock indices, which is a regression task (predicting continuous values).\",\n    \"support vector machine\": \"The paper proposes an Enhanced Weighted Support Vector Machine (EWSVM) for forecasting components of the stock index.\",\n    \"SVM\": \"EWSVM is a variant of SVM, used in the proposed framework.\",\n    \"neural network\": \"Recurrent Neural Network (RNN) is used to integrate forecasts into the final point forecast.\",\n    \"deep learning\": \"The proposed framework is described as a 'deep nonlinear ensemble framework', indicating the use of deep learning techniques.\",\n    \"recurrent neural network\": \"RNN is explicitly mentioned as being used in the framework.\",\n    \"RNN\": \"Recurrent Neural Network is used in the proposed model for integrating component forecasts.\"\n  }\n}\n```"
+}

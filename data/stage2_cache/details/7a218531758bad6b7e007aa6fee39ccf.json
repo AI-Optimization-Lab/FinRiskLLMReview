@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 297,
+    "title": "Pricing currency options with support vector regression and stochastic volatility model with jumps",
+    "abstract": "This paper presents an efficient currency option pricing model based on support vector regression (SVR). This model focuses on selection of input variables of SVR. We apply stochastic volatility model with jumps to SVR in order to account for sudden big changes in exchange rate volatility. We use forward exchange rate as the input variable of SVR, since forward exchange rate takes interest rates of a basket of currencies into account. Therefore, the inputs of SVR will include moneyness (spot rate/strike price), forward exchange rate, volatility of the spot rate, domestic risk-free simple interest rate, and the time to maturity. Extensive experimental studies demonstrate the ability of new model to improve forecast accuracy. (C) 2010 Elsevier Ltd. All rights reserved.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "2cdc3d8bae8f8dd3bcb386112bb4ce13",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.240189"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是支持向量回归（SVR）和随机波动跳跃模型，用于货币期权定价。论文明确提到其目标是改进货币期权的预测准确性，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是支持向量回归（SVR）和随机波动跳跃模型，用于货币期权定价。论文明确提到其目标是改进货币期权的预测准确性，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:38.321579"
+}

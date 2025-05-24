@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 617,
+    "title": "Confidence Weighted Mean Reversion Strategy for Online Portfolio Selection",
+    "abstract": "Online portfolio selection has been attracting increasing attention from the data mining and machine learning communities. All existing online portfolio selection strategies focus on the first order information of a portfolio vector, though the second order information may also be beneficial to a strategy. Moreover, empirical evidence shows that relative stock prices may follow the mean reversion property, which has not been fully exploited by existing strategies. This article proposes a novel online portfolio selection strategy named Confidence Weighted Mean Reversion (CWMR). Inspired by the mean reversion principle in finance and confidence weighted online learning technique in machine learning, CWMR models the portfolio vector as a Gaussian distribution, and sequentially updates the distribution by following the mean reversion trading principle. CWMR's closed-form updates clearly reflect the mean reversion trading idea. We also present several variants of CWMR algorithms, including a CWMR mixture algorithm that is theoretical universal. Empirically, CWMR strategy is able to effectively exploit the power of mean reversion for online portfolio selection. Extensive experiments on various real markets show that the proposed strategy is superior to the state-of-the-art techniques. The experimental testbed including source codes and data sets is available online.(1)",
+    "year": 2013,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ba7bcb0f4b82323b1587ff9d8d218e78",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:39.144715"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种名为Confidence Weighted Mean Reversion (CWMR)的在线投资组合选择策略，旨在通过均值回归原则和机器学习技术优化投资组合的构建和调整。这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种名为Confidence Weighted Mean Reversion (CWMR)的在线投资组合选择策略，旨在通过均值回归原则和机器学习技术优化投资组合的构建和调整。这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:24.496945"
+}

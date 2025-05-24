@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3329,
+    "title": "Assessing the risk of disruption of wind turbine operations in Saudi Arabia using Bayesian spatial extremes",
+    "abstract": "Saudi Arabia has been seeking to reduce its dependence on oil by diversifying its energy portfolio, including the largely underused energy potential from wind. However, extreme winds can possibly disrupt the wind turbine operations, thus preventing the stable and continuous production of wind energy. In this study, we assess the risk of disruptions of wind turbine operations, based on return levels with a hierarchical spatial extreme modeling approach for wind speeds in Saudi Arabia. Using a unique Weather Research and Forecasting dataset, we provide the first high-resolution risk assessment of wind extremes under spatial non-stationarity over the country. We account for the spatial dependence with a multivariate intrinsic autoregressive prior at the latent Gaussian process level. The computational efficiency is greatly improved by parallel computing on subregions from spatial clustering, and the maps are smoothed by fitting the model to cluster neighbors. Under the Bayesian hierarchical framework, we measure the uncertainty of return levels from the posterior Markov chain Monto Carlo samples, and produce probability maps of return levels exceeding the cut-out wind speed of wind turbines within their lifetime. The probability maps show that locations in the South of Saudi Arabia and near the Red Sea and the Persian Gulf are at very high risk of disruption of wind turbine operations.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "49fae111101596f36855554fecf37c11",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:15:54.849713"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究风力涡轮机运行中断的风险评估，使用贝叶斯空间极值模型来分析风速数据。虽然涉及风险评估，但其应用领域是能源生产而非金融研究。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究风力涡轮机运行中断的风险评估，使用贝叶斯空间极值模型来分析风速数据。虽然涉及风险评估，但其应用领域是能源生产而非金融研究。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:11.356023"
+}

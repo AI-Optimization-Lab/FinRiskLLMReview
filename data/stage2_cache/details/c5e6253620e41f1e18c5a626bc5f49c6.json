@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2304,
+    "title": "Ensemble Classification of Grants using LDA-based Features",
+    "abstract": "Classifying research grants into useful categories is a vital task for a funding body to give structure to the portfolio for analysis, informing strategic planning and decision-making. Automating this classification process would save time and effort, providing the accuracy of the classifications is maintained. We employ five classification models to classify a set of BBSRC-funded research grants in 21 research topics based on unigrams, technical terms and Latent Dirichlet Allocation models. To boost precision, we investigate methods for combining their predictions into five aggregate classifiers. Evaluation confirmed that ensemble classification models lead to higher precision. It was observed that there is not a single best-performing aggregate method for all research topics. Instead, the best-performing method for a research topic depends on the number of positive training instances available for this topic. Subject matter experts considered the predictions of aggregate models to correct erroneous or incomplete manual assignments.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0651047aee4cae9bbe4bf595842f1b6b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:39.609972"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用机器学习方法对研究资助进行分类，以提高分类的准确性和效率。虽然涉及分类和机器学习技术，但这些技术并未应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用机器学习方法对研究资助进行分类，以提高分类的准确性和效率。虽然涉及分类和机器学习技术，但这些技术并未应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:54.030902"
+}

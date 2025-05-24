@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1869,
+    "title": "Application of artificial intelligence for nutrient estimation in surface water bodies of basins with intensive agriculture",
+    "abstract": "Eutrophication is one of the most relevant concerns due to the risk to water supply and food security. Nitrogen and phosphorus chemical species concentrations determined the risk and magnitude of eutrophication. These analyses are even more relevant in basins with intensive agriculture due to agrochemical discharges. However, analyzing these nutrients is labor intensive, as sampling to intercalibration in the laboratory requires considerable financial and human resources. Currently, artificial intelligence allows the modeling of phenomena and variables in various fields. This research focuses on the exploration of other machine learning methods, including multilayer perceptron (MLP), k-nearest neighbor (KNN), convolutional neural network (CNN), and random forest (RF) for the estimation of nutrients in surface waters of Sinaloa, Mexico (11 model basins), the states with the highest exports of agricultural products. Nutrients were considered in all possible chemical forms, such as total nitrogen, Kjeldahl nitrogen, ammonia nitrogen, total phosphorus, and orthophosphate. For estimation, the selected input parameters are characterized by pH, dissolved oxygen, conductivity, water temperature, and total suspended solids, which do not require chemical reagents and can be measured in real time. The parameter information was obtained from the National Network for Water Quality Monitoring database (6,200 data recorded since 2012). Finally, hyperparameter normalization and optimization (HPO) methods were implemented to maximize the best-performing model. Each model obtained different coefficient of determination values (R2): MLP between 0.64 and 0.77, CNN from 0.65 to 0.76, KNN from 0.64 to 0.79, and RF from 0.79 to 0.85. The latter is considered the best performer, with values of 0.95 in training and 0.94 in validation after applying HPO. Notably, the models are valid for any surface water body and in any climatic season in the state of Sinaloa, M & eacute;xico. Therefore decision-makers can use them for science-based environmental regulation of land use and pesticide application.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "58c31fae62a5f23d1c15990ca0ab9d67",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:38.932852"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用人工智能技术（如多层感知器、卷积神经网络等）来估计农业密集流域地表水中的营养物质浓度，其应用领域为环境科学和水资源管理，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用人工智能技术（如多层感知器、卷积神经网络等）来估计农业密集流域地表水中的营养物质浓度，其应用领域为环境科学和水资源管理，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:31.372482"
+}

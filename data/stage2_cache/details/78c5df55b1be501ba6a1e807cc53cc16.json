@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 169,
+    "title": "Tree-Based Methods of Volatility Prediction for the S&P 500 Index",
+    "abstract": "Predicting asset return volatility is one of the central problems in quantitative finance. These predictions are used for portfolio construction, calculation of value at risk (VaR), and pricing of derivatives such as options. Classical methods of volatility prediction utilize historical returns data and include the exponentially weighted moving average (EWMA) and generalized autoregressive conditional heteroskedasticity (GARCH). These approaches have shown significantly higher rates of predictive accuracy than corresponding methods of return forecasting, but they still have vast room for improvement. In this paper, we propose and test several methods of volatility forecasting on the S&P 500 Index using tree ensembles from machine learning, namely random forest and gradient boosting. We show that these methods generally outperform the classical approaches across a variety of metrics on out-of-sample data. Finally, we use the unique properties of tree-based ensembles to assess what data can be particularly useful in predicting asset return volatility.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "7ac11ad35b1dc266baef4456d3caa0a8",
+    "relevant_keywords": [
+      "machine learning",
+      "decision tree",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.068556"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Derivatives Pricing",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用树集成方法预测资产回报波动率，这在金融风险管理中用于计算风险价值（VaR），在衍生品定价中用于期权定价，以及在投资组合管理中用于构建投资组合。论文摘要明确提到了这些应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"衍生品定价\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用树集成方法预测资产回报波动率，这在金融风险管理中用于计算风险价值（VaR），在衍生品定价中用于期权定价，以及在投资组合管理中用于构建投资组合。论文摘要明确提到了这些应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:26.305690"
+}

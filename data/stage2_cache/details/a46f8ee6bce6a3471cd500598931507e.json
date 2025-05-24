@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 930,
+    "title": "Interpretable trading pattern designed for machine learning applications",
+    "abstract": "Financial markets are a source of non -stationary multidimensional time series which has been drawing attention for decades. Each financial instrument has its specific changing -over -time properties, making its analysis a complex task. Hence, improvement of understanding and development of more informative, generalisable market representations are essential for the successful operation in financial markets, including risk assessment, diversification, trading, and order execution. In this study, we propose a volume -price -based market representation for making financial time series more suitable for machine learning pipelines. We use a statistical approach for evaluating the representation. Through the research questions, we investigate, i) whether the proposed representation allows any improvement over the baseline (always -positive) performance; ii) whether the proposed representation leads to increased performance over the price levels market pattern; iii) whether the proposed representation performs better on the liquid markets, and iv) whether SHAP feature interactions are reliable to be used in the considered setting. Our analysis shows that the proposed volume -based method allows successful classification of the financial time series patterns, and also leads to better classification performance than the price levels -based method, excelling specifically on more liquid financial instruments. Finally, we propose an approach for obtaining feature interactions directly from tree -based models and compare the outcomes to those of the SHAP method. This results in the significant similarity between the two methods, hence we claim that SHAP feature interactions are reliable to be used in the setting of financial markets.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7182c9ce125302244d4db72a49aa73c6",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature representation",
+      "representation learning",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:49.565374"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种基于交易量和价格的市场表示方法，以提高金融时间序列在机器学习中的适用性，并探讨了分类性能和特征交互的可靠性。虽然提到了风险管理和交易等金融活动，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种基于交易量和价格的市场表示方法，以提高金融时间序列在机器学习中的适用性，并探讨了分类性能和特征交互的可靠性。虽然提到了风险管理和交易等金融活动，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:10.151907"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1621,
+    "title": "A neural network approach to efficient valuation of large portfolios of variable annuities",
+    "abstract": "Managing and hedging the risks associated with Variable Annuity (VA) products require intraday valuation of key risk metrics for these products. The complex structure of VA products and computational complexity of their accurate evaluation have compelled insurance companies to adopt Monte Carlo (MC) simulations to value their large portfolios of VA products. Because the MC simulations are computationally demanding, especially for intraday valuations, insurance companies need more efficient valuation techniques. Recently, a framework based on traditional spatial interpolation techniques has been proposed that can significantly decrease the computational complexity of MC simulation (Gan and Lin, 2015). However, traditional interpolation techniques require the definition of a distance function that can significantly impact their accuracy. Moreover, none of the traditional spatial interpolation techniques provide all of the key properties of accuracy, efficiency, and granularity (Hejazi et al., 2015). In this paper, we present a neural network approach for the spatial interpolation framework that affords an efficient way to find an effective distance function. The proposed approach is accurate, efficient, and provides an accurate granular view of the input portfolio. Our numerical experiments illustrate the superiority of the performance of the proposed neural network approach compared to the traditional spatial interpolation schemes. (C) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9ef6307830172a82a51b5372d1203f83",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.881913"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用神经网络方法对可变年金（Variable Annuity）产品组合进行高效估值，目的是为了管理和对冲这些产品的风险。这直接涉及到金融风险管理中的风险度量和估值问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络方法对可变年金（Variable Annuity）产品组合进行高效估值，目的是为了管理和对冲这些产品的风险。这直接涉及到金融风险管理中的风险度量和估值问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:43.262170"
+}

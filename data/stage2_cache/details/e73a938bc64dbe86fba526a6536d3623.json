@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3498,
+    "title": "Estimation of high-dimensional dynamic conditional precision matrices with an application to forecast combination",
+    "abstract": "The estimation of a large covariance matrix is challenging when the dimension p is large relative to the sample size n. Common approaches to deal with the challenge have been based on thresholding or shrinkage methods in estimating covariance matrices. However, in many applications (e.g., regression, forecast combination, portfolio selection), what we need is not the covariance matrix but its inverse (the precision matrix). In this paper we introduce a method of estimating the high-dimensional dynamic conditional precision (DCP) matrices. The proposed DCP algorithm is based on the estimator of a large unconditional precision matrix to deal with the high-dimension and the dynamic conditional correlation (DCC) model to embed a dynamic structure to the conditional precision matrix. The simulation results show that the DCP method performs substantially better than the methods of estimating covariance matrices based on thresholding or shrinkage methods. Finally, we examine the forecast combination puzzle using the DCP, thresholding, and shrinkage methods.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "06885794fad7612746fedc954c09d4a5",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:17:54.057019"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种估计高维动态条件精度矩阵的方法，并提到其在投资组合选择中的应用。虽然论文也提到了回归和预测组合等其他应用，但投资组合管理是其明确提到的金融领域应用之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种估计高维动态条件精度矩阵的方法，并提到其在投资组合选择中的应用。虽然论文也提到了回归和预测组合等其他应用，但投资组合管理是其明确提到的金融领域应用之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:41.101193"
+}

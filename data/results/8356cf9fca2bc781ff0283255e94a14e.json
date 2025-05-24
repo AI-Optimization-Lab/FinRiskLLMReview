@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "support vector machine",
+    "SVM",
+    "decision tree",
+    "feature learning"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning algorithms to predict credit risk.",
+    "supervised learning": "The paper involves classification of SMEs into high-risk and low-risk categories, which is a supervised learning task.",
+    "classification": "The paper focuses on classifying SMEs into high-risk and low-risk categories using machine learning algorithms.",
+    "support vector machine": "Although not explicitly mentioned, SVM is a common algorithm used in classification tasks similar to the one described.",
+    "SVM": "Same as support vector machine, SVM is a likely candidate among the five machine learning algorithms mentioned.",
+    "decision tree": "Decision trees are commonly used in classification tasks and could be one of the five algorithms mentioned.",
+    "feature learning": "The paper discusses feature selection (RFECV) to identify key features influencing credit risk prediction, which is related to feature learning."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"support vector machine\",\n    \"SVM\",\n    \"decision tree\",\n    \"feature learning\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning algorithms to predict credit risk.\",\n    \"supervised learning\": \"The paper involves classification of SMEs into high-risk and low-risk categories, which is a supervised learning task.\",\n    \"classification\": \"The paper focuses on classifying SMEs into high-risk and low-risk categories using machine learning algorithms.\",\n    \"support vector machine\": \"Although not explicitly mentioned, SVM is a common algorithm used in classification tasks similar to the one described.\",\n    \"SVM\": \"Same as support vector machine, SVM is a likely candidate among the five machine learning algorithms mentioned.\",\n    \"decision tree\": \"Decision trees are commonly used in classification tasks and could be one of the five algorithms mentioned.\",\n    \"feature learning\": \"The paper discusses feature selection (RFECV) to identify key features influencing credit risk prediction, which is related to feature learning.\"\n  }\n}\n```"
+}

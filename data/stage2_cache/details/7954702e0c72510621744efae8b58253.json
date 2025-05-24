@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2271,
+    "title": "Post-earthquake regional structural damage evaluation based on artificial neural networks considering variant structural properties",
+    "abstract": "The application of artificial neural networks (ANN) to regional seismic damage evaluation is still challenging due to variant structural properties and high computing requirements. This study aims to develop an ANN-based approach of regional seismic damage evaluation and investigate the ANN performance when structural properties like the fundamental period T and ductility factor & mu; change. By utilizing the Single-Degree-of-Freedom (SDOF) structures, ANN seismic classifiers, whose inputs are multiple intensity measures (IMs) and outputs are damage states, are trained for a structure portfolio with T from 0.3 to 3 s and & mu; from 1.5 to 6. The importance ranking of the multiple input IMs for classification indicates that the most important IMs for the correct classification of damage states vary when the structural properties change. Acceleration-related IMs play the most important role for short-period structures (e.g., less than 0.5 s), velocity-related IMs are most important for intermediate structures (e.g., 0.5 to 2.0 s), and displacement-related IMs are most important for long-period structures (e.g., larger than 2.0 s). This importance variation of IMs validates the necessity and advantage of ANN seismic classifiers with multiple IMs as input for the regional seismic damage evaluation. Further comparison of two different damage indices shows that the ANN performance will not be compromised by changing the damage index. Overall, the classification accuracy higher than 92% on the structure portfolio shows that the ANN-based regional seismic damage evaluation could be a robust and accurate approach with some limitations to be addressed in future studies.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b6cfa7be7de0e6bd43e25d8cc8f98b50",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:04.498404"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于人工神经网络的地震后区域结构损伤评估，其核心技术和应用场景属于土木工程和地震工程领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于人工神经网络的地震后区域结构损伤评估，其核心技术和应用场景属于土木工程和地震工程领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:57.468500"
+}

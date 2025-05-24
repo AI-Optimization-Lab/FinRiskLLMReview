@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1566,
+    "title": "Machine learning for cryptocurrency market prediction and trading",
+    "abstract": "We employ and analyze various machine learning models for daily cryptocurrency market prediction and trading. We train the models to predict binary relative daily market movements of the 100 largest cryptocurrencies. Our results show that all employed models make statistically viable predictions, whereby the average accuracy values calculated on all cryptocurrencies range from 52.9% to 54.1%. These accuracy values increase to a range from 57.5% to 59.5% when calculated on the subset of predictions with the 10% highest model confidences per class and day. We find that a long-short portfolio strategy based on the predictions of the employed LSTM and GRU ensemble models yields an annualized out-of-sample Sharpe ratio after transaction costs of 3.23 and 3.12, respectively. In comparison, the buy-and-hold benchmark market portfolio strategy only yields a Sharpe ratio of 1.33. These results indicate a challenge to weak form cryptocurrency market efficiency, albeit the influence of certain limits to arbitrage cannot be entirely ruled out. (c) 2022 The Authors. Publishing services by Elsevier B.V. on behalf of KeAi Communications Co. Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "337e2c9c814d2eaf03f311efd5c0e84c",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:12.653661"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型（如LSTM和GRU）预测加密货币市场的每日相对走势，并基于这些预测构建了一个多空投资组合策略。研究的主要目标是提高投资组合的绩效（通过夏普比率衡量），这直接属于投资组合管理的范畴。论文未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型（如LSTM和GRU）预测加密货币市场的每日相对走势，并基于这些预测构建了一个多空投资组合策略。研究的主要目标是提高投资组合的绩效（通过夏普比率衡量），这直接属于投资组合管理的范畴。论文未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:10.157735"
+}

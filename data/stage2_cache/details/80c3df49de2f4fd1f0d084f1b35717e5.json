@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 599,
+    "title": "基于灰狼优化算法和最小二乘支持向量机的信用评估",
+    "abstract": "最小二乘支持向量机(LSSVM)被证实是一种有效的信用评估方法,然而,传统的交叉验证和网格方法通常得不到最优参数。为了解决这个问题,作者提出了一种改进的灰狼优化算法(IGWO),该算法能非线性地调整收敛因子,并能自适应调整α狼、β狼和δ狼对ω狼的影响。然后,提出了一种用IGWO来优化LSSVM参数的方法IGWO-LSSVM,并将其应用于信用评估中。在公开的德国和澳大利亚真实信用数据集上,IGWO-LSSVM较传统的K近邻、朴素贝叶斯、决策树、支持向量机和LSSVM等信用评估方法均有明显的提升,表明IGWO-LSSVM是一种有效的信用评估方法。",
+    "year": 2019,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "350fbf4be164e8efead6f9e7de1540ea",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-14T22:31:30.164097"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是改进的灰狼优化算法和最小二乘支持向量机，应用于信用评估。信用评估是金融风险管理中的一个重要组成部分，用于评估借款人的信用风险，因此属于金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是改进的灰狼优化算法和最小二乘支持向量机，应用于信用评估。信用评估是金融风险管理中的一个重要组成部分，用于评估借款人的信用风险，因此属于金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:37:47.042584"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 3109,
+    "title": "Hybrid Harmony Search-Artificial Intelligence Models in Credit Scoring",
+    "abstract": "Credit scoring is an important tool used by financial institutions to correctly identify defaulters and non-defaulters. Support Vector Machines (SVM) and Random Forest (RF) are the Artificial Intelligence techniques that have been attracting interest due to their flexibility to account for various data patterns. Both are black-box models which are sensitive to hyperparameter settings. Feature selection can be performed on SVM to enable explanation with the reduced features, whereas feature importance computed by RF can be used for model explanation. The benefits of accuracy and interpretation allow for significant improvement in the area of credit risk and credit scoring. This paper proposes the use of Harmony Search (HS), to form a hybrid HS-SVM to perform feature selection and hyperparameter tuning simultaneously, and a hybrid HS-RF to tune the hyperparameters. A Modified HS (MHS) is also proposed with the main objective to achieve comparable results as the standard HS with a shorter computational time. MHS consists of four main modifications in the standard HS: (i) Elitism selection during memory consideration instead of random selection, (ii) dynamic exploration and exploitation operators in place of the original static operators, (iii) a self-adjusted bandwidth operator, and (iv) inclusion of additional termination criteria to reach faster convergence. Along with parallel computing, MHS effectively reduces the computational time of the proposed hybrid models. The proposed hybrid models are compared with standard statistical models across three different datasets commonly used in credit scoring studies. The computational results show that MHS-RF is most robust in terms of model performance, model explainability and computational time.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "38db8a35b3bb307bba74b02824d39aec",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:22:25.198580"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit scoring, which is a critical tool for assessing credit risk, a key component of financial risk management. The proposed hybrid models aim to improve accuracy and interpretability in identifying defaulters and non-defaulters, directly addressing credit risk assessment.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit scoring, which is a critical tool for assessing credit risk, a key component of financial risk management. The proposed hybrid models aim to improve accuracy and interpretability in identifying defaulters and non-defaulters, directly addressing credit risk assessment.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:29.989448"
+}

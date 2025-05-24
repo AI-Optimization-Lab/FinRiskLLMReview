@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 408,
+    "title": "Building a Scalable and Interpretable Bayesian Deep Learning Framework for Quality Control of Free Form Surfaces",
+    "abstract": "Deep learning has demonstrated high accuracy for 3D object shape error modeling necessary to estimate dimensional and geometric quality defects in multi-station assembly systems (MAS). Increasingly, deep learning-driven Root Cause Analysis (RCA) is used for decision-making when planning corrective action of quality defects. However, given the current absence of scalability enabling models, training deep learning models for each individual MAS is exceedingly time-consuming as it requires large amounts of labelled data and multiple computational cycles. Additionally, understanding and interpreting how deep learning produces final predictions while quantifying various uncertainties also remains a fundamental challenge. In an effort to address these gaps, a novel closed-loop in-process (CLIP) diagnostic framework underpinned algorithm portfolio is proposed which simultaneously enhances scalability and interpretability of the current Bayesian deep learning approach, Object Shape Error Response (OSER), to isolate root cause(s) of quality defects in MAS. The OSER-MAS leverages a Bayesian 3D U-Net architecture integrated with Computer-Aided Engineering simulations to estimate root causes. The CLIP diagnostic framework shortens OSER-MAS model training time by developing: (i) closed-loop training to enable faster convergence for a single MAS by leveraging uncertainty estimates of the Bayesian 3D U-net model; and, (ii) transfer/continual learning-based scalability model to transmit meta-knowledge from the trained model to a new MAS resulting in convergence using comparatively less training samples. Additionally, CLIP increases the transparency for quality-related root cause predictions by developing interpretability model which is based on 3D Gradient-based Class Activation Maps (3D Grad-CAMs) and entails: (a) linking elements of MAS model with functional elements of the U-Net architecture; and, (b) relating features extracted by the architecture with elements of the MAS model and further with the object shape error patterns for root cause(s) that occur in MAS. Benchmarking studies are conducted using six automotive-MAS with varying complexities. Results highlight a reduction in training samples of up to 56% with a loss in performance of up to 2.1%.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "58484377d3dd73f567617486502e8457",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:49.668316"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用贝叶斯深度学习框架进行多站装配系统（MAS）中的质量缺陷根因分析，其核心技术应用于工业制造和质量控制领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用贝叶斯深度学习框架进行多站装配系统（MAS）中的质量缺陷根因分析，其核心技术应用于工业制造和质量控制领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:00.794527"
+}

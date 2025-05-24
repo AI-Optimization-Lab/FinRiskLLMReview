@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 442,
+    "title": "High Resolution Mapping of Soil Properties Using Remote Sensing Variables in South-Western Burkina Faso: A Comparison of Machine Learning and Multiple Linear Regression Models",
+    "abstract": "Accurate and detailed spatial soil information is essential for environmental modelling, risk assessment and decision making. The use of Remote Sensing data as secondary sources of information in digital soil mapping has been found to be cost effective and less time consuming compared to traditional soil mapping approaches. But the potentials of Remote Sensing data in improving knowledge of local scale soil information in West Africa have not been fully explored. This study investigated the use of high spatial resolution satellite data (RapidEye and Landsat), terrain/climatic data and laboratory analysed soil samples to map the spatial distribution of six soil properties-sand, silt, clay, cation exchange capacity (CEC), soil organic carbon (SOC) and nitrogen-in a 580 km(2) agricultural watershed in south-western Burkina Faso. Four statistical prediction models-multiple linear regression (MLR), random forest regression (RFR), support vector machine (SVM), stochastic gradient boosting (SGB)-were tested and compared. Internal validation was conducted by cross validation while the predictions were validated against an independent set of soil samples considering the modelling area and an extrapolation area. Model performance statistics revealed that the machine learning techniques performed marginally better than the MLR, with the RFR providing in most cases the highest accuracy. The inability of MLR to handle non-linear relationships between dependent and independent variables was found to be a limitation in accurately predicting soil properties at unsampled locations. Satellite data acquired during ploughing or early crop development stages (e.g. May, June) were found to be the most important spectral predictors while elevation, temperature and precipitation came up as prominent terrain/climatic variables in predicting soil properties. The results further showed that shortwave infrared and near infrared channels of Landsat8 as well as soil specific indices of redness, coloration and saturation were prominent predictors in digital soil mapping. Considering the increased availability of freely available Remote Sensing data (e.g. Landsat, SRTM, Sentinels), soil information at local and regional scales in data poor regions such as West Africa can be improved with relatively little financial and human resources.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d9d7884fa15f0532ee39119280b6da1f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.663601"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用遥感数据和机器学习模型进行土壤属性映射，其应用领域为环境建模和农业决策，与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用遥感数据和机器学习模型进行土壤属性映射，其应用领域为环境建模和农业决策，与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:02.206204"
+}

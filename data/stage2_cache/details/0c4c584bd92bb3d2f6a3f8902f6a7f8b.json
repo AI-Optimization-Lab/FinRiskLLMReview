@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 390,
+    "title": "Modeling and Forecasting the Volatility of NIFTY 50 Using GARCH and RNN Models",
+    "abstract": "The stock market is constantly shifting and full of unknowns. In India in 2000, technological advancements led to significant growth in the Indian stock market, introducing online share trading via the internet and computers. Hence, it has become essential to manage risk in the Indian stock market, and volatility plays a critical part in assessing the risks of different stock market elements such as portfolio risk management, derivative pricing, and hedging techniques. As a result, several scholars have lately been interested in forecasting stock market volatility. This study analyzed India VIX (NIFTY 50 volatility index) to identify the behavior of the Indian stock market in terms of volatility and then evaluated the forecasting ability of GARCH- and RNN-based LSTM models using India VIX out of sample data. The results indicated that the NIFTY 50 index's volatility is asymmetric, and leverage effects are evident in the results of the EGARCH (1, 1) model. Asymmetric GARCH models such as EGARCH (1, 1) and TARCH (1, 1) showed slightly better forecasting accuracy than symmetric GARCH models like GARCH (1, 1). The results also showed that overall GARCH models are slightly better than RNN-based LSTM models in forecasting the volatility of the NIFTY 50 index. Both types of models (GARCH models and RNN based LSTM models) fared equally well in predicting the direction of the NIFTY 50 index volatility. In contrast, GARCH models outperformed the LSTM model in predicting the value of volatility.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "83418926e6057abfacf303e274be67da",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:17.574841"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用GARCH和RNN模型预测NIFTY 50指数的波动性，波动性预测是金融风险管理中的关键组成部分，用于评估和管理市场风险。虽然论文提到波动性在衍生品定价和投资组合管理中的作用，但核心研究内容是波动性预测，因此主要应用于金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用GARCH和RNN模型预测NIFTY 50指数的波动性，波动性预测是金融风险管理中的关键组成部分，用于评估和管理市场风险。虽然论文提到波动性在衍生品定价和投资组合管理中的作用，但核心研究内容是波动性预测，因此主要应用于金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:02.690403"
+}

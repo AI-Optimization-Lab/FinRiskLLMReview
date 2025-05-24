@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 277,
+    "title": "The Clustering Algorithms Approach for Decision Efficiency in Investment Portfolio Diversification",
+    "abstract": "This paper performs a clustering algorithm for portfolio investment diversification. The clustering process is applied to choose the preferred assets among hundreds of assets provided in the market under the related features. This work experimentally provides four features as the coordinate of assets that are mean, variance, skewness, and kurtosis of the returns. The used data is the daily close price of 175 assets in Indonesian exchange (IDX). We perform 4 clustering algorithms to locate the assets that have the same similarity into the same cluster. Since the four features are being considered, the spherical-shape of data is difficult to observe. In fact, the portfolio return of all algorithm's outcome show the Agglomerative and DBScan algorithm yield higher performance evaluation with no dominant asset included. Assets representatives from each cluster are determined to be in the portfolio formation. By using the portfolio theory by Markowitz, i.e Mean-variance optimization (MVO) and Sharp ration optimization, the proportion of contained assets are computed, and we test their performance by applying the formation into the market data a month after as a testing data. Several interesting results are provided.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e14061919bdb36bda1a3cbc7706906c0",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.839701"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on applying clustering algorithms to select assets for portfolio diversification and uses Markowitz's Mean-variance optimization (MVO) and Sharpe ratio optimization to compute asset proportions, which are core techniques in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on applying clustering algorithms to select assets for portfolio diversification and uses Markowitz's Mean-variance optimization (MVO) and Sharpe ratio optimization to compute asset proportions, which are core techniques in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:13.377700"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 4324,
+    "title": "On using artificial neural networks for calibrating tempered stable Levy processes to probabilities of crossing absorbing barriers",
+    "abstract": "We propose a new method for calibrating tempered stable Levy processes based on an artificial neural network (ANN), which takes probabilities of crossing a number of fixed barriers by a random walk as input data, and demonstrate its performance for the widely used CGMY model. To train the network we use real historical data and a synthetic dataset. We download and prepare the former to create a sequence of histograms with historical probabilities of crossing the set of barriers by log-returns of the underlying asset. To construct the synthetic dataset, we generate the values of the CGMY model's parameters and calculate the respective probabilities of crossing the barriers as prices of synthetic one-touch-digital options by means of an effective numerical method, which is based on the fast Wiener-Hopf factorization technique. After that, we become able to calibrate the parameters for this model by means of the trained ANN, using the probabilities as input data. As the result, we obtain a fast method to calibrate the CGMY Levy model, which can be used to solve risk management problems on financial markets especially for the case where the asset under consideration is highly liquid and highly volatile at the same time (e.g. cryptocurrencies).",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7332c52041c130ee10ec5a987d0091cb",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:36:05.158677"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种基于人工神经网络的校准方法，用于调整CGMY模型参数，以解决金融市场中的风险管理问题，特别是在资产高度流动且高度波动的情况下（如加密货币）。虽然提到了合成数字期权的定价方法，但主要应用场景和目标是风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种基于人工神经网络的校准方法，用于调整CGMY模型参数，以解决金融市场中的风险管理问题，特别是在资产高度流动且高度波动的情况下（如加密货币）。虽然提到了合成数字期权的定价方法，但主要应用场景和目标是风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:21.383837"
+}

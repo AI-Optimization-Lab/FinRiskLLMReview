@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1520,
+    "title": "Self-Organizing Swarm (SOSwarm) for Financial Credit-Risk Assessment",
+    "abstract": "This paper applies a self-organizing Particle Swarm algorithm, SOSwarm, for the purposes of credit-risk assessment. SoSwarm can be applied for unsupervised clustering and for classification. In the algorithm, input vectors are projected into a lower dimensional map space producing a visual representation of the input data in a manner similar to a self-organizing map (SOM). However, unlike SOM, the nodes (particles) in this map react to input data during the learning process by modifying their velocities using an adaptation of the Particle Swarm Optimization velocity update step. The utility of SoSwarm is tested by applying it to two important credit-risk assessment problems drawn from the domain of finance, namely the prediction of corporate bond ratings and the prediction of corporate failure. The results obtained on the financial benchmark problems are highly-competitive against those of traditional classification methodologies. The paper makes a further contribution showing that the canonical SOM can be explored within the PSO paradigm. This highlights an important linkage between the heretofore distinct literatures of SOM and PSO.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6a2d83ba77705e4ca5763184673dfae8",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "classification",
+      "clustering",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:04:20.014401"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on applying a self-organizing Particle Swarm algorithm (SOSwarm) to credit-risk assessment, specifically for predicting corporate bond ratings and corporate failure. These applications are directly related to assessing and managing financial risks, which falls under the domain of Financial Risk Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on applying a self-organizing Particle Swarm algorithm (SOSwarm) to credit-risk assessment, specifically for predicting corporate bond ratings and corporate failure. These applications are directly related to assessing and managing financial risks, which falls under the domain of Financial Risk Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:23.105564"
+}

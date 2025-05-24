@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 126,
+    "title": "Customized Stock Return Prediction with Deep Learning",
+    "abstract": "In finance, researchers so far use standard loss functions such as mean squared error when training artificial neural networks for return prediction. However, from an investor's perspective, prediction errors are ambiguous: in practice, the investor prefers to see underprediction of portfolio returns rather than overprediction, as the former implies higher realized returns and thus financial benefits. We present a loss function customized to this behavior and test it based on Long Short-Term Memory (LSTM) models, the state-of-the-art tools in time series analysis. Our model learns unique signals, predicts returns more cautiously, and improves profit chances over the standard LSTM and reversal signals. Daily and weekly revised portfolios achieve on average five percentage points higher annualized returns. We show that our loss function is robust to market sentiment and beneficial in nonlinear optimization.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "4406ed01b48cd3ae5beba8fb86827df0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:32:31.454257"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用定制化的损失函数和LSTM模型来预测股票回报，并展示了其在每日和每周调整的投资组合中的应用，显著提高了年化回报率。这直接关联到投资组合管理的领域，旨在优化投资决策和提升投资组合的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用定制化的损失函数和LSTM模型来预测股票回报，并展示了其在每日和每周调整的投资组合中的应用，显著提高了年化回报率。这直接关联到投资组合管理的领域，旨在优化投资决策和提升投资组合的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:34.834300"
+}

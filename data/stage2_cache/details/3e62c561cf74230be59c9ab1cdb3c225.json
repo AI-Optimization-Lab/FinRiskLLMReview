@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 658,
+    "title": "Sparse Bayesian models: Bankruptcy-predictors of choice?",
+    "abstract": "Making inferences and choosing appropriate responses based on incomplete, uncertainty and noisy data is challenging in financial settings particularly in bankruptcy detection. In an increasingly globalized economy, bankruptcy results both in huge economic losses and tremendous social impact. While early prediction for a bankruptcy, if done appropriately, is of great importance to banks, insurance firms, creditors, and investors, the need of substantially more accurately predicting models becomes crucial. This problem has been approached by various methods ranging from statistics to machine learning, however they find a class decision estimate rather than a probabilistic confidence of the class distribution. In this paper we show that sparse Bayesian models also known as Relevance Vector Machine (RVMs) are superior to the state-of-the-art machine learning algorithms such as Support Vector Machines (SVMs) therefore leading to predictors of choice. The advantage of RVM approach is that the classifier can yield a decision function that is much sparser than the SVM while maintaining its detection accuracy. This can lead to significant reduction in the computational complexity of the decision function, thereby making it more suitable for realtime applications. Preliminary experiments on Coface Data set (French credit risk provider) show that RVM classifiers outperform SVM, lead to more sparse and accurate prediction models.",
+    "year": 2006,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d318eed51985de805cdf586cebcd96f4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.982093"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用稀疏贝叶斯模型（RVM）进行破产预测，这直接关联到信用风险评估，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用稀疏贝叶斯模型（RVM）进行破产预测，这直接关联到信用风险评估，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:13.427864"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 36,
+    "title": "Option pricing mechanisms driven by backward stochastic differential equations",
+    "abstract": "This study investigates an option pricing method called g-pricing based on backward stochastic differential equations combined with deep learning. We adopted a data-driven approach to find a market-appropriate generator of the backward stochastic differential equation, which is achieved by leveraging the universal approximation capabilities of neural networks. Option pricing, which is the solution to the equation, is approximated using a recursive procedure. The empirical results for the S&P 500 index options show that the proposed deep learning g-pricing model has lower absolute errors than the classical Black-Scholes-Merton model for the same forward stochastic differential equations. The g-pricing mechanism has potential applications in option pricing.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "30fd2e2934552644b07bc74024baed55",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:54.891725"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究是基于反向随机微分方程和深度学习的期权定价方法，明确提到应用于S&P 500指数期权的定价，并比较了与传统Black-Scholes-Merton模型的性能。这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究是基于反向随机微分方程和深度学习的期权定价方法，明确提到应用于S&P 500指数期权的定价，并比较了与传统Black-Scholes-Merton模型的性能。这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:36.017456"
+}

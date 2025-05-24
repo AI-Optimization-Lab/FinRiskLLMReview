@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 878,
+    "title": "Fraud Risk Monitoring System for E-Banking Transactions",
+    "abstract": "Fraudulent e-banking transactions have caused great economic loss every year. Thus, it is important for financial institutions to make the e-banking system more secure, and improve the fraud detection system. Researches for the fraud risk monitoring are mainly focused on score rules and data driven model. The score rule is based on expertise, which is vulnerable to new patterns of frauds. Data driven model is based on machine learning classifiers, and usually has to handle the imbalanced classification problem. In this paper, we propose a novel fraud risk monitoring system for e-banking transactions. Model of score rules for online real-time transactions and offline historical transactions are combined together for the fraud detection. Parallel big data framework: Kafka, Spark and MPP Gbase which integrated with a machine learning algorithm is presented to handle offline massive transaction logs. Experimental results show the effectiveness of our proposed scheme over a real massive dataset of e-banking transactions. This evaluation leads us to identify research gaps and challenges to consider in future research endeavors.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fce2035da3537f680bc17d8d79cde556",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:17.502729"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个欺诈风险监控系统，用于检测电子银行交易中的欺诈行为，这直接属于金融风险管理的范畴。论文重点讨论了如何结合评分规则和机器学习模型来提高欺诈检测的准确性和效率，这些都是金融风险管理中的关键问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一个欺诈风险监控系统，用于检测电子银行交易中的欺诈行为，这直接属于金融风险管理的范畴。论文重点讨论了如何结合评分规则和机器学习模型来提高欺诈检测的准确性和效率，这些都是金融风险管理中的关键问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:01.776304"
+}

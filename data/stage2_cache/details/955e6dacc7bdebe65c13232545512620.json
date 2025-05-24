@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2282,
+    "title": "Advanced visualization for the quant strategy universe: clustering and dimensionality reduction",
+    "abstract": "The rapid development of quantitative investing has heightened the need for high- quality data and sophisticated methods for interpreting complex information, particularly through advanced data visualization techniques. This paper introduces a robust visualization model developed by Premialab's quant research team, leveraging their extensive database of more than 5000 single-asset and multiasset quantitative investment strategies (QIS) sourced from 18 global investment banks. Utilizing uniform manifold approximation and projection (UMAP) for dimensionality reduction, high-dimensional time series of quantitative strategies are transformed into a twodimensional, risk-premium-segmented space that preserves up to 90% of the original data structure. The model is capable of identifying nonlinear relationships and clustering strategies with similar risk factor exposures, enabling an insightful comparison of their relative performance. An application to equity strategies provides further insights into the positioning of each strategy within its peer group. Further, the model's capacity to detect diversifying strategies enhances portfolio completion by projecting and visualizing clusters that can complement an existing portfolio setup in order to ultimately target a higher degree of diversification. The results demonstrate the robustness of this approach in mapping complex investment strategies, providing investors with an intuitive and actionable framework for strategy selection and risk assessment.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "31a2043bb839e1affb5a9efa6965bfe3",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "manifold learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:04.528281"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过高级数据可视化技术对量化投资策略进行聚类和降维，以帮助投资者进行策略选择和风险分散，这直接应用于投资组合管理的领域。论文中提到的‘portfolio completion’和‘higher degree of diversification’明确表明了其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过高级数据可视化技术对量化投资策略进行聚类和降维，以帮助投资者进行策略选择和风险分散，这直接应用于投资组合管理的领域。论文中提到的‘portfolio completion’和‘higher degree of diversification’明确表明了其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:56.261813"
+}

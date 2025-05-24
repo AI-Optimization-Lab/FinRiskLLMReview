@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1487,
+    "title": "Credit risk evaluation using multi-criteria optimization classifier with kernel, fuzzification and penalty factors",
+    "abstract": "With the fast development of financial products and services, bank's credit departments collected large amounts of data, which risk analysts use to build appropriate credit scoring models to evaluate an applicant's credit risk accurately. One of these models is the Multi-Criteria Optimization Classifier (MCOC). By finding a trade-off between overlapping of different classes and total distance from input points to the decision boundary, MCOC can derive a decision function from distinct classes of training data and subsequently use this function to predict the class label of an unseen sample. In many real world applications, however, owing to noise, outliers, class imbalance, nonlinearly separable problems and other uncertainties in data, classification quality degenerates rapidly when using MCOC. In this paper, we propose a novel multi-criteria optimization classifier based on kernel, fuzzification, and penalty factors (KFP-MCOC): Firstly a kernel function is used to map input points into a high-dimensional feature space, then an appropriate fuzzy membership function is introduced to MCOC and associated with each data point in the feature space, and the unequal penalty factors are added to the input points of imbalanced classes. Thus, the effects of the aforementioned problems are reduced. Our experimental results of credit risk evaluation and their comparison with MCOC, support vector machines (SVM) and fuzzy SVM show that KFP-MCOC can enhance the separation of different applicants, the efficiency of credit risk scoring, and the generalization of predicting the credit rank of a new credit applicant. (C) 2014 Elsevier B.V. All rights reserved.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "86e3f635d1c1571525d40779179dc911",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.786970"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种新的多标准优化分类器（KFP-MCOC），用于信用风险评估。信用风险评估是金融风险管理中的一个重要组成部分，旨在准确评估申请人的信用风险。论文的实验结果也集中在信用风险评分和预测新信用申请人的信用等级上，这直接关联到金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是开发一种新的多标准优化分类器（KFP-MCOC），用于信用风险评估。信用风险评估是金融风险管理中的一个重要组成部分，旨在准确评估申请人的信用风险。论文的实验结果也集中在信用风险评分和预测新信用申请人的信用等级上，这直接关联到金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:42.994670"
+}

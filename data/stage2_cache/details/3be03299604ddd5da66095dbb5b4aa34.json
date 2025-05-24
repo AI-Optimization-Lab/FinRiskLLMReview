@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 664,
+    "title": "Kelly-Based Options Trading Strategies on Settlement Date via Supervised Learning Algorithms",
+    "abstract": "Option is a well-known financial derivative that attracts attention from investors and scholars, due to its flexible investment strategies. In this paper, we sought to establish an option trading system on settlement dates with money management and machine learning to improve the performance and to control risk. First, we fixed the odds of the option, and applied a machine learning algorithm to predict the win rate. Then, we adopted the money management module of Kelly criterion to obtain the optimal bidding fraction. In addition, we adopted ensemble learning algorithm to enhance the predicting power. The result of the experiments shows that the random forest and SVM have more powerful prediction capabilities in our experiments. Even if the prediction is barely acceptable, the systems still obtain profits and steadily rising equity curves through money management, which significantly reduce drawdown risk. In addition, the ensemble system achieves the outstanding trading performance with a profit factor of 2.429 and a Sharpe ratio of 1.227. Overall, the proposed option trading strategy can generate positive profit, and the money management module can well control the risk, and the ensemble learning module can significantly enhance the trading performance.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6e393b34729460c817b32592fa3cd826",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.285300"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究通过机器学习算法和Kelly准则来优化期权交易策略，旨在提高交易表现并控制风险。这涉及到金融风险管理中的风险控制（如减少回撤风险）和投资组合管理中的资金分配（如最优投标分数）。虽然涉及衍生品（期权），但核心不是定价，而是交易策略和风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文主要研究通过机器学习算法和Kelly准则来优化期权交易策略，旨在提高交易表现并控制风险。这涉及到金融风险管理中的风险控制（如减少回撤风险）和投资组合管理中的资金分配（如最优投标分数）。虽然涉及衍生品（期权），但核心不是定价，而是交易策略和风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:12.782137"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1932,
+    "title": "Recent advances in reinforcement learning in finance",
+    "abstract": "The rapid changes in the finance industry due to the increasing amount of data have revolutionized the techniques on data processing and data analysis and brought new theoretical and computational challenges. In contrast to classical stochastic control theory and other analytical approaches for solving financial decision-making problems that heavily reply on model assumptions, new developments from reinforcement learning (RL) are able to make full use of the large amount of financial data with fewer model assumptions and to improve decisions in complex financial environments. This survey paper aims to review the recent developments and use of RL approaches in finance. We give an introduction to Markov decision processes, which is the setting for many of the commonly used RL approaches. Various algorithms are then introduced with a focus on value- and policy-based methods that do not require any model assumptions. Connections are made with neural networks to extend the framework to encompass deep RL algorithms. We then discuss in detail the application of these RL algorithms in a variety of decision-making problems in finance, including optimal execution, portfolio optimization, option pricing and hedging, market making, smart order routing, and robo-advising. Our survey concludes by pointing out a few possible future directions for research.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8b6fa921562f8c2867c45e8d348b2ff5",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer",
+      "deep belief network",
+      "DBM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:06.214010"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提到强化学习在金融决策问题中的应用，包括期权定价和对冲（衍生品定价）以及投资组合优化（投资组合管理）。这些应用是论文讨论的核心内容之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"投资组合管理\"],\n  \"justification\": \"该论文明确提到强化学习在金融决策问题中的应用，包括期权定价和对冲（衍生品定价）以及投资组合优化（投资组合管理）。这些应用是论文讨论的核心内容之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:12.670098"
+}

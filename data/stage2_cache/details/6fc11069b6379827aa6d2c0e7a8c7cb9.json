@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 4417,
+    "title": "Research on Default Prediction for Credit Card Users Based on XGBoost-LSTM Model",
+    "abstract": "The credit card business has become an indispensable financial service for commercial banks. With the development of credit card business, commercial banks have achieved outstanding results in maintaining existing customers, tapping potential customers, and market share. During credit card operations, massive amounts of data in multiple dimensions-including basic customer information; billing, installment, and repayment information; transaction flows; and overdue records-are generated. Compared with preloan and postloan links, user default prediction of the on-loan link has a huge scale of data, which makes it difficult to identify signs of risk. With the recent growing maturity and practicality of technologies such as big data analysis and artificial intelligence, it has become possible to further mine and analyze massive amounts of transaction data. This study mined and analyzed the transaction flow data that best reflected customer behavior. XGBoost, which is widely used in financial classification models, and Long-Short Term Memory (LSTM), which is widely used in time-series information, were selected for comparative research.The accuracy of the XGBoost model depends on the degree of expertise in feature extraction, while the LSTM algorithm can achieve higher accuracy without feature extraction. The resulting XGBoost-LSTM model showed good classification performance in default prediction. The results of this study can provide a reference for the application of deep learning algorithms in the field of finance.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "af5fdc09c9e2146a34e2b8e410a74d51",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:37:16.735960"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting credit card user defaults using machine learning models, which is a key aspect of credit risk management within the broader field of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting credit card user defaults using machine learning models, which is a key aspect of credit risk management within the broader field of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:56.991037"
+}

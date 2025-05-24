@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 49,
+    "title": "DeepONet-Inspired Architecture for Efficient Financial Time Series Prediction",
+    "abstract": "Financial time series prediction is a fundamental problem in investment and risk management. Deep learning models, such as multilayer perceptrons, Convolutional Neural Networks (CNNs), and Long Short-Term Memory (LSTM), have been widely used in modeling time series data by incorporating historical information. Among them, LSTM has shown excellent performance in capturing long-term temporal dependencies in time-series data, owing to its enhanced internal memory mechanism. In spite of the success of these models, it is observed that in the presence of sharp changing points, these models fail to perform. To address this problem, we propose, in this article, an innovative financial time series prediction method inspired by the Deep Operator Network (DeepONet) architecture, which uses a combination of transformer architecture and a one-dimensional CNN network for processing feature-based information, followed by an LSTM based network for processing temporal information. It is therefore named the CNN-LSTM-Transformer (CLT) model. It not only incorporates external information to identify latent patterns within the financial data but also excels in capturing their temporal dynamics. The CLT model adapts to evolving market conditions by leveraging diverse deep-learning techniques. This dynamic adaptation of the CLT model plays a pivotal role in navigating abrupt changes in the financial markets. Furthermore, the CLT model improves the long-term prediction accuracy and stability compared with state-of-the-art existing deep learning models and also mitigates adverse effects of market volatility. The experimental results show the feasibility and superiority of the proposed CLT model in terms of prediction accuracy and robustness as compared to existing prediction models. Moreover, we posit that the innovation encapsulated in the proposed DeepONet-inspired CLT model also holds promise for applications beyond the confines of finance, such as remote sensing, data mining, natural language processing, and so on.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "77c88fd3397282ada27a1eb5fe93eb4c",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "representation learning",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:33:11.357567"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种用于金融时间序列预测的深度学习模型，旨在提高预测准确性和稳定性，并减轻市场波动的不利影响。这些目标直接关联到金融风险管理（如市场风险预测）和投资组合管理（如资产价格预测和动态调整投资策略）。论文明确提到其在投资和风险管理中的应用，但未提及衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文提出了一种用于金融时间序列预测的深度学习模型，旨在提高预测准确性和稳定性，并减轻市场波动的不利影响。这些目标直接关联到金融风险管理（如市场风险预测）和投资组合管理（如资产价格预测和动态调整投资策略）。论文明确提到其在投资和风险管理中的应用，但未提及衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:47.145824"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 110,
+    "title": "基于Heston模型和遗传算法优化的混合神经网络期权定价研究",
+    "abstract": "本文以Heston模型取代传统混合神经网络期权定价模型中的Black-Scholes(BS)模型,通过Back Propagation(BP)神经网络来拟合实际市场期权价格和Heston模型的期权价格的差值,并运用遗传算法来优化整个神经网络,建立了基于Heston模型和遗传算法的混合神经网络期权定价模型。应用这一模型,通过对香港恒生指数期权和上证50ETF期权的实证研究,结果表明:该模型相对于基于BS模型的混合神经网络模型和其他传统定价模型,有着更高的精确度,而且运用上证50ETF期权的Heston神经网络定价模型要比运用香港恒生指数期权的定价模型定价效果好,说明基于Heston神经网络期权定价模型在中国期权市场上有更好的适应性,为未来的期权定价提供新的模型指导,具有较大的参考价值。",
+    "year": 2018,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "7c0d543e38d26ea29f16a0ef454fca7a",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T20:36:18.877621"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是建立基于Heston模型和遗传算法的混合神经网络期权定价模型，并通过对香港恒生指数期权和上证50ETF期权的实证研究验证其精确度。这明确属于衍生品定价领域的研究。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是建立基于Heston模型和遗传算法的混合神经网络期权定价模型，并通过对香港恒生指数期权和上证50ETF期权的实证研究验证其精确度。这明确属于衍生品定价领域的研究。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:35.447608"
+}

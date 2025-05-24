@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 4976,
+    "title": "Research on Classification Method of Bank Statement in Low Resource and Cross-domain Scenarios",
+    "abstract": "Bank statement classification is of great value in the field of risk control and marketing in the financial industry, but the lack of annotated samples, cumbersome remark information, and large differences among different industries pose great challenges to model training. In this paper, based on the idea of Prompt-based Learning, we propose PDT: Prompt-based Data-to-text Template, which converts structure data into text containing background information, with the purpose of further releasing the capability of the pre-trained model. The experimental results show that the method can effectively solve the model training problem in low-resource and cross-domain scenario, and the model shows better performance under both Bidirectional Language Model (LM) method and Seq-to-Seq LM method compared with the original input.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "45e4eca959477500498e2add187a7f5b",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "deep learning",
+      "representation learning",
+      "sequence-to-sequence learning",
+      "seq2seq",
+      "Large Language Model",
+      "LLM",
+      "In-context Learning",
+      "Few-shot Learning",
+      "Zero-shot Learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:43:06.715978"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究银行流水分类方法，并提到其在风险控制领域的应用价值，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究银行流水分类方法，并提到其在风险控制领域的应用价值，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:31.539748"
+}

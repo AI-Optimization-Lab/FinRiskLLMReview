@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2362,
+    "title": "Wombit: A Portfolio Bit-Vector Solver Using Word-Level Propagation",
+    "abstract": "We develop an idea originally proposed by Michel and Van Hentenryck of how to perform bit-vector constraint propagation on the word level. Most operations are propagated in constant time, assuming the bit-vector fits in a machine word. In contrast, bit-vector SMT solvers usually solve bit-vector problems by (ultimately) bit-blasting, that is, mapping the resulting operations to conjunctive normal form clauses, and using SAT technology to solve them. Bit-blasting generates intermediate variables which can be an advantage, as these can be searched on and learnt about. As each approach has advantages, it makes sense to try to combine them. In this paper, we describe an approach to bit-vector solving using word-level propagation with learning. We have designed alternative word-level propagators to Michel and Van Hentenryck's, and evaluated different variants of the approach. We have also experimented with different approaches to learning and back-jumping in the solver. Based on the insights gained, we have built a portfolio solver, Wombit, which essentially extends the STP bit-vector solver. Using machine learning techniques, the solver makes a judicious up-front decision about whether to use word-level propagation or fall back on bit-blasting.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e562a86e1f3b0453674dd9593edf2f78",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:10.712497"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是位向量约束传播和求解器的优化技术，虽然标题中提到了'Portfolio'，但这里的'Portfolio'指的是求解器的组合而非金融投资组合。论文的核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是位向量约束传播和求解器的优化技术，虽然标题中提到了'Portfolio'，但这里的'Portfolio'指的是求解器的组合而非金融投资组合。论文的核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:28.989714"
+}

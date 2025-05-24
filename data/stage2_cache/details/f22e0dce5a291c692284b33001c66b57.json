@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 5078,
+    "title": "A novel multifactor clustering integration paradigm based on two-stage feature engineering and improved bidirectional deep neural networks for exchange rate forecasting",
+    "abstract": "Accurate exchange rate forecasting is of great importance for foreign exchange investment, hedging foreign exchange risk and international economic transactions. However, it is extremely challenging to make accurate forecasts for exchange rates because of their high volatility, nonlinearity, and non-stationarity. Based on this, this paper proposes a multifactor clustering integration paradigm for exchange rate prediction. From the classical theory of exchange rate determination, a comprehensive library of factors affecting the exchange rate is constructed. A two-stage feature engineering is constructed to capture the stable structure of features. In order to enable features to be learned adequately and to improve algorithmic efficiency and predictive performance, a novel clustering integration paradigm is constructed to improve the stability of the model. The framework builds different predictive sub-models for different data, and then embeds Bayesian optimization algorithms into the bidirectional deep neural networks. Finally, the output results of different sub-models are integrated using nonlinear integration techniques. In addition, the superiority of the proposed model is verified using eight comparative models. The results of the empirical analysis show that the average percentage error of our proposed model is the lowest among all the comparative models (0.412648 %, 0.515348 %, and 0.329892 % on the three datasets, respectively). Compared to the standard LSTM, the average percentage error is at least 88 % lower, proving the effectiveness of the proposed model. It can help investors to make better decisions in the international financial markets.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fbb0c9b11ecf587221f12decc4f2ecae",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "clustering",
+      "feature learning",
+      "feature representation",
+      "representation learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:44:10.995272"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是提出了一种用于汇率预测的多因素聚类集成范式，旨在帮助投资者在国际金融市场中做出更好的决策。汇率预测与外汇风险管理密切相关，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种用于汇率预测的多因素聚类集成范式，旨在帮助投资者在国际金融市场中做出更好的决策。汇率预测与外汇风险管理密切相关，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:09.811692"
+}

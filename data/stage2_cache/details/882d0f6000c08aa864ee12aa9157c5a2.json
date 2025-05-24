@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 328,
+    "title": "Improving Pairs Trading Strategies Using Two-Stage Deep Learning Methods and Analyses of Time (In)variant Inputs for Trading Performance",
+    "abstract": "A pairs trading strategy (PTS) constructs and monitors a stationary portfolio by shorting (longing) when the portfolio is adequately over- (under-)priced measured by a predetermined open threshold. We close this position to earn the price differences when the portfolio's value reverts back to the mean level. When the portfolio is significantly over- (under-)priced measured by another predetermined stop-loss threshold, we close the position to stop loss. This paper develops a two-stage deep learning method to improve the investment performance of a PTS. Note that the literature executes a PTS by selecting the best trigger threshold (a combination of open and stop-loss thresholds) from a restricted, heuristically-determined set of trigger thresholds. Such a design significantly degrades investment performance. However, selecting the best threshold from all possible thresholds yields a non-converged training problem. To resolve this dilemma, we propose in the first stage of our method a representative label mechanism by which to construct a set of candidate trigger thresholds based on all possible thresholds and then train a deep learning (DL) model to select the best from the set. Experiments demonstrate that the proposed first-stage method avoids the non-converged training problem and outperforms most state-of-the-art methods. To further reduce the trading risk, the second stage trains another DL with the profitability of each trade labeled by executing the PTS with trigger thresholds recommended in the first-stage mechanism to remove unprofitable trades. Compared to models that indirectly judge profitability by price movement similarity without considering the quality of the recommended trigger thresholds, our model produces higher win rates and average profits. Furthermore, we find that training with the PTS portfolio value process exhibiting time invariance clearly outperforms training with only time-varying stock/return processes, even though the latter training set contains more information. This is because unpredictable changes in market trends cause the model to learn time-varying patterns from the training set that may not apply to the testing set.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "11a0e3b3f193430f6a1c873bb71cc0c3",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:44.400839"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种两阶段深度学习方法，用于改进配对交易策略（Pairs Trading Strategy）的投资表现。配对交易策略涉及构建和监控一个平稳的投资组合，并通过买卖操作来获取价格差异。这直接属于投资组合管理的范畴，因为其主要关注如何优化投资组合的构建和交易策略以提高收益和降低风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种两阶段深度学习方法，用于改进配对交易策略（Pairs Trading Strategy）的投资表现。配对交易策略涉及构建和监控一个平稳的投资组合，并通过买卖操作来获取价格差异。这直接属于投资组合管理的范畴，因为其主要关注如何优化投资组合的构建和交易策略以提高收益和降低风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:07.068064"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1552,
+    "title": "Traditional Prediction Techniques and Machine Learning Approaches for Financial Time Series Analysis",
+    "abstract": "Accurate financial time series forecasting is critical for effective decision making in areas such as risk management, portfolio optimization, and trading. Given the complexity and volatility of financial markets, traditional forecasting methods often fail to capture the underlying dynamics. Recent advances in artificial neural network (ANN) forecasting research indicate that ANNs present a valuable alternative to traditional linear methods, such as autoregressive integrated moving average (ARIMA). However, time series are typically influenced by a combination of factors which require to consider both linear and non-linear characteristics. This paper proposes a new hybrid model that integrates ARIMA and ANN models such as long short-term memory and gated recurrent unit neural network to leverage the distinct strengths of both linear and non-linear modeling. Moreover, the goodness of the proposed model is evaluated through a comparative analysis of the ARIMA, ANN and Zhang hybrid model, using three financial datasets (i.e., Unicredit SpA stock price, EUR/USD exchange rate and Bitcoin closing price). Various absolute and relative error metrics, computed to evaluate the performance of models, can support the use of the proposed approach. The Diebold-Mariano (DM) test is also implemented to asses the significance of the obtained differences of the hybrid model with respect to the other competing models.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3e85f11627e70e1f5b2ce0dfbfab3a74",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:04:20.129759"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种混合模型（ARIMA与ANN结合）用于金融时间序列预测，并明确提到其应用场景包括风险管理和投资组合优化。论文的实验部分使用了股票价格、汇率和比特币价格等金融数据，进一步支持了其在金融风险管理和投资组合管理领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种混合模型（ARIMA与ANN结合）用于金融时间序列预测，并明确提到其应用场景包括风险管理和投资组合优化。论文的实验部分使用了股票价格、汇率和比特币价格等金融数据，进一步支持了其在金融风险管理和投资组合管理领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:19.937871"
+}

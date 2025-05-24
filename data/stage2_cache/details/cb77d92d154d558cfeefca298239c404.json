@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 30,
+    "title": "Multi-scale least squares support vector machine for financial time series forecasting",
+    "abstract": "Financial time series is of scale property, such as price fluctuation data. It is very significant for the derivative price, risk control, market management and price forecasting to research the scale property of price fluctuation data. Recent studies have revealed that emerging modern machine learning techniques are advantageous to statistical models for time series forecasting, such as artificial neural network (ANN) and support vector regression (SVR). Least squares support vector machine achieves faster speed at the cost of loosing the sparseness. In this paper, we propose a new method, called multi-scale sparse least squares support vector machine (MS-LS-SVM), to design futures price forecasting system, and achieve the multi-scale decomposition, modeling for the sub-systems and the integration adaptively. The multi-scale decomposition for the original data is obtained by wavelet packet decomposition and the correlations among these scales are obtained by the way of learning MS-LS-SVM. Experiments in futures time series prediction demonstrate that MS-LS-SVM can achieve excellent performance and sparseness at the same time. In addition, the effect of different scales for the output can be achieved. The proposed method improves the interpretability and gives another way for model evaluation.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "76fa3edced435e79323caf5742e0012b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:03.808363"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种多尺度最小二乘支持向量机方法，用于期货价格预测系统。期货价格预测直接关联到衍生品定价，同时也对金融风险管理（如风险控制）有重要意义。摘要中明确提到了这些应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文提出了一种多尺度最小二乘支持向量机方法，用于期货价格预测系统。期货价格预测直接关联到衍生品定价，同时也对金融风险管理（如风险控制）有重要意义。摘要中明确提到了这些应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:32.805742"
+}

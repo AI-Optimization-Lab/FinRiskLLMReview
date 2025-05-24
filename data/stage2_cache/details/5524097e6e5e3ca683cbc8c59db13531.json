@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 4756,
+    "title": "Forecasting time to risk based on multi-party data: An explainable privacy-preserving decentralized survival analysis method",
+    "abstract": "Forecasting time-to-risk poses a challenge in the information processing and risk management within financial markets. While previous studies have focused on centralized survival analysis, how to forecast the time to risk using multi-party data in a decentralized and privacy-preserving setting with the requirements of explainability and mitigating information redundancy is still challenging. To this end, we propose an explainable, privacy-preserving, decentralized survival analysis method. Specifically, we transform time-to-risk forecasting into a multi-label learning problem by independently modeling for multiple time horizons. For each forecasting time horizon, we use Taylor expansion and homomorphic encryption to securely build a decentralized logistic regression model. Considering the information redundancy among multiple parties, we design and add decentralized regularizations to each model. We also propose a decentralized proximal gradient descent method to estimate the decentralized coefficients. Empirical evaluation shows that the proposed method yields competitive forecasting performance and explainable results as compared to benchmarked methods.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1b3649b52a50bfd15fa15a9bd24be8e8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:40:28.001180"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on forecasting time-to-risk in financial markets using a decentralized and privacy-preserving survival analysis method, which is directly related to risk assessment and management in financial contexts.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on forecasting time-to-risk in financial markets using a decentralized and privacy-preserving survival analysis method, which is directly related to risk assessment and management in financial contexts.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:57.759907"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 378,
+    "title": "Implementation of the Longstaff and Schwartz American Option Pricing Model on FPGA",
+    "abstract": "American style options are widely used financial products, whose pricing is a challenging problem due to their path dependency characteristic. Finite difference methods and tree-based methods can be used for American option pricing. However, the major drawback of these methods is that they can often only handle one or two sources of uncertainty; for more state variables they become computationally prohibitive, with computation times typically increasing exponentially with the number of state variables. Alternative solutions are the extended Monte Carlo methods, such as the Least-Squares Monte Carlo (LSMC) method suggested by Longstaff and Schwartz, which uses of regression to estimate continuation values from simulated paths. In this paper, we present an FPGA hardware architecture for the acceleration of the LSMC method, with Quasi-Monte Carlo path generation. Our FPGA hardware implementation on a Xilinx Virtex-4 XC4VFX100 chip achieves 25x and 18x speed-ups in the path generation and regression steps, respectively, compared to an equivalent pure software implementation captured in C++ and run on an Intel Xeon 2.8 GHz CPU. This provides overall speed-up of 20x compared to a CPU-based implementation. Power measurements also show that our FPGA implementation is 54x more energy efficient than the pure software implementation.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "d23055dca836650204d7c09d64f9f185",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:13.192919"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用FPGA硬件架构加速Longstaff和Schwartz提出的Least-Squares Monte Carlo (LSMC)方法，用于美式期权的定价。美式期权是一种衍生品，因此该论文的主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用FPGA硬件架构加速Longstaff和Schwartz提出的Least-Squares Monte Carlo (LSMC)方法，用于美式期权的定价。美式期权是一种衍生品，因此该论文的主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:12.992218"
+}

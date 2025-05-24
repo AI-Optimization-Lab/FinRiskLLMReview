@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1702,
+    "title": "SUSTAINABLE ECONOMY INSPIRED LARGE-SCALE FEED-FORWARD PORTFOLIO CONSTRUCTION",
+    "abstract": "To understand large-scale portfolio construction tasks we analyse sustainable economy problems by splitting up large tasks into smaller ones and offer an evolutional feed-forward system-based approach. The theoretical justification for our solution is based on multivariate statistical analysis of multidimensional investment tasks, particularly on relations between data size, algorithm complexity and portfolio efficacy. To reduce the dimensionality/sample size problem, a larger task is broken down into smaller parts by means of item similarity clustering. Similar problems are given to smaller groups to solve. Groups, however, vary in many aspects. Pseudo randomly-formed groups compose a large number of modules of feed-forward decision-making systems. The evolution mechanism forms collections of the best modules for each single short time period. Final solutions are carried forward to the global scale where a collection of the best modules is chosen using a multiclass cost-sensitive perceptron. Collected modules are combined in a final solution in an equally weighted approach (1/N Portfolio). The efficacy of the novel decision-making approach was demonstrated through a financial portfolio optimization problem, which yielded adequate amounts of real world data. For portfolio construction, we used 11,730 simulated trading robot performances. The dataset covered the period from 2003 to 2012 when environmental changes were frequent and largely unpredictable. Walk-forward and out-of-sample experiments show that an approach based on sustainable economy principles outperforms benchmark methods and that shorter agent training history demonstrates better results in periods of a changing environment.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c801cf5c05fc3431969967227688d642",
+    "relevant_keywords": [
+      "clustering",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:50.593048"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on large-scale portfolio construction tasks, utilizing a feed-forward system-based approach and multivariate statistical analysis to optimize financial portfolios. The research demonstrates the efficacy of this approach through financial portfolio optimization problems, which is a core aspect of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on large-scale portfolio construction tasks, utilizing a feed-forward system-based approach and multivariate statistical analysis to optimize financial portfolios. The research demonstrates the efficacy of this approach through financial portfolio optimization problems, which is a core aspect of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:15.321807"
+}

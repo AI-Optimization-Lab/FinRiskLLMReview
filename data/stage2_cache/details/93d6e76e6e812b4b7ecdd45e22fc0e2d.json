@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 214,
+    "title": "Improving neural network based option price forecasting",
+    "abstract": "As is widely known, the popular Black & Scholes model for option pricing suffers from systematic biases, as it relies on several highly questionable assumptions. In this paper we study the ability of neural networks (MLPs) in pricing call options on the S&P 500 index; in particular we investigate the effect of the hidden neurons in the in- and out-of-sample pricing. We modify the Black & Scholes model given the price of an option based on the no-arbitrage value of a forward contract, written on the same underlying asset, and we derive a modified formula that can be used for our purpose. Instead of using the standard backpropagation training algorithm we replace it with the Levenberg-Marquardt approach. By modifying the objective function of the neural network, we focus the learning process on more interesting areas of the implied volatility surface. The results from this transformation are encouraging.",
+    "year": 2006,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "8a67e29cac8af523322fbc066da2410d",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.170622"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用神经网络改进期权定价模型，特别是针对S&P 500指数的看涨期权定价。论文明确讨论了修改Black & Scholes模型以更好地定价期权，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用神经网络改进期权定价模型，特别是针对S&P 500指数的看涨期权定价。论文明确讨论了修改Black & Scholes模型以更好地定价期权，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:04.793797"
+}

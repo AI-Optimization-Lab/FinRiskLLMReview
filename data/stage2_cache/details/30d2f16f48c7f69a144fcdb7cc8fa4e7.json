@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 98,
+    "title": "Multi-period mean-variance portfolio selection with real constraints based on machine learning",
+    "abstract": "Machine learning has been widely applied to predict asset returns and can improve static portfolio selection model performance by handling complex financial information. However, investment is a dynamic process in the real world. This paper studies a multi-period portfolio selection problem based on machine learning. The mean and variance of the multi-period portfolio selection are calculated by the predicted returns, which are forecasted by Support Vector Regression, Elastic-Net, and eXtreme Gradient Boosting. By considering transaction costs, borrowing constraints, upper and lower bounds, cardinality constraints, and bankruptcy control, a novel multi-period mean-variance portfolio selection model with real constraints based on machine learning is proposed. Due to the transaction costs, cardinality constraints, and bankruptcy control, the proposed model is a non-linear mix-integer programming problem with path dependence, which is an NP-Hard problem. The solution can be obtained by Particle Swarm Optimization, Differential Evolution, Genetic Algorithm, and Immune Algorithm, respectively. The 39 assets of the Shanghai Stock Exchange (SSE), China, from January 1, 2013, until December 31, 2022, are collected as a case. The in-sample analysis explores the impact of parameters on the terminal wealth. The out-of-sample analysis evaluates the efficiency and advantages of the proposed model by comparing it with three benchmark models. Machine Learning reduces the prediction error of asset returns, and helps improve the effectiveness of multi-period investment. The proposed model is practical because it introduces realistic constraints and can be applied in stock and fund management.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7cb3257e405325f7f7727c20194b36c6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.465492"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是使用机器学习方法改进多期均值-方差投资组合选择模型，并考虑了实际约束条件如交易成本、借贷约束等。这直接属于投资组合管理领域的研究。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是使用机器学习方法改进多期均值-方差投资组合选择模型，并考虑了实际约束条件如交易成本、借贷约束等。这直接属于投资组合管理领域的研究。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:50.219452"
+}

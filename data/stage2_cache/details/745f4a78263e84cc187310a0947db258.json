@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3751,
+    "title": "Path-wise estimators and cross-path regressions: An application to evaluating portfolio strategies",
+    "abstract": "Recently developed dual techniques allow us to evaluate a given sub-optimal dynamic portfolio policy by using the policy to construct an upper bound on the optimal value function. Moreover, when the policy is in fact optimal, the upper bound coincides with the optimal value function. Since it is easy to construct a lower bound by simulating the given policy, we may use the distance from the lower bound to the upper bound to assess the quality of the policy. One of the difficulties that arises when computing the upper bound, however, is that we need to know the suboptimal policy's value function and its partial derivatives with respect to all state variables. If these quantities are not available analytically, then an alternative upper bound can still be computed but it is less satisfying from a theoretical perspective. In this paper we show how path-wise Monte Carlo estimators together with the cross-path regression approach can be used used to estimate the sub-optimal value function and its derivatives, thereby enabling us to compute the more theoretically satisfying upper bound on the optimal value function.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "98f1d02ecafd35d542f4187d3bbb1678",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:20:35.972688"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是评估动态投资组合策略的质量，通过构建上下界来评估策略的优劣，这直接属于投资组合管理的研究范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是评估动态投资组合策略的质量，通过构建上下界来评估策略的优劣，这直接属于投资组合管理的研究范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:50.836668"
+}

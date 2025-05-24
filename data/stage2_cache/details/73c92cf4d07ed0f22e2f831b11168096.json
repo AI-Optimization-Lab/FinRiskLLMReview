@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 655,
+    "title": "Quantifying credit portfolio sensitivity toasset correlations with interpretablegenerative neural networks",
+    "abstract": "We propose a novel approach for quantifying the sensitivity of credit portfolio value-at-risk to asset correlations with the use of synthetic financial correlation matrixesgenerated with deep learning models. In previous work, generative adversarial net-works (GANs) were employed to demonstrate the generation of plausible correlationmatrixes that capture the essential characteristics observed in empirical correlationmatrixes estimated on asset returns. Instead of GANs, we employ variational autoen-coders (VAEs) to achieve a more interpretable latent space representation and toobtain a generator of plausible correlation matrixes by sampling the VAE's latentspace. Through our analysis, we reveal that the VAE's latent space can be a use-ful tool to capture the crucial factors impacting portfolio diversification, particularlyin relation to the sensitivity of credit portfolios to changes in asset correlations. AVAE trained on the historical time series of correlation matrixes is used to generatesynthetic correlation matrixes that satisfy a set of expected financial properties. Our analysis provides clear indications that the capacity for realistic data augmentationprovided by VAEs, combined with the ability to obtain model interpretability, canprove useful for risk management, enhancing the resilience and accuracy of modelswhen backtesting, as past data may exhibit biases and might not contain the essentialhigh-stress events required for evaluating diverse risk scenarios.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "819aa544978c5123377a8581c7e656fc",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder",
+      "variational autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:40:51.203832"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用变分自编码器（VAEs）生成合成金融相关矩阵，以量化信用组合对资产相关性的敏感性，并增强风险管理的模型准确性和韧性。这直接涉及金融风险管理中的信用风险建模和压力测试。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用变分自编码器（VAEs）生成合成金融相关矩阵，以量化信用组合对资产相关性的敏感性，并增强风险管理的模型准确性和韧性。这直接涉及金融风险管理中的信用风险建模和压力测试。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:29.329212"
+}

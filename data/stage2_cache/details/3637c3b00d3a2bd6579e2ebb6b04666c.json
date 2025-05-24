@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2548,
+    "title": "THE MESH ADAPTIVE DIRECT SEARCH ALGORITHM FOR PERIODIC VARIABLES",
+    "abstract": "This work analyzes constrained blackbox optimization in which the functions defining the problem are periodic with respect to some or all the variables. We show that the natural strategy of mapping trial points into the interval defined by the period in the Mesh Adaptive Direct Search (MADs) framework can be easily done in practice, and the convergence analysis does not suffer any loss if some minor algorithmic conditions are met. The proposed strategy is tested on a nonsmooth classification problem and on a biobjective portfolio selection problem for which MADS is repeatedly used on single-objective problems.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "328e684d9d648eb34cb8313264af2b6f",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:08:10.740546"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中提到该算法被应用于一个双目标投资组合选择问题，这明确属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中提到该算法被应用于一个双目标投资组合选择问题，这明确属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:04.840724"
+}

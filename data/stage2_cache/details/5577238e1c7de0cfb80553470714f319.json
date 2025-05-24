@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 6059,
+    "title": "Clustering Financial Return Distributions Using the Fisher Information Metric",
+    "abstract": "Information geometry provides a correspondence between differential geometry and statistics through the Fisher information matrix. In particular, given two models from the same parametric family of distributions, one can define the distance between these models as the length of the geodesic connecting them in a Riemannian manifold whose metric is given by the model's Fisher information matrix. One limitation that has hindered the adoption of this similarity measure in practical applications is that the Fisher distance is typically difficult to compute in a robust manner. We review such complications and provide a general form for the distance function for one parameter model. We next focus on higher dimensional extreme value models including the generalized Pareto and generalized extreme value distributions that will be used in financial risk applications. Specifically, we first develop a technique to identify the nearest neighbors of a target security in the sense that their best fit model distributions have minimal Fisher distance to the target. Second, we develop a hierarchical clustering technique that utilizes the Fisher distance. Specifically, we compare generalized extreme value distributions fit to block maxima of a set of equity loss distributions and group together securities whose worst single day yearly loss distributions exhibit similarities.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "46176762db899db021decc61e4f0f820",
+    "relevant_keywords": [
+      "clustering",
+      "manifold learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:54:03.536860"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on clustering financial return distributions using the Fisher Information Metric, specifically mentioning applications in financial risk through the use of generalized Pareto and generalized extreme value distributions to analyze equity loss distributions and group securities based on similarities in their worst single day yearly loss distributions. This directly relates to assessing and managing financial risks.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on clustering financial return distributions using the Fisher Information Metric, specifically mentioning applications in financial risk through the use of generalized Pareto and generalized extreme value distributions to analyze equity loss distributions and group securities based on similarities in their worst single day yearly loss distributions. This directly relates to assessing and managing financial risks.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:55.180792"
+}

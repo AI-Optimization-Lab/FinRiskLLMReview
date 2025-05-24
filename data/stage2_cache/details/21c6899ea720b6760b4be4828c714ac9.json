@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 6520,
+    "title": "The Effect of Decentralized Behavioral Decision Making on System-Level Risk",
+    "abstract": "Certain classes of system-level risk depend partly on decentralized lay decision making. For instance, an organization's network security risk depends partly on its employees' responses to phishing attacks. On a larger scale, the risk within a financial system depends partly on households' responses to mortgage sales pitches. Behavioral economics shows that lay decisionmakers typically depart in systematic ways from the normative rationality of expected utility (EU), and instead display heuristics and biases as captured in the more descriptively accurate prospect theory (PT). In turn, psychological studies show that successful deception ploys eschew direct logical argumentation and instead employ peripheral-route persuasion, manipulation of visceral emotions, urgency, and familiar contextual cues. The detection of phishing emails and inappropriate mortgage contracts may be framed as a binary classification task. Signal detection theory (SDT) offers the standard normative solution, formulated as an optimal cutoff threshold, for distinguishing between good/bad emails or mortgages. In this article, we extend SDT behaviorally by rederiving the optimal cutoff threshold under PT. Furthermore, we incorporate the psychology of deception into determination of SDT's discriminability parameter. With the neo-additive probability weighting function, the optimal cutoff threshold under PT is rendered unique under well-behaved sampling distributions, tractable in computation, and transparent in interpretation. The PT-based cutoff threshold is (i) independent of loss aversion and (ii) more conservative than the classical SDT cutoff threshold. Independently of any possible misalignment between individual-level and system-level misclassification costs, decentralized behavioral decisionmakers are biased toward underdetection, and system-level risk is consequently greater than in analyses predicated upon normative rationality.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c3c20afadf720b63e854e273959aea50",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:59:07.420042"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要探讨了分散行为决策对系统级风险的影响，特别是在金融系统中家庭对抵押贷款销售的反应。论文通过行为经济学和信号检测理论来优化分类阈值，以减少系统级风险，这直接关联到金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要探讨了分散行为决策对系统级风险的影响，特别是在金融系统中家庭对抵押贷款销售的反应。论文通过行为经济学和信号检测理论来优化分类阈值，以减少系统级风险，这直接关联到金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:52.598881"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 214,
+    "title": "Application of deep learning model under improved emd in railway transportation investment benefits and national economic attribute analysis",
+    "abstract": "The railway transportation industry is one of the essential factors to promote economic development, so research is made on improving the investment benefit of construction planning of the railway transportation industry, and on this basis, the national emergency attribute is analyzed. A prediction model of railway transportation investment benefits and national economic attributes based on EEMD-LSTM (ensemble empirical mode decomposition-long-short-term memory) model is proposed. The EEMD algorithm is used to decompose the daily investment price of the railway transportation industry to obtain the IMF (intrinsic mode function) with different cycle characteristics. The daily investment price, IMF component, and residual series of the railway transportation industry are taken as input data. The input data are transmitted through the LSTM model to predict the investment price of the next day. The results show that the EEMD-LSTM model can retain the advantages of EEMD and LSTM and meet the accurate prediction of financial data. The model has good performance for the fitting of actual data and forecast data, and the model has the highest prediction accuracy of 0.2964%. In conclusion, the model proposed is a useful model for predicting financial time series. The exploration can provide an absolute theoretical basis for the formulation and planning of investment risk coping strategies of the railway transportation industry and provide particular theoretical support for the national economic attribute and positioning of the railway transportation industry.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "691512c2af1ca58cbcbe447786721866",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.608491"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是铁路运输行业的投资效益和国民经济属性分析，虽然使用了金融时间序列预测的方法，但其核心应用场景并非衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是铁路运输行业的投资效益和国民经济属性分析，虽然使用了金融时间序列预测的方法，但其核心应用场景并非衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:02.798556"
+}

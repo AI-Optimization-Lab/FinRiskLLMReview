@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2694,
+    "title": "A stock market portfolio recommender system based on association rule mining",
+    "abstract": "We propose a stock market portfolio recommender system based on association rule mining (ARM) that analyzes stock data and suggests a ranked basket of stocks. The objective of this recommender system is to support stock market traders, individual investors and fund managers in their decisions by suggesting investment in a group of equity stocks when strong evidence of possible profit from these transactions is available. Our system is different compared to existing systems because it finds the correlation between stocks and recommends a portfolio. Existing techniques recommend buying or selling a single stock and do not recommend a portfolio. We have used the support confidence framework for generating association rules. The use of traditional ARM is infeasible because the number of association rules is exponential and finding relevant rules from this set is difficult. Therefore ARM techniques have been augmented with domain specific techniques like formation of thematical sectors, use of cross-sector and intra-sector rules to overcome the disadvantages of traditional ARM. We have implemented novel methods like using fuzzy logic and the concept of time lags to generate datasets from actual data of stock prices. Thorough experimentation has been performed on a variety of datasets like the BSE-30 sensitive Index, the S&P CNX Nifty or NSE-50, S&P CNX-100 and DOW-30 Industrial Average. We have compared the returns of our recommender system with the returns obtained from the top-5 mutual funds in India. The results of our system have surpassed the results from the mutual funds for all the datasets. Our approach demonstrates the application of soft computing techniques like ARM and fuzzy classification in the design of recommender systems. (C) 2012 Elsevier B.V. All rights reserved.",
+    "year": 2013,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "49ee5fbefc361db1b29acef53c586b05",
+    "relevant_keywords": [
+      "classification",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:43.302389"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于关联规则挖掘的股票市场投资组合推荐系统，旨在为投资者和基金经理提供股票组合建议，这直接属于投资组合管理的范畴。论文的研究目标和实验设计都集中在如何优化和推荐股票投资组合，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于关联规则挖掘的股票市场投资组合推荐系统，旨在为投资者和基金经理提供股票组合建议，这直接属于投资组合管理的范畴。论文的研究目标和实验设计都集中在如何优化和推荐股票投资组合，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:16.570390"
+}

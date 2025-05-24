@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 473,
+    "title": "Two-stage credit rating prediction using machine learning techniques",
+    "abstract": "Purpose - Credit ratings have become one of the primary references for financial institutions to assess credit risk. Conventional credit rating approaches mainly concentrated on two-class classification (i. e. good or bad credit), which lacks adequate precision to perform credit risk evaluations in practice. In addition, most of previous researches directly focussed on employing various data mining techniques, but rare studies discussed the influence of data preprocessing before classifier construction. The paper aims to discuss these issues. Design/methodology/approach - This study considers nine-class classification (i. e. nine credit risk level) to credit rating prediction. For the development of more accurate classifiers, the paper adopts two-stage analysis, which integrates multiple data preprocessing and supervised learning techniques. Specifically, the first stage applies feature selection, data clustering, and data resampling methods to preprocess the data, and then the second stage utilizes several classification techniques and classifier ensembles to construct prediction models. Findings - The results show that Bagging-DT with data resampling method achieves excellent accuracy (82.96 percent), indicating that the proposed two-stage prediction model is better than conventional one-stage models. Originality/value - Practical implication of this study can lower credit rating expenses and also allow corporations to gain credit rating information instantly.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "89afe12fb5dbf76912560035e1f3b51e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "clustering",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:51:31.201434"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法进行信用评级预测，这直接应用于信用风险评估，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法进行信用评级预测，这直接应用于信用风险评估，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:39.706296"
+}

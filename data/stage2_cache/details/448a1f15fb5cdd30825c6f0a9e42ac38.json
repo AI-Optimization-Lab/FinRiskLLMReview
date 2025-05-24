@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 298,
+    "title": "A Multilevel Monte Carlo Method for the Valuation of Swing Options",
+    "abstract": "In this study, we propose a novel approach for the valuation of swing options. Swing options are a kind of American options with multiple exercise rights traded in energy markets. Longstaff and Schwartz have suggested a regression-based Monte Carlo method known as the least-squares Monte Carlo (LSMC) method to value American options. In this work, first we introduce the LSMC method for the pricing of swing options. Then, to achieve a desired accuracy for the price estimation, we combine the idea of LSMC with multilevel Monte Carlo (MLMC) method. Finally, to illustrate the proper behavior of this combination, we conduct numerical results based on the Black-Scholes model. Numerical results illustrate the efficiency of the proposed approach.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "73bad69c53cfc1d9ade26dc7f17269ef",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.242072"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出了一种用于估值摆动期权（一种衍生品）的多级蒙特卡洛方法，并基于Black-Scholes模型进行了数值实验。摆动期权是能源市场中交易的一种具有多次行权权利的美式期权，因此该研究主要应用于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出了一种用于估值摆动期权（一种衍生品）的多级蒙特卡洛方法，并基于Black-Scholes模型进行了数值实验。摆动期权是能源市场中交易的一种具有多次行权权利的美式期权，因此该研究主要应用于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:38.191065"
+}

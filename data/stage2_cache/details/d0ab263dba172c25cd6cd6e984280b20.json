@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 8487,
+    "title": "Probabilistic Flood Loss Models for Companies",
+    "abstract": "Flood loss modeling is a central component of flood risk analysis. Conventionally, this involves univariable and deterministic stage-damage functions. Recent advancements in the field promote the use of multivariable and probabilistic loss models, which consider variables beyond inundation depth and account for prediction uncertainty. Although companies contribute significantly to total loss figures, novel modeling approaches for companies are lacking. Scarce data and the heterogeneity among companies impede the development of company flood loss models. We present three multivariable flood loss models for companies from the manufacturing, commercial, financial, and service sector that intrinsically quantify prediction uncertainty. Based on object-level loss data (n = 1,306), we comparatively evaluate the predictive capacity of Bayesian networks, Bayesian regression, and random forest in relation to deterministic and probabilistic stage-damage functions, serving as benchmarks. The company loss data stem from four postevent surveys in Germany between 2002 and 2013 and include information on flood intensity, company characteristics, emergency response, private precaution, and resulting loss to building, equipment, and goods and stock. We find that the multivariable probabilistic models successfully identify and reproduce essential relationships of flood damage processes in the data. The assessment of model skill focuses on the precision of the probabilistic predictions and reveals that the candidate models outperform the stage-damage functions, while differences among the proposed models are negligible. Although the combination of multivariable and probabilistic loss estimation improves predictive accuracy over the entire data set, wide predictive distributions stress the necessity for the quantification of uncertainty.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9eec166aca11296bf73edbf8b34da006",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree",
+      "random forest"
+    ],
+    "stage1_timestamp": "2025-05-15T03:19:21.331283"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究洪水损失建模，虽然涉及金融行业（如金融和服务业），但其核心技术是用于预测洪水对公司造成的损失，并未直接应用于衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究洪水损失建模，虽然涉及金融行业（如金融和服务业），但其核心技术是用于预测洪水对公司造成的损失，并未直接应用于衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:36.666839"
+}

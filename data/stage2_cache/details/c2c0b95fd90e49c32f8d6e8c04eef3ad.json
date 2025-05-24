@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 462,
+    "title": "Random Matrix Theory and Nested Clustered Optimization on high-dimensional portfolios",
+    "abstract": "This work aims to address the optimal allocation instability problem of Markowitz's modern portfolio theory in high dimensionality. We propose a combined strategy that considers covariance matrix estimators from Random Matrix Theory (RMT) and the machine learning allocation methodology known as Nested Clustered Optimization (NCO). The latter methodology is modified and reformulated in terms of the spectral clustering algorithm and Minimum Spanning Tree (MST) to solve internal problems inherent in the original proposal. Markowitz's classical mean-variance allocation and the modified NCO machine learning approach are tested on the financial instruments that compose the S&P 500 index listed on the New York Stock Exchange (NYSE) from 2012 to 2021. The modified NCO algorithm achieves stable allocations by incorporating RMT covariance estimators. A particular combination of covariance estimators, known as two-step estimators involving a hierarchical clustering technique, achieves the best portfolio performance. Surprisingly, a common pattern suggests that the improvement in performance is agnostic to the allocation strategy and, in fact, relies heavily on the covariance estimator selection. Our results suggest that the amount of leverage can be drastically reduced in investment strategies through RMT inference and statistical learning techniques.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9295bf7860c2d11cb28d3f1960febcc8",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.347902"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on addressing the optimal allocation instability problem in high-dimensional portfolios using Random Matrix Theory and a modified Nested Clustered Optimization approach. The research is tested on financial instruments from the S&P 500 index, aiming to improve portfolio performance and stability, which directly pertains to the field of Portfolio Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on addressing the optimal allocation instability problem in high-dimensional portfolios using Random Matrix Theory and a modified Nested Clustered Optimization approach. The research is tested on financial instruments from the S&P 500 index, aiming to improve portfolio performance and stability, which directly pertains to the field of Portfolio Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:37.622600"
+}

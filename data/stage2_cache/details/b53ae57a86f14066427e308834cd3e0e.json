@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1789,
+    "title": "Financial Market Prediction Using Feed Forward Neural Network",
+    "abstract": "This paper outlines a methodology for aiding the decision making process for investment between two financial market assets (eg a risky asset versus a risk-free asset or between two risky assets itself), using neural network architecture. A Feed Forward Neural Network (FFNN) and a Radial Basis Function (RBF) Network has been evaluated. The model is employed for arriving at a decision as to where to invest in the next time step. given data from the current time step. The time step could be chosen on daily/weekly/monthly basis, based on the investment requirement. In this study, the FFNN has yielded good results over RBF. Consequently two such FFNN have been developed to enable us make a decision on investment in the next time step to decide between two risky assets. The prediction made by the two FFNN models has been validated from the actual market data.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d0994a7186d3c3018d9e345e0d12a162",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:07:25.723417"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用前馈神经网络（FFNN）和径向基函数（RBF）网络来辅助投资决策，即在两个金融资产之间进行选择。这直接涉及资产配置和投资决策，属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用前馈神经网络（FFNN）和径向基函数（RBF）网络来辅助投资决策，即在两个金融资产之间进行选择。这直接涉及资产配置和投资决策，属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:33.903897"
+}

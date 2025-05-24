@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 583,
+    "title": "Market regime detection via realized covariances",
+    "abstract": "Identifying market regimes is crucial for asset pricing and portfolio management. Within efficient markets, the macroeconomic conditions drive the demand for risky assets. Consequently, the transitions between different regimes are reflected into covariance matrices, whose time-varying coefficients react to unexpected news. Accordingly, we identify market regimes by feeding latent information embedded in the covariances to various regime-switching models and an unsupervised learning methodology. The advantage over existing methods is that our approach considers all information in the covariances to detect regimes while allowing for smooth and abrupt regime changes. We display each model's ability to correctly detect regimes through a simulation study and by evaluating a regime-switching investment strategy. Our results point to hierarchical clustering as the best-performing model for labelling market regimes with both simulated and observed data. Furthermore, we find that regime-switching models based on an observable transition variable perform well during overall periods of stress.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e76109714606a58a332c259148d20355",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:01.388159"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过识别市场状态来优化投资策略，这直接应用于投资组合管理领域。论文明确提到其方法用于评估状态转换投资策略，并讨论了资产定价和投资组合管理的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过识别市场状态来优化投资策略，这直接应用于投资组合管理领域。论文明确提到其方法用于评估状态转换投资策略，并讨论了资产定价和投资组合管理的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:36.974322"
+}

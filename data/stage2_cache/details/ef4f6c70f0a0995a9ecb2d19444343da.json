@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2320,
+    "title": "Insurance pricing with hierarchically structured data an illustration with a workers' compensation insurance portfolio",
+    "abstract": "Actuaries use predictive modeling techniques to assess the loss cost on a contract as a function of observable risk characteristics. State-of-the-art statistical and machine learning methods are not well equipped to handle hierarchically structured risk factors with a large number of levels. In this paper, we demonstrate the data-driven construction of an insurance pricing model when hierarchically structured risk factors, contract-specific as well as externally collected risk factors are available. We examine the pricing of a workers' compensation insurance product with a hierarchical credibility model [Jewell, W. S. (1975). The use of collateral data in credibility theory: A hierarchical model. Laxenburg: IIASA], Ohlsson's combination of a generalized linear and a hierarchical credibility model [Ohlsson, E. (2008). Combining generalized linear models and credibility models in practice. Scandinavian Actuarial Journal 2008(4), 301-314] and mixed models. We compare the predictive performance of these models and evaluate the effect of the distributional assumption on the target variable by comparing linear mixed models with Tweedie generalized linear mixed models. For our case-study the Tweedie distribution is well suited to model and predict the loss cost on a contract. Moreover, incorporating contract-specific risk factors in the model improves the predictive performance and the risk differentiation in our workers' compensation insurance portfolio.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cd6e265da0c9492f35b89833e86a4219",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:39.657508"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究保险定价模型，特别是针对工人赔偿保险产品的定价，虽然涉及风险管理和预测建模，但其核心应用领域是保险而非指定的金融领域（衍生品定价、金融风险管理、投资组合管理）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究保险定价模型，特别是针对工人赔偿保险产品的定价，虽然涉及风险管理和预测建模，但其核心应用领域是保险而非指定的金融领域（衍生品定价、金融风险管理、投资组合管理）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:52.236727"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 56,
+    "title": "Numerical solving of generalized Black-Scholes differential equation using deep learning based on blocked residual connection",
+    "abstract": "Option pricing in the financial derivatives market is worth studying. When the volatility and the rate of return are not fixed in Blacks-Scholes (BS) equation, the analytical form of the solution is difficult to be obtained. In this paper, we propose deep learning based on blocked residual connection method (DLBR) for the numerical solving of BS equations. The validity period and inventory price are the inputs of the network, while the option price is the solution. Neurons on the multiple hidden layers are processed in blocks and each block is connected to the residuals. The boundary conditions are constructed as a part of the numerical solution and the loss function is minimized to obtain the optimal network parameters. The DLBR method has strong applicability and overcomes the shortcomings of extreme learning machines. Three experiment calculated the numerical solution of the BS equation about European options and promoted the option pricing model. Compared with the existing algorithms such as finite element method and physics-informed neural networks (PINN) method, the obtained numerical solution has higher precision and smaller error, which shows the feasibility and superiority of the proposed method. (C) 2022 Elsevier Inc. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "8a85745ccc7b8adb86b3076106eb8665",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "hidden layer",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:54.953475"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习方法解决广义Black-Scholes微分方程的数值解问题，直接应用于期权定价，这是衍生品定价领域的核心问题。论文明确提到该方法用于计算欧式期权的数值解，并改进了期权定价模型。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习方法解决广义Black-Scholes微分方程的数值解问题，直接应用于期权定价，这是衍生品定价领域的核心问题。论文明确提到该方法用于计算欧式期权的数值解，并改进了期权定价模型。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:35.385881"
+}

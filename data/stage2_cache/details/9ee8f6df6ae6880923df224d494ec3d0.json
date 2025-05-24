@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1114,
+    "title": "Probabilistic and discriminative group-wise feature selection methods for credit risk analysis",
+    "abstract": "Many financial organizations such as banks and retailers use computational credit risk analysis (CRA) tools heavily due to recent financial crises and more strict regulations. This strategy enables them to manage their financial and operational risks within the pool of financial institutes. Machine learning algorithms especially binary classifiers are very popular for that purpose. In real-life applications such as CRA, feature selection algorithms are used to decrease data acquisition cost and to increase interpretability of the decision process. Using feature selection methods directly on CRA data sets may not help due to categorical variables such as marital status. Such features are usually are converted into binary features using 1-of-k encoding and eliminating a subset of features from a group does not help in terms of data collection cost or interpretability. In this study, we propose to use the probit classifier with a proper prior structure and multiple kernel learning with a proper kernel construction procedure to perform group-wise feature selection (i.e., eliminating a group of features together if they are not helpful). Experiments on two standard CRA data sets show the validity and effectiveness of the proposed binary classification algorithm variants. (C) 2012 Elsevier Ltd. All rights reserved.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "987dd34bd75aecbbcc3c509be0f45f6e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.564971"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究信用风险分析（CRA）中的特征选择方法，旨在帮助金融机构管理信用风险，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文主要研究信用风险分析（CRA）中的特征选择方法，旨在帮助金融机构管理信用风险，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:59.710718"
+}

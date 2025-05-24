@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2101,
+    "title": "A Comparative Study of Data Mining Techniques in Predicting Consumers Credit Card Risk in Banks",
+    "abstract": "It is increasingly important for banks to analyze and understand their risk's portfolio, in particularly those related to credit card as it is one of those instruments that provide the highest return as well as potentially, most risky. The competitive level for the credit card business have increased significantly in the last few years due to the push by the banks to brought forth many new differentiated services and products to win over market share. Other strategies employed by banks are also to improve their current portfolio by extending the application of their services through, for instance, extending credit limit where it is deemed credible and appropriate, improve performance, for example, by predicting future payment behavior of consumers and lastly, proper management of bad debts. All such emphasis are usually managed using a typical score known mostly as credit scoring by the banks. Credit score is usually established or derived from three major sources of information and data, they are historical credit information from Credit Bureau or Central bank, current and historical transactions extracted from the bank's database and collaterals and guarantees provided. A measure of consumer who will default in their payment or bad credit and those would not, can therefore be used to provide a good yardstick in substantiating the level of score for credit worthiness. The focus of the banks should therefore be, finding the best classifier from the model generated that provides the best predictive accuracy. There were substantial literature advocating the use of data mining techniques such as Logistic Regression, C5 and Neural Network for providing the best predictive accuracy for such cause. Prior to generating all the models for comparison, the initial set of data is also loaded to an Extraction, Transformation & Loading (ETL) system customized to perform feature selection or attribute relevancy analysis using ID3 algorithm, compiling a subset of data with the highest information gain and gain ratio. An extended test is performed to use equal length binning on some attributes to find if it affect the relevancy of each attribute. The selected subset of data is used to generate various data mining models using different training and testing sizes. C5 emerged consistently as the technique that has generated the best models with an average of predictive accuracy at 91.64%.",
+    "year": 2010,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "92a842f99ae32cba29ce300ca6bf476c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:03.636766"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using data mining techniques to predict consumer credit card risk, which is a key aspect of financial risk management in banking. The study aims to improve credit scoring models to better assess creditworthiness and manage bad debts, directly addressing risk management challenges.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using data mining techniques to predict consumer credit card risk, which is a key aspect of financial risk management in banking. The study aims to improve credit scoring models to better assess creditworthiness and manage bad debts, directly addressing risk management challenges.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:19.181627"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 22,
+    "title": "MDAEN: Multi-Dimensional Attention-based Ensemble Network in Deep Reinforcement Learning Framework for Portfolio Management",
+    "abstract": "Reinforcement Learning algorithms are widely applied in many diverse fields, including portfolio management. Ensemble of Identical Independent Evaluators (EIIE) framework proposed by Jiang et al. achieved portfolio management based on their deep reinforcement learning algorithm. In the implementation of EIIE framework, a neural network such as the Convolutional Neural Network is applied as the policy network, to uncover more patterns in the data. However, this network typology is inefficient due to its simple structure. To overcome the shortcoming of EIIE framework, this paper introduces a novel algorithm, the Multi-Dimensional Attention-based Ensemble Network (MDAEN) strategy, which consists of a features-attention module and an assets-attention module. The MDAEN applies different types of attention mechanisms to extract information from the assets. Having adopted the reinforcement learning framework fromJiang et al., the agent is able to process transactions through MDAEN in a market. In our portfolio establishment, Bitcoin together with eleven other cryptocurrencies is selected to validate the performance of MDAEN against seven traditional portfolio strategies and EIIE. The experimental result demonstrates the efficacy of our strategy outperforming all other strategies by at least 35% in profitability and at least 30% in Sharpe Ratio.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "be55b2a1c167182c28f70c94dee896c8",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:16.272581"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly focuses on developing a Multi-Dimensional Attention-based Ensemble Network (MDAEN) strategy within a deep reinforcement learning framework for portfolio management. It specifically addresses the optimization of portfolio establishment and performance, as evidenced by the selection of cryptocurrencies for validation and the comparison with traditional portfolio strategies and the EIIE framework.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly focuses on developing a Multi-Dimensional Attention-based Ensemble Network (MDAEN) strategy within a deep reinforcement learning framework for portfolio management. It specifically addresses the optimization of portfolio establishment and performance, as evidenced by the selection of cryptocurrencies for validation and the comparison with traditional portfolio strategies and the EIIE framework.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:24.975197"
+}

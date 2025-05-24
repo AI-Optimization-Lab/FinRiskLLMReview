@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 106,
+    "title": "Using Machine Learning to Predict Optimal Parameters in Portfolio Optimization Problems",
+    "abstract": "We use machine learning methods in portfolio optimization problems. Most portfolio optimization problems require selection of one or more parameters and we create machine learning model to predict the optimal values of such parameter with respect to out-of-sample performance. In this paper we use mean-CVaR portfolio optimization model and xgboost machine learning model. Extensive simulations were performed to create the dataset with the optimal choice of the desired parameter. We explore the dependencies of the optimal choice of minimal in-sample mean on input data, like number of stocks or number of scenarios. Predictor importance and prediction evaluation is presented, showing that the model gives reasonable predictions for parameter that is otherwise very hard to select.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "62ad881818de7da6c9b7c7873fac9296",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.534542"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法来预测投资组合优化问题中的最优参数，特别是针对均值-CVaR投资组合优化模型。这直接涉及投资组合管理的领域，旨在提高投资组合的表现和参数选择效率。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法来预测投资组合优化问题中的最优参数，特别是针对均值-CVaR投资组合优化模型。这直接涉及投资组合管理的领域，旨在提高投资组合的表现和参数选择效率。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:28.758329"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 408,
+    "title": "基于稀疏主成分的股票指数追踪研究",
+    "abstract": "本文将追踪误差定义为股票投资组合收益率与所追踪指数的基准收益率之差,分别在无交易费用和有交易费用的情况下,建立追踪误差极小化的股票指数预测模型.首先采用稀疏主成分分析法对沪深300以及香港恒生的股票进行选择,然后根据所选择的股票样本求解股票指数预测模型.数值实验表明基于稀疏主成分的股票指数追踪模型具有稀疏性、可解释性及较好的样本外追踪误差的优点.",
+    "year": 2013,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0efb5b2f671a296ecdaac80369475e1b",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-14T22:15:33.508430"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用稀疏主成分分析法构建股票指数追踪模型，旨在优化股票投资组合以最小化追踪误差，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用稀疏主成分分析法构建股票指数追踪模型，旨在优化股票投资组合以最小化追踪误差，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:28.729450"
+}

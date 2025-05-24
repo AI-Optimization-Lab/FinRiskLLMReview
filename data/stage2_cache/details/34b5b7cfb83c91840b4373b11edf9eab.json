@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1976,
+    "title": "A Practical Evaluation of Dynamic Time Warping in Financial Time Series Clustering",
+    "abstract": "Selecting the portfolio of huge stocks is the main issue for investors to reduce a risk investment. This problem could be solved by employing a clustering as a data mining task. The technique groups together the stocks with less distance. A method to measure those dissimilarities is crucial to produce a good clustering quality. This paper is to confirm the improved distance method, dynamic time warping (DTW), stated as powerful compared to the classical way, Euclidean. Then, hierarchical clustering (HC) was used to examine the sequences from two sources of the dataset. It includes 25 stocks indexed by Indonesia Sharia Stock Index (ISSI) and 30 stocks indexed by the Jakarta Islamic Index (JII) during the year 2000-2020. The effectiveness of the distance method in clustering was evaluated by calculating the Silhouette index and running time. According to the value of the average Silhouette index, DTW-based HC gave a higher output which was not significantly different from Euclidean-based HC. In the other hand, the type of dataset contributes significantly. The Silhouette Index for JII dataset (homogeneous) is better than that for ISSI (heterogeneous). Therefore, it prefers to use similarity method with faster processing time to cluster the data if its quality is merely similar to any similarity methods.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a8186aa241a93fa54b4a62a2a840b1c5",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:41.634000"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术动态时间规整（DTW）用于金融时间序列聚类，目的是帮助投资者选择股票组合以降低投资风险，这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术动态时间规整（DTW）用于金融时间序列聚类，目的是帮助投资者选择股票组合以降低投资风险，这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:50.126114"
+}

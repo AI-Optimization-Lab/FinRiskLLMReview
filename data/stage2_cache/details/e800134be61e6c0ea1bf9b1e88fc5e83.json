@@ -1,0 +1,38 @@
+{
+  "paper": {
+    "id": 136,
+    "title": "Mean-variance portfolio optimization using machine learning-based stock price prediction",
+    "abstract": "The success of portfolio construction depends primarily on the future performance of stock markets. Recent developments in machine learning have brought significant opportunities to incorporate prediction theory into portfolio selection. However, many studies show that a single prediction model is insufficient to achieve very accurate predictions and affluent returns. In this paper, a novel portfolio construction approach is developed using a hybrid model based on machine learning for stock prediction and mean-variance (MV) model for portfolio selection. Specifically, two stages are involved in this model: stock prediction and portfolio selection. In the first stage, a hybrid model combining eXtreme Gradient Boosting (XGBoost) with an improved firefly algorithm (IFA) is proposed to predict stock prices for the next period. The IFA is developed to optimize the hyperparameters of the XGBoost. In the second stage, stocks with higher potential returns are selected, and the MV model is employed for portfolio selection. Using the Shanghai Stock Exchange as the study sample, the obtained results demonstrate that the proposed method is superior to traditional ways (without stock prediction) and benchmarks in terms of returns and risks. (c) 2020 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "377140c8cffaf979a64490eee02f9f42",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "rectified linear unit",
+      "ReLU",
+      "sigmoid",
+      "tanh",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.664194"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合机器学习的股票价格预测和均值-方差模型进行投资组合选择，这直接属于投资组合管理的范畴。论文明确提到使用预测模型选择高回报股票，并应用均值-方差模型进行投资组合优化，这些都是投资组合管理的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合机器学习的股票价格预测和均值-方差模型进行投资组合选择，这直接属于投资组合管理的范畴。论文明确提到使用预测模型选择高回报股票，并应用均值-方差模型进行投资组合优化，这些都是投资组合管理的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:22.212988"
+}

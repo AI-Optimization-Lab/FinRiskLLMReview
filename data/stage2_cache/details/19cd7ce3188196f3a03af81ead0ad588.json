@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 114,
+    "title": "多因子欧式期权定价的主成分蒙特卡罗加速方法",
+    "abstract": "针对多个随机因子的欧式期权定价问题,提出了一种基于主成分分析的多元控制变量的蒙特卡罗加速框架.其核心思想是,使用单个主成分替换收益函数中的原始随机变量以便更易获得定价问题的精确值,从而可将近似的收益函数作为控制变量.由于主成分的独立性,使用多元控制变量的蒙特卡罗模拟方法比单个控制变量具有更好的加速效果.对多资产期权和亚式期权的数值实验验证了本文算法的高效性和稳定性.",
+    "year": 2018,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "2af224589d3b95b1604b7242de0506c0",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-14T22:12:12.735314"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是针对多个随机因子的欧式期权定价问题提出的主成分蒙特卡罗加速方法，这直接属于衍生品定价的研究领域。论文中提到的多资产期权和亚式期权的数值实验进一步验证了其在衍生品定价中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是针对多个随机因子的欧式期权定价问题提出的主成分蒙特卡罗加速方法，这直接属于衍生品定价的研究领域。论文中提到的多资产期权和亚式期权的数值实验进一步验证了其在衍生品定价中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:06.101873"
+}

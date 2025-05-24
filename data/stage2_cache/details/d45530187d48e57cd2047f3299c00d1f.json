@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 704,
+    "title": "Predicting Financial Volatility from Personal Transactional Data",
+    "abstract": "Cash flow transactions of individuals fluctuate over time and can be irregular. Financial volatility measures the variation of individuals' financial behaviours i.e., the degree of uncertainty from the cash flow fluctuations. The evaluation of financial volatility is important in order to identify potentially risky behaviours that may harm financial wellbeing. This study predicts financial volatility from transactional data coming from current accounts. In this work, we develop a financial volatility composite index as the target variable, which simultaneously accounts for the fluctuations in income, expenditure, and financial buffer (or balance). Then, we fit a linear regression model to investigate the relationship between transactional behaviours and financial volatility. Lastly, we compare the performance of linear regression with XGBoost, a machine learning algorithm, in predicting financial volatility. We observe some risky volatile behaviours that imply financial difficulties. High financial volatility signals an increased risk, if it is associated with potential financial struggles that require long term dependence on overdraft, lower spending on fixed and living costs, or problems in catching up with regular financial commitments. At the same time, low financial volatility may be implying an increased risk too, if it is associated with restricted transactions due to extreme negative balances or consistent heavy overdraft usage. In general, the proposed financial volatility predictive model provides insights into the implicit risk of customers and their vulnerability.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "08d32c418cf4e114f092821d140cef93",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "XGBoost"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.465975"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习和回归模型预测个人财务波动性，目的是识别潜在的财务风险行为，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习和回归模型预测个人财务波动性，目的是识别潜在的财务风险行为，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:48.552421"
+}

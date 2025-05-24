@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2751,
+    "title": "Large-Dimensional Portfolio Selection with a High-Frequency-Based Dynamic Factor Model",
+    "abstract": "This article proposes a new predictive model for large-dimensional realized covariance matrices. Using high-frequency data, we estimate daily realized covariance matrices for the constituents of the S&P 500 Index and a set of observable factors. Using a standard decomposition of the joint covariance matrix, we express the covariance matrix of the individual assets similar to a dynamic factor model. To forecast the covariance matrix, we model the components of the covariance structure using a series of autoregressive processes. A novel feature of the model is the use of the data-driven hierarchical clustering algorithm to determine the structure of the idiosyncratic covariance matrix. A simulation study shows that this method can accurately estimate the block structure as long as the number of blocks is small relative to the number of stocks. In an out-of-sample portfolio selection exercise, we find that the proposed model outperforms other commonly used multivariate volatility models in extant literature.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "329333db83e45709b54e11aac7ff8dfd",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:10:16.448807"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种用于预测大规模实现协方差矩阵的新模型，并应用于S&P 500指数成分股的资产组合选择。论文明确提到在样本外的投资组合选择练习中，该模型优于其他常用的多元波动率模型，这直接指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种用于预测大规模实现协方差矩阵的新模型，并应用于S&P 500指数成分股的资产组合选择。论文明确提到在样本外的投资组合选择练习中，该模型优于其他常用的多元波动率模型，这直接指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:12.935997"
+}

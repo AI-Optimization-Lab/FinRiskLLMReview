@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1590,
+    "title": "SAMPLE COMPLEXITY OF SAMPLE AVERAGE APPROXIMATION FOR CONDITIONAL STOCHASTIC OPTIMIZATION",
+    "abstract": "In this paper, we study a class of stochastic optimization problems, referred to as the Conditional Stochastic Optimization (CSO), in the form of min(x is an element of chi) E(xi)f(xi)(E-eta vertical bar xi[g(eta)(x,xi)]) which finds a wide spectrum of applications including portfolio selection, reinforcement learning, robust learning, causal inference and so on. Assuming availability of samples from the distribution P(xi) and samples from the conditional distribution P(eta vertical bar xi), we establish the sample complexity of the sample average approximation (SAA) for CSO, under a variety of structural assumptions, such as Lipschitz continuity, smoothness, and error bound conditions. We show that the total sample complexity improves from O(d/epsilon(4)) to O(d/epsilon(3)) when assuming smoothness of the outer function, and further to O(d/epsilon(2)) when the empirical function satisfies the quadratic growth condition. We also establish the sample complexity of a modified SAA, when xi and eta are independent. Several numerical experiments further support our theoretical findings.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "bd068abfdcd72b3e7fd07544c29340cb",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.715258"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到该优化方法在投资组合选择（portfolio selection）中有广泛应用，这属于投资组合管理的范畴。虽然论文还提到其他应用领域如强化学习和因果推断，但投资组合管理是其明确指出的金融应用领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到该优化方法在投资组合选择（portfolio selection）中有广泛应用，这属于投资组合管理的范畴。虽然论文还提到其他应用领域如强化学习和因果推断，但投资组合管理是其明确指出的金融应用领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:05.946084"
+}

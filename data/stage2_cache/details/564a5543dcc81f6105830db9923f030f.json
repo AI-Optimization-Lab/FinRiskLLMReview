@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1650,
+    "title": "An adaptive local linear optimized radial basis functional neural network model for financial time series prediction",
+    "abstract": "For financial time series, the generation of error bars on the point of prediction is important in order to estimate the corresponding risk. In recent years, optimization techniques-driven artificial intelligence has been used to make time series approaches more systematic and improve forecasting performance. This paper presents a local linear radial basis functional neural network (LLRBFNN) model for classifying finance data from Yahoo Inc. The LLRBFNN model is learned by using the hybrid technique of backpropagation and recursive least square algorithm. The LLRBFNN model uses a local linear model in between the hidden layer and the output layer in contrast to the weights connected from hidden layer to output layer in typical neural network models. The obtained prediction result is compared with multilayer perceptron and radial basis functional neural network with the parameters being trained by gradient descent learning method. The proposed technique provides a lower mean squared error and thus can be considered as superior to other models. The technique is also tested on linear data, i.e., diabetic data, to confirm the validity of the result obtained from the experiment.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2a62e62f4e1f5f001e92d95dc968445c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:42.616399"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种用于金融时间序列预测的神经网络模型，虽然涉及金融数据，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。论文的重点是预测模型的优化和性能比较，而非具体的金融应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种用于金融时间序列预测的神经网络模型，虽然涉及金融数据，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。论文的重点是预测模型的优化和性能比较，而非具体的金融应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:18.718114"
+}

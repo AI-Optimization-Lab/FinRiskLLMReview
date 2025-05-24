@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 123,
+    "title": "A new hybrid parametric and machine learning model with homogeneity hint for European-style index option pricing",
+    "abstract": "Here, we propose and investigate a hybrid model that combines parametric option pricing models such as Black-Scholes (BS) option pricing model, Monte Carlo option pricing model, and finite difference method with nonparametric machine learning techniques such as support vector regression (SVR) and extreme learning machine-based regression models. The purpose of this model is to support better investment decisions by forecasting the option price with high predictive accuracy. To further reduce the forecasting error, we incorporate a homogeneity hint (i.e., training the model by categorizing the options data based on moneyness and time-to-maturity of the option contract) into the model. We examine the feasibility and effectiveness of this model using a case study to predict the one-day-ahead price of index options traded in the National Stock Exchange of India Limited. Our experimental results show that the proposed new hybrid model is viable and effective and provides better predictive performance as compared with our benchmark models (standard BS Model, standard Monte Carlo, standard finite difference model, and standard SVR Model). For example, the proposed hybrid model using SVR improved, respectively, the root-mean-square error and mean absolute error by 83.66 and 85.46 % (D1 dataset), 78.02 and 76.0 % (D2 dataset), 91.86 and 90.62 % (D3 dataset), and 87.7 and 90.29 % (D4 dataset), when compared with the benchmarked BS model. We observe similar improvements over the other benchmarked models. Therefore, the proposed new hybrid model is a suitable alternative model for option pricing when higher predictive accuracy is desired.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "f46019b5fc4d65a82609fc6f072411f9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.353277"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是结合参数化和机器学习方法来预测欧式指数期权的价格，并明确提到其目的是支持更好的投资决策。这直接属于衍生品定价领域，因为其主要研究目标是提高期权定价的预测准确性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是结合参数化和机器学习方法来预测欧式指数期权的价格，并明确提到其目的是支持更好的投资决策。这直接属于衍生品定价领域，因为其主要研究目标是提高期权定价的预测准确性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:31.635732"
+}

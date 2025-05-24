@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1007,
+    "title": "Risk-Averse Trust Region Optimization for Reward-Volatility Reduction",
+    "abstract": "The use of reinforcement learning in algorithmic trading is of growing interest, since it offers the opportunity of making profit through the development of autonomous artificial traders, that do not depend on hard-coded rules. In such a framework, keeping uncertainty under control is as important as maximizing expected returns. Risk aversion has been addressed in reinforcement learning through measures related to the distribution of returns. However, in trading it is essential to keep under control the risk of portfolio positions in the intermediate steps. In this paper, we define a novel measure of risk, which we call reward volatility, consisting of the variance of the rewards under the state-occupancy measure. This new risk measure is shown to bound the return variance so that reducing the former also constrains the latter. We derive a policy gradient theorem with a new objective function that exploits the mean-volatility relationship. Furthermore, we adapt TRPO, the wellknown policy gradient algorithm with monotonic improvement guarantees, in a risk-averse manner. Finally, we test the proposed approach in two financial environments using real market data.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "98b0c5a5702f67261b1c4211919951f3",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.999147"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究在算法交易中使用强化学习来控制风险，特别是通过定义新的风险度量（奖励波动率）来管理投资组合的中间步骤风险。这直接涉及金融风险管理和投资组合管理的核心问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文主要研究在算法交易中使用强化学习来控制风险，特别是通过定义新的风险度量（奖励波动率）来管理投资组合的中间步骤风险。这直接涉及金融风险管理和投资组合管理的核心问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:43.355132"
+}

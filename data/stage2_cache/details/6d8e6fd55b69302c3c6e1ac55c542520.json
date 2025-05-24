@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 130,
+    "title": "Multi-agent reinforcement learning approach for hedging portfolio problem",
+    "abstract": "Developing a hedging strategy to reduce risk of losses for a given set of stocks in a portfolio is a difficult task due to cost of the hedge. In Vietnam stock market, cross-hedge is involved hedging a long position of a stock because there is no put option for the stock. In addition, only VN30 stock index futures contracts are traded on Hanoi Stock Exchange. Inspired by recently achievement of deep reinforcement learning, we explore feasibility to construct a hedging strategy automatically by leveraging cooperative multi-agent in reinforcement learning techniques without advanced domain knowledge. In this work, we use 10 popular stocks on Ho Chi Minh Stock Exchange, and VN30F1M (VN30 Index Futures contracts within one month settlement) to develop a stock market simulator (including transaction fee, tax, and settlement date of transactions) for reinforcement learning agent training. We use daily return as input data for training process. Results suggest that the agent can learn trading and hedging policy to make profit and reduce losses. Furthermore, we also find that our agent can protect portfolios and make positive profit in case market collapses systematically. In practice, this work can help Vietnam's stock market investors to improve performance and reduce losses in trading, especially when the volatility cannot be controlled.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4e221bad797935cf632b22c1aa33efb4",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.637541"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是多智能体强化学习，用于开发对冲策略以减少投资组合的损失风险。这直接涉及金融风险管理中的对冲策略和投资组合管理中的资产配置和风险控制。论文明确提到使用VN30指数期货合约进行对冲，并旨在保护投资组合在市场崩溃时免受损失，这些都是金融风险管理和投资组合管理的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是多智能体强化学习，用于开发对冲策略以减少投资组合的损失风险。这直接涉及金融风险管理中的对冲策略和投资组合管理中的资产配置和风险控制。论文明确提到使用VN30指数期货合约进行对冲，并旨在保护投资组合在市场崩溃时免受损失，这些都是金融风险管理和投资组合管理的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:23.368603"
+}

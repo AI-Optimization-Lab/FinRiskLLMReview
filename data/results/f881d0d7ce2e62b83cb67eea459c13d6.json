@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "classification",
+    "support vector machine",
+    "SVM",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning techniques for fault detection assessment.",
+    "classification": "The paper discusses the use of a majority voting classifier, which is a classification method.",
+    "support vector machine": "The majority voting classifier combines predictions from three classification methods, one of which could be SVM (though not explicitly named).",
+    "SVM": "Same as support vector machine, as SVM is the acronym for it.",
+    "decision tree": "The majority voting classifier combines predictions from three classification methods, one of which could be a decision tree (though not explicitly named)."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"classification\", \"support vector machine\", \"SVM\", \"decision tree\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning techniques for fault detection assessment.\",\n    \"classification\": \"The paper discusses the use of a majority voting classifier, which is a classification method.\",\n    \"support vector machine\": \"The majority voting classifier combines predictions from three classification methods, one of which could be SVM (though not explicitly named).\",\n    \"SVM\": \"Same as support vector machine, as SVM is the acronym for it.\",\n    \"decision tree\": \"The majority voting classifier combines predictions from three classification methods, one of which could be a decision tree (though not explicitly named).\"\n  }\n}\n```"
+}

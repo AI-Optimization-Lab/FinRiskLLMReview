@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 481,
+    "title": "High-Frequency Cryptocurrency Price Forecasting Using Machine Learning Models: A Comparative Study",
+    "abstract": "The cryptocurrency market presents immense opportunities and significant risks due to its high volatility. Accurate price forecasting is crucial for informed investment decisions, enabling investors to optimize portfolio allocation, mitigate risk, and potentially maximize returns. Existing forecasting methods often struggle with the inherent non-stationarity and complexity of cryptocurrency price dynamics. This study addresses this challenge by developing a system for high-frequency forecasting of the closing prices of ten leading cryptocurrencies. We compare various machine learning models, including recurrent neural networks (RNNs), time series analysis (ARIMA), and conventional regression algorithms, using minute-step Bitcoin price data over a 30-day period to predict prices 60 min ahead. Our findings demonstrate that the GRU neural network exhibits superior predictive accuracy (MAPE = 0.09%, MSE = 5954.89, RMSE = 77.17, MAE = 60.20), outperforming other models considered. This improved forecasting accuracy contributes to the existing literature by providing empirical evidence for GRU's effectiveness in the volatile cryptocurrency market and offers practical insights for investment strategies. A web application integrating the best-performing model further facilitates real-time price prediction for multiple cryptocurrencies.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d846d2d4cbef8a18a3606faa63af0ec7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.422623"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型进行高频加密货币价格预测，旨在为投资决策提供依据，优化投资组合分配，这直接关联到投资组合管理领域。虽然风险管理有所提及，但论文的主要应用场景和目标是投资组合优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型进行高频加密货币价格预测，旨在为投资决策提供依据，优化投资组合分配，这直接关联到投资组合管理领域。虽然风险管理有所提及，但论文的主要应用场景和目标是投资组合优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:32.828477"
+}

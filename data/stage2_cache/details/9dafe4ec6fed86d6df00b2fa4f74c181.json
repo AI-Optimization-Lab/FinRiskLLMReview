@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1046,
+    "title": "Nagging Predictors",
+    "abstract": "We define the nagging predictor, which, instead of using bootstrapping to produce a series of i.i.d. predictors, exploits the randomness of neural network calibrations to provide a more stable and accurate predictor than is available from a single neural network run. Convergence results for the family of Tweedie's compound Poisson models, which are usually used for general insurance pricing, are provided. In the context of a French motor third-party liability insurance example, the nagging predictor achieves stability at portfolio level after about 20 runs. At an insurance policy level, we show that for some policies up to 400 neural network runs are required to achieve stability. Since working with 400 neural networks is impractical, we calibrate two meta models to the nagging predictor, one unweighted, and one using the coefficient of variation of the nagging predictor as a weight, finding that these latter meta networks can approximate the nagging predictor well, only with a small loss of accuracy.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f78b3fe66b10e1c390a5b534f9052370",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.834750"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用神经网络校准的随机性来提高预测的稳定性和准确性，虽然提到了保险定价，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用神经网络校准的随机性来提高预测的稳定性和准确性，虽然提到了保险定价，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:13.871233"
+}

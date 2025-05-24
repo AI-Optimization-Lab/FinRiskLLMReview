@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3428,
+    "title": "SynthETIC: An individual insurance claim simulator with feature control",
+    "abstract": "Recent years have seen rapid increase in the application of machine learning to insurance loss reserving. They yield most value when applied to large data sets, such as individual claims, or large claim triangles. In short, they are likely to be useful in the analysis of any data set whose volume is sufficient to obscure a naked-eye view of its features. Unfortunately, such large data sets are in short supply in the actuarial literature. Accordingly, one needs to turn to synthetic data. Although the ultimate objective of these methods is application to real data, the use of synthetic data containing features commonly observed in real data is also to be encouraged. While there are a number of claims simulators in existence, each valuable within its own context, the inclusion of a number of desirable (but complicated) data features requires further development. Accordingly, in this paper we review those desirable features, and propose a new simulator of individual claim experience called SynthETIC. Our simulator is publicly available, open source, and fills a gap in the non-life actuarial toolkit. The simulator specifically allows for desirable (but optionally complicated) data features typically occurring in practice, such as variations in rates of settlements and development patterns; as with superimposed inflation, and various discontinuities, and also enables various dependencies between variables. The user has full control of the mechanics of the evolution of an individual claim. As a result, the complexity of the data set generated (meaning the level of difficulty of analysis) may be dialedanywhere from extremely simple to extremely complex. The default version is parameterized so as to include a broad (though not numerically precise) resemblance to the major features of experience of a specific (but anonymous) Auto Bodily Injury portfolio, but the general structure is suitable for most lines of business, with some amendment of modules. (C) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "39340ef1f7112b12661cf10f4be5774d",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:55.563949"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是保险索赔模拟器的开发，虽然涉及机器学习和风险管理的一些概念，但其核心应用领域是保险精算而非上述特定的金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是保险索赔模拟器的开发，虽然涉及机器学习和风险管理的一些概念，但其核心应用领域是保险精算而非上述特定的金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:45.451311"
+}

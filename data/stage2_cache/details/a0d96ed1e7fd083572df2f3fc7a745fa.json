@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 968,
+    "title": "Prediction and Portfolio Optimization in Quantitative Trading Using Machine Learning Techniques",
+    "abstract": "Quantitative trading is an automated trading system in which the trading strategies and decisions are conducted by a set of mathematical models. Quantitative trading applies a wide range of computational approaches such as statistics, physics, or machine learning to analyze, predict, and take advantage of big data in finance for investment. This work studies core components of a quantitative trading system. Machine learning offers a number of important advantages over traditional algorithmic trading. With machine learning, multiple trading strategies are implemented consistently and able to adapt to real-time market. To demonstrate how machine learning techniques can meet quantitative trading, linear regression and support vector regression models are used to predict stock movement. In addition, multiple optimization techniques are used to optimize the return and control risk in trading. One common characteristic for both prediction models is they effectively performed in short-term prediction with high accuracy and return. However, in short-term prediction, the linear regression model is outperform compared to the support vector regression model. The prediction accuracy is considerably improved by adding technical indicators to dataset rather than adjusted price and volume. Despite the gap between prediction modeling and actual trading, the proposed trading strategy achieved a higher return than the S&P 500 ETF-SPY.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6e36c3c4fa0e625aaed8d70786c0a60a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.752635"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究使用机器学习技术（如线性回归和支持向量回归）进行股票价格预测，并应用多种优化技术来优化交易回报和控制风险。这些内容直接关联到投资组合管理的核心问题，即如何通过预测和优化技术来管理投资组合以实现更高的回报和风险控制。论文未提及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究使用机器学习技术（如线性回归和支持向量回归）进行股票价格预测，并应用多种优化技术来优化交易回报和控制风险。这些内容直接关联到投资组合管理的核心问题，即如何通过预测和优化技术来管理投资组合以实现更高的回报和风险控制。论文未提及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:49.011431"
+}

@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "论文摘要明确提到使用了6种机器学习算法来预测股票上涨概率，表明研究涉及机器学习。",
+    "supervised learning": "论文中使用的AdaBoost模型和预测股票上涨概率的任务属于监督学习的范畴。",
+    "classification": "预测股票上涨概率是一个分类问题，将股票分为上涨或不上涨两类。",
+    "decision tree": "AdaBoost是一种基于决策树的集成学习算法，因此决策树与论文内容相关。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"论文摘要明确提到使用了6种机器学习算法来预测股票上涨概率，表明研究涉及机器学习。\",\n    \"supervised learning\": \"论文中使用的AdaBoost模型和预测股票上涨概率的任务属于监督学习的范畴。\",\n    \"classification\": \"预测股票上涨概率是一个分类问题，将股票分为上涨或不上涨两类。\",\n    \"decision tree\": \"AdaBoost是一种基于决策树的集成学习算法，因此决策树与论文内容相关。\"\n  }\n}\n```"
+}

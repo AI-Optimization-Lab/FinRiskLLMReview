@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "support vector machine",
+    "SVM",
+    "neural network",
+    "deep learning",
+    "representation learning",
+    "recurrent neural network",
+    "long short-term memory",
+    "LSTM",
+    "attention mechanism"
+  ],
+  "explanations": {
+    "machine learning": "论文提出了一种基于BiGRU和残差图注意力网络的股票价格预测模型，属于机器学习领域。",
+    "supervised learning": "股票价格预测是一个典型的监督学习问题，模型需要根据历史数据预测未来的股票价格。",
+    "regression": "股票价格预测是一个回归问题，模型预测的是连续的价格值。",
+    "support vector machine": "论文中将提出的模型与支持向量机(SVM)进行了比较。",
+    "SVM": "论文中将提出的模型与支持向量机(SVM)进行了比较。",
+    "neural network": "模型使用了双向门控循环单元(BiGRU)和残差图注意力网络(ResGAT)，这些都是神经网络结构。",
+    "deep learning": "模型结合了BiGRU和ResGAT，属于深度学习范畴。",
+    "representation learning": "模型通过BiGRU和ResGAT对股票数据的时序特征和关联特征进行深度挖掘和融合，属于表示学习。",
+    "recurrent neural network": "BiGRU是一种循环神经网络(RNN)的变体。",
+    "long short-term memory": "GRU是LSTM的一种简化版本，论文中提到了GRU。",
+    "LSTM": "GRU是LSTM的一种简化版本，论文中提到了GRU。",
+    "attention mechanism": "论文中使用了结合注意力机制的时间滑动窗口方法(TSWMCAM)来动态计算股票之间的关联系数。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"regression\",\n    \"support vector machine\",\n    \"SVM\",\n    \"neural network\",\n    \"deep learning\",\n    \"representation learning\",\n    \"recurrent neural network\",\n    \"long short-term memory\",\n    \"LSTM\",\n    \"attention mechanism\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"论文提出了一种基于BiGRU和残差图注意力网络的股票价格预测模型，属于机器学习领域。\",\n    \"supervised learning\": \"股票价格预测是一个典型的监督学习问题，模型需要根据历史数据预测未来的股票价格。\",\n    \"regression\": \"股票价格预测是一个回归问题，模型预测的是连续的价格值。\",\n    \"support vector machine\": \"论文中将提出的模型与支持向量机(SVM)进行了比较。\",\n    \"SVM\": \"论文中将提出的模型与支持向量机(SVM)进行了比较。\",\n    \"neural network\": \"模型使用了双向门控循环单元(BiGRU)和残差图注意力网络(ResGAT)，这些都是神经网络结构。\",\n    \"deep learning\": \"模型结合了BiGRU和ResGAT，属于深度学习范畴。\",\n    \"representation learning\": \"模型通过BiGRU和ResGAT对股票数据的时序特征和关联特征进行深度挖掘和融合，属于表示学习。\",\n    \"recurrent neural network\": \"BiGRU是一种循环神经网络(RNN)的变体。\",\n    \"long short-term memory\": \"GRU是LSTM的一种简化版本，论文中提到了GRU。\",\n    \"LSTM\": \"GRU是LSTM的一种简化版本，论文中提到了GRU。\",\n    \"attention mechanism\": \"论文中使用了结合注意力机制的时间滑动窗口方法(TSWMCAM)来动态计算股票之间的关联系数。\"\n  }\n}\n```"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 872,
+    "title": "A BLENDED SOFT-COMPUTING MODEL FOR STOCK- VALUE PREDICTION",
+    "abstract": "Stock investments play a crucial role in deciding the global economic growth of the country. Investors can optimize profit and avoid risk through accurate stock-value prediction models, which motivates researchers to work on various aspects of correlated features and predictive models for stock-value prediction. The existing stock-value prediction models used data like Twitter, microblogs, price history and Google trends. On the other hand, domain specific dictionary-based deep learning evolved as a competitive model for alternative models in stock value prediction. But, the accuracy of these models depends on the quality of the input, the correlation among the features and the correctness of the sentiment scores generated for the dictionary terms. Financial-news sentiment analysis for stock-value prediction with dictionary-based learning needs attention in improving the quality of the input and dictionary terms' sentiment score generation. The present research aims to develop a blended soft computing model for stock-value prediction (BSCM) with cooperative fusion and dictionary-based deep learning. In the current work, six Indian stocks that cover uptrend, sideways and downtrend characteristics are considered with stock-price histories and news headlines from 8th August 2016 to 31st March 2023, i.e., 2427 days. The number of records in price-history dataset is 14,562 and in the news headlines dataset is 46,213. The performance of the stock-value prediction can be improved by taking advantage of multi-source information and context-aware learning. The present research aims to achieve three objectives: 1. Applying cooperative fusion to combine the news headlines and price history of stocks collected from multiple sources to improve the quality of the input with correlated features. 2. Building a dictionary, FNSentiment, with a novel strategy. 3. Predicting stock values using FNSentiment and News Sentiment Prediction Model (NSPM) integration. In the experimentation, the proposed model outperformed the state-of-the-art models with an accuracy of 91.11%, RMSE of 10.35, MAPE of 0.02 and MAE of 2.74.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "6a0bf76303b552bc03ffb2c548c3182e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:43:54.513675"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究股票价值预测的混合软计算模型，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。论文的重点在于通过新闻情感分析和价格历史数据预测股票价值，而非上述特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究股票价值预测的混合软计算模型，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。论文的重点在于通过新闻情感分析和价格历史数据预测股票价值，而非上述特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:01.038050"
+}

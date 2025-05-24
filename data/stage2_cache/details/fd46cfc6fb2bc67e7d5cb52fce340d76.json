@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2580,
+    "title": "Extraction of Focused Topic and Sentiment of Financial Market by using Supervised Topic Model for Price Movement Prediction",
+    "abstract": "For financial market participants, the current focused topic (Brexit, Federal Reserve Interest-Rate, U.S. and China trade war, etc.) and its sentiments (whether it is Risk-On or Risk-Off) is very important to decide investment strategies. In this study, we proposed extended topic model called supervised Joint Sentiment-Topic model (sJST) which using not only text data but also numeric data as a supervised signal to extract current focused topic and it's sentiment of market. By using the topic and sentiment weight of the market as a features, we apply several machine learning models to predict foreign exchange market price movement. Comparing the average accuracy over 32 currency pairs and prediction models, the result using sJST weight as features achieved 1.52% better performance than the results which use only historical prices as features. Furthermore, comparing the results limited to specific currency pairs which is difficult to predict when using only historical prices as features, the result using sJST weight as features achieved 3.64% better accuracy than the result which use only historical prices as features.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4de582d9ea7ad2d765d847ff4fcd7fa8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:17:01.660965"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是通过提取市场关注的主题和情绪来预测外汇市场价格变动，这直接关系到投资策略的制定，属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是通过提取市场关注的主题和情绪来预测外汇市场价格变动，这直接关系到投资策略的制定，属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:09.113830"
+}

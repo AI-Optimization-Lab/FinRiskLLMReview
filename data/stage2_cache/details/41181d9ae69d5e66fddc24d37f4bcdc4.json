@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 662,
+    "title": "Minimizing loss probability bounds for portfolio selection",
+    "abstract": "In this paper, we derive a portfolio optimization model by minimizing upper and lower bounds of loss probability. These bounds are obtained under a nonparametric assumption of underlying return distribution by modifying the so-called generalization error bounds for the support vector machine, which has been developed in the field of statistical learning. Based on the bounds, two fractional programs are derived for constructing portfolios, where the numerator of the ratio in the objective includes the value-at-risk (VaR) or conditional value-at-risk (CVaR) while the denominator is any norm of portfolio vector. Depending on the parameter values in the model, the derived formulations can result in a nonconvex constrained optimization, and an algorithm for dealing with such a case is proposed. Some computational experiments are conducted on real stock market data, demonstrating that the CVaR-based fractional programming model outperforms the empirical probability minimization. (C) 2011 Elsevier B.V. All rights reserved.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2c698d046914836641b0590d0fbe4e4a",
+    "relevant_keywords": [
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.444569"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on portfolio optimization by minimizing loss probability bounds, incorporating risk measures like VaR and CVaR, which are central to financial risk management. Additionally, the study directly addresses portfolio construction and optimization, key aspects of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on portfolio optimization by minimizing loss probability bounds, incorporating risk measures like VaR and CVaR, which are central to financial risk management. Additionally, the study directly addresses portfolio construction and optimization, key aspects of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:54.186153"
+}

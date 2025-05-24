@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3905,
+    "title": "Forecasting shipping index using CEEMD-PSO-BiLSTM model",
+    "abstract": "Shipping indices are extremely volatile, non-stationary, unstructured and non-linear, and more difficult to forecast than other common financial time series. Based on the idea of decomposition-reconstruction-integration, this article puts forward a combined forecasting model CEEMD-PSO-BiLSTM for shipping index, which overcomes the linearity limitation of traditional models. CEEMD is used to decompose the original sequence into several IMF components and RES sequences, and the IMF components are recombined by reconstruction. Each sub-sequence is predicted and analyzed by PSO-BiLSTM neural network, and finally the predicted value of the original sequence is obtained by summing up the predicted values of each sub-sequence. Using six major shipping indices in China's shipping market such as FDI and BDI as test data, a systematic comparison test is conducted between the CEEMD-PSO-BiLSTM model and other mainstream time-series models in terms of forecasting effects. The results show that the model outperforms other models in all indicators, indicating its universality in different shipping markets. The research results of this article can deepen and improve the understanding of shipping indices, and also have important implications for risk management and decision management in the shipping market.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ad259fe1a2747ffc2c3cc2559dcbd05c",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:30:58.386873"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用CEEMD-PSO-BiLSTM模型预测航运指数，虽然航运指数本身不属于传统金融领域，但论文明确指出其研究成果对航运市场的风险管理有重要启示，因此可以归类为金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用CEEMD-PSO-BiLSTM模型预测航运指数，虽然航运指数本身不属于传统金融领域，但论文明确指出其研究成果对航运市场的风险管理有重要启示，因此可以归类为金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:44.905625"
+}

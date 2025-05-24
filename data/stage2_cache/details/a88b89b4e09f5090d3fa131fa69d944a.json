@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 172,
+    "title": "On the dangers of a simplistic American option simulation valuation method",
+    "abstract": "Chen and Shen [Chen, A.-S., and P.-F. Shen. 2003. Computational complexity analysis of least-squares Monte Carlo (LSM) for pricing US derivatives. Applied Economics Letters 10: 223-9] argue that we can improve the least squares Monte Carlo method (LSMC) to value American options by removing the least squares regression module. This would make it not only faster but also more accurate. We demonstrate, using a large sample of 2500 put options, that the proposed algorithm - the perfect foresight method (PFM) - is, as argued by the authors, faster than the LSMC algorithm but, contrary to what they state, it is not more accurate than the LSMC. In fact, the PFM algorithm incorrectly prices American options. We therefore, do not recommend the use of the PFM.",
+    "year": 2010,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "c621045b09b807025b1645a8627c8993",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.078265"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "The paper focuses on evaluating a method for pricing American options, which is a type of derivative. The discussion centers around the accuracy and speed of different simulation methods (LSMC and PFM) specifically for option pricing, placing it squarely in the derivatives pricing domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Derivatives Pricing\"],\n  \"justification\": \"The paper focuses on evaluating a method for pricing American options, which is a type of derivative. The discussion centers around the accuracy and speed of different simulation methods (LSMC and PFM) specifically for option pricing, placing it squarely in the derivatives pricing domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:34.618683"
+}

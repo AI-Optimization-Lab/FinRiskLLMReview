@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1763,
+    "title": "Reinforcement-Learning Based Portfolio Management with Augmented Asset Movement Prediction States",
+    "abstract": "Portfolio management (PM) is a fundamental financial planning task that aims to achieve investment goals such as maximal profits or minimal risks. Its decision process involves continuous derivation of valuable information from various data sources and sequential decision optimization, which is a prospective research direction for reinforcement learning (RL). In this paper, we propose SARL, a novel State-Augmented RI. framework for PM. Our framework aims to address two unique challenges in financial PM: (1) data heterogeneity - the collected information for each asset is usually diverse. noisy and imbalanced (e.g., news articles); and (2) environment uncertainty - the financial market is versatile and non-stationary. To incorporate heterogeneous data and enhance robustness against environment uncertainty, our SARL augments the asset information with their price movement prediction as additional states, where the prediction can be solely based on financial data (e.g., asset prices) or derived from alternative sources such as news. Experiments on two real-world datasets, (i) Bitcoin market and (ii) HighTech stock market with 7-year Reuters news articles, validate the effectiveness of SARL over existing PM approaches, both in terms of accumulated profits and risk-adjusted profits. Moreover, extensive simulations are conducted to demonstrate the importance of our proposed state augmentation, providing new insights and boosting performance significantly over standard RL-based PM method and other baselines.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8b71d3962c1d3ba0438d57c261a12fea",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:07:25.618798"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是强化学习框架SARL，旨在解决投资组合管理中的两个独特挑战：数据异构性和环境不确定性。论文明确提到其目标是实现投资目标，如最大利润或最小风险，并通过实验验证了其在比特币市场和高科技股票市场中的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是强化学习框架SARL，旨在解决投资组合管理中的两个独特挑战：数据异构性和环境不确定性。论文明确提到其目标是实现投资目标，如最大利润或最小风险，并通过实验验证了其在比特币市场和高科技股票市场中的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:36.098186"
+}

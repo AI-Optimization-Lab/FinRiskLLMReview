@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 746,
+    "title": "Offline Reinforcement Learning for Automated Stock Trading",
+    "abstract": "Recently, with the increasing interest in investments in financial stock markets, several methods have been proposed to automatically trade stocks and/or predict future stock prices using machine learning techniques, such as reinforcement learning (RL), LSTM, and transformers. Among them, RL has been applied to manage portfolio assets with a sequence of optimal actions. The most important factor in investing in stocks is the utilization of past stock price data. However, existing RL algorithms applied to stock markets do not consider past stock data when taking optimal actions, as RL is formulated based on the Markov property. In other words, it means that the existing RL algorithm infers action based on the current state only. To resolve this limitation, we propose Transformer Actor-Critic with Regularization (TACR) using decision transformer to train the model with the correlation of past MDP (Markov Decision Process) elements using an attention network. In addition, a critic network is added to improve the performance by updating the parameters based on the evaluation of an action. For an efficient learning method, we train our model using an offline RL algorithm through suboptimal trajectories. To prevent overestimating the value of actions and reduce learning time, we train TACR through a regularization technique with an added behavior cloning. The experimental results using various stock market datasets show that TACR performs better than other state-of-the-art methods in terms of the Sharpe ratio and profit.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "746be50965448f7d48e0b6bf5e74135a",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:50.277192"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用离线强化学习（Offline Reinforcement Learning）和Transformer模型来优化股票交易策略，目标是管理投资组合资产并通过一系列最优行动来提高Sharpe比率和利润。这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用离线强化学习（Offline Reinforcement Learning）和Transformer模型来优化股票交易策略，目标是管理投资组合资产并通过一系列最优行动来提高Sharpe比率和利润。这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:59.375358"
+}

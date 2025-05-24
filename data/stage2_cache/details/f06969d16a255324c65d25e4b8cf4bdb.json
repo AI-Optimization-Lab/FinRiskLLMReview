@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1350,
+    "title": "Algorithm Selection via Ranking",
+    "abstract": "The abundance of algorithms developed to solve different problems has given rise to an important research question: How do we choose the best algorithm for a given problem? Known as algorithm selection, this issue has been prevailing in many domains, as no single algorithm can perform best on all problem instances. Traditional algorithm selection and portfolio construction methods typically treat the problem as a classification or regression task. In this paper, we present a new approach that provides a more natural treatment of algorithm selection and portfolio construction as a ranking task. Accordingly, we develop a Ranking-Based Algorithm Selection (RAS) method, which employs a simple polynomial model to capture the ranking of different solvers for different problem instances. We devise an efficient iterative algorithm that can gracefully optimize the polynomial coefficients by minimizing a ranking loss function, which is derived from a sound probabilistic formulation of the ranking problem. Experiments on the SAT 2012 competition dataset show that our approach yields competitive performance to that of more sophisticated algorithm selection methods.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "094888b77d5c39694982179866d83ec9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:56.354518"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究算法选择和组合构建的排名方法，虽然提到了'portfolio construction'，但这是指算法组合而非金融投资组合，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究算法选择和组合构建的排名方法，虽然提到了'portfolio construction'，但这是指算法组合而非金融投资组合，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:38.640729"
+}

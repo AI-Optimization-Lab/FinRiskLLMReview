@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1439,
+    "title": "THE SEARCH FOR TIME-SERIES PREDICTABILITY-BASED ANOMALIES",
+    "abstract": "This paper introduces a new algorithm for exploiting time-series predictability-based patterns to obtain an abnormal return, or alpha, with respect to a given benchmark asset pricing model. The algorithm proposes a deterministic daily market timing strategy that decides between being fully invested in a risky asset or in a risk-free asset, with the trading rule represented by a parametric perceptron. The optimal parameters are sought in-sample via differential evolution to directly maximize the alpha. Successively using two modern asset pricing models and two different portfolio weighting schemes, the algorithm was able to discover an undocumented anomaly in the United States stock market cross-section, both out-of-sample and using small transaction costs. The new algorithm represents a simple and flexible alternative to technical analysis and forecast-based trading rules, neither of which necessarily maximizes the alpha. This new algorithm was inspired by recent insights into representing reinforcement learning as evolutionary computation.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "54bc1009eaffb9a69a65296e02f60600",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.600108"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是一种用于市场时机选择的算法，旨在通过时间序列预测性模式获取超额收益（alpha），并涉及资产配置决策（在风险资产和无风险资产之间切换）。这直接关联到投资组合管理的核心问题，即如何优化资产配置以实现特定投资目标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是一种用于市场时机选择的算法，旨在通过时间序列预测性模式获取超额收益（alpha），并涉及资产配置决策（在风险资产和无风险资产之间切换）。这直接关联到投资组合管理的核心问题，即如何优化资产配置以实现特定投资目标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:05.384555"
+}

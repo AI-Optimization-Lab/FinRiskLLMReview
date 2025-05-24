@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 5871,
+    "title": "Credit portfolio stress testing using transition matrixes",
+    "abstract": "In this paper, we propose a new methodology for modeling credit transition probability matrixes (TPMs) using macroeconomic factors. We use two indicators, which we call bias and inertia, to summarize the properties of a given TPM. The dependence of a TPM on the economic cycle is achieved by linking the bias and inertia to macroeconomic variables using regression modeling techniques. A TPM reconstruction algorithm (for given values of the bias and inertia parameters) is used, together with exogenous stressed future values for the macroeconomic factors, to produce stressed projections of portfolio default rates (DRs). We compare, out-of-sample and using a data set from Moody's Credit Risk Calculator, results using this new methodology with results using two other competing methodologies. The out-of-sample period is chosen to coincide with the 2008 financial crisis, to resemble a stressed period; this is an appropriate and innovative backtesting exercise, given that the methods discussed here are stress-testing methods. We find that, overall, the method we propose outperforms the other two competing methods. For the in-sample performance, our method outperforms the other two during the 2001 dot-com bubble; however, it lags during the expansion period leading up to the 2008 financial crisis.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "46b14dd9eb54cbd9464521b2d93e7a5f",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:52:31.372743"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on modeling credit transition probability matrixes (TPMs) using macroeconomic factors to produce stressed projections of portfolio default rates (DRs). This methodology is primarily aimed at stress testing credit portfolios, which is a key aspect of financial risk management. Additionally, the application to portfolio default rates suggests relevance to portfolio management, particularly in assessing and managing credit risk within portfolios.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on modeling credit transition probability matrixes (TPMs) using macroeconomic factors to produce stressed projections of portfolio default rates (DRs). This methodology is primarily aimed at stress testing credit portfolios, which is a key aspect of financial risk management. Additionally, the application to portfolio default rates suggests relevance to portfolio management, particularly in assessing and managing credit risk within portfolios.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:57.494767"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 5554,
+    "title": "Interpretable high-stakes decision support system for credit default forecasting",
+    "abstract": "Methods for forecasting credit default have long been research focus for financial institutions. In this study, we propose an interpretable high-stakes decision support system for credit default forecasting called CDFS. Because of the high-stake nature of credit default prediction, the proposed CDFS adheres to the principle of people in the loop. The proposed CDFS comprises six modules: data processing, feature selection, data balancing, forecasting, evaluation, and interpretation. A feature selection method (permutation importance method), nine resampling methods, and six high-performance forecasting methods were employed in the proposed CDFS. The China Taiwan credit card default dataset and South Germany credit dataset were used to test the interpretability and predictive performance of the proposed CDFS. Experiments showed that the feature selection and data balancing modules of the CDFS effectively improve the prediction performance. A comparison with traditional logistic regression models demonstrated that the CDFS can provide decision-makers with satisfactory explanations for prediction results. In summary, the CDFS proposed in this study exhibited excellent predictive performance and satisfactory interpretability. This study contributes to improving the accuracy of credit default forecasting and reducing credit risk in financial institutions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "865cd11efd8f569edf50f139141658b3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:48:51.381653"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing an interpretable decision support system for credit default forecasting, which is directly related to assessing and mitigating credit risk—a key aspect of financial risk management in financial institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing an interpretable decision support system for credit default forecasting, which is directly related to assessing and mitigating credit risk—a key aspect of financial risk management in financial institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:02.938785"
+}

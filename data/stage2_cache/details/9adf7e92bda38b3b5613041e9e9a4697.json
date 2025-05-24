@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1318,
+    "title": "Semiparametric dynamic portfolio choice with multiple conditioning variables",
+    "abstract": "Dynamic portfolio choice has been a central and essential objective for investors in active asset management. In this paper, we study the dynamic portfolio choice with multiple conditioning variables, where the dimension of the conditioning variables can be either fixed or diverging to infinity at certain polynomial rate of the sample size. We propose a novel data-driven method to estimate the optimal portfolio choice, motivated by the model averaging marginal regression approach suggested by Li et al. (2015). More specifically, in order to avoid the curse of dimensionality associated with the multivariate nonparametric regression problem and to make it practically implementable, we first estimate the marginal optimal portfolio choice by maximizing the conditional utility function for each univariate conditioning variable, and then construct the joint dynamic optimal portfolio through the weighted average of the marginal optimal portfolio across all the conditioning variables. Under some regularity conditions, we establish the large sample properties for the developed portfolio choice procedure. Both the simulation study and empirical application well demonstrate the finite-sample performance of the proposed methodology. (C) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b49e870a0ceada47f04c3442e9f9e53f",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:24.654098"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是动态投资组合选择，提出了一种数据驱动的方法来估计最优投资组合选择，这直接属于投资组合管理领域。论文中提到的条件效用函数最大化、边际最优投资组合选择以及联合动态最优投资组合构建等，都是投资组合管理的典型研究内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是动态投资组合选择，提出了一种数据驱动的方法来估计最优投资组合选择，这直接属于投资组合管理领域。论文中提到的条件效用函数最大化、边际最优投资组合选择以及联合动态最优投资组合构建等，都是投资组合管理的典型研究内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:43.580891"
+}

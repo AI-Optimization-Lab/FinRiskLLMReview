@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 318,
+    "title": "基于支持向量机的P2P网络借贷投资决策分析",
+    "abstract": "为了获得最优贷款投资组合,从投资人的角度考虑P2P网络借贷的收益和风险,以及如何分配投资人的现金。首先,基于支持向量机(support vector machine,SVM)理论建立了贷款违约概率预测模型,得到每笔贷款的违约概率;进而,根据违约概率之间的相似距离和核回归构建贷款收益预测模型,进行贷款收益和风险的评估;然后,利用投资组合优化模型,辅助投资人制定合适的投资策略;最后,选取Lending Club平台数据对提出的模型进行验证。研究结果表明:基于SVM投资决策模型的贷款收益预测准确度,投资组合收益率均比逻辑回归模型更优。",
+    "year": 2017,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c456dc0b5af47cb8b6e3cda7e1e9ef8b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:22:41.505731"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用支持向量机(SVM)预测贷款违约概率，并基于此进行贷款收益和风险评估，这属于金融风险管理的范畴。同时，论文还利用投资组合优化模型辅助投资人制定投资策略，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用支持向量机(SVM)预测贷款违约概率，并基于此进行贷款收益和风险评估，这属于金融风险管理的范畴。同时，论文还利用投资组合优化模型辅助投资人制定投资策略，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:07.533455"
+}

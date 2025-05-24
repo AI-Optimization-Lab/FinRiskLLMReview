@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 376,
+    "title": "Company classification using machine learning",
+    "abstract": "The recent advancements in computational power and machine learning algorithms have led to vast improvements in manifold areas of research. Especially in finance, the application of machine learning enables both researchers and practitioners to gain new insights into financial data and well-studied areas such as company classification. In our paper, we demonstrate that unsupervised machine learning algorithms can visualize and classify company data in an economically meaningful and effective way. In particular, we implement the data-driven dimension reduction and visualization tool t-distributed stochastic neighbor embedding (t-SNE) in combination with spectral clustering. The resulting company groups can then be utilized by experts in the field for empirical analysis and optimal decision making. We are the first to demonstrate how this approach can be implemented in manifold areas of finance by developing a general decision engine. With two exemplary out-of sample studies on portfolio optimization and company valuation with multiples, we show that the application of t-SNE and spectral clustering improves competitive benchmark models.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "48e32070b121aacec6feeee951d5d8ba",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "classification",
+      "clustering",
+      "manifold learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.578179"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用无监督机器学习算法对公司进行分类，并特别提到了在投资组合优化中的应用示例。虽然论文还提到了公司估值，但投资组合管理是其明确指出的应用领域之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用无监督机器学习算法对公司进行分类，并特别提到了在投资组合优化中的应用示例。虽然论文还提到了公司估值，但投资组合管理是其明确指出的应用领域之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:16.253283"
+}

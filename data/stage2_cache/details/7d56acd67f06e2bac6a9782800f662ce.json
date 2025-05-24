@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 93,
+    "title": "基于金融文本情绪挖掘的Black-Litterman投资组合模型研究——以东方财富股吧发帖文本和我国A股市场为例",
+    "abstract": "互联网时代下,越来越多投资者开始在网络社区,特别是在金融投资类社区中发表自己的投资观点与看法,由此产生的海量金融文本数据具有较高的研究价值,如何将这些金融文本数据加以利用已成为时下金融投资领域的研究热点。本文探究了如何将东方财富股吧中的投资者发帖文本转化为对应的情绪指标,并基于此形成投资者意见,在Black-Litterman模型框架下构建考虑金融文本情绪信息的投资组合模型。具体来讲,首先利用网络爬虫从东方财富股吧中获取富时中国A50成分股对应的股吧发帖文本数据,并进行数据预处理,随后运用词典法和朴素贝叶斯法分别提取出股吧发帖文本的情绪指标;进一步将情绪指标、股票收盘价和成交量三项指标作为特征变量,使用回归随机森林算法对股票的未来收益率进行预测;最后将预测得到的未来收益率作为投资者观点,并置于Black-Litterman模型中构建考虑金融文本情绪信息的投资组合模型。回测结果显示,使用朴素贝叶斯法构建的基于金融文本情绪挖掘的投资组合模型有更好的绩效表现。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a2e3a4818071ce3781f9215aa0c6e7bf",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:22.420419"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是将金融文本情绪挖掘应用于Black-Litterman投资组合模型，旨在构建考虑金融文本情绪信息的投资组合模型，这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是将金融文本情绪挖掘应用于Black-Litterman投资组合模型，旨在构建考虑金融文本情绪信息的投资组合模型，这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:51.732127"
+}

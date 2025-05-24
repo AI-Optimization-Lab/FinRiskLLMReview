@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1977,
+    "title": "Advanced Option Pricing and Hedging with Q-Learning: Performance Evaluation of the QLBS Algorithm",
+    "abstract": "This article provides an overview of the recent advances in reinforcement learning (RL) for pricing and hedging financial instruments, focusing on the Q-Learning Black-Scholes (QLBS) approach. This RL approach bridges the traditional Black-Scholes-Merton (BSM) model with artificial intelligence algorithms, enabling option pricing and hedging in a completely model-free and data-driven way. The study evaluates the QLBS algorithm's performance across different state variables and scenarios for a European put option, showing that the model accurately estimates option prices under varying volatility levels, hedging frequencies, risk-free rates, and when dividends are included. Additionally, the QLBS method shows robust performance in pricing and hedging options across different moneyness levels, with more pronounced deviations from the BSM model for deep in-the-money options under higher risk aversion. The empirical analysis also incorporates proportional transaction costs using at-the-money S&P 500 call options, revealing varied implications for profitability and risk mitigation, influenced by the choice of state variables. The article sheds light on the QLBS model's explainability by providing detailed technical notes and a numerical example, and additionally, the results reveal its high practical relevance.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "09361f2d3001d27b8bdbe81e4d50f828",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:48.312469"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用强化学习（Q-Learning）进行期权定价和对冲，这直接涉及衍生品定价领域。同时，对冲策略的研究也属于金融风险管理的范畴，因为对冲是管理金融风险的重要手段。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习（Q-Learning）进行期权定价和对冲，这直接涉及衍生品定价领域。同时，对冲策略的研究也属于金融风险管理的范畴，因为对冲是管理金融风险的重要手段。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:51.693985"
+}

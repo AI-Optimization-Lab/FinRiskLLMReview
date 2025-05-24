@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 173,
+    "title": "Financial risk tolerance profiling from text",
+    "abstract": "Traditionally, individual financial risk tolerance information is gathered via questionnaires or similar structured psychometric tools. Our abundant digital footprint, as an unstructured alternative, is less investigated. Leveraging such information can potentially support largescale and cost-efficient financial services. Therefore, I explore the possibility of building a computational model that distills risk tolerance information from user texts in this study, and discuss the design principles discovered from empirical results and their implications. Specifically, a new quaternary classification task is defined for text mining-based risk profiling. Experiments show that pre-trained large language models set a baseline micro-F1 of circa 0.34. Using a convolutional neural network (CNN), the reported system achieves a micro-F1 of circa 0.51, which significantly outperforms the baselines, and is a circa 4% further improvement over the standard CNN configurations (micro-F1 of circa 0.47). Textual feature richness and supervised learning are found to be the key contributors to model performances, while other machine learning strategies suggested by previous research (data augmentation and multitasking) are less effective. The findings confirm user texts to be a useful risk profiling resource and provide several insights on this task.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d49a4d371d931d992eff3f878662c40b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:52.961314"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是通过文本挖掘和机器学习模型（如CNN和LLM）来评估个体的金融风险容忍度，这直接应用于金融风险管理中的客户风险分析和评估。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是通过文本挖掘和机器学习模型（如CNN和LLM）来评估个体的金融风险容忍度，这直接应用于金融风险管理中的客户风险分析和评估。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:23.127122"
+}

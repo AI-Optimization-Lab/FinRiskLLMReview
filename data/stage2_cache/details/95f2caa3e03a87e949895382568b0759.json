@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 591,
+    "title": "Systemic risk prediction based on Savitzky-Golay smoothing and temporal convolutional networks",
+    "abstract": "Based on the data from January 2007 to December 2021, this paper selects 14 representatives from four levels of the extreme risk of financial institutions, the contagion effect between financial systems, volatility and instability of financial markets, liquidity, and credit risk systemic risk. By constructing a Savitzky-Golay-TCN deep convolutional neural network, the systemic risk indicators of China's financial market are predicted, and their accuracy and reliability are analyzed. The research found that: 1) Savitzky-Golay-TCN deep convolutional neural network has a strong generalization ability, and the prediction effect on all indices is stable. 2) Compared with the three control models (time-series convolutional network (TCN), convolutional neural network (CNN), and long short-term memory (LSTM)), the Savitzky-Golay-TCN deep convolutional neural network has excellent prediction accuracy, and its average prediction accuracy for all indices has increased. 3) Savitzky-Golay-TCN deep convolutional neural network can better monitor financial market changes and effectively predict systemic risk.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "59f67c23c168fd65adb9efd5feebdce4",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.487068"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用Savitzky-Golay-TCN深度卷积神经网络预测系统性风险指标，这直接属于金融风险管理的范畴。论文明确提到预测系统性风险、监控金融市场变化，这些都是金融风险管理的关键任务。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用Savitzky-Golay-TCN深度卷积神经网络预测系统性风险指标，这直接属于金融风险管理的范畴。论文明确提到预测系统性风险、监控金融市场变化，这些都是金融风险管理的关键任务。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:39.810150"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 3189,
+    "title": "Unlocking the power of the topic content in news headlines: BERTopic for predicting Chinese corporate bond defaults",
+    "abstract": "This study explores the thematic content of news headlines and assesses their predictive power for corporate bond defaults. It establishes a data-driven framework, that emphasizes transparency and interpretability through the incorporation of explainable AI (xAI) techniques. The interpretable AI method, BERTopic, is applied to analyze news headlines from Jan. 1, 2014, to Aug. 31, 2021. A total of 18 economically inrerpretable topic measures are derived by combining similar topics among 78 original topics, offering insights into bond issuers' operational behavior and associated risks. Integrating the BERTopic model, various machine learning prediction models, the SHapley Additive exPlanations (SHAP) approach, and feature combination approaches, this study uncovers the incremental information contributed by news headlines beyond financial ratios and economic variables. The inclusion of these topic measures significantly enhances the predictive performance of first-time corporate bond defaults within a 3-month horizon. Additionally, the robustness of news headlines' information value is validated by extending the sample and employing an alternative study sample with differing credit risk scenarios, diverse markets, and even distinct news sources.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ec03d75538f40f53bc8130a926e26659",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature learning",
+      "feature representation",
+      "deep learning",
+      "representation learning",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:23:33.542446"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术应用于预测企业债券违约，这属于信用风险管理的范畴，是金融风险管理的一个重要子领域。论文通过分析新闻标题的主题内容来增强违约预测的准确性，直接针对金融风险管理中的信用风险评估问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术应用于预测企业债券违约，这属于信用风险管理的范畴，是金融风险管理的一个重要子领域。论文通过分析新闻标题的主题内容来增强违约预测的准确性，直接针对金融风险管理中的信用风险评估问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:04.274964"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 861,
+    "title": "CATE: Contrastive augmentation and tree-enhanced embedding for credit scoring",
+    "abstract": "Credit transactions are vital financial activities that yield substantial economic benefits. To further improve lending decisions, stakeholders require accurate and interpretable credit scoring methods. While the majority of previous studies have focused on the relationship between individual features and credit risk, only a few have investigated cross-features. Notably, cross -features can not only represent structured data effectively but also provide richer semantic information than individual features. Nevertheless, most previous methods for learning cross -feature effects from credit data have been implicit and unexplainable. This paper proposes a new credit scoring model based on contrastive augmentation and tree-enhanced embedding mechanisms, termed CATE. The proposed model automatically constructs explainable cross -features by using tree-based models to learn decision rules from the data. Moreover, the importance of each local cross-feature is then derived through an attention mechanism. Finally, the credit score of a user is evaluated using embedding vectors. Experimental results on 4 public datasets demonstrated the interpretability of our proposed method and outperformed 13 state-of-the-art benchmark methods in terms of performance.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "22cd4cadb31029d8d9226c90d17452bf",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:43:20.725532"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种新的信用评分模型，旨在提高贷款决策的准确性和可解释性，这直接关联到信用风险的管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种新的信用评分模型，旨在提高贷款决策的准确性和可解释性，这直接关联到信用风险的管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:01.468295"
+}

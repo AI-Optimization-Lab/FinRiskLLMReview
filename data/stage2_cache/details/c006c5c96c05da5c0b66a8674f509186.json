@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1955,
+    "title": "Bankruptcy Prediction using Hybrid Neural Networks with Artificial Bee Colony",
+    "abstract": "Credit risk now is considered like the most important risk faced by banks and financial institutions. For this reason, predictive analytics became the barometer of financiers with a main interest to corporate bankruptcy prediction (CBP), or referred to as financial distress prediction. Predictive analytics techniques are subdivided into two groups: traditional statistical (e.g. discriminant analysis and logistic regression) and machine learning (e.g. artificial neural networks, support vector machines and random forest). Trained by metaheuristic algorithm such as artificial bee colony (ABC), an ANN model called ABCNN is applied in CBP and this new hybrid model is the contribution of our article. Our model is compared with two other models in order to investigate its efficiency: the first model is multiple discriminant analysis (MDA) and the second one is an ANN trained by the most common learning algorithm a back propagation (BPNN). The models mentioned above were applied at two different periods in order to evaluate their efficiency. The first period is one year before the bankruptcy, and the second one is three years before. Performance was evaluated in terms of several metrics: Accuracy, AUC-score, type I and type II errors. The experimental results indicate that ANN models, on average, are approximately 10% more accurate in relation to MDA in different periods. Our Model ABCNN led to 92% accuracy, whereas BPNN's and MDA's led to 91% and 81% accuracy, respectively in one year before the bankruptcy. However, when we apply in the period three years before the bankruptcy, we find that ABCNN's result is 80.94% followed by BPNN with 81.05%, thenMDA - with 67.22%. The right data preprocessing applied has increased significantly the predictive power of all the models mentioned above. In conclusion, experimental results show that the ABC algorithm in an ABC model could be considered to predict potential corporate bankruptcy.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fe8dad5173cbea57ca80e52374ac5f70",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:14.423342"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on corporate bankruptcy prediction (CBP), which is a critical aspect of credit risk management. Credit risk is a significant concern for banks and financial institutions, and the development of predictive models like the hybrid neural network with artificial bee colony (ABCNN) directly addresses this issue. The study compares the performance of different models in predicting bankruptcy, which is a key component of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on corporate bankruptcy prediction (CBP), which is a critical aspect of credit risk management. Credit risk is a significant concern for banks and financial institutions, and the development of predictive models like the hybrid neural network with artificial bee colony (ABCNN) directly addresses this issue. The study compares the performance of different models in predicting bankruptcy, which is a key component of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:10.304738"
+}

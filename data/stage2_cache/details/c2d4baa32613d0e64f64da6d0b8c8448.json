@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 32,
+    "title": "Machine learning for prediction of acute kidney injury in patients diagnosed with sepsis in critical care",
+    "abstract": "Background and objective Acute Kidney Injury (AKI) is a common and severe complication in patients diagnosed with sepsis. It is associated with higher mortality rates, prolonged hospital stays, increased utilization of medical resources, and financial burden on patients' families. This study aimed to establish and validate predictive models using machine learning algorithms to accurately predict the occurrence of AKI in patients diagnosed with sepsis.Methods This retrospective study utilized real observational data from the Medical Information Mart for Intensive Care IV (MIMIC-IV) database. It included patients aged 18 to 90 years diagnosed with sepsis who were admitted to the ICU for the first time and had hospital stays exceeding 48 hours. Predictive models, employing various machine learning algorithms including Light Gradient Boosting Machine (LightGBM), EXtreme Gradient Boosting (XGBoost), Random Forest (RF), Decision Tree (DT), Artificial Neural Network (ANN), Support Vector Machine (SVM), and Logistic Regression (LR), were developed. The dataset was randomly divided into training and test sets at a ratio of 4:1.Results A total of 10,575 sepsis patients were included in the analysis, of whom 8,575 (81.1%) developed AKI during hospitalization. A selection of 47 variables was utilized for model construction. The models derived from LightGBM, XGBoost, RF, DT, ANN, SVM, and LR achieved AUCs of 0.801, 0.773, 0.772, 0.737, 0.720, 0.765, and 0.776, respectively. Among these models, LightGBM demonstrated the most superior predictive performance.Conclusions These machine learning models offer valuable predictive capabilities for identifying AKI in patients diagnosed with sepsis. The LightGBM model, with its superior predictive capability, could aid clinicians in early identification of high-risk patients.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "40db0c6888246cdf89a169d3bbb92f8e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:03.818986"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习模型预测急性肾损伤（AKI）在脓毒症患者中的发生，属于医疗健康领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习模型预测急性肾损伤（AKI）在脓毒症患者中的发生，属于医疗健康领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:32.535494"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2134,
+    "title": "SCALABLE FINANCIAL INDEX TRACKING WITH GRAPH NEURAL NETWORKS",
+    "abstract": "As a prevailing passive investment strategy in the financial world, index tracking aims at replicating or surpassing the performance of a financial index. The core part of an index tracking strategy is to design a sparse index tracking portfolio (ITP) from a basket of candidate financial assets. In this paper, a scalable two-stage approach is developed for ITP design under the minimax criterion, which consists of an asset selection stage (i.e., to select a subset of the assets from the index constituent stocks) and a capital allocation stage (i.e., to allocate the capital among the selected assets). The asset selection problem is tackled via a well-calibrated graph neural network (GNN), followed by a light-weight linear programming problem for capital allocation resolved via a standard solver. The idea proposed in this paper is novel for the area of ITP design in that it is especially scalable for tracking large-scale and dynamic-updating financial indices. Numerical simulations validate the scalability and high-efficiency of the proposed GNN-based approach with comparisons to the standard solver-based approach.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3900783f15a96efaaddb5ac806e7c15d",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "graph neural network",
+      "GNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:03.813250"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用图神经网络（GNN）设计稀疏指数跟踪投资组合（ITP），这属于投资组合管理的范畴。论文明确提到其目标是复制或超越金融指数的表现，并通过资产选择和资本分配两个阶段来实现这一目标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用图神经网络（GNN）设计稀疏指数跟踪投资组合（ITP），这属于投资组合管理的范畴。论文明确提到其目标是复制或超越金融指数的表现，并通过资产选择和资本分配两个阶段来实现这一目标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:16.806171"
+}

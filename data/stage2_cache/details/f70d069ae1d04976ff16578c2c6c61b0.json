@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2772,
+    "title": "Risk Analysis for Large Pools of Loans",
+    "abstract": "Financial institutions, government-sponsored enterprises, and asset-backed security investors are often exposed to delinquency and prepayment risk from large numbers of loans. Examples include mortgages, credit cards, and auto, student, and business loans. Because of the size of the pools, the measurement of these exposures is computationally expensive. This paper develops and tests efficient numerical methods for the analysis of large pools of loans as well as asset-backed securities backed by such pools. For a broad class of statistical and machine learning models of loan-level risk in discrete time, we prove a law of large numbers and a central limit theorem for the pool-level risk. The asymptotics are then used to construct computationally efficient approximations for a large pool. The approximations aggregate the full loan-level dynamics, making it possible to take advantage of the detailed loan-level data often available in practice. We furthermore prove a convergence rate for the approximation and a uniform integrability result. The latter allows the approximation to be applied to a wide class of pool-level risk statistics. To demonstrate the effectiveness of our approach, we implement it on a data set of over 25 million mortgages. The results show the accuracy and speed of the approximation in comparison to brute-force simulation of a pool, for a variety of pools with different risk profiles.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4925a5f2e0a0fbf1b9b7bd891d080551",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:19:08.379579"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing efficient numerical methods for analyzing large pools of loans and asset-backed securities, specifically addressing delinquency and prepayment risks. This is a clear application in financial risk management, as it deals with measuring and mitigating risks associated with loan portfolios.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing efficient numerical methods for analyzing large pools of loans and asset-backed securities, specifically addressing delinquency and prepayment risks. This is a clear application in financial risk management, as it deals with measuring and mitigating risks associated with loan portfolios.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:40:09.802575"
+}

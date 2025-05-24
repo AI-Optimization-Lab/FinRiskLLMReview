@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1269,
+    "title": "Low-Rank Plus Sparse Decomposition of Covariance Matrices Using Neural Network Parametrization",
+    "abstract": "This article revisits the problem of decomposing a positive semidefinite matrix as a sum of a matrix with a given rank plus a sparse matrix. An immediate application can be found in portfolio optimization, when the matrix to be decomposed is the covariance between the different assets in the portfolio. Our approach consists in representing the low-rank part of the solution as the product MMT, where M is a rectangular matrix of appropriate size, parametrized by the coefficients of a deep neural network. We then use a gradient descent algorithm to minimize an appropriate loss function over the parameters of the network. We deduce its convergence rate to a local optimum from the Lipschitz smoothness of our loss function. We show that the rate of convergence grows polynomially in the dimensions of the input-output, and the size of each of the hidden layers.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "19b36896cedd5e0d47c24d6ddad6696a",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.167674"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提到其方法在投资组合优化中的应用，特别是分解资产协方差矩阵，这是投资组合管理中的核心问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确提到其方法在投资组合优化中的应用，特别是分解资产协方差矩阵，这是投资组合管理中的核心问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:10.950502"
+}

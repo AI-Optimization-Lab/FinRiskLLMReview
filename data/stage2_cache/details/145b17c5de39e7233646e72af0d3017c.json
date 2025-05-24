@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1941,
+    "title": "Sparse and stable Markowitz portfolios",
+    "abstract": "We consider the problem of portfolio selection within the classical Markowitz mean-variance framework, reformulated as a constrained least-squares regression problem. We propose to add to the objective function a penalty proportional to the sum of the absolute values of the portfolio weights. This penalty regularizes (stabilizes) the optimization problem, encourages sparse portfolios (i.e., portfolios with only few active positions), and allows accounting for transaction costs. Our approach recovers as special cases the no-short-positions portfolios, but does allow for short positions in limited number. We implement this methodology on two benchmark data sets constructed by Fama and French. Using only a modest amount of training data, we construct portfolios whose out-of-sample performance, as measured by Sharpe ratio, is consistently and significantly better than that of the naive evenly weighted portfolio.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "40e0ccd0220d0d92ea5075d89d507687",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:41.568419"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on portfolio selection within the Markowitz mean-variance framework, proposing a method to improve portfolio performance by encouraging sparse and stable portfolios. This directly addresses the core concerns of portfolio management, such as optimizing asset allocation and managing transaction costs.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on portfolio selection within the Markowitz mean-variance framework, proposing a method to improve portfolio performance by encouraging sparse and stable portfolios. This directly addresses the core concerns of portfolio management, such as optimizing asset allocation and managing transaction costs.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:11.376478"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1,
+    "title": "Time-sequencing European options and pricing with deep learning - Analyzing based on interpretable ALE method",
+    "abstract": "In this paper, we investigated the feasibility of pricing European options with time-sequencing data processing method and deep learning models, based on two European options, the ETF50 options of China and the S&P 500 options of America. Four competing models were built to verify the improvement of the 1D-CNN and LSTM models on the option pricing task. Methods like cross-validations and statistical tests were also used to make our experiments more robust. Besides, in order to increase the stability and the interpretability of our pricing models, we selected the ALE method to interpret and analyze the behavior of the deep learning models. The empirical results indicate that, in both ETF50 option and S&P500 option pricing tasks, the 1D-CNN and LSTM models had significant advantages in forecasting accuracy and robustness under moneyness, trading date or maturity dimension irrespectively. Especially for the LSTM model, which has robust performance using different kinds of cross-validation methods. With the help of ALE method, we proved that the improved performance brought by the 1D-CNN and LSTM models could be attributed to their capability of capturing time-series information and their different emphasis on input features and lags.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "0889e90991511e9dca55296ae2a4f10a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:26.261019"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用深度学习方法（如1D-CNN和LSTM）对欧洲期权进行定价，并验证了这些模型在定价任务中的优势。这直接属于衍生品定价的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用深度学习方法（如1D-CNN和LSTM）对欧洲期权进行定价，并验证了这些模型在定价任务中的优势。这直接属于衍生品定价的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:55.678027"
+}

@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using a Machine Learning model, specifically the XGBoost algorithm, for predicting business failure.",
+    "supervised learning": "The study uses labeled data (healthy and failing firms) to train the model, which is characteristic of supervised learning.",
+    "classification": "The research involves predicting business failure, which is a binary classification problem (healthy vs. failing firms).",
+    "decision tree": "XGBoost is based on decision trees, as it is an ensemble method that combines multiple decision trees to improve prediction accuracy."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using a Machine Learning model, specifically the XGBoost algorithm, for predicting business failure.\",\n    \"supervised learning\": \"The study uses labeled data (healthy and failing firms) to train the model, which is characteristic of supervised learning.\",\n    \"classification\": \"The research involves predicting business failure, which is a binary classification problem (healthy vs. failing firms).\",\n    \"decision tree\": \"XGBoost is based on decision trees, as it is an ensemble method that combines multiple decision trees to improve prediction accuracy.\"\n  }\n}\n```"
+}

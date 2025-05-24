@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1038,
+    "title": "Index tracking through deep latent representation learning",
+    "abstract": "We consider the problem of index tracking whose goal is to construct a portfolio that minimizes the tracking error between the returns of a benchmark index and the tracking portfolio. This problem carries significant importance in financial economics as the tracking portfolio represents a parsimonious index that facilitates a practical means to trade the benchmark index. For this reason, extensive studies from various optimization and machine learning-based approaches have ensued. In this paper, we solve this problem through the latest developments from deep learning. Specifically, we associate a deep latent representation of asset returns, obtained through a stacked autoencoder, with the benchmark index's return to identify the assets for inclusion in the tracking portfolio. Empirical results indicate that to improve the performance of previously proposed deep learning-based index tracking, the deep latent representation needs to be learned in a strictly hierarchical manner and the relationship between the returns of the index and the assets should be quantified by statistical measures. Various deep learning-based strategies have been tested for the stock market indices of the S&P 500, FTSE 100 and HSI, and it is shown that our proposed methodology generates the best index tracking performance.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "30dbdf4d604a0ef9083ba85a7734daca",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "autoencoder",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.847421"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和表示学习来构建跟踪指数的投资组合，其研究目标是优化投资组合以最小化跟踪误差，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和表示学习来构建跟踪指数的投资组合，其研究目标是优化投资组合以最小化跟踪误差，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:15.519471"
+}

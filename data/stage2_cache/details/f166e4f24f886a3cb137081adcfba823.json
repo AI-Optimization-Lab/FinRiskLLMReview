@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 664,
+    "title": "Learning equilibrium mean-variance strategy",
+    "abstract": "We study a dynamic mean-variance portfolio optimization problem under the reinforcement learning framework, where an entropy regularizer is introduced to induce exploration. Due to the time-inconsistency involved in a mean-variance criterion, we aim to learn an equilibrium policy. Under an incomplete market setting, we obtain a semi-analytical, exploratory, equilibrium mean-variance policy that turns out to follow a Gaussian distribution. We then focus on a Gaussian mean return model and propose a reinforcement learning algorithm to find the equilibrium policy. Thanks to a thoroughly designed policy iteration procedure in our algorithm, we prove the convergence of our algorithm under mild conditions, despite that dynamic programming principle and the usual policy improvement theorem failing to hold for an equilibrium policy. Numerical experiments are given to demonstrate our algorithm. The design and implementation of our reinforcement learning algorithm apply to a general market setup.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "50cea5898cf5b64e478fbd67e5c2647d",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.460011"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究动态均值-方差投资组合优化问题，并提出了一个强化学习算法来寻找均衡策略。这直接涉及投资组合管理的核心问题，即如何在风险和回报之间找到最优平衡。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究动态均值-方差投资组合优化问题，并提出了一个强化学习算法来寻找均衡策略。这直接涉及投资组合管理的核心问题，即如何在风险和回报之间找到最优平衡。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:53.620232"
+}

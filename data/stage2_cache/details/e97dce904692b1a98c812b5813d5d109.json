@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1020,
+    "title": "Enhancing Portfolio Optimization: A Two-Stage Approach with Deep Learning and Portfolio Optimization",
+    "abstract": "The portfolio selection problem has been a central focus in financial research. A complete portfolio selection process includes two stages: stock pre-selection and portfolio optimization. However, most existing studies focus on portfolio optimization, often overlooking stock pre-selection. To address this problem, this paper presents a novel two-stage approach that integrates deep learning with portfolio optimization. In the first stage, we develop a stock trend prediction model for stock pre-selection called the AGC-CNN model, which leverages a convolutional neural network (CNN), self-attention mechanism, Graph Convolutional Network (GCN), and k-reciprocal nearest neighbors (k-reciprocal NN). Specifically, we utilize a CNN to capture individual stock information and a GCN to capture relationships among stocks. Moreover, we incorporate the self-attention mechanism into the GCN to extract deeper data features and employ k-reciprocal NN to enhance the accuracy and robustness of the graph structure in the GCN. In the second stage, we employ the Global Minimum Variance (GMV) model for portfolio optimization, culminating in the AGC-CNN+GMV two-stage approach. We empirically validate the proposed two-stage approach using real-world data through numerical studies, achieving a roughly 35% increase in Cumulative Returns compared to portfolio optimization models without stock pre-selection, demonstrating its robust performance in the Average Return, Sharp Ratio, Turnover-adjusted Sharp Ratio, and Sortino Ratio.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ba6d0b2b76c8551d9a41ffc1cf90190f",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "attention mechanism",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.815189"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on a two-stage approach for portfolio selection, integrating deep learning for stock pre-selection and portfolio optimization techniques, which is directly related to the field of Portfolio Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on a two-stage approach for portfolio selection, integrating deep learning for stock pre-selection and portfolio optimization techniques, which is directly related to the field of Portfolio Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:19.234769"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3973,
+    "title": "Deep learning based bi-level approach for proactive loan prospecting",
+    "abstract": "A fundamental component to managing a marketing campaign is identifying prospects and selection of leads. Current lead generation models focus on predicting the intention of a customer to purchase a product, however with financial products, particularly loans, this can be insufficient as there are many factors to consider, such as risk, utility, and financial maturity. Developing a marketing campaign for loan prospecting should consider not only customers who need a loan, but rather clients who need a loan and will also be approved. Otherwise, the marketing effort is deemed ineffective, if the lead cannot be converted into a sale. Although, a low response rate is expected for a marketing campaign for loans, we highlight a better approach in managing resources while maintaining a shortlist of high-quality leads. This manuscript introduces a bi-level approach to handle the complex nature of loan products. Two classifiers are built, one modelling loan intention and the other one modelling loan eligibility. We adopt convex combination to control weights of both problems, which in most cases results in an improved performance for identifying future successful loan applicants when compared to baseline models. Rank-based evaluation measures are also adopted to explore the performance of customer rankings. We find that soft classifiers, such as deep learning techniques, are ideal for ranking customers, achieving a superior performance when compared to other machine learning techniques. In addition, we conclude that an ideal cut-off for K customers is estimated to be between 20 to 25 customers, however our best model can maintain an Average Precision of greater than 0.85 when K approaches 50.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4971422ec0f59ceba795eaa788f54903",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:31:58.602279"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是贷款潜在客户的识别和筛选，虽然涉及金融产品（贷款），但其核心技术是使用深度学习和分类技术进行客户意向和资格的预测，并未直接涉及衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是贷款潜在客户的识别和筛选，虽然涉及金融产品（贷款），但其核心技术是使用深度学习和分类技术进行客户意向和资格的预测，并未直接涉及衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:43.267380"
+}

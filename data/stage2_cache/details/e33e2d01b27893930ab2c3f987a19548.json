@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 443,
+    "title": "Machine Learning for Enhanced Regional Seismic Risk Assessments",
+    "abstract": "The ability to conduct accurate regional seismic risk assessments is key to informing a risk-reduction policy and fostering community resilience. This paper presents a machine learning-based framework to predict a building's postearthquake damage state using structural properties and ground motion intensity measures as model inputs. The machine learning techniques assessed, namely, logistic regression, k-nearest neighbors, decision tree, random forest, AdaBoost, and gradient boosting, are trained using a dataset of nonlinear response history analysis results from 36 detailed structural models of modern reinforced concrete shear wall buildings ranging from four to 24 stories and subjected to approximately 500 ground motion records with a range of shaking intensities. The results indicate that the gradient boosting classifier is the most efficient algorithm by achieving a prediction success (F1-score) of 87%. The proposed framework also leverages synthetic data samples to support the prediction of severe damage state instances, that is, collapse. The percentage of observed collapse cases correctly classified by the gradient boosting algorithm is increased from 76% to 93% when synthetic data are also used for training. The framework is implemented in a portfolio of reinforced concrete shear wall buildings across the Metro Seattle region to quantify earthquake-induced damage and collapse risk. The framework shows great potential for enhancing regional seismic risk assessments by leveraging datasets of detailed nonlinear response history analysis results.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "00e61a6146346307c753f76a5981b318",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.277970"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用机器学习技术进行区域地震风险评估，其应用场景是建筑结构的地震损害预测和风险评估，与金融领域的衍生品定价、金融风险管理和投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用机器学习技术进行区域地震风险评估，其应用场景是建筑结构的地震损害预测和风险评估，与金融领域的衍生品定价、金融风险管理和投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:41.932503"
+}

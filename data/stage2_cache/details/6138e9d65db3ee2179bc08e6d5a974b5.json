@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 510,
+    "title": "Predicting Chronic Wound Healing Time Using Machine Learning",
+    "abstract": "Objective: Chronic wounds have risen to epidemic proportions in the United States and can have an emotional, physical, and financial toll on patients. By leveraging data within the electronic health record (EHR), machine learning models offer the opportunity to facilitate earlier identification of wounds at risk of not healing or healing after an abnormally long time, which may improve treatment decisions and patient outcomes. Machine learning models in this study were built to predict chronic wound healing time. Approach: Machine learning models were developed using EHR data to predict patients at risk of having wounds not heal within 4, 8, and 12 weeks from the start of treatment. The models were trained on three data sets of 1,220,576 wounds, including 187 covariates describing patient demographics, comorbidities, and wound characteristics. The area under the receiver operating characteristic curve (AUC) was used to assess the accuracy of the models. Shapley Additive Explanations (SHAP) were used to analyze variable importance in predictions and enhance clinical interpretations. Results: The 4-, 8-, and 12-week gradient-boosted decision tree models achieved AUC's of 0.854, 0.855, and 0.853, respectively. Days in treatment, wound depth and location, and wound area were the most influential predictors of wounds at risk of not healing. Innovation: Machine learning models can accurately predict chronic wound healing time using EHR data. SHAP values can give insight into how patient-specific variables influenced predictions. Conclusion: Accurate models identifying patients with chronic wounds at risk of non or slow healing are feasible and can be incorporated into routine wound care.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "95fd2c0cbe23f1bc17a51fa622eb22e9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:51:31.356334"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习模型预测慢性伤口愈合时间，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习模型预测慢性伤口愈合时间，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:34.883810"
+}

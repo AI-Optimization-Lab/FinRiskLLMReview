@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 58,
+    "title": "Hierarchical Learning for Option Implied Volatility Pricing",
+    "abstract": "Machine learning has been a popular option implied volatility pricing approach. It brings a good generalization in pricing by avoiding building different models for different options. However, it suffers from a relatively low prediction accuracy besides a model selection issue. In this study, we propose a novel hierarchical learning approach to enhance machine learning implied volatility pricing. It is designed for the 'learning-hard' problem and boosts different machine learning models' performance for different option data on behalf of moneyness besides identifying the optimal learning models. In particular, the proposed hierarchical learning can be an excellent way to enhance implied volatility pricing for the option datasets with more noise. In addition, we find out-of-the-money options fit machine learning prediction better than the other options. This pioneering study provides a robust way to enhance implied volatility pricing via machine learning and will inspire similar studies in the future.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "b455d56481f12150a35ac133a8d0cc0b",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.822422"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用分层学习方法来提高期权隐含波动率定价的准确性，这直接涉及衍生品定价领域。论文的研究目标和实验设计都集中在改进期权定价模型，特别是针对不同期权数据的隐含波动率预测。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用分层学习方法来提高期权隐含波动率定价的准确性，这直接涉及衍生品定价领域。论文的研究目标和实验设计都集中在改进期权定价模型，特别是针对不同期权数据的隐含波动率预测。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:04.721084"
+}

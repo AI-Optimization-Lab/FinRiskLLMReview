@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 392,
+    "title": "ElectroBlock: Reinforcement Learning and Blockchain-based Energy Trade to Optimize Tariffs",
+    "abstract": "Energy prices have increased by more than 62% globally on average, while power companies are trying to provide more affordable energy with different options: fixed-rate, slab-based tariffs, and Time-of-Use pricing. This article aims to combine blockchains, smart contracts, smart grids, energy forecasting through reinforcement learning, and energy trading between closed communities, bringing consumer savings. Our proposed model, ElectroBlock, uses the first 25 days of each month's energy usage history along with seasonal and exogenous factors to forecast the final end-of-month usage. Then with the forecast we can predict which customers are the most likely to be pushed to the next energy consumption slab and be charged at a higher rate for the remaining month. This allows these customers to be buyers, and seamlessly buy energy units from users who would sell, the energy units they are predicted to leave unused by the end of the month. Moreover, trading is done with WalletCoins, at a coin per kilowatt hour, but could also be traded directly for fiat currency. Furthermore, the power company makes a profit on every trade through transaction fees. Hence there is great incentive for both customers and power companies to adopt our proposed model. We integrated Hyperledger Fabric into our ElectroBlock prototype to store all customer data and prevent tampering with WalletCoin and consumption records. Finally, we did a performance analysis, on the actual cost savings based on a real-world dataset; and a scalability test for concurrency and customer bases on our prototype.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "75a82c890c8162e8b7aa8826dbb8a8d3",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:13.215948"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是能源交易和定价优化，结合了区块链和强化学习技术，但其应用场景是能源市场而非金融领域。论文中提到的技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是能源交易和定价优化，结合了区块链和强化学习技术，但其应用场景是能源市场而非金融领域。论文中提到的技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:11.952680"
+}

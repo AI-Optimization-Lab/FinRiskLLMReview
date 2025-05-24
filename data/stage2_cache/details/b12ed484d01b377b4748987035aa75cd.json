@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 130,
+    "title": "Copula Variational LSTM for High-Dimensional Cross-Market Multivariate Dependence Modeling",
+    "abstract": "We address a challenging problem-modeling high-dimensional, long-range dependencies between nonnormal multivariates, which is important for demanding applications such as cross-market modeling (CMM). With heterogeneous indicators and markets, CMM aims to capture between-market financial couplings and influence over time and within-market interactions between financial variables. We make the first attempt to integrate deep variational sequential learning with copula-based statistical dependence modeling and characterize both temporal dependence degrees and structures between hidden variables representing nonnormal multivariates. Our copula variational learning network weighted partial regular vine copula-based variational long short-term memory (WPVC-VLSTM) integrates variational long short-term memory (LSTM) networks and regular vine copula to model variational sequential dependence degrees and structures. The regular vine copula models nonnormal distributional dependence degrees and structures. VLSTM captures variational long-range dependencies coupling high-dimensional dynamic hidden variables without strong hypotheses and multivariate constraints. WPVC-VLSTM outperforms benchmarks, including linear models, stochastic volatility models, deep neural networks, and variational recurrent networks in terms of both technical significance and portfolio forecasting performance. WPVC-VLSTM shows a step-forward for CMM and deep variational learning.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "1cc4f535b7918c2ce759f97294dd701a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:32:31.466837"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是建模高维、非正态多变量之间的长期依赖关系，特别针对跨市场建模（CMM）应用。论文明确提到该方法在投资组合预测性能上的优势，这表明其应用于投资组合管理。同时，建模市场间的金融耦合和影响也直接关联到金融风险管理，因为理解这些依赖关系有助于识别和缓解系统性风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是建模高维、非正态多变量之间的长期依赖关系，特别针对跨市场建模（CMM）应用。论文明确提到该方法在投资组合预测性能上的优势，这表明其应用于投资组合管理。同时，建模市场间的金融耦合和影响也直接关联到金融风险管理，因为理解这些依赖关系有助于识别和缓解系统性风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:34.564958"
+}

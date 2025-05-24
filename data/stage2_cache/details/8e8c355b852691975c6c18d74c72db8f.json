@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 127,
+    "title": "Predicting Financial Literacy via Semi-supervised Learning",
+    "abstract": "Financial literacy (FL) represents a person's ability to turn assets into income, and understanding digital currencies has been added to the modern definition. FL can be predicted by exploiting unlabelled recorded data in financial networks via semi-supervised learning (SSL). Measuring and predicting FL has not been widely studied, resulting in limited understanding of customer financial engagement consequences. Previous studies have shown that low FL increases the risk of social harm. Therefore, it is important to accurately estimate FL to allocate specific intervention programs to less financially literate groups. This will not only increase company profitability, but will also reduce government spending. Some studies considered predicting FL in classification tasks, whereas others developed FL definitions and impacts. The current paper investigated mechanisms to learn customer FL level from their financial data using sampling by synthetic minority over-sampling techniques for regression with Gaussian noise (SMOGN). We propose the SMOGN-COREG model for semi-supervised regression, applying SMOGN to deal with unbalanced datasets and a nonparametric multi-learner co-regression (COREG) algorithm for labeling. We compared the SMOGN-COREG model with six well-known regressors on five datasets to evaluate the proposed models effectiveness on unbalanced and unlabelled financial data. Experimental results confirmed that the proposed method outperformed the comparator models for unbalanced and unlabelled financial data. Therefore, SMOGN-COREG is a step towards using unlabelled data to estimate FL level.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "aa2cd01824b4e5ff8f5c5f12c2738308",
+    "relevant_keywords": [
+      "machine learning",
+      "semi-supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:14.019633"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究通过半监督学习预测金融素养（Financial Literacy），虽然涉及金融数据，但其核心应用是评估个人金融能力而非衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究通过半监督学习预测金融素养（Financial Literacy），虽然涉及金融数据，但其核心应用是评估个人金融能力而非衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:47.097289"
+}

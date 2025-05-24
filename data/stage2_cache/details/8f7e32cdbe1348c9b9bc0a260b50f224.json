@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 4880,
+    "title": "Assessing the utility of deep neural networks in predicting postoperative surgical complications: a retrospective study",
+    "abstract": "Background Early detection of postoperative complications, including organ failure, is pivotal in the initiation of targeted treatment strategies aimed at attenuating organ damage. In an era of increasing health-care costs and limited financial resources, identifying surgical patients at a high risk of postoperative complications and providing personalised precision medicine-based treatment strategies provides an obvious pathway for reducing patient morbidity and mortality. We aimed to leverage deep learning to create, through training on structured electronic health-care data, a multilabel deep neural network to predict surgical postoperative complications that would outperform available models in surgical risk prediction. Methods In this retrospective study, we used data on 58 input features, including demographics, laboratory values, and 30-day postoperative complications, from the American College of Surgeons (ACS) National Surgical Quality Improvement Program database, which collects data from 722 hospitals from around 15 countries. We queried the entire adult (>= 18 years) database for patients who had surgery between Jan 1, 2012, and Dec 31, 2018. We then identified all patients who were treated at a large midwestern US academic medical centre, excluded them from the base dataset, and reserved this independent group for final model testing. We then randomly created a training set and a validation set from the remaining cases. We developed three deep neural network models with increasing numbers of input variables and so increasing levels of complexity. Output variables comprised mortality and 18 different postoperative complications. Overall morbidity was defined as any of 16 postoperative complications. Model performance was evaluated on the test set using the area under the receiver operating characteristic curve (AUC) and compared with previous metrics from the ACS-Surgical Risk Calculator (ACS-SRC). We evaluated resistance to changes in the underlying patient population on a subset of the test set, comprising only patients who had emergency surgery. Results were also compared with the Predictive OpTimal Trees in Emergency Surgery Risk (POTTER) calculator. Findings 5 881 881 surgical patients, with 2941 unique Current Procedural Terminology codes, were included in this study, with 4 694 488 in the training set, 1173 622 in the validation set, and 13 771 in the test set. The mean AUCs for the validation set were 0.864 (SD 0.053) for model 1, 0.871(0.055) for model 2, and 0.882 (0.053) for model 3. The mean AUCs for the test set were 0.859 (SD 0.063) for model 1, 0.863 (0.064) for model 2, and 0.874 (0.061) for model 3. The mean AUCs of each model outperformed previously published performance metrics from the ACS-SRC, with a direct correlation between increasing model complexity and performance. Additionally, when tested on a subgroup of patients who had emergency surgery, our models outperformed previously published POTTER metrics. Interpretation We have developed unified prediction models, based on deep neural networks, for predicting surgical postoperative complications. The models were generally superior to previously published surgical risk prediction tools and appeared robust to changes in the underlying patient population. Deep learning could offer superior approaches to surgical risk prediction in clinical practice. Copyright (C) 2021 The Author(s). Published by Elsevier Ltd.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a2abb691a735e7764f8028887c2265e9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:42:04.853468"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度神经网络预测术后并发症，属于医疗健康领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度神经网络预测术后并发症，属于医疗健康领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:55.265897"
+}

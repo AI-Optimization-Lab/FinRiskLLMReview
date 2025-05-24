@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2075,
+    "title": "Prediction based mean-variance model for constrained portfolio assets selection using multiobjective evolutionary algorithms",
+    "abstract": "In this paper, a novel prediction based mean-variance (PBMV) model has been proposed, as an alternative to the conventional Markowitz mean-variance model, to solve the constrained portfolio optimization problem. In the Markowitz mean-variance model, the expected future return is taken as the mean of the past returns, which is incorrect. In the proposed model, first the expected future returns are predicted, using a low complexity heuristic functional link artificial neural network (HFLANN) model and the portfolio optimization task is carried out by using multi-objective evolutionary algorithms (MOEAs). In this paper, swarm intelligence based, multiobjective optimization algorithm, namely self-regulating multiobjective particle swarm optimization (SR-MOPSO) has also been proposed and employed efficiently to solve this important problem. The Pareto solutions obtained by applying two other competitive MOEAs and using the proposed PBMV models and Markowitz mean-variance model have been compared, considering six performance metrics and the Pareto fronts. Moreover, in the present study, the nonparametric statistical analysis using the Sign test and Wilcoxon rank test are also carried out, to compare the performance of the algorithms pair wise. It is observed that, the proposed PBMV model based approach provides better Pareto solutions, maintaining adequate diversity, and also quite comparable to the Markowitz model. From the simulation result, it is observed that the self regulating multiobjective particle swarm optimization (SR-MOPSO) algorithm based on PBMV model, provides the best Pareto solutions amongst those offered by other MOEAs. (C) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "bee12ed25e2b6f54276de39fc1821a51",
+    "relevant_keywords": [
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:02:32.923228"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于预测的均值-方差模型（PBMV）来解决约束条件下的投资组合优化问题，并使用了多目标进化算法（MOEAs）进行优化。研究重点在于改进传统的Markowitz均值-方差模型，以更好地选择投资组合资产，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于预测的均值-方差模型（PBMV）来解决约束条件下的投资组合优化问题，并使用了多目标进化算法（MOEAs）进行优化。研究重点在于改进传统的Markowitz均值-方差模型，以更好地选择投资组合资产，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:21.348827"
+}

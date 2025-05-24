@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 5,
+    "title": "Using financial risk measures for analyzing generalization performance of machine learning models",
+    "abstract": "We propose a unified machine learning model (UMLM) for two-class classification, regression and outlier (or novelty) detection via a robust optimization approach. The model embraces various machine learning models such as support vector machine-based and minimax probability machine-based classification and regression models. The unified framework makes it possible to compare and contrast existing learning models and to explain their differences and similarities. In this paper, after relating existing learning models to UMLM, we show some theoretical properties for UMLM. Concretely, we show an interpretation of UMLM as minimizing a well-known financial risk measure (worst-case value-at risk (VaR) or conditional VaR), derive generalization bounds for UMLM using such a risk measure, and prove that solving problems of UMLM leads to estimators with the minimized generalization bounds. Those theoretical properties are applicable to related existing learning models. (C) 2014 Elsevier Ltd. All rights reserved.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4805f92ae26b8bf457db2bf076c96427",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:45:16.440667"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种统一的机器学习模型（UMLM）及其理论性质，虽然提到了金融风险度量（如VaR和CVaR），但这些概念仅用于解释模型的优化目标，并非论文的主要应用场景。论文的核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种统一的机器学习模型（UMLM）及其理论性质，虽然提到了金融风险度量（如VaR和CVaR），但这些概念仅用于解释模型的优化目标，并非论文的主要应用场景。论文的核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:36.595432"
+}

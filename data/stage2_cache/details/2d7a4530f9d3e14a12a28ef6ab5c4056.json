@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 18,
+    "title": "A comparison of machine learning and econometric models for pricing perpetual Bitcoin futures and their application to algorithmic trading",
+    "abstract": "Bitcoin (BTC) perpetual futures contracts are highly leveraged speculative trading instruments with daily market trading of $45 Billion. BTC perpetual futures are derivative contracts, which depend upon the underlying BTC SPOT (current) price. Pricing perpetual futures fairly is hard, using traditional arbitrage arguments, because of the volatile nature of the so called funding rate, which is used as the replacement of risk free rate in the Cryptocurrency market. This work presents a novel technique for pricing BTC futures contracts using conditional volatility and mean models. Intra-day high-frequency futures' return volatility and mean are modelled using different ML and econometric techniques. A comparison is made using statistical measures to find the model that best captures the intra-day conditional mean and volatility. Exponential generalized autoregressive conditional heteroskedasticity is shown to be an almost unbiased predictor of intra-day volatility, while a constant autoregressive moving average (0, 0) model best captures the conditional mean of the returns. A market directional high frequency trading algorithm is developed using the volatility and mean models. The algorithm first prices the futures contract at some future point of time using the volatility and mean regression models. Next, the slope between the current futures price and the expected price are used to predict the market direction. A long or short position is taken depending upon the expected market direction movement. Extensive back-testing results show absolute returns of 1500%-8000% depending upon the transaction fees and leverage used. On average, the market direction is predicted correctly 85% of the time by the best model. Finally, the trading technique is market neutral, in that it gives large positive returns, with low SD, in both bull and bear markets.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "d7b368afdf3a1e8699b898b2bfe5e74f",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.484120"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用机器学习和计量经济学模型来定价比特币永续期货合约，并开发了一个基于这些模型的高频交易算法。这直接涉及衍生品定价领域，因为论文的主要研究目标是准确预测和定价这些金融衍生品。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用机器学习和计量经济学模型来定价比特币永续期货合约，并开发了一个基于这些模型的高频交易算法。这直接涉及衍生品定价领域，因为论文的主要研究目标是准确预测和定价这些金融衍生品。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:30.652660"
+}

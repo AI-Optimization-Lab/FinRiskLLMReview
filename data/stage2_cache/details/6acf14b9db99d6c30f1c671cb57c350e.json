@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 291,
+    "title": "Moving average options: Machine learning and Gauss-Hermite quadrature for a double non-Markovian problem",
+    "abstract": "Evaluating moving average options is a tough computational challenge for the energy and commodity market as the payoff of the option depends on the prices of a certain underlying observed on a moving window so, when a long window is considered, the pricing problem becomes high dimensional. We present an efficient method for pricing Bermudan style moving average options, based on Gaussian Process Regression and Gauss-Hermite quadrature, thus named GPR-GHQ. Specifically, the proposed algorithm proceeds backward in time and, at each time-step, the continuation value is computed only in a few points by using Gauss-Hermite quadrature, and then it is learned through Gaussian Process Regression. We test the proposed approach in the Black-Scholes model, where the GPR-GHQ method is made even more efficient by exploiting the positive homogeneity of the continuation value, which allows one to reduce the problem size. Positive homogeneity is also exploited to develop a binomial Markov chain, which is able to deal efficiently with medium-long windows. Secondly, we test GPR-GHQ in the ClewlowStrickland model, the reference framework for modeling prices of energy commodities. Then, we investigate the performance of the proposed method in the Heston model, which is a very popular model among the non-Gaussian ones. Finally, we consider a challenging problem which involves double non-Markovian feature, that is the rough-Bergomi model. In this case, the pricing problem is even harder since the whole history of the volatility process impacts the future distribution of the process. The manuscript includes a numerical investigation, which displays that GPR-GHQ is very accurate in pricing and computing the Greeks with respect to the Longstaff-Schwartz method and it is able to handle options with a very long window, thus overcoming the problem of high dimensionality.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "5a35d34179d3547147ee470a8209a5db",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:19.171692"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出了一种基于高斯过程回归和高斯-埃尔米特求积的高效方法（GPR-GHQ），用于定价Bermudan风格的移动平均期权。论文详细讨论了在不同模型（如Black-Scholes模型、Clewlow-Strickland模型、Heston模型和rough-Bergomi模型）中的应用，并进行了数值验证，这些都是衍生品定价领域的典型应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出了一种基于高斯过程回归和高斯-埃尔米特求积的高效方法（GPR-GHQ），用于定价Bermudan风格的移动平均期权。论文详细讨论了在不同模型（如Black-Scholes模型、Clewlow-Strickland模型、Heston模型和rough-Bergomi模型）中的应用，并进行了数值验证，这些都是衍生品定价领域的典型应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:38.976642"
+}

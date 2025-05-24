@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1479,
+    "title": "Predicting the Direction of US Stock Prices Using Effective Transfer Entropy and Machine Learning Techniques",
+    "abstract": "This study aims to predict the direction of US stock prices by integrating time-varying effective transfer entropy (ETE) and various machine learning algorithms. At first, we explore that the ETE based on 3 and 6 months moving windows can be regarded as the market explanatory variable by analyzing the association between the financial crises and Granger-causal relationships among the stocks. Then, we discover that the prediction performance on the stock price direction can be improved when the ETE driven variable is integrated as a new feature in the logistic regression, multilayer perceptron, random forest, XGBoost, and long short-term memory network. Meanwhile, we suggest utilizing the adjusted accuracy derived from the risk-adjusted return in finance as a prediction performance measure. Lastly, we confirm that the multilayer perceptron and long short-term memory network are more suitable for stock price prediction. This study is the first attempt to predict the stock price direction using ETE, which can be conveniently applied to the practical field.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3b4c7795d0c5f2c6b13c85d131aa1403",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.756620"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用有效转移熵和机器学习技术预测美国股票价格的方向，虽然涉及金融市场，但其核心应用是股票价格预测，并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用有效转移熵和机器学习技术预测美国股票价格的方向，虽然涉及金融市场，但其核心应用是股票价格预测，并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:43.689723"
+}

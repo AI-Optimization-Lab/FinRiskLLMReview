@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 253,
+    "title": "A Risk-sensitive Automatic Stock Trading Strategy Based on Deep Reinforcement Learning and Transformer",
+    "abstract": "Navigating the world of stock trading can be a daunting task, with its high risk, high reward potential, and intricate market dynamics. For investors and financial researchers, making informed investment decisions is essential. To our knowledge, limited by insufficient feature representation in highly dynamic trading scenarios, existing rule-based and machine learning-based methods struggle to extract complex intrinsic information from the stock market. Thus, with the huge success of reinforcement learning (RL) in sequential decision-making tasks and the powerful feature extraction capabilities of Transformer, this paper proposes an automatic stock trading method based on RL and Transformer. First, data from multiple stocks are collected into Transformer to extract the correlations among stocks. Then, the output of Transformer is used as the state input for deep RL, and the trading action is obtained. Furthermore, we propose a risk-sensitive reward function by adding the turbulence index to avoid risk. Experimental results on Dow Jones 30 constituent stocks show that the proposed method outperforms baselines regarding profit, risk, and comprehensive indicators.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "74af6d801473e8a66889e343256ee08e",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:48:30.804204"
+  },
+  "domain_result": {
+    "success": false,
+    "error": "Client error '429 Too Many Requests' for url 'https://api.deepseek.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "application_domains": [
+      "None"
+    ],
+    "justification": "API调用失败: Client error '429 Too Many Requests' for url 'https://api.deepseek.com/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+    "raw_response": null
+  },
+  "timestamp": "2025-05-20T15:59:33.149297"
+}

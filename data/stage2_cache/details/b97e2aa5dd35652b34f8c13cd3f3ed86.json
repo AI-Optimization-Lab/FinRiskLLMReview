@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 453,
+    "title": "Portfolio optimization using predictive auxiliary classifier generative adversarial networks",
+    "abstract": "In financial engineering, portfolio optimization has been of consistent interest. Portfolio optimization is a process of modulating asset distributions to maximize expected returns and minimize risks. Despite numerous studies on shallow learning models, they have shown limited success in analyzing the complex nature of massive stock data, a task where recent deep learning models excel. However, the deterministic nature of conventional deep learning models impedes their consideration of portfolio risk due to an inherent lack of uncertainty quantification in their predictions. This paper proposes a novel portfolio weighting strategy, incorporating both risk and return considerations within a deep learning framework. We propose the Predictive Auxiliary Classifier Generative Adversarial Networks (PredACGAN), a probabilistic deep learning model, to measure prediction uncertainty. The PredACGAN generator leverages latent vectors and historical stock prices to predict future returns. The model synthesizes predictive distributions from various latent vectors and past prices. The associated risk is produced via the entropy of these distributions, facilitating portfolio optimization through both return and risk considerations. The proposed algorithm removes high-risk assets from the investment universe at rebalancing moments, enabling PredACGAN to optimize portfolios considering both return and risk. We evaluated PredACGAN and the accompanying algorithm with S & P 500 stocks from 1990 to 2020, with portfolios rebalanced monthly based on PredACGAN predictions and risk measures. The PredACGAN portfolios yielded 9.123% annual returns and a 1.054 Sharpe ratio, outperforming a risk-agnostic portfolio yielding 1.024% annual returns and a 0.236 Sharpe ratio. The PredACGAN portfolio also exhibited lower maximum drawdowns, highlighting its effectiveness.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "723fa60bf4712cb7c4022b4c2ef33c98",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:38:17.428602"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用PredACGAN模型进行投资组合优化，旨在通过考虑收益和风险来调整资产分配，这直接属于投资组合管理领域。论文明确提到其目标是最大化预期收益并最小化风险，并通过实验验证了其在S&P 500股票上的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用PredACGAN模型进行投资组合优化，旨在通过考虑收益和风险来调整资产分配，这直接属于投资组合管理领域。论文明确提到其目标是最大化预期收益并最小化风险，并通过实验验证了其在S&P 500股票上的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:36.413942"
+}

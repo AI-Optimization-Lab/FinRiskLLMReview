@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1634,
+    "title": "An activated variable parameter gradient-based neural network for time-variant constrained quadratic programming and its applications",
+    "abstract": "This study proposes a novel gradient-based neural network model with an activated variable parameter, named as the activated variable parameter gradient-based neural network (AVPGNN) model, to solve time-varying constrained quadratic programming (TVCQP) problems. Compared with the existing models, the AVPGNN model has the following advantages: (1) avoids the matrix inverse, which can significantly reduce the computing complexity; (2) introduces the time-derivative of the time-varying parameters in the TVCQP problem by adding an activated variable parameter, enabling the AVPGNN model to achieve a predictive calculation that achieves zero residual error in theory; (3) adopts the activation function to accelerate the convergence rate. To solve the TVCQP problem with the AVPGNN model, the TVCQP problem is transformed into a non-linear equation with a non-linear compensation problem function based on the Karush Kuhn Tucker conditions. Then, a variable parameter with an activation function is employed to design the AVPGNN model. The accuracy and convergence rate of the AVPGNN model are rigorously analysed in theory. Furthermore, numerical experiments are also executed to demonstrate the effectiveness and superiority of the proposed model. Moreover, to explore the feasibility of the AVPGNN model, applications to the motion planning of a robotic manipulator and the portfolio selection of marketed securities are illustrated.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7575a90900d94f470c31e685addfaf71",
+    "relevant_keywords": [
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.925586"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly mentions an application to the portfolio selection of marketed securities, which falls under the domain of Portfolio Management. The other applications mentioned, such as motion planning of a robotic manipulator, are not related to the specified financial domains.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly mentions an application to the portfolio selection of marketed securities, which falls under the domain of Portfolio Management. The other applications mentioned, such as motion planning of a robotic manipulator, are not related to the specified financial domains.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:41.745747"
+}

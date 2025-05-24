@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1767,
+    "title": "On the prediction of stock price crash risk using textual sentiment of management statement",
+    "abstract": "PurposeSince stock return and volatility matters to investors, this study proposes to incorporate the textual sentiment of annual reports in stock price crash risk prediction.Design/methodology/approachSpecific sentences gathered from management discussions and their subsequent analyses are tokenized and transformed into numeric vectors using textual mining techniques, and then the Naive Bayes method is applied to score the sentiment, which is used as an input variable for crash risk prediction. The results are compared between a collection of predictive models, including linear regression (LR) and machine learning techniques.FindingsThe experimental results find that those predictive models that incorporate textual sentiment significantly outperform the baseline models with only accounting and market variables included. These conclusions hold when crash risk is proxied by either the negative skewness of the return distribution or down-to-up volatility (DUVOL).Research limitations/implicationsIt should be noted that the authors' study focuses on examining the predictive power of textual sentiment in crash risk prediction, while other dimensions of textual features such as readability and thematic contents are not considered. More analysis is needed to explore the predictive power of textual features from various dimensions, with the most recent sample data included in future studies.Originality/valueThe authors' study provides implications for the information value of textual data in financial analysis and risk management. It suggests that the soft information contained within annual reports may prove informative in crash risk prediction, and the incorporation of textual sentiment provides an incremental improvement in overall predictive performance.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "69242d8490fb14bb0336a16a29235110",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "Naive Bayes"
+    ],
+    "stage1_timestamp": "2025-05-15T02:07:25.649980"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心研究内容是使用文本情感分析技术预测股票价格崩盘风险，这直接属于金融风险管理的范畴。论文明确提到其研究目标是提高崩盘风险的预测能力，并讨论了其在金融分析和风险管理中的信息价值。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心研究内容是使用文本情感分析技术预测股票价格崩盘风险，这直接属于金融风险管理的范畴。论文明确提到其研究目标是提高崩盘风险的预测能力，并讨论了其在金融分析和风险管理中的信息价值。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:35.741347"
+}

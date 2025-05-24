@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1617,
+    "title": "A dynamic, globally diversified, index neutral synthetic asset allocation strategy",
+    "abstract": "An investor with the ability to assess the prospective return and risk structure of the global capital markets can construct portfolios that, over time, will not only outperform actively or passively managed domestic asset portfolios but will also outperform passively managed global portfolios. A Bayesian approach to dynamic seemingly unrelated regression (DSUR) is a robust and effective means to forecast the one-step ahead, conditional distribution of asset returns. This approach recognizes the time-varying nature of the global capital markets. The predictive moments are used to derive a single-factor return model once an index portfolio is specified. The index portfolio represents an investor's underlying portfolio. Given the factor model that assesses the relative attractiveness and risk of the assets in relation to the index, an index neutral portfolio is constructed as an overlay to enhance the returns of the index portfolio. This portfolio is mean-variance optimal, is notional neutral (i.e., the sum of the asset exposures is zero), and has returns that are designed to be uncorrelated with the returns of the index portfolio. The implementation of such an index neutral portfolio using derivative securities is simulated over the period January 1988 to December 1993.",
+    "year": 1997,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "04400ee3e7411edb007e795a67b17801",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.855589"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是构建一个动态、全球多样化且指数中性的合成资产配置策略，旨在通过预测资产回报的条件分布来优化投资组合的表现。这直接涉及投资组合管理的核心问题，即如何选择和配置资产以实现最优的风险调整后回报。虽然论文提到了使用衍生品来实现这一策略，但衍生品定价并非论文的主要研究焦点。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是构建一个动态、全球多样化且指数中性的合成资产配置策略，旨在通过预测资产回报的条件分布来优化投资组合的表现。这直接涉及投资组合管理的核心问题，即如何选择和配置资产以实现最优的风险调整后回报。虽然论文提到了使用衍生品来实现这一策略，但衍生品定价并非论文的主要研究焦点。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:43.768571"
+}

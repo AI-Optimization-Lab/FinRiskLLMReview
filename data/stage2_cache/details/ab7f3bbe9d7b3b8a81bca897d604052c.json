@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 776,
+    "title": "Conditionally Elicitable Dynamic Risk Measures for Deep Reinforcement Learning",
+    "abstract": "We propose a novel framework to solve risk-sensitive reinforcement learning problems where the agent optimizes time-consistent dynamic spectral risk measures. Based on the notion of conditional elicitability, our methodology constructs (strictly consistent) scoring functions that are used as penalizers in the estimation procedure. Our contribution is threefold: we (i) devise an efficient approach to estimate a class of dynamic spectral risk measures with deep neural networks, (ii) prove that these dynamic spectral risk measures may be approximated to any arbitrary accuracy using deep neural networks, and (iii) develop a risk-sensitive actor-critic algorithm that uses full episodes and does not require any additional nested transitions. We compare our conceptually improved reinforcement learning algorithm with the nested simulation approach and illustrate its performance in two settings: statistical arbitrage and portfolio allocation on both simulated and real data.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a92c013a521bb04442ff9c397337ceb0",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:50.404659"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on optimizing time-consistent dynamic spectral risk measures, which are directly related to financial risk management. Additionally, the application in portfolio allocation indicates relevance to portfolio management. The use of reinforcement learning for these purposes further supports the classification under these domains.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on optimizing time-consistent dynamic spectral risk measures, which are directly related to financial risk management. Additionally, the application in portfolio allocation indicates relevance to portfolio management. The use of reinforcement learning for these purposes further supports the classification under these domains.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:53.080582"
+}

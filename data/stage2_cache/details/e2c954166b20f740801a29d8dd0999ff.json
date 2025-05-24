@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 346,
+    "title": "Graph Representation Learning for Similarity Stocks Analysis",
+    "abstract": "Listed companies with similar or related fundamentals usually influence each other, and these influences are usually reflected in stock prices. For example, the momentum spillover effect in the behavioral finance theory describes the formation of lead-lag effects between the stock prices of related companies. The relationship between listed companies consists of many types, such as relationships in the industry chain, industry information, transaction information, patent sharing degree, equity, etc. We construct a set of industry chain knowledge graph of listed companies to describe the production and supply relationship between the upstream and downstream of listed companies. Then, graph representation learning method is used to study the relevance between listed company entities in the knowledge graph. It includes dimensions such as industry and transaction information of listed companies as weights to optimize the graph representation learning process, and finally calculates the similarity index between listed companies. To evaluate the effectiveness of the method, we conduct a link prediction experiment and construct a stock quantitative investment portfolio based on the similarity index. The result of the quantitative backtest experiment based on China's stock market data in the last 10 years shows that the graph representation learning method we proposed can be used to study the momentum spillover effect and obtain investment returns.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "c838f5c46cba5ab9db51a315ef7d2550",
+    "relevant_keywords": [
+      "machine learning",
+      "representation learning",
+      "deep learning",
+      "neural network",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:44.434867"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是图表示学习方法，用于分析上市公司之间的相似性，并基于相似性指数构建量化投资组合。论文明确提到通过回测实验验证了该方法在投资组合管理中的应用效果，因此其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是图表示学习方法，用于分析上市公司之间的相似性，并基于相似性指数构建量化投资组合。论文明确提到通过回测实验验证了该方法在投资组合管理中的应用效果，因此其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:05.355837"
+}

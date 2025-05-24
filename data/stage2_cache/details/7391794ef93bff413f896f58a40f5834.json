@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2261,
+    "title": "The Application of Graph-Structured Cox Model in Financial Risk Early Warning of Companies",
+    "abstract": "An effective financial risk forecast depends on the selection of important indicators from a broad set of financial indicators that are often correlated with one another. In this paper, we address this challenge by proposing a Cox model with a graph structure that allows us to identify and filter out the crucial indicators for financial risk forecasting. The Cox model can be converted to a weighted least squares form for the purpose of solution, where the regularization l(0) compresses the signs of the variable coefficients and reduces the error caused by the compression of the coefficients. The graph structure reflects the correlations among different financial indicators and is incorporated into the model by introducing a Laplace penalty term to construct the Graph Regularization-Cox (GR-Cox) model. Monte Carlo simulation results show that the GR-Cox model outperforms the model without a graph structure with respect to the choice of parameters. Here, we apply the GR-Cox model to the forecast of the financial risk of listed companies and find that it shows good classification accuracy in practical applications. The GR-Cox model provides a new approach for improving the accuracy of financial risk early warning.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1208a56ee815879eb5b89df6510508ca",
+    "relevant_keywords": [
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:51.106871"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a Graph Regularization-Cox (GR-Cox) model for financial risk forecasting of listed companies, which is a direct application in the field of financial risk management. The study aims to improve the accuracy of financial risk early warning by identifying crucial financial indicators and incorporating their correlations into the model.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a Graph Regularization-Cox (GR-Cox) model for financial risk forecasting of listed companies, which is a direct application in the field of financial risk management. The study aims to improve the accuracy of financial risk early warning by identifying crucial financial indicators and incorporating their correlations into the model.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:21.819450"
+}

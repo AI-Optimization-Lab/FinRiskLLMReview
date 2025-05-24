@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "active learning",
+    "classification"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using machine learning models for forecasting extreme risks in the stock market.",
+    "supervised learning": "The study involves forecasting extreme risks, which is a supervised learning task as it involves labeled data (risk instances).",
+    "active learning": "The paper discusses improving the active learning framework by transitioning from manual to algorithmic annotation.",
+    "classification": "The research focuses on enhancing classification performance, particularly for risk instances, indicating the use of classification techniques."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"active learning\", \"classification\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using machine learning models for forecasting extreme risks in the stock market.\",\n    \"supervised learning\": \"The study involves forecasting extreme risks, which is a supervised learning task as it involves labeled data (risk instances).\",\n    \"active learning\": \"The paper discusses improving the active learning framework by transitioning from manual to algorithmic annotation.\",\n    \"classification\": \"The research focuses on enhancing classification performance, particularly for risk instances, indicating the use of classification techniques.\"\n  }\n}\n```"
+}

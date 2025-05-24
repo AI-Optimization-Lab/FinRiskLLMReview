@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2734,
+    "title": "Correlation filtering in financial time series",
+    "abstract": "We apply a method to filter relevant information from the correlation coefficient matrix by extracting a network of relevant interactions. This method succeeds to generate networks with the same hierarchical structure of the Minimum Spanning Tree but containing a larger amount of links resulting in a richer network topology allowing loops and cliques. In Tumminello et al.,(1) we have shown that this method, applied to a financial portfolio of 100 stocks in the USA equity markets, is pretty efficient in filtering relevant information about the clustering of the system and its hierarchical structure both on the whole system and within each cluster. In particular, we have found that triangular loops and 4 element cliques have important and significant relations with the market structure and properties. Here we apply this filtering procedure to the analysis of correlation in two different kind of interest rate time series (16 Eurodollars and 34 US interest rates).",
+    "year": 2005,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "da8e92e1622d51b6664ea8d9f3b2db14",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:43.409171"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究从相关系数矩阵中过滤相关信息以构建网络结构，并应用于分析股票和利率时间序列的相关性。这种技术有助于理解资产之间的聚类和层次结构，从而优化投资组合的构建和管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究从相关系数矩阵中过滤相关信息以构建网络结构，并应用于分析股票和利率时间序列的相关性。这种技术有助于理解资产之间的聚类和层次结构，从而优化投资组合的构建和管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:14.248386"
+}

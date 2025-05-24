@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 511,
+    "title": "Similarity Embedded Temporal Transformers: Enhancing Stock Predictions with Historically Similar Trends",
+    "abstract": "Price prediction is essential in financial market research, as it is often used as a primary component for trading strategy or portfolio management specialisations. As these strategies rely on more than one future prediction point, the accuracy of a multi-horizon forecast is very important. Classical models, such as autoregressive integrated moving average (ARIMA), are not very good at multi-horizon forecasting. Also, current approaches employing deep learning do not usually factor in the heteroscedasticity of financial market time series. We introduce the similarity embedded temporal transformer (SeTT) algorithm by extending the state-of-the-art temporal transformer architecture with time series forecasting and statistical principles. We employ similarity vectors generated from historical trends across different financial instruments that are used to adjust the weight of the temporal transformer model during the training process. We conducted independent experiments across two time frames with volatile extrapolation periods using 20 companies from the Dow Jones Industrial Average. By focusing on the historical windows that are most similar to the current window in the self-attention tuning process, SeTT outperformed both the classical financial models and the baseline temporal transformer model in terms of predictive performance.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "5ce19cfcc72983c6ebe08415a0d314ef",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism",
+      "temporal transformer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:37:01.696219"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是改进股票价格预测的准确性，并明确指出价格预测是交易策略或投资组合管理的重要组成部分。论文的实验设计和应用场景均围绕股票价格预测展开，这与投资组合管理的需求直接相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是改进股票价格预测的准确性，并明确指出价格预测是交易策略或投资组合管理的重要组成部分。论文的实验设计和应用场景均围绕股票价格预测展开，这与投资组合管理的需求直接相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:55.268407"
+}

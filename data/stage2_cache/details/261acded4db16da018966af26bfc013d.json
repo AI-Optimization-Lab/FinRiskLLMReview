@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3777,
+    "title": "On the importance of the long-term seasonal component in day-ahead electricity price forecasting Part II - Probabilistic forecasting",
+    "abstract": "A recent electricity price forecasting study has shown that the Seasonal Component AutoRegressive (SCAR) modeling framework, which consists of decomposing a series of spot prices into a trend-seasonal and a stochastic component, modeling them independently and then combining their forecasts, can yield more accurate point predictions than an approach in which the same autoregressive model is calibrated to the prices themselves. Here, we show that further accuracy gains can be achieved when the explanatory variables (load forecasts) are deseasonalized as well. More importantly, considering a novel extension of the SCAR concept to probabilistic forecasting and applying two methods of combining predictive distributions, we find that (i) SCAR-type models nearly always significantly outperform the autoregressive benchmark but are in turn outperformed by combined SCAR forecasts, (ii) predictive distributions computed using Quantile Regression Averaging (QRA) outperform those obtained from historical simulation and bootstrap methods, and (iii) averaging over predictive distributions generally yields better probabilistic forecasts of electricity spot prices than averaging over quantiles. Given that probabilistic forecasting is a concept closely related to risk management, our study has important implications for risk officers and portfolio managers in the power sector. (C) 2018 Elsevier B.V. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "91187a3f469c9f84d5506f612d0553a5",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:20:36.109498"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究电力现货价格的概率预测，并提到其研究对电力行业的风险管理人员和投资组合经理有重要影响。概率预测与风险管理密切相关，因此该论文的核心技术主要应用于金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究电力现货价格的概率预测，并提到其研究对电力行业的风险管理人员和投资组合经理有重要影响。概率预测与风险管理密切相关，因此该论文的核心技术主要应用于金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:49.860231"
+}

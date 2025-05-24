@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "deep learning",
+    "neural network",
+    "backpropagation",
+    "BP",
+    "hidden layer"
+  ],
+  "explanations": {
+    "deep learning": "论文摘要中提到'构建了基于深度学习算法的行为期权定价方法'，明确使用了深度学习技术。",
+    "neural network": "摘要中提到'用神经网络来逼近迭代方程中的期权价格关于标的模型空间变量的梯度函数'，使用了神经网络方法。",
+    "backpropagation": "虽然未明确提及，但深度神经网络的参数寻优通常需要使用反向传播算法。",
+    "BP": "BP是backpropagation的缩写，同上理由。",
+    "hidden layer": "深度神经网络必然包含隐藏层，虽然论文未明确提及，但这是深度学习的必要组成部分。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"deep learning\", \"neural network\", \"backpropagation\", \"BP\", \"hidden layer\"], \n  \"explanations\": {\n    \"deep learning\": \"论文摘要中提到'构建了基于深度学习算法的行为期权定价方法'，明确使用了深度学习技术。\",\n    \"neural network\": \"摘要中提到'用神经网络来逼近迭代方程中的期权价格关于标的模型空间变量的梯度函数'，使用了神经网络方法。\",\n    \"backpropagation\": \"虽然未明确提及，但深度神经网络的参数寻优通常需要使用反向传播算法。\",\n    \"BP\": \"BP是backpropagation的缩写，同上理由。\",\n    \"hidden layer\": \"深度神经网络必然包含隐藏层，虽然论文未明确提及，但这是深度学习的必要组成部分。\"\n  }\n}\n```"
+}

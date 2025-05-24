@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2798,
+    "title": "Feature Enhanced Ensemble Modeling With Voting Optimization for Credit Risk Assessment",
+    "abstract": "Machine learning methods have gained widespread utilization in small and micro enterprise credit risk assessment. However, the practical application of these methods encounters a conundrum involving accuracy and interpretability. In this study, a multi-stage ensemble model is proposed to enhance the model's interpretability. To strengthen predictive portraits, a multi-feature enhancement method is proposed to integrate non-financial behavioral information and soft information on credit rating into the annual loan ledger data, thereby bolstering the explanatory capacity of the features. To rectify the issue of data imbalance and avoid information loss, a new bagging-based oversampling method is proposed to oversample the minority class samples in multiple parallelized subsets divided by the bagging strategy. To unleash the performance potential of base classifiers, a new voting-weight optimization method is proposed to optimize the soft voting weights of the candidate base classifiers. The experiment results of an annual loan ledger dataset of a commercial bank in China (with an accuracy of 97.9%, an area under the curve of 0.97, a logistic loss of 0.07, a Brier score of 0.01, and a Kolmogorov-Smirnov statistic of 0.38) and the other five public datasets indicating excellent model fit. By focusing on the widespread soft information and data structures characteristic of SME loan risk assessment data, an additional SHAP model explanation method enhances interpretability. This method reveals that the enhanced 'debt-to-income ratio,' along with non-financial behavioral information and features derived from soft information, are essential for predicting loan defaults. Such enhancements help to alleviate the issue of information asymmetry in SME loan risk assessment.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e2db2771b85ad5c823383a77234cbbd1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:19:08.479218"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on enhancing credit risk assessment for small and micro enterprises using machine learning methods, which is a key aspect of financial risk management. The study addresses issues like data imbalance and interpretability in predicting loan defaults, directly contributing to risk management practices.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on enhancing credit risk assessment for small and micro enterprises using machine learning methods, which is a key aspect of financial risk management. The study addresses issues like data imbalance and interpretability in predicting loan defaults, directly contributing to risk management practices.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:40:08.678928"
+}

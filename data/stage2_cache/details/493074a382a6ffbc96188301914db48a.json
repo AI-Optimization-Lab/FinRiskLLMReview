@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 730,
+    "title": "Deep learning price momentum in US equities",
+    "abstract": "Research into deep learning techniques for stock price trend identification is limited. This can partly be attributed to the aversion of technical analysis within the academic community. One popular investment strategy that has been accepted by both academics and professionals, based purely on historical prices, is price momentum. However, the recent performance of this strategy has been disappointing. In this paper, we construct a new framework integrating state-of-the-art deep learning and machine learning methods to identify price trends of US equities: a deep learning price momentum portfolio. We first replicate the conventional price momentum calculations and compare the results with the market benchmarks and standard implementations of deep learning. We examine the issues of applying standard deep learning techniques to a limited noisy data set. Then we propose a new modular approach, built on deep learning clustering methods and recurrent neural networks that shows significant improvement on conventional price momentum while addressing the deficiencies of conventional deep learning methods. While the best-performing conventional price momentum portfolio yields 12.88% annual return and -0.49% market neutral annual returns for the 15-year period (2003 - 2017), our model improves these to 15.44% and +1.93% respectively with a significantly enhanced Sharpe ratio.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d5f11a66bdae5d201be8b8f87c738b83",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "clustering",
+      "neural network",
+      "recurrent neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.631091"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和机器学习方法来识别股票价格趋势，并构建一个价格动量投资组合。研究的主要目标是改进传统的价格动量策略，提高投资组合的回报率和夏普比率，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和机器学习方法来识别股票价格趋势，并构建一个价格动量投资组合。研究的主要目标是改进传统的价格动量策略，提高投资组合的回报率和夏普比率，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:21.193871"
+}

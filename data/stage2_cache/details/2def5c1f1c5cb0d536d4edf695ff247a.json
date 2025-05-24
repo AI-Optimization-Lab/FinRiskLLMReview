@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 182,
+    "title": "Collaborative processing of Least-Square Monte Carlo for American Options",
+    "abstract": "American options are popularly traded in the financial market, so pricing those options becomes crucial in practice. In reality, many popular pricing models do not have analytical solutions. Hence techniques such as Monte Carlo are often used in practice. This paper presents a CPU-FPGA collaborative accelerator using state-of-the-art Least-Square Monte Carlo method, for pricing American options. We provide a new sequence of generating the Monte Carlo paths, and a pre-calculation strategy for the regression process. Our design is customisable for different pricing models, discretisation schemes, and regression functions. The Heston model is used as a case study for evaluating our strategy. Experimental results show that an FPGA-based solution could provide 22 to 64.5 times faster than a single-core CPU implementation.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "02d05f8caae62da37ca9ab20009a9987",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.118710"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用Least-Square Monte Carlo方法来定价美式期权，并提出了CPU-FPGA协作加速器以提高计算效率。美式期权定价是衍生品定价领域的一个典型问题，论文的研究目标和实验设计都明确指向这一领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用Least-Square Monte Carlo方法来定价美式期权，并提出了CPU-FPGA协作加速器以提高计算效率。美式期权定价是衍生品定价领域的一个典型问题，论文的研究目标和实验设计都明确指向这一领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:08.461750"
+}

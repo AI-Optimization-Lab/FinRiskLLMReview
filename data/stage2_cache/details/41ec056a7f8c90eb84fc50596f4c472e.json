@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1014,
+    "title": "Prediction-based portfolio optimization model using neural networks",
+    "abstract": "This work presents a new prediction-based portfolio optimization model that can capture short-term investment opportunities. We used neural network predictors to predict stocks' returns and derived a risk measure, based on the prediction errors, that have the same statistical foundation of the mean-variance model. The efficient diversification effects hold thanks to the selection of predictors with low and complementary pairwise error profiles. We employed a large set of experiments with real data from the Brazilian stock market to examine our portfolio optimization model, which included the evaluation of the Normality of the prediction errors. Our results showed that it is possible to obtain Normal prediction errors with non-Normal time series of stock returns and that the prediction-based portfolio optimization model took advantage of short-term opportunities, outperforming the mean-variance model and beating the market index. (C) 2009 Elsevier B.V. All rights reserved.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f922a55080b47cd408dacce525e18e6e",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.797198"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用神经网络预测股票收益并构建基于预测的投资组合优化模型，其研究目标是优化投资组合以捕捉短期投资机会，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络预测股票收益并构建基于预测的投资组合优化模型，其研究目标是优化投资组合以捕捉短期投资机会，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:20.280852"
+}

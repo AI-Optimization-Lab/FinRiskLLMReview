@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 154,
+    "title": "NGDRL: A Dynamic News Graph-Based Deep Reinforcement Learning Framework for Portfolio Optimization",
+    "abstract": "News is widely employed in studying the intrinsic financial market dynamics due to its excellent timeliness and coverage. However, existing studies treat news either as discrete trading signals or as continuous text features, leading to challenges such as human prior bias, difficulties in aligning different modalities, and neglecting the dynamic multi-dimensional logic relations among equities within news. Furthermore, there is a growing emphasis on multi-granularity information and deep reinforcement learning for their contributions to precise market estimation and alignment with investor objectives. Therefore, in this paper, we introduce NGDRL, a dynamic News Graph-based Deep Reinforcement Learning framework for portfolio optimization. Specifically, we identify three key dimensions of the latent logical structure and construct corresponding dynamic contextual relation graphs, serving as representatives to capture the core of the inter-equity relations. And we introduce a novel multi-granularity information integration structure to harness multi-granularity information. Extensive experiments on real-world datasets from the United States and China show the superiority of our proposed framework over current state-of-the-art baselines, highlighting its effectiveness for practical applications in portfolio optimization.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3ba89c6e91569cf22b1e9679ef3e5140",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.076954"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建一个基于动态新闻图的深度强化学习框架，专门用于投资组合优化（Portfolio Optimization），这直接属于投资组合管理领域。论文的实验设计和应用场景都明确指向这一金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建一个基于动态新闻图的深度强化学习框架，专门用于投资组合优化（Portfolio Optimization），这直接属于投资组合管理领域。论文的实验设计和应用场景都明确指向这一金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:18.935915"
+}

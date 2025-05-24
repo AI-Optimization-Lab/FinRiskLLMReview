@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "regression",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of LightGBM, a machine learning model, to predict stock trends.",
+    "regression": "The paper uses a multivariate linear regression model to analyze the impact of expert and crowd wisdom on stock prices.",
+    "decision tree": "LightGBM is a gradient boosting framework that uses tree-based learning algorithms, which includes decision trees."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"regression\", \"decision tree\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of LightGBM, a machine learning model, to predict stock trends.\",\n    \"regression\": \"The paper uses a multivariate linear regression model to analyze the impact of expert and crowd wisdom on stock prices.\",\n    \"decision tree\": \"LightGBM is a gradient boosting framework that uses tree-based learning algorithms, which includes decision trees.\"\n  }\n}\n```"
+}

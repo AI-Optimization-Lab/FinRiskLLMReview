@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 571,
+    "title": "A Novel Linear-Model-Based Methodology for Predicting the Directional Movement of the Euro-Dollar Exchange Rate",
+    "abstract": "Predicting the price and trends of financial instruments is a major challenge in the financial industry, impacting investment decision-making efficiency for various stakeholders. Although numerous and effective artificial intelligence techniques have been applied to time series analysis, the prediction of exchange rate movements in the Forex market still necessitates parsimonious, interpretable, and accurate solutions. This paper presents a novel methodology for predicting the short-term directional movement of the euro-dollar exchange rate using market data, specifically by measuring price action. The proposed methodology prioritizes using market inflection points and the multidimensional nature of the differences between uptrends and downtrends to construct a linear discriminant function (LDA). The core of our methodology is our novel Linear Classifier Configurator (LCC) which includes stages for data preparation, feature selection, and detection of underlying structures. We validate the results and interpretations using the statistical power of parametric tests. The experiments use market data of the euro-dollar exchange rate in 15-minute and 1-week time frames. Additionally, we incorporate a collection of intraday winning trades provided by an algorithmic trading model applied between January 1999 and April 2023. The proposed LCC methodology achieves an out-of-sample classification accuracy of 98.77%, outperforming other methodologies based on sophisticated approaches such as Long Short-Term Memory (LSTM), Deep reinforcement learning (DRL), Wavelet analysis (WA), Sentiment analysis of textual content, Support Vector Machines (SVM), and Genetic Algorithms (GA). Furthermore, our methodology improves financial performance and reduces risk exposure in trading strategies, as well as it is useful in selecting variables and transferable to other financial assets.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d2eb91078089afd8a2a9da198cd14947",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "long short-term memory",
+      "LSTM",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.394187"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是欧元-美元汇率短期方向性运动的预测方法，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。论文的重点在于预测汇率走势，而非上述特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是欧元-美元汇率短期方向性运动的预测方法，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。论文的重点在于预测汇率走势，而非上述特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:42.256440"
+}

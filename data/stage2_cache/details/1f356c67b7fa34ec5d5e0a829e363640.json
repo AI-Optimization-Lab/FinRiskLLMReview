@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 421,
+    "title": "Assessment of Support Vector Machine performance for default prediction and credit rating",
+    "abstract": "Predicting the creditworthiness of bank customers is a major concern for banking institutions, as modeling the probability of default is a key focus of the Basel regulations. Practitioners propose different default modeling techniques such as linear discriminant analysis, logistic regression, Bayesian approach, and artificial intelligence techniques. The performance of the default prediction is evaluated by the Receiver Operating Characteristic (ROC) curve using three types of kernels, namely, the polynomial kernel, the linear kernel and the Gaussian kernel. To justify the performance of the model, the study compares the prediction of default by the support vector with the logistic regression using data from a portfolio of particular bank customers. The results of this study showed that the model based on the Support Vector Machine approach with the Radial Basis Function kernel, performs better in prediction, compared to the logistic regression model, with a value of the ROC curve equal to 98%, against 71.7% for the logistic regression model. Also, this paper presents the conception of a support vector machine-based rating tool designed to classify bank customers and determine their probability of default. This probability has been computed empirically and represents the proportion of defaulting customers in each class.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "20b14179a25fee8a0bb392d5a58a10bc",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.560716"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用支持向量机（SVM）进行违约预测和信用评级，这直接关系到银行对客户信用风险的评估和管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用支持向量机（SVM）进行违约预测和信用评级，这直接关系到银行对客户信用风险的评估和管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:07.053677"
+}

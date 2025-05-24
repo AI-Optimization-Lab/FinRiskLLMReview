@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1211,
+    "title": "An FTwNB Shield: A Credit Risk Assessment Model for Data Uncertainty and Privacy Protection",
+    "abstract": "Credit risk assessment is an important process in bank financial risk management. Traditional machine-learning methods cannot solve the problem of data islands and the high error rate of two-way decisions, which is not conducive to banks' accurate credit risk assessment of users. To this end, this paper establishes a federated three-way decision incremental naive Bayes bank user credit risk assessment model (FTwNB) that supports asymmetric encryption, uses federated learning to break down data barriers between banks, and uses asymmetric encryption to protect data security for federated processes. At the same time, the model combines the three-way decision methods to realize the three-way classification of user credit (good, bad and delayed judgment), so as to avoid the loss of bank interests caused by the forced division of uncertain users. In addition, the model also incorporates incremental learning steps to eliminate training samples with poor data quality to further improve the model performance. This paper takes German Credit data and Default of Credit Card Clients data as examples to conduct simulation experiments. The result shows that the performance of the FTwNB model has been greatly improved, which verifies that it has good credit risk assessment capabilities.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1f4e259c0221dc4982d75575061ff056",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:56.421328"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a credit risk assessment model for banks, which is a key component of financial risk management. The proposed model aims to improve the accuracy of credit risk evaluation and protect data security, directly addressing challenges in risk management practices.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a credit risk assessment model for banks, which is a key component of financial risk management. The proposed model aims to improve the accuracy of credit risk evaluation and protect data security, directly addressing challenges in risk management practices.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:56.059549"
+}

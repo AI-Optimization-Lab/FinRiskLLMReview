@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 949,
+    "title": "Deep Learning for Multi-factor Models in Regional and Global Stock Markets",
+    "abstract": "Many studies have been undertaken with machine learning techniques to predict stock returns in terms of time-series prediction. However, from the viewpoint of the cross-sectional prediction with machine learning techniques, there are no examples that verify its profitability in regional and global stock markets. This paper implements deep learning for multi-factor models to predict stock returns in the cross-section in these stock markets and investigates the performance of the method. Our results show that deep neural networks generally outperform representative machine learning models all over the world. These results indicate that deep learning shows promise as a skillful machine learning method to predict stock returns in the cross-section. Although deep learning performs quite well, it has significant disadvantages such as a lack of transparency and limitations to the interpretability of the prediction. Then, we present the application of layerwise relevance propagation (LRP) to decompose attributes of the predicted return. By applying LRP to each stock and averaging them in a portfolio, we can determine which factor contributes to prediction. We illustrate which factor contributes to prediction in regional and global stock markets.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "bcdf48864e4d45e6bc04b29708fe0b60",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.677859"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和多因子模型来预测股票收益，并探讨了这些预测在区域和全球股票市场中的应用。这些技术和方法主要用于优化投资组合的构建和管理，因此属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和多因子模型来预测股票收益，并探讨了这些预测在区域和全球股票市场中的应用。这些技术和方法主要用于优化投资组合的构建和管理，因此属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:52.707285"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1131,
+    "title": "A Deep Learning approach for Diagnosis of Mild Cognitive Impairment Based on MRI Images",
+    "abstract": "Mild cognitive impairment (MCI) is an intermediary stage condition between healthy people and Alzheimer's disease (AD) patients and other dementias. AD is a progressive and irreversible neurodegenerative disorder, which is a significant threat to people, age 65 and older. Although MCI does not always lead to AD, an early diagnosis at the stage of MCI can be very helpful in identifying people who are at risk of AD. Moreover, the early diagnosis of MCI can lead to more effective treatment, or at least, significantly delay the disease's progress, and can lead to social and financial benefits. Magnetic resonance imaging (MRI), which has become a significant tool for the diagnosis of MCI and AD, can provide neuropsychological data for analyzing the variance in brain structure and function. MCI is divided into early and late MCI (EMCI and LMCI) and sadly, there is no clear differentiation between the brain structure of healthy people and MCI patients, especially in the EMCI stage. This paper aims to use a deep learning approach, which is one of the most powerful branches of machine learning, to discriminate between healthy people and the two types of MCI groups based on MRI results. The convolutional neural network (CNN) with an efficient architecture was used to extract high-quality features from MRIs to classify people into healthy, EMCI, or LMCI groups. The MRIs of 600 individuals used in this study included 200 control normal (CN) people, 200 EMCI patients, and 200 LMCI patients. This study randomly selected 70 percent of the data to train our model and 30 percent for the test set. The results showed the best overall classification between CN and LMCI groups in the sagittal view with an accuracy of 94.54 percent. In addition, 93.96 percent and 93.00 percent accuracy were reached for the pairs of EMCI/LMCI and CN/EMCI, respectively.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "abddf73d8c56e8543a684b8cf00d9a4d",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "classification",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "feature learning",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.608831"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用深度学习技术对轻度认知障碍（MCI）进行诊断，基于MRI图像进行分类。其核心技术和应用场景属于医学影像分析和疾病诊断领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用深度学习技术对轻度认知障碍（MCI）进行诊断，基于MRI图像进行分类。其核心技术和应用场景属于医学影像分析和疾病诊断领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:58.155559"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 183,
+    "title": "An Uncertain Mean-AVaR Portfolio Selection Via an Artificial Neural Network Scheme",
+    "abstract": "This paper focuses on the computation issue of portfolio optimization with scenario-based mean-average value at Risk (AVaR) in uncertain environment. The portfolio optimization problem is designed in two cases: risk-taker and risk-averse models. The main idea is to replace the portfolio selection models with linear programming (LP) problems. Since the computing time required for solving LP greatly depends on the dimension and the structure of the problem, the conventional numerical methods are usually less effective in real-time applications. One promising approach to handle online applications is to employ recurrent neural networks based on circuit implementation. Hence, according to the convex optimization theory and some concepts of ordinary differential equations, a neural network model for solving the LP problems related to portfolio selection problems is presented. The equilibrium point of the proposed model is proved to be equivalent to the optimal solution of the original problem. It is also shown that the proposed neural network model is stable in the sense of Lyapunov and it is globally convergent to an exact optimal solution of the portfolio selection problem with uncertain returns. Some illustrative examples are provided to show the feasibility and the efficiency of the proposed method in this paper.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f3db303b3a130d6b42b48809857e181b",
+    "relevant_keywords": [
+      "neural network",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.136552"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用神经网络解决投资组合优化问题，特别是在不确定环境下基于平均风险价值（AVaR）的投资组合选择。论文明确提到了投资组合优化和选择问题，并提出了相应的模型和方法来解决这些问题，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络解决投资组合优化问题，特别是在不确定环境下基于平均风险价值（AVaR）的投资组合选择。论文明确提到了投资组合优化和选择问题，并提出了相应的模型和方法来解决这些问题，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:53.969741"
+}

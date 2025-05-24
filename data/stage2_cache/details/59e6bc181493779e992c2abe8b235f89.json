@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 581,
+    "title": "Forecasting Stock Market Indices Using the Recurrent Neural Network Based Hybrid Models: CNN-LSTM, GRU-CNN, and Ensemble Models",
+    "abstract": "Various deep learning techniques have recently been developed in many fields due to the rapid advancement of technology and computing power. These techniques have been widely applied in finance for stock market prediction, portfolio optimization, risk management, and trading strategies. Forecasting stock indices with noisy data is a complex and challenging task, but it plays an important role in the appropriate timing of buying or selling stocks, which is one of the most popular and valuable areas in finance. In this work, we propose novel hybrid models for forecasting the one-time-step and multi-time-step close prices of DAX, DOW, and S&P500 indices by utilizing recurrent neural network (RNN)-based models; convolutional neural network-long short-term memory (CNN-LSTM), gated recurrent unit (GRU)-CNN, and ensemble models. We propose the averaging of the high and low prices of stock market indices as a novel feature. The experimental results confirmed that our models outperformed the traditional machine-learning models in 48.1% and 40.7% of the cases in terms of the mean squared error (MSE) and mean absolute error (MAE), respectively, in the case of one-time-step forecasting and 81.5% of the cases in terms of the MSE and MAE in the case of multi-time-step forecasting.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0575142686c07609030c0f5ac083084e",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:01.383657"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用混合深度学习模型（如CNN-LSTM、GRU-CNN和集成模型）预测股票市场指数的收盘价，这直接关联到投资组合管理中的股票买卖时机决策。虽然论文也提到了风险管理和交易策略，但主要研究目标是价格预测，因此更符合投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用混合深度学习模型（如CNN-LSTM、GRU-CNN和集成模型）预测股票市场指数的收盘价，这直接关联到投资组合管理中的股票买卖时机决策。虽然论文也提到了风险管理和交易策略，但主要研究目标是价格预测，因此更符合投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:32.238204"
+}

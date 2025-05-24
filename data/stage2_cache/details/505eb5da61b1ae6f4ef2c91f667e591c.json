@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3347,
+    "title": "Calculation of LTC premiums based on direct estimates of transition probabilities",
+    "abstract": "In this paper we model the life-history of LTC-patients using a Markovian multi-state model in order to calculate premiums for a given LTC-plan. Instead of estimating the transition intensities in this model we use the approach suggested by Andersen et al. (2003) for a direct estimation of the transition probabilities. Based on the Aalen-Johansen estimator, an almost unbiased estimator for the transition matrix of a Markovian multi-state model, we calculate so-called pseudo-values, known from Jackknife methods. Further, we assume that the relationship between these pseudo-values and the covariates of our data are given by a GLM with the logit as link-function. Since the GLMs do not allow for correlation between successive observations we use instead the Generalized Estimating Equations (GEEs) to estimate the parameters of our regression model. The approach is illustrated using a representative sample from a German LTC portfolio.",
+    "year": 2005,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "25fd5c4e49f98348170bc51b969f7853",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:22.080158"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究长期护理保险（LTC）保费的定价方法，使用马尔可夫多状态模型和广义估计方程（GEEs）进行直接估计。虽然涉及保险定价，但并未明确涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究长期护理保险（LTC）保费的定价方法，使用马尔可夫多状态模型和广义估计方程（GEEs）进行直接估计。虽然涉及保险定价，但并未明确涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:10.023322"
+}

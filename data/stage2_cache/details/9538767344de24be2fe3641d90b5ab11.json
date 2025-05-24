@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1688,
+    "title": "A Genetically Evolved Measure of Credit-Risk",
+    "abstract": "Credit scoring constitutes a quintessential element of economic risk management allowing financial agencies to quantify the probability of default for a future loan. However, acclaimed contemporary credit risk measures such as the scores provided by FICO or Vantage are not publicly accessible. This paper addresses the problem of developing an alternative credit scoring measure that approximates the behavior of the original FICO score in a large-scale collection of loan-related data available from Lending Club. The severity of the underlying problem is manifested by the limited amount of knowledge which can be obtained for both the exact analytical formula and the complete set of credit-specific features that underpin the computation of FICO score. The proposed measure will be derived by exploiting a limited amount of entry-level information submitted by each candidate borrower without requiring the accumulation of historical credit data for each consumer over large periods of time. We are particularly interested in expressing the acquired credit risk measure in a closed analytical form of adjustable complexity. For this purpose, we utilize a symbolic regression technique which operates within the framework of Genetic Programming (GP). In this context, we harness the notion of Occam's razor to apply evolutionary pressure towards the preservation of models associated with reduced complexity and higher degree of human interpretability. In order to verify the validity of our approach we compare the approximation ability of the GP-based symbolic regression against state-of-theart machine learning-based regression methods such as Support Vector Machines (SVMs), Multi-Layer Perceptrons (MLPs) and Radial Basis Function Networks (RBFNs). Our experimentation demonstrates that GP-based symbolic regression achieves comparable accuracy with respect to the aforementioned benchmark techniques. At the same time, the acquired analytical model can provide valuable insights concerning the credit risk assessment mechanisms that underlie the computation of FICO based on a significantly reduced set of credit-related features.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "db0e2700158205f2f6a2b814bd1d3688",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.459221"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a credit scoring measure to quantify the probability of default for loans, which is a core aspect of financial risk management. The use of genetic programming and symbolic regression aims to improve credit risk assessment, directly addressing risk management challenges in lending.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a credit scoring measure to quantify the probability of default for loans, which is a core aspect of financial risk management. The use of genetic programming and symbolic regression aims to improve credit risk assessment, directly addressing risk management challenges in lending.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:59.732510"
+}

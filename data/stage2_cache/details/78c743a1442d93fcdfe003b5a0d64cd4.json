@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 5747,
+    "title": "Credit spread approximation and improvement using random forest regression",
+    "abstract": "Credit Default Swap (CDS) levels provide a market appreciation of companies' default risk. These derivatives are not always available, creating a need for CDS approximations. This paper offers a simple, global and transparent CDS structural approximation, which contrasts with more complex and proprietary approximations currently in use. This Equity-to-Credit formula (E2C), inspired by CreditGrades, obtains better CDS approximations, according to empirical analyses based on a large sample spanning 2016-2018. A random forest regression run with this E2C formula and selected additional financial data results in an 87.3% out-of-sample accuracy in CDS approximations. The transparency property of this algorithm confirms the predominance of the E2C estimate, and the impact of companies' debt rating and size, in predicting their CDS. (C) 2019 Elsevier B.V. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "18030048172383d65f6b5d687c698537",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:50:53.966403"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用随机森林回归来改进信用违约互换(CDS)的定价模型，这直接涉及衍生品定价领域。同时，CDS作为衡量公司违约风险的工具，其定价改进也属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用随机森林回归来改进信用违约互换(CDS)的定价模型，这直接涉及衍生品定价领域。同时，CDS作为衡量公司违约风险的工具，其定价改进也属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:37.436227"
+}

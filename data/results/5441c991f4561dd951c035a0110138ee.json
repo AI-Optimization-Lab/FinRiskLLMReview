@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "unsupervised learning",
+    "classification",
+    "clustering",
+    "principal components analysis"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning approaches, specifically PCA and clustering, to analyze the impact of microfinance on entrepreneurship.",
+    "supervised learning": "The paper mentions that the labelled data obtained from K-Means clustering is useful for applying classification techniques, which are part of supervised learning.",
+    "unsupervised learning": "The paper uses unsupervised learning techniques like PCA and K-Means clustering to identify correlations and label the dataset.",
+    "classification": "The paper refers to applying classification techniques on the labelled data obtained from clustering, which is a supervised learning task.",
+    "clustering": "The paper employs K-Means clustering to get clusters from the data, which is an unsupervised learning technique.",
+    "principal components analysis": "The paper uses PCA to determine the main principal components, which is a dimensionality reduction technique in unsupervised learning."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"unsupervised learning\",\n    \"classification\",\n    \"clustering\",\n    \"principal components analysis\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning approaches, specifically PCA and clustering, to analyze the impact of microfinance on entrepreneurship.\",\n    \"supervised learning\": \"The paper mentions that the labelled data obtained from K-Means clustering is useful for applying classification techniques, which are part of supervised learning.\",\n    \"unsupervised learning\": \"The paper uses unsupervised learning techniques like PCA and K-Means clustering to identify correlations and label the dataset.\",\n    \"classification\": \"The paper refers to applying classification techniques on the labelled data obtained from clustering, which is a supervised learning task.\",\n    \"clustering\": \"The paper employs K-Means clustering to get clusters from the data, which is an unsupervised learning technique.\",\n    \"principal components analysis\": \"The paper uses PCA to determine the main principal components, which is a dimensionality reduction technique in unsupervised learning.\"\n  }\n}\n```"
+}

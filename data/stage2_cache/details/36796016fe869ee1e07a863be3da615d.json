@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1263,
+    "title": "Portfolio-Based Incentive Mechanism Design for Cross-Device Federated Learning",
+    "abstract": "In recent years, there has been a significant increase in attention towards designing incentive mechanisms for federated learning (FL). Tremendous existing studies attempt to design the solutions using various approaches (e.g., game theory, reinforcement learning) under different settings. Yet the design of incentive mechanism could be significantly biased in that clients' performance in many applications is stochastic and hard to estimate. Properly handling this stochasticity motivates this research, as it is not well addressed in pioneering literature. In this paper, we focus on cross-device FL and propose a multilevel FL architecture under the real scenarios. Considering the two properties of clients' situations: uncertainty, correlation, we propose FL Incentive Mechanism based on Portfolio theory (FL-IMP). As far as we are aware, this is the pioneering application of portfolio theory to incentive mechanism design aimed at resolving FL resource allocation problem. In order to more accurately reflect practical FL scenarios, we introduce the Federated Learning Agent-Based Model (FL-ABM) as a means of simulating autonomous clients. FL-ABM enables us to gain a deeper understanding of the factors that influence the system's outcomes. Experimental evaluations of our approach have extensively validated its effectiveness and superior performance in comparison to the benchmark methods.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "47a738a17bb81ca273adfda22363e9a1",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.124609"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是将投资组合理论应用于联邦学习的激励机制设计，虽然主要应用场景是联邦学习而非直接金融领域，但其理论基础和方法论直接来源于投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是将投资组合理论应用于联邦学习的激励机制设计，虽然主要应用场景是联邦学习而非直接金融领域，但其理论基础和方法论直接来源于投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:11.955381"
+}

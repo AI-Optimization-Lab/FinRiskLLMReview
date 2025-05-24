@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 356,
+    "title": "Forecasting volatility index by temporal convolutional neural network",
+    "abstract": "Forecasting volatility is essential to avoiding the risk caused by the uncertainties of an financial asset. Complicated financial volatility features such as ambiguity between non-stationarity and stationarity, asymmetry, long-memory, sudden fairly large values like outliers bring great challenges to volatility forecasts. In order to address such complicated features implicity, we consider machine leaning models such as LSTM (1997) and GRU (2014), which are known to be suitable for existing time series forecasting. However, there are the problems of vanishing gradients, of enormous amount of computation, and of a huge memory. To solve these problems, a causal temporal convolutional network (TCN) model, an advanced form of 1D CNN, is also applied. It is confirmed that the overall forecasting power of TCN model is higher than that of the RNN models in forecasting VIX, VXD, and VXN, the daily volatility indices of S&P 500, DJIA, Nasdaq, respectively.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "6f4307970a538cadc5deb545a5831570",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:36:59.877663"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用时间卷积神经网络（TCN）来预测波动率指数（如VIX、VXD、VXN），这些指数是衡量市场波动性的重要指标，直接应用于金融风险管理领域，帮助投资者和管理者规避由市场不确定性带来的风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用时间卷积神经网络（TCN）来预测波动率指数（如VIX、VXD、VXN），这些指数是衡量市场波动性的重要指标，直接应用于金融风险管理领域，帮助投资者和管理者规避由市场不确定性带来的风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:03:41.031267"
+}

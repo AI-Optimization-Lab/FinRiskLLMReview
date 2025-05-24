@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 7595,
+    "title": "Investigating the beneficial impact of segmentation-based modelling for credit scoring",
+    "abstract": "Due to its vital role in financial risk management, credit scoring has been investigated extensively in extant information systems studies. However, most credit scoring studies rely on one-size-fits-all classifiers with logistic regression (LR) as a popular benchmark. Moreover, extant literature largely focuses on predictive performance as an evaluation criterion. To find a better balance between predictive performance and interpretability though, the current study investigates the beneficial impact of segmentation-based modelling by benchmarking the logit leaf model (LLM) which is based on LR and decision trees. By a large experimental setup using a real-life credit scoring data set containing 65,536 active customers, we find that LLM is a viable classifier over its constituent parts, i.e., LR and decision trees, and is very competitive to state-of-the-art credit decision making techniques (neural networks, support vector machines, bagging, boosting and random forests) on three evaluation metrics (AUC, top-decile lift and profit). Furthermore, we show its extraordinary interpretability capacities by proposing a new visualization based on the LLM output. In sum, the excellence of the LLM as a classifier for credit decision making problems stems from its ability to combine strong predictive performance with interpretable insights that in turn can inform managerial decisions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e194085f693bc7d14c9c29b9a971f6d1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T03:10:05.622203"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是信用评分模型，这是金融风险管理中的一个重要应用，用于评估借款人的信用风险。论文明确提到信用评分在金融风险管理中的重要作用，并探讨了如何通过分段建模来提高信用评分的预测性能和可解释性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是信用评分模型，这是金融风险管理中的一个重要应用，用于评估借款人的信用风险。论文明确提到信用评分在金融风险管理中的重要作用，并探讨了如何通过分段建模来提高信用评分的预测性能和可解释性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:15.267002"
+}

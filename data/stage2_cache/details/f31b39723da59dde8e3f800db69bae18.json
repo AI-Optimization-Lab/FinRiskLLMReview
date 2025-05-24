@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 193,
+    "title": "Deep multitask neural networks for solving some stochastic optimal control problems",
+    "abstract": "Most existing neural network-based approaches for solving stochastic optimal control problems using the associated backward dynamic programming principle rely on the ability to simulate the underlying state variables. However, in some problems, this simulation is infeasible, leading to the discretization of state variable space and the need to train one neural network for each data point. This approach becomes computationally inefficient when dealing with large state variable spaces. In this paper, we consider a class of this type of stochastic optimal control problems and introduce an effective solution employing multitask neural networks. To train our multitask neural network, we introduce a novel scheme that dynamically balances the learning across tasks. Through numerical experiments on realworld derivatives pricing problems, we prove that our method outperforms state-of-the-art approaches.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "937493023ebfb5ad19dcf19b0b9c5301",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.150983"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "论文摘要中明确提到通过数值实验在现实世界的衍生品定价问题上验证了方法的有效性，这表明其核心技术主要应用于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"论文摘要中明确提到通过数值实验在现实世界的衍生品定价问题上验证了方法的有效性，这表明其核心技术主要应用于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:07.422972"
+}

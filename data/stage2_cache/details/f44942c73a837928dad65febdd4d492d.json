@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 905,
+    "title": "Turbulence-driven Autonomous Stock Trading using Deep Reinforcement Learning",
+    "abstract": "This paper explores Deep Reinforcement Learning (DRL) algorithms for autonomous stock trading, aiming to replace stockbrokers with more efficient and profitable strategies. The study focuses on stock trading in finance, using DRL to analyze trends and exploit market fluctuations. It delves into the application of DRL techniques in stock trading, using Proximal Policy Optimization (PPO) algorithm, and, experimental results from training and testing on Dow 30 and S&P 500 datasets that reveal the effectiveness of incorporating turbulence indicators such as McClellan Oscillator (MCO) and Hindenburg principle. The incorporation of modified indicators: MCO and Hindenburg Omen, significantly influenced the trading system's performance. In comparing trading strategies, the turbulence-incorporated Proximal Policy Optimization (PPO-T) agent, initially funded with$1M exhibited consistent improvement and greater resilience, with slight portfolio value dips compared to the non-turbulence counterpart (PPO). Notably, PPO-T outperformed PPO during market turbulence, achieving portfolio value surged to 1.8 and 2.0 for DOW 30 and SP 500, respectively, surpassing the values of 1.5 and 1.9 attained by PPO. This underscores PPO-T's capacity for higher final portfolio values, emphasizing the efficacy of turbulence indicators in fortifying trading systems, especially in turbulent market conditions. The agent's performance evaluation involves tracking portfolio value changes over specified trading days.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1dd577bee0bd9e459fdbe30b609ddec1",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer",
+      "backpropagation",
+      "BP",
+      "rectified linear unit",
+      "ReLU",
+      "sigmoid",
+      "tanh"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.289903"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习（DRL）进行自主股票交易，旨在通过分析市场趋势和利用市场波动来优化交易策略。研究重点在于通过改进的交易策略（如PPO-T）来提高投资组合的价值，特别是在市场动荡时期。这直接关联到投资组合管理的领域，即如何选择和调整资产以最大化回报或最小化风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习（DRL）进行自主股票交易，旨在通过分析市场趋势和利用市场波动来优化交易策略。研究重点在于通过改进的交易策略（如PPO-T）来提高投资组合的价值，特别是在市场动荡时期。这直接关联到投资组合管理的领域，即如何选择和调整资产以最大化回报或最小化风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:41.324533"
+}

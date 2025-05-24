@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 78,
+    "title": "基于高频数据和EN-LSTM的黄金期货短期波动率预测",
+    "abstract": "以上海黄金期货2019—2020年期间的1分钟高频交易数据为样本，选取具有变量选择和长短期记忆特性的EN-LSTM,运用滚动时间窗口的样本外预测，对比不同数据频率的短期波动率预测模型对波动率的刻画和预测能力。实证研究表明：EN-LSTM能拟合上海黄金期货高频交易波动率特征；数据频率会对上海黄金期货短期波动率的预测带来显著影响，1分钟的数据频率预测精度明显高于更为低频的数据。研究结论有助于黄金期货市场参与各方分散和化解金融风险。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "09d09b1369e8427b50feb67eb424b83b",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:26:31.857438"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用EN-LSTM模型预测黄金期货的短期波动率，其研究目标是帮助市场参与者分散和化解金融风险，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用EN-LSTM模型预测黄金期货的短期波动率，其研究目标是帮助市场参与者分散和化解金融风险，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:39:52.356272"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 84,
+    "title": "An adaptive portfolio trading system: A risk-return portfolio optimization using recurrent reinforcement learning with expected maximum drawdown",
+    "abstract": "Dynamic control theory has long been used in solving optimal asset allocation problems, and a number of trading decision systems based on reinforcement learning methods have been applied in asset allocation and portfolio rebalancing. In this paper, we extend the existing work in recurrent reinforcement learning (RRL) and build an optimal variable weight portfolio allocation under a coherent downside risk measure, the expected maximum drawdown, E(MDD). In particular, we propose a recurrent reinforcement learning method, with a coherent risk adjusted performance objective function, the Calmar ratio, to obtain both buy and sell signals and asset allocation weights. Using a portfolio consisting of the most frequently traded exchange-traded funds, we show that the expected maximum drawdown risk based objective function yields superior return performance compared to previously proposed RRL objective functions (i.e. the Sharpe ratio and the Sterling ratio), and that variable weight RRL long/short portfolios outperform equal weight RRL long/short portfolios under different transaction cost scenarios. We further propose an adaptive E(MDD) risk based RRL portfolio rebalancing decision system with a transaction cost and market condition stop-loss retraining mechanism, and we show that the proposed portfolio trading system responds to transaction cost effects better and outperforms hedge fund benchmarks consistently. (c) 2017 Elsevier Ltd. All rights reserved.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9054ae13994f8cfa161bd1fab8e7edb2",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:57.088893"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用递归强化学习（RRL）进行资产配置和投资组合再平衡，并采用预期最大回撤（E(MDD)）作为风险度量指标。这些内容直接涉及投资组合管理中的资产分配和再平衡策略，以及金融风险管理中的下行风险控制。论文还比较了不同风险调整后的绩效指标（如Calmar比率、Sharpe比率和Sterling比率），进一步证实了其在投资组合管理和金融风险管理领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用递归强化学习（RRL）进行资产配置和投资组合再平衡，并采用预期最大回撤（E(MDD)）作为风险度量指标。这些内容直接涉及投资组合管理中的资产分配和再平衡策略，以及金融风险管理中的下行风险控制。论文还比较了不同风险调整后的绩效指标（如Calmar比率、Sharpe比率和Sterling比率），进一步证实了其在投资组合管理和金融风险管理领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:51.841985"
+}

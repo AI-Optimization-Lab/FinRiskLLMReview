@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1278,
+    "title": "Developing credit scoring models with SOM and fuzzy rule based k-NN classifiers",
+    "abstract": "Credit-risk evaluation is a very challenging and important problem in the domain of financial analysis. Many classification methods have been proposed in the literature to tackle this problem. Statistical and neural network based approaches are among the most popular paradigms. However, most of these methods produce so called hard classifiers, those generate decisions without any accompanying confidence measure. In contrast, soft classifiers, such as those designed using fuzzy set theory produce a measure of support for the decision (and also alternative decisions) that provide the analyst with greater insight. In this paper we propose a method of building credit scoring models using a fuzzy rule based classifier. The rule base is learned from the training data using a SOM based method. Further the classifier incorporates fuzzy k-NN rule for contextual classification as well as employ data reduction technique using SOM for creating a smaller set of reference points to search the k neighbors from. A method of seamlessly integrating business constraints into the model is also demonstrated.",
+    "year": 2006,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "eb2061ab03db87279074201443e955ba",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.831378"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发信用评分模型，用于信用风险评估，这直接属于金融风险管理的范畴。论文中提到的信用风险评估是金融风险管理中的一个重要应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是开发信用评分模型，用于信用风险评估，这直接属于金融风险管理的范畴。论文中提到的信用风险评估是金融风险管理中的一个重要应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:31.898093"
+}

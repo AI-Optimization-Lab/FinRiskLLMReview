@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 2425,
+    "title": "A multi-factor two-stage deep integration model for stock price prediction based on intelligent optimization and feature clustering",
+    "abstract": "Stock market fluctuations have a great impact on various economic and financial activities worldwide. Accurate prediction of stock prices plays a decisive role in constructing the investment decision or risk hedging. However, accurate prediction of the stock price is a thorny task, because stock price fluctuations are non-linear and chaotic. In order to promote the accuracy of stock price prediction, a multi-factor two-stage deep learning integrated prediction system based on intelligent optimization and feature clustering is proposed to predict stock price in this paper. Firstly, a multi-factor analysis is carried out to select a variety of factors that have an impact on the stock price, and adopt the extreme gradient boosting (XGBoost) algorithm to eliminate factors with low correlation. The second step is to apply the idea of classification prediction to cluster the filtered feature set. Further, multiple parameters of long short-term memory (LSTM) are optimized by genetic algorithm (GA), and multiple GA-LSTM models are obtained by training each clustering result. Finally, the results of each class predicted by the GA-LSTM model are nonlinearly integrated to acquire the final prediction model, which is applied to the prediction of the test set. The experimental results indicate that the performance of the proposed model outperforms other baseline models in China's two stock markets and the New York stock exchange. At the same time, these results fully prove that the prediction model proposed by us possesses more reliable and better predictive ability.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "dc819704deac2ca065da91f707cd3704",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "classification",
+      "clustering",
+      "feature learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:26.964979"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一个多因素两阶段深度学习集成预测系统，用于股票价格预测。股票价格预测是投资组合管理中的一个关键组成部分，因为它直接影响到资产配置和投资决策。论文中提到的投资决策和风险对冲也进一步支持了这一判断。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一个多因素两阶段深度学习集成预测系统，用于股票价格预测。股票价格预测是投资组合管理中的一个关键组成部分，因为它直接影响到资产配置和投资决策。论文中提到的投资决策和风险对冲也进一步支持了这一判断。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:28.894622"
+}

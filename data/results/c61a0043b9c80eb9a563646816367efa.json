@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "classification",
+    "regression"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions developing a machine learning model to predict extended length of stay (eLOS) in patients with spinal deformity.",
+    "classification": "The model predicts whether a patient will have an extended length of stay (eLOS >7 days), which is a binary classification problem.",
+    "regression": "The paper mentions using logistic regression, a type of regression model, to develop the predictive model."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"classification\", \"regression\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions developing a machine learning model to predict extended length of stay (eLOS) in patients with spinal deformity.\",\n    \"classification\": \"The model predicts whether a patient will have an extended length of stay (eLOS >7 days), which is a binary classification problem.\",\n    \"regression\": \"The paper mentions using logistic regression, a type of regression model, to develop the predictive model.\"\n  }\n}\n```"
+}

@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper mentions the use of advanced machine learning models to predict the performance of potential new customers.",
+    "supervised learning": "The study involves predicting customer performance, which is a supervised learning task as it uses labeled data (high-performance vs low-performance).",
+    "classification": "The paper specifically mentions binary classification models, indicating that the task involves classifying customers into high-performance or low-performance categories.",
+    "decision tree": "Boosting classification models, which are mentioned in the paper, often use decision trees as base learners (e.g., in algorithms like AdaBoost or Gradient Boosting)."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper mentions the use of advanced machine learning models to predict the performance of potential new customers.\",\n    \"supervised learning\": \"The study involves predicting customer performance, which is a supervised learning task as it uses labeled data (high-performance vs low-performance).\",\n    \"classification\": \"The paper specifically mentions binary classification models, indicating that the task involves classifying customers into high-performance or low-performance categories.\",\n    \"decision tree\": \"Boosting classification models, which are mentioned in the paper, often use decision trees as base learners (e.g., in algorithms like AdaBoost or Gradient Boosting).\"\n  }\n}\n```"
+}

@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "regression",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning algorithms (GBDT and GBRank) for stock selection strategy.",
+    "supervised learning": "The use of GBDT and GBRank implies a supervised learning approach where models are trained on labeled data (stock price trends).",
+    "classification": "GBRank is used to rank stocks, which can be seen as a form of classification based on the probability of rising.",
+    "regression": "GBDT (Gradient Boosted Decision Trees) is commonly used for regression tasks, which is likely applied here to predict stock gains.",
+    "decision tree": "GBDT is based on decision trees, indicating the use of decision tree algorithms in the research."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"regression\",\n    \"decision tree\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning algorithms (GBDT and GBRank) for stock selection strategy.\",\n    \"supervised learning\": \"The use of GBDT and GBRank implies a supervised learning approach where models are trained on labeled data (stock price trends).\",\n    \"classification\": \"GBRank is used to rank stocks, which can be seen as a form of classification based on the probability of rising.\",\n    \"regression\": \"GBDT (Gradient Boosted Decision Trees) is commonly used for regression tasks, which is likely applied here to predict stock gains.\",\n    \"decision tree\": \"GBDT is based on decision trees, indicating the use of decision tree algorithms in the research.\"\n  }\n}\n```"
+}

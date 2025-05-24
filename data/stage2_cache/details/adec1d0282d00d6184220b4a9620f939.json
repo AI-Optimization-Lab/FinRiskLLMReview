@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 187,
+    "title": "Deep reinforcement learning based trading agents: Risk curiosity driven learning for financial rules-based policy",
+    "abstract": "Financial markets are complex dynamic systems influenced by a high number of active agents, which produce a behavior with high randomness and noise. Trading strategies are well depicted as an online decision-making problem involving imperfect information and aiming to maximize the return while restraining the risk. However, it is challenging to obtain an optimal strategy in the complex and dynamic stock market. Therefore, recent developments in similar environments have pushed researchers towards exciting new horizons. In this paper, a novel rule-based policy approach is proposed to train a deep reinforcement learning agent for automated financial trading. Precisely, a continuous virtual environment has been created, with different versions of agents trading against one another. During this multiplex process, the agents which are trained on 504 risky datasets, use the fundamental concepts of proximal policy optimization to improve their own decision making by adjusting their action choice against the uncertainty of states. Risk curiosity-driven learning acts as an intrinsic reward function and is heavily laden with signals to find salient relationships between actions and market behaviors. The trained agent based on curiosity-driven risk has steadily and progressively improved actions quality. The self-learned rules driven by the agent curiosity push the policy towards actions that yield a high performance over the environment. Experiments on 8 real-world stocks are given to verify the appropriateness and efficiency of the self-learned rules. The proposed system has achieved promising performances, made better trades using fewer transactions, and outperformed the state-of-the-art baselines.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "58ef16cd0e54e068710d43535e24ba9f",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "proximal policy optimization"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:53.007738"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于深度强化学习的交易代理，旨在通过风险好奇心驱动学习来优化交易策略，以最大化回报并控制风险。这直接关联到投资组合管理中的资产选择和交易策略优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于深度强化学习的交易代理，旨在通过风险好奇心驱动学习来优化交易策略，以最大化回报并控制风险。这直接关联到投资组合管理中的资产选择和交易策略优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:21.201388"
+}

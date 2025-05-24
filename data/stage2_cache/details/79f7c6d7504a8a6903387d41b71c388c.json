@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1225,
+    "title": "Credit Risk Assessment Algorithm using Deep Neural Networks with Clustering and Merging",
+    "abstract": "A reliable assessment model can help financial institutions to increase profits and reduce losses. In credit data, classes of the data are extremely imbalanced owing to the small sample size of bad customers. In this paper, we propose a credit risk assessment algorithm using deep neural networks with clustering and merging, to achieve a balanced dataset and judge whether customer can be granted loans. In the algorithm, the majority class samples are divided into several subgroups by k-means clustering algorithm, each subgroup is merged with the minority class samples to produce several balanced subgroups, and these balanced subgroups are classified using deep neural networks respectively. In the experiments, we analyze influences of the model parameters and data sampling methods on the model performance, and compare classification ability of different models. The experimental results show that the proposed algorithm has a higher prediction accuracy in credit risk assessment.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3b9f98605e08875730604d23c1036777",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "classification",
+      "clustering",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:00:30.498917"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种基于深度神经网络的信用风险评估算法，旨在帮助金融机构判断是否向客户发放贷款，这直接涉及信用风险管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文提出了一种基于深度神经网络的信用风险评估算法，旨在帮助金融机构判断是否向客户发放贷款，这直接涉及信用风险管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:54.813791"
+}

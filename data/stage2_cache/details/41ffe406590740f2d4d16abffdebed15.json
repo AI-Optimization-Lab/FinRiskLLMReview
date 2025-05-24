@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 555,
+    "title": "Quantifying the Impact of Memory Errors in Deep Learning",
+    "abstract": "The use of deep learning (DL) on HPC resources has become common as scientists explore and exploit DL methods to solve domain problems. On the other hand, in the coming exascale computing era, a high error rate is expected to be problematic for most HPC applications. The impact of errors on DL applications, especially DL training, remains unclear given their stochastic nature. In this paper, we focus on understanding DL training applications on HPC in the presence of silent data corruption. Specifically, we design and perform a quantification study with three representative applications by manually injecting silent data corruption errors (SDCs) across the design space and compare training results with the error-free baseline. The results show only 0.61-1.76% of SDCs cause training failures, and taking the SDC rate in modern hardware into account, the actual chance of a failure is one in thousands to millions of executions. With this quantitatively measured impact, computing centers can make rational design decisions based on their application portfolio, the acceptable failure rate, and financial constraints; for example, they might determine their confidence in the correctness of training results performed on processors without error correction code (ECC) RAM. We also discover that over 75-90% of the SDCs that cause catastrophic errors can be easily detected by a training loss in the next iteration. Thus we propose this error-aware software solution to correct catastrophic errors, as it has significantly lower time and space overhead compared to algorithm-based fault-tolerance (ABFT) and ECC.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "cc202a5b04f4cfd9480c0fb6ab266f4d",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:37:38.109060"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究深度学习在高性能计算环境中对内存错误的容忍性及其影响，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究深度学习在高性能计算环境中对内存错误的容忍性及其影响，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:34.698132"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 793,
+    "title": "Using feature construction to improve the performance of neural networks",
+    "abstract": "Recent years have seen the growth in popularity of neural networks for business decision support because of their capabilities' for modeling, estimating, and classifying. Compared to other AI methods for problem solving such as expert systems, neural network approaches are especially useful far their ability to learn adaptively from observations. However, neural network learning performed by algorithms such as back-propagation (BP) are known to be slow due to the size of the search space involved and also the iterative manner in which the algorithm works. In this paper, we show that the degree of difficulty in neural network learning is inherent in the given set of training examples. We propose a technique for measuring such learning difficulty, and then develop a feature construction methodology that helps transform the training data so that both. the learning speed and classification accuracy of neural network algorithms are improved, We show the efficacy of the proposed method for financial risk classification, a domain characterized by frequent data noise, lack of functional structure, and high attribute interactions. Moreover, the empirical studies also provide insights into the structural characteristics of neural networks with respect to the input data used as well as possible mechanisms to improve the learning performance.",
+    "year": 1998,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fad224cf45dbc0df9b7e734d3f1e60ab",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:08.063488"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper explicitly mentions the application of the proposed method for financial risk classification, which is a key aspect of financial risk management. The focus on improving neural network performance for this specific domain indicates a primary application in financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper explicitly mentions the application of the proposed method for financial risk classification, which is a key aspect of financial risk management. The focus on improving neural network performance for this specific domain indicates a primary application in financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:39.814507"
+}

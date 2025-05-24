@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 65,
+    "title": "Option pricing using Machine Learning",
+    "abstract": "This paper examines the option pricing performance of the most popular Machine Learning algorithms. The classic parametrical models suffer from several limitations in term of computational power required for parametric calibration and unrealistic economical and statistical assumptions. Therefore, a data driven approach based on non-parametric models is are well justified. Most of the previous researchers focus especially on the neural networks method (NN), the other algorithms being unexplored. Beside NN, this paper also analyses the performance of the Support Vector Regressions and Genetic Algorithms and propose three other Decision Tree methods, respectively Random Forest, XGBoost and LightGMB. In order to emphasize the power of this algorithms, a comparison with classical methods like Black-Scholes and Corrado-Su with both historical and implied parameters have been conducted. The analyzes were performed on European call options who have as underlying asset the WTI crude oil future contracts. Machine Learning algorithms outperform by a great margin the classical approaches regardless of the moneyness and the maturity of the contracts.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "37b4c500fbb4d992ffa4793e98a74e3c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.873444"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心内容是使用多种机器学习算法（如神经网络、支持向量回归、决策树等）进行期权定价，并与传统的Black-Scholes和Corrado-Su模型进行比较。研究明确聚焦于欧洲看涨期权的定价问题，属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心内容是使用多种机器学习算法（如神经网络、支持向量回归、决策树等）进行期权定价，并与传统的Black-Scholes和Corrado-Su模型进行比较。研究明确聚焦于欧洲看涨期权的定价问题，属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:03.932225"
+}

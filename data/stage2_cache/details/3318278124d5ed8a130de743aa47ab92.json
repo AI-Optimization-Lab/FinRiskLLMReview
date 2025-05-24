@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 789,
+    "title": "Decouple then Combine: A Simple and Effective Framework for Fraud Transaction Detection",
+    "abstract": "With the popularity of electronic mobile and online payment, the demand for detecting financial fraudulent transactions is increasing. Although numerous efforts are devoted to tackling this problem, there are still two key challenges that are not well resolved, i.e., the class imbalance ratio of test samples are extremely larger than that of training samples and amount of detected fraudulent transactions do not be considered. In this paper, we propose a simple and effective framework composed of majority and minority branches to address the above issues. The input samples of majority and minority branches come from vanilla and re-adjusted distribution, respectively. Parameters of each branch are optimized individually, by which the representation learning for majority and minority samples are decoupled. Besides, an extra loss re-weighted by amount is added in the majority branch to improve the recall amount of detected fraudulent transactions. Theoretical results show that under the proposed framework, minimizing the empirical risk is guaranteed to achieve small generalization risk on more imbalanced data with high probability. Experiments on real-world datasets from Tencent Wechat payments demonstrate that our framework achieves superior performance than competitive methods in terms of both number and money of detected fraudulent transactions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "bb5887634f2bef452db3426bb3d24bc7",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "representation learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:44.450118"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个用于检测金融欺诈交易的机器学习框架，这直接涉及金融风险管理中的欺诈风险控制。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一个用于检测金融欺诈交易的机器学习框架，这直接涉及金融风险管理中的欺诈风险控制。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:23.484786"
+}

@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 512,
+    "title": "Big data-driven corporate financial forecasting and decision support: a study of CNN-LSTM machine learning models",
+    "abstract": "With the rapid advancement of information technology, particularly the widespread adoption of big data and machine learning, corporate financial management is undergoing unprecedented transformation. Traditional methods often lack accuracy, speed, and flexibility in forecasting and decision-making. This study proposes a hybrid Convolutional Neural Network (CNN) and Long Short-Term Memory (LSTM) model to enhance financial data prediction and decision efficiency. Utilizing financial data from A-share listed companies in the CSMAR database (2000-2023), we analyzed 54 key financial indicators across 54,389 observations. The data underwent preprocessing and dimensionality reduction via Principal Component Analysis (PCA) to eliminate redundancy and noise. The CNN-LSTM hybrid model was then trained and tested on the refined dataset. Experimental results demonstrate the superior performance of the proposed model, achieving a Mean Squared Error (MSE) of 0.020 and an R2 score of 0.411, significantly outperforming benchmark models (ARIMA, Random Forest, XGBoost, and standalone LSTM). A practical enterprise case analysis further confirms the model's effectiveness in improving financial forecasting accuracy, optimizing decision-making, and mitigating financial risks. The findings highlight that a big data and machine learning-driven financial forecasting system can substantially enhance corporate financial management. By improving prediction reliability and operational efficiency, this approach aids businesses in achieving robust risk control and sustainable growth in uncertain market environments.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cc0d036269d5c8923e920faef766c33d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "principal components analysis",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:51:31.376545"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用CNN-LSTM混合模型进行企业财务预测和决策支持，特别提到其在提高财务预测准确性和减轻财务风险方面的应用，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用CNN-LSTM混合模型进行企业财务预测和决策支持，特别提到其在提高财务预测准确性和减轻财务风险方面的应用，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:08.400156"
+}

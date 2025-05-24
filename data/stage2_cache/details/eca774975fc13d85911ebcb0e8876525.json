@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 354,
+    "title": "Evaluating credit rating prediction by using the KMV model and random forest",
+    "abstract": "Purpose An increasing number of investors have begun using financial data to develop optimal investment portfolios; therefore, the public financial data shared in the capital market plays a critical role in credit ratings. These data enable investors to understand the credit levels of debtors from a bank perspective; this facilitates predicting the debtor default rate to efficiently evaluate investment risks. The paper aims to discuss these issues. Design/methodology/approach A credit rating model can be developed to reduce the risk of adverse selection and moral hazard caused by information asymmetry in the loan market. In this study, a random forest (RF) was used to evaluate financial variables and construct credit rating prediction models. Data-mining techniques, including an RF, decision tree, neural networks, and support vector machine, were used to search for suitable credit rating forecasting methods. The distance to default from the KMV model was then incorporated into the credit rating model as a research variable to increase predictive power of various data-mining techniques. In addition, four-level and nine-level classification were set to investigate the accuracy rates of various models. Findings The experimental results indicated that applying the RF in the variable feature selection process and developing a forecasting model was the most effective method of predicting credit ratings; the four-level and nine-level feature-selection settings achieved 95.5 and 87.8 percent accuracy rates, respectively, indicating that RF demonstrated outstanding feature selection and forecasting capacity. Research limitations/implications The experimental cases were based on financial data from public companies in North America. Practical implications Practical implication of this study indicates the most effective financial variables were dividends common/ordinary, cash dividends, volatility assumption, and risk-free rate assumption. Originality/value The RF model can be used to perform feature selection and efficiently filter numerous financial variables to obtain crediting rating information instantly.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cb1bc6f9a316f315848b6015a28494a2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:41.097120"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用随机森林等数据挖掘技术来预测信用评级，目的是评估债务人的违约风险，这直接关联到金融风险管理中的信用风险分析。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用随机森林等数据挖掘技术来预测信用评级，目的是评估债务人的违约风险，这直接关联到金融风险管理中的信用风险分析。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:00.352708"
+}

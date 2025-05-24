@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 624,
+    "title": "Improving Real Estate Investment Trusts (REITs) time-series prediction accuracy using machine learning and technical analysis indicators",
+    "abstract": "The primary goal of investors who include Real Estate Investment Trusts (REITs) in their portfolios is to achieve better returns while reducing the overall risk of their investments. REITs are entities responsible for owning and managing real estate properties. To achieve greater returns while reducing risk, it is essential to accurately predict future REIT prices. This study explores the predictive capability of five different machine learning algorithms used to predict REIT prices. These algorithms include Ordinary Least Squares Linear Regression, Support Vector Regression, k-Nearest Neighbours Regression, Extreme Gradient Boosting, and Long/Short-Term Memory Neural Networks. Additionally, historical REIT prices are supplemented with Technical Analysis indicators (TAIs) to aid in price predictions. While TA indicators are commonly used in stock market forecasting, their application in the context of REITs has remained relatively unexplored. The study applied these algorithms to predict future prices for 30 REITs from the United States, United Kingdom, and Australia, along with 30 stocks and 30 bonds. After obtaining our price predictions, we employ a Genetic Algorithm (GA) to optimise weights of a diversified portfolio. Our results reveal several key findings: (i) all machine learning algorithms demonstrated low average and standard deviation values in the error rate distributions, outperforming commonly used statistical benchmarks such as Holt's Linear Trend Method (HLTM), Trigonometric Box-Cox Autoregressive Time Series (TBATS), and Autoregressive Integrated Moving Average (ARIMA); (ii) incorporating Technical Analysis indicators in the ML algorithms resulted in a significant reduction in prediction errors, up to 60% in some cases; and (iii) a multi-asset portfolio constructed using predictions that incorporated Technical Analysis indicators outperformed a portfolio based solely on predictions derived from past prices. Furthermore, this study employed Shapley Value-based techniques, specifically SHAP and SAGE, to analyse the importance of the features used in the analysis. These techniques provided additional evidence of the value added by Technical Analysis indicators in this context.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "dcf40953e37050523291d3fe8a616dba",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:39.164329"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习算法和Technical Analysis指标来预测REITs价格，并进一步利用遗传算法优化多样化投资组合的权重。这些技术直接应用于投资组合的构建和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习算法和Technical Analysis指标来预测REITs价格，并进一步利用遗传算法优化多样化投资组合的权重。这些技术直接应用于投资组合的构建和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:23.620426"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2892,
+    "title": "The Slow Convergence of Ordinary Least Squares Estimators of α, β and Portfolio Weights under Long-Memory Stochastic Volatility",
+    "abstract": "We consider inference for the market model coefficients based on simple linear regression under a long memory stochastic volatility generating mechanism for the returns. We obtain limit theorems for the ordinary least squares (OLS) estimators of alpha and beta in this framework. These theorems imply that the convergence rate of the OLS estimators is typically slower than T if both the regressor and the predictor have long memory in volatility, where T is the sample size. The traditional standard errors of the OLS-estimated intercept (alpha(boolean AND)) and slope (beta(boolean AND)), which disregard long memory in volatility, are typically too optimistic, and therefore the traditional t-statistic for testing, say, alpha = 0 or beta = 1, will diverge under the null hypothesis. We also obtain limit theorems (which imply slow convergence) for the estimated weights of the minimum variance portfolio and the optimal portfolio in the same framework. In addition, we propose and study the performance of a subsampling-based approach to hypothesis testing for alpha and beta. We conclude by noting that analogous results hold under more general conditions on long-memory volatility models and state these general conditions which cover certain fractionally integrated exponential generalized autoregressive conditional heteroskedasticity (EGARCH) models.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d8e435036919628b8a4f4c769e43bfb2",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:11:48.299131"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究了在市场模型系数估计中的OLS方法，特别是在长记忆随机波动性下的收敛性问题，并讨论了最小方差投资组合和最优投资组合的权重估计。这些内容直接关联到投资组合管理的核心问题，即如何准确估计和优化投资组合的权重。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究了在市场模型系数估计中的OLS方法，特别是在长记忆随机波动性下的收敛性问题，并讨论了最小方差投资组合和最优投资组合的权重估计。这些内容直接关联到投资组合管理的核心问题，即如何准确估计和优化投资组合的权重。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:20.089776"
+}

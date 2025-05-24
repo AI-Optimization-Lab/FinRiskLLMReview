@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3948,
+    "title": "Seismic risk assessment of spatially-distributed systems using ground-motion models fitted considering spatial correlation",
+    "abstract": "Ground-motion models are commonly used in earthquake engineering to predict the probability distribution of the ground-motion intensity at a given site due to a particular earthquake event. These models are often built using regression on observed ground-motion intensities, and are-fitted using either the one-stage mixed-effects regression algorithm proposed by Abrahamson and Youngs (1992) or the two-stage algorithm of Joyner and Boore (1993). In their current forms, these algorithms ignore the spatial correlation between intra-event residuals. Recently, Jayaram and Baker (2010a) and Hong et al. (2009) observed that considering spatial correlation while fitting the models does not impact the model coefficients that are used for predicting median ground-motion intensities, but significantly increases the standard deviation of the intra-event residual and decreases the standard deviation of the inter-event residual. These changes have implications for risk assessments of spatially-distributed-systems, because a smaller inter-event residual standard deviation implies lesser likelihood of observing large ground-motion intensities at all sites in a region. This manuscript explores the impact of considering spatial correlation on the ground-motion model in situations where the model is fitted using only a few recordings or closely-spaced recordings, which is often the case in low to moderately seismic regions such as the eastern United States. This is done by quantifying the changes to the standard deviations of the inter-event and the intra-event residual in a variety of situations where the models are fitted using earthquakes with a small to moderate number of recordings that are separated by short to medium distances. It is seen that the changes to the standard deviations of the residuals are more significant as the station separation distance decreases, though the trend with the number of recordings per earthquake is not as clear. Finally, sample risk assessments are carried out for a hypothetical portfolio of buildings in order to illustrate the potential impact on the seismic risk of spatially-distributed systems. Overall, this work serves to illustrate the need to consider spatial correlation in the regression for ground-motion models in upcoming projects such as the NGA east project.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0846ef2285388c96d9989e0141bef677",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:22:39.309464"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究地震工程中的地面运动模型及其空间相关性对风险的影响，并未涉及任何金融领域的研究或应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究地震工程中的地面运动模型及其空间相关性对风险的影响，并未涉及任何金融领域的研究或应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:24.425022"
+}

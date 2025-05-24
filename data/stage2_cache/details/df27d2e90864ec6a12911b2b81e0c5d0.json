@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 563,
+    "title": "Forecasting the Risk Factor of Frontier Markets: A Novel Stacking Ensemble of Neural Network Approach",
+    "abstract": "Forecasting the risk factor of the financial frontier markets has always been a very challenging task. Unlike an emerging market, a frontier market has a missing parameter named volatility, which indicates the market's risk and as a result of the absence of this missing parameter and the lack of proper prediction, it has almost become difficult for direct customers to invest money in frontier markets. However, the noises, seasonality, random spikes and trends of the time-series datasets make it even more complicated to predict stock prices with high accuracy. In this work, we have developed a novel stacking ensemble of the neural network model that performs best on multiple data patterns. We have compared our model's performance with the performance results obtained by using some traditional machine learning ensemble models such as Random Forest, AdaBoost, Gradient Boosting Machine and Stacking Ensemble, along with some traditional deep learning models such as Convolutional Neural Network (CNN), Long Short-Term Memory (LSTM) and Bidirectional Long Short-Term (BiLSTM). We have calculated the missing parameter named volatility using stock price (Close price) for 20 different companies of the frontier market and then made predictions using the aforementioned machine learning ensemble models, deep learning models and our proposed stacking ensemble of the neural network model. The statistical evaluation metrics RMSE and MAE have been used to evaluate the performance of the models. It has been found that our proposed stacking ensemble neural network model outperforms all other traditional machine learning and deep learning models which have been used for comparison in this paper. The lowest RMSE and MAE values we have received using our proposed model are 0.3626 and 0.3682 percent, respectively, and the highest RMSE and MAE values are 2.5696 and 2.444 percent, respectively. The traditional ensemble learning models give the highest RMSE and MAE error rate of 20.4852 and 20.4260 percent, while the deep learning models give 15.2332 and 15.1668 percent, respectively, which clearly states that our proposed model provides a very low error value compared with the traditional models.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "81018643c4ce75992ca3771127c5a377",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.364559"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on forecasting the risk factor (volatility) in frontier markets using a novel stacking ensemble neural network model. This directly addresses the challenge of measuring and predicting market risk, which is a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on forecasting the risk factor (volatility) in frontier markets using a novel stacking ensemble neural network model. This directly addresses the challenge of measuring and predicting market risk, which is a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:43.354162"
+}

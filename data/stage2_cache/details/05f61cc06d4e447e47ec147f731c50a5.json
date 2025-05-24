@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 341,
+    "title": "Fuzzy neural network with backpropagation for fuzzy quadratic programming problems and portfolio optimization problems",
+    "abstract": "The study aspires to adopt back propagation fuzzy neural networks to solve fuzzy quadratic programming problems. The main motivation behind proposing a back propagation neural network is that it can easily adjust and fine-tune the weights of the network from the error rate obtained at the previous layer. The error rate customarily called the loss function is the dissimilarity between the desired and predicted outputs. The chain and power rules of the derivative allow back propagation and successively update the weights of the network to perform efficiently. Thus, the gradient of the loss function is calculated by iterating backward layer by layer but one at a time to reduce the difference between the desired and the predicted outputs. The research flow is such that first of all the quadratic programming problem is formulated in a fuzzy environment. The problem with fuzzy quadratic programming is formulated as a lower, central, and upper model. The formulated models are then solved with backpropagation fuzzy neural networks. The proposed method is then implemented in the capital market to identify the optimal portfolio for potential investors in the Pakistan Stock Exchange. Six leading stocks traded on the stock exchange from Jan 2016 to Oct 2020 were taken into consideration. At all three levels (lower, central, and upper), the results of identifying the best investment portfolio for investors are consistent. The proposed three models identify the investors to invest in ATHL, MCB and ARPL, whereas, the remaining three IGIHL, INIL and POL are not desirable for investment. In all three cases, the convergence is obtained at 475 iterations which is faster than the previously conducted studies. Moreover, another advantage of the proposed technique is that it brings an improvement of 28.77% in the objective function of mean variance optimization MVO model.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1507effe9517875f1f8f4526246cc2a0",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.428447"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用模糊神经网络解决模糊二次规划问题，并将其应用于资本市场的投资组合优化。论文明确提到在巴基斯坦证券交易所为潜在投资者识别最优投资组合，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用模糊神经网络解决模糊二次规划问题，并将其应用于资本市场的投资组合优化。论文明确提到在巴基斯坦证券交易所为潜在投资者识别最优投资组合，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:41.884952"
+}

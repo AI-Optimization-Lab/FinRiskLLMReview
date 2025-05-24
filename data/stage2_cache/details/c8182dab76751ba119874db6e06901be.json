@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 16,
+    "title": "基于深度学习求解Black-Scholes模型——以上证50ETF期权数据做实证研究",
+    "abstract": "<正>Black-Scholes定价模型是重要的期权模型之一，该模型的传统求解方法主要为解析法和数值法两种，本文相对于传统的两种求解方法提出利用深度学习对Black-Scholes偏微分方程做求解，相对于传统求解方法受到严格的假设约束，深度学习求解更加方便可以不受这些约束条件影响，其求解需要的参数更少所占计算空间更小。本文以上证50ETF期权数据为例，将数据中行权价、标的资产价格、到期时间、无风险利率代入公式中，做两种方法的求解精度对比分析，结果表明深度学习求解精度优于Black-Scholes求解公式求解。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "64db28da7b244aaf688089a2db9614f2",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:00.850949"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习求解Black-Scholes模型，并以上证50ETF期权数据做实证研究，这直接涉及期权定价问题，属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习求解Black-Scholes模型，并以上证50ETF期权数据做实证研究，这直接涉及期权定价问题，属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:41:05.613586"
+}

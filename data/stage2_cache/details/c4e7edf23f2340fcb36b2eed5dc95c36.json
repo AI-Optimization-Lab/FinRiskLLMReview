@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 965,
+    "title": "A Novel Anti-Risk Method for Portfolio Trading Using Deep Reinforcement Learning",
+    "abstract": "In the past decade, the application of deep reinforcement learning (DRL) in portfolio management has attracted extensive attention. However, most classical RL algorithms do not consider the exogenous and noise of financial time series data, which may lead to treacherous trading decisions. To address this issue, we propose a novel anti-risk portfolio trading method based on deep reinforcement learning (DRL). It consists of a stacked sparse denoising autoencoder (SSDAE) network and an actor-critic based reinforcement learning (RL) agent. SSDAE will carry out off-line training first, while the decoder will used for on-line feature extraction in each state. The SSDAE network is used for the noise resistance training of financial data. The actor-critic algorithm we use is advantage actor-critic (A2C) and consists of two networks: the actor network learns and implements an investment policy, which is then evaluated by the critic network to determine the best action plan by continuously redistributing various portfolio assets, taking Sharp ratio as the optimization function. Through extensive experiments, the results show that our proposed method is effective and superior to the Dow Jones Industrial Average index (DJIA), several variants of our proposed method, and a state-of-the-art (SOTA) method.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fbd0023aaa1fa635595c5fc1c76fd1fb",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "autoencoder",
+      "denoising autoencoder",
+      "actor-critic"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.804532"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习（DRL）和去噪自编码器（SSDAE）来优化投资组合的交易策略，并通过夏普比率作为优化函数来评估和调整资产配置。这些内容明确指向投资组合管理领域，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习（DRL）和去噪自编码器（SSDAE）来优化投资组合的交易策略，并通过夏普比率作为优化函数来评估和调整资产配置。这些内容明确指向投资组合管理领域，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:05.883402"
+}

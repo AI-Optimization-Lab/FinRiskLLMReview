@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1705,
+    "title": "IMPROVING FORECASTING ACCURACY OF THE S&P500 INTRA-DAY PRICE DIRECTION USING BOTH WAVELET LOW AND HIGH FREQUENCY COEFFICIENTS",
+    "abstract": "Numerous research works have successfully applied the wavelet analysis for the decomposition and forecasting of financial data. Particularly, using the discrete wavelet transform (DWT) stock price time series were analyzed following a fixed sub-band coding scheme, which provides a low time resolution for low frequencies and a high time resolution for high frequencies. Following the standard approach found in the literature, only low frequency components were considered as main features to predict stock prices. However, this approach lacks of details about the generative process of the original data. In this paper, we rely on DWT high frequency sub-band to extract short interval hidden information for better classification of future Standard and Poors (S&P500) one minute ahead direction using artificial neural network trained with backpropagation algorithm. The simulation results show that our approach that uses both low (approximation) and high (detail) frequency coefficients provides better classification rates than the standard one. In addition, simulation results show that low frequency components are appropriate to detect future downshifts in S&P500, whilst our approach is suitable to predict future upwards. Thus, the standard approach provides valuable information for risk averse investors trading S&P500, and our approach that combines low and high frequency coefficients is strongly useful for aggressive investors seeking short-term profits when trading S&P500.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d59e4c193436d730d11aea032aab4faa",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.515380"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用小波分析和神经网络预测S&P500的短期价格方向，虽然涉及金融市场，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理。研究重点在于价格方向预测而非上述特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用小波分析和神经网络预测S&P500的短期价格方向，虽然涉及金融市场，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理。研究重点在于价格方向预测而非上述特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:58.409921"
+}

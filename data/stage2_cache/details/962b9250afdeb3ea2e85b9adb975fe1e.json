@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2102,
+    "title": "Nonlinear prediction of conditional percentiles for Value-at-Risk",
+    "abstract": "We propose, implement and evaluate a new approach to predicting conditional distribution tail percentiles, which corresponds to Value-at-Risk (VaR) when applied to financial asset return series. Our approach differs from current methods for measuring VaR in two basic ways. Firstly, while the standard variance-covariance framework assumes that asset return distributions are normal, we make no assumptions about the shape of the entire distribution; instead we focus on estimating only the relevant percentile. Secondly, while the standard approach utilizes only the historical returns and covariances of the assets comprising the portfolio being measured, our method conditions on other additional relevant exogenous variables. We use the mean weighted absolute error function (MWAE), a generalization of the well-known mean absolute error (MAE) cost function. It is a familiar statistical property that the MAE is minimized at the median, or 50th percentile of the data; the generalization allows for estimation of arbitrary p-percentiles. There are two methods to estimating values from data: a lazy method keeps all of the data to compute the desired value at any given point; in contrast, an eager method uses the data to estimate a model which is used to generate the desired output. In this paper, we investigate two approaches for applying the MWAE to estimate tail percentiles in this paper, one using each method. The first, kernel percentile regression, is a lazy method, while the second, neural network percentile regression, is an eager method.",
+    "year": 1999,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8767867db028059addaf3a1f1725cf5a",
+    "relevant_keywords": [
+      "neural network",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:59.104334"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting conditional distribution tail percentiles, specifically Value-at-Risk (VaR), which is a key metric in financial risk management. The proposed methods aim to improve VaR estimation by focusing on relevant percentiles and incorporating additional exogenous variables, directly addressing risk assessment challenges.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting conditional distribution tail percentiles, specifically Value-at-Risk (VaR), which is a key metric in financial risk management. The proposed methods aim to improve VaR estimation by focusing on relevant percentiles and incorporating additional exogenous variables, directly addressing risk assessment challenges.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:06.884710"
+}

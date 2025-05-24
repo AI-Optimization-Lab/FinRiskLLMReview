@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 631,
+    "title": "Investigation of Applying Machine Learning for Watch-List Filtering in Anti-Money Laundering",
+    "abstract": "Financial institutions must meet international regulations to ensure not to provide services to criminals and terrorists. They also need to continuously monitor financial transactions to detect suspicious activities. Businesses have many operations that monitor and validate their customer's information against sources that either confirm their identities or disprove. Failing to detect unclean transaction(s) will result in harmful consequences on the financial institution responsible for that such as warnings or fines depending on the transaction severity level. The financial institutions use Anti-money laundering (AML) software sanctions screening and Watch-list filtering to monitor every transaction within the financial network to verify that none of the transactions can be used to do business with forbidden people. Lately, the financial industry and academia have agreed that machine learning (ML) may have a significant impact on monitoring money transaction tools to fight money laundering. Several research work and implementations have been done on Know Your Customer (KYC) systems, but there is no work on the watch-list filtering systems because of the compliance risk. Thus, we propose an innovative model to automate the process of checking blocked transactions in the watch-list filtering systems. To the best of our knowledge, this paper is the first research work on automating the watch-list filtering systems. We develop a Machine Learning - Component (ML-Component) that will be integrated with the current watch-list filtering systems. Our proposed ML-Component consists of three phases; monitoring, advising, and take action. Our model will handle a known critical issue, which is the false-positives (i.e., transactions that are blocked by a false alarm). Also, it will minimize the compliance officers' effort, and provide faster processing time. We performed several experiments using different ML algorithms (SVM, DT, and NB) and found that the SVM outperforms other algorithms. Because our dataset is nonlinear, we used the polynomial kernel and achieved higher accuracy for predicting the transactions decision, and the correlation matrix to show the relationship between the numeric features.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fd053c7b6bb1edcd7cdef1e054c8e93e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.815275"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究应用机器学习于反洗钱（AML）中的观察名单过滤系统，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究应用机器学习于反洗钱（AML）中的观察名单过滤系统，虽然涉及金融领域，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:16.916669"
+}

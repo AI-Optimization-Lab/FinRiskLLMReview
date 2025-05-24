@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 187,
+    "title": "Data-driven option pricing using single and multi-asset supervised learning",
+    "abstract": "We propose three different data-driven approaches for pricing European-style call options using supervised machine-learning algorithms. These approaches yield models that give a range of fair prices instead of a single price point. The performance of the models is tested on two stock market indices: NIFTY50 and BANKNIFTY from the Indian equity market. Although neither historical nor implied volatility is used as an input, the results show that the trained models have been able to capture the option pricing mechanism better than or similar to the Black-Scholes formula for all the experiments. Our choice of scale free I/O allows us to train models using combined data of multiple different assets from a financial market. This not only allows the models to achieve far better generalization and predictive capability, but also solves the problem of paucity of data, the primary limitation of using machine learning techniques. We also illustrate the performance of the trained models in the period leading up to the 2020 Stock Market Crash (January 2019 to April 2020).",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "dd072b71bca4bf63b5982f02603c2f27",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.138109"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用监督学习算法对欧式看涨期权进行定价，并比较了其与Black-Scholes公式的性能，这直接属于衍生品定价的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用监督学习算法对欧式看涨期权进行定价，并比较了其与Black-Scholes公式的性能，这直接属于衍生品定价的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:07.939685"
+}

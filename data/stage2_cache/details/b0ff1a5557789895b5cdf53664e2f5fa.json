@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 452,
+    "title": "MAS-DR: An ML-Based Aggregation and Segmentation Framework for Residential Consumption Users to Assist DR Programs",
+    "abstract": "The increasing complexity of energy grids, driven by rising demand and unpredictable residential consumption, highlights the need for efficient demand response (DR) strategies and data-driven services. This paper proposes a machine learning-based framework for DR that clusters users based on their consumption patterns and categorizes individual usage into distinct profiles using K-means, Hierarchical Agglomerative Clustering, Spectral Clustering, and DBSCAN. Key features such as statistical, temporal, and behavioral characteristics are extracted, and the novel Household Daily Load (HDL) approach is used to identify residential consumption groups. The framework also includes context analysis to detect daily variations and peak usage periods for individual users. High-impact users, identified by anomalies such as frequent consumption spikes or grid instability risks using IsolationForest and kNN, are flagged. Additionally, a classification service integrates new users into the segmented portfolio. Experiments on real-world datasets demonstrate the framework's effectiveness in helping energy managers design tailored DR programs.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4045f659c3ac5d8c81453e320b15f04b",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "classification",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.300593"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是基于机器学习的能源需求响应（DR）策略，涉及用户消费模式聚类和分类，以帮助能源管理者设计定制的DR程序。虽然使用了机器学习和聚类技术，但这些技术并未应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是基于机器学习的能源需求响应（DR）策略，涉及用户消费模式聚类和分类，以帮助能源管理者设计定制的DR程序。虽然使用了机器学习和聚类技术，但这些技术并未应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:39.814384"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1633,
+    "title": "Uncertainty Modelling in Deep Networks: Forecasting Short and Noisy Series",
+    "abstract": "Deep Learning is a consolidated, state-of-the-art Machine Learning tool to fit a function y = f(x) when provided with large data sets of examples {(x(i), y(i))}. However, in regression tasks, the straight-forward application of Deep Learning models provides a point estimate of the target. In addition, the model does not take into account the uncertainty of a prediction. This represents a great limitation for tasks where communicating an erroneous prediction carries a risk. In this paper we tackle a real-world problem of forecasting impending financial expenses and incomings of customers, while displaying predictable monetary amounts on a mobile app. In this context, we investigate if we would obtain an advantage by applying Deep Learning models with a Heteroscedastic model of the variance of a network's output. Experimentally, we achieve a higher accuracy than non-trivial baselines. More importantly, we introduce a mechanism to discard low-confidence predictions, which means that they will not be visible to users. This should help enhance the user experience of our product.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9952a157965ef80a7a73984d0fa018ef",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:42.539671"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究深度学习模型在预测客户财务收支方面的应用，并探讨了不确定性建模。虽然涉及金融数据，但其核心应用是预测和用户体验优化，并未明确涉及衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究深度学习模型在预测客户财务收支方面的应用，并探讨了不确定性建模。虽然涉及金融数据，但其核心应用是预测和用户体验优化，并未明确涉及衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:20.071927"
+}

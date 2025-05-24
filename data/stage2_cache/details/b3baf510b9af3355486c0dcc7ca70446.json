@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2642,
+    "title": "Graph-based stock correlation and prediction for high-frequency trading systems",
+    "abstract": "In this paper, we have implemented a high-frequency quantitative system that can obtain stable returns for the Chinese A-share market, which has been running for more than 3 months (from March 27, 2020 to June 30, 2020) with the expected results. A number of rules and barriers exist in the Chinese A-share market such as trading restrictions and high fees, as well as scarce and expensive hedging tools. It is difficult to achieve stable absolute returns in such a market. Stock correlation analysis and price prediction play an important role to achieve any profitable trading. The portfolio management and subsequent trading decisions highly depend on the results of stock correlation analysis and price prediction. However, it is nontrivial to analyze and predict any stocks, being time-varying and affected by unlimited factors in a given market. Traditional methods only take some certain factors into consideration but ignore others that may be changed dynamically. In this paper, we propose a novel machine learning model named Graph Attention Long Short-Term Memory (GALSTM) to learn the correlations between stocks and predict their future prices automatically. First, a multi-Hawkes Process is used to initial a correlation graph between stocks. This procedure provides a good training start as the multi-Hawkes Processes will be studied on the most saint feature fluctuations with any correlations being statistically significant. Then an attention based LSTM is built to learn the weighting matrix underlying the dynamic graph. In addition, we also build matching data process plus portfolio management modules to form a complete system. The proposed GALSTM enables us to expand the scope of stock selection under the premise of controlling risks with limited hedging tools in the A-share market, thereby effectively increasing high-frequency excess returns. We then construct a long and short positions combination, select long positions in the A shares of the entire market, and use stock index futures to short. With GALSTM model, the products managed by our fully automatic quantitative trading system achieved an absolute annual return rate of 44.71% and the standard deviation of daily returns is only 0.42% in three months of operation. Only 1 week loss in 13 weeks of running time. (c) 2021 Published by Elsevier Ltd.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2b01db0388428d93287e3655799e7dde",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.846416"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建一个基于图注意力长短期记忆（GALSTM）的模型，用于股票相关性分析和价格预测，以支持高频交易系统中的投资组合管理和交易决策。论文明确提到构建了匹配的数据处理和投资组合管理模块，形成了一个完整的系统，并讨论了如何通过该模型在控制风险的前提下扩大选股范围，从而有效增加高频超额收益。这些内容直接指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建一个基于图注意力长短期记忆（GALSTM）的模型，用于股票相关性分析和价格预测，以支持高频交易系统中的投资组合管理和交易决策。论文明确提到构建了匹配的数据处理和投资组合管理模块，形成了一个完整的系统，并讨论了如何通过该模型在控制风险的前提下扩大选股范围，从而有效增加高频超额收益。这些内容直接指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:39.027913"
+}

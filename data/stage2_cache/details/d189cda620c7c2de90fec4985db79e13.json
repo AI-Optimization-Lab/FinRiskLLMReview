@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2941,
+    "title": "Clustered Stocks Weighting with Ant Colony Optimization in Portfolio Optimization",
+    "abstract": "Portfolio Optimization is an optimization problem in finance in which the aim is to maximize the return and minimize the risk of failure within the collection of assets, such as stocks, bonds, etc. This portfolio optimization problem has been of great concern to economic practitioners; since the risk cannot be completely eliminated, an appropriate risk management strategy for choosing and optimizing the portfolio, such that it will fulfill investors' expected risk criteria and returns, will be required. In this paper, we discuss stock portfolio optimization, where stock data based on financial parameters, such as P/E ratio and EPS ratio is converted to score parameters and then clustered by K-means clustering algorithm. After clustering, some stocks will be chosen for the portfolio. The weight of each stock portfolio will be determined such that the objective will be obtained. The Ant Colony Optimization algorithm is used to determine the weight of each stock. The portfolio performance will be evaluated based on some actual datasets. We show important facts that the value of a fitness function is key in choosing the corresponding weighted stock in a stock portfolio and the numerical results also suggest how to reduce the losses of the portfolio.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d6eedc302b7d01899efd3d6182fc3947",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:20:48.239110"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用蚁群优化算法（Ant Colony Optimization）来确定股票投资组合中各股票的权重，以最大化收益并最小化风险。这直接涉及投资组合管理的核心问题，即资产配置和风险调整后的收益优化。论文还讨论了如何通过聚类和评分参数来选择股票，进一步强调了其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用蚁群优化算法（Ant Colony Optimization）来确定股票投资组合中各股票的权重，以最大化收益并最小化风险。这直接涉及投资组合管理的核心问题，即资产配置和风险调整后的收益优化。论文还讨论了如何通过聚类和评分参数来选择股票，进一步强调了其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:19.121168"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 43,
+    "title": "融合知识关联与时序传导的金融舆情风险预测模型",
+    "abstract": "【目的】融合公司产业链信息学习针对特定公司的新闻表示，利用新闻表示以及公司间关联提升目标公司舆情风险预测效果。【方法】首先基于注意力机制与Bi-LSTM将公司关联知识嵌入金融新闻文本中，学习针对特定公司的金融新闻表示；然后基于公司间知识关联将金融新闻序列组织成新闻风险传导网络；最后利用时序图注意力网络建模新闻风险信息，通过公司间关联在时序上的传导模式并对风险信息聚合，预测目标公司的金融舆情风险。【结果】实验结果表明，在金融舆情风险预测任务上，本文方法的准确率达到0.624 6,AUC达到0.702 1，均优于基准方法。【局限】模型仅使用了上市公司间股票的统计知识关联，未使用公司间其他类型知识关联。【结论】本文方法能够有效地从金融新闻中学习目标企业相关的风险信息，以及舆情风险在公司关联中和随时间的传导特征，具有良好的金融风险预测性能。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "415c222a35f62d9eaa5a0a2dfda76fd2",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "attention mechanism",
+      "long short-term memory",
+      "LSTM",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-14T22:25:33.447587"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是构建金融舆情风险预测模型，通过分析新闻文本和公司间关联来预测目标公司的金融舆情风险，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是构建金融舆情风险预测模型，通过分析新闻文本和公司间关联来预测目标公司的金融舆情风险，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:03.906327"
+}

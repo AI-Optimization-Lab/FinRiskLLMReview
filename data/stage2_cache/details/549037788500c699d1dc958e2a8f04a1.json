@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3278,
+    "title": "Implementation of Agglomerative Clustering and Genetic Algorithm on Stock Portfolio Optimization with Possibilistic Constraints",
+    "abstract": "Portfolio optimization aims to protect investors against any risks which they may experience. Stock diversification is one of the solutions to optimize stock portfolio, where a diverse portfolio tends to have less risk than the undiversified one. Agglomerative clustering is a hierarchical clustering method. Applying diversification concept, agglomerative clustering is used to cluster 40 different assets based on their financial ratio scores (Current Ratio, Debt-Equity Ratio, Profit Margin, Return on Equity, Price/Earnings per Growth, EPS diluted, and Price/Earnings Ratio). Genetic algorithm is search method based on principles of natural selection and genetics. After the stocks are clustered, Genetic algorithm with heuristic crossover is applied to each cluster alongside to determine the proportion of each stock. In this paper, a possibilistic mean-semi-absolute deviation optimization model is used where cardinality, quantity, and transaction cost are considered as constraints. We also use the assumption that the returns of risky assets are fuzzy numbers. The implementation shows that the method gave a higher level of return (29.77 %) and Sharpe's ratio (18.71) compared to S&P 500 index in the same period of time (12.34 % and 2.7 respectively).",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9b209b04de2c57c4bd9b060287e94fff",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:24:39.604558"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用层次聚类和遗传算法来优化股票投资组合，并考虑了多种约束条件如基数、数量和交易成本，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用层次聚类和遗传算法来优化股票投资组合，并考虑了多种约束条件如基数、数量和交易成本，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:37:19.484122"
+}

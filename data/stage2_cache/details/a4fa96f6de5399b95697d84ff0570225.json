@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1282,
+    "title": "Deep xVA Solver: A Neural Network--Based Counterparty Credit Risk Management Framework",
+    "abstract": "In this paper, we present a novel computational framework for portfolio-wide risk management prob-lems, where the presence of a potentially large number of risk factors makes traditional numerical techniques ineffective. The new method utilizes a coupled system of BSDEs for the valuation ad-justments (xVA) and solves these by a recursive application of a neural network--based BSDE solver. This not only makes the computation of xVA for high-dimensional problems feasible, but also pro-duces hedge ratios and dynamic risk measures for xVA, and allows simulations of the collateral account.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ff0b9321667ad613f69cb6923d29baa8",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.202323"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种基于神经网络的BSDE求解器，用于解决对手信用风险管理（xVA）问题，并计算对冲比率和动态风险度量，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种基于神经网络的BSDE求解器，用于解决对手信用风险管理（xVA）问题，并计算对冲比率和动态风险度量，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:08.723781"
+}

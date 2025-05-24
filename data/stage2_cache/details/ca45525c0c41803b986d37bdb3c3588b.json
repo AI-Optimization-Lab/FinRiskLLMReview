@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 7113,
+    "title": "Monitoring Liquidity Management of Banks With Recurrent Neural Networks",
+    "abstract": "Monitoring liquidity management of banks is one of the prime tasks of central banks. A bank that manages its liquidity inadequately can severely harm its liquidity position and potentially threaten the stability of the entire financial system. Central banks try to anticipate these risks by carefully monitoring the liquidity management of banks in large-value payment systems (LVPSs). Typically, they do this based on statistical methods in which various risk indicators related to the liquidity usage of banks are calculated from the transaction log of an LVPS. These indicators need to be manually analyzed by payment experts to find irregularities that could signal potential risks. Although statistical methods provide much insight into the liquidity management of banks, they do not scale well to the large number of banks that are subject to risk monitoring and the high velocity by which payments are nowadays settled. In this paper, we investigate whether the liquidity management of banks can be monitored more efficiently by anomaly detection. We construct different probabilistic classifiers that classify delta sequences of banks by the corresponding bank. A delta sequence captures the change in the liquidity position of a bank in an LVPS throughout a given day. Accordingly, anomalies in the intraday liquidity usage of banks are detected by determining whether the classifiers misclassify recent delta sequences that were not used to train the classifiers. Our results show that recurrent neural networks are well suited to perform this classification task and detect many irregularities in payment behavior that are interesting for the supervisors and operators of an LVPS.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "411c401a330e6a53adc566d018fb5d1b",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T03:05:31.993905"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文研究了使用循环神经网络监测银行的流动性管理，旨在通过异常检测来识别潜在风险，这直接关联到金融风险管理领域，特别是银行系统的流动性风险监控。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文研究了使用循环神经网络监测银行的流动性管理，旨在通过异常检测来识别潜在风险，这直接关联到金融风险管理领域，特别是银行系统的流动性风险监控。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:05.194582"
+}

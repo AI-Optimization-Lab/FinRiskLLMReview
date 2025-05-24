@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3374,
+    "title": "Shortfall-Based Wasserstein Distributionally Robust Optimization",
+    "abstract": "In this paper, we study a distributionally robust optimization (DRO) problem with affine decision rules. In particular, we construct an ambiguity set based on a new family of Wasserstein metrics, shortfall-Wasserstein metrics, which apply normalized utility-based shortfall risk measures to summarize the transportation cost random variables. In this paper, we demonstrate that the multi-dimensional shortfall-Wasserstein ball can be affinely projected onto a one-dimensional one. A noteworthy result of this reformulation is that our program benefits from finite sample guarantee without a dependence on the dimension of the nominal distribution. This distributionally robust optimization problem also has computational tractability, and we provide a dual formulation and verify the strong duality that enables a direct and concise reformulation of this problem. Our results offer a new DRO framework that can be applied in numerous contexts such as regression and portfolio optimization.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fd43f0f1beb80fb986b787b88bb7c573",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:22.206635"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是分布鲁棒优化（DRO）方法，并特别提到了其在投资组合优化（portfolio optimization）中的应用。虽然论文也提到了回归（regression）等其他应用场景，但投资组合优化是其明确指出的金融应用领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是分布鲁棒优化（DRO）方法，并特别提到了其在投资组合优化（portfolio optimization）中的应用。虽然论文也提到了回归（regression）等其他应用场景，但投资组合优化是其明确指出的金融应用领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:08.875031"
+}

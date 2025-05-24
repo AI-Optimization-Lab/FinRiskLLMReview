@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 6307,
+    "title": "Malware Classification Based on Graph Convolutional Neural Networks and Static Call Graph Features",
+    "abstract": "Advanced Persistent Threats (APT) are targeted, high level cybersecurity risk factors facing governments, financial units and other organizations. The attribution of APTs - gathering information about the origin of an attack - is an important key in the process of securing an organisation's infrastructure, prioritizing the measures to be taken depending on the actor(s) targeting the organisation. In practice, an elementary step in the process of attribution is determining the family and/or author of a sample, based on the binary file and/or its dynamic analysis - i.e. a multi-class classification problem regarding the family/author label. There are numerous methods in the literature aimed to label a sample based on its control flow graph or API sequence graph. We aim to summarize the literature on these methods, and offer another method to classify malware families leveraging the static call graph of a PE executable, as well as the functions' instruction lists, using a locality-sensitive hashing method to obtain the node feature vectors. Our results are compared to recent publications in the field.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e888471e961b841876064c2ecfeb810c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:56:37.523665"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于图卷积神经网络和静态调用图特征的恶意软件分类，其核心技术应用于网络安全领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于图卷积神经网络和静态调用图特征的恶意软件分类，其核心技术应用于网络安全领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:29.914668"
+}

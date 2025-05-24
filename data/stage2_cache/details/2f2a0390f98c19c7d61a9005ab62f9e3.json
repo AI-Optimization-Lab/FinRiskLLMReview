@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1383,
+    "title": "Early warning strategies for corporate operational risk: A study by an improved random forest algorithm using FCM clustering",
+    "abstract": "To enhance the accuracy and response speed of the risk early warning system, this study develops a novel early warning system that combines the Fuzzy C-Means (FCM) clustering algorithm and the Random Forest (RF) model. Firstly, based on operational risk theory, market risk, research and development risk, financial risk, and human resource risk are selected as the primary indicators for enterprise risk assessment. Secondly, the Criteria Importance Through Intercriteria Correlation (CRITIC) weight method is employed to determine the importance of these risk indicators, thereby enhancing the model's prediction ability and stability. Following this, the FCM clustering algorithm is utilized for pre-processing sample data to improve the efficiency and accuracy of data classification. Finally, an improved RF model is constructed by optimizing the parameters of the RF algorithm. The data selected is mainly from RESSET/DB, covering the issuance, trading, and rating data of fixed-income products such as bonds, government bonds, and corporate bonds, and provides basic information, net value, position, and performance data of funds. The experimental results show that the model achieves an F1 score of 87.26%, an accuracy of 87.95%, an Area under the Curve (AUC) of 91.20%, a precision of 89.29%, and a recall of 87.48%. They are respectively 6.45%, 4.45%, 5.09%, 4.81%, and 3.83% higher than the traditional RF model. In this study, an improved RF model based on FCM clustering is successfully constructed, and the accuracy of risk early warning models and their ability to handle complex data are significantly improved.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "eafa3cbd8f3b182ebb95599a9cdc32c3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:02:22.728934"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是改进的随机森林算法结合FCM聚类，用于企业运营风险的早期预警系统。研究目标明确指向风险管理的应用，包括市场风险、研发风险、财务风险和人力资源风险的评估，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是改进的随机森林算法结合FCM聚类，用于企业运营风险的早期预警系统。研究目标明确指向风险管理的应用，包括市场风险、研发风险、财务风险和人力资源风险的评估，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:25.610587"
+}

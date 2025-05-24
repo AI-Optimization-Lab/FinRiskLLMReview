@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 812,
+    "title": "The Optimal Threshold Selection for High-Frequency Pairs Trading via Supervised Machine Learning Algorithms",
+    "abstract": "A high frequency pairs trading (HFPT) algorithm is built by the integration of pairs trading and threshold rebalancing algorithm. The determination of optimal threshold (OT) for the HFPT is crucial to maximize its profitability, and this study suggests a procedure to classify OT ranges by supervised machine learning (ML) techniques. In this regard, a sample dataset is created for ML applications. In this dataset, the target variables (OT values) are computed by the application of HFPT algorithm to real price data of 50 crypto-assets, and input variables (features) are calculated as portfolio mean, variance, skewness, kurtosis, value at risk, and correlation coefficient of the pairs. Before classification process, the pairs (or portfolios) are divided into three sub-groups (as positively, weakly and negatively correlated), and then OT values are classified by 6 ML methods. Comparing the evaluation metrics for ML methods, it is observed that the best accuracy, precision and F1\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$F_1$$\\end{document}-scores are obtained by the Random Forest (RF) classifier for all portfolio groups in two-class, three-class and four-class classification. Also, it is seen that the right classification performance of ML methods on positively and negatively correlated pairs are better than weakly correlated pairs. Furthermore, the success of RF classifier is verified with a test dataset that contains price series of 50 crypto-assets in January and February 2024. The applicability of OT range classification procedure in practical exchange markets is also demonstrated, and it is shown that the HFPT algorithm can yield reasonable profits when threshold selected in predicted range.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1f8a217197b9f286c877dd45bba5e01d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "Random Forest"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.385953"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究高频配对交易算法中的最优阈值选择，通过机器学习方法对投资组合进行分类和优化，以提高盈利能力。这直接涉及投资组合的构建和管理，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究高频配对交易算法中的最优阈值选择，通过机器学习方法对投资组合进行分类和优化，以提高盈利能力。这直接涉及投资组合的构建和管理，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:27.447472"
+}

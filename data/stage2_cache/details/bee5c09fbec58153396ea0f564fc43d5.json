@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 337,
+    "title": "Graph Denoising Networks: A Deep Learning Framework for Equity Portfolio Construction",
+    "abstract": "Graph-based deep learning is a rapidly evolving and practical field due to the ubiquity of graph data and its flexible topology. Although many graph learning frameworks show impressive capabilities, their outputs begin to deteriorate for sufficiently noisy data. In this paper, we look to overcome this shortcoming by introducing the Graph Denoising Network, which combines denoising diffusion methods with graph models in a compounding manner. We prove under certain conditions that this can be construed as an MCMC approach to learning and sampling from the true data distribution. When testing on a graph built from financial returns, we obtain Sharpe Ratios of up to 4.4, and consistently above 2. Compared to a baseline graph convolutional network, we find noticeable improvement and statistical evidence to conclude that graph denoising networks improve performance and attain significant economic benefits. Our findings are applicable to other domains that employ noisy graph-based data, potentially in a time-dependent context.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "4703c6f03ce9283f5279b0385c506de0",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "denoising autoencoder",
+      "graph convolutional network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:44.411836"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是图去噪网络，用于构建股票投资组合，并通过夏普比率等指标评估其性能，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是图去噪网络，用于构建股票投资组合，并通过夏普比率等指标评估其性能，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:06.285467"
+}

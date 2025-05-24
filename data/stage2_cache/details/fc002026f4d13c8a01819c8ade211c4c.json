@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 203,
+    "title": "A CNN based system for predicting the implied volatility and option prices",
+    "abstract": "The evaluations of option prices and implied volatility are critical for option risk management and trading. Common strategies in existing studies relied on the parametric models. However, these models are based on several idealistic assumptions. In addition, previous research on option pricing mainly depends on the historical transaction records without considering the performance of other concurrent options. To address these challenges, we proposed a convolutional neural network (CNN) based system for predicting the implied volatility and the option prices. Specifically, the customized non-parametric learning approach is first used to estimate the implied volatility. Second, several traditional parametric models are also implemented to estimate these prices as well. The convolutional neural network is utilized to obtain the predictions based on the estimation of the implied volatility. Our experiments based on Chinese SSE 50 ETF options demonstrate that the proposed framework outperforms the traditional methods with at least 40.11% performance enhancement in terms of RMSE.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "68fc8a9031e02760424f3b0fd0b67400",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.143033"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用卷积神经网络（CNN）预测隐含波动率和期权价格，这直接涉及衍生品定价领域。同时，论文提到期权价格和隐含波动率的评估对期权风险管理和交易至关重要，因此也涉及金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用卷积神经网络（CNN）预测隐含波动率和期权价格，这直接涉及衍生品定价领域。同时，论文提到期权价格和隐含波动率的评估对期权风险管理和交易至关重要，因此也涉及金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:06.252191"
+}

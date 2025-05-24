@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1381,
+    "title": "Scenario-based multi-period program optimization for capability-based planning using evolutionary algorithms",
+    "abstract": "Capability based planning (CBP) is a strategy focused planning framework that facilitates organizations to systematically develop capacity to achieve their business objectives in highly uncertain, dynamic and competitive environments. Capability programming is an integral part of CBP which requires selecting a portfolio of capability projects for execution, referred as a capability program, such that the overall strategic risk facing the planning organization across a number of projected future operating scenarios is minimized while maintaining the most economical choice. It is a challenging optimization problem that requires handling a number of dynamic constraints and objectives that vary throughout the entire planning horizon. An optimizing simulation approach is presented in this paper that combines an evolutionary multi-objective optimization algorithm with a reinforcement learning technique to generate capability programs which optimize strategic risks and program costs across multiple planning scenarios as well as over a rolling planning horizon. The role of the optimization algorithm in this approach is to search for the non-dominated capability programs at each decision point by minimizing the strategic risks associated with individual capability projects across a number of planning scenarios as well as the total cost of the program. The reinforcement learning algorithm, on the other hand, searches horizontally within the set of non-dominated programs to minimize capability risks and costs over the entire planning horizon. The methodology is evaluated on a test problem generated based on the data distributions in an Australian Defence Capability Plan and the performance is compared with two myopic heuristic methods. (c) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fd5d938e5ac3c13893900bb59c9402ca",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:56.548596"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究能力基础规划（CBP）中的优化问题，涉及战略风险和成本的最小化，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究能力基础规划（CBP）中的优化问题，涉及战略风险和成本的最小化，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:33.758723"
+}

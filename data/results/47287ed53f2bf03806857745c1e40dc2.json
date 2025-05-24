@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using a 'data-driven machine learning approach' to identify suicide attempt risk factors.",
+    "supervised learning": "The study uses a balanced random forest model trained with cross-validation, which is a supervised learning method, to predict suicide attempts.",
+    "classification": "The goal of the study is to classify individuals based on their risk of suicide attempts, which is a classification problem.",
+    "decision tree": "The paper uses a random forest model, which is an ensemble method based on decision trees, indicating the relevance of decision trees in the methodology."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using a 'data-driven machine learning approach' to identify suicide attempt risk factors.\",\n    \"supervised learning\": \"The study uses a balanced random forest model trained with cross-validation, which is a supervised learning method, to predict suicide attempts.\",\n    \"classification\": \"The goal of the study is to classify individuals based on their risk of suicide attempts, which is a classification problem.\",\n    \"decision tree\": \"The paper uses a random forest model, which is an ensemble method based on decision trees, indicating the relevance of decision trees in the methodology.\"\n  }\n}\n```"
+}

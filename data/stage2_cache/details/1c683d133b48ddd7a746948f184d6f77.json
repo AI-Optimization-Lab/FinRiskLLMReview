@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 963,
+    "title": "Portfolio Optimization Using a Novel Data-Driven EWMA Covariance Model with Big Data",
+    "abstract": "Recently there has been a growing interest in using machine learning methods with empirical variance covariance matrix of returns to study Markovitz portfolio optimization. The statistical technique of graphical LASSO (GL) for stock selection in the portfolio assumes that the asset returns are normally distributed, independent random variables with constant variance. In this paper sign correlations and the autocorrelations of the absolute values of the returns are used to show that the returns are non-normal with time-varying volatility. We use the recently proposed data-driven exponentially weighted moving average (DDEWMA) volatility model to estimate the covariance matrix of asset returns in Markowitz portfolio optimization. Empirical results with big data (consists of 444 stocks for a period of 7 years downloaded from Yahoo Finance) show that the proposed DDEWMA variance covariance matrix model outperforms (larger Sharpe ratio) the model with empirical variance covariance matrix.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "72ef5f864b3b670097f7d7b39d7e39e9",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.745007"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on using a novel data-driven EWMA covariance model for Markowitz portfolio optimization, which is a core technique in portfolio management. The empirical results also demonstrate the model's performance in optimizing portfolios, further confirming its application in this domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on using a novel data-driven EWMA covariance model for Markowitz portfolio optimization, which is a core technique in portfolio management. The empirical results also demonstrate the model's performance in optimizing portfolios, further confirming its application in this domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:50.412727"
+}

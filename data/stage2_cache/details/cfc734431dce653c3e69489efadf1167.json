@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2023,
+    "title": "Learning to Optimize the Alloy Analyzer",
+    "abstract": "Constraint-solving is an expensive phase for scenario finding tools. It has been widely observed that there is no single dominant SAT solver that always wins in every case; instead, the performance of different solvers varies by cases. Some SAT solvers perform particularly well for certain tasks while other solvers perform well for other tasks. In this paper, we propose an approach that uses machine learning techniques to automatically select a SAT solver for one of the widely used scenario finding tools, i.e. Alloy Analyzer, based on the features extracted from a given model. The goal is to choose the best SAT solver for a given model to minimize the expensive constraint solving time. We extract features from three different levels, i.e. the Alloy source code level, the Kodkod formula level and the boolean formula level. The experimental results show that our portfolio approach outperforms the best SAT solver by 30% as well as the baseline approach by 128% where users randomly select a solver for any given model.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d1095bd39387e903917e4b17d24a51a2",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:02:10.235334"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习技术优化Alloy Analyzer中的SAT求解器选择，以提高约束求解效率。虽然提到了'portfolio approach'，但这指的是SAT求解器的组合，而非金融投资组合。论文内容与衍生品定价、金融风险管理和投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习技术优化Alloy Analyzer中的SAT求解器选择，以提高约束求解效率。虽然提到了'portfolio approach'，但这指的是SAT求解器的组合，而非金融投资组合。论文内容与衍生品定价、金融风险管理和投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:44.932557"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1709,
+    "title": "A tail-revisited Markowitz mean-variance approach and a portfolio network centrality",
+    "abstract": "A measure for portfolio risk management is proposed by extending the Markowitz mean-variance approach to include the left-hand tail effects of asset returns. Two risk dimensions are captured: asset covariance risk along risk in left-hand tail similarity and volatility. The key ingredient is an informative set on the left-hand tail distributions of asset returns obtained by an adaptive clustering procedure. This set allows a left tail similarity and left tail volatility to be defined, thereby providing a definition for the left-tail-covariance-like matrix. The convex combination of the two covariance matrices generates a two-dimensional risk that, when applied to portfolio selection, provides a measure of its systemic vulnerability due to the asset centrality. This is done by simply associating a suitable node-weighted network with the portfolio. Higher values of this risk indicate an asset allocation suffering from too much exposure to volatile assets whose return dynamics behave too similarly in left-hand tail distributions and/or co-movements, as well as being too connected to each other. Minimizing these combined risks reduces losses and increases profits, with a low variability in the profit and loss distribution. The portfolio selection compares favorably with some competing approaches. An empirical analysis is made using exchange traded fund prices over the period January 2006-February 2018.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "92c351667efcd289f6500873840de347",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:50.619794"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种扩展的Markowitz均值-方差方法，用于捕捉资产回报的左尾效应，并定义了左尾相似性和左尾波动性，以衡量投资组合的系统性脆弱性。这种方法直接应用于投资组合选择和风险管理，旨在减少损失并增加利润，因此属于金融风险管理和投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文提出了一种扩展的Markowitz均值-方差方法，用于捕捉资产回报的左尾效应，并定义了左尾相似性和左尾波动性，以衡量投资组合的系统性脆弱性。这种方法直接应用于投资组合选择和风险管理，旨在减少损失并增加利润，因此属于金融风险管理和投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:14.631716"
+}

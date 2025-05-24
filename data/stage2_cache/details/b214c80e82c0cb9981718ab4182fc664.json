@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 4472,
+    "title": "A Risk-Informed Decision-Support Framework for Optimal Operation of Hurricane-Impacted Transportation Networks",
+    "abstract": "To reduce life threats and financial losses under hurricane weather and traffic conditions, stakeholders need to make a sequence of decisions (e.g., enforcing traffic control and/or broadcasting travel advisory) with the presence of various uncertainties, which could be formulated as a Markov decision process (MDP). To effectively solve the MDP for optimal operation of hurricane-impacted transportation networks, a risk-informed decision-support framework is proposed consisting of both a decision-making environment and tool. The decision-making environment involves essentially three coupled modules of hurricane hazard, transportation infrastructure, and traffic flow, where the uncertainties from natural environment, built environment, and human behavior are examined. Specifically, multiple correlated hazards for each specific storm are capsulated in the hurricane hazard module, representative hurricane-vulnerable infrastructure components and associated moving vehicles are evaluated in the transportation infrastructure module, and network-level traffic relations are addressed in the traffic flow module. In view of the complexity and intractability of a hurricane-transportation infrastructure-traffic system through full model representation, the efficient low-dimensional modeling approaches including both physics-based analytical and data-driven surrogate models are utilized in all these three simulation modules. Considering an explicit probabilistic model for the decision-making environment (and hence state transition function) is not available, the operation optimization (involving competing objectives of traffic safety and mobility) is accomplished through a deep reinforcement learning-based decision-making tool that learns to act optimally (involving both traffic control and travel advisory actions) by directly interacting with the environment. A hypothetical case study is conducted to verify the applicability and effectiveness of the proposed framework as a testbed for optimal operation of hurricane-impacted transportation networks.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2d5c54312688f159c82d8d2d1358ed40",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:37:47.490918"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是在飓风影响下的交通网络最优运营决策支持框架，涉及的是交通管理和灾害应对领域，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是在飓风影响下的交通网络最优运营决策支持框架，涉及的是交通管理和灾害应对领域，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:55.643602"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1652,
+    "title": "Wasserstein Distributionally Robust Inverse Multiobjective Optimization",
+    "abstract": "Inverse multiobjective optimization provides a general framework for the unsupervised learning task of inferring parameters of a multiobjective decision making problem (DMP), based on a set of observed decisions from the human expert. However, the performance of this framework relies critically on the availability of an accurate DMP, sufficient decisions of high quality, and a parameter space that contains enough information about the DMP. To hedge against the uncertainties in the hypothetical DMP, the data, and the parameter space, we investigate in this paper the distributionally robust approach for inverse multiobjective optimization. Specifically, we leverage the Wasserstein metric to construct a ball centered at the empirical distribution of these decisions. We then formulate a Wasserstein distributionally robust inverse multiobjective optimization problem (WRO-IMOP) that minimizes a worst-case expected loss function, where the worst case is taken over all distributions in the Wasserstein ball. We show that the excess risk of the WRO-IMOP estimator has a sub-linear convergence rate. Furthermore, we propose the semi-infinite reformulations of the WRO-IMOP and develop a cutting-plane algorithm that converges to an approximate solution in finite iterations. Finally, we demonstrate the effectiveness of our method on both a synthetic multiobjective quadratic program and a real world portfolio optimization problem.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c2d5872e48d9980ea7023d3a3cd708fb",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:18.242338"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到该方法在一个真实世界的投资组合优化问题中进行了验证，这表明其核心技术应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到该方法在一个真实世界的投资组合优化问题中进行了验证，这表明其核心技术应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:39.442047"
+}

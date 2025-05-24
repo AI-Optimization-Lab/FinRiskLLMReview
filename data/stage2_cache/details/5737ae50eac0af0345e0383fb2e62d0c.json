@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 667,
+    "title": "Portfolio theorem proving and prover runtime prediction for geometry",
+    "abstract": "In recent years, portfolio problem solving found many applications in automated reasoning, primarily in SAT solving and in automated and interactive theorem proving. Portfolio problem solving is an approach in which for an individual instance of a specific problem, one particular, hopefully most appropriate, solving technique is automatically selected among several available ones and used. The selection usually employs machine learning methods. To our knowledge, this approach has not been used in automated theorem proving in geometry so far and it poses a number of new challenges. In this paper we propose a set of features which characterize a specific geometric theorem, so that machine learning techniques can be used in geometry. Relying on these features and using different machine learning techniques, we constructed several portfolios for theorem proving in geometry and also runtime prediction models for provers involved. The evaluation was performed on two corpora of geometric theorems: one coming from geometric construction problems and one from a benchmark set of the GeoGebra tool. The obtained results show that machine learning techniques can be useful in automated theorem proving in geometry, while there is still room for further progress.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4b91aa5af77429e7726cf7abef98c428",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.470223"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是在几何定理证明中使用机器学习技术构建问题解决组合和运行时预测模型，并未涉及任何金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是在几何定理证明中使用机器学习技术构建问题解决组合和运行时预测模型，并未涉及任何金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:52.725300"
+}

@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "neural network",
+    "deep learning",
+    "representation learning",
+    "convolutional neural network",
+    "CNN",
+    "recurrent neural network"
+  ],
+  "explanations": {
+    "machine learning": "The paper develops a model for corporate distress prediction using deep learning techniques, which is a subset of machine learning.",
+    "supervised learning": "The model is trained to predict corporate distress, which is a supervised learning task as it involves labeled data (distressed or not distressed firms).",
+    "classification": "The task of predicting corporate distress is a classification problem, where the model classifies firms into distressed or non-distressed categories.",
+    "neural network": "The model employs a convolutional recurrent neural network, indicating the use of neural networks.",
+    "deep learning": "The paper explicitly mentions the use of deep learning techniques for text representation and prediction.",
+    "representation learning": "The model learns a descriptive representation of the text from annual reports, which is a form of representation learning.",
+    "convolutional neural network": "The model includes a convolutional neural network (CNN) component for processing textual data.",
+    "CNN": "Abbreviation for convolutional neural network, which is part of the model architecture.",
+    "recurrent neural network": "The model combines CNN with a recurrent neural network (RNN) for processing sequential text data."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"neural network\",\n    \"deep learning\",\n    \"representation learning\",\n    \"convolutional neural network\",\n    \"CNN\",\n    \"recurrent neural network\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper develops a model for corporate distress prediction using deep learning techniques, which is a subset of machine learning.\",\n    \"supervised learning\": \"The model is trained to predict corporate distress, which is a supervised learning task as it involves labeled data (distressed or not distressed firms).\",\n    \"classification\": \"The task of predicting corporate distress is a classification problem, where the model classifies firms into distressed or non-distressed categories.\",\n    \"neural network\": \"The model employs a convolutional recurrent neural network, indicating the use of neural networks.\",\n    \"deep learning\": \"The paper explicitly mentions the use of deep learning techniques for text representation and prediction.\",\n    \"representation learning\": \"The model learns a descriptive representation of the text from annual reports, which is a form of representation learning.\",\n    \"convolutional neural network\": \"The model includes a convolutional neural network (CNN) component for processing textual data.\",\n    \"CNN\": \"Abbreviation for convolutional neural network, which is part of the model architecture.\",\n    \"recurrent neural network\": \"The model combines CNN with a recurrent neural network (RNN) for processing sequential text data.\"\n  }\n}\n```"
+}

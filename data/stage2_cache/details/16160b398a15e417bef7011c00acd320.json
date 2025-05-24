@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 35,
+    "title": "Solving high-dimensional optimal stopping problems using deep learning",
+    "abstract": "Nowadays many financial derivatives, such as American or Bermudan options, are of early exercise type. Often the pricing of early exercise options gives rise to high-dimensional optimal stopping problems, since the dimension corresponds to the number of underlying assets. High-dimensional optimal stopping problems are, however, notoriously difficult to solve due to the well-known curse of dimensionality. In this work, we propose an algorithm for solving such problems, which is based on deep learning and computes, in the context of early exercise option pricing, both approximations of an optimal exercise strategy and the price of the considered option. The proposed algorithm can also be applied to optimal stopping problems that arise in other areas where the underlying stochastic process can be efficiently simulated. We present numerical results for a large number of example problems, which include the pricing of many high-dimensional American and Bermudan options, such as Bermudan max-call options in up to 5000 dimensions. Most of the obtained results are compared to reference values computed by exploiting the specific problem design or, where available, to reference values from the literature. These numerical results suggest that the proposed algorithm is highly effective in the case of many underlyings, in terms of both accuracy and speed.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "467ce3eb577c81c6ae231b00141c8cec",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:54.888341"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习解决高维最优停止问题，主要应用于美式和百慕大式期权的定价，这直接属于衍生品定价领域。论文明确提到这些期权是早期执行类型的金融衍生品，并且提供了具体的数值结果来验证算法的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习解决高维最优停止问题，主要应用于美式和百慕大式期权的定价，这直接属于衍生品定价领域。论文明确提到这些期权是早期执行类型的金融衍生品，并且提供了具体的数值结果来验证算法的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:36.147279"
+}

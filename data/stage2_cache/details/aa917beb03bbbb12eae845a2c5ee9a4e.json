@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 431,
+    "title": "Evolving Fuzzy-GARCH Approach for Financial Volatility Modeling and Forecasting",
+    "abstract": "Volatility modeling and forecasting play a key role in asset allocation, risk management, derivatives pricing and policy making. The purpose of this paper is to develop an evolving fuzzy-GARCH modeling approach for stock market asset returns forecasting. The method addresses GARCH volatility modeling within the framwork of evolving fuzzy systems. This hybrid methodology aims to account for time-varying volatility, from GARCH approach, as well as volatility clustering and nonlinear time series identification, from evolving fuzzy systems, which use time-varying data streams to continuously and simultaneously adapt the structure and functionality of fuzzy models. The motivation is to improve model performance as new data is input through gradual model construction, inducing model adaptation and refinement without catastrophic forgetting while keeping current model useful. An empirical application includes the forecasting of S&P 500 and Ibovespa indexes by the evolving fuzzy-GARCH against traditional GARCH-family models and a fuzzy GJR-GARCH methodology. The results indicate the high potential of the evolving fuzzy-GARCH model to forecast stock returns volatility, which outperforms GARCH-type models and showed comparable forecasts with fuzzy GJR-GARCH methodology.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "4153f9b70ad33875deb25da02fc21a20",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:50.764821"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种用于股票市场资产回报预测的演化模糊-GARCH建模方法，主要应用于波动性建模和预测，这在金融风险管理中扮演关键角色。虽然论文提到了衍生品定价和资产分配，但主要研究目标和实证应用集中在波动性预测上，这是金融风险管理的核心内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一种用于股票市场资产回报预测的演化模糊-GARCH建模方法，主要应用于波动性建模和预测，这在金融风险管理中扮演关键角色。虽然论文提到了衍生品定价和资产分配，但主要研究目标和实证应用集中在波动性预测上，这是金融风险管理的核心内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:09.130486"
+}

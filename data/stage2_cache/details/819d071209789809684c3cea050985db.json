@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 181,
+    "title": "基于深度强化学习的投资组合管理研究",
+    "abstract": "投资组合管理是金融投资领域最常遇到的问题之一,在给定一组投资组合资产下,投资者把资金按一定比例分别投资于不同资产上,以实现分散风险、提高收益的目的。深度强化学习是一门新兴的研究领域,目前已经成功达到或超过人类在玩Atari游戏时的水平。深度强化学习的成功引起了金融界的广泛兴趣,我们考虑这些技术是否可以用于金融投资组合管理问题中。实现两种流行的深度强化学习算法——双延迟深度确定性策略梯度算法(TD3)和策略梯度算法(PG),并应用于中国市场龙头企业中成交量较大的5支股票和国债组成的资产包中。实验结果表示,TD3和PG算法在测试集上年利率分别可达84.71%和55.06%,明显高于其他对照组,充分证实深度强化学习在金融投资组合管理问题中的有效性。",
+    "year": 2021,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1f18c2702109873690d668a47f545c05",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:50.491083"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确讨论了使用深度强化学习算法（TD3和PG）来优化投资组合的资产配置，以实现分散风险和提高收益的目标，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确讨论了使用深度强化学习算法（TD3和PG）来优化投资组合的资产配置，以实现分散风险和提高收益的目标，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:38.964097"
+}

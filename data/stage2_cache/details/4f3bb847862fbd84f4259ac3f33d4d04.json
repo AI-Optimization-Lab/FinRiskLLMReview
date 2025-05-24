@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 5670,
+    "title": "Freight rate index forecasting with Prophet model based on multi-dimensional significant events",
+    "abstract": "The Baltic Dry Index (BDI) is an essential index to measure international dry bulk shipping freight, which can reflect global economic changes to a certain extent. Accurate forecasting of BDI supports shipping market participants in grasping risks and making scientific decisions. Based on the Prophet model, this paper considers the impact of multi-dimensional significant events related to the shipping industry and conducts BDI forecasting research. Firstly, we simulate the most momentous events in the world in recent years, namely the 2008 Global Financial Crisis and the 2019 New Crown Epidemic, and utilize the Prophet model to decompose the BDI sequence into three parts: trend, seasonality, and momentous event shocks. Secondly, we extensively collect other multi-dimensional significant event uncertainty indexes to establish a significant event database. The Maximal Information Coefficient and Boruta methods were employed to extract the uncertainty index particularly correlated with BDI as an exogenous variable for forecasting. Then, we employ the K-Shape method to cluster exogenous variables and explore the combined sense of clustering. Finally, we utilize the Prophet model to forecast BDI in stages. It discusses the influence of exogenous variables and their cluster combinations on the forecasting effect individually and sequentially. Empirical results show that considering the two momentous events of the Financial Crisis and COVID-19 can remarkably improve the accuracy of BDI forecasting. In addition, the study of exogenous variable significance found that during the Financial Crisis, economic policy uncertainty in Europe and the Americas greatly impacted BDI forecasting. During COVID-19, global and developed economic policy uncertainty was noteworthy in the BDI forecasting. The comparative experimental results show the Prophet model has an exemplary forecasting result and strong robustness. It also performs excellently in model generalization and interpretability. This paper proposes a reliable and advanced algorithm for shipping freight rate index forecasting, which has noteworthy reference value for shipping market participants to make investment decisions and risk avoidance.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5a6289eff6b9f34b70256fa60d277dcb",
+    "relevant_keywords": [
+      "clustering",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:50:21.155431"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是波罗的海干散货指数（BDI）的预测，虽然涉及风险和市场决策，但其核心应用领域是航运市场的运费指数预测，而非衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是波罗的海干散货指数（BDI）的预测，虽然涉及风险和市场决策，但其核心应用领域是航运市场的运费指数预测，而非衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:01.441304"
+}

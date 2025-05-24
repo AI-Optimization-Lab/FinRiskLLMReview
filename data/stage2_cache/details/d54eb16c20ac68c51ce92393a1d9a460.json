@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 6491,
+    "title": "Feasible estimation of the long term interest rate dynamics by nonlinear techniques",
+    "abstract": "Due to the importance of the risk-free capital market interest rate, nearly all large economic and financial institutions deal with the analysis of its future development. Although sometimes advanced econometric methods (VAR, ECM) are used instead of or alongside the standard OLS regression approach, almost all of the work in this field deals with the basic assumption of (multi-variate, multi-equation) linear relationships between the variables. In our paper we try to find out whether nonlinearity can really be neglected. We apply artificial neural networks as a nonlinear modelling tool. Using monthly data from 1960-2005, we forecast the interest rate by means of multi-layer perceptrons (MLP). As a benchmark method we use vector autoregression models dealing with the identical dataset. The obtained results give evidence of the underlying nonlinearity of the problem. The MLP outperform the classical tools with regard to different error measures and especially in capturing the turning points of the interest curve.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4eda1f60cba64572ec6412b5ed466abe",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:58:34.207440"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用非线性技术（如人工神经网络）预测长期利率的动态变化，虽然涉及金融领域，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用非线性技术（如人工神经网络）预测长期利率的动态变化，虽然涉及金融领域，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:53.137901"
+}

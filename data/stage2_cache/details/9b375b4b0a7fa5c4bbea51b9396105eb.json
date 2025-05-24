@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 657,
+    "title": "The VeriAbs Tool Suite for Code Verification",
+    "abstract": "In large real life programs, loops and arrays are the main challenges to scaling up verification. Overcoming this challenge requires a portfolio of specialised techniques. Accordingly, we at TCS Research have developed a portfolio of loop and array abstraction techniques to scale up verification in practice. Naturally, a collection of such techniques can verify programs from a wider variety of classes than each individual technique. This collection of techniques in addition to well known verification techniques like bounded model checking form the portfolio used in the VeriAbs framework. In order to improve the likelihood that a suitable technique from the portfolio is applied to the input program, the techniques are often prioritized into a sequence, also called a verification strategy, to verify each input program. VeriAbs uses four such strategies, each defined manually using domain expertise and experimentation. One of the suitable strategies is selected for verification based on the class of the input program. This approach to program verification has shown success and won several gold medals in the Competition on Software Verification (sv-comp) 2019-23. In practice, defining verification strategies manually is time consuming and not extensible. Towards this, machine learning methods have been proposed recently to predict strategies automatically for each input program. It is a challenge to define useful program features that can describe a program well enough to the learner to predict a useful strategy from the given portfolio of techniques. We present a novel approach to alleviate this challenge as implemented in VeriAbsL, a tool that uses machine learning methods to predict strategies for an input program using VeriAbs's portfolio. VeriAbsL was developed in 2023, and since then has won a silver and a gold medal at sv-comp 2023-24. To summarise, in this paper we present (1) a few proprietary loops and array abstraction techniques in VeriAbs's portfolio, (2) the manually defined method of strategy selection as implemented in VeriAbs, (3) the machine learning method of strategy prediction as implemented in VeriAbsL, (4) a comparison of VeriAbs's portfolio with another state-of-art portfolio-based verifier, and (5) a comparison of strategy selection implemented in VeriAbs with a novel strategy prediction implemented in VeriAbsL.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "820da41842654a52e26aa4302b9609e8",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.417864"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要讨论的是代码验证工具VeriAbs及其机器学习方法在程序验证中的应用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要讨论的是代码验证工具VeriAbs及其机器学习方法在程序验证中的应用，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:55.696836"
+}

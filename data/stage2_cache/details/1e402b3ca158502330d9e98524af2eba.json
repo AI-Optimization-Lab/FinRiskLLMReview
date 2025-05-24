@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 205,
+    "title": "Attention is all you need: An interpretable transformer-based asset allocation approach",
+    "abstract": "Deep learning technology is rapidly adopted in financial market settings. Using a large data set from the Chinese stock market, we propose a return-risk trade-off strategy via a new transformer model. The empirical findings show that these updates, such as the self-attention mechanism in technology, can improve the use of time-series information related to returns and volatility, increase predictability, and capture more economic gains than other nonlinear models, such as LSTM. Our model employs Shapley additive explanations (SHAP) to measure the economic feature importance and tabulates the different important features in the prediction process. Finally, we document several economic explanations for the TF model. This paper sheds light on the burgeoning field on asset allocation in the age of big data.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "75d60d4cd051a3993861366258dd0c4d",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.540618"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种基于Transformer模型的资产分配策略，旨在通过自注意力机制改进时间序列信息的利用，以提高预测性和经济收益。这直接涉及投资组合管理的核心问题，即如何分配资产以优化回报与风险的权衡。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种基于Transformer模型的资产分配策略，旨在通过自注意力机制改进时间序列信息的利用，以提高预测性和经济收益。这直接涉及投资组合管理的核心问题，即如何分配资产以优化回报与风险的权衡。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:03.615212"
+}

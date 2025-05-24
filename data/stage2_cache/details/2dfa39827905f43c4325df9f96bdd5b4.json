@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 188,
+    "title": "基于贝叶斯MCMC算法的美式期权定价",
+    "abstract": "鉴于美式期权的定价具有后向迭代搜索特征,本文结合Longstaff和Schwartz提出的美式期权定价的最小二乘模拟方法,研究基于马尔科夫链蒙特卡洛算法对回归方程系数的估计,实现对美式期权的双重模拟定价.通过对无红利美式看跌股票期权定价进行大量实证模拟,从期权价值定价误差等方面同著名的最小二乘蒙特卡洛模拟方法进行对比分析,结果表明基于MCMC回归算法给出的美式期权定价具有更高的精确度.模拟实证结果表明本文提出的对美式期权定价方法具有较好的可行性、有效性与广泛的适用性.该方法的不足之处就是类似于一般的蒙特卡洛方法,会使得求解的计算量有所加大.",
+    "year": 2013,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "6debe26aac71a62ed95e99f50c2c4104",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:39.697290"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是基于贝叶斯MCMC算法对美式期权进行定价，并比较了其与最小二乘蒙特卡洛模拟方法的精确度。这直接涉及衍生品定价领域，特别是美式期权的定价问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是基于贝叶斯MCMC算法对美式期权进行定价，并比较了其与最小二乘蒙特卡洛模拟方法的精确度。这直接涉及衍生品定价领域，特别是美式期权的定价问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:32.575979"
+}

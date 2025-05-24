@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 248,
+    "title": "A one-layer recurrent neural network for constrained pseudoconvex optimization and its application for dynamic portfolio optimization",
+    "abstract": "In this paper, a one-layer recurrent neural network is proposed for solving pseudoconvex optimization problems subject to linear equality and bound constraints. Compared with the existing neural networks for optimization (e.g., the projection neural networks), the proposed neural network is capable of solving more general pseudoconvex optimization problems with equality and bound constraints. Moreover, it is capable of solving constrained fractional programming problems as a special case. The convergence of the state variables of the proposed neural network to achieve solution optimality is guaranteed as long as the designed parameters in the model are larger than the derived lower bounds. Numerical examples with simulation results illustrate the effectiveness and characteristics of the proposed neural network. In addition, an application for dynamic portfolio optimization is discussed. (c) 2011 Elsevier Ltd. All rights reserved.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "443c2ec934a5e5db5b3fc2af16f72620",
+    "relevant_keywords": [
+      "neural network",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.733382"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种用于解决伪凸优化问题的循环神经网络，并明确提到了其在动态投资组合优化中的应用。虽然论文的主要技术是通用的优化方法，但其具体应用场景明确指向投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种用于解决伪凸优化问题的循环神经网络，并明确提到了其在动态投资组合优化中的应用。虽然论文的主要技术是通用的优化方法，但其具体应用场景明确指向投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:20.135567"
+}

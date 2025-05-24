@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 131,
+    "title": "Considering momentum spillover effects via graph neural network in option pricing",
+    "abstract": "Traditional options pricing relies on underlying asset volatility and contract properties. However, asset volatility is affected by the lead-lag effects, known as the momentum spillover effect. To address this, we propose a proxy measuring correlated options' influence based on maturity date. Findings indicate that 1-day-lagged proxy indicators positively impact option returns. Furthermore, to capture the dynamic effects of correlated options, we introduce a deep graph neural network-based model (GNN-MS). Empirical results on Shanghai Stock Exchange 50 exchange-traded fund options reveal GNN-MS significantly outperforms classics, enhancing root-mean-square error by at least 8.81%. This study provides novel insights into option pricing considering momentum spillover effects.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "e4e5bd1de18f197ede96df89f67deb22",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "graph neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.365445"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用图神经网络（GNN）来改进期权定价模型，特别是考虑了动量溢出效应。论文明确提到其研究目标是改进期权定价，并在上海证券交易所50 ETF期权上进行了实证验证，显著提高了定价准确性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用图神经网络（GNN）来改进期权定价模型，特别是考虑了动量溢出效应。论文明确提到其研究目标是改进期权定价，并在上海证券交易所50 ETF期权上进行了实证验证，显著提高了定价准确性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:30.744362"
+}

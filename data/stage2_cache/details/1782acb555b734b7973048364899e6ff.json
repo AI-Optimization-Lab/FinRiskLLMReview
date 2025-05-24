@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 243,
+    "title": "Risk reduction and portfolio optimization using clustering methods",
+    "abstract": "Diversification is one of the main pillars of investment strategies. The prominent equal weight or one-over-N portfolio, which puts equal weight on each asset, is apart from its simplicity a strategy which is hard to outperform in realistic settings. But depending on the number of considered assets it can lead to very large portfolios. An approach to reduce the number of chosen assets based on clustering is proposed and its advantages and disadvantages are investigated. Using clustering techniques the possible assets are separated into non-overlapping clusters and the assets within a cluster are ordered by their Sharpe ratio. Then the best asset of each portfolio is chosen to be a member of the new portfolio with equal weights, the cluster portfolio. It is shown that this portfolio inherits the advantages of the equal weight portfolio and that it can even outperform it empirically. To this end different performance measures are used to compare the portfolios on simulated and real data. To explain the observations on real data, explanatory results are derived in an extreme model setting and analyzed in several simulation studies.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "82f20bc2fa48fbe4966993de17e159da",
+    "relevant_keywords": [
+      "clustering",
+      "unsupervised learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.720241"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用聚类方法来优化投资组合，通过减少资产数量并选择表现最佳的资产来构建新的投资组合。研究目标明确指向投资组合的构建和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用聚类方法来优化投资组合，通过减少资产数量并选择表现最佳的资产来构建新的投资组合。研究目标明确指向投资组合的构建和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:21.520158"
+}

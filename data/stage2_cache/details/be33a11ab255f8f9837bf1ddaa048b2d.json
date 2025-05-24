@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 6446,
+    "title": "A large CVaR-based portfolio selection model with weight constraints",
+    "abstract": "Although the traditional CVaR-based portfolio methods are successfully used in practice, the size of a portfolio with thousands of assets makes optimizing them difficult, if not impossible to solve. In this article we introduce a large CVaR-based portfolio selection method by imposing weight constraints on the standard CVaR-based portfolio selection model, which effectively avoids extreme positions often emerging in traditional methods. We propose to solve the large CVaR-based portfolio model with weight constraints using penalized quantile regression techniques, which overcomes the difficulties of large scale optimization in traditional methods. We illustrate the method via empirical analysis of optimal portfolios on Shanghai and Shenzhen 300 (HS300) index and Shanghai Stock Exchange Composite (SSEC) index of China. The empirical results show that our method is efficient to solve a large portfolio selection and performs well in dispersing tail risk of a portfolio by only using a small amount of financial assets. (C) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f969df05dd210bbb9f4506858a54787f",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:58:05.741978"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于CVaR（条件风险价值）的投资组合选择方法，并引入了权重约束来优化大规模投资组合的风险管理。CVaR是金融风险管理中常用的风险度量工具，而投资组合选择是投资组合管理的核心内容。论文通过实证分析展示了该方法在分散尾部风险方面的有效性，明确指向了这两个金融研究领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于CVaR（条件风险价值）的投资组合选择方法，并引入了权重约束来优化大规模投资组合的风险管理。CVaR是金融风险管理中常用的风险度量工具，而投资组合选择是投资组合管理的核心内容。论文通过实证分析展示了该方法在分散尾部风险方面的有效性，明确指向了这两个金融研究领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:53.516752"
+}

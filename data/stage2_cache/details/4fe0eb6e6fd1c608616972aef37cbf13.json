@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 5084,
+    "title": "Improving Cardiovascular Disease Prediction Using Automated Coronary Artery Calcium Scoring from Existing Chest CTs",
+    "abstract": "Cardiovascular disease (CVD) prediction models are widely used in modern medicine and are incorporated into prominent guidelines. Coronary artery calcium (CAC) is a marker of coronary atherosclerotic disease and has proven utility for predicting cardiovascular disease. Despite this, current guidelines recommend against including CAC scores in CVD prediction models due to the medical and financial costs of acquiring it, and the insufficient evidence concerning its ability to improve existing models. Modern machine learning models are capable of automatically extracting coronary calcium scores from existing chest computed tomography (CT) scans, negating these costs. To determine whether the inclusion of CAC scores, automatically extracted using a machine learning algorithm from chest CTs performed for any reason, improves the performance of the American Heart Association/American College of Cardiology 2013 pooled cohort equations (PCE). A retrospective cohort of patients with available chest CTs prior to an index date (2012) was used to compare the performance of the PCE model and an augmented-PCE model which utilizes the CT-based CAC scores on top of the existing model. The PCE and the augmented-PCE predictions were calculated as of an index date (2012) using data from the electronic health record and existing chest CTs. The performance of both models was evaluated by comparing their predictions to cardiovascular events that occurred during a 5-year follow-up period (until 2017). A total of 14,135 patients aged 40-79 years were included in the study, of whom 470 (3.3%) had documented CVD events during the follow-up. The augmented-PCE model showed a significant improvement in c-statistic (0.64 >= 0.69, Delta = 0.05, 95% CI: 0.03 to 0.06), sensitivity (53% >= 57%, Delta = 4.7%, 95% CI: 0-9.0%), specificity (67% >= 70%, Delta = 2.8%, 95% CI: 0.9-5.1%), in positive predictive value (5% >= 6%, Delta = 0.9%, 95% CI: 0.4 to 1.4%), negative predictive value (97.7% >= 97.9%, Delta = 0.3%, 95% CI: 0.1 to 0.5%), and in the categorical net reclassification index (7.4%, 95% CI: 2.4 to 12.1%). Automatically generated CAC scores from existing CTs can aid in CVD risk determination, improving model performance when used on top of existing predictors. Use of existing CTs avoids most pitfalls currently cited against the routine use of CAC in CVD predictions (e.g., additional radiation exposure), and thus affords a net gain in predictive accuracy.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6195f0202af611cb12edb06839b5cb80",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:44:11.010802"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习模型从胸部CT扫描中自动提取冠状动脉钙化评分，以改进心血管疾病预测模型。其核心技术应用于医疗健康领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习模型从胸部CT扫描中自动提取冠状动脉钙化评分，以改进心血管疾病预测模型。其核心技术应用于医疗健康领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:09.532367"
+}

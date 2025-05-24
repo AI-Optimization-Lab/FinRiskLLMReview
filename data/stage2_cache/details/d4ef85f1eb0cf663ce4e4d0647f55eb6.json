@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 394,
+    "title": "American Option Pricing with Importance Sampling and Shifted Regressions",
+    "abstract": "This paper proposes a new method for pricing American options that uses importance sampling to reduce estimator bias and variance in simulation-and-regression based methods. Our suggested method uses regressions under the importance measure directly, instead of under the nominal measure as is the standard, to determine the optimal early exercise strategy. Our numerical results show that this method successfully reduces the bias plaguing the standard importance sampling method across a wide range of moneyness and maturities, with negligible change to estimator variance. When a low number of paths is used, our method always improves on the standard method and reduces average root mean squared error of estimated option prices by 22.5%.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "3731270b0817c015b28af9348c26f3a9",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:13.217447"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出了一种新的美式期权定价方法，使用了重要性采样和回归技术来优化定价过程，这直接属于衍生品定价的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出了一种新的美式期权定价方法，使用了重要性采样和回归技术来优化定价过程，这直接属于衍生品定价的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:11.791971"
+}

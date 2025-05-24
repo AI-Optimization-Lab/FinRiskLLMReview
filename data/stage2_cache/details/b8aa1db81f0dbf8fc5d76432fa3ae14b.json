@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 387,
+    "title": "A Novel DenseNet-based Deep Reinforcement Framework for Portfolio Management",
+    "abstract": "The objective of portfolio management is to realize portfolio optimization, i.e., maximizing the cumulative return of the portfolio over continuous trading periods. Using Artificial Intelligence algorithms, e.g., Deep Reinforcement Learning (DRL), to realize portfolio optimization is an emerging research trend. Jiang et al.'s Ensemble of Identical Independent Evaluators (EIIE) framework achieves at least a four-fold improvement in the indicator of final portfolio value. Their framework has high flexibility to allow us to replace components to achieve continuous improvement. In EIIE, the DRL agent uses neural networks to extract data features from historical data of assets and evaluate each asset's potential growth. This paper introduces a novel network architecture called Dense Based EIIE (DBE), which is embedded in an DRL framework based on Convolutional Neural Network (CNN) and Densely Convoluted Neural Network (DenseNet) module. Compared to Jiang et al.'s strategy, our improved framework uses DenseNet to achieve the EIIE framework, further increasing profitability. In all three experiments carried out, our strategy outperforms Jiang et al.'s strategy and nine traditional strategies. Our strategy achieves at least a 17% improvement in cumulative return compared to other strategies. Furthermore, it achieves at least twice as much in Sharpe Ratio as other strategies.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6cc01186a4c9374b367b440d1ab6a555",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "DenseNet"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.613830"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习和DenseNet架构来实现投资组合优化，其研究目标是最大化投资组合的累积回报，这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习和DenseNet架构来实现投资组合优化，其研究目标是最大化投资组合的累积回报，这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:14.164338"
+}

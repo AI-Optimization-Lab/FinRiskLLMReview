@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3201,
+    "title": "Recursive Nonparametric Estimation of Local First Derivative Under Dependence Conditions",
+    "abstract": "This article describes a recursive nonparametric estimation for the local partial first derivative of an arbitrary function satisfied some regularity conditions and establishes its consistency and asymptotic normality under the assumption of strong mixing sequence. The proposed estimator is a variable window width version of the Watson-Nadaraya type of derivative estimator. The window width varied as more data points become available enables a recursive algorithm that reduce computational complexity from order N(3) normally required by batch methods for kernel regression to order N(2). This approach is computationally simple and attractive from practical viewpoint especially when the situation call for frequent updating of first derivative estimates. For example, maintaining a delta-hedged position of a portfolio of equities with index options is one of many applications of such estimation.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5f5d6fe5e20c83a55e581e1a517f85a3",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:14:54.855164"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种递归非参数估计方法，用于局部一阶导数的估计，并提到其在维持delta对冲股票和指数期权组合中的应用。delta对冲是金融风险管理中的一种重要技术，用于对冲衍生品头寸的风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种递归非参数估计方法，用于局部一阶导数的估计，并提到其在维持delta对冲股票和指数期权组合中的应用。delta对冲是金融风险管理中的一种重要技术，用于对冲衍生品头寸的风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:34.132087"
+}

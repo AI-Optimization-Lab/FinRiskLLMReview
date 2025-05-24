@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 2630,
+    "title": "Multi-Path Attention Inverse Discrimination Network for Offline Signature Verification",
+    "abstract": "Signature verification, which is a method to distinguish the authenticity of signature images, is a biometric verification technique that can effectively reduce the risk of forged signatures in financial, legal, and other business envir-onments. However, compared with ordinary images, signature images have the following characteristics: First, the strokes are slim, i.e., there is less effective information. Second, the signature changes slightly with the time, place, and mood of the signer, i.e., it has high intraclass differences. These challenges lead to the low accuracy of the existing methods based on convolutional neural net-works (CNN). This study proposes an end-to-end multi-path attention inverse dis-crimination network that focuses on the signature stroke parts to extract features by reversing the foreground and background of signature images, which effectively solves the problem of little effective information. To solve the problem of high intraclass variability of signature images, we add multi-path attention modules between discriminative streams and inverse streams to enhance the discriminative features of signature images. Moreover, a multi-path discrimination loss function is proposed, which does not require the feature representation of the samples with the same class label to be infinitely close, as long as the gap between inter-class distance and the intra-class distance is bigger than the set classification threshold, which radically resolves the problem of high intra-class difference of signature images. In addition, this loss can also spur the network to explore the detailed infor-mation on the stroke parts, such as the crossing, thickness, and connection of strokes. We respectively tested on CEDAR, BHSig-Bengali, BHSig-Hindi, and GPDS Synthetic datasets with accuracies of 100%, 96.24%, 93.86%, and 83.72%, which are more accurate than existing signature verification methods. This is more helpful to the task of signature authentication in justice and finance.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0dc74a5ffd5c18b2c68ea7cbfa3a53aa",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:17:32.143916"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究签名验证技术，虽然提到可以应用于金融环境以减少伪造签名的风险，但其核心技术并未直接涉及衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究签名验证技术，虽然提到可以应用于金融环境以减少伪造签名的风险，但其核心技术并未直接涉及衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:06.371005"
+}

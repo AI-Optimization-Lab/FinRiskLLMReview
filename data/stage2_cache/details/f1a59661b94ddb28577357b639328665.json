@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 947,
+    "title": "Research on short term stock selection strategy based on machine learning",
+    "abstract": "Based on theoretical analysis, this paper constructs a short-term stock selection strategy based on machine learning. The sample set is constructed based on the closing price trend of individual stocks in the last 20 trading days, and the machine learning algorithms GBDT and GBRank are used for training, and machine learning is used to automatically perform pattern recognition on the processing capabilities of high-dimensional nonlinear data. When forecasting, the former will rank stocks with higher rising probability in the next 3 trading days, and the latter will rank stocks with greater gains in the nest 3 trading days. The stock selection strategy swaps positions every 3 trading days, and each time the top 10 stocks given by the equal-weight buying algorithm are used to construct an investment portfolio. The experimental results show that the short-term quantitative stock selection strategy based on the GBDT algorithm can outperform the market combination, namely the Shanghai and Shenzhen 300 Index, and has certain practicability.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "69c7b4a2de176d2995abeeab53924ce5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.665326"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于机器学习的短期股票选择策略，用于构建投资组合，并通过实验验证其相对于市场组合的表现，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于机器学习的短期股票选择策略，用于构建投资组合，并通过实验验证其相对于市场组合的表现，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:53.200662"
+}

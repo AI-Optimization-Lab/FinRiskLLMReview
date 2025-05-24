@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 799,
+    "title": "Tactical asset allocation: An artificial neural network based model",
+    "abstract": "An artificial neural network was trained to support a tactical asset allocation investment strategy. The allocation strategy considers three asset classes: U.S. stocks, bonds and money market. The neural net-work was trained to forecast the probability that each asset class would outperform the other two by the end of a one-month period. The neural network was trained with the backpropagation algorithm. A tactical asset allocation portfolio was invested in the asset class expected to have the best performance according to the neural network prediction. The strategy was simulated during a one-year period During the simulation period the strategy outperformed the S&P500 Index by 1,792 basis points. The artificial neural network prediction was accurate 92% of the time.",
+    "year": 2001,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ce3c7ca766700e2c8340581bba2f4cb8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.295143"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用人工神经网络来支持战术性资产配置投资策略，这直接涉及投资组合管理领域。论文详细描述了如何利用神经网络预测不同资产类别的表现，并据此调整投资组合，以实现优于市场指数的回报。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用人工神经网络来支持战术性资产配置投资策略，这直接涉及投资组合管理领域。论文详细描述了如何利用神经网络预测不同资产类别的表现，并据此调整投资组合，以实现优于市场指数的回报。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:48.445462"
+}

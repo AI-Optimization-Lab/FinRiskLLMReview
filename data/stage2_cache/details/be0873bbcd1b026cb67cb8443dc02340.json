@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 186,
+    "title": "RLSTM: A New Framework of Stock Prediction by Using Random Noise for Overfitting Prevention",
+    "abstract": "An accurate prediction of stock market index is important for investors to reduce financial risk. Although quite a number of deep learning methods have been developed for the stock prediction, some fundamental problems, such as weak generalization ability and overfitting in training, need to be solved. In this paper, a new deep learning model named Random Long Short-Term Memory (RLSTM) is proposed to get a better predicting result. RLSTM includes prediction module, prevention module, and three full connection layers. Input of the prediction module is a stock or an index which needs to be predicted. That of the prevention module is a random number series. With the index of Shanghai Securities Composite Index (SSEC) and Standard & Poor's 500 (S&P500), simulations show that the proposed RLSTM can mitigate the overfitting and outperform others in accuracy of prediction.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "baf5dba9d0af834953b1dac27acbfd57",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.430716"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种新的深度学习模型（RLSTM）用于股票市场指数的预测，以提高预测准确性并防止过拟合。虽然股票预测可能与投资组合管理或金融风险管理有一定的关联，但论文的核心技术并未明确应用于这些特定的金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种新的深度学习模型（RLSTM）用于股票市场指数的预测，以提高预测准确性并防止过拟合。虽然股票预测可能与投资组合管理或金融风险管理有一定的关联，但论文的核心技术并未明确应用于这些特定的金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:04.934021"
+}

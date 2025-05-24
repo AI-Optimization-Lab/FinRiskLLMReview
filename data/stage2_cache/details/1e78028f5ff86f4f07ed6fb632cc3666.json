@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 905,
+    "title": "Online Payment Fraud Detection for Big Data",
+    "abstract": "Modern economic life is now greatly facilitated by online payment systems, which allow for seamless financial transactions. However, the risk of online payment fraud has greatly increased along with the growth of digital transactions. This calls for the creation of sophisticated fraud detection systems that can instantly evaluate huge amounts of transaction data. This study suggests a novel method for identifying online payment fraud by utilizing big data management techniques, more specifically PySpark's capabilities. PySpark uses Resilient Distributed Datasets (RDD), data structure and stores data in RAM instead of writing it to disk after each operation. RDD operations are lazy i.e., they will not execute unless an action operation is called on them. After preprocessing the data Machine Learning algorithms from Spark ML package are applied, the ML library of PySpark provides optimized Machine Learning capabilities for Classification problems that require distributed computing. Further, models of classification algorithms that qualify with the best metrics are developed on our dataset and used for making accurate detections. Our Fraud detection system aims to assist Large organizations in assessing their enormous amount of transaction data to detect possible anomalies or fraudulent activities.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d27d660c5547cf8b523733a9b8d3d660",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:17.607124"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习和大数据技术来检测在线支付欺诈，这属于金融风险管理中的操作风险管理范畴。论文明确提到其目标是帮助大型组织评估交易数据以检测可能的异常或欺诈活动，这与金融风险管理直接相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习和大数据技术来检测在线支付欺诈，这属于金融风险管理中的操作风险管理范畴。论文明确提到其目标是帮助大型组织评估交易数据以检测可能的异常或欺诈活动，这与金融风险管理直接相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:53.639453"
+}

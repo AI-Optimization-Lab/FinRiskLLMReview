@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 302,
+    "title": "Pricing of American options in discrete time using least squares estimates with complexity penalties",
+    "abstract": "Pricing of American options in discrete time is considered, where the option is allowed to be based on several underlying stocks. It is assumed that the price processes of the underlying stocks are given by Markov processes. We use the Monte Carlo approach to generate artificial sample paths of these price processes, and then we use nonparametric regression estimates to estimate from this data so-called continuation values, which are defined as mean values of the American option for given values of the underlying stocks at time t subject to the constraint that the option is not exercised at time t. As nonparametric regression estimates we use least squares estimates with complexity penalties, which include as special cases least squares spline estimates, least squares neural networks, smoothing splines and orthogonal series estimates. General results concerning rate of convergence are presented and applied to derive results for the special cases mentioned above. Furthermore the pricing of American options is illustrated by simulated data. (C) 2012 Elsevier B.V. All rights reserved.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "089b68caf05b093e8a622b7e4146935c",
+    "relevant_keywords": [
+      "regression",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.257570"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心内容是使用最小二乘估计和复杂性惩罚来定价美式期权，这直接属于衍生品定价领域。论文详细讨论了如何通过蒙特卡洛方法和非参数回归估计来估算期权的继续价值，并应用于模拟数据中的美式期权定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心内容是使用最小二乘估计和复杂性惩罚来定价美式期权，这直接属于衍生品定价领域。论文详细讨论了如何通过蒙特卡洛方法和非参数回归估计来估算期权的继续价值，并应用于模拟数据中的美式期权定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:37.695592"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2154,
+    "title": "Stock market prediction with time series data and news headlines: a stacking ensemble approach",
+    "abstract": "Time series forecasting models are gaining traction in many real-world domains as valuable decision support tools. Stock market analysis is a challenging domain, characterized by a complex multi-variate and time-evolving nature, with high volatility, and multiple correlations with exogenous factors. Autoregressive, machine learning, and deep learning models for temporal data have been adopted thus far to solve this task. However, they are usually limited to the analysis of a single data source or modality, and do not collectively deal with all the inherent challenges and complexities presented by stock market data. In this paper, inspired by the promising learning capabilities of hybrid ensemble methods, we propose a novel stacking ensemble approach for stock market prediction that jointly considers news headlines, multi-variate time series data, and multiple base models as predictors. By taking multiple factors into consideration, our model is able to learn historical patterns leveraging multiple data sources and models. Our experiments showcase the ability of our model to outperform popular baselines on next-day stock market trend prediction. A portfolio analysis reveals that our method is also able to yield potential gains or capital preservation capabilities when its predictions are exploited for trading decisions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6f3480d1071907144b3c222a0412edad",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:36.646212"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用堆叠集成方法进行股票市场预测，并提到其预测结果可以用于交易决策和投资组合分析，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用堆叠集成方法进行股票市场预测，并提到其预测结果可以用于交易决策和投资组合分析，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:47.878820"
+}

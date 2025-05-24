@@ -1,0 +1,37 @@
+{
+  "paper": {
+    "id": 2685,
+    "title": "Gold price prediction by a CNN-Bi-LSTM model along with automatic parameter tuning",
+    "abstract": "Banking and stock markets consider gold to be an important component of their economic and financial status. There are various factors that influence the gold price trend and its fluctuations. Accurate and reliable prediction of the gold price is an essential part of financial and portfolio management. Moreover, it could provide insights about potential buy and sell points in order to prevent financial damages and reduce the risk of investment. In this paper, different architectures of deep neural network (DNN) have been proposed based on long short-term memory (LSTM) and convolutional-based neural networks (CNN) as a hybrid model, along with automatic parameter tuning to increase the accuracy, coefficient of determination, of the forecasting results. An illustrative dataset from the closing gold prices for 44 years, from 1978 to 2021, is provided to demonstrate the effectiveness and feasibility of this method. The grid search technique finds the optimal set of DNNs' parameters. Furthermore, to assess the efficiency of DNN models, three statistical indices of RMSE, RMAE, and coefficient of determination (R2), were calculated for the test set. Results indicate that the proposed hybrid model (CNN-Bi-LSTM) outperforms other models in total bias, capturing extreme values and obtaining promising results. In this model, CNN is used to extract features of input dataset. Furthermore, Bi-LSTM uses CNN's outputs to predict the daily closing gold price.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0128780f0c80eb3f6314b5fb0e0ff1df",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:18:06.181310"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型预测黄金价格，这直接关系到投资组合管理中的资产配置和买卖决策。论文明确提到黄金价格预测是金融和投资组合管理的重要组成部分，并讨论了如何通过预测来减少投资风险和防止财务损失。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型预测黄金价格，这直接关系到投资组合管理中的资产配置和买卖决策。论文明确提到黄金价格预测是金融和投资组合管理的重要组成部分，并讨论了如何通过预测来减少投资风险和防止财务损失。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:40:39.061654"
+}

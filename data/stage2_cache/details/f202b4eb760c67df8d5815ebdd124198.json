@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 64,
+    "title": "天气衍生品气温预测模型对比研究",
+    "abstract": "气温衍生品是天气衍生品交易中最活跃的合约之一,确定合理预测气温动态变化的模型,是气温衍生品开发设计的基础。考虑到气温在时间变化上具有趋势性、季节性和周期性等特点,文中使用了以O-U均值回复过程为基础的Continuous Time Autoregressive Model(CAR)模型、Seasonal Autoregressive Integrated Moving Average (SARIMA)模型和小波神经网络算法,并选择漠河、北京、乌鲁木齐、芜湖、昆明和海口具有地域性代表的城市气温进行拟合,使用无偏绝对百分比误差、绝对百分比误差和平均绝对比例误差检验指标检验了模型的预测精度。研究结果表明,小波神经网络算法在预测6个城市的无偏绝对百分比误差、绝对百分比误差和平均绝对比例误差的值最小;同时,相比CAR模型、SARIMA模型,其预测效果最优。因此,小波神经网络算法能够很好地拟合气温数据的变化,可以为我国气温天气衍生品的定价提供一定的指导。",
+    "year": 2021,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "82c2a8b1bb2158d15efcf1f573fb8c23",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:18.935008"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是开发气温预测模型，目的是为气温天气衍生品的定价提供指导。论文明确提到预测模型是气温衍生品开发设计的基础，并讨论了不同模型在定价中的应用效果。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是开发气温预测模型，目的是为气温天气衍生品的定价提供指导。论文明确提到预测模型是气温衍生品开发设计的基础，并讨论了不同模型在定价中的应用效果。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:57.856651"
+}

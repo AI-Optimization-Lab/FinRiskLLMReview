@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2355,
+    "title": "Investment Behaviors Can Tell What Inside: Exploring Stock Intrinsic Properties for Stock Trend Prediction",
+    "abstract": "Stock trend prediction, aiming at predicting future price trend of stocks, plays a key role in seeking maximized profit from the stock investment. Recent years have witnessed increasing efforts in applying machine learning techniques, especially deep learning, to pursue more promising stock prediction. While deep learning has given rise to significant improvement, human investors still retain the leading position due to their understanding on stock intrinsic properties, which can imply invaluable principles for stock prediction. In this paper, we propose to extract and explore stock intrinsic properties to enhance stock trend prediction. Fortunately, we discover that the repositories of investment behaviors within mutual fund portfolio data form up a gold mine to extract latent representations of stock properties, since such collective investment behaviors can reflect the professional fund managers' common beliefs on stock intrinsic properties. Powered by extracted stock properties, we further propose to model the dynamic market state and trend using stock representations so as to generate the dynamic correlation between the stock and the market, and then we aggregate such correlation with dynamic stock indicators to achieve more accurate stock prediction. Extensive experiments on real-world stock market data demonstrate the effectiveness of stock properties extracted from collective investment behaviors in the task of stock prediction.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0f043ec6feed58c13dd21e67beb626d1",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:10.677887"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是利用投资行为数据提取股票内在属性，以增强股票趋势预测。这直接关联到投资组合管理领域，因为预测股票趋势是构建和调整投资组合的关键步骤。论文中提到的共同基金投资组合数据的使用进一步支持了这一判断。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是利用投资行为数据提取股票内在属性，以增强股票趋势预测。这直接关联到投资组合管理领域，因为预测股票趋势是构建和调整投资组合的关键步骤。论文中提到的共同基金投资组合数据的使用进一步支持了这一判断。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:30.312806"
+}

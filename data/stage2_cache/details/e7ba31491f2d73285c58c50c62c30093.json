@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3433,
+    "title": "Non-fixed and asymmetrical margin approach to stock market prediction using support vector regression",
+    "abstract": "Recently, Support Vector Regression (SVR) has been applied to financial time series prediction. Typical characteristics of financial time series are non-stationary and noisy in nature. The volatility, usually time-varying, of the time series is therefore some valuable information about the series. Previously, we had proposed to use the volatility to adaptively change the width of the margin of SVR. We have noticed that upside margin and downside margin do not necessary be the same, and we have observed that their choice would affect the upside risk, downside risk and as well as the overall prediction result. In this paper, we introduce a novel approach to adapt the asymmetrical margins using momentum. We applied and compared this method to predict the Hang Seng Index and Dow Jones Industrial Average.",
+    "year": 2002,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7b51a306682d62167991fd2d1f723e39",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:26:09.157078"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用支持向量回归（SVR）进行股票市场预测，并提出了非固定和非对称边界的方法。虽然涉及金融时间序列和风险（upside risk, downside risk），但论文的核心技术是预测模型的改进，并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用支持向量回归（SVR）进行股票市场预测，并提出了非固定和非对称边界的方法。虽然涉及金融时间序列和风险（upside risk, downside risk），但论文的核心技术是预测模型的改进，并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:26.720533"
+}

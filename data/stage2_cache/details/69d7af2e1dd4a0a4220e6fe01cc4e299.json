@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2651,
+    "title": "Enhancing performance of shipboard photovoltaic grid-connected inverter through CRNN-LM-BP control optimized by particle swarm optimization of LCL parameters",
+    "abstract": "The global renewable energy portfolio is experiencing a growing proportion of shipboard photovoltaic (PV) energy. Grid-connected system has become the development trend of photovoltaic power generation technology in marine applications because of its high energy utilization efficiency. However, in the grid-connected process, harmonic pollution is easily caused by time-varying marine environment disturbance, which affects the quality of grid-connected power. The current recurrent neural network Levenberg-Marquardt backpropagation (CRNN-LMBP) method, a control methodology, is introduced in this paper to ensure the robustness, stability, and consistency of the system. In addition, the inductance-capacitance-inductance (LCL) filter is optimized using particle swarm optimization (PSO) to minimize the presence of high frequency harmonics. The system that has been developed possesses the ability to improve the accuracy of steady-state control, operate with high efficiency and effectiveness, and maintain a total harmonic distortion of 1.73 %. Concurrently, streamlining the Jacobian matrix in the LM algorithm expedites convergence. It enables the system to improve its dynamic response, minimize excess, and quickly return to a stable condition when faced with load variations, a wide range of filter parameter adjustments, and voltage fluctuations. The suggested method's effectiveness and applicability are evaluated by comparing it to the traditional proportional-resonant control, CRNN-BP control, using Matlab/ Simulink and the real-time simulator OPAL-RT5700..",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "efebfa312844e276a61df2e7976c6825",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.880319"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究船载光伏并网逆变器的性能优化，涉及神经网络控制和粒子群优化算法，但其应用场景是电力系统的谐波抑制和动态响应改善，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究船载光伏并网逆变器的性能优化，涉及神经网络控制和粒子群优化算法，但其应用场景是电力系统的谐波抑制和动态响应改善，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:38.130559"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1160,
+    "title": "Computation of Optimal Transport and Related Hedging Problems via Penalization and Neural Networks",
+    "abstract": "This paper presents a widely applicable approach to solving (multi-marginal, martingale) optimal transport and related problems via neural networks. The core idea is to penalize the optimization problem in its dual formulation and reduce it to a finite dimensional one which corresponds to optimizing a neural network with smooth objective function. We present numerical examples from optimal transport, martingale optimal transport, portfolio optimization under uncertainty and generative adversarial networks that showcase the generality and effectiveness of the approach.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "80efa5947f120842106fd4364be409d8",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.856656"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提到了在不确定性下的投资组合优化（portfolio optimization under uncertainty），这直接关联到投资组合管理领域。虽然论文也涉及最优传输和鞅最优传输，但这些内容并未明确指向衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提到了在不确定性下的投资组合优化（portfolio optimization under uncertainty），这直接关联到投资组合管理领域。虽然论文也涉及最优传输和鞅最优传输，但这些内容并未明确指向衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:53.984355"
+}

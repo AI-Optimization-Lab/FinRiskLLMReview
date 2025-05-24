@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree",
+    "Random Forest",
+    "RF"
+  ],
+  "explanations": {
+    "machine learning": "The paper discusses a decision support system for default prediction, which likely involves machine learning techniques.",
+    "supervised learning": "The system predicts default risk, which is a supervised learning task as it involves labeled data (default or non-default).",
+    "classification": "The paper mentions using a Random Forest classification technique, indicating that the task involves classifying customers into default or non-default categories.",
+    "decision tree": "Random Forest is an ensemble method based on decision trees, so decision trees are implicitly relevant.",
+    "Random Forest": "The paper explicitly mentions using a Random Forest (RF) classification technique for default prediction.",
+    "RF": "RF is an abbreviation for Random Forest, which is mentioned in the paper."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\", \"Random Forest\", \"RF\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper discusses a decision support system for default prediction, which likely involves machine learning techniques.\",\n    \"supervised learning\": \"The system predicts default risk, which is a supervised learning task as it involves labeled data (default or non-default).\",\n    \"classification\": \"The paper mentions using a Random Forest classification technique, indicating that the task involves classifying customers into default or non-default categories.\",\n    \"decision tree\": \"Random Forest is an ensemble method based on decision trees, so decision trees are implicitly relevant.\",\n    \"Random Forest\": \"The paper explicitly mentions using a Random Forest (RF) classification technique for default prediction.\",\n    \"RF\": \"RF is an abbreviation for Random Forest, which is mentioned in the paper.\"\n  }\n}\n```"
+}

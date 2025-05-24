@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3684,
+    "title": "A Study of Multifactor Quantitative Stock-Selection Strategies Incorporating Knockoff and Elastic Net-Logistic Regression",
+    "abstract": "In the data-driven era, the mining of financial asset information and the selection of ap-propriate assets are crucial for stable returns and risk control. Multifactor quantitative models are a common method for stock selection in financial assets, so it is important to select the optimal set of factors. Elastic Net, which combines the benefits of the L1 and L2 penalty terms, performs better at filtering features due to the complexity of the features in high-dimensional datasets than Lasso and Ridge regression. At the same time, the false discovery rate (FDR), which is important for making reliable investment decisions, is not taken into account by the current factor-selection methodologies. Therefore, this paper constructs the Knockoff Logistic regression Elastic Net (KF-LR-Elastic Net): com-bining Logistic regression with Elastic Net and using Knockoff to control the FDR of variable selection to achieve factor selection. Based on the selected factors, stock returns are predicted under Logistic re-gression. The overall model is denoted as Knockoff Logistic regression Elastic Net-Logistic regression (KL-LREN-LR). The empirical study is conducted with data on the CSI 300 index constituents in the Chinese market from 2016-2022. KF-LREN-LR is used for factor selection and stock-return forecasting to select the top 10 stocks and establish an investment strategy for daily position changing. According to empirical evidence, KF-LR-Elastic Net can select useful factors and control the FDR, which is helpful for increasing the accuracy of factor selection. The KF-LREN-LR forecast portfolio has the advantages of high return and controlled risk, so it is informative for optimizing asset allocation.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fec853a6f32d5d7a421f561019bf8d69",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:29:00.126752"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建一个多因子量化选股模型，用于股票选择和投资策略制定，这直接关联到投资组合管理的领域。论文中提到的因子选择、股票回报预测以及资产配置优化都是投资组合管理的关键组成部分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建一个多因子量化选股模型，用于股票选择和投资策略制定，这直接关联到投资组合管理的领域。论文中提到的因子选择、股票回报预测以及资产配置优化都是投资组合管理的关键组成部分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:33.234891"
+}

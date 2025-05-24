@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 621,
+    "title": "Tensor Processing Units for Financial Monte Carlo",
+    "abstract": "Monte Carlo methods are critical to many routines in quantitative finance such as derivatives pricing, hedging and risk metrics. Unfortunately, Monte Carlo methods are very computationally expensive when it comes to running simulations in high-dimensional state spaces where they are still a method of choice in the financial industry. Recently, Tensor Processing Units (TPUs) have provided considerable speedups and decreased the cost of running Stochastic Gradient Descent (SGD) in Deep Learning. After highlighting computational similarities between training neural networks with SGD and simulating stochastic processes, we ask in the present paper whether TPUs are accurate, fast and simple enough to use for financial Monte Carlo. Through a theoretical reminder of the key properties of such methods and thorough empirical experiments we examine the fitness of TPUs for option pricing, hedging and risk metrics computation. In particular we demonstrate that, in spite of the use of mixed precision, TPUs still provide accurate estimators which are fast to compute when compared to GPUs. We also show that the Tensorflow programming model for TPUs is elegant, expressive and simplifies automated differentiation.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "223516d117a1797bb8bf27c19f2b6efc",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:40:51.077579"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文明确提到其研究目的是探讨TPUs在金融蒙特卡洛方法中的应用，特别是用于期权定价、对冲和风险度量计算。这些应用直接关联到衍生品定价和金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文明确提到其研究目的是探讨TPUs在金融蒙特卡洛方法中的应用，特别是用于期权定价、对冲和风险度量计算。这些应用直接关联到衍生品定价和金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:46.874118"
+}

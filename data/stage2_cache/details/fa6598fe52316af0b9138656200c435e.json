@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 308,
+    "title": "Deep neural network framework based on backward stochastic differential equations for pricing and hedging American options in high dimensions",
+    "abstract": "We propose a deep neural network framework for computing prices and deltas of American options in high dimensions. The architecture of the framework is a sequence of neural networks, where each network learns the difference of the price functions between adjacent timesteps. We introduce the least squares residual of the associated backward stochastic differential equation as the loss function. Our proposed framework yields prices and deltas for the entire spacetime, not only at a given point (e.g.t = 0). The computational cost of the proposed approach is quadratic in dimension, which addresses the curse of dimensionality issue that state-of-the-art approaches suffer. Our numerical simulations demonstrate these contributions, and show that the proposed neural network framework outperforms state-of-the-art approaches in high dimensions.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "28e6e2c683964e2b3763597bd924a2f1",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.284323"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度神经网络框架来计算高维美国期权的价格和delta，这直接属于衍生品定价的范畴。论文明确提到其目标是解决高维情况下的定价和对冲问题，并使用了与后向随机微分方程相关的损失函数，这些都是衍生品定价领域的典型研究内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度神经网络框架来计算高维美国期权的价格和delta，这直接属于衍生品定价的范畴。论文明确提到其目标是解决高维情况下的定价和对冲问题，并使用了与后向随机微分方程相关的损失函数，这些都是衍生品定价领域的典型研究内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:37.182491"
+}

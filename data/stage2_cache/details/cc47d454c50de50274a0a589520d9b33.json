@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 1425,
+    "title": "Risk-sensitive policies for portfolio management ®",
+    "abstract": "The decision-making on portfolio investment is fundamental in the financial market, but getting the optimal strategy is challenging due to high uncertainty and massive noise in the market. Deep Deterministic Policy Gradient (DDPG), proposed by Lillicrap et al. (2015), is a deep Reinforcement Learning (RL) algorithm that made remarkable achievements in the financial perspective. Although the applications of RL in financial trading are well-developed, it is surprising that most of the literature ignores the possible risk of rare occurrences of catastrophic events and the effect of the worst-case scenarios on trading decisions. In this paper, we first develop a novel deep RL algorithm, called Hierarchical DDPG, that combines the classical DDPG algorithm and the Hierarchical RL structure to control the risk of portfolio investment. Second, we adapt the distributional DDPG method for portfolio management problems, which aims to maximize the percentile expectation based on the distribution of future returns. A real world dataset is used to validate the performance of our proposed models. The experimental results show that our proposed models outperform the market and classical DDPG, and moreover, both approaches provide effective methods of constructing a risk-sensitive policy to protect investors from suffering a huge loss.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4cb5f57b6812b16aa513093b59b1ad4e",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.627603"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种新型的深度强化学习算法（Hierarchical DDPG）和分布DDPG方法，用于控制投资组合的风险并优化投资决策。论文明确提到其目标是构建风险敏感的策略以保护投资者免受巨大损失，这直接涉及金融风险管理和投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种新型的深度强化学习算法（Hierarchical DDPG）和分布DDPG方法，用于控制投资组合的风险并优化投资决策。论文明确提到其目标是构建风险敏感的策略以保护投资者免受巨大损失，这直接涉及金融风险管理和投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:03.960166"
+}

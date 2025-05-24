@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2541,
+    "title": "Surrogate-Assisted Scenario-Generation Method for Simulation-Based Stochastic Programming Problems",
+    "abstract": "Simulation is required in real-world industrial decision-making to model the complexity, such as supply chain management with uncertain future demand. Scenario generation is critical for handling inherent uncertainties as deterministic scenarios to solve stochastic programming problems (SPPs). Generating a minimal yet representative scenario set is important to solve simulation-based SPPs (SBSPPs) since SBSPPs require thousands of simulation iterations proportional to the number of scenarios, leading to significant computational time. However, conventional methods, such as Monte Carlo method and recent problem-driven approaches, are ineffective in solving SBSPPs due to time-consuming simulation evaluation. This paper proposes a surrogate-assisted scenario-generation method called Inferred Cost-Space Scenario Clustering (ICSSC) that is applicable to various SPPs including SBSPPs. ICSSC employs a scenario clustering based on a new cost-space scenario distance evaluated by the surrogate model trained with offline simulation data to quickly approximate simulation evaluations. We conducted three types of numerical experiments to validate the effectiveness: Markowitz portfolio optimization, stochastic server location, and inventory placement optimization. Empirical results revealed that ICSSC could generate an effective scenario set based on the impact of uncertainties on decision outcomes for broader SPPs, and yields better solutions with 7.2 times shorter runtime than Monte Carlo methods.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ffd316e7a1804346c396657fd166286f",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:08:10.681626"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种替代辅助的场景生成方法（ICSSC），用于解决基于模拟的随机规划问题（SBSPPs）。论文明确提到该方法在Markowitz投资组合优化中的应用，这属于投资组合管理的范畴。虽然论文还提到了其他应用（如服务器位置和库存优化），但投资组合优化是其验证方法有效性的主要案例之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种替代辅助的场景生成方法（ICSSC），用于解决基于模拟的随机规划问题（SBSPPs）。论文明确提到该方法在Markowitz投资组合优化中的应用，这属于投资组合管理的范畴。虽然论文还提到了其他应用（如服务器位置和库存优化），但投资组合优化是其验证方法有效性的主要案例之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:05.728608"
+}

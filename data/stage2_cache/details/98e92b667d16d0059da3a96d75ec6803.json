@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 539,
+    "title": "Optimizing credit limit adjustments under adversarial goals using reinforcement learning",
+    "abstract": "Reinforcement learning has been explored for many problems, from video games with deterministic environments to portfolio and operations management in which scenarios are stochastic; however, there have been few attempts to test these methods in banking problems. In this study, we sought to find and automatize an optimal credit card limit adjustment policy by employing reinforcement learning techniques. In particular, because of the historical data available, we considered two possible actions per customer, namely increasing or maintaining an individual's current credit limit. To find this policy, we first formulated this decision -making question as an optimization problem in which the expected profit was maximized; therefore, we balanced two adversarial goals: maximizing the portfolio's revenue and minimizing the portfolio's provisions. Second, given the particularities of our problem, we used an offline learning strategy to simulate the impact of the action based on historical data from a super -app (i.e., a mobile application that offers various services from goods deliveries to financial products) in Latin America to train our reinforcement learning agent. Our results, based on the proposed methodology involving synthetic experimentation, show that a Double Q -learning agent with optimized hyperparameters can outperform other strategies and generate a non -trivial optimal policy not only reflecting the complex nature of this decision but offering an incentive to explore reinforcement learning in real -world banking scenarios. Our research establishes a conceptual structure for applying reinforcement learning framework to credit limit adjustment, presenting an objective technique to make these decisions primarily based on data -driven methods rather than relying only on expert -driven systems. We also study the use of alternative data for the problem of balance prediction, as the latter is a requirement of our proposed model. We find the use of such data does not always bring prediction gains.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f7f83fbb50ecf544dc6fb907c039bbee",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "rectified linear unit",
+      "ReLU",
+      "sigmoid",
+      "tanh",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:21.151718"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用强化学习优化信用卡额度调整策略，旨在平衡收益和风险（即最大化收入和最小化准备金），这直接涉及信用风险管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习优化信用卡额度调整策略，旨在平衡收益和风险（即最大化收入和最小化准备金），这直接涉及信用风险管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:59.978876"
+}

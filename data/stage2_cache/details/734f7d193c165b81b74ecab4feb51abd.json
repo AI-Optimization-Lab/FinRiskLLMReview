@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 965,
+    "title": "A Selective Portfolio Management Algorithm with Off-Policy Reinforcement Learning Using Dirichlet Distribution",
+    "abstract": "Existing methods in portfolio management deterministically produce an optimal portfolio. However, according to modern portfolio theory, there exists a trade-off between a portfolio's expected returns and risks. Therefore, the optimal portfolio does not exist definitively, but several exist, and using only one deterministic portfolio is disadvantageous for risk management. We proposed Dirichlet Distribution Trader (DDT), an algorithm that calculates multiple optimal portfolios by taking Dirichlet Distribution as a policy. The DDT algorithm makes several optimal portfolios according to risk levels. In addition, by obtaining the pi value from the distribution and applying importance sampling to off-policy learning, the sample is used efficiently. Furthermore, the architecture of our model is scalable because the feed-forward of information between portfolio stocks occurs independently. This means that even if untrained stocks are added to the portfolio, the optimal weight can be adjusted. We also conducted three experiments. In the scalability experiment, it was shown that the DDT extended model, which is trained with only three stocks, had little difference in performance from the DDT model that learned all the stocks in the portfolio. In an experiment comparing the off-policy algorithm and the on-policy algorithm, it was shown that the off-policy algorithm had good performance regardless of the stock price trend. In an experiment comparing investment results according to risk level, it was shown that a higher return or a better Sharpe ratio could be obtained through risk control.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8f96d4b47b91ae4c131d8ebc15e6ac64",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.750073"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种名为Dirichlet Distribution Trader (DDT)的算法，用于计算多个最优投资组合，并根据风险水平进行调整。这直接涉及投资组合管理的核心问题，即如何在预期收益和风险之间进行权衡。论文的实验也集中在投资组合的性能和可扩展性上，进一步证实了其应用领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种名为Dirichlet Distribution Trader (DDT)的算法，用于计算多个最优投资组合，并根据风险水平进行调整。这直接涉及投资组合管理的核心问题，即如何在预期收益和风险之间进行权衡。论文的实验也集中在投资组合的性能和可扩展性上，进一步证实了其应用领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:49.801164"
+}

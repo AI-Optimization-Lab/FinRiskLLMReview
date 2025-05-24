@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 232,
+    "title": "Improved accuracy of an analytical approximation for option pricing under stochastic volatility models using deep learning techniques",
+    "abstract": "This paper addresses the challenge of pricing options under stochastic volatility (SV) models, where explicit formulae are often unavailable and parameter estimation requires extensive numerical simulations. Traditional approaches typically either rely on large volumes of historical (option) data (data-driven methods) or generate synthetic prices across wide parameter (model-driven methods). In both cases, the scale of data demands can be prohibitively We propose an alternative strategy that trains a neural network on the residuals between but approximate pricing formula and numerically generated option prices, rather than learning the full pricing function directly. Focusing on these smaller, smoother residuals notably reduces the complexity of the learning task and lowers data requirements. We further demonstrate theoretically that the Rademacher complexity of the residual function class is significantly smaller, thereby improving generalization with fewer samples. Numerical experiments on fast mean reverting SV models show that our residual-learning framework achieves accuracy comparable to baseline networks but uses only about one-tenth the training data. These findings highlight potential of residual-based neural approaches to deliver efficient, accurate pricing and facilitate practical calibration of advanced SV models.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "bd812aec08ab0120856140e464b58df6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.204534"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习技术改进随机波动率模型下的期权定价精度，这直接属于衍生品定价的研究领域。论文明确讨论了期权定价的挑战和解决方案，并通过数值实验验证了方法的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习技术改进随机波动率模型下的期权定价精度，这直接属于衍生品定价的研究领域。论文明确讨论了期权定价的挑战和解决方案，并通过数值实验验证了方法的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:02.212382"
+}

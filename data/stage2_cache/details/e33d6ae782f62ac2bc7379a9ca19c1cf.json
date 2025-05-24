@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 216,
+    "title": "基于遗传算法的BP神经网络在权证定价中的应用",
+    "abstract": "对金融衍生品的定价一直都是理论界和实务界所关注的热点问题之一。传统的参数模型定价方法,容易产生系统性偏差,而神经网络方法在解决这一问题时具有明显的优势。本文基于遗传算法改进的BP神经网络模型(GABP),利用我国8只权证的1050天数据、标的股票1900天的数据和其他所需数据作为训练数据训练网络。研究结果表明,神经网络在权证的定价中效果要优于B-S模型;而RBF模型精度大于BP模型的预测,GABP模型的精度大于RBF模型的预测。",
+    "year": 2010,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "49a410d978919cb58e0ac6de2c11040c",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-14T19:31:15.196515"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是基于遗传算法改进的BP神经网络模型(GABP)，并明确应用于权证定价问题。论文比较了神经网络模型与传统B-S模型在权证定价中的效果，这直接属于衍生品定价的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是基于遗传算法改进的BP神经网络模型(GABP)，并明确应用于权证定价问题。论文比较了神经网络模型与传统B-S模型在权证定价中的效果，这直接属于衍生品定价的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:40.484442"
+}

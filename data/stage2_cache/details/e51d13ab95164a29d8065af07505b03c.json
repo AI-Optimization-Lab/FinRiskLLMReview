@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 5668,
+    "title": "Day-Ahead Financial Loss/Gain Modeling and Prediction for a Generation Company",
+    "abstract": "In an electricity market, the main goal of a generation company (GenCo) is to maximize its profit, while encountering the uncertainty of the electricity price forecast. Different risk measures have been proposed to cope with this source of uncertainty. However, those are usually before-the-fact performance indices and cannot give a measure for the financial loss/gain (FLG) of a GenCo considering the electricity prices actually realized in the market. This paper focuses on this matter. The time series of FLG is first constructed given the real conditions of the electricity market. Then, the FLG time series is quantized using Silhouette criterion and k-means clustering approach. Subsequently, based on the historical values of the quantized FLG time series and relevant exogenous variables, its day-ahead values are predicted. The method proposed for day-ahead FLG prediction consist of conditional mutual information and sequential forward search as the feature selection technique and extreme learning machine as the forecasting engine. The effectiveness of the whole proposed approach, including the FLG time series construction, quantization approach, and the prediction method, is shown for a typicalGenCo using the real data of the PJM and Ontario electricity markets.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9002e8386b13fb9eab9d7ec41274976e",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "neural network",
+      "feature selection"
+    ],
+    "stage1_timestamp": "2025-05-15T02:50:21.148916"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究发电公司在电力市场中的财务损失/收益（FLG）建模和预测，旨在应对电价不确定性带来的风险。虽然涉及机器学习技术，但其核心应用是金融风险管理，特别是针对电力市场中的价格波动风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究发电公司在电力市场中的财务损失/收益（FLG）建模和预测，旨在应对电价不确定性带来的风险。虽然涉及机器学习技术，但其核心应用是金融风险管理，特别是针对电力市场中的价格波动风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:01.495207"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 3901,
+    "title": "Learning Dynamic Dependencies With Graph Evolution Recurrent Unit for Stock Predictions",
+    "abstract": "Investment decisions and risk management require understanding the time-varying dependencies between stocks. Graph-based learning systems have emerged as a promising approach for predicting stock prices by leveraging interfirm relationships. However, existing methods rely on a static stock graph predefined from finance domain knowledge and large-scale data engineering, which overlooks the dynamic dependencies between stocks. In this article, we present a novel framework called graph evolution recurrent unit (GERU), which uses a dynamic graph neural network to automatically learn the evolving dependencies from historical stock features, leading to better predictions. Our approach consists of three parts: first, we develop an adaptive dynamic graph learning (ADGL) module to learn latent dynamic dependencies from stock time series. Second, we propose a clustered ADGL (clu-ADGL) to handle large-scale time series by reducing time and memory complexity. Third, we combine the ADGL/clu-ADGL with a graph-gated recurrent unit to model the temporal evolutions of stock networks. Extensive experiments on real-world datasets show that our proposed methods outperform existing methods in predicting stock movements, capturing meaningful dynamic dependencies and temporal evolution patterns from the financial market, and achieving outstanding profitability in portfolio construction.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0efeaa4bfe96e1f7a2d1b8daf7320a1e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "graph neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:30:58.384337"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用动态图神经网络来学习股票之间的动态依赖关系，以预测股票价格变动，并最终应用于投资组合构建，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用动态图神经网络来学习股票之间的动态依赖关系，以预测股票价格变动，并最终应用于投资组合构建，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:45.068779"
+}

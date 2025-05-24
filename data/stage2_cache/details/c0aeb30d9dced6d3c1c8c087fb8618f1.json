@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 912,
+    "title": "Advancing the Reliability of Ultra-Low Field MRI Brain Volume Analysis Using CycleGAN",
+    "abstract": "The increasing prevalence of neurodegenerative diseases poses a significant threat to the well-being of the growing elderly population, with biological age being a major risk factor. This has increased the demand for cost-effective and informative neuroimaging modalities and analysis tools. Specifically, measuring brain volume is of critical importance as abnormal atrophy patterns are strong indicators of disease onset. Ultra-low field (ULF) MRI provides an innovative pathway to more accessible neuroimaging by mitigating various logistical, financial, and safety considerations associated with clinical MRI. However, the image quality of ULF-MRI impacts the reliability of brain volume analysis. Advancements in deep learning (DL) have proven capable of enhancing the image quality and analysis of medical images. Yet, these tools have not been fully realized for ULF-MRI, largely due to data scarcity as the technology is still relatively new. As a result, existing DL techniques for ULF image enhancement are trained with synthetically generated images, leading to potential domain shift issues when applied to real images. Here, we introduce a CycleGAN framework that learns with real ULF and high-field (HF) MRIs to improve the image enhancement process compared to existing methods. We demonstrate that this approach increases the accuracy of brain volume measurements based on improved correlations with paired clinical data and higher test-retest reliability across repeat measurements. Ultimately, our proposal has the potential to enhance clinical and research workflows through the increased accessibility and reliability of ULF-MRI.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "2aa5fe7beeb7b7ffb5bda692e0d372bf",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "autoencoder",
+      "denoising autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:43:54.730303"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用CycleGAN框架提高超低场MRI图像质量以增强脑容量分析的可靠性，其核心技术应用于医学影像处理领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用CycleGAN框架提高超低场MRI图像质量以增强脑容量分析的可靠性，其核心技术应用于医学影像处理领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:00.312785"
+}

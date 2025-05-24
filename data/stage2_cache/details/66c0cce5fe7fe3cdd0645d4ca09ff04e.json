@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3749,
+    "title": "Feature Selection Engineering for Credit Risk Assessment in Retail Banking",
+    "abstract": "In classification, feature selection engineering helps in choosing the most relevant data attributes to learn from. It determines the set of features to be rejected, supposing their low contribution in discriminating the labels. The effectiveness of a classifier passes mainly through the set of selected features. In this paper, we identify the best features to learn from in the context of credit risk assessment in the financial industry. Financial institutions concur with the risk of approving the loan request of a customer who may default later, or rejecting the request of a customer who can abide by their debt without default. We propose a feature selection engineering approach to identify the main features to refer to in assessing the risk of a loan request. We use different feature selection methods including univariate feature selection (UFS), recursive feature elimination (RFE), feature importance using decision trees (FIDT), and the information value (IV). We implement two variants of the XGBoost classifier on the open data set provided by the Lending Club platform to evaluate and compare the performance of different feature selection methods. The research shows that the most relevant features are found by the four feature selection techniques.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c2fc623d537d394eda2d9691a2c8de36",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:29:28.074238"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是特征选择工程，用于信用风险评估，这直接关联到金融风险管理中的信用风险管理。论文明确提到在零售银行业务中评估贷款请求的风险，这是金融风险管理的典型应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是特征选择工程，用于信用风险评估，这直接关联到金融风险管理中的信用风险管理。论文明确提到在零售银行业务中评估贷款请求的风险，这是金融风险管理的典型应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:31.414131"
+}

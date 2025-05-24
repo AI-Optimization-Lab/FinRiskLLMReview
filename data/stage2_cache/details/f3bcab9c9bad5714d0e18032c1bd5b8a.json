@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 140,
+    "title": "基于AI产业的量化投资组合策略",
+    "abstract": "选取AI产业的109只股票进行初步筛选,运用主成分分析和模糊C均值聚类法对筛选出的29支股票的财务指标进行处理,综合股票的成长因子、盈利因子、偿债因子和资本结构等指标,筛选出进行投资组合的8只股票。基于马科维茨组合理论构建有效前沿,结合投资者在不同风险厌恶程度下的投资效用情况选取最佳的投资组合。计算构建的投资组合在99%和95%置信水平下的在险价值和波动率,发现所构建的投资组合较为合理。最后给出相应的投资建议。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0c6813e58d470ec6ea81fc226dfcc79b",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:22.444032"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术应用于构建投资组合（基于马科维茨组合理论）和评估投资组合的风险（计算在险价值和波动率），这分别属于投资组合管理和金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术应用于构建投资组合（基于马科维茨组合理论）和评估投资组合的风险（计算在险价值和波动率），这分别属于投资组合管理和金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:45.148701"
+}

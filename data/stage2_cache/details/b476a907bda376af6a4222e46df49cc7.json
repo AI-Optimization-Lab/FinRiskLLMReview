@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 284,
+    "title": "An online portfolio selection algorithm using clustering approaches and considering transaction costs",
+    "abstract": "This paper presents an online portfolio selection algorithm based on pattern matching principle where it makes a decision on the optimal portfolio in each period and updates the optimal portfolio at the beginning of each period. The proposed method consists of two steps: i) sample selection, ii) portfolio optimization. First, in the sample selection, clustering algorithms including k-means, k-medoids, spectral and hierarchical clustering are applied to discover time windows (TW) similar to the recent time window. Then, after finding the similar time windows and predicting the market behavior of the next day, the optimum function along with the transaction cost is used in the portfolio optimization step in which, four algorithms including KMNLOG, KMDLOG, SPCLOG and HRCLOG are proposed for this purpose. The presented algorithms are applied on 5 different datasets with different characteristics including different markets, stocks, and time periods, and their performance has been evaluated. The results show that the provided algorithms in this paper, have better performance in terms of efficiency compared to the algorithms provided in the literature. (C) 2020 Elsevier Ltd. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1099c5e8117a9634d38ba2ec9a4f54bc",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.888278"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing an online portfolio selection algorithm that optimizes the portfolio in each period, considering transaction costs and using clustering techniques to predict market behavior. This directly aligns with the field of Portfolio Management, as it involves the selection and optimization of investment portfolios.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing an online portfolio selection algorithm that optimizes the portfolio in each period, considering transaction costs and using clustering techniques to predict market behavior. This directly aligns with the field of Portfolio Management, as it involves the selection and optimization of investment portfolios.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:01.560346"
+}

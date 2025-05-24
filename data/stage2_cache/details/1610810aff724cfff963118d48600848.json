@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1319,
+    "title": "Evaluating SAFE AI principles using Wasserstein distance: a comparative study of Machine Learning models",
+    "abstract": "Modern data-driven Artificial Intelligence (AI), powered by advanced Machine Learning (ML) models, is transforming financial technologies by enhancing financial inclusion, transparency and reducing transaction costs. However, the opaque nature of some complex ML models requires new statistical approaches to manage risks and ensure trustworthiness. In this paper, we present a novel method to evaluate the key principles of trustworthy AI - Sustainability (Robustness), Accuracy, Fairness, and Explainability (SAFE). While Babaei et al. [A Rank Graduation Box for SAFE AI. Expert Syst Appl. 259;2025:125239, 2025] introduced the Rank Graduation Box as a streamlined approach for assessing the principles of trustworthy AI, we extend this work by employing the Wasserstein distance. Our method offers a more nuanced and geometrically oriented comparison of ML models, particularly in contexts where shifts in economic or environmental conditions alter the prediction distributions. We apply this method to compare popular ML models, including Support Vector Machines, Ensemble Trees, K-Nearest Neighbours Linear and Logistic Regression. The proposal is validated using both simulated data and real-world data in the context of financial risk assessment. Our findings demonstrate that the Wasserstein distance offers nuanced and interpretable insights into model behaviour across the SAFE dimensions, making it a valuable tool for model selection and regulatory compliance in AI applications.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5d6e311a443608557a8de07305b6f7e3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:44.687738"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on evaluating ML models using Wasserstein distance in the context of financial risk assessment, which directly pertains to financial risk management by ensuring model robustness, accuracy, fairness, and explainability in risk-related applications.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on evaluating ML models using Wasserstein distance in the context of financial risk assessment, which directly pertains to financial risk management by ensuring model robustness, accuracy, fairness, and explainability in risk-related applications.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:49.590507"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 4275,
+    "title": "Penalized quasi-likelihood estimation of generalized Pareto regression-consistent identification of risk factors for extreme losses",
+    "abstract": "In the financial industry, including insurance, a pressing problem is to identify risk factors for extreme losses. Penalized estimation of the generalized Pareto regression model provides a general framework for solving this problem via selecting risk factors associated with the (threshold) exceedance loss. However, the validity of postulating the generalized Pareto distribution as the conditional distribution of the exceedance loss predicates on a sufficiently high threshold. In the case of high feature dimension and high threshold, the feature dimension could well increase with the exceedance sample size, at a non-polynomial (NP) rate. We introduce a novel penalized quasi-maximum likelihood estimation method for feature selection within the framework of the generalized Pareto regression and derive the consistency of tuning parameter selection via a modified generalized information criterion, for the NP setting, under some mild regularity conditions. We illustrate the efficacy and the robustness of the proposed method with simulations and a real automobile insurance claim analysis, which reveals significant risk factors for large claims.(c) 2022 Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1f97324a811534e87b6062e6e6d22476",
+    "relevant_keywords": [
+      "regression",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:35:26.249073"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on identifying risk factors for extreme losses in the financial and insurance industries, which is a core aspect of financial risk management. The proposed penalized quasi-maximum likelihood estimation method is specifically designed for feature selection in the context of generalized Pareto regression to address this issue, making it directly relevant to risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on identifying risk factors for extreme losses in the financial and insurance industries, which is a core aspect of financial risk management. The proposed penalized quasi-maximum likelihood estimation method is specifically designed for feature selection in the context of generalized Pareto regression to address this issue, making it directly relevant to risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:50.901233"
+}

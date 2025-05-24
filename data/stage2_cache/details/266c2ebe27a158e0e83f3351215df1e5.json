@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 344,
+    "title": "Turbo-Charging Deep Learning Methods for Partial Differential Equations",
+    "abstract": "Solving partial differential equations (PDEs) is a frequent necessity in numerous domains, ranging from complex systems simulation to financial derivatives pricing and continuous-time optimisation tasks. The challenging nature of PDEs, especially in high dimensions or cases involving non-linearities, calls for robust, innovative solutions. This paper leverages a deep neural network methodology, utilizing differential operators and boundary conditions in tandem with sampling techniques and minimising distinct loss terms. The role of physics-inspired neural networks in this approach is also highlighted. Our primary proposition is a Bayesian interpretation, where we address the issue as a hierarchical multi-objective optimisation problem augmented with adaptive sampling. We also introduce a concept of 'curriculum learning,' which parallels control variates, thereby facilitating further variance reduction and the re-utilisation of solutions derived from assorted problems. Our methods notably enhance the speed of convergence and diminish approximation errors. The effectiveness of our strategies is demonstrated through illustrative examples, solidifying their value in practical applications.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "bfef5ad5db5477790f210395b99329e4",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.437723"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的摘要明确提到其方法可以应用于金融衍生品定价（financial derivatives pricing），并且论文的核心技术（如深度神经网络和偏微分方程求解）是衍生品定价中的关键工具。虽然论文也提到了其他应用领域，但金融衍生品定价是其明确指出的应用之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的摘要明确提到其方法可以应用于金融衍生品定价（financial derivatives pricing），并且论文的核心技术（如深度神经网络和偏微分方程求解）是衍生品定价中的关键工具。虽然论文也提到了其他应用领域，但金融衍生品定价是其明确指出的应用之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:14.583591"
+}

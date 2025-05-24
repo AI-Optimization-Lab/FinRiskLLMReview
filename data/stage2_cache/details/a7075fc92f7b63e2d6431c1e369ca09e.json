@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 439,
+    "title": "A weighted information-gain measure for ordinal classification trees",
+    "abstract": "This paper proposes an ordinal decision-tree model, which applies a new weighted information-gain ratio (WIGR) measure for selecting the classifying attributes in the tree. The proposed measure utilizes a weighted entropy function that is defined proportionally to the value deviation of different classes and thus reflects the consequences of the magnitude of potential classification errors. The WIGR can be used to select the classifying attributes in decision trees in a manner that reduces risks. The proposed ordinal decision tree is found effective for classification problems in which the class variable exhibits some form of ordinal ordering, and where dependencies between the attributes and the class value can be nonmonotonic. In a series of experiments based on publicly-known datasets, it is shown that the proposed ordinal decision tree outperforms its non-ordinal counterparts that utilize traditional entropy measures. The proposed model can be used as a part of an expert system for ordinal classification applications, such as health-state monitoring, portfolio investments classification and performance evaluation of service systems. (C) 2020 Elsevier Ltd. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7f93227a79acc7f271b62af3bc5b491f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.627848"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中提到该模型可以用于'portfolio investments classification'，即投资组合分类，这属于投资组合管理的范畴。虽然论文的主要技术是通用的序数决策树模型，但其明确提到了在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中提到该模型可以用于'portfolio investments classification'，即投资组合分类，这属于投资组合管理的范畴。虽然论文的主要技术是通用的序数决策树模型，但其明确提到了在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:42.533853"
+}

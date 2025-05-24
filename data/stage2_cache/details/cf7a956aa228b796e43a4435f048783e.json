@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1342,
+    "title": "A Sharpe Ratio Based Reward Scheme in Deep Reinforcement Learning for Financial Trading",
+    "abstract": "Deep Reinforcement Learning (DRL) is increasingly becoming popular for developing financial trading agents. Nevertheless, the nature of financial markets to be extremely volatile, in addition to the difficulty of optimizing DRL agents, lead the agents to make more risky trades. As a result, while agents can earn higher profits, they are also vulnerable to significant losses. To evaluate the performance of the financial trading agent, the Profit and Loss (PnL) is usually calculated, which is also used as the agent's reward. However, in addition to PnL, traders often take into account other aspects of the agent's behavior, such as the risk associated with the positions opened by the agent. A widely used metric that captures the risk-related component of an agent's performance is the Sharpe ratio, which is used to evaluate a portfolio's risk-adjusted performance. In this paper, we propose a Sharpe ratio-based reward shaping approach that enables optimizing DRL agents by taking into account both PnL and the Sharpe ratio, with the objective to improve the overall performance of the portfolio, by mitigating the risk that occurs in the agent's decisions. The effectiveness of the proposed method to increase different performance metrics is illustrated using a dataset provided by Speedlab AG, which contains 14 instruments",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "33817b34179b7f08f146aec68c0eaaaa",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:44.821570"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习（DRL）和夏普比率（Sharpe ratio）来优化金融交易代理的行为，旨在通过考虑收益和风险来改善投资组合的整体表现。这直接关联到投资组合管理的领域，因为它关注的是如何通过风险调整后的收益来优化投资决策。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习（DRL）和夏普比率（Sharpe ratio）来优化金融交易代理的行为，旨在通过考虑收益和风险来改善投资组合的整体表现。这直接关联到投资组合管理的领域，因为它关注的是如何通过风险调整后的收益来优化投资决策。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:47.565866"
+}

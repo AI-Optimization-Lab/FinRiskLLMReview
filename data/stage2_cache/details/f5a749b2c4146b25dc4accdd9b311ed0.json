@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 6895,
+    "title": "Modelling spatial dependence for Loss Given Default in peer-to-peer lending",
+    "abstract": "We propose estimating a model for Loss Given Default (LGD) that allows accounting for spatial dependence between peer-to-peer (P2P) loans. We suggest the LGD two-stage approach with the Gaussian Markov Random Field model in each stage to represent the spatial variations. In the first stage, we predict total loss and no loss using two binary additive models with a flexible parametric link function given by the Generalised Extreme Value (GEV) distribution. In the second stage, we consider a beta regression in the Generalised Additive Model for Location Scale and Shape (GAMLSS) framework. The main advantage of our proposal is to provide accurate calibrated region-specific LGD estimates. We apply this model to a comprehensive dataset on P2P loans provided by Lending Club. The GEV link function better fits the data than the logit function in the first stage. The most important finding for financial institutions' risk assessment is that including spatial effects and using a two-stage approach provide conservative estimates of the expected shortfall.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1fddacb903c3548e6186f335c648813a",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T03:02:41.284457"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on modeling Loss Given Default (LGD) with spatial dependence for peer-to-peer loans, which is a key aspect of credit risk assessment in financial risk management. The study aims to provide accurate region-specific LGD estimates and conservative expected shortfall estimates, both of which are crucial for financial institutions' risk assessment practices.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on modeling Loss Given Default (LGD) with spatial dependence for peer-to-peer loans, which is a key aspect of credit risk assessment in financial risk management. The study aims to provide accurate region-specific LGD estimates and conservative expected shortfall estimates, both of which are crucial for financial institutions' risk assessment practices.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:07.226130"
+}

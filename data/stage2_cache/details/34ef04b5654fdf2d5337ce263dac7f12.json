@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1091,
+    "title": "Detection of Ponzi scheme on Ethereum using machine learning algorithms",
+    "abstract": "Security threats posed by Ponzi schemes present a considerably higher risk compared to many other online crimes. These fraudulent online businesses, including Ponzi schemes, have witnessed rapid growth and emerged as major threats in societies like Nigeria, particularly due to the high poverty rate. Many individuals have fallen victim to these scams, resulting in significant financial losses. Despite efforts to detect Ponzi schemes using various methods, including machine learning (ML), current techniques still face challenges, such as deficient datasets, reliance on transaction records, and limited accuracy. To address the negative impact of Ponzi schemes, this paper proposes a novel approach focusing on detecting Ponzi schemes on Ethereum using ML algorithms like random forest (RF), neural network (NN), and K-nearest neighbor (KNN). Over 20,000 datasets related to Ethereum transaction networks were gathered from Kaggle and preprocessed for training the ML models. After evaluating and comparing the three models, RF demonstrated the best performance with an accuracy of 0.94, a class-score of 0.8833, and an overall-score of 0.96667. Comparative evaluations with previous models indicate that our model achieves high accuracy. Moreover, this innovative work successfully detects key fraud features within the Ponzi scheme dataset, reducing the number of features from 70 to only 10 while maintaining a high level of accuracy. The main strength of this proposed method lies in its ability to detect clever Ponzi schemes from their inception, offering valuable insights to combat these financial threats effectively.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c1284c5cb8c33a49d9f48c9bfa2eb0f4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "random forest",
+      "K-nearest neighbor",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.428182"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习算法检测以太坊上的庞氏骗局，这属于识别和防范金融欺诈行为，是金融风险管理的重要组成部分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习算法检测以太坊上的庞氏骗局，这属于识别和防范金融欺诈行为，是金融风险管理的重要组成部分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:01.914278"
+}

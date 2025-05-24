@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1082,
+    "title": "Portfolio Selection: A Statistical Learning Approach",
+    "abstract": "We propose a new portfolio optimization framework, partially egalitarian portfolio selection (PEPS). Inspired by the celebrated LASSO regression, we regularize the mean-variance portfolio optimization by adding two regularizing terms that essentially zero out portfolio weights of some of the assets in the portfolio and select and shrink the portfolio weights of the remaining assets towards the equal weights to hedge against parameter estimation risk. We solve our PEPS formulations by applying recent advances in mixed integer optimization that allow us to tackle large-scale portfolio problems. We also build a predictive regression model for expected return using two cross-sectional factors, the short-term reversal factor and the medium-term momentum factor, that are shown to be the more significant predictive factors among the hundreds of factors tested in the empirical finance literature. We then incorporate our predictive regression into PEPS by replacing the historical mean. We test our PEPS formulations against an array of classical portfolio optimization strategies on a number of datasets in the US equity markets. The PEPS portfolios enhanced with the predictive regression estimates of the expected stock returns exhibit the highest out-of-sample Sharpe ratios in all instances.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f6ce802091b2313ec270cd0ba054aa5b",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.960031"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种新的投资组合优化框架（PEPS），并讨论了如何通过统计学习方法优化投资组合权重，以及如何利用预测回归模型来估计预期收益。这些内容直接涉及投资组合管理的核心问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种新的投资组合优化框架（PEPS），并讨论了如何通过统计学习方法优化投资组合权重，以及如何利用预测回归模型来估计预期收益。这些内容直接涉及投资组合管理的核心问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:44.479012"
+}

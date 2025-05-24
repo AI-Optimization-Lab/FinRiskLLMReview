@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 60,
+    "title": "Model risk for European-style stock index options",
+    "abstract": "In empirical modeling, there have been two strands for pricing in the options literature, namely the parametric and nonparametric models. Often, the support for the nonparametric methods is based on a benchmark such as the Black-Scholes (BS) model with constant volatility. In this paper, we study the stochastic volatility (SV) and stochastic volatility random jump (SVJ) models as parametric benchmarks against feedforward neural network (FNN) models, a class of neural network models. Our choice for FNN models is due to their well-studied universal approximation properties of an unknown function and its partial derivatives. Since the partial derivatives of an option pricing formula are risk pricing tools, an accurate estimation of the unknown option pricing function is essential for pricing and hedging. Our findings indicate that FNN models offer themselves as robust option pricing tools, over their sophisticated parametric counterparts in predictive settings. There are two routes to explain the superiority of FNN models over the parametric models in forecast settings. These are normormality of return distributions and adaptive learning.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "89a04c672d794e0b4fbd179a8d801db7",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.833652"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用前馈神经网络（FNN）模型对欧式股票指数期权进行定价，并与传统的参数化模型（如随机波动率模型）进行比较。论文明确提到期权定价公式的偏导数作为风险定价工具的重要性，这表明其主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用前馈神经网络（FNN）模型对欧式股票指数期权进行定价，并与传统的参数化模型（如随机波动率模型）进行比较。论文明确提到期权定价公式的偏导数作为风险定价工具的重要性，这表明其主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:04.492338"
+}

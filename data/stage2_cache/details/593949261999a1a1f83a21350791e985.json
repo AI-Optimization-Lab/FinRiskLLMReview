@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 48,
+    "title": "Meshless methods for American option pricing through Physics-Informed Neural Networks",
+    "abstract": "Nowadays, Deep Learning is drastically revolutionizing financial research as well as industry. Many methods have been discussed in the last few years, mainly related to option pricing. In fact, traditional approaches such as Monte Carlo simulation or finite difference methods are seriously harmed by multi-dimensional underlying and path dependency. Thus, dealing with particular contracts such as American multi-asset options is still rough. This paper addresses such a problem by pricing said put options with a novel meshless methodology, named Physics-Informed Neural Networks (PINNs), based on Artificial Intelligence. PINN paradigm has been recently introduced in Deep Learning literature. It exploits the theoretical background of the universal approximation theorem for neural networks to solve Partial Differential Equations numerically. This Deep Learning meshless method incorporates the equation and its initial and boundary conditions thanks to a specially designed loss function. We develop a suitable PINN for the proposed problem by introducing an algorithmic trick for improving the convergence of the free boundary problem. Furthermore, the worthiness of the proposal is assessed by several experiments concerned with single and multi-asset options. Finally, a parametric model is built to benefit further studies of option value behaviour related to particular market conditions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "11852487469c236e903431d1af4ee323",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:54.926251"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用Physics-Informed Neural Networks (PINNs) 来解决美国多资产期权的定价问题，这直接属于衍生品定价领域。论文明确提到其目标是解决传统方法在处理多维和路径依赖期权时的困难，并通过实验验证了该方法在单资产和多资产期权定价中的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用Physics-Informed Neural Networks (PINNs) 来解决美国多资产期权的定价问题，这直接属于衍生品定价领域。论文明确提到其目标是解决传统方法在处理多维和路径依赖期权时的困难，并通过实验验证了该方法在单资产和多资产期权定价中的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:35.524203"
+}

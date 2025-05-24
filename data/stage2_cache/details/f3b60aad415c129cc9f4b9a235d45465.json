@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 778,
+    "title": "Developing a hybrid system for stock selection and portfolio optimization with many-objective optimization based on deep learning and improved NSGA-III",
+    "abstract": "Portfolio management is a critical aspect of investment strategies, with the goal to balance the low-risk and high-return investments. Despite this, existing portfolios frequently overlook the integration of stock selection outcomes and underutilize data from listed companies, leading to suboptimal portfolio performance. Addressing these shortcomings, this paper introduces a hybrid system involving stock selection and portfolio optimization. In stock selection, the system employs a combination of convolutional neural network and bi-directional recurrent neural network to predict stock trends. This approach enables the identification of stocks likely to appreciate in value, setting the stage for their inclusion in the subsequent optimization process. For portfolio optimization, the study formulates a five-objective optimization problem that incorporates mean, variance, skewness, kurtosis, and distance-to-default as key considerations. To solve the manyobjective constrained optimization problem, an advanced strategy employing a static penalty function and an improved Non-dominated Sorting Genetic Algorithm III (NSGA-III) based on tent chaotic mapping is utilized. The efficacy of the proposed hybrid system is rigorously tested through three sets of ablation experiments alongside two discussions focused on its robustness and computational efficiency. The findings from these investigations reveal that the hybrid system outperforms traditional approaches, reducing risks and improving returns for investors.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0d142cc8c169843017489c192cf2ddc9",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:50.415160"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一个混合系统，用于股票选择和投资组合优化，旨在平衡低风险和高回报投资。论文明确提到其研究目标是改进投资组合的表现，并通过多目标优化问题（包括均值、方差、偏度、峰度和违约距离）来实现这一目标。因此，其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一个混合系统，用于股票选择和投资组合优化，旨在平衡低风险和高回报投资。论文明确提到其研究目标是改进投资组合的表现，并通过多目标优化问题（包括均值、方差、偏度、峰度和违约距离）来实现这一目标。因此，其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:52.749661"
+}

@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree",
+    "random forest"
+  ],
+  "explanations": {
+    "machine learning": "论文摘要中提到使用多种机器学习方法对预警模型进行训练，并最终选择了随机森林方法。",
+    "supervised learning": "构建预警模型需要训练数据，属于监督学习的范畴。",
+    "classification": "预警模型的输出是风险等级，属于分类问题。",
+    "decision tree": "随机森林是基于决策树的集成学习方法，论文中提到了使用随机森林方法。",
+    "random forest": "论文明确提到使用随机森林方法训练出最优的预警模型。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\", \"random forest\"],\n  \"explanations\": {\n    \"machine learning\": \"论文摘要中提到使用多种机器学习方法对预警模型进行训练，并最终选择了随机森林方法。\",\n    \"supervised learning\": \"构建预警模型需要训练数据，属于监督学习的范畴。\",\n    \"classification\": \"预警模型的输出是风险等级，属于分类问题。\",\n    \"decision tree\": \"随机森林是基于决策树的集成学习方法，论文中提到了使用随机森林方法。\",\n    \"random forest\": \"论文明确提到使用随机森林方法训练出最优的预警模型。\"\n  }\n}\n```"
+}

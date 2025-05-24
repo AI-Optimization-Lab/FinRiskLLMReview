@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1254,
+    "title": "Deep Robust Reinforcement Learning for Practical Algorithmic Trading",
+    "abstract": "In algorithmic trading, feature extraction and trading strategy design are two prominent challenges to acquire long-term profits. However, the previously proposed methods rely heavily on domain knowledge to extract handcrafted features and lack an effective way to dynamically adjust the trading strategy. With the recent breakthroughs of deep reinforcement learning (DRL), sequential real-world problems can be modeled and solved with a more human-like approach. In this paper, we propose a novel trading agent, based on deep reinforcement learning, to autonomously make trading decisions and gain profits in the dynamic financial markets. We extend the value-based deep Q-network (DQN) and the asynchronous advantage actor-critic (A3C) for better adapting to the trading market. Specifically, in order to automatically extract robust market representations and resolve the financial time series dependence, we utilize the stacked denoising autoencoders (SDAEs) and the long short-term memory (LSTM) as parts of the function approximator, respectively. Furthermore, we design several elaborate mechanisms to make the trading agent more practical to the real trading environment, such as position-controlled action and n-step reward. The experimental results show that our trading agent outperforms the baselines and achieves stable risk-adjusted returns in both the stock and the futures markets.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "16068c575d335cb504327c7514ea2756",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "autoencoder",
+      "denoising autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T02:00:30.649927"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习（DRL）来设计自动化的交易策略，旨在在动态金融市场中获得稳定的风险调整收益。这直接涉及投资组合管理中的交易决策和资产配置问题，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习（DRL）来设计自动化的交易策略，旨在在动态金融市场中获得稳定的风险调整收益。这直接涉及投资组合管理中的交易决策和资产配置问题，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:33.985998"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1696,
+    "title": "An application of two-stage quantile regression to insurance ratemaking",
+    "abstract": "Two-part models based on generalized linear models are widely used in insurance rate-making for predicting the expected loss. This paper explores an alternative method based on quantile regression which provides more information about the loss distribution and can be also used for insurance underwriting. Quantile regression allows estimating the aggregate claim cost quantiles of a policy given a number of covariates. To do so, a first stage is required, which involves fitting a logistic regression to estimate, for every policy, the probability of submitting at least one claim. The proposed methodology is illustrated using a portfolio of car insurance policies. This application shows that the results of the quantile regression are highly dependent on the claim probability estimates. The paper also examines an application of quantile regression to premium safety loading calculation, the so-called Quantile Premium Principle (QPP). We propose a premium calculation based on quantile regression which inherits the good properties of the quantiles. Using the same insurance portfolio data-set, we find that the QPP captures the riskiness of the policies better than the expected value premium principle.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "521b1f07f6204fd4e7c2c0e6062d338b",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:50.586034"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要探讨了在保险定价中的应用，特别是使用分位数回归来估计损失分布和计算保费安全附加。虽然涉及风险管理的一些概念，但其核心应用领域是保险而非上述特定的金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要探讨了在保险定价中的应用，特别是使用分位数回归来估计损失分布和计算保费安全附加。虽然涉及风险管理的一些概念，但其核心应用领域是保险而非上述特定的金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:15.865466"
+}

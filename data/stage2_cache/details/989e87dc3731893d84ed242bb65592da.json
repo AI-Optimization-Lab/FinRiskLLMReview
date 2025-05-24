@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 2209,
+    "title": "A WOA-CNN-BiLSTM-based multi-feature classification prediction model for smart grid financial markets",
+    "abstract": "Introduction: Smart grid financial market forecasting is an important topic in deep learning. The traditional LSTM network is widely used in time series forecasting because of its ability to model and forecast time series data. However, in long-term time series forecasting, the lack of historical data may lead to a decline in forecasting performance. This is a difficult problem for traditional LSTM networks to overcome.Methods: In this paper, we propose a new deep-learning model to address this problem. This WOA-CNN-BiLSTM model combines bidirectional long short-term memory network BiLSTM and convolution Advantages of Neural Network CNN. We replace the traditional LSTM network with a bidirectional long short-term memory network, BiLSTM, to exploit its ability in capturing long-term dependencies. It can capture long-term dependencies in time series and is bidirectional modelling. At the same time, we use a convolutional neural network (CNN) to extract features of time series data to better represent and capture patterns and regularity in the data. This method combining BiLSTM and CNN can learn the characteristics of time series data more comprehensively, thus improving the accuracy of prediction. Then,to further improve the performance of the CNN-BiLSTM model, we optimize the model using the whale algorithm WOA. This algorithm is a new optimization algorithm, which has good global search ability and convergence speed, and can complete the optimization of the model in a short time.Results: Optimizing the CNN-BiLSTM model through the WOA algorithm can reduce its calculation and training speed, improve the prediction accuracy of the smart grid financial market, and improve the prediction ability of the smart grid financial market. Experimental results show that our proposed CNN-BiLSTM model has better prediction accuracy than other models and can effectively deal with the problem of missing historical data in long-term sequence forecasting.Discussion: This provides necessary help for the development of smart grid financial markets and risk management services, and can promote the development and growth of the smart grid industry. Our research results are of great significance in deep learning, and provide an effective method and idea for solving the financial market forecasting problem of smart grid.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "afe96f5272ca6fc174555515baf0a1be",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "classification",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:17.469268"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种基于深度学习的模型用于智能电网金融市场的预测，旨在提高预测准确性并处理历史数据缺失的问题。虽然论文没有明确提到衍生品定价或投资组合管理，但其对金融市场的预测能力可以间接应用于金融风险管理领域，帮助识别和管理潜在的市场风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种基于深度学习的模型用于智能电网金融市场的预测，旨在提高预测准确性并处理历史数据缺失的问题。虽然论文没有明确提到衍生品定价或投资组合管理，但其对金融市场的预测能力可以间接应用于金融风险管理领域，帮助识别和管理潜在的市场风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:42.064616"
+}

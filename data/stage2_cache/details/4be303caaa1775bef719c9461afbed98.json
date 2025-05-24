@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 227,
+    "title": "MQLV: Optimal Policy of Money Management in Retail Banking with Q-Learning",
+    "abstract": "Reinforcement learning has become one of the best approach to train a computer game emulator capable of human level performance. In a reinforcement learning approach, an optimal value function is learned across a set of actions, or decisions, that leads to a set of states giving different rewards, with the objective to maximize the overall reward. A policy assigns to each state-action pairs an expected return. We call an optimal policy a policy for which the value function is optimal. QLBS, Q-Learner in the Black-Scholes(-Merton) Worlds, applies the reinforcement learning concepts, and noticeably, the popular Q-learning algorithm, to the financial stochastic model of Black, Scholes and Merton. It is, however, specifically optimized for the geometric Brownian motion and the vanilla options. Its range of application is, therefore, limited to vanilla option pricing within the financial markets. We propose MQLV, Modified Q-Learner for the Vasicek model, a new reinforcement learning approach that determines the optimal policy of money management based on the aggregated financial transactions of the clients. It unlocks new frontiers to establish personalized credit card limits or bank loan applications, targeting the retail banking industry. MQLV extends the simulation to mean reverting stochastic diffusion processes and it uses a digital function, a Heaviside step function expressed in its discrete form, to estimate the probability of a future event such as a payment default. In our experiments, we first show the similarities between a set of historical financial transactions and Vasicek generated transactions and, then, we underline the potential of MQLV on generated Monte Carlo simulations. Finally, MQLV is the first Q-learning Vasicek-based methodology addressing transparent decision making processes in retail banking.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "f8a0335c943edc348e09841372460ea8",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "Q-learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.194617"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种基于强化学习的MQLV方法，用于零售银行业务中的最优资金管理策略，特别是针对个性化信用卡限额和银行贷款申请。这主要涉及信用风险的管理和决策，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种基于强化学习的MQLV方法，用于零售银行业务中的最优资金管理策略，特别是针对个性化信用卡限额和银行贷款申请。这主要涉及信用风险的管理和决策，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:02.911240"
+}

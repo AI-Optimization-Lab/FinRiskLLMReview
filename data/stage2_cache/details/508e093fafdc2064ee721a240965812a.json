@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5439,
+    "title": "Quantile regression for modelling distributions of profit and loss",
+    "abstract": "Quantile regression is applied in two retail credit risk assessment exercises exemplifying the power of the technique to account for the diverse distributions that arise in the financial service industry. The first application is to predict loss given default for secured loans, in particular retail mortgages. This is an asymmetric process since where the security (such as a property) value exceeds the loan balance the banks cannot retain the profit, whereas when the security does not cover the value of the defaulting loan then the bank realises a loss. In the light of this asymmetry it becomes apparent that estimating the low tail of the house value is much more relevant for estimating likely losses than estimates of the average value where in most cases no loss is realised. In our application quantile regression is used to estimate the distribution of property values realised on repossession that is then used to calculate loss given default estimates. An illustration is given for a mortgage portfolio from a European mortgage lender. A second application is to revenue modelling. While credit issuing organisations have access to large databases, they also build models to assess the likely effects of new strategies for which, by definition, there is no existing data. Certain strategies are aimed at increasing the revenue stream or decreasing the risk in specific market segments. Using a simple artificial revenue model, quantile regression is applied to elucidate the details of subsets of accounts, such as the least profitable, as predicted from their covariates. The application uses standard linear and kernel smoothed quantile regression. (c) 2006 Elsevier B.V. All rights reserved.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2c752a004e7d0f2b17b826559def8e5a",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:47:43.026058"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on applying quantile regression to model loss given default for secured loans and revenue modeling in retail credit risk assessment, which are key aspects of financial risk management in the banking sector.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on applying quantile regression to model loss given default for secured loans and revenue modeling in retail credit risk assessment, which are key aspects of financial risk management in the banking sector.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:31.451217"
+}

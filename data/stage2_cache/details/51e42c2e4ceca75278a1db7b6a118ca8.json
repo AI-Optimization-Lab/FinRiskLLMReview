@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2648,
+    "title": "Statistical Evaluation of Deep Learning Models for Stock Return Forecasting",
+    "abstract": "Artificial intelligence applications, including algorithmic training, portfolio allocation, and stock return forecasting in the financial industry, are rapidly developing research fields. Particularly, the forecasting of stock return has received considerable attention. Selecting the most promising model to forecast stock return has always been the most prominent task in the literature. Several studies have reported the prediction ability of recurrent neural network (RNN) models, whereas only a few studies have rigorously evaluated the prediction performance of temporal convolution networks (TCNs) for stock return forecasting settings. Moreover, although most studies are focused on comparing the performance of deep learning models at a single horizon forecasting, the multi-horizon forecasting applications of stock return have been studied only limitedly. In this study, we aim to evaluate the forecasting performance of state-of-the-art deep learning models at multi-horizon forecasting paths in stock return forecasting tasks. Specifically, we focus on TCNs, RNNs, long short-term memory, and gated recurrent unit models in terms of forecasting performance and direction accuracy. Our evaluation framework based on the model confidence set shows which model(s) is (are) better, with statistical significance, for forecasting stock return at multi-horizon forecasting. The empirical results assert that the TCN model has the best out-of-sample forecasting performance at all forecasting horizons on three financial datasets compared to other models.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "91fbfa9203dbde9da193f04d454fe095",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.866664"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型进行股票收益预测，这直接关联到投资组合管理中的资产选择和配置决策。虽然论文没有直接讨论投资组合构建，但股票收益预测是投资组合管理的关键输入之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型进行股票收益预测，这直接关联到投资组合管理中的资产选择和配置决策。虽然论文没有直接讨论投资组合构建，但股票收益预测是投资组合管理的关键输入之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:38.387088"
+}

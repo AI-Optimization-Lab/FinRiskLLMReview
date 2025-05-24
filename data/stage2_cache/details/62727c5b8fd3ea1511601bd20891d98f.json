@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1339,
+    "title": "NOTE: non-parametric oversampling technique for explainable credit scoring",
+    "abstract": "Credit scoring models are critical for financial institutions to assess borrower risk and maintain profitability. Although machine learning models have improved credit scoring accuracy, imbalanced class distributions remain a major challenge. The widely used Synthetic Minority Oversampling TEchnique (SMOTE) struggles with high-dimensional, non-linear data and may introduce noise through class overlap. Generative Adversarial Networks (GANs) have emerged as an alternative, offering the ability to model complex data distributions. Conditional Wasserstein GANs (cWGANs) have shown promise in handling both numerical and categorical features in credit scoring datasets. However, research on extracting latent features from non-linear data and improving model explainability remains limited. To address these challenges, this paper introduces the Non-parametric Oversampling Technique for Explainable credit scoring (NOTE). The NOTE offers a unified approach that integrates a Non-parametric Stacked Autoencoder (NSA) for capturing non-linear latent features, cWGAN for oversampling the minority class, and a classification process designed to enhance explainability. The experimental results demonstrate that NOTE surpasses state-of-the-art oversampling techniques by improving classification accuracy and model stability, particularly in non-linear and imbalanced credit scoring datasets, while also enhancing the explainability of the results.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d4f88f93ce4f156795c1ffe90056001a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:44.803080"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术NOTE旨在解决信用评分中的类别不平衡问题，并提高模型的可解释性。信用评分是金融机构评估借款人风险的关键工具，直接应用于金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术NOTE旨在解决信用评分中的类别不平衡问题，并提高模型的可解释性。信用评分是金融机构评估借款人风险的关键工具，直接应用于金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:47.820610"
+}

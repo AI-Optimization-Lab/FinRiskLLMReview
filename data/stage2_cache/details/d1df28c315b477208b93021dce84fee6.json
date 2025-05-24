@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2981,
+    "title": "A methodology for outlier detection in audit logs for financial transactions",
+    "abstract": "Database audit logs contain the information about database operations which are helpful to verify accuracy, lawfulness and to report risks. In financial systems, the audit logs should be monitored on continuous basis in order to detect and take action against any reasonably abnormal behavior. Outlier detection is a very important concept in the data mining which is useful in data analysis. Nowadays, a direct mapping can be found between the data outliers and the real world anomalies, and hence the outlier detection techniques can be applied to detect the abnormal activities in financial transactions. The purpose of the present study is to automate the process of abnormal activity detection and report generation. In the proposed framework, we will detect outliers based on rules and then we will apply Bayesian classification technique for abnormal activity risk classification. We will also generate user transaction profiles by obtaining user behavior according to historic transactions based on categorical or numerical attributes. Later we will monitor new transactions and will compare it against the corresponding user profile, in order to determine if the transaction is unusual. This framework will work on audit logs from a financial system, and thus will be useful for financial system auditors performing data analysis tasks.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4fdbf8146d2caca326f4744435c41bf3",
+    "relevant_keywords": [
+      "classification",
+      "supervised learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:21:19.231578"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是异常检测和风险分类，应用于金融交易审计日志中的异常行为监测，这属于金融风险管理中的操作风险监控范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是异常检测和风险分类，应用于金融交易审计日志中的异常行为监测，这属于金融风险管理中的操作风险监控范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:17.533448"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1034,
+    "title": "Constructing time-series momentum portfolios with deep multi-task learning",
+    "abstract": "A diversified risk-adjusted time-series momentum (TSMOM) portfolio can deliver substantial abnormal returns and offer some degree of tail risk protection during extreme market events. The performance of existing TSMOM strategies, however, relies not only on the quality of the momentum signal but also on the efficacy of the volatility estimator. Yet many of the existing studies have always considered these two factors to be independent. Inspired by recent progress in Multi-Task Learning (MTL), we present a new approach using MTL in a deep neural network architecture that jointly learns portfolio construction and various auxiliary tasks related to volatility, such as forecasting realized volatility as measured by different volatility estimators. Through backtesting from January 2000 to December 2020 on a diversified portfolio of continuous futures contracts, we demonstrate that even after accounting for transaction costs of up to 3 basis points, our approach outperforms existing TSMOM strategies. Moreover, experiments confirm that adding auxiliary tasks indeed boosts the portfolio's performance. These findings demonstrate that MTL can be a powerful tool in finance.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3bf2753a82aea621c0938813f781511f",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "hidden layer",
+      "multi-task learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.839737"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用多任务学习（MTL）在深度神经网络架构中联合学习投资组合构建和与波动率相关的辅助任务，旨在优化时间序列动量（TSMOM）投资组合的表现。这直接涉及投资组合的构建和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用多任务学习（MTL）在深度神经网络架构中联合学习投资组合构建和与波动率相关的辅助任务，旨在优化时间序列动量（TSMOM）投资组合的表现。这直接涉及投资组合的构建和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:16.558133"
+}

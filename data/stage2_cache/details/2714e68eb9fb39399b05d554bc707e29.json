@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3641,
+    "title": "A self tuning model for risk estimation",
+    "abstract": "Credit scoring models often use linear or logistic regression to investigate the relation between observed characteristics and credit ratings. The basic relation is, however, a form of Bayes' theorem. This paper proposes a model in which estimation techniques from hidden Markov models are adapted to evaluate the parameters of a risk profile. The risk being estimated might be financial, as in credit scoring, or alternatively whether an observed member of a population might represent some terrorist threat. (C) 2007 Elsevier Ltd. All rights reserved.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a48bdcc3adad73f3074d5fc95212a8da",
+    "relevant_keywords": [
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:28:29.363174"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种基于隐马尔可夫模型的风险评估方法，特别提到了信用评分这一金融风险管理中的关键应用。虽然论文也提到可能应用于非金融领域（如恐怖主义威胁评估），但其核心技术明显针对金融风险管理中的信用风险评估。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种基于隐马尔可夫模型的风险评估方法，特别提到了信用评分这一金融风险管理中的关键应用。虽然论文也提到可能应用于非金融领域（如恐怖主义威胁评估），但其核心技术明显针对金融风险管理中的信用风险评估。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:34.467896"
+}

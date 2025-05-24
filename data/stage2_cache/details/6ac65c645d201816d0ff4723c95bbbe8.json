@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 247,
+    "title": "Stratified linear systematic sampling based clustering approach for detection of financial risk group by mining of big data",
+    "abstract": "Risk analysis is one of the most essential business activities because it discovers unknown risks such as financial risk, recovery risk, investment risk, operational risk, credit risk, debit risk, and so on. Clustering is a data mining technique that uses data behavior and nature to discover unexpected risks in business data. In a big data setup, clustering algorithms encounter execution time and cluster quality-related challenges due to the primary attribute of big data. This study suggests a Stratified Systematic Sampling Extension (SSE) approach for risk analysis in big data mining using a single machine execution by clustering methodology. Sampling is a data reduction technique that saves computation time and improves cluster quality, scalability, and speed of the clustering algorithm. The proposed sampling plan first formulates the stratum by selecting the minimum variance dimension and then selects samples from each stratum using random linear systematic sampling. The clustering algorithm produces robust clusters in terms of risk and non-risk group with the help of sample data and extends the sample-based clustering results to final clustering results utilizing Euclidean distance. The performance of the SSE-based clustering algorithm has been compared to existing K-means and K-means ++ algorithms using Davies Bouldin score, Silhouette coefficient, Scattering Density between clusters Validity, Scattering Distance Validity and CPU time validation metrics on financial risk datasets. The experimental results demonstrate that the SSE-based clustering algorithm achieved better clustering objectives in terms of cluster compaction, separation, density, and variance while minimizing iterations, distance computation, data comparison, and computational time. The statistical analysis reveals that the proposed sampling plan attained statistical significance by employing the Friedman test.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "66efe942a774f8e9fb9aeab97b7103ec",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:48:30.783271"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on detecting financial risk groups through clustering techniques in big data, which is directly related to identifying and managing financial risks, a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on detecting financial risk groups through clustering techniques in big data, which is directly related to identifying and managing financial risks, a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:51.771511"
+}

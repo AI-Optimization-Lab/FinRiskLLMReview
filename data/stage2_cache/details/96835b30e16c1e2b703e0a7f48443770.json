@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1214,
+    "title": "Autoregressive DRL with Learned Intrinsic Rewards for Portfolio Optimisation",
+    "abstract": "The recent success of deep reinforcement learning (DRL) in sequential learning tasks involving high-dimensional state spaces has sparked the interest of the finance research community. In portfolio optimization, mainstream research often overlooks the important question of optimal reward design, in favor of algorithm design. In this work, we focus on the former question, exploring different external reward functions in combination with reward-transforming internal systems. We put forth a novel strategy that combines two DRL frameworks: learned intrinsic rewards and autoregressive architectures, allowing individual intrinsic rewards to be learned for each dimension of the action space. We back-test each strategy using real financial data of 30 Dow Jones stocks over multiple years, and demonstrate that learned individual intrinsic rewards lead to the best performance that is robust across different training objectives.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "863b3dcdd28403e3cc45145d8ebec902",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:09.920078"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习（DRL）进行投资组合优化，通过探索不同的外部奖励函数和奖励转换内部系统来优化投资组合的表现。论文明确提到使用真实金融数据（30只道琼斯股票）进行回测，这直接指向投资组合管理的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习（DRL）进行投资组合优化，通过探索不同的外部奖励函数和奖励转换内部系统来优化投资组合的表现。论文明确提到使用真实金融数据（30只道琼斯股票）进行回测，这直接指向投资组合管理的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:21.260422"
+}

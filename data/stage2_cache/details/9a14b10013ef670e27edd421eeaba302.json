@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 566,
+    "title": "Portfolio Insurance through Error-Correction Neural Networks",
+    "abstract": "Minimum-cost portfolio insurance (MCPI) is a well-known investment strategy that tries to limit the losses a portfolio may incur as stocks decrease in price without requiring the portfolio manager to sell those stocks. In this research, we define and study the time-varying MCPI problem as a time-varying linear programming problem. More precisely, using real-world datasets, three different error-correction neural networks are employed to address this financial time-varying linear programming problem in continuous-time. These neural network solvers are the zeroing neural network (ZNN), the linear-variational-inequality primal-dual neural network (LVI-PDNN), and the simplified LVI-PDNN (S-LVI-PDNN). The neural network solvers are tested using real-world data on portfolios of up to 20 stocks, and the results show that they are capable of solving the financial problem efficiently, in some cases more than five times faster than traditional methods, though their accuracy declines as the size of the portfolio increases. This demonstrates the speed and accuracy of neural network solvers, showing their superiority over traditional methods in moderate-size portfolios. To promote and contend the outcomes of this research, we created two MATLAB repositories, for the interested user, that are publicly accessible on GitHub.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7253343e2f20539c4081a0e885e590ae",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:01.319269"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用误差校正神经网络来解决最小成本投资组合保险（MCPI）问题，这是一种投资组合管理策略，旨在限制投资组合的潜在损失。论文明确提到这是针对投资组合管理的问题，并使用了实际股票组合数据进行测试。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用误差校正神经网络来解决最小成本投资组合保险（MCPI）问题，这是一种投资组合管理策略，旨在限制投资组合的潜在损失。论文明确提到这是针对投资组合管理的问题，并使用了实际股票组合数据进行测试。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:35.717123"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1300,
+    "title": "Lending Decision Model for Agricultural Sector in Thailand",
+    "abstract": "Loan contracts performance determines the profitability and stability of the financial institutions, and screening the loan applications is a key process in minimizing credit risk. Before making any credit decisions, credit analysis (the assessment of the financial history and financial backgrounds of the borrowers) should be completed as part of the screening process. Good borrowers with low credit risk would be granted a loan, while a high risk borrower would be denied. A good credit risk assessment assists financial institutions on loan pricing, determining the amount of credit, credit risk management, reduction of default risk and increase in debt repayment. The purpose of this paper is to develop a lending decision model (credit scoring) for the agricultural sector in Thailand. The data used in this study is from Bank of Agriculture and Agricultural Cooperative (BAAC), a major lender in Thailand agricultural sector. During the period of 2001 to 2003 a total of 16,560 agricultural loans were made available. The logistic regression and artificial neural networks (ANN) were used to identify critical factors in lending decision process in the agricultural sector and to predict the borrower's creditworthiness (probability of a good loan). The results of the logistic regression verify the importance of total farm asset value, capital turnover ratio (efficiency), and the length of bank-borrower relationship (duration) as important factors in determining the creditworthiness of the borrowers. The results show that a higher value of farm assets implies a higher creditworthiness, which lead to a higher probability of a good loan. However, the negative signs found on both capital turnover ratio and the length of bank-borrower relationship (duration), which contradict with the hypothesized signs, suggest that the borrower with a longer relationship with the bank and a higher gross income to total assets has a higher probability to default on debt repayment. The overall prediction accuracy of the logistic lending decision models is above 85% on both in-sample and out-of-sample forecast, and is higher than the probabilistic neural network (PNN) model on out-of-sample forecast. However, the neural network models can detect Type I error (accepting a bad loan as a good loan) more accurately than the logistic models. The costs of classifying a bad loan as a good loan (Type I error) are more significant than the costs of misclassifying a good loan as a bad loan (Type II error). The overall prediction accuracy is not completely reliable since it ignores the relative cost difference between Type I and Type II errors. Thus, when the expected loss of misclassification is computed and compared, the results indicate that the misclassification cost of the PNN model is the best model with the lowest misclassification costs. In summary, the empirical results found in this study support the use of PNN model in classifying and screening agricultural loan applications in Thailand.",
+    "year": 2005,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "352a3cd25750037e74202b66f16df9b3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.891898"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a lending decision model (credit scoring) to assess creditworthiness and minimize credit risk in the agricultural sector, which is a key aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a lending decision model (credit scoring) to assess creditworthiness and minimize credit risk in the agricultural sector, which is a key aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:51.143642"
+}

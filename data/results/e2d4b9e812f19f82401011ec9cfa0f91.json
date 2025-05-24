@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "neural network",
+    "deep learning"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning approaches to predict glaucoma risk.",
+    "supervised learning": "The study uses supervised learning techniques (penalized logistic regression, XGBoost, neural network) to classify patients based on labeled data (EHR diagnosis codes).",
+    "classification": "The models are evaluated using classification metrics like AUROC, indicating a classification task.",
+    "neural network": "The paper mentions the use of a fully connected neural network as one of the machine learning approaches.",
+    "deep learning": "The neural network approach falls under deep learning, and the paper concludes that deep learning models were successfully utilized."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"neural network\",\n    \"deep learning\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning approaches to predict glaucoma risk.\",\n    \"supervised learning\": \"The study uses supervised learning techniques (penalized logistic regression, XGBoost, neural network) to classify patients based on labeled data (EHR diagnosis codes).\",\n    \"classification\": \"The models are evaluated using classification metrics like AUROC, indicating a classification task.\",\n    \"neural network\": \"The paper mentions the use of a fully connected neural network as one of the machine learning approaches.\",\n    \"deep learning\": \"The neural network approach falls under deep learning, and the paper concludes that deep learning models were successfully utilized.\"\n  }\n}\n```"
+}

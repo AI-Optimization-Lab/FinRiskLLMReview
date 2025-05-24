@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2353,
+    "title": "Applying Machine Learning to use security oracles: a case study in virus and malware detection",
+    "abstract": "Machine Learning (ML) has a significant potential to enhance the security posture of an organization by improving threat detection and discovery. The growing quality and quantity of data through measurements creates opportunities in this context. However, when an organization does not have sufficient labeled data to make predictions, it can rely on third parties for expert advise. In this work, we present a real-world case study of a company offering security services to other businesses on top of its portfolio of internal security assets. The security provider adopts ML to learn when to cost-effectively invoke a third party service/oracle (i.e. VirusTotal), first to boost its own detection rate in order to protect its customers, and second to obtain new ground truth to further optimize its future oracle use, all under fixed query budget constraints. While the decision making of the ML system was very successful in terms of avoiding false positives and false negatives, we nonetheless identified several security challenges when adopting ML for a cost-effective use of security oracles. We evaluate our ML solution on real data, elicit various lessons learned about the increased attack surface when using ML in security applications, and identify countermeasures to secure this ML pipeline.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9eea067b496a660a98d08e3fa4b285f4",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:10.672887"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究机器学习在安全领域的应用，特别是病毒和恶意软件检测，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究机器学习在安全领域的应用，特别是病毒和恶意软件检测，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:30.623915"
+}

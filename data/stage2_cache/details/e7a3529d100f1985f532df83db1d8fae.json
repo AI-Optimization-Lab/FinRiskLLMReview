@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 384,
+    "title": "Probabilistic machine learning for local volatility",
+    "abstract": "The local volatility model is widely used for pricing and hedging financial derivatives. While its main appeal is its capability of reproducing any given surface of observed option prices - it provides a perfect fit - the essential component is a latent function that can be uniquely determined only in the limit of infinite data. To (re)construct this function, numerous calibration methods have been suggested that involve steps of interpolation and extrapolation, most often of parametric form and with point-estimate representations. We use probabilistic machine learning to look at the calibration problem in a probabilistic framework based on Gaussian processes. This immediately gives a way of encoding prior beliefs about the local volatility function and a hypothesis model that is highly flexible yet not prone to overfitting. Besides providing a method for calibrating a (range of) point estimate(s), we draw posterior inference from the distribution over local volatility. This leads to a better understanding of uncertainty associated with the model in general, and with the calibration in particular. Further, we infer dynamical properties of local volatility by augmenting the hypothesis space with a time dimension. Ideally, this provides predictive distributions not only locally, but also for entire surfaces forward in time. We apply our approach to S&P 500 market data.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "4e1ebc127427ef68114f9484dce1532d",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:13.205419"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用概率机器学习方法来校准局部波动率模型，该模型主要用于金融衍生品的定价和对冲。论文明确提到局部波动率模型广泛用于定价和对冲金融衍生品，并且研究目标是改进校准方法以更好地理解不确定性，这直接关联到衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用概率机器学习方法来校准局部波动率模型，该模型主要用于金融衍生品的定价和对冲。论文明确提到局部波动率模型广泛用于定价和对冲金融衍生品，并且研究目标是改进校准方法以更好地理解不确定性，这直接关联到衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:12.519664"
+}

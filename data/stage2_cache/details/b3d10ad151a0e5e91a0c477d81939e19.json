@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2143,
+    "title": "Forecasting realized volatility using deep learning quantile function",
+    "abstract": "The accurate prediction of realized volatility is an essential component of effective investment strategies. Existing studies have often focused on modeling selective features of intraday return series, overlooking the comprehensive information embedded within them due to challenges such as microstructure noise and the complexity of handling numerous data points. To address these limitations, this paper proposes a novel deep learning quantile function (DLQF) framework that directly leverages intraday return series to forecast realized volatility. The proposed model integrates a Bi-LSTM network to capture the long memory of realized volatility and a quantile function implemented as a deep neural network to extract rich information from intraday returns. A loss function based on Lp distance measures is defined to estimate the probabilistic distribution of intraday returns, enabling both intraday return prediction and realized volatility estimation. Empirical results demonstrate that DLQF outperforms traditional benchmarks across major ETFs, including SPY, DIA, and QQQ, which represent the S&P 500, Dow Jones Industrial Average, and Nasdaq 100, respectively. This model offers significant potential for applications in portfolio optimization, option pricing, and risk management.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5dd8f6e215a8716653307dd1b8cc27aa",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:36.610551"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management",
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文提出的DLQF框架直接用于预测已实现波动率，这在金融风险管理中至关重要。同时，论文明确提到该模型在投资组合优化和期权定价中的应用潜力，因此也涉及投资组合管理和衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\", \"衍生品定价\"],\n  \"justification\": \"该论文提出的DLQF框架直接用于预测已实现波动率，这在金融风险管理中至关重要。同时，论文明确提到该模型在投资组合优化和期权定价中的应用潜力，因此也涉及投资组合管理和衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:16.026768"
+}

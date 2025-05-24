@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 812,
+    "title": "Intelligent option portfolio model with perspective of shadow price and risk-free profit",
+    "abstract": "Since Markowitz proposed modern portfolio theory, portfolio optimization has been being a classic topic in financial engineering. Although it is generally accepted that options help to improve the market, there is still an improvement for the portrayal of their unique properties in portfolio problems. In this paper, an intelligent option portfolio model is developed that allows selling options contracts to earn option fees and considers the high leverage of options in the market. Deep learning methods are used to predict the forward price of the underlying asset, making the model smarter. It can find an optimal option portfolio that maximizes the final wealth among the call and put options with multiple strike prices. We use the duality theory to analyze the marginal contribution of initial assets, risk tolerance limit, and portfolio leverage limit for the final wealth. The leverage limit of the option portfolio has a significant impact on the return. To satisfy the investors with different risk preferences, we also give the conditions for the option portfolio to gain a risk-free return and replace the Conditional Value-at-Risk. Numerical experiments demonstrate that the intelligent option portfolio model obtains a satisfactory out-of-sample return, which is significantly positively correlated with the volatility of the underlying asset and negatively correlated with the forecast error of the forward price. The risk- free option model is effective in achieving the goal of no drawdown and gaining satisfactory returns. Investors can adjust the balance point between returns and risks according to their risk preference.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "928dd4f669cb155b2ec70fda5f711d33",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:44.501880"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是开发一个智能期权组合模型，旨在通过卖出期权合约获取期权费用，并考虑期权的高杠杆特性，以最大化最终财富。论文还讨论了如何根据投资者的风险偏好调整收益与风险之间的平衡点，这明显属于投资组合管理的范畴。虽然论文提到了使用深度学习方法来预测标的资产的远期价格，但这主要是为了支持投资组合的优化，而不是直接涉及衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是开发一个智能期权组合模型，旨在通过卖出期权合约获取期权费用，并考虑期权的高杠杆特性，以最大化最终财富。论文还讨论了如何根据投资者的风险偏好调整收益与风险之间的平衡点，这明显属于投资组合管理的范畴。虽然论文提到了使用深度学习方法来预测标的资产的远期价格，但这主要是为了支持投资组合的优化，而不是直接涉及衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:01.733253"
+}

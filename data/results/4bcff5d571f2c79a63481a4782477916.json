@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "unsupervised learning",
+    "clustering"
+  ],
+  "explanations": {
+    "machine learning": "论文摘要明确提到利用机器学习算法自动识别异常波动，属于机器学习的研究范畴。",
+    "unsupervised learning": "论文使用了无监督机器学习算法（LOF和IF算法）来识别异常波动，属于无监督学习。",
+    "clustering": "LOF（Local Outlier Factor）和IF（Isolation Forest）算法通常用于异常检测，可以视为聚类或密度估计的一种应用。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"unsupervised learning\", \"clustering\"],\n  \"explanations\": {\n    \"machine learning\": \"论文摘要明确提到利用机器学习算法自动识别异常波动，属于机器学习的研究范畴。\",\n    \"unsupervised learning\": \"论文使用了无监督机器学习算法（LOF和IF算法）来识别异常波动，属于无监督学习。\",\n    \"clustering\": \"LOF（Local Outlier Factor）和IF（Isolation Forest）算法通常用于异常检测，可以视为聚类或密度估计的一种应用。\"\n  }\n}\n```"
+}

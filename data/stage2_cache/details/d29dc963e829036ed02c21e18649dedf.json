@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 478,
+    "title": "Optimized polycystic ovarian disease prognosis and classification using AI based computational approaches on multi-modality data",
+    "abstract": "Polycystic Ovarian Disease or Polycystic Ovary Syndrome (PCOS) is becoming increasingly communal among women, owing to poor lifestyle choices. According to the research conducted by National Institutes of Health, it has been observe that PCOS, an endocrine condition common in women of childbearing age, has become a significant contributing factor to infertility. Ovarian abnormalities brought on by PCOS carry a high risk of miscarriage, infertility, cardiac problems, diabetes, uterine cancer, etc. Ovarian cysts, obesity, menstrual irregularities, elevated amounts of male hormones, acne vulgaris, hair loss, and hirsutism are some of the symptoms of PCOS. It is not easy to determine PCOS because of its different combinations of symptoms in different women and various criteria needed for diagnosis. Taking biochemical tests and ovary scanning is a time-consuming process and the financial expenses have become a hardship to the patients. Thus, early prognosis of PCOS is crucial to avoid infertility. The goal of the proposed work is to analyse PCOS symptoms based on clinical data for early diagnosis and to classify into PCOS affected or not. To achieve this objective, clinical features dataset and ultrasound imaging dataset from Kaggle is utilized. Initially 541 instances of 45 clinical features such as testosterone, hirsutism, family history, BMI, fast food, menstrual disorder, risk etc. are considered and correlation-based feature extraction method is applied to this dataset which results in 17 features. The extracted features are applied to various machine learning algorithms such as Logistic Regression, Na & iuml;ve Bayes and Support Vector Machine. The performance of each method is evaluated based on accuracy, precision, recall, F1-score and the result shows that among three models, Support Vector Machine model achieved high accuracy of 94.44%. In addition to this, 3856 ultrasound images are analysed by CNN based deep learning algorithm and VGG16 transfer learning algorithm. The performance of these models is evaluated using training accuracy, loss and validation accuracy, loss and the result depicts that VGG16 outperforms than CNN model with validation accuracy of 98.29%.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "28d158cb0f6531f3422f4be89173820f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:51:31.233601"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用机器学习和深度学习技术对多囊卵巢综合征（PCOS）进行早期诊断和分类，其核心技术和应用场景属于医疗健康领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用机器学习和深度学习技术对多囊卵巢综合征（PCOS）进行早期诊断和分类，其核心技术和应用场景属于医疗健康领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:38.990536"
+}

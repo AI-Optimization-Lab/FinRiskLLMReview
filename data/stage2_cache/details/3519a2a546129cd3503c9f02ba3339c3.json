@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 6,
+    "title": "基于LSTM和DDPG的股票交易决策算法",
+    "abstract": "随着人工智能应用的发展，在动荡多变的金融市场中帮助投资者获得可观收益的最优自动股票交易策略成为目前的研究热点.因此，提出了一种股票交易决策算法LSTM-DDPG (LongShort-TermMemoryNetwork-Deep Deterministic Policy Gradient)，将擅于捕捉时间序列特征的LSTM网络融入擅于处理高维空间数据的DDPG算法，并加入Dropout操作来减少过拟合.为了更好地把握市场的动态变化，引入了股票市场中六种经典技术指标来拓展LSTMDDPG的状态空间维度.同时，在LSTM-DDPG上使用累计收益和夏普比率两种奖励函数，为投资者提供多种投资方案.为了验证提出的算法的有效性，将该算法应用在单只股票和股票投资组合两种交易任务中，两种投资任务的数据集均包含了美国市场和中国市场的数据.实验结果表明，在两种投资任务的国内外市场中，所提出的算法在累计回报、夏普比率、卡玛比率等多个评价指标上均有良好表现.",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "f628ac59b8c3cb190650c057eee33f84",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-14T22:20:52.534762"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术LSTM-DDPG算法被应用于股票交易决策，特别是在单只股票和股票投资组合的交易任务中，这直接关联到投资组合管理领域。论文还使用了累计收益和夏普比率等投资组合管理中常用的评价指标来验证算法的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术LSTM-DDPG算法被应用于股票交易决策，特别是在单只股票和股票投资组合的交易任务中，这直接关联到投资组合管理领域。论文还使用了累计收益和夏普比率等投资组合管理中常用的评价指标来验证算法的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:25.702256"
+}

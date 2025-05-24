@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 688,
+    "title": "An integrative extraction approach for index-tracking portfolio construction and forecasting under a deep learning framework",
+    "abstract": "This paper proposed a fusion model of the deep long- and short-term memory network named as deep LSTM and the stochastic dominance named as SD filter method to construct an index-tracking portfolio. We present a practical model that provides investors for portfolio construction using the deep LSTM model on extracting stock features and integrating the dimension deduction ability of the SD approach to the fusion model. Three main conclusions are drawn. First, deep learning in a supervised framework can work in portfolio management with our tuned model. Second, our deep LSTM model with an SD selection filter has enhanced the feature extraction ability to construct an index-tracking portfolio. Third, the linear activator, rectified linear unit, cooperated with SD methods can better reduce the estimation errors than the nonlinear activator in our deep LSTM model. These findings can implement on the portfolio construction in the neural network field. Additionally, entropy suggests to evaluate the learning effect of forecasting. The SD methods also are indicated for prosecuting in other neural network models to extract features of time series data, like transformer-based models.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c0a3f8a0915a6cce199945cefd212939",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "rectified linear unit",
+      "ReLU",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.559860"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和随机优势方法构建指数跟踪投资组合，这直接属于投资组合管理的范畴。论文明确提到其目标是帮助投资者进行投资组合构建，并通过实验验证了模型在投资组合管理中的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和随机优势方法构建指数跟踪投资组合，这直接属于投资组合管理的范畴。论文明确提到其目标是帮助投资者进行投资组合构建，并通过实验验证了模型在投资组合管理中的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:30.414758"
+}

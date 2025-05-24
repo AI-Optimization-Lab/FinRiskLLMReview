@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 24,
+    "title": "基于深度学习的收益率预测与投资组合模型",
+    "abstract": "在传统投资组合模型中，备选资产的预期超额收益率的预测误差将导致模型的投资绩效劣化。文章采用Transformer深度学习模型对备选资产的收益率进行预测，以提升预期收益率的准确度，进而提高投资组合模型的绩效。以中证800指数的成分股为备选资产，进行了72期投资，将实证结果与LSTM和SVR模型进行对比，验证了Transformer模型在提升预测准确度和提高投资组合模型绩效上的优越性。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "08aaaef24d92d7379f573973a2c299ed",
+    "relevant_keywords": [
+      "deep learning",
+      "attention mechanism",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T15:02:38.089577"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用Transformer深度学习模型预测资产收益率，目的是提高投资组合模型的绩效。实证研究也围绕投资组合的绩效展开，因此主要应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用Transformer深度学习模型预测资产收益率，目的是提高投资组合模型的绩效。实证研究也围绕投资组合的绩效展开，因此主要应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:45:13.833198"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 46,
+    "title": "Deep Learning-Based Numerical Methods for High-Dimensional Parabolic Partial Differential Equations and Backward Stochastic Differential Equations",
+    "abstract": "We study a new algorithm for solving parabolic partial differential equations (PDEs) and backward stochastic differential equations (BSDEs) in high dimension, which is based on an analogy between the BSDE and reinforcement learning with the gradient of the solution playing the role of the policy function, and the loss function given by the error between the prescribed terminal condition and the solution of the BSDE. The policy function is then approximated by a neural network, as is done in deep reinforcement learning. Numerical results using TensorFlow illustrate the efficiency and accuracy of the studied algorithm for several 100-dimensional nonlinear PDEs from physics and finance such as the Allen-Cahn equation, the Hamilton-Jacobi-Bellman equation, and a nonlinear pricing model for financial derivatives.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "e3f93b94170acd7d5259fb3cac039899",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.626011"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文提到其算法应用于金融衍生品的非线性定价模型，这直接关联到衍生品定价领域。虽然论文也涉及物理学中的方程，但明确提到了金融应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文提到其算法应用于金融衍生品的非线性定价模型，这直接关联到衍生品定价领域。虽然论文也涉及物理学中的方程，但明确提到了金融应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:05.903974"
+}

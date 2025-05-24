@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 958,
+    "title": "Belgian economic policy uncertainty index: Improvement through text mining",
+    "abstract": "Recently, the literature has measured economic policy uncertainty using news references, resulting in the frequently-mentioned 'Economic Policy Uncertainty index' (EPU). In the original setup, a news article is assumed to address policy uncertainty if it contains certain predefined keywords. We argue that the original setup is prone to measurement error, and propose an alternative methodology using text mining techniques. We compare the original method to modality annotation and support vector machines (SVM) classification in order to create an EPU index for Belgium. Validation on an out-of-sample test set speaks in favour of using an SVM classification model for constructing a news-based policy uncertainty indicator. The indicators are then used to forecast 10 macroeconomic and financial variables. The original method of measuring EPU does not have predictive power for any of these 10 variables. The SVM indicator has a higher predictive power and, notably, changes in the level of policy uncertainty during tumultuous periods of high uncertainty and risk can predict changes in the sovereign bond yield and spread, the credit default swap spread, and consumer confidence. (C) 2016 International Institute of Forecasters. Published by Elsevier B.V. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2e410e7ccc2725176726408ae10955de",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:49.760013"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究通过文本挖掘技术改进经济政策不确定性指数（EPU）的测量方法，并验证其在预测宏观经济和金融变量方面的有效性。虽然论文提到了预测主权债券收益率、信用违约互换利差等金融变量，但其核心技术是文本分类和预测模型的构建，并未直接涉及衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究通过文本挖掘技术改进经济政策不确定性指数（EPU）的测量方法，并验证其在预测宏观经济和金融变量方面的有效性。虽然论文提到了预测主权债券收益率、信用违约互换利差等金融变量，但其核心技术是文本分类和预测模型的构建，并未直接涉及衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:06.819809"
+}

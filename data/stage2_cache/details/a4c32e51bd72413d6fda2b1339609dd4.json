@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 464,
+    "title": "PSECMAC: A novel self-organizing multiresolution associative memory architecture",
+    "abstract": "The cerebellum constitutes a vital part of the human brain system that possesses the capability to model highly nonlinear physical dynamics. The cerebellar model articulation controller (CMAC) associative memory network is a computational model inspired by the neurophysiological properties of the cerebellum, and it has been widely used for control, optimization, and various pattern recognition tasks. However, the CMAC network's highly regularized computing structure often leads to the Following: 1) a suboptimal modeling accuracy, 2) poor memory utilization, and 3) the generalization-accuracy dilemma. Previous attempts to address these shortcomings have limited success and the proposed solutions often introduce a high operational complexity to the CMAC network. This paper presents a novel neurophysiologically inspired associative memory architecture named pseudo-self-evolving CMAC (PSECMAC) that nonuniformly allocates its computing cells to overcome the architectural deficiencies encountered by the CMAC network. The nonuniform memory allocation scheme employed by the proposed PSECMAC network is inspired by the cerebellar experience-driven synaptic plasticity phenomenon observed in the cerebellum, where significantly higher densities of synaptic connections are located in the frequently accessed regions. In the PSECMAC network, this biological synaptic plasticity phenomenon is emulated by employing a data-driven adaptive memory quantization scheme that defines its computing structure. A neighborhood-based activation process is subsequently implemented to facilitate the learning and computation of the PSECMAC structure. The training stability of the PSECMAC network is theoretically assured by the proof of its learning convergence, which will be presented in this paper. The performance of the proposed network is subsequently bench-marked against the CMAC network and several representative CMAC variants on three real-life applications, namely, pricing of currency futures option, banking failure classification, and modeling of the glucose-insulin dynamics of the human glucose metabolic process. The experimental results have strongly demonstrated the effectiveness of the PSECMAC network in addressing the architectural deficiencies of (he CMAC network by achieving significant improvements in the memory utilization, output accuracy its well as the generalization capability of the network.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "a6f5ad3cc35ad8949b6527c75c92d16e",
+    "relevant_keywords": [
+      "neural network",
+      "memory network",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:32:30.160198"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术PSECMAC网络在三个实际应用中的一个涉及货币期货期权的定价，这属于衍生品定价的范畴。尽管论文还涉及其他非金融应用，但衍生品定价是其明确的金融应用之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术PSECMAC网络在三个实际应用中的一个涉及货币期货期权的定价，这属于衍生品定价的范畴。尽管论文还涉及其他非金融应用，但衍生品定价是其明确的金融应用之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:02.465392"
+}

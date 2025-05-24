@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 66,
+    "title": "Deep Local Volatility",
+    "abstract": "Deep learning for option pricing has emerged as a novel methodology for fast computations with applications in calibration and computation of Greeks. However, many of these approaches do not enforce any no-arbitrage conditions, and the subsequent local volatility surface is never considered. In this article, we develop a deep learning approach for interpolation of European vanilla option prices which jointly yields the full surface of local volatilities. We demonstrate the modification of the loss function or the feed forward network architecture to enforce (hard constraints approach) or favor (soft constraints approach) the no-arbitrage conditions and we specify the experimental design parameters that are needed for adequate performance. A novel component is the use of the Dupire formula to enforce bounds on the local volatility associated with option prices, during the network fitting. Our methodology is benchmarked numerically on real datasets of DAX vanilla options.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "9576aeadbfc8d74bf503e588270ea1a8",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:54.984357"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习方法来插值欧式香草期权价格，并联合生成局部波动率的完整曲面。这直接涉及衍生品定价领域，特别是期权定价和波动率建模。论文还讨论了无套利条件的实施，这是衍生品定价中的关键问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习方法来插值欧式香草期权价格，并联合生成局部波动率的完整曲面。这直接涉及衍生品定价领域，特别是期权定价和波动率建模。论文还讨论了无套利条件的实施，这是衍生品定价中的关键问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:44.380650"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 400,
+    "title": "Deep reinforcement learning for pairs trading: Evidence from China black series futures",
+    "abstract": "Pair trading is one of the main methods of statistical arbitrage, mainly by taking advantage of the temporary price anomalies between related financial products with long-term equilibrium relationships to obtain arbitrage opportunities. In this paper, based on the co-integration method for the selection of allotment, the deep reinforcement learning method is integrated. The deep reinforcement learning method establishes an autonomous learning model and develops paired trading rules under different cycles. At the same time, the deep neural network model is used to implement the learning and training algorithm. This paper uses the data of Shanghai Commodity Exchange and Dalian Commodity Exchange on black futures, and the period is from January 2, 2014 to December 31, 2021. Three different periods were set for five models, namely simple threshold method (ST), simple threshold method based on pairwise cointegration (CA -ST), simple threshold method based on tripartite Cointegration (CA -ST -ALL), deep reinforcement learning method (DRL), and Deep reinforcement learning method based on pairwise cointegration (CADRL), and economic indicators were compared. The final results show that, combining the results of the three time periods, the deep reinforcement learning method based on pairwise cointegration performs better regarding return and risk control, validating the feasibility of deep reinforcement learning in China 's future market.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f29363231e89b9b2fb6524d41350d11c",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "deep reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.100979"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究利用深度强化学习方法进行配对交易，这是一种统计套利策略，属于投资组合管理的范畴。论文通过比较不同模型在不同周期下的表现，验证了该方法在期货市场中的可行性和有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究利用深度强化学习方法进行配对交易，这是一种统计套利策略，属于投资组合管理的范畴。论文通过比较不同模型在不同周期下的表现，验证了该方法在期货市场中的可行性和有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:26.083596"
+}

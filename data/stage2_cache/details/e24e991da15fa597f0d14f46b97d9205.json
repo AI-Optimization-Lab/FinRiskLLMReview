@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 4639,
+    "title": "Credit risk prediction based on an interpretable three-way decision method: Evidence from Chinese SMEs",
+    "abstract": "Credit risk prediction can provide essential tools for use in commercial banking credit and credit-related decision-making. This paper proposes a three-way decision method based on prospect theory and evidence theory for predicting credit risk. The first problem in this study is determining the optimal classification boundary, and the second is effectively predicting the sample default status within an uncertain boundary. To address the limitation of the SVDD model, which is that it does not consider the aggregation degree, a new sample-weighted support vector data description (SW-SVDD) model is constructed by ranking samples according to their relative membership degree. The classification boundaries of the default and nondefault samples are determined according to the maximum prediction accuracy of the SW-SVDD model. The samples are divided into definite boundary nondefault, definite boundary default, and uncertain boundary samples. The default status of samples falling into definite boundaries is predicted by the SW-SVDD model. The three-way decision method combining prospect theory and evidence theory predicts the default status of samples falling into uncertain boundaries. This paper also proposes a new interpretability method based on the default probability, nondefault probability, and optimal threshold point obtained by the three-way decision model. The empirical results show that the proposed three-way decision method is a model that balances accuracy and interpretability. It has a higher classification performance than traditional models and can reveal the key features that lead to each customer's default. The proposed three-way decision method can enhance the accuracy and reliability of risk assessments, enabling financial institutions to make more informed lending decisions and more effectively manage credit portfolios.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0f0ca73e30c1ed44789ac5f47f1c5ae4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:39:26.989811"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用三支决策方法结合前景理论和证据理论来预测信用风险，这直接应用于金融风险管理中的信用风险评估和贷款决策。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用三支决策方法结合前景理论和证据理论来预测信用风险，这直接应用于金融风险管理中的信用风险评估和贷款决策。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:21.528476"
+}

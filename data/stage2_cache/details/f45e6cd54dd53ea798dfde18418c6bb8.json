@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2252,
+    "title": "Cluster-based regime-switching AR for the EEM 2017 Wind Power Forecasting Competition",
+    "abstract": "This paper describes the regime-switching auto-regressive models used to win the EEM 2017 Wind Power Forecasting Competition. The competition required participants to produce daily forecast wind power production for a portfolio of wind farms from 2 to 38 hours-ahead based on historic generation and numerical weather prediction analysis data only. The regimes used in the methodology presented are defined on the previous day's weather conditions using the k-medians clustering algorithm. Cross-validation is used to identify models with the best predictive power from a pool of candidate models. The final methodology produced a final weighted mean absolute error 4.5% lower than the second place team during the two-week competition period.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cdc7c3b68cd8d6c84ce9b161b92dd4d4",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:04.420910"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是风能发电预测，使用了聚类和回归技术来优化预测模型，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是风能发电预测，使用了聚类和回归技术来优化预测模型，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:59.175263"
+}

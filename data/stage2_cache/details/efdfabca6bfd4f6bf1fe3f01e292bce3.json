@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 828,
+    "title": "MEAN-VARIANCE PORTFOLIO OPTIMIZATION WITH STOCK RETURN PREDICTION USING XGBOOST",
+    "abstract": "Portfolio optimization is one of the most concerning issues in finance and its success relies on accurate prediction of future stock market, which is challenging due to its dynamic, non-stationary, chaotic and noisy nature. This paper studies the performance of a portfolio optimization model when combined with stock return prediction using a machine learning model. In this study, two portfolio optimization algorithms are proposed. The first algorithm performs the eXtreme Gradient Boosting (XGBoost) for stock return forecasting and the mean variance (MV) model for portfolio selection. The second algorithm modifies the MV model by introducing an additional penalty term based on the prediction error of XGBoost. The empirical tests using the historical data from 2010 to 2016 of the component stocks of the Korea Composite Stock Price Index show that the proposed algorithms are superior to traditional methods.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "bce7b1e63de3ffd86e62d2fbb3ce69b8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.481521"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合XGBoost进行股票收益预测，并应用于均值-方差模型进行投资组合优化，这直接属于投资组合管理领域。论文明确提到使用两种算法进行投资组合选择，并通过历史数据验证其优越性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合XGBoost进行股票收益预测，并应用于均值-方差模型进行投资组合优化，这直接属于投资组合管理领域。论文明确提到使用两种算法进行投资组合选择，并通过历史数据验证其优越性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:24.329186"
+}

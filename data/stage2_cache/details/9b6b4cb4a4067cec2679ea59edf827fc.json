@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 204,
+    "title": "Pricing options with dual volatility input to modular neural networks",
+    "abstract": "Tested is the choice of the volatility input to the artificial neural networks in the process of pricing options. Numerous studies concluded the weaknesses of Black-Scholes model use as a pricing tool in the market. For the last two decades, various studies were done analyzing the alternate tools to price options. Among the alternates is the use of artificial neural networks. While Gradojevic, Gencay, and Kukolj (2009) use Modular back-propagation neural networks (BPNN) without any volatility related inputs, others like Y.H. Wang (2009a, 2009b), Lin and Yeh (2009), Wang, Lin, Huang, Wu (2012), and Chang, Wang and Yeh (2013) test different options of a volatility input and compare the final artificial neural network (ANN) outcome. This paper provides volatility input to the BPNN, first the selected historical volatility estimate followed by the implied volatility as single volatility input to ANN. Finally, trained is the ANN with input inclusive of the combination of the two volatility measures. Accordingly, dual-volatility model outperformance suggests that each of the volatility inputs provides some exclusive information to the ANN to price options. Copyright (C) 2020, Borsa Istanbul Anonim Sirketi. Production and hosting by Elsevier B.V.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "83765cb8b0bc5ecb319dccacb935796e",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.143518"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用人工神经网络（特别是模块化反向传播神经网络）来改进期权定价，通过测试不同的波动率输入（历史波动率和隐含波动率）来优化定价模型。这直接属于衍生品定价领域，因为期权是一种重要的金融衍生品，而论文的主要目标是提高其定价的准确性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用人工神经网络（特别是模块化反向传播神经网络）来改进期权定价，通过测试不同的波动率输入（历史波动率和隐含波动率）来优化定价模型。这直接属于衍生品定价领域，因为期权是一种重要的金融衍生品，而论文的主要目标是提高其定价的准确性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:06.111928"
+}

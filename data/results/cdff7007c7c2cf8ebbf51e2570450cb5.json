@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression"
+  ],
+  "explanations": {
+    "machine learning": "The paper uses Gaussian Process (GP) regression, which is a machine learning technique, to create surrogate models for seismic demand modeling.",
+    "supervised learning": "GP regression is a supervised learning method, as it involves training a model on a labeled dataset (input-output pairs) to predict outputs for new inputs.",
+    "regression": "The paper explicitly mentions using Gaussian Process regression for metamodeling, which is a regression technique used to predict continuous outputs."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"regression\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper uses Gaussian Process (GP) regression, which is a machine learning technique, to create surrogate models for seismic demand modeling.\",\n    \"supervised learning\": \"GP regression is a supervised learning method, as it involves training a model on a labeled dataset (input-output pairs) to predict outputs for new inputs.\",\n    \"regression\": \"The paper explicitly mentions using Gaussian Process regression for metamodeling, which is a regression technique used to predict continuous outputs.\"\n  }\n}\n```"
+}

@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "regression",
+    "support vector machine",
+    "SVM",
+    "decision tree",
+    "neural network",
+    "deep learning",
+    "long short-term memory",
+    "LSTM"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using machine learning (ML) predictions for constructing a currency portfolio strategy.",
+    "supervised learning": "The methods used (LSTM, MLP, SVM, RF) are all supervised learning techniques, as they involve training models on labeled data.",
+    "classification": "The paper mentions using SVM and RF for predicting return directions, which is a classification task.",
+    "regression": "The paper mentions using LSTM and MLP for predicting return levels, which is a regression task.",
+    "support vector machine": "The paper explicitly mentions using SVM (Support Vector Machine) for predicting return directions.",
+    "SVM": "SVM is mentioned as one of the methods used for predicting return directions.",
+    "decision tree": "RF (Random Forest) is mentioned, which is an ensemble method based on decision trees.",
+    "neural network": "LSTM and MLP are types of neural networks used in the study.",
+    "deep learning": "LSTM is a deep learning technique, and the study involves deep learning models.",
+    "long short-term memory": "The paper explicitly mentions using LSTM for predicting return levels.",
+    "LSTM": "LSTM is mentioned as one of the methods used for predicting return levels."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"regression\",\n    \"support vector machine\",\n    \"SVM\",\n    \"decision tree\",\n    \"neural network\",\n    \"deep learning\",\n    \"long short-term memory\",\n    \"LSTM\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using machine learning (ML) predictions for constructing a currency portfolio strategy.\",\n    \"supervised learning\": \"The methods used (LSTM, MLP, SVM, RF) are all supervised learning techniques, as they involve training models on labeled data.\",\n    \"classification\": \"The paper mentions using SVM and RF for predicting return directions, which is a classification task.\",\n    \"regression\": \"The paper mentions using LSTM and MLP for predicting return levels, which is a regression task.\",\n    \"support vector machine\": \"The paper explicitly mentions using SVM (Support Vector Machine) for predicting return directions.\",\n    \"SVM\": \"SVM is mentioned as one of the methods used for predicting return directions.\",\n    \"decision tree\": \"RF (Random Forest) is mentioned, which is an ensemble method based on decision trees.\",\n    \"neural network\": \"LSTM and MLP are types of neural networks used in the study.\",\n    \"deep learning\": \"LSTM is a deep learning technique, and the study involves deep learning models.\",\n    \"long short-term memory\": \"The paper explicitly mentions using LSTM for predicting return levels.\",\n    \"LSTM\": \"LSTM is mentioned as one of the methods used for predicting return levels.\"\n  }\n}\n```"
+}

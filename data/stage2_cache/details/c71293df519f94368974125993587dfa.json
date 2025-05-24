@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 520,
+    "title": "Temporal Implicit Multimodal Networks for Investment and Risk Management",
+    "abstract": "Many deep learning works on financial time-series forecasting focus on predicting future prices/returns of individual assets with numerical price-related information for trading, and hence propose models designed for univariate, single-task, and/or unimodal settings. Forecasting for investment and risk management involves multiple tasks in multivariate settings: forecasts of expected returns and risks of assets in portfolios, and correlations between these assets. As different sources/types of time-series influence future returns, risks, and correlations of assets in different ways, it is also important to capture time-series from different modalities. Hence, this article addresses financial time-series forecasting for investment and risk management in a multivariate, multitask, and multimodal setting. Financial time-series forecasting, however, is challenging due to the low signal-to-noise ratios typical in financial time-series, and as intra-series and inter-series relationships of assets evolve across time. To address these challenges, our proposed Temporal Implicit Multimodal Network (TIME) model learns implicit inter-series relationship networks between assets from multimodal financial time-series at multiple time-steps adaptively. TIME then uses dynamic network and temporal encoding modules to jointly capture such evolving relationships, multimodal financial time-series, and temporal representations. Our experiments show that TIME outperforms other state-of-the-art models on multiple forecasting tasks and investment and risk management applications.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "5b2f82e300857b02ad0353e94708ea5a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:39:38.158932"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly addresses forecasting for investment and risk management, including tasks such as forecasting expected returns, risks of assets in portfolios, and correlations between assets. These tasks are central to both financial risk management and portfolio management. The proposed model, Temporal Implicit Multimodal Network (TIME), is designed to handle these specific challenges, making its primary applications clearly within these two domains.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper explicitly addresses forecasting for investment and risk management, including tasks such as forecasting expected returns, risks of assets in portfolios, and correlations between assets. These tasks are central to both financial risk management and portfolio management. The proposed model, Temporal Implicit Multimodal Network (TIME), is designed to handle these specific challenges, making its primary applications clearly within these two domains.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:50.450690"
+}

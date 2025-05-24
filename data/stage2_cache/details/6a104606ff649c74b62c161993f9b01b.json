@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 727,
+    "title": "A short-term capacity trading method for semiconductor fabs with partnership",
+    "abstract": "This paper presents a capacity trading method for two semiconductor fabs that have established a capacity-sharing partnership. A fab that is predicted to have insufficient capacity at some workstations in a short-term period (e.g. one week) could purchase tool capacity from its partner fab. The population of such a capacity-trading portfolio may be quite huge. The proposed method involves three modules. We first use discrete-event simulation to identify the trading population. Secondly, some randomly sampled trading portfolios with their performance measured by simulation are used to develop a neural network, which can efficiently evaluate the performance of a trading portfolio. Thirdly, a genetic algorithm (GA) embedded with the developed neural network is used to find a near-optimal trading portfolio from the huge trading population. Experiment results indicate that the proposed trading method outperforms two other bench-marked methods in terms of number of completed operations, number of wafer outs, and mean cycle time. (c) 2006 Elsevier Ltd. All rights reserved.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "788f311eac0d974cb19f9e3d03d97845",
+    "relevant_keywords": [
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.620468"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究半导体工厂之间的短期产能交易方法，涉及离散事件模拟、神经网络和遗传算法等技术，但其应用场景是半导体制造领域的产能优化，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究半导体工厂之间的短期产能交易方法，涉及离散事件模拟、神经网络和遗传算法等技术，但其应用场景是半导体制造领域的产能优化，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:22.034756"
+}

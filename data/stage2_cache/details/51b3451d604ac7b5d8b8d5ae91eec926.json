@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1486,
+    "title": "A GA-PLS Method for the Index Tracking Problem",
+    "abstract": "Index tracking is a popular problem for funds, especially for index tracker funds. In this paper, we introduced GA-PLS method to solve the index tracking problem. This method consists of genetic algorithm (GA) and partial least squares (PLS). For a portfolio constructed by specified stocks, we used PLS regression to determine their weights in this portfolio. And we used GA to determine which stocks should be chosen to optimize the tracking effect of the portfolio. Results showed that the tracking portfolio constructed by GA-PLS has good performances on both in-sample and out-of-sample data.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c2b4a3e7b99cbcc405688c345bfb3ca1",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:56:08.451358"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术GA-PLS方法用于解决指数跟踪问题，即通过选择股票和确定权重来构建跟踪投资组合，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术GA-PLS方法用于解决指数跟踪问题，即通过选择股票和确定权重来构建跟踪投资组合，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:41.215871"
+}

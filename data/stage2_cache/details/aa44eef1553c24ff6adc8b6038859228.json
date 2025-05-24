@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 416,
+    "title": "Deep hedging",
+    "abstract": "We present a framework for hedging a portfolio of derivatives in the presence of market frictions such as transaction costs, liquidity constraints or risk limits using modern deep reinforcement machine learning methods. We discuss how standard reinforcement learning methods can be applied to non-linear reward structures, i.e.in our case convex risk measures. As a general contribution to the use of deep learning for stochastic processes, we also show in Section4 that the set of constrained trading strategies used by our algorithm is large enough to epsilon-approximate any optimal solution. Our algorithm can be implemented efficiently even in high-dimensional situations using modern machine learning tools. Its structure does not depend on specific market dynamics, and generalizes across hedging instruments including the use of liquid derivatives. Its computational performance is largely invariant in the size of the portfolio as it depends mainly on the number of hedging instruments available. We illustrate our approach by an experiment on the S&P500 index and by showing the effect on hedging under transaction costs in a synthetic market driven by the Heston model, where we outperform the standard complete-market' solution.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2322cefdca3e89162e739703d0f515ac",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.533519"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习方法来对冲衍生品组合的风险，特别是在存在市场摩擦的情况下。这直接涉及金融风险管理中的对冲策略和风险控制，而非衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习方法来对冲衍生品组合的风险，特别是在存在市场摩擦的情况下。这直接涉及金融风险管理中的对冲策略和风险控制，而非衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:08.143090"
+}

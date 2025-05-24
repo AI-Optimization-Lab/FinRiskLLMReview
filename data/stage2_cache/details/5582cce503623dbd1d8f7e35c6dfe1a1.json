@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3048,
+    "title": "A novel XGBoost extension for credit scoring class-imbalanced data combining a generalized extreme value link and a modified focal loss function",
+    "abstract": "There is often a significant class imbalance in credit scoring datasets, mainly in portfolios of secured loans such as mortgage loans. A class imbalance occurs when the number of non-default cases outweighs the number of default cases. A naive classifier can achieve high accuracy by assigning all cases to the majority class; however, misclassifying the minority class is often costly. In XGBoost, a well-known and robust classification method, we propose that the quantile function of the generalized extreme value (GEV) distribution is used as a link function to enhance the detection of rare cases. To complement the GEV link function, the study applies a modified focal loss function in XGBoost to jointly penalize misclassification of the class of interest and focus on hard, tricky to classify cases. We test our proposal on a vast database of mortgage loans with rare default cases, available on the Freddie Mac website. As benchmarks, we also consider other common large credit scoring databases, existing extensions of XGBoost to handle classification imbalance and other state-of-the-art classification techniques for learning class-imbalanced data. According to the results, the proposed model has a superior predictive power to other competing models if the class imbalance is due to default events being outliers or rare in the dataset. We also demonstrate that the results will likely hold up in real-world situations and add business value under certain portfolio characteristics.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7aff67d4729c8d816e9b13e3ffc8666b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:13:09.829613"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是改进XGBoost模型以处理信用评分中的类别不平衡问题，特别是针对抵押贷款中的违约预测。这直接应用于信用风险管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是改进XGBoost模型以处理信用评分中的类别不平衡问题，特别是针对抵押贷款中的违约预测。这直接应用于信用风险管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:32.641576"
+}

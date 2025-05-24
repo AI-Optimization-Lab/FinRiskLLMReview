@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 670,
+    "title": "Lagrange Programming Neural Networks for Sparse Portfolio Design",
+    "abstract": "Although there were some works on analog neural networks for sparse portfolio design, the existing works do not allow us to control the number of the selected assets and to adjust the weighting between the risk and return. This paper proposes a Lagrange programming neural network (LPNN) model for sparse portfolio design, in which we can control the number of selected assets. Since the objective function of the sparse portfolio design contains a non-differentiable l(1)-norm term, we cannot directly use the LPNN approach. Hence, we propose a new formulation based on an approximation of the l(1)-norm. In the theoretical side, we prove that state of the proposed LPNN network globally converges to the nearly optimal solution of the sparse portfolio design. The effectiveness of the proposed LPNN approach is verified by the numerical experiments. Simulation results show that the proposed analog approach is superior to the comparison analog neural network models.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "934e8cffe15524d844f7f66c72a29934",
+    "relevant_keywords": [
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.482304"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是Lagrange编程神经网络（LPNN）模型，用于稀疏投资组合设计，能够控制所选资产的数量并调整风险与回报之间的权重。这直接涉及投资组合管理的核心问题，即资产选择和权重分配。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是Lagrange编程神经网络（LPNN）模型，用于稀疏投资组合设计，能够控制所选资产的数量并调整风险与回报之间的权重。这直接涉及投资组合管理的核心问题，即资产选择和权重分配。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:51.949125"
+}

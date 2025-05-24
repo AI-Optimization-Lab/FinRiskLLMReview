@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 8178,
+    "title": "DEED: DEep Evidential Doctor*",
+    "abstract": "As Deep Neural Networks (DNN) make their way into safety-critical decision processes, it becomes imperative to have robust and reliable uncertainty estimates for their predictions for both in-distribution and out-of-distribution (OOD) examples. This is particularly important in real-life high-risk settings such as healthcare, where OOD examples (e.g., patients with previously unseen or rare labels, i.e., diagnoses) are frequent, and an incorrect clinical decision might put human life in danger, in addition to having severe ethical and financial costs. While evidential uncertainty estimates for deep learning have been studied for multi-class problems, research in multi-label settings remains untapped. In this paper, we propose a DEep Evidential Doctor (DEED), which is a novel deterministic approach to estimate multi-label targets along with uncertainty. We achieve this by placing evidential priors over the original likelihood functions and directly estimating the parameters of the evidential distribution using a novel loss function. Additionally, we build a redundancy layer (particularly for high uncertainty and OOD examples) to minimize the risk associated with erroneous decisions based on dubious predictions. We achieve this by learning the mapping between the evidential space and a continuous semantic label embedding space via a recurrent decoder. Thereby inferring, even in the case of OOD examples, reasonably close predictions to avoid catastrophic consequences. We demonstrate the effectiveness of DEED on a digit classification task based on a modified multi-label MNIST dataset, and further evaluate it on a diagnosis prediction task from a real-life electronic health record dataset. We highlight that in terms of prediction scores, our approach is on par with the existing state-of-the-art having a clear advantage of generating reliable, memory and time efficient uncertainty estimates with minimal changes to any multi-label DNN classifier. (c) 2023 The Author(s). Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons .org /licenses /by /4 .0/).",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7520b6184cc97b0761c8b9f328b3d6e8",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "classification",
+      "representation learning",
+      "hidden layer",
+      "recurrent neural network",
+      "encoder-decoder"
+    ],
+    "stage1_timestamp": "2025-05-15T03:16:17.372999"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究深度神经网络在医疗诊断中的应用，特别是多标签分类和不确定性估计，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究深度神经网络在医疗诊断中的应用，特别是多标签分类和不确定性估计，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:53.897238"
+}

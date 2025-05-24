@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1142,
+    "title": "Fund2Vec: Mutual Funds Similarity using Graph Learning",
+    "abstract": "Identifying similar mutual funds with respect to the underlying portfolios has found many applications in financial services ranging from fund recommender systems, competitors analysis, portfolio analytics, marketing and sales, etc. The traditional methods are either qualitative, and hence prone to biases and often not reproducible, or, are known not to capture all the nuances (non-linearities) among the portfolios from the raw data. We propose a radically new approach to identify similar funds based on the weighted bipartite network representation of funds and their underlying assets data using a sophisticated machine learning method called Node2Vec which learns an embedded low-dimensional representation of the network. We call the embedding Fund2Vec. Ours is the first ever study of the weighted bipartite network representation of the funds-assets network in its original form that identifies structural similarity among portfolios as opposed to merely portfolio overlaps.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d70d9169ee470c22105b453be8bb811d",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "representation learning",
+      "feature representation",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.778432"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术Fund2Vec旨在通过图学习方法识别相似共同基金，其应用场景包括基金推荐系统、竞争对手分析和投资组合分析，这些都属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术Fund2Vec旨在通过图学习方法识别相似共同基金，其应用场景包括基金推荐系统、竞争对手分析和投资组合分析，这些都属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:57.492109"
+}

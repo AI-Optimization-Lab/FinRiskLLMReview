@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1758,
+    "title": "Quantitative Trading through Random Perturbation Q-Network with Nonlinear Transaction Costs",
+    "abstract": "In recent years, reinforcement learning (RL) has seen increasing applications in the financial industry, especially in quantitative trading and portfolio optimization when the focus is on the long-term reward rather than short-term profit. Sequential decision making and Markov decision processes are rather suited for this type of application. Through trial and error based on historical data, an agent can learn the characteristics of the market and evolve an algorithm to maximize the cumulative returns. In this work, we propose a novel RL trading algorithm utilizing random perturbation of the Q-network and account for the more realistic nonlinear transaction costs. In summary, we first design a new near-quadratic transaction cost function considering the slippage. Next, we develop a convolutional deep Q-learning network (CDQN) with multiple price input based on this cost functions. We further propose a random perturbation (rp) method to modify the learning network to solve the instability issue intrinsic to the deep Q-learning network. Finally, we use this newly developed CDQN-rp algorithm to make trading decisions based on the daily stock prices of Apple (AAPL), Meta (FB), and Bitcoin (BTC) and demonstrate its strengths over other quantitative trading methods.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ceaad50c81466f7c23a4e4f0ae101af2",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "Q-learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:22.933020"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种基于强化学习的交易算法，用于优化长期累积回报，并考虑了非线性交易成本。这直接涉及投资组合管理中的交易决策和优化问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种基于强化学习的交易算法，用于优化长期累积回报，并考虑了非线性交易成本。这直接涉及投资组合管理中的交易决策和优化问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:08.568539"
+}

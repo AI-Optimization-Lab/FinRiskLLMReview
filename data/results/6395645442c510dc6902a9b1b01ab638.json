@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "classification",
+    "feature learning",
+    "feature representation"
+  ],
+  "explanations": {
+    "machine learning": "论文摘要中提到结合MC3投票法和机器学习方法构建信用风险评估模型，明确涉及机器学习。",
+    "classification": "信用风险评估通常是一个分类问题（如将客户分为高风险或低风险），论文中构建的模型用于分类预测。",
+    "feature learning": "论文提到MC3投票法不需要进行指标剔除，减少了特征选择过程中的信息丢失，涉及特征学习。",
+    "feature representation": "论文中提到的财务指标数据选择和模型构建过程涉及特征表示的问题。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"classification\", \"feature learning\", \"feature representation\"],\n  \"explanations\": {\n    \"machine learning\": \"论文摘要中提到结合MC3投票法和机器学习方法构建信用风险评估模型，明确涉及机器学习。\",\n    \"classification\": \"信用风险评估通常是一个分类问题（如将客户分为高风险或低风险），论文中构建的模型用于分类预测。\",\n    \"feature learning\": \"论文提到MC3投票法不需要进行指标剔除，减少了特征选择过程中的信息丢失，涉及特征学习。\",\n    \"feature representation\": \"论文中提到的财务指标数据选择和模型构建过程涉及特征表示的问题。\"\n  }\n}\n```"
+}

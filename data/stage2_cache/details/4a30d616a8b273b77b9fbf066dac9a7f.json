@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1280,
+    "title": "Cost-sensitive machine learning to support startup investment decisions",
+    "abstract": "In 2022, global startup investments exceeded US$445 billion, sourced from entities like venture capital (VC) funds, angel investors, and equity crowdfunding. Despite their role in driving innovation, startup investments often fall short of S&P 500 returns. Surprisingly, the potential of artificial intelligence (AI) remains untapped by investors, despite AI's growing sway in financial decision-making. Our empirical analysis predicts the success of 10,000 Israeli startups, utilizing diverse machine learning models. Unlike prior research, we employ the MetaCost algorithm to convert models into cost-sensitive variants, minimizing total cost instead of total error. This innovative approach enables varied costs linked to different prediction errors. Our results underscore that these cost-sensitive machine learning models significantly reduce risk for VC funds and startup investors compared to traditional ones. Furthermore, these models provide investors with a distinct capability to tailor their risk profiles, aligning predictions with their risk appetite. However, while cost-sensitive machine learning reduces risk, it may limit potential gains by predicting fewer successful startups. To address this, we propose methods to enhance successful startup identification, including aggregating outcomes from multiple MetaCost models, particularly advantageous for smaller deal flows. Our research advances AI's role in startup investing, presenting a pivotal tool for investors navigating this domain.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c8a2522ed63611daeb71925c22776f64",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.835382"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用成本敏感的机器学习模型来预测初创企业的成功，以支持风险投资基金和天使投资者的投资决策。这涉及到投资组合的选择和优化，属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用成本敏感的机器学习模型来预测初创企业的成功，以支持风险投资基金和天使投资者的投资决策。这涉及到投资组合的选择和优化，属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:31.730477"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 175,
+    "title": "Regression methods for pricing complex American-Style options",
+    "abstract": "We introduce and analyze a simulation-based approximate dynamic programming method for pricing complex American-style options, with a possibly high-dimensional underlying state space. We work within a finitely parameterized family of approximate value functions, and introduce a variant of value iteration, adapted to this parametric setting. We also introduce a related method which uses a single (parameterized) value function, which is a function of the time-state pair, as opposed to using a separate (independently parameterized) value function for each time, Our methods involve the evaluation of value functions at a finite set, consisting of representative elements of the state space, We show that with an arbitrary choice of this set, the approximation error can grow exponentially with the time horizon (time to expiration). On the other hand, if representative states are chosen by simulating the state process using the underlying risk-neutral probability distribution, then the approximation error remains bounded.",
+    "year": 2001,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "4e145497f57b18be9c53ac02f6cae805",
+    "relevant_keywords": [
+      "regression",
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.090500"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是开发一种基于模拟的近似动态规划方法，专门用于定价复杂的美国式期权，这直接属于衍生品定价领域。论文中明确提到了定价（pricing）和期权（options）等关键词，并且研究目标是解决高维状态空间下的期权定价问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是开发一种基于模拟的近似动态规划方法，专门用于定价复杂的美国式期权，这直接属于衍生品定价领域。论文中明确提到了定价（pricing）和期权（options）等关键词，并且研究目标是解决高维状态空间下的期权定价问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:09.101001"
+}

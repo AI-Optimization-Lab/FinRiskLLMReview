@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 5911,
+    "title": "A stock selection algorithm with hybrid support vector regression and differential evolutionary",
+    "abstract": "To cope with the increasing complexity of financial markets, traditional stock analysis methods have faced many challenges in predicting market performance and constructing efficient portfolios. To address this issue, this study explores the potential of combining support vector regression (SVR) and differential evolution (DE) algorithms applied to the Chinese A-share market. In this paper, the SVR-DE model is used to predict the performance of all A-shares in 2022, with the aim of selecting the 30 stocks with the best annual performance. The hyperparameters of SVR are optimized by the DE algorithm to improve the prediction accuracy. Then, Monte Carlo simulation is used to assign weights to the portfolios of these 30 stocks in order to find the optimal balance between risk and return. The experimental results show that the portfolios predicted by the SVR-DE model significantly outperform the market benchmark, the Shanghai Stock Exchange (SSE), in terms of annualized and cumulative returns. This result not only validates the effectiveness of the SVR-DE model in forecasting real financial markets, but also demonstrates the practical value of Monte Carlo simulation in optimizing asset allocation strategies. The model can effectively predict stock market performance and help construct portfolios that cannot be matched by traditional market benchmarks.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "30f8420f6cb18d39a1cc6155d4073770",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:52:31.525071"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合支持向量回归（SVR）和差分进化（DE）算法来预测股票表现并选择最佳股票组合，然后通过蒙特卡洛模拟优化资产配置策略，这直接应用于投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合支持向量回归（SVR）和差分进化（DE）算法来预测股票表现并选择最佳股票组合，然后通过蒙特卡洛模拟优化资产配置策略，这直接应用于投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:56.987916"
+}

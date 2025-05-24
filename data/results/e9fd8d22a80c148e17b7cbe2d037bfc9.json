@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "论文使用了XGBoost模型进行波动率预测，XGBoost是一种机器学习算法。",
+    "supervised learning": "波动率预测是一个监督学习问题，因为模型需要从历史数据中学习并预测未来的波动率。",
+    "regression": "波动率预测是一个回归问题，因为目标是预测连续值（波动率）。",
+    "decision tree": "XGBoost是基于决策树的集成学习算法，因此与决策树相关。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"regression\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"论文使用了XGBoost模型进行波动率预测，XGBoost是一种机器学习算法。\",\n    \"supervised learning\": \"波动率预测是一个监督学习问题，因为模型需要从历史数据中学习并预测未来的波动率。\",\n    \"regression\": \"波动率预测是一个回归问题，因为目标是预测连续值（波动率）。\",\n    \"decision tree\": \"XGBoost是基于决策树的集成学习算法，因此与决策树相关。\"\n  }\n}\n```"
+}

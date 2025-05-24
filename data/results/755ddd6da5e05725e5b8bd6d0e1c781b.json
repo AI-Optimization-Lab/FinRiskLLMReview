@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "classification",
+    "regression"
+  ],
+  "explanations": {
+    "classification": "The paper uses a predictive model (BATS score) to classify patients into low, moderate, and high-risk cohorts for ICU readmission, which is a form of classification task.",
+    "regression": "The paper employs multivariable logistic regression to identify independent predictors of ICU bounce backs, which is a regression technique used for predicting binary outcomes."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"classification\", \"regression\"], \n  \"explanations\": {\n    \"classification\": \"The paper uses a predictive model (BATS score) to classify patients into low, moderate, and high-risk cohorts for ICU readmission, which is a form of classification task.\",\n    \"regression\": \"The paper employs multivariable logistic regression to identify independent predictors of ICU bounce backs, which is a regression technique used for predicting binary outcomes.\"\n  }\n}\n```"
+}

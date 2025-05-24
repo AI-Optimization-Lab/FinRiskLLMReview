@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2063,
+    "title": "Index Tracking with Differentiable Asset Selection",
+    "abstract": "Partial index tracking aims to replicate the performance of a given benchmark index with a small number of its constituents. It can be formulated as a sparse regression problem, but remains challenging due to several practical constraints, especially the fixed number of assets in the portfolio. In this paper, we propose a differentiable relaxation for asset selection, such that we can construct a portfolio with exactly K assets, where the objective function can be optimised efficiently via vanilla gradient descent. Our method is backtested with S&P 500 index data from 2002 to 2020. Empirical results demonstrate that our model achieves excellent tracking performance compared with some widely used approaches.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "33f6762b123c8e98124931b149e77002",
+    "relevant_keywords": [
+      "regression",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:02:32.869378"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on partial index tracking, which involves selecting a subset of assets to replicate the performance of a benchmark index. This is a core problem in portfolio management, specifically in the context of passive investment strategies and index fund construction.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on partial index tracking, which involves selecting a subset of assets to replicate the performance of a benchmark index. This is a core problem in portfolio management, specifically in the context of passive investment strategies and index fund construction.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:22.412861"
+}

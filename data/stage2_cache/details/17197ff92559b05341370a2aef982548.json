@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 490,
+    "title": "Short-Term Ensemble NWP Wind Speed Forecasts using Mean-Variance Portfolio Optimization and Neural Networks",
+    "abstract": "The effective short-term forecasting of wind speeds for wind farm applications requires the tailored application of a collection of various forecasting tools. Physical forecasting methods generally form the basis of these forecasting tools, coupled with regression and statistical methods. In this work, the Weather Research and Forecasting (WRF) model is utilized to generate an ensemble spread for a targeted site. The optimal deterministic forecast is subsequently determined using two techniques: a novel application of the mean-variance portfolio theorem; as well as a two-layered feed forward neural network. The mean-variance portfolio optimization technique is assessed for its suitability for weighted ensemble selection by comparing its optimized deterministic forecast accuracy with a neural network approach.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a1aae1579f697f37cfb99c0db698dd65",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "hidden layer",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:20.913039"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术之一是应用均值-方差投资组合理论来优化风速预测的确定性预测，这直接借鉴了投资组合管理中的方法。尽管应用场景是气象预测而非金融，但其核心技术确实属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术之一是应用均值-方差投资组合理论来优化风速预测的确定性预测，这直接借鉴了投资组合管理中的方法。尽管应用场景是气象预测而非金融，但其核心技术确实属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:30.703692"
+}

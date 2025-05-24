@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 646,
+    "title": "Evolving Transparent Credit Risk Models: A Symbolic Regression Approach Using Genetic Programming",
+    "abstract": "Credit scoring is a cornerstone of financial risk management, enabling financial institutions to assess the likelihood of loan default. However, widely recognized contemporary credit risk metrics, like FICO (Fair Isaac Corporation) or Vantage scores, remain proprietary and inaccessible to the public. This study aims to devise an alternative credit scoring metric that mirrors the FICO score, using an extensive dataset from Lending Club. The challenge lies in the limited available insights into both the precise analytical formula and the comprehensive suite of credit-specific attributes integral to the FICO score's calculation. Our proposed metric leverages basic information provided by potential borrowers, eliminating the need for extensive historical credit data. We aim to articulate this credit risk metric in a closed analytical form with variable complexity. To achieve this, we employ a symbolic regression method anchored in genetic programming (GP). Here, the Occam's razor principle guides evolutionary bias toward simpler, more interpretable models. To ascertain our method's efficacy, we juxtapose the approximation capabilities of GP-based symbolic regression with established machine learning regression models, such as Gaussian Support Vector Machines (GSVMs), Multilayer Perceptrons (MLPs), Regression Trees, and Radial Basis Function Networks (RBFNs). Our experiments indicate that GP-based symbolic regression offers accuracy comparable to these benchmark methodologies. Moreover, the resultant analytical model offers invaluable insights into credit risk evaluation mechanisms, enabling stakeholders to make informed credit risk assessments. This study contributes to the growing demand for transparent machine learning models by demonstrating the value of interpretable, data-driven credit scoring models.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f0fdce981ce49f45c48286daf25f8def",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.886763"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a transparent credit scoring model to assess loan default likelihood, which is a key aspect of credit risk management within the broader field of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a transparent credit scoring model to assess loan default likelihood, which is a key aspect of credit risk management within the broader field of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:14.931645"
+}

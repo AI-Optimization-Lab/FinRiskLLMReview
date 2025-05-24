@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 7092,
+    "title": "Adaptive Boom Barrier Management at ETC Toll Plazas Using Predictive Analytics",
+    "abstract": "The management of barrier systems in Electronic Toll Collection (ETC) lanes is crucial for optimizing toll plaza operations by balancing traffic flow, congestion, revenue, and environmental impacts. Open-barrier systems, while reducing vehicle queues and carbon emissions by enabling continuous flow, may increase the risk of revenue loss due to unauthorized crossings. Closed-barrier systems (CBB), on the other hand, improve payment compliance and safety but can lead to longer queues and higher emissions due to idling vehicles. This study proposes an innovative adaptive barrier management framework that integrates predictive modeling to optimize toll booth operations, particularly during peak traffic periods. The framework utilizes real-time traffic data to predict both service time and Average Queue Length (AQL). A key component of the system involves the prediction of service times under open-barrier conditions (OBB) using machine learning models and the use of Gated Recurrent Unit (GRU) networks combined with the Optuna framework for predicting AQL under both CBB and OBB. This work explores the novel application of these techniques to the specific problem of toll plaza operations, thereby contributing new insights into optimizing barrier systems for ETC toll lanes. The study evaluates the trade-offs between operational efficiency, carbon reduction, and revenue loss in open-barrier and closed-barrier systems. Our results show that allowing a certain percentage of unauthorized crossings can significantly improve operational efficiency, reducing AQL by 36.62%/day on weekdays and 31.88%/day on weekends in ETC lanes, as well as decreasing carbon emissions by 617.43 kgCO(2) equivalent/day on weekdays and 383.08 kgCO(2) equivalent/day on weekends by reducing idle times. However, exceeding established thresholds for unauthorized crossings leads to an increase in revenue loss, which can negatively affect toll plaza performance. The feasibility analysis further quantifies these environmental and financial trade-offs, proposing a strategy for dynamically adjusting barrier management to minimize revenue loss while maintaining high operational efficiency. This research contributes to the advancement of intelligent toll systems by offering a framework for dynamic barrier management that balances operational efficiency, carbon reduction, and economic sustainability, supporting the development of low-carbon, efficient toll infrastructure and paving the way for future innovations in adaptive traffic management.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8bcaacc4b69ac1611f80c1c5a5f7a944",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "Gated Recurrent Unit",
+      "GRU"
+    ],
+    "stage1_timestamp": "2025-05-15T03:05:03.505916"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究电子收费站的屏障管理系统优化，涉及交通流量管理、碳排放减少和收入损失平衡，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究电子收费站的屏障管理系统优化，涉及交通流量管理、碳排放减少和收入损失平衡，并未提及或应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:05.369074"
+}

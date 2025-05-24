@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 647,
+    "title": "Deep Nonlinear Ensemble Framework for Stock Index Forecasting and Uncertainty Analysis",
+    "abstract": "Stock index forecasting plays an important role in avoiding risk and increasing returns for financial regulators and investors. However, due to the volatility and uncertainty of the stock market, forecasting stock indices accurately is challenging. In this paper, a deep nonlinear ensemble framework is proposed for stock index forecasting and uncertainty analysis. (1) Singular spectrum analysis (SSA) is utilized to extract features from a raw stock index and eliminate the interference. (2) Enhanced weighted support vector machine (EWSVM) is proposed for forecasting each component that is decomposed, of which the penalty weights are based on the time order and the hyperparameters are optimized using the simulated annealing algorithm. (3) Recurrent neural network (RNN) is used to integrate the forecast of each component into the final point forecast. (4) Gaussian process regression (GPR) is applied to obtain the interval forecast of the original stock index. Two practical cases (Nikkei 225 Index, Japan and Hang Seng Index, Hong Kong, China) are utilized to evaluate the performance of the proposed model. In terms of the results of point forecasting, the MAE, R-2, MAPE, and RMSE of Nikkei 225 Index are 66.0745, 0.9972, 0.0066, and 80.0381, and those of Hang Seng Index are 79.2145,0.9968, 0.0073, and 96.7740. In terms of the results of interval forecasting, the CP95% , MWP95% , and MC95% of Nikkei 225 Index are 0.89979, 0.05746, and 0.06385, and those of Hang Seng Index are 0.97985, 0.28223, and 0.28803. Forecasting stock indices accurately is crucial for investment decision and risk management and is extremely meaningful to investors and financial regulators. In this paper, the SSA-EWSVM-RNN-GPR model is used to forecast the closing prices of stock indices, and compared with eight benchmark models, the proposed SSA-EWSVM-RNN-GPR model can be an effective tool for both point and interval forecasting of stock indices.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d3fe45b083d458038fcd299a75f28196",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "RNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.899328"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是用于股票指数预测和不确定性分析，这直接关联到金融风险管理中的市场风险预测和投资组合管理中的资产配置决策。论文明确提到预测股票指数对于投资决策和风险管理的重要性，并提供了具体的应用案例和性能评估。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是用于股票指数预测和不确定性分析，这直接关联到金融风险管理中的市场风险预测和投资组合管理中的资产配置决策。论文明确提到预测股票指数对于投资决策和风险管理的重要性，并提供了具体的应用案例和性能评估。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:14.792559"
+}

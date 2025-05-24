@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1433,
+    "title": "Control of battery charging based on reinforcement learning and long short-term memory networks",
+    "abstract": "In an electricity market with time-varying pricing, uncontrolled charging of energy storage systems (ESSs) may increase charging costs. A novel battery charging control methodology based on reinforcement-learning (RL) is proposed in this paper to minimize the charging costs. A significant characteristic of this method is that it is model-free, with no need for a high-accuracy battery/ESS model. Therefore, it overcomes the challenges brought by limited types of battery models and non-ignorable parametric uncertainties in reality. Additionally, since an accurate prediction of fluctuating electricity prices can promote the control performance, a long short-term memory (LSTM) network is leveraged to improve the prediction precision. The final control objective is to seek an optimal charging portfolio to minimize charging costs. Moreover, the presented control algorithm provides a basic framework for a more complicated electricity market where various types of ESSs, generators, and loads exist. (C) 2020 Elsevier Ltd. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "193f877eddd43684f688ec7d93cf8d8b",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.589048"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于强化学习和LSTM网络的电池充电控制方法，以最小化充电成本，其应用场景是电力市场中的能源存储系统管理，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于强化学习和LSTM网络的电池充电控制方法，以最小化充电成本，其应用场景是电力市场中的能源存储系统管理，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:00.521109"
+}

@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "regression"
+  ],
+  "explanations": {
+    "machine learning": "The paper uses a metaheuristic algorithm (Water Cycle Algorithm) and logistic regression for predicting audit opinions, which are machine learning techniques.",
+    "supervised learning": "The study involves predicting audit opinions based on labeled data (24 variables extracted from literature), which is a supervised learning task.",
+    "classification": "The prediction of audit opinions (e.g., clean or qualified opinion) is a classification problem.",
+    "regression": "The paper compares the Water Cycle Algorithm with logistic regression, which is a regression method, though the primary task is classification."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"regression\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper uses a metaheuristic algorithm (Water Cycle Algorithm) and logistic regression for predicting audit opinions, which are machine learning techniques.\",\n    \"supervised learning\": \"The study involves predicting audit opinions based on labeled data (24 variables extracted from literature), which is a supervised learning task.\",\n    \"classification\": \"The prediction of audit opinions (e.g., clean or qualified opinion) is a classification problem.\",\n    \"regression\": \"The paper compares the Water Cycle Algorithm with logistic regression, which is a regression method, though the primary task is classification.\"\n  }\n}\n```"
+}

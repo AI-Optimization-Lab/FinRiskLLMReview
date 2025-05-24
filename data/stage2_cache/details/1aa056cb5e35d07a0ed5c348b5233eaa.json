@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 628,
+    "title": "Machine-learning-based classification of research grant award records",
+    "abstract": "Policy makers frequently ask agencies to report how much money they are spending on research and development activities in specific fields or topics; however, records are rarely classified in ways that will inform policy and budget decisions. This work explores how topic co-clustering, an approach to text analysis based on machine learning, might be used to tag National Science Foundation (NSF) grant awards automatically with terms referring to scientific disciplines or to socioeconomic objectives. This approach is an alternative approach to the Latent Dirichlet Allocation topic model produced by the NSF for an experimental Portfolio Explorer (Nichols 2014). We use metadata in the grant records to validate the results, and do not access the metadata as part of the automated tagging process. The results show that in the case of scientific disciplines, where our language models were well-formed and we had a valid comparison set for manual classification, the machine-assigned tags were a reasonable and valid means for describing the research conducted under each grant. In assigning socioeconomic objectives to grants, we saw relatively poor precision and recall in classification, due to the poorly formed and sparse language models available for those terms. Our analysis suggests that this approach can be used to classify large corpora of scientific awards into desired categories, which may be of use for monitoring R&D trends and for identifying portfolios of grant projects for evaluation.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "95ab954152fff259ad242f5ddb357330",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:39.180357"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习对科研资助记录进行分类，以帮助政策制定者监控研发趋势和评估资助项目组合。虽然提到了'Portfolio Explorer'，但这里的'portfolio'指的是科研项目的组合，而非金融投资组合。论文内容与衍生品定价、金融风险管理或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习对科研资助记录进行分类，以帮助政策制定者监控研发趋势和评估资助项目组合。虽然提到了'Portfolio Explorer'，但这里的'portfolio'指的是科研项目的组合，而非金融投资组合。论文内容与衍生品定价、金融风险管理或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:02.988939"
+}

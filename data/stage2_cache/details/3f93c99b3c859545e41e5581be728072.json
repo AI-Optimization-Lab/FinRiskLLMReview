@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 44,
+    "title": "Stock Portfolio Optimization Using a Combined Approach of Multi Objective Grey Wolf Optimizer and Machine Learning Preselection Methods",
+    "abstract": "The present paper deals with optimizing the stock portfolio of active companies listed on the Tehran Stock Exchange based on the forecast price. This paper is based on a combination of different filtering methods such as optimization of trading rules based on technical analysis (ROC, SMA, EMA, WMA, and MACD at six levels-Very Very Weak (VVW), Very Weak (VW), Weak (W), Strong (S), Very Strong (VS), and Very Very Strong (VVS)), Markov Chains, and Machine Learning (Random Forest and Support Vector Machine) Filter stock exchanges and provide buy signals between 2011 and 2020. In proportion to each combination of filtering methods, a buy signal is issued and based on the mean-variance (M-V) model, the stock portfolio is optimized based on increasing the portfolio return and minimizing the stock portfolio risk. Based on this, out of 480 companies listed on the Tehran Stock Exchange, 85 active companies have been selected and stock portfolio optimization is based on two algorithms, MOGWO and NSGA II. The analysis results show that the use of SVM learning machine leads to minor correlation error than the random forest method. Therefore, this method was used to predict stock prices. Based on the results, it was observed that if the shares of companies are filtered, the risk of transactions decreases, and the return on the stock portfolio increases. Also, if two filtering methods are applied simultaneously, the stock portfolio returns slightly and the risk increases. In the analysis, MOGWO algorithm has obtained 133.13% stock return rate with a risk of 3.346%, while the stock portfolio returns in NSGA II algorithm 107.73, with a risk of 1.459%. Comparison of solution methods shows that the MOGWO algorithm has high efficiency in stock portfolio optimization.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cee24d18edcd69855cbbea5039eb8b28",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.895846"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是使用多目标灰狼优化器（MOGWO）和机器学习预选方法来优化股票投资组合，旨在提高投资组合的回报并降低风险。这直接属于投资组合管理的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是使用多目标灰狼优化器（MOGWO）和机器学习预选方法来优化股票投资组合，旨在提高投资组合的回报并降低风险。这直接属于投资组合管理的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:02.037468"
+}

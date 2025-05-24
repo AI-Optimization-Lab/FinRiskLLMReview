@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1081,
+    "title": "Dynamic multifactor clustering of financial networks",
+    "abstract": "We investigate the tendency for financial instruments to form clusters when there are multiple factors influencing the correlation structure. Specifically, we consider a stock portfolio which contains companies from different industrial sectors, located in several different countries. Both sector membership and geography combine to create a complex clustering structure where companies seem to first be divided based on sector, with geographical subclusters emerging within each industrial sector. We argue that standard techniques for detecting overlapping clusters and communities are not able to capture this type of structure and show how robust regression techniques can instead be used to remove the influence of both sector and geography from the correlation matrix separately. Our analysis reveals that prior to the 2008 financial crisis, companies did not tend to form clusters based on geography. This changed immediately following the crisis, with geography becoming a more important determinant of clustering structure.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8dd696a4f4b8ee2835e9d7cfd4177836",
+    "relevant_keywords": [
+      "clustering",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.959030"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文研究了金融工具在多因素影响下的聚类行为，特别关注了股票投资组合中不同行业和地理位置的公司如何形成聚类结构。这种分析对于理解投资组合的多样性和相关性至关重要，直接应用于投资组合管理的优化和风险分散策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文研究了金融工具在多因素影响下的聚类行为，特别关注了股票投资组合中不同行业和地理位置的公司如何形成聚类结构。这种分析对于理解投资组合的多样性和相关性至关重要，直接应用于投资组合管理的优化和风险分散策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:44.699126"
+}

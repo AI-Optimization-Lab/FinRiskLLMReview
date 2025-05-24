@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1680,
+    "title": "Revisiting the 1/N-strategy: a neural network framework for optimal strategies",
+    "abstract": "This work has two main objectives. First, we design a data-driven neural network approach to portfolio optimization within expected utility theory. The methodology is inspired by Li and Forsyth (Insur Math Econ 86:189-204, 2019. https://doi.org/ 10.1016/j.insmatheco.2019.03.001), who worked on target based defined contribution plans. Our proposal and the architecture of the model is flexible enough to address a variety of specific portfolio problems, from standard optimal utility allocation with constraints, to optimal deviations from a benchmark. Using the celebrated 1/N-Strategy (see DeMiguel et al. in Rev Financ Stud 22(5):1915-1953, 2007. https:// doi.org/10.1093/rfs/hhm075) as benchmark constitutes the second objective of the paper. We consider two assets on a single path of historical return data for an investor whose utility is represented by a constant relative risk aversion function. Across several levels of risk aversion, we revisit the literature claims that it is essentially impossible to significantly outperform 1/N. Using our advanced method, we confirm that this is only true for high levels of risk aversion, but the 1/N can be consistently outperformed for low and moderate risk aversion levels.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4d502b7dd58aa8edc010490fe0425392",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:18.398744"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用神经网络进行投资组合优化，并讨论了如何超越1/N策略，这直接属于投资组合管理的范畴。论文的主要研究目标和应用场景都集中在投资组合优化上，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络进行投资组合优化，并讨论了如何超越1/N策略，这直接属于投资组合管理的范畴。论文的主要研究目标和应用场景都集中在投资组合优化上，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:35.965126"
+}

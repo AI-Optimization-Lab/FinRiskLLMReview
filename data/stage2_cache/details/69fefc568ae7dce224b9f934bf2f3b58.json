@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3931,
+    "title": "Hybrid evolutionary multi-objective optimisation using outranking-based ordinal classification methods",
+    "abstract": "A large number of real-world problems require optimising several objective functions at the same time, which are generally in conflict. Many of these problems have been addressed through multi-objective evolutionary algorithms. In this paper, we propose a new hybrid evolutionary algorithm whose main feature is the incorporation of the Decision Maker's (DM's) preferences through multi-criteria ordinal classification methods in early stages of the optimisation process, being progressively updated. This increases the selective pressure towards the privileged zone of the Pareto front more in agreement with the DM's preferences. An extensive experimental research was conducted to answer three main questions: i) to what extent the proposal improves the convergence towards the region of interest for the DM; ii) to what extent the proposal becomes more relevant as the number of objectives increases, and iii) to what extent the effectiveness of the hybrid algorithm depends on the particular multi-criteria method used to assign solutions to ordered classes. The issues used to evaluate our proposal and answer the questions were seven scalable test problems from the DTLZ test suite and some instances of project portfolio optimisation problems, with three and eight objectives. Compared to MOEA/D and MOEA/D-DE, the results showed that the proposed strategy obtains a better convergence towards the region of interest for the DM and also performs better characterisation of that zone on a wide range of objective functions.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6de28c1c447284a0ab05e6fcab986623",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:22:11.957329"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提到其实验研究包括项目组合优化问题的实例，这与投资组合管理领域直接相关。虽然论文主要关注多目标优化算法，但其应用场景明确涉及投资组合优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提到其实验研究包括项目组合优化问题的实例，这与投资组合管理领域直接相关。虽然论文主要关注多目标优化算法，但其应用场景明确涉及投资组合优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:25.413664"
+}

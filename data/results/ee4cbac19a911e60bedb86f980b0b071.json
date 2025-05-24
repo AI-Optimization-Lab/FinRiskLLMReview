@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "neural network",
+    "deep learning",
+    "representation learning",
+    "backpropagation",
+    "BP",
+    "hidden layer"
+  ],
+  "explanations": {
+    "machine learning": "论文中明确提到使用了8个机器学习算法对股票收益率进行预测。",
+    "supervised learning": "论文中的研究属于监督学习，因为使用了历史数据（如价值、技术、动量等指标）来预测未来的股票收益率。",
+    "regression": "论文中的任务是预测股票收益率，这是一个回归问题。",
+    "neural network": "论文提到深度神经网络的预测效果最佳，表明使用了神经网络模型。",
+    "deep learning": "深度神经网络是深度学习的一种，论文中明确提到其预测效果最佳。",
+    "representation learning": "机器学习模型通过挖掘因子指标来学习数据的表示，属于表示学习。",
+    "backpropagation": "深度神经网络的训练通常依赖于反向传播算法。",
+    "BP": "BP是反向传播的缩写，与深度神经网络的训练相关。",
+    "hidden layer": "深度神经网络包含隐藏层，论文中提到的深度神经网络暗示了隐藏层的存在。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"regression\",\n    \"neural network\",\n    \"deep learning\",\n    \"representation learning\",\n    \"backpropagation\",\n    \"BP\",\n    \"hidden layer\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"论文中明确提到使用了8个机器学习算法对股票收益率进行预测。\",\n    \"supervised learning\": \"论文中的研究属于监督学习，因为使用了历史数据（如价值、技术、动量等指标）来预测未来的股票收益率。\",\n    \"regression\": \"论文中的任务是预测股票收益率，这是一个回归问题。\",\n    \"neural network\": \"论文提到深度神经网络的预测效果最佳，表明使用了神经网络模型。\",\n    \"deep learning\": \"深度神经网络是深度学习的一种，论文中明确提到其预测效果最佳。\",\n    \"representation learning\": \"机器学习模型通过挖掘因子指标来学习数据的表示，属于表示学习。\",\n    \"backpropagation\": \"深度神经网络的训练通常依赖于反向传播算法。\",\n    \"BP\": \"BP是反向传播的缩写，与深度神经网络的训练相关。\",\n    \"hidden layer\": \"深度神经网络包含隐藏层，论文中提到的深度神经网络暗示了隐藏层的存在。\"\n  }\n}\n```"
+}

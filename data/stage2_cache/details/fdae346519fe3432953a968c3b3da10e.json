@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 820,
+    "title": "Combining random forest and multicollinearity modeling for index tracking",
+    "abstract": "This paper studies the combination of random forest (RF) and classical statistical modeling. We propose two algorithms: RF cluster + ridge and RF regression + ridge, in which the RF reduces overfitting and has a good anti-noise ability. The ridge regression can effectively handle the correlated data by the ridge penalty. To test the performance of the proposed techniques, we model and track the S&P 500 index. Index tracking aims to replicate the returns of an index fund and is very popular in finance. We compare the performance of the proposed methods with those of several existing methods. The portfolio obtained by each technique is quantified using the tracking error. We find that this combination always has higher accuracy. Empirical results show that the proposed methods are qualified for index funds. Our findings shed light on the synthesis of machine learning and statistical modeling techniques and provide an effective practice of this combination.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6e4b016c9c52be2a4e59f2587236a4fa",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.435607"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合随机森林和岭回归来跟踪S&P 500指数，目的是复制指数基金的回报，这直接属于投资组合管理的范畴。论文明确提到了指数跟踪和投资组合构建，并通过跟踪误差来量化表现，这些都是投资组合管理的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合随机森林和岭回归来跟踪S&P 500指数，目的是复制指数基金的回报，这直接属于投资组合管理的范畴。论文明确提到了指数跟踪和投资组合构建，并通过跟踪误差来量化表现，这些都是投资组合管理的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:26.119587"
+}

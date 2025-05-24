@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 33,
+    "title": "基于“分解-重组-预测-集成”模式的Heston期权定价模型",
+    "abstract": "精准合理地期权定价对于改善市场流动性、优化投资者结构、稳定金融市场拥有重要意义。本文提出了一种结合“分解-重组-预测-集成”思想的Heston期权定价模型，该模型利用Heston模型进行初始定价，通过自适应噪声完全集合经验模态分解(CEEMDAN)对定价误差进行分解与重构，获得高频项、低频项及趋势项，然后使用门控循环单元(GRU)估计高频项及低频项，使用差分整合移动平均自回归(ARIMA)估计趋势项，所有估计值集成汇总得到定价误差估计值，最后使用定价误差估计值对Heston模型的初始定价结果进行修正后获得最终定价结果。使用华夏上证50ETF、华泰柏瑞沪深300ETF和嘉实沪深300ETF期权数据验证模型，实证结果显示，在模型结构更加简单的基础上，本文提出模型的精度普遍优于基准模型。",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "cce11d91621bc025690002674aaa0582",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "GRU"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:18.906683"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是改进Heston期权定价模型，通过分解-重组-预测-集成的方法提高期权定价的精度。论文明确提到使用期权数据进行验证，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是改进Heston期权定价模型，通过分解-重组-预测-集成的方法提高期权定价的精度。论文明确提到使用期权数据进行验证，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:35.199924"
+}

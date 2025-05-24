@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 626,
+    "title": "Spam email classification based on cybersecurity potential risk using natural language processing",
+    "abstract": "Spam emails go beyond being merely annoying messages, they have become one of the most used vectors for cyberattacks such as stealing personal information or spreading malware. These breaches in cybersecurity lead to financial and data loss for individuals and organisations. Thus, the ability to differentiate potentially risky emails is crucial to launch earlier warnings and gain relevant information for cybersecurity experts. Recent works have proposed models to detect phishing, fraudulent or critical spam emails. However, their focus is often restricted to a particular email type or only evaluated on spam emails received by organisations. In this work, we propose a new set of 56 features extracted using Natural Language Processing (NLP) techniques and grouped into five categories: Headers, Text, Attachments, URLs, and Protocols. We build a dataset, Spam Email Risk Classification (SERC), divided into two sub-datasets: one collected from a private source and another from Bruce Guenter's public corpus. To assess the potential risk of spam emails for users, we follow two strategies: a binary classification using low and high risk and a regression approach to predict the level of risk from 1 to 10. We evaluated three Machine Learning classifiers and three regression models. Random Forest obtains the highest classification performance with 0.914 of F1-Score on SERC and Random Forest Regressor achieves the lowest Mean Square Error (MSE) of 0.781 for regression. We also conduct an analysis of the feature importance in terms of each feature and group where those from the Headers and Text groups become more relevant.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "fe6e9f48df5a25385586a28224630a0a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.786358"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于自然语言处理技术的垃圾邮件分类，以识别网络安全风险，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于自然语言处理技术的垃圾邮件分类，以识别网络安全风险，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:17.549121"
+}

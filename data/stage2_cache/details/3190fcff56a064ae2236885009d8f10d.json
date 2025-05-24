@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1772,
+    "title": "Behavior-Aware Account De-Anonymization on Ethereum Interaction Graph",
+    "abstract": "Blockchain technology has the characteristics of decentralization, traceability and tamper-proof, which creates a 3 reliable decentralized trust mechanism, further accelerating the development of blockchain finance. However, the anonymization of blockchain hinders market regulation, resulting in increasing illegal activities such as money laundering, gambling and phishing fraud on blockchain financial platforms. Thus, financial security has become a top priority in the blockchain ecosystem, calling for effective market regulation. In this paper, we consider identifying Ethereum accounts from a graph classification perspective, and propose an end-to-end graph neural network framework named Ethident, to characterize the behavior patterns of accounts and further achieve account de-anonymization. Specifically, we first construct an Account Interaction Graph (AIG) using raw Ethereum data. Then we design a hierarchical graph attention encoder named HGATE as the backbone of our framework, which can effectively characterize the node level account features and subgraph-level behavior patterns. For alleviating account label scarcity, we further introduce contrastive self-supervision mechanism as regularization to jointly train our framework. Comprehensive experiments on Ethereum datasets demonstrate that our framework achieves superior performance in account identification, yielding 1.13% similar to 4.93% relative improvement over previous state-of-the-art. Furthermore, detailed analyses illustrate the effectiveness of Ethident in identifying and understanding the behavior of known participants in Ethereum (e.g. exchanges, miners, etc.), as well as that of the lawbreakers (e.g. phishing scammers, hackers, etc.), which may aid in risk assessment and market regulation.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a0e019ce0e57672bea6d573485fa9c56",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "attention mechanism",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:07:25.675314"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用图神经网络进行以太坊账户的去匿名化，目的是识别非法活动（如洗钱、欺诈等），这有助于风险评估和市场监督，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用图神经网络进行以太坊账户的去匿名化，目的是识别非法活动（如洗钱、欺诈等），这有助于风险评估和市场监督，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:35.310061"
+}

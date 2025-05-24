@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "论文明确提到使用机器学习模型（随机森林）进行股票收益率预测",
+    "supervised learning": "随机森林是一种监督学习方法，用于预测个股的相对收益率",
+    "regression": "论文研究的是收益率预测问题，属于回归任务",
+    "decision tree": "随机森林是由多个决策树组成的集成学习方法"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"regression\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"论文明确提到使用机器学习模型（随机森林）进行股票收益率预测\",\n    \"supervised learning\": \"随机森林是一种监督学习方法，用于预测个股的相对收益率\",\n    \"regression\": \"论文研究的是收益率预测问题，属于回归任务\",\n    \"decision tree\": \"随机森林是由多个决策树组成的集成学习方法\"\n  }\n}\n```"
+}

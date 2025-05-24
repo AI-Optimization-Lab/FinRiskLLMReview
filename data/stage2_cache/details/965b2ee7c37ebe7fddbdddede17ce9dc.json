@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 696,
+    "title": "Simplified MCDM Analytical Weighted Model for Ranking Classifiers in Financial Risk Datasets",
+    "abstract": "One of the most challenging tasks in data mining is to choose a better classifier for classification problems as this involves multiple criteria. The multiple criteria decision making (MCDM) techniques are noteworthy to judge different alternatives on various criteria. In this paper, a simplified MCDM technique is applied to make a judgement on different alternatives (classifiers) among multiple criteria in financial risk datasets. For this purpose, the paired t-test statistical significance test and significant win-loss tables are used to determine the performance scores for each classifier. Then, the weights are determined using an analytic hierarchy process (AHP) and finally simplified MCDM weighted sum model is applied to rank the classifiers. In addition, the efficiency of this simplified MCDM method is compared with other top MCDM methods such as TOPSIS, PROMETHEE and VIKOR to evaluate if there are any discrepancies in ranking. Analysis has been done for the three financial risk datasets from the UCI machine learning repository and surprisingly this simplified approach and the other top MCDM methods produce consistent rankings. Logistic regression and Bayesnet are ranked as the top two classifiers for financial risk datasets by this simplified approach and the other top MCDM methods. The simplified MCDM model can be applied to rank the classifiers which use simplified backgrounds in making right decisions among multiple criteria.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2e6b31cf909edea7e425ade13f8e04a0",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "decision tree",
+      "support vector machine",
+      "SVM",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.410600"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on ranking classifiers for financial risk datasets, specifically evaluating their performance in handling financial risk data. This directly aligns with the domain of financial risk management, as the primary goal is to improve decision-making in assessing and managing financial risks.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on ranking classifiers for financial risk datasets, specifically evaluating their performance in handling financial risk data. This directly aligns with the domain of financial risk management, as the primary goal is to improve decision-making in assessing and managing financial risks.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:49.528590"
+}

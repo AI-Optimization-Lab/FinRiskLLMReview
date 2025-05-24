@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 744,
+    "title": "Forecasting the elasticity of variance with LSTM recurrent neural networks",
+    "abstract": "Volatility forecasting is an important tool because it can be used in many different applications across the industry including risk management, derivatives trading and optimal portfolio selection. On the other hand, machine learning tends to be more accurate in making predictions when large volumes of data are involved in the system which the financial services industry tends to encounter. In this paper, we show that a fractional stochastic generalization of the elasticity of variance can contain latent features of the market elasticity of variance by using an artificial recurrent neural network architecture called LSTM (Long Short-Term Memory) to forecast the elasticity of variance. It is shown that the forecast only with the elasticity of variance data has no statistically significant difference from forward filling, but information on the Hurst exponent can improve the power of forecasting the elasticity of variance.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1d03698ffcf7bb3edbb1da6c531feff9",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:54:34.099138"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Derivatives Pricing",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM神经网络预测波动率的弹性，这在摘要中明确提到可以应用于风险管理、衍生品交易和最优投资组合选择。因此，该论文的研究成果可以应用于金融风险管理、衍生品定价和投资组合管理这三个领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"衍生品定价\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM神经网络预测波动率的弹性，这在摘要中明确提到可以应用于风险管理、衍生品交易和最优投资组合选择。因此，该论文的研究成果可以应用于金融风险管理、衍生品定价和投资组合管理这三个领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:24.754177"
+}

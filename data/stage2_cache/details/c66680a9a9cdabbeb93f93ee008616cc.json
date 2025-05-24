@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3514,
+    "title": "XGBoost-B-GHM: An Ensemble Model with Feature Selection and GHM Loss Function Optimization for Credit Scoring",
+    "abstract": "Credit evaluation has always been an important part of the financial field. The existing credit evaluation methods have difficulty in solving the problems of redundant data features and imbalanced samples. In response to the above issues, an ensemble model combining an advanced feature selection algorithm and an optimized loss function is proposed, which can be applied in the field of credit evaluation and improve the risk management ability of financial institutions. Firstly, the Boruta algorithm is embedded for feature selection, which can effectively reduce the data dimension and noise and improve the model's capacity for generalization by automatically identifying and screening out features that are highly correlated with target variables. Then, the GHM loss function is incorporated into the XGBoost model to tackle the issue of skewed sample distribution, which is common in classification, and further improve the classification and prediction performance of the model. The comparative experiments on four large datasets demonstrate that the proposed method is superior to the existing mainstream methods and can effectively extract features and handle the problem of imbalanced samples.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7f12963f9f5df15a0efbaa701c53037f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:19.050027"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit scoring, which is a critical component of financial risk management, particularly in assessing the creditworthiness of borrowers and managing default risks.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit scoring, which is a critical component of financial risk management, particularly in assessing the creditworthiness of borrowers and managing default risks.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:24.058285"
+}

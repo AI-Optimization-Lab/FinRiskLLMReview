@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 81,
+    "title": "Convergence of the Backward Deep BSDE Method with Applications to Optimal Stopping Problems",
+    "abstract": "The optimal stopping problem is one of the core problems in financial markets, with broad applications such as pricing American and Bermudan options. The deep BSDE method [J. Han, A. Jentzen, and W. E, Proc. Natl. Acad. Sci. USA, 115 (2018), pp. 8505--8510] has shown great power in solving high-dimensional forward-backward stochastic differential equations and has inspired many applications. However, the method solves backward stochastic differential equations (BSDEs) in a forward manner, which cannot be used for optimal stopping problems that in general require running BSDE backwardly. To overcome this difficulty, a recent paper [H. Wang et al., Deep Learning-Based BSDE Solver for LIBOR Market Model with Application to Bermudan Swaption Pricing and Hedging, arXiv:1807.06622, 2018] proposed the backward deep BSDE method to solve the optimal stopping problem. In this paper, we provide a rigorous theory for the backward deep BSDE method. Specifically, (1) we derive the a posteriori error estimation, i.e., the error of the numerical solution can be bounded by the training loss function; and (2) we give an upper bound of the loss function, which can be sufficiently small subject to universal approximations. We give two numerical examples, which present consistent performance with the proved theory.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "8a51c05f5450a9906f0709c12ff19bbf",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:55.096163"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是解决最优停止问题，并明确提到其在美式和百慕大期权定价中的应用，这属于衍生品定价的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是解决最优停止问题，并明确提到其在美式和百慕大期权定价中的应用，这属于衍生品定价的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:33.578081"
+}

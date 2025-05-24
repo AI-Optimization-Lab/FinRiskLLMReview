@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3579,
+    "title": "Using Equity Analyst Coverage to Determine Stock Similarity",
+    "abstract": "With the observation that equity analysts tend to cover similar stocks, we propose a simple, intuitive method to convert their coverage sets into pairwise similarity values among stocks. These values are shown to have a strong positive relationship with future stock-return correlation. Further, these values are easily combined with historical correlation. Together, they produce more accurate predictions of future correlation than either does separately. Using an agglomerative clusterer and a genetic algorithm in a pipeline approach, we use the pairwise values to form clusters of similar stocks. We compare these clusters against a leading industry classification system, GICS, finding that the clusters from the combined analyst and correlation pairwise values tend to perform at least as well as GICS and often better. In an application of our pairwise values, we consider a hypothetical scenario where an investor wishes to hedge a long position in a single stock. Our results indicate that using the analyst similarity values to select a hedge portfolio leads to greater risk reduction than using GICS or hedging with a broad-market index. Using a combination of historical correlation with the analyst values leads to even greater improvements.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "721aef83df8861c4e665abfdabb22e44",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:18:20.611151"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是通过分析股票相似性来构建股票集群，并应用于对冲投资组合以减少风险。这直接涉及投资组合管理和金融风险管理领域。论文中提到的对冲策略和风险减少的应用场景明确表明了这些领域的相关性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是通过分析股票相似性来构建股票集群，并应用于对冲投资组合以减少风险。这直接涉及投资组合管理和金融风险管理领域。论文中提到的对冲策略和风险减少的应用场景明确表明了这些领域的相关性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:18.291271"
+}

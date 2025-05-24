@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1070,
+    "title": "Moving average reversion strategy for on-line portfolio selection",
+    "abstract": "On-line portfolio selection, a fundamental problem in computational finance, has attracted increasing interest from artificial intelligence and machine learning communities in recent years. Empirical evidence shows that stock's high and low prices are temporary and stock prices are likely to follow the mean reversion phenomenon. While existing mean reversion strategies are shown to achieve good empirical performance on many real datasets, they often make the single-period mean reversion assumption, which is not always satisfied, leading to poor performance in certain real datasets. To overcome this limitation, this article proposes a multiple-period mean reversion, or so-called Moving Average Reversion (MAR), and a new on-line portfolio selection strategy named On-Line Moving Average Reversion (OLMAR), which exploits MAR via efficient and scalable online machine learning techniques. From our empirical results on real markets, we found that OLMAR can overcome the drawbacks of existing mean reversion algorithms and achieve significantly better results, especially on the datasets where existing mean reversion algorithms failed. In addition to its superior empirical performance, OLMAR also runs extremely fast, further supporting its practical applicability to a wide range of applications. Finally, we have made all the datasets and source codes of this work publicly available at our, project website: http://OLPS.stevenhoi.org/. (C) 2015 Elsevier B.V. All rights reserved.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "299639db7435cd8bf2979ba220277a1c",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.940943"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种名为On-Line Moving Average Reversion (OLMAR)的在线投资组合选择策略，旨在通过多期均值回归（Moving Average Reversion, MAR）来优化投资组合的表现。论文的研究目标和实验设计都集中在在线投资组合选择问题上，这明确属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种名为On-Line Moving Average Reversion (OLMAR)的在线投资组合选择策略，旨在通过多期均值回归（Moving Average Reversion, MAR）来优化投资组合的表现。论文的研究目标和实验设计都集中在在线投资组合选择问题上，这明确属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:47.018051"
+}

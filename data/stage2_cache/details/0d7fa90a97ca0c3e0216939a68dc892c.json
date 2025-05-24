@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 2883,
+    "title": "A hybrid approach for generating investor views in Black-Litterman model",
+    "abstract": "One of the main contributions of Black-Litterman asset allocation modeling is bringing out the idea of updating portfolios relying on the investor views. The incorporation of such views may inject subjectivity to the modeling phase. There is a recent literature on generating the views with financial forecasting methods, which employ either econometric or learning algorithms. In this research, we aim to propose a hybrid approach to the stream, in which GARCH modeling is used for predicting indicators for the stocks, followed by translating the indicator forecasts to return forecasts through Support Vector Regression. The obtained return forecasts are then fed into Black-Litterman modeling as investor views vector in order to generate portfolios with rolling data. The proposed model is tested in two markets: an emerging market (BIST-30 index of Istanbul Stock Exchange) and a developed market (Dow Jones Index of US Stock Market). In general, the results reveal better portfolio returns and Sharpe ratios than the index return for different holding periods, as well as better portfolio returns than randomly generated portfolios. We further show that the indicators can be accounted relying on the state or the market (non-trending or trending). (C) 2019 Elsevier Ltd. All rights reserved.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "508eb4e8b69f034b0eb4ad8741cea9c6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:11:17.479433"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一种混合方法，用于在Black-Litterman模型中生成投资者观点，进而优化投资组合。研究目标明确指向资产配置和投资组合的生成与优化，并通过实证分析验证了该方法在提升投资组合收益和夏普比率方面的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一种混合方法，用于在Black-Litterman模型中生成投资者观点，进而优化投资组合。研究目标明确指向资产配置和投资组合的生成与优化，并通过实证分析验证了该方法在提升投资组合收益和夏普比率方面的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:21.134427"
+}

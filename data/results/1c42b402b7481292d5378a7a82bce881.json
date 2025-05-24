@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "neural network",
+    "deep learning",
+    "long short-term memory",
+    "LSTM",
+    "attention mechanism"
+  ],
+  "explanations": {
+    "machine learning": "The paper proposes a novel framework (ACB-XDE) that integrates machine learning techniques for stock price forecasting.",
+    "supervised learning": "The framework involves supervised learning as it predicts the daily closing price of Bitcoin-USD based on historical data.",
+    "regression": "The paper focuses on predicting continuous values (stock prices), which is a regression problem.",
+    "neural network": "The proposed framework uses a Bi-directional Long Short-Term Memory (BiLSTM) model, which is a type of neural network.",
+    "deep learning": "The BiLSTM model and the attention mechanism are deep learning techniques used in the framework.",
+    "long short-term memory": "The framework utilizes a customized BiLSTM model to capture complex sequential dependencies in financial data.",
+    "LSTM": "BiLSTM is a variant of LSTM, which is explicitly mentioned in the paper.",
+    "attention mechanism": "The paper introduces a novel attention mechanism to dynamically assign weights to influential features based on volatility patterns."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"regression\",\n    \"neural network\",\n    \"deep learning\",\n    \"long short-term memory\",\n    \"LSTM\",\n    \"attention mechanism\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper proposes a novel framework (ACB-XDE) that integrates machine learning techniques for stock price forecasting.\",\n    \"supervised learning\": \"The framework involves supervised learning as it predicts the daily closing price of Bitcoin-USD based on historical data.\",\n    \"regression\": \"The paper focuses on predicting continuous values (stock prices), which is a regression problem.\",\n    \"neural network\": \"The proposed framework uses a Bi-directional Long Short-Term Memory (BiLSTM) model, which is a type of neural network.\",\n    \"deep learning\": \"The BiLSTM model and the attention mechanism are deep learning techniques used in the framework.\",\n    \"long short-term memory\": \"The framework utilizes a customized BiLSTM model to capture complex sequential dependencies in financial data.\",\n    \"LSTM\": \"BiLSTM is a variant of LSTM, which is explicitly mentioned in the paper.\",\n    \"attention mechanism\": \"The paper introduces a novel attention mechanism to dynamically assign weights to influential features based on volatility patterns.\"\n  }\n}\n```"
+}

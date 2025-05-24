@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3082,
+    "title": "Asset allocation under predictability and parameter uncertainty using LASSO",
+    "abstract": "We consider a short-term investor who exploits return predictability in stocks and bonds to maximize mean-variance utility. Since the true parameters are unknown, we resort to portfolio optimization in form of linear regression with LASSO in order to mitigate problems related to estimation errors. As standard cross-validation relies on the assumption of i.i.d. returns, we propose a new type of cross-validation that selects lambda from simulated returns sampled from a multivariate normal distribution. We find an inverse U-shaped relationship between the selected lambda and the expected utility, and we show that the optimal value of lambda declines as the number of observations used to estimate the parameters increases. We finally show how our strategy outperforms some commonly employed benchmarks.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "aa338c9feb171ee4af4645788597196e",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:13:09.909979"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on asset allocation and portfolio optimization for a short-term investor using LASSO regression to maximize mean-variance utility, which is a core aspect of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on asset allocation and portfolio optimization for a short-term investor using LASSO regression to maximize mean-variance utility, which is a core aspect of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:30.637491"
+}

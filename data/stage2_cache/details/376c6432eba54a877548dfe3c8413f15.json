@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 522,
+    "title": "Attention based dynamic graph neural network for asset pricing",
+    "abstract": "Recent studies suggest that networks among firms (sectors) play a vital role in asset pricing. This paper investigates these implications and develops a novel end-to-end graph neural network model for asset pricing by combining and modifying two state-of-the-art machine learning techniques. First, we apply the graph attention mechanism to learn dynamic network structures of the equity market over time and then use a recurrent convolutional neural network to diffuse and propagate firms' information into the learned networks. This novel approach allows us to model the implications of networks along with the characteristics of the dynamic comovement of asset prices. The results demonstrate the effectiveness of our proposed model in both predicting returns and improving portfolio performance. Our approach demonstrates persistent performance in different sensitivity tests and simulated data. We also show that the dynamic network learned from our proposed model captures major market events over time. Our model is highly effective in recognizing the network structure in the market and predicting equity returns and provides valuable market information to regulators and investors.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ea03e6543e7ab99cd885f41e8fc399f3",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:21.054005"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种基于注意力机制的动态图神经网络模型，用于资产定价和预测股票回报，并提到该模型能够改善投资组合的表现。这些内容直接指向投资组合管理领域，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种基于注意力机制的动态图神经网络模型，用于资产定价和预测股票回报，并提到该模型能够改善投资组合的表现。这些内容直接指向投资组合管理领域，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:04.018942"
+}

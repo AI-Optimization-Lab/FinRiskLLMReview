@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 2389,
+    "title": "Credit Default Risk Measurement and Statistical Analysis Based on Improved GRU Model",
+    "abstract": "With the increasing complexity of financial markets, credit defaults may not only affect the cash flow of enterprises, but also pose a threat to the stability of financial markets. Therefore, the management of credit default risk has become particularly important. This study constructs a new credit default risk assessment model by improving the gated recurrent unit algorithm and introducing Focal Loss function and fuzzy clustering algorithm. The new model can effectively capture market dynamics and nonlinear features, lessen the weight of easily classified samples, and accurately identify and eliminate redundant data through Pearson correlation analysis, thereby improving the precise measurement of default risk. The research findings indicate that the new model performs well in credit default risk assessment, with an accuracy rate of 96.53%, precision of 0.96, recall rate of 0.97, F1 value of 0.97, and all indicators reaching over 96%, significantly better than traditional Logistic and Copula models. In terms of the total time required for feature extraction, model training, and testing, the new model only takes 59 ms, which is 57 ms faster than the conventional Logistic algorithm, demonstrating the potential application of the new model in real-time risk monitoring. From this, the new model can not only accurately assess the default risk of credit, but also quickly complete statistical analysis. The new model can help financial institutions and enterprises reduce the proportion of non-performing assets, improve asset returns, protect the interests of investors, and provide a new analytical tool for real-time risk monitoring in the financial market.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cbb4f154d3d138c73c814f0bdc7f83b9",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "classification",
+      "clustering",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:50.311722"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是改进的GRU模型，用于信用违约风险的精确测量和统计分析，这直接属于金融风险管理的范畴。论文明确提到该模型可以帮助金融机构和企业减少不良资产比例，提高资产回报，保护投资者利益，并为金融市场的实时风险监控提供新的分析工具。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是改进的GRU模型，用于信用违约风险的精确测量和统计分析，这直接属于金融风险管理的范畴。论文明确提到该模型可以帮助金融机构和企业减少不良资产比例，提高资产回报，保护投资者利益，并为金融市场的实时风险监控提供新的分析工具。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:53.323158"
+}

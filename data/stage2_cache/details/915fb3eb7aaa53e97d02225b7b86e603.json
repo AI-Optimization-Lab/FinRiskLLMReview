@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 57,
+    "title": "Shrinkage estimation with reinforcement learning of large variance matrices for portfolio selection",
+    "abstract": "A large amount of assets characterizes high-dimensional portfolio selection problems compared to temporal observation. In such a high-dimensional framework, the asset allocation is unfeasible because the covariance matrix obtained with the usual sample estimators cannot be inverted. This paper proposes a new shrinkage estimator based on reinforcement learning for large covariance matrices that is optimal in the context of portfolio selection. The resulting estimator is entirely data-driven since the optimal shrinkage intensity is given by optimizing neural network weights. This paper presents two different architectures: a standard fully connected network for a classical Policy Gradient Agent (PGA) and a Gated Recurrent Unit for a Recurrent Policy Gradient Agent (RPGA). To show the validity of the proposal, an application to asset allocation with Industry portfolios is provided. The results indicate that the RPGA-based approach in shrinkage estimation provides the best performance in out-of-sample comparison.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c775c2eed699e71402d5e772d2d13c28",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "Gated Recurrent Unit"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.963063"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing a new shrinkage estimator for large covariance matrices specifically in the context of portfolio selection, which is a core aspect of portfolio management. The application to asset allocation with Industry portfolios further confirms its primary application in this domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing a new shrinkage estimator for large covariance matrices specifically in the context of portfolio selection, which is a core aspect of portfolio management. The application to asset allocation with Industry portfolios further confirms its primary application in this domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:58.300247"
+}

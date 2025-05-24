@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1052,
+    "title": "Simulated Annealing in Multifactor Equity Portfolio Management",
+    "abstract": "Building a multifactor excess return model to select portfolio stocks has become a widely used tool for portfolio management. The decision to include return factors in such a model varies widely from practitioner to practitioner. Factor weightings in most models are commonly determined by linear regression. The linear regression approach ranks stocks by expected future returns and then selects a portfolio from among the highest ranked stocks. The regression model related to portfolio construction produces a model that is a best historic fit to the returns of every stock. No measure of portfolio return or risk can be considered in determining the regression coefficients. In addition to portfolio risk, restrictions on factor weights, portfolio structure, transaction costs, or turnover cannot be easily incorporated in determining the regression model. This thesis considers the portfolio construction model as a global optimization problem, rather than a curve fitting problem. No assumptions about convexity of optimization function F(theta) are made and, therefore, it may have several local maxima. To control risk throughout a portfolio construction process, this work considers the model's objective function to maximize return divided by risk - the Sharpe ratio. The model is constructed using a ten-year moving window of stock market information and then tested on the next year. We then examine the performance of a simulated annealing search and arbitrage pricing theorem to solve this global optimization problem.",
+    "year": 2010,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f74aaca27fc7e32146c447d27b2200c0",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.866976"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用模拟退火算法和套利定价理论来解决多因子股票投资组合构建的全局优化问题，其研究目标是最大化夏普比率（回报除以风险），这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用模拟退火算法和套利定价理论来解决多因子股票投资组合构建的全局优化问题，其研究目标是最大化夏普比率（回报除以风险），这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:51.148851"
+}

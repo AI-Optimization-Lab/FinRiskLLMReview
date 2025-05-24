@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 4215,
+    "title": "The effects of quantum hardware properties on the performances of variational quantum learning algorithms",
+    "abstract": "In-depth theoretical and practical research is nowadays being performed on variational quantum algorithms (VQAs), which have the potential to surpass traditional, classical, algorithms on a variety of problems, in physics, chemistry, biology, and optimization. Because they are hybrid quantum-classical algorithms, it takes a certain set of optimal conditions for their full potential to be exploited. For VQAs, the construction of an appropriate ansatz in particular is crucial, since it lays the ground for efficiently solving the particular problem being addressed. To prevent severe negative effects that hamper quantum computation, the substantial noise, together with the structural limitations, characteristic of currently available devices must be also taken into consideration while building the ansatz. In this work the effect of the quantum hardware structure, namely the topological properties emerging from the couplings between the physical qubits and the basis gates of the device itself, on the performances of VQAs is addressed. Specifically, it is here experimentally shown that a complex connectivity in the ansatz, albeit being beneficial for exploring wider sets of solutions, introduces an overhead of gates during the transpilation on a quantum computer that increases the overall error rate, thus undermining the quality of the training. It is hence necessary, when implementing a variation quantum learning algorithm, to find the right balance between a sufficiently parametrized ansatz and a minimal cost in terms of resources during transpilation. Moreover, the experimental finding allows to construct a heuristic metric function, which aids the decision-making process on the best possible ansatz structure to be deployed on a given quantum hardware, thus fostering a more efficient application of VQAs in realistic situations. The experiments are performed on two widely used variational algorithms, the VQE (variational quantum eigensolver) and the VQC (variational quantum classifier), both tested on two different problems, the first on the Markowitz portfolio optimization using real-world financial data, and the latter on a classification task performed on the Iris dataset.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b98dc54c38c1f9de2c77fa55be08f0c7",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:24:51.474240"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文中提到实验之一是使用VQE（变分量子本征求解器）在Markowitz投资组合优化问题上进行测试，这直接涉及投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文中提到实验之一是使用VQE（变分量子本征求解器）在Markowitz投资组合优化问题上进行测试，这直接涉及投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:58.366938"
+}

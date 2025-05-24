@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 3592,
+    "title": "On Forecasting Realized Volatility for Bitcoin Based on Deep Learning PSO-GRU Model",
+    "abstract": "As the trendsetter of the digital currency market, Bitcoin fluctuates dramatically in a short period of time and has received increasing attention from investors. However, its high volatility has brought great uncertainty to the financial market. In this paper, we focus on forecasting the realized volatility of Bitcoin by using an optimized deep learning model. Firstly, we construct a more comprehensive system of factor indicators and employ different methods for feature selection, and find that the Random Forest-based feature selection fits better on the deep learning model. Then, we use the particle swarm optimization (PSO) algorithm to optimize the parameters of gated recurrent unit (GRU) model to improve the prediction accuracy, and the results show that the prediction accuracy of PSO-GRU model is 10.47%, 15.28%, 21.73%, 34.79% better than the GRU model, long-short term memory model, machine learning models and the generalized autoregressive conditional heteroscedasticity model on the mean absolute error, respectively. Finally, we establish an early risk warning scheme for Bitcoin volatility and a butterfly option arbitrage strategy, that provide investors with a reference for reasonable arrangement of trading strategies.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8b8cd927fbc7f34669bf19c828b608fa",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "feature learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:54.086409"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用优化的深度学习模型预测比特币的已实现波动率，并建立了早期风险预警方案，这属于金融风险管理的范畴。此外，论文还提到了基于预测结果的蝴蝶期权套利策略，这涉及到衍生品定价的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用优化的深度学习模型预测比特币的已实现波动率，并建立了早期风险预警方案，这属于金融风险管理的范畴。此外，论文还提到了基于预测结果的蝴蝶期权套利策略，这涉及到衍生品定价的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:59.037033"
+}

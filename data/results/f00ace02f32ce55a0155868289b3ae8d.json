@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "deep learning",
+    "neural network",
+    "representation learning",
+    "autoencoder"
+  ],
+  "explanations": {
+    "machine learning": "论文提到使用深度学习和智能优化算法等新兴技术与投资组合的融合，这些都属于机器学习的范畴。",
+    "deep learning": "论文明确提到使用生成式深度学习方法——最小二乘生成对抗网络来模拟证券未来收益的复杂多维场景。",
+    "neural network": "生成对抗网络（GAN）是一种神经网络架构，论文中提到的LSGAN（最小二乘生成对抗网络）属于神经网络的一种。",
+    "representation learning": "生成对抗网络通过学习数据的潜在表示来生成新的数据样本，这属于表示学习的范畴。",
+    "autoencoder": "虽然论文没有明确提到自编码器，但生成对抗网络与自编码器在表示学习方面有相似之处，都是通过学习数据的潜在表示来进行数据生成或重构。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"deep learning\", \"neural network\", \"representation learning\", \"autoencoder\"],\n  \"explanations\": {\n    \"machine learning\": \"论文提到使用深度学习和智能优化算法等新兴技术与投资组合的融合，这些都属于机器学习的范畴。\",\n    \"deep learning\": \"论文明确提到使用生成式深度学习方法——最小二乘生成对抗网络来模拟证券未来收益的复杂多维场景。\",\n    \"neural network\": \"生成对抗网络（GAN）是一种神经网络架构，论文中提到的LSGAN（最小二乘生成对抗网络）属于神经网络的一种。\",\n    \"representation learning\": \"生成对抗网络通过学习数据的潜在表示来生成新的数据样本，这属于表示学习的范畴。\",\n    \"autoencoder\": \"虽然论文没有明确提到自编码器，但生成对抗网络与自编码器在表示学习方面有相似之处，都是通过学习数据的潜在表示来进行数据生成或重构。\"\n  }\n}\n```"
+}

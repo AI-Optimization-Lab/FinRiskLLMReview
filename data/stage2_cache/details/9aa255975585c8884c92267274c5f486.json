@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1002,
+    "title": "On the Effectiveness of Graph Statistics of Shareholder Relation Network in Predicting Bond Default Risk",
+    "abstract": "Starting from the theoretical effectiveness of shareholder relation network information for predicting bond default risk, we propose two efficient schemes for extracting two different graph statistics of shareholder relation networks: graph structure statistics and graph distance statistics. In order to test the effectiveness of the two schemes, seven machine learning methods and three types of prediction tasks are used. The shareholder relation network information's effectiveness and machine learning methods are also analyzed. Results show that the graph statistics of shareholder relationship networks are insufficient to be used independently as input features for predicting bond default risk but can provide helpful incremental information based on financial features. The shareholder relation information is effective for predicting bond default risk. The structure statistics perform best among all graph statistics overall, and Cascade Forest and LightGBM perform best among all seven machine learning methods.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "248ae7663a07e823d95005041e9d70d8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.969560"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting bond default risk using graph statistics of shareholder relation networks, which is a key aspect of financial risk management, specifically credit risk assessment.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting bond default risk using graph statistics of shareholder relation networks, which is a key aspect of financial risk management, specifically credit risk assessment.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:43.842520"
+}

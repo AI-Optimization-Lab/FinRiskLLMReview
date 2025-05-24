@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1009,
+    "title": "Impact of noise on credit risk prediction: Does data quality really matter?",
+    "abstract": "Machine learning has been successfully used for credit-evaluation decisions. Most research on machine learning assumes that the attributes of training and tests instances are not only completely specified but are also free from noise. Real world data, however, often suffer from corruptions or noise but not always known. This is the heart of information-based credit risk models. However, blindly applying such machine learning techniques to noisy financial credit risk evaluation data may fail to make very good or perfect predictions. Unfortunately, despite extensive research over the last decades, the impact of poor quality of data (especially noise) on the accuracy of credit risk has attracted less attention, even though it remains a significant problem for many. This paper investigates the robustness of five machine learning (supervised) algorithms to noisy credit risk environment. In particular, we show that when noise is added to four real-world credit risk domains, a significant and disproportionate number of total errors are contributed by class noise compared to attribute noise; thus, in the presence of noise, it is noise on the class variable that are responsible for the poor predictive accuracy of the learning concept.",
+    "year": 2013,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9a14430a5e673f8c333b1a3a683263c5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:30.014639"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on the impact of noise on credit risk prediction using machine learning algorithms, which is a key aspect of financial risk management, specifically in assessing and managing credit risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on the impact of noise on credit risk prediction using machine learning algorithms, which is a key aspect of financial risk management, specifically in assessing and managing credit risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:43.188678"
+}

@@ -1,0 +1,37 @@
+{
+  "paper": {
+    "id": 2384,
+    "title": "Enhancing Predictive Capabilities for Identifying At-Risk Stocks Using Multivariate Time-Series Classification: A Case Study of the Thai Stock Market",
+    "abstract": "This study proposes a multivariate time-series classification approach using deep learning to predict stocks likely to be flagged by the Market Surveillance Measure List in the Thai stock market. Formulated as a binary classification problem, the model distinguishes At-Risk and Normal stocks based on two primary datasets: End-of-Day stock prices and Market Surveillance Measure List records, incorporating trading volumes and technical indicators. To address data imbalance, concept drift, and long-term dependencies, the framework integrates feature engineering, cost-sensitive learning, and rolling window training. Experimental results show deep learning models significantly outperform traditional baseline methods in capturing financial risk patterns. The study identifies models that effectively balance predictive accuracy with computational efficiency, with performance varying based on forecasting horizons. Despite improvements from specialized techniques, the study identifies challenges in long-term financial risk prediction. These findings support market surveillance, algorithmic trading, and portfolio risk management, with future work exploring explainable AI, adaptive learning, and alternative data sources to enhance interpretability and long-term forecasting.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cf6a2975707105eccf01a991b7d7865a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:50.302411"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型预测可能被标记为'At-Risk'的股票，这直接涉及金融风险管理中的市场风险监测。此外，论文提到其研究成果可支持投资组合风险管理，表明其应用也涉及投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型预测可能被标记为'At-Risk'的股票，这直接涉及金融风险管理中的市场风险监测。此外，论文提到其研究成果可支持投资组合风险管理，表明其应用也涉及投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:53.768144"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2711,
+    "title": "To split or to group: from divide-and-conquer to sub-task sharing for verifying multiple properties in model checking",
+    "abstract": "Hardware systems complexity has constantly increased in recent years. Guaranteeing their correctness is a must. Formal verification techniques, such as model checking, now play a major role in industrial environments. Their efficiency in dealing with large sets of properties is crucial. This paper deals with property grouping, decomposition, and coverage in model checking. Property grouping is a valuable solution whenever several properties must be proved for a single model. As such sets may include easy-to-prove and/or similar properties, grouping can reduce overhead avoiding sub-tasks repetition. Property decomposition, following the divide-and-conquer paradigm, can be effective whenever a property turns out to be hard-to-prove. Our contribution is a heuristic property manager, running on top of a multi-engine model checking portfolio, aiming at productivity optimization. We compare different clustering heuristics, and we exploit decomposition strategies for property sub-setting. We also consider the problem of evaluating a coverage measure for properties, used to monitor the advancement of the verification task.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cfe649ab44f8efd6a8ef3fc3b7c0a281",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:43.344061"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要讨论的是模型检查中的属性分组、分解和覆盖问题，其核心技术应用于硬件系统的形式验证，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要讨论的是模型检查中的属性分组、分解和覆盖问题，其核心技术应用于硬件系统的形式验证，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:15.508568"
+}

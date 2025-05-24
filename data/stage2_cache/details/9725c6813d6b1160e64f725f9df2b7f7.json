@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 197,
+    "title": "DeepOption: A novel option pricing framework based on deep learning with fused distilled data from multiple parametric methods",
+    "abstract": "The remarkable performance of deep learning is based on its ability to learn high-level features by processing large amounts of data. This exceptionally superior performance has attracted the attention of researchers studying option pricing. However, option data are more expensive and less accessible than other types of data and are imbalanced because of the liquidity of options. This motivated us to propose a new option pricing and delta-hedging framework called DeepOption. This framework, which is based on deep learning, can improve the performance even when applying imbalanced real option data. In particular, the framework fuses simulated big data, known as distilled data, obtained using various traditional parametric methods. The proposed model employs the following three-stage training approach: Our model is pre-trained using big distilled data after it is finetuned using real option data through transfer learning. Finally, a delta branch is added to the model and trained. We experimentally evaluated the proposed method using three sets of real option data, namely S&P 500 European call options, EuroStoxx50 call options, and Hang Seng Index put options. Our experimental results on option pricing demonstrate that our proposed model outperforms parametric methods and other machine learning methods. Specifically, our model, which uses pre-training with distilled data, reduces the overall mean absolute percentage error (MAPE) by more than 50%, compared with that of a deep learning model using only real option data without pre-training.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "6b8606b54d336a95778701abd129b14b",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "unsupervised pre-train",
+      "transfer learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.132730"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出了一种基于深度学习的期权定价框架DeepOption，并详细讨论了其在期权定价和delta对冲中的应用。论文的实验部分也专注于评估该模型在期权定价上的表现，因此其主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出了一种基于深度学习的期权定价框架DeepOption，并详细讨论了其在期权定价和delta对冲中的应用。论文的实验部分也专注于评估该模型在期权定价上的表现，因此其主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:07.035240"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 73,
+    "title": "Real-Time Pricing and Hedging of Options on Currency Futures with Artificial Neural Networks",
+    "abstract": "High-frequency trading and automated algorithm impose high requirements on computational methods. We provide a model-free option pricing approach with neural networks, which can be applied to real-time pricing and hedging of FX options. In contrast to well-known theoretical models, an essential advantage of our approach is the simultaneous pricing across different strike prices and parsimonious use of real-time input variables. To test its ability for the purpose of high-frequency trading, we perform an empirical run-time trading simulation with a tick dataset of EUR/USD options on currency futures of 4 weeks. In very short non-overlapping 15-minute out-of-sample intervals, theoretical option prices derived from the Black model compete against nonparametric option prices through two different neural network topologies. We show that the approximated pricing function of learning networks is suitable for generating fast run-time option pricing evaluation as their performance is slightly better in comparison to theoretical prices. The derivation of the network function is also useful for performing hedging strategies. We conclude that the performance of closed-form pricing models depends highly on the volatility estimator, whereas neural networks can avoid this estimation problem but require market liquidity for training. Nevertheless, we also have to take particular enhancements into account, which give us useful hints for further research and steps. Copyright (c) 2014 John Wiley & Sons, Ltd.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "59a3744121e0954db96825ed48d69b13",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.911223"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用神经网络进行实时期权定价和对冲，特别是针对外汇期货期权。论文明确提到了实时定价和对冲策略的应用，这直接属于衍生品定价的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用神经网络进行实时期权定价和对冲，特别是针对外汇期货期权。论文明确提到了实时定价和对冲策略的应用，这直接属于衍生品定价的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:02.827103"
+}

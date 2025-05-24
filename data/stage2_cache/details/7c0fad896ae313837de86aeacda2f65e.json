@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 457,
+    "title": "Applications of Markov Decision Process Model and Deep Learning in Quantitative Portfolio Management during the COVID-19 Pandemic",
+    "abstract": "Whether for institutional investors or individual investors, there is an urgent need to explore autonomous models that can adapt to the non-stationary, low-signal-to-noise markets. This research aims to explore the two unique challenges in quantitative portfolio management: (1) the difficulty of representation and (2) the complexity of environments. In this research, we suggest a Markov decision process model-based deep reinforcement learning model including deep learning methods to perform strategy optimization, called SwanTrader. To achieve better decisions of the portfolio-management process from two different perspectives, i.e., the temporal patterns analysis and robustness information capture based on market observations, we suggest an optimal deep learning network in our model that incorporates a stacked sparse denoising autoencoder (SSDAE) and a long-short-term-memory-based autoencoder (LSTM-AE). The findings in times of COVID-19 show that the suggested model using two deep learning models gives better results with an alluring performance profile in comparison with four standard machine learning models and two state-of-the-art reinforcement learning models in terms of Sharpe ratio, Calmar ratio, and beta and alpha values. Furthermore, we analyzed which deep learning models and reward functions were most effective in optimizing the agent's management decisions. The results of our suggested model for investors can assist in reducing the risk of investment loss as well as help them to make sound decisions.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ea6a3709c1833a9026f20e6b8a954156",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "autoencoder",
+      "denoising autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:47.321696"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用马尔可夫决策过程模型和深度学习方法进行量化投资组合管理，特别是在COVID-19疫情期间的应用。论文明确提到了投资组合管理的挑战和解决方案，并通过实验验证了模型在投资组合管理中的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用马尔可夫决策过程模型和深度学习方法进行量化投资组合管理，特别是在COVID-19疫情期间的应用。论文明确提到了投资组合管理的挑战和解决方案，并通过实验验证了模型在投资组合管理中的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:38.730770"
+}

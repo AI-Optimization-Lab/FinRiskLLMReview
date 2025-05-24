@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 395,
+    "title": "A hybrid model for stock price prediction based on multi-view heterogeneous data",
+    "abstract": "Literature shows that both market data and financial media impact stock prices; however, using only one kind of data may lead to information bias. Therefore, this study uses market data and news to investigate their joint impact on stock price trends. However, combining these two types of information is difficult because of their completely different characteristics. This study develops a hybrid model called MVL-SVM for stock price trend prediction by integrating multi-view learning with a support vector machine (SVM). It works by simply inputting heterogeneous multi-view data simultaneously, which may reduce information loss. Compared with the ARIMA and classic SVM models based on single- and multi-view data, our hybrid model shows statistically significant advantages. In the robustness test, our model outperforms the others by at least 10% accuracy when the sliding windows of news and market data are set to 1-5 days, which confirms our model's effectiveness. Finally, trading strategies based on single stock and investment portfolios are constructed separately, and the simulations show that MVL-SVM has better profitability and risk control performance than the benchmarks.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a1e084ec3d2ca68fbf2bf5fa381fbdb0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.085931"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一个混合模型（MVL-SVM）用于股票价格趋势预测，并基于预测结果构建了单只股票和投资组合的交易策略。这直接应用于投资组合管理领域，旨在提高盈利能力和风险控制性能。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一个混合模型（MVL-SVM）用于股票价格趋势预测，并基于预测结果构建了单只股票和投资组合的交易策略。这直接应用于投资组合管理领域，旨在提高盈利能力和风险控制性能。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:26.781980"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1102,
+    "title": "Portfolio optimization with a neural network implementation of the coherent market hypothesis",
+    "abstract": "Capital market research seems to be widely governed by traditional static linear models like arbitrage pricing theory and capital asset pricing model, though there is some evidence that better results can be achieved using nonlinear approaches. In this study we described a portfolio optimization model based on artificial neural networks embedded in the framework of a nonlinear dynamic capital market model, the coherent market hypothesis. The main advantage of this theory is that it drops the premise of rational investors and therefore relaxes the precondition of approximately normally distributed stock returns. Neural networks are used to estimate the return distributions in order to forecast the fundamental situation and the level of group behavior of the specific stocks. On the basis of these forecasts the relative stock performance is predicted and used to manage stock portfolios. In a simulation with out-of-sample data from 1991-1994 a portfolio constructed from the eight best ranked stocks achieved an annual return rate about 25% higher than that of the market portfolio and one built from the eight worst ranked stocks attained a return about 25% lower than the market portfolio's return rate. A hedging strategy based on the two aforementioned portfolios leads to a consistently positive annual return of about 25% regardless of the movements of the market portfolio with only 41% of the risk of a buy and hold strategy in the market portfolio. (C) 1997 Elsevier Science B.V.",
+    "year": 1997,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "222f82d50dd95c4801fd49504115b1aa",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.333914"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on using neural networks within the coherent market hypothesis framework to optimize stock portfolios, predict stock performance, and manage portfolios, which directly aligns with the domain of Portfolio Management. The study includes simulations of portfolio performance and hedging strategies, further emphasizing its application in this area.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on using neural networks within the coherent market hypothesis framework to optimize stock portfolios, predict stock performance, and manage portfolios, which directly aligns with the domain of Portfolio Management. The study includes simulations of portfolio performance and hedging strategies, further emphasizing its application in this area.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:40.488813"
+}

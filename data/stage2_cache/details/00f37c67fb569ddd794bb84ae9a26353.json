@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1138,
+    "title": "Deep learning for enhanced index tracking",
+    "abstract": "We develop a novel deep learning method for the enhanced index tracking problem, which aims to outperform an index while effectively controlling the tracking error. We generate a dynamic trading policy from a neural network that accepts a set of features as inputs. We design four blocks in the neural network architecture to handle different types of features, including regimes of the index and stocks, their short-term characteristics, and the current allocation. Outputs from the blocks are integrated into the final output that changes the portfolio allocation. We test our model on several indexes in empirical studies based on real market data. Out-of-sample results reveal the importance of different features and demonstrate the ability of our method in obtaining excess returns while effectively controlling the tracking error, downside risk, and transaction costs.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "db609f0696f376b905e438426f38e1e0",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.419887"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一种深度学习方法来增强指数跟踪，旨在超越指数表现同时控制跟踪误差。这直接涉及投资组合的构建和调整，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一种深度学习方法来增强指数跟踪，旨在超越指数表现同时控制跟踪误差。这直接涉及投资组合的构建和调整，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:58.022420"
+}

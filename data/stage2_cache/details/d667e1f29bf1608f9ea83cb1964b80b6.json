@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1708,
+    "title": "GALSTM-FDP: A Time-Series Modeling Approach Using Hybrid GA and LSTM for Financial Distress Prediction",
+    "abstract": "Despite the obvious benefits and growing popularity of Machine Learning (ML) technology, there are still concerns regarding its ability to provide Financial Distress Prediction (FDP). An accurate FDP model is required to avoid financial risk at the lowest possible cost. However, in the Internet era, financial data are exploding, and they are being coupled with other kinds of risk data, making an FDP model challenging to operate. As a result, researchers presented several novel FDP models based on ML and Deep Learning. Time series data is are important to reflect the multi-source and heterogeneous aspects of financial data. This paper gives insight into building a time-series model and forecasting distress far in advance of its occurrence. To build an efficient FDP model, we provide a hybrid model (GALSTM-FDP) that incorporates LSTM and GA. Unlike other previous studies, which established models that predicted distress probability only within one year, our approach predicts distress two years ahead. This research integrates GA with LSTM to find the optimum hyperparameter configuration for LSTM. Using GA, we focus on optimizing architectural aspects for modeling the optimal network based on prediction accuracy. The results showed that our algorithm outperforms other state-of-the-art methods in terms of predictive accuracy.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8c28677b0c880954862ab7e64b6f19c1",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.522891"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用混合遗传算法和LSTM模型进行财务困境预测（Financial Distress Prediction），旨在提前预测财务风险，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用混合遗传算法和LSTM模型进行财务困境预测（Financial Distress Prediction），旨在提前预测财务风险，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:58.112578"
+}

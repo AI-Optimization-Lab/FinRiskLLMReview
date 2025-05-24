@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 435,
+    "title": "Improvized implied volatility function and nonparametric approach to unbiased estimation",
+    "abstract": "The purpose of this paper is to assess unbiased options pricing predictions via ad hoc Black-Scholes model approaches. This paper investigates a number of technical issues when fitted values of implied volatility from linear regression are plugged into the Black-Scholes model, which leads to biased estimation. First, the study observes that the implied volatility linear regression can yield a negative outcome, which is meaningless. Therefore, a logarithmic transformation is applied to the linear function to ensure that the forecast is positive. Second, the retransformation from log to original metric to fitted values of implied volatility and the nonlinearity of Black-Scholes to implied volatility yields biased forecasts. A smearing technique has been applied in this study to correct this bias. Finally, the smearing estimation method also provides biased results if there is heteroscedasticity in the OLS estimation residuals. This study applies the weighted least square regression technique in order to avoid heteroscedasticity. According to the performance measures such as mean bias (MB), mean absolute error (MAE) and mean absolute relative error, the study concludes that the smearing method is the most effective to correct the bias in ad hoc Black-Scholes approaches as well as that an absolute smile approach is better than a relative smile approach without the smearing technique, but with smearing methods, relative smile performs superior to absolute.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ca364178c4a5614857eac84c8778363b",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:50.780999"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文主要研究通过改进的Black-Scholes模型进行无偏期权定价预测，涉及隐含波动率的估计和偏差校正技术，这些内容直接关联到衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文主要研究通过改进的Black-Scholes模型进行无偏期权定价预测，涉及隐含波动率的估计和偏差校正技术，这些内容直接关联到衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:50.960390"
+}

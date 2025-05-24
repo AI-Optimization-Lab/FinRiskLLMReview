@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1560,
+    "title": "Fuzzy Neural Network for Fuzzy Quadratic Programming With Penalty Function and Mean-Variance Markowitz Portfolio Model",
+    "abstract": "This research tries to integrate fuzzy neural networks with penalty function to address the quadratic programming based on the mean-variance Markowitz portfolio model. The fuzzy quadratic programming problem with penalty function consists of the lower, central, and upper models. The models utilize fuzzy neural networks to solve the models. The proposed method has been implemented on the six leading stocks in the Pakistan Stock Exchange. The approach identifies the ideal portfolios for potential investors in the Pakistan Stock Exchange. Data of the six popular stocks trading on the stock exchange from January 2016 to October 2020 are taken into consideration. The optimizers are RMSprop, Momentum, Adadelta, Adagrad, Adam, and gradient descent, respectively. The findings of all the optimizers at all three phases (lower, central, and upper) agree on identifying the optimal investment portfolios for investors. The optimizers recommend investing in either one of the two categories. The first group recommends investing in the FFC, ARPL, and UPFL portfolios. The second group recommends LUCK, AGTL, and IGIHL. The first group tends to enhance return, variability, and risk. It is a high-risk group. The second group aims to reduce return variability while lowering risk. It is a risk-averse group. It is evident that all of the optimizers recommend investing in FFC, ARPL, and UPFL, with the exception of the Adam and Adadelta optimizers, which recommends investment in IGIHL, AGTL, and LUCK. RMSprop, Momentum, Adagrad, and gradient descent increase variability, risk, and returns. Adam proves the best optimizer, then RMSprop, and finally, Adagrad. Adam, Adadelta, and RMSprop are sensitive, whereas momentum and gradient descent are irresponsive to fuzzy uncertain data. The percent improvement in the objective is 0.59% and 0.18% for the proposed Adagrad and Adadelta, respectively.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6e0815048835997aaa393a56d3c1bf84",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:12.641023"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是模糊神经网络与惩罚函数结合，用于解决基于均值-方差Markowitz投资组合模型的二次规划问题。研究目标是为巴基斯坦证券交易所的潜在投资者识别理想投资组合，这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是模糊神经网络与惩罚函数结合，用于解决基于均值-方差Markowitz投资组合模型的二次规划问题。研究目标是为巴基斯坦证券交易所的潜在投资者识别理想投资组合，这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:11.644366"
+}

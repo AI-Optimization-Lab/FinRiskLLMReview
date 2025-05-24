@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 157,
+    "title": "Improved Recurrent Neural Networks (RNN) based Intelligent Fund Transaction Model",
+    "abstract": "Fund correlation analysis can guide investors' investment and wealth management, avoiding the selection of highly relevant funds in the investment process, which can make the risk sharing among funds. There is a strong dependence between the features of the fund data and a long-term dependence between the output of different time steps, which makes it difficult to obtain good performance in the fund data in the data analysis model used in the traditional intelligent investment system. This has brought difficulties to fund correlation analysis. In order to solve the above problems, this paper uses an encoder-decoder model combined with the attention mechanism-Improved RNN model. The Encoder-decoder model has made great strides in the application of financial time series analysis. And the attention mechanism can select specific feature inputs and previous time step outputs, both of which are highly correlated with the current output, making system predictions more efficient. This paper applies this model to the historical data set containing multiple public funds. The results show that the fund intelligent investment system proposed in this paper performs hest.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "f3a8abcbdb45dae5c26da78e9444e67f",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "encoder-decoder",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:34:25.465106"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是改进的RNN模型，应用于基金相关性分析和智能投资系统，旨在优化基金选择和风险分散，这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是改进的RNN模型，应用于基金相关性分析和智能投资系统，旨在优化基金选择和风险分散，这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:06.835044"
+}

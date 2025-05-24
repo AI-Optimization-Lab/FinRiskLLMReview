@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 601,
+    "title": "Dynamic Portfolio Optimization via Augmented DDPG with Quantum Price Levels-Based Trading Strategy",
+    "abstract": "With the development of deep learning, Dynamic Portfolio Optimization (DPO) problem has received a lot of attention in recent years, not only in the field of finance but also in the field of deep learning. Some advanced research in recent years has proposed the application of Deep Reinforcement Learning (DRL) to the DPO problem, which demonstrated to be more advantageous than supervised learning in solving the DPO problem. However, there are still certain unsolved issues: 1) DRL algorithms usually have the problems of slow learning speed and high sample complexity, which is especially problematic when dealing with complex financial data. 2) researchers use DRL simply for the purpose of obtaining high returns, but pay little attention to the problem of risk control and trading strategy, which will affect the stability of model returns. In order to address these issues, in this study we revamped the intrinsic structure of the model based on the Deep Deterministic Policy Gradient (DDPG) and proposed the Augmented DDPG model. Besides, we also proposed an innovative risk control strategy based on Quantum Price Levels (QPLs) derived from Quantum Finance Theory (QFT). Our experimental results revealed that our model has better profitability as well as risk control ability with less sample complexity in the DPO problem compared to the baseline models.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "89b8ae678584ac93a0ae573b5914133d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.538601"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是动态投资组合优化（DPO），并提出了基于量子价格水平的风险控制策略，这直接涉及投资组合管理和金融风险管理两个领域。论文明确提到使用增强的DDPG模型来解决DPO问题，并关注风险控制，这些都是投资组合管理和金融风险管理的核心议题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是动态投资组合优化（DPO），并提出了基于量子价格水平的风险控制策略，这直接涉及投资组合管理和金融风险管理两个领域。论文明确提到使用增强的DDPG模型来解决DPO问题，并关注风险控制，这些都是投资组合管理和金融风险管理的核心议题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:38.439145"
+}

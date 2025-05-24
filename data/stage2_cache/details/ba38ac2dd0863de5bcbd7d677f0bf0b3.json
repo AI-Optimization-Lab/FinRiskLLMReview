@@ -1,0 +1,39 @@
+{
+  "paper": {
+    "id": 7218,
+    "title": "Deep Learning Models for Predicting Monthly TAIEX to Support Making Decisions in Index Futures Trading",
+    "abstract": "Futures markets offer investors many attractive advantages, including high leverage, high liquidity, fair, and fast returns. Highly leveraged positions and big contract sizes, on the other hand, expose investors to the risk of massive losses from even minor market changes. Among the numerous stock market forecasting tools, deep learning has recently emerged as a favorite tool in the research community. This study presents an approach for applying deep learning models to predict the monthly average of the Taiwan Capitalization Weighted Stock Index (TAIEX) to support decision-making in trading Mini-TAIEX futures (MTX). We inspected many global financial and economic factors to find the most valuable predictor variables for the TAIEX, and we examined three different deep learning architectures for building prediction models. A simulation on trading MTX was then performed with a simple trading strategy and two different stop-loss strategies to show the effectiveness of the models. We found that the Temporal Convolutional Network (TCN) performed better than other models, including the two baselines, i.e., linear regression and extreme gradient boosting. Moreover, stop-loss strategies are necessary, and a simple one could be sufficient to reduce a severe loss effectively.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "df8f8eb6915c763840b02740524861fa",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T03:06:35.254542"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型预测TAIEX指数以支持指数期货交易决策，并特别讨论了止损策略以减少重大损失，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型预测TAIEX指数以支持指数期货交易决策，并特别讨论了止损策略以减少重大损失，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:39.748601"
+}

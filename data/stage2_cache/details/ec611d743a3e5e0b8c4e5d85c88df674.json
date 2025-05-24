@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 372,
+    "title": "Machine Learning for Continuous-Time Finance",
+    "abstract": "We develop an algorithm for solving a large class of nonlinear high-dimensional continuous-time models in finance. We approximate value and policy functions using deep learning and show that a combination of automatic differentiation and Ito's lemma allows for the computation of exact expectations, resulting in a negligible computational cost that is independent of the number of state variables. We illustrate the applicability of our method to problems in asset pricing, corporate finance, and portfolio choice and show that the ability to solve high-dimensional problems allows us to derive new economic insights.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "6e54ca3eae971fdaf1dc1dcd49b74394",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:17.480766"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要明确提到该方法适用于'portfolio choice'（投资组合选择），这是投资组合管理的核心问题之一。虽然也提到资产定价和公司金融，但未具体涉及衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要明确提到该方法适用于'portfolio choice'（投资组合选择），这是投资组合管理的核心问题之一。虽然也提到资产定价和公司金融，但未具体涉及衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:03.999201"
+}

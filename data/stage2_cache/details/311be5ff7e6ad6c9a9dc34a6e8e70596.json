@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 856,
+    "title": "A Machine Learning Framework for Algorithmic Trading with Virtual Bids in Electricity Markets",
+    "abstract": "This paper develops a machine learning framework for algorithmic trading with virtual bids in electricity markets. In the proposed algorithmic trading strategy, a budget and risk constrained portfolio optimization problem is solved, which selects the virtual transactions to be executed. In order to maximize the expected net earnings of the virtual bid portfolio, a mixture density network model is developed to provide robust and accurate forecasts for electricity price spread between day-ahead and real-time market. By leveraging a coherent risk measure and historical price samples, the risk-constrained portfolio optimization problem is solved efficiently. Backcasting results based on market data from ISO New England show that our proposed mixture density network based trading strategy consistently outperforms the benchmark online learning approach.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5178470fbf1e5645f53ac7a23cc9fef5",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.135104"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个机器学习框架用于电力市场中的算法交易，特别是通过解决预算和风险约束的投资组合优化问题来选择虚拟交易。这直接涉及投资组合管理。同时，论文还提到使用一致风险度量来高效解决风险约束的投资组合优化问题，这表明它也涉及金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一个机器学习框架用于电力市场中的算法交易，特别是通过解决预算和风险约束的投资组合优化问题来选择虚拟交易。这直接涉及投资组合管理。同时，论文还提到使用一致风险度量来高效解决风险约束的投资组合优化问题，这表明它也涉及金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:17.661327"
+}

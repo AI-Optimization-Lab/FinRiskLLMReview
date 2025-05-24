@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 3271,
+    "title": "Financial Times Series Forecasting of Clustered Stocks",
+    "abstract": "Predicting the stock market is a widely studied field, either due to the curiosity in finding an explanation for the behavior of financial assets or for financial purposes. Among these studies the best techniques use neural networks as a prediction technique. More specifically, the best networks for this purpose are called recurrent neural networks (RNN) and provide an extra option when dealing with a sequence of values. However, a great part of the studies is intended to predict the result of few stocks, therefore, this work aims to predict the behavior of a large number of stocks. For this, similar stocks were grouped based on their correlation and later the algorithm K-means was applied so that similar groups were clustered. After this process, the Long Short-Term Memory (LSTM) - a type of RNN - was used in order to predict the price of a certain group of assets. Later, predicted prices are compared to the correct prices in order to analyze prices tendency. Results showed that clustering stocks did not influence the effectiveness of the network, once tendency was predicted correct for an average of 48% of time. Investors and portfolio managers can use proposed techniques to simply their daily tasks.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7131a83712a38dfee60ba201d014231d",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:15:26.154973"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM神经网络预测股票价格趋势，并提到投资者和投资组合经理可以利用这些技术简化日常任务，这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM神经网络预测股票价格趋势，并提到投资者和投资组合经理可以利用这些技术简化日常任务，这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:29.883473"
+}

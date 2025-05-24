@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 1923,
+    "title": "Detecting and adapting to crisis pattern with context based Deep Reinforcement Learning",
+    "abstract": "Deep reinforcement learning (DRL) has reached super human levels in complex tasks like game solving (Go [1], StarCraft II [2D]), and autonomous driving [3]. However, it remains an open question whether DRL can reach human level in applications to financial problems and in particular in detecting pattern crisis and consequently dis-investing. In this paper, we present an innovative DRL framework consisting in two subnetworks fed respectively with portfolio strategies past performances and standard deviations as well as additional contextual features. The second sub network plays an important role as it captures dependencies with common financial indicators features like risk aversion, economic surprise index and correlations between assets that allows taking into account context based information. We compare different network architectures either using layers of convolutions to reduce network's complexity or LSTM block to capture time dependency and whether previous allocations is important in the modeling. We also use adversarial training to make the final model more robust. Results on test set show this approach substantially over-performs traditional portfolio optimization methods like Markovitz and is able to detect and anticipate crisis like the current Covid one.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2f1efce46ecc367bce46720e9e26387f",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "hidden layer",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:14.306648"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习（DRL）来检测危机模式并调整投资组合策略，这直接涉及投资组合管理。同时，通过捕捉风险厌恶、经济意外指数等金融指标特征来增强模型的稳健性，也涉及金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习（DRL）来检测危机模式并调整投资组合策略，这直接涉及投资组合管理。同时，通过捕捉风险厌恶、经济意外指数等金融指标特征来增强模型的稳健性，也涉及金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:12.199498"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 714,
+    "title": "Value-at-Risk forecasting: A hybrid ensemble learning GARCH-LSTM based approach",
+    "abstract": "This study proposes a new hybrid model that combines LSTM and BiLSTM neural networks with GARCH type model forecasts using an ensemble approach to forecast volatility for one-day ahead 95% and 99% Value-at-Risk (VaR) estimates using the Parametric (PAR) and Filtered Historical Simulation (FHS) method. The forecasting abilities of the standard GARCH (GARCH), exponential GARCH (eGARCH), and threshold GARCH (tGARCH) models are combined with the LSTM networks to capture different characteristics of the underlying volatility. We evaluate the model using log returns on Crude Oil during two periods of extreme volatility: the 2007-09 Financial Crisis and the Covid Recession of 2020-21. The performance of hybrid models is compared against several traditional VaR methods like the Historical Simulation, Bootstrap, Age weighted method, and the volatility-based VaR models using the GARCH, LSTM, and BiLSTM model forecasts. The unconditional and conditional coverage tests and a combination of regulator and firm loss functions are used to evaluate the quality of VaR forecasts. We find a significant improvement in the quality and accuracy of the VaR forecasts of the hybrid models over all the other models across all loss functions and coverage tests. The FHS-BiLSTM-HYBRID, a proposed FHS-based hybrid model, combining the BiLSTM model with three GARCH-type models, is the best performing, with the lowest values for both loss functions. The traditional and GARCH-type models do not efficiently model volatility during the crisis periods resulting in poor VaR forecasts. The FHS consistently performs as the best method for generating VaR compared to all other approaches.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "01c9c47c467d3b1d1f3416d531321c9c",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:41:29.965629"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on forecasting Value-at-Risk (VaR), which is a key metric in financial risk management. The proposed hybrid model aims to improve the accuracy of VaR estimates, particularly during periods of extreme volatility, which is directly related to assessing and managing financial risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on forecasting Value-at-Risk (VaR), which is a key metric in financial risk management. The proposed hybrid model aims to improve the accuracy of VaR estimates, particularly during periods of extreme volatility, which is directly related to assessing and managing financial risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:26.661405"
+}

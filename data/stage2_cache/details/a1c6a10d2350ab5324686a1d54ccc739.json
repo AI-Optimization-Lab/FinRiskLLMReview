@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 427,
+    "title": "A Cost-sensitive Active Learning for Imbalance Data with Uncertainty and Diversity Combination",
+    "abstract": "The class distributions of real-world classification datasets are usually imbalanced because many applications, such as network intrusion detection, tumor classification, financial risk identification, etc., exhibit imbalance natures that positive examples are rare. When labeling such data to create training sets for supervised learning, too many examples belonging to the majority class will be labeled, which dramatically increase the labeling cost and usually is unnecessary, because balanced datasets are more suitable for inducing good learners. To deal with this problem, this paper proposes a novel cost-sensitive active learning algorithm that combines the uncertainty and diversity measures to select training examples for an unlabeled sample pool. We use the proportions of the majority and the minority against the whole examples in the training dataset as the weights of the majority class and the minority class, respectively. With the class weights, the minor examples can obtain more emphasis when building learning models. Experimental results show that our proposed method can significantly reduce the label cost while improving the performance of learning models.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b904807bc8922713d42dccc119043c2a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "active learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.619804"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种针对不平衡数据的成本敏感主动学习算法，虽然提到了金融风险识别作为应用示例之一，但论文的核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种针对不平衡数据的成本敏感主动学习算法，虽然提到了金融风险识别作为应用示例之一，但论文的核心技术并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:04.308197"
+}

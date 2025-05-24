@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 167,
+    "title": "我国股票市场可以预测吗?——基于组合LASSO-logistic方法的视角",
+    "abstract": "本文研究了上市公司的41个特征变量对我国股票收益率样本外的可预测性。基于2010年1月至2019年10月上市公司的财务及股票交易数据,本文采用机器学习驱动的组合LASSO-logistic算法解决了股票预测中存在的3个问题:(1)特征变量不足导致股票异象因子构建不全面问题,(2)特征变量构建过多而存在的\"维度灾难\"问题,(3)特征变量之间的高相关性导致预测不稳定问题。研究结果显示,组合LASSO-logistic算法能够有效识别特征变量与预期收益之间的复杂关系,其投资组合资产配置的策略能够比传统多元Logistic算法、支持向量机(SVM)算法和随机森林算法得到更高的超额回报。同时,本文发现影响股票预期收益的公司特征变量并非一成不变,其显著的动态变化在一定程度上提示了我国股票市场的弱稳定性。",
+    "year": 2021,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f6dde9bdd65394d34f6c14c6c6553694",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:50.483542"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用组合LASSO-logistic算法预测股票收益率，并构建投资组合资产配置策略以获得超额回报，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用组合LASSO-logistic算法预测股票收益率，并构建投资组合资产配置策略以获得超额回报，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:41.093552"
+}

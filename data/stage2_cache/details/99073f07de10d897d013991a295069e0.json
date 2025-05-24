@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 415,
+    "title": "Pricing American option under exponential Levy Jump-diffusion model using Random Forest instead of least square regression",
+    "abstract": "In this paper, we aim to propose a new hybrid version of the Longstaff and Schwartz algorithm under the exponential Levy Jump-diffusion model using Random Forest regression. For this purpose, we will build the evolution of the option price according to the number of paths. Further, we will show how this approach numerically depicts the convergence of the option price towards an equilibrium price when the number of simulated trajectories tends to a large number. In the second stage, we will compare this hybrid model with the classical model of the Longstaff and Schwartz algorithm (as a benchmark widely used by practitioners in pricing American options) in terms of computation time, numerical stability and accuracy. At the end of this paper, we will test both approaches on the Microsoft share MSFT as an example of a real market.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "88434070de9aaeda3c2368b55ac83f5e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:50.703238"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用随机森林回归改进Longstaff和Schwartz算法，用于在指数Levy跳跃扩散模型下定价美式期权。论文明确提到这是用于定价美式期权，并比较了计算时间、数值稳定性和准确性，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用随机森林回归改进Longstaff和Schwartz算法，用于在指数Levy跳跃扩散模型下定价美式期权。论文明确提到这是用于定价美式期权，并比较了计算时间、数值稳定性和准确性，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:10.694626"
+}

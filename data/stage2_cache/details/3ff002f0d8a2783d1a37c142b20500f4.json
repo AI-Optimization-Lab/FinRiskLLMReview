@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 80,
+    "title": "Empirical asset pricing via machine learning: evidence from the European stock market",
+    "abstract": "This paper evaluates the predictive performance of machine learning methods in forecasting European stock returns. Compared to a linear benchmark model, interactions and nonlinear effects help improve the predictive performance. But machine learning models must be adequately trained and tuned to overcome the high dimensionality problem and to avoid overfitting. Across all machine learning methods, the most important predictors are based on price trends and fundamental signals from valuation ratios. However, the models exhibit substantial variation in statistical predictive performance that translate into pronounced differences in economic profitability. The return and risk measures of long-only trading strategies indicate that machine learning models produce sizeable gains relative to our benchmark. Neural networks perform best, also after accounting for transaction costs. A classification-based portfolio formation, utilizing a support vector machine that avoids estimating stock-level expected returns, performs even better than the neural network architecture.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "34f3edce7548ace45f762b2dbddccd33",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:57.058665"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是使用机器学习方法预测欧洲股票收益，并基于这些预测构建长期交易策略，评估其经济盈利性。这直接涉及投资组合的形成和管理，属于投资组合管理领域。论文未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是使用机器学习方法预测欧洲股票收益，并基于这些预测构建长期交易策略，评估其经济盈利性。这直接涉及投资组合的形成和管理，属于投资组合管理领域。论文未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:52.629977"
+}

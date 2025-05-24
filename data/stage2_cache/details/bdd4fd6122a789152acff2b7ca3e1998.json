@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 415,
+    "title": "SDELP-DDPG: Stochastic differential equations with Lévy processes-driven deep deterministic policy gradient for portfolio management",
+    "abstract": "Portfolio management (PM) involves the ongoing redistribution of funds among various financial products, aiming to seek a balance between returns and risks. In this paper, we propose SDELP-DDPG, a novel approach to portfolio management that combines stochastic differential equations (SDEs) with L & eacute;vy processes and the deep deterministic policy gradient (DDPG) technique. To alleviate the challenges posed by exploration limitations and enhance the stability of DDPG, we employ SDEs driven by L & eacute;vy processes, with drift and diffusion coefficients represented by convolutional neural networks, to generate action policies. Additionally, we devise a reward function, which considers relative entropy, to guide RL agents in learning imitation policies using DDPG. Moreover, we incorporate an attention mechanism and the Ornstein-Uhlenbeck process to choose optimal actions. Our proposed algorithm is evaluated on three real-world datasets: the Dow Jones Industrial Average markets, the Energy markets and the cryptocurrency markets, and the experimental results validate the effectiveness of SDELP-DDPG compared to existing PM approaches.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "30ac81e0a15410aa2d3f5f66b97f26fd",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:49.692720"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提出了SDELP-DDPG方法，用于投资组合管理（Portfolio Management），旨在通过结合随机微分方程和深度确定性策略梯度技术来优化资金分配，以平衡收益与风险。论文的实验部分也集中在投资组合管理的实际应用上，验证了该方法的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确提出了SDELP-DDPG方法，用于投资组合管理（Portfolio Management），旨在通过结合随机微分方程和深度确定性策略梯度技术来优化资金分配，以平衡收益与风险。论文的实验部分也集中在投资组合管理的实际应用上，验证了该方法的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:59.962680"
+}

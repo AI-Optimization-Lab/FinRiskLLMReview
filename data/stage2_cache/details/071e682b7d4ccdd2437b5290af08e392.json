@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 738,
+    "title": "Proposing a new loan recommendation framework for loan allocation strategies in online P2P lending",
+    "abstract": "PurposeLenders in online peer-to-peer (P2P) lending platforms are always non-experts and face severe information asymmetry. This paper aims to achieve the goals of gaining high returns with risk limitations or lowering risks with expected returns for P2P lenders.Design/methodology/approachThis paper used data from a leading online P2P lending platform in America. First, the authors constructed a logistic regression-based credit scoring model and a linear regression-based profit scoring model to predict the default probabilities and profitability of loans. Second, based on the predictions of loan risk and loan return, the authors constructed linear programming model to form the optimal loan portfolio for lenders.FindingsThe research results show that compared to a logistic regression-based credit scoring method, the proposed new framework could make more returns for lenders with risks unchanged. Furthermore, compared to a linear regression-based profit scoring method, the proposed new framework could lower risks for lenders without lowering returns. In addition, comparisons with advanced machine learning techniques further validate its superiority.Originality/valueUnlike previous studies that focus solely on predicting the default probability or profitability of loans, this study considers loan allocation in online P2P lending as an optimization research problem using a new framework based upon modern portfolio theory (MPT). This study may contribute theoretically to the extension of MPT in the specific context of online P2P lending and benefit lenders and platforms to develop more efficient investment tools.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0f9a410b9c2ea8609493a31a0df5c747",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.662660"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建一个基于现代投资组合理论（MPT）的贷款推荐框架，用于优化P2P借贷平台上的贷款分配策略，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建一个基于现代投资组合理论（MPT）的贷款推荐框架，用于优化P2P借贷平台上的贷款分配策略，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:18.999517"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 484,
+    "title": "Forecasting Financial Time Series with Support Vector Machines Based on Dynamic Kernels",
+    "abstract": "The technical analysis of financial time series and in particular the prediction of future developments is a challenging problem that has been addressed by many researchers and practitioners due to the possible profit We provide a forecasting technique based on a certain machine learning paradigm, namely support vector machines (SVM). SVM gained more and more importance for practical applications in the past years as they have excellent generalization abilities due to the principle of structural risk minimization. However, standard kernel functions for SVM are not able to compare time series of variable length appropriately, i.e., when we assume that these time series must be scaled in a non-linear way. Therefore, we use the dynamic time warping (DTW) technique as a kernel function. We demonstrate for two financial time series (FDAX and FGBL futures) that excellent results can be obtained with this approach.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3907ea4028b38eb8ae538b67a150bc9e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "support vector machine",
+      "SVM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:51:31.267407"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用支持向量机和动态时间规整技术预测金融时间序列的未来发展，虽然涉及金融数据，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用支持向量机和动态时间规整技术预测金融时间序列的未来发展，虽然涉及金融数据，但并未明确指出其应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:38.119758"
+}

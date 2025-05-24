@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 4370,
+    "title": "Feature Selection and Parameter Optimization of a Fuzzy-based Stock Selection Model Using Genetic Algorithms",
+    "abstract": "In the areas of investment research and applications, feasible quantitative models include methodologies stemming from soft computing for prediction of financial time series, multi-objective optimization of investment return and risk reduction, as well as selection of investment instruments for portfolio management, etc. Among all these, stock selection has long been identified as a challenging and important task. This line of research is highly contingent upon reliable stock ranking for successful portfolio construction. Recent advances in machine learning and data mining are leading to significant opportunities to solve these problems more effectively. In this study, we aim at developing a methodology for effective stock selection using fuzzy models as well as genetic algorithms (GA). We first devise a stock scoring mechanism using fundamental variables and apply fuzzy membership functions to re-scale the scores properly. The scores are then used to obtain the relative rankings of stocks and top-ranked stocks can be selected to form a portfolio. On top of the stock scoring model, we employ GA for optimization of model parameters and feature selection for input variables simultaneously. We will show that the investment returns provided by our proposed methodology significantly outperform the benchmark. Based upon the promising results obtained, we expect that this hybrid fuzzy-CA methodology can advance the research in soft computing for finance and provide an effective solution to stock selection in practice.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "76ef76556eaa266b68729afab6069cd7",
+    "relevant_keywords": [
+      "machine learning",
+      "feature learning",
+      "genetic algorithms"
+    ],
+    "stage1_timestamp": "2025-05-15T02:36:38.378452"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用模糊模型和遗传算法进行股票选择和评分，目的是构建投资组合并优化其表现。这直接涉及投资组合管理的领域，特别是股票选择和组合构建的过程。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用模糊模型和遗传算法进行股票选择和评分，目的是构建投资组合并优化其表现。这直接涉及投资组合管理的领域，特别是股票选择和组合构建的过程。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:20.009955"
+}

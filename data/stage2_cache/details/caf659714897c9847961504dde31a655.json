@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 678,
+    "title": "Gamma and vega hedging using deep distributional reinforcement learning",
+    "abstract": "We show how reinforcement learning can be used in conjunction with quantile regression to develop a hedging strategy for a trader responsible for derivatives that arrive stochastically and depend on a single underlying asset. We assume that the trader makes the portfolio delta-neutral at the end of each day by taking a position in the underlying asset. We focus on how trades in options can be used to manage gamma and vega. The option trades are subject to transaction costs. We consider three different objective functions. We reach conclusions on how the optimal hedging strategy depends on the trader's objective function, the level of transaction costs, and the maturity of the options used for hedging. We also investigate the robustness of the hedging strategy to the process assumed for the underlying asset.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3543f5f3e2e87d481bf9730df4bbf123",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:46:24.512813"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究如何使用强化学习和分位数回归来开发对冲策略，特别是针对gamma和vega的风险管理。这属于金融风险管理领域，因为它专注于通过交易期权来管理衍生品组合的风险，并考虑了交易成本和不同目标函数的影响。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究如何使用强化学习和分位数回归来开发对冲策略，特别是针对gamma和vega的风险管理。这属于金融风险管理领域，因为它专注于通过交易期权来管理衍生品组合的风险，并考虑了交易成本和不同目标函数的影响。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:50.027890"
+}

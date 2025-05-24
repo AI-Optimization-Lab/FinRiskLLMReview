@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 297,
+    "title": "A machine learning-based credit risk prediction engine system using a stacked classifier and a filter-based feature selection method",
+    "abstract": "Credit risk prediction is a crucial task for financial institutions. The technological advancements in machine learning, coupled with the availability of data and computing power, has given rise to more credit risk prediction models in financial institutions. In this paper, we propose a stacked classifier approach coupled with a filter-based feature selection (FS) technique to achieve efficient credit risk prediction using multiple datasets. The proposed stacked model includes the following base estimators: Random Forest (RF), Gradient Boosting (GB), and Extreme Gradient Boosting (XGB). Furthermore, the estimators in the Stacked architecture were linked sequentially to extract the best performance. The filter- based FS method that is used in this research is based on information gain (IG) theory. The proposed algorithm was evaluated using the accuracy, the F1-Score and the Area Under the Curve (AUC). Furthermore, the Stacked algorithm was compared to the following methods: Artificial Neural Network (ANN), Decision Tree (DT), and k-Nearest Neighbour (KNN). The experimental results show that stacked model obtained AUCs of 0.934, 0.944 and 0.870 on the Australian, German and Taiwan datasets, respectively. These results, in conjunction with the accuracy and F1-score metrics, demonstrated that the proposed stacked classifier outperforms the individual estimators and other existing methods.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d008b2cf450ed14f68742607e3bea6a9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:04.661113"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit risk prediction, which is a key aspect of financial risk management. The proposed machine learning-based approach aims to improve the accuracy of credit risk assessment, directly addressing risk management challenges faced by financial institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit risk prediction, which is a key aspect of financial risk management. The proposed machine learning-based approach aims to improve the accuracy of credit risk assessment, directly addressing risk management challenges faced by financial institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:27.309109"
+}

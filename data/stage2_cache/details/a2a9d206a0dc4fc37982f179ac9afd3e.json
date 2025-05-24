@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1796,
+    "title": "Contextual Robust Optimisation with Uncertainty Quantification",
+    "abstract": "We propose two pipelines for convex optimisation problems with uncertain parameters that aim to improve decision robustness by addressing the sensitivity of optimisation to parameter estimation. This is achieved by integrating uncertainty quantification (UQ) methods for supervised learning into the ambiguity sets for distributionally robust optimisation (DRO). The pipelines leverage learning to produce contextual/conditional ambiguity sets from side-information. The two pipelines correspond to different UQ approaches: i) explicitly predicting the conditional covariance matrix using deep ensembles (DEs) and Gaussian processes (GPs), and ii) sampling using Monte Carlo dropout, DEs, and GPs. We use i) to construct an ambiguity set by defining an uncertainty around the estimated moments to achieve robustness with respect to the prediction model. UQ ii) is used as an empirical reference distribution of a Wasserstein ball to enhance out of sample performance. DRO problems constrained with either ambiguity set are tractable for a range of convex optimisation problems. We propose data-driven ways of setting DRO robustness parameters motivated by either coverage or out of sample performance. These parameters provide a useful yardstick in comparing the quality of UQ between prediction models. The pipelines are computationally evaluated and compared with deterministic and unconditional approaches on simulated and real-world portfolio optimisation problems.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9507fd14b315b7be189a1d53cc916b66",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "deep learning",
+      "neural network",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:53.133392"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出两种用于凸优化问题的管道，旨在通过整合不确定性量化方法来提高决策的稳健性。论文明确提到这些方法在模拟和现实世界的投资组合优化问题中进行了计算评估和比较，因此其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出两种用于凸优化问题的管道，旨在通过整合不确定性量化方法来提高决策的稳健性。论文明确提到这些方法在模拟和现实世界的投资组合优化问题中进行了计算评估和比较，因此其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:47.947738"
+}

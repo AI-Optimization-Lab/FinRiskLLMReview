@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1712,
+    "title": "A decision support system using signals from social media and news to predict cryptocurrency prices",
+    "abstract": "We design, implement, and evaluate a decision support system that combines fine-grained signals derived from news and social media with bitcoin prices using a Long Short-Term Memory (LSTM) neural network. Through this artifact, we construct a portfolio to trade bitcoin in three stages. In the first stage, signals and prices are used as inputs for the LSTM model to predict bitcoin prices. In the second stage, we identify the signals that are the most effective predictors of bitcoin prices and then combine these signals to generate predictions that outperform market benchmarks. In the final stage, we assess portfolios based on their financial performance relative to these benchmarks. This design artifact introduces a method to harness the inherent heterogeneity of online news and social media for bitcoin price prediction.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "88c7b477385d724c1c6e418609e18d16",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:50.643323"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM神经网络结合社交媒体和新闻信号来预测比特币价格，并基于这些预测构建和评估投资组合。这直接涉及投资组合管理的领域，因为研究的主要目标是优化交易策略和评估投资组合的财务表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM神经网络结合社交媒体和新闻信号来预测比特币价格，并基于这些预测构建和评估投资组合。这直接涉及投资组合管理的领域，因为研究的主要目标是优化交易策略和评估投资组合的财务表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:14.172093"
+}

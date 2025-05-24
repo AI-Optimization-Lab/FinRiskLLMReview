@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 5887,
+    "title": "Dynamic Bayesian modeling for risk prediction in credit operations",
+    "abstract": "In this paper we perform an exploratory analysis of a financial data set from a Spanish bank. Our goal is to do risk prediction in credit operations, and as data is collected continuously and reported on a monthly basis, this gives rise to a streaming data classification problem. Our analysis reveals some practical problems that have not previously been thoroughly analyzed in the context of streaming data analysis: the class labels are not immediately available and the relevant predictive features and entities under study (in this case the set of customers) may vary over time. In order to address these problems, we propose to use a dynamic classifier with a wrapper feature subset selection to find relevant features at different time steps. The proposed model is a special case of a more general framework that can also accommodate more expressive models containing latent variables as well as more sophisticated feature selection schemes.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "27ddb4154d2e5592c700277a1911b1e5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:52:31.443835"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on risk prediction in credit operations, which is a core aspect of financial risk management, specifically credit risk management. The proposed dynamic Bayesian modeling approach is designed to address challenges in predicting risks associated with lending activities.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on risk prediction in credit operations, which is a core aspect of financial risk management, specifically credit risk management. The proposed dynamic Bayesian modeling approach is designed to address challenges in predicting risks associated with lending activities.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:57.329830"
+}

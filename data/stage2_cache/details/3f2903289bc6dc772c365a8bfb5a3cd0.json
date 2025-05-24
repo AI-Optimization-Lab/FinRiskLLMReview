@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 56,
+    "title": "Outperforming the tutor: Expert-infused deep reinforcement learning for dynamic portfolio selection of diverse assets",
+    "abstract": "Machine learning has become a key tool in solving the complex problem of automated dynamic portfolio selection. However, most existing works rely on data from a limited number of asset classes and cover constrained investment time frames to train their models. Additionally, these models are often trained from randomly initialised weights and lack intuitive explainability regarding the outputs they generate. This research introduces a novel methodology aimed at maximising long-term risk -adjusted investment returns while preserving the explainability of model output. We adopt established rule -based strategies to generate neural network mimics through imitation learning, transferring expert knowledge. These tutor models are then enhanced using a hybrid reinforcement learning algorithm combining Soft Actor -Critic (SAC) and Deep Deterministic Policy Gradient (DDPG), with the goal of creating student models that outperform their tutors. The intuitive explainability of the model is robust as it is trained on the rule -based algorithmic tutor model, unlike other models trained from scratch with randomly initialised weights. We empirically validate the strength of our strategy employing a broad range of asset classes, such as stocks, bonds, US treasuries, commodities, and their leveraged equivalents, simulated on a nearly 40 -year price dataset. The benefits of the new model are clear, with the results showing a performance improvement of up to 39.70% in the test set by the Sharpe ratio and up to 47.07% by the Sortino ratio. This work highlights the potential of integrating established strategies with advanced machine learning for a data -driven approach to asset management.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7425073798bd746c735f39617cae9e1b",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.959965"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on dynamic portfolio selection using machine learning and reinforcement learning techniques to maximize long-term risk-adjusted investment returns. The research specifically addresses the problem of automated dynamic portfolio selection across diverse asset classes, which is a core aspect of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on dynamic portfolio selection using machine learning and reinforcement learning techniques to maximize long-term risk-adjusted investment returns. The research specifically addresses the problem of automated dynamic portfolio selection across diverse asset classes, which is a core aspect of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:58.549880"
+}

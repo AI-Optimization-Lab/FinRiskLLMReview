@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 94,
+    "title": "Forecasting the high-frequency volatility based on the LSTM-HIT model",
+    "abstract": "Volatility forecasting from high-frequency data plays a crucial role in many financial fields, such as risk management, option pricing, and portfolio management. Many existing statistical models could better describe and forecast the characteristics of volatility, whereas they do not simultaneously account for the long-term memory of volatility, the nonlinear characteristics of high-frequency data, and technical index information during the modeling phase. The purpose of this paper is to use the prediction advantage of deep learning long short-term memory (LSTM) model to predict the volatility fusing three classes of information, that is, high frequency realized volatility (H), technical indicators (I), and the parameters of generalized autoregression conditional heteroskedasticity(GARCH), heterogeneous autoregressive (HAR), and c, resulting in a novel LSTM-HIT model to forecast realized volatility. We employ the extreme value theory (EVT) of a semiparametric method to estimate the quantile of standardized return and construct the LSTM-HIT-EVT model to forecast the value at risk (VaR). Empirical results show that the LSTM-HIT model provides the most accurate volatility forecast among the various considered models and that the LSTM-HIT-EVT model yields forecasts more accurate than other VaR models.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "3221a7e5bf52b9c8b135986f9bf0f59a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:33:49.043727"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用LSTM-HIT模型预测高频波动率，并进一步构建LSTM-HIT-EVT模型来预测风险价值（VaR）。VaR是金融风险管理中的关键指标，用于衡量和控制在险价值。虽然论文提到了波动率预测在衍生品定价和投资组合管理中的作用，但主要的研究目标和实验设计集中在风险管理的应用上。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM-HIT模型预测高频波动率，并进一步构建LSTM-HIT-EVT模型来预测风险价值（VaR）。VaR是金融风险管理中的关键指标，用于衡量和控制在险价值。虽然论文提到了波动率预测在衍生品定价和投资组合管理中的作用，但主要的研究目标和实验设计集中在风险管理的应用上。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:45.187398"
+}

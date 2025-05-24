@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 469,
+    "title": "Auto-Pytorch: Multi-Fidelity MetaLearning for Efficient and Robust AutoDL",
+    "abstract": "While early AutoML frameworks focused on optimizing traditional ML pipelines and their hyperparameters, a recent trend in AutoML is to focus on neural architecture search. In this paper, we introduce Auto-PyTorch, which brings together the best of these two worlds by jointly and robustly optimizing the network architecture and the training hyperparameters to enable fully automated deep learning (AutoDL). Auto-PyTorch achieves state-of-the-art performance on several tabular benchmarks by combining multi-fidelity optimization with portfolio construction for warmstarting and ensembling of deep neural networks (DNNs) and common baselines for tabular data. To thoroughly study our assumptions on how to design such an AutoDL system, we additionally introduce a new benchmark on learning curves for DNNs, dubbed LCBench, and run extensive ablation studies of the full Auto-PyTorch on typical AutoML benchmarks, eventually showing that Auto-PyTorch performs better than several state-of-the-art competitors.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "26f5eae20884e45e94cd0dfdbae1510f",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:36:26.501627"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究自动化深度学习（AutoDL）框架Auto-PyTorch，专注于神经网络架构搜索和训练超参数优化，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究自动化深度学习（AutoDL）框架Auto-PyTorch，专注于神经网络架构搜索和训练超参数优化，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:57.372424"
+}

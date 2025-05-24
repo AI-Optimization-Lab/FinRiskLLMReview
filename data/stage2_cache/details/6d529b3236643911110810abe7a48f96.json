@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 196,
+    "title": "A Black-Litterman Portfolio Selection Model with Investor Opinions Generating from Machine Learning Algorithms",
+    "abstract": "Generation error is one of the shortcomings of the classical mean-variance portfolio selection model which would result in unstable performance in out-of-sample data sets. Machine learning provides several potential solutions for reducing the generalization error, such as adding penalty terms and random sampling. Due to some significant advantages of machine learning algorithms, we implement Black-Litterman (BL for short) series portfolio models integrated with quantitative opinions generating from machine learning algorithms in this paper. And, the fundamental factors in the Fama-French model form the basis of quantitative opinions. Considering the non-linearity among fundamental factors, we construct high-order terms and cross terms of basic features by the approach of dimension-increasing transformation. A multi-period portfolio strategy is designed in our work for the timeliness of quantitative opinions, the experimental results reveal that the optimal BL model with investor opinion generating from Random Forest gained over 20% average annual return and a Sharpe Ratio of 1.25. By comparison, S&P 500 index gained about 14.94% annual return and a Sharpe Ratio of 1.00, the 1/N strategy gained about 15.92% annual return and the Sharpe Ratio of 0.99. Moreover, the BL series models are more diversified and robust, about 30% to 60% of assets are selected to construct the portfolio. Even when the transaction cost is taken into account, our proposed models still obtained higher cumulative returns than S&P 500 if the transaction cost is lower than 30% %.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e7e596f7f31206770c58b90ca366b88f",
+    "relevant_keywords": [
+      "machine learning",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.087997"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习算法生成投资者意见，并将其整合到Black-Litterman系列投资组合模型中，旨在优化投资组合的选择和绩效。论文明确讨论了多期投资组合策略的设计和实验，以及与传统策略（如S&P 500指数和1/N策略）的比较，这些都是投资组合管理的典型研究内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习算法生成投资者意见，并将其整合到Black-Litterman系列投资组合模型中，旨在优化投资组合的选择和绩效。论文明确讨论了多期投资组合策略的设计和实验，以及与传统策略（如S&P 500指数和1/N策略）的比较，这些都是投资组合管理的典型研究内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:50.762332"
+}

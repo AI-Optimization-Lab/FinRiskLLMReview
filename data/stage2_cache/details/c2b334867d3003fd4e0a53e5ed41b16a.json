@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2237,
+    "title": "Multi-grained and multi-layered gradient boosting decision tree for credit scoring",
+    "abstract": "Credit scoring is an important process for banks and financial institutions to manage credit risk. Tree-based ensemble algorithms have made promising progress in credit scoring. However, tree-based ensemble algorithms lack representation learning, making them cannot well express the potential distribution of loan data. In this study, we propose a multi-grained and multi-layered gradient boosting decision tree (GBDT) for credit scoring. Multi-layered GBDT considers the advantages of the explicit learning process of tree-based model and the representation learning ability to discriminate good/bad applicants; multi-grained scanning augments original credit features while enhancing the representation learning ability of multi-layered GBDT. The experimental results on 6 credit scoring datasets show that the hierarchical structure can effectively reduce the intra-class distance and increase the inter-class distance of the credit scoring dataset. In addition, Multi-grained feature augmentation effectively increases the diversity of prediction and further improves the performance of credit scoring, providing more precise credit scoring results.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "02cdbd8a7f8de128047f784e064e44a5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:51.018908"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit scoring, which is a critical component of credit risk management in financial institutions. The proposed multi-grained and multi-layered GBDT model aims to better discriminate between good and bad loan applicants, directly addressing financial risk management concerns.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit scoring, which is a critical component of credit risk management in financial institutions. The proposed multi-grained and multi-layered GBDT model aims to better discriminate between good and bad loan applicants, directly addressing financial risk management concerns.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:43:40.711194"
+}

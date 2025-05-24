@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5193,
+    "title": "Development of a decision support system for client acceptance in independent audit process",
+    "abstract": "Intelligent Information Technology (IIT) applications are crucial in the audit process, enhancing quality, effectiveness, and efficiency. The client acceptance process (CAP), one of the critical audit steps, involves subjective evaluations where business managers' claims intersect with independent audit firm managers' expectations. This subjective nature introduces the potential for errors or misjudgments, impacting audit time and costs. In this paper, therefore, we propose a decision support system considering both auditors' subjective judgments and financial data variations for accepting or rejecting a client enterprise. The decision support system consisting of the Fuzzy Analytic Hierarchy Process (AHP), the logistic regression model, and the fuzzy inference system comprises four phases. In the first phase, a logistic regression model is developed using financial ratios to determine the client's probability of being in a close monitoring market (CMM) which represents publicly traded firms that are struggling to meet specific financial indicators or that are exposed to certain risks. In the second phase, the evaluation criteria used by the audit firm to measure the market reputation of the client enterprise are defined, and the weights of the evaluation criteria are obtained by using Fuzzy AHP. In the third phase, the Client Acceptance Score (CAS) representing market reputation of the client is calculated by incorporating the results of a reputation survey and applying the weights assigned to the evaluation criteria obtained in the second phase. Finally, client acceptance risk level (CARL) is obtained by using a fuzzy inference system and a rule-based defined by auditors. The CMM probability value and CAS score obtained in previous phases are used as input values of the fuzzy inference system. The CARL score guides the audit firm in deciding whether to engage with the client. To illustrate the applicability of the proposed model, a case study has been given in the paper.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0a357f8c1b4208f1bcc6ad369acb9b21",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:45:17.112938"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是审计过程中的客户接受决策支持系统，虽然涉及财务数据和风险评估，但其核心应用领域是审计而非金融研究中的衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是审计过程中的客户接受决策支持系统，虽然涉及财务数据和风险评估，但其核心应用领域是审计而非金融研究中的衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:07.311611"
+}

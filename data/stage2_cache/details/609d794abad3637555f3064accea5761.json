@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 219,
+    "title": "Pricing and hedging derivative securities with neural networks:: Bayesian regularization, early stopping, and bagging",
+    "abstract": "We study the effectiveness of cross validation, Bayesian regularization, early stopping, and bagging to mitigate overfitting and improving generalization for pricing and hedging derivative securities with daily S&P 500 index daily call options from January 1988 to December 1993, Our results indicate that Bayesian regularization can generate significantly smaller pricing and delta-hedging errors than the baseline neural-network (NN) model and the Black-Scholes model for some gears. While early stopping does not affect the pricing errors, it significantly reduces the hedging error in four of the six years we investigated. Although computationally most demanding, bagging seems to provide the most accurate pricing and delta-hedging, Furthermore, the standard deviation of the MSPE of bagging is far less than that of the baseline model in all six years, and the standard deviation of the AHE of bagging is far less than that of the baseline model in five out of six years, Since we find in general these regularization methods work as effectively as homogeneity hint, we suggest they be used at least in cases when no appropriate hints are available.",
+    "year": 2001,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "1015b0be47919ed66460067aa1a9ac77",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.182021"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用神经网络技术（包括贝叶斯正则化、早停和装袋等方法）来改进衍生品（特别是S&P 500指数看涨期权）的定价和对冲效果。论文明确提到了'pricing and hedging derivative securities'，并比较了神经网络模型与Black-Scholes模型在定价和对冲误差上的表现，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用神经网络技术（包括贝叶斯正则化、早停和装袋等方法）来改进衍生品（特别是S&P 500指数看涨期权）的定价和对冲效果。论文明确提到了'pricing and hedging derivative securities'，并比较了神经网络模型与Black-Scholes模型在定价和对冲误差上的表现，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:04.043663"
+}

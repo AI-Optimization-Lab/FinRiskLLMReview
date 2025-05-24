@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1112,
+    "title": "An Online Portfolio Selection Algorithm with Dynamic Coreset Construction",
+    "abstract": "Online portfolio selection in financial markets presents a significant challenge due to the vast number of tradable assets and the prevalence of noise signals. Existing methods often struggle to dynamically select asset subsets in order to optimize capital efficiency. To address these challenges, we propose the Portfolio Selection with Dynamic Coreset Construction (PSCS) algorithm. PSCS incorporates a novel clustering process that groups assets based on their cumulative returns, creating a unique feature space to facilitate effective clustering. From each cluster, a small set of assets is carefully chosen to form a coreset using a peak-to-valley feature that captures the price change ratio within recent time windows. Leveraging this coreset, a peak-based optimization problem is formulated and solved through closed-form solutions. Experimental results demonstrate the superiority of PSCS over seven existing algorithms, highlighting its promising contribution to the field of online portfolio selection in financial markets.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b7f1a87e5feb87049c8ff35fc1c7f551",
+    "relevant_keywords": [
+      "clustering",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.349944"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种在线投资组合选择算法（PSCS），旨在通过动态构建资产核心集来优化资本效率，这直接属于投资组合管理的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种在线投资组合选择算法（PSCS），旨在通过动态构建资产核心集来优化资本效率，这直接属于投资组合管理的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:02.774364"
+}

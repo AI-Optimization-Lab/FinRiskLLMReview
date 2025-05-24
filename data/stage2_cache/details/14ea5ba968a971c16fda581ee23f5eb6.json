@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 82,
+    "title": "Detecting a Risk Signal in Stock Investment Through Opinion Mining and Graph-Based Semi-Supervised Learning",
+    "abstract": "The objective of this study is to develop an algorithm to support a decision-making process in stock investment through opinion mining and graph-based semi-supervised learning. For this purpose, this research addresses the following core processes: (1) filtering fake information, (2) assessing credit risk and detecting risk signals, and (3) predicting future occurrences of credit events through sentiment analysis, word2vec, and graph-based semi-supervised learning. First, financial data, including news, texts in social network services, and financial statements, were collected. Among these data, fake information such as rumors and fake news was filtered by author analysis and a rule-based approach. Second, credit risk was assessed by opinion mining and sentiment analysis for both social data and news in the form of a sentiment score and the trend of documents for each stock. A signal for a credit event was then detected by the degree of assessed risk. Consequently, the possibility of credit events such as delisting and bankruptcy in the near future was forecast based on the risk signal using logistic regression. This research illustrated the real case of a company to validate the applicability of the proposed approach. The results of this study can help investors monitor a large amount of historically accumulated data and detect hidden signals of risk events ahead of time.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "213b790eebb0d2038e26fb3cb0f4fafc",
+    "relevant_keywords": [
+      "machine learning",
+      "semi-supervised learning",
+      "classification",
+      "regression",
+      "sentiment analysis",
+      "word2vec",
+      "logistic regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:39.568919"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心目标是开发一种算法，通过情感分析和半监督学习来检测股票投资中的风险信号，并预测信用事件（如退市和破产），这直接涉及金融风险管理中的信用风险评估和风险信号监测。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心目标是开发一种算法，通过情感分析和半监督学习来检测股票投资中的风险信号，并预测信用事件（如退市和破产），这直接涉及金融风险管理中的信用风险评估和风险信号监测。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:09.557852"
+}

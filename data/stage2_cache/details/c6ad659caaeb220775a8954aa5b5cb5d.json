@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 713,
+    "title": "An Efficient and Adaptive Mechanism for Parallel Simulation Replication",
+    "abstract": "Simulation replication is a necessity for all stochastic simulations. Its efficient execution is particularly important when additional techniques are used on top, such as optimization or sensitivity analysis. One way to improve replication efficiency is to ensure that the best configuration of the simulation system is used for execution. A selection of the best configuration is possible when the number of required replications is sufficiently high, even without any prior knowledge on simulator performance or problem instance. We present an adaptive replication mechanism that combines portfolio theory with reinforcement learning: it adapts itself to the given problem instance at runtime and can be restricted to an efficient algorithm portfolio.",
+    "year": 2009,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "59e28c023d945b14c5c821f69fd4c261",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.532868"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要讨论了一种结合投资组合理论和强化学习的自适应复制机制，以提高并行模拟复制的效率。虽然提到了投资组合理论，但论文的核心技术并未明确应用于金融领域的投资组合管理，而是更侧重于通用的模拟复制优化技术。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要讨论了一种结合投资组合理论和强化学习的自适应复制机制，以提高并行模拟复制的效率。虽然提到了投资组合理论，但论文的核心技术并未明确应用于金融领域的投资组合管理，而是更侧重于通用的模拟复制优化技术。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:25.206707"
+}

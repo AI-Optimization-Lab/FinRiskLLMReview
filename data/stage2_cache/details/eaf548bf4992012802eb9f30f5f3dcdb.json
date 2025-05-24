@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 33,
+    "title": "Deep learning in stock portfolio selection and predictions",
+    "abstract": "Deep learning (DL) has made its way into many disciplines ranging from health care to self-driving cars. In financial markets, we see a rich literature for DL applications. Particularly, investors require robust algorithms that can navigate and make sense of extremely noisy and volatile markets. In this work, we use deep learning to select a portfolio of stocks and use a genetic algorithm to optimize the hyperparameters of DL. The work analyzes the improvement in using genetic-based hyperparameter optimization over grid searches. The Genetic Algorithm brings 40% improvements in prediction when compared to a random-grid search. Novelty-wise, the work couples a genetic-based hyperparameter optimization with multiple Deep RankNet models to predict the behavior of financial assets. Our results show promising portfolio returns 20% better than the general market. In the highly volatile COVID 19 period, the models exceed market returns by more than double. Overall, this paper brings a comprehensive work that integrates hyperparameter optimization, Deep RankNet, LSTM, period size variations, input variable transformation, feature selection, training/evaluation ratio analysis, and multiple portfolio selection strategies.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "2fc625e35cdb6c9b1cdf7ed36416e137",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:31:16.879868"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和遗传算法来选择和优化股票投资组合，并展示了在投资组合回报上的显著改进，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和遗传算法来选择和优化股票投资组合，并展示了在投资组合回报上的显著改进，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:36:03.696845"
+}

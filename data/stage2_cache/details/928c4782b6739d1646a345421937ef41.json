@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 785,
+    "title": "Performance evaluation of neural network architectures: The case of predicting foreign exchange correlations",
+    "abstract": "In the last decade, neural networks have emerged from an esoteric instrument in academic research to a rather common tool assisting auditors, investors, portfolio managers and investment advisors in making critical financial decisions. It is apparent that a better understanding of the network's performance and limitations would help both researchers and practitioners in analysing real-world problems. Unlike many existing studies which focus on a single type of network architecture, this study evaluates and compares the performance of models based on two competing neural network architectures, the multi-layered feedforward neural network (MLFN) and general regression neural network (GRNN). Our empirical evaluation measures the network models' strength on the prediction of currency exchange correlation with respect to a variety of statistical tests including RMSE, MAE, U statistic, Theil's decomposition test, Henriksson-Merton market timing test and Fair-Shiller informational content test. Results of experiments suggest that the selection of proper architectural design may contribute directly to the success in neural network forecasting. In addition, market timing tests indicate that both MLFN and GRNN models have economically significant values in predicting the exchange rate correlation. On the other hand, informational content tests discover that the neural network models based on different architectures capture useful information not found in each other and the information sets captured by the two network designs are independent of one another. An auxiliary experiment is developed and confirms the possible synergetic effect from combining forecasts made by the two different network architectures and from incorporating information from an implied correlation model into the neural network forecasts. Implied correlation and random walk models are also included in our empirical experiment for benchmark comparison. Copyright (c) 2005 John Wiley & Sons, Ltd.",
+    "year": 2005,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b07872a2335ce8ee4d7a021390f1bb99",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "regression",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:50.448711"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究神经网络模型在预测外汇相关性方面的性能，外汇相关性预测是投资组合管理中的重要组成部分，用于优化资产配置和风险管理。论文中提到的市场定时测试和信息内容测试进一步支持了其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究神经网络模型在预测外汇相关性方面的性能，外汇相关性预测是投资组合管理中的重要组成部分，用于优化资产配置和风险管理。论文中提到的市场定时测试和信息内容测试进一步支持了其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:50.979118"
+}

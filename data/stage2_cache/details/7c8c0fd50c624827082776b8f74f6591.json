@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 433,
+    "title": "Prediction of Unbalanced Financial Risk Based on GRA-TOPSIS and SMOTE-CNN",
+    "abstract": "The financial status of an enterprise is related to its healthy and long-term development, and whether the interests of investors and bank loans can be guaranteed. To improve the prediction accuracy of corporate financial risk, this paper proposes a prediction model for corporate financial risk that integrates GRA-TOPSIS and SMOTE-CNN. First, using GRA-TOPSIS to make a comprehensive evaluation of the financial situation of listed companies. Second, the evaluation results are clustered to obtain the scientific level and interval of financial risk, which lays the foundation for the supervised learning of the convolutional neural network. Then, the SMOTE algorithm is introduced to solve the problem of data imbalance of enterprises at all levels, and the focal loss function is used instead of the cross-entropy loss function to further balance the data. Finally, the listed companies in A shares are randomly selected, and experiments were designed to verify the performance of the model built in this paper. The results show that the prediction accuracy of the financial risk prediction model based on GRA-TOPSIS and SMOTE-CNN is 98.57%, which indicates that the model is feasible and has certain reference value.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "df955b9c6d204a1e0198c09c2611f608",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "clustering",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.631836"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是构建一个预测模型用于评估和预测企业的财务风险，这直接属于金融风险管理的范畴。论文中提到的GRA-TOPSIS和SMOTE-CNN方法都是为了提高财务风险预测的准确性，且实验验证了模型在财务风险预测中的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是构建一个预测模型用于评估和预测企业的财务风险，这直接属于金融风险管理的范畴。论文中提到的GRA-TOPSIS和SMOTE-CNN方法都是为了提高财务风险预测的准确性，且实验验证了模型在财务风险预测中的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:03.406945"
+}

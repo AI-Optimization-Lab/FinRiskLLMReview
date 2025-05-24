@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2812,
+    "title": "Machine learning predictive modeling for condemnation risk assessment in antibiotic-free raised broilers",
+    "abstract": "The condemnation of broiler carcasses in the poultry industry is a major challenge and leads to significant financial losses and food waste. This study addresses the critical issue of condemnation risk assessment in the discarding of antibiotic-free raised broilers using machine learning (ML) predictive modeling. In this study, ML approaches, specifically least absolute shrinkage and selection operator (LASSO), classification tree (CT), and random forests (RF), were used to evaluate and compare their effectiveness in predicting high condemnation rates. The dataset of 23,959 truckloads from 2021 to 2022 contained 14 independent variables covering the rearing, catching, transportation, and slaughtering phases. Condemnation rates between 0.26% and 25.99% were used as the dependent variable for the analysis, with the threshold for a high conviction rate set at 3.0%. As high condemnation rates were in the minority (8.05%), sampling methods such as random over sampling (ROS), random under sampling (RUS), both sampling (BOTH), and random over sampling example (ROSE) were used to account for imbalanced datasets. The results showed that RF with RUS performed better than the other models for balanced datasets. In this study, mean body weight, weight per crate, mortality and culling rates, and lairage time were identified as the 4 most important variables for predicting high condemnation rates. This study provides valuable insights into ML applications for predicting condemnation rates in antibiotic-free raised broilers and provides a framework to improve decision-making processes in establishing farm management practices to minimize economic losses in the poultry industry. The proposed methods are adaptable for different broiler producers, which increases their applicability in the industry.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0896d9ed83958f19b8ebea5d99fe9205",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "random forests",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:19:08.522799"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究机器学习在禽类养殖业中的风险预测应用，特别是抗生素自由饲养的肉鸡的谴责风险评估。虽然涉及风险评估，但其应用领域是农业而非金融。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究机器学习在禽类养殖业中的风险预测应用，特别是抗生素自由饲养的肉鸡的谴责风险评估。虽然涉及风险评估，但其应用领域是农业而非金融。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:47.122381"
+}

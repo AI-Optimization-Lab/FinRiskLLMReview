@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 196,
+    "title": "A Strong Classifier Model for Listed Companies Financial Risk Warning",
+    "abstract": "Existing measures and prediction effects for the listed companies financial risk have instability. By the research on strong classifier models, we adopt Adaboost algorithm which can improve any weak learner to strong one to solve the problems. It is integrated with support vector machine to establish the warning model and study the financial warning states of domestic listed companies. The scheme takes SVM based on linear kernel function as the component classifier of Adaboost and changes the kernel function of the component classifier during the learning process. So such integration can obviously improve the performance of classifier and obtain AdaBoostSVM classifier with stronger classification ability. The experiments demonstrate that, compared to single SVM, AdaBoostSVM makes an improvement for 70 test samples of 4% in classification, which shows better application value in the research of listed warning..",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8e83bbfe849f037b5aab7574fc022da4",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:53.043854"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用Adaboost算法与支持向量机（SVM）结合建立的财务风险预警模型，旨在提高对上市公司财务风险的预测能力。这直接应用于金融风险管理领域，特别是企业财务风险的识别和预警。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用Adaboost算法与支持向量机（SVM）结合建立的财务风险预警模型，旨在提高对上市公司财务风险的预测能力。这直接应用于金融风险管理领域，特别是企业财务风险的识别和预警。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:19.920571"
+}

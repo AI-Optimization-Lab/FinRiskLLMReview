@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 420,
+    "title": "Deep Learning Based Grapevine Leaf Classification Using Augmented Images and Multi-Classifier Fusion for Improved Accuracy and Precision",
+    "abstract": "Grapevines mainly produce grapes, which can be enjoyed fresh or processed. Grapevine leaves are also collected annually as a secondary product, with their variety impacting both pricing and flavor. This research utilizes Deep Learning techniques to classify grapevine leaves based on images. Initially, 500 images of vine leaves representing five species are captured using a unique self-illumination system. Data augmentation methods expand the dataset to 2500 images. Classification is conducted using a modern CNN model, specifically fine-tuned MobileNetv2. Data preparation involves training the dataset with three classifiers: basic CNN, VGG19, and MobileNet. Image processing converts the RGBA dataset into RGB format. The dataset is split into three subsets: 70% for training, 20% for validation, and 10% for testing. Model preparation offers three options for selecting the appropriate architecture: Simple CNN, VGG19, and Transfer Learning with MobileNet. Model analysis assesses performance using key metrics and visualizations, achieving an accuracy of 96% with Adam optimizer and 88% with Stochastic Gradient Descent.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "0fff869f9ae6511094d7785340962f31",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:31:50.712363"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于深度学习的葡萄叶分类技术，其核心应用是农业领域的图像识别和分类，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于深度学习的葡萄叶分类技术，其核心应用是农业领域的图像识别和分类，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:09.903150"
+}

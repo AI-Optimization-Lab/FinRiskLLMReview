@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 125,
+    "title": "Portfolio Optimization Model for Gold and Bitcoin Based on Weighted Unidirectional Dual-Layer LSTM Model and SMA-Slope Strategy",
+    "abstract": "Portfolio optimization is one of the most complex problems in the financial field, and technical analysis is a popular tool to find an optimal solution that maximizes the yields. This paper establishes a portfolio optimization model consisting of a weighted unidirectional dual-layer LSTM model and an SMA-slope strategy. The weighted unidirectional dual-layer LSTM model is developed to predict the daily prices of gold/Bitcoin, which addresses the traditional problem of prediction lag. Based on the predicted prices and comparison of two representative investment strategies, simple moving average (SMA) and Bollinger bands (BB), this paper adopts a new investment strategy, SMA-slope strategy, which introduces the concept of k-slope to measure the daily ups and downs of gold/Bitcoin. As two typical financial products, gold and Bitcoin are opposite in terms of their characteristics, which may represent many existing financial products in investors' portfolios. With a principle of $1000, this paper conducts a five-year simulation of gold and Bitcoin trading from 11 September 2016 to 10 September 2021. To compensate for the SMA and BB that may miss buying and selling points, 4 different parameters' values in the k-slope are obtained through particle swarm optimization simulation. Also, the simulation results imply that the proposed portfolio optimization model contributes to helping investors make investment decisions with high profitability.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "15041b44fdd4198cc80c91fd2c60ff7d",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:32:31.452757"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是建立一个投资组合优化模型，结合LSTM模型和SMA-slope策略来优化黄金和比特币的投资组合，旨在最大化收益并帮助投资者做出投资决策。这明确属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是建立一个投资组合优化模型，结合LSTM模型和SMA-slope策略来优化黄金和比特币的投资组合，旨在最大化收益并帮助投资者做出投资决策。这明确属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:35.179054"
+}

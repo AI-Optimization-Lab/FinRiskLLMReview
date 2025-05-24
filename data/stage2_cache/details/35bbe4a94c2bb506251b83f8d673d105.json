@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 427,
+    "title": "Grouping of contracts in insurance using neural networks",
+    "abstract": "Despite the high importance of grouping in practice, there exists little research on the respective topic. The present work presents a framework for grouping and a novel method to optimize model points in life insurance. We introduce a supervised clustering algorithm using neural networks to form a less complex portfolio, alias grouping. In a two-step approach, we first approximate selected characteristics of a portfolio. Next, we nest this estimator in a neural network, such that cluster representatives, alias model points, are calibrated in accordance with their effect on the characteristics of the portfolio. This approach is similar to the work by Horvath, B., Muguruza, A. & Tomas, M. [(2019). Deep learning volatility. Available on arXiv 1901.09647.], who focus on the calibration of implied volatility models. Our numerical experiments for term life insurance and defined contribution pension plans show significant improvements, in terms of capturing the characteristics of a portfolio, of the neural network approach over K-means clustering, a common baseline algorithm for grouping. These results are further confirmed by a sensitivity analysis of the investment surplus, where we additionally show the flexibility of the model to include common industry practice.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "66051c05850c0333343952cefe4250e5",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "clustering",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.583247"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用神经网络进行保险合同的聚类，以优化模型点并简化投资组合。这直接涉及投资组合的构建和管理，属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络进行保险合同的聚类，以优化模型点并简化投资组合。这直接涉及投资组合的构建和管理，属于投资组合管理的范畴。论文并未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:05.694081"
+}

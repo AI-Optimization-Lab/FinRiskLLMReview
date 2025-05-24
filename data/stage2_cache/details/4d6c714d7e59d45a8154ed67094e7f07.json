@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1450,
+    "title": "China futures market and world container shipping economy: An exploratory analysis based on deep learning",
+    "abstract": "As globalization increases, the volatility of China's financial market is gradually affecting world trade and economic development. However, few studies have quantified the impact of China's commodity futures market on the global container shipping market outlook. Therefore, this study collects 45,966 points of daily data from January 4, 2016, to January 1, 2023, and mines the price prediction function of Chinese commodity futures market indicators on the Shanghai Container Freight Index (SCFI). Specifically, a deep learning integrated model is constructed by combining a convolutional neural network (CNN), a bi-directional long and short-term memory network (BILSTM), and an attentional mechanism (AM). The results show that the CNN-BILSTM-AM model can accurately identify nonlinear features in SCFI data using Chinese commodity futures market indicators. In addition, the model effectively captures the long-term dependence of SCFI changes with Chinese commodity futures. Finally, this study concludes that the integrated model outperforms the single CNN, LSTM, and BILSTM machine learning models and the combined CNN-LSTM and CNN-BILSTM models (R2= 94.8 %). We also observe that when using Shapley's additive interpretation (SHAP) framework to predict SCFI, Power Coal Futures (ZCF) and CSI 300 Index Futures (IFI) significantly influence the CNN-BILSTM-AM model. In summary, this study enriches the understanding of the interaction between the Chinese commodity futures market and the global container shipping industry. This study also highlights the price mining potential of Chinese futures market indicators in forecasting world shipping economic indices, thus opening new paths in the field of forecasting and management of world shipping economic indicators. The results provide a powerful decisional support and risk management tool for financial institutions, shipping companies, individual investors, and government policymakers.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "bc3c36babe865f6759254976cc0ad6d1",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.798005"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度学习模型预测上海集装箱运价指数（SCFI），并分析中国商品期货市场指标对其的影响。这为金融机构、航运公司等提供了决策支持和风险管理工具，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习模型预测上海集装箱运价指数（SCFI），并分析中国商品期货市场指标对其的影响。这为金融机构、航运公司等提供了决策支持和风险管理工具，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:01.962792"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 96,
+    "title": "Explainable machine learning for financial risk management: two practical use cases",
+    "abstract": "We explore the potential of machine learning (ML) models applied in two financial risk management areas, i.e., credit risk management and financial risk hedging, through two practical use cases. This comparative study starts with the issue of explainability in complex ML models used in peer-to-peer lending for credit risk management. The first use case examines the limitations of using Kernel-SHAP with dependent features and evaluates different methods for estimating these dependencies using the Lending Club dataset. Our results suggest that accounting for feature dependence improves the understanding and robustness of prediction explanations. The second use case investigates a dynamic method for hedging foreign exchange risk in international equity portfolios, emphasizing the importance of accurate forecasts of currency returns. The analysis demonstrates that predictions yielded by ML models can significantly enhance the hedging of portfolios against currency risk. These findings highlight the transformative potential of advanced ML models in financial risk management, showcasing their capability to improve financial risk measurement and management. Further, our study outlines future research directions to advance this field.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5f303f122322ebb3de35c39ea62af4de",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "regression",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:39.598447"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确讨论了机器学习在信用风险管理和外汇风险对冲中的应用，这两个方面分别属于金融风险管理和投资组合管理的范畴。论文的两个实际用例都直接涉及金融风险的管理和投资组合的风险对冲策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文明确讨论了机器学习在信用风险管理和外汇风险对冲中的应用，这两个方面分别属于金融风险管理和投资组合管理的范畴。论文的两个实际用例都直接涉及金融风险的管理和投资组合的风险对冲策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:07.734740"
+}

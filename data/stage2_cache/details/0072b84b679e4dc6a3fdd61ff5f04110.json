@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 341,
+    "title": "An agent-based FTR auction simulator",
+    "abstract": "In this paper, an agent-based simulation of a Financial Transmission Rights (FTR) auction for both types of point-to-point FTRs, obligation and option, is presented. Each auction participant is simulated as an adaptive agent who has the ability of evaluating its environment and acting accordingly, following the decision rules of the naive reinforcement learning algorithm presented in the paper. Initially, a Locational Marginal Pricing (LMP) based ex-ante energy market is assumed. From the solution of the ex-ante energy market the agents calculate their initial FTR bid prices. Subsequently, the ISO solves the FTR auction problem and the agents profits equal the reimbursement they receive in the ex-post energy market for holding the FTR. The agent-based simulator repeats the FIR auction under the same conditions: in each repetition the agents update their bids according to the implemented algorithm and they learn their bidding strategies, through exploration by repetition. A five bus test system with five agents is used to illustrate the presented method. The results demonstrate the impact of contingency constraints and the effect of speculation in FIR auctions. Furthermore, the difference between bidding for FTR-obligations and FTR-options is shown. (C) 2011 Elsevier B.V. All rights reserved.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "0e614fb4bdd519a753a9190b38a79c04",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.434131"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于代理的金融传输权（FTR）拍卖模拟器，虽然涉及金融市场的拍卖机制，但其核心内容并不直接涉及衍生品定价、金融风险管理或投资组合管理。论文的重点在于拍卖机制和代理学习策略，而非上述特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于代理的金融传输权（FTR）拍卖模拟器，虽然涉及金融市场的拍卖机制，但其核心内容并不直接涉及衍生品定价、金融风险管理或投资组合管理。论文的重点在于拍卖机制和代理学习策略，而非上述特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:14.863626"
+}

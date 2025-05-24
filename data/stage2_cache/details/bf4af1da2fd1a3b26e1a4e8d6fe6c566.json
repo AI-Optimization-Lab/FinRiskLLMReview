@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 5817,
+    "title": "Forecasting Loss Given Default models: impact of account characteristics and the macroeconomic state",
+    "abstract": "On the basis of two data sets containing Loss Given Default (LGD) observations of home equity and corporate loans, we consider non-linear and non-parametric techniques to model and forecast LGD. These techniques include non-linear Support Vector Regression (SVR), a regression tree, a transformed linear model and a two-stage model combining a linear regression with SVR. We compare these models with an ordinary least squares linear regression. In addition, we incorporate several variants of 11 macroeconomic indicators to estimate the influence of the economic state on loan losses. The out-of-time set-up is complemented with an out-of-sample set-up to mitigate the limited number of credit crisis observations available in credit risk data sets. The two-stage/transformed model outperforms the other techniques when forecasting out-of-time for the home equity/corporate data set, while the non-parametric regression tree is the best performer when forecasting out-of-sample. The incorporation of macroeconomic variables significantly improves the prediction performance. The downturn impact ranges up to 5% depending on the data set and the macroeconomic conditions defining the downturn. These conclusions can help financial institutions when estimating LGD under the internal ratings-based approach of the Basel Accords in order to estimate the downturn LGD needed to calculate the capital requirements. Banks are also required as part of stress test exercises to assess the impact of stressed macroeconomic scenarios on their Profit and Loss (P&L) and banking book, which favours the accurate identification of relevant macroeconomic variables driving LGD evolutions.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "996dc66b7211abeeb6c72a79d85a033e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:51:58.512785"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用非线性和非参数技术（如支持向量回归和回归树）来建模和预测违约损失率（LGD），并评估宏观经济变量对贷款损失的影响。这些研究直接应用于信用风险管理，特别是与巴塞尔协议内部评级法相关的资本要求计算和压力测试，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用非线性和非参数技术（如支持向量回归和回归树）来建模和预测违约损失率（LGD），并评估宏观经济变量对贷款损失的影响。这些研究直接应用于信用风险管理，特别是与巴塞尔协议内部评级法相关的资本要求计算和压力测试，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:36.678460"
+}

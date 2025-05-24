@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 7442,
+    "title": "GRANDE : a neural model over directed multigraphs with application to anti-money laundering",
+    "abstract": "The application of graph representation learning techniques to the area of financial risk management (FRM) has attracted significant attention recently. However, directly modeling transaction networks using graph neural models remains challenging: Firstly, transaction networks are directed multigraphs by nature, which could not be properly handled with most of the current off-the-shelf graph neural networks (GNN). Secondly, a crucial problem in FRM scenarios like anti-money laundering (AML) is to identify risky transactions and is most naturally cast into an edge classification problem with rich edgelevel features, which are not fully exploited by the prevailing GNN design that follows node-centric message passing protocols. In this paper, we present a systematic investigation of design aspects of neural models over directed multigraphs and develop a novel GNN protocol that overcomes the above challenges via efficiently incorporating directional information, as well as proposing an enhancement that targets edge-related tasks using a novel message passing scheme over an extension of edge-tonode dual graph. A concrete GNN architecture called GRANDE is derived using the proposed protocol, with several further improvements and generalizations to temporal dynamic graphs. We apply the GRANDE model to both a real-world anti-money laundering task and public datasets. Experimental evaluations show the superiority of the proposed GRANDE architecture over recent state-of-the-art models on dynamic graph modeling and directed graph modeling.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2fda864fd701bab4a4d1ebe19e62e4b5",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "graph neural networks",
+      "GNN"
+    ],
+    "stage1_timestamp": "2025-05-15T03:08:37.868993"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on applying graph neural networks to anti-money laundering (AML), which is a specific application within financial risk management (FRM). The research addresses challenges in modeling transaction networks and identifying risky transactions, directly aligning with FRM objectives.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on applying graph neural networks to anti-money laundering (AML), which is a specific application within financial risk management (FRM). The research addresses challenges in modeling transaction networks and identifying risky transactions, directly aligning with FRM objectives.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:37.915287"
+}

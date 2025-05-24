@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning (ML) techniques for risk analysis during stress tests.",
+    "supervised learning": "The paper involves forecasting banking variables (NCO and PPNR), which is a supervised learning task as it uses labeled data.",
+    "regression": "The forecasting of continuous variables like net charge-off (NCO) and pre-provision net revenue (PPNR) is a regression problem.",
+    "decision tree": "The paper mentions the use of Random Forest models, which are based on decision trees."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"regression\",\n    \"decision tree\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning (ML) techniques for risk analysis during stress tests.\",\n    \"supervised learning\": \"The paper involves forecasting banking variables (NCO and PPNR), which is a supervised learning task as it uses labeled data.\",\n    \"regression\": \"The forecasting of continuous variables like net charge-off (NCO) and pre-provision net revenue (PPNR) is a regression problem.\",\n    \"decision tree\": \"The paper mentions the use of Random Forest models, which are based on decision trees.\"\n  }\n}\n```"
+}

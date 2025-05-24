@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2270,
+    "title": "Concept drift mining of portfolio selection factors in stock market",
+    "abstract": "Concept drift is a common phenomenon in stock market that can cause the devaluation of the knowledge learned from cross-sectional analysis as the market changes over time in unforeseen ways. The widely used cross-sectional regression analysis based on expert knowledge has obvious limitations in handling problems that involve concept drift and high-dimensional data. To discover causal relations between portfolio selection factors and stock returns, and identify concept drifts of these relations, we apply a novel causal discovery technique called modified Additive Noise Model with Conditional Probability Table (ANMCPT). In evaluation experiments, we compares ANMCPT to the conventional cross-sectional analysis approach (i.e., Fama-French framework) in mining relationships between portfolio selection factors and stock returns. Results indicate that the factors selected by ANMCPT outperform the factors adopted in most previous cross-sectional researches that followed the Fama-French framework. To the best of our knowledge, this paper is the first to compare causal inference technique with Fama-French framework in concept drift mining of stock portfolio selection factors. Our causal inference-based concept drift mining method provides a new approach to accurate knowledge discovery in stock market. (C) 2015 Elsevier B.V. All rights reserved.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2a59e90ba6f95e4369a8f86ffff70327",
+    "relevant_keywords": [
+      "machine learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:04.495909"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是应用改进的因果发现技术（ANMCPT）来挖掘投资组合选择因子与股票收益之间的关系，并识别这些关系的概念漂移。研究目标明确指向投资组合因子的选择和优化，属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是应用改进的因果发现技术（ANMCPT）来挖掘投资组合选择因子与股票收益之间的关系，并识别这些关系的概念漂移。研究目标明确指向投资组合因子的选择和优化，属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:57.630706"
+}

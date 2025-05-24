@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 6131,
+    "title": "Ground water remediation strategy design in a decision analysis framework",
+    "abstract": "The choice of a ground water pollution remediation strategy is a difficult decision in a realm of uncertainty. In recent years a large amount of work has been ongoing to develop methods to aide in such decision making. Most of this work concentrated on optimizing a specific technology choice for a single realization of the parameter set. Some work has looked at optimizing a specific technology choice given uncertainty in the parameter set. However, there has been little work looking at the choice between different technologies, especially considering parameter uncertainty and reliability in an optimization context. That in part has been due to the computational burden associated with such problem solving. The work here is a preliminary investigation into the above problem: optimization between remediation strategies, under parameter uncertainty and considering strategy reliability for groundwater pollution. Reliability and cost are the factors in the objective function used in a genetic algorithm optimization. Artificial neural networks are used to reduce computational burdens, they are used in sensitivity analysis and to define optimum pump and treat solutions. Numerical models are used to develop the training sets for the artificial neural networks, but that does not require sequential application of the models so computer time can be economized. One artificial neural network is required per parameter set realization. The results of the optimization are placed into a decision framework context to improve the transparency of the results of the optimization and the implications of low reliability. In at trade-off curve presentation of the optimization results one sees a more complicated relation between reliability versus total expected cost than previously presented in the groundwater literature. This is attributed to the inclusion of potential secondary remediation costs as financial risk within the objective function. Potential secondary remediation costs are discounted corresponding to the failure rate of the primary remediation technology.",
+    "year": 1998,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "284f25e824b0dd932d6aeb9c4856f030",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:55:12.883148"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究地下水污染修复策略的优化设计，涉及参数不确定性和可靠性分析，但其核心技术（如遗传算法和人工神经网络）应用于环境工程领域，而非金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究地下水污染修复策略的优化设计，涉及参数不确定性和可靠性分析，但其核心技术（如遗传算法和人工神经网络）应用于环境工程领域，而非金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:32.310368"
+}

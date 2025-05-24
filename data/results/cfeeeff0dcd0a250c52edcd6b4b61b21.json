@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "deep learning",
+    "neural network",
+    "BERT",
+    "Temporal Fusion Transformer",
+    "graph convolution network",
+    "gradient boosting",
+    "classification",
+    "regression",
+    "attention mechanism"
+  ],
+  "explanations": {
+    "machine learning": "The paper proposes a machine learning framework for predicting stock market reactions to clinical trial announcements.",
+    "supervised learning": "The framework involves predicting numerical values of stock price changes, which is a supervised learning task.",
+    "deep learning": "The framework uses deep learning models like BERT, Temporal Fusion Transformer, and graph convolution networks.",
+    "neural network": "The paper mentions the use of neural networks such as BERT and Temporal Fusion Transformer.",
+    "BERT": "A BERT model is used for extracting the sentiment polarity of announcements.",
+    "Temporal Fusion Transformer": "This model is used for forecasting the expected return.",
+    "graph convolution network": "Used for capturing event relationships.",
+    "gradient boosting": "Used for predicting the price change.",
+    "classification": "The paper mentions ROC AUC scores for the classification of price change.",
+    "regression": "The framework predicts numerical values of stock price changes, which is a regression task.",
+    "attention mechanism": "BERT and Temporal Fusion Transformer models typically use attention mechanisms."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"deep learning\",\n    \"neural network\",\n    \"BERT\",\n    \"Temporal Fusion Transformer\",\n    \"graph convolution network\",\n    \"gradient boosting\",\n    \"classification\",\n    \"regression\",\n    \"attention mechanism\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper proposes a machine learning framework for predicting stock market reactions to clinical trial announcements.\",\n    \"supervised learning\": \"The framework involves predicting numerical values of stock price changes, which is a supervised learning task.\",\n    \"deep learning\": \"The framework uses deep learning models like BERT, Temporal Fusion Transformer, and graph convolution networks.\",\n    \"neural network\": \"The paper mentions the use of neural networks such as BERT and Temporal Fusion Transformer.\",\n    \"BERT\": \"A BERT model is used for extracting the sentiment polarity of announcements.\",\n    \"Temporal Fusion Transformer\": \"This model is used for forecasting the expected return.\",\n    \"graph convolution network\": \"Used for capturing event relationships.\",\n    \"gradient boosting\": \"Used for predicting the price change.\",\n    \"classification\": \"The paper mentions ROC AUC scores for the classification of price change.\",\n    \"regression\": \"The framework predicts numerical values of stock price changes, which is a regression task.\",\n    \"attention mechanism\": \"BERT and Temporal Fusion Transformer models typically use attention mechanisms.\"\n  }\n}\n```"
+}

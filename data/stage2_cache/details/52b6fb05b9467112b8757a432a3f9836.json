@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2280,
+    "title": "A Minimax Model of Portfolio Optimization Using Data Mining to Predict Interval Return Rate",
+    "abstract": "In 1950s, Markowitzs first proposed portfolio theory based on a mean-variance (MV) model to balance the risk and profit of decentralized investment. The two main inputs of MV are expected return rate and the variance of expected return rate. The expected return rate is an esti-mated value which is often decided by experts. Various uncertainty of stock price brings difficulties to predict return rate even for experts. MV model has its tendency to maximize the influence of errors in the input assumptions. Some scholars used fuzzy intervals to describe the return rate. However, there were still some variables decided by experts. This paper proposes a classification method to find the latent relationship between the interval return rate and the trading data of a stock and predict the interval of return rate without consulting any expert. Then this paper constructs the portfolio model based on minimax rule with interval numbers. The evaluation results show that the proposed method is reliable.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7fb3bff7357b63fc8fdb7e196568070f",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:05:04.519446"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用数据挖掘方法预测区间回报率，并基于极小极大规则构建投资组合模型。这直接涉及投资组合的优化和管理，属于投资组合管理领域。论文未提及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用数据挖掘方法预测区间回报率，并基于极小极大规则构建投资组合模型。这直接涉及投资组合的优化和管理，属于投资组合管理领域。论文未提及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:56.565724"
+}

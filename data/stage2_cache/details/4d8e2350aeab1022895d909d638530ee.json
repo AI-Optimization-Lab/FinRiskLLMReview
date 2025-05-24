@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 5973,
+    "title": "Kernel Regression Coefficients for Practical Significance",
+    "abstract": "Quantitative researchers often use Student's t-test (and its p-values) to claim that a particular regressor is important (statistically significantly) for explaining the variation in a response variable. A study is subject to the p-hacking problem when its author relies too much on formal statistical significance while ignoring the size of what is at stake. We suggest reporting estimates using nonlinear kernel regressions and the standardization of all variables to avoid p-hacking. We are filling an essential gap in the literature because p-hacking-related papers do not even mention kernel regressions or standardization. Although our methods have general applicability in all sciences, our illustrations refer to risk management for a cross-section of firms and financial management in macroeconomic time series. We estimate nonlinear, nonparametric kernel regressions for both examples to illustrate the computation of scale-free generalized partial correlation coefficients (GPCCs). We suggest supplementing the usual p-values by practical significance revealed by scale-free GPCCs. We show that GPCCs also yield new pseudo regression coefficients to measure each regressor's relative (nonlinear) contribution in a kernel regression.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "561c548dbd3cf2a0e8326f4d80f03a84",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:53:33.363109"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "论文摘要中提到，其方法在风险管理方面的应用，特别是在企业横截面数据中的风险管理，这明确指向金融风险管理领域。虽然论文的方法具有普遍适用性，但其具体示例和讨论主要集中在风险管理上。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"论文摘要中提到，其方法在风险管理方面的应用，特别是在企业横截面数据中的风险管理，这明确指向金融风险管理领域。虽然论文的方法具有普遍适用性，但其具体示例和讨论主要集中在风险管理上。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:28:56.514207"
+}

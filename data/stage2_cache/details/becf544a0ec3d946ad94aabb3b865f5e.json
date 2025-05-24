@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1837,
+    "title": "A two-stage adaptive affinity propagation clustering using the wtDTW distance: Application in portfolio optimization",
+    "abstract": "Affinity propagation (AP) clustering methods are pivotal for addressing financial datasets, a category of datasets where the number of clusters is inherently uncertain. The relevant research employs a grid-based search to optimize parameters of the model. Nevertheless, this renders the model-solving process exceedingly time-consuming. With regard to financial problems, few studies have discussed the appropriate distance measure. In order to address these identified research gaps, a two-stage adaptive affinity propagation (TAAP) clustering method with dynamic time warping improved by adaptive wavelet packet decomposition and time weighting (wtDTW) method has been developed. The objective of the method is twofold: firstly, to address the error warpings present in the sequence alignment process and to capture the temporal properties of asset prices through wtDTW; secondly, to reduce the computational effort of adaptive AP clustering through the introduction of a two-stage module. Furthermore, we constructed Independent Component Risk Parity (ICRP) portfolios based on this method to demonstrate its applicability to financial investment problems. The experimental results of our method on artificial datasets, public datasets (Iris, Wine, Glass, and Yeast), and financial datasets (A-share, U.S. stocks, bonds, funds, and commodities) validate the effectiveness of the proposed method in comparison to state-of-the-art methods.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f63d2e9a36ed6e48ae460743f81b5899",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:03.957053"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发了一种两阶段自适应亲和传播聚类方法，并应用于构建独立成分风险平价（ICRP）投资组合，明确提到了其在金融投资问题中的应用，特别是投资组合优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发了一种两阶段自适应亲和传播聚类方法，并应用于构建独立成分风险平价（ICRP）投资组合，明确提到了其在金融投资问题中的应用，特别是投资组合优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:54.376581"
+}

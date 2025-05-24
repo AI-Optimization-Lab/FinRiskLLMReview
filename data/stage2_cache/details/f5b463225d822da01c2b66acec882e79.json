@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1093,
+    "title": "Skew Index: a machine learning forecasting approach",
+    "abstract": "The Skew Index originated in response to the Black Monday Crisis in 1987 to provide investors and regulators with a tool to gauge turbulence in the financial markets. Understanding and forecasting the Skew Index is crucial for anticipating market downturns and managing financial risk. This paper presented key descriptive statistics of the Skew Index, a topic not extensively covered in existing literature. Furthermore, we utilized a range of Deep Learning models-Dense, LSTM, GRU, CNN, and Hybrid-CNN-in both stand-alone configurations and with external variables to forecast the Index with daily data from April 1, 1997, to November 30, 2023. LASSO regression analysis was applied to select the most predictive exogenous variables for the index forecast. Our findings indicated that the Dense model provided an effective forecast for stand-alone models, while the CNN-LSTM model offered a superior forecast compared to other deep learning models when external variables were included. This research is novel in its application of neural network architectures to forecast the daily levels of the Skew Index, contributing to the field by providing a robust framework for financial market risk assessment and forecasting.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "12e37af94c0e2484bbec2fc49610bed9",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.437675"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on forecasting the Skew Index, which is a tool for gauging market turbulence and managing financial risk. The application of deep learning models to predict this index is directly related to assessing and forecasting financial market risk, which falls under the domain of Financial Risk Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on forecasting the Skew Index, which is a tool for gauging market turbulence and managing financial risk. The application of deep learning models to predict this index is directly related to assessing and forecasting financial market risk, which falls under the domain of Financial Risk Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:01.693880"
+}

@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 344,
+    "title": "Integrating AI and OR for investment decision-making in emerging digital lending businesses: a risk-return multi-objective optimization approach",
+    "abstract": "This study investigates the application of operational research techniques to optimize investment decisions in peer-to-peer (P2P) lending platforms, focusing on balancing risk and return for investors. The study proposes a multi-objective decision-making model that leverages data from the Lending Club, the largest P2P marketplace in the United States, to minimize risk and maximize returns. To address the data imbalance, the model uses classification techniques including logistic regression, decision trees, random forests, and light gradient boosting machines (LGBM), which are supported by the synthetic minority oversampling technique (SMOTE). While a convolutional neural network (CNN) predicts net present value (NPV), logistic regression is used to assess risk. The nondominated sorting genetic algorithm II (NSGA-II) is then used for portfolio optimization, producing returns of over 7% with risk levels that are comparable with conventional methods. Sensitivity analysis highlights the importance of investment allocation strategies by emphasizing that portfolio returns are more sensitive to changes in investments than risk. This study contributes to the operational research literature on risk management, investment modeling, and practical decision support systems in financial services by integrating advanced AI-based computational methods and optimization tools. HIGHLIGHTSThe multi-objective model seeks to balance risk reduction with return maximization.The LGBM, logistic regression, random forest, and decision tree models are assessed.The NSGA-II algorithm is used to optimize the portfolio model.A sensitivity analysis is used to evaluate the investment amounts.The results provide wisdom on return optimization and risk reduction in P2P lending.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9712fd15e7b10cb945d6395ccd1914b8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:41.061955"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用多目标优化模型和机器学习方法来平衡风险与回报，并优化P2P借贷平台的投资组合。这直接涉及金融风险管理和投资组合管理两个领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用多目标优化模型和机器学习方法来平衡风险与回报，并优化P2P借贷平台的投资组合。这直接涉及金融风险管理和投资组合管理两个领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:01.601479"
+}

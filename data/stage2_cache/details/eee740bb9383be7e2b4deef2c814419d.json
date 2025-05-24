@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1638,
+    "title": "Long/Short Equity Risk Premia Parity Portfolios via Implicit Factors in Regularized Covariance Regression",
+    "abstract": "A robust time series basis decomposition and non-stationary trend extraction technique, known as Empirical Mode Decomposition (EMD), will be combined with Regularised Covariance Regression (RCR) to produce a novel covariance forecasting technique. EMD is designed for multiscale and adaptive time-frequency decomposition in nonstationary time series. EMD-RCR generates multi-time-frequency resolution adaptive forecasting models of predictive covariance forecasts for a universe of selected asset returns. This provides a unique method to obtain predictive covariance regression structures for the short-, mid-, and long-time-scale portfolio dynamics. EMD isolates structures in a frequency-hierarchical fashion (with automated sorting of structures through EMD-MDLP available) which allows this multi-time-frequency covariance forecasting framework that uses the structures isolated using EMD (referred to as IMFs: Intrinsic Mode Functions) as the explanatory variables in the RCR framework. Having developed these techniques, a case study is used for exposition for active portfolio asset management. The case study is based on a dynamic long/short equity and risk premia parity (or risk parity) portfolio-of-portfolios investment strategy using the 11 sectors dividing the 505 stocks of the S&P 500. Each of the 11 sector indices is constructed using a market capitalisation ratio of the companies within the respective sector. The portfolio will be reweighted monthly based on the covariance structure forecast using covariance regression, in which covariance regression factors will be obtained at multiple time-frequency scales endogenously from the ETF asset price returns from each sector. At the end of each month, the covariance is forecast for the next month or investment horizon. This is done using low-, mid-, and high-frequency IMFs isolated using EMD from the 11 sector indices over the previous year. The IMFs isolated from the 11 sector indices over the previous year are fitted against the daily logarithmic returns in the RCR model to make multi-frequency covariance forecasts. We construct long/short equity and risk premia parity portfolios using each different covariance forecast and review the results. The performance of the portfolios will be measured using multiple performance measures (the most relevant being risk-related measures with risk premia parity in focus) and contrasted against multiple benchmark portfolios using several well-known portfolio optimisation techniques such as PCA and multivariate GARCH extensions. This paper promotes what we term implicit factor extraction, empirical market factors, and RCR in portfolio optimisation, horizon-specific active portfolio optimisation, long/short equity portfolios, and risk parity portfolios.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "d2a4c61e85194bbed692dae2482ce0f4",
+    "relevant_keywords": [
+      "principal components analysis",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:46.930688"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是结合Empirical Mode Decomposition (EMD)和Regularised Covariance Regression (RCR)来预测资产收益的协方差结构，并应用于动态长/短股票和风险溢价平价投资组合的构建和优化。论文明确提到其研究目标是投资组合管理，特别是多时间频率尺度的投资组合动态和风险平价策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是结合Empirical Mode Decomposition (EMD)和Regularised Covariance Regression (RCR)来预测资产收益的协方差结构，并应用于动态长/短股票和风险溢价平价投资组合的构建和优化。论文明确提到其研究目标是投资组合管理，特别是多时间频率尺度的投资组合动态和风险平价策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:41.154356"
+}

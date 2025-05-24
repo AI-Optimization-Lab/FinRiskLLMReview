@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3363,
+    "title": "Estimation of Regulation Reserve Requirement Based on Control Performance Standard",
+    "abstract": "This paper proposes a method to estimate the real-time regulation reserve requirement based on the NERC Control Performance Standard (CPS). This method is constructed via three steps: first, a Multiple Linear Regression (MLR) model is applied to abstract the relationship between CPS and regulation reserve and other system conditions using training observations generated from a load frequency control model; second, a stepwise method with cross validation is used to select the most relevant features of MLR; and third, the regulation reserve requirement is computed by the MLR model as a function of the predicted system conditions and target CPS score. The recursive least square (RLS) method is used to update the model parameters in an online environment. Testing on a single area automatic generation control model with load and wind data from CAISO 33% Renewable Portfolio Standard scenario indicates the method outperforms methods used in the industry today.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "32d713b5cf9aaa3a50d0e8d71288f882",
+    "relevant_keywords": [
+      "regression",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:22.166521"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是电力系统中的实时调节储备需求估计，基于NERC控制性能标准，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是电力系统中的实时调节储备需求估计，基于NERC控制性能标准，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:09.277222"
+}

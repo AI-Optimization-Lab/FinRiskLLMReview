@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2738,
+    "title": "High-dimensional covariance matrix estimation",
+    "abstract": "Covariance matrix estimation plays an important role in statistical analysis in many fields, including (but not limited to) portfolio allocation and risk management in finance, graphical modeling, and clustering for genes discovery in bioinformatics, Kalman filtering and factor analysis in economics. In this paper, we give a selective review of covariance and precision matrix estimation when the matrix dimension can be diverging with, or even larger than the sample size. Two broad categories of regularization methods are presented. The first category exploits an assumed structure of the covariance or precision matrix for consistent estimation. The second category shrinks the eigenvalues of a sample covariance matrix, knowing from random matrix theory that such eigenvalues are biased from the population counterparts when the matrix dimension grows at the same rate as the sample size. This article is categorized under: Statistical and Graphical Methods of Data Analysis > Analysis of High Dimensional Data Statistical and Graphical Methods of Data Analysis > Multivariate Analysis Statistical and Graphical Methods of Data Analysis > Nonparametric Methods",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4042ecdbe961e15231b79f4d62efcaf6",
+    "relevant_keywords": [
+      "clustering",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:43.414725"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提到协方差矩阵估计在金融领域的应用包括投资组合分配和风险管理，这些分别对应于投资组合管理和金融风险管理领域。论文的核心技术（高维协方差矩阵估计）直接支持这些金融应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文明确提到协方差矩阵估计在金融领域的应用包括投资组合分配和风险管理，这些分别对应于投资组合管理和金融风险管理领域。论文的核心技术（高维协方差矩阵估计）直接支持这些金融应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:13.935988"
+}

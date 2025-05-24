@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 55,
+    "title": "Stock price prediction using reinforcement learning",
+    "abstract": "Recently, numerous investigations for stock price prediction and portfolio management using machine learning have been trying to develop efficient mechanical trading systems. But these systems have a limitation in that they are mainly based on the supervised learning which is not so adequate for learning problems with long-term goals and delayed rewards. This paper proposes a method of applying reinforcement learning, suitable for modeling and learning various kinds of interactions in real situations, to the problem of stock price prediction. The stock price prediction problem is considered as Markov process which can be optimized by reinforcement learning based algorithm. TD(0), a reinforcement learning algorithm which learns only from experiences, is adopted and function approximation by artificial neural network is performed to learn the values of states each of which corresponds to a stock price trend at a given time. An experimental result based on the Korean stock market is presented to evaluate the performance of the proposed method.",
+    "year": 2001,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1274b1791ff23012404915ca3c3b47e3",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:56.951426"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用强化学习进行股票价格预测，并提到这与机械交易系统和投资组合管理相关。虽然论文主要关注股票价格预测，但预测的最终目的是为了优化投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习进行股票价格预测，并提到这与机械交易系统和投资组合管理相关。虽然论文主要关注股票价格预测，但预测的最终目的是为了优化投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:58.791104"
+}

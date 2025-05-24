@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 331,
+    "title": "A regression-based smoothing spline Monte Carlo algorithm for pricing American options in discrete time",
+    "abstract": "American options in discrete time can be priced by solving optimal stopping problems. This can be done by computing so-called continuation values, which we represent as regression functions defined recursively by using the continuation values of the next time step. We use Monte Carlo to generate data, and then we apply smoothing spline regression estimates to estimate the continuation values from these data. All parameters of the estimate are chosen data dependent. We present results concerning consistency and the estimates' rate of convergence.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "c7141ef9392ab1cc2c70adc9284723ae",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.394109"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用回归和平滑样条蒙特卡洛算法来定价离散时间的美式期权，这直接属于衍生品定价领域。论文的研究目标和应用场景明确指向期权定价问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用回归和平滑样条蒙特卡洛算法来定价离散时间的美式期权，这直接属于衍生品定价领域。论文的研究目标和应用场景明确指向期权定价问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:15.867084"
+}

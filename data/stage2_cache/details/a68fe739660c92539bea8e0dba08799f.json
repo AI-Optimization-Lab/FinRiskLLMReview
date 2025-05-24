@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 46,
+    "title": "基于盈余公告漂移的LGBM多因子量化策略",
+    "abstract": "在资本市场波动加剧的时代，挖掘有效因子与市场信息，构建合适的投资组合策略，可以实现对风险的控制和获取稳定且持续的超额收益率．选取2018—2022年第1季度中国沪深两市A股上市股票的业绩报告作为研究对象，以公司盈余公告后的1～12周作为时间窗口，通过研究盈余公告后的股价漂移（post-earnings-announcement drift, PEAD）选取市场异象的代理变量预期外盈余因子与其他5个相关市场异象因子，并使用信息系数（information coefficient, IC）、信息比率（information ratio, IR）和双重排序法进行有效因子的筛选和检验．考虑到本次量化选股是低数据量、低频次、特征值高有效性的分类任务，采用基于轻量梯度提升树的多因子量化策略构建投资组合预测股票的收益率，并与传统量化策略（简单打分法、基于预期外盈余的单因子模型、IC值加权的多因子选股模型）、基于其他机器学习模型（支持向量回归（support vector regression, SVR）、人工神经网络（artificial neural network, ANN）与分布式梯度增强（extreme gradient boosting, XGBoost））的量化策略进行对比．实证结果表明，在基于A股市场第1季度PEAD效应的股票超额收益率预测中，轻量级梯度提升机（light gradient boosting machine, LGBM）机器学习多因子量化策略构建的投资组合在多空组合中实现的年均收益率达到21.633%，超过基准年化收益率20.184%.LGBM多因子量化策略构建的投资组合在A股市场表现优异，较其他量化策略有显著提升且更为稳定，可更好地控制组合风险并获取更高的超额收益．",
+    "year": 2024,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2cfcbbb399810b70bcc127014fcd4565",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-14T22:15:33.518978"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LGBM多因子量化策略构建投资组合，旨在控制风险并获取超额收益，这直接属于投资组合管理的范畴。论文未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LGBM多因子量化策略构建投资组合，旨在控制风险并获取超额收益，这直接属于投资组合管理的范畴。论文未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:43:26.909068"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 672,
+    "title": "自动识别异常波动:机器学习在金融市场的一个应用",
+    "abstract": "及时识别出异常波动,是防范化解系统性金融风险的首要一步,在这方面人工智能可以发挥重要作用。本文以货币市场质押式回购交易为研究对象,探索利用无监督机器学习算法,自动识别异常波动。我们不主观地设定\"正常\"、\"异常\"的标准,而是由计算机按照LOF算法和IF算法,从历史数据中\"学习\"潜在的决策函数,判断什么是异常波动,得到的结果较为合理。算法自动识别出的异常波动有以下特点:成交额或利率的变化普遍较大;具有明显的季节性和趋势性;与货币环境的松紧存在负相关关系。LOF和IF两种算法的学习结果大部分相同,差异部分源于各自的不同特点。",
+    "year": 2018,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4bcff5d571f2c79a63481a4782477916",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-14T22:32:22.279592"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是利用无监督机器学习算法自动识别货币市场质押式回购交易中的异常波动，旨在防范化解系统性金融风险，这直接属于金融风险管理的范畴。",
+    "raw_response": "{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是利用无监督机器学习算法自动识别货币市场质押式回购交易中的异常波动，旨在防范化解系统性金融风险，这直接属于金融风险管理的范畴。\"\n}"
+  },
+  "timestamp": "2025-05-20T16:37:40.652071"
+}

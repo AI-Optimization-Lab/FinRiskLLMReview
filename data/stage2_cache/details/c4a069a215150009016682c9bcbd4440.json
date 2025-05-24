@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 5810,
+    "title": "FluNet: An AI-Enabled Influenza-Like Warning System",
+    "abstract": "Influenza is an acute viral respiratory disease that is currently causing severe financial and resource strains worldwide. With the COVID-19 pandemic exceeding 153 million cases worldwide, there is a need for a low-cost and contactless surveillance system to detect symptomatic individuals. The objective of this study was to develop FluNet, a novel, proof-of-concept, low-cost and contactless device for the detection of high-risk individuals. The system conducts face detection in the LWIR with a precision rating of 0.98, a recall of 0.91, an F-score of 0.96, and a mean intersection over union of 0.74 while sequentially taking the temperature trend of faces with a thermal accuracy of +/- 1 K. In parallel, determining if someone is coughing by using a custom lightweight deep convolutional neural network with a precision rating of 0.95, a recall of 0.92, an F-score of 0.94 and an AUC of 0.98. We concluded this study by testing the accuracy of the direction of arrival estimation for the cough detection revealing an error of +/- 4.78 degrees. If a subject is symptomatic, a photo is taken with a specified region of interest using a visible light camera. Two datasets have been constructed, one for face detection in the LWIR consisting of 250 images of 20 participants' faces at various rotations and coverings, including face masks. The other for the real-time detection of coughs comprised of 40,482 cough / not cough sounds. These findings could be helpful for future low-cost edge computing applications for influenza-like monitoring.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3f99268eef0945f5fb9dbea5f18fae33",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "classification",
+      "neural network",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:51:30.135783"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种用于检测流感症状的低成本非接触式系统，涉及机器学习和深度学习技术，但其应用领域是医疗健康监测，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种用于检测流感症状的低成本非接触式系统，涉及机器学习和深度学习技术，但其应用领域是医疗健康监测，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:36.788493"
+}

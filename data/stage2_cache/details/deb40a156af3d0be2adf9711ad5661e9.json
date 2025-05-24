@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2804,
+    "title": "Data-Driven Anomaly Detection in High-Voltage Transformer Bushings with LSTM Auto-Encoder",
+    "abstract": "The reliability and health of bushings in high-voltage (HV) power transformers is essential in the power supply industry, as any unexpected failure can cause power outage leading to heavy financial losses. The challenge is to identify the point at which insulation deterioration puts the bushing at an unacceptable risk of failure. By monitoring relevant measurements we can trace any change that occurs and may indicate an anomaly in the equipment's condition. In this work we propose a machine-learning-based method for real-time anomaly detection in current magnitude and phase angle from three bushing taps. The proposed method is fast, self-supervised and flexible. It consists of a Long Short-Term Memory Auto-Encoder (LSTMAE) network which learns the normal current and phase measurements of the bushing and detects any point when these measurements change based on the Mean Absolute Error (MAE) metric evaluation. This approach was successfully evaluated using real-world data measured from HV transformer bushings where anomalous events have been identified.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4f87c1ec87ef51cf39949c23e5544cb9",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T02:19:08.495414"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是高压变压器套管中的异常检测，应用领域是电力供应行业，而非金融领域。虽然提到了可能导致重大财务损失，但核心技术（LSTM Auto-Encoder）并未应用于衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是高压变压器套管中的异常检测，应用领域是电力供应行业，而非金融领域。虽然提到了可能导致重大财务损失，但核心技术（LSTM Auto-Encoder）并未应用于衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:47.698362"
+}

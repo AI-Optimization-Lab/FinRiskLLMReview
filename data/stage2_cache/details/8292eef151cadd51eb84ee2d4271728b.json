@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 5201,
+    "title": "Bayesian factor-adjusted sparse regression",
+    "abstract": "Many sparse regression methods rely on an assumption that the covariates are weakly correlated, which hardly holds in many economic and financial datasets. To relax this assumption, we model the strongly correlated covariates by a factor structure: strong correlations among covariates are modeled by common factors, while the remaining variations of covariates are modeled as idiosyncratic components. We then propose a factor-adjusted sparse regression model and develop a semi-Bayesian estimation method for it. Posterior contraction rate and model selection consistency are established by a non-asymptotic analysis. Experimental studies show that the proposed method outperforms its Lasso analogue, manifests insensitivity to overestimates of the number of common factors, pays a negligible price when covariates are uncorrelated, scales up well with increasing sample size, dimensionality and sparsity, and converges fast to the posterior distribution. An application to the U.S. bond risk premia lends further support to the proposed model and method. (C) 2021 Published by Elsevier B.V.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6b964592b0da1dd0decc94856490db34",
+    "relevant_keywords": [
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:45:17.126693"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要提出了一种因子调整的稀疏回归模型及其半贝叶斯估计方法，虽然提到了在美国债券风险溢价中的应用，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要提出了一种因子调整的稀疏回归模型及其半贝叶斯估计方法，虽然提到了在美国债券风险溢价中的应用，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:07.255652"
+}

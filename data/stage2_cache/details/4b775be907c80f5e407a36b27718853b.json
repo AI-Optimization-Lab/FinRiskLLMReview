@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1459,
+    "title": "Application of Conformal Prediction Interval Estimations to Market Makers' Net Positions",
+    "abstract": "In this study we focus on the application of Conformal Prediction (CP) interval estimations to provide financial Market Makers (MMs) with some \\meaningful forecasts relating to their future short-term position in a given financial market. The idea is that using these market position forecasts, MMs can deploy proactive risk management strategies with a given degree of confidence. We make use of a novel financial time series dataset that comprises the net positions of a given MM over a three year period for trades pertaining to the top-traded Foreign Exchange (FX) symbols. This dataset - NetPositionTimeSeries - is noisy and complex. The net positions within it are generated from the trades of tens of thousands of clients trading in different directions (buy or sell) and over many different time horizons. We approached the problem of predicting future net position not as one that required an accurate point estimate as this is impossible. Rather we sought to gain a meaningful range of possible position bounds which would nonetheless be invaluable. In this study we tested a range of predictive Machine Learning (ML) techniques. We compared the CP framework to benchmark methods like moving average (MA) and quantile regression (QR). We demonstrate how application of the CP framework gives well calibrated region bounds on the MM net position forecasts.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "63d9c0ffbadff0b6bf614e9368fc8ee7",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.821249"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on providing market makers with forecasts for their future short-term positions to enable proactive risk management strategies. The use of Conformal Prediction interval estimations and machine learning techniques to predict net positions is directly aimed at managing financial risk, which falls under the Financial Risk Management domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on providing market makers with forecasts for their future short-term positions to enable proactive risk management strategies. The use of Conformal Prediction interval estimations and machine learning techniques to predict net positions is directly aimed at managing financial risk, which falls under the Financial Risk Management domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:45.431460"
+}

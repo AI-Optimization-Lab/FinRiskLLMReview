@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1297,
+    "title": "Optimization Trading Strategy Model for Gold and Bitcoin Based on Market Fluctuation",
+    "abstract": "As a new type of digital currency, Bitcoin is considered as future gold by various scholars. Therefore, this study considers Bitcoin and gold as a group of hedging assets to conduct investment research and it also discusses the investment rules between Bitcoin and gold: prediction of the rise and fall of Bitcoin, comparison of the characteristics of Bitcoin and gold, and the impact of the transaction procedures of Bitcoin and gold on the final trading results, and formulates trading strategies through optimization algorithms. Then, four machine learning algorithms, i.e., LSTM, BP neural network, Adaboost, and Bagging, are introduced to predict the rise and fall of gold and Bitcoin the next day, and then, the entropy weight method is used to synthesize four predicted results to ensure the robustness of the predicted results. To establish the optimal trading strategy, this study considers the maximum expected return as the goal to develop a single-objective optimization model and historical five-day price volatility as a risk factor. In this study, ant colony, simulated annealing, and genetic algorithms are used to solve the single-objective optimization model. Finally, we conclude that Bitcoin, similar to other financial assets, e.g., gold, is sensitive to shocks and volatile and possesses a relatively quiet cycle. When Bitcoin has an asymmetric impact, Bitcoin and gold can equally treat transactions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "102aaf5f0a9ce129d2281bc014b47c9a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:01:11.881902"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究基于市场波动的黄金和比特币优化交易策略模型，涉及投资规则、预测模型和优化算法，旨在最大化预期收益并考虑风险因素，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究基于市场波动的黄金和比特币优化交易策略模型，涉及投资规则、预测模型和优化算法，旨在最大化预期收益并考虑风险因素，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:51.385817"
+}

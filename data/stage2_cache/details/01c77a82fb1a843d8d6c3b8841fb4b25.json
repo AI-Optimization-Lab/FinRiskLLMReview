@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 602,
+    "title": "Bankruptcy Prediction: Data Augmentation, LLMs and the Need for Auditor's Opinion",
+    "abstract": "Predicting bankruptcy is crucial for managing financial risk in corporations. This study emphasizes incorporating the auditor's opinion text into prediction models to improve their ability to assess financial health. These opinions provide essential insights as they offer an independent assessment, complementing other predictive inputs like the management's discussion and analysis. However, the rarity of bankruptcy cases in the data introduces a challenging issue due to severe class imbalance. To address this, we propose a method to generate synthetic positive samples using a variational autoencoder and integrate the multi-source input in a late fusion setting. We showcase that both data augmentation and using multiple textual sources improve the performance of existing models on a related benchmark dataset. Additionally, we evaluate LLMs when used for data augmentation in the proposed method and in a zero-shot prediction setting, discussing important aspects to consider when incorporating them in a predictive pipeline.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "19154b537a66c8e9baea5598fb987fab",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "autoencoder",
+      "Large Language Model",
+      "LLM",
+      "Zero-shot Learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:40:14.299432"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting bankruptcy, which is a critical aspect of financial risk management in corporations. The study proposes methods to improve bankruptcy prediction models, directly addressing financial risk assessment.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting bankruptcy, which is a critical aspect of financial risk management in corporations. The study proposes methods to improve bankruptcy prediction models, directly addressing financial risk assessment.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:47.668168"
+}

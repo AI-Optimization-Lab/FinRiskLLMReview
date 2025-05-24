@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 450,
+    "title": "Autoencoder-Enhanced Clustering: A Dimensionality Reduction Approach to Financial Time Series",
+    "abstract": "While Machine Learning significantly boosts the performance of predictive models, its efficacy varies across different data dimensions. It is essential to cluster time series data of similar characteristics, particularly in the financial sector. However, clustering financial time series data poses considerable challenges due to the market's inherent complexity and multidimensionality. To address these issues, our study introduces a novel clustering framework that leverages autoencoders for a compressed yet informative representation of financial time series. We rigorously evaluate our approach through multiple dimensionality reduction and clustering algorithms, applying it to key financial indices, including IBEX-35, CAC-40, DAX-30, S&P 500, and FTSE 100. Our findings consistently demonstrate that incorporating autoencoders significantly enhances the granularity and quality of clustering, effectively isolating distinct categories of financial time series. Our findings carry significant ramifications for the financial industry. By refining clustering methodologies, we set the stage for increasingly accurate financial predictive models, offering valuable insights for optimizing investment strategies and enhancing risk management.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a0eee009e7e79d810264b4e018caf6bd",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "principal components analysis",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-17T10:37:00.349671"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用自编码器增强的聚类方法来处理金融时间序列数据，目的是提高金融预测模型的准确性，优化投资策略和增强风险管理。这些应用直接关联到金融风险管理和投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用自编码器增强的聚类方法来处理金融时间序列数据，目的是提高金融预测模型的准确性，优化投资策略和增强风险管理。这些应用直接关联到金融风险管理和投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:11.051852"
+}

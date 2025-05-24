@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1168,
+    "title": "A FAST Method for Nested Estimation",
+    "abstract": "Nested estimation involves estimating an expectation of a function of a conditional expectation and has many important applications in operations research and machine learning. Nested simulation is a classic approach to this estimation, and the convergence rate of the mean squared error (MSE) of nested simulation estimators is only of order Gamma-2=3, where Gamma is the simulation budget. To accelerate the convergence, in this paper, we establish a jackkniFe-bAsed neSted simulaTion (FAST) method for nested estimation, and a unified theoretical analysis for general functions in the nested estimation shows that the MSE of the proposed method converges at the faster rate of Gamma-4=5 or even Gamma-6=7. We also provide an efficient algorithm that ensures the estimator's MSE decays at its optimal rate in practice. In numerical experiments, we apply the proposed estimator in portfolio risk measurement and Bayesian experimental design in operations research and machine learning areas, respectively, and numerical results are consistent with the theory presented.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "dd7f3bca9873fd4589f4627dba8c1f50",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:33.865543"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中提到，所提出的方法在数值实验中应用于投资组合风险测量（portfolio risk measurement），这直接关联到金融风险管理和投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"论文摘要中提到，所提出的方法在数值实验中应用于投资组合风险测量（portfolio risk measurement），这直接关联到金融风险管理和投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:52.334464"
+}

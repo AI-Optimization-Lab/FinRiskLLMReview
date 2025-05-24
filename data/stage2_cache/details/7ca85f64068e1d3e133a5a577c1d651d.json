@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 5297,
+    "title": "GLAD: Global-Local Approach; Disentanglement Learning for Financial Market Prediction",
+    "abstract": "Accurate prediction of financial market trends can have a great impact on maximizing profits and avoiding risks. Conventional methods, e.g., regression or SVR, or end-to-end training approaches, coined as deep learning algorithms, have restraints as a consequence of capturing noisy and unnecessary data. Financial market's data are composed of stock's price time series that are correlated, and each time series has both global and local dynamics. Inspired by recent advancements in disentanglement representation learning, in this paper, we present a promising model for predicting financial markets that learn disentangled representations of features and eliminate those features that cause interference. Our model uses the informer encoder to extract features, capturing global-local patterns by using the time and frequency domains, augmenting the clean features with time and frequency-based features, and using the decoder to predict. To be more specific, we adopt contrastive learning in the time and frequency domains to learn both global and local patterns. We argue that our methodology, disentangling and learning the influential factors, holds the potential for more accurate predictions and a better understanding of how time series move and behave. We conducted our experiments using the S&P 500, CSI 300, Hang Seng, and Nikkei 225 stock market datasets to predict their next-day closing prices. The results showed that our model outperformed existing methods in terms of prediction error (mean squared error and mean absolute error), financial risk measurement (volatility and max drawdown), and prediction net curves, which means that it may enhance traders' profits.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "65777e1664d71dac2bd4cd93caaa83dc",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "encoder-decoder",
+      "autoencoder",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T02:46:16.256940"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究金融市场的趋势预测，虽然提到了金融风险测量（如波动性和最大回撤），但其核心技术是用于预测股票价格，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究金融市场的趋势预测，虽然提到了金融风险测量（如波动性和最大回撤），但其核心技术是用于预测股票价格，并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:33.389145"
+}

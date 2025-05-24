@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 302,
+    "title": "Portfolio Optimization Model using ANQTS with Trend Ratio on Quadratic Regression",
+    "abstract": "Selecting the best combination of stocks with low risk and high return simultaneously is a significant challenge for investors. The Sharpe ratio is a common way to evaluate the performance of portfolios. However, the Sharp ratio has some defects such as that portfolios in uptrend will be calculated as high risk. Therefore, trend ratio on linear regression is proposed to find the portfolio that has a stable uptrend. Since the linear regression just roughly represents the portfolio trend and cannot be approached precisely, this paper proposes the quadratic regression trend to define the portfolio trend more accurately. In addition, the trend ratio on quadratic regression can signify the change of magnitude slowing down or speeding up in an uptrend or downtrend direction to help this model predict the future trend more precisely. This paper uses the adaptive quantum-inspired tabu search with not gate (ANQTS) to search the best portfolio and employs the 2-phase sliding window to consider more investment situations. The experiment results show that the proposed portfolio optimization model has better performance than the Sharp ratio and trend ratio on linear regression.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6cd6295d5121f623ec133ed55a051582",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-16T17:50:25.542781"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on optimizing stock portfolios by selecting combinations with low risk and high return, using advanced regression techniques and quantum-inspired search algorithms. This directly aligns with the objectives of portfolio management, which involves the strategic selection and management of investment assets to achieve specific financial goals.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on optimizing stock portfolios by selecting combinations with low risk and high return, using advanced regression techniques and quantum-inspired search algorithms. This directly aligns with the objectives of portfolio management, which involves the strategic selection and management of investment assets to achieve specific financial goals.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:11.593806"
+}

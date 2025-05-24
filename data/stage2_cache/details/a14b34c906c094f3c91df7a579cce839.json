@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 4034,
+    "title": "Survival mixture models in behavioral scoring",
+    "abstract": "This paper introduces a general framework of survival mixture models (SMMs) that addresses the unobserved heterogeneity of the credit risk of a financial institution's clients. This new behavioral scoring framework contains the specific cases of aggregate and immune fraction models. This general methodology identifies clusters or groups of clients with different risk patterns. The parameters of the model can be explained by independent variables in a regression setting. The application shows the different risk trajectories of clients. Specifically, the time between the first delayed payment and default was best modeled by a three-segment log-normal mixture distribution and a multinomial logit link function. Each segment contains clients with similar risk profiles. The model predicts the most likely risk segment for each new client. (C) 2014 Elsevier Ltd. All rights reserved.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2452bbfb6f186a2a38272b232a4aaac9",
+    "relevant_keywords": [
+      "regression",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:32:27.524824"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a survival mixture model framework for behavioral scoring to assess the credit risk of clients, which is a key aspect of financial risk management. It specifically addresses the heterogeneity in credit risk and predicts risk segments for clients, directly contributing to risk assessment and mitigation strategies.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a survival mixture model framework for behavioral scoring to assess the credit risk of clients, which is a key aspect of financial risk management. It specifically addresses the heterogeneity in credit risk and predicts risk segments for clients, directly contributing to risk assessment and mitigation strategies.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:34:19.780823"
+}

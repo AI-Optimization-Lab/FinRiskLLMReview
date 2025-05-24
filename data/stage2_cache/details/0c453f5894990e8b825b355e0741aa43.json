@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 6828,
+    "title": "Effect of public sentiment on stock market movement prediction during the COVID-19 outbreak",
+    "abstract": "Forecasting the stock market is one of the most difficult undertakings in the financial industry due to its complex, volatile, noisy, and nonparametric character. However, as computer science advances, an intelligent model can help investors and analysts minimize investment risk. Public opinion on social media and other online portals is an important factor in stock market predictions. The COVID-19 pandemic stimulates online activities since individuals are compelled to remain at home, bringing about a massive quantity of public opinion and emotion. This research focuses on stock market movement prediction with public sentiments using the long short-term memory network (LSTM) during the COVID-19 flare-up. Here, seven different sentiment analysis tools, VADER, logistic regression, Loughran-McDonald, Henry, TextBlob, Linear SVC, and Stanford, are used for sentiment analysis on web scraped data from four online sources: stock-related articles headlines, tweets, financial news from Economic Times and Facebook comments. Predictions are made utilizing both feeling scores and authentic stock information for every one of the 28 opinion measures processed. An accuracy of 98.11% is achieved by using linear SVC to calculate sentiment ratings from Facebook comments. Thereafter, the four estimated sentiment scores from each of the seven instruments are integrated with stock data in a step-by-step fashion to determine the overall influence on the stock market. When all four sentiment scores are paired with stock data, the forecast accuracy for five out of seven tools is at its most noteworthy, with linear SVC computed scores assisting stock data to arrive at its most elevated accuracy of 98.32%.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "83f3efd131b82e8422429d5eb2e0f3d8",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T03:02:07.462452"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用公众情绪和LSTM网络预测股票市场走势，虽然涉及金融市场，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用公众情绪和LSTM网络预测股票市场走势，虽然涉及金融市场，但其核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:08.118046"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 195,
+    "title": "Regularization methods for sparse ESG-valued multi-period portfolio optimization with return prediction using machine learning",
+    "abstract": "In the context of global sustainable development, environmental, social, and governance (ESG) investment has become a frontier topic in the field of asset management. This paper focuses on ESG-valued multi-period portfolio selection problem which incorporates ESG factor into traditional portfolio optimization. Using ESG-valued returns instead of traditional returns, we propose an ESG-valued fused LASSO model to promote an optimal sparse multi-period portfolio strategy. The objective of the model is to minimize a combination of returns and risks with respect to ESG ratings based on classical Markowitz mean-variance framework. The sparsity of the portfolio at each period and the turnover across periods is achieved by the l(1) regularization approach. To improve the out-of-sample performance of the ESG-valued model, we introduce two machine learning methods, namely random forest and support vector regression, to predict the ESG-valued returns. We develop a symmetric alternating direction method of multipliers to solve the regularized optimization model. Additionally, some other sparsity-driven penalty functions are discussed which results in a general framework of multi-period portfolio optimization. Finally, numerical experiments on several real datasets from both in-sample and out-of-sample demonstrate the positive effect of ESG in multi-period portfolio optimization.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c38cd9e856fb44d457700aab54c8313d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.086999"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法（如随机森林和支持向量回归）来预测ESG价值的回报，并基于Markowitz均值-方差框架优化多期投资组合。研究重点在于ESG因素如何影响投资组合的选择和优化，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法（如随机森林和支持向量回归）来预测ESG价值的回报，并基于Markowitz均值-方差框架优化多期投资组合。研究重点在于ESG因素如何影响投资组合的选择和优化，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:51.020662"
+}

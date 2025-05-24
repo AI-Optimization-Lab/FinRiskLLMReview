@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 946,
+    "title": "Machine Learning in Futures Markets",
+    "abstract": "In this paper, we demonstrate how a well-established machine learning-based statistical arbitrage strategy can be successfully transferred from equity to futures markets. First, we preprocess futures time series comprised of front months to render them suitable for our returns-based trading framework and compile a data set comprised of 60 futures covering nearly 10 trading years. Next, we train several machine learning models to predict whether the h-day-ahead return of each future out- or underperforms the corresponding cross-sectional median return. Finally, we enter long/short positions for the top/flop-k futures for a duration of h days and assess the financial performance of the resulting portfolio in an out-of-sample testing period. Thereby, we find the machine learning models to yield statistically significant out-of-sample break-even transaction costs of 6.3 bp-a clear challenge to the semi-strong form of market efficiency. Finally, we discuss sources of profitability and the robustness of our findings.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ab79a4099eec048bbfe203c09615b44a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.661438"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型预测期货市场的表现，并基于这些预测构建多空投资组合，这直接涉及投资组合的构建和管理。虽然论文涉及期货市场，但主要关注的是投资组合的构建和绩效评估，而非衍生品定价或风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型预测期货市场的表现，并基于这些预测构建多空投资组合，这直接涉及投资组合的构建和管理。虽然论文涉及期货市场，但主要关注的是投资组合的构建和绩效评估，而非衍生品定价或风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:53.445077"
+}

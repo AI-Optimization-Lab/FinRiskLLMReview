@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3877,
+    "title": "Onset Detection of Epileptic Seizures From Accelerometry Signal",
+    "abstract": "Epileptic seizures are the result of any abnormal asynchronous firing of cortical neurons. Seizures are abrupt and pose a risk of injury and fatal harm to the patient. Epilepsy affects patients quality of life (QOL) and imposes financial, social, and physical burden on the patient. The unpredictability associated with seizures further adds to the reduced QOL and increases dependence on caregivers and family members. A seizure triggered alarm system can reduce the risk of seizure-related injuries and aid in improving patient's QOL. This study presents real-time onset detection of seizures from accelerometry signal. An automated approach based on statistical machine learning is employed to learn the onset of seizures. To search for the optimal parameter that simultaneously maximizes detection sensitivity (sens) while minimizing false alarm rate (FAR) and latency, the epoch length is varied from t = {1,..., 10s}. Linear and non-linear time-varying dynamical patterns were extracted from every epoch using Poincar ' e plot analysis. The correlation patterns were learned using a kernalized support vector data descriptor. The preliminary analysis on accelerometry data collected from 8 epileptic patients with 9 generalized tonic-clonic seizures (GTCS) shows promising results. The proposed algorithm detected all GTCS events (sens: 100%, FAR: 1.09/24h) at 8s from onset. The proposed algorithm can lead to a sensitive, specific, and a relatively short-latency detection system for real-time remote monitoring of epileptic patients.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3f765e08a89e2872fb530dbad9afec1c",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:30:58.237117"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究癫痫发作的实时检测，使用机器学习方法分析加速度信号，与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究癫痫发作的实时检测，使用机器学习方法分析加速度信号，与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:06.327189"
+}

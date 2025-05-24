@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "semi-supervised learning",
+    "active learning",
+    "classification"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using a machine learning approach to analyze patent data for identifying emerging technologies.",
+    "semi-supervised learning": "The study applies an active semi-supervised learning technique, using a small amount of labeled data (patents evaluated by experts) with a large amount of unlabeled data (other patents).",
+    "active learning": "The approach involves active learning where experts evaluate a portion of patents to label them, which is then used to classify the rest of the patents.",
+    "classification": "The analysis model classifies patents into promising and unpromising ones based on patent attributes such as technology characteristics."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"semi-supervised learning\",\n    \"active learning\",\n    \"classification\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using a machine learning approach to analyze patent data for identifying emerging technologies.\",\n    \"semi-supervised learning\": \"The study applies an active semi-supervised learning technique, using a small amount of labeled data (patents evaluated by experts) with a large amount of unlabeled data (other patents).\",\n    \"active learning\": \"The approach involves active learning where experts evaluate a portion of patents to label them, which is then used to classify the rest of the patents.\",\n    \"classification\": \"The analysis model classifies patents into promising and unpromising ones based on patent attributes such as technology characteristics.\"\n  }\n}\n```"
+}

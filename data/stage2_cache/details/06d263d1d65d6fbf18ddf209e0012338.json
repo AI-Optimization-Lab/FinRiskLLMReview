@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 3921,
+    "title": "Language Models Fine-Tuning for Automatic Format Reconstruction of SEC Financial Filings",
+    "abstract": "The analysis of financial reports is a crucial task for investors and regulators, especially the mandatory annual reports (10-K) required by the SEC (Securities and Exchange Commission) that provide crucial information about a public company in the American stock market. Although SEC suggests a specific document format to standardize and simplify the analysis, in recent years, several companies have introduced their own format and organization of the contents, making human-based and automatic knowledge extraction inherently more difficult. In this research work, we investigate different Neural language models based on Transformer networks (Bidirectional recurrence-based, Autoregressive-based, and Autoencoders-based approaches) to automatically reconstruct an SEC-like format of the documents as a multi-class classification task with 18 classes at the sentence level. In particular, we propose a Bidirectional fine-tuning procedure to specialize pre-trained language models on this task. We propose and make the resulting novel transformer model, named SEC-former, publicly available to deal with this task. We evaluate SEC-former in three different scenarios: 1) in terms of topic detection performances; 2) in terms of document similarity (TF-IDF Bag-of-words and Doc2Vec) achieved with respect to original and trustable financial reports since this operation is leveraged for portfolio optimization tasks; and 3) testing the model in a real use-case scenario related to a public company that does not respect the SEC format but provides a human-supervised reference to reconstruct it.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "91f92ce600ab2d674d9ea5a606048233",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder",
+      "Large Language Model",
+      "LLM",
+      "Instruction Tuning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:22:11.881828"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用语言模型自动重构SEC财务报告格式，虽然提到文档相似性可用于投资组合优化任务，但这并非论文的核心研究方向，而是次要应用。论文的核心技术是文档格式重构和分类，不属于衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用语言模型自动重构SEC财务报告格式，虽然提到文档相似性可用于投资组合优化任务，但这并非论文的核心研究方向，而是次要应用。论文的核心技术是文档格式重构和分类，不属于衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:26.060597"
+}

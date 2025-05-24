@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1563,
+    "title": "Dynamic Return Scenario Generation Approach for Large-Scale Portfolio Optimisation Framework",
+    "abstract": "In this paper, we propose a complex return scenario generation process that can be incorporated into portfolio selection problems. In particular, we assume that returns follow the ARMA-GARCH model with stable-distributed and skewed t-copula dependent residuals. Since the portfolio selection problem is large-scale, we apply the multifactor model with a parametric regression and a nonparametric regression approaches to reduce the complexity of the problem. To do this, the recently proposed trend-dependent correlation matrix is used to obtain the main factors of the asset dependency structure by applying principal component analysis (PCA). However, when a few main factors are assumed, the obtained residuals of the returns still explain a non-negligible part of the portfolio variability. Therefore, we propose the application of a novel approach involving a second PCA to the Pearson correlation to obtain additional factors of residual components leading to the refinement of the final prediction. Future return scenarios are predicted using Monte Carlo simulations. Finally, the impact of the proposed approaches on the portfolio selection problem is evaluated in an empirical analysis of the application of a classical mean-variance model to a dynamic dataset of stock returns from the US market. The results show that the proposed scenario generation approach with nonparametric regression outperforms the traditional approach for out-of-sample portfolios.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fbc46dab4c2b416625672b727604c6c4",
+    "relevant_keywords": [
+      "regression",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:12.646056"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on a return scenario generation process specifically designed for portfolio selection problems, utilizing techniques like ARMA-GARCH models, PCA, and Monte Carlo simulations to optimize large-scale portfolios. The empirical analysis applies a mean-variance model to stock returns, which is a classic approach in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on a return scenario generation process specifically designed for portfolio selection problems, utilizing techniques like ARMA-GARCH models, PCA, and Monte Carlo simulations to optimize large-scale portfolios. The empirical analysis applies a mean-variance model to stock returns, which is a classic approach in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:10.878401"
+}

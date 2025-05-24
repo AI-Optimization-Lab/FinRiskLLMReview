@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 64,
+    "title": "Effective Convergence Trading of Sparse, Mean Reverting Portfolios",
+    "abstract": "This paper introduces an effective convergence trading algorithm for mean reverting portfolios using Long Short Term Memory (LSTM) neural networks. Utilizing known techniques for selection of sparse, mean reverting portfolios from asset dynamics following the VAR(1) model, we introduce a 2-step technique to effectively trade the optimal portfolio. Sequence-to-sequence (Seq2Seq) LSTM architecture is implemented to make longer term prediction of future portfolio values and establish a trading range. In addition, a simple LSTM network is applied to predict very precisely one time step ahead. Combining these two constructions, a sophisticated convergence trading algorithm is implemented which produced Sharpe ratios around 1.0 on optimal portfolios selected from historical S[NONSPACE]&P500\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$ S[NONSPACE] \\& P500$$\\end{document} stocks during 2015-2022\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$2015-2022$$\\end{document}. This represents a very significant improvement compared to the previous convergence trading algorithms on the same set of portfolios by around 141%\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$141\\%$$\\end{document} on average.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "1275220ca6087476ab08092c4178db87",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM",
+      "sequence-to-sequence learning",
+      "seq2seq"
+    ],
+    "stage1_timestamp": "2025-05-15T00:31:50.325818"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM神经网络进行均值回归投资组合的有效收敛交易，这直接涉及投资组合的构建和交易策略，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM神经网络进行均值回归投资组合的有效收敛交易，这直接涉及投资组合的构建和交易策略，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:36:02.771868"
+}

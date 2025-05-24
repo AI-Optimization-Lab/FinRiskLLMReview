@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2640,
+    "title": "A Nested Weighted Tchebycheff Multi-Objective Bayesian Optimization Approach for Flexibility of Unknown Utopia Estimation in Expensive Black-Box Design Problems",
+    "abstract": "We propose a nested weighted Tchebycheff Multi-objective Bayesian optimization (WTB MOBO) framework where we built a regression model selection procedure from the ensemble of models, toward better estimation of the uncertain parameters (utopia) of the weighted Tchebycheff expensive black-box multi-objective function. In our previous work, a weighted Tchebycheff MOBO approach has been demonstrated which attempts to estimate the model parameters (utopia) in formulating the acquisition function of the weighted Tchebycheff multi-objective black-box functions, through calibration using an a priori selected regression model. However, the existing MOBO model lacks flexibility in selecting the appropriate regression models given the guided sampled data and, therefore, can under-fit or over-fit as the iterations of the MOBO progress. This ultimately can reduce the overall MOBO performance. As, in general, it is too complex to a priori guarantee a best model, this motivates us to consider a portfolio of different families (simple-to-complex) of predictive models that have been fitted with current training data guided by the WTB MOBO, and the best model is selected following a user-defined prediction root-mean-square error-based approach. The proposed approach is implemented in optimizing a thin tube design under constant loading of temperature and pressure, minimizing the risk of creep-fatigue failure and design cost. Finally, the nested WTB MOBO model performance is compared with different MOBO frameworks with respect to accuracy in parameter estimation, Pareto-optimal solutions, and function evaluation cost. This approach is generalized enough to consider different families of predictive models in the portfolio for best model selection, where the overall design architecture allows for solving any high-dimensional (multiple functions) complex black-box problems and can be extended to any other global criterion multi-objective optimization methods where prior knowledge of utopia is required.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "38452f678f09abe59e0b5c69a68b7c7a",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.829840"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种嵌套加权Tchebycheff多目标贝叶斯优化框架，应用于薄管设计优化，以最小化蠕变疲劳失效风险和设计成本。虽然涉及优化和模型选择，但并未提及在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种嵌套加权Tchebycheff多目标贝叶斯优化框架，应用于薄管设计优化，以最小化蠕变疲劳失效风险和设计成本。虽然涉及优化和模型选择，但并未提及在衍生品定价、金融风险管理或投资组合管理等金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:39.398574"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 101,
+    "title": "Langevin Dynamics Based Algorithm e-THεO POULA for Stochastic Optimization Problems with Discontinuous Stochastic Gradient",
+    "abstract": "We introduce a new Langevin dynamics based algorithm, called the extended tamed hybrid epsilon-order polygonal unadjusted Langevin algorithm (e-TH epsilon O POULA), to solve optimization problems with discontinuous stochastic gradients, which naturally appear in real-world applications such as quantile estimation, vector quantization, conditional value at risk (CVaR) minimization, and regularized optimization problems involving rectified linear unit (ReLU) neural networks. We demonstrate both theoretically and numerically the applicability of the e-TH epsilon O POULA algorithm. More precisely, under the conditions that the stochastic gradient is locally Lipschitz in average and satisfies a certain convexity at infinity condition, we establish nonasymptotic error bounds for e-TH epsilon O POULA in Wasserstein distances and provide a nonasymptotic estimate for the expected excess risk, which can be controlled to be arbitrarily small. Three key applications in finance and insurance are provided, namely, multiperiod portfolio optimization, transfer learning in multiperiod portfolio optimization, and insurance claim prediction, which involve neural networks with (Leaky)ReLU activation functions. Numerical experiments conducted using real-world data sets illustrate the superior empirical performance of e-TH epsilon O POULA compared with SGLD (stochastic gradient Langevin dynamics), TUSLA (tamed unadjusted stochastic Langevin algorithm), adaptive moment estimation, and Adaptive Moment Estimation with a Strongly Non-Convex Decaying Learning Rate in terms of model accuracy.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "70de10dcfefbcc7eab603013ce8b37ae",
+    "relevant_keywords": [
+      "neural network",
+      "deep learning",
+      "rectified linear unit",
+      "ReLU"
+    ],
+    "stage1_timestamp": "2025-05-15T00:32:31.363437"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到了多周期投资组合优化（multiperiod portfolio optimization）和转移学习在多周期投资组合优化中的应用，这些都是投资组合管理领域的核心问题。此外，论文还提到了保险索赔预测，但这不属于上述三个金融研究领域之一。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到了多周期投资组合优化（multiperiod portfolio optimization）和转移学习在多周期投资组合优化中的应用，这些都是投资组合管理领域的核心问题。此外，论文还提到了保险索赔预测，但这不属于上述三个金融研究领域之一。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:37.526753"
+}

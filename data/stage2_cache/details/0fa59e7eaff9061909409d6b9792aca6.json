@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 5375,
+    "title": "Single-Index-Based CoVaR With Very High-Dimensional Covariates",
+    "abstract": "Systemic risk analysis reveals the interdependencies of risk factors especially in tail event situations. In applications the focus of interest is on capturing joint tail behavior rather than a variation around the mean. Quantile and expectile regression are used here as tools of data analysis. When it comes to characterizing tail event curves one faces a dimensionality problem, which is important for CoVaR (Conditional Value at Risk) determination. A projection-based single-index model specification may come to the rescue but for ultrahigh-dimensional regressors one faces yet another dimensionality problem and needs to balance precision versus dimension. Such a balance is achieved by combining semiparametric ideas with variable selection techniques. In particular, we propose a projection-based single-index model specification for very high-dimensional regressors. This model is used for practical CoVaR estimates with a systemically chosen indicator. In simulations we demonstrate the practical side of the semiparametric CoVaR method. The application to the U.S. financial sector shows good backtesting results and indicate market coagulation before the crisis period. Supplementary materials for this article are available online.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6b3a70b9f172ce6062ccc647785c2e3d",
+    "relevant_keywords": [
+      "regression",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T02:47:13.927988"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on systemic risk analysis and the use of CoVaR (Conditional Value at Risk) for capturing joint tail behavior in financial markets, which is a key aspect of financial risk management. The proposed model is specifically applied to the U.S. financial sector to demonstrate its effectiveness in risk assessment, particularly before crisis periods.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on systemic risk analysis and the use of CoVaR (Conditional Value at Risk) for capturing joint tail behavior in financial markets, which is a key aspect of financial risk management. The proposed model is specifically applied to the U.S. financial sector to demonstrate its effectiveness in risk assessment, particularly before crisis periods.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:30:32.214798"
+}

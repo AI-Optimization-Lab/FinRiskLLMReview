@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2178,
+    "title": "Polynomial response surface-based transformation function for the performance improvement of low-fidelity models for concrete gravity dams",
+    "abstract": "The behavior of concrete gravity dams under seismic loading is a complex engineering problem dependent on a wide range of variables. Probabilistic methods can be used to evaluate the capacity of an individual or a portfolio of dams to withstand seismic events. However, due to the high number of re-evaluations required by such methods, simplified models that may not fully capture the complexity of the problem are frequently adopted in the evaluations. For a portfolio of dams that requires geometric uncertainty to be included in the list of controlled variables, the number of re-evaluations increases even further. This is a common engineering problem, where the cost-performance trade-off must be evaluated for every project. To address this issue, this study proposes a machine learning-based transformation function that improves the results obtained with a simplified method by converting low-fidelity data into high-fidelity data. The proposed procedure is applied to analyze the seismic response of a dam-reservoir-foundation system considering three approaches for geometric uncertainty, with increasing complexity. The final function takes as input low-fidelity observations, as well as geometric, material and seismic parameters, and outputs improved observations, with accuracy levels comparable to those obtained with a high-fidelity model but at a much lower cost. The sliding factor of safety resulting from a pseudostatic analysis is taken as the low-fidelity observation, and the sliding displacement from a nonlinear finite element analysis is selected as the high-fidelity observation. The resulting transformation function is then used to generate fragility curves for a well-documented case study dam, and the results using the proposed methodology and from a traditional fragility analysis are compared. It is observed that the proposed methodology to generate transformation functions is capable of correlating methods with radically different hypotheses, precision levels and even different outputs.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "85a5053a96543b365e5c6417570c604d",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:36.735684"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究混凝土重力坝在地震荷载下的行为，并提出了一种基于机器学习的转换函数来提高低精度模型的性能。虽然提到了'portfolio of dams'，但这指的是大坝的集合，而非金融投资组合。论文的核心技术和应用场景属于土木工程领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究混凝土重力坝在地震荷载下的行为，并提出了一种基于机器学习的转换函数来提高低精度模型的性能。虽然提到了'portfolio of dams'，但这指的是大坝的集合，而非金融投资组合。论文的核心技术和应用场景属于土木工程领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:16:45.357013"
+}

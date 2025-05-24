@@ -1,0 +1,40 @@
+{
+  "paper": {
+    "id": 1920,
+    "title": "FinRL: Deep Reinforcement Learning Framework to Automate Trading in Quantitative Finance",
+    "abstract": "Deep reinforcement learning (DRL) has been envisioned to have a competitive edge in quantitative finance. However, there is a steep development curve for quantitative traders to obtain an agent that automatically positions to win in the market, namely to decide where to trade, at what price and what quantity, due to the error-prone programming and arduous debugging. In this paper, we present the first open-source framework FinRL as a full pipeline to help quantitative traders overcome the steep learning curve. FinRL is featured with simplicity, applicability and extensibility under the key principles, full-stack framework, customization, reproducibility and hands-on tutoring. Embodied as a three-layer architecture with modular structures, FinRL implements fine-tuned state-of-the-art DRL algorithms and common reward functions, while alleviating the debugging workloads. Thus, we help users pipeline the strategy design at a high turnover rate. At multiple levels of time granularity, FinRL simulates various markets as training environments using historical data and live trading APIs. Being highly extensible, FinRL reserves a set of user-import interfaces and incorporates trading constraints such as market friction, market liquidity and investor's risk-aversion. Moreover, serving as practitioners' stepping stones, typical trading tasks are provided as step-by-step tutorials, e.g., stock trading, portfolio allocation, cryptocurrency trading, etc.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "53b0dedf764b0dcc9e6228763f43b3d6",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "rectified linear unit",
+      "ReLU",
+      "sigmoid",
+      "tanh",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:06.164478"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要介绍了一个名为FinRL的深度强化学习框架，用于自动化交易决策，包括股票交易、投资组合分配等任务。这些应用场景明确指向投资组合管理领域，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要介绍了一个名为FinRL的深度强化学习框架，用于自动化交易决策，包括股票交易、投资组合分配等任务。这些应用场景明确指向投资组合管理领域，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:14.233325"
+}

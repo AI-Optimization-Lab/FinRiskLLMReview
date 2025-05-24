@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2733,
+    "title": "Forecasting VaR and ES using a joint quantile regression and its implications in portfolio allocation",
+    "abstract": "In this paper, we propose a multivariate quantile regression framework to forecast Value at Risk (VaR) and Expected Shortfall (ES) of multiple financial assets simultaneously, extending Taylor (2019). We generalize the Multivariate Asymmetric Laplace (MAL) joint quantile regression of Petrella and Raponi (2019) to a time-varying setting, which allows us to specify a dynamic process for the evolution of both the VaR and ES of each asset. The proposed methodology accounts for the dependence structure among asset returns. By exploiting the properties of the MAL distribution, we propose a new portfolio optimization method that minimizes portfolio risk and controls for well-known characteristics of financial data. We evaluate the advantages of the proposed approach on both simulated and real data, using weekly returns on three major stock market indices. We show that our method outperforms other existing models and provides more accurate risk measure forecasts than univariate methods. (c) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "539591789c4cd30a6004a799769f17b9",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:18:37.132001"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on forecasting Value at Risk (VaR) and Expected Shortfall (ES), which are key metrics in financial risk management. Additionally, it proposes a new portfolio optimization method, indicating its application in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on forecasting Value at Risk (VaR) and Expected Shortfall (ES), which are key metrics in financial risk management. Additionally, it proposes a new portfolio optimization method, indicating its application in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:40:11.552801"
+}

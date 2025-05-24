@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3628,
+    "title": "A composite blockchain associated event traceability method for financial activities",
+    "abstract": "The existing blockchain system mostly adopts the equal mining mode. All bookkeepers (entities) record the ledgers on a single main chain, and the data storage is random. Moreover, in complex or classified financial scenarios, the data of the main chain is difficult to realize association or regular storage, resulting in low efficiency of storage and query. At the same time, in the existing blockchain system, event traceability is mostly only found in the source block, and the implicit association between entities cannot be identified, so the query has limitations. To solve these problems, this paper proposes a composite blockchain associated event tracing method. This method firstly constructs the blockchain composite chain storage structure model, proposes the concept of private chain and alliance chain, and realizes the adaptive data association storage in complex or classified scenarios. Secondly, on the basis of obtaining the event source entity block, the auxiliary storage space is established to transfer storage relevant data. A tracing method of associated entity block based on the Apriori algorithm is proposed, and then the obtained traceability entity block is constructed as the source event correlation graph, so as to describe the association relationship between the event entities. Finally, a risk assessment system based on reinforcement learning is proposed to realize the risk assessment of traceability entity. Experiments show that the composite blockchain associated event tracing method proposed in this paper can reduce 60% of the storage overhead, improve 90% of the query accuracy and 50% of the security. can reduce the storage overhead by 60%, improve the query accuracy by 90% and improve security by 50%.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9a0dd4a59911f60be8d8facacfaf8554",
+    "relevant_keywords": [
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:28:29.304617"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种基于复合区块链的事件追溯方法，并建立了基于强化学习的风险评估系统，这些技术主要用于提高金融活动的安全性和查询效率，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种基于复合区块链的事件追溯方法，并建立了基于强化学习的风险评估系统，这些技术主要用于提高金融活动的安全性和查询效率，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:57.976940"
+}

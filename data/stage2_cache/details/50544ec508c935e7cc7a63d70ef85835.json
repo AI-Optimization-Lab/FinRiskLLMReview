@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 903,
+    "title": "基于神经网络分位数回归的多期CVaR风险测度",
+    "abstract": "与VaR金融风险测度相比,CVaR具有更好的数理性质,其计算方法成为关注的焦点。相对于单期CVaR而言,多期CVaR风险测度具有较强的非线性特征,其建模过程更加复杂。在神经网络分位数回归基础上,建立了一种新的多期CVaR风险测度方法;基于似然比检验,建立了多期CVaR风险测度返回测试评价准则。将该新方法应用于沪深300指数的多期CVaR风险测度,并将其与传统的测度方法进行了对比,返回测试结果表明:第一,该新方法具有较强的稳健性,各期平均绝对误差大小基本不变,特别适合于多期CVaR风险测度;第二,基于神经网络分位数回归的多期CVaR风险测度效果优于传统测度方法,表现为似然比检验拒绝次数最少和平均绝对误差最小。",
+    "year": 2017,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a780bc968cc56d907b2fb4731a4e8195",
+    "relevant_keywords": [
+      "neural network",
+      "regression",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:34:27.074057"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是基于神经网络分位数回归的多期CVaR风险测度方法，并应用于沪深300指数的风险测度。CVaR（条件风险价值）是金融风险管理中的重要工具，论文的研究目标和应用场景明确指向金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是基于神经网络分位数回归的多期CVaR风险测度方法，并应用于沪深300指数的风险测度。CVaR（条件风险价值）是金融风险管理中的重要工具，论文的研究目标和应用场景明确指向金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:37:11.325053"
+}

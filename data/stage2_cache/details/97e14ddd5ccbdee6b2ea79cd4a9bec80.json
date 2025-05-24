@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 380,
+    "title": "Enhancing Logistic Regression Using Neural Networks for Classification in Actuarial Learning",
+    "abstract": "We developed a methodology for the neural network boosting of logistic regression aimed at learning an additional model structure from the data. In particular, we constructed two classes of neural network-based models: shallow-dense neural networks with one hidden layer and deep neural networks with multiple hidden layers. Furthermore, several advanced approaches were explored, including the combined actuarial neural network approach, embeddings and transfer learning. The model training was achieved by minimizing either the deviance or the cross-entropy loss functions, leading to fourteen neural network-based models in total. For illustrative purposes, logistic regression and the alternative neural network-based models we propose are employed for a binary classification exercise concerning the occurrence of at least one claim in a French motor third-party insurance portfolio. Finally, the model interpretability issue was addressed via the local interpretable model-agnostic explanations approach.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0d521e2b7900a508017f2f54198f392a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "sigmoid",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.585308"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是在精算学习中使用神经网络增强逻辑回归进行分类，虽然涉及保险索赔预测，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是在精算学习中使用神经网络增强逻辑回归进行分类，虽然涉及保险索赔预测，但并未明确指出其在衍生品定价、金融风险管理或投资组合管理等特定金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:36.812943"
+}

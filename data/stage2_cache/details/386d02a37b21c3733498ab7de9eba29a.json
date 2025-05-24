@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 4561,
+    "title": "Robust cost-sensitive kernel method with Blinex loss and its applications in credit risk evaluation",
+    "abstract": "Credit risk evaluation is a crucial yet challenging problem in financial analysis. It can not only help institutions reduce risk and ensure profitability, but also improve consumers' fair practices. The data-driven algorithms such as artificial intelligence techniques regard the evaluation as a classification problem and aim to classify transactions as default or non-default. Since non-default samples greatly outnumber default samples, it is a typical imbalanced learning problem and each class or each sample needs special treatment. Numerous data-level, algorithm-level and hybrid methods are presented, and cost-sensitive support vector machines (CSSVMs) are representative algorithm-level methods. Based on the minimization of symmetric and unbounded loss functions, CSSVMs impose higher penalties on the misclassification costs of minority instances using domain specific parameters. However, such loss functions as error measurement cannot have an obvious cost-sensitive generalization. In this paper, we propose a robust cost-sensitive kernel method with Blinex loss (CSKB), which can be applied in credit risk evaluation. By inheriting the elegant merits of Blinex loss function, i.e., asymmetry and boundedness, CSKB not only flexibly controls distinct costs for both classes, but also enjoys noise robustness. As a data-driven decision-making paradigm of credit risk evaluation, CSKB can achieve the win-win situation for both the financial institutions and consumers. We solve linear and nonlinear CSKB by Nesterov accelerated gradient algorithm and Pegasos algorithm respectively. Moreover, the generalization capability of CSKB is theoretically analyzed. Comprehensive experiments on synthetic, UCI and credit risk evaluation datasets demonstrate that CSKB compares more favorably than other benchmark methods in terms of various measures. (C) 2021 Elsevier Ltd. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cfb3e38cf62b246fc8a47d2f923eaee0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:38:20.516119"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on credit risk evaluation, which is a key aspect of financial risk management. It proposes a robust cost-sensitive kernel method to classify transactions as default or non-default, aiming to help financial institutions reduce risk and ensure profitability.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on credit risk evaluation, which is a key aspect of financial risk management. It proposes a robust cost-sensitive kernel method to classify transactions as default or non-default, aiming to help financial institutions reduce risk and ensure profitability.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:22.659411"
+}

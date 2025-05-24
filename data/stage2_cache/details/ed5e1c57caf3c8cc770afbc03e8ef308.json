@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 4085,
+    "title": "Hedging with Two Futures Contracts: Simplicity Pays",
+    "abstract": "We propose to use two futures contracts in hedging an agricultural commodity commitment to solve either the standard delta hedge or the roll-over issue. Most current literature on dual-hedge strategies is based on a structured model to reduce roll-over risk and is somehow difficult to apply for agricultural futures contracts. Instead, we propose to apply a regression based model and a naive rules of thumb for dual-hedges which are applicable for agricultural commodities. The naive dual strategy stems from the fact that in a large sample of agricultural commodities, De Ville, Dhaene and Sercu (2008) find that GARCH-based hedges do not perform as well as OLS-based ones and that we can avoid estimation error with such a simple rule. Our semi-naive hedge ratios are driven from two conditions: omitting exposure to spot price and minimising the variance of the unexpected basis effects on the portfolio values. We find that, generally, (i) rebalancing helps; (ii) the two-contract hedging rules do better than the one-contract counterparts, even for standard delta hedges without rolling-over; (iii) simplicity pays: the naive rules are the best one-for corn and wheat within the two-contract group, the semi-naive rule systematically beats the others and GARCH performs worse than OLS for either one-contract or two-contract hedges and for soybeans the traditional naive rule performs nearly as well as OLS. These conclusions are based on the tests on unconditional variance (Diebold and Mariano, 1995) and those on conditional risk (Giacomini and White, 2006).",
+    "year": 2011,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "855aa42c16d5b1e67abf55bb12719d91",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:23:27.443397"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用两种期货合约进行对冲的策略，以解决农业商品承诺的标准delta对冲或展期问题。这属于金融风险管理中的对冲策略应用，旨在最小化投资组合价值的意外基差效应方差。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用两种期货合约进行对冲的策略，以解决农业商品承诺的标准delta对冲或展期问题。这属于金融风险管理中的对冲策略应用，旨在最小化投资组合价值的意外基差效应方差。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:08:02.097370"
+}

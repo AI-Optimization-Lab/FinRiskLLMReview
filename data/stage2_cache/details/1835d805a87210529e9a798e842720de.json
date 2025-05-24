@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 165,
+    "title": "Forecasting realized volatility through financial turbulence and neural networks",
+    "abstract": "This paper introduces and examines a novel realized volatility forecasting model that makes use of Long Short-Term Memory (LSTM) neural networks and the risk metric financial turbulence (FT). The proposed model is compared to five alternative models, of which two incorporate LSTM neural networks and the remaining three include GARCH(1,1), EGARCH(1,1), and HAR models. The results of this paper demonstrate that the proposed model yields statistically significantly more accurate and robust forecasts than all other studied models when applied to stocks with middle-to-high volatility. Yet, considering low-volatility stocks, it can only be confidently affirmed that the proposed model yields statistically significantly more robust forecasts relative to all other models considered.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "dcc8d191b268a74b30ce7fb9d42c756c",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:34:25.488982"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用LSTM神经网络和金融湍流（FT）风险度量来预测已实现波动率。波动率预测是金融风险管理中的一个关键组成部分，用于评估和监控市场风险。论文的研究目标和实验设计都集中在提高波动率预测的准确性和稳健性，这直接支持金融风险管理的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM神经网络和金融湍流（FT）风险度量来预测已实现波动率。波动率预测是金融风险管理中的一个关键组成部分，用于评估和监控市场风险。论文的研究目标和实验设计都集中在提高波动率预测的准确性和稳健性，这直接支持金融风险管理的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:06.550393"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 7742,
+    "title": "A Multilayer Network Perspective on Customer Segmentation Through Cashless Payment Data",
+    "abstract": "Customer segmentation is a central problem in different business processes. In the last few years, it is also becoming important for banking and financial institutions given the ever-growing volume of cashless payments. When dealing with customer segmentation with transactional data, the clustering approach is widely used. In this work, we propose a different modeling approach for customer segmentation based on a graph-based representation. Specifically, we reformulate customer segmentation as a community detection problem on a similarity multi-layer network, where each layer depends on a specific cashless payment method. We introduce a vector-based representation of the cardholders' spending patterns, namely the purchase profile, to build the similarity multi-layer network. The profiles capture how customers allocate their spending capacity among merchant categories through different payment systems. From purchase profiles, we evaluate the similarity of the cardholders in terms of consumption allocation and we infer different similarity graphs based on credit and debit card payments. Different segmentation strategies based on multi-layer community detection methods have been evaluated on a large-scale dataset of credit and debit card transactions of a banking group. Since one of the main goals is verifying the feasibility of graph-based approaches for customer segmentation, we discuss the outcomes of the methods in terms of explainability of the resulting segments. Specifically, methods based on random walks, such as Infomap, return more stable and insightful results than modularity-based ones, in different settings. To sum up, we experiment with community detection algorithms to cope with the customer segmentation problem starting from a large set of credit and debit card transactions. The outcome of the solutions may support recently developed methods for bank risk assessment based on clients' behavior or targeted applications for cashless payment management.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5afb60a03554554ea1c8303d171bf8e1",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T03:11:38.549159"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是基于多层网络的客户细分方法，应用于银行风险评估和现金支付管理，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是基于多层网络的客户细分方法，应用于银行风险评估和现金支付管理，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:13.342302"
+}

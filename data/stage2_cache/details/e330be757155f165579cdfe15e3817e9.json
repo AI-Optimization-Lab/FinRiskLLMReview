@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 452,
+    "title": "Semi-supervised Method to Detect Fraudulent Transactions and Identify Fraud Types while Minimizing Mounting Costs",
+    "abstract": "financial fraud is a complex problem faced by fi-nancial institutions, and existing fraud detection systems are often insufficient, resulting in significant financial losses. Researchers have proposed various machine learning-based techniques to en-hance the performance of these systems. In this work, we present a semi-supervised approach to detect fraudulent transactions. First, we extract and select features, followed by the training of a binary classification model. Secondly, we apply a clustering algorithm to the fraudulent transactions and use the binary classification model with the SHAP framework to analyze the clusters and associate them with a particular fraud type. Finally, we present an algorithm to detect and assign a fraud type by leveraging a multi-fraud classification model. To minimize the mounting cost of the model, we propose an algorithm to choose an optimal threshold that can detect fraudulent transactions. We work with experts to adapt a risk cost matrix to estimate the mounting cost of the model. This risk cost matrix takes into account the cost of missing fraudulent transactions and the cost of incorrectly flagging a legitimate transaction as fraudulent. In our experiments on a real dataset, our approach achieved high accuracy in detecting fraudulent transactions, with the added benefit of identifying the fraud type, which can help financial institutions better understand and combat fraudulent activities. Overall, our approach offers a comprehensive and efficient solution to financial fraud detection, and our results demonstrate its effectiveness in reducing financial losses for financial institutions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1beff8721036cdff4b28d3b112605082",
+    "relevant_keywords": [
+      "machine learning",
+      "semi-supervised learning",
+      "classification",
+      "clustering",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.683192"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用半监督学习方法检测欺诈交易并识别欺诈类型，同时最小化模型成本。这直接涉及金融机构的风险管理，特别是操作风险和欺诈风险的识别与控制。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用半监督学习方法检测欺诈交易并识别欺诈类型，同时最小化模型成本。这直接涉及金融机构的风险管理，特别是操作风险和欺诈风险的识别与控制。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:00.981226"
+}

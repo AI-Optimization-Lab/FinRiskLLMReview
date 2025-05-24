@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 817,
+    "title": "Machine learning and deep learning for mineralogy interpretation and CO2 saturation estimation in geological carbon Storage: A case study in the Illinois Basin",
+    "abstract": "Carbon capture and storage (CCS) is a promising approach to simultaneously maintaining energy security and reducing carbon dioxide (CO2) emissions under the current energy portfolio that is dominated by fossil fuel energy. Pre-injection formation characterization and post-injection CO2 monitoring are two critical tasks to guarantee storage efficiency in CCS. The CCS projects in the Illinois Basin, the first large-scale CO2 injection into saline aquifers in the United States, employed conventional and the latest pulsed neutron logging (PNL) tools for mineralogy interpretation and CO2 saturation estimation, which provide valuable references for future CCS projects. Because of the inherent fuzziness of petrophysical measurements and complex subsurface heterogeneity, interpreting well-logging data is time-consuming, and its accuracy can be user-biased. In recent years, data-driven methods have been widely used to capture the non-linear patterns between input features and interpretation results. This work applied and evaluated four commonly used machine learning (ML) models, including ridge regression (RR), random forest (RF), gradient boosting regression (GBR), support vector regression (SVR), and one deep learning (DL) model, the artificial neural network (ANN). We optimized the hyperparameters of the four ML models and the DL model using the simulated annealing algorithm and the grid search strategy, respectively. The input features of the mineralogy interpretation models were eleven conventional well-logging parameters, and the label data (i.e., ground truth) were the porosity and volumetric fractions of six minerals, including quartz, feldspar, dolomite, calcite, clay, and iron minerals. The results demonstrated that the GBR and RF models were superior in predicting volumetric fractions of minerals and porosity; label data with low coefficient of variation (CV) values tended to yield better performance. For CO2 saturation estimation, the RF was the best-performing model, followed by SVR, ANN, GBR, and RR. Furthermore, we conducted feature importance ranking using the permutation importance algorithm and found that the formation sigma and well pressure were the most important features in this study. The study of CCS projects in the Illinois Basin bridges the gap between the limited knowledge and understanding of geological carbon storage and the increasing demand for reliable, cost-effective, and sustainable energy solutions.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7acaa129563583456429194efa792a75",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.420678"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究机器学习在地质碳储存中的应用，特别是矿物学解释和二氧化碳饱和度估计，与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究机器学习在地质碳储存中的应用，特别是矿物学解释和二氧化碳饱和度估计，与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:26.705122"
+}

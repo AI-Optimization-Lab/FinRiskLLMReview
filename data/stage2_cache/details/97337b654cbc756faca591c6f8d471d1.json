@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 327,
+    "title": "一种半监督学习的金融新闻文本分类算法",
+    "abstract": "对金融文本进行分类是一项常见的用于识别金融风险的任务。传统的金融新闻文本分类方法需要大量的已知类别文本来训练分类器，然而标注金融新闻文本标签不仅需要专业的金融背景知识，而且耗时耗力。为了减少对已知类别文本的依赖，提出了一个基于半监督学习的金融文本分类算法，该算法采用有监督学习和无监督学习的一致性训练方式，以更好地利用未知类别的文本数据；针对金融领域文本引入无监督数据增强方法，即对特定任务使用特定目标的数据增强方法，以产生更有效的数据。在多个金融文本数据集上开展的实验证明，相比其他文本分类算法，提出的算法在有效性上有明显提升。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "550a5d9059719f99dc72844801f093a2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "semi-supervised learning",
+      "classification",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-14T22:29:10.689506"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是半监督学习的金融新闻文本分类算法，旨在识别金融风险，这直接关联到金融风险管理领域。论文摘要明确指出分类任务是用于识别金融风险，因此其主要应用领域是金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是半监督学习的金融新闻文本分类算法，旨在识别金融风险，这直接关联到金融风险管理领域。论文摘要明确指出分类任务是用于识别金融风险，因此其主要应用领域是金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:38:50.990168"
+}

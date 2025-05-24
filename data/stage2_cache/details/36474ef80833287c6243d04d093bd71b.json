@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1828,
+    "title": "A self-adaptive preference model based on dynamic feature analysis for interactive portfolio optimization",
+    "abstract": "In financial markets, there are various assets to invest in. Recognizing an investor's preferences is key to selecting a combination of assets that best serves his or her needs. Considering the mean-variance model for the portfolio optimization problem, this paper proposes an interactive multicriteria decision-making method and explores a self-adaptive preference model based on dynamic feature analysis (denoted RFFS-DT) to capture the decision maker (DM)'s complex preferences in the decision-making process. RFFS-DT recognizes the DM's preference impact factor and constructs a preference model. To recognize the impact factors of the DM's preferences, which could change during the decision-making process, three categories of possible features involved in three aspects of the mean-variance model are defined, and a feature selection method based on random forest is designed. Because the DM's preference structure could be unknown a priori, a decision-tree-based preference model is built and updated adaptively according to the DM's preference feedback and the selected features. The effectiveness of RFFS-DT for interactive multicriteria decision making is verified by a series of deliberately designed comparative experiments.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3c222582dc3b5aa633bb0556680fa645",
+    "relevant_keywords": [
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:53.285667"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing a self-adaptive preference model for interactive portfolio optimization, specifically addressing the mean-variance model for portfolio selection. This directly pertains to the field of Portfolio Management, as it aims to optimize asset allocation based on investor preferences and dynamic feature analysis.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing a self-adaptive preference model for interactive portfolio optimization, specifically addressing the mean-variance model for portfolio selection. This directly pertains to the field of Portfolio Management, as it aims to optimize asset allocation based on investor preferences and dynamic feature analysis.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:44.459865"
+}

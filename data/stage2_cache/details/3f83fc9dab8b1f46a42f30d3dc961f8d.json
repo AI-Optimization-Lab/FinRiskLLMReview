@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1423,
+    "title": "A Multi-Stage Self-Adaptive Classifier Ensemble Model With Application in Credit Scoring",
+    "abstract": "In recent years, credit scoring has received wide attention from financial institutions with the rating accuracy influencing both risk control and profitability to a considerable extent. This paper presents a novel multi-stage self-adaptive classifier ensemble model based on the statistical techniques and the machine learning techniques to improve the prediction performance. First, the multi-step data preprocessing is employed to process the original data into the standardized data and generate more representative features. Second, base classifiers can be self-adaptively selected from the candidate classifier repository according to their performance in datasets and their parameters are optimized by the Bayesian optimization algorithm. Third, the ensemble model is integrated through these optimized base classifiers, and it can generate new features through multi-layer stacking and obtain the classifier weights in the ensemble model through the particle swarm optimization. The proposed model is applied to credit scoring to test its prediction performance. In the experimental study, three real-world credit datasets and four evaluation indicators are adopted for the performance evaluation. The results show that compared to single classifier and other ensemble classification methods, the proposed model has better performance and better data adaptability. It proves the reliability and practicability of the proposed model and provides effective decision support for the relevant financial institutions.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "51f5d2ce2f02cc9fd520acc014ad57f1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.621106"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种多阶段自适应分类器集成模型，并将其应用于信用评分。信用评分是金融机构进行风险控制的重要工具，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文提出了一种多阶段自适应分类器集成模型，并将其应用于信用评分。信用评分是金融机构进行风险控制的重要工具，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:04.118161"
+}

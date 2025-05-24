@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 922,
+    "title": "From forecasting to trading: A multimodal-data-driven approach to reversing carbon market losses",
+    "abstract": "The carbon market is characterized by inherent nonlinearity and high volatility, significantly influenced by several market and factor exposures. These include the energy market, financial market, foreign exchange market, international carbon markets, environmental factors, public attention, and market sentiment. Given the multifaceted determinants of carbon prices, this study has bridged a gap in the existing research by transitioning from traditional historical-data-driven methods to an innovative multimodal-data-driven framework integrating both structured and unstructured data. Combining decomposition techniques with feature filtering, we analyze the dynamic relationships between multiple variables and different frequency components of carbon prices, particularly within the relatively young and understudied Chinese carbon market. Furthermore, we calculate entropy values to distinguish between high-complexity and low-complexity sub-sequences and implement an adaptive forecasting process fusing conventional statistical approaches with prevalent deep learning methods, improving interpretability and forecasting accuracy. The proposed method has a prediction RMSE of only 0.3471 in the carbon market of Hubei, China, and a prediction MAPE of 0.9491 in the newly established national unified carbon market. Building upon the forecasting results, this paper makes a further extension by proposing an interval-constrained trading strategy that encapsulates the predictive uncertainties, providing an effective risk management tool in the volatile carbon market. Enterprises can improve their cumulative return rate by 2 % to 14 % through the improvement of our trading strategies, and the maximum drawdown can be reduced by about 2 %. Notably, our strategy's potential for reversing losses to gains, could offer actionable insights for enterprises' decision-making processes.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "36e0eb0ebd4be978a9d364f67138eda9",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:44:35.372829"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个多模态数据驱动的框架，用于预测碳市场价格并设计一个区间约束的交易策略，以管理碳市场中的风险。论文明确提到该策略作为有效的风险管理工具，并展示了如何通过改进交易策略来减少最大回撤和提高累积回报率，这直接关联到金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一个多模态数据驱动的框架，用于预测碳市场价格并设计一个区间约束的交易策略，以管理碳市场中的风险。论文明确提到该策略作为有效的风险管理工具，并展示了如何通过改进交易策略来减少最大回撤和提高累积回报率，这直接关联到金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:59.901951"
+}

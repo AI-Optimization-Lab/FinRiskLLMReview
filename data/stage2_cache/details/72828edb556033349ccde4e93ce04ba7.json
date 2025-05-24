@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1101,
+    "title": "Can multi-period auto-portfolio systems improve returns? Evidence from Chinese and US stock markets",
+    "abstract": "Current portfolios often underperform due to limited utilization of stock selection and a lack of attention to multi-period trading. To address this issue, we propose an auto-portfolio system that addresses these problems by integrating multi-class stock selection with portfolio optimization based on technical indicators. For stock selection, we combine Two-dimensional Convolutional Neural Network with Long and Short-term Memory to forecast the future trends of stocks and select potentially profitable stocks for investment. We then develop two portfolio models based on two technical indicators, which automatically perform multi-period investment. We establish a many-objective optimization problem including return, Conditional Value-at-Risk, skewness, kurtosis, and cost. To solve the optimization problem, we employ Non-dominated Sorting Genetic Algorithm III. The data of Chinese and the U.S. stock markets is used for verification, and a comparative analysis is discussed. In the outof-sample period, two proposed multi-period portfolio models outperform the other models in both single and multi period, achieving higher Sharpe ratio of 1.021 and 1.052 in China, and 1.116 and 1.236 in the U.S., respectively.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "555e3e457dddf8635f4d9dd731f6900a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.330892"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是开发一个自动投资组合系统，结合多类股票选择与基于技术指标的投资组合优化，旨在通过多周期交易提高回报。研究目标明确指向投资组合管理，包括优化回报、风险指标（如CVaR）等，并通过实证分析验证了模型的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是开发一个自动投资组合系统，结合多类股票选择与基于技术指标的投资组合优化，旨在通过多周期交易提高回报。研究目标明确指向投资组合管理，包括优化回报、风险指标（如CVaR）等，并通过实证分析验证了模型的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:40.811406"
+}

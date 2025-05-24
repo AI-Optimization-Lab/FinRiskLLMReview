@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1409,
+    "title": "Multi-Factor RFG-LSTM Algorithm for Stock Sequence Predicting",
+    "abstract": "As has been demonstrated, the long short-term memory (LSTM) algorithm has the special ability to process sequenced data; however, LSTM suffers from high dimensionality, and its structure is too complex, leading to overfitting. In this research, we propose a new method, RFG-LSTM, which uses a rectified forgetting gate (RFG) to restructure the LSTM. The rectified forgetting gate is a function that can limit the boundary of an input sequence, so it can reduce the dimensionality and complexity of a neural network. Through theoretical analysis, we demonstrate that RFG-LSTM is monotonic, just as LSTM is; additionally, the stringency does not change in the new algorithm. Thus, RFG-LSTM also has the ability to process sequenced data. Based on the real trading scenario of China's A stock market, we construct a multi-factor alpha portfolio with RFG-LSTM. The experimental results show that the RFG-LSTM model can objectively learn the characteristics and rules of the A stock market, and this can contribute to a portfolio investment strategy.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c712793a41acb7cca4ae9b9a3149bbf0",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.468913"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提出了一种改进的LSTM算法（RFG-LSTM），并基于中国A股市场的真实交易场景构建了一个多因子alpha投资组合。论文的核心应用是优化投资组合策略，因此属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提出了一种改进的LSTM算法（RFG-LSTM），并基于中国A股市场的真实交易场景构建了一个多因子alpha投资组合。论文的核心应用是优化投资组合策略，因此属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:10.123195"
+}

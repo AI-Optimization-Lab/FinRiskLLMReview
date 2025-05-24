@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1255,
+    "title": "Deep learning for CVA computations of large portfolios of financial derivatives",
+    "abstract": "In this paper, we propose a neural network-based method for CVA computations of a portfolio of derivatives. In particular, we focus on portfolios consisting of a combination of derivatives, with and without true optionality, e.g., a portfolio of a mix of European-and Bermudan-type derivatives. CVA is computed, with and without netting, for different levels of WWR and for different levels of credit quality of the counterparty. We show that the CVA is overestimated with up to 25% by using the standard procedure of not adjusting the exercise strategy for the default-risk of the counterparty. For the Expected Shortfall of the CVA dynamics, the overestimation was found to be more than 100% in some non-extreme cases. (c) 2021 The Author(s). Published by Elsevier Inc. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ )",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "75700d72c3c6afe1d1f3866c4cfa286a",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.074110"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度学习进行信用估值调整（CVA）的计算，这直接涉及衍生品定价中的信用风险调整。同时，CVA计算是金融风险管理中信用风险管理的重要组成部分，论文还讨论了不同信用质量下的CVA计算，进一步证实了其在金融风险管理领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习进行信用估值调整（CVA）的计算，这直接涉及衍生品定价中的信用风险调整。同时，CVA计算是金融风险管理中信用风险管理的重要组成部分，论文还讨论了不同信用质量下的CVA计算，进一步证实了其在金融风险管理领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:35.377006"
+}

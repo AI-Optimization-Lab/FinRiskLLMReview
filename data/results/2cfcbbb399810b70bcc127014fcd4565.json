@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "regression",
+    "support vector machine",
+    "SVM",
+    "decision tree",
+    "neural network",
+    "deep learning"
+  ],
+  "explanations": {
+    "machine learning": "论文使用了多种机器学习模型（如LGBM、SVR、ANN、XGBoost）来构建量化策略。",
+    "supervised learning": "论文中的量化策略是基于有监督学习的方法，通过历史数据预测股票收益率。",
+    "classification": "论文提到量化选股是一个分类任务，预测股票的收益率。",
+    "regression": "论文可能涉及回归任务，因为预测股票收益率通常是一个回归问题。",
+    "support vector machine": "论文提到了支持向量回归（SVR）作为对比模型之一。",
+    "SVM": "SVM是支持向量机的缩写，论文中提到的SVR是支持向量机的一种应用。",
+    "decision tree": "LGBM和XGBoost都是基于决策树的集成学习方法。",
+    "neural network": "论文提到了人工神经网络（ANN）作为对比模型之一。",
+    "deep learning": "虽然论文没有明确提到深度学习，但人工神经网络（ANN）和XGBoost等模型可以视为深度学习的一部分。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"regression\",\n    \"support vector machine\",\n    \"SVM\",\n    \"decision tree\",\n    \"neural network\",\n    \"deep learning\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"论文使用了多种机器学习模型（如LGBM、SVR、ANN、XGBoost）来构建量化策略。\",\n    \"supervised learning\": \"论文中的量化策略是基于有监督学习的方法，通过历史数据预测股票收益率。\",\n    \"classification\": \"论文提到量化选股是一个分类任务，预测股票的收益率。\",\n    \"regression\": \"论文可能涉及回归任务，因为预测股票收益率通常是一个回归问题。\",\n    \"support vector machine\": \"论文提到了支持向量回归（SVR）作为对比模型之一。\",\n    \"SVM\": \"SVM是支持向量机的缩写，论文中提到的SVR是支持向量机的一种应用。\",\n    \"decision tree\": \"LGBM和XGBoost都是基于决策树的集成学习方法。\",\n    \"neural network\": \"论文提到了人工神经网络（ANN）作为对比模型之一。\",\n    \"deep learning\": \"虽然论文没有明确提到深度学习，但人工神经网络（ANN）和XGBoost等模型可以视为深度学习的一部分。\"\n  }\n}\n```"
+}

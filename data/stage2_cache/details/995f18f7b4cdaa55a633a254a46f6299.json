@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 230,
+    "title": "Implied volatility parameterization based on a machine learning polynomial approach",
+    "abstract": "Implied volatility modeling is the future anticipation of price fluctuation and so has a crucial role in option pricing. Machine learning approach can be applied as a great tool to modeling implied volatility and predicting the corresponding future data working towards improving the validity of final outcomes. Usualy, the majority of traders and investors are willing to be encountered with a simple model which is easy to understand, so we provide a light method to reach the goal. In this paper, we propose a machine learning polynomial approach due to the smile shaped behavior of implied volatility and investigate it with a regularization penalty term to fit the Out-The-Money volatility data and we compare the result with the prominent counterpart SVI. Finally, the promising numerical results illustrate that the new proposed algorithm yields an implied volatility smile which is free from static arbitrage for Out-The-Money European call options most of the time and it outperforms SVI in prediction.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "0d61f5611d3faf8a8d5f8e512d0ac7a8",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.202617"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用机器学习多项式方法来建模隐含波动率，并应用于欧式看涨期权的定价，这直接属于衍生品定价领域。论文明确提到隐含波动率建模在期权定价中的关键作用，并比较了其方法与SVI在预测上的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用机器学习多项式方法来建模隐含波动率，并应用于欧式看涨期权的定价，这直接属于衍生品定价领域。论文明确提到隐含波动率建模在期权定价中的关键作用，并比较了其方法与SVI在预测上的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:02.541080"
+}

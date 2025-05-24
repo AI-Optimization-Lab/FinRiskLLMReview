@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 261,
+    "title": "Performance Evaluation of Hybrid Machine Learning Algorithms for Online Lending Credit Risk Prediction",
+    "abstract": "Peer-to-Peer systems are still in the early stages of development when it comes to the processing of credit and the appraisal of the risk associated with it. In this study, we used a hybrid convolutional neural network with logistic regression, a gradient-boosting decision tree, and a k-nearest neighbor to predict the credit risk in a P2P lending club. The lending clubs publicly available P2P loan data was used to train the model. In order to address the issue of data imbalance within the dataset, specifically between the non-defaulter and defaulter classes, the synthetic minority oversampling technique sampling approach is utilized. We developed the architecture of our hybrid model by removing the fully connected layer with the soft-max, which is the final layer of the fully connected CNN model and replaced by LR, GBDT, and k-NN algorithms. The experimental results show that the hybrid CNN-kNN model outperforms the CNN-GBDT and CNN-LR models based on the performance metrics accuracy, recall, F1-score, and area under the curve for both all input and important features. This shows that hybrid machine learning models effectively identify and categorize credit risk in peer-to-peer lending clubs, hence assisting in financial loss prevention.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6618edc93aeae943c6dd42a004fd889f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:48:30.836287"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用混合机器学习算法预测P2P借贷中的信用风险，这直接涉及信用风险评估和管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用混合机器学习算法预测P2P借贷中的信用风险，这直接涉及信用风险评估和管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:32.033773"
+}

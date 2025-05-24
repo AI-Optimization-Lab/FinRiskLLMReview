@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1735,
+    "title": "Last-Mile Embodied Visual Navigation",
+    "abstract": "Realistic long-horizon tasks like image-goal navigation involve exploratory and exploitative phases. Assigned with an image of the goal, an embodied agent must explore to discover the goal, i.e., search efficiently using learned priors. Once the goal is discovered, the agent must accurately calibrate the last-mile of navigation to the goal. As with any robust system, switches between exploratory goal discovery and exploitative last-mile navigation enable better recovery from errors. Following these intuitive guide rails, we propose SLING to improve the performance of existing image-goal navigation systems. Entirely complementing prior methods, we focus on last-mile navigation and leverage the underlying geometric structure of the problem with neural descriptors. With simple but effective switches, we can easily connect SLING with heuristic, reinforcement learning, and neural modular policies. On a standardized image-goal navigation benchmark [1], we improve performance across policies, scenes, and episode complexity, raising the state-of-the-art from 45% to 55% success rate. Beyond photorealistic simulation, we conduct real-robot experiments in three physical scenes and find these improvements to transfer well to real environments. Code and results: https://jbwasse2.github.io/portfolio/SLING",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c3fcf275c2bbfb3a90f4e49950b59049",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:50.729368"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是图像目标导航系统中的最后一英里导航问题，涉及强化学习和神经网络技术，但其应用场景是机器人导航和计算机视觉，并未提及任何金融领域的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是图像目标导航系统中的最后一英里导航问题，涉及强化学习和神经网络技术，但其应用场景是机器人导航和计算机视觉，并未提及任何金融领域的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:11.175612"
+}

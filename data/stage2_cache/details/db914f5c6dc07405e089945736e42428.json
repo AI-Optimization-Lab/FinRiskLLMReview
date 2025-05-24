@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 468,
+    "title": "Financial time series prediction using least squares support vector machines within the evidence framework",
+    "abstract": "For financial time series, the generation of error bars on the point prediction is important in order to estimate the corresponding risk. The Bayesian evidence framework, already successfully applied to design of multilayer perceptrons, is applied in this paper to least squares support vector machine (LS-SVM) regression in order to infer nonlinear models for predicting a time series and the related volatility. On the first level of inference, a statistical framework is related to the LS-SVM formulation which allows to include the time-varying volatility of the market by an appropriate choice of several hyperparameters. By the use of equality constraints and a 2-norm, the model parameters of the LS-SVM are obtained from a linear Karush-Kuhn-Tucker system in the dual space, Error bars on the model predictions are obtained by marginalizing over the model parameters. The hyperparameters of the model are inferred on the second level of inference. The inferred hyperparameters, related to the volatility, are used to construct a volatility model within the evidence framework. Model comparison is performed on the third level of inference in order to automatically tune the parameters of the kernel function and to select the relevant inputs. The LS-SVM formulation allows to derive analytic expressions in the feature space and practical expressions are obtained in the dual space replacing the inner product by the related kernel function using Mercer's theorem. The one step ahead prediction performances obtained on the prediction of the weekly 90-day T-bill rate and the daily DAX30 closing prices show that significant out of sample sign predictions can be made with respect to the Pesaran-Timmerman test statistic.",
+    "year": 2001,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "41a28cff893e57ef4371a10f933b5bfd",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:51:31.194937"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究使用最小二乘支持向量机（LS-SVM）预测金融时间序列及其波动性，并生成预测误差带以估计相关风险。这些内容直接关联到金融风险管理中的风险估计和波动性预测。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究使用最小二乘支持向量机（LS-SVM）预测金融时间序列及其波动性，并生成预测误差带以估计相关风险。这些内容直接关联到金融风险管理中的风险估计和波动性预测。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:40.296388"
+}

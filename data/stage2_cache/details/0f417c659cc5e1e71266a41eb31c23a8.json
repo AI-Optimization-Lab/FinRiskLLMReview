@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 3587,
+    "title": "A solar and wind clustering framework with downscaling and bias correction of reanalysis data using singular value decomposition",
+    "abstract": "Solar and wind energy have emerged as pivotal elements driving the transition towards sustainable power generation sources. To sustain this momentum, reanalysis data provide a critical foundation for spatial planning of renewable sources. However, effectively structuring large-scale, multi-decade reanalysis data into welldelineated clusters for resource planning remains a challenge. Additionally, the relatively coarse resolution of reanalysis data can limit the spatial precision needed for detailed resource planning. These challenges can be addressed by employing dimensionality reduction and clustering techniques alongside high-resolution datasets, thereby enhancing the characterization of renewable resources. This paper introduces a novel framework that applies singular value decomposition to reduce the dimensionality of multi-decade hourly datasets from ERA5, preserving 99 % of the original variance. By identifying spatial clusters from these reduced-dimension datasets and subsequently applying statistical downscaling and bias-correction methods, high-resolution time series can be derived to perform simulations using a mesh of subgrids suitable for renewable generation. A case study using a three-decade dataset from Brazil indicates that 15 solar and 16 wind clusters capture fundamental hourly generation patterns, enabling the estimation of energy outputs for each cluster and the crafting of renewable portfolios that leverage hourly complementarities. This research fills a critical gap by linking long-term hourly patterns to spatial clusters with global applicability. It advances the methodological toolkit for handling reanalysis datasets and enables the use of more detailed spatial information in energy models, including capacity expansion and portfolio selection models.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "dc9521b8ae142f7c3aac96a21d7b7924",
+    "relevant_keywords": [
+      "clustering",
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T01:18:20.644816"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究太阳能和风能资源的聚类分析、降维和偏差校正技术，用于可再生能源的规划和模拟。虽然提到了'portfolio selection models'，但这是指能源组合的选择，而非金融投资组合管理。论文的核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究太阳能和风能资源的聚类分析、降维和偏差校正技术，用于可再生能源的规划和模拟。虽然提到了'portfolio selection models'，但这是指能源组合的选择，而非金融投资组合管理。论文的核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:18.149790"
+}

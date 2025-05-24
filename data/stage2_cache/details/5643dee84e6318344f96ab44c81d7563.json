@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 69,
+    "title": "Asset correlation based deep reinforcement learning for the portfolio selection",
+    "abstract": "Portfolio selection is an important application of AI in the financial field, which has attracted considerable attention from academia and industry alike. One of the great challenges in this application is modeling the correlation among assets in the portfolio. However, current studies cannot deal well with this challenge because it is difficult to analyze complex nonlinearity in the correlation. This paper proposes a policy network that models the nonlinear correlation by utilizing the self-attention mechanism to better tackle this issue. In addition, a deterministic policy gradient recurrent reinforcement learning method based on Monte Carlo sampling is constructed with the objective function of cumulative return to train the policy network. In most existing reinforcement learning-based studies, the state transition probability is generally regarded as unknown, so the value function of the policy can only be estimated. Based on financial backtest experiments, we analyze that the state transition probability is known in the portfolio, and value function can be directly obtained by sampling, further theoretically proving the optimality of the proposed reinforcement learning method in the portfolio. Finally, the superiority and generality of our approach are demonstrated through comprehensive experiments on the cryptocurrency dataset, S&P 500 stock dataset, and ETF dataset.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "39cb6929312351524940ffea7aa9f657",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:57.015660"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on portfolio selection, which is a core aspect of portfolio management. It specifically addresses the challenge of modeling asset correlations within a portfolio and proposes a deep reinforcement learning approach to optimize portfolio selection, as evidenced by the title, abstract, and the datasets used for validation (cryptocurrency, S&P 500 stocks, and ETFs).",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on portfolio selection, which is a core aspect of portfolio management. It specifically addresses the challenge of modeling asset correlations within a portfolio and proposes a deep reinforcement learning approach to optimize portfolio selection, as evidenced by the title, abstract, and the datasets used for validation (cryptocurrency, S&P 500 stocks, and ETFs).\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:55.358320"
+}

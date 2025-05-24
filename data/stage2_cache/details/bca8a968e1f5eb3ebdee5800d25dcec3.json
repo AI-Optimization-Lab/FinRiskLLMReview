@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3142,
+    "title": "Bayesian estimation of the Gaussian mixture GARCH model",
+    "abstract": "Bayesian inference and prediction for a generalized autoregressive conditional heteroskedastic (GARCH) model where the innovations are assumed to follow a mixture of two Gaussian distributions is performed. The mixture GARCH model can capture the patterns usually exhibited by many financial time series such as volatility clustering, large kurtosis and extreme observations. A Griddy-Gibbs sampler implementation is proposed for parameter estimation and volatility prediction. Bayesian prediction of the Value at Risk is also addressed providing point estimates and predictive intervals. The method is illustrated using the Swiss Market Index. (c) 2006 Elsevier B.V. All rights reserved.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "25f2382c4ec9a2c578d1ff2b253be98f",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:22:56.758873"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on Bayesian estimation and prediction for a GARCH model with Gaussian mixture innovations, which is commonly used for modeling financial time series volatility. The explicit mention of Value at Risk (VaR) prediction, a key tool in financial risk management, indicates that the primary application is in assessing and managing financial risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on Bayesian estimation and prediction for a GARCH model with Gaussian mixture innovations, which is commonly used for modeling financial time series volatility. The explicit mention of Value at Risk (VaR) prediction, a key tool in financial risk management, indicates that the primary application is in assessing and managing financial risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:05.817186"
+}

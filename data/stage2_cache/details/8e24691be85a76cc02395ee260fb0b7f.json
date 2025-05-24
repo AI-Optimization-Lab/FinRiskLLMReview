@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3331,
+    "title": "A Dirichlet process mixture regression model for the analysis of competing risk events",
+    "abstract": "We develop a regression model for the analysis of competing risk events. The joint distribution of the time to these events is flexibly characterized by a random effect which follows a discrete probability distribution drawn from a Dirichlet Process, explaining their variability. This entails an additional layer of flexibility of this joint model, whose inference is robust with respect to the misspecification of the distribution of the random effects. The model is analysed in a fully Bayesian setting, yielding a flexible Dirichlet Process Mixture model for the joint distribution of the time to events. An efficient MCMC sampler is developed for inference. The modelling approach is applied to the empirical analysis of the surrending risk in a US life insurance portfolio previously analysed by Milhaud and Dutang (2018). The approach yields an improved predictive performance of the surrending rates.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fb64bfaf5442615fef24ba1749bbfa04",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:15:54.862875"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文开发了一种回归模型用于分析竞争风险事件，并将其应用于美国寿险保单的退保风险分析，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文开发了一种回归模型用于分析竞争风险事件，并将其应用于美国寿险保单的退保风险分析，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:11.220923"
+}

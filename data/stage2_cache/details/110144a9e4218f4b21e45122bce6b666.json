@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 436,
+    "title": "A2GAN: A Deep Reinforcement-Based Learning Algorithm for Risk-Aware in Finance",
+    "abstract": "Financial data suffer from missing, unlabeled and unbalanced data, thus weakening the performance of decision-making systems. In addition, the aim of financial institutions is not only to find decision-making models that achieve high scores for the standard metrics (e.g., AUC, accuracy, F-score) but to reduce the risk from miss-classification cases. This paper addresses these problems by proposing a novel framework inspired by reinforcement learning, specifically actor-critic, for decision-making and implementing generative adversarial networks for imputing missing data, as well as utilizing the unlabeled dataset. Moreover, by taking advantage of reinforcement learning, the trained model is calibrated using a customizable reward function, which can be designed for different purposes of financial institutions. We evaluate the framework via real-world financial datasets that only have a small amount of labeled data and exhibit missing data. Our experiment shows promising results where the financial risk is dramatically reduced without too much sacrifice on standard metrics.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3e83d1f0729540ff01da3504db630b93",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:52.641321"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用强化学习和生成对抗网络来处理金融数据中的缺失和不平衡问题，并特别强调通过可定制的奖励函数来减少金融风险。这些内容明确指向金融风险管理的应用，而非衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习和生成对抗网络来处理金融数据中的缺失和不平衡问题，并特别强调通过可定制的奖励函数来减少金融风险。这些内容明确指向金融风险管理的应用，而非衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:03.042965"
+}

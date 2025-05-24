@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree",
+    "random forest"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning techniques to predict stroke risk from lab test data.",
+    "supervised learning": "The study involves building predictive models using labeled data (stroke risk prediction), which is a supervised learning task.",
+    "classification": "The paper focuses on predicting the risk of stroke, which is a classification problem (predicting whether a patient is at risk or not).",
+    "decision tree": "The random forest algorithm, which is mentioned as the best performing algorithm, is an ensemble method based on decision trees.",
+    "random forest": "The paper specifically mentions that the random forest algorithm achieved the best performance among the tested algorithms."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"decision tree\",\n    \"random forest\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning techniques to predict stroke risk from lab test data.\",\n    \"supervised learning\": \"The study involves building predictive models using labeled data (stroke risk prediction), which is a supervised learning task.\",\n    \"classification\": \"The paper focuses on predicting the risk of stroke, which is a classification problem (predicting whether a patient is at risk or not).\",\n    \"decision tree\": \"The random forest algorithm, which is mentioned as the best performing algorithm, is an ensemble method based on decision trees.\",\n    \"random forest\": \"The paper specifically mentions that the random forest algorithm achieved the best performance among the tested algorithms.\"\n  }\n}\n```"
+}

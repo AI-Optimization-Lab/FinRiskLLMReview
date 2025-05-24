@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 345,
+    "title": "An optimal portfolio method based on real time prediction of gold and bitcoin prices",
+    "abstract": "Aiming at the portfolio problem of gold and bitcoin with a given linear trading commission, this paper puts forward the stage implementation forecast and optimal portfolio model. In the aspect of data prediction, SMA is used to predict the initial data, LSTM is used to predict the price trend of long-term data, and daily updated real-time price data is predicted. Considering the risk aversion of investors, the heuristic algorithm is used to solve the daily trading strategy of maximizing utility from September 12th, 2016 to September 12th, 2021. The simulation analysis of the sliding window shows that the algorithm can realize reasonable prediction, which verifies the effectiveness of the algorithm.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "bbc7c5814d1ec6ccc6908dfbf085ed9b",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:44.430339"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是构建一个基于实时预测的黄金和比特币最优投资组合模型，并利用启发式算法解决每日交易策略问题，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是构建一个基于实时预测的黄金和比特币最优投资组合模型，并利用启发式算法解决每日交易策略问题，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:05.662348"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3018,
+    "title": "Decentralized Federated Learning-Enabled Relation Aggregation for Anomaly Detection",
+    "abstract": "Anomaly detection plays a crucial role in data security and risk management across various domains, such as financial insurance security, medical image recognition, and Internet of Things (IoT) device management. Researchers rely on machine learning to address potential threats in order to enhance data security. In the financial insurance industry, enterprises tend to leverage the relation mining capabilities of knowledge graph embedding (KGE) for anomaly detection. However, auto insurance fraud labeling strongly relies on manual labeling by experts. The efficiency and cost issues of labeling make auto insurance fraud detection still a small-sample detection challenge. Existing schemes, such as migration learning and data augmentation methods, are susceptible to local characteristics, leading to their poor generalization performance. To improve its generalization, the recently emerging Decentralized Federated Learning (DFL) framework provides new ideas for mining more frauds through the joint cooperation of companies. Based on DFL, we propose a federated framework named DFLR for relation embedding aggregation. This framework trains the private KGE of auto insurance companies on the client locally and dynamically selects servers for relation aggregation with the aim of privacy protection. Finally, we validate the effectiveness of our proposed DFLR on a real auto insurance dataset. And the results show that the cooperative approach provided by DFLR improves the client's ability to detect auto insurance fraud compared to single client training.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "044e32c90c5d164466f358c535ab8122",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "knowledge graph embedding (KGE)"
+    ],
+    "stage1_timestamp": "2025-05-15T02:21:52.151684"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究通过去中心化联邦学习框架进行异常检测，特别是在汽车保险欺诈检测中的应用。这属于金融风险管理的范畴，因为它旨在识别和管理潜在的欺诈风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究通过去中心化联邦学习框架进行异常检测，特别是在汽车保险欺诈检测中的应用。这属于金融风险管理的范畴，因为它旨在识别和管理潜在的欺诈风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:32.731555"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 7,
+    "title": "An Iteration Algorithm for American Options Pricing Based on Reinforcement Learning",
+    "abstract": "In this paper, we present an iteration algorithm for the pricing of American options based on reinforcement learning. At each iteration, the method approximates the expected discounted payoff of stopping times and produces those closer to optimal. In the convergence analysis, a finite sample bound of the algorithm is derived. The algorithm is evaluated on a multi-dimensional Black-Scholes model and a symmetric stochastic volatility model, the numerical results implied that our algorithm is accurate and efficient for pricing high-dimensional American options.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "cfc15f59d366e7aa74e92f5d9d68418c",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.425648"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是基于强化学习的迭代算法，专门用于美式期权的定价，这直接属于衍生品定价领域。论文的实验设计也围绕期权定价展开，验证了算法在高维Black-Scholes模型和随机波动率模型中的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是基于强化学习的迭代算法，专门用于美式期权的定价，这直接属于衍生品定价领域。论文的实验设计也围绕期权定价展开，验证了算法在高维Black-Scholes模型和随机波动率模型中的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:32.495527"
+}

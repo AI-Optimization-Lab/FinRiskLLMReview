@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1521,
+    "title": "Learning about tail risk: Machine learning and combination with regularization in market risk management",
+    "abstract": "High-quality risk management is the key to ensuring the safe, efficient, and stable operation of the financial system. The current Basel Accord requires financial institutions to regularly calculate and disclose Value at Risk (VaR) and Expected Shortfall (ES) measures. However, the inaccuracy and instability of traditional risk models have reduced users' confidence. Therefore, we propose two new probabilistic deep learning frameworks for estimating VaR and ES. The trained first framework can output expectiles that are more sensitive to tail risks to map VaR and ES measures. In the second framework, we propose to approximate VaR and ES measures with spline quantile function and estimate the parameters by designing various deep learning architectures. To ensure the effectiveness of the proposed architectures, we derived the training loss and constraints for them. In addition, we solve the problem that existing machine learning risk models are difficult to estimate ES. In this way, combining various individual risk models has great potential for risk management. Therefore, we propose a regularization-based combination framework that adaptively selects and shrinks individual risk models. The developed individual methods and combinations outperform existing methods in backtesting, assisting financial institutions to allocate capital more effectively according to the Basel Capital Accord.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6d475918ffe6b85663baacf6e2485fee",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T02:04:20.019401"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和正则化方法来改进VaR和ES的估计，这些是金融风险管理中的关键指标，特别是针对尾部风险的管理。论文明确提到这些方法旨在帮助金融机构更有效地分配资本，符合巴塞尔协议的要求，这直接关联到金融风险管理的实践。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和正则化方法来改进VaR和ES的估计，这些是金融风险管理中的关键指标，特别是针对尾部风险的管理。论文明确提到这些方法旨在帮助金融机构更有效地分配资本，符合巴塞尔协议的要求，这直接关联到金融风险管理的实践。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:22.983382"
+}

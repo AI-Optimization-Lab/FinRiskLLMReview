@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 271,
+    "title": "A data-centric strategy to improve performance of automatic pavement defects detection",
+    "abstract": "An integrated data -centric portfolio is presented in this work to tailor the performance of the deep learning method. The proposed portfolio includes attention mechanisms, feature -enabled image augmentation strategy, and orthogonal test -based parameter fine-tuning. It focuses on improving the quality and diversity of the data without changing the architecture of the model. The results show that by embedding attention modules into the deep learning -based model, the mAP50 is increased by 3.1% compared to the benchmark. A Class -Specific Image Augmentation (CSIA) method is proposed to work as an optimism strategy for quantifying the number of generated images for each distress. It outperforms augmenting images for all distresses equally which has been widely used in many studies. An orthogonal test method is introduced to decrease the training time for parameter fine-tuning. With the proposed data -centric portfolio, mAP50 of the YOLOv5s model is significantly improved from 0.594 to 0.818.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "193dfed8062f7c6a6ad5ac9447ca0758",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "attention mechanism",
+      "neural network",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:34:13.549754"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是基于深度学习的自动路面缺陷检测性能提升方法，其核心技术包括注意力机制、图像增强策略和参数微调，这些技术并未应用于衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是基于深度学习的自动路面缺陷检测性能提升方法，其核心技术包括注意力机制、图像增强策略和参数微调，这些技术并未应用于衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:27.253785"
+}

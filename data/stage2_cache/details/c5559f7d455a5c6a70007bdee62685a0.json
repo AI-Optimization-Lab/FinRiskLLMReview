@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 382,
+    "title": "Data Mining Optimization Software and Its Application in Financial Audit Data Analysis",
+    "abstract": "The scope of finance is very wide, data also plays a very important role in the financial industry, a small data change, and it may have a great impact on the economy. Therefore, the author proposes data mining optimization software and its application in financial audit data analysis. First, discuss the decision tree method, the main function module design of the system software, the financial analysis software method of weighted multiple random decision trees is described. To conduct verification experiments, the decision-making effect of constructing 10 random decision trees is the best. So, the author constructed a total of 10 random decision trees to analyze the data, since the tree is constructed using a random method, in order to verify the stability of decision tree classification, a total of 5 experiments were carried out, the training data set for each experiment, randomly select 1200 pieces of data from the original data set as training data, the tree is constructed by randomly selecting 12 attributes from 24 attributes. The remaining 300 pieces of data are used as verification data. As can be seen from the results, the accuracy of the random decision tree method is about 10% higher than that of C4.5. In order to improve the accuracy rate of high risk, 300 pieces of high-risk data were added to the training data set. To change the original random sampling into stratified sampling, according to the high, medium, and low risk, the original data is stratified; random sampling is used for each layer, thereby ensuring the amount of training data with high risk. The accuracy of decision tree classification is related to the number of samples of the training data, the larger the number of samples, the more accurate the classification of the constructed decision tree.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7ad8f5562df2dc72204ac025deda6e57",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:50:14.049925"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要讨论了数据挖掘优化软件在金融审计数据分析中的应用，特别是通过随机决策树方法提高分类准确性，并提到高、中、低风险数据的处理，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要讨论了数据挖掘优化软件在金融审计数据分析中的应用，特别是通过随机决策树方法提高分类准确性，并提到高、中、低风险数据的处理，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:28.355058"
+}

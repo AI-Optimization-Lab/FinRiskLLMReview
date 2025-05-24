@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 897,
+    "title": "Modeling Low-risk Actions from Multivariate Time Series Data Using Distributional Reinforcement Learning",
+    "abstract": "In recent years, investment strategies on financial markets using deep learning have attracted a significant amount of research attention. The objective of these studies is to obtain investment action that has a low risk and increases profit. On the other hand, Distributional Reinforcement Learning (DRL) expands the action-value function to a discrete distribution in reinforcement learning, which can control risk. However, DRL has not yet been used to learn investment action. In this study, we construct a low-risk investment trading model using DRL. This model is backtested on Nikkei 225 dataset and compared with Deep Q Network (DQN). We evaluate performance in terms of final asset amounts, their standard deviation, and the Sharpe ratio. The experimental results show that the proposed DRL-based method can learn low-risk actions with increasing profit, outperforming the compared method DQN.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "98f37beeb7499af05384d02b31617799",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:17.589039"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用Distributional Reinforcement Learning (DRL)构建低风险投资交易模型，并在Nikkei 225数据集上进行回测。研究目标是通过控制风险来增加利润，并通过最终资产金额、标准差和夏普比率等指标评估性能。这些内容明确指向投资组合管理和金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用Distributional Reinforcement Learning (DRL)构建低风险投资交易模型，并在Nikkei 225数据集上进行回测。研究目标是通过控制风险来增加利润，并通过最终资产金额、标准差和夏普比率等指标评估性能。这些内容明确指向投资组合管理和金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:54.566198"
+}

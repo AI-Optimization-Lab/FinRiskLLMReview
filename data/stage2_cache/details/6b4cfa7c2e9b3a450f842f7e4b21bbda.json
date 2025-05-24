@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 31,
+    "title": "Study on Early Warning on the Financial Risk of Project Venture Capital through a Neural Network Model",
+    "abstract": "paper aims to effectively reduce the financial loss of enterprises by accurately and reasonably making early warning of investment project risks. This paper briefly introduced the index system used for investment project risk early warning. It constructed a project investment risk earlywarning model with a back-propagation neural network (BPNN) algorithm, and improved it with a genetic algorithm (GA) to solve the defect that the traditional BPNN is easy to fall into, over-fitting when reversely adjust parameters. An analysis was conducted on an electric power company in Hunan Province. Orthogonal experiments are performed to determine the population size and the number of hidden layers in the improved BPNN algorithm. The results showed that the improved BPNN algorithm had the best performance when the population size was set as 25 and the number of hidden layers was four; compared with support vector machine (SVM) and traditional BPNN algorithms, the GA-improved BPNN algorithm had better performance for early risk warning of investment projects. In conclusion, adjusting the parameters of a BPNN with a GA in the training stage can effectively avoid falling into over-fitting, thus improving the early warning performance of the algorithm; in addition, the improved BPNN has better early warning performance.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ded5c2ea2fb7083eb6c941d048b6d1cc",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:03.817427"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用改进的BP神经网络算法进行投资项目风险的早期预警，旨在减少企业的财务损失。这直接涉及金融风险管理中的风险预警和控制。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用改进的BP神经网络算法进行投资项目风险的早期预警，旨在减少企业的财务损失。这直接涉及金融风险管理中的风险预警和控制。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:32.680500"
+}

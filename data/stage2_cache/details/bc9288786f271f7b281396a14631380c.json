@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 45,
+    "title": "基于kNN-Smote-LSTM的消费金融风险检测模型——以信用卡欺诈检测为例",
+    "abstract": "由于移动网络应用与电子支付业务量不断增长,信用卡欺诈的情况也呈现快速增长的趋势,由此给金融机构和运营商带来了巨大的挑战.欺诈检测问题本质上是不平衡的序列二分类问题,这类问题数据样本规模大,计算复杂度高,数据分布极不平衡,数据与数据之间会存在序列关系.文章使用长短期记忆网络(long short term memory networks,LSTM)结合历史交易序列,并针对交易数据不平衡的特性,整合了合成少数类过采样技术(synthetic minority oversampling technique,Smote)算法和k最近邻(k-nearest neighbor,kNN)分类算法设计并构建了一个基于kNN-Smote-LSTM的信用卡欺诈检测网络模型,它可以通过kNN判别分类器来不断筛选出安全生成样本来提升模型的性能,克服了Smote算法在生成新样本时的盲目性和局限性,实证表明通过kNN-Smote-LSTM模型结构化的融合可以大大改善模型组合时对多数类的误分类问题,展现了优越的风险检测性能.",
+    "year": 2021,
+    "source": "CNKI",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "c730db8aa0249e95dec23bef2d57de12",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:25:33.448090"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是构建一个基于kNN-Smote-LSTM的信用卡欺诈检测模型，旨在解决信用卡欺诈这一金融风险问题，因此属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是构建一个基于kNN-Smote-LSTM的信用卡欺诈检测模型，旨在解决信用卡欺诈这一金融风险问题，因此属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:03.530028"
+}

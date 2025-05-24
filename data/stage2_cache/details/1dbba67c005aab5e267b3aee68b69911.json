@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2370,
+    "title": "Stock Market Prediction Based on Generative Adversarial Network",
+    "abstract": "Deep learning has recently achieved great success in many areas due to its strong capacity in data process. For instance, it has been widely used in financial areas such as stock market prediction, portfolio optimization, financial information processing and trade execution strategies. Stock market prediction is one of the most popular and valuable area in finance. In this paper, we propose a novel architecture of Generative Adversarial Network (GAN) with the Multi-Layer Perceptron (MLP) as the discriminator and the Long Short-Term Memory (LSTM) as the generator for forecasting the closing price of stocks. The generator is built by LSTM to mine the data distributions of stocks from given data in stock market and generate data in the same distributions, whereas the discriminator designed by MLP aims to discriminate the real stock data and generated data. We choose the daily data on S&P 500 Index and several stocks in a wide range of trading days and try to predict the daily closing price. Experimental results show that our novel GAN can get a promising performance in the closing price prediction on the real data compared with other models in machine learning and deep learning. (C) 2019 The Authors. Published by Elsevier B.V.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8afc2e223464c16b2bf3a230597e6f7a",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:10.762170"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用生成对抗网络（GAN）进行股票市场预测，特别是预测股票的收盘价。虽然股票市场预测在金融领域有重要应用，但它并不直接属于衍生品定价、金融风险管理或投资组合管理这三个特定领域。论文中提到的投资组合优化仅是作为深度学习在金融领域应用的例子之一，并非论文的主要研究方向。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用生成对抗网络（GAN）进行股票市场预测，特别是预测股票的收盘价。虽然股票市场预测在金融领域有重要应用，但它并不直接属于衍生品定价、金融风险管理或投资组合管理这三个特定领域。论文中提到的投资组合优化仅是作为深度学习在金融领域应用的例子之一，并非论文的主要研究方向。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:27.902565"
+}

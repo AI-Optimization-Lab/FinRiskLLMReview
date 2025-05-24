@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1483,
+    "title": "BEYOND WORD-LEVEL TO SENTENCE-LEVEL SENTIMENT ANALYSIS FOR FINANCIAL REPORTS",
+    "abstract": "This paper attempts to conduct a sentence-level sentiment analysis with respect to financial risk on a collection of financial reports. Specifically, we first propose a simple yet efficient algorithm to generate financial sentiment phrases (senti-phrases), and then with the obtained senti-phrases, we utilize multiple sentence embedding models for better learning the representations of financial risk sentences. In order to verify the performance of the proposed approach, we conduct a risk classification task of financial sentences on a sentence-level labeled dataset of finance reports. Experimental results show that incorporating the obtained senti-phrases into the embedding-based models improves the classification performance.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c3656fa942834e2b024eea1bd2799aba",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "representation learning",
+      "neural network",
+      "deep learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.769947"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是进行金融报告中的句子级情感分析，特别关注金融风险相关的句子分类。这直接应用于金融风险管理领域，通过分析金融报告中的风险情绪来帮助识别和管理风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是进行金融报告中的句子级情感分析，特别关注金融风险相关的句子分类。这直接应用于金融风险管理领域，通过分析金融报告中的风险情绪来帮助识别和管理风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:43.374460"
+}

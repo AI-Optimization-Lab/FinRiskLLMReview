@@ -1,0 +1,38 @@
+{
+  "paper": {
+    "id": 2100,
+    "title": "Price prediction in China stock market: an integrated method based on time series clustering and image feature extraction",
+    "abstract": "Stock time-series data has the characteristics of high dimensionality and nonlinearity, which brings great challenges to stock forecasting. Aiming at the impact of stock correlation and the prediction information contained in stock image features, we propose a long short-term memory model based on clustering and image feature extraction, named Kmeans-CAE-LSTM. Firstly, the Kmeans algorithm is used for stock clustering, where the most correlated stocks are found. Secondly, a convolutional autoencoder (CAE) is applied to extract stock price image features. Finally, the stock technical data and image features are respectively input into the double-layer long-term short-term memory network to predict the stock price of the next trading day. The empirical research results on 11 industries in China's stock market show that the hybrid model has achieved the best prediction effect, which further proves the predictive ability of stock image data and can provide investors with new ideas for stock prediction and asset portfolio.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a51e863e0107382521cdd3cbbefd2557",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T01:03:03.635278"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是预测股票价格，并提到可以为投资者提供股票预测和资产组合的新思路，这直接关联到投资组合管理领域。论文未涉及衍生品定价或金融风险管理的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是预测股票价格，并提到可以为投资者提供股票预测和资产组合的新思路，这直接关联到投资组合管理领域。论文未涉及衍生品定价或金融风险管理的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:19.373804"
+}

@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 557,
+    "title": "Bayesian Network Oriented Transfer Learning Method for Credit Scoring Model",
+    "abstract": "Credit scoring model (CSM) is a risk management tool that assesses the credit worthiness of a customer borrower by estimating her probability of default based on historical data. Traditionally CSM is built by logit model or decision tree algorithm in financial companies, and in recent studies CSM has been integrated with machine learning algorithms such as random forest and gradient boosting to process a number of complex attributes of customer borrowers. On the other hand, CSM has been facing a critical challenge - the domain adaptation of customer borrowers. For domain adaptation problem, transfer learning techniques are generally utilized, however, it is quite difficult to execute precise predictions for unknown domain datasets in CSM because the distributions of labels could be different depending on the characteristics of domains. Therefore, there is no appropriate transfer learning method to solve domain adaptation problem in credit scoring. In this paper we propose a comprehensive transfer learning framework using Bayesian network to extract useful knowledge based on probability distributions to predict probability of default of customer borrowers more precisely than existing machine learning and transfer learning methods. Experimental results showed the proposed method performed over the existing machine learning and transfer learning methods for accuracy of predictions. (c) 2021 Institute of Electrical Engineers of Japan. Published by Wiley Periodicals LLC.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a07c45379a95c2b8886f998348d5f70c",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.320511"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a credit scoring model to assess the probability of default for customer borrowers, which is a key tool in financial risk management for evaluating credit risk.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a credit scoring model to assess the probability of default for customer borrowers, which is a key tool in financial risk management for evaluating credit risk.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:02.432312"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 241,
+    "title": "PRICING OF HIGH-DIMENSIONAL AMERICAN OPTIONS BY NEURAL NETWORKS",
+    "abstract": "Pricing of American options in discrete time is considered, where the option is allowed to be based on several underlyings. It is assumed that the price processes of the underlyings are given Markov processes. We use the Monte Carlo approach to generate artificial sample paths of these price processes, and then we use the least squares neural networks regression estimates to estimate from this data the so-called continuation values, which are defined as mean values of the American options for given values of the underlyings at time t subject to the constraint that the options are not exercised at time t. Results concerning consistency and rate of convergence of the estimates are presented, and the pricing of American options is illustrated by simulated data.",
+    "year": 2010,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ab3aa3f8964b5e47c9307e019ac15d94",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.228957"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用神经网络和蒙特卡洛方法来定价美式期权，特别是基于多个标的资产的高维美式期权。这直接属于衍生品定价的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用神经网络和蒙特卡洛方法来定价美式期权，特别是基于多个标的资产的高维美式期权。这直接属于衍生品定价的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:43.991420"
+}

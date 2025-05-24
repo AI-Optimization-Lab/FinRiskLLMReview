@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2079,
+    "title": "Improving Portfolio Performance Using a Novel Method for Predicting Financial Regimes",
+    "abstract": "This work extends a previous work in regime detection, which allowed trading positions to be profitably adjusted when a new regime was detected, to ex ante prediction of regimes, leading to substantial performance improvements over the earlier model, over all three asset classes considered (equities, commodities, and foreign exchange), over a test period of four years. The proposed new model is also benchmarked over this same period against a hidden Markov model, the most popular current model for financial regime prediction, and against an appropriate index benchmark for each asset class, in the case of the commodities model having a test period cost-adjusted cumulative return over four times higher than that expected from the index. Notably, the proposed model makes use of a contrarian trading strategy, not uncommon in the financial industry but relatively unexplored in machine learning models. The model also makes use of frequent short positions, something not always desirable to investors due to issues of both financial risk and ethics; however, it is discussed how further work could remove this reliance on shorting and allow the construction of a long-only version of the model.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0943d76e542dc3ee47d57a5ceb19a124",
+    "relevant_keywords": [
+      "machine learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:59.007064"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是预测金融状态（regime prediction），并利用这一预测来调整交易头寸以改善投资组合的表现。论文明确提到了在不同资产类别（股票、商品和外汇）中的应用，并讨论了交易策略（如反向交易策略和频繁的短仓）对投资组合的影响。这些内容直接关联到投资组合管理的实践和优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是预测金融状态（regime prediction），并利用这一预测来调整交易头寸以改善投资组合的表现。论文明确提到了在不同资产类别（股票、商品和外汇）中的应用，并讨论了交易策略（如反向交易策略和频繁的短仓）对投资组合的影响。这些内容直接关联到投资组合管理的实践和优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:25.649864"
+}

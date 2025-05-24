@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 551,
+    "title": "An Automatic Deep Reinforcement Learning based Credit Scoring Model using Deep-Q Network for Classification of Customer Credit Requests",
+    "abstract": "Credit risk assessment is a very crucial task for every firm. Especially, companies which give goods or services to their customers to be paid back on a later date or gives loans need to have an efficient credit risk assessment system to avoid financial losses. For accurate assessment of credit risk, precise credit scoring models are needed which the firms may use as a decision-support tool for making lending decisions. Approving credit to bad customers or denying credit to potential customers both can incur profit losses for the firm. Several researchers have addressed this credit risk assessment problem previously by building credit scoring models using various machine learning algorithms. But the performance of these models gets affected due to the skewed nature of the credit scoring data and the hidden correlations between the data features. It has been noted from literature that the credit scoring models are sensitive to the highly imbalanced class ratio which exists in credit scoring datasets. We address these challenges in this paper by proposing a deep-Q network based reinforcement learning model. The model uses two reward functions to help the model learn the optimal policy of detecting bad customers and maintain a balance between the credit approval and decline rate. We have then compared our DQN model performance with other classification models for the same dataset to demonstrate the effective utility of our model in improving the effective lending decisions.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "696f5c40e2ccfb701ee388f0e5f1dec2",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "classification",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.290290"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习模型进行信用评分，旨在提高信用风险评估的准确性，这直接关联到金融风险管理中的信用风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习模型进行信用评分，旨在提高信用风险评估的准确性，这直接关联到金融风险管理中的信用风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:03.193621"
+}

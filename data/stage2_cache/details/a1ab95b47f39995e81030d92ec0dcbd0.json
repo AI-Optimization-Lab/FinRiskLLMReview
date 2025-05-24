@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 773,
+    "title": "Conditional density estimation with HMM based support vector machines",
+    "abstract": "Conditional density estimation is very important in financial engineer, risk management, and other engineering computing problem. However, most regression models have a latent assumption that the probability density is a Gaussian distribution, which is not necessarily true in many real life applications. In this paper, we give a framework to estimate or predict the conditional density mixture dynamically. Through combining the Input-Output HMM with SVM regression together and building a SVM model in each state of the HMM, we can estimate a conditional density mixture instead of a single gaussian. With each SVM in each node, this model can be applied for not only regression but classifications as well. We applied this model to denoise the ECG data. The proposed method has the potential to apply to other time series such as stock market return predictions.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "dd3c4d6413d5a35ac2c3499d1726be06",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:07.990444"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "虽然论文提到了金融工程和风险管理，但具体应用案例是ECG数据去噪，且仅提到潜在应用可能包括股票市场回报预测，并未明确展示在衍生品定价、金融风险管理或投资组合管理中的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"虽然论文提到了金融工程和风险管理，但具体应用案例是ECG数据去噪，且仅提到潜在应用可能包括股票市场回报预测，并未明确展示在衍生品定价、金融风险管理或投资组合管理中的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:41.910238"
+}

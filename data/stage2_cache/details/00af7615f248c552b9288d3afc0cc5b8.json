@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3172,
+    "title": "Prediction of Extubation Failure for Neonates with Respiratory Distress Syndrome Using the MIMIC-II Clinical Database",
+    "abstract": "Extubation failure (EF) is an ongoing problem in the neonatal intensive care unit (NICU). Nearly 25% of neonates fail their first extubation attempt, requiring re-intubations that are associated with risk factors and financial costs. We identified 179 mechanically ventilated neonatal patients that were intubated within 24 hours of birth in the MIMIC-II intensive care database. We analyzed data from the patients 2 hours prior to their first extubation attempt, and developed a prediction algorithm to distinguish patients whose extubation attempt was successful from those that had EF. From an initial list of 57 candidate features, our machine learning approach narrowed down to six features useful for building an EF prediction model: monocyte cell count, rapid shallow breathing index, fraction of inspired oxygen (FiO(2)), heart rate, PaO2/FiO(2) ratio where PaO2 is the partial pressure of oxygen in arterial blood, and work of breathing index. Algorithm performance had an area under the receiver operating characteristic curve (AUC) of 0.871 and sensitivity of 70.1% at 90% specificity.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a59428ed38b74920f6578f2706a81201",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:23:33.502403"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习预测新生儿拔管失败，属于医疗健康领域，与金融研究领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习预测新生儿拔管失败，属于医疗健康领域，与金融研究领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:05.004560"
+}

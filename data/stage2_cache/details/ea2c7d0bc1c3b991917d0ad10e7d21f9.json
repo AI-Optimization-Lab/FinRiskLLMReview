@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 402,
+    "title": "Using fear, greed and machine learning for optimizing global portfolios: A Black-Litterman approach",
+    "abstract": "We introduce a new dimension in constructing relative investor views for the Black-Litterman model by incorporating fear/greed technical indicator predictions as a proxy for investor sentiment in the portfolio construction process. We apply a hybrid CEEMDAN-GRU deep learning model to forecast this indicator and the XGBoost ensemble learning algorithm to forecast returns for ten country ETFs and create relative views for the Black-Litterman model. These models beat several benchmark forecasting models. Our empirical results show that the proposed approach outperforms the Markowitz, minimum-variance, equally-weighted and risk-parity strategies along with four other Black-Litterman approaches from the literature for six investment periods.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "88f9e22ebd2c7fb99aabfd49113de149",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:49.656795"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on optimizing global portfolios using the Black-Litterman model, incorporating investor sentiment and machine learning techniques to forecast returns and construct portfolios. This clearly falls under the domain of Portfolio Management, as the primary goal is to improve investment strategies and portfolio performance.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on optimizing global portfolios using the Black-Litterman model, incorporating investor sentiment and machine learning techniques to forecast returns and construct portfolios. This clearly falls under the domain of Portfolio Management, as the primary goal is to improve investment strategies and portfolio performance.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:01.465829"
+}

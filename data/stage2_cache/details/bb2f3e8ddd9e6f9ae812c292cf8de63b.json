@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 39,
+    "title": "Deep learning of optimal exercise boundaries for American options",
+    "abstract": "Efficiently determining a price and optimal exercise boundary for an American option is a critical subject in the financial sector. This study introduces a novel application of long short-term memory neural networks to solve a relevant Volterra equation, enhancing the accuracy and efficiency of American option pricing. The proposed approach outperforms traditional numerical techniques, including finite difference methods, binomial trees, and Monte Carlo methods, delivering an impressive speed improvement by a factor of thousands while maintaining industry-accepted accuracy levels. It exhibits computational speeds up to about a hundred times faster than the state-of-the-art method used by Andersen et al. [High-performance American option pricing, J. Comput. Finance 20(1) (2016), pp. 39-87] when evaluating numerous options. The proposed network, trained on a reasonable range of parameters related to the Black-Scholes model, swiftly determines option prices and exercise boundaries, serving as a practical closed-form solution.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "b29f8482dce8cf8406e13928aeffefc1",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:54.897741"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是应用长短期记忆神经网络来解决与美式期权定价相关的Volterra方程，其主要研究目标是提高美式期权定价的准确性和效率。这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是应用长短期记忆神经网络来解决与美式期权定价相关的Volterra方程，其主要研究目标是提高美式期权定价的准确性和效率。这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:35.882099"
+}

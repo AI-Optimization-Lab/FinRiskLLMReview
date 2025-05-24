@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 39,
+    "title": "Option price forecasting using neural networks",
+    "abstract": "In this research, forecasting of the option prices of Nikkei 225 index futures is carried out using backpropagation neural networks. Different results in terms of accuracy are achieved by grouping the data differently. The results suggest that for volatile markets a neural network option pricing model outperforms the traditional Black-Scholes model. However, the Black-Scholes model is still good for pricing at-the-money options. In using the neural network model, data partition according to moneyness should be applied. Those who prefer less risk and less returns may use the traditional Black-Scholes model results while those who prefer high risk and high return may choose to use the neural network model results. (C) 2000 Elsevier Science Ltd. All rights reserved.",
+    "year": 2000,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "2ce85c174d954b326d7ae04be0d623bc",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.576227"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用神经网络预测Nikkei 225指数期货的期权价格，并比较了神经网络模型与传统Black-Scholes模型在期权定价方面的表现。这直接涉及衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用神经网络预测Nikkei 225指数期货的期权价格，并比较了神经网络模型与传统Black-Scholes模型在期权定价方面的表现。这直接涉及衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:06.847707"
+}

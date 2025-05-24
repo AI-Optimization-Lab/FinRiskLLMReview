@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3478,
+    "title": "MindArm: Mechanized Intelligent Non-Invasive Neuro-Driven Prosthetic Arm System",
+    "abstract": "Currently, individuals with arm mobility impairments (referred to as patients) face limited technological solutions due to two key challenges: (1) non-invasive prosthetic devices are often prohibitively expensive and costly to maintain, and (2) invasive solutions require high-risk, costly brain surgery, which can pose a health risk. Therefore, current technological solutions are not accessible for all patients with different financial backgrounds. Toward this, we propose a low-cost technological solution called MindArm, an affordable, non-invasive neuro-driven prosthetic arm system. MindArm employs a deep neural network (DNN) to translate brain signals, captured by low-cost surface electroencephalogram (EEG) electrodes, into prosthetic arm movements. Utilizing an Open Brain Computer Interface and UDP networking for signal processing, the system seamlessly controls arm motion. In the compute module, we run a trained DNN model to interpret filtered micro-voltage brain signals, and then translate them into a prosthetic arm action via serial communication seamlessly. Experimental results from a fully functional prototype show high accuracy across three actions, with 91% for idle/stationary, 85% for handshake, and 84% for cup pickup. The system costs approximately $500-550, including $400 for the EEG headset and $100-150 for motors, 3D printing, and assembly, offering an affordable alternative for mind-controlled prosthetic devices.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "61e0ca003c06a80c86b2943c10530344",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "deep neural network",
+      "DNN",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:26:48.484916"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种低成本的非侵入性神经驱动假肢系统，其核心技术是使用深度神经网络（DNN）将脑电信号转化为假肢动作。论文内容与衍生品定价、金融风险管理或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种低成本的非侵入性神经驱动假肢系统，其核心技术是使用深度神经网络（DNN）将脑电信号转化为假肢动作。论文内容与衍生品定价、金融风险管理或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:25.403570"
+}

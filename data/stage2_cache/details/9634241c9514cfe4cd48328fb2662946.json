@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1741,
+    "title": "Efficient valuation of variable annuity portfolios with dynamic programming",
+    "abstract": "The valuation of variable annuity portfolios presents major challenges for US life insurers. Recent studies propose machine learning and metamodeling techniques based on selecting a few representative guarantees. However, these methods face a critical trade-off between speed and accuracy. In contrast, I propose a recursive dynamic programming approach and demonstrate its ability to value a large and highly heterogeneous variable annuity portfolio with a high degree of accuracy and within a few seconds-even under stochastic interest rates and volatility-since the heavy computational burden can be fully front-loaded (in a one-time effort at the guarantee's pricing stage). This makes the dynamic programming approach ideally suited for all variable annuity applications, including the computation of reserves and capital requirements and to determine the insurer's hedging position. Moreover, dynamic programming can naturally incorporate optimal policyholder behavior into the insurer's valuation.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "aa4159ea0ea8cdac785488636b630283",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:22.887704"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是动态编程方法，用于高效估值可变年金组合，这直接涉及衍生品定价领域。此外，论文还提到该方法适用于计算准备金、资本要求和确定保险公司的对冲头寸，这些都属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是动态编程方法，用于高效估值可变年金组合，这直接涉及衍生品定价领域。此外，论文还提到该方法适用于计算准备金、资本要求和确定保险公司的对冲头寸，这些都属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:10.547439"
+}

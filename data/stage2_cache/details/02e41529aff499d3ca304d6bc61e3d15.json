@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 986,
+    "title": "A Novel Financial Forecasting Approach Using Deep Learning Framework",
+    "abstract": "Moving averages, which are calculated with statistical approaches, are obtained from the price, but a horizontal market has noise problems and a trending market has lag problems. Since there is an inverse correlation between noise and delay, it is not possible to completely eliminate it with statistical approaches. In the light of the literature, it is common to obtain the classification accuracy or price estimation using regression in studies on financial forecasting. However, a high classification accuracy or a low predicted error cannot guarantee that the portfolio will win. For this reason, a Backtest process that shows the portfolio gain is also needed. This study focused on obtaining moving averages with a deep learning model instead of using statistical approaches. Better results were obtained when the moving averages were obtained with the proposed approach and the statistical approaches used the Backtest for the same periods. Experimental studies have shown that the PF is improved by an average of 9% and the trend forecast accuracy level reaches 82%.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9ddfe3935b6721f77255b1b2d60a2a80",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "regression",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.800263"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究使用深度学习模型改进移动平均线的计算，并通过Backtest过程评估投资组合的收益。这直接涉及投资组合管理的核心内容，即通过优化预测模型来提高投资组合的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究使用深度学习模型改进移动平均线的计算，并通过Backtest过程评估投资组合的收益。这直接涉及投资组合管理的核心内容，即通过优化预测模型来提高投资组合的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:44.591309"
+}

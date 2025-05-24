@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3568,
+    "title": "A SIMULATION ANALYTICS APPROACH TO DYNAMIC RISK MONITORING",
+    "abstract": "Simulation has been widely used as a tool to estimate risk measures of financial portfolios. However, the sample paths generated in the simulation study are often discarded after the estimate of the risk measure is obtained. In this article, we suggest to store the simulation data and propose a logistic regression based approach to mining them. We show that, at any time and conditioning on the market conditions at the time, we can quickly estimate the portfolio risk measures and classify the portfolio into either low risk or high risk categories. We call this problem dynamic risk monitoring. We study the properties of our estimators and classifiers, and demonstrate the effectiveness of our approach through numerical studies.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1d3b1f8d1dc45bfcd1673ff1c0c946ff",
+    "relevant_keywords": [
+      "supervised learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:27:53.942385"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on dynamic risk monitoring of financial portfolios using simulation analytics and logistic regression, which directly applies to financial risk management. Additionally, since the context involves monitoring and classifying portfolio risks, it also relates to portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper focuses on dynamic risk monitoring of financial portfolios using simulation analytics and logistic regression, which directly applies to financial risk management. Additionally, since the context involves monitoring and classifying portfolio risks, it also relates to portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:00.051215"
+}

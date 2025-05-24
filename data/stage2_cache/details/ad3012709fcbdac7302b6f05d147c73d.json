@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 89,
+    "title": "基于投资者情绪和深度强化学习的股票投资组合优化研究",
+    "abstract": "我国股票交易市场每天都在产生大量交易数据，为了解决传统交易分析方法难以处理海量数据的缺陷，引入量化投资的方式。但是，量化投资是利用计算机技术建模以挖掘交易信号的一种投资方式，不能脱离传统分析方法和解决投资者对于投资组合管理的需求。为此，本文提出一种融合投资者情绪和改进特征提取网络的深度强化算法的股票投资组合模型，可以借助深度神经网络来处理原始数据，提取新闻和评论情感与股票的时间序列交易数据的特征信息，再利用强化学习不断训练以实现智能决策。为了验证模型的效果，使用HS300成分股中100只流通性好的股票作为资产池，首先改善深度强化学习算法的特征提取网络，使用多层感知机神经网络（MLP）、卷积神经网络（CNN）和长短期记忆神经网络（LSTM）作为特征提取网络，应用到深度确定性策略梯度算法（DDPG）、双延时深度确定性策略梯度算法（TD3）、柔性演员—评论员算法（SAC）中。其次，使用基于新闻和评论文本的情绪分析模型计算投资人情绪影响力分值。最后，融合情绪影响力分值输入后重新训练智能体，在测试数据集上，CTD3-LSTM模型最高收益率达到38.81%，欧米伽率为1.35，最大回撤率为14.3%，均明显优于其他对照组。",
+    "year": 2023,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "32cf29bb0904a77fdfb706979529dc5f",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:21:22.415904"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是融合投资者情绪和深度强化学习的股票投资组合优化模型，旨在通过智能决策优化投资组合的收益率和风险指标，这直接属于投资组合管理的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是融合投资者情绪和深度强化学习的股票投资组合优化模型，旨在通过智能决策优化投资组合的收益率和风险指标，这直接属于投资组合管理的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:52.394868"
+}

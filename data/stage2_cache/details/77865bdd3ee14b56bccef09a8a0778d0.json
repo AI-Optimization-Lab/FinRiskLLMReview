@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 412,
+    "title": "Predictive intraday correlations in stable and volatile market environments: Evidence from deep learning",
+    "abstract": "Standard methods and theories in finance can be ill-equipped to capture highly non-linear interactions in financial prediction problems based on large-scale datasets, with deep learning offering a way to gain insights into correlations in markets as complex systems. In this paper, we apply deep learning to econometrically constructed gradients to learn and exploit lagged correlations among S&P 500 stocks to compare model behaviour in stable and volatile market environments, and under the exclusion of target stock information for predictions. In order to measure the effect of time horizons, we predict intraday and daily stock price movements in varying interval lengths and gauge the complexity of the problem at hand with a modification of our model architecture. Our findings show that accuracies, while remaining significant and demonstrating the exploitability of lagged correlations in stock markets, decrease with shorter prediction horizons. We discuss implications for modern finance theory and our work's applicability as an investigative tool for portfolio managers. Lastly, we show that our model's performance is consistent in volatile markets by exposing it to the environment of the recent financial crisis of 2007/2008. (C) 2020 Elsevier B.V. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "deep learning",
+    "cache_key": "cc2728ba8ecc4158d5869396a825291f",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:35:49.681320"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要应用深度学习技术来预测股票价格的相关性，并讨论了其在投资组合管理中的应用，特别是在稳定和波动市场环境下的表现。论文明确提到了其研究对投资组合管理者的适用性，因此其主要应用领域是投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要应用深度学习技术来预测股票价格的相关性，并讨论了其在投资组合管理中的应用，特别是在稳定和波动市场环境下的表现。论文明确提到了其研究对投资组合管理者的适用性，因此其主要应用领域是投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:35:00.264671"
+}

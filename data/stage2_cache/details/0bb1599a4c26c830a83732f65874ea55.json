@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3625,
+    "title": "A novel evolutionary multi-objective ensemble learning approach for forecasting currency exchange rates",
+    "abstract": "Due to the potential impact of the (currency) exchange rate risk in the financial market, forecasting exchange rate (FET) has become a hot topic in both academic and practical worlds. For many years, the various methods have been proposed and used for FET problems including the method of the artificial neural network (ANN). However, in many cases of FET, there is the limitation of using separate methods since they are not able to fully capture financial characteristics. Recently, more researchers have been beginning to pay attention to FET based on an ensemble of forecasting models (in other words, the combination of individual methods). Previous studies of ensemble methods have shown that the performance of an ensemble depends on two key elements (1) The individual performance and (2) diversity degree of base learners. The main idea behind this paper comes from these key elements, the authors use ANNs as the base method (or weak learners), and weights of these ANNs will be optimized by using multi objective evolutionary algorithms (MOEAs) including the Non-Dominated Sorting Genetic Algorithm II (NSGA-II) and the Non-Dominated Sorting Differential Evolution (NSDE) using directional information. To assist MOEAs, a number of diversity-preservation mechanisms are used to generate diverse sets of base classifiers and finally we propose to use modified Adaboost algorithms to combine the results of weak learners for overall forecasts. The results show that the proposed novel ensemble learning approach can achieve higher forecasting performance than those of individual ones.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8be0af9e7ace1f096bdc33579fb3f2fa",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:28:29.300503"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on forecasting currency exchange rates, which is directly related to managing exchange rate risk, a key aspect of financial risk management. The proposed ensemble learning approach aims to improve forecasting accuracy, thereby aiding in better risk assessment and mitigation strategies.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on forecasting currency exchange rates, which is directly related to managing exchange rate risk, a key aspect of financial risk management. The proposed ensemble learning approach aims to improve forecasting accuracy, thereby aiding in better risk assessment and mitigation strategies.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:58.095443"
+}

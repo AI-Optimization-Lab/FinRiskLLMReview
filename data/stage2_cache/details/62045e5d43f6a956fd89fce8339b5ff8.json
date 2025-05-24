@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 188,
+    "title": "The drivers of systemic risk in financial networks: a data-driven machine learning analysis",
+    "abstract": "The purpose of this paper is to assess the role of financial variables and network topology as determinants of systemic risk (SR). The SR, for different levels of the initial shock, is computed for institutions in the Brazilian interbank market by applying the differential DebtRank methodology. The financial institution(FI)-specific determinants of SR are evaluated through two machine learning techniques: XGBoost and random forest. Shapley values analysis provided a better interpretability for our results. Furthermore, we performed this analysis separately for banks and credit unions. We have found the importance of a given feature in driving SR varies with i) the level of the initial shock, ii) the type of FI, and iii) the dimension of the risk which is being assessed - i.e., potential loss caused by (systemic impact) or imputed to (systemic vulnerability) the FI. Systemic impact is mainly driven by topological features for both types of FIs. However, while the importance of topological features to the prediction of systemic impact of banks increases with the level of the initial shock, it decreases for credit unions. Concerning systemic vulnerability, this is mainly determined by financial features, whose importance increases with the initial shock level for both types of FIs. (c) 2021 Elsevier Ltd. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a298d4029969a59d7102596502cb3792",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "decision tree",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:53.011128"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心研究内容是评估金融变量和网络拓扑结构作为系统性风险的决定因素，并应用机器学习技术来分析系统性风险。系统性风险的分析和管理是金融风险管理的重要组成部分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心研究内容是评估金融变量和网络拓扑结构作为系统性风险的决定因素，并应用机器学习技术来分析系统性风险。系统性风险的分析和管理是金融风险管理的重要组成部分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:21.052800"
+}

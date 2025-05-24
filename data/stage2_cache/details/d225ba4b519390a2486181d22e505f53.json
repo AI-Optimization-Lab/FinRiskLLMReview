@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1386,
+    "title": "EWSE and Uncertainty and Disturbance Estimator Based Pitch Angle Control for Wind Turbine Systems Operating in Above-Rated Wind Speed Region",
+    "abstract": "As wind energy becomes a larger part of the world's energy portfolio, the control of wind turbines is still confronted with challenges including wind speed randomness and high system uncertainties. In this study, a novel pitch angle controller based on effective wind speed estimation (EWSE) and uncertainty and disturbance estimator (UDE) is proposed for wind turbine systems (WTS) operating in above-rated wind speed region. The controller task is to maintain the WTS's generator power and rotor speed at their prescribed references, without measuring the wind speed information and accurate system model. This attempt also aims to bring a systematic solution to deal with different system characteristics over wide working range, including extreme and dynamic environmental conditions. First, support vector machine (SVR) based EWSE model is developed to estimate the effective wind speed in an online manner. Second, by integrating an UDE and EWSE model into the controller, highly turbulent and unpredictable dynamics introduced by wind speed and internal uncertainties is compensated. Rigid theoretical analysis guarantees the stability of the overall system. Finally, the performance of the novel pitch control scheme is testified via the professional Garrad Hassan (GH) bladed simulation platform with various working scenarios. The results reveal that the proposed approach achieves better performance in contrast to traditional L1 adaptive and proportional-integral (PI) pitch angle controllers.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fda10f321689c0f4554115ddead58d22",
+    "relevant_keywords": [
+      "support vector machine",
+      "SVM",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:56.556740"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究风力涡轮机系统的桨距角控制，涉及支持向量机（SVM）和不确定性及干扰估计器（UDE）的应用，但其核心技术和研究目标与金融领域的衍生品定价、金融风险管理或投资组合管理无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究风力涡轮机系统的桨距角控制，涉及支持向量机（SVM）和不确定性及干扰估计器（UDE）的应用，但其核心技术和研究目标与金融领域的衍生品定价、金融风险管理或投资组合管理无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:32.736042"
+}

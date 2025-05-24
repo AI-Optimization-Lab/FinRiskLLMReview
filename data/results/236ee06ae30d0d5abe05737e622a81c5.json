@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "support vector machine",
+    "SVM",
+    "neural network",
+    "deep learning"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning (ML) algorithms to predict atrial fibrillation (AF) in patients with embolic stroke of undetermined source (ESUS).",
+    "supervised learning": "The study involves training ML models to predict AF detection, which is a supervised learning task as it uses labeled data (patients with and without AF).",
+    "classification": "The task of predicting whether a patient has AF or not is a binary classification problem.",
+    "support vector machine": "The paper specifically mentions the use of a support vector machine (SVM) model, which achieved a certain AUC in predicting AF.",
+    "SVM": "This is an abbreviation for support vector machine, which is one of the ML models used in the study.",
+    "neural network": "The paper mentions the use of a multilayer perceptron (MLP), which is a type of neural network.",
+    "deep learning": "The use of multilayer perceptron (a type of neural network) suggests the application of deep learning techniques, although the paper does not explicitly mention deep learning."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"support vector machine\",\n    \"SVM\",\n    \"neural network\",\n    \"deep learning\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning (ML) algorithms to predict atrial fibrillation (AF) in patients with embolic stroke of undetermined source (ESUS).\",\n    \"supervised learning\": \"The study involves training ML models to predict AF detection, which is a supervised learning task as it uses labeled data (patients with and without AF).\",\n    \"classification\": \"The task of predicting whether a patient has AF or not is a binary classification problem.\",\n    \"support vector machine\": \"The paper specifically mentions the use of a support vector machine (SVM) model, which achieved a certain AUC in predicting AF.\",\n    \"SVM\": \"This is an abbreviation for support vector machine, which is one of the ML models used in the study.\",\n    \"neural network\": \"The paper mentions the use of a multilayer perceptron (MLP), which is a type of neural network.\",\n    \"deep learning\": \"The use of multilayer perceptron (a type of neural network) suggests the application of deep learning techniques, although the paper does not explicitly mention deep learning.\"\n  }\n}\n```"
+}

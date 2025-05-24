@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1754,
+    "title": "A Hybrid Approach for Predicting Corporate Financial Risk: Integrating SMOTE-ENN and NGBoost",
+    "abstract": "The financial condition of an enterprise is a critical factor in determining its viability and long-term prospects, and it also directly affects the interests of stakeholders such as investors and creditors. So extra attention is needed to evaluate and forecast the financial risk of an enterprise. This paper proposes a novel enterprise financial risk evaluation and prediction model integrating Synthetic Minority Over-sampling and Edited Nearest Neighbors (SMOTE-ENN) and Natural Gradient Boosting (NGBoost). The CRITIC-TOPSIS method is first employed to conduct a comprehensive evaluation of the financial risk of the listed companies based on their annual financial statements. Subsequently, the obtained evaluation results are subjected to a clustering analysis to categorize the companies into different levels of financial risk. To address the issue of imbalanced samples, the study introduces the SMOTE-ENN combined sampling method. This technique is applied to mitigate the imbalance in the number of samples across different categories. Lastly, NGBoost is utilized to develop a prediction model for corporate financial risk based on the clustered data. The analysis reveals that companies with low levels of financial risk typically exhibit a balanced financial profile, robust operational performance, and substantial growth potential. Conversely, companies with high levels of financial risk are characterized by weak profitability and debt-paying ability. The experimental findings show that the model has a 97.18% accuracy rate, thereby suggesting that the model is both reasonable and practicable.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f3e2289633b237c55893ae135956937f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "clustering",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:52.773253"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用SMOTE-ENN和NGBoost方法来评估和预测企业的财务风险，这直接涉及金融风险管理领域，特别是企业财务风险的识别和预测。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用SMOTE-ENN和NGBoost方法来评估和预测企业的财务风险，这直接涉及金融风险管理领域，特别是企业财务风险的识别和预测。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:37.080235"
+}

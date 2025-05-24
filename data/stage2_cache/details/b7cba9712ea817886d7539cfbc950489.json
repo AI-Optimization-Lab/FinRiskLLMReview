@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1967,
+    "title": "Reverse stress testing: Scenario design for macroprudential stress tests",
+    "abstract": "We propose a systematic algorithmic reverse-stress testing methodology to create worst case scenarios for regulatory stress tests by accounting for losses that arise from distressed portfolio liquidations. First, we derive the optimal bank response for any given shock. Then, we introduce an algorithm which systematically generates scenarios that exploit the key vulnerabilities in banks' portfolio holdings and thus maximize contagion despite banks' optimal response to the shock. We apply our methodology to data of the 2016 European Banking Authority (EBA) stress test, and design worst case scenarios for the portfolio holdings of European banks at the time. Using spectral clustering techniques, we group 10,000 worst-case scenarios into twelve geographically concentrated families. Our results show that even though there is a wide range of different scenarios within these 12 families, each cluster tends to affect the same banks. An Anna Karenina principle of stress testing emerges: Not all stressful scenarios are alike, but every stressful scenario stresses the same banks. These findings suggest that the precise specification of a scenario is not of primal importance as long as the most vulnerable banks are targeted and sufficiently stressed. Finally, our methodology can be used to uncover the weakest links in the financial system and thereby focus supervisory attention on these, thus building a bridge between macroprudential and microprudential stress tests.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "cfa2c93eecbc34d0116629701005c15c",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:41.617529"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a reverse-stress testing methodology to identify worst-case scenarios for regulatory stress tests, which is a key aspect of financial risk management. It specifically addresses vulnerabilities in banks' portfolio holdings and systemic risks, aligning with the goals of financial risk management rather than derivatives pricing or portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a reverse-stress testing methodology to identify worst-case scenarios for regulatory stress tests, which is a key aspect of financial risk management. It specifically addresses vulnerabilities in banks' portfolio holdings and systemic risks, aligning with the goals of financial risk management rather than derivatives pricing or portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:50.969110"
+}

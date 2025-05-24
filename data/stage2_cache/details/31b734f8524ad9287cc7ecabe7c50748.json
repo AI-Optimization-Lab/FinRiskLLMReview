@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1750,
+    "title": "Automated Identification of Sensitive Financial Data Based on the Topic Analysis",
+    "abstract": "Data governance is an extremely important protection and management measure throughout the entire life cycle of data. However, there are still data governance issues, such as data security risks, data privacy breaches, and difficulties in data management and access control. These problems lead to a risk of data breaches and abuse. Therefore, the security classification and grading of data has become an important task to accurately identify sensitive data and adopt appropriate maintenance and management measures with different sensitivity levels. This work started from the problems existing in the current data security classification and grading work, such as inconsistent classification and grading standards, difficult data acquisition and sorting, and weak semantic information of data fields, to find the limitations of the current methods and the direction for improvement. The automatic identification method of sensitive financial data proposed in this paper is based on topic analysis and was constructed by incorporating Jieba word segmentation, word frequency statistics, the skip-gram model, K-means clustering, and other technologies. Expert assistance was sought to select appropriate keywords for enhanced accuracy. This work used the descriptive text library and real business data of a Chinese financial institution for training and testing to further demonstrate its effectiveness and usefulness. The evaluation indicators illustrated the effectiveness of this method in the classification of data security. The proposed method addressed the challenge of sensitivity level division in texts with limited semantic information, which overcame the limitations on model expansion across different domains and provided an optimized application model. All of the above pointed out the direction for the real-time updating of the method.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4d65661168b2027e5eda4c8206d1ea4b",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "classification",
+      "clustering",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:52.734863"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是敏感金融数据的自动识别方法，基于主题分析等技术，目的是提高数据安全分类和分级的准确性。虽然涉及金融数据，但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是敏感金融数据的自动识别方法，基于主题分析等技术，目的是提高数据安全分类和分级的准确性。虽然涉及金融数据，但其核心技术并未应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:46:37.303497"
+}

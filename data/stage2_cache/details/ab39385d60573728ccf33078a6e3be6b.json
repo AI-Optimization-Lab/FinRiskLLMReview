@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 204,
+    "title": "Financial time-series analysis of Brazilian stock market using machine learning",
+    "abstract": "The recent profound changes in technological development have allowed the application of complex computational techniques for modeling and predicting price movements in the Stock Market. In this context, this paper compares the performance of different Machine Learning classifiers in predicting the trend of future financial asset price movements, in addition to performing the stock market trading simulation to assess financial gains provided by the trading strategy that considers the predictions as buying and selling signals. The paper considers five single classifiers, three ensemble classifiers that use Decision Tree as weak classifiers and four ensemble classifiers that combine the eight other classifiers, in addition to two benchmark classifiers. The simulation uses the best classifier and compares its efficiency with the buy and hold strategy. Results show that the precision of the Convolutional Neural Network surpasses that of the other classifiers and the simulation indicates that the use of classification as a trading strategy can reduce the potential for greater gains, but also avoids large losses, reducing the risk of investment.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "6d866844537b359210192a1ce840de22",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:53.081353"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习分类器预测股票价格趋势，并基于这些预测进行交易策略模拟。这直接涉及投资组合管理中的资产选择和交易决策，旨在优化投资回报并降低风险。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习分类器预测股票价格趋势，并基于这些预测进行交易策略模拟。这直接涉及投资组合管理中的资产选择和交易决策，旨在优化投资回报并降低风险。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:57.693385"
+}

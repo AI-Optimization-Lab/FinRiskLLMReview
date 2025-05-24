@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1549,
+    "title": "Max-one selection of equity prediction models for portfolio construction",
+    "abstract": "In many applications that involve prediction of a large number of variables, such as energy consumption or portfolio construction, it is common to employ a single model for predicting multiple target variables at once. Under this monolithic approach, the model is necessarily optimized on average across targets, and not for any one target in particular. Thus, the resulting predictions are likely to be underwhelming for a significant subset of targets. At the other end of the spectrum, optimizing and maintaining a separate prediction model for each of hundreds or thousands of targets, is unrealistic. This work proposes a novel model selection approach, termed max-one, that sits between these two extremes. Our methodology takes advantage of the standard hyperparameter tuning process used with most machine learning models and assigns to each target its own optimal model-hyperparameter combination, based on the criterion of one's choice. In the context of portfolio optimization, which we use as a concrete example, the resulting family of models generates stock predictions which can then be used to construct a portfolio. Applying our suggested framework to an extensive 35-year data set with thousands of United States' stocks, leads to an impressive 7x capital increase after transaction costs. This surpasses the performance of the single model approach and that of major global stock indices and compares favorably with recent relevant works, without sacrificing computational efficiency. Although our domain-specific application involves equities, our proposed approach could be used in settings where a model is tuned to predict multiple target variables.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a81e6932570bd7cc2bd3cfa09afaa5d1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:12.610387"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一种新的模型选择方法（max-one），用于优化股票预测模型，并明确提到这些预测用于构建投资组合。论文还提供了具体的应用案例和性能评估，表明其主要应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一种新的模型选择方法（max-one），用于优化股票预测模型，并明确提到这些预测用于构建投资组合。论文还提供了具体的应用案例和性能评估，表明其主要应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:13.225885"
+}

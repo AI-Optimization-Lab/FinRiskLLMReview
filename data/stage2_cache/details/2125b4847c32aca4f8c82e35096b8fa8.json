@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 720,
+    "title": "On the combination of graph data for assessing thin-file borrowers' creditworthiness",
+    "abstract": "Thin-file borrowers are customers for whom a creditworthiness assessment is uncertain due to their lack of credit history. To address missing credit information, many researchers have used borrowers' social interactions as an alternative data source. Exploiting social networking data has traditionally been achieved by hand-crafted feature engineering, but lately, graph neural networks have emerged as a promising alternative. Here we introduce an information-processing framework to improve credit scoring models by blending several methods of graph representation learning: feature engineering, graph embeddings, and graph neural networks. In this approach, we aggregate the methods' outputs to be fed to a gradient boosting classifier to produce a final creditworthiness score. We have validated this framework over a unique multi-source dataset that characterizes the relationships, interactions, and credit history for the entire population of a Latin American country, applying it to credit risk models, application, and behavior. It also allows us to study both individuals and companies. Our results show that the methods of graph representation learning should be used as complements; they should not be seen as self-sufficient methods, as it is currently done. We improve the creditworthiness assessment performance in terms of the measures of Area Under the ROC Curve (AUC) and Kolmogorov- Smirnov (KS), outperforming traditional methods of exploiting social interaction data. In the area of corporate lending, where the potential gain is much higher, our results confirm that the evaluation of a thin-file company cannot solely consider the company's own characteristics. The business ecosystem in which these companies interact with their owners, suppliers, customers, and other companies provides novel knowledge that enables financial institutions to enhance their creditworthiness assessment. Our results let us know when and on which population to use graph data and the expected effects on performance. They also show the enormous value of graph data on the credit scoring problem for thin-file borrowers, mainly to help companies with thin or no credit history to enter the financial system.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "dd85fa74996eac4f47988a69e288319b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "graph neural networks"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:05.336426"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving creditworthiness assessment for thin-file borrowers using graph data and machine learning techniques, which is directly related to credit risk modeling—a key aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving creditworthiness assessment for thin-file borrowers using graph data and machine learning techniques, which is directly related to credit risk modeling—a key aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:26.413992"
+}

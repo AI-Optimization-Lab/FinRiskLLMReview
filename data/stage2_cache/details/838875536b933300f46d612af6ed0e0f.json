@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 182,
+    "title": "BAT algorithm based feature selection: Application in credit scoring",
+    "abstract": "Credit scoring plays a vital role for financial institutions to estimate the risk associated with a credit applicant applied for credit product. It is estimated based on applicants' credentials and directly affects to viability of issuing institutions. However, there may be a large number of irrelevant features in the credit scoring dataset. Due to irrelevant features, the credit scoring models may lead to poorer classification performances and higher complexity. So, by removing redundant and irrelevant features may overcome the problem with large number of features. In this work, we emphasized on the role of feature selection to enhance the predictive performance of credit scoring model. Towards to feature selection, Binary BAT optimization technique is utilized with a novel fitness function. Further, proposed approach aggregated with Radial Basis Function Neural Network (RBFN), Support Vector Machine (SVM) and Random Forest (RF) for classification. Proposed approach is validated on four bench-marked credit scoring datasets obtained from UCI repository. Further, the comprehensive investigational results analysis are directed to show the comparative performance of the classification tasks with features selected by various approaches and other state-of-the-art approaches for credit scoring.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d5902ec6fece4b0346c2861ea4ce7ee6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "decision tree",
+      "neural network",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:52.996414"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on improving credit scoring models through feature selection and machine learning techniques, which is directly related to assessing and managing the risk of credit applicants—a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on improving credit scoring models through feature selection and machine learning techniques, which is directly related to assessing and managing the risk of credit applicants—a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:21.824126"
+}

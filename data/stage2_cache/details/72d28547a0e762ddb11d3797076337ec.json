@@ -1,0 +1,37 @@
+{
+  "paper": {
+    "id": 1246,
+    "title": "Intelligent portfolio construction via news sentiment analysis",
+    "abstract": "In this study, we apply deep learning and natural language processing methods to construct the view distribution in the Black-Litterman model. We implement this approach for portfolio allocation and perform statistical analysis to assess portfolio performance. The empirical analysis yields two main results. For the three deep learning models, we use mean square error to compare the model prediction results. The gated recurrent unit (GRU) model outperforms the other two models in the price prediction of seven stock assets. Moreover, it is more effective in capturing future trends and stock prices. The long short-term memory (LSTM) model outperforms the recurrent neural network (RNN) model. Moreover, in the comparison of the portfolio models, the Black-Litterman model, constructed by using Google's Bidirectional Encoder Representations from Transformers (BERT) to measure news sentiment and by using the GRU model to predict stock prices, yields the highest annualized return rate of 46.6%. In addition, it has the highest Sharpe and Sortino ratios of 13.0% and 17.9%, respectively, which means that under a certain degree of risk, the Black-Litterman model still outperforms other constructed portfolios.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "58c625ee598771f3bcdd76cea1cc71bb",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "gated recurrent unit",
+      "GRU",
+      "representation learning",
+      "attention mechanism",
+      "Large Language Model",
+      "LLM",
+      "BERT"
+    ],
+    "stage1_timestamp": "2025-05-15T00:53:42.046979"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on constructing portfolios using the Black-Litterman model enhanced by deep learning and sentiment analysis, which is a clear application in the field of portfolio management. The study evaluates portfolio performance through metrics like annualized return, Sharpe, and Sortino ratios, further confirming its focus on portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on constructing portfolios using the Black-Litterman model enhanced by deep learning and sentiment analysis, which is a clear application in the field of portfolio management. The study evaluates portfolio performance through metrics like annualized return, Sharpe, and Sortino ratios, further confirming its focus on portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:22:14.422845"
+}

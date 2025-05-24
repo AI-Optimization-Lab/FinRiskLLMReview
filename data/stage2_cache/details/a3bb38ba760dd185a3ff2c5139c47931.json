@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 248,
+    "title": "稀疏分位数投资选择模型及其算法",
+    "abstract": "我们考虑经典Markowitz均值-方差框架内的投资组合选择问题,将其重新定义为一个约束罚稀疏分位数回归问题。我们通过采用Half阈值算法分别将稀疏度k(k的取值分别为6、7、8、9)不同的投资组合随迭代次数收益与误差的变化情况进行分析,从数值实验结果来看,在稀疏度K=7时,能通过较少的迭代次数达到最大的期望值,即可以使投资者的收益最大化。",
+    "year": 2019,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "38afc9e006cbd195e88bf8616f202dc6",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-14T22:22:16.543988"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是稀疏分位数回归模型，用于解决Markowitz均值-方差框架内的投资组合选择问题，旨在通过优化稀疏度来最大化投资者收益，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是稀疏分位数回归模型，用于解决Markowitz均值-方差框架内的投资组合选择问题，旨在通过优化稀疏度来最大化投资者收益，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:42:14.037125"
+}

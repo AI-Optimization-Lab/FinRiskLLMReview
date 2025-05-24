@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2092,
+    "title": "A machine learning approach in stress testing US bank holding companies",
+    "abstract": "This paper assesses the utility of machine learning (ML) techniques combined with comprehensive macroeconomic and microeconomic datasets in enhancing risk analysis during stress tests. The analysis unfolds in two stages. I initially benchmark ML's efficacy in forecasting two pivotal banking variables, net charge-off (NCO) and pre-provision net revenue (PPNR), against traditional linear models. Results underscore the superiority of Random Forest and Adaptive Lasso models in this context. Subsequently, I use these models to project PPNR and NCO for selected bank holding companies under adverse stress scenarios. This exercise feeds into the Tier 1 common equity capital (T1CR) densities simulation. T1CR is the equity capital ratio corrected by some regulatory adjustments to risk-weighted assets. Crucially, findings reveal a pronounced left skew in the T1CR distribution for globally systemically important banks vis-& agrave;-vis linear models. By mirroring distress akin to the Great Recession, ML models elucidate intricate macro-financial linkages and enhance risk assessment in downturns.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4ef33cebd67b9b92beaabd36902b1d4b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:59.059719"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using machine learning techniques to enhance risk analysis during stress tests for bank holding companies, specifically forecasting key banking variables and simulating capital ratios under adverse scenarios. This directly pertains to financial risk management by improving the assessment and mitigation of risks in financial institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using machine learning techniques to enhance risk analysis during stress tests for bank holding companies, specifically forecasting key banking variables and simulating capital ratios under adverse scenarios. This directly pertains to financial risk management by improving the assessment and mitigation of risks in financial institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:24.755018"
+}

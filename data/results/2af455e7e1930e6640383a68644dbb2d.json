@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "regression",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of machine learning in developing the framework for health insurance management.",
+    "supervised learning": "The paper uses ridge regression and random forest classifier, which are supervised learning techniques.",
+    "classification": "The paper applies a random forest classifier for predicting risk, which is a classification task.",
+    "regression": "The paper uses ridge regression for computing premiums, which is a regression task.",
+    "decision tree": "Random forest classifier is based on decision trees, hence the relevance."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"regression\",\n    \"decision tree\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of machine learning in developing the framework for health insurance management.\",\n    \"supervised learning\": \"The paper uses ridge regression and random forest classifier, which are supervised learning techniques.\",\n    \"classification\": \"The paper applies a random forest classifier for predicting risk, which is a classification task.\",\n    \"regression\": \"The paper uses ridge regression for computing premiums, which is a regression task.\",\n    \"decision tree\": \"Random forest classifier is based on decision trees, hence the relevance.\"\n  }\n}\n```"
+}

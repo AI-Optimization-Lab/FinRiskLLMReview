@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1637,
+    "title": "Evolving Deep Neural Networks for Movie Box-office Revenues Prediction",
+    "abstract": "Reliable prediction of movie box-office revenues can greatly reduce the financial risk in the film industry, but accurate prediction is not easy to obtain. Recently, deep neural networks has been applied on movie box-office revenues prediction problems as a promising solution. However, the architecture has a significant impact on its performance, and generally involves a heavy burden of manually designing which is unable to traverse the space of possible architectures efficiently. As a result, the applicability and performance of deep neural networks are severely limited. This paper proposes a new evolutionary algorithm for evolving deep neural networks for movie box-office revenues prediction. In particular, a deep neural network that fuses features extracted from movie posters by a convolutional neural network is introduced first, then a set of novel genetic operators are designed correspondingly. The proposed method can automate the deep neural network architecture designing and aim to search the optimal architecture for movie box-office revenues prediction. Experiments carried out on the Internet Movie Database (IMDB) dataset show that the proposed algorithm achieves superior performance compare to other competitive approaches.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "cda3aa0987e6629363f64d6bb843d8a1",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:42.585408"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用进化算法优化深度神经网络架构以预测电影票房收入，虽然提到了减少财务风险，但其核心应用领域是电影产业而非特定的金融研究领域（如衍生品定价、金融风险管理或投资组合管理）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用进化算法优化深度神经网络架构以预测电影票房收入，虽然提到了减少财务风险，但其核心应用领域是电影产业而非特定的金融研究领域（如衍生品定价、金融风险管理或投资组合管理）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:19.821500"
+}

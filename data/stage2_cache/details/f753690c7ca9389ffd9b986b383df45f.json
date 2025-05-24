@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3559,
+    "title": "Assessing the discriminatory power of loss given default models",
+    "abstract": "For banks using the Advanced Internal Ratings-Based Approach in accordance with Basel III requirements, the amount of required regulatory capital relies on the banks' estimates of the probability of default, the loss given default and the conversion factor for their credit risk portfolio. Therefore, for both model development and validation, assessing the models' predictive and discriminatory abilities is of key importance in order to ensure an adequate quantification of risk. This paper compares different measures of discriminatory power suitable for multi-class target variables such as in loss given default (LGD) models, which are currently used among banks and supervisory authorities. This analysis highlights the disadvantages of using measures that solely rely on pairwise comparisons when applied in a multi-class setting. Thus, for multi-class classification problems, we suggest using a generalisation of the well-known area under the receiver operating characteristic (ROC) curve known as the volume under the ROC surface (VUS). Furthermore, we present the R-package VUROCS, which allows for a time-efficient computation of the VUS as well as associated (co)variance estimates and illustrate its usage based on real-world loss data and validation principles.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c4cbd178d06a8b4dff8b800ceadbf86e",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:18:20.547787"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on assessing the discriminatory power of loss given default (LGD) models, which are crucial for banks to estimate regulatory capital requirements under Basel III. This directly pertains to credit risk management, a key component of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on assessing the discriminatory power of loss given default (LGD) models, which are crucial for banks to estimate regulatory capital requirements under Basel III. This directly pertains to credit risk management, a key component of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:19.015695"
+}

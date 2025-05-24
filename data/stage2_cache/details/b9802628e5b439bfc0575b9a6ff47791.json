@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1157,
+    "title": "NATE: Non-pArameTric approach for Explainable credit scoring on imbalanced class",
+    "abstract": "Credit scoring models play a crucial role for financial institutions in evaluating borrower risk and sustaining profitability. Logistic regression is widely used in credit scoring due to its robustness, interpretability, and computational efficiency; however, its predictive power decreases when applied to complex or non-linear datasets, resulting in reduced accuracy. In contrast, tree-based machine learning models often provide enhanced predictive performance but struggle with interpretability. Furthermore, imbalanced class distributions, which are prevalent in credit scoring, can adversely impact model accuracy and robustness, as the majority class tends to dominate. Despite these challenges, research that comprehensively addresses both the predictive performance and explainability aspects within the credit scoring domain remains limited. This paper introduces the Non-pArameTric oversampling approach for Explainable credit scoring (NATE), a framework designed to address these challenges by combining oversampling techniques with tree-based classifiers to enhance model performance and interpretability. NATE incorporates class balancing methods to mitigate the impact of imbalanced data distributions and integrates interpretability features to elucidate the model's decision-making process. Experimental results show that NATE substantially outperforms traditional logistic regression in credit risk classification, with improvements of 19.33% in AUC, 71.56% in MCC, and 85.33% in F1 Score. Oversampling approaches, particularly when used with gradient boosting, demonstrated superior effectiveness compared to undersampling, achieving optimal metrics of AUC: 0.9649, MCC: 0.8104, and F1 Score: 0.9072. Moreover, NATE enhances interpretability by providing detailed insights into feature contributions, aiding in understanding individual predictions. These findings highlight NATE's capability in managing class imbalance, improving predictive performance, and enhancing model interpretability, demonstrating its potential as a reliable and transparent tool for credit scoring applications.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c167e282bccb7e9c09dbe88a47bc70df",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:59:21.740104"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种用于信用评分的非参数可解释框架（NATE），旨在提高信用风险分类的预测性能和可解释性。信用评分是金融风险管理中的一个重要组成部分，用于评估借款人的违约风险。因此，该论文的研究成果主要应用于金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一种用于信用评分的非参数可解释框架（NATE），旨在提高信用风险分类的预测性能和可解释性。信用评分是金融风险管理中的一个重要组成部分，用于评估借款人的违约风险。因此，该论文的研究成果主要应用于金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:51:39.793646"
+}

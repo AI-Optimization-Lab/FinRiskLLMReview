@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1336,
+    "title": "Hybrid Graphical Least Square estimation and its application in portfolio selection",
+    "abstract": "This paper proposes a new regression method based on the idea of graphical models to deal with regression problems with the number of covariates v larger than the sample size N. Unlike the regularization methods such as ridge regression, LASSO and LARS, which always give biased estimates for all parameters, the proposed method can give unbiased estimates for important parameters (a certain subset of all parameters). The new method is applied to a portfolio selection problem under the linear regression framework and, compared to other existing methods, it can assist in improving the portfolio performance by increasing its expected return and decreasing its risk. Another advantage of the proposed method is that it constructs a non-sparse (saturated) portfolio, which is more diversified in terms of stocks and reduces the stock-specific risk. Overall, four simulation studies and a real data analysis from London Stock Exchange showed that our method outperforms other existing regression methods when N < v.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "efff6abcb33a807126ef72521452e498",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:24.727777"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly applies its proposed regression method to a portfolio selection problem, aiming to improve portfolio performance by increasing expected return and decreasing risk, which falls under the domain of Portfolio Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly applies its proposed regression method to a portfolio selection problem, aiming to improve portfolio performance by increasing expected return and decreasing risk, which falls under the domain of Portfolio Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:40.971905"
+}

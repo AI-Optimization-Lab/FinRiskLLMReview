@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2836,
+    "title": "Robo-advisor using genetic algorithm and BERT sentiments from tweets for hybrid portfolio optimisation",
+    "abstract": "Robo-advisors are increasingly popular, with machine learning algorithms taking centre stage for researchers. However, classical financial theories and techniques, such as Constant Rebalancing (CRB) and Modern Portfolio Theory (MPT), can still be relevant by combining them with social media sentiments. In this study, we propose two novel models, namely Sentimental All-Weather (SAW) and Sentimental MPT (SMPT), which capture the upto-date market conditions through Twitter sentiments via Google's Bidirectional Transformer (BERT) model. Genetic Algorithm was used to optimise the models for different objectives including maximising cumulative returns and minimising volatility. Trained on tweets and the United States stock data from August 2018 to end December 2019, and tested on an out-of-sample period from January 2020 to April 2020, our proposed models achieved superior performance in terms of common measures of portfolio performance including Sharpe ratio, cumulative returns, and value-at-risk, compared to the following benchmarks: buy-and-hold SPY index, MPT model, and CRB model for an All-Weather Portfolio.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "575673263d752fb9c6fe9d3e5f58705d",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:19:46.649116"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用遗传算法和BERT情感分析来优化投资组合，主要目标是最大化累积收益和最小化波动性，这直接属于投资组合管理的范畴。论文中提到的模型（SAW和SMPT）以及性能指标（Sharpe比率、累积收益和风险价值）都是投资组合管理的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用遗传算法和BERT情感分析来优化投资组合，主要目标是最大化累积收益和最小化波动性，这直接属于投资组合管理的范畴。论文中提到的模型（SAW和SMPT）以及性能指标（Sharpe比率、累积收益和风险价值）都是投资组合管理的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:39:45.328964"
+}

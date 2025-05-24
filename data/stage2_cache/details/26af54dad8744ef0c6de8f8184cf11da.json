@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1499,
+    "title": "Quantifying Uncertainty of Portfolios using Bayesian Neural Networks",
+    "abstract": "Quantifying the uncertainty of a financial portfolio is important for investors and regulatory agencies. Reporting such uncertainty accurately is challenging due to time-dependent market dynamics, non-linearities in the return and risk properties of a portfolio, and due to the unobserved nature of the market risk. We propose Bayesian Neural Network (BNN) models, namely Recurrent Neural Network (RNN) and Long Short Term Memory (LSTM) models, to estimate the time-varying return distribution of an asset portfolio. The proposed models estimate the density of returns and incorporate parameter uncertainty through Bayesian inference. The uncertainty and any financial risk metric of interest can directly be obtained from the estimated density. Furthermore, through the BNN input-output design, proposed BNNs incorporate potential non-linear effects of each asset in the portfolio on the obtained density estimates. The proposed method is applicable to assess the uncertainty of any portfolio where the portfolio weight optimization is separated from risk assessment. We analyze the risk of a daily, equally weighted portfolio of 29 ETFs and a risk-free asset for a long time span with differing market environments between 09/06/2005 and 10/09/2020. We study the effects of different inference methods on the obtained results. The proposed models improve portfolio risk estimates compared to the benchmark. The performances of the proposed models depend on BNN design and the inference method. RNN models lead to relatively more stable results compared to LSTMs. Furthermore, the results of models with a relatively higher number of parameters depend heavily on the estimation method.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4af9eef090bc6327e62a321e9020ca99",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.817671"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用贝叶斯神经网络（BNN）来量化金融投资组合的不确定性，并估计资产组合的时变回报分布。这直接涉及金融风险管理中的风险度量和投资组合管理中的组合风险评估。论文明确提到其方法适用于任何投资组合的风险评估，并分析了29只ETF和一只无风险资产的每日等权重投资组合的风险，这进一步证实了其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用贝叶斯神经网络（BNN）来量化金融投资组合的不确定性，并估计资产组合的时变回报分布。这直接涉及金融风险管理中的风险度量和投资组合管理中的组合风险评估。论文明确提到其方法适用于任何投资组合的风险评估，并分析了29只ETF和一只无风险资产的每日等权重投资组合的风险，这进一步证实了其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:41.883786"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 165,
+    "title": "Heston-GA Hybrid Option Pricing Model Based on ResNet50",
+    "abstract": "(1) Background. This study aims to improve the accuracy of the pricing model. (2) Methods. Heston model is combined with ResNet50 convolutional neural network model. Based on the optimization of Heston model parameters by genetic algorithm (GA), ResNet50 model is used to correct the deviation between market option price and Heston price, so a new hybrid option pricing model is established based on the empirical research on the European call options of Huatai-PB CSI 300ETF (code 510300), Harvest CSI 300ETF (code 159919), and SSE 50ETF (code 510050). (3) Results. The pricing result of the hybrid model is better than other single models and hybrid models. The model is applicable to the pricing of options with short and long remaining terms. (4) Conclusions. It is shown that the combination of Heston model and ResNet50 model with optimized parameters can ensure the interpretability of the model and enhance the nonlinear fitting ability of the model, which confirms the effectiveness of the hybrid model and provides a reference for investors and institutions to make scientific decisions.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "397363cae293ef60d4abeff0ad459f6b",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.036033"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是结合Heston模型和ResNet50卷积神经网络来改进期权定价模型的准确性，并针对具体的ETF期权进行了实证研究。这明确属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是结合Heston模型和ResNet50卷积神经网络来改进期权定价模型的准确性，并针对具体的ETF期权进行了实证研究。这明确属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:26.890990"
+}

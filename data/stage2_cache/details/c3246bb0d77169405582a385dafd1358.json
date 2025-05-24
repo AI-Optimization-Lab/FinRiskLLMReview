@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 595,
+    "title": "Machine learning and the prediction of changes in profitability",
+    "abstract": "This study uses machine-learning methods to predict next-period change in profitability based on a model proposed by Penman and Zhang (2004, Working paper, Columbia University and University of California, Berkeley; PZ). We find that new machine-learning methods predict out of sample substantially better than traditional regression methods and provide richer interpretations about the role and impact of different predictor variables through their nonlinear relationships and interaction effects. For example, our results contrast with previous research by showing that both components of the DuPont decomposition (change in profit margin and change in asset turnover) are informative of next-period changes in profitability. Our results are robust across different performance metrics, alternative machine-learning models, and software. Furthermore, an unconstrained machine-learning model using a larger feature space could not significantly improve the performance of the PZ model. PZ variables alone accounted for most of the explanatory power of the unconstrained model, suggesting the PZ model is both well specified (in terms of feature selection) and robust in higher dimensional settings. With respect to the economic significance of this information, we find mixed results. The market appears to adjust its expectations more in line with the machine-learning predictions relative to the PZ model but the portfolio returns are not significantly different.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "719f5e53eca083750bc46351bf48ed47",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:45:39.059988"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文使用机器学习方法预测盈利能力的变化，并提到市场调整预期和投资组合回报，这与投资组合管理相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文使用机器学习方法预测盈利能力的变化，并提到市场调整预期和投资组合回报，这与投资组合管理相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:29:29.688105"
+}

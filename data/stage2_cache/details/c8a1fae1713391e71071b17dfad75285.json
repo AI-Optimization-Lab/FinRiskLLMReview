@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1967,
+    "title": "Risk-Aware Linear Bandits with Application in Smart Order Routing",
+    "abstract": "Motivated by practical considerations in machine learning for financial decision-making, such as risk-aversion and large action space, we initiate the study of risk-aware linear bandits. Specifically, we consider regret minimization under the mean-variance measure when facing a set of actions whose reward can be expressed as linear functions of (initially) unknown parameters. We first propose the Risk-Aware Explore-then-Commit (RISE) algorithm driven by the variance-minimizing G-optimal design. Then, we rigorously analyze its regret upper bound to show that, by leveraging the linear structure, the algorithm can dramatically reduce the regret when compared to existing methods. Finally, we demonstrate the performance of the RISE algorithm by conducting extensive numerical experiments in a synthetic smart order routing setup. Our results show that the RISE algorithm can outperform the competing methods, especially when the decision-making scenario becomes more complex.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3ff996d67b9f2541d06310cbcbd83559",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:48.267646"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文研究了风险感知的线性赌博机问题，并在智能订单路由中进行了应用，这涉及到在金融决策中管理风险，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文研究了风险感知的线性赌博机问题，并在智能订单路由中进行了应用，这涉及到在金融决策中管理风险，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:09.499770"
+}

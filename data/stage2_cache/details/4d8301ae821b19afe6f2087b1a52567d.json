@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2115,
+    "title": "Option pricing under sub-mixed fractional Brownian motion based on time-varying implied volatility using intelligent algorithms",
+    "abstract": "Against the background of the current complex international geopolitical situation and more intense trade frictions, the volatility of financial assets has important research significance as a basis for risk analysis and option pricing. First, considering the characteristics of financial assets-such as long dependence-the pricing model can become complicated, making it difficult to calculate the implied volatility directly. Establishing the loss function between the trading data and modeled value, the implied volatility at different moments solved using the global optimal double annealing algorithm was found to differ from the generalized autoregressive conditional heteroskedasticity (GARCH) volatility and historical volatility. Second, the implied volatility considering people's future expectations of financial assets was predicted using the previously known implied volatility via deep learning methods. The empirical results showed that the implied volatilities predicted using the long short-term memory (LSTM) and one-dimensional convolutional neural network (1D-CNN) methods performed well for option pricing. Moreover, the fractal option-pricing models outperformed the traditional Black-Scholes (B-S) pricing model. Finally, based on the accumulated local effect (ALE) algorithm-which can quantify the impact analysis of different volatilities on pricing models-it was found that the predicted implied volatility using artificial intelligence algorithms was more relevant to the truth. A combination of traditional mathematical models and emerging intelligent algorithms are promoted in this study, providing a reference for investors and risk managers and contributing to the continued development of financial markets.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "701549021a18e61631d9fe52d0f9c70a",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:11:40.476909"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习方法和智能算法（如LSTM和1D-CNN）来预测隐含波动率，并将其应用于期权定价模型。论文明确提到其研究目标是改进期权定价模型，并比较了传统Black-Scholes模型与基于分形理论的定价模型。虽然论文也提到风险分析，但主要应用和贡献集中在衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习方法和智能算法（如LSTM和1D-CNN）来预测隐含波动率，并将其应用于期权定价模型。论文明确提到其研究目标是改进期权定价模型，并比较了传统Black-Scholes模型与基于分形理论的定价模型。虽然论文也提到风险分析，但主要应用和贡献集中在衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:06.305936"
+}

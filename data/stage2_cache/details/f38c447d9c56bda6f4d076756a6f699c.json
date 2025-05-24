@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 362,
+    "title": "Deep reinforcement learning imbalanced credit risk of SMEs in supply chain finance",
+    "abstract": "It is crucial to predict the credit risk of small and medium-sized enterprises (SMEs) accurately for the success of supply chain finance (SCF). However, most of the existing research ignore the fact that the data distribution is usually imbalanced, that is, the proportion of default SMEs is much smaller than that of non-default SMEs. To fill this research gap, we propose a novel approach called DRL-Risk to deal with the imbalanced credit risk prediction (ICRP) of SMEs in SCF with deep reinforcement learning (DRL). Specifically, we formulate the ICRP problem as a Markov decision process and suggest an instance-based reward function to incorporate financial loss into the reward function with consideration of the actual loss caused by misclassification in the ICRP of SMEs. Then, we recommend a deep dueling neural network for decision policy to predict the credit risk of SMEs. With deep reinforcement learning, the DRL-Risk approach can prioritize the learning on the SMEs that would lead to great financial losses. Experimental results demonstrate that the DRL-Risk approach can significantly improve the performance of credit risk prediction of SMEs in SCF compared with the baseline methods in recall, G-mean, and financial loss. We have also identified management implications for the decision-makers participating in SCF.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e24148d5241cf79f2c302fd044bf3afb",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:41.120573"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习来预测中小企业的信用风险，特别是针对数据不平衡的情况。信用风险预测是金融风险管理的重要组成部分，因此该论文的主要应用领域是金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习来预测中小企业的信用风险，特别是针对数据不平衡的情况。信用风险预测是金融风险管理的重要组成部分，因此该论文的主要应用领域是金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:30.953344"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 85,
+    "title": "Hedging derivative securities based on the neural network coefficient model",
+    "abstract": "Investment in options has attracted much interest among investors for both speculative and hedging reasons in financial markets at present. Applying neural networks to forecast volatility in option pricing has increased in popularity in recent years since many studies have indicated that the conventional option pricing models are not sufficiently accurate. This article proposes a neural network coefficient (NNC) model to re-price option values to improve on the tracking error in the measurement of hedging capability. The NNC model uses the variables introduced by the Black-Scholes (BS) Model and applies the linear regression (LR) model to price option values. It is worth noting that each corresponding weight coefficient in LR is constructed by a complete neural network rather than by a scalar value. By capturing the nonlinear behaviors of option pricing, our proposed NNC model has lower tracking error and better hedging capability than the BS model. Besides, the experimental data are obtained from the Taiwan Stock Index Commodity (TIMEX) index options instead of artificially simulated data in order to avoid departing from reality.",
+    "year": 2005,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "7ba3c8bfb1e04fdafc5adeb36e49e066",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "regression",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.967878"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用神经网络系数模型重新定价期权价值，并改进对冲能力的测量误差。这直接涉及衍生品定价领域。同时，对冲能力的改进也属于金融风险管理的范畴，因为对冲是风险管理的一种重要手段。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用神经网络系数模型重新定价期权价值，并改进对冲能力的测量误差。这直接涉及衍生品定价领域。同时，对冲能力的改进也属于金融风险管理的范畴，因为对冲是风险管理的一种重要手段。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:01.393403"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1658,
+    "title": "Convex clustering method for compositional data modeling",
+    "abstract": "Compositional data refer to a vector with parts that are positive and subject to a constant-sum constraint. Examples of compositional data in the real world include a vector with each entry representing the weight of a stock in an investment portfolio, or the relative concentration of air pollutants in the environment. In this study, we developed a Convex Clustering approach for grouping Compositional data. Convex clustering is desirable because it provides a global optimal solution given its convex relaxations of hierarchical clustering. However, when directly applied to compositions, the clustering result offers little interpretability because it ignores the unit-sum constraint of compositional data. In this study, we discuss the clustering of compositional variables in the Aitchison framework with an isometric log-ratio (ilr) transformation. The objective optimization function is formulated as a combination of a L-2-norm loss term and a L-1-norm regularization term and is then efficiently solved using the alternating direction method of multipliers. Based on the numerical simulation results, the accuracy of clustering ilr-transformed data is higher than the accuracy of directly clustering untransformed compositional data. To demonstrate its practical use in real applications, the proposed method is also tested on several real-world datasets.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7b109c533768767a3dfd1c4fedd3bca5",
+    "relevant_keywords": [
+      "clustering",
+      "unsupervised learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:18.298555"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文提到其方法可以应用于投资组合中股票权重的聚类分析，这直接关联到投资组合管理的领域。虽然论文也提到其他应用场景，但投资组合管理是其明确指出的金融应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文提到其方法可以应用于投资组合中股票权重的聚类分析，这直接关联到投资组合管理的领域。虽然论文也提到其他应用场景，但投资组合管理是其明确指出的金融应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:38.607088"
+}

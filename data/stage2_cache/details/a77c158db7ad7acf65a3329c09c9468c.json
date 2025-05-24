@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 1909,
+    "title": "Stock index prediction and uncertainty analysis using multi-scale nonlinear ensemble paradigm of optimal feature extraction, two-stage deep learning and Gaussian process regression",
+    "abstract": "Reliable prediction of stock indexes can be highly valuable for financial decision-making and risk management. The stock market is a highly complicated nonlinear system which makes it difficult to present accurate predictors. In this paper, an innovative multi-scale nonlinear ensemble paradigm is proposed for stock index prediction and uncertainty analysis, which consists of an optimal feature extraction including variational mode decomposition and auto-encoder, a two-stage deep learning based on recurrent neural network and long short-term memory, and Gaussian process regression. The optimal feature extraction is proposed to extract the optimal features of stock index fluctuations and eliminate the disturbance of illusive components. The two-stage deep learning is developed to conduct the prediction of each feature sub-signal and implement its nonlinear integration. The Gaussian process regression is utilized to construct the interval prediction of the original stock signal and analyze the uncertainties of stock market. The validity of the developed model is verified by the data from S&P 500, Dow Jones index and NASDAQ. After a series of comparisons, the mean absolute percentage errors of the proposed model in S&P 500, Dow Jones index and NASDAQ are 0.55%, 0.65% and 1.11%, respectively. These results fully verify the effectiveness of proposed model. (C) 2021 Elsevier B.V. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c8732320f4f390044435d3fab4c6dfe7",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "autoencoder",
+      "feature learning",
+      "feature representation",
+      "representation learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:39.110311"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用多尺度非线性集成范式进行股票指数预测和不确定性分析，这直接关联到金融风险管理中的市场风险预测和不确定性评估。论文明确提到预测对金融决策和风险管理有价值，且实验验证了模型在主要股票指数上的预测效果。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用多尺度非线性集成范式进行股票指数预测和不确定性分析，这直接关联到金融风险管理中的市场风险预测和不确定性评估。论文明确提到预测对金融决策和风险管理有价值，且实验验证了模型在主要股票指数上的预测效果。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:28.568491"
+}

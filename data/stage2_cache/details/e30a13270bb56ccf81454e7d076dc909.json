@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 122,
+    "title": "Option pricing with deep learning: a long short-term memory approach",
+    "abstract": "This paper presents a deep learning approach for option pricing using a long short-term memory (LSTM) neural network applied to European call options on the S&P 500 index. We utilize a rolling window approach that trains 12 instances of the LSTM model, one for each month of 2021. To gain further insight into the model performance, we use explainable artificial intelligence (XAI) through SHapley Additive Explanations (SHAP). We find that the LSTM model outperforms the Black-Scholes and the Heston models and a multilayer perceptron (MLP) neural network regarding overall pricing accuracy. Most notably, the time-sequencing nature of LSTM enables the proposed model to capture sufficient short-term volatility from recently traded options. This result is still robust when controlling for time-varying volatility dynamics. Thus, the model is less prone to measurement errors in volatility.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "7fd215b157798fc1f5c1f33e3fe453ad",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.350267"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用长短期记忆（LSTM）神经网络对欧洲看涨期权进行定价，并比较了其与Black-Scholes和Heston模型的性能。这明确属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用长短期记忆（LSTM）神经网络对欧洲看涨期权进行定价，并比较了其与Black-Scholes和Heston模型的性能。这明确属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:31.794230"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2438,
+    "title": "Dynamic portfolio optimization with real datasets using quantum processors and quantum-inspired tensor networks",
+    "abstract": "In this paper we tackle the problem of dynamic portfolio optimization, i.e., determining the optimal trading trajectory for an investment portfolio of assets over a period of time, taking into account transaction costs and other possible constraints. This problem is central to quantitative finance. After a detailed introduction to the problem, we implement a number of quantum and quantum-inspired algorithms on different hardware platforms to solve its discrete formulation using real data from daily prices over 8 years of 52 assets, and do a detailed comparison of the obtained Sharpe ratios, profits, and computing times. In particular, we implement classical solvers (Gekko, exhaustive), D-wave hybrid quantum annealing, two different approaches based on variational quantum eigensolvers on IBM-Q (one of them brand-new and tailored to the problem), and for the first time in this context also a quantum-inspired optimizer based on tensor networks. In order to fit the data into each specific hardware platform, we also consider doing a preprocessing based on clustering of assets. From our comparison, we conclude that D-wave hybrid and tensor networks are able to handle the largest systems, where we do calculations up to 1272 fully-connected qubits for demonstrative purposes. Finally, we also discuss how to mathematically implement other possible real-life constraints, as well as several ideas to further improve the performance of the studied methods.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ec41641ac35877901af54e28ae8fa391",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:38.184557"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on dynamic portfolio optimization, which involves determining the optimal trading trajectory for an investment portfolio over time, considering transaction costs and constraints. This is a core problem in quantitative finance and directly falls under the domain of Portfolio Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on dynamic portfolio optimization, which involves determining the optimal trading trajectory for an investment portfolio over time, considering transaction costs and constraints. This is a core problem in quantitative finance and directly falls under the domain of Portfolio Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:43.965951"
+}

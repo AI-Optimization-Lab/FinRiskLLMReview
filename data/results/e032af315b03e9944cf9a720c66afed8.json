@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "regression",
+    "LASSO"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using machine learning techniques to analyze SME insolvency.",
+    "supervised learning": "The use of LASSO logistic regression implies a supervised learning approach where the model is trained on labeled data (insolvency outcomes).",
+    "classification": "Logistic regression is a classification method used to predict binary outcomes (insolvency or not).",
+    "regression": "LASSO is a regression method that performs variable selection and regularization.",
+    "LASSO": "The paper specifically mentions using Least Absolute Shrinkage and Selection Operator (LASSO) logistic regression for modeling insolvency."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"regression\", \"LASSO\"], \n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using machine learning techniques to analyze SME insolvency.\",\n    \"supervised learning\": \"The use of LASSO logistic regression implies a supervised learning approach where the model is trained on labeled data (insolvency outcomes).\",\n    \"classification\": \"Logistic regression is a classification method used to predict binary outcomes (insolvency or not).\",\n    \"regression\": \"LASSO is a regression method that performs variable selection and regularization.\",\n    \"LASSO\": \"The paper specifically mentions using Least Absolute Shrinkage and Selection Operator (LASSO) logistic regression for modeling insolvency.\"\n  }\n}\n```"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1335,
+    "title": "Exponential Gradient with Momentum for Online Portfolio Selection",
+    "abstract": "Online portfolio selection is a fundamental research problem, which has drawn extensive investigations in both machine learning and computational finance communities. The evolution of electronic trading has contributed to the growing prevalence of High-Frequency Trading (HFT) in recent years. Generally, HFT requires trading strategies to be fast in execution. However, the existing online portfolio selection strategies fail to either satisfy the demand for high execution speed or make effective utilization of historical data. In response, we propose a framework named Exponential Gradient with Momentum (EGM) which integrates EG with an acknowledged optimization method in stochastic learning, i.e., momentum. Specifically, momentum boosts the performance of EG by making full use of historical information. Most essentially, EGM can execute with only constant memory and running time in the number of assets per trading period, thus overcoming the drawback of most online strategies. The theoretical analysis reveals that EGM bounds the regret sublinearly. The extensive experiments conducted on four real-world datasets demonstrate that EGM outperforms relevant strategies with respect to comprehensive evaluation metrics.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e3fd64860b5fcc2253a33cc2ccfa155d",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:24.714754"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on online portfolio selection, proposing a framework named Exponential Gradient with Momentum (EGM) to improve execution speed and utilize historical data effectively. This directly addresses the challenges in portfolio management, particularly in the context of High-Frequency Trading (HFT).",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on online portfolio selection, proposing a framework named Exponential Gradient with Momentum (EGM) to improve execution speed and utilize historical data effectively. This directly addresses the challenges in portfolio management, particularly in the context of High-Frequency Trading (HFT).\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:41.182212"
+}

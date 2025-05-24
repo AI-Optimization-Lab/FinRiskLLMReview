@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 4395,
+    "title": "Innovative deep matching algorithm for stock portfolio selection using deep stock profiles",
+    "abstract": "Construction of a reliable stock portfolio remains an open issue in quantitative investment. Multiple machine learning models have been trained for stock portfolio selection, but their practical applicability remains limited due to the challenges posed by the characteristic of a low signal-to-noise ratio (SNR), the nature of time-series data, and non-independent identical distribution in financial data. Here, we transformed the stock selection task into a matching problem between a group of stocks and a stock selection target. We proposed a novel representation algorithm of stock selection target and a novel deep matching algorithm (TS-Deep-LtM). Then we proposed a deep stock profiling method to extract the optimal feature combination and trained a deep matching model based on TS-Deep-LtM algorithm for stock portfolio selection. Especially, TS-Deep-LtM algorithm was obtained by setting statistical indicators to filter and integrate three deep text matching algorithms. This parallel framework design made it good at capturing signals from time-series data and adapting to non-independent identically distributed data. Finally, we applied the proposed model to stock selection and tested long-only portfolio strategies from 2010 to 2017. We demonstrated that the risk-adjusted returns obtained by our portfolio strategies outperformed those obtained by the CSI300 index and learning-to-rank approaches during the same period.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d1bcb5fd366f4385d772bdff72e05d42",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "neural network",
+      "feature representation",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:36:38.509505"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种新的深度匹配算法（TS-Deep-LtM）用于股票组合选择，并测试了多头组合策略的表现。这些内容直接指向投资组合管理领域，而非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"该论文的核心技术是提出了一种新的深度匹配算法（TS-Deep-LtM）用于股票组合选择，并测试了多头组合策略的表现。这些内容直接指向投资组合管理领域，而非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:33:19.219265"
+}

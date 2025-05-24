@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 345,
+    "title": "Family of K-Means Clustering for Robust Mean-Variance Portfolio Selection: A Comparison of K-Medoids, K-Means, and Fuzzy C-Means",
+    "abstract": "This paper proposes a robust portfolio construction method based on cluster analysis. The fundamental data and the daily closing price of the LQ45 index listed on the Indonesia Stock Exchange were employed for the empirical study. Firstly, using fundamental data of LQ45, three clusters are formed using K-Medoids clustering. K-Means and fuzzy C-Means cluster analysis were also performed as a comparison. Secondly, two stocks with the highest Sharpe ratios from each cluster were chosen to form an optimum portfolio. The optimum portfolio was obtained using non-robust (classic) and robust estimate approaches. The robust estimations used are the Fast Minimum Covariance Determinant (FMCD) and the S estimation. A robust process allows for creating the best-performing portfolio from many stocks, especially as outliers largely impact the outcomes. This study revealed that the portfolio produced by combining KMedoids clustering and robust FMCD estimation outperformed those created using other approaches.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f73ed9b810d527f5e6fad526b6bd970e",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:32.449030"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用聚类分析方法（K-Medoids、K-Means和Fuzzy C-Means）来构建稳健的投资组合，并通过比较不同方法的表现来选择最优组合。这直接涉及投资组合管理的核心问题，即如何选择和优化资产组合以提高绩效。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用聚类分析方法（K-Medoids、K-Means和Fuzzy C-Means）来构建稳健的投资组合，并通过比较不同方法的表现来选择最优组合。这直接涉及投资组合管理的核心问题，即如何选择和优化资产组合以提高绩效。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:40.754122"
+}

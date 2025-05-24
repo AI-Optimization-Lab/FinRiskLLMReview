@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "regression",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "The paper discusses the use of machine learning techniques, specifically bootstrapped aggregation (bagging), to estimate the fair market values of variable annuity contracts.",
+    "supervised learning": "The paper's approach involves using labeled data (fair market values of contracts) to train a predictive model, which is characteristic of supervised learning.",
+    "regression": "The task of estimating fair market values is a regression problem, as it involves predicting continuous values.",
+    "decision tree": "Bagging is often used with decision trees as base learners, although the paper does not explicitly mention decision trees, it is implied given the context of bagging."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"regression\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"The paper discusses the use of machine learning techniques, specifically bootstrapped aggregation (bagging), to estimate the fair market values of variable annuity contracts.\",\n    \"supervised learning\": \"The paper's approach involves using labeled data (fair market values of contracts) to train a predictive model, which is characteristic of supervised learning.\",\n    \"regression\": \"The task of estimating fair market values is a regression problem, as it involves predicting continuous values.\",\n    \"decision tree\": \"Bagging is often used with decision trees as base learners, although the paper does not explicitly mention decision trees, it is implied given the context of bagging.\"\n  }\n}\n```"
+}

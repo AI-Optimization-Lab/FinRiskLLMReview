@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 2096,
+    "title": "Maritime-Accident-Induced Environmental Pollution and Economic Loss Analysis Using an Interpretable Data-Driven Method",
+    "abstract": "In this study, we developed an interpretable machine learning (ML) framework to predict marine pollution and economic losses from accident risk factors. A triple-feature selection process identified key predictors, followed by a comparative analysis of eight ML models. Random forest outperformed other models in forecasting environmental and property damage. The interpretable model was established based on the SHAP value framework, which revealed that onboard personnel count, vessel dimensions (length), and accident/ship types account for the risk factors with the most severe consequences, with environmental conditions like wind speed and air temperature contributing secondary effects. The methodology enables two critical applications: (1) environmental agencies can proactively assess accident impact through the identified risk triggers, optimizing emergency response planning, and (2) insurance providers gain data-driven risk evaluation metrics to refine premium calculations. By quantifying how human/technical factors, including crew members and vessel specifications, dominate over natural variables in accident effects, this data-driven approach provides actionable insights for maritime safety management and financial risk mitigation, achieving high prediction accuracy while maintaining model transparency through Shapley value explanations.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b0c838d09924d2db6c8cb31b0653996e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:59.080840"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是海事事故引发的环境污染和经济损失预测，虽然提到了保险提供商可以利用数据驱动的风险评估来优化保费计算，但这并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是海事事故引发的环境污染和经济损失预测，虽然提到了保险提供商可以利用数据驱动的风险评估来优化保费计算，但这并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:24.426573"
+}

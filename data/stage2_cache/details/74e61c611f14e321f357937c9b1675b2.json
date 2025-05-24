@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 694,
+    "title": "Clustering financial time series to generate a new method of factor neutralization: An empirical study",
+    "abstract": "In this paper, we consider the problem of clustering the long financial time series of the Chinese A-share market, applying k-means, k-Shape, agglomerative hierarchical clustering, affinity propagation, and Gaussian mixture to redivide the Chinese stock market. The results after parameter tuning show that the stocks in redivided industries are more similar than those of Shenwan first-class industry. Then we generate a new method of factor neutralization, using the new industries to neutralize factors, and then constructing the investment portfolios to test the four basic factors. The experimental results show that the investment portfolio based on k-means can steadily defeat the benchmark and the portfolio based on classical industry classification. This new method of factor neutralization can bring a stable and effective improvement to the returns of the factors and it is allowed be applied to other factors, which has a significant impact on factor investing.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ed5f7c98845efd07378209632a40617f",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:18.448938"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用聚类方法对金融时间序列进行分析，并基于新的行业分类方法构建投资组合。研究的主要目标是提高因子投资的回报，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用聚类方法对金融时间序列进行分析，并基于新的行业分类方法构建投资组合。研究的主要目标是提高因子投资的回报，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:28:28.825202"
+}

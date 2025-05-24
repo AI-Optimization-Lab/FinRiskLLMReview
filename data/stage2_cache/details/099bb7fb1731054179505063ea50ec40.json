@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 6654,
+    "title": "Analysing and predicting wildlife-vehicle collision hotspots for the Swiss road network",
+    "abstract": "ContextWildlife-vehicle collisions (WVCs) are a significant threat for many species, cause financial loss and pose a serious risk to motorist safety.ObjectivesWe used spatial data science on regional collision data from Switzerland with the objectives of identifying the key environmental collision risk factors and modelling WVC risk on a nationwide scale.MethodsWe used 43,000 collision records with roe deer, red deer, wild boar, and chamois from 2010 to 2015 for both midlands and mountainous landscape types. We compared a fixed-length road segmentation approach with segments based on Kernel Density Estimation, a data-driven segmentation method. The segments' environmental properties were derived from land-cover geodata using novel neighbourhood operations. Multivariate logistic regression and random forest classifiers were used to identify and rank the relevant environmental factors and to predict collision risk in areas without collision data.ResultsThe key factors for WVC hotspots are road sinuosity, and two composite factors for browsing/forage availability and traffic noise-a proxy for traffic flow. Our best models achieved sensitivities of 82.5% to 88.6%, with misclassifications of 20.14% and 27.03%, respectively. Our predictions were better in forested areas and revealed limitations in open landscape due to lack of up-to-date data on annual crop changes.ConclusionsWe illustrate the added value of using fine-grained land-cover data for WVC modelling, and show how such detailed information can be annotated to road segments using spatial neighbourhood functions. Finally, we recommend the inclusion of annual crop data for improving WVC modelling.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "33b0441dccb4648796cf00b876c35eac",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T03:00:05.067687"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究野生动物与车辆碰撞的热点预测，使用了机器学习等技术，但其应用场景为生态保护和交通安全，并未涉及金融领域的衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究野生动物与车辆碰撞的热点预测，使用了机器学习等技术，但其应用场景为生态保护和交通安全，并未涉及金融领域的衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:27:31.907721"
+}

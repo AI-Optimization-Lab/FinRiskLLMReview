@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3208,
+    "title": "Big Data Analysis with Momentum Strategy on Data-driven Trading",
+    "abstract": "Data-driven trading approaches have become more widespread in quantitative hedge funds due to the availability of large amount of financial data and the popularization of quantitative trading strategies. One of the most popular trading strategy is called momentum strategy which seeks the opportunity of market volatility by buying the stock when the price goes up and selling them as soon as there is a sign showing they would go down. Although this concept is clear to the majority, building one concrete momentum strategy remains a problem to every investor. In response to this concern, in this paper, we propose a the detailed algorithm to build a concrete momentum strategy. First, we compare the performance of four basic momentum strategies with respect to their return in S&P 500 index and its option investment. Then we optimize the momentum trading strategy by adding one extra accelerating factor and then enhance with decision tree investment method so as to capture more market trading opportunities and become more profitable. From the experiment, we find that straddle hedging strategy is proved to effectively lower the draw-down risk. In addition, although using options rather than stocks would largely raise the portfolio variance, it will significantly avoid the bad performance of momentum strategy during the bear market.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "11362c0bf67bd1f724e9bab9b1176713",
+    "relevant_keywords": [
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T02:23:33.621807"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究如何构建和优化动量交易策略，并讨论了在S&P 500指数及其期权投资中的应用，这属于投资组合管理的范畴。虽然提到了期权投资，但核心内容并非衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究如何构建和优化动量交易策略，并讨论了在S&P 500指数及其期权投资中的应用，这属于投资组合管理的范畴。虽然提到了期权投资，但核心内容并非衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:03.234325"
+}

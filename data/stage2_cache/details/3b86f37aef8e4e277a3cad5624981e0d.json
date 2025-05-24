@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 4232,
+    "title": "Optimal Investment Strategy on Institutions",
+    "abstract": "The donation from charitable foundations is playing an increasingly important role in the source of financial support for colleges and universities. How to generate an optimal investment strategy is a problem that every foundation concerns. In this paper, we construct a model to select institutions with high potential for effectively utilizing funding and high education performance. Then we determine the investment amount and the duration of each institution, which leads to the calculation of the estimated return. To evaluate candidate schools, we find the official data from the U.S. National Center on Education Statistics, which maintains an extensive database of survey information on nearly all post-secondary colleges and universities in the United States. Then we categorize the indexes into eight metrics based on two aspects: institution features and student features. Using Classification Index Comprehensive Evaluation model based on Principal Component Analysis method, we get the rankings of candidate schools. However, the relevance of the metrics leads to deviation on the model results. Hence we propose an optimal model. First, we objectively obtain the relative materiality between the metrics by determining indexes weight using Fractal Dimension method. Second, we formulate the Mahalanobis Distance-based TOPSIS Evaluation method to work out the reasonable ranking by eliminating impacts due to correlation metrics using sample covariance matrix. In order to get the investment amount and the duration of each institution, we generate a Discrete Time Investment Portfolio Optimization model setting the estimated return as the objective function based on the Markowitz Fund Allocation model. In the real life, the estimated return dropped greatly when the proportion of our investment to the institution total funding shows a consistently low level. Accordingly, our model introduces a concept of Efficiency Factor to optimize the model and reveals the potential institutions. At last, we perform a sensitivity analysis on normalized parameter and index weight of factors affecting the estimated return of Fractal Dimension method. Result is almost not affected by the change of the factors. Strengths and weaknesses of our model are also discussed in the paper. The model can also be applied in the investments such as stocks. With the continuous development of society, higher education has stepped into a universal stage all over the world. To help evaluate educational performance of undergraduates attending colleges and universities in the United States, we set up an evaluation system and generate an optimal investment strategy on donating a total of $100,000,000 (US100 million) to an appropriate group of schools per year, for five years. We break down the problem into several parts: Rankings of the candidate institutions Allocation strategy of funding Time duration for the money provided to bring a strong positive impact on student performance Classification of the estimated return on each school's investment",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b6c902358aef53b38310af3009117426",
+    "relevant_keywords": [
+      "principal components analysis"
+    ],
+    "stage1_timestamp": "2025-05-15T01:24:51.536152"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建一个离散时间投资组合优化模型，基于Markowitz基金分配模型，旨在为慈善基金会生成最优的投资策略。这直接涉及到投资组合管理的领域，特别是如何分配资金以最大化预期回报。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建一个离散时间投资组合优化模型，基于Markowitz基金分配模型，旨在为慈善基金会生成最优的投资策略。这直接涉及到投资组合管理的领域，特别是如何分配资金以最大化预期回报。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:58.080182"
+}

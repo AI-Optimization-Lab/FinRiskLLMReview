@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 8246,
+    "title": "A fast conformal predictive system with regularized extreme learning machine",
+    "abstract": "A conformal predictive system(CPS) is based on the learning framework of conformal prediction, which outputs cumulative distribution functions(CDFs) for labels in regression problems. The CDFs output by a CPS provide useful information for users, as they not only provide probability for the events related to the test labels, but also can be transformed to prediction intervals with the corresponding quantiles. Moreover, CPSs have the property of validity since the distributions and intervals they output have statistical compatibility with the realizations. This property is very useful for many risk-sensitive applications such as financial time series forecast and weather forecast. However, as based on conformal predictors, CPSs inherit the computational issue. To build a fast CPS, in this paper, we propose a CPS with regularized extreme learning machine as the underlying algorithm. To be specific, we combine the leave-one-out cross-conformal predictive system(Leave-One-Out CCPS), a variant of the original CPS, with regularized extreme learning machine(RELM), which is named as LOO-CCPS-RELM. We analyse the computational complexity of it and prove its asymptotic validity based on some regularity assumptions. We also prove that the error rate of the prediction interval output by LOO-CCPS-RELM is under control in the asymptotic setting. Experiments with 20 public data sets were conducted to test LOO-CCPS-RELM and the results showed that LOO-CCPS-RELM is empirically valid and compared favourably with the other CPSs. (c) 2020 Elsevier Ltd. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b8691b7039661eaf7e81c917feab307a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T03:16:48.997144"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究一种基于正则化极限学习机的快速共形预测系统，虽然提到了金融时间序列预测作为风险敏感应用的一个例子，但并未明确指出其核心技术或研究成果主要应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究一种基于正则化极限学习机的快速共形预测系统，虽然提到了金融时间序列预测作为风险敏感应用的一个例子，但并未明确指出其核心技术或研究成果主要应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:34.702299"
+}

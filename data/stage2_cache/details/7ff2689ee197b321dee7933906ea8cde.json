@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1021,
+    "title": "CVA Hedging with Reinforcement Learning",
+    "abstract": "This work considers the problem of a trader who must manage the Credit Valuation Adjustment (CVA) of a derivative, defined as the risk-neutral expectation of losses incurred if the counterparty of the derivative defaults. CVA can be regarded as a hybrid product, one of the most complex actively managed by a trading desk. Standard delta hedging based on sensitivities is not completely satisfactory for this product, because it ignores trading costs and jump-to-default risk while introducing unavoidable simplifications in the pricing model. In this paper we use risk-averse Reinforcement Learning to learn a superior hedging strategy compared to the standard delta hedging approach. Specifically, we generalize risk-averse Reinforcement Learning to stochastic horizons, to be compatible with counterparty defaults, and we introduce a realistic framework for the mechanics of the hedger's portfolio in which the data generating process of the underlying risk drivers can be inconsistent with the risk-neutral laws used to price the CVA and the hedging instruments. The potential of the proposed approach is investigated empirically by numerical examples on hedging the CVA of a forex forward.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4f60f9777961f85946d8a3ad70924804",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.820690"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用强化学习来优化信用估值调整（CVA）的对冲策略，CVA是衡量交易对手违约风险的重要指标，属于金融风险管理的范畴。论文的研究目标是改进传统的delta对冲方法，以更好地管理交易对手违约风险，这直接关联到金融风险管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用强化学习来优化信用估值调整（CVA）的对冲策略，CVA是衡量交易对手违约风险的重要指标，属于金融风险管理的范畴。论文的研究目标是改进传统的delta对冲方法，以更好地管理交易对手违约风险，这直接关联到金融风险管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:19.017521"
+}

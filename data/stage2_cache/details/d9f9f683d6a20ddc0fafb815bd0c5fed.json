@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3127,
+    "title": "Finding the Next Interesting Loan for Investors on a Peer-to-Peer Lending Platform",
+    "abstract": "With the development of the mobile Internet, a peer-to-peer(P2P) online lending platform has become increasingly popular in the financial market, and it attracts a massive number of users. The task that helps investors find potential loans for improving the funding success rate has become a major challenge for lending platforms. However, the traditional recommendation schemes rarely take into account the challenges, such as the timeliness of loans (i.e., when a loan funding is completed or expired, it will no longer recruit investment), the common cold start problem (continuously releasing new loans is a common phenomenon), and the loans' potential default risk. Considering the above characteristics, we propose a deep learning model based on a sequence of the incremental matrix factorization technology (DeepSeIMF). First, the cold start problem of loans can be effectively solved by designing an incremental matrix factorization model based on the time series. Then, a neural network is used to provide investors with personalized investment recommendation services based on risk assessment. Finally, the model performance is systematically evaluated based on a large-scale real-world dataset. The experimental results demonstrate the effectiveness of our solution.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2fc38c203798e0726cd5cefaeeab1294",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:22:56.690015"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度学习和增量矩阵分解技术为P2P借贷平台的投资者推荐潜在贷款，这涉及到为投资者构建个性化的投资选择，属于投资组合管理的范畴。虽然提到了风险评估，但主要研究目标是推荐系统，而非专门的风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度学习和增量矩阵分解技术为P2P借贷平台的投资者推荐潜在贷款，这涉及到为投资者构建个性化的投资选择，属于投资组合管理的范畴。虽然提到了风险评估，但主要研究目标是推荐系统，而非专门的风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:06.077249"
+}

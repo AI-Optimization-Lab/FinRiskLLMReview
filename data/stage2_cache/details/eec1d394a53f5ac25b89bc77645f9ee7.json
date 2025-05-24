@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 772,
+    "title": "Public Mood-Driven Asset Allocation: the Importance of Financial Sentiment in Portfolio Management",
+    "abstract": "The study of the impact of investor sentiment on stock returns has gained increasing momentum in the past few years. It has been widely accepted that public mood is correlated with financial markets. However, only a few studies discussed how the public mood would affect one of the fundamental problems of computational finance: portfolio management. In this study, we use public financial sentiment and historical prices collected from the New York Stock Exchange (NYSE) to train multiple machine learning models for automatic wealth allocation across a set of assets. Unlike previous studies which set as target variable the asset prices in the portfolio, the variable to predict here is represented by the best asset allocation strategy ex post. Experiments performed on five portfolios show that long short-term memory networks are superior to multi-layer perceptron and random forests producing, in the period under analysis, an average increase in the revenue across the portfolios ranging between 5% (without financial mood) and 19% (with financial mood) compared to the equal-weighted portfolio. Results show that our all-in-one and end-to-end approach for automatic portfolio selection outperforms the equal-weighted portfolio. Moreover, when using long short-term memory networks, the employment of sentiment data in addition to lagged data leads to greater returns for all the five portfolios under evaluation. Finally, we find that among the employed machine learning algorithms, long short-term memory networks are better suited for learning the impact of public mood on financial time series.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "20fbf48c84a2c6d27f5ebe79dc9ef650",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:50.399418"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是使用机器学习和情感分析来优化资产配置策略，这直接属于投资组合管理的范畴。论文明确讨论了如何利用公共情绪数据来改进投资组合的收益表现，并通过实验验证了其方法的有效性。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是使用机器学习和情感分析来优化资产配置策略，这直接属于投资组合管理的范畴。论文明确讨论了如何利用公共情绪数据来改进投资组合的收益表现，并通过实验验证了其方法的有效性。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:34.559143"
+}

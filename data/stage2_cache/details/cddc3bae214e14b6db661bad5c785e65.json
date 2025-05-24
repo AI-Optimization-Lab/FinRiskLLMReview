@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1383,
+    "title": "Neural network for nonsmooth pseudoconvex optimization with general convex constraints",
+    "abstract": "In this paper, a one-layer recurrent neural network is proposed for solving a class of nonsmooth, pseudoconvex optimization problems with general convex constraints. Based on the smoothing method, we construct a new regularization function, which does not depend on any information of the feasible region. Thanks to the special structure of the regularization function, we prove the global existence, uniqueness and slow solution'' character of the state of the proposed neural network. Moreover, the state solution of the proposed network is proved to be convergent to the feasible region in finite time and to the optimal solution set of the related optimization problem subsequently. In particular, the convergence of the state to an exact optimal solution is also considered in this paper. Numerical examples with simulation results are given to show the efficiency and good characteristics of the proposed network. In addition, some preliminary theoretical analysis and application of the proposed network for a wider class of dynamic portfolio optimization are included. (c) 2018 Elsevier Ltd. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e6bb1f519c190257e53cbc3b029e59a0",
+    "relevant_keywords": [
+      "neural network",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:56.551131"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "论文摘要中明确提到该神经网络应用于动态投资组合优化，这属于投资组合管理领域。虽然论文主要研究的是通用的优化算法，但其应用部分明确指向了金融领域的投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"论文摘要中明确提到该神经网络应用于动态投资组合优化，这属于投资组合管理领域。虽然论文主要研究的是通用的优化算法，但其应用部分明确指向了金融领域的投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:33.552337"
+}

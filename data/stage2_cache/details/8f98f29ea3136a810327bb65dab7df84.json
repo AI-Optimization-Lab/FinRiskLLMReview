@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 150,
+    "title": "Utilizing Reinforcement Learning and Causal Graph Networks to Address the Intricate Dynamics in Financial Risk Prediction",
+    "abstract": "With the deepening of globalization and the rapid development of science and technology, the world economic situation has become increasingly complex. The financial risk of an enterprise is directly related to its survival and development. This research refines the XGBoost algorithm by employing a reinforcement learning framework. Initially, the iterative process of the Q-value table is honed, integrating a time discount factor to accelerate convergence in hyperparameter optimization within the traditional Q-learning algorithm. Ultimately, optimization of the hyperparameters of the XGBoost algorithm is accomplished through the enhanced Q-learning algorithm and the Granger causal network model. Experimental outcomes reveal that the precision and recall of the refined Q-learning algorithm on the German Credit Data dataset stand at 85.74% and 92.33%, respectively. This model adeptly elucidates the origins and transmission mechanisms of financial risks, assisting companies in acquiring a nuanced comprehension of their financial situation and the broader market milieu.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4aa8af60ca6fb811e777ea4bb191a0f0",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "classification",
+      "decision tree",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:47:14.160395"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on refining the XGBoost algorithm using reinforcement learning to predict financial risks, specifically mentioning the application on the German Credit Data dataset to understand the origins and transmission mechanisms of financial risks. This clearly falls under the domain of Financial Risk Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on refining the XGBoost algorithm using reinforcement learning to predict financial risks, specifically mentioning the application on the German Credit Data dataset to understand the origins and transmission mechanisms of financial risks. This clearly falls under the domain of Financial Risk Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:00:26.289887"
+}

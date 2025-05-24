@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3714,
+    "title": "A HIGH-DIMENSIONAL APPROACH TO MEASURE CONNECTIVITY IN THE FINANCIAL SECTOR",
+    "abstract": "Data-driven network models to measure systemic risk in the financial sector and identify too-connected-to-fail institutions are becoming increasingly common in financial applications. Existing statistical methods for building such networks either take a pairwise approach of fitting many bivariate models or a system-wide approach of fitting penalized regression models. The former strategy is prone to large false positive selection, while the latter suffers from shrinkage bias and lack of formal inference machinery. These issues are accentuated in small sample, low signal-to-noise settings common in financial data. Building up on recent advances in high-dimensional infera method for building financial networks that addresses these limitations. Our empirical analysis highlights the importance of debiasing in a way that increases power of the algorithm in finite samples. We also provide formal inference guarantees of Granger causality tests in high-dimension to justify our method. We apply DLVAR to the stock returns of U.S. large financial institutions covering the period 1990-2021 and illustrate its usefulness in detecting systemically risky periods and institutions, especially during the Great Financial Crisis of 2008-2009 and the most recent Covid-19 related market shock.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5f4f059c0ce8428aa01dc8c50e71bcc2",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:29:27.927648"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on measuring systemic risk in the financial sector and identifying too-connected-to-fail institutions, which are key aspects of financial risk management. The method is applied to detect systemically risky periods and institutions, particularly during financial crises, further emphasizing its relevance to risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on measuring systemic risk in the financial sector and identifying too-connected-to-fail institutions, which are key aspects of financial risk management. The method is applied to detect systemically risky periods and institutions, particularly during financial crises, further emphasizing its relevance to risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:35:32.556411"
+}

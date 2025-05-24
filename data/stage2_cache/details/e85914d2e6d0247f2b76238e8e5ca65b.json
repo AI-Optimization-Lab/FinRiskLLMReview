@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 499,
+    "title": "NeuralFactors: A Novel Factor Learning Approach to Generative Modeling of Equities",
+    "abstract": "The use of machine learning for statistical modeling (and thus, generative modeling) has grown in popularity with the proliferation of time series models, text-to-image models, and especially large language models. Fundamentally, the goal of classical factor modeling is statistical modeling of stock returns, and in this work, we explore using deep generative modeling to enhance classical factor models. Prior work has explored the use of deep generative models in order to model hundreds of stocks, leading to accurate risk forecasting and alpha portfolio construction; however, that specific model does not allow for easy factor modeling interpretation in that the factor exposures cannot be deduced. In this work, we introduce Neural-Factors, a novel machine-learning based approach to factor analysis where a neural network outputs factor exposures and factor returns, trained using the same methodology as variational autoencoders. We show that this model outperforms prior approaches both in terms of log-likelihood performance and computational efficiency. Further, we show that this method is competitive to prior work in generating realistic synthetic data, covariance estimation, risk analysis (e.g., value at risk, or VaR, of portfolios), and portfolio optimization. Finally, due to the connection to classical factor analysis, we analyze how the factors our model learns cluster together and show that the factor exposures could be used for embedding stocks.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f1888dd35cac16f59a2048b7e3d0b451",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder",
+      "variational autoencoders"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:20.931191"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度生成模型进行因子分析，以提高股票收益的统计建模。论文明确提到了该模型在风险分析（如VaR）和投资组合优化中的应用，这些都属于金融风险管理和投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度生成模型进行因子分析，以提高股票收益的统计建模。论文明确提到了该模型在风险分析（如VaR）和投资组合优化中的应用，这些都属于金融风险管理和投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:08.921512"
+}

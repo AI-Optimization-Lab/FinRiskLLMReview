@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1006,
+    "title": "Development and Implementation of a Multilayer Deep Learning-Based Bank Credit Risk Forecasting System",
+    "abstract": "The complexity of the financial environment and the international community makes the capital flow face various challenges, and it is difficult to obtain accurate credit prediction results in the actual application environment. Considering the complex non-linear characteristics of customer information, the Analytic Hierarchy Process is studied to meet the needs of bank credit risk assessment. On this basis, a depth neural network with different complexities was selected for the three indicators built to classify the features. The composition of the neural network module and the number of neurons were determined by experiment, and Dropout was used to prevent overfitting of the test dataset. Stability and ablation experiments showed that the model can control the error between datasets to 0.021. The ablation experiment showed that the numbers of hidden layers and neurons were the best. Simulation tests showed that the sensitivity and accuracy of this method were 85.25% and 92.55%, respectively, which were superior to other classification methods. The real data of banks in the past four years were tested. The results could accurately classify the risks of enterprises and individual customers, and the results of stress test showed that the model is stable. It is found that traditional credit risk assessment models rely on statistical means and rule decisions, and these methods may not fully reveal the complex non-linear relationship and the internal relationship of financial indicators in high-dimensional data. The combination of deep learning technology and hierarchical analysis can better deal with and explain the complex non-linear problems in bank risk assessment.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "576069a57d7f607b712f01cf813b2e77",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "hidden layer",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.994146"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a deep learning-based system for bank credit risk forecasting, which is a core aspect of financial risk management. The study aims to improve the accuracy of credit risk assessment for both enterprise and individual customers, addressing challenges in the financial environment related to risk prediction and management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a deep learning-based system for bank credit risk forecasting, which is a core aspect of financial risk management. The study aims to improve the accuracy of credit risk assessment for both enterprise and individual customers, addressing challenges in the financial environment related to risk prediction and management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:43.444154"
+}

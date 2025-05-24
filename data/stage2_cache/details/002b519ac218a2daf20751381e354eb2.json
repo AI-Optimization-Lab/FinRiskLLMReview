@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 163,
+    "title": "Stochastic jump diffusion process informed neural networks for accurate American option pricing under data scarcity",
+    "abstract": "Pricing American options under jump diffusion models, such as the Merton model, presents significant challenges due to the early exercise feature and underlying price discontinuities. This paper introduces the PINN Merton model, a Physics-Informed Neural Network (PINN) framework that embeds the Merton partial integro differential equation (PIDE) into its loss function for American options pricing. By integrating sparse market data with financial physics, the model achieves robust pricing accuracy with limited training samples. We provide a rigorous derivation of the Merton PIDE from the L & eacute;vy process and prove the convergence of PINN Merton to the true option price under standard assumptions. Empirical evaluations on SPY and AAPL option datasets from June 2023 to September 2024 demonstrate that PINN Merton significantly outperforms traditional parametric models (e.g., Binomial Tree, Merton Jump Diffusion), data-driven baselines (e.g., Transformer, Neural Network, XGBoost), and PINN under the Black-Scholes formula (PINN BS), particularly in data-scarce scenarios. With only 200 training samples, PINN Merton achieves best performance, yielding an R2 of 0.9899 for SPY Calls (vs. 0.9654 for traditional Binomial Tree and 0.9617 for PINN BS), R2 of 0.9933 for SPY Puts (vs. 0.9924 for transformer), and R2 of 0.9897 for AAPL Calls (vs. 0.9822 for transformer), respectively. These results underscoring the model's effectiveness and generalizability across option types and underlying assets.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "8257ffd580a1e9ca4cbbc72c5324c62b",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:09.027768"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用物理信息神经网络（PINN）框架来定价美式期权，特别是在跳跃扩散模型（如Merton模型）下的定价问题。论文明确提到其目标是解决美式期权的定价问题，并通过实证评估验证了模型在期权定价上的优越性能。因此，该论文的主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用物理信息神经网络（PINN）框架来定价美式期权，特别是在跳跃扩散模型（如Merton模型）下的定价问题。论文明确提到其目标是解决美式期权的定价问题，并通过实证评估验证了模型在期权定价上的优越性能。因此，该论文的主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:27.272361"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 6,
+    "title": "Pricing options with a new hybrid neural network model",
+    "abstract": "A novel hybrid option pricing model using a deep learning neural network has been developed. The hybrid model keeps the traditional option pricing model with the same input parameters while simultaneously adjusting the model with neural network methods to improve accuracy when applied to real market data, especially in OTM options. The new hybrid model demonstrates superior accuracy compared to both traditional parametric and non-parametric option pricing models for both Call and Put options across all moneyness levels. The empirical results of the hybrid model provide an explanation for the deviation from the Put-Call parity observed in real market data.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "3a4903e01e55755c96a91c4926f4fccf",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.414617"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是开发一种新的混合神经网络模型用于期权定价，特别是针对实值期权（OTM options）的定价准确性提升。论文明确提到与传统期权定价模型的比较，并讨论了其在真实市场数据中的应用，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是开发一种新的混合神经网络模型用于期权定价，特别是针对实值期权（OTM options）的定价准确性提升。论文明确提到与传统期权定价模型的比较，并讨论了其在真实市场数据中的应用，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:32.633155"
+}

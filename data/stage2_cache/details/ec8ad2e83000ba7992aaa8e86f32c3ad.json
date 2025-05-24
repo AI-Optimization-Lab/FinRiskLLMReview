@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1565,
+    "title": "Using GNQTS to Solve Portfolio Optimization with Fund Allocation in the US Market",
+    "abstract": "Selecting a portfolio with high return and low risk is a difficult problem that is worthy of research. When solving a portfolio optimization problem, research studies usually employ various assessing indicators. This paper utilizes the trend ratio as the measure indicator. The value of the trend ratio represents how much the return is from the portfolio per unit of risk. A portfolio selected by the trend ratio based on simple linear regression is more in accordance with investors' psychology. This paper proposes a new investment strategy with fund allocation to solve a portfolio optimization problem, as fund allocation can make the portfolio more flexible and also can reduce risk effectively. This paper uses the Global-best Guided Quantum-inspired Tabu Search with Quantum-NOT Gate (GNQTS) to find how many funds are allocated to each stock and then uses the trend ratio to evaluate the portfolio. Because overfitting is a common problem in the stock market, this paper uses thirteen types of sliding windows to avoid overfitting. The results show that fund allocation is more flexible than allocating equal funds, thus allowing the proposed method to find a portfolio with a higher return and lower risk.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1cc40033e0188d67a1092c9ad43ee14c",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:57:12.650661"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on solving portfolio optimization problems by selecting portfolios with high return and low risk, utilizing fund allocation and trend ratio as key indicators. The proposed method aims to find an optimal portfolio allocation, which is a core aspect of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on solving portfolio optimization problems by selecting portfolios with high return and low risk, utilizing fund allocation and trend ratio as key indicators. The proposed method aims to find an optimal portfolio allocation, which is a core aspect of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:20:10.404707"
+}

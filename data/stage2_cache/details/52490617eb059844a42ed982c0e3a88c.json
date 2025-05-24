@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1422,
+    "title": "Deep Learning Algorithm to solve Portfolio Management with Proportional Transaction Cost",
+    "abstract": "Portfolio selection with proportional transaction cost is a singular stochastic control problem that has been widely discussed. In this paper, we propose a deep learning based numerical scheme to solve transaction cost problems, and compare its effectiveness with a penalty partial differential equation (PDE) method. We further extend it to multi-asset cases which existing numerical methods can not be applied to due to the curse of dimensionality. Deep learning algorithm directly approximates the optimal trading strategies by a feedforward neural network at each discrete time. It is observed that deep learning approach can achieve satisfying performance to characterize optimal buy and sell boundaries and thus value function.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3243c890dd84be26eb422a6f0d0de0dc",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T00:55:28.534094"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on solving portfolio selection problems with proportional transaction costs using deep learning, which directly pertains to the optimization and management of investment portfolios, a core aspect of Portfolio Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on solving portfolio selection problems with proportional transaction costs using deep learning, which directly pertains to the optimization and management of investment portfolios, a core aspect of Portfolio Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:08.238005"
+}

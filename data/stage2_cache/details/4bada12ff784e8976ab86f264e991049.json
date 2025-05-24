@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 583,
+    "title": "Establishing decision tree-based short-term default credit risk assessment models",
+    "abstract": "Traditional credit risk assessment models do not consider the time factor; they only think of whether a customer will default, but not the when to default. The result cannot provide a manager to make the profit-maximum decision. Actually, even if a customer defaults, the financial institution still can gain profit in some conditions. Nowadays, most research applied the Cox proportional hazards model into their credit scoring models, predicting the time when a customer is most likely to default, to solve the credit risk assessment problem. However, in order to fully utilize the fully dynamic capability of the Cox proportional hazards model, time-varying macroeconomic variables are required which involve more advanced data collection. Since short-term default cases are the ones that bring a great loss for a financial institution, instead of predicting when a loan will default, a loan manager is more interested in identifying those applications which may default within a short period of time when approving loan applications. This paper proposes a decision tree-based short-term default credit risk assessment model to assess the credit risk. The goal is to use the decision tree to filter the short-term default to produce a highly accurate model that could distinguish default lending. This paper integrates bootstrap aggregating (Bagging) with a synthetic minority over-sampling technique (SMOTE) into the credit risk model to improve the decision tree stability and its performance on unbalanced data. Finally, a real case of small and medium enterprise loan data that has been drawn from a local financial institution located in Taiwan is presented to further illustrate the proposed approach. After comparing the result that was obtained from the proposed approach with the logistic regression and Cox proportional hazards models, it was found that the classifying recall rate and precision rate of the proposed model was obviously superior to the logistic regression and Cox proportional hazards models.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "5adb2bb6ad8b7572982dddc61c5c20ac",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.437803"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a decision tree-based model for short-term default credit risk assessment, which is a key aspect of financial risk management, specifically in the area of credit risk evaluation and mitigation.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a decision tree-based model for short-term default credit risk assessment, which is a key aspect of financial risk management, specifically in the area of credit risk evaluation and mitigation.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:40.745740"
+}

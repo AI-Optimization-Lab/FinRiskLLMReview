@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1905,
+    "title": "Development of Machine Learning Algorithms to Predict Patient Dissatisfaction After Primary Total Knee Arthroplasty",
+    "abstract": "Background: Postoperative dissatisfaction after primary total knee arthroplasty (TKA) that requires additional care or readmission may impose a significant financial burden to healthcare systems. The purpose of the current study is to develop machine learning algorithms to predict dissatisfaction after TKA. Methods: A retrospective review of consecutive TKA patients between 2014 and 2016 from 1 large academic and 2 community hospitals was performed. Preoperative variables considered for prediction included demographics, medical history, flexion contracture, knee flexion, and outcome scores (patient-reported health state, Knee Society Score [KSS], and KSS-Function [KSS-F]). Recursive feature elimination was used to select features that optimized algorithm performance. Five supervised machine learning algorithms were developed by training with 10-fold cross-validation 3 times. These algorithms were subsequently applied to an independent testing set of patients and assessed by discrimination, calibration, Brier score, and decision curve analysis. Results: Of 430 patients, a total of 40 (9.0%) were dissatisfied with their outcome after primary TKA at a minimum of 2 years postoperatively. The random forest algorithm achieved the best performance in the independent testing set not used for algorithm development (c-statistic: 0.77, calibration intercept: 0.087, calibration slope: 0.74, Brier score: 0.082). The most important factors for predicting dissatisfaction were age, number of medical comorbidities, presence of one or more drug allergies, preoperative patient-reported health state score, and preoperative KSS. Conclusion: The current study developed machine learning algorithms based on partially modifiable risk factors for predicting dissatisfaction after TKA. This model demonstrates good discriminative capacity for identifying those at greatest risk for dissatisfaction and may allow for preoperative health optimization. (C) 2020 Elsevier Inc. All rights reserved.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "64636cf3e97b92a65f56ef7e8b735fc0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "random forest",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:08:39.089315"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习算法预测膝关节置换术后患者的不满意度，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习算法预测膝关节置换术后患者的不满意度，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:28.808609"
+}

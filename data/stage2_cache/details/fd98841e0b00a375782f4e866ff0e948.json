@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 219,
+    "title": "基于基本面因子的FCM量化选股策略",
+    "abstract": "选取沪深300成分股作为样本股,截取2015-2018年财务数据和行情数据,基于价值因子、盈利能力因子、运营能力因子、成长能力因子、偿债能力因子及品质因子六个维度选取的候选因子,利用模糊C-均值聚类(FCM)算法对有效因子进行最终筛选,构建多因子模型。本模型在对沪深300成分股测试中取收益前100股作为一览组股票形成投资组合,其测试结果大部分年份远超基准收益,其他指标相对稳健,为量化投资研究提供了新的思路。",
+    "year": 2019,
+    "source": "CNKI",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "46820dca2a0db8725bcbed605298b270",
+    "relevant_keywords": [
+      "unsupervised learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-14T20:19:38.843531"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用模糊C-均值聚类算法筛选有效因子并构建多因子模型，用于选股并形成投资组合，这直接应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用模糊C-均值聚类算法筛选有效因子并构建多因子模型，用于选股并形成投资组合，这直接应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:44:39.532460"
+}

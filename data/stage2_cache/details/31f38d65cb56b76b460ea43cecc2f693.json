@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1137,
+    "title": "Dynamic programming with NAR model versus Q-learning - Case study",
+    "abstract": "Two approaches to control policy synthesis for unknown systems are investigated. An indirect approach is based on adaptive identification of a neural network model in the NAR form (nonlinear autoregresion model) followed by application of the dynamic programming to this model.. A direct approach consists of Q-learning with the use of a lookup table. Both methods were applied to optimization of a stock portfolio problem and tested on Warsaw Stock Exchange data.",
+    "year": 2003,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "241e0baec73816e1ba2c6b5e0e355ed0",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.418874"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提到将两种方法应用于股票投资组合优化问题，并在华沙证券交易所数据上进行了测试，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确提到将两种方法应用于股票投资组合优化问题，并在华沙证券交易所数据上进行了测试，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:23:58.240939"
+}

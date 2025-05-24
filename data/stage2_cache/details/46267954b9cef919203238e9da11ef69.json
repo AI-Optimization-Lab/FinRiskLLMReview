@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 891,
+    "title": "Reducing infrequent-token perplexity via variational corpora",
+    "abstract": "Recurrent neural network (RNN) is recognized as a powerful language model (LM). We investigate deeper into its performance portfolio, which performs well on frequent grammatical patterns but much less so on less frequent terms. Such portfolio is expected and desirable in applications like autocomplete, but is less useful in social content analysis where many creative, unexpected usages occur (e.g., URL insertion). We adapt a generic RNN model and show that, with variational training corpora and epoch unfolding, the model improves its performance for the task of URL insertion suggestions.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "ebf253c3b22b1e56012d9b7abe5d6caf",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "RNN",
+      "language model",
+      "LM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.228056"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是通过变分训练语料库和改进的RNN模型来提高语言模型在低频词汇上的性能，特别是针对URL插入建议的任务。虽然使用了机器学习技术，但并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域的具体应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是通过变分训练语料库和改进的RNN模型来提高语言模型在低频词汇上的性能，特别是针对URL插入建议的任务。虽然使用了机器学习技术，但并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域的具体应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:44.172330"
+}

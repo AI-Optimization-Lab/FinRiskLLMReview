@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 842,
+    "title": "Deep Reinforcement Learning in Agent Based Financial Market Simulation",
+    "abstract": "Prediction of financial market data with deep learning models has achieved some level of recent success. However, historical financial data suffer from an unknowable state space, limited observations, and the inability to model the impact of your own actions on the market can often be prohibitive when trying to find investment strategies using deep reinforcement learning. One way to overcome these limitations is to augment real market data with agent based artificial market simulation. Artificial market simulations designed to reproduce realistic market features may be used to create unobserved market states, to model the impact of your own investment actions on the market itself, and train models with as much data as necessary. In this study we propose a framework for training deep reinforcement learning models in agent based artificial price-order-book simulations that yield non-trivial policies under diverse conditions with market impact. Our simulations confirm that the proposed deep reinforcement learning model with unique task-specific reward function was able to learn a robust investment strategy with an attractive risk-return profile.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e08a7f687a5d7a7d006564d8825d5503",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.612643"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用深度强化学习在基于代理的人工市场模拟中训练投资策略，目标是学习具有吸引力的风险-回报特征的投资策略，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用深度强化学习在基于代理的人工市场模拟中训练投资策略，目标是学习具有吸引力的风险-回报特征的投资策略，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:16.698541"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 4695,
+    "title": "Forecasting Complex Systems with Shared Layer Perceptrons",
+    "abstract": "We present a recurrent neural network topology, the Shared Layer Perceptron, which allows robust forecasts of complex systems. This is achieved by several means. First, the forecasts are multivariate, i.e., all observables are forecasted at once. We avoid overfitting the network to a specific observable. The output at time step t, serves as input for the forecast at time step t+1. In this way, multi step forecasts are easily achieved. Second, training several networks allows us to get not only a point forecast, but a distribution of future realizations. Third, we acknowledge that the dynamic system we want to forecast is not isolated in the world. Rather, there may be a multitude of other variables not included in our analysis which may influence the dynamics. To accommodate this, the observable states are augmented by hidden states. The hidden states allow the system to develop its own internal dynamics and harden it against external shocks. Relatedly, the hidden states allow to build up a memory. Our example includes 25 financial time series, representing a market, i.e., stock indices, interest rates, currency rates, and commodities, all from different regions of the world. We use the Shared Layer Perceptron to produce forecasts up to 20 steps into the future and present three applications: transaction decision support with market timing, value at risk, and a simple trading strategy.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "eff96622393a036a63c14d1699bfe314",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "hidden layer",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:39:57.587759"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用共享层感知器进行复杂系统的预测，特别是金融时间序列。论文明确提到了三个应用场景：交易决策支持（市场时机选择）、风险价值（VaR）和简单的交易策略。其中，风险价值（VaR）属于金融风险管理的范畴，而交易决策支持和交易策略则与投资组合管理相关。因此，该论文的主要技术应用涉及金融风险管理和投资组合管理两个领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用共享层感知器进行复杂系统的预测，特别是金融时间序列。论文明确提到了三个应用场景：交易决策支持（市场时机选择）、风险价值（VaR）和简单的交易策略。其中，风险价值（VaR）属于金融风险管理的范畴，而交易决策支持和交易策略则与投资组合管理相关。因此，该论文的主要技术应用涉及金融风险管理和投资组合管理两个领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:22:35.369066"
+}

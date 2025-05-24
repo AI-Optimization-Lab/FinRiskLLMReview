@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 146,
+    "title": "基于GCS-BP的期权定价模型的股票价值",
+    "abstract": "为了通过期权定价模型对股票的价值进行估计,首先运用基于高斯扰动的布谷鸟GCS-BP神经网络对公司价值进行预测,然后根据Black-Scholes模型求出股票的价值,最后将其与该公司股票在股市上的价格相比较判断该股票是否有投资价值.该方法简单有效,克服了传统的股票价值确定方法的缺点.",
+    "year": 2016,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "3e95b845a81ba566c2c4af5fdbee9e3d",
+    "relevant_keywords": [
+      "neural network",
+      "backpropagation",
+      "BP"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:39.678225"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用GCS-BP神经网络结合Black-Scholes模型对股票价值进行估计，这直接涉及期权定价模型的应用，属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用GCS-BP神经网络结合Black-Scholes模型对股票价值进行估计，这直接涉及期权定价模型的应用，属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:34.782462"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 569,
+    "title": "Semi-Supervised Learning Classification Based on Generalized Additive Logistic Regression for Corporate Credit Anomaly Detection",
+    "abstract": "Conventional corporate credit evaluation models are primarily based solely on financial variables in conjunction with supervised learning methods. However, the acquisition of the labeled sample information required by supervised learning methods is generally a costly and lengthy process, and is therefore difficult to obtain in practice, while the introduction of non-financial variables can be expected to provide greater diagnostic scope. The present study addresses these issues by proposing a semi-supervised generalized additive logistic regression model for detecting corporate credit anomalies based on a high proportion of unlabeled sample information that includes both financial and non-financial variables. The model not only can accommodate linear non-separable problems, but can also be trained using both labeled and unlabeled samples at the same time, while simultaneously realizing parameter estimation and variable selection. We also develop more precise definitions of corporate credit anomalies to increase the accuracy of corporate default risk assessments. The model is trained and tested using a dataset composed of actual financial and non-financial corporate data freely available on the Internet, and is demonstrated to provide better variable selection and credit anomaly prediction with better accuracy and robustness than other state-of-the-art models. The results reveal key financial variables correlated with corporate credit anomaly detection, and also verify that the non-financial variables significantly improve the corporate credit anomaly prediction accuracy of the model.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "608e21753cec06f47c5f7029796b8335",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "semi-supervised learning",
+      "classification",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.385220"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on detecting corporate credit anomalies and improving default risk assessments, which are key aspects of financial risk management. The proposed semi-supervised learning model aims to enhance the accuracy and robustness of credit anomaly predictions, directly addressing risk assessment challenges in financial contexts.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on detecting corporate credit anomalies and improving default risk assessments, which are key aspects of financial risk management. The proposed semi-supervised learning model aims to enhance the accuracy and robustness of credit anomaly predictions, directly addressing risk assessment challenges in financial contexts.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:42.540090"
+}

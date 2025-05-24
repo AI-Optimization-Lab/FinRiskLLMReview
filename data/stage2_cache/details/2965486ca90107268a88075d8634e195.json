@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 215,
+    "title": "Modeling default risk with support vector machines",
+    "abstract": "Predicting default risk is important for firms and banks to operate successfully. There are many reasons to use nonlinear techniques for predicting bankruptcy from financial ratios. Here we propose the so-called Support Vector Machine (SVM) to predict the default risk of German firms. Our analysis is based on the Creditreform database. In all tests performed in this paper the nonlinear model classified by SVM exceeds the benchmark logit model, based on the same predictors, in terms of the performance metric, AR. The empirical evidence is in favor of the SVM for classification, especially in the linear non-separable case. The sensitivity investigation and a corresponding visualization tool reveal that the classifying ability of SVM appears to be superior over a wide range of SVM parameters. In terms of the empirical results obtained by SVM, the eight most important predictors related to bankruptcy for these German firms belong to the ratios of activity, profitability, liquidity, leverage and the percentage of incremental inventories. Some of the financial ratios selected by the SVM model are new because they have a strong nonlinear dependence on the default risk but a weak linear dependence that therefore cannot be captured by the usual linear models such as the DA and logit models.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d10e86efabb40ce1600e5e0f4c7726bc",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:48:30.634599"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting default risk using Support Vector Machines (SVM), which is a key aspect of credit risk management, a subfield of Financial Risk Management. The study specifically addresses the classification of default risk for firms, which is directly related to assessing and managing financial risks.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting default risk using Support Vector Machines (SVM), which is a key aspect of credit risk management, a subfield of Financial Risk Management. The study specifically addresses the classification of default risk for firms, which is directly related to assessing and managing financial risks.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:56.308111"
+}

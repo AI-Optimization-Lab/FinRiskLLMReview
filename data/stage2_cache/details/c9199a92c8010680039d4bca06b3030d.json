@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2404,
+    "title": "MetaRisk: Semi-supervised few-shot operational risk classification in banking industry",
+    "abstract": "We study the operational risk classification problem, a critical yet challenging problem in the banking industry. In practice, banks build supervised multi-label classification models to identify the pre-defined risks using financial news sources. However, the models are often suboptimal due to the lack of labeled data and diverse combinations of risk types. To address these practical issues, we re-frame multi-label supervised operational risk classification as a semi-supervised few-shot learning problem, named MetaRisk, which can then be effectively learned using the prototypical network. We also propose a weighted scheme to help obtain accurately prototype vectors of multi-risk classes. We evaluate the proposed approach MetaRisk using a real-world operational risk classification dataset, and the results demonstrate that it outperforms a set of standard baselines. Especially, MetaRisk is capable of predicting risk types that are new to the system. We expect our work provides a direct and relevant toolkit that may assist risk officers to predict and intervene risks in the banking industry. (C) 2020 Elsevier Inc. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c8469820b39740dfd4b02c6a78fdf094",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "semi-supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "Few-shot Learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:50.352931"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on operational risk classification in the banking industry, which is a key aspect of financial risk management. The proposed MetaRisk model aims to assist risk officers in predicting and intervening risks, directly addressing risk management challenges.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on operational risk classification in the banking industry, which is a key aspect of financial risk management. The proposed MetaRisk model aims to assist risk officers in predicting and intervening risks, directly addressing risk management challenges.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:29.904846"
+}

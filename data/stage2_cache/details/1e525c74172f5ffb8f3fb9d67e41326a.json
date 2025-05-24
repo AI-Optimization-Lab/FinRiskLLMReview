@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 986,
+    "title": "Biogeography based optimization for mining rules to assess credit risk",
+    "abstract": "Financial institutions, by and large, rely on the use of machine learning techniques to improve the classic credit risk assessment model for reduction of costs, delivery of faster decisions, guaranteed credit collections, and risk mitigations. As such, several data mining and machine learning approaches have been developed for computation of credit scores over the last few decades. Moreover, the existing rule-based classification algorithms tend to generate a number of rules with a large number of conditions in the antecedent part. However, these algorithms fail to demonstrate high predictive accuracy while balancing coverage and simplicity. Thus, it becomes quite a challenging task for the researchers to generate an optimal rule set with high predictive accuracy. In this paper, we present an effective rule based classification technique for the prediction of credit risk using a novel Biogeography Based Optimization (BBO) method. The novel BBO in the context of rule mining is named as locally and globally tuned biogeography based rule-miner (LGBBO-RuleMiner). This is applied for discovering optimal rule set with high predictive accuracy from the dataset containing both the categorical and continuous attributes. The performance of the proposed algorithm is compared against a variety of rule-miners such as OneR (1R), PART, JRip, Decision Table, Conjunctive Rule, J48, and Random Tree, along with some meta-heuristic based rule mining techniques by considering two credit risk datasets obtained from University of California, Irvine (UCI) repository. It is found from the comparative study that the proposed rule miner in ten independent runs of ten-fold cross validation outperforms all of the aforesaid algorithms in terms of predictive accuracy, coverage, and simplicity.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "515f0071dd12de16d6a0036922ad4937",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:57:29.887362"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a rule-based classification technique using Biogeography Based Optimization (BBO) for credit risk assessment, which is a key aspect of financial risk management. The study aims to improve predictive accuracy in credit risk prediction, directly addressing risk mitigation for financial institutions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a rule-based classification technique using Biogeography Based Optimization (BBO) for credit risk assessment, which is a key aspect of financial risk management. The study aims to improve predictive accuracy in credit risk prediction, directly addressing risk mitigation for financial institutions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:45.083758"
+}

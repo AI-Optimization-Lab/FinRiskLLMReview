@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 3335,
+    "title": "Developing Image-Based Classification Techniques to Analyse Customer Behaviour",
+    "abstract": "Banks, investment firms and other financial service providers are required to safeguard customers from unsuitable financial products under Know Your Customer (KYC) regulation, such as FCA Sect. 5.2. Recent work has proposed to model a customer's risk profile as a heatmap, which can be used to calculate a risk score by classifying the image via a CNN and extracting geometric features from it using contour detection. This provides an interpretable approach to analysing customer spending behaviour. However, there is a lack of comparative evaluation in the literature of alternative classification techniques to the heatmap representation, which is the focus of our paper. The heatmap model evaluated by this study achieved an F1 score of 94.6% when classifying heatmap geometry, far outperforming other configurations, including state-of-the-art algorithms typically employed for TSC such as HIVE-COTE, as well as alternative image-transform techniques such as Gramian angular fields. Our experiments used a transactional dataset produced by Lloyds Banking Group, a major UK retail bank, via agent-based modelling (ABM). This data was computer generated and at no point was real transactional data shared. This study shows that a grouped CNN model paired with the heatmap representation is superior to conventional time series classification and image-transform methods at classifying customer spending.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "71ffaa089cc955a5aeb34675e1c81f6d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:25:13.703552"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用图像分类技术（如CNN）来分析客户消费行为，以评估客户的风险状况，这直接应用于金融机构的KYC（了解你的客户）合规要求，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用图像分类技术（如CNN）来分析客户消费行为，以评估客户的风险状况，这直接应用于金融机构的KYC（了解你的客户）合规要求，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:51.827606"
+}

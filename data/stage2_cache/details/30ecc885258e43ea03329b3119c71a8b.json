@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 7140,
+    "title": "Exploratory Analysis and Modeling of Stock Returns",
+    "abstract": "In this article, novel joint semiparametric spline-based modeling of conditional mean and volatility of financial time series is proposed and evaluated on daily stock return data. The modeling includes functions of lagged response variables and time as predictors. The latter can be viewed as a proxy for omitted economic variables contributing to the underlying dynamics. The conditional mean model is additive. The conditional volatility model is multiplicative and linearized with a logarithmic transformation. In addition, a cube-root power transformation is employed to symmetrize the lagged response variables. Using cubic splines, the model can be written as a multiple linear regression, thereby allowing predictions to be obtained in a simple manner. As outliers are often present in financial data, reliable estimation of the model parameters is achieved by trimmed least-square (TLS) estimation for which a reasonable amount of trimming is suggested. To obtain a parsimonious specification of the model, a new model selection criterion corresponding to TLS is derived. Moreover, the (three-parameter) generalized gamma distribution is identified as suitable for the absolute multiplicative errors and shown to work well for predictions and also for the calculation of quantiles, which is important to determine the value at risk. All model choices are motivated by a detailed analysis of IBM, HP, and SAP daily returns. The prediction performance is compared to the classical generalized autoregressive conditional heteroskedasticity (GARCH) and asymmetric power GARCH (APGARCH) models as well as to a nonstationary time trend volatility model. The results suggest that the proposed model may possess a high predictive power for future conditional volatility. Supplementary materials for this article are available online.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7518354dd2f9a848b7e94798363dd8a8",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T03:05:32.062308"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on modeling conditional volatility and calculating quantiles for value at risk, which are key components in financial risk management. The proposed model is evaluated for its predictive power in forecasting future conditional volatility, a critical aspect in assessing and managing financial risks.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on modeling conditional volatility and calculating quantiles for value at risk, which are key components in financial risk management. The proposed model is evaluated for its predictive power in forecasting future conditional volatility, a critical aspect in assessing and managing financial risks.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:26:40.308897"
+}

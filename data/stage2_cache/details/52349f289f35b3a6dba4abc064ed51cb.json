@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 60,
+    "title": "Prediction of the Stock Market From Linguistic Phrases: A Deep Neural Network Approach",
+    "abstract": "Automation of financial data collection, generation, accumulation, and interpretation for decision making may reduce volatility in the stock market and increase liquidity occasionally. Thus, future markets' prediction factoring in the sentiment of investors and algorithmic traders is an exciting area for research with deep learning techniques emerging to understand the market and its future direction. The paper develops two FINBERT deep neural network models pre-trained on the financial phrase dataset, the first one to extract sentiment from the NSE market news. The second model is adopted to predict the stock market movement of NSE with the above sentiment, historical stock prices, return on investment, and risk as predictors. The accuracy is compared with RNN and LSTM and baseline machine learning classifiers like naive bayes and support vector machine (SVM). The accuracy of the FINBERT model is found to out-perform the deep learning algorithms and above baseline machine learning classifiers thus justifying the importance of the FINBERT model in stock market prediction.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d3981aff257ef461a024f9dbc6ed6207",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "long short-term memory",
+      "LSTM",
+      "Large Language Model",
+      "LLM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:46:03.928133"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用深度学习模型（如FINBERT）预测股票市场走势，虽然涉及金融领域，但并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用深度学习模型（如FINBERT）预测股票市场走势，虽然涉及金融领域，但并未明确应用于衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:12.277010"
+}

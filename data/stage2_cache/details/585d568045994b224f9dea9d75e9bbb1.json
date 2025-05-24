@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2976,
+    "title": "Valuation of Large Variable Annuity Portfolios with Rank Order Kriging",
+    "abstract": "Metamodels, which simplify the simulation models used in the valuation of large variable annuity portfolios, have recently increased in popularity. The ordinary kriging and the GB2 (generalized beta of the second kind) regression models are examples of metamodels used to predict fair market values of variable annuity guarantees. It is well known that the distribution of fair market values is highly skewed. Ordinary kriging does not fit skewed data well but depends on only a few parameters that can be estimated straightforwardly. GB2 regression can handle skewed data but parameter estimation can be quite challenging. In this article, we explore the rank order kriging method, which can handle highly skewed data and depends only on a single parameter, for the valuation of large variable annuity portfolios. Our numerical results demonstrate that the rank order kriging method performs remarkably well in terms of fitting the skewed distribution and producing accurate estimates of fair market values at the portfolio level.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "512ebba9db1f0bf73ad8f93f4d0d98a4",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:09.220836"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文主要研究使用rank order kriging方法来评估大型可变年金投资组合的公允市场价值，这属于衍生品定价的范畴，因为可变年金通常包含嵌入式衍生品（如保证条款），其定价是核心研究内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文主要研究使用rank order kriging方法来评估大型可变年金投资组合的公允市场价值，这属于衍生品定价的范畴，因为可变年金通常包含嵌入式衍生品（如保证条款），其定价是核心研究内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:58.421829"
+}

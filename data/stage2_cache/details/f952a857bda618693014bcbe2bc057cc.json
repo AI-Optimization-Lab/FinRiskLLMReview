@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 3222,
+    "title": "Loan Applicant Anomaly Detection",
+    "abstract": "Anomaly detection, also known as outlier detection, involves identifying data points or patterns that deviate significantly from the expected or normal behavior within a dataset. Anomaly detection in loan applicants is an important topic in the financial industry to reduce the risk of default and prevent fraud. The financial industry has proposed several techniques to identify anomalies in loan applicant data. This study aims to identify anomalous loan applicants by utilizing methods such as k-Nearest Neighbor (k-NN), Local Outlier Factor (LOF), Isolation Forest (iForest), and Density-Based Spatial Clustering of Applications with Noise (DBSCAN) to examine and identify specific traits associated with risk-based classifications. The dataset obtained from the Rusamilae branch of the Ibnu Affan Cooperative contains a wide array of characteristics about 3,242 loan applicants. These characteristics encompass demographic indicators, occupation details, credit history, financial information, and the motivations for their loan applications. The results indicate that iForest outperforms other methods in accurately identifying 86 non-conventional loan applicants and achieving an average silhouette coefficient of 0.28 for categorizing them into two distinct groups. The findings of the characteristic investigation reveal that high-quality loan applicants possess a total income that surpasses that of low-quality loan applicants. In contrast, the group of financially disadvantaged loan applicants has a significant number of payment defaults and a substantial amount of outstanding debt.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "7535d243b08ef70f0ef216650482f2db",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "classification",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:24:05.018506"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on detecting anomalous loan applicants to reduce default risk and prevent fraud, which is a key aspect of financial risk management in the lending industry.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on detecting anomalous loan applicants to reduce default risk and prevent fraud, which is a key aspect of financial risk management in the lending industry.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:37:20.960736"
+}

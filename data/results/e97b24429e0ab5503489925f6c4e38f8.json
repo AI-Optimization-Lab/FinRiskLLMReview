@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "regression",
+    "decision tree"
+  ],
+  "explanations": {
+    "machine learning": "论文使用了XGboost和线性回归等机器学习方法构建模型。",
+    "supervised learning": "XGboost和线性回归都是监督学习的方法。",
+    "classification": "论文提到使用了XGboost二分类模型，属于分类任务。",
+    "regression": "论文明确提到使用了线性回归方法。",
+    "decision tree": "XGboost是基于决策树的集成学习方法。"
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"regression\", \"decision tree\"], \n  \"explanations\": {\n    \"machine learning\": \"论文使用了XGboost和线性回归等机器学习方法构建模型。\",\n    \"supervised learning\": \"XGboost和线性回归都是监督学习的方法。\",\n    \"classification\": \"论文提到使用了XGboost二分类模型，属于分类任务。\",\n    \"regression\": \"论文明确提到使用了线性回归方法。\",\n    \"decision tree\": \"XGboost是基于决策树的集成学习方法。\"\n  }\n}\n```"
+}

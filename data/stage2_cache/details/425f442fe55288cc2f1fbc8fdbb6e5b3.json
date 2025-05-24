@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 126,
+    "title": "A One-Layer Recurrent Neural Network for Real-Time Portfolio Optimization With Probability Criterion",
+    "abstract": "This paper presents a decision-making model described by a recurrent neural network for dynamic portfolio optimization. The portfolio-optimization problem is first converted into a constrained fractional programming problem. Since the objective function in the programming problem is not convex, the traditional optimization techniques are no longer applicable for solving this problem. Fortunately, the objective function in the fractional programming is pseudoconvex on the feasible region. It leads to a one-layer recurrent neural network modeled by means of a discontinuous dynamic system. To ensure the optimal solutions for portfolio optimization, the convergence of the proposed neural network is analyzed and proved. In fact, the neural network guarantees to get the optimal solutions for portfolio-investment advice if some mild conditions are satisfied. A numerical example with simulation results substantiates the effectiveness and illustrates the characteristics of the proposed neural network.",
+    "year": 2013,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6f76a8227732fbbe05ac1e94eb5dfbbb",
+    "relevant_keywords": [
+      "neural network",
+      "recurrent neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.618158"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用递归神经网络进行动态投资组合优化，明确提到了portfolio optimization和portfolio-investment advice，这直接属于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"该论文的核心技术是使用递归神经网络进行动态投资组合优化，明确提到了portfolio optimization和portfolio-investment advice，这直接属于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:24.219340"
+}

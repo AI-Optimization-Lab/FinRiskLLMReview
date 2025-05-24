@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 889,
+    "title": "An Automated Portfolio Trading System with Feature Preprocessing and Recurrent Reinforcement Learning",
+    "abstract": "We propose a novel portfolio trading system, which contains a feature preprocessing module and a trading module. The feature preprocessing module consists of various data processing operations, while in the trading part, we integrate the portfolio weight rebalance function with the trading algorithm and make the trading system fully automated and suitable for individual investors, holding a handful of stocks. The data preprocessing procedures are applied to remove the white noise in the raw data set and uncover the general pattern underlying the data set before the processed feature set is inputted into the trading algorithm. Our empirical results reveal that the proposed portfolio trading system can efficiently earn high profit and maintain a relatively low drawdown, which clearly outperforms other portfolio trading strategies.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "06e46596b8c97abd1d0174f0297d4687",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.291369"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing an automated portfolio trading system using reinforcement learning and feature preprocessing, which is directly related to the management of investment portfolios. The system aims to optimize portfolio weights and trading strategies, which are core aspects of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing an automated portfolio trading system using reinforcement learning and feature preprocessing, which is directly related to the management of investment portfolios. The system aims to optimize portfolio weights and trading strategies, which are core aspects of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:26:44.732655"
+}

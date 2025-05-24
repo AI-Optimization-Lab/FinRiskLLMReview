@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2520,
+    "title": "Building Energy Management for Demand Response Using Kernel Lifelong Learning",
+    "abstract": "Demand response (DR) aims at improving the reliability and efficiency of the power grids by shaping the power demand over time. Given that building energy consumption constitutes a significant portion of the overall grid load, building energy management is a critical component for the DR portfolio. In this study, DR control policies for lighting and air-conditioner systems for the individual spaces in buildings are proposed. The policies are designed to achieve the energy reduction amount specified in the DR request while minimizing the user discomfort. A significant challenge is to cope with the uncertainty of various environmental factors such as the solar illuminance and ambient temperature, as well as the psycho-economic factors such as the energy usage preferences of the occupants. We employ a data-driven machine learning approach to tackle this challenge. Our novel idea is to take advantage of the structural similarity of the control policies across the spaces in a lifelong multi-task learning framework. To accommodate significant nonlinearity in efficient policies, a kernel-based learning approach is pursued. The dual decomposition method is employed to relax the constraint coupled across the spaces, which allows solving the overall learning problem via a series of unconstrained subproblems. The efficacy of the proposed method is verified by numerical experiments based on semi-real data sets.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "159d976d34a828357382c911a71ec08e",
+    "relevant_keywords": [
+      "machine learning",
+      "kernel-based learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:35.740929"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究建筑能源管理中的需求响应控制策略，使用机器学习和核方法优化能源使用和用户舒适度，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究建筑能源管理中的需求响应控制策略，使用机器学习和核方法优化能源使用和用户舒适度，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:08.739512"
+}

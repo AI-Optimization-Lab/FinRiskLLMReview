@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 501,
+    "title": "Machine learning and optimization based decision-support tool for seed variety selection",
+    "abstract": "Every year agribusinesses develop and market new seed varieties with traits desirable for different planting environments. When agribusinesses experiment the new varieties at different farms, data is generated about the performance of these new seed varieties. However, farmers do not have a decision support tool to process the vast amount of yield performance data to make an informed seed variety selection decision for their farm. An informed decision requires accurate estimation of yield performances of seed varieties on the targeted farmland and balancing trade-offs between the expected yield and the risk associated with the seed varieties selected to grow. This research uses a real data set provided by Syngenta-an agribusiness-to create a decision-support tool. The data set used in this research contains yield information of different soybean varieties experimented at different farms located in the Midwest of the US, as well as information on location, soil, and weather conditions prevailing in those farms. In addition to this data, we also surveyed soybean farmers to understand their preferences and current practices in choosing seed varieties to grow in their farms. We are the first to capture and document farmers' preferences and practices in selecting and growing soybean varieties. The data collected from the survey enabled us to compare the results emerging from the proposed methodology with the status quo practices. Using the Syngenta data and survey responses, this paper proposes an analytics framework that integrates machine learning, clustering, simulation, and portfolio optimization to optimally select soybean varieties to grow at the target farm. We choose a machine learning model, which simulates the yield performance of soybean varieties under different plausible weather scenarios derived from the neighborhood of the target farm. The simulated yields are then used to estimate parameters in a portfolio optimization formulation that selects the optimal portfolio of seed varieties to grow at the target farm. The main methodological contribution of this research is in the development of an approach that integrates machine learning, clustering, simulation, and portfolio optimization to help farmers make an important decision. Specifically, we introduce a novel data-driven simulation-based approach to estimate the parameters needed to solve a portfolio optimization problem. Our analysis indicates that an average farmer will gain as much as $177,369 per year in revenue by utilizing the analytics framework introduced in this research. The methodology developed in this research can be applied to variety selection decisions for other crops and influence farming practice positively. By embracing the machine learning and analytics powered framework introduced in this paper, agribusinesses can position themselves as the innovation leader and create business value by unleashing the potential of the scientific discoveries of agronomy to offer tailored farming decision support to individual farmers.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "8d8827079e44c88382330e00ec9229d9",
+    "relevant_keywords": [
+      "machine learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:20.937796"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文的核心技术是使用机器学习、聚类、模拟和投资组合优化来帮助农民选择最优的种子品种，其应用领域是农业决策支持，而非金融研究领域。虽然提到了投资组合优化，但其应用场景是农业而非金融。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文的核心技术是使用机器学习、聚类、模拟和投资组合优化来帮助农民选择最优的种子品种，其应用领域是农业决策支持，而非金融研究领域。虽然提到了投资组合优化，但其应用场景是农业而非金融。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:08.393515"
+}

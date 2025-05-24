@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 118,
+    "title": "A hybrid option pricing model using a neural network for estimating volatility",
+    "abstract": "The Black-Scholes (BS) model is the standard approach used for pricing financial options. However, although being theoretically strong, option prices valued by the model often differ from the prices observed in the financial markets. This paper applies a hybrid neural network which preprocesses financial input data for improving the estimation of option market prices. This model is comprised of two parts. The first part is a neural network developed to estimate volatility. The second part is an additional neural network developed to value the difference between the BS model results and the actual market option prices. The resulting option price is then a summation between the BS model and the network response. The hybrid system with a neural network for estimating volatility provides better performance in terms of pricing accuracy than either the BS model with historical volatility (HV), or the BS model with volatility valued by the neural network.",
+    "year": 2007,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "43b45491b86b9de04e92204ab9c9cd7a",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:35.340047"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用混合神经网络模型来改进期权定价的准确性，特别是通过估计波动率和调整Black-Scholes模型的结果来更准确地预测市场期权价格。这直接属于衍生品定价的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用混合神经网络模型来改进期权定价的准确性，特别是通过估计波动率和调整Black-Scholes模型的结果来更准确地预测市场期权价格。这直接属于衍生品定价的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:32.295005"
+}

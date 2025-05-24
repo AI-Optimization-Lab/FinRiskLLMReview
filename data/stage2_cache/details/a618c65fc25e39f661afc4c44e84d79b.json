@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2394,
+    "title": "Forecasting financial signal for automated trading: An interpretable approach",
+    "abstract": "Traders can now use online trading applications to increase their capital by benefiting from financial markets fluctuations. The foreign exchange (forex) market, the silver and gold exchange markets, and stock indices (e.g. S&P 500) are among the most famous financial markets. Traders must identify the correct trends in any given market and take appropriate actions to increase their earnings. High levels of knowledge and competency are required to conduct profitable transactions. Deep learning and data clustering were employed in this study to propose an interpretable automated financial market trading model. In the proposed method, feature vectors are first extracted from the market price index and the values of useful indicators (e.g., RSI and MA). Data labeling is then performed through clustering. After that, a dataset is created to train a deep learning model in order to identify and adopt the best action (buy, sell, or no action). In financial markets, prices may change drastically and disrupt the performance of learning models. Therefore, an autoencoder network was designed to identify drastic fluctuations (outliers) in the market and avoid trading at such cases. This could prevent a steep drawdown. Experiments were performed on different markets to compare the proposed approach with the state-of-the-arts. The results indicate higher profitability with respect to the trading risk in comparison with other methods.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0bb7105f44770f6319ff97b522ca079c",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "clustering",
+      "neural network",
+      "autoencoder",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:50.323236"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用深度学习和数据聚类技术开发一个可解释的自动化交易模型，用于预测市场趋势并采取相应的交易行动（买、卖或不行动）。虽然涉及金融市场的交易策略，但并未明确涉及衍生品定价、金融风险管理或投资组合管理等特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用深度学习和数据聚类技术开发一个可解释的自动化交易模型，用于预测市场趋势并采取相应的交易行动（买、卖或不行动）。虽然涉及金融市场的交易策略，但并未明确涉及衍生品定价、金融风险管理或投资组合管理等特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:30.335099"
+}

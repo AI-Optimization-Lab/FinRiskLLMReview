@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 75,
+    "title": "Accelerated American option pricing with deep neural networks",
+    "abstract": "Given the competitiveness of a market-making environment, the ability to speedily quote option prices consistent with an ever-changing market environment is essential. Thus, the smallest acceleration or improvement over traditional pricing methods is crucial to avoid arbitrage. We propose a method for accelerating the pricing of American options to near-instantaneous using a feed-forward neural network. This neural network is trained over the chosen (e.g., Heston) stochastic volatility specification. Such an approach facilitates parameter interpretability, as generally required by the regulators, and establishes our method in the area of eXplainable Artificial Intelligence (XAI) for finance. We show that the proposed deep explainable pricer induces a speed-accuracy trade-off compared to the typical Monte Carlo or Partial Differential Equation-based pricing methods. Moreover, the proposed approach allows for pricing derivatives with path-dependent and more complex payoffs and is, given the sufficient accuracy of computation and its tractable nature, applicable in a market-making environment.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "b76b86d13e97665da08bb1e4521057b7",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.920766"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度神经网络加速美式期权的定价，并讨论了其在做市环境中的应用。这明确属于衍生品定价领域，因为论文的主要研究目标是改进期权定价方法。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Derivatives Pricing\"],\n  \"justification\": \"该论文的核心技术是使用深度神经网络加速美式期权的定价，并讨论了其在做市环境中的应用。这明确属于衍生品定价领域，因为论文的主要研究目标是改进期权定价方法。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:02.480158"
+}

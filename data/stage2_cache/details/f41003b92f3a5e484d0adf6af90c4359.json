@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 4689,
+    "title": "Comparative Text Analytics via Topic Modeling in Banking",
+    "abstract": "In this paper, we compare and evaluate multiple topic modeling approaches and their effectiveness in analyzing a large set of SEC filings by US public banks. More specifically, we apply four major topic modeling methods to a corpus of 8-K and 10-K filings, from the years 2005-2016, of 578 bank holding companies. These methods include Principal Component Analysis, Non-negative Matrix Factorization, Latent Dirichlet Allocation and KATE, a novel k-competitive autoencoder for text documents. Separately for 8-K and 10-K, the usefulness and effectiveness of these methods is evaluated by comparing their performances on two classification tasks: (i) predicting which section each document corresponds to, where we consider each section within an 8-K or 10-K filing as an individual document, and (ii) detecting text from a bank's year of failure, a task for which we use bank failure data from the 2008 financial crisis. In addition, we qualitatively compare the topics discovered by the different methods. We conclude that topic modeling can be an effective tool in financial decision making and risk management.",
+    "year": 2017,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c9e5f4096e5a3870e288f72cdbe285bc",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "classification",
+      "principal components analysis",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T02:39:57.559476"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on applying topic modeling techniques to analyze SEC filings from banks, specifically aiming to detect text from a bank's year of failure using data from the 2008 financial crisis. This application is directly related to identifying and managing financial risks, such as bank failures, which falls under the domain of Financial Risk Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on applying topic modeling techniques to analyze SEC filings from banks, specifically aiming to detect text from a bank's year of failure using data from the 2008 financial crisis. This application is directly related to identifying and managing financial risks, such as bank failures, which falls under the domain of Financial Risk Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:32:20.350681"
+}

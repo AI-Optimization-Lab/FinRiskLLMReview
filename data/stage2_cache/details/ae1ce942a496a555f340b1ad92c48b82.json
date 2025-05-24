@@ -1,0 +1,35 @@
+{
+  "paper": {
+    "id": 183,
+    "title": "Efficient multimodal learning for corporate credit risk prediction with an extended deep belief network",
+    "abstract": "Precise corporate credit risk (CCR) prediction empowers investors, banks and other financial institutions to build risk prevention and crisis evasion mechanisms. Currently, CCR prediction gradually trends towards integrating multi-source data for more accurate prediction, but the effective fusion of these data is still insufficient. For this purpose, this paper presents a novel method titled the multimodal extended deep belief network (MEDBN) for CCR prediction. First, a multimodal dataset comprising numerical, categorical, and textual data is constructed based on two public corporate credit rating datasets, with textual data sourced from 10-K/Q filings. Each modality is processed using specialized preprocessing techniques. Then, to effectively extract features from each modality while addressing the challenges of multimodal fusion and joint representation learning, the DBN is extended by incorporating advanced deep learning techniques, including residual networks (ResNet), embedding layers, and bidirectional encoders (BERT). Finally, MEDBN undergoes two-stage training consisting of unsupervised pretraining followed by supervised fine-tuning, enabling sufficient learning of joint representations to enhance model performance. Extensive experimental results indicate that MEDBN consistently outperforms benchmark models across most key metrics, with particularly notable robustness on smaller datasets. These findings imply that MEDBN can effectively fuse and utilize multimodal data to achieve more reliable predictions. Additionally, this study demonstrates how the textual content influences performance, providing interpretable insights to support the decision-making process.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "91bdb886547d29b2e56c7dd8c76f8cab",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "classification",
+      "feature learning",
+      "feature representation",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "deep belief network",
+      "unsupervised pre-train"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:04.421689"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种多模态扩展深度信念网络（MEDBN）用于企业信用风险（CCR）预测，这直接属于金融风险管理的范畴，旨在帮助投资者和金融机构建立风险预防机制。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是开发一种多模态扩展深度信念网络（MEDBN）用于企业信用风险（CCR）预测，这直接属于金融风险管理的范畴，旨在帮助投资者和金融机构建立风险预防机制。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:05.259674"
+}

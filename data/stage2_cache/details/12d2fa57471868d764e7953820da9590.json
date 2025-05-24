@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1596,
+    "title": "Enhancing Portfolio Performance through Financial Time-Series Decomposition-Based Variational Encoder-Decoder Data Augmentation",
+    "abstract": "The objective of portfolio diversification is to reduce risk and potentially enhance returns by spreading investments across different asset classes. Existing portfolio diversification models have traditionally been trained on historical financial time series data. However, several issues arise with historical financial time series data, making it challenging to train models effectively to achieve the portfolio diversification objective: an insufficient amount of training data and the uncertainty deficiency problem, wherein the uncertainty that existed in the past is not visible in the present. Insufficient datasets, characterized by small data size, result in information asymmetry and compromise portfolio performance. This limitation underscores the importance of adopting a pattern-centric data augmentation approach, capable of unveiling hidden patterns and structures within the financial time series data. To address these challenges, this paper introduces the financial time series decomposition-based variational encoder-decoder (FED) method to augment financial time series data, overcoming the limitations of insufficient training data and providing a more realistic and dynamic simulation of the financial market environment. By decomposing the data into distinct components, such as trend, dispersion, and residual, FED leverages pattern-centric data augmentation within the financial time series data. In the environment generated using the FED method, this paper proposes a two-class portfolio diversification, called FED2Port. It integrates stochastic elements into the reward function, enabling a reinforcement learning algorithm to learn from a comprehensive spectrum of financial market uncertainties. The experimental results demonstrate that the proposed model significantly enhances portfolio performance.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "695106d3852b553118e589ad9ee4e232",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "encoder-decoder",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:08.219977"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是金融时间序列分解和变分编码器-解码器数据增强方法，旨在通过增强训练数据来优化投资组合多样化模型。论文明确提到目标是减少风险并提高回报，这直接关联到投资组合管理的领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是金融时间序列分解和变分编码器-解码器数据增强方法，旨在通过增强训练数据来优化投资组合多样化模型。论文明确提到目标是减少风险并提高回报，这直接关联到投资组合管理的领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:56.173205"
+}

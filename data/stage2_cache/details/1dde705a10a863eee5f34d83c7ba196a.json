@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 358,
+    "title": "EEG-Based Emotion Classification in Financial Trading Using Deep Learning: Effects of Risk Control Measures",
+    "abstract": "Day traders in the financial markets are under constant pressure to make rapid decisions and limit capital losses in response to fluctuating market prices. As such, their emotional state can greatly influence their decision-making, leading to suboptimal outcomes in volatile market conditions. Despite the use of risk control measures such as stop loss and limit orders, it is unclear if these strategies have a substantial impact on the emotional state of traders. In this paper, we aim to determine if the use of limit orders and stop loss has a significant impact on the emotional state of traders compared to when these risk control measures are not applied. The paper provides a technical framework for valence-arousal classification in financial trading using EEG data and deep learning algorithms. We conducted two experiments: the first experiment employed predetermined stop loss and limit orders to lock in profit and risk objectives, while the second experiment did not employ limit orders or stop losses. We also proposed a novel hybrid neural architecture that integrates a Conditional Random Field with a CNN-BiLSTM model and employs Bayesian Optimization to systematically determine the optimal hyperparameters. The best model in the framework obtained classification accuracies of 85.65% and 85.05% in the two experiments, outperforming previous studies. Results indicate that the emotions associated with Low Valence and High Arousal, such as fear and worry, were more prevalent in the second experiment. The emotions associated with High Valence and High Arousal, such as hope, were more prevalent in the first experiment employing limit orders and stop loss. In contrast, High Valence and Low Arousal (calmness) emotions were most prominent in the control group which did not engage in trading activities. Our results demonstrate the efficacy of our proposed framework for emotion classification in financial trading and aid in the risk-related decision-making abilities of day traders. Further, we present the limitations of the current work and directions for future research.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9a6bef7cc97bc075579f03176559e91c",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "classification",
+      "neural network",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:41.106589"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究交易者的情绪状态对决策的影响，并探讨了止损和限价订单等风险控制措施对情绪的影响。这直接关联到金融风险管理中的情绪和行为风险控制，而非衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究交易者的情绪状态对决策的影响，并探讨了止损和限价订单等风险控制措施对情绪的影响。这直接关联到金融风险管理中的情绪和行为风险控制，而非衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:58:31.557279"
+}

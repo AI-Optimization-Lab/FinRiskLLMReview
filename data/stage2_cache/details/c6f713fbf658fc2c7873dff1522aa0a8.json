@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 847,
+    "title": "Neural network for solving convex quadratic bilevel programming problems",
+    "abstract": "In this paper, using the idea of successive approximation, we propose a neural network to solve convex quadratic bilevel programming problems (CQBPPs), which is modeled by a nonautonomous differential inclusion. Different from the existing neural network for CQBPP, the model has the least number of state variables and simple structure. Based on the theory of nonsmooth analysis, differential inclusions and Lyapunov-like method, the limit equilibrium points sequence of the proposed neural networks can approximately converge to an optimal solution of CQBPP under certain conditions. Finally, simulation results on two numerical examples and the portfolio selection problem show the effectiveness and performance of the proposed neural network. (C) 2013 Elsevier Ltd. All rights reserved.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "22cf115c1c36e5d86e32d916fbdce3bc",
+    "relevant_keywords": [
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.088117"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper mentions the application of the proposed neural network to the portfolio selection problem, which is a key aspect of portfolio management in finance.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper mentions the application of the proposed neural network to the portfolio selection problem, which is a key aspect of portfolio management in finance.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:20.130746"
+}

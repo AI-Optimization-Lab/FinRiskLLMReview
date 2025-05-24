@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3012,
+    "title": "Extremal optimization vs. learning automata: Strategies for spin selection in portfolio selection problems",
+    "abstract": "Nowadays, various imitations of natural processes are used to solve challenging optimization problems faster and more accurately. Spin glass based optimization, specifically, has shown strong local search capability and parallel processing. But, spin glasses have a low rate of convergence since they use Monte Carlo simulation techniques such as simulated annealing (SA). Here, we propose two algorithms that combine the long range effect in spin glasses with extremal optimization (EO-SA) and learning automata (LA-SA). Instead of arbitrarily flipping spins at each step, these two strategies aim to choose the next spin and selectively exploiting the optimization landscape. As shown in this paper, this selection strategy can lead to faster rate of convergence and improved performance. The resulting two algorithms are then used to solve portfolio selection problem that is a non-polynomial (NP) complete problem. Comparison of test results indicates that the two algorithms, while being very different in strategy, provide similar performance and reach comparable probability distributions for spin selection. Furthermore, experiments show there is no difference in speed of LA-SA or EO-SA for glasses with fewer spins, but EO-SA responds much better than LA-SA for large glasses. This is confirmed by tests results of five of the world's major stock markets. In the last, the convergence speed is compared to other heuristic methods such as Neural Network (NN), Tabu Search (TS), and Genetic Algorithm (GA) to approve the truthfulness of proposed methods. Crown Copyright (C) 2012 Published by Elsevier B.V. All rights reserved.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "af4560bcd31c9c8535a27c805756a4e3",
+    "relevant_keywords": [
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:12:43.061634"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出两种优化算法（EO-SA和LA-SA）来解决投资组合选择问题，这是一个非多项式（NP）完全问题，并且实验部分涉及了世界主要股票市场的测试结果，这明确指向了投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出两种优化算法（EO-SA和LA-SA）来解决投资组合选择问题，这是一个非多项式（NP）完全问题，并且实验部分涉及了世界主要股票市场的测试结果，这明确指向了投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:11:55.044732"
+}

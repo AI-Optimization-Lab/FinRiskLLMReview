@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2375,
+    "title": "MGP-INTACTSKY: Multitree Genetic Programming-based learning of INTerpretable and ACcurate TSK sYstems for dynamic portfolio trading",
+    "abstract": "In this paper, a Multitree Genetic Programming-based method is developed to learn an INTerpretable and ACcurate Takagi-Sugeno-Kang (TSK) fuzzy rule based sYstem (MGP-INTACTSKY) for dynamic portfolio trading. The MGP-INTACTSKY utilizes a TSK model with a new structure to develop a more interpretable and accurate system for dynamic portfolio trading. In the new structure of TSK, disjunctive normal form rules with variable structured consequent parts are developed in which the absence of some input variables is allowed. Input variables are the most influential technical indices which are selected by stepwise regression analysis. The technical indices are computed using wavelet transformed stock price series to eliminate the noise. The proposed system directly induces the preferred portfolio weights from the stock's technical indices through time. Here, genetic programming with the multitree structure is applied to learn the TSK fuzzy rule bases with the Pittsburgh approach. With this approach, the correlation of different stocks is properly considered during the evolutionary process. To evaluate the performance of the MGP-INTACTSKY for portfolio trading, the proposed model is implemented on the Tehran Stock Exchange as an emerging market as well as Toronto and Frankfurt Stock Exchanges as two mature markets. The experimental results show that the proposed model outperforms other methods such as the momentum strategy, the multitree genetic programming-based crisp system, the genetic algorithm-based first order TSK system, the buy and hold approach and the market's main index in terms of accuracy and interpretability. (C) 2015 Elsevier B.V. All rights reserved.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f8282c6ea8bc3aadf91850c9b3920743",
+    "relevant_keywords": [
+      "machine learning",
+      "genetic programming",
+      "regression",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:06:10.783528"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing a dynamic portfolio trading system using a Multitree Genetic Programming-based method to learn interpretable and accurate TSK fuzzy rule-based systems. The primary application is in determining portfolio weights based on technical indices, which is a core aspect of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing a dynamic portfolio trading system using a Multitree Genetic Programming-based method to learn interpretable and accurate TSK fuzzy rule-based systems. The primary application is in determining portfolio weights based on technical indices, which is a core aspect of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:15:27.336725"
+}

@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 282,
+    "title": "A machine learning approach to portfolio pricing and risk management for high-dimensional problems",
+    "abstract": "We present a general framework for portfolio risk management in discrete time, based on a replicating martingale. This martingale is learned from a finite sample in a supervised setting. Our method learns the features necessary for an effective low-dimensional representation, overcoming the curse of dimensionality common to function approximation in high-dimensional spaces, and applies for a wide range of model distributions. We show numerical results based on polynomial and neural network bases applied to high-dimensional Gaussian models. In these examples, both bases offer superior results to naive Monte Carlo methods and regress-now least-squares Monte Carlo (LSMC).",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3e05a162903853d802c711d17fc63749",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "representation learning",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:41:04.869013"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper presents a framework for portfolio risk management in discrete time, which directly addresses financial risk management. Additionally, the focus on portfolio pricing and overcoming high-dimensional problems in portfolio contexts indicates a strong application in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper presents a framework for portfolio risk management in discrete time, which directly addresses financial risk management. Additionally, the focus on portfolio pricing and overcoming high-dimensional problems in portfolio contexts indicates a strong application in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:11.975437"
+}

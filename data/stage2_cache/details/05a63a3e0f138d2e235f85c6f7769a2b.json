@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1016,
+    "title": "A Compact Evolutionary Interval-Valued Fuzzy Rule-Based Classification System for the Modeling and Prediction of Real-World Financial Applications With Imbalanced Data",
+    "abstract": "The current financial crisis has stressed the need to obtain more accurate prediction models in order to decrease risk when investing money on economic opportunities. In addition, the transparency of the process followed to make the decisions in financial applications is becoming an important issue. Furthermore, there is a need to handle real-world imbalanced financial datasets without using sampling techniques that might introduce noise in the used data. In this paper, we present a compact evolutionary interval-valued fuzzy rule-based classification system, which is based on interval-valued fuzzy rule-based classification system with tuning and rule selection (IVTURSFARC-HD) for the modeling and prediction of real-world financial applications. This proposed system allows obtaining good prediction accuracies using a small set of short fuzzy rules implying a high degree of interpretability of the generated linguistic model. Furthermore, the proposed system deals with the financial imbalanced datasets with no need for any preprocessing or sampling method and, thus, avoiding the accidental introduction of noise in the data used in the learning process. The system is also provided with a mechanism to handle examples that are not covered by any fuzzy rule in the generated rule base. To test the quality of our proposal, we will present an experimental study including 11 real-world financial datasets. We will show that the proposed system outperforms the original C4.5 decision tree, type-1, and interval-valued fuzzy counterparts that use the synthetic minority oversampling technique (SMOTE) to preprocess data and the original FURIA, which is a fuzzy approximative classifier. Furthermore, the proposed method enhances the results achieved by the cost-sensitive C4.5, and it gives competitive results when compared with FURIA using SMOTE, while our proposal avoids preprocessing techniques, and it provides interpretable models that allow obtaining more accurate results.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b1ce5e1ba945d18c859e68c7b3a73ec0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:08.438704"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种模糊规则分类系统，用于处理不平衡的金融数据集，以提高预测准确性并降低投资风险。这直接关联到金融风险管理中的风险预测和决策透明度问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种模糊规则分类系统，用于处理不平衡的金融数据集，以提高预测准确性并降低投资风险。这直接关联到金融风险管理中的风险预测和决策透明度问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:42.508667"
+}

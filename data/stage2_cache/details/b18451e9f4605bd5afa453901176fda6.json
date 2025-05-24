@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 895,
+    "title": "Robust neural network with applications to credit portfolio data analysis",
+    "abstract": "In this article, we study nonparametric conditional quantile estimation via neural network structure. We proposed an estimation method that combines quantile regression and neural network (robust neural network, RNN). It provides good smoothing performance in the presence of outliers and can be used to construct prediction bands. A Majorization-Minimization (MM) algorithm was developed for optimization. Monte Carlo simulation study is conducted to assess the performance of RNN. Comparison with other nonparametric regression methods (e. g., local linear regression and regression splines) in real data application demonstrate the advantage of the newly proposed procedure.",
+    "year": 2010,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c7bf4c32285670806902e3ff6f93de45",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:36.241697"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种结合分位数回归和神经网络的稳健神经网络（RNN）方法，用于非参数条件分位数估计，并在信用组合数据分析中进行了应用。分位数估计常用于风险度量（如VaR），而信用组合数据分析是金融风险管理的重要组成部分。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文提出了一种结合分位数回归和神经网络的稳健神经网络（RNN）方法，用于非参数条件分位数估计，并在信用组合数据分析中进行了应用。分位数估计常用于风险度量（如VaR），而信用组合数据分析是金融风险管理的重要组成部分。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:00.902758"
+}

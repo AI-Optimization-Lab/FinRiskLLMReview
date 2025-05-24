@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1944,
+    "title": "Divide and Contrast: A Text-Based Method for Firm Market Risk Prediction",
+    "abstract": "Forecasting the market risk for publicly traded companies is a critical task for market participants. Financial economics research demonstrates that the textual information contained in corporate disclosures, such as earnings conference call transcripts, can effectively predict a firm's future risk. This finding has inspired a growing body of research focused specifically on transcript-based approaches to risk forecasting. However, earnings transcripts are typically long documents with thousands of words. Prior transcript-based risk forecasting studies that represent the entire transcript as one text sequence often fail to capture risk-relevant information and fall short in risk forecasting. In this work, we propose a novel divide-and-contrast machine learning method for predicting risks from earnings conference call transcripts. We exploit the semistructured nature of an earnings transcript and decompose it into several semantically coherent conversation units, ranging from the finest grained question-answer pair level to the coarsest grained transcript level. We then propose contrastive learning objectives as an auxiliary task to the risk forecasting objective, facilitating the learning of risk-relevant information from the earnings transcripts. We conduct experiments on a data set of U.S. market earnings call transcripts. The experimental results show that our proposed divide-and-contrast method substantially outperforms state-of-the-art methods by significantly reducing errors in risk forecasting. This paper sheds light on extracting informative insights from lengthy financial documents to support informed decision making.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "c8735c59b345f548374f4565e9b54a79",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "representation learning",
+      "contrastive learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:09:14.407861"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting market risk for publicly traded companies using textual information from earnings conference call transcripts, which is a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting market risk for publicly traded companies using textual information from earnings conference call transcripts, which is a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:45:10.959223"
+}

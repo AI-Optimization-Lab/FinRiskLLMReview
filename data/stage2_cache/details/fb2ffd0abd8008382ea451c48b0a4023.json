@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 2500,
+    "title": "Forecasting long-term stock prices of global indices: A forward-validating Genetic Algorithm optimization approach for Support Vector Regression",
+    "abstract": "Predicting long-term stock index prices is a challenging and debatable task. Most of the studies focus on predicting next-day stock prices. However, those are not useful to long-term investors and traders. In this paper, we attempt to predict up to a year's daily prices of global stock indices using daily close prices data. This study fills a gap in the existing literature by focusing on long-term stock index price forecasting, which is crucial for practical applications in the financial markets. Moreover, The empirical analysis highlights the superior performance of a rolling forward-validation approach over cross validation in predicting long-term stock prices. A forward-validating Genetic Algorithm Optimization for Support Vector Regression (OGA-SVR) is used to efficiently forecast multi-step ahead long-term global stock indices. Further, the performance of the model is compared with that of Support Vector Regression (SVR), Grid Search based Support Vector Regression (GS-SVR), Genetic algorithm-based Support Vector regression (GA-SVM), and state-of-the-art Long Short-Term Memory (LSTM) algorithms. The models are empirically tested on five global stock indices time series daily data, namely Nifty, Dow Jones Industrial Average (DJIA), DAX performance index (DAX), Nikkei 225 (NI225), and Shanghai Stock Exchange composite index (SSE). Root Mean Square Error (RMSE) and Mean Absolute Percentage Error (MAPE) are used for the evaluation The result shows the OGA-SVR model outperforms other models in predicting the long-term prices of global indices. Further, the OGA-SVR model has the potential to forecast the long-term underlying future pattern of index prices which can be used to build trading and risk mitigation systems by investors and traders.& COPY; 2023 Elsevier B.V. All rights reserved.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "289b7e5cfc830d5e839824ff2c2a272d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:59.899988"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用遗传算法优化的支持向量回归模型来预测长期股票指数价格，这直接有助于投资者和交易者构建交易系统和风险缓解策略，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用遗传算法优化的支持向量回归模型来预测长期股票指数价格，这直接有助于投资者和交易者构建交易系统和风险缓解策略，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:35.932029"
+}

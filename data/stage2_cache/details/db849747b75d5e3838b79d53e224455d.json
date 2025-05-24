@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 236,
+    "title": "Multi-period portfolio optimization using a deep reinforcement learning hyper-heuristic approach",
+    "abstract": "Portfolio optimization concerns with periodically allocating the limited funds to invest in a variety of potential assets in order to satisfy investors' appetites for risk and return goals. Recently, Deep Reinforcement Learning (DRL) has shown its promising capabilities in sequential decision making problems. However, traditional DRL algorithms directly operate in the space of low-level actions, which exhibits poor scalability and becomes intractable in real-world problem instances when the dimensionality of the environment increases. To deal with this, in this work, a novel DRL hyper-heuristic framework is proposed for multi-period portfolio optimization problem. Instead of exploiting the entire action domain, our proposed approach is more effective by searching for low-level well-developed trading strategies. In addition, our proposed approach is data driven and respects the nature of the problem by taking advantage of expert domain knowledge and posing it multidimensional states to further leverage additional diverse information from alternative views of the environment. The proposed approach is evaluated on five real-world capital market problem instances and numerous experimental results demonstrate our proposed method can achieve notable performance gains compared to state-of-art trading strategies as well as traditional DRL baseline method. The data we used are from five stock indices, covering the period from the 2012 to 2022. Our study can have salient policy implications for investment strategy formulation and effective regulatory frameworks establishment.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "f060b6bb53286ae8ca3c722db51da493",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:34.225439"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on multi-period portfolio optimization using deep reinforcement learning, which is a core aspect of portfolio management. The study aims to allocate funds across various assets to meet risk and return objectives, a primary concern in portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on multi-period portfolio optimization using deep reinforcement learning, which is a core aspect of portfolio management. The study aims to allocate funds across various assets to meet risk and return objectives, a primary concern in portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:32:42.128140"
+}

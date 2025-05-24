@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1237,
+    "title": "The Improved ClusterSVM for Large Scale Classification Set to Credit Risk Evaluation",
+    "abstract": "Credit risk evaluation has been the major focus of financial and banking industry due to recent financial crises and regulatory concern of Basel II regulations. In this paper, we experiment with an improved ClusterSVM to Credit risk evaluation. ClusterSVM exploiting the distributional properties of training data accelerates the training process with large-scale data set. The algorithm first partition the training data into disjoint clusters, then train an initial SVM using representatives of these clusters. This initial SVM gives us a global picture of the solution. Based on initial SVM can approximately identify the support vectors and non-support vectors. The training process is accelerated by replacing non-support vectors with few data. The initial support vectors of cluster is the key of training ClusterSVM. This paper proposed an improved ClusterSVM which obtains the initial support vectors efficiently. Computational results indicate computational times, as well as the number of training data, are much smaller for improved method than that of a conventional ClusterSVM in process of credit risk evaluation.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d32231c47130999be644f5459a3d366d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:00:30.570665"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是改进的ClusterSVM算法，应用于信用风险评估（Credit risk evaluation），这属于金融风险管理（Financial Risk Management）的范畴。论文明确提到信用风险评估是金融和银行业的主要关注点，并针对这一具体应用场景进行了实验和优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是改进的ClusterSVM算法，应用于信用风险评估（Credit risk evaluation），这属于金融风险管理（Financial Risk Management）的范畴。论文明确提到信用风险评估是金融和银行业的主要关注点，并针对这一具体应用场景进行了实验和优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:50:53.774687"
+}

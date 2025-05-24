@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1733,
+    "title": "Valuation of large variable annuity portfolios under nested simulation: A functional data approach",
+    "abstract": "A variable annuity (VA) is equity-linked annuity product that has rapidly grown in popularity around the world in recent years. Research up to date on VA largely focuses on the valuation of guarantees embedded in a single VA contract. However, methods developed for individual VA contracts based on option pricing theory cannot be extended to large VA portfolios. Insurance companies currently use nested simulation to valuate guarantees for VA portfolios but efficient valuation under nested simulation for a large VA portfolio has been a real challenge. The computation in nested simulation is highly intensive and often prohibitive. In this paper, we propose a novel approach that combines a clustering technique with a functional data analysis technique to address the issue. We create a highly non-homogeneous synthetic VA portfolio of 100,000 contracts and use it to estimate the dollar Delta of the portfolio at each time step of outer loop scenarios under the nested simulation framework over a period of 25 years. Our test results show that the proposed approach performs well in terms of accuracy and efficiency. (C) 2015 Elsevier B.V. All rights reserved.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e765be27032a5b39d303c95e4d3f8f1a",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:58:50.726310"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究可变年金（VA）组合的估值问题，特别是嵌入其中的保证金的定价，这属于衍生品定价的范畴。同时，论文还讨论了如何高效地计算组合的美元Delta，这涉及到金融风险管理中的对冲和风险度量。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文主要研究可变年金（VA）组合的估值问题，特别是嵌入其中的保证金的定价，这属于衍生品定价的范畴。同时，论文还讨论了如何高效地计算组合的美元Delta，这涉及到金融风险管理中的对冲和风险度量。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:19:11.394682"
+}

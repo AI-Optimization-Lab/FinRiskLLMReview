@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 299,
+    "title": "A novel recurrent neural network-based prediction system for option trading and hedging",
+    "abstract": "In order to reduce their exposure to the erratic fluctuations of the financial markets, traders are nowadays increasingly dealing with options and other derivative securities instead of directly trading in the underlying assets. This paradigm shift has attracted the attention of many researchers, and there has been a tremendous increase in the awareness and activities of derivative securities. In particular there is a need to devise new techniques to address the limitations of traditional parametric pricing methods, which rely on assumptions and approximations to capture the complex dynamics of pricing processes. This paper proposes a novel non-parametric method using an ad-hoc recurrent neural network for estimating the future prices of war commodities such as gold and crude oil as well as currencies, which are increasingly gaining importance in the financial markets. The price predictions from the network, shown to be accurate and computationally efficient, are used in a hedging system to avoid unnecessary risks. Experiments with actual gold and currency trading data show that our system using the proposed network and strategy can construct portfolios yielding a return on investment of about 4.76%.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "280ec76a2e543ba0352e6db98d6cc2c7",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:30:46.242569"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing",
+      "Financial Risk"
+    ],
+    "justification": "该论文提出了一种基于循环神经网络的非参数方法，用于预测黄金、原油和货币等战争商品的价格，这些预测被用于对冲系统以减少风险。这直接涉及衍生品定价（预测期权价格）和金融风险管理（对冲风险）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\", \"金融风险管理\"],\n  \"justification\": \"该论文提出了一种基于循环神经网络的非参数方法，用于预测黄金、原油和货币等战争商品的价格，这些预测被用于对冲系统以减少风险。这直接涉及衍生品定价（预测期权价格）和金融风险管理（对冲风险）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:05:38.052564"
+}

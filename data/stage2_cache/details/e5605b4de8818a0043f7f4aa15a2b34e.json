@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 792,
+    "title": "Beating a Benchmark: Dynamic Programming May Not Be the Right Numerical Approach",
+    "abstract": "We analyze dynamic investment strategies for benchmark outperformance using two widely used objectives of practical interest to investors: (i) maximizing the information ratio (IR), and (ii) ob-taining a favorable tracking difference (cumulative outperformance) relative to the benchmark. In the case of the tracking difference, we propose a simple and intuitive objective function based on the quadratic deviation (QD) from an elevated benchmark. In order to gain some intuition about these strategies, we provide closed-form solutions for the controls under idealized assumptions. For more realistic cases, we represent the control using a neural network (NN) and directly solve a sampled optimization problem, which approximates the original optimal stochastic control formulation. Un-like the typical approach based on dynamic programming (DP), e.g., reinforcement learning, solving the sampled optimization with an NN as a control avoids computing conditional expectations and leads to an optimization problem with a small number of variables. In addition, our NN param-eter size is independent of the number of portfolio rebalancing times. Under some assumptions, we prove that a traditional DP approach results in a high-dimensional problem, whereas directly solving for the control without using DP yields a low-dimensional problem. Our analytical and numerical results illustrate that, compared with IR-optimal strategies with the same expected value of terminal wealth, the QD-optimal investment strategies result in comparatively more diversified asset allocations during certain periods of the investment time horizon.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0f6d310eee072a64b5e9804ce3c9ef34",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.256848"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心研究内容是动态投资策略，旨在通过优化信息比率和跟踪差异来超越基准表现，这直接涉及投资组合的构建和调整，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心研究内容是动态投资策略，旨在通过优化信息比率和跟踪差异来超越基准表现，这直接涉及投资组合的构建和调整，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:49.711983"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2574,
+    "title": "Improving EMI Risk Model for E-commerce with Customer Embedding Obtained through Heterogeneous Graph",
+    "abstract": "Machine Learning based credit risk models are often based on handcrafted features based on credit history and financial transactions. In this work, we develop a risk model for Equated Monthly Installment (EMI) based loans offered by one of the biggest e-commerce companies in India using two types of features (a) handcrafted features derived from customer actions and account details (b) customer embedding learned from a heterogeneous graph built using their shopping behavior across various product segments to leverage the purchase and co-purchase patterns of the users. Popular algorithms capable of learning powerful node embedding from the graph structure are transductive in nature, making them difficult to use in large graphs. However, we could exploit the special nature of our graph to generalize our embedding learning method for a large customer population. We show that using our graph based embedding along with handcrafted features improves the risk model's performance trained using just the handcrafted features. We also show that the graph embedding are more powerful than features learnt through autoencoder which can capture the purchase patterns of customers but not the co-purchase patterns among them.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2e9a7b8035a7cb178259c5137ea85a2f",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "feature learning",
+      "feature representation",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T02:17:01.616704"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一种基于机器学习的信用风险模型，用于评估分期付款（EMI）贷款的风险，这直接属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是开发一种基于机器学习的信用风险模型，用于评估分期付款（EMI）贷款的风险，这直接属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:09.490110"
+}

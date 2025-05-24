@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 595,
+    "title": "Deep Equal Risk Pricing of Financial Derivatives with Non-Translation Invariant Risk Measures",
+    "abstract": "The objective is to study the use of non-translation invariant risk measures within the equal risk pricing (ERP) methodology for the valuation of financial derivatives. The ability to move beyond the class of convex risk measures considered in several prior studies provides more flexibility within the pricing scheme. In particular, suitable choices for the risk measure embedded in the ERP framework, such as the semi-mean-square-error (SMSE), are shown herein to alleviate the price inflation phenomenon observed under the tail value at risk-based ERP as documented in previous work. The numerical implementation of non-translation invariant ERP is performed through deep reinforcement learning, where a slight modification is applied to the conventional deep hedging training algorithm so as to enable obtaining a price through a single training run for the two neural networks associated with the respective long and short hedging strategies. The accuracy of the neural network training procedure is shown in simulation experiments not to be materially impacted by such modification of the training algorithm.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "30565644a081565301de82418ed7ecf9",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:49.502063"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用非平移不变风险度量在等风险定价（ERP）方法中对金融衍生品进行估值，并探讨了如何通过深度强化学习实现这一目标。这直接涉及衍生品定价领域，特别是通过改进的风险度量方法来优化定价策略。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用非平移不变风险度量在等风险定价（ERP）方法中对金融衍生品进行估值，并探讨了如何通过深度强化学习实现这一目标。这直接涉及衍生品定价领域，特别是通过改进的风险度量方法来优化定价策略。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:39.248120"
+}

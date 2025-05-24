@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 1124,
+    "title": "Boosting frameworks in financial applications: From volatility forecasting to portfolio strategy optimization",
+    "abstract": "Increasing availability of the multi-scale market data exposes limitations of the existing quantitative models such as low accuracy of the simplified analytical and statistical frameworks as well as insufficient interpretability and stability of the best machine learning algorithms. Boosting was recently proposed as a simple and efficient framework for intelligent combination of the clarity and stability of the analytical and parsimonious statistical models with accuracy of the adaptive data-driven models. Encouraging results of the boosting application to symbolic volatility forecasting have also been reported. However, accurate volatility modeling does not always warranty optimal decision making that leads to acceptable performance of the portfolio strategy. In this work, a boosting-based framework for a direct trading strategy and portfolio optimization is introduced. Due to inherent adaptive control of the parameter space dimensionality, this technique can work with very large pools of base strategies and financial instruments that are usually prohibitive for other portfolio optimization frameworks. Unlike existing approaches, this framework can be effectively used for the coupled optimization of the portfolio capital/asset allocation and dynamic trading strategies. Generated portfolios of trading strategies not only exhibit stable and robust performance but also remain interpretable. Encouraging preliminary results based on real market data are presented and discussed.",
+    "year": 2005,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "62f32a22af2babcb1a334f3aafd43175",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.369579"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种基于Boosting的框架，直接应用于交易策略和投资组合优化。论文明确讨论了如何优化投资组合的资本/资产配置和动态交易策略，并展示了在实际市场数据上的应用结果，这属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种基于Boosting的框架，直接应用于交易策略和投资组合优化。论文明确讨论了如何优化投资组合的资本/资产配置和动态交易策略，并展示了在实际市场数据上的应用结果，这属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:00.077628"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1929,
+    "title": "A novel online portfolio selection approach based on pattern matching and ESG factors",
+    "abstract": "In modern finance, social investment portfolios have attracted the attention of researchers, investors, and practitioners. Regarding the long-term nature of this investment, the selection of the portfolios for a single period should be reconsidered as an online portfolio selection which focuses on the allocation of portfolios over multiple periods to maximize the expected growth rate of the portfolio. Besides common factors such as return on investment, many investors are willing to invest in assets complying with sustainability requirements. This study develops an online portfolio selection strategy that considers Environmental, Social, and Governance factors in addition to return and risk. Due to the diversity of constructed portfolios, different assets are first clustered based on their mutual information. The clustering model is selected through a comparison between four different clustering models. Then, a novel pattern-matching approach is implemented on the clustered assets that not only considers the amount of profitability of previous windows but also finds the optimal length and number of windows. After predicting the last groups of windows based on the pattern-matching, superior assets in terms of return and Sharpe ratio in each cluster are chosen, and the final portfolios are established regarding two scenarios; (i) a mean-variance strategy, and (ii) a developed mean-variance strategy which considers Environmental, Social, and Governance factors besides return and risk.The presented approaches are compared with several well-known benchmarks on four different datasets (i.e. 100 selective assets from S&P 500 index, S&P 500, Nikkei 225, and Dow Jones). The results indicate the superiority of the approach based on a simple mean-variance strategy over others in metrics such as Sharpe Ratio and Deflated Sharpe. Approaches containing Environmental, Social, and Governance factors also show not only profit and less volatility but the highest deflated Sharpe ratio, which can be considered as an excellent oppor-tunity for investors to have responsible investing and have a better edge than the market.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c0d4b60de6b99ee3bd08e801cccbd344",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:06.199387"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on developing an online portfolio selection strategy that incorporates ESG factors, return, and risk, and compares different clustering models and pattern-matching approaches to optimize portfolio allocation. This clearly falls under the domain of Portfolio Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on developing an online portfolio selection strategy that incorporates ESG factors, return, and risk, and compares different clustering models and pattern-matching approaches to optimize portfolio allocation. This clearly falls under the domain of Portfolio Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:12.855468"
+}

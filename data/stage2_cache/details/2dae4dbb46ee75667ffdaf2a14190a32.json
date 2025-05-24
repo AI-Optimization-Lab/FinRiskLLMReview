@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 276,
+    "title": "Multi-class financial distress prediction based on support vector machines integrated with the decomposition and fusion methods",
+    "abstract": "Binary financial distress prediction (FDP), which categorizes corporate financial status into the two classes of distress and nondistress, cannot provide enough support for effective financial risk management. This paper focuses on research on multiclass FDP based on the support vector machine (SVM) integrated with the decomposition and fusion methods. Corporate financial status is subdivided into four states: financial soundness, financial pseudosoundness, moderate financial distress and serious financial distress. Three multiclass FDP models are built by integrating the SVM with three decomposition and fusion methods, i.e., one-versus-one (OVO), one-versus-rest (OVR), and error-correcting output coding (ECOC), and they are, respectively called OVO-SVM, OVR-SVM and ECOC-SVM. Empirical research based on data from Chinese listed companies shows that OVO-SVM overall outperforms OVR-SVM and ECOC-SVM and is preferred for multiclass FDP. In addition, all three models trained on the original highly class-imbalanced training dataset cannot obtain satisfying performance, and the data level preprocessing mechanisms that make class distributions balanced in the training dataset can greatly improve their multiclass FDP performance. Compared with multivariate discriminant analysis (MDA) and multinomial logit (MNLogit), OVO-SVM has significantly higher accuracy for financial pseudosoundness and moderate financial distress and lower accuracy for financial soundness and serious financial distress, resulting in no significant difference among their overall multiclass FDP performance. However, OVO-SVM is still more competitive than MDA and MNLogit in that financial pseudosoundness and moderate financial distress are much more difficult to predict by human expertise than the other two financial states. (C) 2021 Elsevier Inc. All rights reserved.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "30f4232d18e61251590eb7ee73b26234",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:49:04.540963"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on multiclass financial distress prediction (FDP) using support vector machines integrated with decomposition and fusion methods, which is directly related to assessing and managing financial risks of companies. This falls under the domain of Financial Risk Management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on multiclass financial distress prediction (FDP) using support vector machines integrated with decomposition and fusion methods, which is directly related to assessing and managing financial risks of companies. This falls under the domain of Financial Risk Management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:59:30.067261"
+}

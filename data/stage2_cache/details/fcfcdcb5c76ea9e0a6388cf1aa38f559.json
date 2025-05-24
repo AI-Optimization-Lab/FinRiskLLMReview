@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 904,
+    "title": "Methodology for integration of wind resource forecasts based on artificial neural networks",
+    "abstract": "An adaptation of the portfolio theory (PT) is proposed in this article, denoted as PrevPT, Previsao (in Portuguese) by PT, to integrate the three artificial neural networks, namely multilayer perceptron (MLP) backpropagation, radial basis function (RBF), and self-organizing map (SOM), based forecasting techniques, aiming to analyze the impact of wind speed forecasting errors and achieve more accurate results. In its first use, the PT goal was to maximize a financial return, at any risk, through the diversification of securities or investments that are not positively correlated. Based on the development of PrevPT, which was used until this work only for solar forecasting, the proposed technique is applied in this paper to integrate and improve the results of individual wind forecasts. Four-year wind speed data (January 2007 to December 2010) from two different locations (Algeciras, Spain and Petrolina, Brazil) were used. Our methodology develops a topology that integrates the forecasts obtained by MLP, RBF, and SOM aiming to obtain smaller forecast errors. By diversifying the forecasted asset, when one of the assets has negative prediction errors, another compensates for them and, thus, the total or partial cancellation of the errors occurs. PrevPT obtains a mean absolute percentage error of 1.13% for Spain and 2.35% for Brazil. PrevPT surpassed the results obtained by the three techniques applied individually in the two locations. The main innovations of the methodology are the significant reduction of errors and optimization of resource planning, and the beneficial features compared to other predictor integration techniques.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "ba3c5682284590eb1186bfd375fa0d9b",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:43:54.691214"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用人工神经网络和投资组合理论（PT）的变体PrevPT来整合和优化风速预测，目的是减少预测误差和优化资源规划。虽然提到了投资组合理论，但其应用场景是风速预测和资源规划，而非金融领域的投资组合管理、衍生品定价或金融风险管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用人工神经网络和投资组合理论（PT）的变体PrevPT来整合和优化风速预测，目的是减少预测误差和优化资源规划。虽然提到了投资组合理论，但其应用场景是风速预测和资源规划，而非金融领域的投资组合管理、衍生品定价或金融风险管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:00.438739"
+}

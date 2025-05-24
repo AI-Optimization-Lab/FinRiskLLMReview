@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 4823,
+    "title": "A flexible predictive density combination for large financial data sets in regular and crisis periods",
+    "abstract": "A flexible predictive density combination is introduced for large financial data sets which allows for model set incompleteness. Dimension reduction procedures that include learning allocate the large sets of predictive densities and combination weights to relatively small subsets. Given the representation of the probability model in extended nonlinear state-space form, efficient simulation-based Bayesian inference is proposed using parallel dynamic clustering as well as nonlinear filtering, implemented on graphics processing units. The approach is applied to combine predictive densities based on a large number of individual US stock returns of daily observations over a period that includes the Covid-19 crisis period. Evidence on dynamic cluster composition, weight patterns and model set incompleteness gives valuable signals for improved modelling. This enables higher predictive accuracy and better assessment of uncertainty and risk for investment fund management.(c) 2022 Erasmus University Rotterdam. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "108fe112590c2ca31b8cf81f3dcc70a3",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:41:32.688932"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是预测密度组合方法，应用于大量美国个股的日收益率数据，旨在提高预测准确性并更好地评估不确定性和风险，这些直接关联到投资组合管理的决策过程。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是预测密度组合方法，应用于大量美国个股的日收益率数据，旨在提高预测准确性并更好地评估不确定性和风险，这些直接关联到投资组合管理的决策过程。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:55.982629"
+}

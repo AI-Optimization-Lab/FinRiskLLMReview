@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 844,
+    "title": "Dynamic stock-decision ensemble strategy based on deep reinforcement learning",
+    "abstract": "In a complex and changeable stock market, it is very important to design a trading agent that can benefit investors. In this paper, we propose two stock trading decision-making methods. First, we propose a nested reinforcement learning (Nested RL) method based on three deep reinforcement learning models (the Advantage Actor Critic, Deep Deterministic Policy Gradient, and Soft Actor Critic models) that adopts an integration strategy by nesting reinforcement learning on the basic decision-maker. Thus, this strategy can dynamically select agents according to the current situation to generate trading decisions made under different market environments. Second, to inherit the advantages of three basic decision-makers, we consider confidence and propose a weight random selection with confidence (WRSC) strategy. In this way, investors can gain more profits by integrating the advantages of all agents. All the algorithms are validated for the U.S., Japanese and British stocks and evaluated by different performance indicators. The experimental results show that the annualized return, cumulative return, and Sharpe ratio values of our ensemble strategy are higher than those of the baselines, which indicates that our nested RL and WRSC methods can assist investors in their portfolio management with more profits under the same level of investment risk.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "fbabca265f6c4d3dc115eb5bdb5ef70a",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "deep belief network",
+      "DBM",
+      "restricted Boltzmann machine"
+    ],
+    "stage1_timestamp": "2025-05-15T00:49:03.070732"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是基于深度强化学习的动态股票决策集成策略，旨在通过动态选择交易代理来生成不同市场环境下的交易决策，从而帮助投资者在相同投资风险水平下获得更多利润。这直接应用于投资组合管理的领域，目的是优化投资组合的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是基于深度强化学习的动态股票决策集成策略，旨在通过动态选择交易代理来生成不同市场环境下的交易决策，从而帮助投资者在相同投资风险水平下获得更多利润。这直接应用于投资组合管理的领域，目的是优化投资组合的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:23.733836"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 3498,
+    "title": "Deep learning solution of optimal reinsurance-investment strategies with inside information and multiple risks",
+    "abstract": "This paper investigates an optimal investment-reinsurance problem for an insurer who possesses inside information regarding the future realizations of the claim process and risky asset process. The insurer sells insurance contracts, has access to proportional reinsurance business, and invests in a financial market consisting of three assets: one risk-free asset, one bond, and one stock. Here, the nominal interest rate is characterized by the Vasicek model, and the stock price is driven by Heston's stochastic volatility model. Applying the enlargement of filtration techniques, we establish the optimal control problem in which an insurer maximizes the expected power utility of the terminal wealth. By using the dynamic programming principle, the problem can be changed to four-dimensional Hamilton-Jacobi-Bellman equation. In addition, we adopt a deep neural network method by which the partial differential equation is converted to two backward stochastic differential equations and solved by a stochastic gradient descent-type optimization procedure. Numerical results obtained using TensorFlow in Python and the economic behavior of the approximate optimal strategy and the approximate optimal utility of the insurer are analyzed.",
+    "year": 2025,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "9671c25d116cefc3d50cff8188a7e9ad",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network",
+      "backpropagation",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:26:48.580731"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management",
+      "Financial Risk"
+    ],
+    "justification": "该论文研究了保险公司在拥有内部信息情况下的最优投资-再保险策略，涉及投资组合的优化配置（投资组合管理）以及通过再保险和投资策略管理风险（金融风险管理）。论文使用了动态规划原理和深度学习方法来解决这一优化问题，并分析了最优策略的经济行为。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\", \"金融风险管理\"],\n  \"justification\": \"该论文研究了保险公司在拥有内部信息情况下的最优投资-再保险策略，涉及投资组合的优化配置（投资组合管理）以及通过再保险和投资策略管理风险（金融风险管理）。论文使用了动态规划原理和深度学习方法来解决这一优化问题，并分析了最优策略的经济行为。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:36:24.400972"
+}

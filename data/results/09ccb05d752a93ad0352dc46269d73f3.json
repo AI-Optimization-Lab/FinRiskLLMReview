@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "decision tree",
+    "random forest"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using machine learning algorithms to predict patient responses to survey questions.",
+    "supervised learning": "The study uses labeled data (patient responses to survey questions) to train a predictive model, which is a characteristic of supervised learning.",
+    "classification": "The machine learning model predicts categorical responses (patient survey answers), which is a classification task.",
+    "decision tree": "Random forest, which is mentioned in the paper, is an ensemble method based on decision trees.",
+    "random forest": "The paper specifically states that a random forest algorithm was used to predict patients' responses to survey questions."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\"machine learning\", \"supervised learning\", \"classification\", \"decision tree\", \"random forest\"],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using machine learning algorithms to predict patient responses to survey questions.\",\n    \"supervised learning\": \"The study uses labeled data (patient responses to survey questions) to train a predictive model, which is a characteristic of supervised learning.\",\n    \"classification\": \"The machine learning model predicts categorical responses (patient survey answers), which is a classification task.\",\n    \"decision tree\": \"Random forest, which is mentioned in the paper, is an ensemble method based on decision trees.\",\n    \"random forest\": \"The paper specifically states that a random forest algorithm was used to predict patients' responses to survey questions.\"\n  }\n}\n```"
+}

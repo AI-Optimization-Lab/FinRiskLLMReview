@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 152,
+    "title": "Can a Machine Correct Option Pricing Models?",
+    "abstract": "We introduce a novel two-step approach to predict implied volatility surfaces. Given any fitted parametric option pricing model, we train a feedforward neural network on the model-implied pricing errors to correct for mispricing and boost performance. Using a large dataset of S&P 500 options, we test our nonparametric correction on several parametric models ranging from ad-hoc Black-Scholes to structural stochastic volatility models and demonstrate the boosted performance for each model. Out-of-sample prediction exercises in the cross-section and in the option panel show that machine-corrected models always outperform their respective original ones, often by a large extent. Our method is relatively indiscriminate, bringing pricing errors down to a similar magnitude regardless of the misspecification of the original parametric model. Even so, correcting models that are less misspecified usually leads to additional improvements in performance and also outperforms a neural network fitted directly to the implied volatility surface.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "5fdd0d68a0d345403135fbf6efb698aa",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:08.993686"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用神经网络校正期权定价模型的定价误差，并应用于S&P 500期权的隐含波动率曲面预测，这直接属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用神经网络校正期权定价模型的定价误差，并应用于S&P 500期权的隐含波动率曲面预测，这直接属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:28.552270"
+}

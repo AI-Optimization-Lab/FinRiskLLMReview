@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1074,
+    "title": "Discriminating the default risk of small enterprises: Stacking model with different optimal feature combinations",
+    "abstract": "Small enterprise default discrimination establishes a risk discriminant model based on financial data, nonfinancial data, and external macro conditions of small enterprises to obtain their default discriminant. This study constructs the final default discriminant model, taking the predicted default probability vectors from the first modelling as independent variables. From the 2e feature combinations composed of e features, it maximises the default discriminant precision of the same training sample. Accordingly, the study inversely infers three optimal feature combinations corresponding to three models, including logistic regression, support vector machine, and linear discriminant analysis, ensuring the discrimination accuracy of the first modelling by the stacking method. Moreover, five features-industry prosperity index, EBITDA margin, current assets turnover ratio, net profit, and per capita disposable income of urban residents-account for 11% of the features in the optimal feature combination, but their importance accounts for 63%; thus, they are critical to the default risk of small enterprises. Further, the macro features significantly influence the default risk of small enterprises. For example, the importance of four macro features-industry prosperity index, consumer price index, per capita disposable income of urban residents, and Engel coefficient-accounts for 26.26% of the features in the optimal feature combination. Notably, the importance of the 'industry prosperity index', which is the greatest influencing factor in the feature combination, accounts for 17.63%. Ultimately, the discrimination accuracy of the proposed model is better than that of the seven classical default discriminant models.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a0f50037d6c30f7807ca69252b0f2c71",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.354398"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on constructing a default risk discriminant model for small enterprises using machine learning techniques, which is directly related to assessing and managing credit risk—a key aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on constructing a default risk discriminant model for small enterprises using machine learning techniques, which is directly related to assessing and managing credit risk—a key aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:19.367770"
+}

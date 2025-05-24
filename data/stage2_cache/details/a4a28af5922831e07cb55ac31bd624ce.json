@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2452,
+    "title": "Empirical Asset Pricing with Many Test Assets",
+    "abstract": "We formulate the problem of estimating risk prices in a stochastic discount factor (SDF) model as an instrumental variables regression. The IV estimator allows efficient estimation for models with non-traded factors and many test assets. Optimal instruments are constructed using a regularized sparse first stage regression. In a simulation study, the IV estimator is close to the infeasible GMM estimator in a setting with many assets. In an empirical application, the tracking portfolio for consumption growth appears strongly correlated with consumption news. It implies that consumption is a priced factor for the cross-section of excess equity returns. A similar regularized regression, projecting the SDF on test assets, leads to an estimate of the Hansen-Jagannathan distance, and identifies portfolios that maximally violate the pricing implications of the model.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4393a3605e2c83f3d080584fef883cb2",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:07:02.981566"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究通过随机折现因子（SDF）模型估计风险价格，并应用于资产定价和构建跟踪组合，这属于投资组合管理的范畴。论文还讨论了消费增长与资产回报的关系，进一步支持其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究通过随机折现因子（SDF）模型估计风险价格，并应用于资产定价和构建跟踪组合，这属于投资组合管理的范畴。论文还讨论了消费增长与资产回报的关系，进一步支持其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:14:42.657565"
+}

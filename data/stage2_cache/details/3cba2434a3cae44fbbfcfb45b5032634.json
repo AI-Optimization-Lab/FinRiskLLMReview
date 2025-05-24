@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 7811,
+    "title": "Hybrid Method of Multiple Kernel Learning and Genetic Algorithm for Forecasting Short-Term Foreign Exchange Rates",
+    "abstract": "Our proposed prediction and learning method is a hybrid referred to as MKL-GA, which combines multiple kernel learning (MKL) for regression (MKR) and a genetic algorithm (GA) to construct the trading rules. In this study, we demonstrate that the evaluation criteria used to examine the effectiveness of a financial market price forecasting method should be the profit and profit-risk ratio, rather than errors in prediction. Thus, it is necessary to use a price prediction method and a trading rules learning method. We tested the proposed method on the foreign exchange market for the USD/JPY currency pair, where the features used for prediction were extracted from the trading history of the three main currency pairs with three different short-term horizons. MKR is essential for utilizing the information contained in many of the features derived from different information sources and for various representations of the same information source. The GA is essential for generating trading rules, which are described using a mixture of discrete structures and continuous parameters. First, the MKR predicts the change in the exchange rate based on technical indicators such as the moving average convergence and divergence of the three currency pairs. Next, the GA generates a trading rule by combining the results of the MKR with several commonly used overbought/oversold technical indicators. The experimental results show that the proposed hybrid method outperforms other baseline methods in terms of the returns and return-risk ratio. In addition, the kernel weights employed for different currency pairs and the different time horizons used in the MKR step, as well as the trading strategy generated in the GA step, should be beneficial during actual trading.",
+    "year": 2015,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "4f0ed7a918d94e971267d94c489041ba",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "feature representation",
+      "feature learning"
+    ],
+    "stage1_timestamp": "2025-05-15T03:12:11.724424"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是外汇市场的短期汇率预测和交易规则生成，虽然涉及金融领域，但并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是外汇市场的短期汇率预测和交易规则生成，虽然涉及金融领域，但并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个特定领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:55.592155"
+}

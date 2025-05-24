@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 424,
+    "title": "Application of Instance-Based Entropy Fuzzy Support Vector Machine in Peer-To-Peer Lending Investment Decision",
+    "abstract": "Loan status prediction is an effective tool for investment decisions in peer-to-peer (P2P) lending market. In P2P lending market, most borrowers fulfill the repayment plan; however, some of them fail to pay back their loans. Therefore, an imbalanced classification method can be utilized to discriminate such default borrowers. In this context, the aim of this paper is to propose an investment decision model in P2P lending market which consists of fully paid loans classified via the instance-based entropy fuzzy support vector machine (IEFSVM). IEFSVM is a modified version of the existing entropy fuzzy support vector machine (EFSVM) in terms of an instance-based scheme. IEFSVM can reflect the pattern of nearest neighbors entropy with respect to the change of its size instead of fixing it in unified neighborhood size. Therefore, IEFSVM allows the class change of nearest neighbors in the determination of fuzzy membership. Applying the model to the lending club dataset, we determine loans that are predicted to be fully paid. Then, we also provide a multiple regression model to generate an investment portfolio based on non-default loans that are predicted to yield high returns. Throughout the experiment, the empirical results reveal that IEFSVM outperforms not only EFSVM but also the six other state-of-the-art classifiers including the cost-sensitive adaptive boosting, cost-sensitive random forest, EasyEnsemble, random undersampling boosting, weighted extreme learning machine, and cost-sensitive extreme gradient boosting in terms of loan status classification. Also, the investment performance of the multiple regression model using IEFSVM is higher and more robust than that of two other benchmarks. In this regard, we conclude that the proposed investment model is a decent and practical approach to support decisions in the P2P lending market.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4838f1f55001a4c002c1e25d1d0e426d",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:43:10.575253"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是应用改进的支持向量机模型（IEFSVM）来预测P2P借贷市场的贷款状态，并基于预测结果构建投资组合。这直接涉及投资组合管理的领域，因为论文的目标是优化投资决策和提高投资回报。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是应用改进的支持向量机模型（IEFSVM）来预测P2P借贷市场的贷款状态，并基于预测结果构建投资组合。这直接涉及投资组合管理的领域，因为论文的目标是优化投资决策和提高投资回报。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:06.457497"
+}

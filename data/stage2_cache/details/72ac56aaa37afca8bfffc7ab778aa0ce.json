@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 253,
+    "title": "LSSVM-Monte Carlo定价高维美式期权",
+    "abstract": "随着美式期权维数的增加,存在所谓的“维数灾难”问题,为了克服这一难题,最小二乘支持向量机(LSSVM)被应用于定价高维美式期权.首先用M-C方法仿真美式期权标的物的多条价格路径,接着采用最小二乘支持向量机作为求条件期望的回归算子,并提出了一种基于改进序列优化(ISMO)的LSSVM的训练算法.针对4种不同的美式期权支付函数,给出了该方法应用于标的资产的个数分别为5和30的算例.研究结果表明,所提出的方法能很好地解决高维美式期权定价问题.",
+    "year": 2006,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "1af2367afdc50f2e417d9c8a526990f9",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-14T22:25:03.429338"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是最小二乘支持向量机(LSSVM)结合蒙特卡洛方法，用于解决高维美式期权的定价问题。论文明确提到该方法应用于美式期权的定价，并给出了具体的算例，因此属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是最小二乘支持向量机(LSSVM)结合蒙特卡洛方法，用于解决高维美式期权的定价问题。论文明确提到该方法应用于美式期权的定价，并给出了具体的算例，因此属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:27.648393"
+}

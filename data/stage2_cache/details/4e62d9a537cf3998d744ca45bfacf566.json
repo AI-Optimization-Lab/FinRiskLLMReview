@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 2025,
+    "title": "A methodology for index tracking based on time-series clustering",
+    "abstract": "With the increased acceptance of capital market efficiency, there has been a significant increase in the money managed on an indexed basis. Several methodologies are available to replicate the target index. In this paper, we discuss the problems of (1) defining suitable performance objectives and tracking error that scale properly over the entire management period and (2) implementing an optimal investment strategy when full replication of an index is not deemed suitable. We then argue that clustering might be a viable methodology for building parsimonious tracking portfolios. With suitably defined distances between the time series of asset prices, clustering 'discovers' the correlation and cointegration structure of an index. Sampling the clusters with appropriate heuristics and optimization techniques, an optimal tracking portfolio can be constructed. One advantage of this approach is that it eschews the difficulties and computational burden of density forecasts and full optimization.",
+    "year": 2004,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "1b333abbab248a1e87a37befdb49b27a",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:02:10.247321"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用时间序列聚类方法来构建跟踪指数的投资组合，并讨论了优化投资策略以实现指数跟踪的目标。这直接涉及投资组合管理的领域，特别是被动投资策略的构建和优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用时间序列聚类方法来构建跟踪指数的投资组合，并讨论了优化投资策略以实现指数跟踪的目标。这直接涉及投资组合管理的领域，特别是被动投资策略的构建和优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:44.526746"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 17,
+    "title": "Portfolio management based on a reinforcement learning framework",
+    "abstract": "Portfolio management is crucial for investors. We propose a dynamic portfolio management framework based on reinforcement learning using the proximal policy optimization algorithm. The two-part framework includes a feature extraction network and a full connected network. First, the majority of the previous research on portfolio management based on reinforcement learning has been dedicated to discrete action spaces. We propose a potential solution to the problem of a continuous action space with a constraint (i.e., the sum of the portfolio weights is equal to 1). Second, we explore different feature extraction networks (i.e., convolutional neural network [CNN], long short-term memory [LSTM] network, and convolutional LSTM network) combined with our system, and we conduct extensive experiments on the six kinds of assets, including 16 features. The empirical results show that the CNN performs best in the test set. Last, we discuss the effect of the trading frequency on our trading system and find that the monthly trading frequency has a higher Sharpe ratio in the test set than other trading frequencies.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "b0d3c40b047c75f1b0525b87a703b538",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "feature representation",
+      "convolutional neural network",
+      "CNN",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:38:16.251000"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper explicitly focuses on developing a reinforcement learning framework for dynamic portfolio management, addressing issues like continuous action spaces and feature extraction networks. The research is centered on optimizing portfolio weights and evaluating performance metrics like the Sharpe ratio, which are core aspects of portfolio management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper explicitly focuses on developing a reinforcement learning framework for dynamic portfolio management, addressing issues like continuous action spaces and feature extraction networks. The research is centered on optimizing portfolio weights and evaluating performance metrics like the Sharpe ratio, which are core aspects of portfolio management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:34:25.492253"
+}

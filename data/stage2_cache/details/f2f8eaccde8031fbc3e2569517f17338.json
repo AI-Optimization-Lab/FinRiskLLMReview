@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1447,
+    "title": "Reducing systemic risk in a multi-layer network using reinforcement learning",
+    "abstract": "This paper introduces a novel framework to assess and manage systemic risk in a multi-layer financial network by taking advantage of reinforcement learning (RL). The reduction of systemic risk in the financial network is achieved by applying the deep deterministic policy gradient algorithm (DDPG) to reorganize the interbank lending structure of the network into an orientation that better mitigates the spread of con-tagion. The reorganization procedure itself was constrained in order to preserve the balance sheet of every bank. To achieve this, we develop a constraint DDPG model consisting of a safety layer coupled with a linear mapping to satisfy the total borrowing and lending amounts of each bank. Moreover, we propose a new multi-layer DebtRank (DR) algorithm taking into account how contagion spreads from one layer to another. Testing against networks of varying size and depth, our DDPG agent was able to reduce systemic risk levels by significant amounts, suggesting the feasibility and utility of employing RL in managing systemic risk through aiding regulatory policy design. We observe an increase in sparsity and an increase in network dissimilarity between the different layers of the network after optimization.(c) 2022 Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "08cc1a9b4d03cf24fa9f2223095936e7",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.781362"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on assessing and managing systemic risk in a multi-layer financial network using reinforcement learning, which is a core aspect of financial risk management. The study specifically addresses the reduction of systemic risk through network reorganization and contagion spread mitigation, aligning with the objectives of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on assessing and managing systemic risk in a multi-layer financial network using reinforcement learning, which is a core aspect of financial risk management. The study specifically addresses the reduction of systemic risk through network reorganization and contagion spread mitigation, aligning with the objectives of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:02.146094"
+}

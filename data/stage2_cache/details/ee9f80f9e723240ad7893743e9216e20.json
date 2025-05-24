@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 835,
+    "title": "Analysis of Causality in Stock Market Data",
+    "abstract": "Analyzing the changes in volatility is an important aspect in financial data analysis leading to effective estimation of risk and discovering underlying causes of such changes. While there is a rich literature in estimating implied and stochastic volatility in financial time series using traditional econometric methods, the application of machine learning methods such as sparse regression with temporal smoothness constraints is still in its infancy. In this paper, we propose a sparse, smooth regularized regression model to infer the volatility of the data while explicitly accounting for dependencies between different companies. Using real stock market data, we construct dynamic time varying graphs for different sectors of companies to further analyze how the volatility dependency between companies within sectors vary over time. We also show how our model captures the fluctuations in volatility over different economic conditions such as financial crisis periods. Further, based on these regression estimates we show how the proposed model assists in discovering useful correlations with external factors such as oil price, inflation, S&P500 index and also with various domestic trend indices.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "d29c77e2c85ba7462b5deb5ddddcbdc1",
+    "relevant_keywords": [
+      "machine learning",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.564946"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用稀疏平滑回归模型分析股票市场数据的波动性及其依赖关系，并探讨了不同经济条件下波动性的变化。这些研究内容直接关联到金融风险管理中的波动性估计和风险因素分析，但并未明确涉及衍生品定价或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用稀疏平滑回归模型分析股票市场数据的波动性及其依赖关系，并探讨了不同经济条件下波动性的变化。这些研究内容直接关联到金融风险管理中的波动性估计和风险因素分析，但并未明确涉及衍生品定价或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:17.358896"
+}

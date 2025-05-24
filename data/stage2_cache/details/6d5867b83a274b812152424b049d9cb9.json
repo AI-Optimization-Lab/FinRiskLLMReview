@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 1103,
+    "title": "A monetary policy prediction model based on deep learning",
+    "abstract": "Applying neural network and error t-value test, this study trains and analyzes 28 interest rate changes of China's macro-monetary policy and the mutual influences between reserve adjustments and financial markets for 51 times from 2000 to 2018 according to the data correlation between financial market and monetary policy. Through the principal component analysis, the bilateral financial risk system and data set are established, and the data set pre-process and dimensionality reduction are carried out to extract the most informative features. Six training cases are designed with processed features, and then the cases are input to each neural network model for combined prediction. Firstly, based on backpropagation neural network (BP), the forecasting model of monetary policy is established. Then, considering the importance characteristics of financial index data, expert weights based on BP, are introduced to propose weights backpropagation (WBP) model. On the basis of the timing characteristics of financial market, the WBP model is improved and the timing weights backpropagation (TWBP) model is proposed. Experiments show that different training cases bring out various effects. The accuracy rate of interest rate and reserve change value is lower than the original value after training. The mutation after data processing affects the learning of neural network. At the same time, the WBP and TWBP models improve according to the importance and timing characteristics of financial indicators have less errors in results, and the TWBP model has higher accuracy. When the number of hidden layers is 3, good results can be obtained, but in manifold training of the timing cycle, the efficiency of that is not as good as the WBP model.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "ea3682e044d9436739a1082ec5da5e90",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "principal components analysis",
+      "feature learning",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:43.517589"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究基于深度学习的货币政策预测模型，虽然涉及金融市场的风险系统和数据分析，但其核心应用是货币政策预测，而非衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究基于深度学习的货币政策预测模型，虽然涉及金融市场的风险系统和数据分析，但其核心应用是货币政策预测，而非衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:00.740894"
+}

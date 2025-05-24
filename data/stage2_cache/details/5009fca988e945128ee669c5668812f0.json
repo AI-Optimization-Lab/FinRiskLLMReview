@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 79,
+    "title": "Intelligent credit scoring using deep learning methods",
+    "abstract": "Credit scoring is one the most important parts of credit risk management in reducing the risk of client defaults and bankruptcies. Deep learning has received much attention in recent years, but it has not been implemented so intensively in credit scoring compared to other financial domains. In this article, stacked unidirectional and bidirectional LSTM (long short-term memory) networks as a complex area of deep learning are applied in solving credit scoring problems for the first time. The proposed robust model exploits the full potential of the three-layer stacked LSTM and BDLSTM (bidirectional LSTM) architecture with the treatment and modeling of public datasets in a novel way since credit scoring is not a time sequence problem. Attributes of each loan instance were transformed into a sequence of the matrix with a fixed sliding window approach with a one-time step. Our proposed models outperform existing and much more complex deep learning solutions thus we succeeded in preserving simplicity. In this article, measures of different types are employed to carry out consistent conclusions. The results by applying three hidden layers on the German Credit dataset showed an accuracy of 87.19%, for Kaggle dataset accuracy reached 93.69%, and for Microcredit dataset accuracy of 97.80%.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "de23f4dec411c3510964bd64277d4ce6",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:33:49.009204"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on using deep learning methods for credit scoring, which is a critical component of credit risk management. The study aims to reduce the risk of client defaults and bankruptcies, directly addressing financial risk management concerns.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on using deep learning methods for credit scoring, which is a critical component of credit risk management. The study aims to reduce the risk of client defaults and bankruptcies, directly addressing financial risk management concerns.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:45.772136"
+}

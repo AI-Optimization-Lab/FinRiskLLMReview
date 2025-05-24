@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 5677,
+    "title": "Regime switching model for financial data: Empirical risk analysis",
+    "abstract": "This paper constructs a regime switching model for the univariate Value-at-Risk estimation. Extreme value theory (EVT) and hidden Markov models (HMM) are combined to estimate a hybrid model that takes volatility clustering into account. In the first stage, HMM is used to classify data in crisis and steady periods, while in the second stage, EVT is applied to the previously classified data to rub out the delay between regime switching and their detection. This new model is applied to prices of numerous stocks exchanged on NYSE Euronext Paris over the period 2001-2011. We focus on daily returns for which calibration has to be done on a small dataset. The relative performance of the regime switching model is benchmarked against other well-known modeling techniques, such as stable, power laws and GARCH models. The empirical results show that the regime switching model increases predictive performance of financial forecasting according to the number of violations and tail-loss tests. This suggests that the regime switching model is a robust forecasting variant of power laws model while remaining practical to implement the VaR measurement. (C) 2016 Elsevier B.V. All rights reserved.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "8812bac52370e52c3c7a89a58596f843",
+    "relevant_keywords": [
+      "clustering",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:50:21.205199"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on constructing a regime switching model for Value-at-Risk (VaR) estimation, which is a key tool in financial risk management. The study aims to improve the predictive performance of financial forecasting, specifically for risk measurement, as evidenced by the use of tail-loss tests and VaR measurement.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on constructing a regime switching model for Value-at-Risk (VaR) estimation, which is a key tool in financial risk management. The study aims to improve the predictive performance of financial forecasting, specifically for risk measurement, as evidenced by the use of tail-loss tests and VaR measurement.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:29:38.710530"
+}

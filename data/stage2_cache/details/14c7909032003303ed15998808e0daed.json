@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1488,
+    "title": "Prediction of unplanned 30-day readmission for ICU patients with heart failure",
+    "abstract": "Background Intensive Care Unit (ICU) readmissions in patients with heart failure (HF) result in a significant risk of death and financial burden for patients and healthcare systems. Prediction of at-risk patients for readmission allows for targeted interventions that reduce morbidity and mortality. Methods and results We presented a process mining/deep learning approach for the prediction of unplanned 30-day readmission of ICU patients with HF. A patient's health records can be understood as a sequence of observations called event logs; used to discover a process model. Time information was extracted using the DREAM (Decay Replay Mining) algorithm. Demographic information and severity scores upon admission were then combined with the time information and fed to a neural network (NN) model to further enhance the prediction efficiency. Additionally, several machine learning (ML) algorithms were developed to be used as the baseline models for the comparison of the results. Results By using the Medical Information Mart for Intensive Care III (MIMIC-III) dataset of 3411 ICU patients with HF, our proposed model yielded an area under the receiver operating characteristics (AUROC) of 0.930, 95% confidence interval of [0.898-0.960], the precision of 0.886, sensitivity of 0.805, accuracy of 0.841, and F-score of 0.800 which were far better than the results of the best baseline model and the existing literature. Conclusions The proposed approach was capable of modeling the time-related variables and incorporating the medical history of patients from prior hospital visits for prediction. Thus, our approach significantly improved the outcome prediction compared to that of other ML-based models and health calculators.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "84a54a58bf33a74ce0bb9e63d8b79b3a",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.790474"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用机器学习和深度学习技术预测ICU患者30天内非计划性再入院的风险，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用机器学习和深度学习技术预测ICU患者30天内非计划性再入院的风险，属于医疗健康领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:42.917015"
+}

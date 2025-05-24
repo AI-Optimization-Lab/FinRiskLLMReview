@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 1369,
+    "title": "Estimating a covariance matrix for market risk management and the case of credit default swaps",
+    "abstract": "We analyze covariance matrix estimation from the perspective of market risk management, where the goal is to obtain accurate estimates of portfolio risk across essentially all portfolios-even those with small standard deviations. We propose a simple but effective visualisation tool to assess bias across a wide range of portfolios. We employ a portfolio perspective to determine covariance matrix loss functions particularly suitable for market risk management. Proper regularisation of the covariance matrix estimate significantly improves performance. These methods are applied to credit default swaps, for which covariance matrices are used to set portfolio margin requirements for central clearing. Among the methods we test, the graphical lasso estimator performs particularly well. The graphical lasso and a hierarchical clustering estimator also yield economically meaningful representations of market structure through a graphical model and a hierarchy, respectively.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0977031491ef9f768c8787e4278517b2",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:54:56.467652"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on estimating covariance matrices for market risk management, specifically for setting portfolio margin requirements in central clearing of credit default swaps. The primary goal is to improve risk estimation accuracy across portfolios, which is a core aspect of financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on estimating covariance matrices for market risk management, specifically for setting portfolio margin requirements in central clearing of credit default swaps. The primary goal is to improve risk estimation accuracy across portfolios, which is a core aspect of financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:21:34.900463"
+}

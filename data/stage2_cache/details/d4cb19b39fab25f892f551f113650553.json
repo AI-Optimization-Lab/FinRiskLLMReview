@@ -1,0 +1,34 @@
+{
+  "paper": {
+    "id": 902,
+    "title": "A multi-stage integrated model based on deep neural network for credit risk assessment with unbalanced data",
+    "abstract": "PurposeWith the rapid growth of the domestic lending industry, assessing whether the borrower of each loan is at risk of default is a pressing issue for financial institutions. Although there are some models that can handle such problems well, there are still some shortcomings in some aspects. The purpose of this paper is to improve the accuracy of credit assessment models.Design/methodology/approachIn this paper, three different stages are used to improve the classification performance of LSTM, so that financial institutions can more accurately identify borrowers at risk of default. The first approach is to use the K-Means-SMOTE algorithm to eliminate the imbalance within the class. In the second step, ResNet is used for feature extraction, and then two-layer LSTM is used for learning to strengthen the ability of neural networks to mine and utilize deep information. Finally, the model performance is improved by using the IDWPSO algorithm for optimization when debugging the neural network.FindingsOn two unbalanced datasets (category ratios of 700:1 and 3:1 respectively), the multi-stage improved model was compared with ten other models using accuracy, precision, specificity, recall, G-measure, F-measure and the nonparametric Wilcoxon test. It was demonstrated that the multi-stage improved model showed a more significant advantage in evaluating the imbalanced credit dataset.Originality/valueIn this paper, the parameters of the ResNet-LSTM hybrid neural network, which can fully mine and utilize the deep information, are tuned by an innovative intelligent optimization algorithm to strengthen the classification performance of the model.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1946f883dacd8302b7e9162a12244011",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "long short-term memory",
+      "LSTM",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T01:56:17.604632"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是开发一个多阶段深度神经网络模型用于信用风险评估，旨在更准确地识别违约风险借款人。这直接属于金融风险管理中的信用风险管理范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"该论文的核心技术是开发一个多阶段深度神经网络模型用于信用风险评估，旨在更准确地识别违约风险借款人。这直接属于金融风险管理中的信用风险管理范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:53:53.978160"
+}

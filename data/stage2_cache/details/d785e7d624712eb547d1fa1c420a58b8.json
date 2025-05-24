@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1107,
+    "title": "Asymmetric Autoencoders for Factor-Based Covariance Matrix Estimation",
+    "abstract": "Estimating high dimensional covariance matrices for portfolio optimization is challenging because the number of parameters to be estimated grows quadratically in the number of assets. When the matrix dimension exceeds the sample size, the sample covariance matrix becomes singular. A possible solution is to impose a (latent) factor structure for the cross-section of asset returns as in the popular capital asset pricing model. Recent research suggests dimension reduction techniques to estimate the factors in a data-driven fashion. We present an asymmetric autoencoder neural network-based estimator that incorporates the factor structure in its architecture and jointly estimates the factors and their loadings. We test our method against well established dimension reduction techniques from the literature and compare them to observable factors as benchmark in an empirical experiment using stock returns of the past five decades. Results show that the proposed estimator is very competitive, as it significantly outperforms the benchmark across most scenarios. Analyzing the loadings, we find that the constructed factors are related to the stocks' sector classification.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a67eddeb03d18cf2bae047a92cf4b384",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "autoencoder"
+    ],
+    "stage1_timestamp": "2025-05-15T00:52:00.341381"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用非对称自编码器神经网络来估计高维协方差矩阵，这是投资组合优化中的一个关键挑战。论文明确提到其方法用于资产收益的横截面因子结构估计，并在实证实验中使用了股票收益数据，这些都是投资组合管理的典型应用场景。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用非对称自编码器神经网络来估计高维协方差矩阵，这是投资组合优化中的一个关键挑战。论文明确提到其方法用于资产收益的横截面因子结构估计，并在实证实验中使用了股票收益数据，这些都是投资组合管理的典型应用场景。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:39.221496"
+}

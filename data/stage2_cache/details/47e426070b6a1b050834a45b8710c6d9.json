@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 9084,
+    "title": "The Nearest Neighborhood Method to Improve Uncertainty Estimates in Statistical Building Energy Models",
+    "abstract": "Accurate estimation of uncertainty in energy use predictions from statistical models finds applications in a number of diverse areas of interest to building energy professionals. Examples include the determination of measured energy savings in monitoring and verification (M&V) projects; continuous commissioning; and automated fault detection, wherein improper building or equipment performance is to be detected. All these applications generally involve identifying a baseline statistical model representative of energy use prior to the retrofit (or to energy use under fault-free operation) and then ascertaining the energy savings (or the penalty for faulty operation) as the difference between the measured post-retrofit energy use and the corresponding model-predicted value. Unfortunately, the model residual outliers are ill-behaved, and estimates of the uncertainty in the energy savings tend to be unrealistic. Developing a general methodology for determining more realistic, robust, and credible estimates of the uncertainty in energy savings would be of great value and is the objective of this paper. The proposed approach is to determine the uncertainty from local system behavior rather than from global statistical indices of the model fit, such as root-mean-square error and other measures, as is the current practice. This is done using the nonparametric nearest-neighborhood-points approach, which is well known in traditional statistics. The methodology is applicable to any type of statistical model approach, such as regression, time series, and neural networks, and could be coded into a computer package that can be appended to existing M&V analysis programs. Two case study examples using daily building energy-use data serve to illustrate the proposed methodology. The ultimate benefit of such a reliable and statistically defensible method is to lend more credibility to the determination of risk associated with energy savings from energy efficiency projects and thereby induce financial agencies to become more involved in white tag and allied certification programs.",
+    "year": 2011,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0e1484d502c599b606e32c89f5f7c2a3",
+    "relevant_keywords": [
+      "regression",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T03:25:27.710475"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是建筑能源模型中不确定性估计的改进方法，其应用场景集中在建筑能源效率项目中的能源节约和风险管理，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是建筑能源模型中不确定性估计的改进方法，其应用场景集中在建筑能源效率项目中的能源节约和风险管理，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:25:12.667712"
+}

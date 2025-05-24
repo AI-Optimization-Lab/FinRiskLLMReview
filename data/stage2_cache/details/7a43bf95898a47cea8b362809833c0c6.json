@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 2183,
+    "title": "Evolving Hybrid Neural Fuzzy Network for Realized Volatility Forecasting with Jumps",
+    "abstract": "Equity assets volatility modeling and forecasting are fundamental in risk management, portfolio construction, financial decision making and derivative pricing. The use of realized volatility models outperforms GARCH and related stochastic volatility models in out-of-sample forecasting. Gains in performance can be achieved by separately considering volatility jump components. This paper suggests an evolving hybrid neural fuzzy network (eHFN) modeling approach for realized volatility forecasting with jumps. The eHFN model is nonlinear, timeraying, and uses neurons based on uninorms and sigmoidal activation functions in a feedforward network topology. The approach simultaneously chooses the number of hidden layer neurons and corresponding neural networks weights. This is of outmost importance in dynamic environments such as in volatility forecasting using data streams. Computational experiments were performed to evaluate and to compare the performance of eHFN with multilayer feedforward neural network, linear regression, and evolving fuzzy models representative of the current state of the art. The experiments use actual data from the main equity market indexes in global markets, namely, S&P 500 and Nasdaq (United States), FTSE (United Kingdom), DAX (Germany), IBEX (Spain) and Ibovespa (Brazil). The results show that the evolving hybrid neural fuzzy network is highly capable to model timevarying realized volatility with jumps.",
+    "year": 2014,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "a1c81532ac5afc5fefd50f4011bae41a",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "sigmoid",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T02:12:17.390828"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用混合神经模糊网络进行已实现波动率预测，这在金融风险管理中具有重要应用，特别是在风险度量和市场波动性预测方面。虽然论文提到波动率预测在衍生品定价和投资组合管理中也有应用，但论文的主要研究目标和实验设计更侧重于波动率预测本身，这是金融风险管理的核心内容。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用混合神经模糊网络进行已实现波动率预测，这在金融风险管理中具有重要应用，特别是在风险度量和市场波动性预测方面。虽然论文提到波动率预测在衍生品定价和投资组合管理中也有应用，但论文的主要研究目标和实验设计更侧重于波动率预测本身，这是金融风险管理的核心内容。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:44:03.130980"
+}

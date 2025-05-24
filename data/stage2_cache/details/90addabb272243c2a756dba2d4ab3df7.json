@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1036,
+    "title": "Trading the FX volatility risk premium with machine learning and alternative data",
+    "abstract": "In this study, we show how both machine learning and alternative data can be successfully leveraged to improve and develop trading strategies. Starting from a trading strategy that harvests the EUR/USD volatility risk premium by selling one-week straddles every weekday, we present a machine learning approach to more skillfully time new trades and thus prevent unfavorable ones. To this end, we build probability-calibrated Random Forests on various predictors, extracted from both traditional market data and financial news, to predict the closing Sharpe ratio of short one-week delta-hedged straddles. We then demonstrate how the output of these calibrated machine learning models can be used to engineer intuitive new trading strategies. Ultimately, we show that our proposed strategies outperform the original strategy on risk-based performance measures. Moreover, the features that we derived from financial news articles significantly improve the performance of the approach. (c) 2022 The Authors. Publishing services by Elsevier B.V. on behalf of KeAi Communications Co. Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "64bcd4294731bc6b030498b6b1ad7f89",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:58:08.498914"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究利用机器学习和替代数据来优化外汇波动风险溢价的交易策略，通过预测短期delta对冲跨式期权的夏普比率来管理交易风险，这属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究利用机器学习和替代数据来优化外汇波动风险溢价的交易策略，通过预测短期delta对冲跨式期权的夏普比率来管理交易风险，这属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:52:22.631445"
+}

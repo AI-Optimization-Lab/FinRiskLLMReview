@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 4911,
+    "title": "Corporate bond default prediction using bilateral topic information of credit rating reports",
+    "abstract": "The default of corporate bonds can result in large financial losses as well as irreparable harm to investors' trust and the economy as a whole, which implies that the identification of corporate bond default must be done promptly and properly. Current studies mainly rely on accounting and/or macroeconomic data and use the credit rank (CR) to disclose the credit status of corporate bonds in the default prediction task. However, the textual data of credit rating reports (CRRs) contain richer and more comprehensive information and are neglected in related work. In this paper, we propose a novel framework that draws on the unstructured data in CRR to predict the default of corporate bonds. We extract the rating opinion sentences (categorized as positive and negative) from the collected CRR files and use latent Dirichlet allocation (LDA) models to mine topic information. The bilateral topic information of positive and negative opinions can reflect the anti-risk ability and potential risk of corporate bonds, respectively, based on which the constructed topic features are used for default prediction. Results on real-world Chinese corporate bonds dataset show that the bilateral topic information of CRR can significantly improve the predicting power of models (LR, SVM, KNN and MLP) under three performance metrics (AUC, KS and H-measure). By analyzing the ranking of topic features using SHAP value, the proposed framework can explain the factors that affect bond defaults, which can provide a basis for the decision-making of investment behavior.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "2f84a58cf9f6a75a07b7e4e49bc8664f",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "support vector machine",
+      "SVM",
+      "neural network",
+      "deep learning",
+      "MLP"
+    ],
+    "stage1_timestamp": "2025-05-15T02:42:04.991377"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是利用机器学习模型从信用评级报告中提取信息来预测公司债券违约，这直接涉及信用风险的评估和管理，属于金融风险管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是利用机器学习模型从信用评级报告中提取信息来预测公司债券违约，这直接涉及信用风险的评估和管理，属于金融风险管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:31:32.631551"
+}

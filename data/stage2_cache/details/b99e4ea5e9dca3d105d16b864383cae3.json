@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 1455,
+    "title": "Nonparametric conditional autoregressive expectile model via neural network with applications to estimating financial risk",
+    "abstract": "The parametric conditional autoregressive expectiles (CARE) models have been developed to estimate expectiles, which can be used to assess value at risk and expected shortfall. The challenge lies in parametric CARE modeling is the specification of a parametric form. To avoid any model misspecification, we propose a nonparametric CARE model via neural network. The nonparametric CARE model can be estimated by a classical gradient based nonlinear optimization algorithm, and the consistency of nonparametric conditional expectile estimators is established. We then apply the nonparametric CARE model to estimating value at risk and expected shortfall of six stock indices. Empirical results for the new model is competitive with those classical models and parametric CARE models. Copyright (C) 2016 John Wiley & Sons, Ltd.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "15d1c24e933b968a60706f15646a2400",
+    "relevant_keywords": [
+      "neural network",
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:00.811883"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on estimating value at risk and expected shortfall, which are key metrics in financial risk management. The proposed nonparametric CARE model via neural network is specifically applied to assess these risk measures for stock indices, indicating its primary application in financial risk management.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on estimating value at risk and expected shortfall, which are key metrics in financial risk management. The proposed nonparametric CARE model via neural network is specifically applied to assess these risk measures for stock indices, indicating its primary application in financial risk management.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:49:01.454397"
+}

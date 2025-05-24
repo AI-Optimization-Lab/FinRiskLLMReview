@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 25,
+    "title": "Improving Non-parametric Option Pricing during the Financial Crisis",
+    "abstract": "Financial option prices have experienced excessive volatility in response to the recent economic and financial crisis. During the crisis periods, financial markets are, in general, subject to an abrupt regime shift which imposes a significant challenge to option pricing models. In this context, swiftly evolving markets and institutions require valuation models that are capable of recognizing and adapting to such changes. Both parametric and non-parametric pricing models have shown poor forecast ability for options traded in late 1987 and 2008. Surprisingly, the pricing inaccuracy was more pronounced for non-parametric models than for parametric models. To address this problem, we propose a novel hybrid methodology modular neural network-fuzzy learning vector quantization (MNN-FLVQ) model - that uses the Kohonen unsupervised learning and fuzzy clustering algorithms to classify the S&P 500 stock market index options, and thereby detect a regime shift. In our empirical application, the results for the 2008 financial crisis demonstrate that the MNN-FLVQ model is superior to the competing methods in regards to option pricing during regime shifts.",
+    "year": 2012,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "ac22f86d0dcb5e3be24a4e60b172aece",
+    "relevant_keywords": [
+      "machine learning",
+      "unsupervised learning",
+      "classification",
+      "clustering",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:27:29.501106"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是提出一种混合方法（MNN-FLVQ模型）来改进非参数期权定价，特别是在金融危机期间。论文明确讨论了期权定价模型的挑战和改进，并实证应用于S&P 500股票市场指数期权的定价。因此，其主要应用领域是衍生品定价。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是提出一种混合方法（MNN-FLVQ模型）来改进非参数期权定价，特别是在金融危机期间。论文明确讨论了期权定价模型的挑战和改进，并实证应用于S&P 500股票市场指数期权的定价。因此，其主要应用领域是衍生品定价。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:29.558121"
+}

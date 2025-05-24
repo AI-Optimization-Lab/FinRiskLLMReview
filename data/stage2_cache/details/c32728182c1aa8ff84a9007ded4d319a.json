@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 325,
+    "title": "A clustering-based portfolio strategy incorporating momentum effect and market trend prediction",
+    "abstract": "The hierarchical clustering algorithm has been proved useful in portfolio investment, which is one of the hottest issues in finance. In our new portfolio strategy, central, peripheral and dispersed portfolios constructed from clusters detected using unweighted and weighted modularity are compared according to their past performances, and the optimal portfolio is used in the investment period only if the market index return predicted by the LR, WMA or BP models is positive to avoid losses when the market drops. Our strategy is tested using the daily data of Chinese A-share market from January 4, 2008 and December 31, 2016, and the average investment return during different moving investment periods and 200 repeated runs is calculated. We find that although incorporating dispersed portfolio into our strategy has no significant effect in raising the investment return, it shows a similar performance as the peripheral portfolio, and the strategy constructed using unweighted modularity generally outperforms its counterpart by using weighted modularity. In addition, the market trend prediction can refine the investment return of our strategy. In brief, the strategy constructed using the BP model and unweighted modularity has the best investment return, which also outperforms the Markowitz portfolio. (C) 2018 Elsevier Ltd. All rights reserved.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "67ae0f5ef32beaa102c4b2f49336ae4e",
+    "relevant_keywords": [
+      "clustering",
+      "backpropagation",
+      "BP",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T00:42:00.447294"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是提出一种基于聚类算法和市场趋势预测的投资组合策略，并对其在中国A股市场的表现进行了测试和比较。研究重点在于优化投资组合的构建和选择，以提高投资回报，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是提出一种基于聚类算法和市场趋势预测的投资组合策略，并对其在中国A股市场的表现进行了测试和比较。研究重点在于优化投资组合的构建和选择，以提高投资回报，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:31:44.672368"
+}

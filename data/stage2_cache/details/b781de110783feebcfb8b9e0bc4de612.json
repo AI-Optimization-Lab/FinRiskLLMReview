@@ -1,0 +1,36 @@
+{
+  "paper": {
+    "id": 102,
+    "title": "Deep Residual Convolutional Long Short-term Memory Network for Option Price Prediction Problem",
+    "abstract": "In the realm of financial markets, the precise prediction of option prices remains a cornerstone for effective portfolio management, risk mitigation, and ensuring overall market equilibrium. Traditional models, notably the Black-Scholes, often encounter challenges in comprehensively integrating the multifaceted interplay of contemporary market variables. Addressing this lacuna, this study elucidates the capabilities of a novel Deep Residual Convolution Long Short -term Memory (DR-CLSTM) network, meticulously designed to amalgamate the superior feature extraction prowess of Convolutional Neural Networks (CNNs) with the unparalleled temporal sequence discernment of Long Short-term Memory (LSTM) networks, further augmented by deep residual connections. Rigorous evaluations conducted on an expansive dataset, representative of diverse market conditions, showcased the DR-CLSTM's consistent supremacy in prediction accuracy and computational efficacy over both its traditional and deep learning contemporaries. Crucially, the integration of residual pathways accelerated training convergence rates and provided a formidable defense against the often detrimental vanishing gradient phenomenon. Consequently, this research positions the DR-CLSTM network as a pioneering and formidable contender in the arena of option price forecasting, offering substantive implications for quantitative finance scholars and practitioners alike, and hinting at its potential versatility for broader financial instrument applications and varied market scenarios.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "477c388d1481435ed403b89136d057b8",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "convolutional neural network",
+      "CNN",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:33:49.059846"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是开发一种新型的深度残差卷积长短期记忆网络（DR-CLSTM），专门用于期权价格预测问题。期权价格预测直接关联到衍生品定价领域，论文明确提到其研究目标是提高期权价格预测的准确性，并对比了传统模型如Black-Scholes的表现。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是开发一种新型的深度残差卷积长短期记忆网络（DR-CLSTM），专门用于期权价格预测问题。期权价格预测直接关联到衍生品定价领域，论文明确提到其研究目标是提高期权价格预测的准确性，并对比了传统模型如Black-Scholes的表现。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:44.726812"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2469,
+    "title": "Forecasting US dollar exchange rate movement with computational models and human behavior",
+    "abstract": "Our research investigates the potential benefits of adding the Behavioral Finance approach to the Machine Learning and Big Data framework applied to the challenging problem of forecasting the US Dollar exchange rate. More specifically, we show how to improve existing voting-based ensemble models trained to predict the next-day exchange rate trend with no need for retraining or other costly computational tasks. We assume that calendar effects would constrain investors' actions; furthermore, their constrained individual actions would collectively induce deterministic patterns in the financial time-series movement. Hence, financial time-series forecasting models could be prone to monthly repeat their performance patterns, and we could use this information to obtain better predictions and consistently achieve profit. To verify the effectiveness of our methodology, we predicted the sign of the US Dollar to Brazilian Real rate variation. Our proposed models generated a profit metric value 24% higher than the original voting-based ensemble models with 16% lower volatility, gathering two positive elements: higher return with lower risk. The experiments' outcomes supported the hypothesis that there are considerable improvements with almost no extra computational effort by taking into account behavioral patterns in foreign exchange predictions.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f30494a83a222d7f61dec64e16b47bfd",
+    "relevant_keywords": [
+      "machine learning",
+      "classification",
+      "regression",
+      "neural network",
+      "deep learning",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:59.763905"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用机器学习和行为金融学方法来预测美元汇率的变动，虽然涉及金融领域，但其核心应用并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用机器学习和行为金融学方法来预测美元汇率的变动，虽然涉及金融领域，但其核心应用并不直接属于衍生品定价、金融风险管理或投资组合管理中的任何一个。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:41:37.589000"
+}

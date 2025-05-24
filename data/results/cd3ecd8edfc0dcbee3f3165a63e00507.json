@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "supervised learning",
+    "classification",
+    "regression",
+    "decision tree",
+    "random forest"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions using machine learning techniques to improve earnings predictions and abnormal returns.",
+    "supervised learning": "The paper uses supervised learning methods like stepwise logit regression and random forest for prediction tasks.",
+    "classification": "The paper predicts the sign of future earnings changes, which is a classification task.",
+    "regression": "The paper uses regression techniques (stepwise logit regression) for prediction.",
+    "decision tree": "Random forest, which is mentioned in the paper, is an ensemble method based on decision trees.",
+    "random forest": "The paper specifically mentions that random forest significantly improves forecast accuracy and returns compared to stepwise logit."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"supervised learning\",\n    \"classification\",\n    \"regression\",\n    \"decision tree\",\n    \"random forest\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions using machine learning techniques to improve earnings predictions and abnormal returns.\",\n    \"supervised learning\": \"The paper uses supervised learning methods like stepwise logit regression and random forest for prediction tasks.\",\n    \"classification\": \"The paper predicts the sign of future earnings changes, which is a classification task.\",\n    \"regression\": \"The paper uses regression techniques (stepwise logit regression) for prediction.\",\n    \"decision tree\": \"Random forest, which is mentioned in the paper, is an ensemble method based on decision trees.\",\n    \"random forest\": \"The paper specifically mentions that random forest significantly improves forecast accuracy and returns compared to stepwise logit.\"\n  }\n}\n```"
+}

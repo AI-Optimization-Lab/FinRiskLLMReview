@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 3205,
+    "title": "Mean Absolute Directional Loss as a new loss function for machine learning problems in algorithmic investment strategies",
+    "abstract": "This paper investigates the issue of an adequate loss function in the optimization of machine learning models used in the forecasting of financial time series for the purpose of algorithmic investment strategies (AIS) construction. We propose the Mean Absolute Directional Loss (MADL) function, solving important problems of classical forecast error functions in extracting information from forecasts to create efficient buy/sell signals in algorithmic investment strategies. MADL places appropriate emphasis not only on the quality of the point forecast but also on its impact on the rate of achievement by the investment system based on it. The introduction and detailed description of the theoretical properties of this new MADL loss function are our main contributions to the literature. In the empirical part of the study, based on the data from two different asset classes (cryptocurrencies: Bitcoin and commodities: Crude Oil), we show that our new loss function enables us to select better hyperparameters for the LSTM model and obtain more efficient investment strategies, with regard to risk-adjusted return metrics on the out-of-sample data.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1b8bcd9a06512d8e14d792ddb21afb59",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:23:33.601825"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出了一种新的损失函数（MADL），用于优化机器学习模型在金融时间序列预测中的应用，目的是构建更有效的算法投资策略（AIS）。这直接涉及到投资组合管理中的策略优化和资产配置问题。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出了一种新的损失函数（MADL），用于优化机器学习模型在金融时间序列预测中的应用，目的是构建更有效的算法投资策略（AIS）。这直接涉及到投资组合管理中的策略优化和资产配置问题。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:38:03.420750"
+}

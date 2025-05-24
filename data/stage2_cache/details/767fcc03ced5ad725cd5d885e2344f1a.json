@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1504,
+    "title": "A Novel Neuromorphic Processors Realization of Spiking Deep Reinforcement Learning for Portfolio Management",
+    "abstract": "The process of constantly reallocating budgets into financial assets, aiming to increase the anticipated return of assets and minimizing the risk, is known as portfolio management. Processing speed and energy consumption of portfolio management have become crucial as the complexity of their real-world applications increasingly involves high-dimensional observation and action spaces and environment uncertainty, which their limited onboard resources cannot offset. Emerging neuromorphic chips inspired by the human brain increase processing speed by up to 500 times and reduce power consumption by several orders of magnitude. This paper proposes a spiking deep reinforcement learning (SDRL) algorithm that can predict financial markets based on unpredictable environments and achieve the defined portfolio management goal of profitability and risk reduction. This algorithm is optimized for Intel's Loihi neuromorphic processor and provides 186x and 516x energy consumption reduction compared to a high-end processor and GPU, respectively. In addition, a 1.3x and 2.0x speed-up is observed over the high-end processors and GPUs, respectively. The evaluations are performed on cryptocurrency market benchmark between 2016 and 2021.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "65d679f8b78510fc840f3d675f0dd3b0",
+    "relevant_keywords": [
+      "machine learning",
+      "reinforcement learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T02:03:39.842215"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文明确提出了一个用于投资组合管理的尖峰深度强化学习算法，旨在通过重新分配预算到金融资产中，以增加预期回报并最小化风险。论文还详细描述了该算法在加密货币市场基准上的评估，这直接关联到投资组合管理的核心目标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文明确提出了一个用于投资组合管理的尖峰深度强化学习算法，旨在通过重新分配预算到金融资产中，以增加预期回报并最小化风险。论文还详细描述了该算法在加密货币市场基准上的评估，这直接关联到投资组合管理的核心目标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:48:41.398899"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 1074,
+    "title": "IMPROVING AUTOMOBILE INSURANCE CLAIMS FREQUENCY PREDICTION WITH TELEMATICS CAR DRIVING DATA",
+    "abstract": "Novel navigation applications provide a driving behavior score for each finished trip to promote safe driving, which is mainly based on experts' domain knowledge. In this paper, with automobile insurance claims data and associated telematics car driving data, we propose a supervised driving risk scoring neural network model. This one-dimensional convolutional neural network takes time series of individual car driving trips as input and returns a risk score in the unit range of (0,1). By incorporating credibility average risk score of each driver, the classical Poisson generalized linear model for automobile insurance claims frequency prediction can be improved significantly. Hence, compared with non-telematics-based insurers, telematics-based insurers can discover more heterogeneity in their portfolio and attract safer drivers with premiums discounts.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "3ee180d0bf608a295ccbd8aff20f34d0",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T00:51:25.947017"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用车联网数据和神经网络模型改进汽车保险索赔频率的预测，虽然涉及风险评估，但其应用场景是保险领域而非特定的金融研究领域（如衍生品定价、金融风险管理或投资组合管理）。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用车联网数据和神经网络模型改进汽车保险索赔频率的预测，虽然涉及风险评估，但其应用场景是保险领域而非特定的金融研究领域（如衍生品定价、金融风险管理或投资组合管理）。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:24:45.966663"
+}

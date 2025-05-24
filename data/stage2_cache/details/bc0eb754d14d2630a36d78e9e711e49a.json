@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 3328,
+    "title": "Artificial intelligence for load forecasting: A stacking learning approach based on ensemble diversity regularization",
+    "abstract": "State-of-art artificial intelligence (AI) has made great breakthroughs in various industries. Ensemble learning mixed with various predictors provides a considerable solution for electric load forecasting in power system. In our paper, the generalization error of ensemble learning is statistically decomposed to exhibit the significance of base-learner diversity. A diversity regularized Stacking learning approach is proposed to solve the electric load forecasting issue. In our model, the input features are comprehensively selected by various tree-based embedded methods to understand the feature contribution. The robust candidate base-learners are extracted from sub -model pool depending on diversity regularization besides the individual learning capability. Mutual informa-tion theory and hierarchical clustering quantitatively assess the dissimilarity degree among base-leaners by exploiting error distribution. The Stacking ensemble framework is utilized to avoid the over-fitting occurrence by employing leave-one-out data splitting procedure for raw dataset block. At last, various cases from different time horizons or geographical scopes are deployed to verify the validity of the model. The case shows that the di-versity regularized Stacking learning has better prediction performance compared with the traditional ensemble model or single model. Load forecasting results become more accurate and stable when elaborately selecting base-learners portfolio.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "a3c4f152bdc15b69e3fa15ac80d72865",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "decision tree",
+      "clustering",
+      "feature learning",
+      "feature representation",
+      "dropout regularization"
+    ],
+    "stage1_timestamp": "2025-05-15T01:15:54.843094"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是电力负荷预测问题，提出了一种基于集成多样性正则化的堆叠学习方法。虽然使用了机器学习等技术，但其应用场景是电力系统而非金融领域，未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是电力负荷预测问题，提出了一种基于集成多样性正则化的堆叠学习方法。虽然使用了机器学习等技术，但其应用场景是电力系统而非金融领域，未涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:11.533410"
+}

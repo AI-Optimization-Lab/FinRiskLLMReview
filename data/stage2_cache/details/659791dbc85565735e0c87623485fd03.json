@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 46,
+    "title": "Deep Curve-Dependent PDEs for Affine Rough Volatility",
+    "abstract": "We introduce a new deep learning--based algorithm to evaluate options in affine rough stochastic volatility models. Viewing the pricing function as the solution to a curve-dependent PDE, depending on forward curves rather than the whole path of the process, we develop a numerical scheme based on deep learning techniques. Numerical simulations suggest that the latter is a promising alternative to classical Monte Carlo simulations.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "deep learning",
+    "cache_key": "70b44fbe43435da2decf9ac529d84d03",
+    "relevant_keywords": [
+      "deep learning",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-15T01:26:54.919228"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用深度学习算法来评估期权定价，特别是在仿射粗糙随机波动率模型中。这直接涉及衍生品定价领域，因为论文明确提到其目标是开发一种替代传统蒙特卡洛模拟的数值方案来定价期权。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用深度学习算法来评估期权定价，特别是在仿射粗糙随机波动率模型中。这直接涉及衍生品定价领域，因为论文明确提到其目标是开发一种替代传统蒙特卡洛模拟的数值方案来定价期权。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:35.735241"
+}

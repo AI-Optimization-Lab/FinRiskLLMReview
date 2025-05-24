@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 668,
+    "title": "Assessing Machine Learning as a Tool to Explain Variance in Deployed Photovoltaic (PV) System Degradation",
+    "abstract": "Degradation remains a large uncertainty in forecasting production for PV plants, creating significant risk for developers and financiers. This study aims to quantify the distribution and drivers of degradation across 10,000 PV systems deployed for distributed or utility generation by training a machine learning model to predict year-over-year degradation rates from metadata characteristics. A combination of K-Means clustering and random forest regressor were found to associate multiple metadata features as potential drivers of degradation, including module characteristics, system design, and climate features. From this, it is inferred that if machine learning is able to find complex patterns between metadata features and system performance loss, such methods can be employed to help developers and financiers make data-informed decisions when estimating long-term energy production forecasts in financial models.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "e9ab0c5abc809c9f531b6959f4b391e2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "regression",
+      "decision tree",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:59.296944"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究利用机器学习模型预测光伏系统退化率，以帮助开发商和金融家做出数据驱动的决策。虽然涉及金融模型中的长期能源生产预测，但核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究利用机器学习模型预测光伏系统退化率，以帮助开发商和金融家做出数据驱动的决策。虽然涉及金融模型中的长期能源生产预测，但核心技术并未直接应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:55:53.198892"
+}

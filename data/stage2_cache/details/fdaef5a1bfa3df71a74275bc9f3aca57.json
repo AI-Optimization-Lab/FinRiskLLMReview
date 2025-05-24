@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 43,
+    "title": "支持向量机和人工神经网络在期权价格预测中的比较研究",
+    "abstract": "期权定价已成为金融市场的重要组成部分之一。由于市场是动态的，准确预测期权价格非常困难。因此，设计和发展了各种机器学习技术来预测期权价格未来趋势。比较了支持向量机(SVM)模型和人工神经网络(ANN)模型在期权价格预测中的有效性。在测试和训练阶段，2种模型都使用公开可用的基准数据集SPY option price-2015进行测试。2种模型均采用主成分分析(PCA)转换后的数据，以达到更好的预测精度。另一方面，为了避免过拟合问题，将整个数据集划分为训练集(70%)和测试集(30%)2组。将支持向量机模型与基于均方根误差(RMSE)的神经网络模型的结果进行了比较。实验结果表明：神经网络模型优于支持向量机模型，预测的期权价格与相应的实际期权价格吻合良好。",
+    "year": 2022,
+    "source": "CNKI",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "d019e282df7378b5ea7256ee4789dfd2",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "support vector machine",
+      "SVM",
+      "principal components analysis",
+      "neural network"
+    ],
+    "stage1_timestamp": "2025-05-14T22:24:18.923262"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心研究内容是使用支持向量机和人工神经网络模型预测期权价格，期权是金融衍生品的一种，因此该论文的主要技术应用属于衍生品定价领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心研究内容是使用支持向量机和人工神经网络模型预测期权价格，期权是金融衍生品的一种，因此该论文的主要技术应用属于衍生品定价领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:40:59.836578"
+}

@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 752,
+    "title": "A Comprehensive Health Indicator Integrated by the Dynamic Risk Profile from Condition Monitoring Data and the Function of Financial Losses",
+    "abstract": "Large rotating machinery, such as centrifugal gas compressors and pumps, have been widely applied and acted as crucial components in the oil and gas industries. Breakdowns or deteriorated performance of these rotating machines can bring significant economic loss to the companies. In order to conduct effective maintenance and avoid unplanned downtime, a system-wide health indicator is proposed in this paper. The health indicator not only uses a dynamic risk profile, but also considers financial loss and the fault probability based on condition monitoring data. This methodology is carried out by four steps: fault detection, probability of fault calculation, consequence of fault calculation and dynamic risk assessment. In our methodology, the fault probability is calculated by robust Mahalanobis distance, presenting as a system-wide feature from a sparse autoencoder fault detection model enabled early fault detection. The value of the health indicator is presented in financial loss, which assists in effective operational decision-making in a process system. To evaluate the performance of the proposed indicator, two case studies were carried out-one case tested on multivariate industrial data obtained from a pump, and another one tested on an industrial data set from a compressor. Results prove that the integrated health indicator can detect the faults at their incipient stages, indicate the degradation of the system with dynamically updated process risk at each sampling instant, and suggest an appropriate shutdown time before the system suffers severe damage. In addition, this methodology can be adapted to other machines' health assessments, such as those of turbines and motors. The presented method of processing the industrial data set can benefit relevant readers.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "3fe321e628c97ffcd363298d4d30a101",
+    "relevant_keywords": [
+      "autoencoder",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:42:05.424704"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是机械设备健康监测和故障预测，虽然提到了金融损失，但其核心应用领域是工业设备的维护和风险管理，而非金融领域的衍生品定价、金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是机械设备健康监测和故障预测，虽然提到了金融损失，但其核心应用领域是工业设备的维护和风险管理，而非金融领域的衍生品定价、金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:24.604255"
+}

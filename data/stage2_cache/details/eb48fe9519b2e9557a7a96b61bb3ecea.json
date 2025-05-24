@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 79,
+    "title": "Analysis of parametric and non-parametric option pricing models",
+    "abstract": "In this paper, a closed-form analytical solution of option price under the Bi-Heston model is derived. Through empirical analysis, the advantages and disadvantages of the parametric pricing model are compared and analysed with those of the non-parametric model. The analysis shows that: (1) the parametric pricing model significantly outperforms the machine learning model in terms of in-sample pricing effects, while the Bi-Heston model slightly outperforms the Heston model. (2) In terms of out-of-sample pricing, the machine learning model is inferior to the parametric model for call options, while the Bi-Heston model is significantly better than the other two models for put options, and the other two models are similar. (3) In the robustness analysis of the three pricing models, the machine learning model shows strong instability, while the Bi-Heston model shows a more stable side.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "a25b44a4793f562cc5e147abe2376c81",
+    "relevant_keywords": [
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.935894"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文主要讨论了期权定价模型（包括参数化模型和非参数化模型）的性能比较，特别是Bi-Heston模型与Heston模型以及机器学习模型的对比，这直接属于衍生品定价的研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文主要讨论了期权定价模型（包括参数化模型和非参数化模型）的性能比较，特别是Bi-Heston模型与Heston模型以及机器学习模型的对比，这直接属于衍生品定价的研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:02.031761"
+}

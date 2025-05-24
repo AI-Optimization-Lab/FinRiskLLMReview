@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 238,
+    "title": "Valuing American Options by Weighted Least-squares Quasi-Monte Carlo",
+    "abstract": "American options pricing has the backward nature of iterative search feature. Based on the least-squares Monte Carlo(LSM), this paper employs Faure sequences and doubles the sample's number by antithetic variate method to decrease the variance of simulation. Then, underling assets are valued. Thus, weighted least-squares quasi-Monte Carlo (WLSQM) is proposed by weighted least-squares regression. Comparing the two methods with option value, standard error and computation cost, WLSQM is better than LSM, which validates WLSQM is efficient on pricing American options.",
+    "year": 2008,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "8381a76f3dcc8c9cdb00c2ba38498ef3",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:29:44.218260"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是改进的蒙特卡洛方法（WLSQM）用于美式期权定价，这直接属于衍生品定价领域。论文明确提到该方法在定价美式期权方面的效率和准确性，并未涉及金融风险管理或投资组合管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是改进的蒙特卡洛方法（WLSQM）用于美式期权定价，这直接属于衍生品定价领域。论文明确提到该方法在定价美式期权方面的效率和准确性，并未涉及金融风险管理或投资组合管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:06:01.546688"
+}

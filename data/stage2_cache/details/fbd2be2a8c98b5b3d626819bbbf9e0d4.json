@@ -1,0 +1,27 @@
+{
+  "paper": {
+    "id": 2857,
+    "title": "A hierarchical reserving model for reported non-life insurance claims",
+    "abstract": "Traditional non-life reserving models largely neglect the vast amount of information collected over the lifetime of a claim. This information includes covariates describing the policy, claim cause as well as the detailed history collected during a claim's development over time. We present the hierarchical reserving model as a modular framework for integrating a claim's history and claim-specific covariates into the development process. Hierarchical reserving models decompose the joint likelihood of the development process over time. Moreover, they are tailored to the portfolio at hand by adding a layer to the model for each of the events registered during the development of a claim (e.g. settlement, payment). Layers are modelled with statistical learning (e.g. generalized linear models) or machine learning methods (e.g. gradient boosting machines) and use claim-specific covariates. As a result of its flexibility, this framework incorporates many existing reserving models, ranging from aggregate models designed for run-off triangles to individual models using claim-specific covariates. This connection allows us to develop a data-driven strategy for choosing between aggregate and individual reserving; an important decision for reserving practitioners. We illustrate our method with a case study on a real insurance data set and deduce new insights in the covariates driving the development of claims. Moreover, we evaluate the method's performance on a large number of simulated portfolios representing several realistic development scenarios and demonstrate the flexibility and robustness of the hierarchical reserving model.(c) 2022 Elsevier B.V. All rights reserved.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "7cc8fc73e7d4d499fcd575d284d3a9c8",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "gradient boosting machines"
+    ],
+    "stage1_timestamp": "2025-05-15T01:11:17.398404"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文主要研究非寿险索赔的层次化准备金模型，通过整合索赔历史和特定索赔协变量来改进准备金评估。这属于保险公司风险管理的一部分，特别是针对保险索赔的财务风险进行管理。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文主要研究非寿险索赔的层次化准备金模型，通过整合索赔历史和特定索赔协变量来改进准备金评估。这属于保险公司风险管理的一部分，特别是针对保险索赔的财务风险进行管理。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:12:23.704691"
+}

@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 629,
+    "title": "Token-Based Adaptive Time-Series Prediction by Ensembling Linear and Non-Linear Estimators: A Machine Learning Approach for Predictive Analytics on Big Stock Data",
+    "abstract": "With technological advancements, big data can be easily generated and collected in many applications. Embedded in these big data are useful information and knowledge that can be discovered by machine learning and data mining models, techniques or algorithms. A rich source of big data is stock exchange. The ability to effectively predict future stock prices improves the economic growth and development of a country. Traditional linear approaches for prediction (e.g., Kalman filters) may not be practical in handling big data like stock prices due to highly nonlinear and chaotic nature. This lead to the exploitation of various nonlinear estimators such as the extended Kalman filters, expert systems, and various neural network architectures. Moreover, to lessen the potential shortcomings of individual algorithms, ensemble approaches have been created by averaging values across different algorithms. Existing ensemble techniques mostly basket-together a collection of sample-based algorithms that are catered to nonlinear functions. To the best of our knowledge, traditional linear estimators have not yet been incorporated into such an ensemble. Hence, in this paper, we propose a machine learning (\\specifically, token-based ensemble) algorithm that utilizes both linear and nonlinear estimators to predict big financial time-series data. Our ensemble consists of a traditional Kalman filter, long short-term memory (\\LSTM) network, and the traditional linear regression model. We also explore the adaptive properties in short-term high-risk trading in the presence of noisy data like stock prices and demonstrate the performance of our ensemble.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3f19abf358495f9d93197e5d594fa6db",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:53:24.805616"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是利用机器学习和集成学习方法预测股票价格的时间序列数据，虽然涉及金融领域，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是利用机器学习和集成学习方法预测股票价格的时间序列数据，虽然涉及金融领域，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:56:17.225648"
+}

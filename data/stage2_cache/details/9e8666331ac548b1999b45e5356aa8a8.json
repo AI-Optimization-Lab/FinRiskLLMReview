@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1666,
+    "title": "Predicting the Distress of Financial Intermediaries using Convolutional Neural Networks",
+    "abstract": "Over the past 15 years, the United States has faced two major economic events - the 2008 financial meltdown and the 2019 Shadow Bank crisis. Now, it faces a new financial emergency brought on by COVID-19. Financial intermediaries comprise institutions such as banks, mutual funds, insurance companies, real estate investment trusts, among others, and are a significant part of economic stability. Too big to fail has become a well-known phrase. Therefore, being able to predict the financial distress of a financial intermediary is very important. Traditionally, the Altman Z-score (or a variation thereof), has been used to predict bankruptcy. It uses 5 key financial ratios to create an index score, or Z-score. Predicting financial distress, however, also accounts for companies that may not be currently on the path to bankruptcy, but may be in the future. Contemporary research has shown that combining sentiment analysis with ratio analysis improves the prediction. Our methodology uses both financial ratios and sentiment, but also includes the London Interbank Offered Rate (LIBOR), and the keywords Going Concern and Concentration Risk. Using a Convolutional Neural Network, we classified financial intermediaries as either distressed or not distressed with an accuracy of 88.24%.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "381096dddc87949ad1a4aad5a0e9d54e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN"
+    ],
+    "stage1_timestamp": "2025-05-15T02:06:22.383056"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting financial distress of financial intermediaries using a Convolutional Neural Network, which is a key aspect of financial risk management as it involves assessing and mitigating potential risks to financial stability.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting financial distress of financial intermediaries using a Convolutional Neural Network, which is a key aspect of financial risk management as it involves assessing and mitigating potential risks to financial stability.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:17.554751"
+}

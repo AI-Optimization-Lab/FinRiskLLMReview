@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1928,
+    "title": "An Enriched Time-Series Forecasting Framework for Long-Short Portfolio Strategy",
+    "abstract": "Stock return forecasting typically requires a large number of factors and these factors usually exhibit nonlinear relations with each other. Conventional methods of stock return forecasting mainly fall into two categories: Technical Analysis and Fundamental Analysis. Technical Analysis focuses on time-series data, while Fundamental Analysis explores low-frequency fundamental variables. Although there are substantial works on either time-series analysis or fundamental analysis, few studies have enriched the time-series forecasting with fundamental variables, as the features are characterized by different frequencies, scales and types. In this paper, we propose a Long Short-Term Memory and Deep Neural Network (LSTM-DNN) hybrid model to integrate the fundamental information into time-series forecasting tasks. We demonstrate how investors can benefit from the superior performance of LSTM-DNN by constructing a long-short portfolio that takes long positions in stocks with the highest forecasting returns and short positions in stocks that are expected to decline. Extensive experimental results on real data show that our novel framework could improve the profitability of long-short portfolio strategies compared to the state-of-the-art approaches. We also find evidence indicating that the outperformance of LSTM-DNN model comes from its enhanced ability to extract information from the nonlinear relations among various features, rather than bearing more market risks. Besides the novel framework, we propose a cross-section normalization method, which benefits the framework by providing enriched cross-section signals.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "9b98cb8f122f88da2673197aa8b8c8fb",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:06.194887"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用LSTM-DNN混合模型进行股票收益预测，并应用于构建多空投资组合策略，这直接属于投资组合管理的范畴。论文明确提到通过预测收益构建多空头寸组合，并验证了该策略的盈利能力提升，这些都是投资组合管理的典型应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用LSTM-DNN混合模型进行股票收益预测，并应用于构建多空投资组合策略，这直接属于投资组合管理的范畴。论文明确提到通过预测收益构建多空头寸组合，并验证了该策略的盈利能力提升，这些都是投资组合管理的典型应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:13.153680"
+}

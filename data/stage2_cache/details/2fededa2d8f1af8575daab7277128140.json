@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3593,
+    "title": "Co-optimizing transmission and BESS expansions with system strength constraints",
+    "abstract": "The increased penetration of renewables through converter interfaced generation (CIG) and the associated displacement of synchronous generators (SGs) can significantly reduce system strength. Although some network enhancements, such as the installation of battery energy storage systems (BESS), can partially counterbalance the reduction in strength, current network planning methodologies overlook system strength effects. In this context, this work proposes a new optimization model for co-optimizing investments in network expansions and battery systems to meet, at minimum cost, system strength requirements quantified through short circuit levels (SCL). Recognizing that SCL needs vary on a case-by-case basis, this model incorporates a logistic regression analysis trained on offline time-domain dynamic simulations; this approach effectively correlates SCL with system stability, providing a tailored strategy for each power system. To solve the optimization, we also propose an algorithm to iteratively find the optimal solution for the co-optimized portfolio of new transmission and energy storage investments. Through various case studies, we demonstrate the importance of considering system strength requirements in planning studies with significant penetration of CIG.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "4b2adabd4869ea7bfadfdf2aab19e94a",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:19:00.622678"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究电力系统中的网络扩展和电池储能系统的协同优化，以应对可再生能源渗透增加带来的系统强度问题。虽然使用了回归分析，但其应用场景是电力系统规划，与金融领域无关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究电力系统中的网络扩展和电池储能系统的协同优化，以应对可再生能源渗透增加带来的系统强度问题。虽然使用了回归分析，但其应用场景是电力系统规划，与金融领域无关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:17.771730"
+}

@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 2510,
+    "title": "Default prediction of online credit loans based on mobile application usage behaviors",
+    "abstract": "Credit scoring is widely used by financial institutions for default prediction, however, a significant portion of online credit loan customers have inadequate or unverifiable credit histories, making it difficult for financial institutions to make effective credit decisions. Since the widespread use of smartphones and the popularity of mobile applications, it is worth investigating whether mobile application usage behaviors (App behaviors) of customers can effectively predict online loan defaults. This paper proposes a combined algorithm of CNN and LightGBM, and establishes credit scoring models with App behaviors to evaluate the default risk of online credit loans based on logistic regression, LightGBM, CNN and the combined algorithm, respectively. The experimental results suggest that App behaviors have an obvious effect on the default prediction of customers applying for online credit loans, and the combined model outperforms the other models in terms of the area under the curve (AUC). Furthermore, integrated credit scoring models are developed by combining App behaviors with traditional scoring features. A comparison of the integrated models and the traditional scoring model indicates that the integrated models have achieved a significant improvement in classification performance and App behaviors can be a powerful complement to the traditional credit scoring model.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b5f338d25a7c1f9e971fee38fe48ea63",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "deep learning",
+      "convolutional neural network",
+      "CNN",
+      "LightGBM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:15:59.931626"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting default risk for online credit loans using machine learning models, which is a key aspect of financial risk management in credit assessment and lending decisions.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting default risk for online credit loans using machine learning models, which is a key aspect of financial risk management in credit assessment and lending decisions.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:44.575427"
+}

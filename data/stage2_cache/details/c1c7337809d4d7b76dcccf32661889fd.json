@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 979,
+    "title": "Stock Portfolio Optimization with Competitive Advantages (MOAT): A Machine Learning Approach",
+    "abstract": "This paper aimed to develop a useful Machine Learning (ML) model for detecting companies with lasting competitive advantages (companies' moats) according to their financial ratios in order to improve the performance of investment portfolios. First, we computed the financial ratios of companies belonging to the S&P 500. Subsequently, we assessed the stocks' moats according to an evaluation defined between 0 and 5 for each financial ratio. The sum of all the ratios provided a score between 0 and 100 to classify the companies as wide, narrow or null moats. Finally, several ML models were applied for classification to obtain an efficient, faster and less expensive method to select companies with lasting competitive advantages. The main findings are: (1) the model with the highest precision is the Random Forest; and (2) the most important financial ratios for detecting competitive advantages are a long-term debt-to-net income, Depreciation and Amortization (D&A)-to-gross profit, interest expense-to-Earnings Before Interest and Taxes (EBIT), and Earnings Per Share (EPS) trend. This research provides a new combination of ML tools and information that can improve the performance of investment portfolios; to the authors' knowledge, this has not been done before. The algorithm developed in this paper has a limitation in the calculation of the stocks' moats since it does not consider its cost, price-to-earnings ratio (PE), or valuation. Due to this limitation, this algorithm does not represent a strategy for short-term or intraday trading.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2326daa651a14386dbb3705020e73200",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "decision tree",
+      "Random Forest"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.788769"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心目标是利用机器学习模型识别具有持久竞争优势的公司，以优化投资组合的表现。论文明确提到其研究成果可以改善投资组合的性能，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心目标是利用机器学习模型识别具有持久竞争优势的公司，以优化投资组合的表现。论文明确提到其研究成果可以改善投资组合的性能，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:46.471211"
+}

@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3240,
+    "title": "Risk Guarantees for End-to-End Prediction and Optimization Processes",
+    "abstract": "Prediction methods are often employed to estimate parameters of optimization models. Although the goal in an end-to-end framework is to achieve good performance on the subsequent optimization model, a formal understanding of the ways in which prediction methods can affect optimization performance is notably lacking. This paper identifies conditions on prediction methods that can guarantee good optimization performance. We provide two types of results: asymptotic guarantees under a well-known Fisher consistency criterion and nonasymptotic performance bounds under a more stringent criterion. We use these results to analyze optimization performance for several existing prediction methods and show that in certain settings, methods tailored to the optimization problem can fail to guarantee good performance. Conversely, optimization-agnostic methods can sometimes, surprisingly, have good guarantees. In a computational study on portfolio optimization, fractional knapsack, and multiclass classification problems, we compare the optimization performance of several prediction methods. We demonstrate that lack of Fisher consistency of the prediction method can indeed have a detrimental effect on performance.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "6e8a8ef85395f95c788429cffcd64807",
+    "relevant_keywords": [
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:15:26.018605"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文在计算研究中提到了投资组合优化问题，并讨论了预测方法对优化性能的影响，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文在计算研究中提到了投资组合优化问题，并讨论了预测方法对优化性能的影响，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:10:32.036840"
+}

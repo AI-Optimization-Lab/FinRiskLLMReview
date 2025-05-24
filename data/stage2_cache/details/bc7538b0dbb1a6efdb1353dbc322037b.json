@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 1032,
+    "title": "Study of Dimensionality Reduction Techniques for Effective Investment Portfolio Data Management",
+    "abstract": "The aim of dimensionality reduction is to depict meaningful low-dimensional data of high-dimensional data set. Several new nonlinear methods have been proposed for last many years. But the question of their assessment is still open for the study. Dimensionality reduction is the vital problem in supervised and unsupervised learning. For high-dimensional data, computation becomes heavy if no pre-processing is done before supplying it to any of the classifiers. Because of the constraints like memory and speed, it is not suitable for certain practical applications. As per the method of attribute selection process, attribute sets are provided as an input to the classifier. The attributes that incorrectly classified are supposed to be irrelevant and are removed by obtaining the subset of selected attributes. Thus, accuracy of the classifier is improved, and time is also reduced. Attribute evaluators such as cfsSubset evaluator, information gain ranking filter, chi-squared ranking filter and gain ration feature evaluator are used for the classifiers viz. decision table, decision stump, J48, random forest. Individual investor's investment portfolio data is used for the present study. Twenty-six attributes are obtained from the questionnaire. By applying dimensionality reduction techniques, five major attributes are obtained using information gain ranking filter, chi-squared ranking filter, gain ratio feature evaluation and seven attributes using cfsSubset evaluator. Around 70.7692% accuracy is obtained using three attribute evaluators for all five classification algorithms, whereas cfsSubset evaluator along with random forest classifier gives 81.5385% accuracy. It has been observed that cfsSubset evaluator with partition membership as a pre-processing technique and random forest as classification algorithm performs reasonably better in terms of accuracy.",
+    "year": 2018,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e9b0b450f80dc567b32e279b1db1b705",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "unsupervised learning",
+      "classification",
+      "decision tree",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:40.836381"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是降维技术，用于处理个体投资者的投资组合数据，目的是提高分类算法的准确性和效率。这直接应用于投资组合管理领域，旨在优化投资决策过程。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是降维技术，用于处理个体投资者的投资组合数据，目的是提高分类算法的准确性和效率。这直接应用于投资组合管理领域，旨在优化投资决策过程。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:17.144672"
+}

@@ -1,0 +1,33 @@
+{
+  "paper": {
+    "id": 250,
+    "title": "Self-Attention Recurrent Conditional Generative Adversarial Networks for Corporate Credit Rating Prediction",
+    "abstract": "Financial risk management has always been a critical issue; banks, debt issuers, and government officials all need credit ratings in order to make intelligent financial decisions. Most of the existing studies on corporate credit rating prediction utilize financial statement features as their input data. Credit rating is closely related to credit risk. However, very few studies consider credit risk elements, such as credit systematic risk / beta and Credit Default Swap (CDS) spread data in credit rating prediction. Furthermore, the application of generative adversarial learning for corporate credit rating prediction was rarely investigated. In this work, a novel generative adversarial network (GAN), Self-Attention Recurrent Conditional GAN (SAR-CGAN) for corporate credit rating prediction is proposed. The proposed model takes advantage of Conditional GAN and Recurrent GAN to improve prediction performance. The financial statement features and corporates' CDS spread-related features: credit systematic risk / beta and quarter mean of CDS spread are used as input features. The proposed model adopts long short-term memory networks (LSTM) based on self-attention to process historical data and generate corporate credit rating. We improve the recurrent-based GAN model by modifying the network structure, in which the self-multi-head attention layer is added to capture the weighted importance of the time series data. Moreover, a data sampling strategy is designed to alleviate the overfitting issue and enhance the effectiveness of the proposed GAN model. The experimental results indicate that the proposed model performs better than other state-of-art models on the applied datasets.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "6ca8dd7f853faf562dbf87e93863f3cb",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism",
+      "classification",
+      "feature representation",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:35:45.596836"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on predicting corporate credit ratings using a novel GAN model, which is directly related to assessing and managing credit risk, a key aspect of financial risk management. The use of CDS spread data and credit systematic risk further underscores its application in this domain.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on predicting corporate credit ratings using a novel GAN model, which is directly related to assessing and managing credit risk, a key aspect of financial risk management. The use of CDS spread data and credit systematic risk further underscores its application in this domain.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:04:01.729584"
+}

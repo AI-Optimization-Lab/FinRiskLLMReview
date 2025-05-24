@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "relevant_keywords": [
+    "machine learning",
+    "deep learning",
+    "classification",
+    "neural network",
+    "convolutional neural network",
+    "CNN"
+  ],
+  "explanations": {
+    "machine learning": "The paper explicitly mentions the use of Machine Learning (ML) models for predicting lymph node metastasis in colorectal cancer.",
+    "deep learning": "The paper discusses Deep Learning (DL) models alongside ML models for the same purpose.",
+    "classification": "The study involves predicting lymph node metastasis, which is a classification task (metastasis present or not).",
+    "neural network": "Deep Learning models are a subset of neural networks, and the paper discusses DL models.",
+    "convolutional neural network": "While not explicitly mentioned, CNN is a common architecture in deep learning models used for medical image analysis, which could be relevant given the context.",
+    "CNN": "Abbreviation for Convolutional Neural Network, same reasoning as above."
+  },
+  "raw_response": "```json\n{\n  \"relevant_keywords\": [\n    \"machine learning\",\n    \"deep learning\",\n    \"classification\",\n    \"neural network\",\n    \"convolutional neural network\",\n    \"CNN\"\n  ],\n  \"explanations\": {\n    \"machine learning\": \"The paper explicitly mentions the use of Machine Learning (ML) models for predicting lymph node metastasis in colorectal cancer.\",\n    \"deep learning\": \"The paper discusses Deep Learning (DL) models alongside ML models for the same purpose.\",\n    \"classification\": \"The study involves predicting lymph node metastasis, which is a classification task (metastasis present or not).\",\n    \"neural network\": \"Deep Learning models are a subset of neural networks, and the paper discusses DL models.\",\n    \"convolutional neural network\": \"While not explicitly mentioned, CNN is a common architecture in deep learning models used for medical image analysis, which could be relevant given the context.\",\n    \"CNN\": \"Abbreviation for Convolutional Neural Network, same reasoning as above.\"\n  }\n}\n```"
+}

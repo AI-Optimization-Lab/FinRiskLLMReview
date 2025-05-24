@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 971,
+    "title": "Automated Machine Learning with Monte-Carlo Tree Search",
+    "abstract": "The AutoML task consists of selecting the proper algorithm in a machine learning portfolio, and its hyperparameter values, in order to deliver the best performance on the dataset at hand. MOSAIC, a Monte-Carlo tree search (MCTS) based approach, is presented to handle the AutoML hybrid structural and parametric expensive black-box optimization problem. Extensive empirical studies are conducted to independently assess and compare: i) the optimization processes based on Bayesian optimization or MCTS; ii) its warm-start initialization; iii) the ensembling of the solutions gathered along the search. MOSAIC is assessed on the OpenML 100 benchmark and the Scikit-learn portfolio, with statistically significant gains over AUTO-SKLEARN, winner of former international AutoML challenges.",
+    "year": 2019,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "48a0061198c021e405c7e91a01211926",
+    "relevant_keywords": [
+      "machine learning",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:50:08.769695"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究自动化机器学习（AutoML）中的算法选择和超参数优化问题，虽然提到了‘portfolio’一词，但这里的‘portfolio’指的是机器学习算法的集合，而非金融投资组合。论文的核心技术并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究自动化机器学习（AutoML）中的算法选择和超参数优化问题，虽然提到了‘portfolio’一词，但这里的‘portfolio’指的是机器学习算法的集合，而非金融投资组合。论文的核心技术并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:25:48.239407"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 86,
+    "title": "Neural Network Pricing of American Put Options",
+    "abstract": "In this study, we use Neural Networks (NNs) to price American put options. We propose two NN models-a simple one and a more complex one-and we discuss the performance of two NN models with the Least-Squares Monte Carlo (LSM) method. This study relies on American put option market prices, for four large U.S. companies-Procter and Gamble Company (PG), Coca-Cola Company (KO), General Motors (GM), and Bank of America Corp (BAC). Our dataset is composed of all options traded within the period December 2018 until March 2019. Although on average, both NN models perform better than LSM, the simpler model (NN Model 1) performs quite close to LSM. Moreover, the second NN model substantially outperforms the other models, having an RMSE ca. 40% lower than the presented by LSM. The lower RMSE is consistent across all companies, strike levels, and maturities. In summary, all methods present a good accuracy; however, after calibration, NNs produce better results in terms of both execution time and Root Mean Squared Error (RMSE).",
+    "year": 2020,
+    "source": "WOS",
+    "area": "derivatives_pricing",
+    "method": "machine learning",
+    "cache_key": "2058376ea94e682afa4f2b5652397385",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "deep learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:28:03.971866"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Derivatives Pricing"
+    ],
+    "justification": "该论文的核心技术是使用神经网络模型来定价美式看跌期权，这直接属于衍生品定价的研究领域。论文详细比较了神经网络模型与最小二乘蒙特卡洛方法在期权定价上的表现，并提供了具体的实证分析。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"衍生品定价\"],\n  \"justification\": \"该论文的核心技术是使用神经网络模型来定价美式看跌期权，这直接属于衍生品定价的研究领域。论文详细比较了神经网络模型与最小二乘蒙特卡洛方法在期权定价上的表现，并提供了具体的实证分析。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:07:01.200566"
+}

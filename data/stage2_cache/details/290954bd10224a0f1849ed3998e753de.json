@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2644,
+    "title": "SPCAuth: Scalable and Privacy-Preserving Continuous Authentication for Web Applications",
+    "abstract": "As password-based authentication fails to provide adequate security for online activities such as financial transactions, additional authentication factors are required. Such factors should provide both ease of use and an adequate level of privacy protection, while being easy to implement, operate and maintain, even for applications with thousands of users. As an approach meeting these requirements, we outline Scalable and Privacy-Preserving Continuous Authentication (SPCAuth). SPCAuth determines risk levels for actions that should be authenticated, without requiring explicit user interactions. It analyzes different aspects of user behavior by means of machine learning methods, while preserving the privacy of the affected individuals. SPCAuth trains only a single model per aspect of user behavior being considered, based on observations of all users, ensuring scalability and increasing accuracy for users with infrequent activities. In two experiments, we have confirmed that this key concept enables a scalable and accurate user authentication.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "3325192c65b79d7a18d508ae004ee9fd",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T02:17:32.247451"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是用户身份验证技术，特别是通过机器学习方法进行持续认证，虽然提到了金融交易作为应用场景之一，但其核心技术并不直接涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是用户身份验证技术，特别是通过机器学习方法进行持续认证，虽然提到了金融交易作为应用场景之一，但其核心技术并不直接涉及衍生品定价、金融风险管理或投资组合管理等金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:40:41.366355"
+}

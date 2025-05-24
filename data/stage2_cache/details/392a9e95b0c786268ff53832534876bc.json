@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 167,
+    "title": "Machine learning with kernels for portfolio valuation and risk management",
+    "abstract": "We introduce a simulation method for dynamic portfolio valuation and risk management building on machine learning with kernels. We learn the dynamic value process of a portfolio from a finite sample of its cumulative cash flow. The learned value process is given in closed form thanks to a suitable choice of the kernel. We show asymptotic consistency and derive finite-sample error bounds under conditions that are suitable for finance applications. Numerical experiments show good results in large dimensions for a moderate training sample size.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "0d9d52b9998c2b99c10127dc74f61c6b",
+    "relevant_keywords": [
+      "machine learning",
+      "regression",
+      "support vector machine",
+      "SVM"
+    ],
+    "stage1_timestamp": "2025-05-15T00:40:02.102632"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "The paper introduces a simulation method for dynamic portfolio valuation and risk management using machine learning with kernels. It explicitly mentions portfolio valuation and risk management as its main applications, which fall under the domains of Financial Risk Management and Portfolio Management. The focus on learning the dynamic value process of a portfolio and deriving error bounds suitable for finance applications further supports this classification.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\", \"Portfolio Management\"],\n  \"justification\": \"The paper introduces a simulation method for dynamic portfolio valuation and risk management using machine learning with kernels. It explicitly mentions portfolio valuation and risk management as its main applications, which fall under the domains of Financial Risk Management and Portfolio Management. The focus on learning the dynamic value process of a portfolio and deriving error bounds suitable for finance applications further supports this classification.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:15.836687"
+}

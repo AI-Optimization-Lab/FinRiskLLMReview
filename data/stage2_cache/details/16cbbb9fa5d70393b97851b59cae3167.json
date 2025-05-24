@@ -1,0 +1,28 @@
+{
+  "paper": {
+    "id": 1978,
+    "title": "A machine-learning digital-twin for rapid large-scale solar-thermal energy system design",
+    "abstract": "In many industrialized regions of the world, large-scale photovoltaic systems now contribute a significant part to the energy portfolio during daylight operation. However, as energy demands peak shortly before sunset and persist for several hours afterwards, the integration of solar-thermal systems is extremely advantageous as a green bridge energy source. Accordingly, this work develops a digital-twin model to track and optimize the flow of incoming solar power through a complex solar -thermal storage system, consisting of a large array of adaptable mirrors, an optical-receiver and a power distribution system for customers to extract energy. Specifically, the solar power flow is rapidly computed with a reduced order model of Maxwell's equations, based on a high-frequency decomposition of the irradiance into multiple rays that experience mirror reflections, losses and ultimately receiver absorption and customer delivery. The method allows for rapid testing (in microseconds) of the performance of large numbers of mirror-receiver layout configurations in design space, over extremely long time periods, such as weeks, months and years, using a genetic-based machine-learning digital-twin framework, which integrates submodels for: & BULL; optics and tracking of the Fresnel multi-mirror system, & BULL; thermal absorption of the optical energy by the receiver and & BULL; optimal operating temperatures balancing radiative losses with heat storage. The overall machine-learning digital-twin optimizes the configuration layout to balance meeting customer demands and operational efficiency. Numerical examples are provided to illustrate the approach. Finally, a deep-learning algorithm is developed and applied to the create an Artificial Neural-Net representation, which allows for even further simulation speedup. & COPY; 2023 Published by Elsevier B.V.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "5ca0ebd06c4707c02a52a38ceabbcbaa",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "representation learning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:01:41.636990"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究太阳能-热能系统的数字孪生模型，用于优化能源流动和系统设计，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究太阳能-热能系统的数字孪生模型，用于优化能源流动和系统设计，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:17:49.777141"
+}

@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 119,
+    "title": "Portfolio Allocation with Dynamic Risk Preferences via Reinforcement Learning",
+    "abstract": "In the realm of investment, the mean-variance model serves as an efficacious method for constructing investment portfolios, as it is underpinned by a robust economic theory and is ubiquitously employed in both academia and practice. Nevertheless, there is currently no satisfactory approach for ascertaining the risk preference parameters within the model for investors. This paper proposes a novel reinforcement learning (RL) framework integrated with the mean-variance model, designed to dynamically adjust investors' risk preference parameters during the portfolio construction process. Our RL portfolio is not only readily implementable but also exhibits strong economic interpretability. In our empirical analysis employing Taiwan 50 Index market data, our designed RL portfolio outperforms both the buy-and-hold strategy and portfolios with static risk preference parameters. Concurrently, through our meticulously crafted reward function, RL demonstrates heightened accuracy in selecting suitable risk preferences when market return differences are more pronounced, underscoring the effectiveness of RL methods in dynamically adjusting risk preference parameters during periods of elevated market volatility.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "72cb4995de72724401be5b1eac652647",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "machine learning"
+    ],
+    "stage1_timestamp": "2025-05-15T00:39:32.580954"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心内容是使用强化学习动态调整投资者的风险偏好参数，以优化投资组合的构建，这直接属于投资组合管理的范畴。论文还通过实证分析展示了该方法在市场数据上的优越表现，进一步证实了其在投资组合管理中的应用。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心内容是使用强化学习动态调整投资者的风险偏好参数，以优化投资组合的构建，这直接属于投资组合管理的范畴。论文还通过实证分析展示了该方法在市场数据上的优越表现，进一步证实了其在投资组合管理中的应用。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:33:25.642338"
+}

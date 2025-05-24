@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 789,
+    "title": "Ensembling and Dynamic Asset Selection for Risk-Controlled Statistical Arbitrage",
+    "abstract": "In recent years, machine learning algorithms have been successfully employed to leverage the potential of identifying hidden patterns of financial market behavior and, consequently, have become a land of opportunities for financial applications such as algorithmic trading. In this paper, we propose a statistical arbitrage trading strategy with two key elements: an ensemble of regression algorithms for asset return prediction, followed by a dynamic asset selection. More specifically, we construct an extremely heterogeneous ensemble ensuring model diversity by using state-of-the-art machine learning algorithms, data diversity by using a feature selection process, and method diversity by using individual models for each asset, as well models that learn cross-sectional across multiple assets. Then, their predictive results are fed into a quality assurance mechanism that prunes assets with poor forecasting performance in the previous periods. We evaluate the approach on historical data of component stocks of the S&P500 index. By performing an in-depth risk-return analysis, we show that this setup outperforms highly competitive trading strategies considered as baselines. Experimentally, we show that the dynamic asset selection enhances overall trading performance both in terms of return and risk. Moreover, the proposed approach proved to yield superior results during both financial turmoil and massive market growth periods, and it showed to have general application for any risk-balanced trading strategy aiming to exploit different asset classes.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b369635a58c3f6a9a96629156fc5c240",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "feature learning",
+      "feature representation"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:08.050516"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是构建一个统计套利交易策略，包括资产回报预测的集成回归算法和动态资产选择，这直接涉及投资组合的构建和优化，属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是构建一个统计套利交易策略，包括资产回报预测的集成回归算法和动态资产选择，这直接涉及投资组合的构建和优化，属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:54:40.225114"
+}

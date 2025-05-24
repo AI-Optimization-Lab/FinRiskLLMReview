@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 526,
+    "title": "Shrinkage Regression for Multivariate Inference with Missing Data, and an Application to Portfolio Balancing",
+    "abstract": "Portfolio balancing requires estimates of covariance between asset returns. Returns data have histories which greatly vary in length, since assets begin public trading at different times. This can lead to a huge amount of missing data-too much for the conventional imputation-based approach. Fortunately, a well-known factorization of the MVN likelihood under the prevailing historical missingness pattern leads to a simple algorithm of OLS regressions that is much more reliable. When there are more assets than returns, however, OLS becomes unstable. Gramacy et al. (2008) showed how classical shrinkage regression may be used instead, thus extending the state of the art to much bigger asset collections, with further accuracy and interpretation advantages. In this paper, we detail a fully Bayesian hierarchical formulation that extends the frame work further by allowing for heavy-tailed errors, relaxing the historical missingness assumption, and accounting for estimation risk. We illustrate how this approach compares favorably to the classical one using synthetic data and an investment exercise with real returns. An accompanying R package is on CRAN.",
+    "year": 2010,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "db3cea164b72164d3a266fab8e63d67d",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T00:44:21.079143"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on estimating covariance between asset returns for portfolio balancing, which is a core aspect of portfolio management. The techniques discussed, such as shrinkage regression and Bayesian hierarchical formulation, are applied to improve the accuracy and reliability of portfolio balancing, directly addressing challenges in investment portfolio construction and optimization.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on estimating covariance between asset returns for portfolio balancing, which is a core aspect of portfolio management. The techniques discussed, such as shrinkage regression and Bayesian hierarchical formulation, are applied to improve the accuracy and reliability of portfolio balancing, directly addressing challenges in investment portfolio construction and optimization.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:30:02.918471"
+}

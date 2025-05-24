@@ -1,0 +1,30 @@
+{
+  "paper": {
+    "id": 2037,
+    "title": "Exploring the Relationship and Predictive Accuracy for the Tadawul All Share Index, Oil Prices, and Bitcoin Using Copulas and Machine Learning",
+    "abstract": "Financial markets are increasingly interlinked. Therefore, this study explores the complex relationships between the Tadawul All Share Index (TASI), West Texas Intermediate (WTI) crude oil prices, and Bitcoin (BTC) returns, which are pivotal to informed investment and risk-management decisions. Using copula-based models, this study identified Student's t copula as the most appropriate one for encapsulating the dependencies between TASI and BTC and between TASI and WTI prices, highlighting significant tail dependencies. For the BTC-WTI relationship, the Frank copula was found to have the best fit, indicating nonlinear correlation without tail dependence. The predictive power of the identified copulas were compared to that of Long Short-Term Memory (LSTM) networks. The LSTM models demonstrated markedly lower Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and Mean Absolute Scaled Error (MASE) across all assets, indicating higher predictive accuracy. The empirical findings of this research provide valuable insights for financial market participants and contribute to the literature on asset relationship modeling. By revealing the most effective copulas for different asset pairs and establishing the robust forecasting capabilities of LSTM networks, this paper sets the stage for future investigations of the predictive modeling of financial time-series data. The study highlights the potential of integrating machine-learning techniques with traditional econometric models to improve investment strategies and risk-management practices.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "518d3cae5381e66f90f0868a44650b82",
+    "relevant_keywords": [
+      "machine learning",
+      "neural network",
+      "deep learning",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T02:10:25.756529"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk",
+      "Portfolio Management"
+    ],
+    "justification": "该论文研究了资产之间的关系和预测准确性，这对于风险管理和投资组合管理至关重要。论文中提到的copula模型和LSTM网络用于捕捉资产间的依赖关系和预测未来价格，这些技术直接应用于金融风险管理和投资组合优化。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\", \"投资组合管理\"],\n  \"justification\": \"该论文研究了资产之间的关系和预测准确性，这对于风险管理和投资组合管理至关重要。论文中提到的copula模型和LSTM网络用于捕捉资产间的依赖关系和预测未来价格，这些技术直接应用于金融风险管理和投资组合优化。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:24.019169"
+}

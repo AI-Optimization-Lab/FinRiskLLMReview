@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 4517,
+    "title": "A copula-based scenario tree generation algorithm for multiperiod portfolio selection problems",
+    "abstract": "Global financial investors have been confronted in recent years with an increasing frequency of market shocks and returns' outliers, until the unprecedented surge of financial risk observed in 2008. From a statistical viewpoint, those market dynamics have shown not only asymmetric returns and fat tails but also a time-varying tail dependence, stimulating the formulation of portfolio selection models based on such assumptions. The concept of tail dependence on upper or lower tails, roughly speaking, focuses on the risk that tail events may occur jointly in different markets. This notion can be given a rigorous probabilistic definition, and it turns out that a distinction between upper and lower tails is relevant in portfolio management. In this paper, relying on a discrete modeling framework, we present a scenario generation algorithm able to capture this time-varying asymmetric tail dependence, and evaluate resulting optimal investment policies based on 4-stages 1-month planning horizons. The scenario tree aims at approximating a stochastic process combining an ARMA-GARCH model and a dynamic Student-t-Clayton copula. From a methodological viewpoint, scenario trees are generated from this model by stage-wisely sampling and clustering and to improve tail fitting with original data, the scenarios' nodal probabilities are calibrated on the returns' lower tails for a set of equity indices. The resulting scenario trees are then applied to solve a multiperiod portfolio selection problem. We present a set of empirical results to validate the adopted statistical approach and the optimal portfolio strategies able to capture asymmetric tail returns.",
+    "year": 2020,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "1483570a9d7e9d3e1b88929eba87a426",
+    "relevant_keywords": [
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:38:20.277299"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是提出一种基于copula的场景树生成算法，用于解决多期投资组合选择问题。论文明确提到该算法用于捕捉市场动态中的不对称尾部依赖关系，并应用于优化投资策略，这直接属于投资组合管理的范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是提出一种基于copula的场景树生成算法，用于解决多期投资组合选择问题。论文明确提到该算法用于捕捉市场动态中的不对称尾部依赖关系，并应用于优化投资策略，这直接属于投资组合管理的范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:23:36.769705"
+}

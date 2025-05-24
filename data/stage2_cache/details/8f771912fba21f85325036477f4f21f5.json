@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 1645,
+    "title": "Understanding and predicting lapses in mortgage life insurance using a machine learning approach",
+    "abstract": "Mortgage Life Insurance (MLI) offers lucrative opportunities for insurers. However, customer retention has proven to be a daunting challenge, particularly following the regulatory changes of 2009 in Europe. New market entrants strategically employing low-premium tactics have reshaped the competitive landscape, leading established insurers and banks to grapple with retaining their MLI clientele. Consequently, increasing policy lapses hold critical implications for these financial entities. Responding to this intricate landscape, our research presents a predictive model that pinpoints the MLI policies at risk of lapse and disentangles the underlying factors propelling this risk. The objective is to provide insurers with a practical and strategic tool to improve customer retention, enabling them to identify specific actions to reduce customer attrition, improve financial stability, and strengthen customer loyalty. We used a dataset obtained from an insurance company and its partner bank to build the model. The effectiveness of four machine learning models, namely Logistic Regression, Random Forest, Neural Networks, and XGBoost, is investigated, with XGBoost outperforming the others. SHapley Additive exPlanations (SHAP) were utilized to bolster interpretability, thereby facilitating the conception and explication of the predictive model's most influential features. Underpinning the benefits of a nuanced exploration, the study's focus on a solitary insurance protection product and integrating bank data enabled us to apprehend the multifaceted drivers of lapse behavior. The study accentuates the merit of comprehensive data encapsulating a holistic perspective, with the four most influential features originating from bank data. From an insurer's standpoint, this research provides a strategic vantage point to proactively identify and engage with customers at risk of policy lapse and reformulate their policies to mitigate customer attrition.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b1b4829c19890957c61e03cab672a38e",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "XGBoost",
+      "Logistic Regression",
+      "Random Forest",
+      "SHAP"
+    ],
+    "stage1_timestamp": "2025-05-15T02:05:42.606486"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型预测抵押贷款人寿保险（MLI）的保单失效风险，并分析影响失效的关键因素。这属于金融机构（保险公司和银行）在客户保留和财务稳定性方面的风险管理范畴。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"金融风险管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型预测抵押贷款人寿保险（MLI）的保单失效风险，并分析影响失效的关键因素。这属于金融机构（保险公司和银行）在客户保留和财务稳定性方面的风险管理范畴。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:47:19.138943"
+}

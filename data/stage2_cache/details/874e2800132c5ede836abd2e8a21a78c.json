@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 1800,
+    "title": "Machine learning approach for predicting bridge components' condition ratings",
+    "abstract": "Information on bridge condition rating is critical to make decisions regarding rehabilitation or replacement of bridges. Currently, bridge components' condition ratings are evaluated manually using inspection reports. Markov chain and Petri net models are most commonly used for predicting future values of bridge parameters, however, applicability of these models for a regional or statewide portfolio of bridges may be limited. The existing data based models have low prediction accuracy. Hence, a data and machine learning based approach is presented herein for predicting the future condition values of major components-deck, superstructure and substructure-in a portfolio of bridges with an objective to develop a more accurate approach. National Bridge Inventory (NBI) was used to get information on current and past bridge components' condition from year 1992-2019 along with other parameters such as ownership, maintenance responsibility and age. After selecting important parameters, this data was used to train three RUSBoost based random forest models for predicting future values of deck, superstructure, and substructure conditions, respectively. The prediction accuracy of the developed models were found above 93%, thereby addressing the limitation of poor prediction accuracy of the existing studies. Additionally, the uncertainties associated with the random forest based predictions were quantified at the regional level and for individual bridges. On-system concrete pre-cast slab units and steel I-beam bridges in Louisiana were selected to demonstrate the proposed approach and predict bridge components condition ratings for years 2020 and 2021.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "c7d583ac46886344a61d4622c7212612",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree"
+    ],
+    "stage1_timestamp": "2025-05-15T00:59:53.139892"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究使用机器学习方法预测桥梁组件的状况评级，属于基础设施维护和土木工程领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究使用机器学习方法预测桥梁组件的状况评级，属于基础设施维护和土木工程领域，并未涉及衍生品定价、金融风险管理或投资组合管理等金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:18:47.119951"
+}

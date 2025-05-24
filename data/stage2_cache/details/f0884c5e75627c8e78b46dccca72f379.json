@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 747,
+    "title": "Distance Measures for Time Series in R: The TSdist Package",
+    "abstract": "The definition of a distance measure between time series is crucial for many time series data mining tasks, such as clustering and classification. For this reason, a vast portfolio of time series distance measures has been published in the past few years. In this paper, the TSdist package is presented, a complete tool which provides a unified framework to calculate the largest variety of time series dissimilarity measures available in R at the moment, to the best of our knowledge. The package implements some popular distance measures which were not previously available in R, and moreover, it also provides wrappers for measures already included in other R packages. Additionally, the application of these distance measures to clustering and classification tasks is also supported in TSdist, directly enabling the evaluation and comparison of their performance within these two frameworks.",
+    "year": 2016,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "e94f650aae4a89564c9ff04da7f95c33",
+    "relevant_keywords": [
+      "classification",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T00:47:50.278678"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要介绍了一个用于时间序列距离测量的R包TSdist，并讨论了其在聚类和分类任务中的应用。虽然时间序列分析在金融领域有广泛应用，但论文中并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要介绍了一个用于时间序列距离测量的R包TSdist，并讨论了其在聚类和分类任务中的应用。虽然时间序列分析在金融领域有广泛应用，但论文中并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:59.081097"
+}

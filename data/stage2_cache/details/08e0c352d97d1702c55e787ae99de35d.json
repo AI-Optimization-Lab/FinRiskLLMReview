@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2411,
+    "title": "HPOSS: A hierarchical portfolio optimization stacking strategy to reduce the generalization error of ensembles of models",
+    "abstract": "Surrogate models are frequently used to replace costly engineering simulations. A single surrogate is frequently chosen based on previous experience or by fitting multiple surrogates and selecting one based on mean cross-validation errors. A novel stacking strategy will be presented in this paper. This new strategy results from reinterpreting the model selection process based on the generalization error. For the first time, this problem is proposed to be translated into a well-studied financial problem: portfolio management and optimization. In short, it is demonstrated that the individual residues calculated by leave-one-out procedures are samples from a given random variable epsilon i, whose second non-central moment is the i-th model's generalization error. Thus, a stacking methodology based solely on evaluating the behavior of the linear combination of the random variables epsilon i is proposed. At first, several surrogate models are calibrated. The Directed Bubble Hierarchical Tree (DBHT) clustering algorithm is then used to determine which models are worth stacking. The stacking weights can be calculated using any financial approach to the portfolio optimization problem. This alternative understanding of the problem enables practitioners to use established financial methodologies to calculate the models' weights, significantly improving the ensemble of models' out-of-sample performance. A study case is carried out to demonstrate the applicability of the new methodology. Overall, a total of 124 models were trained using a specific dataset: 40 Machine Learning models and 84 Polynomial Chaos Expansion models (which considered 3 types of base random variables, 7 least square algorithms for fitting the up to fourth order expansion's coefficients). Among those, 99 models could be fitted without convergence and other numerical issues. The DBHT algorithm with Pearson correlation distance and generalization error similarity was able to select a subgroup of 23 models from the 99 fitted ones, implying a reduction of about 77% in the total number of models, representing a good filtering scheme which still preserves diversity. Finally, it has been demonstrated that the weights obtained by building a Hierarchical Risk Parity (HPR) portfolio perform better for various input random variables, indicating better out-of-sample performance. In this way, an economic stacking strategy has demonstrated its worth in improving the out-of-sample capabilities of stacked models, which illustrates how the new understanding of model stacking methodologies may be useful.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "f4c4d2ca78874b381eb09ddd01c1f97c",
+    "relevant_keywords": [
+      "machine learning",
+      "clustering"
+    ],
+    "stage1_timestamp": "2025-05-15T02:14:50.387671"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是将模型选择问题转化为投资组合优化问题，并利用金融领域的投资组合管理方法（如Hierarchical Risk Parity）来计算模型权重，以提高模型的样本外性能。这明确表明其核心技术应用于投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是将模型选择问题转化为投资组合优化问题，并利用金融领域的投资组合管理方法（如Hierarchical Risk Parity）来计算模型权重，以提高模型的样本外性能。这明确表明其核心技术应用于投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:42:29.645776"
+}

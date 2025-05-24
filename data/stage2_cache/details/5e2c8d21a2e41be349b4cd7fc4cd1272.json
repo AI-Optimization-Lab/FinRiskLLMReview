@@ -1,0 +1,25 @@
+{
+  "paper": {
+    "id": 3424,
+    "title": "VaR calculation by binary response models",
+    "abstract": "The original Risk-Metrics method is underpinned by the assumption that daily asset returns are conditional Gaussian independently identically distributed (iid) random variables with a mean of zero. In this paper, a new method to calculate Value at Risk (VaR) was suggested to overcome the shortcoming of Risk-Metrics by employing binary response models to compute probability forecasts of the portfolio return by exceeding a grid of candidate quantile values. From those values, the VaR quantile value was selected. The proposed model was called BRV (Binary Response VaR method). Consistent application of BRV to the Dow Jones Industrial Average (INDEXDJX: DJI) and Dow Jones U.S. Marine Transportation Index (DJUSMT) time series proved that it was more accurate than the Risk-Metric system. This method not only worked similar to quantile regression but had the advantage that conventional maximum likelihood methods could be used for parameter estimation and inference. The BRV method was the best performing method for computing the daily VaR at both the 95% and 99% confidence levels over the period 02/01/06-31/12/08. The BRV and the QR (quantile regression) methods performed similarly, but the BRV method had the practical advantage that conventional maximum likelihood (ML) technique could be used for parameter estimation and robust inference.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "835f2bc94585108fa64dcd7d92b1b125",
+    "relevant_keywords": [
+      "regression"
+    ],
+    "stage1_timestamp": "2025-05-15T01:16:55.558821"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Financial Risk"
+    ],
+    "justification": "The paper focuses on developing a new method (BRV) for calculating Value at Risk (VaR), which is a key tool in financial risk management. The study compares the BRV method with existing approaches like Risk-Metrics and quantile regression, demonstrating its effectiveness in risk assessment for financial indices.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Financial Risk Management\"],\n  \"justification\": \"The paper focuses on developing a new method (BRV) for calculating Value at Risk (VaR), which is a key tool in financial risk management. The study compares the BRV method with existing approaches like Risk-Metrics and quantile regression, demonstrating its effectiveness in risk assessment for financial indices.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:09:46.053067"
+}

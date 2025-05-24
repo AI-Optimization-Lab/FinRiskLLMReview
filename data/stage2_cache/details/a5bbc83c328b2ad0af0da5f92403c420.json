@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 801,
+    "title": "Fusion of Sentiment and Asset Price Predictions for Portfolio Optimization",
+    "abstract": "The fusion of public sentiment data in the form of text with stock price prediction is a topic of increasing interest within the financial community. However, the research literature seldom explores the application of investor sentiment in the Portfolio Selection problem. This paper aims to unpack and develop an enhanced understanding of the sentiment-aware portfolio selection problem. To this end, the study uses a Semantic Attention model to predict sentiment towards an asset. We select the optimal portfolio through a sentiment-aware Long Short Term Memory (LSTM) recurrent neural network for price prediction and a mean-variance strategy. Our sentiment portfolio strategies achieved, on average, a significant increase in revenue above the non-sentiment aware models. However, the results show that our strategy does not outperform traditional portfolio allocation strategies from a stability perspective. We argue that an improved fusion of sentiment prediction with a combination of price prediction and portfolio optimization leads to an enhanced portfolio selection strategy.",
+    "year": 2022,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "2c2fce8b1e2d03d9dd7faca1e8b7793e",
+    "relevant_keywords": [
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM",
+      "attention mechanism"
+    ],
+    "stage1_timestamp": "2025-05-15T00:48:22.315736"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "The paper focuses on the fusion of sentiment data with stock price prediction to enhance portfolio selection strategies, which is a core aspect of portfolio management. The study specifically mentions using a sentiment-aware LSTM for price prediction and a mean-variance strategy for portfolio optimization, directly addressing the problem of portfolio selection.",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"Portfolio Management\"],\n  \"justification\": \"The paper focuses on the fusion of sentiment data with stock price prediction to enhance portfolio selection strategies, which is a core aspect of portfolio management. The study specifically mentions using a sentiment-aware LSTM for price prediction and a mean-variance strategy for portfolio optimization, directly addressing the problem of portfolio selection.\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:27:47.803222"
+}

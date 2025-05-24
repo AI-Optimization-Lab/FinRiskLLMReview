@@ -1,0 +1,26 @@
+{
+  "paper": {
+    "id": 2653,
+    "title": "Using simd genetic programming for faulttolerant trading strategies",
+    "abstract": "In this chapter we study the effects of representing a traditional portfolio optimization problem as a classification task in order to reduce the computational cost, and finding more reliable solutions. We use N-Version Genetic Programming to represent the market as a binary classification problem, and evolve two trading strategies that independently look for either buy, or sell, opportunities in parallel. The system is made more fault-tolerant using majority voting for the investment decisions. As inputs to our system we use a large number of instruments from technical analysis, which allows us to increase the execution speed over 100 times using a Sub-Machine-Code Genetic Programming system that evaluates 128 fitness cases in parallel. We see that the strategies generalize well and outperform the buy-and-hold strategy on simulated out-of-sample trading, so there is a clear connection between good classification results and returns on trading. We also see that the n-version voting system can successfully be used to reduce risk. Finally we see that some of the technical analysis instruments appear more frequently than others in the most successful strategies, which could be an indication on actual correlations to the future share price.",
+    "year": 2004,
+    "source": "WOS",
+    "area": "portfolio",
+    "method": "machine learning",
+    "cache_key": "215f7e6f5ae6a8fd1d278b3b5836eb93",
+    "relevant_keywords": [
+      "machine learning",
+      "classification"
+    ],
+    "stage1_timestamp": "2025-05-15T01:09:14.883818"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文主要研究将投资组合优化问题转化为分类任务，并利用遗传编程技术开发交易策略，旨在提高投资组合的回报和降低风险。这直接关联到投资组合管理的核心目标。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文主要研究将投资组合优化问题转化为分类任务，并利用遗传编程技术开发交易策略，旨在提高投资组合的回报和降低风险。这直接关联到投资组合管理的核心目标。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:13:37.774317"
+}

@@ -1,0 +1,29 @@
+{
+  "paper": {
+    "id": 675,
+    "title": "Anomaly Detection Aided Budget Online Classification for Imbalanced Data Streams",
+    "abstract": "Learning from imbalanced data streams differs fromthe traditional learning paradigm due to the issues of imbalanced classes. It has significant implications in a myriad of real-world applications, ranging from financial risk, network security, to medical diagnosis. Moreover, outliers usually appear in data streams. The issue of class imbalance or anomaly itself could negatively affect the performance of the underlying learning algorithms, and their combination makes the learning problemharder. In this work, we propose an anomaly detection aided budget online weighted learning method (BOW-LM) to identify positive and negative instances from imbalanced data streams. BOW-LMis based on the widely used Feedforward Networks with Random Weights. An agile lightweight anomaly detector is designed based on the nonlinear mapping of the network. To reduce computational complexity and to response promptly, BOW-LM employs amatrix correction technique to update the learning model by only O(L-2) operations for each data chunk with L hidden layer nodes. Empirical studies on both synthetic and real-world datasets demonstrate the effectiveness of BOW-LM.",
+    "year": 2021,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "deep learning",
+    "cache_key": "c3113298ef5d30501655861c551cacab",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "neural network",
+      "hidden layer"
+    ],
+    "stage1_timestamp": "2025-05-15T01:41:29.787770"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是针对不平衡数据流的异常检测和在线分类方法，虽然提到了金融风险作为应用场景之一，但并未明确指出其核心技术专门应用于衍生品定价、金融风险管理或投资组合管理中的任何一个领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是针对不平衡数据流的异常检测和在线分类方法，虽然提到了金融风险作为应用场景之一，但并未明确指出其核心技术专门应用于衍生品定价、金融风险管理或投资组合管理中的任何一个领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:02:28.239496"
+}

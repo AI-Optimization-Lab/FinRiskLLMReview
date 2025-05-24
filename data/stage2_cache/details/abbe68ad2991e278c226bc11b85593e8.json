@@ -1,0 +1,31 @@
+{
+  "paper": {
+    "id": 536,
+    "title": "Forecasting Korean Stock Returns with Machine Learning",
+    "abstract": "This paper aims to evaluate the predictive power of financial variables by using various machine learning methods. An analysis is conducted on data for the Korean stock market, which is representative of emerging markets, over 32 years from 1987 to 2018. The study shows that median regression is a more efficient tool than mean regressionin the presence of potential heterogeneity of stocks, significantly improving performance in terms of average realized monthly return. This suggests that median regression can have better predictive performance in emerging markets where there are likely to be outliers. Additionally, a gradient boosting machine (GBM) is found to be better than a traditional linear model both in prediction accuracy and portfolio performance. The hedged return from GBM is on average 2.89% per month with an annualized Sharpe ratio of 0.93 in the median regression. The neural network (NN) is also tested and shown to perform best when the number of hidden layers is two or three. Finally, we evaluatea list of predictor variables with various measures of variable importance. Variables of risk, price trend and liquidity are found to serve as important predictors.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "0d8fe52831135723f809bbf56287eb85",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "regression",
+      "neural network",
+      "hidden layer",
+      "gradient boosting machine",
+      "GBM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:52:12.254385"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习方法（如中位数回归、梯度提升机和神经网络）预测韩国股票市场的回报，并评估这些方法在投资组合表现上的效果。研究重点在于提高预测准确性和投资组合绩效，这直接关联到投资组合管理领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习方法（如中位数回归、梯度提升机和神经网络）预测韩国股票市场的回报，并评估这些方法在投资组合表现上的效果。研究重点在于提高预测准确性和投资组合绩效，这直接关联到投资组合管理领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T15:57:05.099994"
+}

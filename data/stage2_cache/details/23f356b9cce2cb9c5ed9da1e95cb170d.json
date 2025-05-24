@@ -1,0 +1,37 @@
+{
+  "paper": {
+    "id": 846,
+    "title": "A performance comparison of machine learning models for stock market prediction with novel investment strategy",
+    "abstract": "Stock market forecasting is one of the most challenging problems in today's financial markets. According to the efficient market hypothesis, it is almost impossible to predict the stock market with 100% accuracy. However, Machine Learning (ML) methods can improve stock market predictions to some extent. In this paper, a novel strategy is proposed to improve the prediction efficiency of ML models for financial markets. Nine ML models are used to predict the direction of the stock market. First, these models are trained and validated using the traditional methodology on a historic data captured over a 1-day time frame. Then, the models are trained using the proposed methodology. Following the traditional methodology, Logistic Regression achieved the highest accuracy of 85.51% followed by XG Boost and Random Forest. With the proposed strategy, the Random Forest model achieved the highest accuracy of 91.27% followed by XG Boost, ADA Boost and ANN. In the later part of the paper, it is shown that only classification report is not sufficient to validate the performance of ML model for stock market prediction. A simulation model of the financial market is used in order to evaluate the risk, maximum draw down and returns associate with each ML model. The overall results demonstrated that the proposed strategy not only improves the stock market returns but also reduces the risks associated with each ML model.",
+    "year": 2023,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "machine learning",
+    "cache_key": "b724477179b2bb529350a87fb52f8945",
+    "relevant_keywords": [
+      "machine learning",
+      "supervised learning",
+      "classification",
+      "regression",
+      "decision tree",
+      "neural network",
+      "deep learning",
+      "backpropagation",
+      "BP",
+      "hidden layer",
+      "recurrent neural network",
+      "long short-term memory",
+      "LSTM"
+    ],
+    "stage1_timestamp": "2025-05-15T01:55:41.632568"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "Portfolio Management"
+    ],
+    "justification": "该论文的核心技术是使用机器学习模型预测股票市场走势，并提出了一种新的投资策略。论文还评估了与每个模型相关的风险、最大回撤和回报，这些内容与投资组合管理的目标密切相关。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"投资组合管理\"],\n  \"justification\": \"该论文的核心技术是使用机器学习模型预测股票市场走势，并提出了一种新的投资策略。论文还评估了与每个模型相关的风险、最大回撤和回报，这些内容与投资组合管理的目标密切相关。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T14:24:23.558633"
+}

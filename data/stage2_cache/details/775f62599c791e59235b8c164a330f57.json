@@ -1,0 +1,32 @@
+{
+  "paper": {
+    "id": 19,
+    "title": "Online Personalizing White-box LLMs Generation with Neural Bandits",
+    "abstract": "Personalized content generation by Large Language Models (LLMs) in finance presents a challenge: efficiently adapting text to individual preferences without creating unique models for each user. This study introduces an innovative online method for financial applications, employing neural bandit algorithms to dynamically optimize soft instruction embeddings based on user feedback, enhancing personalization in white-box LLMs. Through experiments on public generation tasks, we demonstrate significant performance improvements. Notably, our NeuralTS implementation achieves up to a 62.9% improvement in ROUGE scores and a 2.76% increase in LLM-agent evaluation for personalized content generation. This research showcases the efficacy of neural bandits in refining LLM outputs to align with client-specific needs and regulatory requirements, marking a pivotal step towards feasible and effective adaptive text generation in finance. Our method offers a promising and scalable solution for financial institutions to enhance client engagement, improve risk assessment, and streamline regulatory reporting.",
+    "year": 2024,
+    "source": "WOS",
+    "area": "financial_risk",
+    "method": "LLMs",
+    "cache_key": "e3b822217f235392194f7e7a268a2c5e",
+    "relevant_keywords": [
+      "reinforcement learning",
+      "neural network",
+      "deep learning",
+      "representation learning",
+      "attention mechanism",
+      "Large Language Model",
+      "LLM",
+      "Instruction Tuning"
+    ],
+    "stage1_timestamp": "2025-05-15T01:45:16.336421"
+  },
+  "domain_result": {
+    "success": true,
+    "application_domains": [
+      "None"
+    ],
+    "justification": "该论文主要研究的是使用神经赌博算法优化大型语言模型（LLMs）的个性化内容生成，虽然提到了金融应用，如客户参与、风险评估和监管报告，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。",
+    "raw_response": "```json\n{\n  \"application_domains\": [\"None\"],\n  \"justification\": \"该论文主要研究的是使用神经赌博算法优化大型语言模型（LLMs）的个性化内容生成，虽然提到了金融应用，如客户参与、风险评估和监管报告，但并未明确指出其核心技术应用于衍生品定价、金融风险管理或投资组合管理等特定金融研究领域。\"\n}\n```"
+  },
+  "timestamp": "2025-05-20T16:01:56.998799"
+}
